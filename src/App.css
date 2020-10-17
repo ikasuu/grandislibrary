@@ -1,0 +1,133 @@
+@import url("https://use.typekit.net/glt4fmn.css");
+
+body{
+  font-size: 1rem;
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  overflow-wrap: break-word !important;
+}
+
+h1, h2, h3, h4, .site-title{
+  font-family: acumin-pro, sans-serif !important;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+li{
+  margin-bottom: 0.3rem;
+}
+
+a{
+  color: #04AEE7 !important;
+  text-decoration: none !important;
+}
+
+/* For all items in navbar */
+.nav-props{
+  text-decoration: none !important;
+  cursor: pointer !important;
+  width: fit-content !important;
+  font-style: normal !important;
+  letter-spacing: 0em !important;
+  display: block !important;
+}
+
+/* For the site title specifically */
+.site-title{
+  opacity: 1 !important;
+  background: transparent !important;
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4em !important;
+}
+
+/* For the nav buttons like 'Home' and 'About' */
+.nav-link-button{
+  padding: .1em 0 !important;
+  margin-left: 0.8rem !important;
+  margin-right: 0.8rem !important;
+  font-size: 1.1rem !important;
+  line-height: 1.8em !important;
+}
+
+/* For the dropdown button in the navbar */
+.dropdown-toggle{
+  margin-left: 0.8rem !important;
+  margin-right: 0.3rem !important;
+  font-size: 1.1rem !important;
+  line-height: 1em !important;
+}
+
+/* The dropdown menu itself, not the button */
+.dropdown-menu{
+  width: fit-content !important;
+  outline: none !important;
+  border: none !important;
+}
+
+/* Underline property for the selected nav item and page */
+.underline{
+  background-repeat: repeat-x !important;
+  background-image: linear-gradient(to right,currentColor 100%,currentColor 0) !important;
+  background-size: 1px 1px !important;
+  background-position: 0 calc(100% - 0.1em) !important;
+}
+
+.btn{
+  font-weight: 300 !important;
+}
+
+/* Removes outline from buttons when clicked */
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Removes outline from hamburger button */
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+}
+
+/* React CSS below, place all custom CSS above */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

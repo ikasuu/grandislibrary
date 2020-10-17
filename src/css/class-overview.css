@@ -1,0 +1,77 @@
+/* Styling for class overview components in class overviews */
+
+h1, h2, h3 ,h4 ,h5 ,h6{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Specific padding for Base Stats and Buffs tables */
+.stat-td, .buff-td, .skill-td{
+    padding: 0.3rem !important;
+}
+
+.class-title{
+    margin-bottom: 2.5rem;
+    font-size: 3.5rem;
+}
+
+.creation-title{
+    margin-bottom: 2rem;
+}
+
+.more-info-link, .credit{
+    margin: 1rem;
+}
+
+/* -----------------------WIDTH STYLING----------------------------- */
+/* Specific image styling for images in How to Create component */
+.creation-image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+/* Max width for the base stats component */
+.base-stats-width{
+    max-width: 32rem;
+}
+
+/* Max width for the buffs & other actives component */
+.buff-width{
+    max-width: 37rem;
+}
+
+/* Pros and Cons component related */
+.pros-cons-container{
+    max-width: 36rem;
+}
+
+/* Max width for the how to create char component */
+.extra-content-width{
+    max-width: 50rem;
+}
+
+
+/* For iPad so that the elements do not display as blocks */
+@media (max-width: 1199px){
+    .property-container{
+        max-width: 21rem;
+    }
+
+    .pros-cons-container{
+        max-width: 33rem;
+    }
+}
+
+/* Revert the changes made above for mobile users,
+   above scruntches the class properties component a bit too much for mobile */
+@media (max-width: 991px){
+    .property-container{
+        max-width: none;
+    }
+
+    .base-stat-title{
+        font-size: 1.8rem;
+    }
+}
+/* -----------------------WIDTH STYLING----------------------------- */

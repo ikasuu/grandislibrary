@@ -1,0 +1,83 @@
+/* Styling for the main items on our homepage */
+
+/* Main flex container that contains all our components */
+.grid-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding-top: 70px;
+}
+
+/* Wrapper for our grid item */
+.grid-wrapper{
+    width: 20rem;
+    margin: 1rem;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Responsive image */
+.grid-image{
+    width: 100%;
+    height: auto;
+}
+
+/* Dark overlay over our image */
+.grid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2a2829;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+/* Text container */
+.grid-text{
+    color: #FFF;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    z-index: 3;
+}
+
+/* Actual text */
+.grid-title{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-size: 1.64rem;
+    text-align: center;
+}
+
+/* Logic below */
+
+@media (min-width: 651px) {
+    .grid-flex-container{
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 651px) {
+    .grid-title{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 868px){
+    .grid-title{
+        font-size: 2.5rem;
+    }
+}
+
+.grid-wrapper:hover .grid-overlay, .grid-wrapper:hover .grid-text{
+    opacity: 0;
+    transition: opacity ease 200ms;
+}
