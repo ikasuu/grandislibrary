@@ -6,6 +6,10 @@ import SkillInfo from './SkillInfo'
 import { version, loadingImage } from '../../special/Values';
 
 /*
+    This file contains both SkillContainer and VSkillContainer (exclusively for 5th Job Skills), containers to hold a list of skills
+*/
+
+/*
     Skill container that will hold all our skills. Additionally makes the API calls to retrieve data
     Created by: Ikasuu, Fall 2020
 */
@@ -78,6 +82,29 @@ export class SkillContainer extends Component {
             </div>
         );
     }
+}
+
+/*
+    Skill container that will hold all our skills. Additionally makes the API calls to retrieve data
+    Created by: Ikasuu, Fall 2020
+*/
+
+export function VSkillContainer({skillData}) {
+    return (
+        <div>
+            {
+                skillData.map( skill => 
+                    <div key={skill.id}>
+                        <SkillInfo 
+                            skillData={skill}
+                            name={skill.name}
+                            properties={{}}
+                            shortDesc={skill.shortDesc}
+                            maxLevel={"25 + 5"}/>
+                    </div>)
+            }
+        </div>
+    );
 }
 
 export default SkillContainer

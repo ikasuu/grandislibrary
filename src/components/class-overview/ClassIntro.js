@@ -1,11 +1,24 @@
 import React from 'react'
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
-import { Col, Container, Image, Table, Row} from 'react-bootstrap';
-import LinkSkill from './LinkSkill';
-import NotableSkill from './NotableSkill';
+import { Col, Container, Image, Table, Row, Card} from 'react-bootstrap';
+import { LinkSkill, NotableSkill } from './SingleSkill';
+import InfoButton from '../InfoButton';
 import '../../css/class-overview.css';
 import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
+
+/*
+This file contains the intro contents of a Class Overview
+In this file you will find:
+-ClassIntro - Holds ClassProperties, PropertyBox, and ClassProsCons
+-ClassProperties
+-PropertyBox - This is the section below ClassProperties that has notable skills and class type
+-ClassProsCons
+-ClassDetail - Holds the base stats, buffs, build path rendering
+-ClassCreation - For classes that have a "How to Create" section
+-ClassExtraContent - Any extra content like explanation of Dark Sight is rendered here
+*/
+
 
 /*
     Renders the upper components of the class overview (Class Properties, Notable Skills + Class Type, and Pros and Cons)
@@ -14,19 +27,23 @@ import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Value
 
 export function ClassIntro({data}) {
     return (
-        <Container>
-        <h1 className="class-title">{data.class}</h1>
-        <Row>
-          <Col md="auto" className="property-container">
-            <ClassProperties content={data.content}/>
-            <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
-          </Col>
-          <Col md="auto" className="pros-cons-container">
-            <ClassProsCons pros={data.content.prosCons.pros} cons={data.content.prosCons.cons}/>
-            <LinkSkill linkSkill={data.content.linkSkill}/>
-          </Col>
-        </Row>
-      </Container>
+        <div>
+            <Container>
+                <h1 className="class-title">{data.class}</h1>
+                <Row>
+                    <Col md="auto" className="property-container">
+                        <ClassProperties content={data.content}/>
+                        <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
+                    </Col>
+                    <Col md="auto" className="pros-cons-container">
+                        <ClassProsCons pros={data.content.prosCons.pros} cons={data.content.prosCons.cons}/>
+                        <LinkSkill linkSkill={data.content.linkSkill}/>
+                    </Col>
+                </Row>
+            </Container>
+            <hr/>
+            <ClassDetail content={data.content}/>
+        </div>
     )
 }
 
@@ -125,6 +142,93 @@ function ClassProsCons({pros, cons}) {
           </Container>
       </div>
   );
+}
+
+/*
+    Rendering base stats and buffs + actives in class overviews
+    Created by: Ikasuu, Fall 2020
+*/
+
+function ClassDetail({content}) {
+    return (
+        <Container>
+          <Row>
+            <Col md="auto" className="base-stats-width">
+              <h2 className="base-stat-title">Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></h2>
+              <Table borderless>
+                <tbody>
+                    {content.baseStats[1].map((stat, index) => <tr key={index}><td className="stat-td">{parse(DOMPurify.sanitize(stat))}</td></tr>)}
+                </tbody>
+              </Table>
+            </Col>
+            <Col md="auto" className="buff-width">
+              <h2>Buffs &amp; Other Actives</h2>
+              <Table size="sm" borderless>
+                <tbody>
+                  <tr>
+                    <th><strong>Active Buffs</strong>:</th> <td className="buff-td">{parse(DOMPurify.sanitize(content.buffInfo.active))}</td>
+                  </tr>
+                  {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th> <td className="buff-td">{parse(DOMPurify.sanitize(content.buffInfo.summons))}</td></tr> : <tr><th><strong>Summons</strong>:</th> <td>None</td></tr>}
+                  <tr>
+                    <th><strong>Buffs with Cooldowns</strong>:</th> <td className="buff-td">{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</td>
+                  </tr>
+                  <tr>
+                    <th><strong>5th Job Buffs</strong>:</th> <td className="buff-td">{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</td>
+                  </tr>
+                  {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th> <td className="buff-td">{parse(DOMPurify.sanitize(content.buffInfo.binds))}</td></tr> : <tr><th><strong>Binds</strong>:</th> <td>None</td></tr>}
+                  {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th> <td className="buff-td">{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</td></tr> : <tr><th><strong>iFrames</strong>:</th> <td>None</td></tr>}
+                </tbody>
+              </Table>
+            </Col>
+          </Row>
+        <h2>Skill Build Path</h2>
+        <Table borderless>
+          <tbody>
+            {content.buildPath.build.map((build,index) => 
+              <tr key={index}>
+                <th>{build[0]}:</th>
+                <td className="skill-td">{parse(DOMPurify.sanitize(build[1]))}</td>
+              </tr>)}
+          </tbody>
+        </Table>
+        <ul>
+            {content.buildPath.details.map((detail,index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}
+        </ul>
+      </Container>
+    );
+}
+
+/*
+    Rendering How to create {Class Name} component of class overview
+    Created by: Ikasuu, Fall 2020
+*/
+
+export function ClassCreation({className, howToCreate}) {
+    return (
+        <Container>
+            <h2 className="creation-title">How to create a {className}</h2>
+            <Image thumbnail
+                src={howToCreate.image[0]}
+                width={howToCreate.image[1][0]}
+                height={howToCreate.image[1][1]}
+                className="creation-image"/>
+            {howToCreate.npc.map(npc => <Image key={npc} src={npc[0]} width={npc[1][0]} height={npc[1][1]} className="creation-image"/>)}
+            <Card className="extra-content-width">
+                <Card.Body>{howToCreate.info.map(info => <p key={info}>{parse(DOMPurify.sanitize(info, { ADD_ATTR: ['target'] }))}</p>)}</Card.Body>
+            </Card>
+        </Container>
+    );
+}
+
+export function ClassExtraContent({title, content}){
+    return(
+        <Container>
+            <h2>{title}</h2>
+            <Card className="extra-content-width">
+                <Card.Body>{parse(DOMPurify.sanitize(content, { ADD_ATTR: ['target'] }))}</Card.Body>
+            </Card>
+        </Container>
+    )
 }
 
 export default ClassIntro

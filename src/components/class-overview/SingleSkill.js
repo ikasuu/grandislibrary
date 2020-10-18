@@ -1,16 +1,20 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import axios from 'axios';
 import axiosRetry from 'axios-retry';
-import { Image } from 'react-bootstrap';
+import { Image, Modal } from 'react-bootstrap';
 import { version, loadingImage } from '../../special/Values';
 import SkillInfo from './SkillInfo'
+
+/*
+    This file contains Link Skills and Notable Skills, any skills that need to be rendered on its own
+*/
 
 /*
     Renders a single skill, makes API call and renders a SkillInfo component
     Created by: Ikasuu, Fall 2020
 */
 
-export class SingleSkill extends Component {
+class SingleSkill extends Component {
     constructor(props) {
         super(props);
     
@@ -74,4 +78,46 @@ export class SingleSkill extends Component {
     }
 }
 
-export default SingleSkill
+/*
+    Component to hold link skill
+    Created by: Ikasuu, Fall 2020
+*/
+
+export function LinkSkill({linkSkill}) {
+    return (
+        <div>
+            <h2>Link Skill</h2>
+            <SingleSkill skillData={linkSkill}/> 
+        </div>
+    );
+}
+
+/*
+    Displays the notable skills in the class properties section and handles modal logic
+    Created by: Ikasuu, Fall 2020
+*/
+
+export function NotableSkill({ skill }) {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    return (
+        <span>
+            <Image src={skill.icons[0]} className="hvr-grow" style={{margin: '0 0.25rem 0.5rem 0.25rem', cursor: 'pointer'}} onClick={handleShow}/>
+            <Modal centered  show={show} onHide={handleClose} aria-labelledby="notable-skill" size="lg">
+                <Modal.Header closeButton>
+                    <Modal.Title id="notable-skill">
+                            {skill.name}
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <Image src={skill.animations[0]} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
+                </Modal.Body>
+            </Modal>
+        </span>
+    );
+}
+
+
+export default LinkSkill

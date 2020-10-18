@@ -1,13 +1,12 @@
 import React from 'react';
-import SkillContainer from './SkillContainer';
-import VSkillContainer from './VSkillContainer';
+import { SkillContainer, VSkillContainer } from './SkillContainer';
 import { Container, Tab, Tabs} from 'react-bootstrap';
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
 import { commonFifth } from '../../special/Values';
 
 /*
-    Tab component in our class overviews
+    Tab component in our class overviews, used to hold all the skill containers and switch between them
     Created by: Ikasuu, Fall 2020
 */
 

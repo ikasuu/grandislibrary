@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import './App.css';
 import {Route, HashRouter as Router, Switch } from "react-router-dom";
 import { getInitialTheme, GlobalStyle } from './special/GlobalTheme';
@@ -7,14 +7,14 @@ import storage from 'local-storage-fallback';
 import MainNavbar from './components/MainNavbar';
 import Footer from './components/Footer';
 //Import all pages component here
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Content from "./pages/Content";
-import Classes from "./pages/Classes";
-import ClassOverview from './pages/ClassOverview';
-import Events from "./pages/Events";
-import Resources from "./pages/Resources";
-import NotFound from "./pages/NotFound";
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Content = lazy(() => import('./pages/Content'));
+const Classes = lazy(() => import('./pages/Classes'));
+const ClassOverview = lazy(() => import('./pages/ClassOverview'));
+const Events = lazy(() => import('./pages/Events'));
+const Resources = lazy(() => import('./pages/Resources'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 
 function App() {
   //Create a theme state and setState (setTheme) function
@@ -28,16 +28,18 @@ function App() {
           <GlobalStyle/>
           <Router>
               <MainNavbar setTheme={setTheme} theme={theme}/>
-              <Switch>
-                <Route exact path="/" component={Home}/>
-                <Route path="/about" component={About}/>
-                <Route path="/content" component={Content}/>
-                <Route path="/classes/:id" component={ClassOverview}/>
-                <Route path="/classes" component={Classes}/>
-                <Route path="/events" component={Events}/>
-                <Route path="/resources" component={Resources}/>
-                <Route component={NotFound}/>
-              </Switch>
+              <Suspense fallback={<div></div>}>
+                <Switch>
+                  <Route exact path="/" component={Home}/>
+                  <Route path="/about" component={About}/>
+                  <Route path="/content" component={Content}/>
+                  <Route path="/classes/:id" component={ClassOverview}/>
+                  <Route path="/classes" component={Classes}/>
+                  <Route path="/events" component={Events}/>
+                  <Route path="/resources" component={Resources}/>
+                  <Route component={NotFound}/>
+                </Switch>
+              </Suspense>
             </Router>
         </>
       </ThemeProvider>

@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
 import SkillTab from '../components/class-overview/SkillTab';
-import ClassIntro from '../components/class-overview/ClassIntro';
-import ClassDetail from '../components/class-overview/ClassDetail';
-import { ClassCreation, ClassExtraContent } from '../components/class-overview/ClassExtraContent';
+import ClassIntro, { ClassCreation, ClassExtraContent } from '../components/class-overview/ClassIntro';
 import ClassOutro from '../components/class-overview/ClassOutro';
 import { Container } from 'react-bootstrap';
 
@@ -48,8 +46,6 @@ export class ClassOverview extends Component {
                     <div>
                       <Container>
                         <ClassIntro data={data}/>
-                        <hr/>
-                        <ClassDetail content={data.content}/>
                         {data.content.howToCreate && <ClassCreation className={data.class} howToCreate={data.content.howToCreate}/>}
                         {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
                         <SkillTab

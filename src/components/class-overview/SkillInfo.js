@@ -1,13 +1,12 @@
-import React from 'react';
-import { Badge, Card } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Badge, Card, Image, Modal } from 'react-bootstrap';
 import { Parser } from 'expr-eval';
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
-import SkillAnimation from './SkillAnimation';
 import '../../css/skill-info.css';
 
 /*
-    Skill component that creates a component to hold our skill info like name, desc, and properties 
+    Skill component that creates a component to hold and render our skill info like name, desc, and properties 
     Created by: Ikasuu, Fall 2020
 */
 
@@ -67,6 +66,33 @@ function getValsFromProperties(properties, maxLevel){
     //Required to convert any milliseconds cooldowns into seconds cooldowns else we will have wrong cooldowns (like 500 secs instead of 0.5 secs)  
     if(valProperties.cooltimeMS) { valProperties.cooltimeMS = valProperties.cooltimeMS * 0.001;}
     return valProperties;
+}
+
+/*
+    Component used in SkillInfo to show animations of skill, handles logic for displaying it's own animation in a modal
+    Created by: Ikasuu, Fall 2020
+*/
+
+function SkillAnimation({animation, name}) {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    return (
+        <span>
+            <Card.Img className="animation" variant="top" src={animation} onClick={handleShow}/>
+                <Modal centered  show={show} onHide={handleClose} aria-labelledby="notable-skill" size="lg">
+                    <Modal.Header closeButton>
+                        <Modal.Title id="notable-skill">
+                            {name}
+                        </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <Image fluid src={animation} className="modal-animation"/>
+                    </Modal.Body>
+                </Modal>
+        </span>
+    );
 }
 
 export default SkillInfo;

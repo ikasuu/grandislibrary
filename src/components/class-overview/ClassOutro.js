@@ -1,6 +1,14 @@
 import React from 'react'
 import '../../css/class-overview.css';
 
+/*
+This file contains the outro contents (after the skills overview) of a Class Overview
+In this file you will find:
+-ClassOutro - contains the more info and credits
+-ClassMoreInfo - renders the links in more info
+-ClassCredits - renders the credits
+*/
+
 export function ClassOutro({className, moreInfo, credits}) {
     return (
         <div>
