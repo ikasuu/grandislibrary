@@ -64,6 +64,10 @@ function ClassProperties({content}) {
                   <td>{content.classGroup}</td>
               </tr>
               <tr>
+                  <th><strong>Job Group</strong></th>
+                  <td>{content.jobGroup}</td>
+              </tr>
+              <tr>
                   <th><strong>Primary Stat</strong></th>
                   <td>{content.mainStat}</td>
               </tr>

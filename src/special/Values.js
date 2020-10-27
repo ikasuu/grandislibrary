@@ -19,7 +19,7 @@ export const HeaderImageUrl = {
 };
 
 export const classes = {
-    explorers: [["hero","Hero"], ["paladin","Paladin"], ["dark-knight","Dark Knight"], ["bishop", "Bishop"], ["arch-mage-ice-lightning", "Arch Mage (Ice, Lightning)"], ["arch-mage-fire-poison", "Arch Mage (Fire, Poison)"], ["dual-blade", "Dual Blade"], ["shadower", "Shadower"], ["night-lord", "Night Lord"], ["pathfinder", "Pathfinder"], ["marksman", "Marksman"], ["bowmaster", "Bowmaster"], ["cannoneer", "Cannoneer"], ["buccaneer", "Buccanner"], ["corsair", "Corsair"]],
+    explorers: [["hero","Hero"], ["paladin","Paladin"], ["dark-knight","Dark Knight"], ["bishop", "Bishop"], ["arch-mage-ice-lightning", "Arch Mage (Ice, Lightning)"], ["arch-mage-fire-poison", "Arch Mage (Fire, Poison)"], ["dual-blade", "Dual Blade"], ["shadower", "Shadower"], ["night-lord", "Night Lord"], ["pathfinder", "Pathfinder"], ["marksman", "Marksman"], ["bowmaster", "Bowmaster"], ["cannoneer", "Cannoneer"], ["buccaneer", "Buccanner"], ["corsair", "Corsair"], ["jett", "Jett"]],
     cygnusKnights: [["dawn-warrior", "Dawn Warrior"], ["thunder-breaker","Thunder Breaker"], ["night-walker", "Night Walker"], ["wind-archer", "Wind Archer"], ["blaze-wizard", "Blaze Wizard"], ["mihile", "Mihile"]],
     heroes: [["mercedes", "Mercedes"], ["aran", "Aran"], ["phantom", "Phantom"], ["luminous", "Luminous"], ["evan", "Evan"], ["shade", "Shade"]],
     resistance: [["battle-mage", "Battle Mage"], ["blaster", "Blaster"], ["mechanic", "Mechanic"], ["wild-hunter", "Wild Hunter"], ["xenon", "Xenon"], ["demon-slayer", "Demon Slayer"], ["demon-avenger", "Demon Avenger"]],
@@ -63,14 +63,14 @@ export const weapons = {
     longSword: [`https://maplestory.io/api/GMS/${version}/item/1572007/icon`, "Alpha - Long Sword"],
     chain: [`https://maplestory.io/api/GMS/${version}/item/1272005/icon`, "Chain"],
     lucentGauntlet: [`https://maplestory.io/api/GMS/${version}/item/1282028/icon`, "Lucent Gauntlet"],
-    ancientBow: [`https://maplestory.io/api/GMS/${version}/item/1592005/icon`, "Ancient Bow"],
+    ancientBow: [`https://maplestory.io/api/GMS/${version}/item/1592000/icon`, "Ancient Bow"],
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
     bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
 export const secondaryWeapons = {
-    warShield: [`https://maplestory.io/api/GMS/${version}/item/1092012/icon`, "Shield"],
+    warShield: [`https://maplestory.io/api/GMS/${version}/item/1092060/icon`, "Shield"],
     mageShield: [`https://maplestory.io/api/GMS/${version}/item/1092021/icon`, "Shield"],
     thiefShield: [`https://maplestory.io/api/GMS/${version}/item/1092050/icon`, "Shield"],
     medallion: [`https://maplestory.io/api/GMS/${version}/item/1352202/icon`, "Medallion"],
@@ -174,6 +174,18 @@ export const commonFifth = {
             "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'> is active"
         ]
     },
+    expPBowman: {
+        "name": "Fury of the Wild",
+        "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 825%, Number of Attacks: 7 Cooldown: 108 sec",
+        "id": 400001012,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Fury_of_the_Wild.png/revision/latest?cb=20190615205233"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2019/01/evolve-effect-fly.gif?w=700&h="],
+        "type": "Summon",
+        "desc": "Transforms Phoenix into a more powerful form",
+        "details": [
+            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'> is active"
+        ]
+    },
     expThief: {
         "name": "Shadow Walker",
         "shortDesc": "MP Cost: 850, Duration: 30 sec. Initiates a form of stealth that is not canceled by skills or attacks. Final Damage increased by 15% added on top of Advanced Dark Sight's Final Damage bonus. Cooldown: 195 sec",
@@ -184,6 +196,42 @@ export const commonFifth = {
         "desc": "Activates a special <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> where attacking will not cancel the buff",
         "details": [
             "Additionally increases %Final Damage added on top of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Advanced_Dark_Sight.png/revision/latest?cb=20100615145647' alt='Skill Advanced Dark Sight'>"
+        ]
+    },
+    expPirate: {
+        "name": "Pirate's Banner",
+        "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec. Boosts the stats of party members near the flag by 22% in any attribute they have assigned AP. Enemy DEF: -22% Cooldown: 35 sec",
+        "id": 400001017,
+        "icons": ["https://orangemushroom.files.wordpress.com/2016/12/pirate-flag.png?w=600"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/pirate-flag-effect.gif?w=600"],
+        "type": "Buff Zone",
+        "desc": "Increases all stats assigned APs by a percentage of party members within the zone and reduces enemy %DEF inside the zone"
+    },
+    phalanxCharge:{
+        "name": "Phalanx Charge",
+        "shortDesc": "MP Cost: 500, Damage: 900%, Number of Attacks: 65 Spearmen disappear when the number of attacks is reached, they move a certain distance, or after a certain duration. Activate the skill again to change their direction. Cooldown: 30 sec",
+        "id": 400001018,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Phalanx_Charge.png/revision/latest?cb=20170623004415"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/cygnus-phalanx-spearmen-effect.gif?w=1000&h="],
+        "type": "Summon",
+        "desc": "Summons Spearmen of Cygnus Knights to charge forward damaging enemies that collide with it",
+        "details": [
+            "The spearmen slow down upon touching an enemy",
+            "Pressing the Skill Key again will change their direction of movement",
+            "Unaffected by Damage Reflect"
+        ]
+    },
+    cygnusBlessing:{
+        "name": "Empress Cygnus's Blessing",
+        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%. This damage bonus is additive and maxes out at 90% Cooldown: 240 sec.",
+        "id": 400001043,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Empress_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065036", "https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Transcendent_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065038"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/empress-cygnus-blessing-effect.gif?w=600", "https://orangemushroom.files.wordpress.com/2019/06/transcendent-cygnus-blessing-effect.gif?w=600"],
+        "type": "Buff",
+        "desc": "Increases %Damage",
+        "details": [
+            "Additionally periodically restores %Max HP and increases the %Damage buff (up to 90%)",
+            "Skill is enhanced after Lv. 245 becoming <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Transcendent_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065038' alt='Skill Transcendent Cygnus's Blessing' width='32' height='32'/> Transcendent Cygnus's Blessing<ul><li>Damage buff will instead go up to 120% and additionally now reduces damage taken (including %Max HP attacks)</li></ul>"
         ]
     },
     weaponAura:{
@@ -269,11 +317,33 @@ export const commonFifth = {
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611"],
         "animations": ["https://orangemushroom.files.wordpress.com/2017/07/ready-to-die-effect-stage-1.gif?w=700&h="],
         "type": "Buff",
-        "desc": "Reduces your %Avoidability while increases %Final Damage and %Damage Taken from %Max HP attacks ",
+        "desc": "Reduces your %Avoidability while increases %Final Damage and %Damage Taken from %Max HP attacks",
         "details": [
             "There are two possible stages of the buff, pressing the Skill Key again will go to the second stage which increases the effects of both the debuff and buff portions of the Skill",
             "<strong>[Passive]</strong>: Permanently grants flat Attack"
         ]
+    },
+    loadedDice: {
+        "name": "Loaded Dice",
+        "shortDesc": "MP Cost: 1000, select your desired die roll. If a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%. Cooldown: 10 Sec.[Passive Effect: Attack Power: +35]",
+        "id": 400051000,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2016/07/loaded-dice-effect-6.gif?w=296&h=212"],
+        "type": "Buff",
+        "desc": "After casting this skill, the next time you use <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice' width='32' height='32' /> Roll of the Dice, you'll throw an additional dice of your choosing",
+        "details": [
+            "Classes without <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice' width='32' height='32' /> will be given a special skill to choose their desired number",
+            "<strong>[Passive]</strong>: Permanently grants flat Attack"
+        ]
+    },
+    overdrive: {
+        "name": "Overdrive",
+        "shortDesc": "HP Cost: 1750, Duration: 30 sec, Attack Power: +70% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power Cooldown: 65 sec",
+        "id": 400051033,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2017/07/overdrive-effect1.gif?w=600"],
+        "type": "Buff",
+        "desc": "Increases your %Attack but after the effect ends and the skill is on cooldown, you have reduced %Attack"
     }
 };
 
