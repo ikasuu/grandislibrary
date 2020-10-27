@@ -42,7 +42,7 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
                         {skillData.desc && <Card.Text>{parse(DOMPurify.sanitize(skillData.desc))}</Card.Text>}
                         {skillData.details && <div className="skill-detail"><ul>{skillData.details.map( (detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></div>}
                         {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
-                        <Card.Subtitle className="mb-2 text-muted short-desc">{shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replaceAll('\\n',' ').replaceAll('#c', '').replaceAll('#z', '0').replaceAll('#', '') : null }</Card.Subtitle>
+                        <Card.Subtitle className="mb-2 text-muted short-desc">{shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replaceAll('\\n',' ').replaceAll('#c', '').replaceAll('#z', '0').replaceAll('#', '').replaceAll('mpCon', "0") : null }</Card.Subtitle>
                     </Card.Body>
                 </Card>
             </div>
