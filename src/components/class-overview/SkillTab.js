@@ -1,8 +1,9 @@
 import React from 'react';
-import { SkillContainer, VSkillContainer } from './SkillContainer';
-import { Container, Tab, Tabs} from 'react-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
+import { Button, Container, Tab, Tabs} from 'react-bootstrap';
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
+import { SkillContainer, VSkillContainer } from './SkillContainer';
 import { commonFifth } from '../../special/Values';
 
 /*
@@ -25,6 +26,14 @@ function convertCommonVToArray(fifth){
   return skills;
 }
 
+//Used for scrolling purposes
+const scrollWidthOffset = (el) => {
+  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+  const yOffset = -80; 
+  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}
+
+
 export function SkillTab({primary, fifth, hyper, hyperSkillBuild, nodeInfo}) {
   return (
     <Container>
@@ -42,6 +51,7 @@ export function SkillTab({primary, fifth, hyper, hyperSkillBuild, nodeInfo}) {
           <VSkillContainer skillData={convertCommonVToArray(fifth)}/>
           <h3>Class Specific V Skills</h3>
           <VSkillContainer skillData={fifth.fifthMain}/>
+          <Button variant="link"><Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button"/></Link></Button>
         </Tab>
         <Tab eventKey="hyper" title="Hyper Skills">
           <h3>Passive Build</h3>

@@ -5,6 +5,7 @@ import SkillTab from '../components/class-overview/SkillTab';
 import ClassIntro, { ClassCreation, ClassExtraContent } from '../components/class-overview/ClassIntro';
 import ClassOutro from '../components/class-overview/ClassOutro';
 import { Container } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 
 export class ClassOverview extends Component {
 
@@ -35,6 +36,7 @@ export class ClassOverview extends Component {
         }
     }
 
+
     render() {
         const { loading, fail, data } = this.state ;
         return (
@@ -44,10 +46,15 @@ export class ClassOverview extends Component {
                     loading ? <Container>{fail ? <h3>Looks like there was an error in the URL you entered,
                         the page you are looking for may be moved or deleted.</h3> : ""}</Container> :
                     <div>
+                      <Helmet>
+                        <title>{`${data.class} | Grandis Library`}</title>
+                        <meta name={data.meta} content="description"/>
+                      </Helmet>
                       <Container>
                         <ClassIntro data={data}/>
                         {data.content.howToCreate && <ClassCreation className={data.class} howToCreate={data.content.howToCreate}/>}
                         {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
+                        <div id="skill"/>
                         <SkillTab
                           primary={data.skill.primary}
                           fifth={data.skill.fifth} hyper={data.skill.hyper}

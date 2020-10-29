@@ -68,6 +68,15 @@ export const GlobalStyle = createGlobalStyle`
     width: 5.7rem;
     display:block;
   }
+
+  //Navbar discord button
+  .jump-button{
+    background: url("${process.env.PUBLIC_URL}/icons/arrow_circle_up-${getMenuColor}-18dp.svg");
+    background-size: 2rem 2rem;
+    height: 2rem;
+    width: 2rem;
+    display: block;
+  }
   
   //Navbar links such as 'Home' and 'About'
   .nav-link-button{

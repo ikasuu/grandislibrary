@@ -44,10 +44,10 @@ export const weapons = {
     twoHBlunt: [`https://maplestory.io/api/GMS/${version}/item/1422171/icon`, "Two-Handed Blunt Weapon"],
     spear: [`https://maplestory.io/api/GMS/${version}/item/1432187/icon`, "Spear"],
     polearm: [`https://maplestory.io/api/GMS/${version}/item/1442242/icon`, "Polearm"],
-    bow: [`https://maplestory.io/api/GMS/${version}/item/1452226/icon`, "Bow"],
+    bow: [`https://maplestory.io/api/GMS/${version}/item/1452205/icon`, "Bow"],
     crossbow: [`https://maplestory.io/api/GMS/${version}/item/1462213/icon`, "Crossbow"],
     dualBowguns: [`https://maplestory.io/api/GMS/${version}/item/1522012/icon`, "Dual Bowguns"],
-    claw: [`https://maplestory.io/api/GMS/${version}/item/1472053/icon`, "Claw"],
+    claw: [`https://maplestory.io/api/GMS/${version}/item/1472001/icon`, "Claw"],
     cane: [`https://maplestory.io/api/GMS/${version}/item/1362013/icon`, "Cane"],
     knuckle: [`https://maplestory.io/api/GMS/${version}/item/1482011/icon`, "Knuckle"],
     gun: [`https://maplestory.io/api/GMS/${version}/item/1492004/icon`, "Gun"],
@@ -129,7 +129,7 @@ export const weaponConsumable = {
 export const commonFifth = {
     goddessBlessing: {
         "name": "Maple World Goddess Blessing",
-        "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 350% for 60 sec, Damage: +17% Cooldown: 180 sec",
+        "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 350% for 60 sec, Damage: +17%//nCooldown: 180 sec",
         "id": 400001042,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037"],
         "animations": ["https://orangemushroom.files.wordpress.com/2019/06/maple-world-goddess-blessing-effect.gif?w=600"],
@@ -138,7 +138,7 @@ export const commonFifth = {
     },
     expWarrior:{
         "name": "Blitz Shield",
-        "shortDesc": "HP Cost: 5% of Max HP, Creates a protective shield that blocks 20% of your Max HP as damage for 5 sec. When the shield expires or the skill is activated again, it detonates and inflicts 1000% damage to 12 enemies 5 times.Your shield must be active for at least 2 sec before it can be detonated. Cooldown: 15 sec",
+        "shortDesc": "HP Cost: 5% of Max HP, Creates a protective shield that blocks 20% of your Max HP as damage for 5 sec.\\nWhen the shield expires or the skill is activated again, it detonates and inflicts 1000% damage to 12 enemies 5 times.\\nYour shield must be active for at least 2 sec before it can be detonated.\\nCooldown: 15 sec",
         "id": 400001010,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Blitz_Shield.png/revision/latest?cb=20170629201925"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/12/blitz-shield-effect.gif?w=267&h=252"],
@@ -150,7 +150,7 @@ export const commonFifth = {
     },
     expMagician:{
         "name": "Unreliable Memory",
-        "shortDesc": "MP Cost: 150, Uses one random skill or active Hyper Skill from 1st to 4th jobs. Ignores MP cost and cooldown of selected skill. Cannot trigger unlearned skills. Cooldown: 10 sec [Passive Effect: INT +25]",
+        "shortDesc": "MP Cost: 150, Uses one random skill or active Hyper Skill from 1st to 4th jobs.\\nIgnores MP cost and cooldown of selected skill. Cannot trigger unlearned skills.\\nCooldown: 10 sec\\n[Passive Effect: INT +25]",
         "id": 400001021,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Unreliable_Memory.png/revision/latest?cb=20170629202924"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/12/unstable-memorize-effect.gif?w=600"],
@@ -164,31 +164,30 @@ export const commonFifth = {
     },
     expBowman: {
         "name": "Fury of the Wild",
-        "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 825%, Number of Attacks: 7 Cooldown: 108 sec",
+        "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 825%, Number of Attacks: 7\\nCooldown: 108 sec",
         "id": 400001012,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Fury_of_the_Wild.png/revision/latest?cb=20190615205233"],
         "animations": ["https://media3.giphy.com/media/llsZlPVsm7sAZFcb8i/giphy.gif"],
         "type": "Summon",
-        "desc": "Transforms Phoenix into a more powerful form",
+        "desc": "Transforms Phoenix, Frosprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'> is active"
+            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Freezer.png/revision/latest?cb=20110503111203' alt='' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Shadow_Raven.png/revision/latest?cb=20190616015333' alt='' /> is active"
         ]
     },
     expPBowman: {
         "name": "Fury of the Wild",
-        "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 825%, Number of Attacks: 7 Cooldown: 108 sec",
+        "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 825%, Number of Attacks: 7\\nCooldown: 108 sec",
         "id": 400001012,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Fury_of_the_Wild.png/revision/latest?cb=20190615205233"],
         "animations": ["https://orangemushroom.files.wordpress.com/2019/01/evolve-effect-fly.gif?w=700&h="],
-        "type": "Summon",
-        "desc": "Transforms Phoenix into a more powerful form",
+        "desc": "Transforms Phoenix, Frosprey, or Shadow Raven into a more powerful form",
         "details": [
-            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32'> is active"
+            "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Freezer.png/revision/latest?cb=20110503111203' alt='' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Shadow_Raven.png/revision/latest?cb=20190616015333' alt='' /> is active"
         ]
     },
     expThief: {
         "name": "Shadow Walker",
-        "shortDesc": "MP Cost: 850, Duration: 30 sec. Initiates a form of stealth that is not canceled by skills or attacks. Final Damage increased by 15% added on top of Advanced Dark Sight's Final Damage bonus. Cooldown: 195 sec",
+        "shortDesc": "MP Cost: 850, Duration: 30 sec. Initiates a form of stealth that is not canceled by skills or attacks.\\nFinal Damage increased by 15% added on top of Advanced Dark Sight's Final Damage bonus.\\nCooldown: 195 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Shadow_Walker.png/revision/latest?cb=20170629203944"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/12/ultimate-dark-sight-effect.gif?w=600"],
@@ -200,7 +199,7 @@ export const commonFifth = {
     },
     expPirate: {
         "name": "Pirate's Banner",
-        "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec. Boosts the stats of party members near the flag by 22% in any attribute they have assigned AP. Enemy DEF: -22% Cooldown: 35 sec",
+        "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec.\\nBoosts the stats of party members near the flag by 22% in any attribute they have assigned AP. Enemy DEF: -22%\\nCooldown: 35 sec",
         "id": 400001017,
         "icons": ["https://orangemushroom.files.wordpress.com/2016/12/pirate-flag.png?w=600"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/12/pirate-flag-effect.gif?w=600"],
@@ -209,7 +208,7 @@ export const commonFifth = {
     },
     phalanxCharge:{
         "name": "Phalanx Charge",
-        "shortDesc": "MP Cost: 500, Damage: 900%, Number of Attacks: 65 Spearmen disappear when the number of attacks is reached, they move a certain distance, or after a certain duration. Activate the skill again to change their direction. Cooldown: 30 sec",
+        "shortDesc": "MP Cost: 500, Damage: 900%, Number of Attacks: 65\\nSpearmen disappear when the number of attacks is reached, they move a certain distance, or after a certain duration. Activate the skill again to change their direction.\\nCooldown: 30 sec",
         "id": 400001018,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Phalanx_Charge.png/revision/latest?cb=20170623004415"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/12/cygnus-phalanx-spearmen-effect.gif?w=1000&h="],
@@ -223,7 +222,7 @@ export const commonFifth = {
     },
     cygnusBlessing:{
         "name": "Empress Cygnus's Blessing",
-        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%. This damage bonus is additive and maxes out at 90% Cooldown: 240 sec.",
+        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%.\\nThis damage bonus is additive and maxes out at 90%\\nCooldown: 240 sec.",
         "id": 400001043,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Empress_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065036", "https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Transcendent_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065038"],
         "animations": ["https://orangemushroom.files.wordpress.com/2019/06/empress-cygnus-blessing-effect.gif?w=600", "https://orangemushroom.files.wordpress.com/2019/06/transcendent-cygnus-blessing-effect.gif?w=600"],
@@ -236,7 +235,7 @@ export const commonFifth = {
     },
     weaponAura:{
         "name": "Weapon Aura",
-        "shortDesc": "HP Cost: 10%, Ignores 15% Enemy DEF for 130 sec, Final Damage: +5%. Aura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1000% damage on up to 10 enemies 6 times. Cooldown: 180 Sec.",
+        "shortDesc": "HP Cost: 10%, Ignores 15% Enemy DEF for 130 sec, Final Damage: +5%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1000% damage on up to 10 enemies 6 times.\\nCooldown: 180 Sec.",
         "id": 400011000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/07/aura-weapon-effect.gif?w=600"],
@@ -245,7 +244,7 @@ export const commonFifth = {
     },
     impenetrableSkin:{
         "name": "Impenetrable Skin",
-        "shortDesc": "HP Cost: 5% of Max HP, Duration: 35 sec, Knockdown Immunity and Status Resistance: +75 Damage increases +3% when hit, Max Stack: 10 times Cooldown: 240 sec [Passive Effects - STR: +25, Max HP: +1250]",
+        "shortDesc": "HP Cost: 5% of Max HP, Duration: 35 sec, Knockdown Immunity and Status Resistance: +75\\nDamage increases +3% when hit, Max Stack: 10 times\\nCooldown: 240 sec\\n[Passive Effects - STR: +25, Max HP: +1250]",
         "id": 400011066,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329"],
         "animations": ["https://orangemushroom.files.wordpress.com/2017/07/body-of-steel-effect.gif?w=600"],
@@ -254,7 +253,7 @@ export const commonFifth = {
     },
     manaOverload:{
         "name": "Mana Overload",
-        "shortDesc": "Consumes +2% Max MP to increase the Final Damage of all your skills (excluding summons) by 10% Consumes 0.5% Max HP for jobs without MP Can be toggled On/Off Cooldown: 35 sec",
+        "shortDesc": "Consumes +2% Max MP to increase the Final Damage of all your skills (excluding summons) by 10%\\nConsumes 0.5% Max HP for jobs without MP\\nCan be toggled On/Off\\nCooldown: 35 sec",
         "id": 400021000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mana_Overload.png/revision/latest?cb=20161018183739"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/07/overload-mana-effect.gif?w=396"],
@@ -266,7 +265,7 @@ export const commonFifth = {
     },
     etherealForm:{
         "name": "Ethereal Form",
-        "shortDesc": "HP Cost: 1000, Duration: 3 sec, Gain Knockdown Immunity and lose 7750 MP instead of taking damage, when MP is 0 you lose 1750 HP Cooldown: 60 sec",
+        "shortDesc": "HP Cost: 1000, Duration: 3 sec, Gain Knockdown Immunity and lose 7750 MP instead of taking damage, when MP is 0 you lose 1750 HP\\nCooldown: 60 sec",
         "id": 400021060,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802"],
         "animations": ["https://orangemushroom.files.wordpress.com/2017/07/ethereal-form-effect.gif?w=600"],
@@ -278,7 +277,7 @@ export const commonFifth = {
     },
     guidedArrow: {
         "name": "Guided Arrow",
-        "shortDesc": "MP Cost: 350, Duration: 60 sec, Arrow Damage: 800% damage 90 times to 1 nearby enemy when in combat Cooldown: 60 sec",
+        "shortDesc": "MP Cost: 350, Duration: 60 sec, Arrow Damage: 800% damage 90 times to 1 nearby enemy when in combat\\nCooldown: 60 sec",
         "id": 400031000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Guided_Arrow.png/revision/latest?cb=20161204065740"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/07/guided-arrow-effect.gif?w=600"],
@@ -290,7 +289,7 @@ export const commonFifth = {
     },
     viciousShot: {
         "name": "Vicious Shot",
-        "shortDesc": "MP Cost: 500, Duration: 30 sec, Allows Critical Rate to exceed 100% and Critical Damage to increase by 45% of Critical Rate. The attack's additional Critical Rate is not applied. Cooldown: 120 sec",
+        "shortDesc": "MP Cost: 500, Duration: 30 sec, Allows Critical Rate to exceed 100% and Critical Damage to increase by 45% of Critical Rate.\\nThe attack's additional Critical Rate is not applied.\\nCooldown: 120 sec",
         "id": 400031023,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957"],
         "animations": ["https://orangemushroom.files.wordpress.com/2017/07/critical-reinforce-effect.gif?w=600"],
@@ -299,7 +298,7 @@ export const commonFifth = {
     },
     venomBurst: {
         "name": "Venom Burst",
-        "shortDesc": "MP Cost: 300, Consumes all active Damage-over-Time stacks on up to 12 poisoned enemies in range and instantly inflicts 100% of their remaining damage plus an additional 1000% damage 6 times Additional damage is +15% per remaining second of consumed DoT stacks up to 5 Afterwards, spreads the original DoT damage to up to 10 nearby enemies Cooldown: 8 sec [Passive Effects - Bonus DoT Chance: 50% to deal 310% damage every 1 sec for 8 sec]",
+        "shortDesc": "MP Cost: 300, Consumes all active Damage-over-Time stacks on up to 12 poisoned enemies in range and instantly inflicts 100% of their remaining damage plus an additional 1000% damage 6 times Additional damage is +15% per remaining second of consumed DoT stacks up to 5\\nAfterwards, spreads the original DoT damage to up to 10 nearby enemies\\nCooldown: 8 sec\\n[Passive Effects - Bonus DoT Chance: 50% to deal 310% damage every 1 sec for 8 sec]",
         "id": 400041000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Venom_Burst.png/revision/latest?cb=20161204065741"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/07/venom-burst-effect.gif?w=600"],
@@ -312,7 +311,7 @@ export const commonFifth = {
     },
     lastResort: {
         "name": "Last Resort",
-        "shortDesc": "HP Cost: 10% of Max HP, reduces Avoidability (including Bonus Evasion) and increases Final Damage for 30 sec, Hit Damage increased if attacked within a certain percentage of your max HP. Enters 2nd Stage with remaining duration being reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage. 1st Stage - Avoidability: -20%, Hit Damage: +10%, Final Damage: +12% 2nd Stage - Avoidability: -90%, Hit Damage: +40%, Final Damage: +35% Cooldown: 78 sec [Passive Effect - ATT Power: +25]",
+        "shortDesc": "HP Cost: 10% of Max HP, reduces Avoidability (including Bonus Evasion) and increases Final Damage for 30 sec, Hit Damage increased if attacked within a certain percentage of your max HP. Enters 2nd Stage with remaining duration being reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage.\\n1st Stage - Avoidability: -20%, Hit Damage: +10%, Final Damage: +12%\\n2nd Stage - Avoidability: -90%, Hit Damage: +40%, Final Damage: +35%\\nCooldown: 78 sec\\n[Passive Effect - ATT Power: +25]",
         "id": 400041032,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611"],
         "animations": ["https://orangemushroom.files.wordpress.com/2017/07/ready-to-die-effect-stage-1.gif?w=700&h="],
@@ -325,7 +324,7 @@ export const commonFifth = {
     },
     loadedDice: {
         "name": "Loaded Dice",
-        "shortDesc": "MP Cost: 1000, select your desired die roll. If a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%. Cooldown: 10 Sec.[Passive Effect: Attack Power: +35]",
+        "shortDesc": "MP Cost: 1000, select your desired die roll. If a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%.\\nCooldown: 10 Sec.\\n[Passive Effect: Attack Power: +35]",
         "id": 400051000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/07/loaded-dice-effect-6.gif?w=296&h=212"],
@@ -338,7 +337,7 @@ export const commonFifth = {
     },
     overdrive: {
         "name": "Overdrive",
-        "shortDesc": "HP Cost: 1750, Duration: 30 sec, Attack Power: +70% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power Cooldown: 65 sec",
+        "shortDesc": "HP Cost: 1750, Duration: 30 sec, Attack Power: +70% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power\\nCooldown: 65 sec",
         "id": 400051033,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813"],
         "animations": ["https://orangemushroom.files.wordpress.com/2017/07/overdrive-effect1.gif?w=600"],

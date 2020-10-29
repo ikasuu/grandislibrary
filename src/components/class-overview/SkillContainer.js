@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import axiosRetry from 'axios-retry';
-import { Image } from 'react-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
+import { Button, Image } from 'react-bootstrap';
 import SkillInfo from './SkillInfo'
 import { version, loadingImage } from '../../special/Values';
 
@@ -77,6 +78,7 @@ export class SkillContainer extends Component {
                                 maxLevel={skill.properties.maxLevel}/>
                         </div>)
                 }
+                <Button variant="link"><Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button"/></Link></Button>
                 </div>
             }
             </div>
@@ -105,6 +107,12 @@ export function VSkillContainer({skillData}) {
             }
         </div>
     );
+}
+
+const scrollWidthOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -80; 
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 export default SkillContainer

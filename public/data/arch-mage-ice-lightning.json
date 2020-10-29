@@ -31,7 +31,7 @@
             "Excludes Hyper Skill Passives, Link Skills, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)' width='32' height='32' /> Magic Guard and buffs with cooldowns",
             [
                 "<strong>Max MP</strong>: +20%",
-                "<strong>Crit Rate</strong>: +30% + (3% when Wand is equipped)",
+                "<strong>Crit Rate</strong>: +30% + (5% when Wand is equipped)",
                 "<strong>Crit Damage</strong>: +13% + (up to 30% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Freezing_Crush.png/revision/latest?cb=20130706132353' alt='Skill Freezing Crush'> Freezing Crush stacks)",
                 "<strong>Damage</strong>: +50% + (up to 40% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500' alt='Skill Arcane Aim'> Arcane Aim)",
                 "<strong>Final Damage</strong>: +50% (up to +60% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Freezing_Crush.png/revision/latest?cb=20130706132353' alt='Skill Freezing Crush'> Freezing Crush stacks with Lightning-Attribute attacks) + (20% to enemies with: <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Storm_Magic.png/revision/latest?cb=20110423054858' alt='Skill Storm Magic'> DoT, Freeze, Stun, Darkness or Paralysis)",
@@ -483,7 +483,7 @@
             "fifthMain": [
                 {
                     "name": "Ice Age",
-                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Number of Attacks: 10, Damage: 1000%, enemies in range are frozen Area stays icy for 15 sec, periodically inflicting 750% damage and freezing stacks to enemies caught in it Cooldown: 60 sec",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Number of Attacks: 10, Damage: 1000%, enemies in range are frozen.\\nArea stays icy for 15 sec, periodically inflicting 750% damage and freezing stacks to enemies caught in it.\\nCooldown: 60 sec",
                     "id": 400021002,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4b/Skill_Ice_Age.png/revision/latest?cb=20161125062544"],
                     "animations": ["https://media4.giphy.com/media/otOqQVVBg2pZGK8r9P/giphy.gif"],
@@ -496,7 +496,7 @@
                 },
                 {
                     "name": "Bolt Barrage",
-                    "shortDesc": "MP Cost: 1000, conjures 8 lightning bolts that attack up to 12 enemies, dealing 1500% damage 8 times.The lightning moves forward as it strikes, but will continue to strike the same place if its path is blocked. Final Damage of lightning bolt decreases by 5% every time the enemy is attacked repeatedly. Cooldown: 45 sec",
+                    "shortDesc": "MP Cost: 1000, conjures 8 lightning bolts that attack up to 12 enemies, dealing 1500% damage 8 times.\\nThe lightning moves forward as it strikes, but will continue to strike the same place if its path is blocked.\\nFinal Damage of lightning bolt decreases by 5% every time the enemy is attacked repeatedly.\\nCooldown: 45 sec",
                     "id": 400021030,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Bolt_Barrage.png/revision/latest?cb=20170609033036"],
                     "animations": ["https://media1.giphy.com/media/KvyhT9vnfmENlpLdEK/giphy.gif"],
@@ -504,12 +504,13 @@
                     "desc": "Creates a wall of lightning that pulses forward",
                     "details": [
                         "Strikes the same location if the path is blocked",
-                        "If an enemy is hit by the attack multiple times, the %Final Damage is reduced"
+                        "If an enemy is hit by the attack multiple times, the %Final Damage is reduced",
+                        "<strong>[Tip]</strong>: Can be used while casting <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Frozen_Orb.png/revision/latest?cb=20130706154752' alt='Skill Frozen Orb'> to increase burst potential"
                     ]
                 },
                 {
                     "name": "Spirit of Snow",
-                    "shortDesc": "MP Cost: 1000, stacks Freeze, Max Enemies Hit: 8, Number of Attacks: 9, Damage: 800%, Attack Duration: 30 sec Deals 1700% damage when attacking 1 enemy and stacks Freeze 3 time(s) Cooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000, stacks Freeze, Max Enemies Hit: 8, Number of Attacks: 9, Damage: 800%, Attack Duration: 30 sec\\nDeals 1700% damage when attacking 1 enemy and stacks Freeze 3 time(s)\\nCooldown: 120 sec",
                     "id": 400021067,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Spirit_of_Snow.png/revision/latest?cb=20181115065338"],
                     "animations": ["https://orangemushroom.files.wordpress.com/2018/06/spirit-of-snow-effect.gif?w=600"],
@@ -553,5 +554,6 @@
                 "animations": ["https://orangemushroom.files.wordpress.com/2018/06/spirit-of-snow-effect.gif?w=600"]
             }
         ]
-    }
+    },
+    "meta": "Arch Mage (Ice, Lightning) is an INT mage class part of the Explorers class group. I/L Mages utilize both ice and lightning magic for their attacks. Their ice attacks freeze enemies which provide bonus damage to their lightning attacks"
 }

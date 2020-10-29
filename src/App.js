@@ -5,7 +5,9 @@ import { getInitialTheme, GlobalStyle } from './special/GlobalTheme';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
 import MainNavbar from './components/MainNavbar';
+import ScrollToTop from './special/ScrollToTop';
 import Footer from './components/Footer';
+import { Helmet } from 'react-helmet';
 //Import all pages component here
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
@@ -23,10 +25,16 @@ function App() {
     storage.setItem('theme', JSON.stringify(theme));
   },[theme]);
   return (
+    <div>
+      <Helmet>
+        <title>Grandis Library</title>
+        <meta name="A collection of MapleStory guides, resources and information." content="description"/>
+      </Helmet>
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyle/>
           <Router>
+              <ScrollToTop/>
               <MainNavbar setTheme={setTheme} theme={theme}/>
               <Suspense fallback={<div></div>}>
                 <Switch>
@@ -43,6 +51,7 @@ function App() {
             </Router>
         </>
       </ThemeProvider>
+    </div>
   );
 }
 

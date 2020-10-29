@@ -31,7 +31,7 @@
         "baseStats": [
             "Excludes Hyper Skill Passives, Link Skills, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Magic_Guard_%28Magician%29.png/revision/latest?cb=20130706124158' alt='Skill Magic Guard (Magician)' width='32' height='32' /> Magic Guard and buffs with cooldowns",
             [
-                "<strong>Crit Rate</strong>: +70% (+3% with Wand)",
+                "<strong>Crit Rate</strong>: +70% (+5% with Wand)",
                 "<strong>Crit Damage</strong>: +13%",
                 "<strong>Damage</strong>: +(up to 40% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500' alt='Skill Arcane Aim'> Arcane Aim)",
                 "<strong>Final Damage</strong>: +5% for each party member you have buffed (up to 30%) (additional +30% with <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant' width='32' height='32' /> Righteously Indignant active)",
@@ -523,7 +523,7 @@
             "fifthMain": [
                 {
                     "name": "Benediction",
-                    "shortDesc": "MP Cost: 1000, Duration: 42 sec, Final Damage (all party members in range): +5%, periodically recovers 1% Max HP/MP and clears certain statuses Final Damage: +1% per 2500 INT (up to +40% max) HP/MP Recovery: +1% per 2000 INT (up to +10% max) Attack Speed: +1 per 10000 INT (up to +3 max) Can be toggled Cooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1000, Duration: 42 sec, Final Damage (all party members in range): +5%, periodically recovers 1% Max HP/MP and clears certain statuses, and have their Attack Speed increased.\\nFinal Damage: +1% per 2500 INT (up to +40% max)\\nHP/MP Recovery: +1% per 2000 INT (up to +10% max)\\nAttack Speed: +1 per 10000 INT (up to +3 max)\\nCan be toggled\\nCooldown: 180 sec",
                     "id": 400021003,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Benediction.png/revision/latest?cb=20161125062538"],
                     "animations": ["https://media0.giphy.com/media/fLL904f95ZGghkCEwq/giphy.gif"],
@@ -531,12 +531,12 @@
                     "desc": "Creates an aura around your character where party members inside it gain a buff",
                     "details": [
                         "<strong>[Buff]:</strong> Increases %Final Damage and Attack Speed while periodically restoring %Max HP/MP and clearing certain Abnormal Statuses",
-                        "Effects scale off of your INT stat: <ul> <li><strong>[Final Damage]: </strong>+1% for every 2500 INT (up to +17%)</li> <li><strong>[HP/MP Recovery]: </strong>+1% for every 2000 INT (up to +10%)</li> <li><strong>[Attack Speed]: </strong>+1% for every 10000 INT (up to +3)</li> </ul>"
+                        "Effects scale off of your INT stat: <ul> <li><strong>[Final Damage]: </strong>+1% for every 2500 INT (up to +40%)</li> <li><strong>[HP/MP Recovery]: </strong>+1% for every 2000 INT (up to +10%)</li> <li><strong>[Attack Speed]: </strong>+1% for every 10000 INT (up to +3)</li> </ul>"
                     ]
                 },
                 {
                     "name": "Angel of Balance",
-                    "shortDesc": "MP Cost: 1000, Summon Duration: 30 sec. The angel's aspect depends upon whether Righteously Indignant is active or inactive. Inactive: Appears as the Angel of Benevolence. Grants a buff that recovers 15% of party members' Max HP every 5 sec and increases their damage by 5% and 1% per 1250 INT for 4 sec. Damage can increase up to 100%. Active: Appears as the Avenging Angel. Attacks up to 12 enemies dealing 1000% damage 12 times. Attacked enemies are marked for 60 sec. Dealing holy damage to those enemies consumes the mark and increases Final Damage of the attack by 50%. Cooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000, Summon Duration: 30 sec. The angel's aspect depends upon whether Righteously Indignant is active or inactive.\\nInactive: Appears as the Angel of Benevolence. Grants a buff that recovers 15% of party members' Max HP every 5 sec and increases their damage by 5% and 1% per 1250 INT for 4 sec. Damage can increase up to 100%.\\nActive: Appears as the Avenging Angel. Attacks up to 12 enemies dealing 1000% damage 12 times. Attacked enemies are marked for 60 sec. Dealing holy damage to those enemies consumes the mark and increases Final Damage of the attack by 50%.\\nCooldown: 120 sec",
                     "id": 400021032,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Angel_of_Balance.png/revision/latest?cb=20170609033035"],
                     "animations": ["https://orangemushroom.files.wordpress.com/2016/12/angel-of-libra-benevolence-buff-effect.gif?w=1000&h=", "https://orangemushroom.files.wordpress.com/2016/12/angel-of-libra-vengeance-attack-effect.gif?w=1000&h="],
@@ -551,7 +551,7 @@
                 },
                 {
                     "name": "Peacemaker",
-                    "shortDesc": "MP Cost: 350, deals 700% damage to up to 6 enemies 4 time(s) at every interval, or restores 40% of the Bishop's max HP for you and your party members that come into contact with the object. Max Contact Count: 12, consumes the contact count for both attacks and recovery Holy Light: Max Enemies Hit: 10, Damage: 1000%, Number of Attacks: 8. The Bishop and party members that come into contact with the light will gain a buff that increases damage by 10% for 8 sec + increases damage by 1% for each remaining contact count. Cooldown: 10 sec",
+                    "shortDesc": "MP Cost: 350, deals 700% damage to up to 6 enemies 4 time(s) at every interval, or restores 40% of the Bishop's max HP for you and your party members that come into contact with the object. Max Contact Count: 12, consumes the contact count for both attacks and recovery\\nHoly Light: Max Enemies Hit: 10, Damage: 1000%, Number of Attacks: 8. The Bishop and party members that come into contact with the light will gain a buff that increases damage by 10% for 8 sec + increases damage by 1% for each remaining contact count.\\nCooldown: 10 sec",
                     "id": 400021070,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Peacemaker.png/revision/latest?cb=20181115065337"],
                     "animations": ["https://media3.giphy.com/media/UjJzIrHnJ1VUbTLktp/giphy.gif"],
@@ -600,5 +600,6 @@
                 "animations": ["https://media3.giphy.com/media/UjJzIrHnJ1VUbTLktp/giphy.gif"]
             }
         ]
-    }
+    },
+    "meta": "Bishop is INT mage class part of the Explorers class group. Bishop is known for their incredible support potential"
 }

@@ -52,7 +52,7 @@ function MainNavbar(props) {
                       theme.mode === 'dark'
                         ? {...theme, mode: 'light'}
                         : {...theme, mode: 'dark'}) }>
-                  <span className="toggle-mode"></span>
+                  <span className="toggle-mode"/>
               </Button>
               </Navbar.Collapse>
           </Navbar>
