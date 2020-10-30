@@ -118,6 +118,50 @@ function PropertyBox({skills, classType}) {
               <NotableSkill key={skill.name} skill={skill}/>
           )}
           <h5>Class Type</h5>
+          {/* <Card>
+            <Card.Body>
+              <Row noGutters>
+                <Col xs="4">
+                  <strong>Damage</strong>
+                </Col>
+                <Col >
+                  <div><Image src={`${process.env.PUBLIC_URL}/class-scale/damage-${classType.damage}.png`} width="150"/></div>
+                </Col>
+              </Row>
+              <Row noGutters>
+                  <Col xs="4">
+                    <strong>Defense</strong>
+                  </Col>
+                  <Col >
+                    <div><Image src={`${process.env.PUBLIC_URL}/class-scale/defense-${classType.defense}.png`} width="150"/></div>
+                  </Col>
+              </Row>
+              <Row noGutters>
+                  <Col xs="4">
+                    <strong>Mobility</strong>
+                  </Col>
+                  <Col >
+                    <div><Image src={`${process.env.PUBLIC_URL}/class-scale/mobility-${classType.mobility}.png`} width="150"/></div>
+                  </Col>
+              </Row>
+              <Row noGutters>
+                  <Col xs="4">
+                    <strong>Difficulty</strong>
+                  </Col>
+                  <Col >
+                    <div><Image src={`${process.env.PUBLIC_URL}/class-scale/difficulty-${classType.difficulty}.png`} width="150"/></div>
+                  </Col>
+              </Row>
+              <Row noGutters>
+                  <Col xs="4">
+                    <strong>Popularity</strong>
+                  </Col>
+                  <Col >
+                    <div><Image src={`${process.env.PUBLIC_URL}/class-scale/popularity-${classType.popularity}.png`} width="150"/></div>
+                  </Col>
+              </Row>
+            </Card.Body>
+          </Card> */}
           <ul>
               {classType.map(it => <li key={it}>{it}</li>)}
           </ul>

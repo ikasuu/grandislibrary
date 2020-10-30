@@ -129,7 +129,7 @@ export const weaponConsumable = {
 export const commonFifth = {
     goddessBlessing: {
         "name": "Maple World Goddess Blessing",
-        "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 350% for 60 sec, Damage: +17%//nCooldown: 180 sec",
+        "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 350% for 60 sec, Damage: +17%\\nCooldown: 180 sec",
         "id": 400001042,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037"],
         "animations": ["https://orangemushroom.files.wordpress.com/2019/06/maple-world-goddess-blessing-effect.gif?w=600"],
