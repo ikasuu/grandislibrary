@@ -233,6 +233,19 @@ export const commonFifth = {
             "Skill is enhanced after Lv. 245 becoming <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Transcendent_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065038' alt='Skill Transcendent Cygnus's Blessing' width='32' height='32'/> Transcendent Cygnus's Blessing<ul><li>Damage buff will instead go up to 120% and additionally now reduces damage taken (including %Max HP attacks)</li></ul>"
         ]
     },
+    freudsWisdom:{
+        "name": "Freud's Wisdom",
+        "shortDesc": " MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Knockback Resistance: +75%\\nStack 3 - All Stats: +50\\nStack 4 - Attack Power & Magic ATT: +22\\nStack 5 - Boss Damage: +22%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires (including character death) or max stack count is reached.",
+        "id": 400001024,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/freuds-blessing-6-effect.gif?w=1000&h="],
+        "type": "Buff",
+        "desc": "Provides a stacking buff with each stack providing an additional effect",
+        "details": [
+            "Using the skill again will add an additional stack to the buff",
+            "Has a cooldown between each stack (25 secs)"
+        ]
+    },
     weaponAura:{
         "name": "Weapon Aura",
         "shortDesc": "HP Cost: 10%, Ignores 15% Enemy DEF for 130 sec, Final Damage: +5%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1000% damage on up to 10 enemies 6 times.\\nCooldown: 180 Sec.",
