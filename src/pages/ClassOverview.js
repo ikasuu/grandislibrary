@@ -34,8 +34,12 @@ export class ClassOverview extends Component {
             .then(fetchedData => this.setState({data: fetchedData, loading: false, fail: false}))
             .catch(err => this.setState({fail: true}));
         }
+        if (window.location.hash) {
+            const id = window.location.hash.replace("#", "").split("#");
+            const element = document.getElementById(id[1]);
+            if(element){element.scrollIntoView();}
+        }
     }
-
 
     render() {
         const { loading, fail, data } = this.state ;

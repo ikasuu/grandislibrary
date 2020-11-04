@@ -54,7 +54,7 @@ export function ClassIntro({data}) {
 
 function ClassProperties({content}) {
   return (
-      <div>
+      <div className="class-property">
           <h2>Class Properties</h2>
           <Container>
           <Table borderless>
@@ -176,7 +176,7 @@ function PropertyBox({skills, classType}) {
 
 function ClassProsCons({pros, cons}) {
   return (
-      <div>
+      <div className="pros-cons-container">
           <h2>Pros and Cons</h2>
           <Container>
               <h3>Pros</h3>

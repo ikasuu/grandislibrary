@@ -5,7 +5,7 @@ import { getInitialTheme, GlobalStyle } from './special/GlobalTheme';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
 import MainNavbar from './components/MainNavbar';
-import ScrollToTop from './special/ScrollToTop';
+import ScrollToTop from './special/Hooks';
 import Footer from './components/Footer';
 import { Helmet } from 'react-helmet';
 //Import all pages component here
