@@ -34,7 +34,7 @@ export class SkillContainer extends Component {
         this._isMounted = true;
         //Array to hold all our requests that we will execute in one call
         const request = [];
-        axiosRetry(axios, { retries: 3 }); //Retries request up to 3 times if request fails
+        axiosRetry(axios, { retries: 5 }); //Retries request up to 5 times if request fails
         skillData.forEach(skill => {
             request.push(axios.get(`https://maplestory.io/api/GMS/${version}/job/skill/${skill.id}`));
         })
@@ -74,7 +74,8 @@ export class SkillContainer extends Component {
                                 name={skill.description.name}
                                 desc={skill.description.desc}
                                 shortDesc={skill.description.shortDesc}
-                                properties={skill.properties} 
+                                properties={skill.properties}
+                                levelProperties={skill.levelProperties}
                                 maxLevel={skill.properties.maxLevel}/>
                         </div>)
                 }

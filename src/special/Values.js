@@ -235,7 +235,7 @@ export const commonFifth = {
     },
     freudsWisdom:{
         "name": "Freud's Wisdom",
-        "shortDesc": " MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Knockback Resistance: +75%\\nStack 3 - All Stats: +50\\nStack 4 - Attack Power & Magic ATT: +22\\nStack 5 - Boss Damage: +22%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires (including character death) or max stack count is reached.",
+        "shortDesc": "MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Knockback Resistance: +75%\\nStack 3 - All Stats: +50\\nStack 4 - Attack Power & Magic ATT: +22\\nStack 5 - Boss Damage: +22%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires (including character death) or max stack count is reached.",
         "id": 400001024,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015"],
         "animations": ["https://orangemushroom.files.wordpress.com/2016/12/freuds-blessing-6-effect.gif?w=1000&h="],
@@ -244,6 +244,46 @@ export const commonFifth = {
         "details": [
             "Using the skill again will add an additional stack to the buff",
             "Has a cooldown between each stack (25 secs)"
+        ]
+    },
+    resistanceInfantry:{
+        "name": "Resistance Infantry",
+        "shortDesc": "MP Cost: 650, Duration: 10 sec, Damage: 415%, Number of Attacks: 9, Max Enemies Hit: 12\\nCooldown: 25 sec",
+        "id": 400001019,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Resistance_Infantry.png/revision/latest?cb=20170625170734"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/resistance-line-infantry-attack-effect.gif?w=1000&h="],
+        "type": "Summon",
+        "desc": "A squad of Resistance infantry fires waves of bullets at enemies",
+        "details": [
+            "Unaffected by Damage Reflect"
+        ]
+    },
+    defenderOfTheDemon:{
+        "name": "Defender of the Demon",
+        "shortDesc": "Consumes 20% of Max HP to summon Mastema for 55 sec.\\nCooldown: 150 sec\\nMastema uses the following skills at her own discretion:\\nMastema's Claw - Max Enemies Hit: 8, Damage: 1000%, Number of Attacks: 8, Cooldown: 4 sec\\nMastema's Mark - Damage Taken: -22% (Including attacks inflicting damage proportional to Max HP), Max Uses: 2, Duration: 6 sec. Mastema's Mark vanishes when duration ends or max uses is reached. Cooldown: 10 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Defender_of_the_Demon.png/revision/latest?cb=20170625165445"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/call-mastema-move-effect.gif?w=303&h=243", "https://orangemushroom.files.wordpress.com/2016/12/call-mastema-mastema-claw-effect.gif?w=1000&h="],
+        "type": "Summon",
+        "desc": "Summons Mastema to fight by your side",
+        "details": [
+            "Mastema has two different skills:<ul><li><strong>[Mastema's Claw]</strong>: Mastema attacks by clawing forward</strong></li><li><strong>[Mastema's Mark]</strong>: Mastema grants a buff that increases %Damage Reduction (including %Max HP attacks)<ul><li>Mastema will use this skill up to two times</li><li>Buff vanishes when duration ends or max uses is reached</li></li></ul>",
+            "Unaffected by Damage Reflect"
+        ]
+    },
+    otherworldGoddessBlessing:{
+        "name": "Otherworld Goddess's Blessing",
+        "shortDesc": "HP Cost: 5% of Max HP, increases Final Damage by 10% for 40 sec. Periodically casts various blessings or attacks. Previous blessings disappear when a new blessing is cast.\\nBlessing of Recovery : Restores 27% of the your character's max DF/PP/HP. Heals through status effects that prevent health recovery, aside from in Ghost Park.\\nAegis Blessing: Damage Taken: -70% (Triggers once, includes damage proportional to Max HP.)\\nBlessing of Fortitude: Ignores one debilitating status effect.\\nOtherwordly Void: Max Enemies Hit: 12, Damage: 2400%, Number of Attacks: 12\\nCooldown: 120 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Otherworld_Goddess%27s_Blessing.png/revision/latest?cb=20191116025124"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/recoverys-blessing.gif?w=700&h="],
+        "type": "Buff",
+        "desc": "Increases your %Final Damage while periodically providing various buffs ",
+        "details": [
+            "<strong>[Blessing of Recovery]: </strong>Restores some %Max HP regardless of any effects preventing HP recovery",
+            "<strong>[Aegis Blessing]</strong>: Reduces damage taken once, including %Max HP damage but, triggers only once per buff",
+            "<strong>[Blessing of Fortitude]: </strong>Ignores one movement-restricting Abnormal Status",
+            "<strong>[Otherworldly Void]: </strong>Damages nearby enemies"
         ]
     },
     weaponAura:{
