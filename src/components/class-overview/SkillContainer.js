@@ -22,6 +22,7 @@ export class SkillContainer extends Component {
     
         //SkillContainer holds all the required skills we need to render in skillData
         //Their data will be stored in retrievedData after it has been fetched
+        //Loading is used to display loading image
         this.state = {
              retrievedData: [],
              skillData: props.skillData,
@@ -34,23 +35,36 @@ export class SkillContainer extends Component {
         this._isMounted = true;
         //Array to hold all our requests that we will execute in one call
         const request = [];
+        //Array to hold all retrieved skill data
+        const retrievedHolder = [];
+        //Array to store offline skills temporarily to insert into retrievedHolder at the end
+        const offlineHolder = [];
+
         axiosRetry(axios, { retries: 5 }); //Retries request up to 5 times if request fails
-        skillData.forEach(skill => {
-            request.push(axios.get(`https://maplestory.io/api/GMS/${version}/job/skill/${skill.id}`));
+        //If skill has "offline" tag in JSON file, don't retrieve it from API and push it into the offlineHolder instead
+        skillData.forEach( (skill, index) => {
+            if(!skill.offline){
+                request.push(axios.get(`https://maplestory.io/api/GMS/${version}/job/skill/${skill.id}`));
+            }
+            else{
+                offlineHolder.push([skill, index]);
+            }
         })
-        //Execute all calls then store the response data in an array and store it in the state
+        //Execute all calls then store the response data in retrievedHolder
         axios.all(request)
             .then(response => {
-                const skillData = [];
-                response.forEach(it => skillData.push(it.data));
+                response.forEach(it => retrievedHolder.push(it.data));
+                //Push all offline skills into their correct positions
+                offlineHolder.forEach( skill => retrievedHolder.splice(skill[1], 0, skill[0]));
                 if(this._isMounted){
                     this.setState({
-                        retrievedData: skillData,
+                        retrievedData: retrievedHolder,
                         loading: false
                     });
                 }
             })
             .catch(err => console.log(err));
+
     }
 
     componentWillUnmount(){
@@ -68,16 +82,27 @@ export class SkillContainer extends Component {
                 <div>
                 {
                     retrievedData.map((skill, index) => 
-                        <div key={skill.description.id}>
-                            <SkillInfo 
-                                skillData={this.state.skillData[index]}
-                                name={skill.description.name}
-                                desc={skill.description.desc}
-                                shortDesc={skill.description.shortDesc}
-                                properties={skill.properties}
-                                levelProperties={skill.levelProperties}
-                                maxLevel={skill.properties.maxLevel}/>
-                        </div>)
+                        skill.offline ?
+                            <div key={index}>
+                                <SkillInfo 
+                                    skillData={skill}
+                                    name={skill.name}
+                                    properties={{}}
+                                    shortDesc={skill.shortDesc}
+                                    maxLevel={skill.maxLevel}/>
+                            </div>
+                        :
+                            <div key={index}>
+                                <SkillInfo 
+                                    skillData={this.state.skillData[index]}
+                                    name={skill.description.name}
+                                    desc={skill.description.desc}
+                                    shortDesc={skill.description.shortDesc}
+                                    properties={skill.properties}
+                                    levelProperties={skill.levelProperties}
+                                    maxLevel={skill.properties.maxLevel}/>
+                            </div>
+                    )
                 }
                 <Button variant="link"><Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button"/></Link></Button>
                 </div>
@@ -109,6 +134,8 @@ export function VSkillContainer({skillData}) {
         </div>
     );
 }
+
+//Used to scroll to #skill anchor
 
 const scrollWidthOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;

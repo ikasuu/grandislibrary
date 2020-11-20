@@ -243,7 +243,8 @@
                         "type": "Summon Heal",
                         "desc": "Places down a fountain which party members can press the Up Arrow Key to restore some %Max HP",
                         "details": [
-                            "Has a set number of uses before the fountain disappears"
+                            "Has a set number of uses before the fountain disappears",
+                            "Unaffected by cooldown resets"
                         ]
                     },
                     {
@@ -343,11 +344,10 @@
                     "id": 2321001,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945"],
                     "animations": ["https://media.giphy.com/media/SWuxjdO9dfZN40KUzA/giphy.gif"],
-                    "type": "Key-down Attack",
-                    "desc": "Pressing the Skill Key, will gather energy to release an explosion",
+                    "type": "Attack",
+                    "desc": "Releases a holy explosion around you that damages and debuffs nearby enemies ",
                     "details": [
-                        "If charged fully, enemies hit will gain a stacking debuff<ul><li><strong>[Debuff]: </strong>Decreases %DEF</li></ul>",
-                        "While Genesis is on cooldown, <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945' alt='Skill Big Bang' width='32' height='32' /> can be casted immediately without charging"
+                        "<strong>[Debuff]: </strong>Decreases %DEF<ul><li>Can stack up to 4 times</li></ul>"
                     ]
                 },
                 {

@@ -26,30 +26,29 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
             If there are any details to accompany the description we include it below - it is also parsed and sanitized
 
             The last component, Card.Subtitle contains our skill's short desc provided by an API
+
         */
         return (
-            <div>
-                <Card className="skill-body">
-                    <Card.Body>
-                        {skillData.animations && skillData.animations.map( (animation, index) => <SkillAnimation key={index} animation={animation} name={name}/>
-                        )}
-                        <Card.Title>
-                            {skillData.icons.map(( icon, index) => <img key={index} className="icon" src={icon} alt=""/>)}<strong className="skill-name">{name}</strong>
-                            <Badge variant="secondary" className="badge">{skillData.type}</Badge>
-                            {skillData.reqLev && <Badge variant="secondary" className="badge">Lv. {skillData.reqLev}</Badge>}
-                        </Card.Title>
-                        <Card.Subtitle className="master-level"><em>Master Level: {maxLevel}</em></Card.Subtitle>
-                        {skillData.desc && <Card.Text>{parse(DOMPurify.sanitize(skillData.desc))}</Card.Text>}
-                        {skillData.details && <div className="skill-detail"><ul>{skillData.details.map( (detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></div>}
-                        {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
-                        {/* Lastly, we split the string into multiple parts where new lines are needed */}
-                        <div>{
-                            shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replaceAll('#c', '').replaceAll('#z', '0').replaceAll('#', '').replaceAll('mpCon', '0').replaceAll('\\r', '').split('\\n').map(str =>
-                                <Card.Subtitle as="p" className="mb-2 text-muted short-desc">{str}</Card.Subtitle>) : null
-                        }</div>
-                    </Card.Body>
-                </Card>
-            </div>
+            <Card className="skill-body">
+                <Card.Body>
+                    {skillData.animations && skillData.animations.map( (animation, index) => <SkillAnimation key={index} animation={animation} name={name}/>
+                    )}
+                    <Card.Title>
+                        {skillData.icons.map(( icon, index) => <img key={index} className="icon" src={icon} alt=""/>)}<strong className="skill-name">{name}</strong>
+                        <Badge variant="secondary" className="badge">{skillData.type}</Badge>
+                        {skillData.reqLev && <Badge variant="secondary" className="badge">Lv. {skillData.reqLev}</Badge>}
+                    </Card.Title>
+                    <Card.Subtitle className="master-level"><em>Master Level: {maxLevel}</em></Card.Subtitle>
+                    {skillData.desc && <Card.Text>{parse(DOMPurify.sanitize(skillData.desc))}</Card.Text>}
+                    {skillData.details && <div className="skill-detail"><ul>{skillData.details.map( (detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></div>}
+                    {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
+                    {/* Lastly, we split the string into multiple parts where new lines are needed */}
+                    <div>{
+                        shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replaceAll('#c', '').replaceAll('#z', '0').replaceAll('#', '').replaceAll('mpCon', '0').replaceAll('\\r', '').split('\\n').map(str =>
+                            <Card.Subtitle as="p" className="mb-2 text-muted short-desc">{str}</Card.Subtitle>) : null
+                    }</div>
+                </Card.Body>
+            </Card>
         );
 }
 
