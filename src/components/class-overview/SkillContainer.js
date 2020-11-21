@@ -11,7 +11,8 @@ import { version, loadingImage } from '../../special/Values';
 */
 
 /*
-    Skill container that will hold all our skills. Additionally makes the API calls to retrieve data
+    Skill container that will hold all our skills
+    Responsible for getting all skill data in order such as retrieving from API and combining with offline data if needed
     Created by: Ikasuu, Fall 2020
 */
 
@@ -113,7 +114,7 @@ export class SkillContainer extends Component {
 }
 
 /*
-    Skill container that will hold all our skills. Additionally makes the API calls to retrieve data
+    Skill container for 5th job skills, retrieved info from JSON instead of API (offline skills)
     Created by: Ikasuu, Fall 2020
 */
 
