@@ -329,7 +329,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 1000, Consumes HP for jobs that do not utilize MP. Summons two Sengoku warriors. Summon Duration: 42 sec, Cooldown: 120 sec.\\n[Uesugi Kenshin] Damage: 500%, Max Enemies Hit: 8, Number of Attacks: 4, Ignore Defense +20%\\n[Tsuchimikado Haruaki] Damage: 405%, Max Enemies Hit: 8, Number of Attacks: 5, Damage Taken -15%\\n[Ayame] Damage: 1170%, Max Enemies Hit: 8, Number of Attacks: 2, Critical Damage +15%\\n[Takeda Shingen] Damage: 820%, Max Enemies Hit: 8, Number of Hits: 3, Attack Power +30, Magic ATT +30",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Sengoku_Force%2C_Assemble%21.png/revision/latest?cb=20170628223223"],
-        "animations": ["https://media.giphy.com/media/hTld30idSlyOcNfX0o/giphy.gif"],
+        "animations": ["https://media2.giphy.com/media/hdOUEr0bUns5nRa0pR/giphy.gif"],
         "type": "Summon",
         "desc": "Randomly summons two Sengoku heroes to fight alongside you while providing a buff",
         "details": [
@@ -344,7 +344,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 13%\\nPeriodical Bonus Final Damage Increase: 3%\\nPrincess Sakuno's Blessing will increase final damage by up to 48%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Princess_Sakuno%27s_Blessing.png/revision/latest?cb=20191122065037"],
-        "animations": ["https://media.giphy.com/media/jt3iNMnDxyU5Poi48u/giphy.gif"],
+        "animations": ["https://media1.giphy.com/media/5trU6eJgfy60uoDzH2/giphy.gif"],
         "type": "Buff",
         "desc": "Increases %Final Damage",
         "details": [
