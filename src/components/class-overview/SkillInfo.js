@@ -44,7 +44,7 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
                     {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
                     {/* Lastly, we split the string into multiple parts where new lines are needed */}
                     <div>{
-                        shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replaceAll('#c', '').replaceAll('#z', '0').replaceAll('#', '').replaceAll('mpCon', '0').replaceAll('\\r', '').split('\\n').map(str =>
+                        shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replaceAll('#c', '').replaceAll('#z', '0').replaceAll('#', '').replaceAll('mpCon', '0').replaceAll('\\r', '').replaceAll('\\N', '\\n').split('\\n').map(str =>
                             <Card.Subtitle as="p" className="mb-2 text-muted short-desc">{str}</Card.Subtitle>) : null
                     }</div>
                 </Card.Body>
@@ -61,9 +61,9 @@ function getValsFromProperties(properties, maxLevel){
     const valProperties = {};
     //For each property have the key in valProperties the same as arrayProperties and the value our evaluated expression
     arrayProperties.forEach(it =>{
-        //A simple check to omit non expressions
-        if(!it[1].includes(']') && it[0] !== 'action'){
-            valProperties[it[0]] = (Parser.evaluate(it[1], { x: maxLevel, d: Math.floor, u: Math.ceil}));
+        //If statement to omit non expressions
+        if(!it[1].includes(']') && it[0] !== 'action' && it[0] != 'memo_PL' && it[1] != 'Image<Rgba32>: 32x32'){
+            valProperties[it[0]] = (Parser.evaluate(it[1], { x: maxLevel, d: Math.floor, u: Math.ceil, y: 1}));
         }
     });
     //Required to convert any milliseconds cooldowns into seconds cooldowns else we will have wrong cooldowns (like 500 secs instead of 0.5 secs)  

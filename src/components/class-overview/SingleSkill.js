@@ -37,12 +37,10 @@ class SingleSkill extends Component {
                 if(this._isMounted){
                     const skillData = [];
                     skillData.push(response.data);
-                    if(this._isMounted){
-                        this.setState({
-                            retrievedData: skillData,
-                            loading: false
-                        });
-                    }
+                    this.setState({
+                        retrievedData: skillData,
+                        loading: false
+                    });
                 }
             })
             .catch(err => console.log(err));

@@ -79,7 +79,7 @@ export class SkillContainer extends Component {
         return (
             <div>
             {
-                loading ? <div style={{margin: '2rem 40% 2rem 40%'}}><Image src={loadingImage}/><div style={{paddingLeft: '0.5rem'}}>Loading!</div></div> : 
+                loading ? <div style={{margin: '2rem 0% 2rem 45%'}}><Image src={loadingImage}/><div style={{paddingLeft: '0.5rem'}}>Loading!</div></div> : 
                 <div>
                 {
                     retrievedData.map((skill, index) => 
@@ -93,6 +93,7 @@ export class SkillContainer extends Component {
                                     maxLevel={skill.maxLevel}/>
                             </div>
                         :
+                        //Offline skills require fetching all their info from json file instead
                             <div key={index}>
                                 <SkillInfo 
                                     skillData={this.state.skillData[index]}

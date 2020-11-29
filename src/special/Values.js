@@ -4,8 +4,8 @@
 */
 
 //Latest version of GMS
-export const version = 217; 
-export const versionName = "Sengoku Returns: Asura War Update"
+export const version = 218; 
+export const versionName = "Awake Update"
 
 export const loadingImage = "https://maplestory.io/api/GMS/216/mob/2600302/render/stand";
 
@@ -54,7 +54,7 @@ export const weapons = {
     handCannon: [`https://maplestory.io/api/GMS/${version}/item/1532010/icon`, "Hand Cannon"],
     whipBlade: [`https://maplestory.io/api/GMS/${version}/item/1242010/icon`, "Whip Blade"],
     desperado: [`https://maplestory.io/api/GMS/${version}/item/1232007/icon`, "Desperado"],
-    katana: [`https://maplestory.io/api/GMS/${version}/item/1542003/icon`, "Katana"],
+    katana: [`https://maplestory.io/api/GMS/${version}/item/1542040/icon`, "Katana"],
     fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552015/icon`, "Fan"],
     scepter: [`https://maplestory.io/api/GMS/${version}/item/1252006/icon`, "Scepter"],
     psyLimiter: [`https://maplestory.io/api/GMS/${version}/item/1262011/icon`, "Psy-limiter"],
@@ -106,7 +106,7 @@ export const secondaryWeapons = {
     dragonEssence: [`https://maplestory.io/api/GMS/${version}/item/1352503/icon`, "Dragon Essence"],
     warpForge: [`https://maplestory.io/api/GMS/${version}/item/1353303/icon`, "Warp Forge"],
     soulRing: [`https://maplestory.io/api/GMS/${version}/item/1352604/icon`, "Soul Ring"],
-    fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552015/icon`, "Haku Fan"],
+    fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552009/icon`, "Haku Fan"],
     kodachi: [`https://maplestory.io/api/GMS/${version}/item/1352803/icon`, "Kodachi"],
     whistle: [`https://maplestory.io/api/GMS/${version}/item/1352813/icon`, "Whistle"],
     chessPiece: [`https://maplestory.io/api/GMS/${version}/item/1353203/icon`, "Chess Piece"],
@@ -278,12 +278,78 @@ export const commonFifth = {
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Otherworld_Goddess%27s_Blessing.png/revision/latest?cb=20191116025124"],
         "animations": ["https://orangemushroom.files.wordpress.com/2019/06/recoverys-blessing.gif?w=700&h="],
         "type": "Buff",
-        "desc": "Increases your %Final Damage while periodically providing various buffs ",
+        "desc": "Increases your %Final Damage while periodically providing various buffs",
         "details": [
             "<strong>[Blessing of Recovery]: </strong>Restores some %Max HP regardless of any effects preventing HP recovery",
             "<strong>[Aegis Blessing]</strong>: Reduces damage taken once, including %Max HP damage but, triggers only once per buff",
             "<strong>[Blessing of Fortitude]: </strong>Ignores one movement-restricting Abnormal Status",
             "<strong>[Otherworldly Void]: </strong>Damages nearby enemies"
+        ]
+    },
+    mightOfTheNova:{
+        "name": "Might of the Nova",
+        "shortDesc": "HP Cost: 20% of Max HP, Max Enemies Hit: 15, Damage: 4000%, Number of Attacks: 10\\nBuff: After use, you are protected from fatal blows for 900 sec.\\nCooldown: 1200 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202"],
+        "animations": ["https://media1.giphy.com/media/eiYA7as3sG0mA6277y/giphy.gif"],
+        "type": "Attack / Buff",
+        "desc": "Deals a massive attack to nearby enemies while granting a buff that prevents you from one fatal blow",
+        "details": [
+            "Functions exactly the same as Bishop's <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Heaven%27s_Door.png/revision/latest?cb=20120918153903' alt='Skill Heaven's Door'> Heaven's Door"
+        ]
+    },
+    grandisGoddessBlessingNV:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-nova.gif?w=600"],
+        "type": "Buff",
+        "desc": "Skills have a chance to not have a cooldown",
+        "details": [
+            "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)",
+            "Additionally grants %Damage and 100% Knockback Resistance"
+        ]
+    },
+    grandisGoddessBlessingKAI:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-nova.gif?w=600"],
+        "type": "Buff",
+        "desc": "Skills have a chance to not have a cooldown",
+        "details": [
+            "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)",
+            "Additionally grants %Damage and 100% Knockback Resistance"
+        ]
+    },
+    sengokuForce:{
+        "name": "Sengoku Force, Assemble!",
+        "shortDesc": "MP Cost: 1000, Consumes HP for jobs that do not utilize MP. Summons two Sengoku warriors. Summon Duration: 42 sec, Cooldown: 120 sec.\\n[Uesugi Kenshin] Damage: 500%, Max Enemies Hit: 8, Number of Attacks: 4, Ignore Defense +20%\\n[Tsuchimikado Haruaki] Damage: 405%, Max Enemies Hit: 8, Number of Attacks: 5, Damage Taken -15%\\n[Ayame] Damage: 1170%, Max Enemies Hit: 8, Number of Attacks: 2, Critical Damage +15%\\n[Takeda Shingen] Damage: 820%, Max Enemies Hit: 8, Number of Hits: 3, Attack Power +30, Magic ATT +30",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c7/Skill_Sengoku_Force%2C_Assemble%21.png/revision/latest?cb=20170628223223"],
+        "animations": ["https://media.giphy.com/media/hTld30idSlyOcNfX0o/giphy.gif"],
+        "type": "Summon",
+        "desc": "Randomly summons two Sengoku heroes to fight alongside you while providing a buff",
+        "details": [
+            "<strong><img class='' src='https://maplestory.io/api/GMS/210.1.1/npc/9130005/icon' width='51' height='65' data-v-69bdc78a='' />[Uesugi Kenshin]: </strong>Slashes her blade at nearby enemies<ul><li>Increases %Ignore DEF</li></ul>",
+            "<strong><img class='' src='https://maplestory.io/api/GMS/210.1.1/npc/9130007/icon' width='61' height='93' data-v-69bdc78a='' />[Tsuchimikado Haruaki]: </strong>Swings his fan creating a wave of magic<ul><li>Increases %Damage Reduction</li></ul>",
+            "<strong><img class='' src='https://maplestory.io/api/GMS/210.1.1/npc/9000425/icon' width='55' height='74' data-v-69bdc78a='' />[Ayame]: </strong>Shoots her rifle forward<ul><li>Increases %Crit Damage</li></ul>",
+            "<img class='' src='https://maplestory.io/api/GMS/210.1.1/npc/9000427/icon' width='72' height='76' data-v-69bdc78a='' />[Takeda Shingen]: </strong>Flags strike down on nearby enemies<ul><li>Increases Attack and Magic Attack</li></ul>"
+        ]
+    },
+    princessSakunoBlessing:{
+        "name": "Princess Sakuno's Blessing",
+        "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 13%\\nPeriodical Bonus Final Damage Increase: 3%\\nPrincess Sakuno's Blessing will increase final damage by up to 48%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nCooldown: 240 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1a/Skill_Princess_Sakuno%27s_Blessing.png/revision/latest?cb=20191122065037"],
+        "animations": ["https://media.giphy.com/media/jt3iNMnDxyU5Poi48u/giphy.gif"],
+        "type": "Buff",
+        "desc": "Increases %Final Damage",
+        "details": [
+            "The amount of %Final Damage provided increases periodically",
+            "While active, prevents 1 Abnormal Status"
         ]
     },
     weaponAura:{

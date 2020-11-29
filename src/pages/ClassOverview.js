@@ -13,7 +13,7 @@ export class ClassOverview extends Component {
         super(props)
     
         this.state = {
-            fetchedData: {},
+            data: {},
             loading: true,
             fail: false
         }

@@ -16,6 +16,7 @@ const Classes = lazy(() => import('./pages/Classes'));
 const ClassOverview = lazy(() => import('./pages/ClassOverview'));
 const Events = lazy(() => import('./pages/Events'));
 const Resources = lazy(() => import('./pages/Resources'));
+const DamageSkin = lazy(() => import('./pages/DamageSkin'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
                   <Route path="/classes" component={Classes}/>
                   <Route path="/events" component={Events}/>
                   <Route path="/resources" component={Resources}/>
+                  <Route path="/damage-skin" component={DamageSkin}/>
                   <Route component={NotFound}/>
                 </Switch>
               </Suspense>
