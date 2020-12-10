@@ -25,6 +25,11 @@ a{
   text-decoration: none !important;
 }
 
+footer{
+  margin-top: 5rem;
+  padding-bottom: 2.5rem;
+}
+
 /* For all items in navbar */
 .nav-props{
   text-decoration: none !important;
@@ -90,6 +95,17 @@ a{
 .navbar-toggler {
   outline: none !important;
   border: none !important;
+}
+
+/* For footer purposes, we wrap everything in a container + flexbox */
+#container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#main-content {
+  flex: 1;
 }
 
 /* React CSS below, place all custom CSS above */

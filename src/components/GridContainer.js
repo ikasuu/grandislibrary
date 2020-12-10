@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/grid-item.css';
 import HeaderImageUrl from '../special/Values';
 import GridItem from '../components/GridItem';
 

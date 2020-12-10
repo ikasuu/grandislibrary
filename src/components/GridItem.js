@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/grid-item.css';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 

@@ -158,6 +158,15 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 1 !important;
   }
 
+  //Swiper related
+  .swiper-scrollbar{
+    background: ${props => props.theme.mode === 'dark' ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)'} !important;
+  }
+
+  .swiper-scrollbar-drag{
+    background: ${props => props.theme.mode === 'dark' ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)'} !important;
+  }
+
   `;
   
 //Get user's preferred site theme, if none, default is 'dark'

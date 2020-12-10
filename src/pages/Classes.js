@@ -42,6 +42,7 @@ function Classes() {
                                     height={176}
                                     alt={job[1]}
                                     src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                                <div className="class-overlay"/>
                             </Figure>
                         </Link>
                     )}
@@ -56,6 +57,7 @@ function Classes() {
                                     height={176}
                                     alt={job[1]}
                                     src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                                <div className="class-overlay"/>
                             </Figure>
                         </Link>
                     )}
@@ -70,6 +72,7 @@ function Classes() {
                                     height={176}
                                     alt={job[1]}
                                     src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                                <div className="class-overlay"/>
                             </Figure>
                         </Link>
                     )}
@@ -84,6 +87,7 @@ function Classes() {
                                     height={176}
                                     alt={job[1]}
                                     src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                                <div className="class-overlay"/>
                             </Figure>
                         </Link>
                     )}
@@ -98,6 +102,7 @@ function Classes() {
                                     height={176}
                                     alt={job[1]}
                                     src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                                <div className="class-overlay"/>
                             </Figure>
                         </Link>
                     )}
@@ -112,6 +117,7 @@ function Classes() {
                                     height={176}
                                     alt={job[1]}
                                     src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                                <div className="class-overlay"/>
                             </Figure>
                         </Link>
                     )}
@@ -127,6 +133,7 @@ function Classes() {
                                     height={176}
                                     alt={job[1]}
                                     src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                                <div className="class-overlay"/>
                             </Figure>
                         </Link>
                     )}

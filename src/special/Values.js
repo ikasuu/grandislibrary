@@ -59,7 +59,6 @@ export const weapons = {
     scepter: [`https://maplestory.io/api/GMS/${version}/item/1252006/icon`, "Scepter"],
     psyLimiter: [`https://maplestory.io/api/GMS/${version}/item/1262011/icon`, "Psy-limiter"],
     armCannon: [`https://maplestory.io/api/GMS/${version}/item/1582025/icon`, "Arm Cannon"],
-    heavySword: [`https://maplestory.io/api/GMS/${version}/item/1562007/icon`, "Beta - Heavy Sword"],
     longSword: [`https://maplestory.io/api/GMS/${version}/item/1572007/icon`, "Alpha - Long Sword"],
     chain: [`https://maplestory.io/api/GMS/${version}/item/1272005/icon`, "Chain"],
     lucentGauntlet: [`https://maplestory.io/api/GMS/${version}/item/1282028/icon`, "Lucent Gauntlet"],
@@ -98,6 +97,7 @@ export const secondaryWeapons = {
     orb: [`https://maplestory.io/api/GMS/${version}/item/1352403/icon`, "Orb"],
     foxMarble: [`https://maplestory.io/api/GMS/${version}/item/1353103/icon`, "Fox Marble"],
     charge: [`https://maplestory.io/api/GMS/${version}/item/1353403/icon`, "Charge"],
+    heavySword: [`https://maplestory.io/api/GMS/${version}/item/1562007/icon`, "Beta - Heavy Sword"],
     magicMarble: [`https://maplestory.io/api/GMS/${version}/item/1352952/icon`, "Magic Marble"],
     arrowhead: [`https://maplestory.io/api/GMS/${version}/item/1352962/icon`, "Arrowhead"],
     magnum: [`https://maplestory.io/api/GMS/${version}/item/1352703/icon`, "Magnum"],
@@ -110,7 +110,7 @@ export const secondaryWeapons = {
     kodachi: [`https://maplestory.io/api/GMS/${version}/item/1352803/icon`, "Kodachi"],
     whistle: [`https://maplestory.io/api/GMS/${version}/item/1352813/icon`, "Whistle"],
     chessPiece: [`https://maplestory.io/api/GMS/${version}/item/1353203/icon`, "Chess Piece"],
-    lucentWings: [`https://maplestory.io/api/GMS/${version}/item/1353503/icon`, "Lucent Wings"],
+    lucentWings: [`https://maplestory.io/api/GMS/${version}/item/1353502/icon`, "Lucent Wings"],
     abyssalPath: [`https://maplestory.io/api/GMS/${version}/item/1353603/icon`, "Abyssal Path"],
     relic: [`https://maplestory.io/api/GMS/${version}/item/1353703/icon`, "Relic"],
     fanTassel: [`https://maplestory.io/api/GMS/${version}/item/1353803/icon`, "Fan Tassel"],
@@ -305,7 +305,7 @@ export const commonFifth = {
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
         "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-nova.gif?w=600"],
         "type": "Buff",
-        "desc": "Skills have a chance to not have a cooldown",
+        "desc": "While active, skills have a chance to not have a cooldown",
         "details": [
             "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)",
             "Additionally grants %Damage and 100% Knockback Resistance"
@@ -318,11 +318,33 @@ export const commonFifth = {
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
         "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-nova.gif?w=600"],
         "type": "Buff",
-        "desc": "Skills have a chance to not have a cooldown",
+        "desc": "While active, skills have a chance to not have a cooldown",
         "details": [
             "You can only ignore a cooldown up to 5 - 6 times (depending on Skill Level)",
             "Additionally grants %Damage and 100% Knockback Resistance"
         ]
+    },
+    grandisGoddessBlessingFL:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-lef.gif?w=600"],
+        "type": "Buff",
+        "desc": "While active, a percent of your equipment's Attack or Magic Attack will be converted to the one you use",
+        "details": [
+            "Excludes your Primary Weapon and Set Bonus Effects",
+            "Converted bonus cannot exceed 150% of your weapon's base Attack/Magic Attack"
+        ]
+    },
+    grandisGoddessBlessingHY:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-anima.gif?w=600"],
+        "type": "Buff",
+        "desc": "While active, increases %Damage, 100% Knockback Resistance and Talisman and Scroll Power charge rate "
     },
     sengokuForce:{
         "name": "Sengoku Force, Assemble!",
@@ -350,6 +372,31 @@ export const commonFifth = {
         "details": [
             "The amount of %Final Damage provided increases periodically",
             "While active, prevents 1 Abnormal Status"
+        ]
+    },
+    conversionOverdrive:{
+        "name": "Conversion Overdrive",
+        "shortDesc": "MP Cost: 15% of Max MP, Duration: 55 sec, Damage increases up to 45% depending on current MP proportions, Damage increase reset when Spell Storm occurs.\\nWhen using attack skill, activates a Spell Storm. Spell Storm MP Cost: additional 150 per 4 sec, Spell Storm Max Enemies Hit: 6, Spell Storm Damage: 1000%, Spell Storm Number of Attacks: 3\\nCooldown: 200 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Conversion_Overdrive.png/revision/latest?cb=20180701142936"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2017/12/magic-circuit-full-drive-effect.gif?w=1000&h="],
+        "type": "Buff",
+        "desc": "Increases your %Damage in proportion to your current MP",
+        "details": [
+            "When attacking, you will periodically trigger a Spell Storm damaging nearby enemies<ul><li>The %Damage buff will be recalculated every time Spell Storm is activated</li></ul>"
+        ]
+    },
+    transcendentRhinnePrayer:{
+        "name": "Transcendent Rhinne's Prayer",
+        "shortDesc": "Time Force Cost: 30, resets cooldowns for all skills.\\nDuration: 42 sec, Attack Power: +85. When Doubletime stacks, gives a buff that creates additional attack with 250% damage and 5 additional attacks to enemies you attack with your skills.\\n Additional hit buff disappears when additional attacks occurs, or if Transcendent Rhinne's Prayer ends.\\nDoubletime and Immune Barrier last for their maximum duration.\\nCooldown: 240 sec",
+        "id": 400001013,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Transcendent_Rhinne%27s_Prayer.png/revision/latest?cb=20191122065038"],
+        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/rhinnes-blessing-effect.gif?w=600"],
+        "type": "Buff",
+        "desc": "When <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044' alt='Skill Doubletime'/> stacks, your next attack creates an additional attack",
+        "details": [
+            "When used, skill cooldowns are reset",
+            "Additionally while active, <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044' alt='Skill Doubletime'/> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Immune_Barrier.png/revision/latest?cb=20140107033613' alt='Skill Immune Barrier'/> last for their maximum duration"
         ]
     },
     weaponAura:{

@@ -53,14 +53,14 @@ export function SkillTab({primary, fifth, hyper, hyperSkillBuild, nodeInfo}) {
           <VSkillContainer skillData={fifth.fifthMain}/>
           <Button variant="link"><Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button"/></Link></Button>
         </Tab>
-        <Tab eventKey="hyper" title="Hyper Skills">
+        {hyper && <Tab eventKey="hyper" title="Hyper Skills">
           <h3>Passive Build</h3>
           {parse(DOMPurify.sanitize(hyperSkillBuild.recommended))}
           <h3>Passive Skills</h3>
           <SkillContainer skillData={hyper.hyperPassive}/>
           <h3>Active Skills</h3>
           <SkillContainer skillData={hyper.hyperActive}/>
-        </Tab>
+        </Tab>}
       </Tabs>
     </Container>
   );
