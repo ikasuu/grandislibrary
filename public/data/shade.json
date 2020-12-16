@@ -67,7 +67,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirit_Mastery.png/revision/latest?cb=20140921055806' alt='Skill Fire Fox Spirit Mastery' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_High_Quality_Knuckle_Mastery.png/revision/latest?cb=20140921055823' alt='Skill High Quality Knuckle Mastery' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Critical_Insight.png/revision/latest?cb=20140921055826' alt='Skill Critical Insight' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Spirit_Bond_4.png/revision/latest?cb=20140921055817' alt='Skill Spirit Bond 4' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Bomb_Punch.png/revision/latest?cb=20140921055737' alt='Skill Bomb Punch' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Spirit_Ward.png/revision/latest?cb=20140921055801' alt='Skill Spirit Ward' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/15/Skill_Soul_Splitter.png/revision/latest?cb=20140921055756' alt='Skill Soul Splitter' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Death_Mark.png/revision/latest?cb=20140921055750' alt='Skill Death Mark' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744' alt='Skill Spirit Claw' width='32' height='32'>"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
             ]
@@ -87,7 +87,7 @@
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build", "Mahkii"],
-            ["Common 5th Job Skills Animation", "OrangeMushroom"]
+            ["5th Job Skills Animations", "KyoWantsCute"]
         ]
     },
     "skill": {
@@ -500,6 +500,20 @@
                     "desc": "Periodically when using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c8/Skill_Spirit_Claw.png/revision/latest?cb=20140921055744' alt='Skill Spirit Claw'>, the true form of the skill will appear, attacking enemies in a bigger radius",
                     "details": [
                         "The skill also gains additional %Ignore DEF"
+                    ]
+                },
+                {
+                    "name": "Smashing Multipunch",
+                    "shortDesc": "MP Cost: 60. Consecutively attacks up to 10 enemies with 800% damage 5 time(s) during key-down.\\nMax Key-down Time: 1.3 sec\\nUpon end of key-down, a final shock attack that attacks 10 enemies with 1900% damage 15 time(s) is activated 3 time(s). Upon successful hits of the final attack, 15 additional Fox Spirits are summoned.\\nDuring Smashing Multipunch, any attacks that inflict damage proportional to Max HP will suffer a -50% penalty to damage. Fox Spirits have a 100% chance to appear upon each successful hit.\\nCooldown: 90 sec",
+                    "id": 400031028,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/smashing-chain-punch.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/KWxcfr56yN8aP9vpps/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Furiously punches forward before smashing down for a final attack",
+                    "details": [
+                        "The final attack creates a shockwave attack and summons several <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirit_Mastery.png/revision/latest?cb=20140921055806' alt='Skill Fire Fox Spirit Mastery'> where the smash lands",
+                        "Each punch has a guaranteed chance to summon a <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Fire_Fox_Spirit_Mastery.png/revision/latest?cb=20140921055806' alt='Skill Fire Fox Spirit Mastery'>",
+                        "While casting, you gain increased %Damage Reduction against %Max HP attacks"
                     ]
                 }
             ]

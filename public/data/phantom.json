@@ -62,7 +62,7 @@
                 ["4th Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Carte_Noir.png/revision/latest?cb=20111226182327' alt='Skill Carte Noir'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Cane_Expert.png/revision/latest?cb=20111226182640' alt='Skill Cane Expert'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Priere_D%27Aria.png/revision/latest?cb=20111226182535' alt='Skill Priere D'Aria'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e7/Skill_Impeccable_Memory_IV.png/revision/latest?cb=20111226182224' alt='Skill Impeccable Memory IV'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/23/Skill_Vol_D%27Ame.png/revision/latest?cb=20111226182712' alt='Skill Vol D'Ame'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Penombre.png/revision/latest?cb=20111226182351' alt='Skill Penombre'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a2/Skill_Mille_Aiguilles.png/revision/latest?cb=20111226182135' alt='Skill Mille Aiguilles'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Tempest.png/revision/latest?cb=20111226182613' alt='Skill Tempest'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero's Will'>"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
             ]
@@ -84,7 +84,7 @@
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build", "Masterobert"],
             ["Boost Nodes Build", "GreatThiefPhantom"],
-            ["Common 5th Job Skills Animation", "OrangeMushroom"]
+            ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
             "title": "Explorer Skill Stealing",
@@ -444,7 +444,7 @@
                 {
                     "id": 24120055,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Carte_Rose_Finale.png/revision/latest?cb=20120817224100"],
-                    "animations": ["https://orangemushroom.files.wordpress.com/2012/08/rose-carte-finale-effect1.gif"],
+                    "animations": ["https://media1.giphy.com/media/PgHy6Cc6vacd11ylNU/giphy.gif"],
                     "type": "Attack",
                     "desc": "Cards rain from above leaving a damaging field of cards",
                     "reqLev": 160
@@ -496,6 +496,20 @@
                         "If there are no enemies marked, the enemy with the highed Max HP will be targeted",
                         "All hits from this skill are critical hits"
                     ]
+                },
+                {
+                    "name": "Rift Break",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 10, Damage: 800%, Number of Attacks: 7, Max Chase Cut or Teleport: 7\\nCooldown: 30 sec, cooldown is reduced by 3.5 sec per remaining teleports",
+                    "id": 400031028,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/rift-break.png?w=600"],
+                    "animations": ["https://media2.giphy.com/media/gyZW0xYCyfmnrWLg3O/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Instantly teleports to enemies and damages surrounding enemies at that location",
+                    "details": [
+                        "Up to 7 teleports will be activated<ul><li>Pressing the Skill Key early will stop the attack and reduce the cooldown based on how many teleports remain</li></ul>",
+                        "You can direct where the teleport will go by using the Arrow Keys<ul><li>Pressing the Down Arrow Key will teleport you to the furthest enemy in range</li></ul>",
+                        "Unaffected by Damage Reflect"
+                    ]
                 }
             ]
         },
@@ -523,7 +537,7 @@
             {
                 "name": "Carte Rose Finale - Hyper Skill",
                 "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Carte_Rose_Finale.png/revision/latest?cb=20120817224100"],
-                "animations": ["https://orangemushroom.files.wordpress.com/2012/08/rose-carte-finale-effect1.gif"]
+                "animations": ["https://media1.giphy.com/media/PgHy6Cc6vacd11ylNU/giphy.gif"]
             },
             {
                 "name": "Luck of the Draw - 5th Job",

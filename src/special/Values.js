@@ -132,7 +132,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 500, Increases stat bonuses for class-wide buff skills like Maple Warrior by 350% for 60 sec, Damage: +17%\\nCooldown: 180 sec",
         "id": 400001042,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/maple-world-goddess-blessing-effect.gif?w=600"],
+        "animations": ["https://media4.giphy.com/media/AV4drI0ly2fYImnP3H/giphy.gif"],
         "type": "Buff",
         "desc": "Increases the effects of <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32'> greatly and grants increased %Damage"
     },
@@ -141,7 +141,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 5% of Max HP, Creates a protective shield that blocks 20% of your Max HP as damage for 5 sec.\\nWhen the shield expires or the skill is activated again, it detonates and inflicts 1000% damage to 12 enemies 5 times.\\nYour shield must be active for at least 2 sec before it can be detonated.\\nCooldown: 15 sec",
         "id": 400001010,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Blitz_Shield.png/revision/latest?cb=20170629201925"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/blitz-shield-effect.gif?w=267&h=252"],
+        "animations": ["https://media2.giphy.com/media/0Rj4K4HNqYGsk63MyN/giphy.gif"],
         "type": "Buff",
         "desc": "Creates a shield based on your %Max HP that blocks damage",
         "details": [
@@ -153,7 +153,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 150, Uses one random skill or active Hyper Skill from 1st to 4th jobs.\\nIgnores MP cost and cooldown of selected skill. Cannot trigger unlearned skills.\\nCooldown: 10 sec\\n[Passive Effect: INT +25]",
         "id": 400001021,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/05/Skill_Unreliable_Memory.png/revision/latest?cb=20170629202924"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/unstable-memorize-effect.gif?w=600"],
+        "animations": ["https://media4.giphy.com/media/ncQEHsz4n9SUxkaU4l/giphy.gif"],
         "type": "Active",
         "desc": "Uses one random skill or active Hyper Skill from 1st to 4th Job",
         "details": [
@@ -179,7 +179,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 825%, Number of Attacks: 7\\nCooldown: 108 sec",
         "id": 400001012,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/35/Skill_Fury_of_the_Wild.png/revision/latest?cb=20190615205233"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/01/evolve-effect-fly.gif?w=700&h="],
+        "animations": ["https://media0.giphy.com/media/ZlMeLcuyoa4oW2el4Z/giphy.gif"],
         "desc": "Transforms Phoenix, Frosprey, or Shadow Raven into a more powerful form",
         "details": [
             "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Phoenix.png/revision/latest?cb=20110502142452' alt='Skill Phoenix' width='32' height='32' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Freezer.png/revision/latest?cb=20110503111203' alt='' /> <img class='icon' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Shadow_Raven.png/revision/latest?cb=20190616015333' alt='' /> is active"
@@ -190,7 +190,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 850, Duration: 30 sec. Initiates a form of stealth that is not canceled by skills or attacks.\\nFinal Damage increased by 15% added on top of Advanced Dark Sight's Final Damage bonus.\\nCooldown: 195 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Shadow_Walker.png/revision/latest?cb=20170629203944"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/ultimate-dark-sight-effect.gif?w=600"],
+        "animations": ["https://media4.giphy.com/media/KZvjAfaZInF431yAcH/giphy.gif"],
         "type": "Buff",
         "desc": "Activates a special <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Dark_Sight.png/revision/latest?cb=20100308114826' alt='Skill Dark Sight'> where attacking will not cancel the buff",
         "details": [
@@ -202,7 +202,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 500, Summons a Pirate's Banner for 30 sec.\\nBoosts the stats of party members near the flag by 22% in any attribute they have assigned AP. Enemy DEF: -22%\\nCooldown: 35 sec",
         "id": 400001017,
         "icons": ["https://orangemushroom.files.wordpress.com/2016/12/pirate-flag.png?w=600"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/pirate-flag-effect.gif?w=600"],
+        "animations": ["https://media2.giphy.com/media/4HkGIZpk9nhjknNRFb/giphy.gif"],
         "type": "Buff Zone",
         "desc": "Increases all stats assigned APs by a percentage of party members within the zone and reduces enemy %DEF inside the zone"
     },
@@ -211,7 +211,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 500, Damage: 900%, Number of Attacks: 65\\nSpearmen disappear when the number of attacks is reached, they move a certain distance, or after a certain duration. Activate the skill again to change their direction.\\nCooldown: 30 sec",
         "id": 400001018,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Phalanx_Charge.png/revision/latest?cb=20170623004415"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/cygnus-phalanx-spearmen-effect.gif?w=1000&h="],
+        "animations": ["https://media4.giphy.com/media/7y719ZfMh0lXsQW919/giphy.gif"],
         "type": "Summon",
         "desc": "Summons Spearmen of Cygnus Knights to charge forward damaging enemies that collide with it",
         "details": [
@@ -225,7 +225,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage +25% Periodically restores 4% HP and increases your damage by 5%.\\nThis damage bonus is additive and maxes out at 90%\\nCooldown: 240 sec.",
         "id": 400001043,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Empress_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065036", "https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Transcendent_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065038"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/empress-cygnus-blessing-effect.gif?w=600", "https://orangemushroom.files.wordpress.com/2019/06/transcendent-cygnus-blessing-effect.gif?w=600"],
+        "animations": ["https://media4.giphy.com/media/o4zWBHJ69l1pd4x9hf/giphy.gif", "https://media2.giphy.com/media/oHDJdfZZm1KEBCm9n7/giphy.gif"],
         "type": "Buff",
         "desc": "Increases %Damage",
         "details": [
@@ -238,7 +238,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 250, Duration: 30 sec, Max Stacks: 6, Each stack provides an additional buff.\\nStack 1 - Skill Cooldown: -10% (excludes skills unaffected by cooldown reduction)\\nStack 2 - Knockback Resistance: +75%\\nStack 3 - All Stats: +50\\nStack 4 - Attack Power & Magic ATT: +22\\nStack 5 - Boss Damage: +22%\\nStack 6 - Invincible for duration of skill\\nCooldown: 25 sec. Cooldown increased to 240 sec when buff expires (including character death) or max stack count is reached.",
         "id": 400001024,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Freud%27s_Wisdom.png/revision/latest?cb=20170625064015"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/freuds-blessing-6-effect.gif?w=1000&h="],
+        "animations": ["https://media0.giphy.com/media/qLHXWAJbWTXFxORQyS/giphy.gif"],
         "type": "Buff",
         "desc": "Provides a stacking buff with each stack providing an additional effect",
         "details": [
@@ -251,7 +251,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 650, Duration: 10 sec, Damage: 415%, Number of Attacks: 9, Max Enemies Hit: 12\\nCooldown: 25 sec",
         "id": 400001019,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Resistance_Infantry.png/revision/latest?cb=20170625170734"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/resistance-line-infantry-attack-effect.gif?w=1000&h="],
+        "animations": ["https://media1.giphy.com/media/8lnnh46r15qpe51QLL/giphy.gif"],
         "type": "Summon",
         "desc": "A squad of Resistance infantry fires waves of bullets at enemies",
         "details": [
@@ -263,7 +263,7 @@ export const commonFifth = {
         "shortDesc": "Consumes 20% of Max HP to summon Mastema for 55 sec.\\nCooldown: 150 sec\\nMastema uses the following skills at her own discretion:\\nMastema's Claw - Max Enemies Hit: 8, Damage: 1000%, Number of Attacks: 8, Cooldown: 4 sec\\nMastema's Mark - Damage Taken: -22% (Including attacks inflicting damage proportional to Max HP), Max Uses: 2, Duration: 6 sec. Mastema's Mark vanishes when duration ends or max uses is reached. Cooldown: 10 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Defender_of_the_Demon.png/revision/latest?cb=20170625165445"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/12/call-mastema-move-effect.gif?w=303&h=243", "https://orangemushroom.files.wordpress.com/2016/12/call-mastema-mastema-claw-effect.gif?w=1000&h="],
+        "animations": ["https://media1.giphy.com/media/XGCkfDLecmgSCsBc4n/giphy.gif"],
         "type": "Summon",
         "desc": "Summons Mastema to fight by your side",
         "details": [
@@ -276,7 +276,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 5% of Max HP, increases Final Damage by 10% for 40 sec. Periodically casts various blessings or attacks. Previous blessings disappear when a new blessing is cast.\\nBlessing of Recovery : Restores 27% of the your character's max DF/PP/HP. Heals through status effects that prevent health recovery, aside from in Ghost Park.\\nAegis Blessing: Damage Taken: -70% (Triggers once, includes damage proportional to Max HP.)\\nBlessing of Fortitude: Ignores one debilitating status effect.\\nOtherwordly Void: Max Enemies Hit: 12, Damage: 2400%, Number of Attacks: 12\\nCooldown: 120 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Otherworld_Goddess%27s_Blessing.png/revision/latest?cb=20191116025124"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/recoverys-blessing.gif?w=700&h="],
+        "animations": ["https://media0.giphy.com/media/HBVTG6lGTAK9OLJ9qe/giphy.gif"],
         "type": "Buff",
         "desc": "Increases your %Final Damage while periodically providing various buffs",
         "details": [
@@ -303,7 +303,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-nova.gif?w=600"],
+        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, skills have a chance to not have a cooldown",
         "details": [
@@ -316,7 +316,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-nova.gif?w=600"],
+        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, skills have a chance to not have a cooldown",
         "details": [
@@ -329,7 +329,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-lef.gif?w=600"],
+        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, a percent of your equipment's Attack or Magic Attack will be converted to the one you use",
         "details": [
@@ -342,7 +342,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/grandis-goddess-blessing-effect-anima.gif?w=600"],
+        "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, increases %Damage, 100% Knockback Resistance and Talisman and Scroll Power charge rate "
     },
@@ -379,7 +379,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 15% of Max MP, Duration: 55 sec, Damage increases up to 45% depending on current MP proportions, Damage increase reset when Spell Storm occurs.\\nWhen using attack skill, activates a Spell Storm. Spell Storm MP Cost: additional 150 per 4 sec, Spell Storm Max Enemies Hit: 6, Spell Storm Damage: 1000%, Spell Storm Number of Attacks: 3\\nCooldown: 200 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Conversion_Overdrive.png/revision/latest?cb=20180701142936"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2017/12/magic-circuit-full-drive-effect.gif?w=1000&h="],
+        "animations": ["https://media4.giphy.com/media/DTXNaMlNmJjsxBdspG/giphy.gif"],
         "type": "Buff",
         "desc": "Increases your %Damage in proportion to your current MP",
         "details": [
@@ -391,7 +391,7 @@ export const commonFifth = {
         "shortDesc": "Time Force Cost: 30, resets cooldowns for all skills.\\nDuration: 42 sec, Attack Power: +85. When Doubletime stacks, gives a buff that creates additional attack with 250% damage and 5 additional attacks to enemies you attack with your skills.\\n Additional hit buff disappears when additional attacks occurs, or if Transcendent Rhinne's Prayer ends.\\nDoubletime and Immune Barrier last for their maximum duration.\\nCooldown: 240 sec",
         "id": 400001013,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Transcendent_Rhinne%27s_Prayer.png/revision/latest?cb=20191122065038"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2019/06/rhinnes-blessing-effect.gif?w=600"],
+        "animations": ["https://media1.giphy.com/media/1l2KreXVnPRTEZaj1k/giphy.gif"],
         "type": "Buff",
         "desc": "When <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Doubletime.png/revision/latest?cb=20140108010044' alt='Skill Doubletime'/> stacks, your next attack creates an additional attack",
         "details": [
@@ -404,7 +404,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 10%, Ignores 15% Enemy DEF for 130 sec, Final Damage: +5%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1000% damage on up to 10 enemies 6 times.\\nCooldown: 180 Sec.",
         "id": 400011000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/07/aura-weapon-effect.gif?w=600"],
+        "animations": ["https://media4.giphy.com/media/flLOmhDE95Z0NDH1ug/giphy.gif"],
         "type": "Buff Attack",
         "desc": "Causes your attacks to periodically create a damaging wave"
     },
@@ -413,7 +413,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 5% of Max HP, Duration: 35 sec, Knockdown Immunity and Status Resistance: +75\\nDamage increases +3% when hit, Max Stack: 10 times\\nCooldown: 240 sec\\n[Passive Effects - STR: +25, Max HP: +1250]",
         "id": 400011066,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2017/07/body-of-steel-effect.gif?w=600"],
+        "animations": ["https://media3.giphy.com/media/jjMaS7mAgN1OvvY9JT/giphy.gif"],
         "type": "Buff",
         "desc": "While active you gain increased Abnormal Status Resistance and 100% Knockback Resistance. As well, when you are hit you gain a stacking %Damage buff"
     },
@@ -422,7 +422,7 @@ export const commonFifth = {
         "shortDesc": "Consumes +2% Max MP to increase the Final Damage of all your skills (excluding summons) by 10%\\nConsumes 0.5% Max HP for jobs without MP\\nCan be toggled On/Off\\nCooldown: 35 sec",
         "id": 400021000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mana_Overload.png/revision/latest?cb=20161018183739"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/07/overload-mana-effect.gif?w=396"],
+        "animations": ["https://media1.giphy.com/media/uH12ABjyZFLcfbvjFH/giphy.gif"],
         "type": "Buff",
         "desc": "When toggled, increases the %Final Damage of all your skills (excluding summons)",
         "details": [
@@ -434,7 +434,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 1000, Duration: 3 sec, Gain Knockdown Immunity and lose 7750 MP instead of taking damage, when MP is 0 you lose 1750 HP\\nCooldown: 60 sec",
         "id": 400021060,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2017/07/ethereal-form-effect.gif?w=600"],
+        "animations": ["https://media1.giphy.com/media/PoQHT9CkudFCPj6RBi/giphy.gif"],
         "type": "Buff",
         "desc": "While active, you gain 100% Knockback Resistance and lose a fixed amount of MP instead of taking damage",
         "details": [
@@ -446,7 +446,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 350, Duration: 60 sec, Arrow Damage: 800% damage 90 times to 1 nearby enemy when in combat\\nCooldown: 60 sec",
         "id": 400031000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Guided_Arrow.png/revision/latest?cb=20161204065740"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/07/guided-arrow-effect.gif?w=600"],
+        "animations": ["https://media0.giphy.com/media/8fKfxe9zlHnmrXuXVJ/giphy.gif"],
         "type": "Summon",
         "desc": "Creates a spirit arrow that seeks and attacks nearby enemies",
         "details": [
@@ -458,7 +458,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 500, Duration: 30 sec, Allows Critical Rate to exceed 100% and Critical Damage to increase by 45% of Critical Rate.\\nThe attack's additional Critical Rate is not applied.\\nCooldown: 120 sec",
         "id": 400031023,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2017/07/critical-reinforce-effect.gif?w=600"],
+        "animations": ["https://media0.giphy.com/media/gLaAUn0lGqbwsnsPyl/giphy.gif"],
         "type": "Buff",
         "desc": "While active, allows your %Crit Rate to exceed 100% and increases your %Crit Rate depending on how much %Crit Rate you have"
     },
@@ -467,7 +467,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 300, Consumes all active Damage-over-Time stacks on up to 12 poisoned enemies in range and instantly inflicts 100% of their remaining damage plus an additional 1000% damage 6 times Additional damage is +15% per remaining second of consumed DoT stacks up to 5\\nAfterwards, spreads the original DoT damage to up to 10 nearby enemies\\nCooldown: 8 sec\\n[Passive Effects - Bonus DoT Chance: 50% to deal 310% damage every 1 sec for 8 sec]",
         "id": 400041000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Venom_Burst.png/revision/latest?cb=20161204065741"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/07/venom-burst-effect.gif?w=600"],
+        "animations": ["https://media3.giphy.com/media/hk99simjA0L918EjM0/giphy.gif"],
         "type": "Attack",
         "desc": "Consumes all active Damage-over-Time stacks on nearby enemies to instantly deal the remaining damage plus some additional %Final Damage",
         "details": [
@@ -480,7 +480,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 10% of Max HP, reduces Avoidability (including Bonus Evasion) and increases Final Damage for 30 sec, Hit Damage increased if attacked within a certain percentage of your max HP. Enters 2nd Stage with remaining duration being reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage.\\n1st Stage - Avoidability: -20%, Hit Damage: +10%, Final Damage: +12%\\n2nd Stage - Avoidability: -90%, Hit Damage: +40%, Final Damage: +35%\\nCooldown: 78 sec\\n[Passive Effect - ATT Power: +25]",
         "id": 400041032,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2017/07/ready-to-die-effect-stage-1.gif?w=700&h="],
+        "animations": ["https://media1.giphy.com/media/H9sLPP1J2vVhs6Cmcl/giphy.gif"],
         "type": "Buff",
         "desc": "Reduces your %Avoidability while increases %Final Damage and %Damage Taken from %Max HP attacks",
         "details": [
@@ -493,7 +493,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 1000, select your desired die roll. If a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%.\\nCooldown: 10 Sec.\\n[Passive Effect: Attack Power: +35]",
         "id": 400051000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2016/07/loaded-dice-effect-6.gif?w=296&h=212"],
+        "animations": ["https://media0.giphy.com/media/3o34vbKGyVYywzT5tB/giphy.gif"],
         "type": "Buff",
         "desc": "After casting this skill, the next time you use <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice' width='32' height='32' /> Roll of the Dice, you'll throw an additional dice of your choosing",
         "details": [
@@ -506,7 +506,7 @@ export const commonFifth = {
         "shortDesc": "HP Cost: 1750, Duration: 30 sec, Attack Power: +70% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power\\nCooldown: 65 sec",
         "id": 400051033,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813"],
-        "animations": ["https://orangemushroom.files.wordpress.com/2017/07/overdrive-effect1.gif?w=600"],
+        "animations": ["https://media2.giphy.com/media/rgc0CfIUzypN6jyNrL/giphy.gif"],
         "type": "Buff",
         "desc": "Increases your %Attack but after the effect ends and the skill is on cooldown, you have reduced %Attack"
     }

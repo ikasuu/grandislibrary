@@ -79,7 +79,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456' alt='Skill Buff Mastery' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Advanced_Blessing.png/revision/latest?cb=20110423133135' alt='Skill Advanced Blessing' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Big_Bang.png/revision/latest?cb=20140412222945' alt='Skill Big Bang' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Bahamut.png/revision/latest?cb=20110423133121' alt='Skill Bahamut' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500' alt='Skill Arcane Aim' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329' alt='Skill Infinity' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345' alt='Skill Angel Ray' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Genesis.png/revision/latest?cb=20191217072510' alt='Skill Genesis' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Resurrection.png/revision/latest?cb=20110423133148' alt='Skill Resurrection' width='32' height='32' /> -> <img src='https://static.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png' alt='Skill Hero' width='32' height='32' />"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
             ]
@@ -96,11 +96,9 @@
             "https://maplestory.fandom.com/wiki/Magician"
         ],
         "credits": [
-            ["Skill Icons", "MapleWikia"],
-            ["Attribute Info", "MapleWikia"],
+            ["Skill Icons + Attribute Info", "MapleWikia"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build","maplefinale"],
-            ["5th Job Skill Animations", "OrangeMushroom"]
+            ["Boost Nodes Build","maplefinale"]
         ],
         "extraContent": {
             "title": "Bahamut",
@@ -178,7 +176,7 @@
                         "id": 2301002,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Heal.png/revision/latest?cb=20140410201143"],
                         "animations": ["https://media4.giphy.com/media/3RuhUBTnpAkJTsOZlF/giphy.gif"],
-                        "type": "Active Heal",
+                        "type": "Party Heal",
                         "desc": "Heals nearby party members and debuffing nearby enemies",
                         "details": [
                             "<strong>[Debuff]: </strong>Enemy takes increased %Final Damage",
@@ -326,7 +324,7 @@
                     "id": 2321007,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a5/Skill_Angel_Ray.png/revision/latest?cb=20140412215345"],
                     "animations": ["https://media.giphy.com/media/JqKD0nJQH8B1lUTUSK/giphy.gif"],
-                    "type": "Attack / Heal",
+                    "type": "Attack / Party Heal",
                     "desc": "Shoots out a piercing holy arrow that damages enemies and heals party members it passes through"
                 },
                 {
@@ -359,11 +357,11 @@
                     "id": 2321006,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Resurrection.png/revision/latest?cb=20110423133148"],
                     "animations": ["https://media.giphy.com/media/hRwc5AgTQ5s9Fjyt7F/giphy.gif"],
-                    "type": "Party Active",
+                    "type": "Party Revive",
                     "desc": "Revives all KO'd party members within range",
                     "details": [
                         "Additionally makes you briefly invincible",
-                        "Still consumes a Death Count for bosses even if revived"
+                        "Still consumes a Death Count for bosses even if revived but buffs are kept"
                     ]
                 },
                 {
@@ -538,7 +536,7 @@
                     "shortDesc": "MP Cost: 1000, Summon Duration: 30 sec. The angel's aspect depends upon whether Righteously Indignant is active or inactive.\\nInactive: Appears as the Angel of Benevolence. Grants a buff that recovers 15% of party members' Max HP every 5 sec and increases their damage by 5% and 1% per 1250 INT for 4 sec. Damage can increase up to 100%.\\nActive: Appears as the Avenging Angel. Attacks up to 12 enemies dealing 1000% damage 12 times. Attacked enemies are marked for 60 sec. Dealing holy damage to those enemies consumes the mark and increases Final Damage of the attack by 50%.\\nCooldown: 120 sec",
                     "id": 400021032,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Angel_of_Balance.png/revision/latest?cb=20170609033035"],
-                    "animations": ["https://orangemushroom.files.wordpress.com/2016/12/angel-of-libra-benevolence-buff-effect.gif?w=1000&h=", "https://orangemushroom.files.wordpress.com/2016/12/angel-of-libra-vengeance-attack-effect.gif?w=1000&h="],
+                    "animations": ["https://media4.giphy.com/media/8oDLiNFxGCnqZfhJkQ/giphy.gif", "https://media4.giphy.com/media/URNGCyY13yFPcimUKi/giphy.gif"],
                     "type": "Summon",
                     "desc": "Summons an angel to fight by your side",
                     "details": [
@@ -558,6 +556,19 @@
                     "desc": "Sends an angel forward that damages enemies and heals party members it passes through",
                     "details": [
                         "At the end of its range, the angel lingers dealing damage and buffing party members<ul><li><strong>[Buff]: </strong>Increases %Damage</li><li>Pressing the Skill Key again will cause the angel to disappear</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Divine Punishment",
+                    "shortDesc": "MP Cost per Attack: 40, Consumes 1 holy light per sec.\\nAttacks up to 6 enemies to the front, for 300% damage, 5 times. While Righteously Indignant is active, increases the number of attacks by 5..\\n1 holy light is prepared every 8.5 sec, and you can hold up to 8 at a time.\\nCooldown: 1.5 sec",
+                    "id": 400021070,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/divine-punishment.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/ZHfg0SXUAcrQreCMbj/giphy.gif"],
+                    "type": "Key-down Attack",
+                    "desc": "Rains down angelic arrows from above",
+                    "details": [
+                        "This skill has a special resource called Divine Light which are prepared every 8.5 seconds and you can hold up to 8 at a time<ul><li>Costs 1 Divine Light per second to cast</li></ul>",
+                        "Deals increased number of hits per attack if <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Righteously_Indignant.png/revision/latest?cb=20120918154038' alt='Skill Righteously Indignant'> is active"
                     ]
                 }
             ]

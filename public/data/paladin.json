@@ -78,7 +78,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Advanced_Charge.png/revision/latest?cb=20110422062119' alt='Skill Advanced Charge' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_High_Paladin.png/revision/latest?cb=20130706022723' alt='Skill High Paladin' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Elemental_Force.png/revision/latest?cb=20130706022711' alt='Skill Elemental Force' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Divine_Charge.png/revision/latest?cb=20110422062034' alt='Skill Divine Charge' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921' alt='Skill Power Stance (Warrior)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bd/Skill_Heaven%27s_Hammer.png/revision/latest?cb=20110422062124' alt='Skill Heaven' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Blast.png/revision/latest?cb=20140410052225' alt='Skill Blast' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Magic_Crash_%28Warrior%29.png/revision/latest?cb=20130705121916' alt='Skill Magic Crash (Warrior)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Guardian.png/revision/latest?cb=20140410052756' alt='Skill Guardian' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
             ]
@@ -100,7 +100,7 @@
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build","Dianette"],
             ["Boost Nodes Build", "siowmotion and ThanksVolvo"],
-            ["5th Job Skills Animation", "OrangeMushroom and KyoWantsCute"]
+            ["5th Job Skills Animation", "KyoWantsCute"]
         ]
     },
     "skill": {
@@ -353,8 +353,11 @@
                     "id": 1221016,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Guardian.png/revision/latest?cb=20140410052756"],
                     "animations": ["https://media0.giphy.com/media/2wcFTyYs5d8XQUreDs/giphy.gif"],
-                    "type": "Active",
-                    "desc": "Revives one party member closest to you and makes both you and your party member invulnerable for a short time"
+                    "type": "Party Revive",
+                    "desc": "Revives one party member closest to you and makes both you and your party member invulnerable for a short time",
+                    "details": [
+                        "Still consumes a Death Count for bosses even if revived but buffs are kept"
+                    ]
                 },
                 {
                     "id": 1220018,
@@ -493,10 +496,24 @@
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Grand_Guardian.png/revision/latest?cb=20181115065214"],
                     "animations": ["https://media0.giphy.com/media/6P9wXg8Sa4WZ065Fxa/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "When held, deals damage and becomes bigger after some time passes which will increase the attack speed and %Damage ",
+                    "desc": "When held, deals damage and becomes bigger after some time passes which will increase the attack speed and %Damage",
                     "details": [
                         "Consumes %Max HP while casting",
                         "Attack has 100% Ignore DEF and is a guaranteed Critical Hit <ul> <li>Additionally increases your %Damage Reduction while casting (including %Max HP attacks)</li> </ul>"
+                    ]
+                },
+                {
+                    "name": "Mighty Mjolnir",
+                    "shortDesc": "MP Cost: 500, sets 1 enemy as the target and deals 450% damage 6 time(s). Additional Critical Rate: 50%. Tracks down a total of 4 enemies as targets, including the first attack.\\nA shockwave occurs after attacking the tracked target, dealing additional attacks up to 6 enemies, with 500% damage, 9 time(s).\\n1 Hammer will be prepared every 15 sec, and you can hold up to 2.\\nCooldown: 2.5 sec",
+                    "id": 400011072,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/mighty-mjolnir.png?w=600"],
+                    "animations": ["https://media4.giphy.com/media/RX5OleQKhMVCk6SqTk/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Throws a mighty hammer that homes towards targets while targeting the enemy with the highest Max HP",
+                    "details": [
+                        "When the hammer hits an enemy, it creates a shockwave that damages nearby enemies",
+                        "You can control the direction of where the hammer is thrown by pressing the Skill Key and any Arrow Key",
+                        "You gain one hammer every 15 secs and can store up to 2 at a time"
                     ]
                 }
             ]

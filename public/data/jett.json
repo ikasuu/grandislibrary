@@ -70,7 +70,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Invincibility.png/revision/latest?cb=20140807234438' alt='Skill Invincibility' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Giga_Blaster.png/revision/latest?cb=20140807234432' alt='Skill Giga Blaster' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Jett_Supreme_Enhancement.png/revision/latest?cb=20191225010841' alt='Skill Jett Supreme Enhancement' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Strikeforce_Showdown.png/revision/latest?cb=20140828063113' alt='Skill Strikeforce Showdown' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349' alt='Skill Planet Buster' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Gravity_Booster.png/revision/latest?cb=20140828063449' alt='Skill Gravity Booster' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Starfall.png/revision/latest?cb=20140816043742' alt='Skill Starfall' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920' alt='Skill Starforce Salvo' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Backup_Beatdown.png/revision/latest?cb=20140828063532' alt='Skill Backup Beatdown' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
             ]
@@ -89,8 +89,7 @@
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build", "Cytholoblep"],
-            ["Common 5th Job Skills Animation", "OrangeMushroom"]
+            ["Boost Nodes Build", "Cytholoblep"]
         ]
     },
     "skill": {
@@ -439,6 +438,20 @@
                     "desc": "Bounty hunters appear to help take down enemies before an airship comes to deliver a final attack",
                     "details": [
                         "If attacking a single enemy, attack deals increased number of hits per attack"
+                    ]
+                },
+                {
+                    "name": "Anti-Gravity Cycle SFF-X Summon",
+                    "shortDesc": "MP Cost: 1000, Forms a protective shield, equivalent to 900% of max HP and immune to knockback, for 42 sec. Final Damage: +14%\\nIf you press the skill key again, you will launch an All-Out Barrage, attacking up to 15 enemies for 900% damage 10 time(s) per volley, numbering 3 volley(s) in total. All-Out Barrage Cooldown: 5 sec\\nCooldown: 180 sec",
+                    "id": 400051040,
+                    "icons": ["https://i.imgur.com/jkUHsGT.png"],
+                    "animations": ["https://media0.giphy.com/media/sr9I4YvXzQwC6IChX8/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Summons a flying vehicle allowing you to fly around and fire lasers at enemies",
+                    "details": [
+                        "While active, gain increased %Final Damage, 100% Knockback Resistance, and a damage shield based on your %Max HP",
+                        "While riding, only certain skills can be used like <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920' alt='Skill Starforce Salvo'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349' alt='Skill Planet Buster'>",
+                        "Pressing the Skill Key will fire a barrage of lasers forward"
                     ]
                 }
             ]

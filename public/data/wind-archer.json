@@ -79,7 +79,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Emerald_Dust.png/revision/latest?cb=20130210015342' alt='Skill Emerald Dust' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Bow_Expert.png/revision/latest?cb=20110502142447' alt='Skill Bow Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Albatross_Max.png/revision/latest?cb=20130210015349' alt='Skill Albatross Max' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_Touch_of_the_Wind.png/revision/latest?cb=20130210015321' alt='Skill Touch of the Wind' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Spiraling_Vortex.png/revision/latest?cb=20130210015306' alt='Skill Spiraling Vortex' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Trifling_Wind_III.png/revision/latest?cb=20130210015312' alt='Skill Trifling Wind III' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Song_of_Heaven.png/revision/latest?cb=20130210015258' alt='Skill Song of Heaven' width='32' height='32' />"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
             ]
@@ -99,7 +99,7 @@
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
             ["Boost Nodes Build","Sillyx91"],
-            ["5th Job Skill Animations", "OrangeMushroom"]
+            ["5th Job Skills Animations", "KyoWantsCute"]
         ]
     },
     "skill": {
@@ -470,6 +470,20 @@
                     "desc": "Create a wind barrier that protects you from enemy attacks. Additionally, periodically when you attack, you create whirlwinds that seek and attack nearby enemies",
                     "details": [
                         "The barrier has a special resource called 'Elemental'. 1 Elemental is consumed per each 1% Max HP taken as damage while also blocking the attack. Once the barrier reaches 0 Elemental, you will no longer block attacks but the buff will still be active<ul><li>The amount of Elemental that Gale Barrier increases with Skill Level</li></ul>"
+                    ]
+                },
+                {
+                    "name": "Vortex Sphere",
+                    "shortDesc": "MP Cost: 750. Creates a Vortex Sphere, which moves on a collision course with the enemy. The sphere periodically attacks up to 10 enemies, for 800% damage, 6 times.\\nCollision occurs up to 20 times for each enemy.\\nCooldown: 35 sec",
+                    "id": 400041037,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/07/vortex-sphere.png?w=600"],
+                    "animations": ["https://media3.giphy.com/media/S9CF1G8A8ssxj4yyRN/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires a damaging orb that slowly travels forward while pulling in enemies",
+                    "details": [
+                        "Each enemy can only be hit up to 20 times by the orb",
+                        "Unaffected by Damage Reflect",
+                        "<strong>[Note]</strong>: The actual skill should be green in color instead of blue"
                     ]
                 }
             ]

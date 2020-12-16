@@ -76,7 +76,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Final_Flame_Elemental.png/revision/latest?cb=20140924171827' alt='Skill Final Flame Elemental' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Pure_Magic.png/revision/latest?cb=20141001065845' alt='Skill Pure Magic' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Final_Orbital_Flame.png/revision/latest?cb=20141024054036' alt='Skill Final Orbital Flame' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Fires_of_Creation.png/revision/latest?cb=20141024054050' alt='Skill Fires of Creation' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Flame_Barrier.png/revision/latest?cb=20141024054100' alt='Skill Flame Barrier' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Wild_Blaze.png/revision/latest?cb=20141024054104' alt='Skill Wild Blaze' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Burning_Conduit.png/revision/latest?cb=20141024054055' alt='Skill Burning Conduit' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Towering_Inferno.png/revision/latest?cb=20141024054045' alt='Skill Towering Inferno' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blazing_Extinction.png/revision/latest?cb=20141024054040' alt='Skill Blazing Extinction' width='32' height='32' />"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
             ]
@@ -97,8 +97,7 @@
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu, TajMaJon"],
             ["Hyper Passive Build", "Toasted_Ham"],
-            ["Boost Nodes Build","iamfull, riox"],
-            ["Common 5th Job Skill Animations", "OrangeMushroom"]
+            ["Boost Nodes Build","iamfull, riox"]
         ]
     },
     "skill": {
@@ -497,6 +496,21 @@
                     "details": [
                         "This skill has a special resource called Phoenix Feathers which are prepared every 12 seconds and you can hold up to 15 feathers",
                         "This skill costs 1 feather every second to cast"
+                    ]
+                },
+                {
+                    "name": "Salamander Mischief",
+                    "shortDesc": "MP Cost: 250, Salamander Summon Duration: 60 sec, Damage: 300%, Enemies Hit: 1, Number of Attacks: 7. In a single action, consumes 100 MP and attacks by bouncing up to 12 times.\\nObtain Ember every time Salamander's attack hits. Final Damage of Salamander's attack increases by 1% for every 1 Ember. Up to 40 Ember can be obtained.\\nWhen Salamander disappears, Magic ATT increases by 15 for 30 sec, and Magic ATT additionally increases by 2 for every 1 Ember.\\nCooldown: 90 sec",
+                    "id": 400041037,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/salamander-mischief.png?w=600"],
+                    "animations": ["https://media3.giphy.com/media/CKjFnp7kfJQ5uccBdc/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summons a salamander that continuously pounces at a single target",
+                    "details": [
+                        "The salamander will return to you once an enemy has been hit 12 times or if you travel too far away",
+                        "Each time the salamander hits an enemy, it gains 1 Ember which increases the %Final Damage of the attack<ul><li>The max amount of Embers that can be collected increases based on the Skill Level</li><li>When the salamander disappears, you will gain a Magic Attack buff based on the amount of Embers collected</li></ul>",
+                        "The salamander will prioritize boss monsters and enemies with the highest Max HP",
+                        "Unaffected by Damage Reflect and will not trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'>"
                     ]
                 }
             ]

@@ -81,7 +81,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Bolt_Surplus.png/revision/latest?cb=20130707052240' alt='Skill Bolt Surplus' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d1/Skill_Last_Man_Standing.png/revision/latest?cb=20130707052253' alt='Skill Last Man Standing' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Crossbow_Expert.png/revision/latest?cb=20110503111142' alt='Skill Crossbow Expert' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Vital_Hunter.png/revision/latest?cb=20130707052258' alt='Skill Vital Hunter' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Piercing_Arrow.png/revision/latest?cb=20170907070539' alt='Skill Piercing Arrow' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Sharp_Eyes.png/revision/latest?cb=20100612140300' alt='Skill Sharp Eyes' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Illusion_Step.png/revision/latest?cb=20160628052518' alt='Skill Illusion Step' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/94/Skill_Arrow_Illusion.png/revision/latest?cb=20130707052235' alt='Skill Arrow Illusion' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Snipe.png/revision/latest?cb=20110503111217' alt='Skill Snipe' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
             ]
@@ -102,8 +102,8 @@
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
             ["Boost Nodes Build", "Ekanselttar"],
-            ["Common 5th Job Skills Animation", "OrangeMushroom"],
-            ["Marksman 5th Job Skill Animations", "KyoWantsCute"]]
+            ["5th Job Skill Animations", "KyoWantsCute"]
+        ]
     },
     "skill": {
         "primary":[
@@ -482,6 +482,18 @@
                         "Holding the Skill Key will charge the Skill<ul><li>You can use other Skills while you charge</li></ul>",
                         "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
                         "The arrow grows as you charge and gains increased %Damage"
+                    ]
+                },
+                {
+                    "name": "Repeating Crossbow Cartridge",
+                    "shortDesc": "MP Cost: 750, Duration: 60 sec, Usable Cartridges: 7, Full Burst Shot: MP Cost: 150, Cartridge Used: 1, Damage: 600%, Number of Arrow Attacks: 9, Arrows Fired: 4, DEF Ignored: 25%, Critical Rate: 100%\\nCooldown: 120 sec",
+                    "id": 400031025,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/repeating-crossbow-cartridge.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/h97jmBxBn6Zr8MnYds/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "When active, pressing the Skill Key fires a special arrow forward",
+                    "details": [
+                        "Up to 7 arrows can be fired maximum while the buff is active"
                     ]
                 }
             ]

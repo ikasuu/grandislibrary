@@ -78,7 +78,7 @@
                 ["4th Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Advanced_Combo.png/revision/latest?cb=20110422040037' alt='Skill Advanced Combo'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134' alt='Skill Advanced Final Attack'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Power_Stance_%28Warrior%29.png/revision/latest?cb=20130705121921' alt='Skill Power Stance (Warrior)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Raging_Blow.png/revision/latest?cb=20130705121906' alt='Skill Raging Blow'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Combat_Mastery_%28Hero%29.png/revision/latest?cb=20110422040130' alt='Skill Combat Mastery (Hero)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Skill_Magic_Crash_%28Warrior%29.png/revision/latest?cb=20130705121916' alt='Skill Magic Crash (Warrior)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Enrage.png/revision/latest?cb=20110422040126' alt='Skill Enrage'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7d/Skill_Puncture.png/revision/latest?cb=20130705121911' alt='Skill Puncture'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero's Will'>"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
             ]
@@ -97,8 +97,7 @@
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build","Amyte"],
-            ["Common 5th Job Skills Animation", "OrangeMushroom"]
+            ["Boost Nodes Build","Amyte"]
         ]
     },
     "skill": {
@@ -484,6 +483,18 @@
                     "details": [
                         "Increases <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Combo_Attack.png/revision/latest?cb=20150702033501' alt='Skill Combo Attack' width='32' height='32'> Combo Orb bonuses of %Final Damage, %Boss Damage, and Attack",
                         "Decreases chance of obtaining Combo Orbs by 50%"
+                    ]
+                },
+                {
+                    "name": "Sword Illusion",
+                    "shortDesc": "MP Cost: 700, Max Enemies Hit: 8, Damage: 250%, Attack Count: 4, Chase Cut Activation Count: 12. Afterwards, activates 5 explosion(s), which attack 5 time(s) for 500% damage.\\nCooldown: 30",
+                    "id": 400011073,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/sword-illusion.png?w=600"],
+                    "animations": ["https://media3.giphy.com/media/rfnJb0b4vDKppl7YAG/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Slashes furiously in front of you",
+                    "details": [
+                        "Unaffected by Damage Reflect"
                     ]
                 }
             ]

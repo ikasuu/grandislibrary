@@ -80,7 +80,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Buff_Mastery.png/revision/latest?cb=20110423131456' alt='Skill Buff Mastery' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Paralyze.png/revision/latest?cb=20140411044014' alt='Skill Paralyze' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Arcane_Aim.png/revision/latest?cb=20110423131500' alt='Skill Arcane Aim' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Infinity.png/revision/latest?cb=20110423131329' alt='Skill Infinity' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Meteor_Shower.png/revision/latest?cb=20110423131347' alt='Skill Meteor Shower' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Mist_Eruption.png/revision/latest?cb=20110423131219' alt='Skill Mist Eruption' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Flame_Haze.png/revision/latest?cb=20130706151259' alt='Skill Flame Haze' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level"
             ]
@@ -100,7 +100,6 @@
             ["Skill Icons", "MapleWikia"],
             ["Skill Animations", "Ikasuu"],
             ["Boost Nodes Build", "maplefinale"],
-            ["Common 5th Job Skills Animations", "OrangeMushroom"],
             ["5th Job Skill Animation (DoT Punisher)", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -524,6 +523,20 @@
                     "details": [
                         "Duration is increased for each stack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201' alt='Skill Elemental Drain'>",
                         "Can only be used when <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Ifrit.png/revision/latest?cb=20150702044551' alt='Skill Ifrit' width='32' height='32'> is active"
+                    ]
+                },
+                {
+                    "name": "Poison Chain",
+                    "shortDesc": "MP Cost: 1000, Enemies Hit: 1, Damage: 600%, Number of Attacks: 4, Poison Duration: 20 sec. Explosion from poisoned enemy attacks 6 times with 300% damage periodically, and spreads to 2 enemies nearby that aren't poisoned.\\nPoison accumulates up to 5 times. Explosion damage increases 55%p each in proportion to the accumulated poison.\\nExplosion can occur up to 9 times on 1 enemy and p to 22 times on all enemies in total.\\nIf it ended because the available explosions were used up, every poison is removed and there is an additional explosion.\\nCooldown: 30 sec",
+                    "id": 400021066,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/posion-chain.png?w=600"],
+                    "animations": ["https://media0.giphy.com/media/VZivijRl5k2JZaK03Z/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Casts a stacking poisonous debuff onto a single enemy that spreads to nearby enemies",
+                    "details": [
+                        "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<ul><li>Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion</li></ul>",
+                        "Each enemy can only explode up to 9 times, and a total of 22 times across all affected enemies<ul><li>If you reach maximum explosions, when the skill ends, all enemies will explode for a final explosion</li></ul>",
+                        "Does not trigger Damage Reflect or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Elemental_Drain.png/revision/latest?cb=20130706125201' alt='Skill Elemental Drain'>"
                     ]
                 }
             ]

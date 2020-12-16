@@ -44,7 +44,7 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
                     {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
                     {/* Lastly, we split the string into multiple parts where new lines are needed */}
                     <div>{
-                        shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replaceAll('#c', '').replaceAll('#z', '0').replaceAll('#', '').replaceAll('mpCon', '0').replaceAll('\\r', '').replaceAll('\\N', '\\n').replaceAll('\\c', '').split('\\n').map(str =>
+                        shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replace(/#c/g, '').replace(/#z/g, '0').replace(/#/g, '').replace(/mpCon/g, '0').replace(/\\r/g, '').replace(/\\N/g, '\\n').replace(/\\c/g, '').split('\\n').map(str =>
                             <Card.Subtitle as="p" className="mb-2 text-muted short-desc">{str}</Card.Subtitle>) : null
                     }</div>
                 </Card.Body>

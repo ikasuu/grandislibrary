@@ -87,7 +87,7 @@
                 ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818' alt='Skill Double Down' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Ahoy_Mateys.png/revision/latest?cb=20111228031553' alt='Skill Ahoy Mateys' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052' alt='Skill Pirate' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Majestic_Presence.png/revision/latest?cb=20111228035430' alt='Skill Majestic Presence' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Eight-Legs_Easton.png/revision/latest?cb=20111228030548' alt='Skill Eight-Legs Easton' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Quickdraw.png/revision/latest?cb=20140419012051' alt='Skill Quickdraw' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Jolly_Roger.png/revision/latest?cb=20111228030956' alt='Skill Jolly Roger' width='33' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809' alt='Skill Maple Warrior' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Parrotargetting.png/revision/latest?cb=20111228021645' alt='Skill Parrotargetting' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047' alt='Skill Broadside' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Rapid_Fire.png/revision/latest?cb=20110508033722' alt='Skill Rapid Fire' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Brain_Scrambler.png/revision/latest?cb=20111228030201' alt='Skill Brain Scrambler' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848' alt='Skill Hero' width='32' height='32' />"]
             ],
             "details": [
-                "Put one SP into each skill first",
+                "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
                 "4th Job skills require <img src='https://static.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png' alt='Use Mastery Book 20.png' width='32' height='29' /><img src='https://static.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png' alt='Use Mastery Book 30.png' width='32' height='29' /> Mastery Books to reach Master Level 20 &amp; 30"
             ]
@@ -108,8 +108,7 @@
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build", "Huynni"],
-            ["Boost Nodes Build", "WarmCha"],
-            ["Common 5th Job Skills Animation", "OrangeMushroom"]
+            ["Boost Nodes Build", "WarmCha"]
         ]
     },
     "skill": {
@@ -561,6 +560,19 @@
                     "details": [
                         "The ship and assault both deal damage",
                         "If either <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744' alt='Skill Nautilus Strike'> or <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Nautilus_Assault.png/revision/latest?cb=20181115065337' alt='Skill Nautilus Assault'> are used, there is a short cooldown (8 secs) before either can activated unless they are already on cooldown"
+                    ]
+                },
+                {
+                    "name": "Death Trigger",
+                    "shortDesc": "MP Cost: 750. Fires up to 7 shots, which attack up to 7 enemies with 1150% damage 11 time(s).\\nCooldown: 45 sec",
+                    "id": 400051040,
+                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/death-trigger.png?w=600"],
+                    "animations": ["https://media1.giphy.com/media/MQPJkGiM0cPRcIieea/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires several bullets that ricochets to multiple enemies",
+                    "details": [
+                        "If there is an enemy affected by the <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Parrotargetting.png/revision/latest?cb=20111228021645' alt='Skill Parrotargetting'> debuff, all bullets will target that enemy",
+                        "Unaffected by Damage Reflect"
                     ]
                 }
             ]
