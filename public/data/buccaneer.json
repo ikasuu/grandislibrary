@@ -15,6 +15,7 @@
             "Simple",
             "Transform"
         ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Attack"],
         "prosCons": {
             "pros": [
                 "Mobbing attack has long horizontal range",
@@ -37,7 +38,7 @@
                 "<strong>Damage</strong>: +15% + (25% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052' alt='Skill Pirate's Revenge'> Pirate's Revenge is active)",
                 "<strong>Boss Damage</strong>: +20%",
                 "<strong>Knockback Resistance</strong>: +100%",
-                "<strong>Attack Speed</strong>: 2",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
                 "<strong>Damage Reduction (Regular Monsters)</strong>: +20%",
                 "<strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Typhoon_Crush.png/revision/latest?cb=20111221151841' alt='Skill Typhoon Crush' width='32' height='32'> Chance to ignore all enemy DEF</strong>: +40%",
                 "<strong>Abnormal Status Resistance</strong>: 30"
@@ -100,7 +101,7 @@
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build", "privateereck"],
-            ["Boost Nodes Build", "maplefinale"]
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
         ],
         "extraContent": {
             "title": "Energy Charge",
@@ -287,13 +288,14 @@
                     },
                     {
                         "id": 5110014,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supercharge.png/revision/latest?cb=20131129053400"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supercharge.png/revision/latest?cb=20131129053400", "https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Energy_Charge.png/revision/latest?cb=20110507235938"],
                         "animations": ["https://media1.giphy.com/media/RN8wKZmNHAraW3M6Zt/giphy.gif"],
-                        "type": "Passive",
-                        "desc": "Increases maximum Energy and amount charged per attack",
+                        "type": "Upgraded Passive",
+                        "desc": "",
                         "details": [
+                            "Increases maximum Energy and amount charged per attack",
                             "Energy charges twice as fast against bosses",
-                            "Additionally grants flat Attack when charged<ul><li>You gain half the Attack while charging</li></ul>"
+                            "Grants flat Attack when charged<ul><li>You gain half the Attack while charging</li></ul>"
                         ]
                     },
                     {
@@ -400,11 +402,7 @@
                         "id": 5121015,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Crossbones.png/revision/latest?cb=20111221151810"],
                         "animations": ["https://media3.giphy.com/media/x1S2Bj2CALCpCqFUwz/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "Increases %Damage",
-                        "details": [
-                            "<strong>[Passive]</strong>: Increases %Knuckle Mastery, Abnormal Status Resistance, and %Elemental Resistance"
-                        ]
+                        "type": "Buff"
                     },
                     {
                         "id": 5121010,
@@ -439,22 +437,22 @@
                     },
                     {
                         "id": 5120012,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818"],
-                        "type": "Passive",
-                        "desc": "Allows for a chance to roll two <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice'> dices",
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818", "https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
                         "details": [
-                            "Overrides the cooldown of <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058' alt='Skill Roll of the Dice' width='32' height='32' />"
+                            "Grants a chance to roll two dices at once"
                         ]
                     },
                     {
                         "id": 5120018,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Ultra_Charge.png/revision/latest?cb=20140419213237"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/32/Skill_Ultra_Charge.png/revision/latest?cb=20140419213237", "https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Supercharge.png/revision/latest?cb=20131129053400"],
                         "animations": ["https://media3.giphy.com/media/SU9OjLLrTKBtI5r3N1/giphy.gif"],
-                        "type": "Passive",
-                        "desc": "Increases amount of Energy charged per attack",
+                        "type": "Upgraded Passive",
+                        "desc": "",
                         "details": [
-                            "Additionally increases the amount of Attack, Movement Speed and DEF gained while charged",
-                            "Energy charges twice as fast against bosses"
+                            "Increases amount of Energy charged per attack",
+                            "Increases the amount of Attack, Movement Speed and DEF gained while charged"
                         ]
                     },
                     {
@@ -629,6 +627,11 @@
                 "animations": ["https://media0.giphy.com/media/l4vmHR3WqSAkFsEOsx/giphy.gif"]
             },
             {
+                "name": "Spiral Assault - 3rd Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Spiral_Assault.png/revision/latest?cb=20111221143416"],
+                "animations": ["https://media1.giphy.com/media/Zccm1N0XaPnw4wY5ik/giphy.gif"]
+            },
+            {
                 "name": "Octopunch - 4th Job",
                 "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Octopunch.png/revision/latest?cb=20111227202037"],
                 "animations": ["https://media0.giphy.com/media/Y2bdGwdniyxXt38m0r/giphy.gif"]
@@ -647,6 +650,11 @@
                 "name": "Lord of the Deep - 5th Job",
                 "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/70/Skill_Lord_of_the_Deep.png/revision/latest?cb=20170609033039"],
                 "animations": ["https://media2.giphy.com/media/RlqmvZMjmTgUsCFmUV/giphy.gif"]
+            },
+            {
+                "name": "Serpent Vortex - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Serpent_Vortex.png/revision/latest?cb=20181115065338"],
+                "animations": ["https://media3.giphy.com/media/LSXaxU0qDrRTv0fUmc/giphy.gif"]
             }
         ]
     },

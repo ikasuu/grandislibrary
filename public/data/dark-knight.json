@@ -15,6 +15,7 @@
             "Offensive",
             "Beginner-friendly"
         ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Crit Rate"],
         "prosCons": {
             "pros": [
                 "High Max HP",
@@ -39,7 +40,7 @@
                 "<strong>Damage</strong>: +(5% when Spear is equipped) + (30% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' /> Final Pact passive is active)",
                 "<strong>Ignore DEF</strong>: +30%",
                 "<strong>Knockback Resistance</strong>: 100%",
-                "<strong>Attack Speed</strong>: 3",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Damage Reduction (Regular Monsters)</strong>: +10%",
                 "<strong>Abnormal Status Resistance</strong>: 20"
             ]
@@ -97,6 +98,7 @@
         "credits": [
             ["Skill Icons", "MapleWikia"],
             ["Hyper Passive Build","Enbon"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
             ["5th Job Skill Animation", "KyoWantsCute"]
         ]
     },
@@ -109,7 +111,7 @@
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Slash_Blast.png/revision/latest?cb=20100616081915"],
                         "animations": ["https://media1.giphy.com/media/4P1piZSm6uDxU4axRT/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Slashes forward dealing damage to enemies in front of you"
+                        "desc": "Slashes forward"
                     },
                     {
                         "id": 1001008,
@@ -291,7 +293,7 @@
                     "type": "Attack",
                     "desc": "A giant spear strikes down on one enemy",
                     "details": [
-                        "Attack gains additional %Ignore DEF",
+                        "Attack has increased %Ignore DEF",
                         "Cooldown is ignored if <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ea/Skill_Sacrifice.png/revision/latest?cb=20130706031844' alt='Skill Sacrifice' width='32' height='32' /> or <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Final_Pact.png/revision/latest?cb=20130706031852' alt='Skill Final Pact' width='32' height='32' /> buff is active"
                     ]
                 },
@@ -352,8 +354,13 @@
                 },
                 {
                     "id": 1320018,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Barricade_Mastery_%28Dark_Knight%29.png/revision/latest?cb=20130706031857"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Barricade_Mastery_%28Dark_Knight%29.png/revision/latest?cb=20130706031857", "https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Weapon_Mastery_%28Spearman%29.png/revision/latest?cb=20110420132350"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Grants flat Attack and increases %Crit Damage",
+                        "Increases %Weapon Mastery provided"
+                    ]
                 },
                 {
                     "id": 1320011,

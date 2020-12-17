@@ -5,6 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { Button, Image } from 'react-bootstrap';
 import SkillInfo from './SkillInfo'
 import { version, loadingImage } from '../../special/Values';
+import scrollWidthOffset from '../../special/Hooks';
 
 /*
     This file contains both SkillContainer and VSkillContainer (exclusively for 5th Job Skills), containers to hold a list of skills
@@ -135,14 +136,6 @@ export function VSkillContainer({skillData}) {
             }
         </div>
     );
-}
-
-//Used to scroll to #skill anchor
-
-const scrollWidthOffset = (el) => {
-    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-    const yOffset = -80; 
-    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 export default SkillContainer

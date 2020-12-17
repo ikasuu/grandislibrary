@@ -10,13 +10,13 @@ import { Helmet } from 'react-helmet';
 export class ClassOverview extends Component {
 
     constructor(props) {
-        super(props)
+        super(props);
     
         this.state = {
             data: {},
             loading: true,
             fail: false
-        }
+        };
     }
     
     componentDidMount(){
@@ -70,7 +70,7 @@ export class ClassOverview extends Component {
                     </div>
                 }
             </div>
-        )
+        );
     }
 }
 

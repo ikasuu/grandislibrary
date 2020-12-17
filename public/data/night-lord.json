@@ -16,6 +16,7 @@
             "Simple",
             "Throwing-Star User"
         ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Attack"],
         "prosCons": {
             "pros": [
                 "High base %Crit Rate",
@@ -39,7 +40,7 @@
                 "<strong>Crit Damage</strong>: +30%",
                 "<strong>Final Damage</strong>: +25%",
                 "<strong>Boss Damage</strong>: +10%",
-                "<strong>Attack Speed</strong>: 2",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
                 "<strong>Ignore DEF</strong>: +30%",
                 "<strong>Knockback Resistance</strong>: +0%",
                 "<strong>Abnormal Status Resistance</strong>: 30"
@@ -98,7 +99,7 @@
         "credits": [
             ["Skill Icons", "MapleWikia"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build", "ballistictiger"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -228,7 +229,11 @@
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Dark_Flare.png/revision/latest?cb=20110504074040"],
                         "animations": ["https://media1.giphy.com/media/cL5D4y0JCSVeKADlAZ/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Creates a damaging field that also reflects damage back taken within the field"
+                        "desc": "Creates a damaging field that also reflects damage back taken within the field",
+                        "details": [
+                            "Cannot reflect more than half of the enemy's Max HP",
+                            "Unaffected by Damage Reflect"
+                        ]
                     },
                     {
                         "id": 4111003,
@@ -237,8 +242,8 @@
                         "type": "Attack / Utility",
                         "desc": "Throws a web that debuffs enemies while launching you upward",
                         "details": [
-                            "Unaffected by Damage Reflect",
                             "<strong>[Debuff]: </strong>Enemy cannot move and are periodically damaged<ul><li>Does not affect bosses</li></ul>",
+                            "Unaffected by Damage Reflect",
                             "Cannot be used after using <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Flash_Jump_%28Thief%29.png/revision/latest?cb=20100615143807' alt='Skill Flash Jump (Thief)' width='32' height='32' /> twice"
                         ]
                     },
@@ -247,9 +252,9 @@
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Shadow_Partner.png/revision/latest?cb=20110504073955"],
                         "animations": ["https://media1.giphy.com/media/UrgxKSnoW00hwv9aTm/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Creates a clone that mimics your attacks",
+                        "desc": "Creates a clone that mimics your attacks, increasing the number of hits you deal per attack",
                         "details": [
-                            "The clone's attack deals a portion of the damage you dealt"
+                            "The clone's attack deals reduced %Final Damage"
                         ]
                     },
                     {
@@ -308,8 +313,12 @@
                 },
                 {
                     "id": 4120018,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Night_Lord%27s_Mark.png/revision/latest?cb=20140416115641"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Night_Lord%27s_Mark.png/revision/latest?cb=20140416115641", "https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Assassin%27s_Mark.png/revision/latest?cb=20160107233752"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation chance, number of Throwing Stars created, and %Damage"
+                    ]
                 },
                 {
                     "id": 4121016,
@@ -358,13 +367,23 @@
                 },
                 {
                     "id": 4120011,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Toxic_Venom_%28Night_Lord%29.png/revision/latest?cb=20111125110107"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Toxic_Venom_%28Night_Lord%29.png/revision/latest?cb=20111125110107", "https://vignette.wikia.nocookie.net/maplestory/images/e/eb/Skill_Venom_%28Hermit%29.png/revision/latest?cb=20110504131526"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases debuff chance, duration, and %Damage",
+                        "Can now be stacked (up to 3 times)"
+                    ]
                 },
                 {
                     "id": 4120012,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Claw_Expert.png/revision/latest?cb=20111125110117"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Claw_Expert.png/revision/latest?cb=20111125110117", "https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_Claw_Mastery.png/revision/latest?cb=20100308130337"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Grants flat Attack and increases %Crit Damage"
+                    ]
                 }]
             ]
         ],
@@ -519,6 +538,11 @@
                 "name": "Showdown - 4th Job",
                 "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/da/Skill_Showdown.png/revision/latest?cb=20140416120248"],
                 "animations": ["https://media3.giphy.com/media/ZYQOzQ5ZLyIlkvSiBi/giphy.gif"]
+            },
+            {
+                "name": "Death Star - Hyper Skills",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Death_Star.png/revision/latest?cb=20121014002212"],
+                "animations": ["https://media2.giphy.com/media/LPYfvu3IPgEe1ipuNS/giphy.gif"]
             },
             {
                 "name": "Throwing Star Barrage - 5th Job",

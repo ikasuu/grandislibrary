@@ -13,3 +13,11 @@ export default function ScrollToTop() {
 
   return null;
 }
+
+//Used to scroll to anchor tags
+
+export const scrollWidthOffset = (el) => {
+  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+  const yOffset = -80; 
+  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}

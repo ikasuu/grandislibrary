@@ -15,6 +15,7 @@
             "Multi-target",
             "Mobile"
         ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Attack"],
         "prosCons": {
             "pros": [
                 "Simple skills with variety for different situations",
@@ -23,8 +24,8 @@
                 "Lots of powerful attacks that blow up enemies "
             ],
             "cons": [
-                "Lots of complex mechanics and wordy skill descriptions that are forgettable<ul><li>The class is simple in that things happen on their own</li></ul>",
-                "Cannot Open Job Advancement to Pathfinder"
+                "Lots of complex mechanics and wordy skill descriptions that are forgettable<ul><li>The class is simple in that it just works</li></ul>",
+                "Cannot Open Job Advancement to and from Pathfinder"
             ]
         },
         "baseStats": [
@@ -40,7 +41,7 @@
                 "<strong>Damage</strong>: +20%",
                 "<strong>Final Damage</strong>: 10% + (+10% to Ancient / Enchant Force Skills)",
                 "<strong>Knockback Resistance</strong>: 0%",
-                "<strong>Attack Speed</strong>: 4",
+                "<strong>Attack Speed (Weapon)</strong>: 4",
                 "<strong>Damage Reduction (Regular Monsters)</strong>: +20%",
                 "<strong>Ignore DEF</strong>: +30%",
                 "<strong>Abnormal Status Resistance</strong>: 34 + (up to 100 from <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Cursebound_Endurance.png/revision/latest?cb=20190616015127' alt='Skill Cursebound Endurance' width='32' height='32' /> Cursebound Endurance)"
@@ -97,7 +98,7 @@
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build", "iSlingGunz"],
-            ["Boost Nodes Build", "iSlingGunz"]
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
         ],
         "extraContent": {
             "title": "Relic Gauge",
@@ -171,10 +172,11 @@
                     },
                     {
                         "id": 3300002,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Cardinal_Deluge_Amplification.png/revision/latest?cb=20190616015121"],
-                        "type": "Passive",
-                        "desc": "Enhances the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121' alt='Skill Cardinal Deluge'>",
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/28/Skill_Cardinal_Deluge_Amplification.png/revision/latest?cb=20190616015121", "https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
                         "details": [
+                            "Increases %Damage of attack",
                             "If a boss monster is within your attack range, you will fire 1 additional arrow"
                         ]
                     },
@@ -231,11 +233,12 @@
                     },
                     {
                         "id": 3310001,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Cardinal_Burst_Amplification.png/revision/latest?cb=20190615205553"],
-                        "type": "Passive",
-                        "desc": "Enhances the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553' alt='Skill Cardinal Burst'>",
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Cardinal_Burst_Amplification.png/revision/latest?cb=20190615205553", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
                         "details": [
-                            "Additionally, gains increased %Damage the fewer enemies there are"
+                            "Increases %Damage of attack",
+                            "Additionally, gains increased %Damage the fewer enemies hit"
                         ]
                     },
                     {
@@ -330,12 +333,13 @@
                     },
                     {
                         "id": 3320002,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Advanced_Cardinal_Force.png/revision/latest?cb=20190615205544"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Advanced_Cardinal_Force.png/revision/latest?cb=20190615205544", "https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553", "https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Cardinal_Torrent.png/revision/latest?cb=20190616015123"],
                         "animations": ["https://media.giphy.com/media/H422SodZD7TNa5l5nP/giphy.gif", "https://media.giphy.com/media/WsvBfbCd5AHSW2X8OT/giphy.gif"],
-                        "type": "Passive",
-                        "desc": "Enhances the %Damage of Cardinal Force skills",
+                        "type": "Upgraded Passive",
+                        "desc": "",
                         "details": [
-                            "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121' alt='Skill Cardinal Deluge'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553' alt='Skill Cardinal Burst'> have bigger animations",
+                            "Increases %Damage of attack",
+                            "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Cardinal_Deluge.png/revision/latest?cb=20190616015121' alt='Skill Cardinal Deluge'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Cardinal_Burst.png/revision/latest?cb=20190615205553' alt='Skill Cardinal Burst'> have bigger animations and hitboxes",
                             "When using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Cardinal_Torrent.png/revision/latest?cb=20190616015123' alt='Skill Cardinal Torrent'>, you cannot be pushed back while casting and enemies hit by the attack will gain a stack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Ancient_Curse.png/revision/latest?cb=20190615205548' alt='Skill Ancient Curse'> Ancient Curse"
                         ]
                     },
@@ -400,8 +404,13 @@
                     },
                     {
                         "id": 3320010,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Ancient_Bow_Expertise.png/revision/latest?cb=20190615205547"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Ancient_Bow_Expertise.png/revision/latest?cb=20190615205547", "https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Ancient_Bow_Mastery.png/revision/latest?cb=20190615205548"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Grants flat Attack and increases %Crit Damage"
+                        ]
                     },
                     {
                         "id": 3320011,
@@ -434,36 +443,61 @@
                     "id": 3320028,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Cardinal_Force_-_Reinforce.png/revision/latest?cb=20190616015123"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of Cardinal Force skills"
+                    ],
                     "reqLev": 140
                 },
                 {
                     "id": 3320029,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Cardinal_Force_-_Bountiful_Enhance.png/revision/latest?cb=20190616015122"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation rate of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Bountiful_Deluge.png/revision/latest?cb=20190615205552' alt='Skill Bountiful Deluge'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Bountiful_Burst.png/revision/latest?cb=20190615205551' alt='Skill Bountiful Burst'>",
+                        "Also adds a chance for <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Bountiful_Torrent.png/revision/latest?cb=20190615205552' alt='Skill Bountiful Torrent'> to add stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8b/Skill_Ancient_Curse.png/revision/latest?cb=20190615205548' alt='Skill Ancient Curse'> Ancient Curse"
+                    ],
                     "reqLev": 165
                 },
                 {
                     "id": 3320030,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/74/Skill_Cardinal_Force_-_Extra_Strike.png/revision/latest?cb=20190616015122"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases the number of hits per attack of Cardinal Force skills"
+                    ],
                     "reqLev": 180
                 },
                 {
                     "id": 3320031,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Skill_Ancient_Force_-_Boss_Rush.png/revision/latest?cb=20190615205549"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of Ancient Force skills"
+                    ],
                     "reqLev": 150
                 },
                 {
                     "id": 3320032,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Ancient_Force_-_Guardbreak.png/revision/latest?cb=20190615205550"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of Ancient Force skills"
+                    ],
                     "reqLev": 165
                 },
                 {
                     "id": 3320033,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Ancient_Force_-_Enchant_Enhance.png/revision/latest?cb=20190615205550"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of Enchant Force skills"
+                    ],
                     "reqLev": 190
                 }
             ],

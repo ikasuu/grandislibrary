@@ -15,6 +15,7 @@
             "Short-ranged",
             "Mobile"
         ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Buff Duration / Chance to Skip Cooldown"],
         "prosCons": {
             "pros": [
                 "Decent mobbing with great burst damage capabilities",
@@ -40,7 +41,7 @@
                 "<strong>Crit Rate</strong>: +25% + (100% when <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Shadow_Meld.png/revision/latest?cb=20120221174546' alt='Skill Shadow Meld' width='32' height='32' /> Shadow Meld is active)",
                 "<strong>Crit Damage</strong>: +13%",
                 "<strong>Final Damage</strong>: +20%",
-                "<strong>Attack Speed</strong>: 2",
+                "<strong>Attack Speed (Weapon)</strong>: 2",
                 "<strong>Knockback Resistance</strong>: +90%",
                 "<strong>Abnormal Status Resistance</strong>: 30"
             ]
@@ -99,7 +100,7 @@
         "credits": [
             ["Skill Icons", "MapleWikia"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build", "maplefinale"]
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
         ],
         "extraContent": {
             "title": "Dark Sight",
@@ -281,9 +282,9 @@
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Mirror_Image.png/revision/latest?cb=20110505120034"],
                         "animations": ["https://media3.giphy.com/media/gjZs4YhVkefz710qnB/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Creates a clone that mimics your attacks",
+                        "desc": "Creates a clone that mimics your attacks, increasing the number of hits you deal per attack",
                         "details": [
-                            "The clone's attack deals a portion of the damage you dealt"
+                            "The clone's attack deals reduced %Final Damage"
                         ]
                     },
                     {
@@ -357,7 +358,7 @@
                     "desc": "Unleashes a devastating large attack that applies a damaging burning debuff ",
                     "details": [
                         "Unaffected by Damage Reflect",
-                        "Using Sudden Raid will reduce the cooldown of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut' width='32' height='32'>"
+                        "<strong>[Passive]</strong>: Permanently reduces cooldown of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Final_Cut.png/revision/latest?cb=20110505124740' alt='Skill Final Cut' width='32' height='32'>"
                     ]
                 },
                 {
@@ -398,13 +399,23 @@
                 },
                 {
                     "id": 4340012,
-                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADgElEQVR4nL2XjZGjMAyFlZltgBa4EqAEKAFKgBJCCWwJUAKUACWEEs4tuIRdP4GIzE/Czc1EMwmJMX6fZNkyX+TbD33GbvJDA/wMj78fUU/jPz8CIQAsnkThfw9urT29FwQBX+vuQVUeM8TXFXEMOk6GjLE8CPqG4TwY5MZx4nuwIosoTdPdGMMw0Hc70r1I6O760ALxRRcMolEYOhDDMJMxri0iOAQM3DPuHinvh0e3/k7jnK8QFwixSwBxHNPj8aDIBjQ6HThrHES0RA0gReJHkCNDld/mABEhPU2XAARiGBwEGRcBy58wtOu87sNuya4o/n1Mxz8D4KE0jfkKD1wAXF5YypJg7dM9Gh9h8VS353Hp9fEApukZ1q3B07qu2ZOuGzgfDINYCp4MVJly92xl922HAMh0WOiSSg+qDRB5nlLTdRwBrAbxFBej5leGsN5/f+DdFAAiQLIk0U4cYEg+QJR5zomprUzLVaAZGsqned6DKvRAXgJwRxfW1q3tLQSmQUPI6oDpxJKEQ2QgGm3uvwVYIfqJlw1ERAyDbiGKouBnoijie6v4yaYYqPl9uQowiEDoh7cQVVVR0zRUluXqaZVXzvN9BC9G4Jk+dsl0HQWBEwgYxCVCZ+E+Mg9Asj9YGUK+yL5/BiFR2HopOSDZN68Qy1v3IUCWXKuGZxC6HVPnpYD6ExUnEbgiLAknYjonNETinMHGxkXyRYn2AJ799vs3TGe7QMAEBKYhQreMpU92bw5BPIC2H3cdIArBaZo44bIsWxNOR0ZANARsGGq3pCfK3TP3uiGzYTidAoRUkk4gYFtxLaxzABB4ZBbv13azicIhAMSRkCIuS+2dNa5I4RmIJy78Zmo9cR47eFMLtDg2l77vub1tWzdoQmeGrVucE/G+7amp715ktrbbB47Ex3FcpwM2LVVTl254VlUoUMPqOcQjB93UdApxug9sxWE4EaFacsXEOVHttBJaEa/rjkoHBPFXEIc5oL19bji0nIxn7+fl/TyS4Vq4pYZsz4qaD67I+rIqX0KcrgLdaSuu2yWneAt3H4iLoYYASiCO7O1OeCaOEMwnoWdWYxrM5tjBJ+EFYuvYJYBD8YXAbo5XAYqWCXY7HiCwEybhcTm+4V3t7O1oTsxrRQoRuGfR237frlC5tyL8vEkEGALvbJ8wEceXnoLb8sL4CVtfz38B4rhetKr9OvEAAAAASUVORK5CYII="],
-                    "type": "Upgraded Passive"
+                    "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADgElEQVR4nL2XjZGjMAyFlZltgBa4EqAEKAFKgBJCCWwJUAKUACWEEs4tuIRdP4GIzE/Czc1EMwmJMX6fZNkyX+TbD33GbvJDA/wMj78fUU/jPz8CIQAsnkThfw9urT29FwQBX+vuQVUeM8TXFXEMOk6GjLE8CPqG4TwY5MZx4nuwIosoTdPdGMMw0Hc70r1I6O760ALxRRcMolEYOhDDMJMxri0iOAQM3DPuHinvh0e3/k7jnK8QFwixSwBxHNPj8aDIBjQ6HThrHES0RA0gReJHkCNDld/mABEhPU2XAARiGBwEGRcBy58wtOu87sNuya4o/n1Mxz8D4KE0jfkKD1wAXF5YypJg7dM9Gh9h8VS353Hp9fEApukZ1q3B07qu2ZOuGzgfDINYCp4MVJly92xl922HAMh0WOiSSg+qDRB5nlLTdRwBrAbxFBej5leGsN5/f+DdFAAiQLIk0U4cYEg+QJR5zomprUzLVaAZGsqned6DKvRAXgJwRxfW1q3tLQSmQUPI6oDpxJKEQ2QgGm3uvwVYIfqJlw1ERAyDbiGKouBnoijie6v4yaYYqPl9uQowiEDoh7cQVVVR0zRUluXqaZVXzvN9BC9G4Jk+dsl0HQWBEwgYxCVCZ+E+Mg9Asj9YGUK+yL5/BiFR2HopOSDZN68Qy1v3IUCWXKuGZxC6HVPnpYD6ExUnEbgiLAknYjonNETinMHGxkXyRYn2AJ799vs3TGe7QMAEBKYhQreMpU92bw5BPIC2H3cdIArBaZo44bIsWxNOR0ZANARsGGq3pCfK3TP3uiGzYTidAoRUkk4gYFtxLaxzABB4ZBbv13azicIhAMSRkCIuS+2dNa5I4RmIJy78Zmo9cR47eFMLtDg2l77vub1tWzdoQmeGrVucE/G+7amp715ktrbbB47Ex3FcpwM2LVVTl254VlUoUMPqOcQjB93UdApxug9sxWE4EaFacsXEOVHttBJaEa/rjkoHBPFXEIc5oL19bji0nIxn7+fl/TyS4Vq4pYZsz4qaD67I+rIqX0KcrgLdaSuu2yWneAt3H4iLoYYASiCO7O1OeCaOEMwnoWdWYxrM5tjBJ+EFYuvYJYBD8YXAbo5XAYqWCXY7HiCwEybhcTm+4V3t7O1oTsxrRQoRuGfR237frlC5tyL8vEkEGALvbJ8wEceXnoLb8sL4CVtfz38B4rhetKr9OvEAAAAASUVORK5CYII=", "https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Venom_%28Dagger%29.png/revision/latest?cb=20110504140532"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases debuff chance, duration, and %Damage",
+                        "Can now be stacked (up to 3 times)"
+                    ]
                 },
                 {
                     "id": 4340013,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Sharpness.png/revision/latest?cb=20110505124843"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Sharpness.png/revision/latest?cb=20110505124843", "https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Katara_Mastery.png/revision/latest?cb=20110504144443"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Grants flat Attack and increases %Final Damage",
+                        "Increases %Weapon Mastery provided"
+                    ]
                 }]
             ]
         ],
@@ -578,6 +589,11 @@
                 "name": "Asura's Anger - Hyper Skill",
                 "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5c/Skill_Asura%27s_Anger.png/revision/latest?cb=20121015220436"],
                 "animations": ["https://media0.giphy.com/media/WtPfq2BC2zRln3ngHW/giphy.gif"]
+            },
+            {
+                "name": "Blade Tempest - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Blade_Tempest.png/revision/latest?cb=20161125062539"],
+                "animations": ["https://media2.giphy.com/media/jQElPxklrTLfYHBWQP/giphy.gif"]
             },
             {
                 "name": "Blade Tornado - 5th Job",
