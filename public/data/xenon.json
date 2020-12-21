@@ -15,6 +15,7 @@
             "Versatille",
             "Hard-hitting"
         ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Boss Damage"],
         "prosCons": {
             "pros": [
                 "Great mobility with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Propulsion_Burst.png/revision/latest?cb=20121217224456' alt='Skill Propulsion Burst'> double flash jump and up jump with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Quicksilver_Takeoff.png/revision/latest?cb=20121217230611' alt='Skill Quicksilver Takeoff'>Quicksilver: Takeoff and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/34/Skill_Diagonal_Chase.png/revision/latest?cb=20121217232028' alt='Skill Diagonal Chase'> Diagonal Chase",
@@ -93,10 +94,12 @@
             "https://www.youtube.com/watch?v=kQ5WVCw5_c0"
         ],
         "credits": [
+            ["Special Thanks", "botnextdoor"],
             ["Skill Icons", "MapleWikia"],
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build", "Danxier"],
             ["Boost Nodes Build", "botnextdoor"],
+            ["Inner Ability","Maple Central"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -183,7 +186,7 @@
                     },
                     {
                         "id": 36000004,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Multilateral_II.png/revision/latest?cb=20121217224953"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Multilateral_II.png/revision/latest?cb=20121217224953", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                         "type": "Upgraded Passive",
                         "desc": "Grants special bonuses once you've reached a certain amount of stats"
                     },
@@ -261,14 +264,18 @@
                     },
                     {
                         "id": 36100007,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Multilateral_III.png/revision/latest?cb=20121217230258"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c0/Skill_Multilateral_III.png/revision/latest?cb=20121217230258", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                         "type": "Upgraded Passive",
                         "desc": "Grants special bonuses once you've reached a certain amount of stats "
                     },
                     {
                         "id": 36100010,
-                        "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg=="],
-                        "type": "Passive"
+                        "icons": ["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg==", "https://vignette.wikia.nocookie.net/maplestory/images/f/fc/Skill_Pinpoint_Salvo.png/revision/latest?cb=20161127052616"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %p Damage of attack"
+                        ]
                     }]
                 ],
                 [
@@ -359,7 +366,7 @@
                     },
                     {
                         "id": 36110007,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Multilateral_IV.png/revision/latest?cb=20121217232803"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Multilateral_IV.png/revision/latest?cb=20121217232803", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                         "type": "Upgraded Passive",
                         "desc": "Grants special bonuses once you've reached a certain amount of stats"
                     },
@@ -372,8 +379,12 @@
                     },
                     {
                         "id": 36110012,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Pinpoint_Salvo_Redesign_B.png/revision/latest?cb=20190525013056"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Pinpoint_Salvo_Redesign_B.png/revision/latest?cb=20190525013056", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg=="],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %p Damage provided"
+                        ]
                     }]
                 ],
                 [
@@ -450,8 +461,13 @@
                 },
                 {
                     "id": 36120006,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Xenon_Expert.png/revision/latest?cb=20121218161427"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Xenon_Expert.png/revision/latest?cb=20121218161427", "https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Xenon_Mastery.png/revision/latest?cb=20121217230155"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
                 },
                 {
                     "id": 36121007,
@@ -484,18 +500,22 @@
                 },
                 {
                     "id": 36120010,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Multilateral_V.png/revision/latest?cb=20190525013053"],
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Multilateral_V.png/revision/latest?cb=20190525013053", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                     "type": "Upgraded Passive",
                     "desc": "Grants special bonuses once you've reached a certain amount of stats"
                 },
                 {
                     "id": 36120015,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Pinpoint_Salvo_Perfect_Design.png/revision/latest?cb=20121228072612"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Pinpoint_Salvo_Perfect_Design.png/revision/latest?cb=20121228072612", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC1ElEQVR4nL1XjZWzIBCcvHcN0IJXAinBlKAlaAlagpagJcQSzhJCCR8tUILfgqJgxOj9ZPKSRxB2xmWXhQ/4GPAeXGzDFTA8Hv/ewn69fg5WhBVgyDmP3iKguX8hT29GxMeaPM3rXyOqRPbUF0UM2T0GJhFeDMhcocI4qUS7bRSLUT3G/e/Czo8ezOtXN8Dt8QSESPfG7M0pOQm8ZrMIeVWm745iW0ACvmmog5ifue0jYIztPvcEaOMhuM/2xq3BFSeXh0V4AjiWLBCQT31nkYjYiwHd1ksSFGBJX/UdFoBx3ffwgT8AI7dzyrRa9VDs+QWCQfgr5JIjqRi6WtHikftJjKKPZNueDAqIsB+9LhLEc7tVDDFnEEqgqJZs6UsBwRR9/QDeFGDJXcN7uLafc3sYBtS3idzJ1viLloW425ZB6q2DBQS45HVbUxDqMNxPO02apikS7kT4RK5cz5PpopkedBsC2Io8ixqIqCW39YjjxRuir1FVjWmXZQ6lFGKZIWEx0ktJAZjM5LQSEEQm5ZINPDFvGvJAZMjvWQNJg7pOQpIlIRwvEJEm1gXMraBKa3y9m3t4EkB0KLICaZsbD6jpI+Xiy4gi2vVAYnX1OA1PgCbSy9ChNyJqEjHGgPQEaLTdbW4nmUBPS8XIGfehMkFoBE3Oic2yM6+v3YqB0QNj/loRR3C9jVnQdR2GYjrVaQ18ITQvSH11TsWM83AWrEUcwSNbjnI5bb3Ngy+pOMHdB4qMb2fBWsRR1NYadPnl6AXlOpHV9fgCJoaikzvhd6EiQdvwWAtErzZrQVDAuvS6lTBUlvWYdRlX5OZex4Czm4fmvyzHP332aszmEpw5crn4ztFtU8CZI9fe3JAdt8h5Ao4euc/AnppDtjwBUcO8i0l5dmM/IOTe+JubFnDRdzV7O1oP+Au0Xa9vRbp5sR4wIvSd7R2w5PrHXYLLdGF8B+br+X8u3D2XhIpCxwAAAABJRU5ErkJggg=="],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %p Damage provided"
+                    ]
                 },
                 {
                     "id": 36120016,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Multilateral_VI.png/revision/latest?cb=20130517123557"],
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Multilateral_VI.png/revision/latest?cb=20130517123557", "https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Multilateral_I.png/revision/latest?cb=20121223163519"],
                     "type": "Upgraded Passive",
                     "reqLev": "Req. 200",
                     "desc": "Grants special bonuses once you've reached a certain amount of stats"

@@ -14,15 +14,16 @@
             "Summoner",
             "Mobile",
             "Utility"
-
         ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Crit Rate"],
         "prosCons": {
             "pros": [
                 "Has many summons that fight alongside you",
                 "Mobile class with ability to fly and teleport",
                 "Useful Link Skill that provides a %Damage buff for constantly moving",
                 "Strong mobbing potential",
-                "Can convert ATK into MATK"
+                "Can convert ATK into MATK",
+                "Has several iFrames like <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/31/Skill_Crystalline_Bulwark.png/revision/latest?cb=20180122180555' alt='Skill Crystalline Bulwark'/> Crystalline Bulwark and <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Longinus_Zone.png/revision/latest?cb=20180122180601' alt='Skill Longinus Zone'/> Longinus Zone"
             ],
             "cons": [
                 "Lots of micromanaging to maximize damage",
@@ -90,7 +91,7 @@
             ["Skill Icons", "OrangeMushroom"],
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build", "riox"],
-            ["Boost Nodes Build", "pikarie & ZeroByDivide"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -280,8 +281,12 @@
                 "3rd Job", [
                     {
                         "id": 152110008,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Crystal_Battery_II.png/revision/latest?cb=20180122081433"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Crystal_Battery_II.png/revision/latest?cb=20180122081433", "https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Crystal_Battery.png/revision/latest?cb=20171217213945"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max Crystal Charge from 30 to 150"
+                        ]
                     },
                     {
                         "id": 152110001,
@@ -289,19 +294,21 @@
                         "name": "Reaction - Destruction II",
                         "shortDesc": "MP Cost: 130, Max Enemies Hit: 9, Damage: 550%, Number of Attacks: 4, Detonations: 2\\nCooldown: 4 sec",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Reaction_-_Destruction_II.png/revision/latest?cb=20180122081436"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Reaction_-_Destruction_II.png/revision/latest?cb=20180122081436", "https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Reaction_-_Destruction.png/revision/latest?cb=20180122080231"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
+                            "Increases %Damage of attack",
                             "Now activates twice in a row and has increased %Boss Damage"
                         ]
                     },
                     {
                         "id": 152110002,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Reaction_-_Domination_II.png/revision/latest?cb=20180122081436"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Reaction_-_Domination_II.png/revision/latest?cb=20180122081436", "https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Reaction_-_Domination.png/revision/latest?cb=20180122080232"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
+                            "Increases %Damage and number of hits",
                             "Shares the same Skill Points (SP) with <img src=https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Reaction_-_Destruction_II.png/revision/latest?cb=20180122081436' alt='Skill Reaction - Destruction II'/>"
                         ]
                     },
@@ -333,13 +340,23 @@
                     },
                     {
                         "id": 152110009,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Lucent_Brand_II.png/revision/latest?cb=20180122081435"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Lucent_Brand_II.png/revision/latest?cb=20180122081435", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks from 3 to 6",
+                            "Additionally, permanently increases %p Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935' alt='Skill Radiant Javelin'/>"
+                        ]
                     },
                     {
                         "id": 152110010,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Umbral_Brand_II.png/revision/latest?cb=20180122081437"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bf/Skill_Umbral_Brand_II.png/revision/latest?cb=20180122081437", "https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks from 1 to 3",
+                            "Increases amount of additional bonus %Damage is dealt to inflicted enemies"
+                        ]
                     },
                     {
                         "id": 152110011,
@@ -361,7 +378,7 @@
                 "4th Job", [
                 {
                     "id": 152120014,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Crystal_Battery_III.png/revision/latest?cb=20180122082847"],
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Crystal_Battery_III.png/revision/latest?cb=20180122082847", "https://vignette.wikia.nocookie.net/maplestory/images/d/dd/Skill_Crystal_Battery.png/revision/latest?cb=20171217213945"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -370,7 +387,7 @@
                 },
                 {
                     "id": 152120001,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851"],
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851", "https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Radiant_Javelin.png/revision/latest?cb=20171217082935"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -380,10 +397,11 @@
                 },
                 {
                     "id": 152120003,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Radiant_Orb_II.png/revision/latest?cb=20180122082851"],
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Radiant_Orb_II.png/revision/latest?cb=20180122082851", "https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Radiant_Orb.png/revision/latest?cb=20171217213710"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
+                        "Increases %Damage of attack",
                         "Shares the same Skill Points (SP) with <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Radiant_Javelin_II.png/revision/latest?cb=20180122082851' alt='Skill Radiant Javelin II'/>"
                     ]
                 },
@@ -449,18 +467,33 @@
                 },
                 {
                     "id": 152120012,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Lucent_Brand_III.png/revision/latest?cb=20180122083006"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Lucent_Brand_III.png/revision/latest?cb=20180122083006", "https://vignette.wikia.nocookie.net/maplestory/images/9/9c/Skill_Lucent_Brand.png/revision/latest?cb=20171217213746"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max stacks from 6 to 10",
+                        "Additionally, permanently increases %p Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/11/Skill_Machina.png/revision/latest?cb=20180122080231' alt='Skill Machina'/>"
+                    ]
                 },
                 {
                     "id": 152120013,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Umbral_Brand_III.png/revision/latest?cb=20180122082852"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Umbral_Brand_III.png/revision/latest?cb=20180122082852", "https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Skill_Umbral_Brand.png/revision/latest?cb=20180122080232"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max stacks from 3 to 5",
+                        "Increases amount of additional bonus %Damage is dealt to inflicted enemies"
+                    ]
                 },
                 {
                     "id": 152120015,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Wisdom_of_the_Crystal.png/revision/latest?cb=20180122082850"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Wisdom_of_the_Crystal.png/revision/latest?cb=20180122082850", "https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Lucent_Gauntlet_Mastery.png/revision/latest?cb=20171217213737"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now increases Attack Speed (by 1 stage), %Boss Damage, %Ignore DEF, and %Final Damage"
+                    ]
                 }]
             ]
         ],

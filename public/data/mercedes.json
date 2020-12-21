@@ -15,6 +15,7 @@
             "Mobile",
             "Link Skill - Increased EXP"
         ],
+        "innerAbility": ["Attack Speed", "Crit Rate", "Boss Damage"],
         "prosCons": {
             "pros": [
                 "Fun class with a linking / combo skill mechanic",
@@ -88,6 +89,7 @@
             ["", "merc best class :"],
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
+            ["Inner Ability","Maple Central"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -127,7 +129,7 @@
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Swift_Dual_Shot.png/revision/latest?cb=20110810032854"],
                         "animations": ["https://media.giphy.com/media/eg4OqI9FhCMA74PHzp/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Shoots multiple arrows forward that hit several enemies"
+                        "desc": "Fire multiple arrows forward that hit several enemies"
                     },
                     {
                         "id": 23000001,
@@ -166,6 +168,7 @@
                         "desc": "Dashes forward while pushing enemies and launching them into the air",
                         "details": [
                             "If you hold the down arrow key while pressing Rising Rush, it will instead launch enemies up without dashing forward",
+                            "Deals increased %p Damage to enemies in the air",
                             "During the launch attack, you can combine the skill with other skills for a combo attack such as:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Parting_Shot.png/revision/latest?cb=20170918074817' alt='Skill Parting Shot' width='32' height='32'> Parting Shot (2nd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959' alt='Skill Aerial Barrage' width='32' height='32'> Aerial Barrage (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Rolling_Moonsault.png/revision/latest?cb=20110810054044' alt='Skill Rolling Moonsault' width='32' height='32'> Rolling Moonsault (4th job)</li></ul>"
                         ]
                     },
@@ -176,7 +179,7 @@
                         "type": "Combo Attack",
                         "desc": "Fires arrows at enemies launched by Rising Rush",
                         "details": [
-                            "Another way to active Parting Shot is to press the Attack key during Rishing Rush's launch attack"
+                            "Another way to activate Parting Shot is to press the Attack key during Rishing Rush's launch attack"
                         ]
                     },
                     {
@@ -342,7 +345,7 @@
                         "details": [
                             "Resets <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Glide_Blast.png/revision/latest?cb=20110810032909' alt='Skill Glide Blast'>, allowing it to be used again",
                             "Can be used without <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'>",
-                            "Another way to activate Rolling Moonsault is to press the Down Arrow Key and Attack key during Rishing Rush's launch attack",
+                            "Another way to activate Rolling Moonsault is to press the Down Arrow Key and Attack key during the <img src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'/> launch attack",
                             "Using Rolling Moonsault after <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959' alt='Skill Aerial Barrage'> grants additional airborne height compared to using it on its own",
                             "This attack can be linked when used first with:<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Leap_Tornado.png/revision/latest?cb=20110810041250' alt='Skill Leap Tornado' width='32' height='32'> Leaf Tornado (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Gust_Dive.png/revision/latest?cb=20171117065728' alt='Skill Gust Dive' width='32' height='32'> Gust Dive (3rd job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Spikes_Royale.png/revision/latest?cb=20110810054004' alt='Skill Spikes Royale' width='32' height='32'> Spikes Royale (4th job)</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Wrath_of_Enlil.png/revision/latest?cb=20120814023701' alt='Skill Wrath of Enlil' width='32' height='32'> Wrath of Enlil (Hyper Skill)</li></ul>",
                             "<strong>[Passive]</strong>: Permanently increases the %p Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/a9/Skill_Rising_Rush.png/revision/latest?cb=20180310021505' alt='Skill Rising Rush'> and <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3c/Skill_Aerial_Barrage.png/revision/latest?cb=20170918074959' alt='Skill Aerial Barrage'>"
@@ -367,15 +370,24 @@
                     },
                     {
                         "id": 23120013,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229", "https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Staggering_Strikes.png/revision/latest?cb=20130322091229"],
                         "animations": ["https://media.giphy.com/media/JsQYdSY5LXxxJ4Pg54/giphy.gif"],
-                        "type": "Passive",
-                        "desc": "Enhances the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/33/Skill_Stunning_Strikes.png/revision/latest?cb=20110810041243' alt='Skill Stunning Strikes'> and also turns the arrows red"
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and max enemies hit",
+                            "Color of arrows are changed to red from green"
+                        ]
                     },
                     {
                         "id": 23120009,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Dual_Bowguns_Expert.png/revision/latest?cb=20110810054035"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Dual_Bowguns_Expert.png/revision/latest?cb=20110810054035", "https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Dual_Bowguns_Mastery.png/revision/latest?cb=20110727142738"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Crit Damage"
+                        ]
                     },
                     {
                         "id": 23120010,
@@ -384,8 +396,12 @@
                     },
                     {
                         "id": 23120012,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage"
+                        ]
                     },
                     {
                         "id": 23121005,

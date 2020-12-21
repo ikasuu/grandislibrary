@@ -15,6 +15,7 @@
             "Mobile",
             "Tons of lines"
         ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "Attack"],
         "prosCons": {
             "pros": [
                 "Combo class that allows you to link skills together",
@@ -94,7 +95,7 @@
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build","TwinRovalMGM"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ]
     },
@@ -166,12 +167,13 @@
                     },
                     {
                         "id": 15000023,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Electrified.png/revision/latest?cb=20130122072352"],
-                        "type": "Passive",
-                        "desc": "Increases the chance of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff to trigger",
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Electrified.png/revision/latest?cb=20130122072352", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
                         "details": [
-                            "Additionally increases the max stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> by +1",
-                            "As well, permanently increases Movement Speed, Jump and Max Movement Speed"
+                            "Increases chance to trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff",
+                            "Increases max stacks of buff up to 2",
+                            "Now increases Movement Speed, Jump and Max Movement Speed"
                         ]
                     }]
                 ],
@@ -215,12 +217,13 @@
                     },
                     {
                         "id": 15100025,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Lightning_Boost.png/revision/latest?cb=20130122074447"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/29/Skill_Lightning_Boost.png/revision/latest?cb=20130122074447", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
                         "type": "Upgraded Passive",
-                        "desc": "Increases the chance of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff to trigger",
+                        "desc": "",
                         "details": [
-                            "Additionally increases the max stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> by +1",
-                            "As well permanently grants flat Attack"
+                            "Increases chance to trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff",
+                            "Increases max stacks of buff up to 3",
+                            "Grants flat Attack"
                         ]
                     }]
                 ],
@@ -274,12 +277,13 @@
                     },
                     {
                         "id": 15110026,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Lightning_Lord.png/revision/latest?cb=20130122080955"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Lightning_Lord.png/revision/latest?cb=20130122080955", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
                         "type": "Upgraded Passive",
-                        "desc": "Increases the chance of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff to trigger",
+                        "desc": "",
                         "details": [
-                            "Additionally increases the max stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> by +1",
-                            "As well permanently grants flat Attack"
+                            "Increases chance to trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff",
+                            "Increases max stacks of buff up to 4",
+                            "Now grants flat Attack"
                         ]
                     }]
                 ],
@@ -342,8 +346,13 @@
                 },
                 {
                     "id": 15120006,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Damage"
+                    ]
                 },
                 {
                     "id": 15120007,
@@ -352,12 +361,13 @@
                 },
                 {
                     "id": 15120008,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Thunder_God.png/revision/latest?cb=20170910013037"],
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Thunder_God.png/revision/latest?cb=20170910013037", "https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055"],
                     "type": "Upgraded Passive",
-                    "desc": "Increases the chance of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff to trigger",
+                    "desc": "",
                     "details": [
-                        "Additionally increases the max stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> by +1",
-                        "As well permanently increases %Crit Rate and %Crit Damage"
+                        "Increases chance to trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> buff",
+                        "Increases max stacks of buff up to 5",
+                        "Increases %Crit Rate and %Crit Damage"
                     ]
                 }]
             ]
@@ -427,7 +437,8 @@
                     "type": "Buff",
                     "desc": "When active, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> can be used without any stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> and has no cooldown",
                     "details": [
-                        "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> will still consume all stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'>"
+                        "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b4/Skill_Gale.png/revision/latest?cb=20130122080207' alt='Skill Gale'> will still consume all stacks of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'>",
+                        "<strong>[Passive]</strong>: Permanently, each stack of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Lightning_Elemental.png/revision/latest?cb=20130122072055' alt='Skill Lightning Elemental'> grants additional %Ignore DEF and %Final Damage"
                     ],
                     "reqLev": 140
                 },
@@ -465,10 +476,9 @@
                     "desc": "When active, your attacks creates a chain of lightning that bounces to nearby enemies",
                     "details": [
                         "The lightning damage is reduced for each enemy it travels through",
-                        "Deals additional damage if only one enemy is hit",
+                        "Deals increased %Damage if only one enemy is hit",
                         "Additionally grants a %Final Damage buff",
-                        "Unaffected by Damage Reflect",
-                        "Has a 3 sec cooldown between each lightning chain"
+                        "Unaffected by Damage Reflect"
                     ]
                 },
                 {
@@ -534,6 +544,11 @@
                 "name": "Deep Rising - Hyper Skill",
                 "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Deep_Rising.png/revision/latest?cb=20130123175806"],
                 "animations": ["https://media3.giphy.com/media/mLTX27xjvKforRTChv/giphy.gif"]
+            },
+            {
+                "name": "Lightning Cascade - 5th Job",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Lightning_Cascade.png/revision/latest?cb=20161125062545"],
+                "animations": ["https://media3.giphy.com/media/9qz8baSUojsFFBIdJf/giphy.gif"]
             },
             {
                 "name": "Shark Torpedo - 5th Job",

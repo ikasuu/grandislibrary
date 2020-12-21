@@ -8,13 +8,14 @@
         "legion": "Chance to recover %Max MP while attacking (10s cd)",
         "equipment": [
             {"weapon": ["wand", "staff"]},
-            {"secondary": ["document"]}
+            {"secondary": ["mageShield", "document"]}
         ],
         "classType": [
             "Combo",
             "Utility",
             "Micro-management"
         ],
+        "innerAbility": ["Attack Speed", "Crit Rate", "Boss Damage"],
         "prosCons": {
             "pros": [
                 "Skill combinations allow for versatility<ul><li>Lots of skill variety</li></ul>",
@@ -84,7 +85,8 @@
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
             ["Hyper Passive Build", "ThreeEggTrio"],
-            ["Boost Nodes Build", "paradoxcarry"]
+            ["Boost Nodes Build", "paradoxcarry"],
+            ["Inner Ability","Maple Central"]
         ],
         "extraContent": {
             "title": "Fusion Skills",
@@ -152,9 +154,13 @@
                 [
                     "2nd Job", [{
                         "id": 22110010,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Mana_Burst_II.png/revision/latest?cb=20160624174126"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Mana_Burst_II.png/revision/latest?cb=20160624174126", "https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Mana_Burst_I.png/revision/latest?cb=20151206184421"],
                         "animations": ["https://media.giphy.com/media/J67nsNvyqxbLgBqz5O/giphy.gif"],
-                        "type": "Upgraded Passive"
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage, number of hits, and max enemies hit"
+                        ]
                     },
                     {
                         "id": 22111011,
@@ -247,16 +253,24 @@
                     },
                     {
                         "id": 22110021,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Advanced_Dragon_Spark.png/revision/latest?cb=20160624180456"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/43/Skill_Advanced_Dragon_Spark.png/revision/latest?cb=20160624180456", "https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Dragon_Spark.png/revision/latest?cb=20160624173750"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance and %Damage"
+                        ]
                     }]
                 ],
                 [
                     "3rd Job", [{
                         "id": 22140010,
-                        "icons": ["https://i.imgur.com/eey9hSG.png"],
+                        "icons": ["https://i.imgur.com/eey9hSG.png", "https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Mana_Burst_I.png/revision/latest?cb=20151206184421"],
                         "animations": ["https://media.giphy.com/media/UqYkZXtnFskBOF6yrb/giphy.gif"],
-                        "type": "Upgraded Passive"
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage, number of hits, and max enemies hit"
+                        ]
                     },
                     {
                         "id": 22141011,
@@ -361,9 +375,13 @@
                 [
                     "4th Job", [{
                         "id": 22170060,
-                        "icons": ["https://i.imgur.com/7fSrLPr.png"],
+                        "icons": ["https://i.imgur.com/7fSrLPr.png", "https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Mana_Burst_I.png/revision/latest?cb=20151206184421"],
                         "animations": ["https://media.giphy.com/media/TdEXJC2h2IDZabVZM1/giphy.gif"],
-                        "type": "Upgraded Passive"
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage, number of hits, and max enemies hit"
+                        ]
                     },
                     {
                         "id": 22171062,
@@ -396,7 +414,7 @@
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Wind_Breath.png/revision/latest?cb=20160624204351"],
                         "animations": ["https://media.giphy.com/media/QBqM6hSmN3Lo2x8MZy/giphy.gif"],
                         "type": "Fusion Skill",
-                        "desc": "Mir's breath becomes even stronger and deals additional damage to enemies with less HP",
+                        "desc": "Mir's breath becomes even stronger and deals additional %p Damage to enemies with less HP",
                         "details": [
                             "Shares skill points with <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Dragon_Breath.png/revision/latest?cb=20160624203737' alt='Skill Dragon Breath' width='32' height='32'>",
                             "Unaffected by Damage Reflect"
@@ -411,7 +429,7 @@
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Earth_Breath.png/revision/latest?cb=20160624204509"],
                         "animations": ["https://media.giphy.com/media/XdPREOI3kProanvgNL/giphy.gif"],
                         "type": "Fusion Skill",
-                        "desc": "Mir's breath becomes even stronger and deals additional damage to enemies with less HP",
+                        "desc": "Mir creates beams of fire that tethers onto enemies and damages them ",
                         "details": [
                             "Shares skill points with <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Dragon_Breath.png/revision/latest?cb=20160624203737' alt='Skill Dragon Breath' width='32' height='32'>",
                             "Unaffected by Damage Reflect"
@@ -479,18 +497,23 @@
                     },
                     {
                         "id": 22170070,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Enhanced_Magic_Debris.png/revision/latest?cb=20160624205330"],
-                        "type": "Passive",
-                        "desc": "Increases the %p Damage of <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Magic_Debris.png/revision/latest?cb=20160624181836' alt='Skill Magic Debris' width='32' height='32'>",
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/63/Skill_Enhanced_Magic_Debris.png/revision/latest?cb=20160624205330", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Magic_Debris.png/revision/latest?cb=20160624181836"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
                         "details": [
-                            "Increases maximum number of debris",
+                            "Increases %p Damage and maximum number of debris",
                             "Reduces the cooldown between each debris created"
                         ]
                     },
                     {
                         "id": 22170071,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Magic_Mastery_%28Evan%29.png/revision/latest?cb=20100601020033"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7f/Skill_Magic_Mastery_%28Evan%29.png/revision/latest?cb=20100601020033", "https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Spell_Mastery_%28Evan%29.png/revision/latest?cb=20160118015407"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Magic Attack and increases %Crit Damage"
+                        ]
                     },
                     {
                         "id": 22170072,
@@ -611,8 +634,8 @@
                     "type": "Attack",
                     "desc": "Unleash an elemental attack in front of you",
                     "details": [
-                        "Attack is guaranteed Critical Hit",
                         "For each element you go through (4 elements) during the attack, you gain a %Final Damage buff",
+                        "Attack is guaranteed Critical Hit",
                         "Casting <img width='31' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b7/Skill_Elemental_Barrage.png/revision/latest?cb=20161125062543' alt='Skill Elemental Barrage'> while Mir is attacking will trigger a Fusion Skill"
                     ]
                 },
@@ -621,7 +644,7 @@
                     "shortDesc": "MP Cost: 1000, Damage: 900%, Number of Attacks: 7, Max Enemies Hit: 12, Duration: 2.5 sec\\nCooldown: 20 sec",
                     "id": 400031020,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ca/Skill_Dragon_Slam.png/revision/latest?cb=20170625064749"],
-                    "animations": ["https://orangemushroom.files.wordpress.com/2016/12/dragon-break-effect.gif?w=600"],
+                    "animations": ["https://media0.giphy.com/media/RdpeFJzXw7Az48eVvD/giphy.gif"],
                     "type": "Mir Skill",
                     "desc": "Mir dives to the ground and creates a shockwave around themselves",
                     "details": [
@@ -633,7 +656,7 @@
                     "shortDesc": "Max Enemies Hit: 12, Damage: 1000%, Number of Attacks: 7, Duration: 4 sec",
                     "id": 400031028,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/50/Skill_Wyrmking%27s_Breath.png/revision/latest?cb=20170625064755"],
-                    "animations": ["https://orangemushroom.files.wordpress.com/2016/12/imperial-breath-effect1.gif?w=600"],
+                    "animations": ["https://media4.giphy.com/media/JsKJ7VGwDSFxrobMUG/giphy.gif"],
                     "type": "Fusion Skill",
                     "desc": "Mir unleashes a powerful blast of elemental energy",
                     "details": [
@@ -646,7 +669,7 @@
                     "shortDesc": "Max Enemies Hit: 12, Damage: 300%, Number of Attacks: 3, Duration: 5 sec",
                     "id": 400031028,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Ludicrous_Speed.png/revision/latest?cb=20170625064802"],
-                    "animations": ["https://orangemushroom.files.wordpress.com/2016/12/break-return-effect.gif"],
+                    "animations": ["https://media0.giphy.com/media/DJT87Z591xJd0FMyxC/giphy.gif"],
                     "type": "Fusion Skill",
                     "desc": "Creates a damaging vortex at your location",
                     "details": [
@@ -659,7 +682,7 @@
                     "shortDesc": "MP Cost: 1000, sets up a magic pentacle for 16 sec. Liberation starts when Magic ATT reaches 25, Max Enemies Hit: 12, Damage: 800%, Number of Attacks: 6 times consecutively, Additional Monster DEF Ignored: +100%\\n3 Magic ATT will be charged if a skill with an attribute hits a target, but it will only be charged once per skill. Charges 1 Magic ATT when a skill with no attribute hits a target, and there is no charge limit\\nCooldown: 180 sec",
                     "id": 400031028,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Elemental_Radiance.png/revision/latest?cb=20181115065213"],
-                    "animations": ["https://orangemushroom.files.wordpress.com/2018/06/zodiac-ray-effect-ray.gif?w=1000&h="],
+                    "animations": ["https://media4.giphy.com/media/Sw2ZuZRcORfdgnbAFv/giphy.gif"],
                     "type": "Summon",
                     "desc": "Creates a magical pentacle that charges up as you attack enemies",
                     "details": [
@@ -718,7 +741,7 @@
             {
                 "name": "Elemental Radiance - 5th Job",
                 "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Elemental_Radiance.png/revision/latest?cb=20181115065213"],
-                "animations": ["https://orangemushroom.files.wordpress.com/2018/06/zodiac-ray-effect-ray.gif?w=1000&h="]
+                "animations": ["https://media0.giphy.com/media/Sw2ZuZRcORfdgnbAFv/giphy.gif"]
             }
         ]
     },

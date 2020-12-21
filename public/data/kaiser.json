@@ -16,6 +16,7 @@
             "Crowd-control"
 
         ],
+        "innerAbility": ["Attack Speed", "Buff Duration", "Boss Damage"],
         "prosCons": {
             "pros": [
                 "Can negate Damage Ignores and Damage Reflect effects",
@@ -83,7 +84,7 @@
         "credits": [
             ["Skill Icons", "MapleWikia"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build", "MaddixMochi"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -97,12 +98,20 @@
                 "Beginner", [{
                     "id": 60001216,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
-                    "type": "Toggle Buff"
+                    "type": "Toggle Buff",
+                    "desc": "",
+                    "details": [
+                        "Cannot be combined with <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142' alt='Skill Realign Attacker Mode'/>"
+                    ]
                 },
                 {
                     "id": 60001217,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
-                    "type": "Toggle Buff"
+                    "type": "Toggle Buff",
+                    "desc": "",
+                    "details": [
+                        "Cannot be combined with <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137' alt='Skill Realign Defender Mode'/>"
+                    ]
                 },
                 {
                     "id": 60001218,
@@ -195,8 +204,12 @@
                 "2nd Job", [
                     {
                         "id": 61100009,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Dragon_Slash_I.png/revision/latest?cb=20120810142953"],
-                        "type": "Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Dragon_Slash_I.png/revision/latest?cb=20120810142953", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ]
                     },
                     {
                         "id": 61101100,
@@ -247,28 +260,32 @@
                     },
                     {
                         "id": 61100005,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
                         "type": "Upgraded Passive",
-                        "desc": "Enhances the bonus effects of <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137' alt='Skill Realign Defender Mode'>",
+                        "desc": "",
                         "details": [
-                            "Enhanced effects stack"
+                            "Increases DEF provided"
                         ]
                     },
                     {
                         "id": 61100008,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
                         "type": "Upgraded Passive",
-                        "desc": "Enhances the bonus effects of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142' alt='Skill Realign Attacker Mode'>",
+                        "desc": "",
                         "details": [
-                            "Enhanced effects stack"
+                            "Increases Attack, %Crit Rate, and %Boss Damage provided"
                         ]
                     }]
                 ],
                 [
                 "3rd Job", [{
                         "id": 61110015,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Dragon_Slash_II.png/revision/latest?cb=20120810144648"],
-                        "type": "Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Dragon_Slash_II.png/revision/latest?cb=20120810144648", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ]
                     },
                     {
                         "id": 61111100,
@@ -337,24 +354,38 @@
                     {
                         "id": 61110007,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Advanced_Inner_Blaze.png/revision/latest?cb=20120711072910"],
-                        "type": "Upgraded Passive"
+                        "type": "Passive"
                     },
                     {
                         "id": 61110005,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases DEF provided",
+                            "Now when toggled, attacks activated using <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link'/> will restore some %Max HP"
+                        ]
                     },
                     {
                         "id": 61110010,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Attack, %Crit Rate, and %Boss Damage provided",
+                            "Now when toggled, attacks activated using <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link'/> gain increased %Final Damage"
+                        ]
                     }]
                 ],
                 [
                 "4th Job", [{
                     "id": 61120020,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dragon_Slash_III.png/revision/latest?cb=20120810145754"],
-                    "type": "Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dragon_Slash_III.png/revision/latest?cb=20120810145754", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of attack"
+                    ]
                 },
                 {
                     "id": 61121100,
@@ -400,11 +431,12 @@
                 },
                 {
                     "id": 61120007,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Advanced_Tempest_Blades.png/revision/latest?cb=20120711155438"],
-                    "type": "Passive",
-                    "desc": "Enhances the %Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015' alt='Skill Tempest Blades'> and increases the number of swords summoned",
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Advanced_Tempest_Blades.png/revision/latest?cb=20120711155438", "https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently grants flat Attack"
+                        "Increases %Damage, numer of hits, and number of swords summoned",
+                        "Now grants flat Attack"
                     ]
                 },
                 {
@@ -420,8 +452,13 @@
                 },
                 {
                     "id": 61120012,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Expert_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120711164442"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Expert_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120711164442", "https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120710092315"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack, %Crit Rate, and %Crit Damage"
+                    ]
                 },
                 {
                     "id": 61121014,
@@ -438,13 +475,23 @@
                 },
                 {
                     "id": 61120010,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases DEF provided",
+                        "Now when toggled, while in <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'/>, gain increased %Damage Reduction (including %Max HP attacks)"
+                    ]
                 },
                 {
                     "id": 61120013,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases Attack, %Crit Rate, and %Boss Damage provided",
+                        "Now when toggled, when in <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'/>, gain increased %Boss Damage"
+                    ]
                 }]
             ]
         ],

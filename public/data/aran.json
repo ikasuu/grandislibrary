@@ -15,6 +15,7 @@
             "Mobile",
             "Hard-hitting"
         ],
+        "innerAbility": ["Boss Damage", "Crit Rate", "%Damage to Debuffed"],
         "prosCons": {
             "pros": [
                 "Has a berserk mode <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Adrenaline_Rush.png/revision/latest?cb=20160110015041' alt='Skill Adrenaline Rush'> Adrenaline Rush where you enter a rampage",
@@ -84,7 +85,7 @@
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build", "srirachastephen"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -178,7 +179,7 @@
                         "details": [
                             "<strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Combo_Ability.png/revision/latest?cb=20100603074051' alt='Skill Combo Ability' width='32' height='32' /> [Command]:</strong> Up + Attack Key<ul><li>Command version increases jump height</li></ul>",
                             "Can be used twice",
-                            "Deals additional %Damage to airborne enemies"
+                            "Deals additional %p Damage to airborne enemies"
                         ]
                     },
                     {
@@ -245,8 +246,14 @@
                 [
                     "3rd Job", [{
                         "id": 21110000,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Advanced_Combo_Ability.png/revision/latest?cb=20100603100546"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Advanced_Combo_Ability.png/revision/latest?cb=20100603100546", "https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Combo_Ability.png/revision/latest?cb=20100603074051"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Knockback Resistance provided",
+                            "Now increases %Crit Rate for every 50 combo and grants flat Attack for every 10 combo (up to 10 stacks)",
+                            "Now grants flat Attack and increases Abnormal Status Resistance, %Elemental Resistance, %Crit Rate, and %Crit Damage"
+                        ]
                     },
                     {
                         "id": 21110026,
@@ -295,7 +302,7 @@
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a4/Skill_Gathering_Hook.png/revision/latest?cb=20160624051841"],
                         "animations": ["https://media.giphy.com/media/RIwJRabEmxu5w7VmH5/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Pulls nearby enemies to in front of you",
+                        "desc": "Gathers nearby enemies to in front of you",
                         "details": [
                             "<strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/2/20/Skill_Combo_Ability.png/revision/latest?cb=20100603074051' alt='Skill Combo Ability' width='32' height='32' /> [Command]:</strong> Up, Up + Attack Key<ul><li>Command version can be used to animation cancel</li></ul>"
                         ]
@@ -356,8 +363,13 @@
                     },
                     {
                         "id": 21120001,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_High_Mastery.png/revision/latest?cb=20100603104117"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c2/Skill_High_Mastery.png/revision/latest?cb=20100603104117", "https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Polearm_Mastery.png/revision/latest?cb=20100603082005"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Crit Damage"
+                        ]
                     },
                     {
                         "id": 21120004,
@@ -385,18 +397,32 @@
                     },
                     {
                         "id": 21120020,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Command_Mastery_II.png/revision/latest?cb=20160624065155"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a0/Skill_Command_Mastery_II.png/revision/latest?cb=20160624065155", "https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Command_Mastery_I.png/revision/latest?cb=20160624040332"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %p Damage bonus provided for command triggered skills"
+                        ]
                     },
                     {
                         "id": 21120021,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Swing_Studies_II.png/revision/latest?cb=20160624065528"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f5/Skill_Swing_Studies_II.png/revision/latest?cb=20160624065528", "https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Swing_Studies_I.png/revision/latest?cb=20160624041128"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %p Damage and %Final Damage buff provided for <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Smash_Swing.png/revision/latest?cb=20151112090117' alt='Skill Smash Swing'/>",
+                            "Increases %Damage and number of hits of afterimage Final Attack"
+                        ]
                     },
                     {
                         "id": 21120012,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134"],
-                        "type": "Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases activation chance, %Damage, and number of hits",
+                            "Now additionally grants flat Attack"
+                        ]
                     }]
             ]
         ],

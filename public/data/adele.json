@@ -14,16 +14,16 @@
             "Summoner - Swords",
             "Micro-management",
             "Mobile"
-
         ],
+        "innerAbility": ["Chance to Skip Cooldown", "Crit Rate", "Boss Damage"],
         "prosCons": {
             "pros": [
                 "Strong mobbing and bossing pontential",
                 "Has strong map control with <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Skill Hunting Decree'/> Aether Swords that fly around the map",
                 "Can convert MATK into ATK",
                 "Has a reactive playstyle with useful skills that can be used to dash back from danger or negate damage with precise timing",
-                "Has a bind <img src='https://orangemushroom.files.wordpress.com/2019/12/squall.png?w=600' alt='Skill Blade Torrent'/>",
-                "Has 2 iFrame <img src='https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600' alt='Skill Aether Guard'/> and <img src='https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600' alt='Skill Infinite'/>"
+                "Has a bind <img src='https://orangemushroom.files.wordpress.com/2019/12/squall.png?w=600' alt='Skill Blade Torrent'/> Blade Torrent",
+                "Has 2 iFrame <img src='https://orangemushroom.files.wordpress.com/2019/12/dike.png?w=600' alt='Skill Aether Guard'/> Aether Guard and <img src='https://orangemushroom.files.wordpress.com/2019/12/infinite.png?w=600' alt='Skill Infinite'/> Infinite"
             ],
             "cons": [
                 "Has micro-management with keeping track of cooldowns and active Aether Swords",
@@ -87,7 +87,8 @@
         ],
         "credits": [
             ["Skill Icons", "OrangeMushroom"],
-            ["Skill Animations", "Ikasuu"]
+            ["Skill Animations", "Ikasuu"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"]
         ],
         "extraContent": {
             "title": "Aether Weaving",
@@ -251,7 +252,7 @@
                         "type": "Toggle Attack",
                         "desc": "When toggled, Trigger attacks will periodically activate <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600' alt='Shard'> automatically",
                         "details": [
-                            "Additionally, permanently increases %p Damage of <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600 alt='Skill Magic Dispatch'/>"
+                            "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='https://orangemushroom.files.wordpress.com/2019/12/shard.png?w=600 alt='Skill Magic Dispatch'/>"
                         ]
                     },
                     {
@@ -339,8 +340,8 @@
                         "type": "Active",
                         "desc": "Dashes backward",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed",
-                            "Can be used while using a 'Trigger' skill"
+                            "Can be used while using a 'Trigger' skill",
+                            "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed"
                         ]
                     },
                     {
@@ -358,8 +359,12 @@
                 "4th Job", [
                 {
                     "id": 151120012,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/high-ether.png?w=600"],
-                    "type": "Passive"
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/high-ether.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/aether.png?w=600"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases max Aether and amount of <img src='https://orangemushroom.files.wordpress.com/2019/12/order.png?w=600' alt='Skill Hunting Decree'/> swords creatable from 4 to 6"
+                    ]
                 },
                 {
                     "id": 151121000,
@@ -435,14 +440,21 @@
                 },
                 {
                     "id": 151120007,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/expert.png?w=600"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/expert.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/mastery.png?w=600"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery and Attack provided"
+                    ]
                 },
                 {
                     "id": 151120008,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/perfection.png?w=600"],
+                    "icons": ["https://orangemushroom.files.wordpress.com/2019/12/perfection.png?w=600", "https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600"],
                     "type": "Upgraded Passive",
-                    "desc": "Increases the effects granted by <img src='https://orangemushroom.files.wordpress.com/2019/12/ascent.png?w=600 alt='Skill Ascent'/>"
+                    "desc": "",
+                    "details": [
+                        "Increases %p Damage increased provided"
+                    ]
                 },
                 {
                     "id": 151120009,

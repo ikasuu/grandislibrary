@@ -15,6 +15,7 @@
             "Supportive",
             "Tanky"
         ],
+        "innerAbility": ["Boss Damage", "Buff Duration", "%Damage to Debuffed"],
         "prosCons": {
             "pros": [
                 "Consistent DPS",
@@ -89,7 +90,7 @@
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build","Calvie"],
+            ["Boost Nodes Build + Inner Ability","Maple Central"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ]
     },
@@ -234,9 +235,12 @@
                     },
                     {
                         "id": 51110009,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Advanced_Royal_Guard.png/revision/latest?cb=20150704200515"],
-                        "type": "Passive",
-                        "desc": "Enhances <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932' alt='Skill Royal Guard'> by adding a 4th and 5th stack to the shockwave and attack buff"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a3/Skill_Advanced_Royal_Guard.png/revision/latest?cb=20150704200515", "https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Royal_Guard.png/revision/latest?cb=20150701221932"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases max stacks to 5"
+                        ]
                     },
                     {
                         "id": 51111004,
@@ -287,13 +291,23 @@
                 },
                 {
                     "id": 51120001,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Expert_Sword_Mastery_%28Mihile%29.png/revision/latest?cb=20120320160355"],
-                    "type": "upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Expert_Sword_Mastery_%28Mihile%29.png/revision/latest?cb=20120320160355", "https://vignette.wikia.nocookie.net/maplestory/images/a/a6/Skill_Weapon_Mastery.png/revision/latest?cb=20140420054436"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Crit Rate and %Crit Damage"
+                    ]
                 },
                 {
                     "id": 51120002,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7e/Skill_Advanced_Final_Attack.png/revision/latest?cb=20110422040134", "https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Final_Attack.png/revision/latest?cb=20110420081207"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases activation chance and %Damage",
+                        "Now grants flat Attack"
+                    ]
                 },
                 {
                     "id": 51121007,
@@ -321,7 +335,8 @@
                     "id": 51121006,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Roiling_Soul.png/revision/latest?cb=20170511005734"],
                     "animations": ["https://media4.giphy.com/media/DAS4PfyuK4wBtH9kYJ/giphy.gif"],
-                    "type": "Toggle Buff"
+                    "type": "Toggle Buff",
+                    "desc": "While toggled, increases %Final Damage and %Crit Damage but can only hit one enemy"
                 },
                 {
                     "id": 51120000,
@@ -512,6 +527,11 @@
                 "name": "Radiant Cross - 4th Job",
                 "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9e/Skill_Radiant_Cross.png/revision/latest?cb=20150704221701"],
                 "animations": ["https://media2.giphy.com/media/jQcSlhXa4XbaJ94n3g/giphy.gif"]
+            },
+            {
+                "name": "Charging Light - Hyper Skills",
+                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Skill_Charging_Light.png/revision/latest?cb=20120918155648"],
+                "animations": ["https://media3.giphy.com/media/aq0UQNOhZ4cvIMqFfc/giphy.gif"]
             },
             {
                 "name": "Shield of Light - 5th Job",

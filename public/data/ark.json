@@ -14,13 +14,13 @@
             "Combo",
             "Transform",
             "Mobile"
-
         ],
+        "innerAbility": ["+1 Skill", "Boss Damage", "Attack"],
         "prosCons": {
             "pros": [
                 "Strong mobbing pontential<ul><li>Can transform into a Specter which enhances both your mobbing and bossing capabilities</li></ul>",
-                "Has 2 iFrame <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Creeping_Terror.png/revision/latest?cb=20180903020305' alt='Skill Creeping Terror'/> and <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Abyssal_Recall.png/revision/latest?cb=20180903020258' alt='Skill Abyssal Recall'/>",
-                "Has a bind <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Blissful_Restraint.png/revision/latest?cb=20180903020302' alt='Skill Blissful Restraint'>",
+                "Has 2 iFrame <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/41/Skill_Creeping_Terror.png/revision/latest?cb=20180903020305' alt='Skill Creeping Terror'/> Creeping Terror and <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/13/Skill_Abyssal_Recall.png/revision/latest?cb=20180903020258' alt='Skill Abyssal Recall'/> Abyssal Recall",
+                "Has a bind <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Blissful_Restraint.png/revision/latest?cb=20180903020302' alt='Skill Blissful Restraint'> Blissful Restraint",
                 "Can convert MATK into ATK",
                 "Two manual buffs, other buffs come from attack (Spell Bullet)",
                 "100% Stance + Super Stance (Prevents ALL knockbacks)"
@@ -90,7 +90,8 @@
         "credits": [
             ["Skill Icons", "OrangeMushroom"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build", "Zomgnit"]
+            ["Boost Nodes Build", "Zomgnit"],
+            ["Inner Ability","Maple Central"]
         ],
         "extraContent": {
             "title": "Specter Form",
@@ -317,16 +318,21 @@
                 "3rd Job", [
                     {
                         "id": 155110000,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Vivid_Nightmare.png/revision/latest?cb=20180903020401"],
-                        "type": "Lef | Upgraded Passive"
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Vivid_Nightmare.png/revision/latest?cb=20180903020401", "https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Skill_Ominous_Nightmare.png/revision/latest?cb=20180902220535"],
+                        "type": "Lef | Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of attack"
+                        ]
                     },
                     {
                         "id": 155110001,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Vivid_Dream.png/revision/latest?cb=20180903020358"],
+                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Vivid_Dream.png/revision/latest?cb=20180903020358", "https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Ominous_Dream.png/revision/latest?cb=20180902220535"],
                         "type": "Specter | Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Shares the same Skill Points (SP) as <img class='lzyPlcHld lzyTrns lzyLoaded' src='https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Vivid_Nightmare.png/revision/latest?cb=20180903020401' alt='Skill Vivid Nightmare' width='32' height='32' data-preserve-html-node='true' /> Vivid Nightmare"
+                            "Increases %Damage of attack",
+                            "Shares the same Skill Points (SP) as <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Vivid_Nightmare.png/revision/latest?cb=20180903020401' alt='Skill Vivid Nightmare' width='32' height='32'/> Vivid Nightmare"
                         ]
                     },
                     {
@@ -394,13 +400,22 @@
                 "4th Job", [
                 {
                     "id": 155120000,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Endless_Nightmare.png/revision/latest?cb=20180903020307"],
-                    "type": "Lef | Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Endless_Nightmare.png/revision/latest?cb=20180903020307", "https://vignette.wikia.nocookie.net/maplestory/images/7/7c/Skill_Ominous_Nightmare.png/revision/latest?cb=20180902220535"],
+                    "type": "Lef | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of attack"
+                    ]
                 },
                 {
                     "id": 155120001,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Endless_Dream.png/revision/latest?cb=20180903020306"],
-                    "type": "Specter | Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Endless_Dream.png/revision/latest?cb=20180903020306", "https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Ominous_Dream.png/revision/latest?cb=20180902220535"],
+                    "type": "Specter | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of attack",
+                        "Shares the same Skill Points (SP) as <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/06/Skill_Vivid_Nightmare.png/revision/latest?cb=20180903020401' alt='Skill Vivid Nightmare' width='32' height='32'/> Vivid Nightmare"
+                    ]
                 },
                 {
                     "id": 155121102,
@@ -451,18 +466,31 @@
                 },
                 {
                     "id": 155120010,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052", "https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Knuckle_Mastery.png/revision/latest?cb=20110507035303"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Weapon Mastery and Attack provided",
+                        "Now increases %Crit Damage"
+                    ]
                 },
                 {
                     "id": 155120011,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Advanced_Mystic_Arts.png/revision/latest?cb=20180903020300"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/64/Skill_Advanced_Mystic_Arts.png/revision/latest?cb=20180903020300", "https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Mystic_Arts_Training.png/revision/latest?cb=20180903020355"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %p Damage increased provided"
+                    ]
                 },
                 {
                     "id": 155120012,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Advanced_Innate_Arts.png/revision/latest?cb=20180903020300"],
-                    "type": "Upgraded Passive"
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/22/Skill_Advanced_Innate_Arts.png/revision/latest?cb=20180903020300", "https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Innate_Arts_Training.png/revision/latest?cb=20180903020354"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %p Damage increased provided"
+                    ]
                 },
                 {
                     "id": 155120013,
