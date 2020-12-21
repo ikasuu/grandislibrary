@@ -21,7 +21,7 @@ function UpgradeEquipment() {
   <h2 id="scrolls">Scrolls in Regular Servers<em> </em></h2>
   <hr />
   Scrolls are one way of upgrading equipment, they are found in the USE tab. Scrolls are the traditional way of upgrading equipment and can be done by double-clicking it and dragging it on to an item. Most of regular scrolls nowadays are
-  useless and have been replaced with an easier system called <a style={{color: '#03afe7'}} href="https://support-maplestory.nexon.net/hc/en-us/articles/204744535-What-are-Spell-Traces-" target="_blank" rel="noopener">Spell Tracing</a> which
+  useless and have been replaced with an easier system called <a style={{color: '#03afe7'}} href="https://support-maplestory.nexon.net/hc/en-us/articles/204744535-What-are-Spell-Traces-" target="_blank" rel="noopener noreferrer">Spell Tracing</a> which
   will be explained later. For now, Spell Tracing provides the same function as scrolling and is much easier to obtain than scrolls
   <strong>[Note]: </strong>Whenever you use a scroll, whether it fails or passes, an upgrade slot will be consumed
   <strong>[Note]: </strong>Scrolls and upgrade slots are used only on non-Reboot servers. Reboot servers only have star forcing/enhancing
@@ -29,8 +29,8 @@ function UpgradeEquipment() {
   <strong>Regular Scrolls]: </strong>When a regular scroll succeeds, it will increase the stats of equipment by a flat amount
   <img src="https://maplestory.io/api/GMS/210.1.1/item/2613050/icon" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2046876/icon" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2048094/icon" />
   <img src="https://maplestory.io/api/GMS/210.1.1/item/2048095/icon" /><strong>[Special Regular Scrolls]: </strong>There are also other scrolls obtainable from
-  <a style={{color: '#03afe7'}} href="http://maplestory.nexon.net/micro-site/37241" target="_blank" rel="noopener">Gachapon</a>,
-  <a style={{color: '#03afe7'}} href="http://maplestory.nexon.net/game/marvel-machine" target="_blank" rel="noopener">Marvel Machine</a>, etc. (aka loot boxes) that provide better stats than Spell Tracing and regular scrolls. Keep in mind these
+  <a style={{color: '#03afe7'}} href="http://maplestory.nexon.net/micro-site/37241" target="_blank" rel="noopener noreferrer">Gachapon</a>,
+  <a style={{color: '#03afe7'}} href="http://maplestory.nexon.net/game/marvel-machine" target="_blank" rel="noopener noreferrer">Marvel Machine</a>, etc. (aka loot boxes) that provide better stats than Spell Tracing and regular scrolls. Keep in mind these
   are very expensive and are usually used late game to maximize damage. As well, the best scrolls most of the time also have bad success rates and may destroy items so, they may cost extra to buy items that prevent items from being destroyed
   or losing an upgrade slot
   <img className="size-full wp-image-1058 alignnone" src="https://grandislibrary.files.wordpress.com/2019/08/maplestory_zfmhy0r8vc.png" alt="MapleStory_ZFMHY0R8vC" width={287} height={126} /><img src="https://i.imgur.com/GSmQ6nR.png" />
@@ -50,9 +50,9 @@ function UpgradeEquipment() {
       <ul>
         <li>Scrolling with these scrolls is also referred to as Priming</li>
         <li>
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2613042" target="_blank" rel="noopener">One-Handed Weapon</a>,
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2612043" target="_blank" rel="noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2615026" target="_blank" rel="noopener">Accessory</a> and
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2616057" target="_blank" rel="noopener">Armor</a>
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2613042" target="_blank" rel="noopener noreferrer">One-Handed Weapon</a>,
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2612043" target="_blank" rel="noopener noreferrer">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2615026" target="_blank" rel="noopener noreferrer">Accessory</a> and
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2616057" target="_blank" rel="noopener noreferrer">Armor</a>
         </li>
         <li>Obtainable from Marvel Machine</li>
       </ul>
@@ -64,12 +64,12 @@ function UpgradeEquipment() {
       <ul>
         <li>There are also Pet Equip scrolls that grant 5 to 7 Attack or Magic Attack</li>
         <li>
-          <strong>[Attack]:</strong> <a href="https://maplestory.wiki/GMS/210.1.1/item/2613050" target="_blank" rel="noopener">One-Handed Weapon</a>,
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2612061" target="_blank" rel="noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noopener">Pet Equip</a>
+          <strong>[Attack]:</strong> <a href="https://maplestory.wiki/GMS/210.1.1/item/2613050" target="_blank" rel="noopener noreferrer">One-Handed Weapon</a>,
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2612061" target="_blank" rel="noopener noreferrer">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noopener noreferrer">Pet Equip</a>
         </li>
         <li>
-          <strong>[Magic Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noopener">One-Handed Weapon</a>,
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2612062" target="_blank" rel="noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2048818" target="_blank" rel="noopener">Pet Equip</a>
+          <strong>[Magic Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noopener noreferrer">One-Handed Weapon</a>,
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2612062" target="_blank" rel="noopener noreferrer">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2048818" target="_blank" rel="noopener noreferrer">Pet Equip</a>
         </li>
         <li>Obtainable from Marvel Machine</li>
       </ul>
@@ -82,12 +82,12 @@ function UpgradeEquipment() {
       <img src="https://maplestory.io/api/GMS/210.1.1/item/2048095/icon" /> <strong>[Premium Scrolls]:</strong> Grants 4 to 5 Attack or Magic Attack when Applied
       <ul>
         <li>
-          <strong>[Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2046856" target="_blank" rel="noopener">Accessory</a> and
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2048094" target="_blank" rel="noopener">Pet Equip</a>
+          <strong>[Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2046856" target="_blank" rel="noopener noreferrer">Accessory</a> and
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2048094" target="_blank" rel="noopener noreferrer">Pet Equip</a>
         </li>
         <li>
-          <strong>[Magic Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2046857" target="_blank" rel="noopener">Accessory</a> and
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2048095" target="_blank" rel="noopener">Pet Equip</a>
+          <strong>[Magic Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2046857" target="_blank" rel="noopener noreferrer">Accessory</a> and
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2048095" target="_blank" rel="noopener noreferrer">Pet Equip</a>
         </li>
         <li>Obtainable from Gachapon</li>
       </ul>
@@ -100,7 +100,7 @@ function UpgradeEquipment() {
       <ul>
         <li>
           <strong>[Pure Equipment Enhancement Scroll]: </strong>The Pure version scrolls are mainly used on Tyrant or
-          <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noopener">"Superior"</a> gear because it does not destroy an item on failure
+          <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noopener noreferrer">"Superior"</a> gear because it does not destroy an item on failure
           <ul>
             <li>Star Forcing/Enhancing Superior Gear costs much more than regular gear and has a higher chance to being destroyed on failure which is why people the prefer the Pure Equipment Enhancement Scrolls</li>
             <li>These scrolls are also known as "No Booms"</li>
@@ -118,18 +118,18 @@ function UpgradeEquipment() {
       There is also one that provides <strong>Bonus Potential</strong> which is extra potential on top of your current potential on your item (refer to the top image [14]).
       <ul>
         <li>
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2049401" target="_blank" rel="noopener">Regular Potential</a> and
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2049705" target="_blank" rel="noopener">Epic Potential</a> scrolls can be found normally in-game from hunting and in shops but
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2049750" target="_blank" rel="noopener">Unique Potential</a>,
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2049780" target="_blank" rel="noopener">Legendary Potential</a>, and
-          <a href="https://maplestory.wiki/GMS/210.1.1/item/2048308" target="_blank" rel="noopener">Bonus Potential Scrolls</a> are found from things such as Gachapon, Marvel Machine, Philosopher Books or rarely from Events
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2049401" target="_blank" rel="noopener noreferrer">Regular Potential</a> and
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2049705" target="_blank" rel="noopener noreferrer">Epic Potential</a> scrolls can be found normally in-game from hunting and in shops but
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2049750" target="_blank" rel="noopener noreferrer">Unique Potential</a>,
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2049780" target="_blank" rel="noopener noreferrer">Legendary Potential</a>, and
+          <a href="https://maplestory.wiki/GMS/210.1.1/item/2048308" target="_blank" rel="noopener noreferrer">Bonus Potential Scrolls</a> are found from things such as Gachapon, Marvel Machine, Philosopher Books or rarely from Events
         </li>
         <li>
-          You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2049407" target="_blank" rel="noopener">Advanced Potential Scrolls</a> from <img src="https://maplestory.io/api/GMS/210.1.1/item/2431893/icon" /> Red Cube
+          You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2049407" target="_blank" rel="noopener noreferrer">Advanced Potential Scrolls</a> from <img src="https://maplestory.io/api/GMS/210.1.1/item/2431893/icon" /> Red Cube
           Fragments (from using Red Cubes) that has a higher success rate than regular potential scrolls
         </li>
         <li>
-          You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2048306" target="_blank" rel="noopener">Special Bonus Potential Scrolls</a> from
+          You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2048306" target="_blank" rel="noopener noreferrer">Special Bonus Potential Scrolls</a> from
           <img src="https://maplestory.io/api/GMS/210.1.1/item/2431894/icon" /> Black Cube Fragments (from using Black Cubes) that has a 100% chance to add a Bonus Potential
         </li>
       </ul>
@@ -213,7 +213,7 @@ function UpgradeEquipment() {
   <strong>Note: The next few scrolls are obtained from the Cash Shop &amp; Maple Reward Shop but there are also a few that are obtainable from regular gameplay such as Elite Bosses.</strong>
   <ul>
     <li>
-      <strong><img src="https://maplestory.io/api/GMS/210.1.1/item/2531000/icon" /> <a href="https://maplestory.wiki/GMS/210.1.1/item/5064000" target="_blank" rel="noopener">[Shielding Ward]</a>: </strong>Prevents an item from being
+      <strong><img src="https://maplestory.io/api/GMS/210.1.1/item/2531000/icon" /> <a href="https://maplestory.wiki/GMS/210.1.1/item/5064000" target="_blank" rel="noopener noreferrer">[Shielding Ward]</a>: </strong>Prevents an item from being
       destroyed by a failed scroll (Safeguard)
     </li>
     <li>
@@ -221,7 +221,7 @@ function UpgradeEquipment() {
       fail
     </li>
     <li>
-      <strong><img src="https://maplestory.io/api/GMS/210.1.1/item/2533000/icon" /> <a href="https://maplestory.wiki/GMS/210.1.1/item/5064300" target="_blank" rel="noopener">[Guardian Scroll]</a>: </strong>Prevents a scroll from being
+      <strong><img src="https://maplestory.io/api/GMS/210.1.1/item/2533000/icon" /> <a href="https://maplestory.wiki/GMS/210.1.1/item/5064300" target="_blank" rel="noopener noreferrer">[Guardian Scroll]</a>: </strong>Prevents a scroll from being
       consumed if it were to fail. This is applied to equipment that can be upgraded
     </li>
     <li>
@@ -235,7 +235,7 @@ function UpgradeEquipment() {
   <hr />
   <img className="size-full wp-image-1074 alignnone" src="https://grandislibrary.files.wordpress.com/2019/08/maplestory_layqcvttxf.png" alt="MapleStory_LayQCVTTxf" width={284} height={216} />
   Spell tracing involves using an item called <img src="https://maplestory.io/api/GMS/210.1.1/item/2433943/icon" />
-  <a style={{color: '#03afe7'}} href="https://maplestory.wiki/GMS/210.1.1/item/4001832" target="_blank" rel="noopener">"Spell Trace"</a> to upgrade items instead of using scrolls. They also consume an upgrade slot upon success or fail. This is
+  <a style={{color: '#03afe7'}} href="https://maplestory.wiki/GMS/210.1.1/item/4001832" target="_blank" rel="noopener noreferrer">"Spell Trace"</a> to upgrade items instead of using scrolls. They also consume an upgrade slot upon success or fail. This is
   the main and most common way to upgrade equipment. Some common ways to get Spell Traces is to hunt monsters, Pollo Frito portals, Silent Crusade, Surprise Missions and from events
   <img className="alignnone size-full wp-image-1078" src="https://grandislibrary.files.wordpress.com/2019/08/maplestory_r3uzuwnhrk.png" alt="MapleStory_r3uZUwnhrk" width={341} height={293} />
   <img className="size-full wp-image-1077 alignnone" src="https://grandislibrary.files.wordpress.com/2019/08/maplestory_h5efp4vhek.png" alt="MapleStory_h5eFp4VHEk" width={212} height={110} />
@@ -306,7 +306,7 @@ function UpgradeEquipment() {
   </p>
   <img src="https://i.imgur.com/9Dh4n89.png" />
   To begin Transfer Hammering, you can access the UI from your Inventory by<strong> pressing the blue hammer icon</strong>
-  For more info on Transfer Hammer, check out: <a style={{color: '#03afe7'}} href="https://strategywiki.org/wiki/MapleStory/Transfer_Hammer" target="_blank" rel="noopener">https://strategywiki.org/wiki/MapleStory/Transfer_Hammer</a>
+  For more info on Transfer Hammer, check out: <a style={{color: '#03afe7'}} href="https://strategywiki.org/wiki/MapleStory/Transfer_Hammer" target="_blank" rel="noopener noreferrer">https://strategywiki.org/wiki/MapleStory/Transfer_Hammer</a>
   <hr />
   <a style={{color: '#03afe7'}} href="#top">Go to top</a>
   <h2 id="transpose">Transposing</h2>
@@ -315,7 +315,7 @@ function UpgradeEquipment() {
   Tranposing allows you to transfer an equipment's bonus stats from Additional Stats, Scroll and Star Force Enhancements (the blue and green stats) to <strong>Sweetwater gear</strong>. The Star Force count will also drop by 1 but you retain
   the bonus stats. Potential Ranks also carry over but the Potential Lines will be reset Transposing is unlocked after gaining access to Commerci at Lv. 140. Transposing will cost
   <img className src="https://vignette.wikia.nocookie.net/maplestory/images/5/56/Etc_Commerci_Denaro.png/revision/latest?cb=20140901070302" alt="Etc Commerci Denaro" data-image-key="Etc_Commerci_Denaro.png" data-image-name="Etc Commerci Denaro.png" width={30} height={22} />
-  <a style={{color: '#03afe7'}} href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noopener">[Commerci Denaros]</a> and the chance for transposing to succeed is not guaranteed
+  <a style={{color: '#03afe7'}} href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noopener noreferrer">[Commerci Denaros]</a> and the chance for transposing to succeed is not guaranteed
   <hr />
   <a style={{color: '#03afe7'}} href="#top">Go to top</a>
   <h2 id="cubing">Cubing</h2>
@@ -332,7 +332,7 @@ function UpgradeEquipment() {
     <li>Unique (Yellow)</li>
     <li>Legendary (Green)</li>
   </ul>
-  <img src="https://maplestory.io/api/GMS/210.1.1/item/2711000/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2711000" target="_blank" rel="noopener">[Occult Cube]</a>: </strong>Rerolls potential of items up to EPIC
+  <img src="https://maplestory.io/api/GMS/210.1.1/item/2711000/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2711000" target="_blank" rel="noopener noreferrer">[Occult Cube]</a>: </strong>Rerolls potential of items up to EPIC
   <ul>
     <li style={{listStyleType: 'none'}}>
       <ul>
@@ -341,7 +341,7 @@ function UpgradeEquipment() {
       </ul>
     </li>
   </ul>
-  <img src="https://maplestory.io/api/GMS/210.1.1/item/2730002/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2730002" target="_blank" rel="noopener">[Bonus Occult Cube]</a>: </strong>Rerolls the BONUS potential of items
+  <img src="https://maplestory.io/api/GMS/210.1.1/item/2730002/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2730002" target="_blank" rel="noopener noreferrer">[Bonus Occult Cube]</a>: </strong>Rerolls the BONUS potential of items
   up to RARE
   <ul>
     <li style={{listStyleType: 'none'}}>
@@ -351,7 +351,7 @@ function UpgradeEquipment() {
       </ul>
     </li>
   </ul>
-  <img src="https://maplestory.io/api/GMS/210.1.1/item/2710002/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710002" target="_blank" rel="noopener">[Master Craftsman's Cube]</a>: </strong>Rerolls potential of items up to
+  <img src="https://maplestory.io/api/GMS/210.1.1/item/2710002/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710002" target="_blank" rel="noopener noreferrer">[Master Craftsman's Cube]</a>: </strong>Rerolls potential of items up to
   UNIQUE
   <ul>
     <li style={{listStyleType: 'none'}}>
@@ -362,7 +362,7 @@ function UpgradeEquipment() {
       </ul>
     </li>
   </ul>
-  <img src="https://maplestory.io/api/GMS/210.1.1/item/2710007/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710003" target="_blank" rel="noopener">[Meister's Cube]</a>: </strong>Rerolls potential of items up to
+  <img src="https://maplestory.io/api/GMS/210.1.1/item/2710007/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2710003" target="_blank" rel="noopener noreferrer">[Meister's Cube]</a>: </strong>Rerolls potential of items up to
   LEGENDARY
   <ul>
     <li style={{listStyleType: 'none'}}>
@@ -382,7 +382,7 @@ function UpgradeEquipment() {
       </ul>
     </li>
   </ul>
-  <img src="https://maplestory.io/api/GMS/210.1.1/item/5062010/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062010" target="_blank" rel="noopener">[Black Cube]</a>: </strong>Rerolls potential of items up to LEGENDARY.
+  <img src="https://maplestory.io/api/GMS/210.1.1/item/5062010/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062010" target="_blank" rel="noopener noreferrer">[Black Cube]</a>: </strong>Rerolls potential of items up to LEGENDARY.
   You also have the chance to choose which potential you want, your Current one or the New one
   <ul>
     <li style={{listStyleType: 'none'}}>
@@ -393,7 +393,7 @@ function UpgradeEquipment() {
     </li>
     <li>Occasionally also found in Event Shops</li>
   </ul>
-  <img src="https://maplestory.io/api/GMS/210.1.1/item/5062500/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062500" target="_blank" rel="noopener">[Bonus Potential Cube]</a>: </strong>Rerolls the BONUS potential of
+  <img src="https://maplestory.io/api/GMS/210.1.1/item/5062500/icon" /> <strong><a href="https://maplestory.wiki/GMS/210.1.1/item/5062500" target="_blank" rel="noopener noreferrer">[Bonus Potential Cube]</a>: </strong>Rerolls the BONUS potential of
   items up to LEGENDARY
   <ul>
     <li style={{listStyleType: 'none'}}>
@@ -413,15 +413,15 @@ function UpgradeEquipment() {
   flames
   <img src="https://maplestory.io/api/GMS/210.1.1/item/2048700/icon" data-v-e6b15fb6 /><img src="https://maplestory.io/api/GMS/210.1.1/item/2048701/icon" data-v-e6b15fb6 />
   <img src="https://maplestory.io/api/GMS/210.1.1/item/2048702/icon" data-v-e6b15fb6 /><img src="https://maplestory.io/api/GMS/210.1.1/item/2048703/icon" data-v-e6b15fb6 />
-  <img src="https://maplestory.io/api/GMS/210.1.1/item/2048704/icon" data-v-e6b15fb6 /> Regular Rebirth Flames: <a href="https://maplestory.wiki/GMS/210.1.1/item/2048700" target="_blank" rel="noopener">[Lv. 110]</a>,
-  <a href="https://maplestory.wiki/GMS/214/item/2048701" target="_blank" rel="noopener">[Lv. 120]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048702" target="_blank" rel="noopener">[Lv. 130]</a>,
-  <a href="https://maplestory.wiki/GMS/214/item/2048703" target="_blank" rel="noopener">[Lv. 140]</a>, and <a href="https://maplestory.wiki/GMS/214/item/2048704" target="_blank" rel="noopener">[Lv. 150]</a>
+  <img src="https://maplestory.io/api/GMS/210.1.1/item/2048704/icon" data-v-e6b15fb6 /> Regular Rebirth Flames: <a href="https://maplestory.wiki/GMS/210.1.1/item/2048700" target="_blank" rel="noopener noreferrer">[Lv. 110]</a>,
+  <a href="https://maplestory.wiki/GMS/214/item/2048701" target="_blank" rel="noopener noreferrer">[Lv. 120]</a>, <a href="https://maplestory.wiki/GMS/214/item/2048702" target="_blank" rel="noopener noreferrer">[Lv. 130]</a>,
+  <a href="https://maplestory.wiki/GMS/214/item/2048703" target="_blank" rel="noopener noreferrer">[Lv. 140]</a>, and <a href="https://maplestory.wiki/GMS/214/item/2048704" target="_blank" rel="noopener noreferrer">[Lv. 150]</a>
   <img src="https://maplestory.io/api/GMS/210.1.1/item/2048716/icon" data-v-e6b15fb6 /><img src="https://maplestory.io/api/GMS/210.1.1/item/2048717/icon" data-v-e6b15fb6 /> Special Rebirth Flames:
-  <a href="https://maplestory.wiki/GMS/214/item/2048716">[Powerful Rebirth Flame]</a> and <a href="https://maplestory.wiki/GMS/214/item/2048717" target="_blank" rel="noopener">[Eternal Rebirth Flame]</a>
+  <a href="https://maplestory.wiki/GMS/214/item/2048716">[Powerful Rebirth Flame]</a> and <a href="https://maplestory.wiki/GMS/214/item/2048717" target="_blank" rel="noopener noreferrer">[Eternal Rebirth Flame]</a>
   Powerful Rebirth Flames and Eternal Rebirth Flames can reroll any equipment with Additional Stats. They can also provide the best Additional Stats possible. These special Rebirth Flames can be crafted, sold in Event Shops, given from Fairy
   Bros' Daily Gift or sometimes dropped by Elite Monsters and Bosses Additionally, there is a special Rebirth Flame called the <img src="https://maplestory.io/api/GMS/214/item/2048753/icon" alt="Black Rebirth Flame" />
-  <a href="https://maplestory.wiki/GMS/214/item/2048753" target="_blank" rel="noopener">Black Rebirth Flame</a> that is only available from Event Shops which functions just like an Eternal Rebirth Flame but you can choose between your
-  previous stats or the current ones similar to the <img src="https://maplestory.io/api/GMS/214/item/5062010/icon" alt="Black Cube" /> <a href="https://maplestory.wiki/GMS/214/item/5062010" target="_blank" rel="noopener">Black Cube</a> for
+  <a href="https://maplestory.wiki/GMS/214/item/2048753" target="_blank" rel="noopener noreferrer">Black Rebirth Flame</a> that is only available from Event Shops which functions just like an Eternal Rebirth Flame but you can choose between your
+  previous stats or the current ones similar to the <img src="https://maplestory.io/api/GMS/214/item/5062010/icon" alt="Black Cube" /> <a href="https://maplestory.wiki/GMS/214/item/5062010" target="_blank" rel="noopener noreferrer">Black Cube</a> for
   Potentials
   <h4>Item Dots <em>(refer to [04] on the top image)</em></h4>
   <hr />
@@ -436,16 +436,16 @@ function UpgradeEquipment() {
   </ul>
   <hr />
   For more info on Spell Tracing and Starforcing, check out:
-  <a style={{color: '#03afe7'}} href="https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force" target="_blank" rel="noopener">https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force</a>
-  <a style={{color: '#03afe7'}} href="https://support-maplestory.nexon.net/hc/en-us/articles/204088639-How-do-I-enhance-equips-with-Star-Force-" target="_blank" rel="noopener">
+  <a style={{color: '#03afe7'}} href="https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force" target="_blank" rel="noopener noreferrer">https://strategywiki.org/wiki/MapleStory/Spell_Trace_and_Star_Force</a>
+  <a style={{color: '#03afe7'}} href="https://support-maplestory.nexon.net/hc/en-us/articles/204088639-How-do-I-enhance-equips-with-Star-Force-" target="_blank" rel="noopener noreferrer">
     https://support-maplestory.nexon.net/hc/en-us/articles/204088639-How-do-I-enhance-equips-with-Star-Force-
   </a>
   For more info on Additional Stats and Rebirth Flames, check out the strategywiki here:
-  <a style={{color: '#03afe7'}} href="https://strategywiki.org/wiki/MapleStory/Bonus_Stats" target="_blank" rel="noopener">https://strategywiki.org/wiki/MapleStory/Bonus_Stats</a>
+  <a style={{color: '#03afe7'}} href="https://strategywiki.org/wiki/MapleStory/Bonus_Stats" target="_blank" rel="noopener noreferrer">https://strategywiki.org/wiki/MapleStory/Bonus_Stats</a>
   For more info on endgame gear, check out this neat video:
-  <a style={{color: '#03afe7'}} href="https://www.youtube.com/watch?v=qdyIWRqXOH0" target="_blank" rel="noopener">https://www.youtube.com/watch?v=qdyIWRqXOH0</a>
+  <a style={{color: '#03afe7'}} href="https://www.youtube.com/watch?v=qdyIWRqXOH0" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=qdyIWRqXOH0</a>
   For more info on Gear, check out this neat guide. It can also be applicable to Non-Reboot servers too even though it's curated for Reboot servers:
-  <a style={{color: '#03afe7'}} href="https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p" target="_blank" rel="noopener">
+  <a style={{color: '#03afe7'}} href="https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p" target="_blank" rel="noopener noreferrer">
     https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p
   </a>
 </div>

@@ -36,6 +36,9 @@ export class ContentRepository extends Component {
         if(prevProps.match.params.id !== this.props.match.params.id){
             this.setState({id: this.props.match.params.id});
         }
+    }
+    
+    componentDidMount(){
         if (window.location.hash) {
             const id = window.location.hash.replace("#", "").split("#");
             const element = document.getElementById(id[1]);

@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import scrollWidthOffset from '../../special/Hooks';
-import '../../css/page.css';
+import { HashLink as Link } from 'react-router-hash-link';
+import '../../css/repository-page.css';
 
 function StatTerms() {
     return (
@@ -153,5 +152,13 @@ function StatTerms() {
 
     )
 }
+
+//Used to scroll to anchor tags
+
+const scrollWidthOffset = (el) => {
+   const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+   const yOffset = -80; 
+   window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+ }
 
 export default StatTerms
