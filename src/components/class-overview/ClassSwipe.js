@@ -37,8 +37,7 @@ function ClassSwipe({classGroup}) {
                 // when window width is >= 1199px
                 1199: {
                     slidesPerView: 9.5,
-                  },
-                
+                  }
             }}
         >
             {renderSwitch(classGroup)}

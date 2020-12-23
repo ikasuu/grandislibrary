@@ -167,6 +167,17 @@ export const GlobalStyle = createGlobalStyle`
     background: ${props => props.theme.mode === 'dark' ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)'} !important;
   }
 
+  .swiper-pagination-bullet{
+    background: ${props => props.theme.mode === 'dark' ? 'rgba(255, 255, 255, 0.8)' : 'rgba(0, 0, 0, 0.8)'} !important;
+  }
+  
+  .swiper-button-prev, .swiper-button-next{
+    color: white !important;
+    -webkit-filter: drop-shadow( 3px 3px 1px rgba(0, 0, 0, .8));
+    filter: drop-shadow( 3px 3px 1px rgba(0, 0, 0, .8));
+    padding-bottom: 2.5rem;
+  }
+
   `;
   
 //Get user's preferred site theme, if none, default is 'dark'

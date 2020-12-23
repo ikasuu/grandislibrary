@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Container } from 'react-bootstrap';
 import HeaderImageUrl from '../../special/Values';
 import HeaderImage from '../../components/HeaderImage'
+
+//Content
 import SharedCashShopInventory from './shared-cash-shop-inventory';
 import StatTerms from './stat-terms';
 import AttackSpeed from './attack-speed';
@@ -10,6 +11,9 @@ import LinkSkills from './link-skills';
 import BossMatchmaking from './boss-matchmaking-pre-quests';
 import UpgradeEquipment from './upgrading-enhancing-equipment';
 import ContentGuide from './level-content-guide';
+
+//Styling
+import '../../css/repository-page.css';
 
 export class ContentRepository extends Component {
 
@@ -25,9 +29,9 @@ export class ContentRepository extends Component {
         return (
             <div>
                 <HeaderImage imageUrl={`${HeaderImageUrl.ristonia}.jpg`}/>
-                <Container>
+                <div className="content-container">
                     {this.renderSwitch(this.state.id)}
-                </Container>
+                </div>
             </div>
         )
     }

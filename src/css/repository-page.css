@@ -1,8 +1,28 @@
 @media (max-width: 768px){
     .repository-image{
-        width: 100%;
+        max-width: 70%;
         height: auto;
     }
+}
+
+.quick-jump{
+    line-height: normal;
+}
+
+.content-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p{
+    line-height: 1.8rem;
+}
+
+li{
+    line-height: 1.8rem;
 }
 
 h3{
@@ -15,4 +35,35 @@ h2{
 
 li{
     margin: 0.5rem 0 0.5rem 0;
+}
+
+
+@media (max-width: 575px){
+    .content-container{
+        max-width: 28rem;
+    }
+}
+
+@media (min-width: 576px){
+    .content-container{
+        max-width: 30rem;
+    }
+}
+
+@media (min-width: 768px){
+    .content-container{
+        max-width: 40rem;
+    }
+}
+
+@media (min-width: 992px){
+    .content-container{
+        max-width: 50rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .content-container{
+        max-width: 70rem;
+    }
 }

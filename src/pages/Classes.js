@@ -1,12 +1,14 @@
 import React from 'react'
-import { HeaderImageUrl, classes } from '../special/Values';
-import HeaderImage from '../components/HeaderImage'
+import { Helmet } from 'react-helmet';
 import { Figure } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+
+import { HeaderImageUrl, classes } from '../special/Values';
+import HeaderImage from '../components/HeaderImage'
+
 import '../css/class-figure.css';
 import '../css/hover.css';
 import '../css/page.css';
-import { Helmet } from 'react-helmet';
 
 function Classes() {
     return (
