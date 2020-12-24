@@ -1,8 +1,9 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Scrollbar } from 'swiper';
 import { Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Scrollbar } from 'swiper';
+
 import { classes } from '../../special/Values';
 
 // Import Swiper styles
@@ -11,37 +12,54 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 
 SwiperCore.use([Scrollbar]);
 
+/*
+    Rendering the swipable class element at the bottom of Class Overview
+    Created by: Ikasuu, Fall 2020
+*/
+
 function ClassSwipe({classGroup}) {
+    let name = classGroup
+    
+    // Removes words like (Xenon) or (Beast Tamer) for Resistance and Other type classes when displaying <h5>
+    if(classGroup.includes("Resistance")){
+        name = "Resistance";
+    }else if(classGroup.includes("Other")){
+        name = "Other";
+    }
+
     return (
-        <Swiper
-            scrollbar={{ draggable: true, hide: true }}
-            spaceBetween={10}
-            slidesPerView={2}
-            breakpoints={{
-                // when window width is >= 360px
-                360: {
-                    slidesPerView: 3.5,
-                  },
-                // when window width is >= 490px
-                490: {
-                    slidesPerView: 4.5,
-                  },
-                // when window width is >= 770px
-                770: {
-                    slidesPerView: 5.5,
-                  },
-                // when window width is >= 991px
-                991: {
-                  slidesPerView: 8.5,
-                },
-                // when window width is >= 1199px
-                1199: {
-                    slidesPerView: 9.5,
-                  }
-            }}
-        >
-            {renderSwitch(classGroup)}
-        </Swiper>
+        <div>
+            <h5>Check out some more {name} classes below:</h5>
+            <Swiper
+                scrollbar={{ draggable: true, hide: true }}
+                spaceBetween={10}
+                slidesPerView={2}
+                breakpoints={{
+                    // when window width is >= 360px
+                    360: {
+                        slidesPerView: 3.5
+                    },
+                    // when window width is >= 490px
+                    490: {
+                        slidesPerView: 4.5
+                    },
+                    // when window width is >= 770px
+                    770: {
+                        slidesPerView: 5.5
+                    },
+                    // when window width is >= 991px
+                    991: {
+                    slidesPerView: 8.5
+                    },
+                    // when window width is >= 1199px
+                    1199: {
+                        slidesPerView: 9.5
+                    }
+                }}
+            >
+                {renderSwitch(classGroup)}
+            </Swiper>
+        </div>
     )
 }
 

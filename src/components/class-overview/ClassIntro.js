@@ -2,10 +2,12 @@ import React from 'react'
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
 import { Col, Container, Image, Table, Row, Card} from 'react-bootstrap';
+
+import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import InfoButton from '../InfoButton';
+
 import '../../css/class-overview.css';
-import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -18,7 +20,6 @@ In this file you will find:
 -ClassCreation - For classes that have a "How to Create" section
 -ClassExtraContent - Any extra content like explanation of Dark Sight is rendered here
 */
-
 
 /*
     Renders the upper components of the class overview (Class Properties, Notable Skills + Class Type, and Pros and Cons)
@@ -267,6 +268,11 @@ export function ClassCreation({className, howToCreate}) {
         </Container>
     );
 }
+
+/*
+    Component responisble for rendering any extra content provided from Class Overview
+    Created by: Ikasuu, Fall 2020
+*/
 
 export function ClassExtraContent({title, content}){
     return(

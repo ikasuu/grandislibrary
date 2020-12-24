@@ -1,7 +1,8 @@
 import React, { Component, useState } from 'react'
+import { Image, Modal } from 'react-bootstrap';
 import axios from 'axios';
 import axiosRetry from 'axios-retry';
-import { Image, Modal } from 'react-bootstrap';
+
 import { version, loadingImage } from '../../special/Values';
 import SkillInfo from './SkillInfo'
 
@@ -47,6 +48,7 @@ class SingleSkill extends Component {
     }
 
     componentWillUnmount(){
+        // Need to control isMounted value so we cancel the API call when component is unmounted
         this._isMounted = false;
     }
 

@@ -1,6 +1,7 @@
 import React from 'react'
-import '../../css/class-overview.css';
 import ClassSwipe from './ClassSwipe';
+
+import '../../css/class-overview.css';
 
 /*
 This file contains the outro contents (after the skills overview) of a Class Overview
@@ -42,7 +43,6 @@ function ClassMoreInfo({className, moreInfo}) {
 function ClassSuggestions({classGroup}) {
     return (
         <div>
-            <h5>Check out some more {classGroup} classes below:</h5>
             <ClassSwipe classGroup={classGroup}/>
         </div>
     )
