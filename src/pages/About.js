@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
+
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
+
 import '../css/page.css';
-import { Helmet } from 'react-helmet';
+
+/*
+    About page
+    Created by: Ikasuu, Fall 2020
+*/
 
 export class about extends Component {
 

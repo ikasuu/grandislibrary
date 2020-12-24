@@ -1,10 +1,12 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, Figure } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Scrollbar } from 'swiper';
 
-import { classes } from '../../special/Values';
+import { classes } from '../special/Values';
+
+import '../css/class-figure.css';
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -13,7 +15,15 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 SwiperCore.use([Scrollbar]);
 
 /*
-    Rendering the swipable class element at the bottom of Class Overview
+This file contains the swiping elements that use the class portraits
+In this file you will find:
+-ClassSwipe - swipable class element at the bottom of Class Overview
+-ClassGroupContainer - container class element on the Classes page
+-TopClassSwipe - most viewed classes swiper element on the Homepage page
+*/
+
+/*
+    Responsible for the swipable class element at the bottom of Class Overview
     Created by: Ikasuu, Fall 2020
 */
 
@@ -59,6 +69,30 @@ function ClassSwipe({classGroup}) {
             >
                 {renderSwitch(classGroup)}
             </Swiper>
+        </div>
+    )
+}
+
+/*
+    Responsible for the class container element on the Classes page
+    Created by: Ikasuu, Fall 2020
+*/
+
+export function ClassGroupContainer({classGroup}){
+    return(
+        <div className="class-container">
+            {classGroup.map(job => 
+                <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
+                    <Figure>
+                        <Figure.Image
+                            width={120}
+                            height={176}
+                            alt={job[1]}
+                            src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                        <div className="class-overlay"/>
+                    </Figure>
+                </Link>
+            )}
         </div>
     )
 }

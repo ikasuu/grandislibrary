@@ -1,3 +1,5 @@
+/* Stylization for basic pages such as Content, Classes, Events, and Resources */
+
 .page-title{
     text-align: center;
     margin-bottom: 3rem;
@@ -20,6 +22,7 @@
 
 /* Card Component related */
 
+/* Flex container to hold all our Card elements */
 .content-container{
     max-width: 80%;
     margin-left: auto;
@@ -29,6 +32,7 @@
     justify-content: start;
 }
 
+/* Styling for each Card element */
 .content-card{
     min-width: 8rem;
     margin: 0.5rem;
@@ -42,7 +46,7 @@
     font-size: 1.15rem;
 }
 
-/* Adjustments to container and figures for mobile / tablet */
+/* Adjustments to Cards for different sizes */
 @media(min-width: 200px){
     .content-card{
         max-width: 100%;

@@ -1,7 +1,9 @@
 import React from 'react';
-import '../css/grid-item.css';
+
 import HeaderImageUrl from '../special/Values';
 import GridItem from '../components/GridItem';
+
+import '../css/grid-item.css';
 
 /*
     Container for our image links on the homepage

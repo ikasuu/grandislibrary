@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import { Container } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
+
+import ClassIntro, { ClassCreation, ClassExtraContent } from '../components/class-overview/ClassIntro';
+import ClassOutro from '../components/class-overview/ClassOutro';
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
 import SkillTab from '../components/class-overview/SkillTab';
-import ClassIntro, { ClassCreation, ClassExtraContent } from '../components/class-overview/ClassIntro';
-import ClassOutro from '../components/class-overview/ClassOutro';
-import { Container } from 'react-bootstrap';
-import { Helmet } from 'react-helmet';
+
+/*
+    Repsonsible for rendering whole Class Overview page
+    Created by: Ikasuu, Fall 2020
+*/
 
 export class ClassOverview extends Component {
 
@@ -19,6 +25,7 @@ export class ClassOverview extends Component {
         };
     }
     
+    //Fetch the class with the corresponding url id
     componentDidMount(){
         fetch(`./data/${this.props.match.params.id}.json`)
         .then(res => res.json())
@@ -26,6 +33,8 @@ export class ClassOverview extends Component {
         .catch(err => this.setState({fail: true}));
     }
 
+    //If url id changes, fetch and render the new class
+    //When page updates, jump to anchor tag in url if there is one
     componentDidUpdate(prevProps, prevState){
         if(prevProps.match.params.id !== this.props.match.params.id){
             this.setState({loading: true});

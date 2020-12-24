@@ -1,4 +1,6 @@
-/* Dark overlay over our image */
+/* Styling for the homepage of Grandis Library */
+
+/* Dark overlay for images */
 .content-overlay{
     position: absolute;
     width: 100%;
@@ -11,6 +13,7 @@
     opacity: 0.8;
 }
 
+/* Transparent overlay for images */
 .content-overlay-transparent{
     position: absolute;
     width: 100%;
@@ -20,14 +23,17 @@
     left: 0;
 }
 
+/* Round the corners of swiper images */
 .content-image{
     border-radius: 1rem;
 }
 
+/* Styling for the Swiper component, lowers the pagination dots */
 .content-slide{
     margin: 1rem 0 3rem 0;
 }
 
+/* Styling for the title + black bar on swiper images */
 .content-title{
     font-family: acumin-pro, sans-serif !important;
     font-size: 1.25rem;
@@ -41,6 +47,7 @@
     left: 0;
 }
 
+/* Styling for text w/o black bar such as date */
 .content-subtitle{
     font-family: acumin-pro, sans-serif !important;
     font-size: 1.1rem;
@@ -53,6 +60,7 @@
     left: 0;
 }
 
+/* Launch button stylization */
 .content-launch{
     background-size: 1.5rem 1.5rem !important;
     -webkit-filter: drop-shadow( 3px 3px 1px rgba(0, 0, 0, .8));

@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
+
 import '../css/page.css';
-import { Helmet } from 'react-helmet';
+
+/*
+    Resources page
+    Created by: Ikasuu, Fall 2020
+*/
 
 function Resources() {
     return (

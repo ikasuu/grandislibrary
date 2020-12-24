@@ -3,6 +3,7 @@ import { Badge, Card, Image, Modal } from 'react-bootstrap';
 import { Parser } from 'expr-eval';
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
+
 import '../../css/skill-info.css';
 
 /*
@@ -13,6 +14,7 @@ import '../../css/skill-info.css';
 function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
         //Get the proper values using the properties and calculating with maxLevel
         const valProperties = getValsFromProperties(properties, maxLevel);
+        
         /*
             Starting from top to bottom, Card.Body contains all the contents of our skill info
             The first tag is our skill animations, the && (short-circuit eval) only displays animations if animations exists (or is not null/undefined)

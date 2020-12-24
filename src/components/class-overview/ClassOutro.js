@@ -1,5 +1,5 @@
 import React from 'react'
-import ClassSwipe from './ClassSwipe';
+import ClassSwipe from '../ClassSwipe';
 
 import '../../css/class-overview.css';
 

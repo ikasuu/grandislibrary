@@ -1,21 +1,4 @@
-@media (max-width: 768px){
-    .repository-image{
-        max-width: 70%;
-        height: auto;
-    }
-}
-
-.quick-jump{
-    line-height: normal;
-}
-
-.content-container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
+/* Stylization for all unique Content & Event pages */
 
 p{
     line-height: 1.8rem;
@@ -37,6 +20,30 @@ li{
     margin: 0.5rem 0 0.5rem 0;
 }
 
+/* Quick jump button stylization */
+.quick-jump{
+    line-height: normal;
+}
+
+/* Container to hold each unique page */
+.content-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Adjustment to images for smaller screens */
+
+@media (max-width: 768px){
+    .repository-image{
+        max-width: 70%;
+        height: auto;
+    }
+}
+
+/* Adjustment to container for different sized screens */
 
 @media (max-width: 575px){
     .content-container{

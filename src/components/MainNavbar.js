@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import logo from '../logo.webp';
-import '../css/hover.css';
-import '../css/main-nav.css';
 import { Nav, Navbar, Button } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+
 import DropdownNav from './DropdownNav';
+
+import '../css/hover.css';
+import '../css/main-nav.css';
 
 /*
     Main navbar component for our site
@@ -23,6 +25,7 @@ function MainNavbar(props) {
     const [expanded, setExpanded] = useState(false);
     const setTheme = props.setTheme;
     const theme = props.theme;
+    
     return (
         <div>
           <Navbar fixed="top" collapseOnSelect expand="lg" expanded={expanded}>

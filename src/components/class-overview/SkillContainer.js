@@ -3,6 +3,7 @@ import axios from 'axios';
 import axiosRetry from 'axios-retry';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Button, Image } from 'react-bootstrap';
+
 import SkillInfo from './SkillInfo'
 import { version, loadingImage } from '../../special/Values';
 

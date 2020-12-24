@@ -3,6 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { Button, Container, Tab, Tabs} from 'react-bootstrap';
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
+
 import { SkillContainer, VSkillContainer } from './SkillContainer';
 import { commonFifth } from '../../special/Values';
 
@@ -26,13 +27,12 @@ function convertCommonVToArray(fifth){
   return skills;
 }
 
-//Used for scrolling purposes
+//Used for anchor tag scrolling purposes
 const scrollWidthOffset = (el) => {
   const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
   const yOffset = -80; 
   window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
-
 
 export function SkillTab({primary, fifth, hyper, hyperSkillBuild, nodeInfo}) {
   return (

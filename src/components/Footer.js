@@ -1,6 +1,8 @@
 import React from 'react';
-import { version, versionName } from '../special/Values';
 import { Col, Row } from 'react-bootstrap';
+
+import { version, versionName } from '../special/Values';
+
 import '../css/footer.css';
 
 function Footer() {
