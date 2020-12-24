@@ -74,7 +74,7 @@ export class ClassOverview extends Component {
                           hyperSkillBuild={data.content.hyperBuild}
                           nodeInfo={data.content.nodeInfo}/>
                         <hr/>
-                        <ClassOutro classGroup={data.content.classGroup} className={data.class} moreInfo={data.content.moreInfo} credits={data.content.credits}/>
+                        <ClassOutro classGroup={data.content.classGroup} classTitle={data.class} moreInfo={data.content.moreInfo} credits={data.content.credits}/>
                       </Container>
                     </div>
                 }

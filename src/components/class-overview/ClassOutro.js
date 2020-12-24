@@ -1,7 +1,7 @@
 import React from 'react'
-import ClassSwipe from '../ClassSwipe';
+import styled from 'styled-components';
 
-import '../../css/class-overview.css';
+import ClassSwipe from '../ClassSwipe';
 
 /*
 This file contains the outro contents (after the skills overview) of a Class Overview
@@ -11,10 +11,10 @@ In this file you will find:
 -ClassCredits - renders the credits
 */
 
-export function ClassOutro({classGroup, className, moreInfo, credits}) {
+export function ClassOutro({classGroup, classTitle, moreInfo, credits}) {
     return (
         <div>
-            <ClassMoreInfo className={className} moreInfo={moreInfo}/>
+            <ClassMoreInfo classTitle={classTitle} moreInfo={moreInfo}/>
             <ClassSuggestions classGroup={classGroup}/>
             <ClassCredit credits={credits}/>
         </div>
@@ -26,11 +26,15 @@ export function ClassOutro({classGroup, className, moreInfo, credits}) {
     Created by: Ikasuu, Fall 2020
 */
 
-function ClassMoreInfo({className, moreInfo}) {
+const MoreInfoLink = styled.div`
+    margin: 1rem;
+`;
+
+function ClassMoreInfo({classTitle, moreInfo}) {
     return (
         <div>
-            <h5>For more information about {className} check out:</h5>
-            {moreInfo.map(link => <div className="more-info-link" key={link}><a href={link} target='_blank' rel="noopener noreferrer">{link}</a></div>)}
+            <h5>For more information about {classTitle} check out:</h5>
+            {moreInfo.map(link => <MoreInfoLink key={link}><a href={link} target='_blank' rel="noopener noreferrer">{link}</a></MoreInfoLink>)}
         </div>
     )
 }
@@ -53,11 +57,15 @@ function ClassSuggestions({classGroup}) {
     Created by: Ikasuu, Fall 2020
 */
 
+const CreditContainer = styled.div`
+    margin: 1rem;
+`;
+
 function ClassCredit({credits}) {
     return (
         <div>
             <h3>Credits</h3>
-            {credits.map(credit => <div className="credit" key={credit}><strong>{credit[0]}</strong>: {credit[1]}</div>)}
+            {credits.map(credit => <CreditContainer key={credit}><strong>{credit[0]}</strong>: {credit[1]}</CreditContainer>)}
         </div>
     );
 }

@@ -3,13 +3,48 @@ import { Badge, Card, Image, Modal } from 'react-bootstrap';
 import { Parser } from 'expr-eval';
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
-
-import '../../css/skill-info.css';
+import styled from 'styled-components';
 
 /*
     Skill component that creates a component to hold and render our skill info like name, desc, and properties 
     Created by: Ikasuu, Fall 2020
 */
+
+// Main container/card
+const SkillCard = styled(Card)`
+    max-width: 40rem;
+`;
+
+// Skill Icon
+const Icon = styled.img`
+    margin-right: 0.25rem;
+`;
+
+// Skill Name
+const SkillName = styled.strong`
+    margin-left: 0.25rem;
+    font-family: muli, sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+`;
+
+// The elements beside the skill name
+const SkillBadge = styled(Badge)`
+    margin-left: 0.25rem;
+    font-family: acumin-pro, sans-serif !important;
+`;
+
+// Styling for the Master Level subtitle
+const MasterLevel = styled(Card.Subtitle)`
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+    font-weight: 300 !important;
+`;
+
+// /* The details / bullet points below the description */
+const SkillDetails = styled.div`
+    margin-top: -0.5rem;
+`;
 
 function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
         //Get the proper values using the properties and calculating with maxLevel
@@ -31,18 +66,18 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
 
         */
         return (
-            <Card className="skill-body">
+            <SkillCard>
                 <Card.Body>
                     {skillData.animations && skillData.animations.map( (animation, index) => <SkillAnimation key={index} animation={animation} name={name}/>
                     )}
                     <Card.Title>
-                        {skillData.icons.map(( icon, index) => <img key={index} className="icon" src={icon} alt=""/>)}<strong className="skill-name">{name}</strong>
-                        <Badge variant="secondary" className="badge">{skillData.type}</Badge>
-                        {skillData.reqLev && <Badge variant="secondary" className="badge">Lv. {skillData.reqLev}</Badge>}
+                        {skillData.icons.map(( icon, index) => <Icon key={index} src={icon} alt=""/>)}<SkillName>{name}</SkillName>
+                        <SkillBadge variant="secondary">{skillData.type}</SkillBadge>
+                        {skillData.reqLev && <SkillBadge variant="secondary">Lv. {skillData.reqLev}</SkillBadge>}
                     </Card.Title>
-                    <Card.Subtitle className="master-level"><em>Master Level: {maxLevel}</em></Card.Subtitle>
+                    <MasterLevel><em>Master Level: {maxLevel}</em></MasterLevel>
                     {skillData.desc && <Card.Text>{parse(DOMPurify.sanitize(skillData.desc))}</Card.Text>}
-                    {skillData.details && <div className="skill-detail"><ul>{skillData.details.map( (detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></div>}
+                    {skillData.details && <SkillDetails><ul>{skillData.details.map( (detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></SkillDetails>}
                     {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
                     {/* Lastly, we split the string into multiple parts where new lines are needed */}
                     <div>{
@@ -50,7 +85,7 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
                             <Card.Subtitle as="p" className="mb-2 text-muted short-desc">{str}</Card.Subtitle>) : null
                     }</div>
                 </Card.Body>
-            </Card>
+            </SkillCard>
         );
 }
 
@@ -78,6 +113,16 @@ function getValsFromProperties(properties, maxLevel){
     Created by: Ikasuu, Fall 2020
 */
 
+const Animation = styled(Card.Img)`
+    margin-bottom: 1rem;
+    cursor: pointer;
+`;
+
+const ModalAnimation = styled(Image)`
+    width: 100%;
+    height: auto;
+`;
+
 function SkillAnimation({animation, name}) {
     const [show, setShow] = useState(false);
 
@@ -85,7 +130,7 @@ function SkillAnimation({animation, name}) {
     const handleShow = () => setShow(true);
     return (
         <span>
-            <Card.Img className="animation" variant="top" src={animation} onClick={handleShow}/>
+            <Animation variant="top" src={animation} onClick={handleShow}/>
                 <Modal centered  show={show} onHide={handleClose} aria-labelledby="notable-skill" size="lg">
                     <Modal.Header closeButton>
                         <Modal.Title id="notable-skill">
@@ -93,7 +138,7 @@ function SkillAnimation({animation, name}) {
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <Image fluid src={animation} className="modal-animation"/>
+                        <ModalAnimation fluid src={animation}/>
                     </Modal.Body>
                 </Modal>
         </span>
