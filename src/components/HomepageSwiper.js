@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Autoplay, Navigation } from 'swiper';
+import styled from 'styled-components';
 
-import '../css/class-figure.css';
+import { Overlay, GradientOverlay } from '../components/Page';
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -12,6 +12,23 @@ import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/navigation/navigation.scss';
 
 SwiperCore.use([Pagination, Autoplay, Navigation]);
+
+/*
+This file contains the swiping elements used on the homepage
+In this file you will find:
+-FeaturedSwiper - swiper to display featured banners
+-ContentSwiper - swiper used to display banners
+*/
+
+/*
+    Responsible for the big main banner for featured banners on the homepage
+    Created by: Ikasuu, Fall 2020
+*/
+
+// Round the corners of swiper images
+const ContentImage = styled(Image)`
+    border-radius: 1rem;
+`;
 
 function FeaturedSwiper({content}) {
     return (
@@ -27,8 +44,8 @@ function FeaturedSwiper({content}) {
                 content.map(content => 
                 <SwiperSlide className="content-slide">
                     <a href={content.link} target="_blank" rel="noreferrer noopener">
-                    <Image className="content-image" src={content.image} alt={content.alt} fluid/>
-                    <div className="content-overlay-transparent"/>
+                    <ContentImage src={content.image} alt={content.alt} fluid/>
+                    <Overlay/>
                     </a>
                 </SwiperSlide>
                 )
@@ -36,6 +53,53 @@ function FeaturedSwiper({content}) {
         </Swiper>
     );
 }
+
+/*
+    Responsible for the smaller banners on the homepage
+    Created by: Ikasuu, Fall 2020
+*/
+
+// Launch button stylization
+const ContentLaunch = styled.span`
+    background: url("${process.env.PUBLIC_URL}/icons/launch-white-18dp.svg");
+    background-size: 1.5rem 1.5rem !important;
+    -webkit-filter: drop-shadow( 3px 3px 1px rgba(0, 0, 0, .8));
+    filter: drop-shadow( 3px 3px 1px rgba(0, 0, 0, .8));
+    height: 1.5rem;
+    width: 1.5rem;
+    display:block;
+    position: absolute;
+    margin: 1rem 1rem 0 0;
+    top: 0;
+    right: 0;
+`;
+
+// Styling for the title + black bar on swiper images
+const ContentTitle = styled.p`
+    font-family: acumin-pro, sans-serif !important;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    position: absolute;
+    margin: 0 0 2rem 0;
+    bottom: 0;
+    left: 0;
+`;
+
+// Styling for text w/o black bar such as date
+const ContentSubtitle = styled.p`
+    font-family: acumin-pro, sans-serif !important;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px black;
+    color: white;
+    display: inline;
+    position: absolute;
+    margin: 0.5rem;
+    top: 0;
+    left: 0;
+`;
 
 export function ContentSwiper({content}){
     return(
@@ -62,62 +126,15 @@ export function ContentSwiper({content}){
             content.map(content => 
             <SwiperSlide className="content-slide">
                 <a href={content.link} target="_blank" rel="noreferrer noopener">
-                <Image className="content-image" src={content.image} alt={content.alt} fluid/>
-                <div className="content-overlay"/>
-                <span className="content-launch" style={{background: `url("${process.env.PUBLIC_URL}/icons/launch-white-18dp.svg")`}}/>
-                <p className="content-title">{content.title}</p>
-                <p className="content-subtitle">{content.date}</p>
+                <ContentImage src={content.image} alt={content.alt} fluid/>
+                <GradientOverlay/>
+                <ContentLaunch/>
+                <ContentTitle>{content.title}</ContentTitle>
+                <ContentSubtitle>{content.date}</ContentSubtitle>
                 </a>
             </SwiperSlide>
             )
         }
-        </Swiper>
-    );
-}
-
-/*
-    Responsible for the most viewed classes swiper element on the Homepage page
-    Created by: Ikasuu, Fall 2020
-*/
-
-export function TopClassSwipe({classes}){
-    return(
-        <Swiper
-            spaceBetween={10}
-            slidesPerView={2}
-            breakpoints={{
-            // when window width is >= 360px
-            360: {
-                slidesPerView: 3.5,
-                },
-            // when window width is >= 490px
-            490: {
-                slidesPerView: 4.5,
-                },
-            // when window width is >= 770px
-            770: {
-                slidesPerView: 5.5,
-                },
-            // when window width is >= 991px
-            991: {
-                slidesPerView: 8.5,
-            },
-            // when window width is >= 1199px
-            1199: {
-                slidesPerView: 9.5,
-                }
-            }}
-        >
-            {
-                classes.map(content => 
-                <SwiperSlide>
-                    <Link to={`/classes/${content.class}`} key={content.alt} className="hvr-float">
-                        <Image src={`${process.env.PUBLIC_URL}/class-portrait/${content.class}.jpg`} alt={content.alt} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                        <div className="class-overlay"/>
-                    </Link>
-                </SwiperSlide>
-                )
-            }
         </Swiper>
     );
 }

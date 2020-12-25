@@ -3,8 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
-
-import '../css/page.css';
+import * as Page from '../components/Page';
 
 /*
     Resources page
@@ -18,7 +17,7 @@ function Resources() {
                 <title>Resources | Grandis Library</title>
             </Helmet>
             <HeaderImage imageUrl={`${HeaderImageUrl.grandis}.jpg`}/>
-            <h1 className="page-title">Resources</h1>
+            <Page.Title>Resources</Page.Title>
         </div>
     )
 }

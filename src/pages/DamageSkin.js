@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import { version } from '../special/Values';
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage'
-import '../css/page.css';
+import * as Page from '../components/Page';
 
 export class DamageSkin extends Component {
 

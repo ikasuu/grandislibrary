@@ -3,7 +3,7 @@ import HeaderImageUrl from '../../special/Values';
 import HeaderImage from '../../components/HeaderImage'
 
 //Content
-import SharedCashShopInventory from './shared-cash-shop-inventory';
+import SharedCashShopInventory from './shared-cash-shop-inventories';
 import StatTerms from './stat-terms';
 import AttackSpeed from './attack-speed';
 import ProgressionGuide from './progression-guide';
@@ -12,7 +12,6 @@ import BossMatchmaking from './boss-matchmaking-pre-quests';
 import UpgradeEquipment from './upgrading-enhancing-equipment';
 import ContentGuide from './level-content-guide';
 
-//Styling
 import '../../css/repository-page.css';
 
 /*
@@ -60,7 +59,7 @@ export class ContentRepository extends Component {
     //Renders the proper Content page based on url id
     renderSwitch(param){
         switch (param) {
-            case "shared-cash-shop-inventory":
+            case "shared-cash-shop-inventories":
                 return(
                     <div>
                         <SharedCashShopInventory/>

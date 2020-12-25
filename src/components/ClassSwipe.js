@@ -3,10 +3,10 @@ import { Image, Figure } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Scrollbar } from 'swiper';
+import styled from 'styled-components';
 
 import { classes } from '../special/Values';
-
-import '../css/class-figure.css';
+import { Overlay } from '../components/Page';
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -17,10 +17,92 @@ SwiperCore.use([Scrollbar]);
 /*
 This file contains the swiping elements that use the class portraits
 In this file you will find:
--ClassSwipe - swipable class element at the bottom of Class Overview
 -ClassGroupContainer - container class element on the Classes page
 -TopClassSwipe - most viewed classes swiper element on the Homepage page
+-ClassSwipe - swipable class element at the bottom of Class Overview
 */
+
+/*
+    Responsible for the class container element on the Classes page
+    Created by: Ikasuu, Fall 2020
+*/
+
+// Container which holds all the classes for a specfic class group
+const ClassContainer = styled.div`
+    width: 62%;
+    margin: auto;
+
+    /* Adjustments to container and figures for mobile / tablet */
+    @media(max-width: 1199px){
+        width: 95%;
+    }
+`;
+
+export function ClassGroupContainer({classGroup}){
+    return(
+        <ClassContainer>
+            {classGroup.map(job => 
+                <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
+                    <Figure>
+                        <Figure.Image
+                            width={120}
+                            height={176}
+                            alt={job[1]}
+                            src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
+                        <Overlay/>
+                    </Figure>
+                </Link>
+            )}
+        </ClassContainer>
+    )
+}
+
+/*
+    Responsible for the most viewed classes swiper element on the Homepage page
+    Created by: Ikasuu, Fall 2020
+*/
+
+export function TopClassSwipe({classes}){
+    return(
+        <Swiper
+            spaceBetween={10}
+            slidesPerView={2}
+            breakpoints={{
+            // when window width is >= 360px
+            360: {
+                slidesPerView: 3.5,
+                },
+            // when window width is >= 490px
+            490: {
+                slidesPerView: 4.5,
+                },
+            // when window width is >= 770px
+            770: {
+                slidesPerView: 5.5,
+                },
+            // when window width is >= 991px
+            991: {
+                slidesPerView: 8.5,
+            },
+            // when window width is >= 1199px
+            1199: {
+                slidesPerView: 9.5,
+                }
+            }}
+        >
+            {
+                classes.map(content => 
+                <SwiperSlide>
+                    <Link to={`/classes/${content.class}`} key={content.alt} className="hvr-float">
+                        <Image src={`${process.env.PUBLIC_URL}/class-portrait/${content.class}.jpg`} alt={content.alt} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
+                        <div className="class-overlay"/>
+                    </Link>
+                </SwiperSlide>
+                )
+            }
+        </Swiper>
+    );
+}
 
 /*
     Responsible for the swipable class element at the bottom of Class Overview
@@ -67,32 +149,8 @@ function ClassSwipe({classGroup}) {
                     }
                 }}
             >
-                {renderSwitch(classGroup)}
+                {renderSwitch(name)}
             </Swiper>
-        </div>
-    )
-}
-
-/*
-    Responsible for the class container element on the Classes page
-    Created by: Ikasuu, Fall 2020
-*/
-
-export function ClassGroupContainer({classGroup}){
-    return(
-        <div className="class-container">
-            {classGroup.map(job => 
-                <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
-                    <Figure>
-                        <Figure.Image
-                            width={120}
-                            height={176}
-                            alt={job[1]}
-                            src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`}/>
-                        <div className="class-overlay"/>
-                    </Figure>
-                </Link>
-            )}
         </div>
     )
 }
@@ -106,7 +164,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )
@@ -118,7 +176,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 0 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )
@@ -130,7 +188,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )
@@ -142,31 +200,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
-
-        case "Resistance (Xenon)":
-            return(
-                classes.resistance.map(job => 
-                    <SwiperSlide>
-                        <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
-                            <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
-
-        case "Resistance (Demon)":
-            return(
-                classes.resistance.map(job => 
-                    <SwiperSlide>
-                        <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
-                            <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )
@@ -178,7 +212,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )
@@ -190,7 +224,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )
@@ -202,7 +236,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )
@@ -214,55 +248,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
-
-        case "Other (Anima)":
-            return(
-                classes.other.map(job => 
-                    <SwiperSlide>
-                        <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
-                            <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
-
-        case "Other (FriendStory)":
-            return(
-                classes.other.map(job => 
-                    <SwiperSlide>
-                        <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
-                            <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
-
-        case "Other (Child of God)":
-            return(
-                classes.other.map(job => 
-                    <SwiperSlide>
-                        <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
-                            <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
-                        </Link>
-                    </SwiperSlide>
-                )
-            );
-
-        case "Other (Beast Tamer)":
-            return(
-                classes.other.map(job => 
-                    <SwiperSlide>
-                        <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
-                            <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )
@@ -274,7 +260,7 @@ function renderSwitch(param){
                     <SwiperSlide>
                         <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.jpg`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
-                            <div className="class-overlay"/>
+                            <Overlay/>
                         </Link>
                     </SwiperSlide>
                 )

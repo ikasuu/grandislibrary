@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
 
-import FeaturedSwiper, { ContentSwiper, TopClassSwipe } from '../components/HomepageSwiper';
+import FeaturedSwiper, { ContentSwiper } from '../components/HomepageSwiper';
+import { TopClassSwipe } from '../components/ClassSwipe';
 import GridContainer from '../components/GridContainer';
 import HeaderImage from '../components/HeaderImage';
 import { HeaderImageUrl } from '../special/Values';

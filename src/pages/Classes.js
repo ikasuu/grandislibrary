@@ -4,9 +4,9 @@ import { Helmet } from 'react-helmet';
 import { HeaderImageUrl, classes } from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
 import { ClassGroupContainer } from '../components/ClassSwipe';
+import * as Page from '../components/Page';
 
 import '../css/hover.css';
-import '../css/page.css';
 
 /*
     Classes page for navigating into each Class Overview
@@ -21,23 +21,23 @@ function Classes() {
             </Helmet>
             <HeaderImage imageUrl={`${HeaderImageUrl.verdel}.jpg`}/>
             <div>
-                <h1 className="page-title">Classes</h1>
-                <h2 className="page-subtitle">Explorers</h2>
+                <Page.Title>Classes</Page.Title>
+                <Page.Subtitle>Explorers</Page.Subtitle>
                 <ClassGroupContainer classGroup={classes.explorers}/>
-                <h2 className="page-subtitle">Cygnus Knights</h2>
+                <Page.Subtitle>Cygnus Knights</Page.Subtitle>
                 <ClassGroupContainer classGroup={classes.cygnusKnights}/>
-                <h2 className="page-subtitle">Heroes</h2>
+                <Page.Subtitle>Heroes</Page.Subtitle>
                 <ClassGroupContainer classGroup={classes.heroes}/>
-                <h2 className="page-subtitle">Resistance</h2>
+                <Page.Subtitle>Resistance</Page.Subtitle>
                 <ClassGroupContainer classGroup={classes.resistance}/>
-                <h2 className="page-subtitle">Nova</h2>
+                <Page.Subtitle>Nova</Page.Subtitle>
                 <ClassGroupContainer classGroup={classes.nova}/>
-                <h2 className="page-subtitle">Sengoku</h2>
+                <Page.Subtitle>Sengoku</Page.Subtitle>
                 <ClassGroupContainer classGroup={classes.sengoku}/>
-                <h2 className="page-subtitle">Flora</h2>
+                <Page.Subtitle>Flora</Page.Subtitle>
                 <ClassGroupContainer classGroup={classes.flora}/>
-                <h2 className="page-subtitle">Other</h2>
-                <p className="page-caption">Classes here only share Cash Shop Inventories with their own class - they do not share with each other</p>
+                <Page.Subtitle>Other</Page.Subtitle>
+                <Page.Caption>Classes here only share Cash Shop Inventories with their own class - they do not share with each other</Page.Caption>
                 <ClassGroupContainer classGroup={classes.other}/>
             </div>
         </div>

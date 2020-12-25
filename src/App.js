@@ -30,7 +30,7 @@ function App() {
           <Router>
               <ScrollToTop/>
               <MainNavbar setTheme={setTheme} theme={theme}/>
-              <Suspense fallback={<div></div>}><Routes/></Suspense>
+              <div id="main-content"><Suspense fallback={<div></div>}><Routes/></Suspense></div>
             </Router>
             <Footer/>
         </>

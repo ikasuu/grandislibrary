@@ -65,7 +65,7 @@ export class ClassOverview extends Component {
                       </Helmet>
                       <Container>
                         <ClassIntro data={data}/>
-                        {data.content.howToCreate && <ClassCreation className={data.class} howToCreate={data.content.howToCreate}/>}
+                        {data.content.howToCreate && <ClassCreation classTitle={data.class} howToCreate={data.content.howToCreate}/>}
                         {data.content.extraContent && <ClassExtraContent title={data.content.extraContent.title} content={data.content.extraContent.content}/>}
                         <div id="skill"/>
                         <SkillTab

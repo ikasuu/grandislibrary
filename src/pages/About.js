@@ -3,8 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
-
-import '../css/page.css';
+import * as Page from '../components/Page';
 
 /*
     About page
@@ -20,7 +19,7 @@ export class about extends Component {
                 <title>About | Grandis Library</title>
             </Helmet>
             <HeaderImage imageUrl={`${HeaderImageUrl.library}.jpg`}/>
-            <h1 className="page-title">About</h1>
+            <Page.Title>About</Page.Title>
         </div>
           )
     }

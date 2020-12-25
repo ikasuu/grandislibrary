@@ -1,12 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import CardContainer from '../components/CardContainer';
 import { HeaderImageUrl, content } from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
-
-// Import CSS
-import '../css/page.css';
+import * as Page from '../components/Page';
 
 /*
     Content page
@@ -20,13 +17,13 @@ function Content() {
                 <title>Content | Grandis Library</title>
             </Helmet>
             <HeaderImage imageUrl={`${HeaderImageUrl.ristonia}.jpg`}/>
-            <h1 className="page-title">Content</h1>
-            <h2 className="page-subtitle">Gameplay Related</h2>
-            <CardContainer content={content.gameplay}/>
-            <h2 className="page-subtitle">Class Related</h2>
-            <CardContainer content={content.class}/>
-            <h2 className="page-subtitle">Equipment Related</h2>
-            <CardContainer content={content.equipment}/>
+            <Page.Title>Content</Page.Title>
+            <Page.Subtitle>Gameplay Related</Page.Subtitle>
+            <Page.CardContainer content={content.gameplay}/>
+            <Page.Subtitle>Class Related</Page.Subtitle>
+            <Page.CardContainer content={content.class}/>
+            <Page.Subtitle>Equipment Related</Page.Subtitle>
+            <Page.CardContainer content={content.equipment}/>
         </div>
     )
 }

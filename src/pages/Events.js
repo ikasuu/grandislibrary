@@ -1,12 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import CardContainer from '../components/CardContainer';
 import { HeaderImageUrl, events } from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
-
-// Import CSS
-import '../css/page.css';
+import * as Page from '../components/Page';
 
 /*
     Events page
@@ -20,13 +17,13 @@ function Events() {
                 <title>Events | Grandis Library</title>
             </Helmet>
             <HeaderImage imageUrl={`${HeaderImageUrl.fox}.jpg`}/>
-            <h1 className="page-title">Events</h1>
-            <h2 className="page-subtitle">Training Related</h2>
-            <CardContainer content={events.training}/>
-            <h2 className="page-subtitle">Item Related</h2>
-            <CardContainer content={events.item}/>
-            <h2 className="page-subtitle">Update Related</h2>
-            <CardContainer content={events.update}/>
+            <Page.Title>Events</Page.Title>
+            <Page.Subtitle>Training Related</Page.Subtitle>
+            <Page.CardContainer content={events.training}/>
+            <Page.Subtitle>Item Related</Page.Subtitle>
+            <Page.CardContainer content={events.item}/>
+            <Page.Subtitle>Update Related</Page.Subtitle>
+            <Page.CardContainer content={events.update}/>
         </div>
     )
 }

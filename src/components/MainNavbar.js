@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import logo from '../logo.webp';
 import { Nav, Navbar, Button } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 
 import DropdownNav from './DropdownNav';
 
 import '../css/hover.css';
-import '../css/main-nav.css';
 
 /*
     Main navbar component for our site
@@ -20,6 +20,10 @@ const checkActive = (match, location) => {
     const {pathname} = location;
     return pathname === "/";
 }
+
+const NavButton = styled(Button)`
+    width: fit-content !important;
+`;
 
 function MainNavbar(props) {
     const [expanded, setExpanded] = useState(false);
@@ -45,18 +49,18 @@ function MainNavbar(props) {
             <Navbar.Collapse id="responsive-navbar-nav">
               <div className="mr-auto"/>
               <Nav>
-                <Button variant="link" className="hvr-buzz-out"><a href="https://www.grandislibrary.com/" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></Button>
+                <NavButton variant="link" className="hvr-buzz-out"><a href="https://www.grandislibrary.com/" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></NavButton>
                 <DropdownNav setExpanded={setExpanded}/>
                 <NavLink className="nav-link-button nav-props" activeClassName="underline" to="/about" onClick={() => setExpanded(false)}>About</NavLink>
                 <NavLink className="nav-link-button nav-props" activeClassName="underline" isActive={checkActive} to="/" onClick={() => setExpanded(false)}>Home</NavLink>
               </Nav>
-              <Button variant="link" onClick={e=>
+              <NavButton variant="link" onClick={e=>
                     setTheme(
                       theme.mode === 'dark'
                         ? {...theme, mode: 'light'}
                         : {...theme, mode: 'dark'}) }>
                   <span className="toggle-mode"/>
-              </Button>
+              </NavButton>
               </Navbar.Collapse>
           </Navbar>
         </div>
