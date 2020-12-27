@@ -60,7 +60,7 @@ export const GradientOverlay = styled.div`
     opacity: 0.8;
 `;
 
-const ContentContainer = styled.div`
+export const ContentContainer = styled.div`
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;

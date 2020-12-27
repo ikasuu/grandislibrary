@@ -30,11 +30,26 @@ In this file you will find:
 // Container which holds all the classes for a specfic class group
 const ClassContainer = styled.div`
     width: 62%;
+    padding-left: 2.5rem;
     margin: auto;
 
     /* Adjustments to container and figures for mobile / tablet */
     @media(max-width: 1199px){
         width: 95%;
+    }
+
+    @media(max-width: 473px){
+        padding-left: 1rem;
+    }
+`;
+
+const ClassFigure = styled(Figure.Image)`
+    margin: 0.5rem;
+    @media(max-width: 473px){
+        margin: 0.25rem;
+    }
+    @media(max-width: 422px){
+        margin: 0;
     }
 `;
 
@@ -44,7 +59,7 @@ export function ClassGroupContainer({classGroup}){
             {classGroup.map(job => 
                 <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
                     <Figure>
-                        <Figure.Image
+                        <ClassFigure
                             width={120}
                             height={176}
                             alt={job[1]}
