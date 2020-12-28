@@ -1,6 +1,11 @@
 import React, { lazy } from 'react'
 import {Route, Switch } from "react-router-dom";
 
+/*
+    File that contains our different routes on the site
+    Created by: Ikasuu, Fall 2020
+*/
+
 //Import all pages component here
 const Home = lazy(() => import('../pages/Home'));
 const About = lazy(() => import('../pages/About'));

@@ -67,20 +67,24 @@ export const ContentContainer = styled.div`
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
+
     @media(min-width: 200px){
-        padding: 0;
+        max-width: 100%;
     }
-    @media(min-width: 430px){
+    @media(min-width: 500px){
         padding: 0 0 0 0.5rem;
+        max-width: 90%;
     }
     @media(min-width: 800px){
         padding: 0 0 0 2.5rem;
+        max-width: 80%;
     }
 `;
 
 const ContentCard = styled(Card)`
     min-width: 8rem;
     margin: 0.5rem;
+
     @media(min-width: 200px){
         max-width: 100%;
     }
@@ -104,6 +108,8 @@ const ContentCardTitle = styled(Card.Title)`
 
 const ContentCardText = styled(Card.Text)`
     font-size: 0.9rem;
+    line-height: 1.25rem;
+
     @media(min-width: 200px){
         font-size: 0.8rem;
     }

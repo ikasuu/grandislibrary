@@ -22,7 +22,7 @@ In this file you will find:
 
 /*
     Responsible for the big main banner for featured banners on the homepage
-    Created by: Ikasuu, Fall 2020
+    Created by: Ikasuu, Winter 2020
 */
 
 // Round the corners of swiper images

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { HeaderImageUrl, events } from '../special/Values';
+import { HeaderImageUrl } from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
+import { events } from '../special/SiteContent';
 import * as Page from '../components/Page';
 
 /*

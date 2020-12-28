@@ -24,7 +24,7 @@ In this file you will find:
 
 /*
     Responsible for the class container element on the Classes page
-    Created by: Ikasuu, Fall 2020
+    Created by: Ikasuu, Winter 2020
 */
 
 // Container which holds all the classes for a specfic class group
