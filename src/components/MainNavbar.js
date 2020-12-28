@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../logo.webp';
+import logo from '../logo.png';
 import { Nav, Navbar, Button } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
