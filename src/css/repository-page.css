@@ -26,13 +26,18 @@ li{
     margin-left: auto;
 }
 
-/* Adjustment to images for smaller screens */
-
-@media (max-width: 768px){
-    .repository-image{
-        max-width: 70%;
-        height: auto;
+/* Smaller container for elements that prefer a smaller width when screen is large*/
+@media( min-width: 1200px){
+    .repository-md-container{
+        width: 75%;
     }
+
+}
+
+.repository-image{
+    max-width: 70%;
+    height: auto;
+    margin: 1rem 0 1rem 0;
 }
 
 /* Adjustment to container for different sized screens */

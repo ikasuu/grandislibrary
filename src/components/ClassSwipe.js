@@ -35,6 +35,10 @@ const ClassContainer = styled.div`
 
     /* Adjustments to container and figures for mobile / tablet */
     @media(max-width: 1199px){
+        width: 90%;
+    }
+
+    @media(max-width: 521px){
         width: 95%;
     }
 

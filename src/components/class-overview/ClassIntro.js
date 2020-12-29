@@ -6,6 +6,7 @@ import { Col, Container, Image, Table, Row, Card} from 'react-bootstrap';
 
 import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
 import { LinkSkill, NotableSkill } from './SingleSkill';
+import { ContentTitle } from '../../components/Page';
 import InfoButton from '../InfoButton';
 
 import '../../css/class-overview.css';
@@ -41,13 +42,6 @@ const StyledHeaderFive = styled.h5`
     margin: 1.5rem 0 1rem 0;
 `;
 
-// Main title at the top of the page
-const ClassTitle = styled.h1`
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
-    font-size: 3.5rem;
-`;
-
 // Container to hold ClassProperties and PropertyBox
 const PropertyContainer = styled(Col)`
   /* For iPad so that the elements do not display as blocks */
@@ -76,7 +70,7 @@ export function ClassIntro({data}) {
     return (
         <div>
             <Container>
-                <ClassTitle>{data.class}</ClassTitle>
+                <ContentTitle>{data.class}</ContentTitle>
                 <Row>
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>

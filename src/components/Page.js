@@ -15,6 +15,12 @@ export const Title = styled.h1`
     font-size: 3.5rem;
 `;
 
+export const ContentTitle = styled.h1`
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 3.5rem;
+`;
+
 export const Subtitle = styled.h2`
     text-align: center;
     margin-top: 2rem;

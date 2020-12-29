@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+
 import HeaderImageUrl from '../../special/Values';
 import HeaderImage from '../../components/HeaderImage'
+import { ContentTitle } from '../../components/Page';
 
 //Content
 import SharedCashShopInventory from './shared-cash-shop-inventories';
@@ -62,6 +64,7 @@ export class ContentRepository extends Component {
             case "shared-cash-shop-inventories":
                 return(
                     <div>
+                        <ContentTitle>Shared Cash Shop Inventory</ContentTitle>
                         <SharedCashShopInventory/>
                     </div>
                 );
@@ -69,6 +72,7 @@ export class ContentRepository extends Component {
             case "stat-terms":
                 return(
                     <div>
+                        <ContentTitle>Stat Terms</ContentTitle>
                         <StatTerms/>
                     </div>
                 );
@@ -76,6 +80,7 @@ export class ContentRepository extends Component {
             case "attack-speed":
                 return(
                     <div>
+                        <ContentTitle>Attack Speed</ContentTitle>
                         <AttackSpeed/>
                     </div>
                 );
@@ -83,6 +88,7 @@ export class ContentRepository extends Component {
             case "progression-guide":
                 return(
                     <div>
+                        <ContentTitle>Progression Guide</ContentTitle>
                         <ProgressionGuide/>
                     </div>
                 );
@@ -90,6 +96,7 @@ export class ContentRepository extends Component {
             case "link-skills":
                 return(
                     <div>
+                        <ContentTitle>Link Skills</ContentTitle>
                         <LinkSkills/>
                     </div>
                 );
@@ -97,6 +104,7 @@ export class ContentRepository extends Component {
             case "boss-matchmaking-pre-quests":
                 return(
                     <div>
+                        <ContentTitle>Boss Pre-Quests</ContentTitle>
                         <BossMatchmaking/>
                     </div>
                 );
@@ -104,6 +112,7 @@ export class ContentRepository extends Component {
             case "upgrading-enhancing-equipment":
                 return(
                     <div>
+                        <ContentTitle>Upgrading & Enhancing Equipment</ContentTitle>
                         <UpgradeEquipment/>
                     </div>
                 );
@@ -111,6 +120,7 @@ export class ContentRepository extends Component {
             case "level-content-guide":
                 return(
                     <div>
+                        <ContentTitle>Level Content Guide</ContentTitle>
                         <ContentGuide/>
                     </div>
                 );

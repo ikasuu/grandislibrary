@@ -3,7 +3,6 @@ import logo from '../logo.png';
 import { Nav, Navbar, Button } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import ReactGA from 'react-ga';
 
 import DropdownNav from './DropdownNav';
 
