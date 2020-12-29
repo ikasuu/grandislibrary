@@ -1,8 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Button, Container, Tab, Tabs} from 'react-bootstrap';
-import DOMPurify from 'dompurify';
-import parse from 'html-react-parser';
+import styled from 'styled-components';
 
 import { SkillContainer, VSkillContainer } from './SkillContainer';
 import { commonFifth } from '../../special/Values';
@@ -34,31 +33,32 @@ const scrollWidthOffset = (el) => {
   window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
-export function SkillTab({primary, fifth, hyper, hyperSkillBuild, nodeInfo}) {
+// Adjusting margins for h2 and h3
+const StyledHeaderTwo = styled.h2`
+    margin: 2rem 0 1.5rem 0;
+`;
+
+const StyledHeaderThree = styled.h3`
+    margin: 2rem 0 1.25rem 0;
+`;
+
+export function SkillTab({primary, fifth, hyper}) {
   return (
     <Container>
-      <h2>Skill Information</h2>
+      <StyledHeaderTwo>Skill Information</StyledHeaderTwo>
       <Tabs>
         {createSkillTabs(primary)}
         <Tab eventKey="fifth" title="5th Job">
-          <h4>Recommended Skills for Boost Nodes</h4>
-          <Container>{parse(DOMPurify.sanitize(nodeInfo.recommended))}</Container>
-          <ul>
-          </ul>
-          <h4>All Possible Skills Obtainable for Boost Nodes</h4>
-          <Container>{parse(DOMPurify.sanitize(nodeInfo.possible))}</Container>
-          <h3>Common V Skills</h3>
+          <StyledHeaderThree>Common V Skills</StyledHeaderThree>
           <VSkillContainer skillData={convertCommonVToArray(fifth)}/>
-          <h3>Class Specific V Skills</h3>
+          <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
           <VSkillContainer skillData={fifth.fifthMain}/>
           <Button variant="link"><Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button"/></Link></Button>
         </Tab>
         {hyper && <Tab eventKey="hyper" title="Hyper Skills">
-          <h3>Passive Build</h3>
-          {parse(DOMPurify.sanitize(hyperSkillBuild.recommended))}
-          <h3>Passive Skills</h3>
+          <StyledHeaderThree>Passive Skills</StyledHeaderThree>
           <SkillContainer skillData={hyper.hyperPassive}/>
-          <h3>Active Skills</h3>
+          <StyledHeaderThree>Active Skills</StyledHeaderThree>
           <SkillContainer skillData={hyper.hyperActive}/>
         </Tab>}
       </Tabs>

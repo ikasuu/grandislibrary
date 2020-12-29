@@ -1,3 +1,5 @@
+import loading from '../loading.gif';
+
 /*
     Static or common values in our site should be placed here
     Created by: Ikasuu, Fall 2020
@@ -7,7 +9,7 @@
 export const version = 218; 
 export const versionName = "Awake Update"
 
-export const loadingImage = "https://maplestory.io/api/GMS/216/mob/2600302/render/stand";
+export const loadingImage = loading;
 
 //Image paths for our page headers
 export const HeaderImageUrl = {

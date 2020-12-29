@@ -30,23 +30,20 @@ In this file you will find:
 
 // Adjusting margins for h2, h3, and h5
 const StyledHeaderTwo = styled.h2`
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+    margin: 1rem 0 1rem 0;
 `;
 
 const StyledHeaderThree = styled.h3`
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+    margin: 1.5rem 0 1rem 0;
 `;
 
 const StyledHeaderFive = styled.h5`
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+    margin: 1.5rem 0 1rem 0;
 `;
 
 // Main title at the top of the page
 const ClassTitle = styled.h1`
-    margin-top: 0.8rem;
+    margin-top: 1rem;
     margin-bottom: 2.5rem;
     font-size: 3.5rem;
 `;
@@ -92,7 +89,7 @@ export function ClassIntro({data}) {
                 </Row>
             </Container>
             <hr/>
-            <ClassDetail content={data.content}/>
+            <ClassDetail content={data.content} skill={data.skill}/>
         </div>
     )
 }
@@ -132,7 +129,7 @@ function ClassProperties({content}) {
               </tr>
               <tr>
                   <th><strong>Legion Bonus</strong></th>
-                  <td>{content.legion}</td>
+                  <td><div>{content.legion}</div><br/><div>(+{content.legionValue})</div></td>
               </tr>
               <tr>
                   <th><strong>Primary Weapon</strong></th>
@@ -274,6 +271,20 @@ function ClassDetail({content}) {
         <ul>
             {content.buildPath.details.map((detail,index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}
         </ul>
+        <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive>
+        {parse(DOMPurify.sanitize(content.hyperBuild.recommended))}
+        <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
+        <Container>{parse(DOMPurify.sanitize(content.nodeInfo.recommended))}</Container>
+        <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
+        <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
+        <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
+              <ul>
+                {
+                    content.innerAbility.map(ability => 
+                        <li>{ability}</li>    
+                    )
+                }
+              </ul>
       </Container>
     );
 }

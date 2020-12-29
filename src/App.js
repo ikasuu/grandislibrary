@@ -1,13 +1,17 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import {HashRouter as Router} from "react-router-dom";
+import { createBrowserHistory } from 'history';
+import ReactGA from 'react-ga';
 import { getInitialTheme, GlobalStyle } from './special/GlobalTheme';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
+import { Helmet } from 'react-helmet';
+
 import MainNavbar from './components/MainNavbar';
 import ScrollToTop from './special/Hooks';
 import Footer from './components/Footer';
-import { Helmet } from 'react-helmet';
 import Routes from './special/Routes';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -18,6 +22,19 @@ function App() {
   useEffect(() => {
     storage.setItem('theme', JSON.stringify(theme));
   },[theme]);
+
+  // Google Analytics setup
+  const history = createBrowserHistory();
+
+  useEffect(() => {
+    ReactGA.initialize('UA-120385111-3');
+    ReactGA.pageview(window.location.pathname + window.location.hash + window.location.search);
+  }, []);
+
+  history.listen( (location) => {
+    ReactGA.pageview(window.location.pathname + location.location.hash + location.location.search);
+  })
+
   return (
     <div id="container">
       <Helmet>
@@ -27,7 +44,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyle/>
-          <Router>
+          <Router history={history}>
               <ScrollToTop/>
               <MainNavbar setTheme={setTheme} theme={theme}/>
               <div id="main-content"><Suspense fallback={<div></div>}><Routes/></Suspense></div>
