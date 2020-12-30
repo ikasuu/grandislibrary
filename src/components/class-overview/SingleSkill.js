@@ -15,7 +15,7 @@ import SkillInfo from './SkillInfo'
     Created by: Ikasuu, Fall 2020
 */
 
-class SingleSkill extends Component {
+export class SingleSkill extends Component {
     constructor(props) {
         super(props);
     

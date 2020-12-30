@@ -514,4 +514,290 @@ export const commonFifth = {
     }
 };
 
+export const linkSkills = {
+    expWarrior: {
+        "id": 80002758,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Invincible_Belief.png/revision/latest?cb=20191124005023"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level",
+            "Useful for BOSSING because of increased SURVIVABILITY"
+        ]
+    },
+    expMage: {
+        "id": 80002762,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304"],
+        "type": "Passive",
+        "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
+        "details": [
+            "<strong>[Debuff]: </strong>Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
+            "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level",
+            "Useful for BOSSING because of INCREASED DAMAGE and IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE"
+        ]
+    },
+    expArcher: {
+        "id":80002766,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level",
+            "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE<ul><li>Additionally great for adding monsters to Monster Collection!!</li></ul>"
+        ]
+    },
+    expThief: {
+        "id": 80002770,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Can be stacked up to 3 times, once for each unique Explorer Thief to reach Master Level",
+            "Useful for INCREASING DAMAGE for CLASSES WITH DEBUFFS"
+        ]
+    },
+    expPirate: {
+        "id":80002774,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+            "The stats are affected by %Stat bonuses",
+            "<strong>[Note]: </strong>Link Skill has a togglable effect where you can swap STR + %STR into DEX + %DEX and vice versa<ul><li>Double-click the Link Skill to turn this effect on/off</li><li>The effect only applies to the original Link Skill, not the transferred version</li></ul>",
+            "Useful for INCREASING DAMAGE and TRAINING characters pre-200 because of increased SURVIVABILITY"
+        ]
+    },
+    jett: {
+        "id":80001151,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Core_Aura.png/revision/latest?cb=20120619031149"],
+        "type": "Passive",
+        "desc": "Grants a random amount of STR, DEX, INT, LUK, Attack, and Magic Attack",
+        "details": [
+            "The stats change every day, there are items dropped from monsters or from the Cash Shop that help you reroll the stats. There is also an item in the Cash Shop that lock the stats preventing it from changing",
+            "NOT VERY USEFUL because requires CASH ITEMS to be good"
+        ]
+    },
+    cygnusKnights: {
+        "id": 80000055,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level",
+            "Useful for INCREASING DAMAGE and REDUCING DURATION OF DEBUFFS<ul><li>Important in bosses like Chaos Pink Bean</li></ul>"
+        ]
+    },
+    mihile: {
+        "id": 80001140,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705"],
+        "type": "Buff",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING with CLASSES WITHOUT 100% KNOCKBACK RESISTANCE"
+        ]
+    },
+    mercedes: {
+        "id":80001040,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Elven_Blessing.png/revision/latest?cb=20110723104642"],
+        "type": "Active / Passive",
+        "desc": "",
+        "details": [
+            "Useful for TRAINING because of INCREASED EXP"
+        ]
+    },
+    aran: {
+        "id":80000370,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Combo_Kill_Blessing.png/revision/latest?cb=20160623050748"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for TRAINING because of INCREASED EXP"
+        ]
+    },
+    phantom: {
+        "id":80000002,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE"
+        ]
+    },
+    luminous: {
+        "id":80000005,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Light_Wash.png/revision/latest?cb=20191125065228"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING because IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE"
+        ]
+    },
+    evan: {
+        "id":80000369,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rune_Persistence.png/revision/latest?cb=20160624211333"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for TRAINING because of INCREASED EXP<ul><li>Runes provide a 2x EXP buff when active</li></ul>"
+        ]
+    },
+    shade: {
+        "id":80000169,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Close_Call.png/revision/latest?cb=20140809015342"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING because of increased SURVIVABILITY"
+        ]
+    },
+    resistance: {
+        "id": 80000329,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level",
+            "Useful for BOSSING because of increased UTILITY"
+        ]
+    },
+    demonAvenger: {
+        "id": 80000050,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Wild_Rage.png/revision/latest?cb=20140623054437"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for INCREASING DAMAGE"
+        ]
+    },
+    demonSlayer: {
+        "id": 80000001,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Fury_Unleashed.png/revision/latest?cb=20140808220635"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING"
+        ]
+    },
+    xenon: {
+        "id": 80000047,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Hybrid_Logic.png/revision/latest?cb=20121223163512"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for INCREASING DAMAGE"
+        ]
+    },
+    angelicBuster: {
+        "id": 80001155,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Terms_and_Conditions.png/revision/latest?cb=20120803105421"],
+        "type": "Buff",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING for classes with BURST ATTACKS"
+        ]
+    },
+    cadena: {
+        "id": 80000261,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Unfair_Advantage.png/revision/latest?cb=20171205075511"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Weaker opponents refer to enemies lower level than you",
+            "Useful for TRAINING because of INCREASED DAMAGE"
+        ]
+    },
+    kaiser: {
+        "id": 80000006,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Iron_Will_%28Kaiser%29.png/revision/latest?cb=20120717143209"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for TRAINING characters pre-200 because of increased SURVIVABILITY"
+        ]
+    },
+    hayato: {
+        "id": 80000003,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Keen_Edge.png/revision/latest?cb=20180520131734"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for INCREASING DAMAGE"
+        ]
+    },
+    kanna: {
+        "id": 80000004,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Elementalism.png/revision/latest?cb=20171223042231"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for INCREASING DAMAGE"
+        ]
+    },
+    ark: {
+        "id": 80000514,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Solus.png/revision/latest?cb=20180815050834"],
+        "type": "Passive",
+        "desc": "While you are in combat state, you gain a stacking %Damage buff",
+        "details": [
+            "Useful for INCREASING DAMAGE"
+        ]
+    },
+    illium: {
+        "id": 80000268,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538"],
+        "type": "Passive",
+        "desc": "As you move around, you gain a stacking %Damage buff",
+        "details": [
+            "Useful for INCREASING DAMAGE for classes that MOVE A LOT"
+        ]
+    },
+    adele: {
+        "id": 80002857,
+        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING"
+        ]
+    },
+    beastTamer: {
+        "id": 80010006,
+        "icons": ["https://i.imgur.com/2G1kWET.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE and for BOSSING"
+        ]
+    },
+    hoyoung: {
+        "id": 80000609,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Bravado.png/revision/latest?cb=20191117083357"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for TRAINING because of INCREASED DAMAGE"
+        ]
+    },
+    kinesis: {
+        "id": 80000188,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Judgment_%28Kinesis%29.png/revision/latest?cb=20160610024748"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for INCREASED DAMAGE"
+        ]
+    },
+    zero: {
+        "id": 80000110,
+        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "This skill is leveled up by completing the Zero storyline",
+            "Useful for BOSSING because IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE<ul><li>Also useful for TRAINING pre-200 because of increased SURVIVABILITY</li></ul>"
+        ]
+    }
+}
+
 export default HeaderImageUrl;

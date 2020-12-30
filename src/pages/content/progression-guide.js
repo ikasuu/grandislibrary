@@ -48,7 +48,7 @@ function ProgressionGuide() {
                 </li>
                 <li className="quick-jump"><Link smooth to="#starforce" scroll={el => scrollWidthOffset(el)}>Star Forcing</Link>
                 </li>
-                <li className="quick-jump"><Link smooth to="#additionalstats" scroll={el => scrollWidthOffset(el)}>Additional Stats</Link>
+                <li className="quick-jump"><Link smooth to="#additionalstats" scroll={el => scrollWidthOffset(el)}>Bonus Stats</Link>
                 </li>
                 <li className="quick-jump"><Link smooth to="#transferhammer" scroll={el => scrollWidthOffset(el)}>Transfer Hammer</Link>
                 </li>
@@ -526,7 +526,7 @@ function ProgressionGuide() {
             <li><strong>[Lv. 100] </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/4/49/Eqp_Wings_of_Fate.png/revision/latest?cb=20190531042939" alt="Eqp Wings of Fate" width={36} height={35} /> <a href="https://maplestory.fandom.com/wiki/Wings_of_Fate" target="_blank" rel="noreferrer noopener">[Cape]</a> Rewarded after completing Mushroom Shrine Tales from <a href="https://maplestory.fandom.com/wiki/Tengu/NPC#Town" target="_blank" rel="noreferrer noopener">Tengu</a>
             <ul>
                 <li>Scaling stats considered slightly better than <img src="https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Eqp_Tyrant_Hyades_Cloak.png/revision/latest?cb=20141004221626" alt="Eqp Tyrant Hyades Cloak" width={32} height={31} /> <a href="https://maplestory.fandom.com/wiki/Tyrant_Hyades_Cloak" target="_blank" rel="noreferrer noopener">Tyrant Capes</a> for the price</li>
-                <li>Additional Stats can be freely rerolled by discarding the item and reobtaining it again from <a href="https://maplestory.fandom.com/wiki/Tengu/NPC#Town" target="_blank" rel="noreferrer noopener">Tengu</a>
+                <li>Bonus Stats can be freely rerolled by discarding the item and reobtaining it again from <a href="https://maplestory.fandom.com/wiki/Tengu/NPC#Town" target="_blank" rel="noreferrer noopener">Tengu</a>
                 </li>
             </ul>
             </li>
@@ -646,7 +646,7 @@ function ProgressionGuide() {
         </ul>
         <h4>Boss Armor:</h4>
         <ul>
-            <li>Considered a <a href="https://maplestory.fandom.com/wiki/Category:Boss_Reward_Equipment?from=Frozen+Hat" target="_blank" rel="noreferrer noopener">Boss Item</a> for Flames/Additional Stats</li>
+            <li>Considered a <a href="https://maplestory.fandom.com/wiki/Category:Boss_Reward_Equipment?from=Frozen+Hat" target="_blank" rel="noreferrer noopener">Boss Item</a> for Flames/Bonus Stats</li>
             <li>Considered the main gear to strive because they are Boss Items</li>
         </ul>
         <ul>
@@ -667,7 +667,7 @@ function ProgressionGuide() {
         <ul>
             <li>Part of the <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Pitched_Boss_Set" target="_blank" rel="noreferrer noopener">Pitched Boss Accessory Set</a>
             </li>
-            <li>Considered a <a href="https://maplestory.fandom.com/wiki/Category:Boss_Reward_Equipment?from=Frozen+Hat" target="_blank" rel="noreferrer noopener">Boss Item</a> for Flames/Additional Stats if applicable</li>
+            <li>Considered a <a href="https://maplestory.fandom.com/wiki/Category:Boss_Reward_Equipment?from=Frozen+Hat" target="_blank" rel="noreferrer noopener">Boss Item</a> for Flames/Bonus Stats if applicable</li>
             <li>Items here at very rare and hard to get, considered end game</li>
             <li><strong>[Lotus <em>(Hard Mode)</em>] </strong> <img src="https://vignette.wikia.nocookie.net/maplestory/images/9/99/Eqp_Black_Heart.png/revision/latest?cb=20171208060241" alt="Eqp Black Heart" width={30} height={32} />  <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/89/Eqp_Berserked.png/revision/latest?cb=20171208054253" alt="Eqp Berserked" width={23} height={29} /> [<a href="https://maplestory.fandom.com/wiki/Black_Heart" target="_blank" rel="noreferrer noopener">Lv. 120 Heart</a> / <a href="https://maplestory.fandom.com/wiki/Berserked" target="_blank" rel="noreferrer noopener">Lv. 160 Face</a> ]
             <ul>
@@ -733,9 +733,9 @@ function ProgressionGuide() {
         </p>
         <p>Occasionally on Sunny Sundays, there is an event where for every Star Force enhancement below 10 Stars, you gain 2 stars. This is also a good time to try reaching to 15 stars since you essentially only need to keep trying from 12 Stars, but is not necessary to start Star Forcing your gear</p>
         <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
-        <h4 id="additionalstats">Additional Stats:</h4>
+        <h4 id="additionalstats">Bonus Stats:</h4>
         <hr />
-        <p>For now you do not need to worry too much about Additional Stats and Rebirth Flames. If you do obtain a special rebirth flame, feel free to use it on anything or on regular servers, you can sell them (if tradeable)</p>
+        <p>For now you do not need to worry too much about Bonus Stats and Rebirth Flames. If you do obtain a special rebirth flame, feel free to use it on anything or on regular servers, you can sell them (if tradeable)</p>
         <p>Some nice stats to reroll into is your Main Stat, %All Stat, %Boss Damage or Attack/Magic Attack</p>
         <hr />
         <p><strong>Some reasons that make certain items better than others (or best-in-slot) include:</strong>
@@ -743,12 +743,12 @@ function ProgressionGuide() {
         <ul>
             <li>Level Requirement of gear, higher the level, the better
             <ul>
-                <li>Level also affects the scaling of Additional Stats</li>
+                <li>Level also affects the scaling of Bonus Stats</li>
             </ul>
             </li>
             <li>Base Attack value &amp; base stats
             <ul>
-                <li>Higher attack results in higher attack scaling on flames/additional stats</li>
+                <li>Higher attack results in higher attack scaling on flames/bonus stats</li>
             </ul>
             </li>
             <li>Amount of Star Force that can be obtained ( best being 25 stars)
@@ -765,7 +765,7 @@ function ProgressionGuide() {
             </li>
             <li>Is a Boss Item / KMS Item
             <ul>
-                <li>These items can obtain higher tiers of Additional Stats than non-KMS items</li>
+                <li>These items can obtain higher tiers of Bonus Stats than non-KMS items</li>
             </ul>
             </li>
             <li>Set bonus effect</li>
@@ -774,7 +774,7 @@ function ProgressionGuide() {
         <h4 id="transferhammer">Transfer Hammer:</h4>
         <hr />
         <img className="repository-image" src="https://i.imgur.com/W6T3Q8C.png" alt="Transfer Hammer UI" />
-        <p>Transfer Hammer is a system that allows you to transfer Star Force, Potentials, Bonus Potentials, and Soul Weapon from one equipment to another (with restrictions). The following will not be transferred, Scrolled Stats and Additional Stats. Additionally, you will lose one Star Force while transferring and any potentials above Epic will be dropped down to Epic Potential. You can only transfer equipment up to 10 levels apart of each other. For equipment below Lv. 100, you can transfer up to 20 levels apart</p>
+        <p>Transfer Hammer is a system that allows you to transfer Star Force, Potentials, Bonus Potentials, and Soul Weapon from one equipment to another (with restrictions). The following will not be transferred, Scrolled Stats and Bonus Stats. Additionally, you will lose one Star Force while transferring and any potentials above Epic will be dropped down to Epic Potential. You can only transfer equipment up to 10 levels apart of each other. For equipment below Lv. 100, you can transfer up to 20 levels apart</p>
         <p>Some requirements for Transfer Hammering is that the piece of equipment must have at least 1 Star Force, cannot be Superior Gear (such as Tyrants) and must be the same equipment type (regardless of job group). Overalls can be counted towards both as a top or bottom and vice versa</p>
         <p>In regular servers, any remaining upgrade slots will be filled by 100% Spell Traces for free. You can choose which stat you want the upgrades to be. I recommend that you already Upgrade/Spell Trace the Transferring Item first if you do not want the 100% Spell Trace stats</p>
         <p>Transfer Hammer is most useful early game for obtaining Epic Potential gear by obtaining <img src="https://vignette.wikia.nocookie.net/maplestory/images/0/0a/Eqp_Purple_Senior_Cap.png/revision/latest?cb=20160211210601" alt="Eqp Purple Senior Cap" width={31} height={16} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/1/12/Eqp_Purple_Senior_Gloves.png/revision/latest?cb=20170302225918" alt="Eqp Purple Senior Gloves" width={24} height={24} /> <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Eqp_Purple_Senior_Shoes.png/revision/latest?cb=20180825035422" alt="Eqp Purple Senior Shoes" width={23} height={29} />  <img src="https://vignette.wikia.nocookie.net/maplestory/images/b/b5/Eqp_Purple_Senior_Suit.png/revision/latest?cb=20180825034658" alt="Eqp Purple Senior Suit" width={27} height={30} /> Lv. 60 Purple Senior Equipment which is guaranteed to be Epic Potential and transferring it all the way up to your desired gear. Purple Senior gear also has a cheaper cost to reroll the potential compared to higher level gear</p>

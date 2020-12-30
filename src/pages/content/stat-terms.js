@@ -44,7 +44,6 @@ function StatTerms() {
          <p>Stats that your Damage scales from - a stat used in the calculation of Damage. For most classes, you will have a Main Stat and a Secondary Stat. However, Main Stat contributes the most to your Damage and is your main priority compared to Secondary Stats. There are some classes like Demon Avenger that's Main Stat is HP and scales off of it. As well, these stats also increase your Defense stat</p>
          <p>Some sources of these stats come from Leveling Up, %Stats from Potentials, Star Force + Scrolls (Spell Trace), Hyper Stats and Passive Skills</p>
          <p><strong>In general when you Level Up, you can use the Auto-Assign feature to allocate your AP</strong></p>
-         <strong>In general when you Level Up, you can use the Auto-Assign feature to allocate your AP</strong>
          <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
          <h2 id="attack">Attack + Magic Attack</h2>
          <p>Attack is another important stat that your Damage scales from. Like AP stats, Attack is used in the calculation of Damage</p>
