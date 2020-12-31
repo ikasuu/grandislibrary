@@ -42,32 +42,47 @@ li{
 
 /* Adjustment to container for different sized screens */
 
+/* 575+ px */
 @media (max-width: 575px){
     .content-container{
         max-width: 28rem;
     }
 }
 
+/* 576+ px */
 @media (min-width: 576px){
     .content-container{
         max-width: 30rem;
     }
 }
 
+/* 768+ px */
 @media (min-width: 768px){
     .content-container{
         max-width: 40rem;
     }
 }
 
+/* 992+ px */
 @media (min-width: 992px){
     .content-container{
         max-width: 50rem;
     }
 }
 
+/* 1200+ px */
 @media (min-width: 1200px){
+    
     .content-container{
         max-width: 70rem;
+    }
+}
+
+/* 0 - 1200 px */
+@media (max-width: 1200px){
+
+    .content-container{
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
     }
 }
