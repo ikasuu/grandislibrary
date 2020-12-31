@@ -12,7 +12,6 @@ import ScrollToTop from './special/Hooks';
 import Footer from './components/Footer';
 import Routes from './special/Routes';
 
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 

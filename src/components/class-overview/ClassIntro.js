@@ -123,7 +123,10 @@ function ClassProperties({content}) {
               </tr>
               <tr>
                   <th><strong>Legion Bonus</strong></th>
-                  <td><div>{content.legion}</div><br/><div>(+{content.legionValue})</div></td>
+                  <td>
+                    <Row><Col>{content.legion}</Col></Row>
+                    <Row><Col style={{display: 'inline-block', wordBreak: 'break-word'}}>(+{content.legionValue})</Col></Row>
+                  </td>
               </tr>
               <tr>
                   <th><strong>Primary Weapon</strong></th>
