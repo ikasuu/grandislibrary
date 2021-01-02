@@ -127,15 +127,15 @@ const ContentCardText = styled(Card.Text)`
     }
 `;
 
-export function CardContainer({content}) {
+export function CardContainer({content, type}) {
     return (
         <ContentContainer>
         {
             content.map(el => 
                 <ContentCard>
-                    <Link to={`content/${el[0]}`}><Card.Img variant="top" src={`${process.env.PUBLIC_URL}/thumbnail/${el[0]}.png`} alt={el[1]}/></Link>
+                    <Link to={`${type}/${el[0]}`}><Card.Img variant="top" src={`${process.env.PUBLIC_URL}/thumbnail/${el[0]}.png`} alt={el[1]}/></Link>
                     <Card.Body>
-                        <Link to={`content/${el[0]}`}><ContentCardTitle>{el[1]}</ContentCardTitle></Link>
+                        <Link to={`${type}/${el[0]}`}><ContentCardTitle>{el[1]}</ContentCardTitle></Link>
                         <ContentCardText>{el[2]}</ContentCardText>
                     </Card.Body>
                 </ContentCard>

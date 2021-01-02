@@ -31,6 +31,9 @@ li{
     .repository-md-container{
         width: 75%;
     }
+    .repository-sm-container{
+        width: 60%;
+    }
 
 }
 
@@ -38,6 +41,24 @@ li{
     max-width: 70%;
     height: auto;
     margin: 1rem 0 1rem 0;
+}
+
+.repository-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.repository-video-container{
+    margin: 2rem 0 1rem 0;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
 }
 
 /* Adjustment to container for different sized screens */
@@ -80,6 +101,9 @@ li{
 
 /* 0 - 1200 px */
 @media (max-width: 1200px){
+    .repository-image{
+        max-width: 80%;
+    }
 
     .content-container{
         padding-right: 1.25rem;

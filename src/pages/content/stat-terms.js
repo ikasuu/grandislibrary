@@ -50,7 +50,7 @@ function StatTerms() {
          <p>Some sources of these stats come from %Attack from Potentials, Star Force + Scrolls (Spell Trace), Hyper Stats, Passive Skills and Potion Buffs</p>
          <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
          <h2 id="damage">Damage Bonus (%Damage)</h2>
-         <div><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Damage_to_Normal_Monsters" target="_blank" rel="noopener noreferrer">https://strategywiki.org/wiki/MapleStory/Formulas#Damage_to_Normal_Monsters</a></div>
+         <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Damage_to_Normal_Monsters" target="_blank" rel="noopener noreferrer">https://strategywiki.org/wiki/MapleStory/Formulas#Damage_to_Normal_Monsters</a></p>
          <p>A stat used in the formula calculation of Damage (Range). This stat does not provide much of a Damage increase compared to other stats</p>
          <p>A good analogy to understand Damage is:</p>
          <p>"Atk% and Damage % are multipliers with each other.</p>

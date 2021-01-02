@@ -33,8 +33,7 @@ function UpgradeEquipment() {
             <ul>
               <li>
                   <img src="https://maplestory.io/api/GMS/210.1.1/item/2613050/icon" alt="" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2046876/icon" alt="" /><img src="https://maplestory.io/api/GMS/210.1.1/item/2048094/icon" alt="" />
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2048095/icon" alt="" /><strong>[Special Regular Scrolls]: </strong>There are also other scrolls obtainable from
-                  <a href="http://maplestory.nexon.net/micro-site/37241" target="_blank" rel="noreferrer noopener">Gachapon</a>, <a href="http://maplestory.nexon.net/game/marvel-machine" target="_blank" rel="noreferrer noopener">Marvel Machine</a>,
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2048095/icon" alt="" /><strong>[Special Regular Scrolls]: </strong>There are also other scrolls obtainable from <a href="http://maplestory.nexon.net/micro-site/37241" target="_blank" rel="noreferrer noopener">Gachapon</a>, <a href="http://maplestory.nexon.net/game/marvel-machine" target="_blank" rel="noreferrer noopener">Marvel Machine</a>,
                   etc. (aka loot boxes) that provide better stats than Spell Tracing and regular scrolls. Keep in mind these are very expensive and are usually used late game to maximize damage. As well, the best scrolls most of the time also have
                   bad success rates and may destroy items so, they may cost extra to buy items that prevent items from being destroyed or losing an upgrade slot
               </li>
@@ -53,11 +52,7 @@ function UpgradeEquipment() {
                   <img src="https://maplestory.io/api/GMS/210.1.1/item/2612043/icon" alt="" /> <strong>[9th Anniversary Prime Scrolls]: </strong>Grants +3 all stats and Weapon Prime Scrolls provide +10 Attack and Magic Attack. Has a 40% chance to
                   succeed and 30% to destroy item on failure. Scrolling with these scrolls is also referred to as <strong>Priming</strong>
                   <ul>
-                    <li>
-                        <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2613042" target="_blank">One-Handed Weapon</a>,
-                        <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2612043" target="_blank">Two-Handed Weapon</a>,
-                        <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2615026" target="_blank">Accessory</a> and
-                        <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2616057" target="_blank">Armor</a>
+                    <li> <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2613042" target="_blank">One-Handed Weapon</a>, <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2612043" target="_blank">Two-Handed Weapon</a>, <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2615026" target="_blank">Accessory</a> and <a rel="noreferrer noopener" href="https://maplestory.wiki/GMS/210.1.1/item/2616057" target="_blank">Armor</a>
                     </li>
                     <li>Obtainable from Marvel Machine</li>
                   </ul>
@@ -69,14 +64,10 @@ function UpgradeEquipment() {
                   also Pet Equip scrolls that grant 5 to 7 Attack or Magic Attack
                   <ul>
                     <li>
-                        <strong>[Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2613050" target="_blank" rel="noreferrer noopener">One-Handed Weapon</a>,
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2612061" target="_blank" rel="noreferrer noopener">Two-Handed Weapon</a>,
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noreferrer noopener">Pet Equip</a>
+                        <strong>[Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2613050" target="_blank" rel="noreferrer noopener">One-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2612061" target="_blank" rel="noreferrer noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noreferrer noopener">Pet Equip</a>
                     </li>
                     <li>
-                        <strong>[Magic Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noreferrer noopener">One-Handed Weapon</a>,
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2612062" target="_blank" rel="noreferrer noopener">Two-Handed Weapon</a>,
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2048818" target="_blank" rel="noreferrer noopener">Pet Equip</a>
+                        <strong>[Magic Attack]: </strong><a href="https://maplestory.wiki/GMS/210.1.1/item/2048817" target="_blank" rel="noreferrer noopener">One-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2612062" target="_blank" rel="noreferrer noopener">Two-Handed Weapon</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2048818" target="_blank" rel="noreferrer noopener">Pet Equip</a>
                     </li>
                     <li>These scrolls are usually obtained from Marvel Machine and rarely from Maplehood Watch</li>
                   </ul>
@@ -93,11 +84,10 @@ function UpgradeEquipment() {
             </ul>
             <ul>
               <li>
-                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2049300/icon" alt="" /> <strong>[Equip Enhancement Scroll]</strong>: These scrolls provides <strong>one star force</strong> (enhancement [1] , refer to image at top) on success
+                  <img src="https://maplestory.io/api/GMS/210.1.1/item/2049300/icon" alt="" /> <strong>[Equip Enhancement Scroll]</strong>: These scrolls provides <strong>one star force</strong> (enhancement [1], refer to image at top) on success
               </li>
               <li>
-                  <strong>[Pure Equipment Enhancement Scroll]: </strong>The Pure version scrolls are mainly used on Tyrant or
-                  <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">"Superior"</a> gear because it does not destroy an item on failure
+                  <strong>[Pure Equipment Enhancement Scroll]: </strong>The Pure version scrolls are mainly used on Tyrant or <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">"Superior"</a> gear because it does not destroy an item on failure
                   <ul>
                     <li>Star Forcing/Enhancing Superior Gear costs much more than regular gear and has a higher chance to being destroyed on failure which is why people the prefer the Pure Equipment Enhancement Scrolls</li>
                     <li>These scrolls are also known as "No Booms"</li>
@@ -112,20 +102,13 @@ function UpgradeEquipment() {
                   <strong>potential for gear</strong>. When used, if an item does not have a potential, it will gain one on success. Or, there are certain ones that give <strong>Epic, Unique, and Legendary potential</strong>. There is also one that
                   provides <strong>Bonus Potential</strong> which is extra potential on top of your current potential on your item (refer to the top image [14]).
                   <ul>
-                      <li>
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2049401" target="_blank" rel="noreferrer noopener">Regular Potential</a> and
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2049705" target="_blank" rel="noreferrer noopener">Epic Potential</a> scrolls can be found normally in-game from hunting and in shops but
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2049750" target="_blank" rel="noreferrer noopener">Unique Potential</a>,
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2049780" target="_blank" rel="noreferrer noopener">Legendary Potential</a>, and
-                        <a href="https://maplestory.wiki/GMS/210.1.1/item/2048308" target="_blank" rel="noreferrer noopener">Bonus Potential Scrolls</a> are found from things such as Gachapon, Marvel Machine, Philosopher Books or rarely from Events
+                      <li> <a href="https://maplestory.wiki/GMS/210.1.1/item/2049401" target="_blank" rel="noreferrer noopener">Regular Potential</a> and <a href="https://maplestory.wiki/GMS/210.1.1/item/2049705" target="_blank" rel="noreferrer noopener">Epic Potential</a> scrolls can be found normally in-game from hunting and in shops but <a href="https://maplestory.wiki/GMS/210.1.1/item/2049750" target="_blank" rel="noreferrer noopener">Unique Potential</a>, <a href="https://maplestory.wiki/GMS/210.1.1/item/2049780" target="_blank" rel="noreferrer noopener">Legendary Potential</a>, and <a href="https://maplestory.wiki/GMS/210.1.1/item/2048308" target="_blank" rel="noreferrer noopener">Bonus Potential Scrolls</a> are found from things such as Gachapon, Marvel Machine, Philosopher Books or rarely from Events
                       </li>
                       <li>
-                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2049407" target="_blank" rel="noreferrer noopener">Advanced Potential Scrolls</a> from
-                        <img src="https://maplestory.io/api/GMS/210.1.1/item/2431893/icon" alt=""/> Red Cube Fragments (from using Red Cubes) that has a higher success rate than regular potential scrolls
+                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2049407" target="_blank" rel="noreferrer noopener">Advanced Potential Scrolls</a> from <img src="https://maplestory.io/api/GMS/210.1.1/item/2431893/icon" alt=""/> Red Cube Fragments (from using Red Cubes) that has a higher success rate than regular potential scrolls
                       </li>
                       <li>
-                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2048306" target="_blank" rel="noreferrer noopener">Special Bonus Potential Scrolls</a> from
-                        <img src="https://maplestory.io/api/GMS/210.1.1/item/2431894/icon" alt=""/> Black Cube Fragments (from using Black Cubes) that has a 100% chance to add a Bonus Potential
+                        You can also obtain <a href="https://maplestory.wiki/GMS/210.1.1/item/2048306" target="_blank" rel="noreferrer noopener">Special Bonus Potential Scrolls</a> from <img src="https://maplestory.io/api/GMS/210.1.1/item/2431894/icon" alt=""/> Black Cube Fragments (from using Black Cubes) that has a 100% chance to add a Bonus Potential
                       </li>
                   </ul>
               </li>
@@ -265,6 +248,7 @@ function UpgradeEquipment() {
                     </tr>
                 </tbody>
             </table>
+            <br/>
             <p>If two Star Force attempts in a row result in failure, the next attempt will enter Chance Time and have a guaranteed success rate. Additionally, once a piece of equipment reaches 10, 15 and 20 Star Force respectively, they will not drop below that Star Force even if the attempt fails</p>
             <p>If the equipment is destroyed while Star Forcing, you will gain an Equipment Trace. Equipment Traces can be applied to a new copy of the same item to restore all the stats, potentials and enhancements</p>
             <p><strong>[Star Force Maps]</strong>: There are special training maps that will require you to have a certain amount of Star Force to hunt efficiently on a map. These maps feature monsters with greater health but give much more EXP</p>
@@ -382,18 +366,14 @@ function UpgradeEquipment() {
                   https://support-maplestory.nexon.net/hc/en-us/articles/204088639-How-do-I-enhance-equips-with-Star-Force-
               </a>
             </p>
-            <p>
-              For more info on Bonus Stats and Rebirth Flames, check out the strategywiki here:
-              <a href="https://strategywiki.org/wiki/MapleStory/Bonus_Stats" target="_blank" rel="noopener noreferrer">https://strategywiki.org/wiki/MapleStory/Bonus_Stats</a>
-            </p>
+            <p>For more info on Bonus Stats and Rebirth Flames, check out the strategywiki here:            </p>
+            <p><a href="https://strategywiki.org/wiki/MapleStory/Bonus_Stats" target="_blank" rel="noopener noreferrer">https://strategywiki.org/wiki/MapleStory/Bonus_Stats</a></p>
             <p>For more info on endgame gear, check out this neat video:</p>
             <p><a href="https://www.youtube.com/watch?v=qdyIWRqXOH0" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=qdyIWRqXOH0</a></p>
-            <p>
-              For more info on Gear, check out this neat guide. It can also be applicable to Non-Reboot servers too even though it's curated for Reboot servers:
-              <a href="https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p" target="_blank" rel="noopener noreferrer">
+            <p>For more info on Gear, check out this neat guide. It can also be applicable to Non-Reboot servers too even though it's curated for Reboot servers:</p>
+              <p><a href="https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p" target="_blank" rel="noopener noreferrer">
                   https://docs.google.com/presentation/d/1cvwscy79thl_jahbjQlw60KzIiEEYUFd7gBwqajACfY/preview#slide=id.p
-              </a>
-            </p>
+              </a></p>
           </div>
       </div>
 

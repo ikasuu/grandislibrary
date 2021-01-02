@@ -20,11 +20,11 @@ function Content() {
             <HeaderImage imageUrl={`${HeaderImageUrl.ristonia}.jpg`}/>
             <Page.Title>Content</Page.Title>
             <Page.Subtitle>Gameplay Related</Page.Subtitle>
-            <Page.CardContainer content={content.gameplay}/>
+            <Page.CardContainer content={content.gameplay} type="content"/>
             <Page.Subtitle>Class Related</Page.Subtitle>
-            <Page.CardContainer content={content.class}/>
+            <Page.CardContainer content={content.class} type="content"/>
             <Page.Subtitle>Equipment Related</Page.Subtitle>
-            <Page.CardContainer content={content.equipment}/>
+            <Page.CardContainer content={content.equipment} type="content"/>
         </div>
     )
 }

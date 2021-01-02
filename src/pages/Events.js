@@ -20,11 +20,11 @@ function Events() {
             <HeaderImage imageUrl={`${HeaderImageUrl.fox}.jpg`}/>
             <Page.Title>Events</Page.Title>
             <Page.Subtitle>Training Related</Page.Subtitle>
-            <Page.CardContainer content={events.training}/>
+            <Page.CardContainer content={events.training} type="events"/>
             <Page.Subtitle>Item Related</Page.Subtitle>
-            <Page.CardContainer content={events.item}/>
+            <Page.CardContainer content={events.item} type="events"/>
             <Page.Subtitle>Update Related</Page.Subtitle>
-            <Page.CardContainer content={events.update}/>
+            <Page.CardContainer content={events.update} type="events"/>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Col, Container, Row } from 'react-bootstrap';
 import styled from 'styled-components';
@@ -16,6 +16,11 @@ import '../css/hover.css';
 
 const AboutTitle = styled(Title)`
     text-align: left;
+
+    // 200+px
+    @media(min-width: 200px){
+        margin-left: 1rem;
+    }
 `;
 
 const AboutSubtitle = styled(Subtitle)`
@@ -25,19 +30,35 @@ const AboutSubtitle = styled(Subtitle)`
 const LeftWrapper = styled(Col)`
     max-width: 35rem;
 
+    // 200+px
     @media(min-width: 200px){
         margin: 0 1rem 0 1rem;
     }
+    // 1201+px
     @media(min-width: 1201px){
         margin: 0 5rem 0 0;
+    }
+    // 0 - 1199px
+    @media(max-width: 1199px){
+        max-width: 28rem;
+    }
+    // 0 - 992px
+    @media(max-width: 992px){
+        max-width: 40rem;
     }
 `;
 
 const RightWrapper = styled(Col)`
     max-width: 31rem;
 
+    // 0 - 1199px
     @media(max-width: 1199px){
+        max-width: 29rem;
+    }
+    // 0 - 992px
+    @media(max-width: 992px){
         margin: 0 0.5rem 0 0.5rem;
+        max-width: 40rem;
     }
 `;
 
