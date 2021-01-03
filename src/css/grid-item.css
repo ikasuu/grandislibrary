@@ -7,13 +7,12 @@
     justify-content: center;
     align-items: center;
     padding-top: 70px;
-    margin-bottom: 5rem;
-    margin-top: 3.5rem;
+    margin: 3.5rem 1rem 5rem 1rem;
 }
 
 /* Wrapper for our grid item */
 .grid-wrapper{
-    width: 20rem;
+    max-width: 100%;
     margin: 1rem;
     height: auto;
     position: relative;
@@ -60,23 +59,64 @@
 
 /* Logic below */
 
+/* 0+ px */
+@media (min-width: 0px) {
+    .grid-wrapper{
+        max-width: 100%;
+    }
+    .grid-title{
+        font-size: 2.5rem;
+    }
+    
+}
+
+/* 351+ px */
+@media (min-width: 352px) {
+    .grid-wrapper{
+        max-width: 40%;
+    }
+    .grid-title{
+        font-size: 1.5rem;
+    }
+    
+}
+
+/* 414+ px */
+@media (min-width: 414px) {
+    .grid-wrapper{
+        max-width: 40%;
+    }
+    .grid-title{
+        font-size: 2rem;
+    }
+    
+}
+
 /* 651+ px */
 @media (min-width: 651px) {
+    .grid-wrapper{
+        max-width: 100%;
+    }
     .grid-flex-container{
         flex-wrap: nowrap;
         margin-top: 8rem;
     }
+    .grid-title{
+        font-size: 1.5rem;
+    }
+
 }
 
-/* 0-651 px */
-@media (max-width: 651px) {
+/* 760+ px */
+@media (min-width: 760px) {
     .grid-title{
         font-size: 2rem;
     }
+
 }
 
-/* 868+ px */
-@media (min-width: 868px){
+/* 932+ px */
+@media (min-width: 932px){
     .grid-title{
         font-size: 2.5rem;
     }
