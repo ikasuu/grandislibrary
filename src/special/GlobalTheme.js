@@ -22,6 +22,11 @@ const getMenuColor = style('mode',{
     light: 'black',
     dark: 'white'
   });
+
+  const getMenuSubColor = style('mode',{
+    light: 'white',
+    dark: 'black'
+  });
   
 const getMenuToggle = style('mode', {
     light: 'off',
@@ -71,7 +76,7 @@ export const GlobalStyle = createGlobalStyle`
 
   //Navbar discord button
   .jump-button{
-    background: url("${process.env.PUBLIC_URL}/icons/arrow_circle_up-${getMenuColor}-18dp.svg");
+    background: url("${process.env.PUBLIC_URL}/icons/expand_less-${getMenuSubColor}-18dp.svg");
     background-size: 2rem 2rem;
     height: 2rem;
     width: 2rem;
@@ -176,6 +181,21 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-filter: drop-shadow( 3px 3px 1px rgba(0, 0, 0, .8));
     filter: drop-shadow( 3px 3px 1px rgba(0, 0, 0, .8));
     padding-bottom: 2.5rem;
+  }
+  
+  .MuiPaper-root{
+    border-radius: 0 !important;
+  }
+  
+  .MuiListItem-root{
+    font-family: poppins, sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 1.1rem !important;
+  }
+
+  /* For Material UI fab primary color */
+  .MuiFab-primary{
+    background-color: ${getMenuColor} !important;
   }
 
   `;

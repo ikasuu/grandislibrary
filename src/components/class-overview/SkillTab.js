@@ -1,6 +1,5 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
-import { Button, Container, Tab, Tabs} from 'react-bootstrap';
+import { Container, Tab, Tabs} from 'react-bootstrap';
 import styled from 'styled-components';
 
 import { SkillContainer, VSkillContainer } from './SkillContainer';
@@ -26,13 +25,6 @@ function convertCommonVToArray(fifth){
   return skills;
 }
 
-//Used for anchor tag scrolling purposes
-const scrollWidthOffset = (el) => {
-  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-  const yOffset = -80; 
-  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
-}
-
 // Adjusting margins for h2 and h3
 const StyledHeaderTwo = styled.h2`
     margin: 2rem 0 1.5rem 0;
@@ -53,7 +45,6 @@ export function SkillTab({primary, fifth, hyper}) {
           <VSkillContainer skillData={convertCommonVToArray(fifth)}/>
           <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
           <VSkillContainer skillData={fifth.fifthMain}/>
-          <Button variant="link"><Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button"/></Link></Button>
         </Tab>
         {hyper && <Tab eventKey="hyper" title="Hyper Skills">
           <StyledHeaderThree>Passive Skills</StyledHeaderThree>

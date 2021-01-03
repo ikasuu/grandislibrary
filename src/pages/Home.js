@@ -22,10 +22,11 @@ function Home(){
       <Container>
         <FeaturedSwiper content={data.featured}/>
         <h2>Recent News in Global MapleStory</h2>
-        <ContentSwiper content={data.recent}/>
+        <ContentSwiper content={data.recent} launch={true}/>
         <h2>Upcoming Updates</h2>
-        <ContentSwiper content={data.upcoming}/>
+        <ContentSwiper content={data.upcoming} launch={true}/>
         <h2>Popular Content</h2>
+        <ContentSwiper content={data.popularContent} launch={false}/>
         <h2>Last Month's Most Viewed Classes</h2>
         <TopClassSwipe classes={data.popularClasses}/>
       </Container>

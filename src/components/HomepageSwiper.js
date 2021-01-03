@@ -101,7 +101,7 @@ const ContentSubtitle = styled.p`
     left: 0;
 `;
 
-export function ContentSwiper({content}){
+export function ContentSwiper({content, launch}){
     return(
         <Swiper
             autoplay={{ delay: 6000, disableOnInteraction: false }}
@@ -128,9 +128,9 @@ export function ContentSwiper({content}){
                 <a href={content.link} target="_blank" rel="noreferrer noopener">
                 <ContentImage src={content.image} alt={content.alt} fluid/>
                 <GradientOverlay/>
-                <ContentLaunch/>
+                { launch && <ContentLaunch/>}
                 <ContentTitle>{content.title}</ContentTitle>
-                <ContentSubtitle>{content.date}</ContentSubtitle>
+                <ContentSubtitle>{content.subtitle}</ContentSubtitle>
                 </a>
             </SwiperSlide>
             )

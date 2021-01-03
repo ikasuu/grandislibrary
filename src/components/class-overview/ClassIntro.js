@@ -71,6 +71,7 @@ export function ClassIntro({data}) {
         <div>
             <Container>
                 <ContentTitle>{data.class}</ContentTitle>
+                <div id="property"/>
                 <Row>
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>
@@ -83,6 +84,7 @@ export function ClassIntro({data}) {
                 </Row>
             </Container>
             <hr/>
+            <div id="stat"/>
             <ClassDetail content={data.content} skill={data.skill}/>
         </div>
     )

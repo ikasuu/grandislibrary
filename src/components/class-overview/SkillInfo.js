@@ -99,7 +99,7 @@ function getValsFromProperties(properties, maxLevel){
     //For each property have the key in valProperties the same as arrayProperties and the value our evaluated expression
     arrayProperties.forEach(it =>{
         //If statement to omit non expressions
-        if(!it[1].includes(']') && it[0] !== 'action' && it[0] !== 'memo_PL' && it[1] !== 'Image<Rgba32>: 32x32'){
+        if(!it[1].includes(']') && it[0] !== 'action' && it[0] !== 'memo_PL' && !it[1].includes('Image<Rgba32>:')){
             valProperties[it[0]] = (Parser.evaluate(it[1], { x: maxLevel, d: Math.floor, u: Math.ceil, y: 1}));
         }
     });

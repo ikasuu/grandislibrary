@@ -109,6 +109,11 @@ footer{
   border: none !important;
 }
 
+/* Removing focus outline on Material UI Icon Button */
+.MuiFab-root:focus{
+  outline: none !important;
+}
+
 /* For footer purposes, we wrap everything in a container + flexbox */
 #container {
   display: flex;
