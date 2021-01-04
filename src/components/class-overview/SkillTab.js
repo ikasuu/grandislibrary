@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Tab, Tabs} from 'react-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 
 import { SkillContainer, VSkillContainer } from './SkillContainer';
@@ -35,6 +36,7 @@ const StyledHeaderThree = styled.h3`
 `;
 
 export function SkillTab({primary, fifth, hyper}) {
+
   return (
     <Container>
       <StyledHeaderTwo>Skill Information</StyledHeaderTwo>
@@ -43,8 +45,10 @@ export function SkillTab({primary, fifth, hyper}) {
         <Tab eventKey="fifth" title="5th Job">
           <StyledHeaderThree>Common V Skills</StyledHeaderThree>
           <VSkillContainer skillData={convertCommonVToArray(fifth)}/>
+          <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
           <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
           <VSkillContainer skillData={fifth.fifthMain}/>
+          <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
         </Tab>
         {hyper && <Tab eventKey="hyper" title="Hyper Skills">
           <StyledHeaderThree>Passive Skills</StyledHeaderThree>
@@ -55,6 +59,13 @@ export function SkillTab({primary, fifth, hyper}) {
       </Tabs>
     </Container>
   );
+}
+
+//Used to scroll to anchor tags
+const scrollWidthOffset = (el) => {
+  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+  const yOffset = -80; 
+  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 export default SkillTab

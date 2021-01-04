@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import LazyLoad from 'react-lazyload';
 
 import Video from '../../components/repository/Video';
-import TabLink from '../../components/TabLink';
+import { TabLink } from '../../components/Page';
 
 function UpdateTimelineOverview() {
     return (

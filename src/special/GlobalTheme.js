@@ -74,9 +74,18 @@ export const GlobalStyle = createGlobalStyle`
     display:block;
   }
 
-  //Navbar discord button
+  //Anchor jump button, found in class overviews
   .jump-button{
     background: url("${process.env.PUBLIC_URL}/icons/expand_less-${getMenuSubColor}-18dp.svg");
+    background-size: 2rem 2rem;
+    height: 2rem;
+    width: 2rem;
+    display: block;
+  }
+
+  //Anchor jump button, found in class overviews, this one is for within the tabs
+  .jump-button-tabs{
+    background: url("${process.env.PUBLIC_URL}/icons/arrow_circle_up-${getMenuColor}-18dp.svg");
     background-size: 2rem 2rem;
     height: 2rem;
     width: 2rem;
@@ -116,6 +125,12 @@ export const GlobalStyle = createGlobalStyle`
     height: 1.3rem;
     width: 1.3rem;
     display: block;
+  }
+
+  //Resources page
+  .faq-search{
+    background-color: ${props => props.theme.mode === 'dark' ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)'} !important;
+    color: ${getForeground};
   }
 
 //Bootstrap components
@@ -183,6 +198,7 @@ export const GlobalStyle = createGlobalStyle`
     padding-bottom: 2.5rem;
   }
   
+  //Material UI related
   .MuiPaper-root{
     border-radius: 0 !important;
   }

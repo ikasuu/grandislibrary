@@ -127,6 +127,12 @@ const ContentCardText = styled(Card.Text)`
     }
 `;
 
+export function TabLink({url}) {
+    return (
+        <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>
+    )
+}
+
 export function CardContainer({content, type}) {
     return (
         <ContentContainer>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import axiosRetry from 'axios-retry';
+import { HashLink as Link } from 'react-router-hash-link';
 import { Image } from 'react-bootstrap';
 
 import SkillInfo from './SkillInfo'
@@ -72,7 +73,6 @@ export class SkillContainer extends Component {
         this._isMounted = false;
     }
 
-
     //Map each skill as a SkillInfo component by passing the following info: Name of skill, Skill Description, Short Description, Skill Properties, and Skill Master Level
     render() {
         const { loading, retrievedData } = this.state
@@ -108,9 +108,17 @@ export class SkillContainer extends Component {
                 }
                 </div>
             }
+            <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
             </div>
         );
     }
+}
+
+//Used to scroll to anchor tags
+const scrollWidthOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -80; 
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 /*

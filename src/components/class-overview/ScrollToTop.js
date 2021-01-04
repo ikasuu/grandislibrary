@@ -3,6 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 // import Zoom from '@material-ui/core/Zoom';
 // import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Fab from '@material-ui/core/Fab';
+import Tooltip from '@material-ui/core/Tooltip';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Divider from '@material-ui/core/Divider';
@@ -15,16 +16,9 @@ import styled from 'styled-components';
 
 function ScrollToTop() {
     return (
-        <div>
-            <Fab color="primary" size="medium" style={{position: 'fixed', bottom: '2.5rem', right: '2.5rem', zIndex: '1000'}}>
-                <MenuBar/>
-            </Fab>
-        </div>
+        <MenuBar/>
     )
 }
-
-export default ScrollToTop
-
 
 //Used to scroll to anchor tags
 const scrollWidthOffset = (el) => {
@@ -69,7 +63,11 @@ function MenuBar(){
 
     return(
         <div>
-            <span onClick={handleMenu} className="jump-button"/>
+            <Tooltip title="Quick Jump">
+                <Fab onClick={handleMenu} color="primary" size="medium" style={{position: 'fixed', bottom: '2.5rem', right: '2.5rem', zIndex: '1000'}}>
+                    <span className="jump-button"/>
+                </Fab>
+            </Tooltip>
             <Menu
                 anchorEl={anchorEl}
                 anchorOrigin={{
@@ -78,7 +76,7 @@ function MenuBar(){
                 }}
                 keepMounted
                 transformOrigin={{
-                    vertical: 110,
+                    vertical: 200,
                     horizontal: 165,
                 }}
                 open={open}
@@ -93,5 +91,7 @@ function MenuBar(){
                 <MenuItem onClick={handleClose}><MenuLink smooth to="#skill" scroll={el => scrollWidthOffset(el)}>Skill Info</MenuLink></MenuItem>
             </Menu>
         </div>
-    )
+    );
 }
+
+export default ScrollToTop;
