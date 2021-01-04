@@ -4,12 +4,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Mousewheel, Scrollbar } from 'swiper';
 import styled from 'styled-components';
 import { Card, Container, Tab, Table, Tabs } from 'react-bootstrap';
+import Fuse from 'fuse.js';
 
 import data from '../special/resource-content.json';
 
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
-import * as Page from '../components/Page';
+import { Title, TabLink } from '../components/Page';
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -22,6 +23,16 @@ SwiperCore.use([Scrollbar, Mousewheel]);
     Created by: Ikasuu, Fall 2020
 */
 
+const ResourceSubtitle = styled.h2`
+    margin: 2.5rem 0 -2rem 0;
+
+    //When additional faq class is added, use this margin instead
+    &.faq{
+        margin: 2.5rem 0 2rem 0;
+    }
+`;
+
+// Swiper element used for the FAQ
 const FaqSwiper = styled(Swiper)`
     width: 90%;
     max-height: 50rem;
@@ -29,6 +40,7 @@ const FaqSwiper = styled(Swiper)`
     overflow: hidden;
 `;
 
+// Filter search bar for FAQ
 const FaqSearch = styled.input`
     margin: 0 0 1.5rem 0;
     padding-left: 1rem;
@@ -39,16 +51,37 @@ const FaqSearch = styled.input`
     filter: drop-shadow( 3px 3px 3px rgba(0, 0, 0, .2));
 `;
 
+// Used to center search bar fror FAQ
 const FaqSearchWrapper = styled.div`
     display: flex;
     justify-content: center;
 `;
 
+// Styling for FAQ question title on each card
 const FaqQuestion = styled(Card.Title)`
     margin: 1rem 1rem -0.5rem 1rem;
 `;
 
+// Container for the table at the top, used so we don't extend the screen for mobile
+const TableContainer = styled.div`
+    overflow-x: auto;
+    margin: 3rem 0 3rem 0;
+`;
+
+// Create search query object that searches our data by looking at the question and tags
+const fuse = new Fuse(data.faq, { key: ["question", "tags"]});
+
+// Custom filtering function, return original if search query returns nothing (len = 0)
+const searchQuery = (term) => {
+    const results = fuse.search(term);
+    if(results.length){
+        return results;
+    }
+    return data.faq;
+}
+
 function Resources() {
+    // Used to store what's typed into search bar
     const [searchTerm, setSearchTerm] = React.useState("");
 
     return (
@@ -57,31 +90,36 @@ function Resources() {
                 <title>Resources | Grandis Library</title>
             </Helmet>
             <HeaderImage imageUrl={`${HeaderImageUrl.grandis}.jpg`}/>
-            <Page.Title>Resources</Page.Title>
+            <Title>Resources</Title>
             <Container>
                 <Tabs>
                     <Tab eventKey="links" title="Useful Links">
-                        <Table borderless>
-                            <tbody>
-                                {data.links.map(link => 
-                                    <tr><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><Page.TabLink url={link.url}>{link.url}</Page.TabLink></td></tr>
-                                )}
-                            </tbody>
-                        </Table>
+                        <ResourceSubtitle>Useful Links</ResourceSubtitle>
+                        <TableContainer>
+                            <Table borderless>
+                                <tbody>
+                                    {data.links.map(link => 
+                                        <tr><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
+                                    )}
+                                </tbody>
+                            </Table>
+                        </TableContainer>
                     </Tab>
                     <Tab eventKey="creators" title="Maple Content Creators">
-                        <Table borderless>
-                            <tbody>
-                                {data.creators.map(link => 
-                                    <tr><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><Page.TabLink url={link.url}>{link.url}</Page.TabLink></td></tr>
-                                )}
-                            </tbody>
-                        </Table>
+                    <ResourceSubtitle>Maple Content Creators</ResourceSubtitle>
+                        <TableContainer>
+                            <Table borderless>
+                                <tbody>
+                                    {data.creators.map(link => 
+                                        <tr><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
+                                    )}
+                                </tbody>
+                            </Table>
+                        </TableContainer>
                     </Tab>
                 </Tabs>
-                <h2>Frequently Asked Questions</h2>
-                <p>To use Filter Search, type a few words, do not type a whole sentence</p>
-                <FaqSearchWrapper><FaqSearch className="faq-search" type="text" placeholder="Filter Search" onChange={event => setSearchTerm((event.target.value).toLowerCase())}></FaqSearch></FaqSearchWrapper>
+                <ResourceSubtitle className="faq">Frequently Asked Questions</ResourceSubtitle>
+                <FaqSearchWrapper><FaqSearch className="faq-search" type="text" placeholder="Search" onChange={event => setSearchTerm((event.target.value))}></FaqSearch></FaqSearchWrapper>
                 <FaqSwiper
                 scrollbar={{ draggable: true, hide: true }}
                 spaceBetween={10}
@@ -91,15 +129,13 @@ function Resources() {
                 mousewheel
                 >
                     {
-                        data.faq.filter((val) => {
-                            if(searchTerm === "") return val;
-                            else if(val.question.toLowerCase().includes(searchTerm) || val.tags.includes(searchTerm)) return val;
-                        }).map( (question, index) => 
+                        // Since fuse returns a slightly different object, we need to use a ternary to adjust based on if the original is returned or the filtered is returned
+                        searchQuery(searchTerm).map( (question, index) => 
                         <SwiperSlide key={index}>
                             <Card>
-                                <FaqQuestion>{question.question}</FaqQuestion>
+                                <FaqQuestion>{question.question ? question.question : question.item.question}</FaqQuestion>
                                 <Card.Body>
-                                    {question.answer.map(answer => <Card.Text>{answer}</Card.Text>)}
+                                    {question.answer ? question.answer.map(answer => <Card.Text>{answer}</Card.Text>) : question.item.answer.map(answer => <Card.Text>{answer}</Card.Text>)}
                                 </Card.Body>
                             </Card>
                         </SwiperSlide>
