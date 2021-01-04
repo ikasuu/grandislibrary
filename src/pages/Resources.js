@@ -69,7 +69,7 @@ const TableContainer = styled.div`
 `;
 
 // Create search query object that searches our data by looking at the question and tags
-const fuse = new Fuse(data.faq, { key: ["question", "tags"]});
+const fuse = new Fuse(data.faq, {keys: ["question", "tags"]});
 
 // Custom filtering function, return original if search query returns nothing (len = 0)
 const searchQuery = (term) => {
