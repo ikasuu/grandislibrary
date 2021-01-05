@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row, Button, Image } from 'react-bootstrap';
+import { Col, Container, Row, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 
 import { version, versionName } from '../special/Values';

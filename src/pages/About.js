@@ -17,8 +17,8 @@ import '../css/hover.css';
 const AboutTitle = styled(Title)`
     text-align: left;
 
-    // 200+px
-    @media(min-width: 200px){
+    // 0 - 1199 px
+    @media(max-width: 1199px){
         margin-left: 1rem;
     }
 `;

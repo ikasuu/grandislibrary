@@ -78,37 +78,37 @@ export class SkillContainer extends Component {
         const { loading, retrievedData } = this.state
         return (
             <div>
-            {
-                loading ? <div style={{margin: '2rem 0% 2rem 45%'}}><Image src={loadingImage}/><div style={{paddingLeft: '0.5rem'}}>Loading!</div></div> : 
-                <div>
                 {
-                    retrievedData.map((skill, index) => 
-                        skill.offline ?
-                            <div key={index}>
-                                <SkillInfo 
-                                    skillData={skill}
-                                    name={skill.name}
-                                    properties={{}}
-                                    shortDesc={skill.shortDesc}
-                                    maxLevel={skill.maxLevel}/>
-                            </div>
-                        :
-                        //Offline skills require fetching all their info from json file instead
-                            <div key={index}>
-                                <SkillInfo 
-                                    skillData={this.state.skillData[index]}
-                                    name={skill.description.name}
-                                    desc={skill.description.desc}
-                                    shortDesc={skill.description.shortDesc}
-                                    properties={skill.properties}
-                                    levelProperties={skill.levelProperties}
-                                    maxLevel={skill.properties.maxLevel}/>
-                            </div>
-                    )
+                    loading ? <div style={{margin: '2rem 0% 2rem 45%'}}><Image src={loadingImage}/><div style={{paddingLeft: '0.5rem'}}>Loading!</div></div> : 
+                    <div>
+                        {
+                            retrievedData.map((skill, index) => 
+                                skill.offline ?
+                                    <div key={index}>
+                                        <SkillInfo 
+                                            skillData={skill}
+                                            name={skill.name}
+                                            properties={{}}
+                                            shortDesc={skill.shortDesc}
+                                            maxLevel={skill.maxLevel}/>
+                                    </div>
+                                :
+                                //Offline skills require fetching all their info from json file instead
+                                    <div key={index}>
+                                        <SkillInfo 
+                                            skillData={this.state.skillData[index]}
+                                            name={skill.description.name}
+                                            desc={skill.description.desc}
+                                            shortDesc={skill.description.shortDesc}
+                                            properties={skill.properties}
+                                            levelProperties={skill.levelProperties}
+                                            maxLevel={skill.properties.maxLevel}/>
+                                    </div>
+                            )
+                        }
+                        <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+                    </div>
                 }
-                </div>
-            }
-            <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
             </div>
         );
     }

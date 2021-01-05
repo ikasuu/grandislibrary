@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import HeaderImageUrl from '../../special/Values';
 import HeaderImage from '../../components/HeaderImage'
@@ -7,8 +8,6 @@ import { ContentTitle } from '../../components/Page';
 //Content
 import BurningWorld from './burning-world';
 import WhoToTeraBurn from './who-to-tera-burn';
-
-import '../../css/repository-page.css';
 import TeraBurning from './tera-burning';
 import MegaBurning from './mega-burning';
 import MapleRelay from './maple-relay';
@@ -16,6 +15,8 @@ import MaplehoodWatch from './maplehood-watch';
 import SynergyRing from './synergy-ring';
 import ChaosRing from './chaos-ring';
 import UpdateTimelineOverview from './update-timeline-overview';
+
+import '../../css/repository-page.css';
 
 /*
     Special component used to handle render requests for each unique Event page
@@ -64,6 +65,10 @@ export class EventRepository extends Component {
             case "burning-world":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Burning World | Grandis Library</title>
+                            <meta name={"Burning World is a temporary world that has special benefits for all characters in this world"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Burning World</ContentTitle>
                         <BurningWorld/>
                     </div>
@@ -72,6 +77,10 @@ export class EventRepository extends Component {
             case "who-to-tera-burn":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Who to Tera Burn | Grandis Library</title>
+                            <meta name={"A guide to help you choose a character to Tera Burn based on good Link Skills and Legion bonuses"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Who To Tera Burn</ContentTitle>
                         <WhoToTeraBurn/>
                     </div>
@@ -80,6 +89,10 @@ export class EventRepository extends Component {
             case "tera-burning":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Tera Burning | Grandis Library</title>
+                            <meta name={"An event where NEWLY created characters after level 10 gain 2 extra levels for every level up until level 200"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Tera Burning</ContentTitle>
                         <TeraBurning/>
                     </div>
@@ -88,6 +101,10 @@ export class EventRepository extends Component {
             case "mega-burning":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Mega Burning | Grandis Library</title>
+                            <meta name={"An event where created characters after level 10 gain 2 extra levels for every level up until level 150"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Mega Burning</ContentTitle>
                         <MegaBurning/>
                     </div>
@@ -96,6 +113,10 @@ export class EventRepository extends Component {
             case "maple-relay":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Maple Relay | Grandis Library</title>
+                            <meta name={"Maple Relay is an event where you receive rewards for simply staying online. Obtain gifts daily and at each milestone"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Maple Relay</ContentTitle>
                         <MapleRelay/>
                     </div>
@@ -104,6 +125,10 @@ export class EventRepository extends Component {
             case "maplehood-watch":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Maplehood Watch | Grandis Library</title>
+                            <meta name={"An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Maplehood Watch</ContentTitle>
                         <MaplehoodWatch/>
                     </div>
@@ -112,6 +137,10 @@ export class EventRepository extends Component {
             case "synergy-ring":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Synergy Ring | Grandis Library</title>
+                            <meta name={"An event ring that gains increased stats depending on how many characters you have the ring equipped on the same world"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Synergy Ring</ContentTitle>
                         <SynergyRing/>
                     </div>
@@ -120,6 +149,10 @@ export class EventRepository extends Component {
             case "chaos-ring":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Chaos Ring | Grandis Library</title>
+                            <meta name={"An event ring that has allows you to reroll the ring’s stats and potential for free a fixed number of times each week"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Chaos Ring</ContentTitle>
                         <ChaosRing/>
                     </div>
@@ -128,6 +161,10 @@ export class EventRepository extends Component {
             case "update-timeline-overview":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Update Timeline Overview | Grandis Library</title>
+                            <meta name={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Update Timeline Overview</ContentTitle>
                         <UpdateTimelineOverview/>
                     </div>

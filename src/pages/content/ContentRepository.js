@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import HeaderImageUrl from '../../special/Values';
 import HeaderImage from '../../components/HeaderImage'
@@ -64,6 +65,10 @@ export class ContentRepository extends Component {
             case "shared-cash-shop-inventories":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Shared Cash Shop Inventories | Grandis Library</title>
+                            <meta name={"A list of all classes that share Cash Shop inventories"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Shared Cash Shop Inventory</ContentTitle>
                         <SharedCashShopInventory/>
                     </div>
@@ -72,6 +77,10 @@ export class ContentRepository extends Component {
             case "stat-terms":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Stat Terms | Grandis Library</title>
+                            <meta name={"An explanation of each stat in the Character Stat UI and other special stats"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Stat Terms</ContentTitle>
                         <StatTerms/>
                     </div>
@@ -80,6 +89,10 @@ export class ContentRepository extends Component {
             case "attack-speed":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Attack Speed | Grandis Library</title>
+                            <meta name={"An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Attack Speed</ContentTitle>
                         <AttackSpeed/>
                     </div>
@@ -88,6 +101,10 @@ export class ContentRepository extends Component {
             case "progression-guide":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Progression Guide | Grandis Library</title>
+                            <meta name={"A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Progression Guide</ContentTitle>
                         <ProgressionGuide/>
                     </div>
@@ -96,6 +113,10 @@ export class ContentRepository extends Component {
             case "link-skills":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Link Skill | Grandis Library</title>
+                            <meta name={"An explanation of Link Skills and a list of all Link Skills and their Master Levels and effects"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Link Skills</ContentTitle>
                         <LinkSkills/>
                     </div>
@@ -104,6 +125,10 @@ export class ContentRepository extends Component {
             case "boss-matchmaking-pre-quests":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Boss Pre-Quests | Grandis Library</title>
+                            <meta name={"An explanation on how to unlock access to each of the bosses in the Boss Matchmaking System"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Boss Pre-Quests</ContentTitle>
                         <BossMatchmaking/>
                     </div>
@@ -112,6 +137,10 @@ export class ContentRepository extends Component {
             case "upgrading-enhancing-equipment":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Upgrading & Enhancing Equipment | Grandis Library</title>
+                            <meta name={"An explanation on the different possible ways to upgrade and enhance your gear"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Upgrading & Enhancing Equipment</ContentTitle>
                         <UpgradeEquipment/>
                     </div>
@@ -120,6 +149,10 @@ export class ContentRepository extends Component {
             case "level-content-guide":
                 return(
                     <div>
+                        <Helmet>
+                            <title>Level Content Guide | Grandis Library</title>
+                            <meta name={"An explanation on the different possible ways to upgrade and enhance your gear"} content="description"/>
+                        </Helmet>
                         <ContentTitle>Level Content Guide</ContentTitle>
                         <ContentGuide/>
                     </div>
