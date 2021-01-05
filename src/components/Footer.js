@@ -20,6 +20,10 @@ const FooterText = styled.h6`
 const FooterLink = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
+
+    &:hover{
+        text-decoration: underline;
+    }
 `;
 
 const FooterDisclaimer = styled.p`

@@ -31,6 +31,10 @@ const scrollWidthOffset = (el) => {
 const MenuLink = styled(Link)`
     color: black !important;
     width: 100%;
+
+    &:focus{
+        outline: none;
+    }
 `;
 
 // Function to trigger fab to appear when scrolling

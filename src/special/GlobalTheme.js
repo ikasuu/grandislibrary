@@ -82,9 +82,9 @@ export const GlobalStyle = createGlobalStyle`
   //Footer discord button
   .discord-mini-button{
     background: url("${process.env.PUBLIC_URL}/icons/discord-mini-logo-${getMenuColor}.svg");
-    background-size: 2rem 2rem;
-    width: 2rem;
-    height: 2rem;
+    background-size: 2.4rem 2.4rem;
+    width: 2.4rem;
+    height: 2.4rem;
     display:block;
   }
 
@@ -169,7 +169,6 @@ export const GlobalStyle = createGlobalStyle`
 //Bootstrap components
   .card{
     background-color: ${props => props.theme.mode === 'dark' ? '#37363a' : '#FFF'};
-    margin: 1rem;
   }
 
   //Cards related

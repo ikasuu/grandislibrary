@@ -14,6 +14,7 @@ import LinkSkills from './link-skills';
 import BossMatchmaking from './boss-matchmaking-pre-quests';
 import UpgradeEquipment from './upgrading-enhancing-equipment';
 import ContentGuide from './level-content-guide';
+import KeyboardShortcuts from './keyboard-shortcuts';
 
 import '../../css/repository-page.css';
 
@@ -155,6 +156,18 @@ export class ContentRepository extends Component {
                         </Helmet>
                         <ContentTitle>Level Content Guide</ContentTitle>
                         <ContentGuide/>
+                    </div>
+                );
+
+            case "keyboard-shortcuts":
+                return(
+                    <div>
+                        <Helmet>
+                            <title>Keyboard Shortcuts | Grandis Library</title>
+                            <meta name={"An explanation on the all the different UIs accessible from the Keyboard Shortcuts"} content="description"/>
+                        </Helmet>
+                        <ContentTitle>Keyboard Shortcuts</ContentTitle>
+                        <KeyboardShortcuts/>
                     </div>
                 );
 

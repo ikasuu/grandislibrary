@@ -2,7 +2,7 @@ import React from 'react'
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
 import styled from 'styled-components';
-import { Col, Container, Image, Table, Row, Card} from 'react-bootstrap';
+import { Col, Container, Image, Table, Row, Card } from 'react-bootstrap';
 
 import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
 import { LinkSkill, NotableSkill } from './SingleSkill';
@@ -228,6 +228,7 @@ const StatTableData = styled.td`
 function ClassDetail({content}) {
     return (
         <Container>
+          {content.specialThanks && <em>{content.specialThanks}</em>}
           <Row>
             <BaseStatsWrapper md="auto">
               <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>

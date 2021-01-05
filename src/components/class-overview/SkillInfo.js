@@ -13,6 +13,7 @@ import styled from 'styled-components';
 // Main container/card
 const SkillCard = styled(Card)`
     max-width: 40rem;
+    margin: 1.5rem;
 `;
 
 // Skill Icon

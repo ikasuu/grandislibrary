@@ -56,7 +56,7 @@ function MainNavbar(props) {
           <Navbar.Collapse id="responsive-navbar-nav">
             <div className="mr-auto"/>
             <Nav>
-              <NavButton variant="link" className="hvr-buzz-out"><a href="https://www.grandislibrary.com/" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></NavButton>
+              <NavButton variant="link" className="hvr-buzz-out"><a href="https://discord.gg/d4et8vt9kP" target='_blank' rel="noopener noreferrer"><span className="discord-button"/></a></NavButton>
               <DropdownNav setExpanded={setExpanded}/>
               <NavLink className="nav-link-button nav-props" activeClassName="underline" to="/about" onClick={() => setExpanded(false)}>About</NavLink>
               <NavLink className="nav-link-button nav-props" activeClassName="underline" isActive={checkActive} to="/" onClick={() => setExpanded(false)}>Home</NavLink>
