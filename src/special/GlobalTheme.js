@@ -53,6 +53,11 @@ export const GlobalStyle = createGlobalStyle`
   .site-title{
     color: ${getForeground} !important;
   }
+
+  .footer-link{
+    color: ${getForeground} !important;
+    font-size: 1rem;
+  }
   
   //Toggle button for dark mode
   .toggle-mode{
@@ -69,8 +74,36 @@ export const GlobalStyle = createGlobalStyle`
     margin-top: -0.2rem;
     margin-left: -0.2rem;
     background-size: 6rem 2rem;
-    height: 1.7rem;
     width: 5.7rem;
+    height: 1.7rem;
+    display:block;
+  }
+
+  //Footer discord button
+  .discord-mini-button{
+    background: url("${process.env.PUBLIC_URL}/icons/discord-mini-logo-${getMenuColor}.svg");
+    background-size: 2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    display:block;
+  }
+
+  //Footer twitter button
+  .twitter-button{
+    background: url("${process.env.PUBLIC_URL}/icons/twitter-rounded-square-${getMenuColor}.png");
+    background-size: 1.7rem 1.7rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    display:block;
+  }
+
+  //Footer youtube button
+  .youtube-button{
+    background: url("${process.env.PUBLIC_URL}/icons/yt_logo_mono_${getMenuColor}.png");
+    background-size: 2rem 1.7rem;
+    width: 2rem;
+    height: 1.7rem;
+    margin-left: 0.25rem;
     display:block;
   }
 

@@ -21,13 +21,13 @@ function Home(){
       <GridContainer/>
       <Container>
         <FeaturedSwiper content={data.featured}/>
-        <h2>Recent News in Global MapleStory</h2>
+        <h3>Recent News in Global MapleStory</h3>
         <ContentSwiper content={data.recent} launch={true}/>
-        <h2>Upcoming Updates</h2>
+        <h3>Upcoming Updates</h3>
         <ContentSwiper content={data.upcoming} launch={true}/>
-        <h2>Popular Content</h2>
+        <h3>Popular Content</h3>
         <ContentSwiper content={data.popularContent} launch={false}/>
-        <h2>Last Month's Most Viewed Classes</h2>
+        <h3>Last Month's Most Viewed Classes</h3>
         <TopClassSwipe classes={data.popularClasses}/>
       </Container>
     </div>

@@ -127,6 +127,14 @@ const ContentCardText = styled(Card.Text)`
     }
 `;
 
+export const KofiButton = styled.span`
+    background: url("https://i.imgur.com/2JUenYl.png");
+    background-size: 10rem 2.5rem;
+    width: 10rem;
+    height: 2.5rem;
+    display:block;
+`;
+
 export function TabLink({url}) {
     return (
         <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>

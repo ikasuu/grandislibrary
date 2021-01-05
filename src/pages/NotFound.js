@@ -13,7 +13,7 @@ function NotFound() {
     return (
         <div>
             <HeaderImage imageUrl={`${HeaderImageUrl.library}.jpg`}/>
-            <Container>
+            <Container style={{marginBottom: '20rem'}}>
                 <h3>Looks like there was an error in the URL you entered,
                 the page you are looking for may be moved or deleted.</h3>
             </Container>

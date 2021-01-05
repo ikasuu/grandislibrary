@@ -72,10 +72,6 @@ const BeraIcon = styled.img`
     max-width: 2rem;
 `;
 
-const KofiButton = styled.img`
-    max-width: 10rem;
-`;
-
 function About(){
 
     return (
@@ -100,8 +96,6 @@ function About(){
                     <RightWrapper md="auto">
                         <CharacterImage src="https://i.imgur.com/rzgSbGD.png" alt="Ikasuu"/>
                         <p>IGN - Ikasuu <BeraIcon src="https://i.imgur.com/aE9e6Mh.png" alt="Bera Icon"/></p>
-                        <p>Psst, if you'd like to support me, check out my Ko-fi! ;))</p>
-                        <a href="https://ko-fi.com/B0B22RS80" target="_blank" rel="noreferrer noopener"><KofiButton className="hvr-buzz-out" src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2" alt="Ko-fi"/></a>
                     </RightWrapper>
                 </Row>
             </Container>
