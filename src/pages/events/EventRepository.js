@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import HeaderImageUrl from '../../special/Values';
 import HeaderImage from '../../components/HeaderImage'
 import { ContentTitle } from '../../components/Page';
+import ScrollToTop from '../../components/repository/ScrollToTop';
 
 //Content
 import BurningWorld from './burning-world';
@@ -39,6 +40,7 @@ export class EventRepository extends Component {
                 <div className="content-container">
                     {this.renderSwitch(this.state.id)}
                 </div>
+                <ScrollToTop/>
             </div>
         )
     }

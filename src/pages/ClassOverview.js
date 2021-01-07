@@ -7,7 +7,7 @@ import ClassOutro from '../components/class-overview/ClassOutro';
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
 import SkillTab from '../components/class-overview/SkillTab';
-import ScrollToTop from '../components/class-overview/ScrollToTop';
+import QuickJump from '../components/class-overview/QuickJump';
 
 /*
     Repsonsible for rendering whole Class Overview page
@@ -79,7 +79,7 @@ export class ClassOverview extends Component {
                       </Container>
                     </div>
                 }
-                <ScrollToTop/>
+                <QuickJump/>
             </div>
         );
     }

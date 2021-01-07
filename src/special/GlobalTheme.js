@@ -107,6 +107,15 @@ export const GlobalStyle = createGlobalStyle`
     display:block;
   }
 
+  //Anchor jump button, found in content and event pages
+  .scroll-top-button{
+    background: url("${process.env.PUBLIC_URL}/icons/vertical_align_top-${getMenuSubColor}-18dp.svg");
+    background-size: 2rem 2rem;
+    height: 2rem;
+    width: 2rem;
+    display: block;
+  }
+
   //Anchor jump button, found in class overviews
   .jump-button{
     background: url("${process.env.PUBLIC_URL}/icons/expand_less-${getMenuSubColor}-18dp.svg");

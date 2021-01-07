@@ -14,7 +14,7 @@ import styled from 'styled-components';
     Created by: Ikasuu, Spring 2021
 */
 
-function ScrollToTop() {
+function QuickJump() {
     return (
         <MenuBar/>
     )
@@ -98,4 +98,4 @@ function MenuBar(){
     );
 }
 
-export default ScrollToTop;
+export default QuickJump;

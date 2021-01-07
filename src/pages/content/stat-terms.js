@@ -118,7 +118,7 @@ function StatTerms() {
          <p><strong>Note: </strong>You can only see the Star Force stat Lv. 100 and above</p>
          <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
          <h2 id="arcane">Arcane Power (AF)</h2>
-         <p>https://strategywiki.org/wiki/MapleStory/Formulas#Arcane_Force_Maps</p>
+         <p><a href="https://strategywiki.org/wiki/MapleStory/Formulas#Arcane_Force_Maps" target="_blank" rel="noreferrer noopener">https://strategywiki.org/wiki/MapleStory/Formulas#Arcane_Force_Maps</a></p>
          <p><img src="https://maplestory.io/api/GMS/210.1.1/item/1712001/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/1712002/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/1712003/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/1712004/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/1712005/icon" alt=""/><img src="https://maplestory.io/api/GMS/210.1.1/item/1712006/icon" alt=""/></p>
          <p>An accumulated stat from Arcane Symbols that you obtain from Arcane River areas. Like Star Force, Arcane Power is used primarily in the Arcane River areas to deal damage to enemies in the area</p>
          <p>Arcane Power maps have a minimum required amount of Arcane Power to deal 100% Damage to enemies in the map. Higher amounts of Arcane Power allows you to deal increased damage up to 50% more</p>

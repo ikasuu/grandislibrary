@@ -2343,8 +2343,7 @@ function Rise() {
                     <a href="https://maplestory.fandom.com/wiki/Category:Yum_Yum_Island" target="_blank" rel="noreferrer noopener">Yum Yum Island</a>
                 </li>
                 <li>
-                    Beast Tamer Revamp, new Lv. 190 Hyper Skill
-                    <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_All_Together%21_Critter_Crossing%21.png/revision/latest?cb=20200613000257" alt="Skill All Together! Critter Crossing!" width="32" height="32" /> <a href="https://maplestory.fandom.com/wiki/All_Together!_Critter_Crossing!" target="_blank" rel="noreferrer noopener">All Together! Critter Crossing!</a>
+                    Beast Tamer Revamp, new Lv. 190 Hyper Skill <img src="https://vignette.wikia.nocookie.net/maplestory/images/8/8f/Skill_All_Together%21_Critter_Crossing%21.png/revision/latest?cb=20200613000257" alt="Skill All Together! Critter Crossing!" width="32" height="32" /> <a href="https://maplestory.fandom.com/wiki/All_Together!_Critter_Crossing!" target="_blank" rel="noreferrer noopener">All Together! Critter Crossing!</a>
                 </li>
                 <li><strong>Kanna Skill Revamp, Kishin Shoukan effectiveness reduced</strong></li>
                 <li>
