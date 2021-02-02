@@ -9,7 +9,7 @@ function Video({src, title}) {
             <iframe className="repository-video" src={src} title={title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
     </div>
-    )
+    );
 }
 
-export default Video
+export default Video;

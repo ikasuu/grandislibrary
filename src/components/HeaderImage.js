@@ -39,4 +39,4 @@ function HeaderImage(props) {
     );
 }
 
-export default HeaderImage
+export default HeaderImage;

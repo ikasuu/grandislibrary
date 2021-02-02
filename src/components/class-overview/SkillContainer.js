@@ -144,4 +144,4 @@ export function VSkillContainer({skillData}) {
     );
 }
 
-export default SkillContainer
+export default SkillContainer;

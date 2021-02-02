@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 
 import ClassSwipe from '../ClassSwipe';
@@ -18,7 +18,7 @@ export function ClassOutro({classGroup, classTitle, moreInfo, credits}) {
             <ClassSuggestions classGroup={classGroup}/>
             <ClassCredit credits={credits}/>
         </div>
-    )
+    );
 }
 
 /*
@@ -36,7 +36,7 @@ function ClassMoreInfo({classTitle, moreInfo}) {
             <h5>For more information about {classTitle} check out:</h5>
             {moreInfo.map(link => <MoreInfoLink key={link}><a href={link} target='_blank' rel="noopener noreferrer">{link}</a></MoreInfoLink>)}
         </div>
-    )
+    );
 }
 
 /*
@@ -49,7 +49,7 @@ function ClassSuggestions({classGroup}) {
         <div>
             <ClassSwipe classGroup={classGroup}/>
         </div>
-    )
+    );
 }
 
 /*
@@ -71,4 +71,4 @@ function ClassCredit({credits}) {
 }
 
 
-export default ClassOutro
+export default ClassOutro;

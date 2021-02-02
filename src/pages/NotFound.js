@@ -18,7 +18,7 @@ function NotFound() {
                 the page you are looking for may be moved or deleted.</h3>
             </Container>
         </div>
-    )
+    );
 }
 
-export default NotFound
+export default NotFound;

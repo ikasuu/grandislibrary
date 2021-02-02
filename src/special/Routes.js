@@ -26,7 +26,14 @@ function Routes() {
             <Route path="/about" component={About}/>
             <Route path="/content/:id" component={ContentRepository}/>
             <Route path="/content" component={Content}/>
-            <Route path="/classes/:id" component={ClassOverview}/>
+            <Route path="/classes/explorers/:id" render={(props) => <ClassOverview {...props} classGroup="explorers"/> }/>
+            <Route path="/classes/cygnus-knights/:id" render={(props) => <ClassOverview {...props} classGroup="cygnus-knights"/> }/>
+            <Route path="/classes/heroes/:id" render={(props) => <ClassOverview {...props} classGroup="heroes"/> }/>
+            <Route path="/classes/resistance/:id" render={(props) => <ClassOverview {...props} classGroup="resistance"/> }/>
+            <Route path="/classes/nova/:id" render={(props) => <ClassOverview {...props} classGroup="nova"/> }/>
+            <Route path="/classes/sengoku/:id" render={(props) => <ClassOverview {...props} classGroup="sengoku"/> }/>
+            <Route path="/classes/flora/:id" render={(props) => <ClassOverview {...props} classGroup="flora"/> }/>
+            <Route path="/classes/other/:id" render={(props) => <ClassOverview {...props} classGroup="other"/> }/>
             <Route path="/classes" component={Classes}/>
             <Route path="/events/:id" component={EventRepository}/>
             <Route path="/events" component={Events}/>

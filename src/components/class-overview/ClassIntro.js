@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
 import styled from 'styled-components';
@@ -87,7 +87,7 @@ export function ClassIntro({data}) {
             <div id="stat"/>
             <ClassDetail content={data.content} skill={data.skill}/>
         </div>
-    )
+    );
 }
 
 /*
@@ -345,7 +345,7 @@ export function ClassExtraContent({title, content}){
                 <Card.Body>{parse(DOMPurify.sanitize(content, { ADD_ATTR: ['target'] }))}</Card.Body>
             </ExtraContentCard>
         </Container>
-    )
+    );
 }
 
-export default ClassIntro
+export default ClassIntro;

@@ -68,4 +68,4 @@ const scrollWidthOffset = (el) => {
   window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
-export default SkillTab
+export default SkillTab;

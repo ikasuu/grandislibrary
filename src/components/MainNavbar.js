@@ -74,4 +74,4 @@ function MainNavbar(props) {
   );
 }
 
-export default MainNavbar
+export default MainNavbar;

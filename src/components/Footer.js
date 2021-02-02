@@ -61,7 +61,7 @@ function Footer() {
                         <FooterLink><a href="#/about" className="footer-link">About Us</a></FooterLink>
                         <FooterLink><a href="https://github.com/ikasuu/GrandisLibrary" target="_blank" rel="noreferrer noopener" className="footer-link">GitHub</a></FooterLink>
                         <FooterLink><a href="https://maplestory.io/" target="_blank" rel="noreferrer noopener" className="footer-link">API Source</a></FooterLink>
-                        <div><FooterButton variant="link"><a href="https://ko-fi.com/B0B22RS80" target="_blank" rel="noreferrer noopener"><KofiButton/></a></FooterButton></div>
+                        <div><FooterButton variant="link"><a href="https://ko-fi.com/ikasuu" target="_blank" rel="noreferrer noopener"><KofiButton/></a></FooterButton></div>
                     </FooterCol>
                     <FooterCol md>
                         <h5><strong>QUICK LINKS</strong></h5>
@@ -81,4 +81,4 @@ function Footer() {
     );
 }
 
-export default Footer
+export default Footer;

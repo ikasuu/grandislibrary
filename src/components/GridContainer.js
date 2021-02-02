@@ -21,4 +21,4 @@ function GridContainer() {
     );
 }
 
-export default GridContainer
+export default GridContainer;

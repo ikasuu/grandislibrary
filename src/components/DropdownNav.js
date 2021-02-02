@@ -24,4 +24,4 @@ function DropdownNav(props) {
     );
 }
 
-export default DropdownNav
+export default DropdownNav;

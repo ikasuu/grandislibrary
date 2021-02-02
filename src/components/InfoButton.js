@@ -18,4 +18,4 @@ function InfoButton({tooltip}) {
     );
 }
 
-export default InfoButton
+export default InfoButton;

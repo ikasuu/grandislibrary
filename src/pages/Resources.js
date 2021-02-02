@@ -144,7 +144,7 @@ function Resources() {
                 </FaqSwiper>
             </Container>
         </div>
-    )
+    );
 }
 
-export default Resources
+export default Resources;

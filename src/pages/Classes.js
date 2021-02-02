@@ -23,25 +23,25 @@ function Classes() {
             <div>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>
-                <ClassGroupContainer classGroup={classes.explorers}/>
+                <ClassGroupContainer classes={classes.explorers} classGroup="explorers"/>
                 <Page.Subtitle>Cygnus Knights</Page.Subtitle>
-                <ClassGroupContainer classGroup={classes.cygnusKnights}/>
+                <ClassGroupContainer classes={classes.cygnusKnights} classGroup="cygnus-knights"/>
                 <Page.Subtitle>Heroes</Page.Subtitle>
-                <ClassGroupContainer classGroup={classes.heroes}/>
+                <ClassGroupContainer classes={classes.heroes} classGroup="heroes"/>
                 <Page.Subtitle>Resistance</Page.Subtitle>
-                <ClassGroupContainer classGroup={classes.resistance}/>
+                <ClassGroupContainer classes={classes.resistance} classGroup="resistance"/>
                 <Page.Subtitle>Nova</Page.Subtitle>
-                <ClassGroupContainer classGroup={classes.nova}/>
+                <ClassGroupContainer classes={classes.nova} classGroup="nova"/>
                 <Page.Subtitle>Sengoku</Page.Subtitle>
-                <ClassGroupContainer classGroup={classes.sengoku}/>
+                <ClassGroupContainer classes={classes.sengoku} classGroup="sengoku"/>
                 <Page.Subtitle>Flora</Page.Subtitle>
-                <ClassGroupContainer classGroup={classes.flora}/>
+                <ClassGroupContainer classes={classes.flora} classGroup="flora"/>
                 <Page.Subtitle>Other</Page.Subtitle>
                 <Page.Caption>Classes here only share Cash Shop Inventories with their own class - they do not share with each other</Page.Caption>
-                <ClassGroupContainer classGroup={classes.other}/>
+                <ClassGroupContainer classes={classes.other} classGroup="other"/>
             </div>
         </div>
-    )
+    );
 }
 
-export default Classes
+export default Classes;

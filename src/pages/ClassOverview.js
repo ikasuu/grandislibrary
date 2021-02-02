@@ -28,7 +28,7 @@ export class ClassOverview extends Component {
     
     //Fetch the class with the corresponding url id
     componentDidMount(){
-        fetch(`./data/${this.props.match.params.id}.json`)
+        fetch(`./data/${this.props.classGroup}/${this.props.match.params.id}.json`)
         .then(res => res.json())
         .then(fetchedData => this.setState({data: fetchedData, loading: false, fail: false}))
         .catch(err => this.setState({fail: true}));
@@ -43,12 +43,12 @@ export class ClassOverview extends Component {
             .then(res => res.json())
             .then(fetchedData => this.setState({data: fetchedData, loading: false, fail: false}))
             .catch(err => this.setState({fail: true}));
-        }
+        };
         if (window.location.hash) {
             const id = window.location.hash.replace("#", "").split("#");
             const element = document.getElementById(id[1]);
             if(element){element.scrollIntoView();}
-        }
+        };
     }
 
     render() {
@@ -85,4 +85,4 @@ export class ClassOverview extends Component {
     }
 }
 
-export default ClassOverview
+export default ClassOverview;

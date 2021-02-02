@@ -12,7 +12,7 @@ import Fab from '@material-ui/core/Fab';
 function ScrollToTop() {
     return (
         <Link smooth to="#" scroll={el => scrollWidthOffset(el)}><ScrollFab/></Link>
-    )
+    );
 }
 
 //Used to scroll to anchor tags

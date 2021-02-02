@@ -26,7 +26,7 @@ function Events() {
             <Page.Subtitle>Update Related</Page.Subtitle>
             <Page.CardContainer content={events.update} type="events"/>
         </div>
-    )
+    );
 }
 
-export default Events
+export default Events;

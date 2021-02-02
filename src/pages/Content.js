@@ -26,7 +26,7 @@ function Content() {
             <Page.Subtitle>Equipment Related</Page.Subtitle>
             <Page.CardContainer content={content.equipment} type="content"/>
         </div>
-    )
+    );
 }
 
-export default Content
+export default Content;

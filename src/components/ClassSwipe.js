@@ -57,11 +57,11 @@ const ClassFigure = styled(Figure.Image)`
     }
 `;
 
-export function ClassGroupContainer({classGroup}){
+export function ClassGroupContainer({classes, classGroup}){
     return(
         <ClassContainer>
-            {classGroup.map(job => 
-                <Link to={`/classes/${job[0]}`} key={job} className="hvr-float">
+            {classes.map(job => 
+                <Link to={`/classes/${classGroup}/${job[0]}`} key={job} className="hvr-float">
                     <Figure>
                         <ClassFigure
                             width={120}
@@ -171,7 +171,7 @@ function ClassSwipe({classGroup}) {
                 {renderSwitch(name)}
             </Swiper>
         </div>
-    )
+    );
 }
 
 //Renders the proper class groups based on current class group
@@ -287,4 +287,4 @@ function renderSwitch(param){
     }
 }
 
-export default ClassSwipe
+export default ClassSwipe;

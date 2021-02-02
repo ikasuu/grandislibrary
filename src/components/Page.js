@@ -156,7 +156,7 @@ export const KofiButton = styled.span`
 export function TabLink({url}) {
     return (
         <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>
-    )
+    );
 }
 
-export default CardContainer
+export default CardContainer;
