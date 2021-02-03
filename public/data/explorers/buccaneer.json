@@ -98,6 +98,7 @@
             "https://maplestory.fandom.com/wiki/Pirate",
             "https://dexless.com/guides/buccaneer-overview.38/"
         ],
+        "specialThanks": "Special thanks to Subluxe for their help in making this overview!",
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
@@ -378,7 +379,7 @@
                         "desc": "Launches a massive attack that hits a large area while also granting you a buff",
                         "details": [
                             "Unaffected by Damage Reflect",
-                            "<strong>[Final Attack Buff]: </strong>Using <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Sommersault_Kick.png/revision/latest?cb=20110506064900' alt='Skill Sommersault Kick' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Corkscrew_Blow.png/revision/latest?cb=20110507035323' alt='Skill Corkscrew Blow' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Spiral_Assault.png/revision/latest?cb=20111221143416' alt='Skill Spiral Assault' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Octopunch.png/revision/latest?cb=20111227202037' alt='Skill Octopunch' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Serpent_Vortex.png/revision/latest?cb=20181115065338' alt='Skill Serpent Vortex' width='32' height='32'> Serpent Vortex has a chance to deal an additional attack"
+                            "<strong>[Final Attack Buff]: </strong>Using <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Sommersault_Kick.png/revision/latest?cb=20110506064900' alt='Skill Sommersault Kick' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d0/Skill_Corkscrew_Blow.png/revision/latest?cb=20110507035323' alt='Skill Corkscrew Blow' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Spiral_Assault.png/revision/latest?cb=20111221143416' alt='Skill Spiral Assault' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6d/Skill_Octopunch.png/revision/latest?cb=20111227202037' alt='Skill Octopunch' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/08/Skill_Serpent_Vortex.png/revision/latest?cb=20181115065338' alt='Skill Serpent Vortex' width='32' height='32'> Serpent Vortex, <img src='https://orangemushroom.files.wordpress.com/2020/06/howling-fist.png?w=600' alt='Skill Howling Fist'/> Howling Fist has a chance to deal an additional attack"
                         ]
                     },
                     {
@@ -403,16 +404,21 @@
                         "id": 5121015,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b9/Skill_Crossbones.png/revision/latest?cb=20111221151810"],
                         "animations": ["https://media3.giphy.com/media/x1S2Bj2CALCpCqFUwz/giphy.gif"],
-                        "type": "Buff"
+                        "type": "Buff",
+                        "desc": "",
+                        "details": [
+                            "<strong>[Note]</strong>: There is a mistranslation in the tooltip, the buff provides %Attack boost instead of %Damage"
+                        ]
                     },
                     {
                         "id": 5121010,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/61/Skill_Time_Leap.png/revision/latest?cb=20110508020047"],
                         "animations": ["https://media3.giphy.com/media/O6RWeNjF1PQ7SAR77D/giphy.gif"],
                         "type": "Party Active",
-                        "desc": "Resets the cooldown of all skills applicable",
+                        "desc": "Resets the cooldown of all skills below 5th Job (including Beginner skills) unless stated otherwise",
                         "details": [
                             "Unaffected by cooldown resets",
+                            "Excludes Hyper Skills and skills provided from items like Firestarter Ring, Breath of Divinity, or Lucid Earrings",
                             "Party members who received Time Leap's effects previously have a cooldown (180 secs) before the effects can be applied again"
                         ]
                     },
@@ -572,14 +578,15 @@
             "fifthMain": [
                 {
                     "name": "Meltdown",
-                    "shortDesc": "MP Cost: 1000\\nDuration: 75 sec, Final Damage (when fully charged): +25%.\\nCan use up to 3 energy orbs, energy orb will periodically deal 900% damage 3 times on up to 10 enemies with +50% Critical Rate and +50% Monster Def Ignored\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1000\\nDuration: 75 sec, Final Damage (when fully charged): +25%.\\nCan use up to 3 energy orbs, energy orb will periodically deal 900% damage 3 times on up to 10 enemies with +50% Critical Rate and +50% Monster DEF Ignored\\nCooldown: 180 sec",
                     "id": 400051002,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Meltdown.png/revision/latest?cb=20161125062711"],
                     "animations": ["https://media3.giphy.com/media/QVPZwCuv05Jc6dtDkW/giphy.gif"],
                     "type": "Transform + Attack",
                     "desc": "Transforms into a special form where you gain increased %Final Damage",
                     "details": [
-                        "While transformed, you can use Meltdown again to release a giant energy ball (up to 2 times)<ul><li>Energy ball has increased %Crit Rate and %Ignore DEF</li><li>Energy ball is unaffected by Damage Reflect</li><li>You are invincible while throwing energy ball</li></ul>"
+                        "While transformed, you can use Meltdown again to release a giant energy ball (up to 2 times)<ul><li>Energy ball has increased %Crit Rate and %Ignore DEF</li><li>Energy ball is unaffected by Damage Reflect</li><li>You are invincible while throwing energy ball</li></ul>",
+                        "While transformed, you can double-tap an arrow key to teleport in that direction"
                     ]
                 },
                 {

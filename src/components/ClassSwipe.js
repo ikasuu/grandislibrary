@@ -112,7 +112,7 @@ export function TopClassSwipe({classes}){
             {
                 classes.map(content => 
                 <SwiperSlide>
-                    <Link to={`/classes/${content.class}`} key={content.alt} className="hvr-float">
+                    <Link to={`/classes/${content.path}`} key={content.alt} className="hvr-float">
                         <Image src={`${process.env.PUBLIC_URL}/class-portrait/${content.class}.jpg`} alt={content.alt} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                         <div className="class-overlay"/>
                     </Link>
