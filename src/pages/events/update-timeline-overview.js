@@ -77,6 +77,7 @@ function UpdateTimelineOverview() {
                 <li><Link to="#astral">Astral Blessings</Link></li>
                 <li><Link to="#asura">Sengoku Returns: Asura War</Link></li>
                 <li><Link to="#awake">Awake</Link></li>
+                <li><Link to="#moonlight-magic">Moonlight Magic</Link></li>
             </ul>
             <h2 id="bang">Big Bang Update - Dec 2010</h2>
             <BigBang/>
@@ -281,6 +282,9 @@ function UpdateTimelineOverview() {
             <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
             <h2 id="awake">Awake Update - Nov 2020</h2>
             <Awake/>
+            <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <h2 id="moonlight-magic">Moonlight Magic Update - Feb 2021</h2>
+            <MoonlightMagic/>
         </div>
     )
 }
@@ -1779,6 +1783,53 @@ function MechanicalUtopia() {
             <ul>
                 <li>Phantom Forest Sanity effect adjusted</li>
                 <li>Daily character creation limit now set to 10 characters</li>
+            </ul>
+        </LazyLoad>
+    )
+};
+
+function MoonlightMagic() {
+    return (
+        <LazyLoad height={200} offset={100}>
+            <img className="repository-image" src="https://nxcache.nexon.net/cms/2021/q1/1275/1100x225-maplestory-moonlight-magic-mmorpg.png" alt="Moonlight Magic"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/64760/v-220-moonlight-magic-patch-notes"/></p>
+            </div>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li><strong>Job Balances - Adjusted hits per attack and number of attacks for many classes</strong></li>
+                <li>Marksmen New 4th Job Skill: <img src="https://orangemushroom.files.wordpress.com/2020/09/judging-distance.png" alt="Judging Distance" width="32" height="32" /> Judging Distance that allows you to tell the distance from enemies</li>
+                <li>
+                    Ursus adjusted
+                    <ul>
+                        <li>Daily entries have been changed to 3 times per account</li>
+                        <li>Meso distribution adjusted for characters below Lv. 200</li>
+                    </ul>
+                </li>
+                <li>Getting hit and taking damage while sitting in a chair will now cancel the chair</li>
+                <li><strong>Kritias Invasion removed (Kritias content remains)</strong></li>
+                <li>
+                    <strong>Maple Tour adjusted</strong>
+                    <ul>
+                        <li>The amount of mesos obtainable reduced</li>
+                        <li><img src="https://maplestory.io/api/GMS/219/item/2631635/icon" /> Meso Piggy Bank removed from Maple Tour shop</li>
+                    </ul>
+                </li>
+                <li>
+                    Beast Tamer quest ‘A Guardian's Blessing’ removed
+                    <ul>
+                        <li>Up to six AP Potions will be given through the new ‘A Guardian's Blessings’ quest within the lightbulb icon on the left side of the screen for Lv. 140 and above Beast Tamer characters</li>
+                    </ul>
+                </li>
+                <li>Fredrick the Store Bank NPC at the Free Market entrance removed</li>
+                <li>
+                    World Selection, Character Selection, and Character Creation screen resolutions will be changed to 1024x768
+                    <ul>
+                        <li>Updated the images for certain classes on the Character Creation screen</li>
+                        <li>Updated the background images for each class when creating new characters</li>
+                        <li>Updated the image on the Region Selection Screen</li>
+                    </ul>
+                </li>
             </ul>
         </LazyLoad>
     )
