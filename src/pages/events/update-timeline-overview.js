@@ -1798,7 +1798,7 @@ function MoonlightMagic() {
             <h3>New Features + Changes</h3>
             <ul>
                 <li><strong>Job Balances - Adjusted hits per attack and number of attacks for many classes</strong></li>
-                <li>Marksmen New 4th Job Skill: <img src="https://orangemushroom.files.wordpress.com/2020/09/judging-distance.png" alt="Judging Distance" width="32" height="32" /> Judging Distance that allows you to tell the distance from enemies</li>
+                <li>Marksmen New 4th Job Skill: <img src="https://orangemushroom.files.wordpress.com/2020/09/judging-distance.png" alt="Skill Judging Distance" width="32" height="32" /> Judging Distance that allows you to tell the distance from enemies</li>
                 <li>
                     Ursus adjusted
                     <ul>
@@ -1812,7 +1812,7 @@ function MoonlightMagic() {
                     <strong>Maple Tour adjusted</strong>
                     <ul>
                         <li>The amount of mesos obtainable reduced</li>
-                        <li><img src="https://maplestory.io/api/GMS/219/item/2631635/icon" /> Meso Piggy Bank removed from Maple Tour shop</li>
+                        <li><img src="https://maplestory.io/api/GMS/219/item/2631635/icon" alt="Item Meso Piggy Bank"/> Meso Piggy Bank removed from Maple Tour shop</li>
                     </ul>
                 </li>
                 <li>
