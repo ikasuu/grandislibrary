@@ -39,7 +39,7 @@ export class ClassOverview extends Component {
     componentDidUpdate(prevProps, prevState){
         if(prevProps.match.params.id !== this.props.match.params.id){
             this.setState({loading: true});
-            fetch(`./data/${this.props.match.params.id}.json`)
+            fetch(`./data/${this.props.classGroup}/${this.props.match.params.id}.json`)
             .then(res => res.json())
             .then(fetchedData => this.setState({data: fetchedData, loading: false, fail: false}))
             .catch(err => this.setState({fail: true}));
