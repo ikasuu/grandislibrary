@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import HeaderImageUrl from '../../special/Values';
 import HeaderImage from '../../components/HeaderImage'
 import { ContentTitle } from '../../components/Page';
-import ScrollToTop from '../../components/repository/ScrollToTop';
+import { ScrollToTop } from '../../components/UtilityButtons';
 
 //Content
 import SharedCashShopInventory from './shared-cash-shop-inventories';

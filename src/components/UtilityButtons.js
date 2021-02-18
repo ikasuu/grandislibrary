@@ -1,20 +1,38 @@
 import React from 'react';
+import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
-// import Zoom from '@material-ui/core/Zoom';
-// import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Fab from '@material-ui/core/Fab';
-import Tooltip from '@material-ui/core/Tooltip';
+import TooltipMui from '@material-ui/core/Tooltip';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Divider from '@material-ui/core/Divider';
+import useScrollTrigger from '@material-ui/core/useScrollTrigger';
+import Zoom from '@material-ui/core/Zoom';
 import styled from 'styled-components';
+
+/*
+    Info Button which when hovered shows a tooltip
+    Created by: Ikasuu, Fall 2020
+*/
+
+function InfoButton({tooltip}) {
+    return (
+        <OverlayTrigger placement="top" overlay={
+            <Tooltip style={{zIndex: '1'}}>
+                {tooltip}
+            </Tooltip>
+        }>
+            <Button variant="link"><span className="info-button"/></Button>
+        </OverlayTrigger>
+    );
+}
 
 /*
     Repsonsible for creating Fab button that pops up quick jump menu
     Created by: Ikasuu, Spring 2021
 */
 
-function QuickJump() {
+export function QuickJump() {
     return (
         <MenuBar/>
     )
@@ -37,21 +55,6 @@ const MenuLink = styled(Link)`
     }
 `;
 
-// Function to trigger fab to appear when scrolling
-// function ScrollTop(props){
-//     const {children} = props;
-//     const trigger = useScrollTrigger({
-//         disableHysteresis: true,
-//         threshold: 100,
-//     });
-
-//     return(
-//         <Zoom in={trigger}>
-//             {children}
-//         </Zoom>
-//     );
-// }
-
 // Function for quick jump menu, handles logic
 function MenuBar(){
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -67,11 +70,11 @@ function MenuBar(){
 
     return(
         <div>
-            <Tooltip title="Quick Jump">
+            <TooltipMui title="Quick Jump">
                 <Fab onClick={handleMenu} color="primary" size="medium" style={{position: 'fixed', bottom: '2.5rem', right: '2.5rem', zIndex: '1000'}}>
                     <span className="jump-button"/>
                 </Fab>
-            </Tooltip>
+            </TooltipMui>
             <Menu
                 anchorEl={anchorEl}
                 anchorOrigin={{
@@ -98,4 +101,41 @@ function MenuBar(){
     );
 }
 
-export default QuickJump;
+/*
+    Repsonsible for creating Fab button that pops up quick jump menu
+    Created by: Ikasuu, Spring 2021
+*/
+
+export function ScrollToTop() {
+    return (
+        <Link smooth to="#" scroll={el => scrollWidthOffset(el)}><ScrollFab/></Link>
+    );
+}
+
+// Function to trigger fab to appear when scrolling
+function ScrollTop(props){
+    const {children} = props;
+    const trigger = useScrollTrigger({
+        disableHysteresis: true,
+        threshold: 100,
+    });
+
+    return(
+        <Zoom in={trigger}>
+            {children}
+        </Zoom>
+    );
+}
+
+// Function for quick jump menu, handles logic
+function ScrollFab(){
+    return(
+        <ScrollTop>
+                <Fab color="primary" size="medium" style={{position: 'fixed', bottom: '2.5rem', right: '2.5rem', zIndex: '1000'}}>
+                    <span className="scroll-top-button"/>
+                </Fab>
+        </ScrollTop>
+    );
+}
+
+export default InfoButton;

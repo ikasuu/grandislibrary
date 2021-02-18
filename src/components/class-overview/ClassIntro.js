@@ -7,7 +7,7 @@ import { Col, Container, Image, Table, Row, Card } from 'react-bootstrap';
 import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
-import InfoButton from '../InfoButton';
+import InfoButton from '../UtilityButtons';
 
 import '../../css/class-overview.css';
 

@@ -16,7 +16,6 @@ const EventRepository = lazy(() => import('../pages/events/EventRepository'));
 const ClassOverview = lazy(() => import('../pages/ClassOverview'));
 const Events = lazy(() => import('../pages/Events'));
 const Resources = lazy(() => import('../pages/Resources'));
-const DamageSkin = lazy(() => import('../pages/DamageSkin'));
 const NotFound = lazy(() => import('../pages/NotFound'));
 
 function Routes() {
@@ -38,7 +37,6 @@ function Routes() {
             <Route path="/events/:id" component={EventRepository}/>
             <Route path="/events" component={Events}/>
             <Route path="/resources" component={Resources}/>
-            <Route path="/damage-skin" component={DamageSkin}/>
             <Route component={NotFound}/>
         </Switch>
     )

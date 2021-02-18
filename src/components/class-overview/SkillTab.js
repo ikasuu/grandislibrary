@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Tab, Tabs} from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
+import LazyLoad, { forceCheck } from 'react-lazyload';
 
 import { SkillContainer, VSkillContainer } from './SkillContainer';
 import { commonFifth } from '../../special/Values';
@@ -15,7 +16,9 @@ import { commonFifth } from '../../special/Values';
 function createSkillTabs(primary){
   return primary.map((skilltree, index) => 
     <Tab eventKey={skilltree[0]} title={skilltree[0]} key={index}>
-      <SkillContainer skillData={skilltree[1]}/>
+      <LazyLoad height={2000} offset={100}>
+        <SkillContainer skillData={skilltree[1]}/>
+      </LazyLoad>
     </Tab>);
 }
 
@@ -38,26 +41,28 @@ const StyledHeaderThree = styled.h3`
 export function SkillTab({primary, fifth, hyper}) {
 
   return (
-    <Container>
-      <StyledHeaderTwo>Skill Information</StyledHeaderTwo>
-      <Tabs>
-        {createSkillTabs(primary)}
-        <Tab eventKey="fifth" title="5th Job">
-          <StyledHeaderThree>Common V Skills</StyledHeaderThree>
-          <VSkillContainer skillData={convertCommonVToArray(fifth)}/>
-          <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
-          <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
-          <VSkillContainer skillData={fifth.fifthMain}/>
-          <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
-        </Tab>
-        {hyper && <Tab eventKey="hyper" title="Hyper Skills">
-          <StyledHeaderThree>Passive Skills</StyledHeaderThree>
-          <SkillContainer skillData={hyper.hyperPassive}/>
-          <StyledHeaderThree>Active Skills</StyledHeaderThree>
-          <SkillContainer skillData={hyper.hyperActive}/>
-        </Tab>}
-      </Tabs>
-    </Container>
+    <LazyLoad height={2000} offset={100}>
+      <Container>
+        <StyledHeaderTwo>Skill Information</StyledHeaderTwo>
+        <Tabs onSelect={() => setTimeout(forceCheck, 0)}>
+          {createSkillTabs(primary)}
+          <Tab eventKey="fifth" title="5th Job">
+            <StyledHeaderThree>Common V Skills</StyledHeaderThree>
+            <VSkillContainer skillData={convertCommonVToArray(fifth)}/>
+            <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+            <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
+            <VSkillContainer skillData={fifth.fifthMain}/>
+            <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+          </Tab>
+          {hyper && <Tab eventKey="hyper" title="Hyper Skills">
+            <StyledHeaderThree>Passive Skills</StyledHeaderThree>
+            <SkillContainer skillData={hyper.hyperPassive}/>
+            <StyledHeaderThree>Active Skills</StyledHeaderThree>
+            <SkillContainer skillData={hyper.hyperActive}/>
+          </Tab>}
+        </Tabs>
+      </Container>
+    </LazyLoad>
   );
 }
 

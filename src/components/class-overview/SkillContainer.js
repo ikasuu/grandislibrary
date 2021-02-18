@@ -75,7 +75,7 @@ export class SkillContainer extends Component {
 
     //Map each skill as a SkillInfo component by passing the following info: Name of skill, Skill Description, Short Description, Skill Properties, and Skill Master Level
     render() {
-        const { loading, retrievedData } = this.state
+        const { loading, retrievedData } = this.state;
         return (
             <div>
                 {

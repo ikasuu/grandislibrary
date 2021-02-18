@@ -7,7 +7,7 @@ import ClassOutro from '../components/class-overview/ClassOutro';
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
 import SkillTab from '../components/class-overview/SkillTab';
-import QuickJump from '../components/class-overview/QuickJump';
+import { QuickJump } from '../components/UtilityButtons';
 
 /*
     Repsonsible for rendering whole Class Overview page
