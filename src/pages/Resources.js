@@ -89,7 +89,7 @@ function Resources() {
             <Helmet>
                 <title>Resources | Grandis Library</title>
             </Helmet>
-            <HeaderImage imageUrl={`${HeaderImageUrl.grandis}.jpg`}/>
+            <HeaderImage imageUrl={HeaderImageUrl.grandis}/>
             <Title>Resources</Title>
             <Container>
                 <Tabs>

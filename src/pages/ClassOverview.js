@@ -7,7 +7,6 @@ import ClassOutro from '../components/class-overview/ClassOutro';
 import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
 import SkillTab from '../components/class-overview/SkillTab';
-import { QuickJump } from '../components/UtilityButtons';
 
 /*
     Repsonsible for rendering whole Class Overview page
@@ -18,14 +17,14 @@ export class ClassOverview extends Component {
 
     constructor(props) {
         super(props);
-    
+
         this.state = {
             data: {},
             loading: true,
             fail: false
         };
     }
-    
+
     //Fetch the class with the corresponding url id
     componentDidMount(){
         fetch(`./data/${this.props.classGroup}/${this.props.match.params.id}.json`)
@@ -55,7 +54,7 @@ export class ClassOverview extends Component {
         const { loading, fail, data } = this.state ;
         return (
             <div>
-                <HeaderImage imageUrl={`${HeaderImageUrl.library}.jpg`}/>
+                <HeaderImage imageUrl={HeaderImageUrl.library}/>
                 {
                     loading ? <Container>{fail ? <h3>Looks like there was an error in the URL you entered,
                         the page you are looking for may be moved or deleted.</h3> : ""}</Container> :
@@ -79,7 +78,6 @@ export class ClassOverview extends Component {
                       </Container>
                     </div>
                 }
-                <QuickJump/>
             </div>
         );
     }

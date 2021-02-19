@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HeaderImageUrl from '../special/Values';
+import { HeaderBlockImageUrl } from '../special/Values';
 import GridItem from '../components/GridItem';
 
 import '../css/grid-item.css';
@@ -13,10 +13,10 @@ import '../css/grid-item.css';
 function GridContainer() {
     return (
         <div className="grid-flex-container">
-            <GridItem text="Content" linkTo="/content" imageUrl={`${HeaderImageUrl.ristonia}.png`}/>
-            <GridItem text="Classes" linkTo="/classes" imageUrl={`${HeaderImageUrl.verdel}.png`}/>
-            <GridItem text="Events" linkTo="/events" imageUrl={`${HeaderImageUrl.fox}.png`}/>
-            <GridItem text="Resources" linkTo="/resources" imageUrl={`${HeaderImageUrl.grandis}.png`}/>
+            <GridItem text="Content" linkTo="/content" imageUrl={HeaderBlockImageUrl.ristonia}/>
+            <GridItem text="Classes" linkTo="/classes" imageUrl={HeaderBlockImageUrl.verdel}/>
+            <GridItem text="Events" linkTo="/events" imageUrl={HeaderBlockImageUrl.fox}/>
+            <GridItem text="Resources" linkTo="/resources" imageUrl={HeaderBlockImageUrl.grandis}/>
         </div>
     );
 }

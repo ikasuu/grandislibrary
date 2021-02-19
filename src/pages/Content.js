@@ -17,7 +17,7 @@ function Content() {
             <Helmet>
                 <title>Content | Grandis Library</title>
             </Helmet>
-            <HeaderImage imageUrl={`${HeaderImageUrl.ristonia}.jpg`}/>
+            <HeaderImage imageUrl={HeaderImageUrl.ristonia}/>
             <Page.Title>Content</Page.Title>
             <Page.Subtitle>Gameplay Related</Page.Subtitle>
             <Page.CardContainer content={content.gameplay} type="content"/>

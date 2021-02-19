@@ -79,7 +79,7 @@ function About(){
             <Helmet>
                 <title>About | Grandis Library</title>
             </Helmet>
-            <HeaderImage imageUrl={`${HeaderImageUrl.library}.jpg`}/>
+            <HeaderImage imageUrl={HeaderImageUrl.library}/>
             <Container>
                 <AboutTitle>About</AboutTitle>  
                 <Row>

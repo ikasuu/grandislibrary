@@ -1,7 +1,6 @@
 @import url("https://use.typekit.net/glt4fmn.css");
 
 body{
-  font-size: 1rem;
   font-family: poppins, sans-serif;
   font-weight: 300;
   overflow-wrap: break-word !important;
@@ -113,11 +112,6 @@ footer{
   border: none !important;
 }
 
-/* Removing focus outline on Material UI Icon Button */
-.MuiFab-root:focus{
-  outline: none !important;
-}
-
 /* For footer purposes, we wrap everything in a container + flexbox */
 #container {
   display: flex;
@@ -127,6 +121,33 @@ footer{
 
 #main-content {
   flex: 1;
+}
+
+/* MUI CSS */
+
+/* Removing focus outline on Material UI Icon Button */
+.MuiFab-root:focus{
+  outline: none !important;
+}
+
+.MuiTypography-body1{
+  font-size: 1.05rem !important;
+  font-family: poppins, sans-serif !important;
+  font-weight: 300 !important;
+}
+
+/* Label related specifically for menu in Class Overview */
+.MuiFormControlLabel-root{
+  margin-left: 0px !important;
+}
+
+.MuiSwitch-switchBase{
+  color: #e0e0e0 !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track{
+  background-color: #4A7A8E !important;
+  opacity: 1 !important;
 }
 
 /* React CSS below, place all custom CSS above */

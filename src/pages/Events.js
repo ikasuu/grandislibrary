@@ -17,7 +17,7 @@ function Events() {
             <Helmet>
                 <title>Events | Grandis Library</title>
             </Helmet>
-            <HeaderImage imageUrl={`${HeaderImageUrl.fox}.jpg`}/>
+            <HeaderImage imageUrl={HeaderImageUrl.fox}/>
             <Page.Title>Events</Page.Title>
             <Page.Subtitle>Training Related</Page.Subtitle>
             <Page.CardContainer content={events.training} type="events"/>

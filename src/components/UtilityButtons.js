@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 import Fab from '@material-ui/core/Fab';
-import TooltipMui from '@material-ui/core/Tooltip';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Divider from '@material-ui/core/Divider';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Zoom from '@material-ui/core/Zoom';
+import Switch from '@material-ui/core/Switch';
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 import styled from 'styled-components';
 
 /*
@@ -28,22 +30,9 @@ function InfoButton({tooltip}) {
 }
 
 /*
-    Repsonsible for creating Fab button that pops up quick jump menu
+    Fab button that pops up quick jump menu in class overviews
     Created by: Ikasuu, Spring 2021
 */
-
-export function QuickJump() {
-    return (
-        <MenuBar/>
-    )
-}
-
-//Used to scroll to anchor tags
-const scrollWidthOffset = (el) => {
-    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-    const yOffset = -80; 
-    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
-}
 
 // Styling for each link
 const MenuLink = styled(Link)`
@@ -55,9 +44,13 @@ const MenuLink = styled(Link)`
     }
 `;
 
-// Function for quick jump menu, handles logic
-function MenuBar(){
-    const [anchorEl, setAnchorEl] = React.useState(null);
+const MenuHeader = styled.h6`
+    text-align: center;
+    margin-top: 0.25rem;
+`;
+
+export function QuickJump({settings, setSettings}) {
+    const [anchorEl, setAnchorEl] = useState(null);
     const open = Boolean(anchorEl);
 
     const handleMenu = (event) => {
@@ -68,13 +61,15 @@ function MenuBar(){
         setAnchorEl(null);
     };
 
-    return(
+    const handleChange = (event) => {
+        setSettings({ ...settings, [event.target.name]: event.target.checked });
+    };
+
+    return (
         <div>
-            <TooltipMui title="Quick Jump">
-                <Fab onClick={handleMenu} color="primary" size="medium" style={{position: 'fixed', bottom: '2.5rem', right: '2.5rem', zIndex: '1000'}}>
-                    <span className="jump-button"/>
-                </Fab>
-            </TooltipMui>
+            <Fab onClick={handleMenu} color="primary" size="medium" style={{position: 'fixed', bottom: '2.5rem', right: '2.5rem', zIndex: '1000'}}>
+                <span className="jump-button"/>
+            </Fab>
             <Menu
                 anchorEl={anchorEl}
                 anchorOrigin={{
@@ -83,26 +78,44 @@ function MenuBar(){
                 }}
                 keepMounted
                 transformOrigin={{
-                    vertical: 200,
-                    horizontal: 165,
+                    vertical: 190,
+                    horizontal: 200,
                 }}
                 open={open}
                 onClose={handleClose}
                 disableScrollLock
             >
                 <div className="arrow" style={{position: "absolute", top: "0px", transform: "translate(0px, 8px)"}}/>
-                <h6 style={{textAlign: 'center'}}>Quick Jump</h6>
-                <Divider variant="middle" />
+                <MenuHeader>Quick Jump</MenuHeader>
                 <MenuItem onClick={handleClose}><MenuLink smooth to="#property" scroll={el => scrollWidthOffset(el)}>Class Properties</MenuLink></MenuItem>
                 <MenuItem onClick={handleClose}><MenuLink smooth to="#stat" scroll={el => scrollWidthOffset(el)}>Base Stats</MenuLink></MenuItem>
                 <MenuItem onClick={handleClose}><MenuLink smooth to="#skill" scroll={el => scrollWidthOffset(el)}>Skill Info</MenuLink></MenuItem>
+                <Divider variant="middle" />
+                <MenuHeader>Settings</MenuHeader>
+                <FormGroup>
+                    {/* <FormControlLabel
+                        control={<Switch color="primary" checked={settings.offline} onChange={handleChange} name="offline"/>}
+                        label="Offline Skill Info"
+                    /> */}
+                    <FormControlLabel
+                        control={<Switch color="primary" checked={settings.animations} onChange={handleChange} name="animations"/>}
+                        label="Skill Animations"
+                    />
+                </FormGroup>
             </Menu>
         </div>
-    );
+    )
+}
+
+//Used to scroll to anchor tags
+const scrollWidthOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -80; 
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
 /*
-    Repsonsible for creating Fab button that pops up quick jump menu
+    Repsonsible for creating Fab button to jump back up to top on Content and Event pages
     Created by: Ikasuu, Spring 2021
 */
 

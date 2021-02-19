@@ -37,7 +37,7 @@ export class ContentRepository extends Component {
     render() {
         return (
             <div>
-                <HeaderImage imageUrl={`${HeaderImageUrl.ristonia}.jpg`}/>
+                <HeaderImage imageUrl={HeaderImageUrl.ristonia}/>
                 <div className="content-container">
                     {this.renderSwitch(this.state.id)}
                 </div>

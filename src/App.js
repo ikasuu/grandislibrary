@@ -2,11 +2,11 @@ import React, { useState, useEffect, Suspense } from 'react';
 import {HashRouter as Router} from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
-import { getInitialTheme, GlobalStyle } from './special/GlobalTheme';
 import { ThemeProvider } from 'styled-components';
 import storage from 'local-storage-fallback';
 import { Helmet } from 'react-helmet';
 
+import { getInitialTheme, GlobalStyle } from './special/GlobalTheme';
 import MainNavbar from './components/MainNavbar';
 import ScrollToTop from './special/Hooks';
 import Footer from './components/Footer';

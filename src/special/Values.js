@@ -13,11 +13,19 @@ export const loadingImage = loading;
 
 //Image paths for our page headers
 export const HeaderImageUrl = {
-    library: `${process.env.PUBLIC_URL}/headers/grandis-library`,
-    grandis: `${process.env.PUBLIC_URL}/headers/borderless`,
-    fox: `${process.env.PUBLIC_URL}/headers/fox-valley`,
-    verdel: `${process.env.PUBLIC_URL}/headers/verdel`,
-    ristonia: `${process.env.PUBLIC_URL}/headers/ristonia`
+    library: `${process.env.PUBLIC_URL}/headers/grandis-library.png`,
+    grandis: `${process.env.PUBLIC_URL}/headers/borderless.png`,
+    fox: `${process.env.PUBLIC_URL}/headers/fox-valley.png`,
+    verdel: `${process.env.PUBLIC_URL}/headers/verdel.png`,
+    ristonia: `${process.env.PUBLIC_URL}/headers/ristonia.png`
+};
+
+// Image paths for the home buttons
+export const HeaderBlockImageUrl = {
+    grandis: `${process.env.PUBLIC_URL}/headers/borderless-block.png`,
+    fox: `${process.env.PUBLIC_URL}/headers/fox-valley-block.png`,
+    verdel: `${process.env.PUBLIC_URL}/headers/verdel-block.png`,
+    ristonia: `${process.env.PUBLIC_URL}/headers/ristonia-block.png`
 };
 
 export const classes = {

@@ -19,7 +19,7 @@ function Classes() {
             <Helmet>
                 <title>Classes | Grandis Library</title>
             </Helmet>
-            <HeaderImage imageUrl={`${HeaderImageUrl.verdel}.jpg`}/>
+            <HeaderImage imageUrl={HeaderImageUrl.verdel}/>
             <div>
                 <Page.Title>Classes</Page.Title>
                 <Page.Subtitle>Explorers</Page.Subtitle>

@@ -28,11 +28,6 @@ const getMenuColor = style('mode',{
     dark: 'black'
   });
   
-const getMenuToggle = style('mode', {
-    light: 'off',
-    dark: 'on'
-  });
-  
 //Global style that is applied to all pages of site
 //Any changes caused by dark mode should go below
 export const GlobalStyle = createGlobalStyle`
@@ -58,10 +53,10 @@ export const GlobalStyle = createGlobalStyle`
     color: ${getForeground} !important;
     font-size: 1rem;
   }
-  
+
   //Toggle button for dark mode
   .toggle-mode{
-    background: url("${process.env.PUBLIC_URL}/icons/nights_stay-${getMenuToggle}-${getMenuColor}-18dp.svg");
+    background: url("${process.env.PUBLIC_URL}/icons/nights_stay-${getMenuColor}-18dp.svg");
     background-size: 1.5rem 1.5rem;
     height: 1.5rem;
     width: 1.5rem;

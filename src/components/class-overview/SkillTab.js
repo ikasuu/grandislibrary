@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Tab, Tabs} from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 import LazyLoad, { forceCheck } from 'react-lazyload';
+import storage from 'local-storage-fallback';
 
 import { SkillContainer, VSkillContainer } from './SkillContainer';
 import { commonFifth } from '../../special/Values';
+import { QuickJump } from '../UtilityButtons';
 
 /*
     Tab component in our class overviews, used to hold all the skill containers and switch between them
@@ -13,11 +15,11 @@ import { commonFifth } from '../../special/Values';
 */
 
 //Used to create the pre-5th job tabs
-function createSkillTabs(primary){
+function createSkillTabs(primary, settings){
   return primary.map((skilltree, index) => 
     <Tab eventKey={skilltree[0]} title={skilltree[0]} key={index}>
       <LazyLoad height={2000} offset={100}>
-        <SkillContainer skillData={skilltree[1]}/>
+        <SkillContainer skillData={skilltree[1]} settings={settings}/>
       </LazyLoad>
     </Tab>);
 }
@@ -40,29 +42,41 @@ const StyledHeaderThree = styled.h3`
 
 export function SkillTab({primary, fifth, hyper}) {
 
+  const [settings, setSettings] = useState(getInitialClassSettings);
+  useEffect(() => {
+      storage.setItem('classSettings', JSON.stringify(settings));
+  },[settings]);
+
   return (
-    <LazyLoad height={2000} offset={100}>
-      <Container>
-        <StyledHeaderTwo>Skill Information</StyledHeaderTwo>
-        <Tabs onSelect={() => setTimeout(forceCheck, 0)}>
-          {createSkillTabs(primary)}
-          <Tab eventKey="fifth" title="5th Job">
-            <StyledHeaderThree>Common V Skills</StyledHeaderThree>
-            <VSkillContainer skillData={convertCommonVToArray(fifth)}/>
-            <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
-            <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
-            <VSkillContainer skillData={fifth.fifthMain}/>
-            <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
-          </Tab>
-          {hyper && <Tab eventKey="hyper" title="Hyper Skills">
-            <StyledHeaderThree>Passive Skills</StyledHeaderThree>
-            <SkillContainer skillData={hyper.hyperPassive}/>
-            <StyledHeaderThree>Active Skills</StyledHeaderThree>
-            <SkillContainer skillData={hyper.hyperActive}/>
-          </Tab>}
-        </Tabs>
-      </Container>
-    </LazyLoad>
+    <div>
+      <LazyLoad height={2000} offset={100}>
+        <Container>
+          <StyledHeaderTwo>Skill Information</StyledHeaderTwo>
+          <Tabs onSelect={() => setTimeout(forceCheck, 0)}>
+            {createSkillTabs(primary, settings)}
+            <Tab eventKey="fifth" title="5th Job">
+              <LazyLoad height={2000} offset={100}>
+                <StyledHeaderThree>Common V Skills</StyledHeaderThree>
+                <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings}/>
+                <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+                <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
+                <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
+                <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+              </LazyLoad>
+            </Tab>
+            {hyper && <Tab eventKey="hyper" title="Hyper Skills">
+              <LazyLoad height={2000} offset={100}>
+                <StyledHeaderThree>Passive Skills</StyledHeaderThree>
+                <SkillContainer skillData={hyper.hyperPassive} settings={settings}/>
+                <StyledHeaderThree>Active Skills</StyledHeaderThree>
+                <SkillContainer skillData={hyper.hyperActive} settings={settings}/>
+              </LazyLoad>
+            </Tab>}
+          </Tabs>
+        </Container>
+      </LazyLoad>
+      <QuickJump settings={settings} setSettings={setSettings}/> 
+    </div>
   );
 }
 
@@ -71,6 +85,11 @@ const scrollWidthOffset = (el) => {
   const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
   const yOffset = -80; 
   window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}
+
+function getInitialClassSettings(){
+  const savedSettings = storage.getItem('classSettings');
+  return savedSettings ?  JSON.parse(savedSettings) : { offline: false, animations: true };
 }
 
 export default SkillTab;

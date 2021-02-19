@@ -47,7 +47,7 @@ const SkillDetails = styled.div`
     margin-top: -0.5rem;
 `;
 
-function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
+function SkillInfo({skillData, name, shortDesc, properties, maxLevel, animationSetting }) {
         //Get the proper values using the properties and calculating with maxLevel
         const valProperties = getValsFromProperties(properties, maxLevel);
         
@@ -69,7 +69,7 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel }) {
         return (
             <SkillCard>
                 <Card.Body>
-                    {skillData.animations && skillData.animations.map( (animation, index) => <SkillAnimation key={index} animation={animation} name={name}/>
+                    {skillData.animations && animationSetting && skillData.animations.map( (animation, index) => <SkillAnimation key={index} animation={animation} name={name}/>
                     )}
                     <Card.Title>
                         {skillData.icons.map(( icon, index) => <Icon key={index} src={icon} alt=""/>)}<SkillName>{name}</SkillName>

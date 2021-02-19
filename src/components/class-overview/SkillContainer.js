@@ -28,7 +28,8 @@ export class SkillContainer extends Component {
         this.state = {
              retrievedData: [],
              skillData: props.skillData,
-             loading: true
+             loading: true,
+             settings: props.settings
         };
     }
 
@@ -69,13 +70,20 @@ export class SkillContainer extends Component {
 
     }
 
+    componentDidUpdate(prevProps, prevState){
+        if(prevProps.settings !== this.props.settings){
+            this.setState({settings: this.props.settings});
+        };
+    }
+
     componentWillUnmount(){
         this._isMounted = false;
     }
 
     //Map each skill as a SkillInfo component by passing the following info: Name of skill, Skill Description, Short Description, Skill Properties, and Skill Master Level
     render() {
-        const { loading, retrievedData } = this.state;
+        const { loading, retrievedData, settings } = this.state;
+        
         return (
             <div>
                 {
@@ -90,7 +98,8 @@ export class SkillContainer extends Component {
                                             name={skill.name}
                                             properties={{}}
                                             shortDesc={skill.shortDesc}
-                                            maxLevel={skill.maxLevel}/>
+                                            maxLevel={skill.maxLevel}
+                                            animationSetting={settings.animations}/>
                                     </div>
                                 :
                                 //Offline skills require fetching all their info from json file instead
@@ -102,7 +111,8 @@ export class SkillContainer extends Component {
                                             shortDesc={skill.description.shortDesc}
                                             properties={skill.properties}
                                             levelProperties={skill.levelProperties}
-                                            maxLevel={skill.properties.maxLevel}/>
+                                            maxLevel={skill.properties.maxLevel}
+                                            animationSetting={settings.animations}/>
                                     </div>
                             )
                         }
@@ -126,7 +136,7 @@ const scrollWidthOffset = (el) => {
     Created by: Ikasuu, Fall 2020
 */
 
-export function VSkillContainer({skillData}) {
+export function VSkillContainer({skillData, settings}) {
     return (
         <div>
             {
@@ -137,7 +147,8 @@ export function VSkillContainer({skillData}) {
                             name={skill.name}
                             properties={{}}
                             shortDesc={skill.shortDesc}
-                            maxLevel={"25 + 5"}/>
+                            maxLevel={"25 + 5"}
+                            animationSetting={settings.animations}/>
                     </div>)
             }
         </div>
