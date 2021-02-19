@@ -3,9 +3,9 @@ import { Container } from 'react-bootstrap';
 
 import data from '../special/home-content.json';
 
-import FeaturedSwiper, { ContentSwiper } from '../components/HomepageSwiper';
-import { TopClassSwipe } from '../components/ClassSwipe';
-import GridContainer from '../components/GridContainer';
+import FeaturedSwiper, { ContentSwiper } from '../components/ContentSwipers';
+import { TopClassSwipe } from '../components/ClassSwipers';
+import GridContainer from '../components/homepage/GridContainer';
 
 // Import CSS
 import '../css/homepage.css';

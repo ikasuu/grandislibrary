@@ -5,6 +5,11 @@ import styled from 'styled-components';
 import { version, versionName } from '../special/Values';
 import { KofiButton } from '../components/Page';
 
+/*
+    Footer component
+    Created by: Ikasuu, Winter 2020
+*/
+
 const FooterContainer = styled.footer`
     margin: 10rem 1.5rem 0 1.5rem;
 `;

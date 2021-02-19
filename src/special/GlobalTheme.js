@@ -77,9 +77,9 @@ export const GlobalStyle = createGlobalStyle`
   //Footer discord button
   .discord-mini-button{
     background: url("${process.env.PUBLIC_URL}/icons/discord-mini-logo-${getMenuColor}.svg");
-    background-size: 2.4rem 2.4rem;
-    width: 2.4rem;
-    height: 2.4rem;
+    background-size: 2.3rem 2.3rem;
+    width: 2.3rem;
+    height: 2.3rem;
     display:block;
   }
 
@@ -104,16 +104,16 @@ export const GlobalStyle = createGlobalStyle`
 
   //Anchor jump button, found in content and event pages
   .scroll-top-button{
-    background: url("${process.env.PUBLIC_URL}/icons/vertical_align_top-${getMenuSubColor}-18dp.svg");
+    background: url("${process.env.PUBLIC_URL}/icons/expand_less-${getMenuSubColor}-18dp.svg");
     background-size: 2rem 2rem;
     height: 2rem;
     width: 2rem;
     display: block;
   }
 
-  //Anchor jump button, found in class overviews
+  //Fab button, found in class overviews to expand options
   .jump-button{
-    background: url("${process.env.PUBLIC_URL}/icons/expand_less-${getMenuSubColor}-18dp.svg");
+    background: url("${process.env.PUBLIC_URL}/icons/more_horiz-${getMenuSubColor}-18dp.svg");
     background-size: 2rem 2rem;
     height: 2rem;
     width: 2rem;

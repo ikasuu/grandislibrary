@@ -23,7 +23,6 @@ In this file you will find:
 -ClassExtraContent - Any extra content like explanation of Dark Sight is rendered here
 */
 
-
 /*
     Renders the upper components of the Class Overview (Class Properties, Notable Skills + Class Type, and Pros and Cons)
     Created by: Ikasuu, Fall 2020
@@ -242,18 +241,12 @@ function ClassDetail({content}) {
               <StyledHeaderTwo>Buffs &amp; Other Actives</StyledHeaderTwo>
               <Table size="sm" borderless>
                 <tbody>
-                  <tr>
-                    <th><strong>Active Buffs</strong>:</th> <StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData>
-                  </tr>
-                  {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th> <StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr> : <tr><th><strong>Summons</strong>:</th> <td>None</td></tr>}
-                  <tr>
-                    <th><strong>Buffs with Cooldowns</strong>:</th> <StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData>
-                  </tr>
-                  <tr>
-                    <th><strong>5th Job Buffs</strong>:</th> <StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</StatTableData>
-                  </tr>
-                  {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th> <StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr> : <tr><th><strong>Binds</strong>:</th> <td>None</td></tr>}
-                  {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th> <StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr> : <tr><th><strong>iFrames</strong>:</th> <td>None</td></tr>}
+                  <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
+                  {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<tr><th><strong>Summons</strong>:</th><td>None</td></tr>}
+                  <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData></tr>
+                  <tr><th><strong>5th Job Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</StatTableData></tr>
+                  {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
+                  {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
                 </tbody>
               </Table>
             </BuffAndActivesWrapper>
@@ -280,8 +273,8 @@ function ClassDetail({content}) {
         <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
               <ul>
                 {
-                    content.innerAbility.map(ability => 
-                        <li>{ability}</li>    
+                    content.innerAbility.map((ability, index) => 
+                        <li key={index}>{ability}</li>    
                     )
                 }
               </ul>
@@ -308,6 +301,7 @@ const CreationImage = styled(Image)`
 // Card to display info on how to create a certain character
 const HowToCreateCard = styled(Card)`
   max-width: 50rem;
+  margin-top: 1rem;
 `; 
 
 export function ClassCreation({classTitle, howToCreate}) {

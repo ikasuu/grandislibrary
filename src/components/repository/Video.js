@@ -2,6 +2,11 @@ import React from 'react';
 
 import '../../css/repository-page.css';
 
+/*
+    Component to format videos used within repository pages (Content / Event)
+    Created by: Ikasuu, Winter 2020
+*/
+
 function Video({src, title}) {
     return (
         <div className="repository-sm-container">

@@ -131,8 +131,8 @@ export function CardContainer({content, type}) {
     return (
         <ContentContainer>
         {
-            content.map(el => 
-                <ContentCard>
+            content.map((el, index) => 
+                <ContentCard key={index}>
                     <Link to={`${type}/${el[0]}`}><Card.Img variant="top" src={`${process.env.PUBLIC_URL}/thumbnail/${el[0]}.png`} alt={el[1]}/></Link>
                     <Card.Body>
                         <Link to={`${type}/${el[0]}`}><ContentCardTitle>{el[1]}</ContentCardTitle></Link>

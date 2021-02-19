@@ -42,6 +42,8 @@ const StyledHeaderThree = styled.h3`
 
 export function SkillTab({primary, fifth, hyper}) {
 
+  // Hook to store setting info to be used by UtilityButton (QuickJump), this is also where the button is stored
+  // When changes are made to settings, we have a useEffect hook that auto-updates our storage version of setting
   const [settings, setSettings] = useState(getInitialClassSettings);
   useEffect(() => {
       storage.setItem('classSettings', JSON.stringify(settings));
@@ -80,13 +82,14 @@ export function SkillTab({primary, fifth, hyper}) {
   );
 }
 
-//Used to scroll to anchor tags
+// Used to scroll to anchor tags
 const scrollWidthOffset = (el) => {
   const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
   const yOffset = -80; 
   window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
+// Retrieves settings from storage, if it does not exist, use default value (false & true)
 function getInitialClassSettings(){
   const savedSettings = storage.getItem('classSettings');
   return savedSettings ?  JSON.parse(savedSettings) : { offline: false, animations: true };

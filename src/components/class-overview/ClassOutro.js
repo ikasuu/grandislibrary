@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ClassSwipe from '../ClassSwipe';
+import ClassSwipe from '../ClassSwipers';
 
 /*
 This file contains the outro contents (after the skills overview) of a Class Overview
@@ -69,6 +69,5 @@ function ClassCredit({credits}) {
         </div>
     );
 }
-
 
 export default ClassOutro;

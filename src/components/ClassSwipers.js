@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import LazyLoad from 'react-lazyload';
 
 import { classes } from '../special/Values';
-import { Overlay } from '../components/Page';
+import { Overlay } from './Page';
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -113,8 +113,8 @@ export function TopClassSwipe({classes}){
             }}
         >
             {
-                classes.map(content => 
-                <SwiperSlide>
+                classes.map((content, index) => 
+                <SwiperSlide key={index}>
                     <Link to={`/classes/${content.path}`} key={content.alt} className="hvr-float">
                         <Image src={`${process.env.PUBLIC_URL}/class-portrait/${content.class}.png`} alt={content.alt} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                         <div className="class-overlay"/>
@@ -182,8 +182,8 @@ function renderSwitch(param){
     switch (param) {
         case "Explorers":
             return(
-                classes.explorers.map(job => 
-                    <SwiperSlide>
+                classes.explorers.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/explorers/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                             <Overlay/>
@@ -194,8 +194,8 @@ function renderSwitch(param){
 
         case "Cygnus Knights":
             return(
-                classes.cygnusKnights.map(job => 
-                    <SwiperSlide>
+                classes.cygnusKnights.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/cygnus-knights/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 0 0'}}/>
                             <Overlay/>
@@ -206,8 +206,8 @@ function renderSwitch(param){
 
         case "Heroes":
             return(
-                classes.heroes.map(job => 
-                    <SwiperSlide>
+                classes.heroes.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/heroes/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                             <Overlay/>
@@ -218,8 +218,8 @@ function renderSwitch(param){
 
         case "Resistance":
             return(
-                classes.resistance.map(job => 
-                    <SwiperSlide>
+                classes.resistance.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/resistance/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                             <Overlay/>
@@ -230,8 +230,8 @@ function renderSwitch(param){
 
         case "Nova":
             return(
-                classes.nova.map(job => 
-                    <SwiperSlide>
+                classes.nova.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/nova/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                             <Overlay/>
@@ -242,8 +242,8 @@ function renderSwitch(param){
 
         case "Sengoku":
             return(
-                classes.sengoku.map(job => 
-                    <SwiperSlide>
+                classes.sengoku.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/sengoku/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                             <Overlay/>
@@ -254,8 +254,8 @@ function renderSwitch(param){
 
         case "Flora":
             return(
-                classes.flora.map(job => 
-                    <SwiperSlide>
+                classes.flora.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/flora/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                             <Overlay/>
@@ -266,8 +266,8 @@ function renderSwitch(param){
 
         case "Other":
             return(
-                classes.other.map(job => 
-                    <SwiperSlide>
+                classes.other.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/other/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                             <Overlay/>
@@ -278,8 +278,8 @@ function renderSwitch(param){
 
         default:
             return(
-                classes.explorers.map(job => 
-                    <SwiperSlide>
+                classes.explorers.map((job, index) => 
+                    <SwiperSlide key={index}>
                         <Link to={`/classes/explorers/${job[0]}`} key={job} className="hvr-float">
                             <Image src={`${process.env.PUBLIC_URL}/class-portrait/${job[0]}.png`} style={{width: '100px', margin: '1rem 0 1rem 0'}}/>
                             <Overlay/>

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { HeaderBlockImageUrl } from '../special/Values';
-import GridItem from '../components/GridItem';
+import { HeaderBlockImageUrl } from '../../special/Values';
+import GridItem from './GridItem';
 
-import '../css/grid-item.css';
+import '../../css/grid-item.css';
 
 /*
     Container for our image links on the homepage

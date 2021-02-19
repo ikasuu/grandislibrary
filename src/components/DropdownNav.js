@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../css/dropdown-nav.css';
 
 /*
-    Dropdown menu component
+    Dropdown menu component from navbar
     Created by: Ikasuu, Fall 2020
 */
 

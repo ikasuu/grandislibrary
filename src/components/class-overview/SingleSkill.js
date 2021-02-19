@@ -31,7 +31,7 @@ export class SingleSkill extends Component {
     componentDidMount(){
         const { skillData } = this.state
         this._isMounted = true;
-        axiosRetry(axios, { retries: 3 }); //Retries request up to 3 times if request fails
+        axiosRetry(axios, { retries: 5 }); //Retries request up to 5 times if request fails
         //Execute call then store it in the state
         axios.get(`https://maplestory.io/api/GMS/${version}/job/skill/${skillData.id}`)
             .then(response => {
@@ -102,6 +102,7 @@ export function NotableSkill({ skill }) {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
     return (
         <span>
             <Image src={skill.icons[0]} className="hvr-grow" style={{margin: '0 0.25rem 0.5rem 0.25rem', cursor: 'pointer'}} onClick={handleShow}/>
@@ -119,5 +120,4 @@ export function NotableSkill({ skill }) {
     );
 }
 
-
-export default LinkSkill
+export default LinkSkill;

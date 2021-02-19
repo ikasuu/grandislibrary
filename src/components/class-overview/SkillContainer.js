@@ -70,12 +70,14 @@ export class SkillContainer extends Component {
 
     }
 
+    // Re-renders component when settings change via UtilityButton (QuickJump)
     componentDidUpdate(prevProps, prevState){
         if(prevProps.settings !== this.props.settings){
             this.setState({settings: this.props.settings});
         };
     }
 
+    // sets isMounted to false to cancel all remaining API calls
     componentWillUnmount(){
         this._isMounted = false;
     }

@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Autoplay, Navigation } from 'swiper';
 import styled from 'styled-components';
 
-import { Overlay, GradientOverlay } from '../components/Page';
+import { Overlay, GradientOverlay } from './Page';
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -41,8 +41,8 @@ function FeaturedSwiper({content}) {
             navigation
         >
             {
-                content.map(content => 
-                <SwiperSlide className="content-slide">
+                content.map((content, index) => 
+                <SwiperSlide key={index} className="content-slide">
                     <a href={content.link} target="_blank" rel="noreferrer noopener">
                     <ContentImage src={content.image} alt={content.alt} fluid/>
                     <Overlay/>
@@ -123,8 +123,8 @@ export function ContentSwiper({content, launch}){
         }}
         >
         {
-            content.map(content => 
-            <SwiperSlide className="content-slide">
+            content.map((content, index) => 
+            <SwiperSlide key={index} className="content-slide">
                 <a href={content.link} target="_blank" rel="noreferrer noopener">
                 <ContentImage src={content.image} alt={content.alt} fluid/>
                 <GradientOverlay/>

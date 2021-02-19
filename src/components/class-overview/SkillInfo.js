@@ -69,21 +69,21 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel, animationS
         return (
             <SkillCard>
                 <Card.Body>
-                    {skillData.animations && animationSetting && skillData.animations.map( (animation, index) => <SkillAnimation key={index} animation={animation} name={name}/>
+                    {skillData.animations && animationSetting && skillData.animations.map((animation, index) => <SkillAnimation key={index} animation={animation} name={name}/>
                     )}
                     <Card.Title>
-                        {skillData.icons.map(( icon, index) => <Icon key={index} src={icon} alt=""/>)}<SkillName>{name}</SkillName>
+                        {skillData.icons.map((icon, index) => <Icon key={index} src={icon} alt=""/>)}<SkillName>{name}</SkillName>
                         <SkillBadge variant="secondary">{skillData.type}</SkillBadge>
                         {skillData.reqLev && <SkillBadge variant="secondary">Lv. {skillData.reqLev}</SkillBadge>}
                     </Card.Title>
                     <MasterLevel><em>Master Level: {maxLevel}</em></MasterLevel>
                     {skillData.desc && <Card.Text>{parse(DOMPurify.sanitize(skillData.desc))}</Card.Text>}
-                    {skillData.details && <SkillDetails><ul>{skillData.details.map( (detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></SkillDetails>}
+                    {skillData.details && <SkillDetails><ul>{skillData.details.map((detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></SkillDetails>}
                     {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
                     {/* Lastly, we split the string into multiple parts where new lines are needed */}
                     <div>{
-                        shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replace(/#c/g, '').replace(/#z/g, '0').replace(/#/g, '').replace(/mpCon/g, '0').replace(/\\r/g, '').replace(/\\N/g, '\\n').replace(/\\c/g, '').split('\\n').map(str =>
-                            <Card.Subtitle as="p" className="mb-2 text-muted short-desc">{str}</Card.Subtitle>) : null
+                        shortDesc ? shortDesc.replace(/#(\w+)/g, (match,key) => valProperties[key]||match).replace(/#c/g, '').replace(/#z/g, '0').replace(/#/g, '').replace(/mpCon/g, '0').replace(/\\r/g, '').replace(/\\N/g, '\\n').replace(/\\c/g, '').split('\\n').map((str, index) =>
+                            <Card.Subtitle key={index} as="p" className="mb-2 text-muted short-desc">{str}</Card.Subtitle>) : null
                     }</div>
                 </Card.Body>
             </SkillCard>

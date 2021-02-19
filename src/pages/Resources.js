@@ -98,8 +98,8 @@ function Resources() {
                         <TableContainer>
                             <Table borderless>
                                 <tbody>
-                                    {data.links.map(link => 
-                                        <tr><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
+                                    {data.links.map((link, index) => 
+                                        <tr key={index}><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
                                     )}
                                 </tbody>
                             </Table>
@@ -110,8 +110,8 @@ function Resources() {
                         <TableContainer>
                             <Table borderless>
                                 <tbody>
-                                    {data.creators.map(link => 
-                                        <tr><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
+                                    {data.creators.map((link, index) => 
+                                        <tr key={index}><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
                                     )}
                                 </tbody>
                             </Table>
@@ -135,7 +135,7 @@ function Resources() {
                             <Card>
                                 <FaqQuestion>{question.question ? question.question : question.item.question}</FaqQuestion>
                                 <Card.Body>
-                                    {question.answer ? question.answer.map(answer => <Card.Text>{answer}</Card.Text>) : question.item.answer.map(answer => <Card.Text>{answer}</Card.Text>)}
+                                    {question.answer ? question.answer.map((answer, index) => <Card.Text key={index}>{answer}</Card.Text>) : question.item.answer.map((answer, index) => <Card.Text key={index}>{answer}</Card.Text>)}
                                 </Card.Body>
                             </Card>
                         </SwiperSlide>

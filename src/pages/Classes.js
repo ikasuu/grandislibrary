@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import { HeaderImageUrl, classes } from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
-import { ClassGroupContainer } from '../components/ClassSwipe';
+import { ClassGroupContainer } from '../components/ClassSwipers';
 import * as Page from '../components/Page';
 
 import '../css/hover.css';
