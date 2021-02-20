@@ -70,7 +70,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Shared Cash Shop Inventories | Grandis Library</title>
-                            <meta name={"A list of all classes that share Cash Shop inventories"} content="description"/>
+                            <meta content={"A list of all classes that share Cash Shop inventories"} name="description"/>
                         </Helmet>
                         <ContentTitle>Shared Cash Shop Inventory</ContentTitle>
                         <SharedCashShopInventory/>
@@ -82,7 +82,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Stat Terms | Grandis Library</title>
-                            <meta name={"An explanation of each stat in the Character Stat UI and other special stats"} content="description"/>
+                            <meta content={"An explanation of each stat in the Character Stat UI and other special stats"} name="description"/>
                         </Helmet>
                         <ContentTitle>Stat Terms</ContentTitle>
                         <StatTerms/>
@@ -94,7 +94,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Attack Speed | Grandis Library</title>
-                            <meta name={"An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"} content="description"/>
+                            <meta content={"An explanation of Attack Speed and the difference between Soft Cap and Hard Cap attack speed"} name="description"/>
                         </Helmet>
                         <ContentTitle>Attack Speed</ContentTitle>
                         <AttackSpeed/>
@@ -106,7 +106,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Progression Guide | Grandis Library</title>
-                            <meta name={"A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"} content="description"/>
+                            <meta content={"A guide to important content such as equipment, bosses, training maps, quests and 5th Job Advancement"} name="description"/>
                         </Helmet>
                         <ContentTitle>Progression Guide</ContentTitle>
                         <ProgressionGuide/>
@@ -118,7 +118,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Link Skill | Grandis Library</title>
-                            <meta name={"An explanation of Link Skills and a list of all Link Skills and their Master Levels and effects"} content="description"/>
+                            <meta content={"An explanation of Link Skills and a list of all Link Skills and their Master Levels and effects"} name="description"/>
                         </Helmet>
                         <ContentTitle>Link Skills</ContentTitle>
                         <LinkSkills/>
@@ -130,7 +130,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Boss Pre-Quests | Grandis Library</title>
-                            <meta name={"An explanation on how to unlock access to each of the bosses in the Boss Matchmaking System"} content="description"/>
+                            <meta content={"An explanation on how to unlock access to each of the bosses in the Boss Matchmaking System"} name="description"/>
                         </Helmet>
                         <ContentTitle>Boss Pre-Quests</ContentTitle>
                         <BossMatchmaking/>
@@ -142,7 +142,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Upgrading & Enhancing Equipment | Grandis Library</title>
-                            <meta name={"An explanation on the different possible ways to upgrade and enhance your gear"} content="description"/>
+                            <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
                         </Helmet>
                         <ContentTitle>Upgrading & Enhancing Equipment</ContentTitle>
                         <UpgradeEquipment/>
@@ -154,7 +154,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Level Content Guide | Grandis Library</title>
-                            <meta name={"An explanation on the different possible ways to upgrade and enhance your gear"} content="description"/>
+                            <meta content={"An explanation on the different possible ways to upgrade and enhance your gear"} name="description"/>
                         </Helmet>
                         <ContentTitle>Level Content Guide</ContentTitle>
                         <ContentGuide/>
@@ -166,7 +166,7 @@ export class ContentRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Keyboard Shortcuts | Grandis Library</title>
-                            <meta name={"An explanation on the all the different UIs accessible from the Keyboard Shortcuts"} content="description"/>
+                            <meta content={"An explanation on the all the different UIs accessible from the Keyboard Shortcuts"} name="description"/>
                         </Helmet>
                         <ContentTitle>Keyboard Shortcuts</ContentTitle>
                         <KeyboardShortcuts/>

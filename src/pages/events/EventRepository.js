@@ -69,7 +69,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Burning World | Grandis Library</title>
-                            <meta name={"Burning World is a temporary world that has special benefits for all characters in this world"} content="description"/>
+                            <meta content={"Burning World is a temporary world that has special benefits for all characters in this world"} name="description"/>
                         </Helmet>
                         <ContentTitle>Burning World</ContentTitle>
                         <BurningWorld/>
@@ -81,7 +81,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Who to Tera Burn | Grandis Library</title>
-                            <meta name={"A guide to help you choose a character to Tera Burn based on good Link Skills and Legion bonuses"} content="description"/>
+                            <meta content={"A guide to help you choose a character to Tera Burn based on good Link Skills and Legion bonuses"} name="description"/>
                         </Helmet>
                         <ContentTitle>Who To Tera Burn</ContentTitle>
                         <WhoToTeraBurn/>
@@ -93,7 +93,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Tera Burning | Grandis Library</title>
-                            <meta name={"An event where NEWLY created characters after level 10 gain 2 extra levels for every level up until level 200"} content="description"/>
+                            <meta content={"An event where NEWLY created characters after level 10 gain 2 extra levels for every level up until level 200"} name="description"/>
                         </Helmet>
                         <ContentTitle>Tera Burning</ContentTitle>
                         <TeraBurning/>
@@ -105,7 +105,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Mega Burning | Grandis Library</title>
-                            <meta name={"An event where created characters after level 10 gain 2 extra levels for every level up until level 150"} content="description"/>
+                            <meta content={"An event where created characters after level 10 gain 2 extra levels for every level up until level 150"} name="description"/>
                         </Helmet>
                         <ContentTitle>Mega Burning</ContentTitle>
                         <MegaBurning/>
@@ -117,7 +117,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Maple Relay | Grandis Library</title>
-                            <meta name={"Maple Relay is an event where you receive rewards for simply staying online. Obtain gifts daily and at each milestone"} content="description"/>
+                            <meta content={"Maple Relay is an event where you receive rewards for simply staying online. Obtain gifts daily and at each milestone"} name="description"/>
                         </Helmet>
                         <ContentTitle>Maple Relay</ContentTitle>
                         <MapleRelay/>
@@ -129,7 +129,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Maplehood Watch | Grandis Library</title>
-                            <meta name={"An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"} content="description"/>
+                            <meta content={"An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"} name="description"/>
                         </Helmet>
                         <ContentTitle>Maplehood Watch</ContentTitle>
                         <MaplehoodWatch/>
@@ -141,7 +141,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Synergy Ring | Grandis Library</title>
-                            <meta name={"An event ring that gains increased stats depending on how many characters you have the ring equipped on the same world"} content="description"/>
+                            <meta content={"An event ring that gains increased stats depending on how many characters you have the ring equipped on the same world"} name="description"/>
                         </Helmet>
                         <ContentTitle>Synergy Ring</ContentTitle>
                         <SynergyRing/>
@@ -153,7 +153,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Chaos Ring | Grandis Library</title>
-                            <meta name={"An event ring that has allows you to reroll the ring’s stats and potential for free a fixed number of times each week"} content="description"/>
+                            <meta content={"An event ring that has allows you to reroll the ring’s stats and potential for free a fixed number of times each week"} name="description"/>
                         </Helmet>
                         <ContentTitle>Chaos Ring</ContentTitle>
                         <ChaosRing/>
@@ -165,7 +165,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Update Timeline Overview | Grandis Library</title>
-                            <meta name={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"} content="description"/>
+                            <meta content={"Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"} name="description"/>
                         </Helmet>
                         <ContentTitle>Update Timeline Overview</ContentTitle>
                         <UpdateTimelineOverview/>

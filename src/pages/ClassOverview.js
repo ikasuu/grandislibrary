@@ -61,7 +61,7 @@ export class ClassOverview extends Component {
                     <div>
                       <Helmet>
                         <title>{`${data.class} | Grandis Library`}</title>
-                        <meta name={data.meta} content="description"/>
+                        <meta content={data.meta} name="description"/>
                       </Helmet>
                       <Container>
                         <ClassIntro data={data}/>

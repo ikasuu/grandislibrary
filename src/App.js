@@ -38,7 +38,7 @@ function App() {
     <div id="container">
       <Helmet>
         <title>Grandis Library</title>
-        <meta name="A collection of MapleStory guides, resources and information." content="description"/>
+        <meta content="A collection of MapleStory guides, resources and information." name="description"/>
       </Helmet>
       <ThemeProvider theme={theme}>
         <>
