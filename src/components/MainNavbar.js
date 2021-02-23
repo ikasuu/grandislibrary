@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../logo.png';
-import { Nav, Navbar, Button } from 'react-bootstrap';
+import { Nav, Navbar, Button, Badge } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -50,6 +50,8 @@ function MainNavbar(props) {
                 alt="Grandis Library logo"
               />{' '}
               Grandis Library
+              {' '}
+              <Badge variant="warning">BETA</Badge>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
