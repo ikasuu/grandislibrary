@@ -159,71 +159,101 @@
                 },
                 {
                     "id": 20050109,
+                    "name": "Master of Swimming",
+                    "shortDesc": "Permanently increases swimming speed and prevents HP loss when swimming.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Master_of_Swimming.png/revision/latest?cb=20110627095447"],
                     "type": "Passive"
                 },
                 {
                     "id": 20050111,
+                    "name": "Master of Organization",
+                    "shortDesc": "Permanently expands Equip, Use, Set-up, and Etc. Inventory.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9b/Skill_Master_of_Organization.png/revision/latest?cb=20160710213621"],
                     "type": "Passive"
                 }]
             ],
             [
                 "1st Job", [{
-                        "id": 5001002,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Sommersault_Kick.png/revision/latest?cb=20110506064900"],
-                        "animations": ["https://media4.giphy.com/media/IRnKyV6jXPfluCu9mb/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Perform a kick in front of you"
-                    },
-                    {
-                        "id": 5001003,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Double_Shot.png/revision/latest?cb=20110506064904"],
-                        "animations": ["https://media1.giphy.com/media/cYFELy9yP2MfAX2RkN/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Shoots two bullets at one enemy"
-                    },
-                    {
-                        "id": 5001010,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Octopush.png/revision/latest?cb=20130713082252"],
-                        "animations": ["https://media1.giphy.com/media/jpMOW4N0JXHZwXGMUs/giphy.gif"],
-                        "type": "Active",
-                        "desc": "Double jump skill",
-                        "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice"
-                        ]
-                    },
-                    {
-                        "id": 5001005,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Dash.png/revision/latest?cb=20110506064955"],
-                        "animations": ["https://media3.giphy.com/media/5Ah0oQuhdYRubceXqb/giphy.gif"],
-                        "type": "Active",
-                        "desc": "Double-tap the left or right Arrow Keys to start sprinting",
-                        "details": [
-                            "Sprinting increases Movement Speed and Jump",
-                            "While sprinting, you cannot be knocked back"
-                        ]
-                    },
-                    {
-                        "id": 5000007,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Shadow_Heart.png/revision/latest?cb=20120628182247"],
-                        "type": "Passive"
-                    },
-                    {
-                        "id": 5000000,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Bullet_Time.png/revision/latest?cb=20110506064810"],
-                        "type": "Passive"
-                    }]
+                    "id": 5001002,
+                    "name": "Sommersault Kick",
+                    "shortDesc": "MP Cost: 16, Damage: 305%, Max Enemies Hit: 6",
+                    "maxLevel": 20,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Sommersault_Kick.png/revision/latest?cb=20110506064900"],
+                    "animations": ["https://media4.giphy.com/media/IRnKyV6jXPfluCu9mb/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Perform a kick in front of you"
+                },
+                {
+                    "id": 5001003,
+                    "name": "Double Shot",
+                    "shortDesc": "MP Cost: 7, Damage: 165%, Range: 380",
+                    "maxLevel": 20,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Double_Shot.png/revision/latest?cb=20110506064904"],
+                    "animations": ["https://media1.giphy.com/media/cYFELy9yP2MfAX2RkN/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Shoots two bullets at one enemy"
+                },
+                {
+                    "id": 5001010,
+                    "name": "Octopush",
+                    "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
+                    "maxLevel": 5,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Octopush.png/revision/latest?cb=20130713082252"],
+                    "animations": ["https://media1.giphy.com/media/jpMOW4N0JXHZwXGMUs/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double jump skill",
+                    "details": [
+                        "Can be assigned a Key Slot or activated by pressing jump twice"
+                    ]
+                },
+                {
+                    "id": 5001005,
+                    "name": "Dash",
+                    "shortDesc": "Dash, MP Cost: 1, Duration: Up to 10 sec., Movement Speed: +50, Jump: +20, Knockback Resistance: +100%",
+                    "maxLevel": 5,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Dash.png/revision/latest?cb=20110506064955"],
+                    "animations": ["https://media3.giphy.com/media/5Ah0oQuhdYRubceXqb/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Double-tap the left or right Arrow Keys to start sprinting",
+                    "details": [
+                        "Sprinting increases Movement Speed and Jump",
+                        "While sprinting, you cannot be knocked back"
+                    ]
+                },
+                {
+                    "id": 5000007,
+                    "name": "Shadow Heart",
+                    "shortDesc": "Critical Rate: +20%, Critical Damage: +5%",
+                    "maxLevel": 10,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Shadow_Heart.png/revision/latest?cb=20120628182247"],
+                    "type": "Passive"
+                },
+                {
+                    "id": 5000000,
+                    "name": "Bullet Time",
+                    "shortDesc": "Max Movement Speed: +20, Jump: +10",
+                    "maxLevel": 5,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Bullet_Time.png/revision/latest?cb=20110506064810"],
+                    "type": "Passive"
+                }]
                 ],
                 [
                     "2nd Job", [{
                         "id": 5200010,
+                        "name": "Triple Fire",
+                        "shortDesc": "MP Cost: 16, Damage: 201%, Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Triple_Fire.png/revision/latest?cb=20110508005848"],
                         "type": "Passive",
                         "desc": "Increases the %Damage and number of shots fired by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/bb/Skill_Double_Shot.png/revision/latest?cb=20110506064904' alt='Skill Double Shot'>"
                     },
                     {
                         "id": 5201012,
+                        "name": "Scurvy Summons",
+                        "shortDesc": "MP Cost: 25, Crewman Damage: 230%, Duration: 120 sec, Cooldown 120 sec",
+                        "maxLevel": 1,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041"],
                         "animations": ["https://media4.giphy.com/media/BjGDMinKGpr9AC3A0c/giphy.gif", "https://media4.giphy.com/media/WUf4kKiUVoNkOpexi4/giphy.gif", "https://media0.giphy.com/media/YLmZiQSY0s6Xrv0OBr/giphy.gif"],
                         "type": "Summon",
@@ -231,6 +261,9 @@
                     },
                     {
                         "id": 5201001,
+                        "name": "Rapid Blast",
+                        "shortDesc": "MP Cost: 20, Damage: 165%, Max Enemies Hit: 6, Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Rapid_Blast.png/revision/latest?cb=20120730141606"],
                         "animations": ["https://media2.giphy.com/media/VhXGUGBEc6w7FO9t8U/giphy.gif"],
                         "type": "Attack",
@@ -238,12 +271,18 @@
                     },
                     {
                         "id": 5201006,
+                        "name": "Recoil Shot",
+                        "shortDesc": "MP Cost: 24, Damage: 300%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Recoil_Shot.png/revision/latest?cb=20110507044141"],
                         "type": "Attack",
                         "desc": "Fires a single shot that pushes you backward"
                     },
                     {
                         "id": 5201003,
+                        "name": "Gun Booster",
+                        "shortDesc": "MP Cost: 11, Gun Attack Speed increased for 180 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/85/Skill_Gun_Booster.png/revision/latest?cb=20110507044126"],
                         "animations": ["https://media0.giphy.com/media/8F3rsxO9zYbe25Y07F/giphy.gif"],
                         "type": "Buff",
@@ -251,6 +290,9 @@
                     },
                     {
                         "id": 5201011,
+                        "name": "Wings",
+                        "shortDesc": "MP Cost: 10",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Wings.png/revision/latest?cb=20140416220613"],
                         "animations": ["https://media3.giphy.com/media/IJxMvI17EZ9vgcxrp7/giphy.gif"],
                         "type": "Active Utility",
@@ -262,6 +304,9 @@
                     },
                     {
                         "id": 5201008,
+                        "name": "Infinity Blast",
+                        "shortDesc": "MP Cost: 20 and 100 bullets, Duration: 180 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b2/Skill_Infinity_Blast.png/revision/latest?cb=20111221142523"],
                         "animations": ["https://media3.giphy.com/media/gYh008qGibL8aCXOTH/giphy.gif"],
                         "type": "Buff",
@@ -269,6 +314,9 @@
                     },
                     {
                         "id": 5200000,
+                        "name": "Gun Mastery",
+                        "shortDesc": "Gun Mastery: +50%, Ammo: +200",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/24/Skill_Gun_Mastery.png/revision/latest?cb=20110507044026"],
                         "type": "Passive",
                         "desc": "",
@@ -278,6 +326,9 @@
                     },
                     {
                         "id": 5200009,
+                        "name": "Physical Trianing",
+                        "shortDesc": "Permanently increases Strength by 30 and DEX by +30\\nPermanently decreases Damage Taken by 20%",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/59/Skill_Physical_Training.png/revision/latest?cb=20191120092800"],
                         "type": "Passive"
                     }]
@@ -285,6 +336,9 @@
                 [
                     "3rd Job", [{
                         "id": 5211008,
+                        "name": "Blunderblaster",
+                        "shortDesc": "MP Cost: 32 and 2 bullets, Damage: 480%, Max Enemies Hit: 8, Number of Attacks: 2",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5b/Skill_Blunderbuster.png/revision/latest?cb=20111227234821"],
                         "animations": ["https://media2.giphy.com/media/lPosLAMgv3gC1GuZQt/giphy.gif"],
                         "type": "Attack",
@@ -292,6 +346,9 @@
                     },
                     {
                         "id": 5211010,
+                        "name": "Blackboot Bill",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 734%, Knockback Range: 400",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8e/Skill_Blackboot_Bill.png/revision/latest?cb=20111228000714"],
                         "animations": ["https://media0.giphy.com/media/fAaqZVsGJ8CgRb78OL/giphy.gif"],
                         "type": "Attack",
@@ -299,6 +356,9 @@
                     },
                     {
                         "id": 5211014,
+                        "name": "Octo-Cannon",
+                        "shortDesc": "MP Cost: 18, Octopus Damage: 300%, Summon Duration: 30 sec, Cooldown: 10 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Octo-Cannon.png/revision/latest?cb=20111228002700"],
                         "animations": ["https://media2.giphy.com/media/XHjjQkjEgyCSFiD7Nz/giphy.gif"],
                         "type": "Summon",
@@ -306,6 +366,9 @@
                     },
                     {
                         "id": 5211007,
+                        "name": "Roll of the Dice",
+                        "shortDesc": "MP Cost: 60, Buff Duration: 180, Cooldown: 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
                         "animations": ["https://media1.giphy.com/media/4eQqI2czS8JpJuy7Ih/giphy.gif"],
                         "type": "Buff",
@@ -321,21 +384,33 @@
                     },
                     {
                         "id": 5210009,
+                        "name": "Cross Cut Blast",
+                        "shortDesc": "Attack +60",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/46/Skill_Cross_Cut_Blast.png/revision/latest?cb=20160629045948"],
                         "type": "Passive"
                     },
                     {
                         "id": 5210012,
+                        "name": "Outlaw's Code",
+                        "shortDesc": "DEF: +20%, Max HP/MP: +600",
+                        "maxLevel": 4,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Outlaw%27s_Code.png/revision/latest?cb=20111228001644"],
                         "type": "Passive"
                     },
                     {
                         "id": 5210013,
+                        "name": "Fullmetal Jacket",
+                        "shortDesc": "Final Damage: 20%, Critical Rate: +30%, Enemy DEF Ignored: 20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/26/Skill_Fullmetal_Jacket.png/revision/latest?cb=20111228002045"],
                         "type": "Passive"
                     },
                     {
                         "id": 5210015,
+                        "name": "All Aboard",
+                        "shortDesc": "MP Cost: 40, Summons two brave crew members to assist you in battle, Summon Duration: 120 sec, Cooldown: 120 sec.\\nCrew members deal increased damage\\nMurat - Damage: 500%\\nValerie - Damage: 560%\\nJack - Damage: 320%\\nCutter - Damage: 480%\\nIf you're targeted by an abnormal status, a crew member will block it. That crew member cannot block another status effect until re-summoned.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041"],
                         "animations": ["https://media1.giphy.com/media/j5VZLnYT1aL8T9uj2X/giphy.gif"],
                         "type": "Passive",
@@ -349,6 +424,9 @@
                 [
                     "4th Job", [{
                         "id": 5221004,
+                        "name": "Rapid Fire",
+                        "shortDesc": "MP Cost per attack: 9, Damage: 325% per shot",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/79/Skill_Rapid_Fire.png/revision/latest?cb=20110508033722"],
                         "animations": ["https://media0.giphy.com/media/ejDyr14A9Sq0P2y0xc/giphy.gif"],
                         "type": "Key-down Attack",
@@ -360,6 +438,9 @@
                     },
                     {
                         "id": 5221016,
+                        "name": "Brain Scrambler",
+                        "shortDesc": "MP Cost: 30, Damage: 525%, Number of Attacks: 12, Enemy DEF Ignored: 60%, Bonus Critical Chance: 100%\\nCooldown: 5 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Brain_Scrambler.png/revision/latest?cb=20111228030201"],
                         "animations": ["https://media0.giphy.com/media/h5KxQ49zqkIrKmJd0y/giphy.gif"],
                         "type": "Attack",
@@ -370,6 +451,9 @@
                     },
                     {
                         "id": 5221015,
+                        "name": "Parrotargetting",
+                        "shortDesc": "MP 37 consumed, 610% damage, final damage increased by 25% when attacking targeted monster\\n[Passive Effect: Critical Damage +20%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Parrotargetting.png/revision/latest?cb=20111228021645"],
                         "animations": ["https://media3.giphy.com/media/uJXdLRoMw9WkUgqhGu/giphy.gif"],
                         "type": "Attack",
@@ -381,6 +465,9 @@
                     },
                     {
                         "id": 5221017,
+                        "name": "Eight-Legs Easton",
+                        "shortDesc": "MP Cost: 55, Bullets Consumed: 4, Damage: 649%, Max Enemies Attacked: 8, Number of Attacks: 4.\\n[Passive Effect : Battleship Nautilus's skill damage +130% points.]",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/37/Skill_Eight-Legs_Easton.png/revision/latest?cb=20111228030548"],
                         "animations": ["https://media0.giphy.com/media/KHE70MDdRiLEiMWdY0/giphy.gif"],
                         "type": "Attack",
@@ -392,6 +479,9 @@
                     },
                     {
                         "id": 5221022,
+                        "name": "Broadside",
+                        "shortDesc": "MP Cost: 150, Fires cannon at a set rate for 60 sec, Fired cannon explodes when enemy is touched, Max Enemies Hit: 6, Number of Attacks: 3, Max of 2 summoned.\\nCooldown: 30 sec\\nDondlass: Damage: 330%, Attack Speed: Normal, Range: Normal\\nBlack Bark: Damage: 445%, Attack Speed: Slow, Range: Normal\\nShulynch: Damage: 200%, Attack Speed: Fast, Range: Normal\\nJonathan: Damage: 320%, Attack Speed: Normal, Range: Long",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/65/Skill_Broadside.png/revision/latest?cb=20140419012047"],
                         "animations": ["https://media3.giphy.com/media/IzjRO4QJ8qgQqudTVJ/giphy.gif"],
                         "type": "Summon",
@@ -402,6 +492,9 @@
                     },
                     {
                         "id": 5221013,
+                        "name": "Nautilus Strike",
+                        "shortDesc": "MP Cost: 350, Damage: 440%, Max Enemies Hit: 15, Number of Attacks: 7\\nCooldown: 30 sec\\nUpon use, remaining Cooldown -50% for Scurvy Summons, Roll of the Dice, and Broadside\\nMajestic Presence's final damage +30% during Cooldown",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c9/Skill_Nautilus_Strike.png/revision/latest?cb=20110608083744"],
                         "animations": ["https://media0.giphy.com/media/LOikrbuPas8SGF91RY/giphy.gif"],
                         "type": "Attack",
@@ -414,6 +507,9 @@
                     },
                     {
                         "id": 5221021,
+                        "name": "Quickdraw",
+                        "shortDesc": "When used, the Final Damage of your next eligible attack skill increases by 25%. Must be readied prior to use.\\n[Passive Effect: Your attacks have a 8% chance to ready Quickdraw for use.]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Quickdraw.png/revision/latest?cb=20140419012051"],
                         "animations": ["https://media0.giphy.com/media/2SRnCJE1zuCOtMP0jP/giphy.gif"],
                         "type": "Buff",
@@ -424,18 +520,27 @@
                     },
                     {
                         "id": 5221000,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 5221018,
+                        "name": "Jolly Roger",
+                        "shortDesc": "MP Cost: 55, Duration: 180 sec, Attack Power: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%, Knockback Resistance: +60%, reduces Avoidability.",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Jolly_Roger.png/revision/latest?cb=20111228030956"],
                         "animations": ["https://media0.giphy.com/media/rBuQ32Sx6KI5KllmaP/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 5221010,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media3.giphy.com/media/9LwQIpkphq7PeO6Io0/giphy.gif"],
                         "type": "Buff",
@@ -443,6 +548,9 @@
                     },
                     {
                         "id": 5220012,
+                        "name": "Pirate's Revenge",
+                        "shortDesc": "Chance: 40%, Damage: +15%, Duration: 45 sec, will also activate for attacks that deal damage in proportion to maximum HP.\\n[Passive Effect: Damage Taken: -15%]",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Pirate%27s_Revenge.png/revision/latest?cb=20110508020052"],
                         "type": "Passive",
                         "desc": "When damaged, you have a chance to gain a %Damage buff",
@@ -452,6 +560,9 @@
                     },
                     {
                         "id": 5220014,
+                        "name": "Double Down",
+                        "shortDesc": "MP Cost: 60, 50% chance of rolling a Double Down, Buff Duration: 180 sec\\nCooldown: 180 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/89/Skill_Double_Down.png/revision/latest?cb=20110608083818", "https://vignette.wikia.nocookie.net/maplestory/images/5/5f/Skill_Roll_of_the_Dice.png/revision/latest?cb=20110508000058"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -461,6 +572,9 @@
                     },
                     {
                         "id": 5220019,
+                        "name": "Ahoy Mateys",
+                        "shortDesc": "Final Crewman Damage: +15%, When a crewman is summoned: Attack Power +45\\n[Unique effects for each crewman]\\nMurat: Critical Damage +5%\\nValerie: Critical Rate +15%\\nJack: HP/MP +30%, Speed +30\\nCutter: Incoming damage -15%\\n[Passive Effect: Max HP +5000, Critical Damage +25%]",
+                        "maxLevel": 15,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Ahoy_Mateys.png/revision/latest?cb=20111228031553"],
                         "type": "Passive",
                         "desc": "Increases the %Final Damage of <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/a/ad/Skill_Scurvy_Summons.png/revision/latest?cb=20111228001041' alt='Skill Scurvy Summons'> and grants a unique buff based on which crew member is summoned",
@@ -471,6 +585,9 @@
                     },
                     {
                         "id": 5220020,
+                        "name": "Majestic Presence",
+                        "shortDesc": "Gun Mastery: +70%, Attack Power: +30\\n[Final Attack Skills] 275% additional explosion damage upon performing a shot-firing attack.",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Majestic_Presence.png/revision/latest?cb=20111228035430"],
                         "type": "Final Attack Passive",
                         "desc": "Your shot-firing attacks deal an additional explosive attack",
@@ -484,54 +601,81 @@
             "hyperPassive": [
                 {
                     "id": 5220043,
+                    "name": "Double Down - Saving Grace",
+                    "shortDesc": "When Double Down does not activate, there is a 40% chance for the cooldown to not apply. The next cast after this will activate Double Down with 4 or above.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Double_Down_-_Saving_Grace.png/revision/latest?cb=20140418191453"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 5220044,
+                    "name": "Double Down - Addition",
+                    "shortDesc": "Lucky number 7 added to Double Down",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Double_Down_-_Addition.png/revision/latest?cb=20140418191938"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 5220045,
+                    "name": "Double Down - Enhance",
+                    "shortDesc": "Increases the chances of rolling a 4, 5, or 6 in Roll of the Dice.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Double_Down_-_Enhance.png/revision/latest?cb=20140418192341"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 5220049,
+                    "name": "Rapid Fire - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/aa/Skill_Rapid_Fire_-_Reinforce.png/revision/latest?cb=20121016184430"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 5220050,
+                    "name": "Rapid Fire - Add Range",
+                    "shortDesc": "100 additional range",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Rapid_Fire_-_Add_Range.png/revision/latest?cb=20121016184525"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 5220051,
+                    "name": "Rapid Fire - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3b/Skill_Rapid_Fire_-_Boss_Rush.png/revision/latest?cb=20121016184627"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 5220046,
+                    "name": "Brain Scrambler - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/ba/Skill_Brain_Scrambler_-_Reinforce.png/revision/latest?cb=20140418193816"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 5220047,
+                    "name": "Brain Scrambler - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Brain_Scrambler_-_Extra_Strike.png/revision/latest?cb=20140418194114"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 5220048,
+                    "name": "Brain Scrambler - Boss Rush",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Brain_Scrambler_-_Boss_Rush.png/revision/latest?cb=20140724234011"],
                     "type": "Passive",
                     "reqLev": 190
@@ -540,12 +684,18 @@
             "hyperActive": [
                 {
                     "id": 5221054,
+                    "name": "Whaler's Potion",
+                    "shortDesc": "MP Cost: 300, HP Recovered: 99% of max HP, Damage Taken: -15% for 120 sec\\nCooldown: 120 sec[Passive Effect: Status Resistance +15, Elemental Resistance +15%, Critical Rate +10%]",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/14/Skill_Whaler%27s_Potion.png/revision/latest?cb=20121016185348"],
                     "animations": ["https://media1.giphy.com/media/hSKXnvtuJarbVrbDUc/giphy.gif"],
                     "reqLev": 140
                 },
                 {
                     "id": 5221052,
+                    "name": "Ugly Bomb",
+                    "shortDesc": "MP Cost: 500, Damage: 400%, Number of Attacks: 12, Max Enemies Hit: 15 \\nCooldown: 15 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/03/Skill_Ugly_Bomb.png/revision/latest?cb=20121016184817"],
                     "animations": ["https://media2.giphy.com/media/ZYEFNcr39YUtfgSIHp/giphy.gif"],
                     "type": "Attack",
@@ -554,6 +704,9 @@
                 },
                 {
                     "id": 5221053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954"],
                     "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
                     "type": "Buff",
