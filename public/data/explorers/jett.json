@@ -141,6 +141,9 @@
             [
                 "1st Job", [{
                         "id": 5081020,
+                        "name": "Starline One",
+                        "shortDesc": "MP Cost: 16, Max Enemies Hit: 6, Damage: 135%, Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Starline_One.png/revision/latest?cb=20140816044638"],
                         "animations": ["https://media1.giphy.com/media/Lo0ytWbtRAnkaPb8Vt/giphy.gif"],
                         "type": "Attack",
@@ -148,6 +151,9 @@
                     },
                     {
                         "id": 5081002,
+                        "name": "Blaster Barrage",
+                        "shortDesc": "MP Cost: 5, Damage: 170%, Range: 380",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3d/Skill_Blaster_Barrage.png/revision/latest?cb=20140816044642"],
                         "animations": ["https://media3.giphy.com/media/H27AsK5LJq6ONKrqZg/giphy.gif"],
                         "type": "Key-down Attack",
@@ -158,6 +164,9 @@
                     },
                     {
                         "id": 5081003,
+                        "name": "Space Walk",
+                        "shortDesc": "MP Cost: 5, Jump distance increases with level. Press the jump and any arrow key in the air to jump again.",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Space_Walk.png/revision/latest?cb=20140816044702"],
                         "animations": ["https://media1.giphy.com/media/UUsOr8sO0wQVvYpc0a/giphy.gif"],
                         "type": "Active",
@@ -169,11 +178,17 @@
                     },
                     {
                         "id": 5080022,
+                        "name": "Seasoned Hunter",
+                        "shortDesc": "Range: +80, Attack Power: +20, Jump: +20, Speed: +40, Max Speed increased by 20.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Seasoned_Hunter.png/revision/latest?cb=20140731022440"],
                         "type": "Passive"
                     },
                     {
                         "id": 5081023,
+                        "name": "Galactic Might",
+                        "shortDesc": "MP Cost: 35, Attack Speed: +2, Duration: 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Galactic_Might.png/revision/latest?cb=20140816044736"],
                         "animations": ["https://media0.giphy.com/media/gaU3aR9a90je8DqJj8/giphy.gif"],
                         "type": "Buff",
@@ -183,16 +198,22 @@
                 [
                     "2nd Job", [{
                         "id": 5701010,
+                        "name": "Starline Two",
+                        "shortDesc": "MP Cost: 16, Max Enemies Hit: 8, Damage: 200%, Stun Chance: 50%, Stun Duration: 3 sec, Number of Attacks: 3",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/68/Skill_Starline_Two.png/revision/latest?cb=20140817001536"],
                         "animations": ["https://media0.giphy.com/media/Vzf022N4LEgFyvxhQK/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a laser in front of you",
+                        "desc": "Fires a laser forward",
                         "details": [
                             "Attack has a chance to stun"
                         ]
                     },
                     {
                         "id": 5701001,
+                        "name": "Stellar Impact",
+                        "shortDesc": "MP Cost: 55, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 4, Enemies that are hit will be launched in the air. Cooldown: 8 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8c/Skill_Stellar_Impact.png/revision/latest?cb=20140816044924"],
                         "animations": ["https://media0.giphy.com/media/QWAcD8VxtMyDDubtzn/giphy.gif"],
                         "type": "Attack",
@@ -200,6 +221,9 @@
                     },
                     {
                         "id": 5701011,
+                        "name": "Vortex Cross",
+                        "shortDesc": "MP Cost: 25, Damage: 100%, Number of Attacks: 1, Max Enemies Hit: 6\\nYou will move upwards while pressing the Up arrow key.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Vortex_Cross.png/revision/latest?cb=20140817001553"],
                         "animations": ["https://media2.giphy.com/media/RIGuq4PoPS2DDfr1Xk/giphy.gif"],
                         "type": "Attack",
@@ -210,17 +234,26 @@
                     },
                     {
                         "id": 5701013,
+                        "name": "Bounty Chaser",
+                        "shortDesc": "[Active Effect] MP Cost: 10, For 180 sec, Critical Rate: +20%, Damage: +25%.\\n[Passive Effect] STR: +40, DEX: +40",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Bounty_Chaser.png/revision/latest?cb=20140817001558"],
                         "animations": ["https://media2.giphy.com/media/MQheTfjw58jOSnqXvd/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 5700000,
+                        "name": "Gun Mastery",
+                        "shortDesc": "Gun Mastery: 60%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Gun_Expert.png/revision/latest?cb=20140731060616"],
                         "type": "Passive"
                     },
                     {
                         "id": 5700011,
+                        "name": "Cosmic Shield",
+                        "shortDesc": "Permanently increase STR: +50, DEX: +50, Knockback Resistance: +50%, Max HP: +50%, Max MP: +50%",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Cosmic_Shield.png/revision/latest?cb=20140731060614"],
                         "type": "Passive"
                     }]
@@ -228,6 +261,9 @@
                 [
                     "3rd Job", [{
                         "id": 5711020,
+                        "name": "Starline Three",
+                        "shortDesc": "MP Cost: 45, Max Enemies Hit: 8, Damage: 270%, Number of Attacks: 4",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Starline_Three.png/revision/latest?cb=20140828054558"],
                         "animations": ["https://media0.giphy.com/media/QyWBdUQLmGKs6Hq8by/giphy.gif"],
                         "type": "Attack",
@@ -235,6 +271,9 @@
                     },
                     {
                         "id": 5711021,
+                        "name": "Falling Stars",
+                        "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 350%, Number of Attacks: 5.\\nCooldown: 8 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Falling_Stars.png/revision/latest?cb=20140828054533"],
                         "animations": ["https://media2.giphy.com/media/jtipy41TYAlywMTgi5/giphy.gif"],
                         "type": "Attack",
@@ -242,6 +281,9 @@
                     },
                     {
                         "id": 5711001,
+                        "name": "Turret Deployment",
+                        "shortDesc": "MP Cost: 18, Max Enemies Hit: 1, Turret Damage: 300%, Summon Duration: 30 sec, Cooldown: 10 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d5/Skill_Turret_Deployment.png/revision/latest?cb=20140816061717"],
                         "animations": ["https://media1.giphy.com/media/XuRFM3OvHLkHOrx1dk/giphy.gif"],
                         "type": "Summon",
@@ -249,6 +291,9 @@
                     },
                     {
                         "id": 5711022,
+                        "name": "Cosmic Upheaval",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 10, Damage: 100%, Number of Attacks: 3, Number of Enemies Pulled After Attack: 10\\nCooldown: 3 sec",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Cosmic_Upheaval.png/revision/latest?cb=20140828054450"],
                         "animations": ["https://media2.giphy.com/media/Ihz7Lq5Iewb6jcZ0UY/giphy.gif"],
                         "type": "Attack",
@@ -256,12 +301,18 @@
                     },
                     {
                         "id": 5711024,
+                        "name": "Slipstream Suit",
+                        "shortDesc": "MP Cost: MP 68, DEX: +45%, Final Damage: +20%, Duration: 180 sec",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Slipstream_Suit.png/revision/latest?cb=20140828054423"],
                         "animations": ["https://media1.giphy.com/media/UaEzRIsOsx4E3Dbpw6/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 5710020,
+                        "name": "Spatial Shift",
+                        "shortDesc": "MP Cost: 32, Max Enemies Hit: 8, Damage: 140%, Number of Attacks: 2.\\nPress the Up arrow key to move forward+upward, and press the Down arrow key to move to the forward+downward.",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/54/Skill_Spatial_Shift.png/revision/latest?cb=20140828053843", "https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Vortex_Cross.png/revision/latest?cb=20140817001553"],
                         "animations": ["https://media2.giphy.com/media/LrREWxb9hBA4ZMCLC7/giphy.gif"],
                         "type": "Upgraded Passive",
@@ -274,11 +325,17 @@
                     },
                     {
                         "id": 5710022,
+                        "name": "Blaster Overdrive",
+                        "shortDesc": "Critical Rate: +15%, Weapon ATT: +25%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/49/Skill_Blaster_Overdrive.png/revision/latest?cb=20140807043107"],
                         "type": "Passive"
                     },
                     {
                         "id": 5710021,
+                        "name": "Clairvoyant",
+                        "shortDesc": "Enemy Defense Ignored: 25%, Damage: +15%",
+                        "maxLevel": 14,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Clairvoyant.png/revision/latest?cb=20140807043116"],
                         "type": "Passive"
                     }]
@@ -286,6 +343,9 @@
                 [
                     "4th Job", [{
                         "id": 5721001,
+                        "name": "Starforce Salvo",
+                        "shortDesc": "MP Cost: 18, Damage per Shot: 300%.\\nWhile pressing the skill key, use the arrow keys to move",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920"],
                         "animations": ["https://media0.giphy.com/media/Rki3Xk2cIbnV2DmYb3/giphy.gif"],
                         "type": "Key-down Attack",
@@ -296,6 +356,9 @@
                     },
                     {
                         "id": 5721061,
+                        "name": "Backup Beatdown",
+                        "shortDesc": "MP Cost: 12, Max Enemies Hit: 8, Damage: 450%, Number of Attacks: 4\\nWhile pressing the skill key, use the arrow keys to move.\\nWhen the duration ends or when the key is released, bonus attacks with 1200% damage will be activated automatically.\\nCooldown: 60 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Backup_Beatdown.png/revision/latest?cb=20140828063532"],
                         "animations": ["https://media1.giphy.com/media/KzbcztbQ69j7PK7gEq/giphy.gif"],
                         "type": "Key-down Attack",
@@ -307,6 +370,9 @@
                     },
                     {
                         "id": 5721064,
+                        "name": "Planet Buster",
+                        "shortDesc": "MP Cost: 50, Damage: 470%, Number of Attacks: 5, Max Enemies Hit: 6",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/58/Skill_Planet_Buster.png/revision/latest?cb=20140828063349"],
                         "animations": ["https://media1.giphy.com/media/YMH7ChethcIwHvLb1c/giphy.gif"],
                         "type": "Attack",
@@ -314,6 +380,9 @@
                     },
                     {
                         "id": 5721002,
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "maxLevel": 5,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Hero%27s_Will.png/revision/latest?cb=20100602090848"],
                         "animations": ["https://media4.giphy.com/media/6LUD5S4gyYuxivRWxj/giphy.gif"],
                         "type": "Buff",
@@ -321,6 +390,9 @@
                     },
                     {
                         "id": 5721004,
+                        "name": "Starfall",
+                        "shortDesc": "MP Cost: 650, Damage: 425%, Max Enemies Hit: 15, Number of Attacks: 10\\nCooldown: 30 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Starfall.png/revision/latest?cb=20140816043742"],
                         "animations": ["https://media2.giphy.com/media/gJiB7wNjAcZRP1035P/giphy.gif"],
                         "type": "Attack",
@@ -328,24 +400,36 @@
                     },
                     {
                         "id": 5721000,
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a1/Skill_Maple_Warrior.png/revision/latest?cb=20100602085809"],
                         "animations": ["https://media1.giphy.com/media/QPXjFDIQcjMJyf9DHt/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 5721066,
+                        "name": "Gravity Booster",
+                        "shortDesc": "MP Cost: 40, Duration: 180 sec, All Stats: +25, Critical Rate: +20%, Knockback Resistance: +50%\\nBoss Damage: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/47/Skill_Gravity_Booster.png/revision/latest?cb=20140828063449"],
                         "animations": ["https://media3.giphy.com/media/woP3dn6wzua6dDmzWF/giphy.gif"],
                         "type": "Buff"
                     },
                     {
                         "id": 5721065,
+                        "name": "Strikeforce Showdown",
+                        "shortDesc": "Activation chance during Starforce Salvo: 10%, Damage: 450%, Number of Additional Attacks: 10",
+                        "maxLevel": 10,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2a/Skill_Strikeforce_Showdown.png/revision/latest?cb=20140828063113"],
                         "type": "Final Attack Passive",
                         "desc": "When using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/09/Skill_Starforce_Salvo.png/revision/latest?cb=20140816044920' alt='Skill Starforce Salvo'>, there is a chance to deal an additional attack"
                     },
                     {
                         "id": 5720060,
+                        "name": "Giga Blaster",
+                        "shortDesc": "Mastery: +70%, Critical Damage: +30%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/00/Skill_Giga_Blaster.png/revision/latest?cb=20140807234432", "https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Gun_Expert.png/revision/latest?cb=20140731060616"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -356,11 +440,17 @@
                     },
                     {
                         "id": 5720061,
+                        "name": "Invincibility",
+                        "shortDesc": "Damage: +11%, Max HP: +40%, DEF: +25%, Abnormal Status Resistance: +20%, All Elemental Resistances: +20%",
+                        "maxLevel": 20,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e6/Skill_Invincibility.png/revision/latest?cb=20140807234438"],
                         "type": "Passive"
                     },
                     {
                         "id": 5720062,
+                        "name": "Jett Supreme Enhancement",
+                        "shortDesc": "Permanently increase Attack Power: +30, Final Damage: +10%",
+                        "maxLevel": 30,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Jett_Supreme_Enhancement.png/revision/latest?cb=20191225010841"],
                         "type": "Passive"
                     }]
@@ -370,55 +460,82 @@
             "hyperPassive": [
                 {
                     "id": 5720043,
+                    "name": "Backup Beatdown - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/db/Skill_Backup_Beatdown_-_Reinforce.png/revision/latest?cb=20140828065829"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 5720044,
+                    "name": "Backup Beatdown - Spread",
+                    "shortDesc": "Monsters Hit: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b8/Skill_Backup_Beatdown_-_Spread.png/revision/latest?cb=20140828065921"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
                     "id": 5720045,
+                    "name": "Backup Beatdown - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Backup_Beatdown_-_Extra_Strike.png/revision/latest?cb=20140828070008"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 5720049,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Planet_Buster_-_Reinforce.png/revision/latest?cb=20191225014412"],
+                    "name": "Starforce Salvo - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Starforce_Salvo_-_Reinforce.png/revision/latest?cb=20140828065801"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 5720050,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Planet_Buster_-_Guardbreak.png/revision/latest?cb=20140828070026"],
+                    "name": "Starforce Salvo - Range",
+                    "shortDesc": "Increases range to 50",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Starforce_Salvo_-_Range.png/revision/latest?cb=20140828065952"],
                     "type": "Passive",
                     "reqLev": 180
                 },
                 {
                     "id": 5720051,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Planet_Buster_-_Extra_Strike.png/revision/latest?cb=20140828070040"],
+                    "name": "Starforce Salvo - Boss Rush",
+                    "shortDesc": "20% additional damage against bosses",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Starforce_Salvo_-_Boss_Rush.png/revision/latest?cb=20140828065939"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
                     "id": 5720046,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Starforce_Salvo_-_Reinforce.png/revision/latest?cb=20140828065801"],
+                    "name": "Planet Buster - Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4e/Skill_Planet_Buster_-_Reinforce.png/revision/latest?cb=20191225014412"],
                     "type": "Passive",
                     "reqLev": 190
                 },
                 {
                     "id": 5720047,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Starforce_Salvo_-_Range.png/revision/latest?cb=20140828065952"],
+                    "name": "Planet Buster - Guardbreak",
+                    "shortDesc": "Ignore Enemy Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1e/Skill_Planet_Buster_-_Guardbreak.png/revision/latest?cb=20140828070026"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "id": 5720048,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Starforce_Salvo_-_Boss_Rush.png/revision/latest?cb=20140828065939"],
+                    "name": "Planet Buster - Extra Strike",
+                    "shortDesc": "Number of Attacks: +1",
+                    "maxLevel": 1,
+                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Planet_Buster_-_Extra_Strike.png/revision/latest?cb=20140828070040"],
                     "type": "Passive",
                     "reqLev": 150
                 }
@@ -426,6 +543,9 @@
             "hyperActive": [
                 {
                     "id": 5721054,
+                    "name": "Bionic Resilience",
+                    "shortDesc": "MP Cost: 300, Duration: 180 sec, Max HP: +40%, Status Resistance and Elemental Resistance: +15%, Damage Taken: -15%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Bionic_Resilience.png/revision/latest?cb=20140816062235"],
                     "animations": ["https://media0.giphy.com/media/mR5DVAIgueV48kZ0xv/giphy.gif"],
                     "type": "Buff",
@@ -433,6 +553,9 @@
                 },
                 {
                     "id": 5721052,
+                    "name": "Singularity Shock",
+                    "shortDesc": "MP Cost: 300, Damage: 300%, Number of Attacks: 15, Number of Activation(s): 5, Max Enemies Hit: 1, Stun Chance: 80%, Stun Duration: 3 sec. Last Hit: Attack 10 enemies with 500% damage 5 times.\\nCooldown: 30 sec., Additional Critical Rate: 100%",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e9/Skill_Singularity_Shock.png/revision/latest?cb=20140828064936"],
                     "animations": ["https://media2.giphy.com/media/jnbr5FBqWxhyLFZKnU/giphy.gif"],
                     "type": "Attack",
@@ -442,6 +565,9 @@
                 },
                 {
                     "id": 5721053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954"],
                     "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
                     "type": "Party Buff",
