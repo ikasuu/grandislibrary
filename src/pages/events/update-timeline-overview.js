@@ -78,6 +78,7 @@ function UpdateTimelineOverview() {
                 <li><Link to="#asura">Sengoku Returns: Asura War</Link></li>
                 <li><Link to="#awake">Awake</Link></li>
                 <li><Link to="#moonlight-magic">Moonlight Magic</Link></li>
+                <li><Link to="#spring-blossoms">Spring Blossoms</Link></li>
             </ul>
             <h2 id="bang">Big Bang Update - Dec 2010</h2>
             <BigBang/>
@@ -285,6 +286,9 @@ function UpdateTimelineOverview() {
             <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
             <h2 id="moonlight-magic">Moonlight Magic Update - Feb 2021</h2>
             <MoonlightMagic/>
+            <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
+            <h2 id="spring-blossoms">Spring Blossoms Update - March 2021</h2>
+            <SpringBlossoms/>
         </div>
     )
 }
@@ -2570,7 +2574,6 @@ function ShiningStar() {
 function SpringIntoSummer() {
     return (
         <LazyLoad height={200} offset={100}>
-
             <img className="repository-image" src="http://nxcache.nexon.net/umbraco/2285/150721_1100x225_springintosummer.jpg?width=500&height=102.27272727272727" alt="Spring Into Summer"/>
             <div className="repository-md-container">
                 <p><TabLink url="http://maplestory.nexon.net/news/2728/v-162-spring-into-summer-patch-notes"/></p>
@@ -2583,6 +2586,35 @@ function SpringIntoSummer() {
         </LazyLoad>
     )
 };
+
+function SpringBlossoms(){
+    return(
+        <LazyLoad height={200} offset={100}>
+            <img className="repository-image" src="https://nxcache.nexon.net/cms/2021/q1/1918/1100x225-maplestory-spring-blossoms-mmorpg.jpg" alt="MapleStory Spring Blossoms MMORPG"/>
+            <div className="repository-md-container">
+                <p><TabLink url="https://maplestory.nexon.net/news/65824/spring-blossoms-patch-notes"/></p>
+            </div>
+            <h3>New Content</h3>
+            <ul>
+                <li><strong>Massive Compensation for Bonus Stat Generation took place this patch</strong></li>
+            </ul>
+            <h3>New Features + Changes</h3>
+            <ul>
+                <li>
+                    <strong>Zipangu Revamp</strong>
+                    <ul>
+                        <li>Showa Town: New quests and rewards have been added and Big Boss (Yakuza Boss) has been revamped</li>
+                        <li>Ninja Castle: Revamped into an instanced party dungeon (1-3 members) with new rewards</li>
+                        <li>Hieizan Temple: Previous accessory rewards now drop and are rewarded from defeating Princess No instead. Questline has been simplified</li>
+                        <li>Mushroom Shrine Tales: Closeness now reduces weekly, gifts have been changed from daily to weekly, and conversations can be done every 30 minutes</li>
+                    </ul>
+                </li>
+                <li>Jett now receives medals for each Job Advancement via Lightbulb icon</li>
+                <li><strong>Arkarium's Netherworld Monks are no longer immune to Weapon Attack</strong></li>
+            </ul>
+        </LazyLoad>
+    )
+}
 
 function StrangeStories() {
     return (
