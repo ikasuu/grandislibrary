@@ -6,8 +6,8 @@ import loading from '../loading.gif';
 */
 
 //Latest version of GMS
-export const version = 220; 
-export const versionName = "Moonlight Magic Update"
+export const version = 221; 
+export const versionName = "Spring Blossoms Update"
 
 export const loadingImage = loading;
 

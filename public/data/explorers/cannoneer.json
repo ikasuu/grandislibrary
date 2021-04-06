@@ -381,7 +381,7 @@
                         "id": 5310007,
                         "name": "Pirate Rush",
                         "shortDesc": "HP: +20%, DEF +50%, Abnormal Status Resistance +20",
-                        "maxLevel": 10,
+                        "maxLevel": 9,
                         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/12/Skill_Pirate_Rush.png/revision/latest?cb=20110606022214"],
                         "type": "Passive"
                     },
@@ -613,18 +613,25 @@
             "hyperActive": [
                 {
                     "id": 5321054,
+                    "name": "Buckshot",
+                    "shortDesc": "MP Cost: 300, Number of Attacks for Skills: +3 time(s), Duration: 180 sec, Final Damage: -45%\\nNumber of attacks cannot exceed 15.",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Buckshot.png/revision/latest?cb=20121110170530"],
                     "animations": ["https://media2.giphy.com/media/cjbgKCIKFEQXRm14Z4/giphy.gif"],
                     "type": "Buff",
                     "desc": "Triples the number of attacks for your skills but you have reduced %Final Damage",
                     "details": [
                         "Does not apply to summons",
-                        "Number of attacks cannot exceed 15 lines/hits"
+                        "Number of attacks cannot exceed 15 lines/hits",
+                        "Has no cooldown"
                     ],
                     "reqLev": 140
                 },
                 {
                     "id": 5321052,
+                    "name": "Rolling Rainbow",
+                    "shortDesc": "Installation skill. MP Cost: 300, Damage: 600% to 10 enemies within a range, Number of attacks: 3, Duration: 12 sec.\\nCooldown: 90 sec",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Skill_Rolling_Rainbow.png/revision/latest?cb=20121109234754"],
                     "animations": ["https://media0.giphy.com/media/Ti1gcx0c76rTzRB3hg/giphy.gif"],
                     "type": "Summon",
@@ -633,6 +640,9 @@
                 },
                 {
                     "id": 5321053,
+                    "name": "Epic Adventure",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "maxLevel": 1,
                     "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Epic_Adventure_%28Pirate%29.png/revision/latest?cb=20140828064954"],
                     "animations": ["https://media1.giphy.com/media/k8zaHdDlSgIjkX0YFR/giphy.gif"],
                     "type": "Buff",
