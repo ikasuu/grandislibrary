@@ -6,7 +6,7 @@ import loading from '../loading.gif';
 */
 
 //Latest version of GMS
-export const version = 221; 
+export const version = 220; 
 export const versionName = "Spring Blossoms Update"
 
 export const loadingImage = loading;
