@@ -31,39 +31,37 @@
             ]
         },
         "baseStats": [
-            "Excludes Hyper Skill Passives and buffs with cooldowns",
+            "Excludes attack specfic bonuses, Hyper Skill passives, <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/> Final Form, and buffs with cooldowns",
             [
-                "<strong>Max HP</strong>: +50% +(40% when <img width='32' height='32' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137' alt='Skill Realign Defender Mode'> Realign: Defender Mode is active) + (up to 20% from <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Iron_Will_%28Kaiser%29.png/revision/latest?cb=20120717143209' alt='Skill Iron Will (Kaiser)'> Link Skill)",
-                "<strong>Crit Rate</strong>: +40% +(20% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142' alt='Skill Realign Attacker Mode'> Realign: Attacker Mode is active) + (40% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'> transformed)",
-                "<strong>Crit Damage</strong>: +8%",
-                "<strong>Attack Power</strong>: +30%",
-                "<strong>Final Damage</strong>: +20% + (15% when attacks are triggered by <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link'> Dragon Link) + (15% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'> transformed) + (25% to enemies with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Cursebite.png/revision/latest?cb=20120711072547' alt='Skill Cursebite'> Abnormal Statuses)",
-                "<strong>Boss Damage</strong>: +(18% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142' alt='Skill Realign Attacker Mode'> Realign: Attacker Mode is active)",
-                "<strong>Knockback Resistance</strong>: +40% + (up to 70% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Transfiguration.png/revision/latest?cb=20120717143151' alt='Skill Transfiguration'> Morph Gauge is Stage 2) + (100% when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'> transformed)",
-                "<strong>Attack Speed (Weapon)</strong>: 4 (additional -1 stage when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Transfiguration.png/revision/latest?cb=20120717143151' alt='Skill Transfiguration'> Morph Gauge is Stage 1 or 2)",
-                "<strong>Damage Reduction (Regular Monsters)</strong>: +30%",
-                "<strong>Ignore DEF</strong>: +40%",
-                "<strong>Abnormal Status Resistance</strong>: 60"
+                "<strong>Crit Rate</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> +20%] [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/> +20%] [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/> +20% while active]",
+                "<strong>Crit Damage</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/> +15%]",
+                "<strong>Attack</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> +30%]",
+                "<strong>Final Damage</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/> +15% to debuffed] [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/> +15% (extra +5% if <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/> is active) when using Attack Commands]",
+                "<strong>Boss Damage</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> +20%] [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/> +18% while active]",
+                "<strong>Knockback Resistance</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/scale-skin.png' alt='Skill Scale Skin'/> +40%] [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/transfiguration.png' alt='Skill Transfiguration'/> up to +40%]",
+                "<strong>Attack Speed (Weapon)</strong>: 4 (<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/transfiguration.png' alt='Skill Transfiguration'/> -1 when above Stage 1)",
+                "<strong>Ignore DEF</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/unbreakable-will.png' alt='Skill Unbreakable Will'/> +40%]",
+                "<strong>Abnormal Status Resistance</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/> 60]"
             ]
         ],
         "buffInfo": {
-            "active": "[ <img class='' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137' alt='Skill Realign Defender Mode' width='32' height='32'> / <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142' alt='Skill Realign Attacker Mode' width='32' height='32'> ](Toggle), <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Blaze_On.png/revision/latest?cb=20120710092156' alt='Skill Blaze On' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Cursebite.png/revision/latest?cb=20120711072547' alt='Skill Cursebite' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'/>(Special Transform), <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Grand_Armor.png/revision/latest?cb=20120711155721' alt='Skill Grand Armor' width='32' height='32'>, <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Nova_Warrior_%28Kaiser%29.png/revision/latest?cb=20171217232514' alt='Skill Nova Warrior (Kaiser)' width='32' height='32'>",
-            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Stone_Dragon.png/revision/latest?cb=20120711072454' alt='Skill Stone Dragon'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Nova_Guardians.png/revision/latest?cb=20161125062712' alt='Skill Nova Guardians'>(120s cd)",
-            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Kaiser%27s_Majesty.png/revision/latest?cb=20121015212936' alt='Skill Kaiser's Majesty'>(90s cd)",
-            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Weapon_Aura.png/revision/latest?cb=20161204065742' alt='Skill Weapon Aura'>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033' alt='Skill Grandis Goddess's Blessing'>(240s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202' alt='Skill Might of the Nova'/>(1200s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/77/Skill_Impenetrable_Skin.png/revision/latest?cb=20171201185329' alt='Skill Impenetrable Skin'>(240s cd)",
-            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Ancestral_Prominence.png/revision/latest?cb=20120819014423' alt='Skill Ancestral Prominence'>(60s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202' alt='Skill Might of the Nova'>(1200s cd blocks 1 death)"
+            "active": "[ <img class='' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png' alt='Skill Realign Defender Mode' width='32' height='32'/> / <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode' width='32' height='32'/> ](Toggle), <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blaze-on.png' alt='Skill Blaze On' width='32' height='32'/>, <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite' width='32' height='32'/>, <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/>(Transform), <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor' width='32' height='32'/>, <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-warrior.png' alt='Skill Nova Warrior (Kaiser)' width='32' height='32'/>",
+            "summons": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/>, <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-guardians.png' alt='Skill Nova Guardians'/>(120s cd)",
+            "buffCd": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/kaisers-majesty.png' alt='Skill Kaiser's Majesty'/>(90s cd)",
+            "buffFifth": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/>(180s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033' alt='Skill Grandis Goddess's Blessing'/>(240s cd), <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202' alt='Skill Might of the Nova'/>(1200s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/>(240s cd)",
+            "iFrame": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png' alt='Skill Ancestral Prominence'/>(60s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death)"
         },
         "linkSkill": {
             "id": 80000006,
-            "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Iron_Will_%28Kaiser%29.png/revision/latest?cb=20120717143209"],
+            "icons": ["http://localhost:3000/grandislibrary/class-icons/link-skills/iron-will.png"],
             "type": "Passive"
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Scale_Skin.png/revision/latest?cb=20120710084143' alt='Skill Scale Skin'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Air_Lift.png/revision/latest?cb=20120710084058' alt='Skill Air Lift'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Flame_Surge_%28Kaiser%29.png/revision/latest?cb=20120710084019' alt='Skill Flame Surge (Kaiser)'>"],
-                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227' alt='Skill Defender Mode I'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227' alt='Skill Defender Mode I'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Dragon_Slash_I.png/revision/latest?cb=20120810142953' alt='Skill Dragon Slash I'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Inner_Blaze.png/revision/latest?cb=20120710092407' alt='Skill Inner Blaze'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120710092315' alt='Skill Sword Mastery (Kaiser)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Blaze_On.png/revision/latest?cb=20120710092156' alt='Skill Blaze On'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015' alt='Skill Tempest Blades'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Impact_Wave.png/revision/latest?cb=20120710091911' alt='Skill Impact Wave'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Piercing_Blaze.png/revision/latest?cb=20120710091944' alt='Skill Piercing Blaze'>"],
-                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722' alt='Skill Defender Mode II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722' alt='Skill Defender Mode II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Dragon_Slash_II.png/revision/latest?cb=20120810144648' alt='Skill Dragon Slash II'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Self_Recovery_%28Kaiser%29.png/revision/latest?cb=20120711072822' alt='Skill Self Recovery (Kaiser)'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Advanced_Inner_Blaze.png/revision/latest?cb=20120711072910' alt='Skill Advanced Inner Blaze'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Catalyze.png/revision/latest?cb=20160627053430' alt='Skill Catalyze'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Cursebite.png/revision/latest?cb=20120711072547' alt='Skill Cursebite'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Stone_Dragon.png/revision/latest?cb=20120711072454' alt='Skill Stone Dragon'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Pressure_Chain.png/revision/latest?cb=20120711072423' alt='Skill Pressure Chain'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Wing_Beat.png/revision/latest?cb=20120711071512' alt='Skill Wing Beat'>"],
-                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225' alt='Skill Defender Mode III' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225' alt='Skill Defender Mode III' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dragon_Slash_III.png/revision/latest?cb=20120810145754' alt='Skill Dragon Slash III' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Expert_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120711164442' alt='Skill Expert Sword Mastery (Kaiser)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Blade_Burst.png/revision/latest?cb=20120711155311' alt='Skill Blade Burst' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Nova_Warrior_%28Kaiser%29.png/revision/latest?cb=20171217232514' alt='Skill Nova Warrior (Kaiser)' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Grand_Armor.png/revision/latest?cb=20120711155721' alt='Skill Grand Armor' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Unbreakable_Will.png/revision/latest?cb=20120711164408' alt='Skill Unbreakable Will' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Inferno_Breath.png/revision/latest?cb=20120711155347' alt='Skill Inferno Breath' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852' alt='Skill Gigas Wave' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Advanced_Tempest_Blades.png/revision/latest?cb=20120711155438' alt='Skill Advanced Tempest Blades' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Dragon_Barrage.png/revision/latest?cb=20120711155148' alt='Skill Dragon Barrage' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230' alt='Skill Nova Temperance' width='32' height='32' />"]
+                ["1st Job", "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/scale-skin.png' alt='Skill Scale Skin'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/air-lift.png' alt='Skill Air Lift'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/flame-surge.png' alt='Skill Flame Surge (Kaiser)'/>"],
+                ["2nd Job", "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-i.png' alt='Skill Defender Mode I'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-i.png' alt='Skill Defender Mode I'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash-i.png' alt='Skill Dragon Slash I'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inner-blaze.png' alt='Skill Inner Blaze'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/sword-mastery.png' alt='Skill Sword Mastery (Kaiser)'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blaze-on.png' alt='Skill Blaze On'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/impact-wave.png' alt='Skill Impact Wave'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/piercing-blaze.png' alt='Skill Piercing Blaze'/>"],
+                ["3rd Job", "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-ii.png' alt='Skill Defender Mode II'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-ii.png' alt='Skill Defender Mode II'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash-ii.png' alt='Skill Dragon Slash II'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/self-recovery.png' alt='Skill Self Recovery (Kaiser)'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/advanced-inner-blaze.png' alt='Skill Advanced Inner Blaze'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/pressure-chain.png' alt='Skill Pressure Chain'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png' alt='Skill Wing Beat'/>"],
+                ["4th Job", "<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-iii.png' alt='Skill Defender Mode III' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-iii.png' alt='Skill Defender Mode III' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash-iii.png' alt='Skill Dragon Slash III' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/expert-sword-mastery.png' alt='Skill Expert Sword Mastery (Kaiser)' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png' alt='Skill Blade Burst' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-warrior.png' alt='Skill Nova Warrior (Kaiser)' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/unbreakable-will.png' alt='Skill Unbreakable Will' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png' alt='Skill Inferno Breath' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/advanced-tempest-blades.png' alt='Skill Advanced Tempest Blades' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-barrage.png' alt='Skill Dragon Barrage' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/nova-temperance.png' alt='Skill Nova Temperance' width='32' height='32' />"]
             ],
             "details": [
                 "Put one SP into each skill first and then max each skill in this order",
@@ -72,11 +70,11 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Gigas_Wave_-_Reinforce.png/revision/latest?cb=20120819013222' alt='Skill Gigas Wave - Reinforce' width='32' height='32'> Gigas Wave - Reinforce and <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Gigas_Wave_-_Bonus_Attack.png/revision/latest?cb=20120819013507' alt='Skill Gigas Wave - Bonus Attack' width='32' height='32'> Bonus Attack</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/38/Skill_Wing_Beat_-_Reinforce.png/revision/latest?cb=20120819014143' alt='Skill Wing Beat - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Wing_Beat_-_Pummel.png/revision/latest?cb=20120819014234' alt='Skill Wing Beat - Pummel' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Wing_Beat_-_Extra_Attack.png/revision/latest?cb=20120819014326' alt='Skill Wing Beat - Extra Attack' width='32' height='32'> Wing Beat - Pummel, Extra Attack and Reinforce</li></ul>" 
+            "recommended": "<ul><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave-reinforce.png' alt='Skill Gigas Wave - Reinforce' width='32' height='32'/> Gigas Wave - Reinforce and <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave-bonus-attack.png' alt='Skill Gigas Wave - Bonus Attack' width='32' height='32'/> Bonus Attack</li><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-reinforce.png' alt='Skill Wing Beat - Reinforce' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-pummel.png' alt='Skill Wing Beat - Pummel' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-extra-attack.png' alt='Skill Wing Beat - Extra Attack' width='32' height='32'/> Wing Beat - Pummel, Extra Attack and Reinforce</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852' alt='Skill Gigas Wave'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Wing_Beat.png/revision/latest?cb=20120711071512' alt='Skill Wing Beat'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015' alt='Skill Tempest Blades'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Inferno_Breath.png/revision/latest?cb=20120711155347' alt='Skill Inferno Breath'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Stone_Dragon.png/revision/latest?cb=20120711072454' alt='Skill Stone Dragon'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Blade_Burst.png/revision/latest?cb=20120711155311' alt='Skill Blade Burst'>",
-            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Flame_Surge_%28Kaiser%29.png/revision/latest?cb=20120710084019' alt='Skill Flame Surge (Kaiser)'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Impact_Wave.png/revision/latest?cb=20120710091911' alt='Skill Impact Wave'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Piercing_Blaze.png/revision/latest?cb=20120710091944' alt='Skill Piercing Blaze'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015' alt='Skill Tempest Blades'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Wing_Beat.png/revision/latest?cb=20120711071512' alt='Skill Wing Beat'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Pressure_Chain.png/revision/latest?cb=20120711072423' alt='Skill Pressure Chain'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Stone_Dragon.png/revision/latest?cb=20120711072454' alt='Skill Stone Dragon'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852' alt='Skill Gigas Wave'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Dragon_Barrage.png/revision/latest?cb=20120711155148' alt='Skill Dragon Barrage'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Blade_Burst.png/revision/latest?cb=20120711155311' alt='Skill Blade Burst'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Inferno_Breath.png/revision/latest?cb=20120711155347' alt='Skill Inferno Breath'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Ancestral_Prominence.png/revision/latest?cb=20120819014423' alt='Skill Ancestral Prominence'>"
+            "recommended": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png' alt='Skill Wing Beat'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png' alt='Skill Inferno Breath'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png' alt='Skill Blade Burst'/>",
+            "possible": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/flame-surge.png' alt='Skill Flame Surge (Kaiser)'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/impact-wave.png' alt='Skill Impact Wave'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/piercing-blaze.png' alt='Skill Piercing Blaze'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png' alt='Skill Wing Beat'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/pressure-chain.png' alt='Skill Pressure Chain'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-barrage.png' alt='Skill Dragon Barrage'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png' alt='Skill Blade Burst'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png' alt='Skill Inferno Breath'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png' alt='Skill Ancestral Prominence'/>"
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/3374/kaiser",
@@ -90,7 +88,7 @@
         ],
         "extraContent": {
             "title": "Morph Gauge",
-            "content": "<p><img class='extra-content-image' src='https://i.imgur.com/GBYkvuM.png' alt='Morph Gauge' /></p><p>Kaisers have a special gauge called <img src='https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Transfiguration.png/revision/latest?cb=20120717143151' alt='Skill Transfiguration' width='32' height='32' /> Morph Gauge that grants special bonus stats. When the gauge is fully filled, Kaiser can transform into his ultimate form (in 3rd Job and 4th Job). Kaiser's Morph Gauge charges up as he attacks</p><p>Additionally, Kaiser can use command inputs to activate certain attacks using <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32' /> Dragon Link. Using command input skills will charge the Morph Gauge faster and the attack will deal more damage. Below is a list of all commands:</p><p><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Flame_Surge_%28Kaiser%29.png/revision/latest?cb=20120710084019' alt='Skill Flame Surge (Kaiser)' width='32' height='32' /> <strong>Flame Surge (1st Job):</strong> Attack -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32' /></p><p><img src='https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Impact_Wave.png/revision/latest?cb=20120710091911' alt='Skill Impact Wave' width='32' height='32' /> <strong>Impact Wave (2nd Job): </strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash' width='32' height='32' /> -> Up Arrow + <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32' /></p><p><img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Wing_Beat.png/revision/latest?cb=20120711071512' alt='Skill Wing Beat' width='32' height='32' /> <strong>Wing Beat (3rd Job): </strong> -> Jump + <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32' /></p><p><img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852' alt='Skill Gigas Wave' width='32' height='32' /> <strong>Gigas Wave (4th Job): </strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852' alt='Skill Gigas Wave' width='32' height='32' /></p><p><img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Dragon_Barrage.png/revision/latest?cb=20120711155148' alt='Skill Dragon Barrage' width='32' height='32' /> <strong>Dragon Barrage (4th Job): </strong>-> Left Arrow/Right Arrow + <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32' /></p><p><img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Blade_Burst.png/revision/latest?cb=20120711155311' alt='Skill Blade Burst' width='32' height='32' /> <strong>Blade Burst (4th Job): </strong>-> Down Arrow + <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32' /></p><p>Lastly, Kaiser has two beginner toggle buffs <img class='' src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137' alt='Skill Realign Defender Mode' width='32' height='32' /> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142' alt='Skill Realign Attacker Mode' width='32' height='32' /> called Realign: Defender Mode and Realign: Attacker Mode. These two buffs are upgraded as you level up and gain new skills</p>"
+            "content": "<p><img class='extra-content-image' src='https://i.imgur.com/GBYkvuM.png' alt='Morph Gauge' /></p><p>Kaisers have a special gauge called <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/transfiguration.png' alt='Skill Transfiguration' width='32' height='32' /> Morph Gauge that grants special bonus stats. When the gauge is fully filled, Kaiser can transform into his ultimate form (in 3rd Job and 4th Job). Kaiser's Morph Gauge charges up as he attacks</p><p>Additionally, Kaiser can use command inputs to activate certain attacks using <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32' /> Dragon Link. Using command input skills will charge the Morph Gauge faster and the attack will deal more damage. Below is a list of all commands:</p><p><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/flame-surge.png' alt='Skill Flame Surge (Kaiser)' width='32' height='32' /> <strong>Flame Surge (1st Job):</strong> Attack -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32' /></p><p><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/impact-wave.png' alt='Skill Impact Wave' width='32' height='32' /> <strong>Impact Wave (2nd Job): </strong><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash' width='32' height='32' /> -> Up Arrow + <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32' /></p><p><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png' alt='Skill Wing Beat' width='32' height='32' /> <strong>Wing Beat (3rd Job): </strong> -> Jump + <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32' /></p><p><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave' width='32' height='32' /> <strong>Gigas Wave (4th Job): </strong><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave' width='32' height='32' /></p><p><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-barrage.png' alt='Skill Dragon Barrage' width='32' height='32' /> <strong>Dragon Barrage (4th Job): </strong>-> Left Arrow/Right Arrow + <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32' /></p><p><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png' alt='Skill Blade Burst' width='32' height='32' /> <strong>Blade Burst (4th Job): </strong>-> Down Arrow + <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32' /></p><p>Lastly, Kaiser has two beginner toggle buffs <img class='' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png' alt='Skill Realign Defender Mode' width='32' height='32' /> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode' width='32' height='32' /> called Realign: Defender Mode and Realign: Attacker Mode. These two buffs are upgraded as you level up and gain new skills</p>"
         }
     },
     "skill": {
@@ -101,11 +99,11 @@
                     "name": "Realign: Defender Mode",
                     "shortDesc": "Defense: +200",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png"],
                     "type": "Toggle Buff",
                     "desc": "",
                     "details": [
-                        "Cannot be combined with <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142' alt='Skill Realign Attacker Mode'/>"
+                        "Cannot be combined with <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/>"
                     ]
                 },
                 {
@@ -113,11 +111,11 @@
                     "name": "Realign: Attacker Mode",
                     "shortDesc": "Attack Power: +5, Critical Rate: +3%, Boss Damage: +3%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png"],
                     "type": "Toggle Buff",
                     "desc": "",
                     "details": [
-                        "Cannot be combined with <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137' alt='Skill Realign Defender Mode'/>"
+                        "Cannot be combined with <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png' alt='Skill Realign Defender Mode'/>"
                     ]
                 },
                 {
@@ -125,7 +123,7 @@
                     "name": "Vertical Grapple",
                     "shortDesc": "Press the skill key while you're climbing to cancel.",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/55/Skill_Vertical_Grapple.png/revision/latest?cb=20160609063040"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/vertical-grapple.png"],
                     "animations": ["https://media4.giphy.com/media/43UIrafIm5vfJUptKK/giphy.gif"],
                     "desc": "Grapples onto a platform above and launches you up",
                     "details": [
@@ -138,7 +136,7 @@
                     "name": "Transfiguration",
                     "shortDesc": "Stage 1: Attack Speed: +1, Speed: +5, Jump: +10, Power Stance Chance: 20%\\nStage 2: Attack Speed: +1, Speed: +10, Jump: +20, Power Stance Chance: +40%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/18/Skill_Transfiguration.png/revision/latest?cb=20120717143151"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/transfiguration.png"],
                     "type": "Passive",
                     "desc": "As you charge your Morph Gauge, you gain bonus effects",
                     "details": [
@@ -150,7 +148,7 @@
                     "name": "Dragon Link",
                     "shortDesc": "Morph Gauge fills faster, and the Dragon Link skill and the Kaiser attack skill that follows will have their final damage increased by 15%. Once used, any buff that increases the final damage of following attack will disappear regardless of the skill. Does not apply to Wing Beat.",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png"],
                     "type": "Special Active",
                     "desc": "Allows you to use Attack Commands by combining this Skill Key with a unique combination of Keys",
                     "details": [
@@ -163,7 +161,7 @@
                     "name": "Exclusive Spell",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d4/Skill_Exclusive_Spell_%28Nova%29.png/revision/latest?cb=20171217080447"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/exclusive-spell.png"],
                     "animations": ["https://media2.giphy.com/media/R0UHlI4FfAdRSmzRtL/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
@@ -178,7 +176,7 @@
                     "name": "Guardian's Return",
                     "shortDesc": "MP Cost: 100\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/73/Skill_Guardian%27s_Return.png/revision/latest?cb=20181007164332"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/guardians-return.png"],
                     "animations": ["https://media2.giphy.com/media/MtDluVIABhtbqOcoGY/giphy.gif"],
                     "type": "Active",
                     "desc": "Returns you to Pantheon, Kaiser's hometown"
@@ -191,7 +189,7 @@
                         "name": "Dragon Slash",
                         "shortDesc": "1-hit: Attack up to 8 enemies for 70% damage 3 times\\n2-hit: Up to 6 enemies attack for 50% damage 5 times\\n3-hit: Up to 6 enemies attack for 60% damage 5 times\\nFinal Form: Up to 8 enemies attack for 160% damage 5 times, Up to 10 enemies attack 6 times after 4th job",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png"],
                         "animations": ["https://media.giphy.com/media/SsHs6FaASxUfjk2Jta/giphy.gif"],
                         "type": "Basic Attack Modifier",
                         "desc": "Attacks in front of you consecutively up to 3 times"
@@ -201,12 +199,12 @@
                         "name": "Flame Surge",
                         "shortDesc": "MP Cost: 10, Damage: 170%, Number of Attacks: 2, Max Enemies Hit: 6",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7a/Skill_Flame_Surge_%28Kaiser%29.png/revision/latest?cb=20120710084019"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/flame-surge.png"],
                         "animations": ["https://media.giphy.com/media/ZEr8nWXKfiaMKZJGAc/giphy.gif"],
                         "type": "Attack",
                         "desc": "Launches fireballs forward towards nearby enemies",
                         "details": [
-                            "<img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'> <strong>[Combo]:</strong> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash' width='32' height='32'> (then) -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'>"
+                            "<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/> <strong>[Combo]:</strong> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash' width='32' height='32'/> (then) -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/>"
                         ]
                     },
                     {
@@ -214,7 +212,7 @@
                         "name": "Air Lift",
                         "shortDesc": "MP Cost: 10, Set Jump Distance, Max Speed: +20, Speed: +20",
                         "maxLevel": 15,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c3/Skill_Air_Lift.png/revision/latest?cb=20120710084058"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/air-lift.png"],
                         "animations": ["https://media.giphy.com/media/Yqt9wvIGanCoETbOJv/giphy.gif"],
                         "type": "Active",
                         "desc": "Double jump skill",
@@ -227,7 +225,7 @@
                         "name": "Scale Skin",
                         "shortDesc": "DEF: +200, Knockback Resistance: +40%",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Scale_Skin.png/revision/latest?cb=20120710084143"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/scale-skin.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -238,7 +236,7 @@
                         "name": "Dragon Slash I",
                         "shortDesc": "Additional 40% bonus to Dragon Slash damage",
                         "maxLevel": 2,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Dragon_Slash_I.png/revision/latest?cb=20120810142953", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash-i.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -250,12 +248,12 @@
                         "name": "Impact Wave",
                         "shortDesc": "MP Cost: 17, Damage: 270%, Mobs Hit: 8, Number of Attacks: 2",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Impact_Wave.png/revision/latest?cb=20120710091911"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/impact-wave.png"],
                         "animations": ["https://media.giphy.com/media/chmthJBWxZ1gA4yP3Q/giphy.gif"],
                         "type": "Attack",
                         "desc": "Send out a shockwave in front of you",
                         "details": [
-                            "<img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'> <strong>[Combo]:</strong> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash' width='32' height='32'> -> Up Arrow (together) + <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'>"
+                            "<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/> <strong>[Combo]:</strong> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash' width='32' height='32'/> -> Up Arrow (together) + <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/>"
                         ]
                     },
                     {
@@ -263,7 +261,7 @@
                         "name": "Piercing Blaze",
                         "shortDesc": "MP Cost: 20, Monsters Hit: 12, Damage: 250%, Stun Chance: 80%, Stun Duration: 2 sec",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Piercing_Blaze.png/revision/latest?cb=20120710091944"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/piercing-blaze.png"],
                         "animations": ["https://media.giphy.com/media/Q8VF9KTaIXhcw75sCR/giphy.gif"],
                         "type": "Attack",
                         "desc": "Dash forward while pushing enemies back",
@@ -276,12 +274,12 @@
                         "name": "Tempest Blades",
                         "shortDesc": "MP Cost: 30, Swords Summoned: 3. Use the skill again after summoning to send the swords at the enemy and deal 300% damage with 3 attacks.\\nCooldown: 10 sec\\nFinal Form: Number of Attacks: +1",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png"],
                         "animations": ["https://media4.giphy.com/media/1LA9MUMwL0tK8ZBg7M/giphy.gif"],
                         "type": "Attack",
                         "desc": "Summons swords that hover above your head",
                         "details": [
-                            "If you press the Skill Key again, the swords will seek out enemies in range"
+                            "Pressing the Skill Key again causes the swords to seek out enemies in range"
                         ]
                     },
                     {
@@ -289,7 +287,7 @@
                         "name": "Blaze On",
                         "shortDesc": "MP Cost: 30, Duration: 240 sec, Attack Power: +20, Attack Speed: +2",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Blaze_On.png/revision/latest?cb=20120710092156"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blaze-on.png"],
                         "animations": ["https://media2.giphy.com/media/Xf7QogrkqzI36ivNjx/giphy.gif"],
                         "type": "Buff",
                         "desc": "Increases Attack Speed (by 2 stages) and grants flat Attack"
@@ -299,7 +297,7 @@
                         "name": "Sword Mastery",
                         "shortDesc": "Two-Handed Sword Mastery: +50%",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120710092315"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/sword-mastery.png"],
                         "type": "Passive"
                     },
                     {
@@ -307,7 +305,7 @@
                         "name": "Inner Blaze",
                         "shortDesc": "STR: +20, HP: +20%",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/ce/Skill_Inner_Blaze.png/revision/latest?cb=20120710092407"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inner-blaze.png"],
                         "type": "Passive"
                     },
                     {
@@ -315,7 +313,7 @@
                         "name": "Defender Mode I",
                         "shortDesc": "Defense: Additional +200",
                         "maxLevel": 1,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-i.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -327,7 +325,7 @@
                         "name": "Attacker Mode I",
                         "shortDesc": "Attack Power: +10, Critical Rate: +2%, Boss Damage: +5%",
                         "maxLevel": 1,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Defender_Mode_I.png/revision/latest?cb=20120710092227", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-i.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -341,7 +339,7 @@
                         "name": "Dragon Slash II",
                         "shortDesc": "Additional 70% bonus to Dragon Slash damage",
                         "maxLevel": 2,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Dragon_Slash_II.png/revision/latest?cb=20120810144648", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash-ii.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -353,14 +351,15 @@
                         "name": "Wing Beat",
                         "shortDesc": "MP Cost: 35, Damage: 200%, Number of Attacks: 40, Chance to Slow Attacked Monsters: 40%\\nDissipates when certain number of attacks are made, set distance is traveled, or duration expires.",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Wing_Beat.png/revision/latest?cb=20120711071512"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png"],
                         "animations": ["https://media.giphy.com/media/JNxvdTpydxnjeRRzK3/giphy.gif"],
                         "type": "Attack",
                         "desc": "Creates a whirlwind that damages enemies it collides with",
                         "details": [
+                            "<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/> <strong>[Combo]:</strong> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash' width='32' height='32'/> -> Jump + <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/>",
                             "Up to 2 whirlwinds can be active at once",
                             "The whirlwind will disappear after a set distance or when the duration expires",
-                            "<img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'> <strong>[Combo]:</strong> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash' width='32' height='32'> -> Jump + <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'>"
+                            "Unaffected by Damage Reflect"
                         ]
                     },
                     {
@@ -368,25 +367,23 @@
                         "name": "Pressure Chain",
                         "shortDesc": "MP Cost: 30, Penetrates then pulls 8 enemies dealing 280% damage 2 times, Stun Chance: 95%",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0d/Skill_Pressure_Chain.png/revision/latest?cb=20120711072423"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/pressure-chain.png"],
                         "animations": ["https://media.giphy.com/media/Teymdfasnw9rTJWvng/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Launches your sword forward while pulling in enemies",
-                        "details": [
-                            "Has a chance to stun enemies"
-                        ]
+                        "desc": "Launches your sword forward while pulling in enemies with a chance to stun"
                     },
                     {
                         "id": 61111008,
                         "name": "Final Form",
                         "shortDesc": "MP Cost: 40, Duration: 60, Final Damage: +10%, Power Stance Chance: +100%. Ignores enemies' attack-ignoring and attack-reflecting effects.\\nAfter 4th Job Advancement: Final Damage: +15%",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png"],
                         "animations": ["https://media.giphy.com/media/YRV9WjMrXTvI6Xjhko/giphy.gif"],
                         "type": "Active Transform",
                         "desc": "Transforms you into your true form",
                         "details": [
                             "All your attacks will be enhanced and you gain increased %Final Damage, %Crit Rate and 100% Knockback Resistance<ul><li>In 4th Job, the bonus effects become stronger</li></ul>",
+                            "While transformed, your attacks ignore Attack Ignore and Damage Reflect",
                             "You can teleport a short distance by the Skill Key and an Arrow Key for the direction you want to go together"
                         ]
                     },
@@ -395,7 +392,7 @@
                         "name": "Stone Dragon",
                         "shortDesc": "MP Cost: 35, Summon Duration: 60 sec, Enemies Hit: 8, Damage: 400%, Slow Chance: 75%, Slow Duration: 3 sec",
                         "maxLevel": 15,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9d/Skill_Stone_Dragon.png/revision/latest?cb=20120711072454"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png"],
                         "animations": ["https://media.giphy.com/media/WPv39R4DsuzoKmsurS/giphy.gif"],
                         "type": "Summon",
                         "desc": "Summons a dragon statue that attacks and pulls in nearby enemies",
@@ -409,7 +406,7 @@
                         "name": "Cursebite",
                         "shortDesc": "MP Cost: 40, Duration: 240 sec, Status Resistance: +60, Elemental Resistance: +60%\\nFinal Damage against monsters with Abnormal Status increases by 15%.",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/48/Skill_Cursebite.png/revision/latest?cb=20120711072547"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/cursebite.png"],
                         "animations": ["https://media1.giphy.com/media/fZ26qxlsTkxJZ75CoZ/giphy.gif"],
                         "type": "Buff",
                         "desc": "Increases Abnormal Status Resistance, %Elemental Resistance",
@@ -422,7 +419,7 @@
                         "name": "Catalyze",
                         "shortDesc": "Attack Power: +30%, Critical Rate: +20%, Final Damage: +20%",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d3/Skill_Catalyze.png/revision/latest?cb=20160627053430"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/catalyze.png"],
                         "type": "Passive"
                     },
                     {
@@ -430,7 +427,7 @@
                         "name": "Self Recovery",
                         "shortDesc": "Every 4 sec, restores 5% HP and MP even in combat.",
                         "maxLevel": 5,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Self_Recovery_%28Kaiser%29.png/revision/latest?cb=20120711072822"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/self-recovery.png"],
                         "type": "Passive"
                     },
                     {
@@ -438,7 +435,7 @@
                         "name": "Advanced Inner Blaze",
                         "shortDesc": "STR: +30, HP: +30%",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/62/Skill_Advanced_Inner_Blaze.png/revision/latest?cb=20120711072910"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/advanced-inner-blaze.png"],
                         "type": "Passive"
                     },
                     {
@@ -446,12 +443,12 @@
                         "name": "Defender Mode II",
                         "shortDesc": "Defense: Additional +200\\n3% of max HP restored when using Dragon Link skills.",
                         "maxLevel": 1,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-ii.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
                             "Increases DEF provided",
-                            "Now when toggled, attacks activated using <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link'/> will restore some %Max HP"
+                            "Now when toggled, attacks activated using <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/> will restore some %Max HP"
                         ]
                     },
                     {
@@ -459,12 +456,12 @@
                         "name": "Attacker Mode II",
                         "shortDesc": "Attack Power: +15, Critical Rate: +5%, Boss Damage: +5%\\nFinal Damage additionally increased by 5% when using Dragon Link skills.",
                         "maxLevel": 1,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Defender_Mode_II.png/revision/latest?cb=20120711072722", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-ii.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
                             "Increases Attack, %Crit Rate, and %Boss Damage provided",
-                            "Now when toggled, attacks activated using <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link'/> gain increased %Final Damage"
+                            "Now when toggled, attacks activated using <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/> gain increased %Final Damage"
                         ]
                     }]
                 ],
@@ -474,7 +471,7 @@
                     "name": "Dragon Slash III",
                     "shortDesc": "Additional 90% bonus to Dragon Slash damage",
                     "maxLevel": 6,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Dragon_Slash_III.png/revision/latest?cb=20120810145754", "https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash-iii.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -486,13 +483,13 @@
                     "name": "Gigas Wave",
                     "shortDesc": "MP Cost: 50, Enemies Hit: 1, Damage: 330%, Number of Attacks: 9\\nFinal Form: MP Cost: 60, Enemies Hit: 3, Damage: 330%, Number of Attacks: 11",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png"],
                     "animations": ["https://media.giphy.com/media/cP5XFUcr3vkzW0e8m8/giphy.gif"],
                     "type": "Attack",
                     "desc": "Unleashes a flurry of attacks on a single enemy",
                     "details": [
-                        "Enemies hit are slowed",
-                        "<img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'> <strong>[Combo]: </strong><img src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash' width='32' height='32'> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852' alt='Skill Gigas Wave' width='32' height='32'>"
+                        "<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/> <strong>[Combo]: </strong><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash' width='32' height='32'/> -> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave' width='32' height='32'/>",
+                        "Enemies hit are slowed"
                     ]
                 },
                 {
@@ -500,12 +497,12 @@
                     "name": "Dragon Barrage",
                     "shortDesc": "MP Cost: 50, Max Enemies Hit: 12, Damage: 550%, Number of Attacks: 7\\nFinal Form: MP Cost: 60, Enemies Hit: 12, Damage: 550%, Number of Attacks: 9.\\nCooldown: 5 sec.",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b0/Skill_Dragon_Barrage.png/revision/latest?cb=20120711155148"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-barrage.png"],
                     "animations": ["https://media.giphy.com/media/cIDaNCkmfZno9R9Z44/giphy.gif"],
                     "type": "Attack",
                     "desc": "Dash forward leaving an exploding trail behind you",
                     "details": [
-                        "<img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'> <strong>[Combo]:</strong> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952' alt='Skill Dragon Slash' width='32' height='32'> -> Left Arrow/Right Arrow + <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'><ul><li>Arrow Key you press is the opposite of the direction you are facing</li></ul>"
+                        "<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/> <strong>[Combo]:</strong> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash' width='32' height='32'/> -> Left Arrow/Right Arrow + <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/><ul><li>Arrow Key you press is the opposite of the direction you are facing</li></ul>"
                     ]
                 },
                 {
@@ -513,21 +510,21 @@
                     "name": "Blade Burst",
                     "shortDesc": "MP Cost: 45, Mobs Hit: 12, Damage: 300%, Number of Attacks: 5. Explosion damage hits 12 enemies for 225% damage 4 times.",
                     "maxLevel": 20,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Blade_Burst.png/revision/latest?cb=20120711155311"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png"],
                     "animations": ["https://media2.giphy.com/media/jBTUak4IWQ6rvehl0V/giphy.gif"],
                     "type": "Attack",
                     "desc": "Swords strike down on enemies and explode on your location",
                     "details": [
-                        "Can be used in the air",
-                        "<img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'> <strong>[Combo]: </strong>-> Down Arrow + <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4d/Skill_Dragon_Link.png/revision/latest?cb=20160609063015' alt='Skill Dragon Link' width='32' height='32'>"
+                        "<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/> <strong>[Combo]: </strong>-> Down Arrow + <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link' width='32' height='32'/>",
+                        "Can be used in the air"
                     ]
                 },
                 {
                     "id": 61121105,
                     "name": "Inferno Breath",
-                    "shortDesc": "MP Cost: 70, Damage: 300%, Number of Attacks: 8, Max Enemies Hit: 15, Continuous Damage Dealt Afterwards\\nCooldown: 20 sec",
+                    "shortDesc": "MP Cost: 70, Damage: 300%, Number of Attacks: 8, Max Enemies Hit: 15. Creates several fire trails afterwards.\\nFire trail periodically inflicts 200% damage up to 6 enemies for 20 sec.\\nCooldown: 20 sec",
                     "maxLevel": 20,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6f/Skill_Inferno_Breath.png/revision/latest?cb=20120711155347"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png"],
                     "animations": ["https://media.giphy.com/media/Pn7tLd3SRqymurqs3K/giphy.gif"],
                     "type": "Attack",
                     "desc": "Summons a dragon that breaths fire on enemies. The attack leaves a trail of fire that damages enemies",
@@ -540,7 +537,7 @@
                     "name": "Advanced Tempest Blade",
                     "shortDesc": "MP Cost: 60, Number of Your Swords Summoned: 5. Use the skill again after summoning to send the swords at the enemy and deal 400% damage with 4 attacks.\\nCooldown: 10 sec\\nPermanently Increase Attack Power: +20\\nFinal Form: Number of Attacks: +1",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/40/Skill_Advanced_Tempest_Blades.png/revision/latest?cb=20120711155438", "https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/advanced-tempest-blades.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -551,18 +548,22 @@
                 {
                     "id": 61121009,
                     "name": "Grand Armor",
-                    "shortDesc": "MP Cost: MP 60, Duration: 240, Damage Taken: -30%, Party's Damage Taken: -10%",
+                    "shortDesc": "MP Cost: MP 10% of Max MP, Duration: 15 sec. Damage taken, including attacks that deal damage in proportion to Max HP, is reduced by 12%.\\nCooldown: 120 sec.\\n[Passive Effect - Damage Taken: -20%]",
                     "maxLevel": 20,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/10/Skill_Grand_Armor.png/revision/latest?cb=20120711155721"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/grand-armor.png"],
                     "animations": ["https://media0.giphy.com/media/cIKW4al99NOXpwvxtH/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Buff",
+                    "desc": "Increases %Damage Reduction including %Max HP attacks",
+                    "details": [
+                        "<strong>[Passive]</strong>: Permanently increases %Damage Reudction (Regular Monsters)"
+                    ]
                 },
                 {
                     "id": 61120011,
                     "name": "Unbreakable Will",
                     "shortDesc": "40% monster DEF ignored",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/16/Skill_Unbreakable_Will.png/revision/latest?cb=20120711164408"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/unbreakable-will.png"],
                     "type": "Passive"
                 },
                 {
@@ -570,7 +571,7 @@
                     "name": "Expert Sword Mastery",
                     "shortDesc": "Two-Handed Sword Mastery: +70%, Attack Power: +30, Critical Rate: +20%, Critical Damage: +15%",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/88/Skill_Expert_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120711164442", "https://vignette.wikia.nocookie.net/maplestory/images/8/84/Skill_Sword_Mastery_%28Kaiser%29.png/revision/latest?cb=20120710092315"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/expert-sword-mastery.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/sword-mastery.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -583,7 +584,7 @@
                     "name": "Nova Warrior",
                     "shortDesc": "MP Cost: 60, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Nova_Warrior_%28Kaiser%29.png/revision/latest?cb=20171217232514"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-warrior.png"],
                     "animations": ["https://media3.giphy.com/media/AvN8Xla6VPprOB8pXS/giphy.gif"],
                     "type": "Party Buff"
                 },
@@ -592,7 +593,7 @@
                     "name": "Nova Temperance",
                     "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
                     "maxLevel": 5,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/30/Skill_Nova_Temperance.png/revision/latest?cb=20171212091230"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/nova-temperance.png"],
                     "animations": ["https://media2.giphy.com/media/vo6UGpCKG27VWiR297/giphy.gif"],
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
@@ -602,12 +603,12 @@
                     "name": "Defender Mode III",
                     "shortDesc": "Defense: Additional +200\\nDamage Reduction During Final Form: 5% (including Percentage HP attacks)",
                     "maxLevel": 2,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225", "https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Realign_Defender_Mode.png/revision/latest?cb=20120717143137"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-iii.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
                         "Increases DEF provided",
-                        "Now when toggled, while in <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'/>, gain increased %Damage Reduction (including %Max HP attacks)"
+                        "Now when toggled, while in <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/>, gain increased %Damage Reduction (including %Max HP attacks)"
                     ]
                 },
                 {
@@ -615,12 +616,12 @@
                     "name": "Attacker Mode III",
                     "shortDesc": "Attack Power: +15, Critical Rate: +10%, Boss Damage: +5%\\nDamage additionally increased by 10% when attacking Boss Monsters in Final Form mode.",
                     "maxLevel": 2,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/39/Skill_Defender_Mode_III.png/revision/latest?cb=20120711164225", "https://vignette.wikia.nocookie.net/maplestory/images/8/8a/Skill_Realign_Attacker_Mode.png/revision/latest?cb=20120717143142"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-iii.png", "http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
                         "Increases Attack, %Crit Rate, and %Boss Damage provided",
-                        "Now when toggled, when in <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'/>, gain increased %Boss Damage"
+                        "Now when toggled, when in <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/>, gain increased %Boss Damage"
                     ]
                 }]
             ]
@@ -632,7 +633,7 @@
                     "name": "Gigas Wave - Reinforce",
                     "shortDesc": "Damage +20%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f7/Skill_Gigas_Wave_-_Reinforce.png/revision/latest?cb=20120819013222"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 140
                 },
@@ -641,7 +642,7 @@
                     "name": "Gigas Wave - Burden",
                     "shortDesc": "Duration +5 sec",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Gigas_Wave_-_Burden.png/revision/latest?cb=20130624053437"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave-burden.png"],
                     "type": "Passive",
                     "desc": "Increases duration of slow",
                     "reqLev": 150
@@ -651,7 +652,7 @@
                     "name": "Gigas Wave - Bonus Attack",
                     "shortDesc": "Number of Hits +1",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3a/Skill_Gigas_Wave_-_Bonus_Attack.png/revision/latest?cb=20120819013507"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave-bonus-attack.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -660,7 +661,7 @@
                     "name": "Inferno Breath - Reinforce",
                     "shortDesc": "Damage +20%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/17/Skill_Inferno_Breath_-_Reinforce.png/revision/latest?cb=20120819013614"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 140
                 },
@@ -669,7 +670,7 @@
                     "name": "Inferno Breath - Burn",
                     "shortDesc": "Flame duration +10 sec",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/42/Skill_Inferno_Breath_-_Burn.png/revision/latest?cb=20120819013730"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath-burn.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
@@ -678,7 +679,7 @@
                     "name": "Inferno Breath - Blaze",
                     "shortDesc": "Flame Damage +20%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Inferno_Breath_-_Blaze.png/revision/latest?cb=20120819013942"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath-blaze.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -687,7 +688,7 @@
                     "name": "Wing Beat - Reinforce",
                     "shortDesc": "Damage +20%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/38/Skill_Wing_Beat_-_Reinforce.png/revision/latest?cb=20120819014143"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
@@ -696,7 +697,7 @@
                     "name": "Wing Beat - Pummel",
                     "shortDesc": "Duration +5 sec",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/01/Skill_Wing_Beat_-_Pummel.png/revision/latest?cb=20120819014234"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-pummel.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
@@ -705,7 +706,7 @@
                     "name": "Wing Beat - Extra Attack",
                     "shortDesc": "Number of Hits +8",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fa/Skill_Wing_Beat_-_Extra_Attack.png/revision/latest?cb=20120819014326"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-extra-attack.png"],
                     "type": "Passive",
                     "reqLev": 190
                 }
@@ -716,10 +717,10 @@
                     "name": "Kaiser's Majesty",
                     "shortDesc": "MP Cost: 300, Cooldowns Reset, Duration: 30 sec, ATT +30, Attack Speed +1. Negates enemy's Attack Ignore and Attack Reflect effects\\nCooldown: 90 sec. Hyper Skill cooldowns not reset.",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Kaiser%27s_Majesty.png/revision/latest?cb=20121015212936"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/kaisers-majesty.png"],
                     "animations": ["https://media4.giphy.com/media/acfMhcGA8oUEizIr3k/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Increases Attack, Attack Speed (by 1 stage) and attacks will negate Attack Ignore and Damage Reflect effects",
+                    "desc": "Increases Attack, Attack Speed (by 1 stage) and attacks will ignore Attack Ignore and Damage Reflect effects",
                     "details": [
                         "Resets cooldowns of 1st - 4th Job skills"
                     ],
@@ -730,7 +731,7 @@
                     "name": "Ancestral Prominence",
                     "shortDesc": "MP Cost: 300, Max Enemies Hit: 15, Damage: 1000%, Number of Attacks: 15. Invincible during casting.\\nCooldown: 60 sec",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6e/Skill_Ancestral_Prominence.png/revision/latest?cb=20120819014423"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png"],
                     "animations": ["https://media0.giphy.com/media/leAltxVhD1T7wuTLd3/giphy.gif"],
                     "type": "Attack",
                     "desc": "Unleashes a powerful explosion that blows up enemies on screen",
@@ -744,10 +745,10 @@
                     "name": "Final Trance",
                     "shortDesc": "MP Cost: 300, Transforms into Final Form for 60 sec.\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Final_Trance.png/revision/latest?cb=20120819014545"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-trance.png"],
                     "animations": ["https://media1.giphy.com/media/zngA7kj6xJNrizAPmc/giphy.gif"],
                     "type": "Buff / Transform",
-                    "desc": "Immediately transforms you into <img src='https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949' alt='Skill Final Form'/> Final Form",
+                    "desc": "Immediately transforms you into <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/> Final Form",
                     "reqLev": 190
                 }
             ]
@@ -759,12 +760,12 @@
                     "name": "Nova Guardians",
                     "shortDesc": "MP Cost: 1000, Duration: 42 sec, summons 3 Kaisers with limited movement range. After Kaisers are summoned, use the skill again to bring them to your location. Can be used once every 10 seconds.\\nKaiser VI - Attacks up to 10 enemies for 825% damage 4 times.\\nKaiser XV - Attacks up to 10 enemies for 500% damage 6 times.\\nKaiser XXVII - Attacks up to 10 enemies for 1775% damage 2 times.\\n.Cooldown: 120 sec.",
                     "id": 400021002,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/36/Skill_Nova_Guardians.png/revision/latest?cb=20161125062712"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-guardians.png"],
                     "animations": ["https://media1.giphy.com/media/0apm2wAd2YCqUF4SE7/giphy.gif"],
                     "type": "Summon",
                     "desc": "Summons previous Kaiser knights to fight by your side",
                     "details": [
-                        "Pressing the Skill Key again while the summons are active will move them to your location (can be done every 10 secs)",
+                        "Pressing the Skill Key again while the summons are active will move them to your location",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -772,13 +773,14 @@
                     "name": "Bladefall",
                     "shortDesc": "MP Cost: 1000, each blade strikes for 1000% damage 4 times and creates a pool of magma where it lands after 2 sec.\\nThe magma hits up to 12 enemies dealing 1400% damage 6 times and increases up to 2000% in proportion to the time the blade remained in the ground after landing.\\nIgnores Draco Surge's cooldown 3 time(s).\\nCooldown: 30 sec\\nFinal Form: Tempest Blades and magma's attack counts increase by 1.",
                     "id": 400021030,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Bladefall.png/revision/latest?cb=20170609033036"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/bladefall.png"],
                     "animations": ["https://media2.giphy.com/media/0PVngRV8eKgwsaWVcI/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Your <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015' alt='Skill Tempest Blades'> Tempest Blades seek out enemies and slam into the ground at their location",
+                    "desc": "Your <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/> Tempest Blades seek out enemies and slam into the ground at their location",
                     "details": [
+                        "<img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/> must be active in order to use skill",
                         "Pressing the skill key again will release the swords causing an explosion<ul><li>The explosion will deal more damage the longer it stays in the ground</li></ul>",
-                        "Ignores <img src='https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Draco_Surge.png/revision/latest?cb=20181115065214' alt='Skill Draco Surge'/> Draco Surge's cooldown (up to 3 times)",
+                        "Ignores <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/draco-surge.png' alt='Skill Draco Surge'/> Draco Surge's cooldown (up to 3 times)",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -786,10 +788,10 @@
                     "name": "Draco Surge",
                     "shortDesc": "MP Cost: 60, Max Enemies Hit: 8, Damage: 625%, Number of Attacks: 10. After that, launches the Dragon Warrant, Damage: 625%, Number of Attacks: 6, Max Enemies Hit: 8. Additional Critical rate: +100%, Additional Monster DEF Ignored: +50%\\nFinal Form: Increases Draco Wave's attack count by 2\\nActivates upon using Gigas Wave\\nCooldown: 6 sec",
                     "id": 400021067,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Draco_Surge.png/revision/latest?cb=20181115065214"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/draco-surge.png"],
                     "animations": ["https://media0.giphy.com/media/EDFhkmxclUiE0Cs8Ta/giphy.gif"],
                     "type": "Passive Attack",
-                    "desc": "Periodically enhances <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852' alt='Skill Gigas Wave'> becoming Draco Surge that launches an additional attack",
+                    "desc": "Periodically enhances <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/> becoming Draco Surge that launches an additional attack",
                     "details": [
                         "Has increased %Ignore DEF and is a guaranteed Critical Hit",
                         "Unaffected by Damage Reflect"
@@ -799,13 +801,13 @@
                     "name": "Dragon Blaze",
                     "shortDesc": "MP Cost: 1000, Deal automatic attacks to up to 8 surrounding enemies for 500% damage 6 times periodically for 20 sec.\\nFire Energy: Maintained 5 sec. Upon detonation, the Fire Energy and surroundings near Kaiser will attack up to 10 enemies for 750% damage 5 time(s). Explosion Cooldown: 3.6 sec\\nFire Orb: 6 Forms Fire Orb(s) that attack for 700% damage 3 time(s). Re-creation Cooldown: 10 sec\\nCooldown: 120 sec",
                     "id": 400021067,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/dragon-blaze.png?w=600"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-blaze.png"],
                     "animations": ["https://media4.giphy.com/media/F3tTpw4PwnrV4fvvL9/giphy.gif"],
                     "type": "Attack",
                     "desc": "Flames surround you that damages enemies caught in it",
                     "details": [
+                        "<strong>[Passive]</strong>: While skill is on cooldown, your attacks create homing fireballs similar to <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/><ul><li>Right-clicking the skill will turn the fireballs ON/OFF</li></ul>",
                         "While active, a haze is left at places you pass through<ul><li>Attacks in these haze cause it to explode, damaging nearby enemies</li></ul>",
-                        "<strong>[Passive]</strong>: While skill is on cooldown, your attacks create homing fireballs similar to <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015' alt='Skill Tempest Blades'><ul><li>Right-clicking the skill will turn the fireballs on/off</li></ul>",
                         "Pressing the Skill Key again will cancel the skill",
                         "Unaffected by Damage Reflect"
                     ]
@@ -815,37 +817,37 @@
         "notable": [
             {
                 "name": "Dragon Slash - 1st/2nd/3rd/4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/df/Skill_Dragon_Slash.png/revision/latest?cb=20170327193952"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png"],
                 "animations": ["https://media.giphy.com/media/SsHs6FaASxUfjk2Jta/giphy.gif"]
             },
             {
                 "name": "Tempest Blades - 2nd Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e3/Skill_Tempest_Blades.png/revision/latest?cb=20120710092015"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png"],
                 "animations": ["https://media.giphy.com/media/H6KAojpDTUO36oSGO7/giphy.gif"]
             },
             {
                 "name": "Wing Beat - 3rd Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Wing_Beat.png/revision/latest?cb=20120711071512"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png"],
                 "animations": ["https://media.giphy.com/media/JNxvdTpydxnjeRRzK3/giphy.gif"]
             },
             {
                 "name": "Final Form - 3rd Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Final_Form.png/revision/latest?cb=20120711072949"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png"],
                 "animations": ["https://media.giphy.com/media/YRV9WjMrXTvI6Xjhko/giphy.gif"]
             },
             {
                 "name": "Gigas Wave - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/96/Skill_Gigas_Wave.png/revision/latest?cb=20120711154852"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png"],
                 "animations": ["https://media.giphy.com/media/cP5XFUcr3vkzW0e8m8/giphy.gif"]
             },
             {
                 "name": "Blade Burst - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Blade_Burst.png/revision/latest?cb=20120711155311"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png"],
                 "animations": ["https://media.giphy.com/media/gjNJZf8X6RgJWSqvxd/giphy.gif"]
             },
             {
                 "name": "Bladefall - 5th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Bladefall.png/revision/latest?cb=20170609033036"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/bladefall.png"],
                 "animations": ["https://media2.giphy.com/media/0PVngRV8eKgwsaWVcI/giphy.gif"]
             }
         ]

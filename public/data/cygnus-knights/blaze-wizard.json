@@ -19,43 +19,44 @@
         "innerAbility": ["Boss Damage", "Buff Duration", "Crit Rate"],
         "prosCons": {
             "pros": [
-                "Mage with <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Firewalk.png/revision/latest?cb=20140429061758' alt='Skill Firewalk'> double jump",
+                "Mage with <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/firewalk.png' alt='Skill Firewalk'/> double jump",
                 "Few buffs<ul><li>Buffs have a long duration too (4 mins)</li></ul>",
-                "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Fires_of_Creation.png/revision/latest?cb=20141024054050' alt='Skill Fires of Creation'> Cute summon that follows you and grants Magic Attack",
-                "Has a skill that regenerates MP, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Controlled_Burn.png/revision/latest?cb=20141024045226' alt='Skill Controlled Burn'> Controlled Burn",
-                "Has a revive, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Phoenix_Run.png/revision/latest?cb=20141024051357' alt='Skill Phoenix Run'> Phoenix Run",
-                "Cygnus Knight characters do not need <img width='32' height='29' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png/revision/latest?cb=20140817012100' alt='Use Mastery Book 20'><img width='32' height='29' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png/revision/latest?cb=20140817012104' alt='Use Mastery Book 30'>Mastery Books"
+                "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> Cute summon that follows you and grants Magic Attack",
+                "Has a skill that regenerates MP, <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/controlled-burn.png' alt='Skill Controlled Burn'/> Controlled Burn",
+                "Has a revive, <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/> Phoenix Run",
+                "Cygnus Knight characters do not need <img width='32' height='29' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Use_Mastery_Book_20.png/revision/latest?cb=20140817012100' alt='Use Mastery Book 20'/><img width='32' height='29' class='' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Use_Mastery_Book_30.png/revision/latest?cb=20140817012104' alt='Use Mastery Book 30'/>Mastery Books"
             ],
             "cons": [
                 "Consumes a lot of MP ( A LOT!!)",
                 "Somewhat squishy around 4th Job",
-                "Main attack <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738' alt='Skill Orbital Flame' width='32' height='32' /> Orbital Flame is a bit clunky<ul><li>For some reason, the damage it dealt felt really lackluster compared to how it looked especially the up attack<ul>",
+                "Main attack <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame' width='32' height='32' /> Orbital Flame is a bit clunky<ul><li>For some reason, the damage it dealt felt really lackluster compared to how it looked especially the up attack<ul>",
                 "Lots of skills have cooldowns",
                 "Revive skill is a buff that has a duration and can expire"
             ]
         },
         "baseStats": [
-            "Excludes Hyper Skill Passives, Link Skills, and buffs with cooldowns",
+            "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with cooldowns",
             [
-                "<strong>Crit Rate</strong>: +30% (+5% when Wand equipped)",
-                "<strong>Crit Damage</strong>: +15%",
-                "<strong>Final Damage</strong>: +80%",
-                "<strong>Knockback Resistance</strong>: +0%",
-                "<strong>Attack Speed (Weapon)</strong>: 5",
-                "<strong>Ignore DEF</strong>: +30%",
-                "<strong>Abnormal Status Resistance</strong>: 30"
+                "<strong>Attack</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/> +10%]",
+                "<strong>Crit Rate</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/> +30%] [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/natural-talent.png' alt='Skill Natural Talent'/> +5% when wand is equipped]",
+                "<strong>Crit Damage</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/> +20%]",
+                "<strong>Final Damage</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/> +30%] [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic'/> +50%]",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
+                "<strong>Ignore DEF</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> +30%]",
+                "<strong>Ignore Elemental Resistance</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> +10%]",
+                "<strong>Abnormal Status Resistance</strong>: [<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/> 30]"
             ]
         ],
         "buffInfo": {
-            "active": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Word_of_Fire.png/revision/latest?cb=20140918072400' alt='Skill Word of Fire'>, <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'>",
-            "summons": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blazing_Extinction.png/revision/latest?cb=20141024054040' alt='Skill Blazing Extinction'>(5s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Burning_Conduit.png/revision/latest?cb=20141024054055' alt='Skill Burning Conduit'>(45s cd), (5s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/80/Skill_Phalanx_Charge.png/revision/latest?cb=20170623004415' alt='Skill Phalanx Charge'>(30s cd)",
-            "buffCd": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Phoenix_Run.png/revision/latest?cb=20141024051357' alt='Skill Phoenix Run'>(1800s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Fires_of_Creation.png/revision/latest?cb=20141024054050' alt='Skill Fires of Creation'>(5s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Burning_Conduit.png/revision/latest?cb=20141024054055' alt='Skill Burning Conduit'>(45s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Flame_Barrier.png/revision/latest?cb=20141024054100' alt='Skill Flame Barrier'>(90s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/53/Skill_Glory_of_the_Guardians_%28Dawn_Warrior%29.png/revision/latest?cb=20130411164242' alt='Skill Glory of the Guardians (Dawn Warrior)'>(120s cd)",
-            "buffFifth": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/67/Skill_Mana_Overload.png/revision/latest?cb=20161018183739' alt='Skill Mana Overload'>(59 - 30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Empress_Cygnus%27s_Blessing.png/revision/latest?cb=20191122065036' alt='Skill Empress Cygnus's Blessing'>(240s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)",
-            "iFrame": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Phoenix_Run.png/revision/latest?cb=20141024051357' alt='Skill Phoenix Run'>(1800s cd revive), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Cataclysm.png/revision/latest?cb=20140924180305' alt='Skill Cataclysm'>(100s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0e/Skill_Ethereal_Form.png/revision/latest?cb=20171203075802' alt='Skill Ethereal Form'>(60s cd)"
+            "active": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/>, <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png' alt='Skill Word of Fire'/>, <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>",
+            "summons": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/>(5s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/>(45s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/>(30s cd), <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/salamander-mischief.png' alt='Skill Salamander Mischief'/>(90s cd)",
+            "buffCd": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/>(1800s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/>(5s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/>(45s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png' alt='Skill Flame Barrier'/>(90s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png' alt='Skill Glory of the Guardians (Dawn Warrior)'/>(120s cd)",
+            "buffFifth": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/>(59 - 30s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>(240s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd)",
+            "iFrame": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/>(1800s cd revive), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/>(100s cd), <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd)"
         },
         "linkSkill": {
                 "id": 80000055,
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/link-skills/cygnus-blessing.png"],
                 "type": "Passive",
                 "desc": "",
                 "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level"]
@@ -72,23 +73,23 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Natural_Talent.png/revision/latest?cb=20140429061812' alt='Skill Natural Talent'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Fire_Repulsion.png/revision/latest?cb=20140429061804' alt='Skill Fire Repulsion'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Firewalk.png/revision/latest?cb=20140429061758' alt='Skill Firewalk'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748' alt='Skill Flame Elemental'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738' alt='Skill Orbital Flame'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Flame_Bite.png/revision/latest?cb=20140429061742' alt='Skill Flame Bite'>"],
-                ["2nd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Flashfire.png/revision/latest?cb=20140924033034' alt='Skill Flashfire'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Spell_Control.png/revision/latest?cb=20141024045233' alt='Skill Spell Control'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Word_of_Fire.png/revision/latest?cb=20140918072400' alt='Skill Word of Fire'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Greater_Flame_Elemental.png/revision/latest?cb=20140926023602' alt='Skill Greater Flame Elemental'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Controlled_Burn.png/revision/latest?cb=20141024045226' alt='Skill Controlled Burn'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Greater_Orbital_Flame.png/revision/latest?cb=20140929180416' alt='Skill Greater Orbital Flame'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Flame_Vortex.png/revision/latest?cb=20141024045212' alt='Skill Flame Vortex'>"],
-                ["3rd Job", "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Brilliant_Enlightenment.png/revision/latest?cb=20141024051409' alt='Skill Brilliant Enlightenment'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Burning_Focus.png/revision/latest?cb=20141024051414' alt='Skill Burning Focus'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Grand_Flame_Elemental.png/revision/latest?cb=20140926024336' alt='Skill Grand Flame Elemental'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Liberated_Magic.png/revision/latest?cb=20141024051403' alt='Skill Liberated Magic'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Phoenix_Run.png/revision/latest?cb=20141024051357' alt='Skill Phoenix Run'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Cinder_Maelstrom.png/revision/latest?cb=20141024051351' alt='Skill Cinder Maelstrom'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Grand_Orbital_Flame.png/revision/latest?cb=20141024051340' alt='Skill Grand Orbital Flame'> -> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Flame_Tempest.png/revision/latest?cb=20141024051344' alt='Skill Flame Tempest'>"],
-                ["4th Job", "<img src='https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Final_Flame_Elemental.png/revision/latest?cb=20140924171827' alt='Skill Final Flame Elemental' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Pure_Magic.png/revision/latest?cb=20141001065845' alt='Skill Pure Magic' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Final_Orbital_Flame.png/revision/latest?cb=20141024054036' alt='Skill Final Orbital Flame' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Fires_of_Creation.png/revision/latest?cb=20141024054050' alt='Skill Fires of Creation' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Flame_Barrier.png/revision/latest?cb=20141024054100' alt='Skill Flame Barrier' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Wild_Blaze.png/revision/latest?cb=20141024054104' alt='Skill Wild Blaze' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Burning_Conduit.png/revision/latest?cb=20141024054055' alt='Skill Burning Conduit' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Towering_Inferno.png/revision/latest?cb=20141024054045' alt='Skill Towering Inferno' width='32' height='32' /> -> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blazing_Extinction.png/revision/latest?cb=20141024054040' alt='Skill Blazing Extinction' width='32' height='32' />"]
+                ["1st Job", "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/natural-talent.png' alt='Skill Natural Talent'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fire-repulsion.png' alt='Skill Fire Repulsion'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/firewalk.png' alt='Skill Firewalk'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-elemental.png' alt='Skill Flame Elemental'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-bite.png' alt='Skill Flame Bite'/>"],
+                ["2nd Job", "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flashfire.png' alt='Skill Flashfire'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/spell-control.png' alt='Skill Spell Control'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png' alt='Skill Word of Fire'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/greater-flame-elemental.png' alt='Skill Greater Flame Elemental'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/controlled-burn.png' alt='Skill Controlled Burn'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/greater-orbital-flame.png' alt='Skill Greater Orbital Flame'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-vortex.png' alt='Skill Flame Vortex'/>"],
+                ["3rd Job", "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/brilliant-enlightenment.png' alt='Skill Brilliant Enlightenment'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='Skill Burning Focus'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/grand-flame-elemental.png' alt='Skill Grand Flame Elemental'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png' alt='Skill Cinder Maelstrom'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame.png' alt='Skill Grand Orbital Flame'/> -> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png' alt='Skill Flame Tempest'/>"],
+                ["4th Job", "<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/final-flame-elemental.png' alt='Skill Final Flame Elemental' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame.png' alt='Skill Final Orbital Flame' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png' alt='Skill Flame Barrier' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno' width='32' height='32' /> -> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction' width='32' height='32' />"]
             ],
             "details": [
                 "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
-                "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
+                "To obtain <img src='http://localhost:3000/grandislibrary/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Orbital_Flame_-_Range.png/revision/latest?cb=20160206182904' alt='Skill Orbital Flame - Range' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Orbital_Flame_-_Guardbreak.png/revision/latest?cb=20140924180211' alt='Skill Orbital Flame - Guardbreak' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Orbital_Flame_-_Split_Attack.png/revision/latest?cb=20140924180218' alt='Skill Orbital Flame - Split Attack' width='32' height='32'> Orbital Flame - Range, Guard Break and Split Attack</li><li><img src='https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Blazing_Extinction_-_Reinforce.png/revision/latest?cb=20140924180232' alt='Skill Blazing Extinction - Reinforce' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Blazing_Extinction_-_Add_Attack.png/revision/latest?cb=20140511155835' alt='Skill Blazing Extinction - Add Attack' width='32' height='32'> Blazing Extinction - Reinforce and Add Attack</li></ul>" 
+            "recommended": "<ul><li><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame-range.png' alt='Skill Orbital Flame - Range' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame-guardbreak.png' alt='Skill Orbital Flame - Guardbreak' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame-split-attack.png' alt='Skill Orbital Flame - Split Attack' width='32' height='32'/> Orbital Flame - Range, Guard Break and Split Attack</li><li><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-reinforce.png' alt='Skill Blazing Extinction - Reinforce' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-add-attack.png' alt='Skill Blazing Extinction - Add Attack' width='32' height='32'/> Blazing Extinction - Reinforce and Add Attack</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<img src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738' alt='Skill Orbital Flame' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blazing_Extinction.png/revision/latest?cb=20141024054040' alt='Skill Blazing Extinction' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition' width='32' height='32'> <img src='/class-icons/blaze-wizard/dragon-blaze.png' alt='Skill Dragon Blaze' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Towering_Inferno.png/revision/latest?cb=20141024054045' alt='Skill Towering Inferno' width='32' height='32'> <img src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Cataclysm.png/revision/latest?cb=20140924180305' alt='Skill Cataclysm' width='32' height='32'>",
-            "possible": "<img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738' alt='Skill Orbital Flame'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Flame_Bite.png/revision/latest?cb=20140429061742' alt='Skill Flame Bite'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Flame_Vortex.png/revision/latest?cb=20141024045212' alt='Skill Flame Vortex'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Flame_Tempest.png/revision/latest?cb=20141024051344' alt='Skill Flame Tempest'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Cinder_Maelstrom.png/revision/latest?cb=20141024051351' alt='Skill Cinder Maelstrom'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blazing_Extinction.png/revision/latest?cb=20141024054040' alt='Skill Blazing Extinction'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Towering_Inferno.png/revision/latest?cb=20141024054045' alt='Skill Towering Inferno'> <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Cataclysm.png/revision/latest?cb=20140924180305' alt='Skill Cataclysm'> <img width='32' height='32' src='/class-icons/blaze-wizard/dragon-blaze.png' alt='Skill Dragon Blaze'>"
+            "recommended": "<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/dragon-blaze.png' alt='Skill Dragon Blaze' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno' width='32' height='32'/> <img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm' width='32' height='32'/>",
+            "possible": "<img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-bite.png' alt='Skill Flame Bite'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-vortex.png' alt='Skill Flame Vortex'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png' alt='Skill Flame Tempest'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png' alt='Skill Cinder Maelstrom'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/> <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/dragon-blaze.png' alt='Skill Dragon Blaze'/>"
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/2889/blaze-wizard",
@@ -110,7 +111,7 @@
                     "name": "Elemental Slash",
                     "shortDesc": "MP Cost: 0, Damage: 130%, Number of Attacks: 1, Max Enemies Hit: 3",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/19/Skill_Elemental_Slash.png/revision/latest?cb=20130525122036"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-slash.png"],
                     "animations": ["https://media1.giphy.com/media/zRhiRIyHGAcB5n0feK/giphy.gif"],
                     "type": "Attack",
                     "desc": "Strikes forward hitting multiple enemies"
@@ -120,7 +121,7 @@
                     "name": "Imperial Recall",
                     "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0c/Skill_Imperial_Recall.png/revision/latest?cb=20130525122042"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/imperial-recall.png"],
                     "animations": ["https://media2.giphy.com/media/G6EPY8oodm94P6vkbO/giphy.gif"],
                     "type": "Active"
                 },
@@ -129,7 +130,7 @@
                     "name": "Elemental Harmony",
                     "shortDesc": "Intelligence increases 1 for every 2 levels the character gains",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Elemental_Harmony.png/revision/latest?cb=20130525122047"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-harmony.png"],
                     "type": "Passive"
                 },
                 {
@@ -137,7 +138,7 @@
                     "name": "Elemental Expert",
                     "shortDesc": "Attack Power and Magic ATT: +10%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/83/Skill_Elemental_Expert.png/revision/latest?cb=20130525122051"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-expert.png"],
                     "type": "Passive"
                 },
                 {
@@ -145,7 +146,7 @@
                     "name": "Elemental Shift",
                     "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-shift.png"],
                     "type": "Passive",
                     "desc": "Double jump skill",
                     "details": [
@@ -159,7 +160,7 @@
                         "name": "Orbital Flame",
                         "shortDesc": "MP Cost: 24, Max Enemies Hit: 4, Damage: 200%, Number of Attacks: 1",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
                         "animations": ["https://media0.giphy.com/media/FlQolrSTU0gt54hquW/giphy.gif"],
                         "type": "Attack",
                         "desc": "Shoots a projectile which can be directed using the Arrow Keys",
@@ -172,7 +173,7 @@
                         "name": "Flame Bite",
                         "shortDesc": "MP Cost: 38, Max Enemies Hit: 4, Damage: 180%, Number of Attacks: 3",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4f/Skill_Flame_Bite.png/revision/latest?cb=20140429061742"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-bite.png"],
                         "animations": ["https://media.giphy.com/media/KgDz9MooLKXQHiteCL/giphy.gif"],
                         "type": "Attack",
                         "desc": "Sends out a burst of flames forward"
@@ -182,23 +183,23 @@
                         "name": "Flame Elemental",
                         "shortDesc": "Duration: 8 sec, Magic ATT: +10",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-elemental.png"],
                         "animations": ["https://media4.giphy.com/media/QPz7AfldSDkMmVn0aq/giphy.gif"],
                         "type": "Passive",
-                        "desc": "Using <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738' alt='Skill Orbital Flame'> will temporarily summon a Flame Elemental that follows you that provides a Magic Attack buff"
+                        "desc": "Using <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/> will temporarily summon a Flame Elemental that follows you that provides a Magic Attack buff"
                     },
                     {
                         "id": 12000023,
                         "name": "Firewalk",
                         "shortDesc": "MP Cost: 12, Jump in the input direction.\\n[Passive Effect - Defense: +100]",
                         "maxLevel": 5,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Elemental_Shift.png/revision/latest?cb=20130525122058", "https://vignette.wikia.nocookie.net/maplestory/images/6/6a/Skill_Firewalk.png/revision/latest?cb=20140429061758"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-shift.png", "http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/firewalk.png"],
                         "animations": ["https://media3.giphy.com/media/CZLqoPcnfPOxRQCFbM/giphy.gif"],
                         "type": "Passive",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
-                            "<strong>[Passive]</strong>: Grants flat DEF"
+                            "<strong>[Passive]</strong>: Grants flat DEF",
+                            "Can be activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
                         ]
                     },
                     {
@@ -206,7 +207,7 @@
                         "name": "Fire Repulsion",
                         "shortDesc": "85% of damage taken goes to MP instead of HP.",
                         "maxLevel": 5,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e5/Skill_Fire_Repulsion.png/revision/latest?cb=20140429061804"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fire-repulsion.png"],
                         "type": "Passive"
                     },
                     {
@@ -214,7 +215,7 @@
                         "name": "Natural Talent",
                         "shortDesc": "Max MP: +20%, MP increases by 120 per level\\nCritical Rate +5% when equipped with a Wand",
                         "maxLevel": 5,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d9/Skill_Natural_Talent.png/revision/latest?cb=20140429061812"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/natural-talent.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -224,7 +225,7 @@
                         "name": "Greater Orbital Flame",
                         "shortDesc": "MP Cost: 28, Max Enemies Hit: 8, Damage: 250%, Number of Attacks: 1",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2c/Skill_Greater_Orbital_Flame.png/revision/latest?cb=20140929180416", "https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/greater-orbital-flame.png", "http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
                         "animations": ["https://media2.giphy.com/media/ThLn9ghj284gtJMDvK/giphy.gif"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -237,7 +238,7 @@
                         "name": "Flame Vortex",
                         "shortDesc": "MP Cost: 22, Damage: 210%, Number of Attacks: 2, Number of Enemies pushed back: 6.",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Flame_Vortex.png/revision/latest?cb=20141024045212"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-vortex.png"],
                         "animations": ["https://media.giphy.com/media/VJC5svuBdaG1yL5AaO/giphy.gif"],
                         "type": "Attack",
                         "desc": "Pushes enemies back with a vortex of flames"
@@ -247,12 +248,12 @@
                         "name": "Ignition",
                         "shortDesc": "MP Cost: 13, Duration: 300 sec, Probability to activate [Ignition] effect: 100%.\\nIgnition: Duration: 10 sec, Damage: 220% per sec, AoE Damage at the end of duration: 240%",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png"],
                         "animations": ["https://media2.giphy.com/media/K5WDKSspsStsji0KYy/giphy.gif"],
                         "type": "Buff",
                         "desc": "Your attacks have a chance to set enemies on fire",
                         "details": [
-                            "At the end of the burn, enemies will explode dealing extra damage to itself"
+                            "At the end of the burn, enemies will explode damaging itself"
                         ]
                     },
                     {
@@ -260,27 +261,27 @@
                         "name": "Flashfire",
                         "shortDesc": "MP Cost: 45, Trail Duration: 100 sec, Reuse skill during this time to teleport to your original location.",
                         "maxLevel": 5,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Flashfire.png/revision/latest?cb=20140924033034"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flashfire.png"],
                         "animations": ["https://media.giphy.com/media/dyYDe1KsOMO5Dwx4zB/giphy.gif"],
                         "type": "Active",
-                        "desc": "Places down a flame at your position which you can teleport back to by pressing <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Flashfire.png/revision/latest?cb=20140924033034' alt='Skill Flashfire'> again"
+                        "desc": "Places down a flame at your position that you can teleport back to by pressing the Skill Key again"
                     },
                     {
                         "id": 12101023,
                         "name": "Word of Fire",
-                        "shortDesc": "MP Cost: 13, Duration: 300 sec, Magic ATT: +20, Attack Speed: +-1 level",
+                        "shortDesc": "MP Cost: 13, Duration: 300 sec, Magic ATT: +20, Attack Speed: +2 level",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f8/Skill_Word_of_Fire.png/revision/latest?cb=20140918072400"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png"],
                         "animations": ["https://media0.giphy.com/media/RfH72usgQvffqw3v3M/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Grants flat Attack and increases Attack Speed (by 1 stage)"
+                        "desc": "Grants flat Attack and increases Attack Speed (by 2 stages)"
                     },
                     {
                         "id": 12101022,
                         "name": "Controlled Burn",
-                        "shortDesc": "Recovers 75% of your MP upon casting.\\nCooldown: 90 sec",
+                        "shortDesc": "Recovers 99% of your MP upon casting.\\nCooldown: 60 sec",
                         "maxLevel": 9,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9f/Skill_Controlled_Burn.png/revision/latest?cb=20141024045226"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/controlled-burn.png"],
                         "animations": ["https://media1.giphy.com/media/BUJGUtlBIlXoJxJkEN/giphy.gif"],
                         "type": "Active"
                     },
@@ -289,7 +290,7 @@
                         "name": "Greater Flame Elemental",
                         "shortDesc": "Duration: 8 sec, Magic ATT: +20",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Greater_Flame_Elemental.png/revision/latest?cb=20140926023602", "https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/greater-flame-elemental.png", "http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-elemental.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -299,9 +300,9 @@
                     {
                         "id": 12100027,
                         "name": "Spell Control",
-                        "shortDesc": "Magic ATT: +10, Magic Mastery: +50%",
+                        "shortDesc": "Magic ATT: +10, Magic Mastery: +50%, Attack Speed: +1",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f9/Skill_Spell_Control.png/revision/latest?cb=20141024045233"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/spell-control.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -309,14 +310,15 @@
                 "3rd Job", [{
                         "id": 12110020,
                         "name": "Grand Orbital Flame",
-                        "shortDesc": "MP Cost: 56, Max Enemies Hit: 8, Damage: 275%, Number of Attacks: 2",
+                        "shortDesc": "MP Cost: 36, Max Enemies Hit: 8, Damage: 275%, Number of Attacks: 2. Damage Against Normal Monsters: +20%",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c4/Skill_Grand_Orbital_Flame.png/revision/latest?cb=20141024051340", "https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame.png", "http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
                         "animations": ["https://media2.giphy.com/media/vkeNfasF1MwPL7ayCv/giphy.gif"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases %Damage of attack and allows you to throw up to 3 projectiles"
+                            "Increases %Damage of attack and allows you to throw up to 3 projectiles",
+                            "Now deals increased %Damage to regular monsters"
                         ]
                     },
                     {
@@ -324,7 +326,7 @@
                         "name": "Flame Tempest",
                         "shortDesc": "MP Cost: 56, Damage: 405%, Number of Attacks: 2, Number of Enemies pushed away: 8.",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b1/Skill_Flame_Tempest.png/revision/latest?cb=20141024051344"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png"],
                         "animations": ["https://media.giphy.com/media/fSSknsUuypuAr7bztg/giphy.gif"],
                         "type": "Attack",
                         "desc": "Lashes out flames in both directions that pushes enemies back"
@@ -334,25 +336,22 @@
                         "name": "Cinder Maelstrom",
                         "shortDesc": "MP Cost: 120, Duration: 20 sec, Blows up one enemy to deal 300% Damage, Pulls 8 enemies.\\nCooldown: 30 sec",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/95/Skill_Cinder_Maelstrom.png/revision/latest?cb=20141024051351"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png"],
                         "animations": ["https://media.giphy.com/media/Ke2N0gT2oGcdUuzZ3p/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Causes an enemy to grow large and pull in nearby enemies",
-                        "details": [
-                            "Cannot be used on Bosses and Elite Monsters"
-                        ]
+                        "desc": "Causes an enemy to grow large and pull in nearby enemies"
                     },
                     {
                         "id": 12111023,
                         "name": "Phoenix Run",
                         "shortDesc": "MP Cost: 300, Duration: 1800 sec, Teleports backward at the moment of impact to recover 50% HP, Ignore Damage Duration: 3 sec\\nCooldown 1800 sec",
                         "maxLevel": 15,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Phoenix_Run.png/revision/latest?cb=20141024051357"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png"],
                         "animations": ["https://media2.giphy.com/media/G4v2o9ALKegKRFDqcr/giphy.gif"],
                         "type": "Buff Revive",
                         "desc": "When hit by a fatal attack, you will not die but instead heal back a percentage of your HP back",
                         "details": [
-                            "Skill is not affected by cooldown resets"
+                            "Unaffected by cooldown resets"
                         ]
                     },
                     {
@@ -360,7 +359,7 @@
                         "name": "Grand Flame Elemental",
                         "shortDesc": "Duration: 8 sec, Magic ATT: +30",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/be/Skill_Grand_Flame_Elemental.png/revision/latest?cb=20140926024336", "https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/grand-flame-elemental.png", "http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-elemental.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -370,17 +369,17 @@
                     {
                         "id": 12110025,
                         "name": "Liberated Magic",
-                        "shortDesc": "MP Cost: +150%, Final Damage: +30%",
+                        "shortDesc": "MP Cost: +130%, Final Damage: +30%",
                         "maxLevel": 20,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Liberated_Magic.png/revision/latest?cb=20141024051403"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png"],
                         "type": "Passive"
                     },
                     {
                         "id": 12110026,
                         "name": "Burning Focus",
-                        "shortDesc": "Critical Rate: +30%, Critical Damage: +15%",
+                        "shortDesc": "Critical Rate: +30%, Critical Damage: +20%",
                         "maxLevel": 10,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cb/Skill_Burning_Focus.png/revision/latest?cb=20141024051414"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-focus.png"],
                         "type": "Passive"
                     },
                     {
@@ -388,7 +387,7 @@
                         "name": "Brilliant Enlightenment",
                         "shortDesc": "Permanently increases INT by 60.",
                         "maxLevel": 9,
-                        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/9a/Skill_Brilliant_Enlightenment.png/revision/latest?cb=20141024051409"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/brilliant-enlightenment.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -398,25 +397,36 @@
                     "name": "Call of Cygnus",
                     "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/common/call-of-cygnus.png"],
                     "animations": ["https://media0.giphy.com/media/5PBQ2cd682zPHHrhNL/giphy.gif"],
                     "type": "Party Buff",
                     "desc": "",
                     "details": [
-                        "To obtain <img src='https://vignette.wikia.nocookie.net/maplestory/images/8/87/Skill_Call_of_Cygnus.png/revision/latest?cb=20130210014951' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete the quest 'The Alliance Gathers' at Lv. 120"
+                        "To obtain <img src='http://localhost:3000/grandislibrary/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete the quest 'The Alliance Gathers' at Lv. 120"
                     ]
+                },
+                {
+                    "id": 11121000,
+                    "name": "Cygnus Knights' Will",
+                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/cygnus-knights-will.png"],
+                    "animations": ["https://media.giphy.com/media/cuqmzfjh6yctWpFmpm/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
                 },
                 {
                     "id": 12120006,
                     "name": "Final Orbital Flame",
-                    "shortDesc": "MP Cost: 84, Max Enemies Hit: 8, Damage: 305%, Number of Attacks: 2. Damage Against Normal Monsters: +30%.",
+                    "shortDesc": "MP Cost: 43, Max Enemies Hit: 8, Damage: 305%, Number of Attacks: 2. Damage Against Normal Monsters: +40%.",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/5d/Skill_Final_Orbital_Flame.png/revision/latest?cb=20141024054036", "https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame.png", "http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
                     "animations": ["https://media3.giphy.com/media/VGVb6tDX7NsCeV9NyZ/giphy.gif"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Damage of attack and allows you to throw up to 4 projectiles"
+                        "Increases %Damage of attack and allows you to throw up to 4 projectiles",
+                        "Increases additional %Damage against regular monsters"
                     ]
                 },
                 {
@@ -424,7 +434,7 @@
                     "name": "Blazing Extinction",
                     "shortDesc": "MP Cost: 40, Duration: 10 sec, Damage: 310%, Number of Attacks: 3, Max Enemies Hit: 8\\nCooldown: 5 sec",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blazing_Extinction.png/revision/latest?cb=20141024054040"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png"],
                     "animations": ["https://media4.giphy.com/media/kTOarpDmgxwGQkwMII/giphy.gif"],
                     "type": "Attack",
                     "desc": "Launches a fireball that slowly moves and attacks nearby enemies"
@@ -434,20 +444,23 @@
                     "name": "Towering Inferno",
                     "shortDesc": "MP Cost: 115, Max Enemies Hit: 15, Damage: 350%, Number of Attacks: 10, Final Damage increased by 90% for enemies hit by Ignition. Can immediately detonate Ignition, but not cast it.\\nCooldown: 30 sec",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Towering_Inferno.png/revision/latest?cb=20141024054045"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png"],
                     "animations": ["https://media.giphy.com/media/WQaMQtTjUFZqqU7chV/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Releases a blast of fire at your location that deals extra %Final Damage to enemies that are affected with the <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'> Ignition burn while also causing the <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'> to detonate and explode"
+                    "desc": "Releases a blast of fire at your location",
+                    "details": [
+                        "Deals increased %Final Damage to enemies that are affected with the <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition burn<ul><li><img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> will also instantly to detonate and explode</li></ul>"
+                    ]
                 },
                 {
                     "id": 12121004,
                     "name": "Fires of Creation",
                     "shortDesc": "MP Cost: 115, Duration: 300 sec, Additional MP Cost: 105%, Ignore DEF: +30%. [Ignition] effects: Elemental Resistance: -10%.\\nCooldown: 5 sec",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Fires_of_Creation.png/revision/latest?cb=20141024054050"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png"],
                     "animations": ["https://media.giphy.com/media/SrzXryGvzi6OBb6t8z/giphy.gif", "https://media.giphy.com/media/KFnDGviutx03u1uKfB/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Increases %MP Costs, %Ignore Def and causes <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'> Ignition debuff to reduce %Elemental Resistance",
+                    "desc": "Increases %MP Costs, %Ignore Def and causes <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition debuff to reduce %Elemental Resistance of enemy",
                     "details": [
                         "A lion will be summoned if you press on the Skill Key<ul><li>If you press the Down Key while pressing this Skill Key, a fox will be summoned</li></ul>"
                     ]
@@ -457,7 +470,7 @@
                     "name": "Burning Conduit",
                     "shortDesc": "MP Cost: 115, Duration: 30 sec, Damage: +60% and Attack Speed: +-1 stages when you are on the pentacle\\nCooldown: 45 sec",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Burning_Conduit.png/revision/latest?cb=20141024054055"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png"],
                     "animations": ["https://media.giphy.com/media/JPs7KL5yjl4RusvBsI/giphy.gif"],
                     "type": "Buff Zone",
                     "desc": "Creates a zone that increases %Damage and Attack Speed (by 1 stage) when you are within the zone"
@@ -467,7 +480,7 @@
                     "name": "Flame Barrier",
                     "shortDesc": "MP Cost: 22, Duration: 15 sec, Damage Intake: -50%. Explodes at the end, Max Enemies Hit: 8, Damage: 350%\\nCooldown: 90 sec",
                     "maxLevel": 20,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3e/Skill_Flame_Barrier.png/revision/latest?cb=20141024054100"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png"],
                     "animations": ["https://media.giphy.com/media/h4No85YIrRxmkAC6LU/giphy.gif"],
                     "type": "Buff",
                     "desc": "Creates a shield that reduces damage taken. At the end of the buff, the barrier explodes dealing damage"
@@ -477,7 +490,7 @@
                     "name": "Final Flame Elemental",
                     "shortDesc": "Duration: 8 sec, Magic ATT: +40",
                     "maxLevel": 10,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Final_Flame_Elemental.png/revision/latest?cb=20140924171827", "https://vignette.wikia.nocookie.net/maplestory/images/5/57/Skill_Flame_Elemental.png/revision/latest?cb=20140429061748"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/final-flame-elemental.png", "http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/flame-elemental.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -489,7 +502,7 @@
                     "name": "Pure Magic",
                     "shortDesc": "Magic ATT: +20, Final Damage: +50%, Magic Mastery: +70%",
                     "maxLevel": 15,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fe/Skill_Pure_Magic.png/revision/latest?cb=20141001065845"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/pure-magic.png"],
                     "type": "Passive"
                 },
                 {
@@ -497,7 +510,7 @@
                     "name": "Wild Blaze",
                     "shortDesc": "Ignition Final DoT: +60%, All abnormal status and elemental resistance: +30%.",
                     "maxLevel": 30,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cf/Skill_Wild_Blaze.png/revision/latest?cb=20141024054104"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png"],
                     "type": "Passive"
                 }]
             ]
@@ -509,7 +522,7 @@
                     "name": "Orbital Flame - Range",
                     "shortDesc": "Movement range +100",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/75/Skill_Orbital_Flame_-_Range.png/revision/latest?cb=20160206182904"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame-range.png"],
                     "type": "Toggle Passive",
                     "reqLev": 140
                 },
@@ -518,7 +531,7 @@
                     "name": "Orbital Flame - Guardbreak",
                     "shortDesc": "Ignore Defense: +20%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f2/Skill_Orbital_Flame_-_Guardbreak.png/revision/latest?cb=20140924180211"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame-guardbreak.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
@@ -527,7 +540,7 @@
                     "name": "Orbital Flame - Split Attack",
                     "shortDesc": "Damage: -90%p, Number of Attacks: +1",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b3/Skill_Orbital_Flame_-_Split_Attack.png/revision/latest?cb=20140924180218"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame-split-attack.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -536,7 +549,7 @@
                     "name": "Blazing Extinction - Reinforce",
                     "shortDesc": "Blazing Extinction Damage: +20%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Blazing_Extinction_-_Reinforce.png/revision/latest?cb=20140924180232"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 140
                 },
@@ -545,7 +558,7 @@
                     "name": "Blazing Extinction - Spread",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/97/Skill_Blazing_Extinction_-_Spread.png/revision/latest?cb=20140924180236"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-spread.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
@@ -554,7 +567,7 @@
                     "name": "Blazing Extinction - Add Attack",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/d6/Skill_Blazing_Extinction_-_Add_Attack.png/revision/latest?cb=20140511155835"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-add-attack.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -563,7 +576,7 @@
                     "name": "Ignition - Reinforce",
                     "shortDesc": "Additional 20% damage.",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/56/Skill_Ignition_-_Reinforce.png/revision/latest?cb=20140924180255"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition-reinforce.png"],
                     "type": "Passive",
                     "desc": "Increases %Damage of DoT",
                     "reqLev": 150
@@ -573,7 +586,7 @@
                     "name": "Ignition - Mass Explosion",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/21/Skill_Ignition_-_Mass_Explosion.png/revision/latest?cb=20140924180300"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition-mass-explosion.png"],
                     "type": "Passive",
                     "desc": "Increases %Damage of explosion",
                     "reqLev": 165
@@ -583,7 +596,7 @@
                     "name": "Ignition - Max Ignition",
                     "shortDesc": "Decrease DoT interval by 0.5",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/fd/Skill_Ignition_-_Max_Ignition.png/revision/latest?cb=20140924180249"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition-max-ignition.png"],
                     "type": "Passive",
                     "reqLev": 190
                 }
@@ -594,10 +607,13 @@
                     "name": "Dragon Blaze",
                     "shortDesc": "MP Cost: 300, Max Enemies Hit: 1, Max Duration: 2 sec, Damage: 500%, Number of Attacks: Up to 6 while the key is held.\\nUpon releasing the key or after the attack has finished, attacks 10 more times for 500% Damage. Can immediately detonate Ignition, but not cast it.\\nCooldown: 90 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/blaze-wizard/dragon-blaze.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/dragon-blaze.png"],
                     "animations": ["https://media.giphy.com/media/YPV6obronI5akavFgF/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Sends out a barrage of fireballs that only hit one enemy. If the enemy has the <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'> Ignition burn, it will detonate and explode",
+                    "desc": "Releases a barrage of fireballs forward that damages a single enemy",
+                    "details": [
+                        "If the enemy has the <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition burn, it will detonate and explode"
+                    ],
                     "reqLev": 140
                 },
                 {
@@ -605,10 +621,10 @@
                     "name": "Cataclysm",
                     "shortDesc": "MP Cost: 350, Max Enemies Hit: 15, Damage: 860%, Number of Attacks: 7. Invincible during casting. Can immediately detonate Ignition, but not cast it.\\nCooldown: 100 sec",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Cataclysm.png/revision/latest?cb=20140924180305"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/cataclysm.png"],
                     "animations": ["https://media1.giphy.com/media/f8OuKTizuJhHU0krFY/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Attacks all enemies on the screen while causing any <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'> Ignition burn to detonate and explode",
+                    "desc": "Unleashes a large fireball that damages enemies on screen while causing any <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition burn to detonate and explode",
                     "details": [
                         "You are invincible during this time"
                     ],
@@ -619,7 +635,7 @@
                     "name": "Glory of the Guardians",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Cygnus class or Mihile in the party",
                     "maxLevel": 1,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/de/Skill_Glory_of_the_Guardians_%28Blaze_Wizard%29.png/revision/latest?cb=20160605205915"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/glory-of-the-guardians.png"],
                     "animations": ["https://media3.giphy.com/media/MXpfx9c27xnEFKygBg/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
@@ -631,9 +647,9 @@
             "fifthMain": [
                 {
                     "name": "Orbital Inferno",
-                    "shortDesc": "MP Cost: 350, Max Enemies Hit: 12, Damage: 655%, Number of Attacks: 6, Ignore Enemy DEF: 50%\\nCooldown: 5 sec",
+                    "shortDesc": "MP Cost: 250, Max Enemies Hit: 12, Damage: 655%, Number of Attacks: 6, Ignore Enemy DEF: 50%\\nCooldown: 5 sec",
                     "id": 400041008,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Orbital_Inferno.png/revision/latest?cb=20161018040959"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-inferno.png"],
                     "animations": ["https://media0.giphy.com/media/Icim3zpVkm9KUVCMvV/giphy.gif"],
                     "type": "Attack",
                     "desc": "Hurls out a giant fireball which can be directed using the Arrow Keys",
@@ -643,14 +659,14 @@
                 },
                 {
                     "name": "Savage Flame",
-                    "shortDesc": "Passive Effects: Gain 1 Flame Charge for each enemy struck that is afflicted by Ignition, up to 6 flames.\\nActive Effect - MP Cost: 800, Flame Cost: 2+ charges\\n[Blazing Lion]: Hits up to 15 enemies dealing 2000% damage 12 times. Increases Final Damage by 35% for every Flame Charge over the minimum cost.\\n[Flame Fox]: Creates 8 foxfires that randomly strike 8 enemies within range. Each foxfire deals 500% damage and can regenerate up to 7 times. Regenerates 2 more time for each 1 Flame Charge over the minimum cost.\\nCooldown: 20 sec",
+                    "shortDesc": "Passive Effects: Gain 1 Flame Charge for each enemy struck that is afflicted by Ignition, up to 6 flames.\\nActive Effect - MP Cost: 800, Flame Cost: 2+ charges, Cooldown: 20 sec\\n[Blazing Lion]: MActivates explosion 5 times, hitting up to 15 enemies for 400% damage 12 times. Increases Final Damage by 35% for every Flame Charge over the minimum cost.\\n[Flame Fox]: Creates 8 foxfires that randomly strike 8 enemies within range. Each foxfire deals 500% damage and can regenerate up to 7 times. Regenerates 2 more time for each 1 Flame Charge over the minimum cost.",
                     "id": 400041028,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Savage_Flame.png/revision/latest?cb=20170609033214"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/savage-flame.png"],
                     "animations": ["https://media1.giphy.com/media/YpZeXh6dkZZ5Xcdjf2/giphy.gif", "https://media2.giphy.com/media/Z98f3mAq8Ev5YU1vDe/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Only usable when <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/d/d7/Skill_Fires_of_Creation.png/revision/latest?cb=20141024054050' alt='Skill Fires of Creation'> is active. The attack will differ depending on which animal was summoned",
+                    "desc": "Only usable when <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> is active. The attack will differ depending on which animal was summoned",
                     "details": [
-                        "Enemies who are debuffed with the <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'> Ignition burn will grant 1 Flame Charge which is used to cast Savage Flame. A minimum of 2 Fire Charges is required to cast",
+                        "Enemies who are debuffed with the <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition burn will grant 1 Flame Charge which is used to cast Savage Flame. A minimum of 2 Fire Charges is required to cast",
                         "<strong>[Lion Attack]</strong>: Launches forward dealing massive damage and increases %Final Damage depending on remaining Fire Charges",
                         "<strong>[Fox Attack]</strong>: Creates fireballs that attack nearby enemies. The fireballs will regenerate and attack again depending on how many Fire Charges were used to cast"
                     ]
@@ -659,11 +675,12 @@
                     "name": "Inferno Sphere",
                     "shortDesc": "MP Cost: 50, consumes 1 Phoenix Feather every sec\\nMax Enemies Hit: 12, Damage: 1000%, Number of Attacks: 7, Additional Critical Rate: +50%, Additional Monster DEF Ignored: +50%\\n1 Phoenix Feather will be prepared every 12 sec. You can have up to 15 feathers.\\nCooldown: 2.5 sec",
                     "id": 400041037,
-                    "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2e/Skill_Inferno_Sphere.png/revision/latest?cb=20181115065337"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/inferno-sphere.png"],
                     "animations": ["https://media3.giphy.com/media/S40986yvx4fkh3CRT0/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Damages enemies within the circle when held down. The attack has additional %Crit Rate and %Ignore Def",
+                    "desc": "Damages enemies within the circle when held down",
                     "details": [
+                        "The attack has increased %Crit Rate and %Ignore Def",
                         "This skill has a special resource called Phoenix Feathers which are prepared every 12 seconds and you can hold up to 15 feathers",
                         "This skill costs 1 feather every second to cast"
                     ]
@@ -672,7 +689,7 @@
                     "name": "Salamander Mischief",
                     "shortDesc": "MP Cost: 250, Salamander Summon Duration: 60 sec, Damage: 300%, Enemies Hit: 1, Number of Attacks: 7. In a single action, consumes 100 MP and attacks by bouncing up to 12 times.\\nObtain Ember every time Salamander's attack hits. Final Damage of Salamander's attack increases by 1% for every 1 Ember. Up to 40 Ember can be obtained.\\nWhen Salamander disappears, Magic ATT increases by 15 for 30 sec, and Magic ATT additionally increases by 2 for every 1 Ember.\\nCooldown: 90 sec",
                     "id": 400041037,
-                    "icons": ["https://orangemushroom.files.wordpress.com/2020/06/salamander-mischief.png?w=600"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/salamander-mischief.png"],
                     "animations": ["https://media3.giphy.com/media/CKjFnp7kfJQ5uccBdc/giphy.gif"],
                     "type": "Summon",
                     "desc": "Summons a salamander that continuously pounces at a single target",
@@ -680,7 +697,7 @@
                         "The salamander will return to you once an enemy has been hit 12 times or if you travel too far away",
                         "Each time the salamander hits an enemy, it gains 1 Ember which increases the %Final Damage of the attack<ul><li>The max amount of Embers that can be collected increases based on the Skill Level</li><li>When the salamander disappears, you will gain a Magic Attack buff based on the amount of Embers collected</li></ul>",
                         "The salamander will prioritize boss monsters and enemies with the highest Max HP",
-                        "Unaffected by Damage Reflect and will not trigger <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Ignition.png/revision/latest?cb=20141024045222' alt='Skill Ignition'>"
+                        "Unaffected by Damage Reflect and will not trigger <img width='32' height='32' src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/>"
                     ]
                 }
             ]
@@ -688,37 +705,37 @@
         "notable": [
             {
                 "name": "Orbital Flame - 1st Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Orbital_Flame.png/revision/latest?cb=20140429061738"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
                 "animations": ["https://media0.giphy.com/media/FlQolrSTU0gt54hquW/giphy.gif"]
             },
             {
                 "name": "Blazing Extinction - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/0f/Skill_Blazing_Extinction.png/revision/latest?cb=20141024054040"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png"],
                 "animations": ["https://media4.giphy.com/media/kTOarpDmgxwGQkwMII/giphy.gif"]
             },
             {
                 "name": "Towering Inferno - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/b6/Skill_Towering_Inferno.png/revision/latest?cb=20141024054045"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png"],
                 "animations": ["https://media.giphy.com/media/WQaMQtTjUFZqqU7chV/giphy.gif"]
             },
             {
                 "name": "Burning Conduit - 4th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2f/Skill_Burning_Conduit.png/revision/latest?cb=20141024054055"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png"],
                 "animations": ["https://media.giphy.com/media/JPs7KL5yjl4RusvBsI/giphy.gif"]
             },
             {
                 "name": "Dragon Blaze - Hyper Skill",
-                "icons": ["/class-icons/blaze-wizard/dragon-blaze.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/dragon-blaze.png"],
                 "animations": ["https://media.giphy.com/media/YPV6obronI5akavFgF/giphy.gif"]
             },
             {
                 "name": "Cataclysm - Hyper Skill",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Cataclysm.png/revision/latest?cb=20140924180305"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/cataclysm.png"],
                 "animations": ["https://media1.giphy.com/media/f8OuKTizuJhHU0krFY/giphy.gif"]
             },
             {
                 "name": "Savage Flame - 5th Job",
-                "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e0/Skill_Savage_Flame.png/revision/latest?cb=20170609033214"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/blaze-wizard/savage-flame.png"],
                 "animations": ["https://media1.giphy.com/media/YpZeXh6dkZZ5Xcdjf2/giphy.gif"]
             }
         ]
