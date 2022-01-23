@@ -47,9 +47,9 @@
         ],
         "buffInfo": {
             "active": "<img width='32' height='32' src='/class-icons/resistance/battle-mage/staff-boost.png' alt='Skill Staff Boost'/>, <img width='32' height='32' src='/class-icons/resistance/battle-mage/dark-shock.png' alt='Skill Dark Shock'/>(Toggle), <img width='32' height='32' src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/>(Toggle), <img width='32' height='32' src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> | <strong>Auras</strong> <img width='32' height='32' src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/>, <img width='32' height='32' src='/class-icons/resistance/battle-mage/draining-aura.png' alt='Skill Draining Aura'/>, <img width='32' height='32' src='/class-icons/resistance/battle-mage/blue-aura.png' alt='Skill Blue Aura'/>, <img width='32' height='32' src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/>, <img width='32' height='32' src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/>",
-            "summons": "<img width='32' height='32' src='/class-icons/resistance/battle-mage/altar-of-annihilation.png' alt='Skill Altar of Annihilation'/>(0.5s cd, 25s recharge), <img width='32' height='32' src='/class-icons/resistance/battle-mage/grim-harvest.png' alt='Skill Grim Harvest'/>(100s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/e/ed/Skill_Resistance_Infantry.png/revision/latest?cb=20170625170734' alt='Skill Resistance Infantry'/>(25s cd)",
+            "summons": "<img width='32' height='32' src='/class-icons/resistance/battle-mage/altar-of-annihilation.png' alt='Skill Altar of Annihilation'/>(0.5s cd, 25s recharge), <img width='32' height='32' src='/class-icons/resistance/battle-mage/grim-harvest.png' alt='Skill Grim Harvest'/>(100s cd), <img width='32' height='32' src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/>(25s cd)",
             "buffCd": "<img width='32' height='32' src='/class-icons/resistance/battle-mage/master-of-death.png' alt='Skill Master of Death'/>(200s cd), <img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/> (120s cd), <img width='32' height='32' src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/>(100s cd), <img src='/class-icons/resistance/battle-mage/abyssal-lightning.png' alt='Skill Abyssal Lightning'/>(200s cd)",
-            "buffFifth": "<img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/>(59 - 30s cd), <img width='32' height='32' src='https://vignette.wikia.nocookie.net/maplestory/images/f/f3/Skill_Maple_World_Goddess%27s_Blessing.png/revision/latest?cb=20191122065037' alt='Skill Maple World Goddess's Blessing'/>(180s cd), <img width='32' height='32' src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd)",
+            "buffFifth": "<img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/>(59 - 30s cd), <img width='32' height='32' src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/>(180s cd), <img width='32' height='32' src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd)",
             "iFrame": "<img width='32' height='32' src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd), <img src='/class-icons/resistance/battle-mage/abyssal-lightning.png' alt='Skill Abyssal Lightning'/> (200s cd)"
         },
         "linkSkill": {
@@ -233,16 +233,17 @@
                     {
                         "id": 32101009,
                         "name": "Draining Aura",
-                        "shortDesc": "MP Cost per sec: 28, Heals you for 1% of damage dealt. Cannot recover again for 5 sec after a recovery takes place. Damage dealt by Battle Mage also heals any party members within the range of Draining Aura.\\nCooldown: 3 sec\\n[Passive Effect: Max HP recovery every 4 sec: 2% + 1000, Max HP recovery every time you eliminate an enemy: 1%]",
+                        "shortDesc": "MP Cost per sec: 28, Recovers HP for 1% of damage dealt, Recovers MP for 0.1% of damage dealt. Cannot recover again for 5 sec after a recovery takes place. Damage dealt by Battle Mage also heals any party members within the range of Draining Aura. MP recovery only applies to Battle Mage.\\nCooldown: 3 sec\\n[Passive Effect: Max HP recovery every 4 sec: 2% + 1000, Max HP recovery every time you eliminate an enemy: 1%]",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/battle-mage/draining-aura.png"],
                         "animations": ["https://media0.giphy.com/media/WajNNsS5FtOX1DlKt8/giphy.gif"],
                         "type": "Party Aura",
-                        "desc": "While active, your attacks restore a percentage of the damage dealt as HP",
+                        "desc": "While active, your attacks restore HP and MP based on damage dealt",
                         "details": [
                             "<strong>[Passive]</strong>: Permanently restores some HP every few seconds and whenever you defeat an enemy you restore some %Max HP",
-                            "The healing cannot exceed 15% of your Max HP",
-                            "Damage dealt by the caster also recovers the HP of nearby party members"
+                            "Damage dealt by the caster also recovers the HP of nearby party members",
+                            "The healing cannot exceed 20% of your Max HP and 10% of your Max MP",
+                            "MP recovery only applies to caster"
                         ]
                     },
                     {
@@ -694,17 +695,18 @@
                 },
                 {
                     "name": "Abyssal Lightning",
-                    "shortDesc": "MP Cost: 500, invincible during casting and disarmament\\nDuration: 35, periodically creates 2 netherworld passages, the passages remain for 15 sec, and up to 4 can exist in the map. Dark Brand attacks must be activated 6 times to consume the brand.\\nNetherworld Lightning: Max Enemies Hit: 6, Damage: 1600%, Number of Attacks: 6, Additional Critical Rate: +100%, Ignores additional 20% Enemy DEF, Cooldown: 0.6 sec.\\nCooldown: 200 sec",
+                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament\\nDuration: 40 sec, Normal Monster Damage: +30%. Periodically creates 2 netherworld passages, the passages remain for 15 sec, and up to 6 can exist in the map. Dark Brand attacks must be activated 6 times to consume the brand.\\nNetherworld Lightning: Max Enemies Hit: 8, Damage: 1600%, Number of Attacks: 6, Additional Critical Rate: +100%, Ignores additional 20% Enemy DEF, Cooldown: 0.6 sec.\\nCooldown: 200 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/battle-mage/abyssal-lightning.png"],
                     "animations": ["https://media2.giphy.com/media/RzcARu9K9xBHVTqarA/giphy.gif"],
                     "type": "Buff Attack",
                     "desc": "While active, periodically creates passageways that you can teleport to",
                     "details": [
-                        "To teleport to a passage, press the Skill Key and any Arrow Key together to move to the nearest passage<ul><li>Up to 4 passageways can exist at a time</li><li>Using a passageway will activate <img src='/class-icons/resistance/battle-mage/dark-shock.png' alt='Skill Dark Shock'/></li></ul>",
+                        "To teleport to a passage, press the Skill Key and any Arrow Key together to move to the nearest passage<ul><li>Up to 6 passageways can exist at a time</li><li>Using a passageway will activate <img src='/class-icons/resistance/battle-mage/dark-shock.png' alt='Skill Dark Shock'/></li></ul>",
                         "While active, Dark Brand debuff will only be consumed after activating 6 times",
                         "When <img src='/class-icons/resistance/battle-mage/dark-shock.png' alt='Skill Dark Shock'/> or the Dark Brand debuff activates, lightning will strike near you damaging nearby enemies<ul><li>The attack is a guaranteed Critical Hit and has increased %Ignore DEF</li></ul>",
-                        "You are invincible at the initial cast and ending of the skill"
+                        "You are invincible at the initial cast and ending of the skill",
+                        "Deals increased %Damage to regular monsters"
                     ]
                 }
             ]

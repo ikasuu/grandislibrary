@@ -6,7 +6,7 @@ import loading from '../loading.gif';
 */
 
 //Latest version of GMS
-export const version = 220; 
+export const version = 228; 
 export const versionName = "Spring Blossoms Update"
 
 export const loadingImage = loading;
@@ -36,7 +36,8 @@ export const classes = {
     nova: [["angelic-buster", "Angelic Buster"], ["kaiser", "Kaiser"], ["cadena", "Cadena"]],
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"]],
-    other: [["hoyoung", "Hoyoung"], ["kinesis", "Kinesis"], ["zero", "Zero"], ["beast-tamer", "Beast Tamer"]]
+    other: [["hoyoung", "Hoyoung"], ["kinesis", "Kinesis"], ["zero", "Zero"], ["beast-tamer", "Beast Tamer"]],
+    anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]]
 }
 
 //Weapons for class overviews, contains icon path and formatted name
@@ -74,7 +75,8 @@ export const weapons = {
     lucentGauntlet: [`https://maplestory.io/api/GMS/${version}/item/1282028/icon`, "Lucent Gauntlet"],
     ancientBow: [`https://maplestory.io/api/GMS/${version}/item/1592000/icon`, "Ancient Bow"],
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
-    bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"]
+    bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
+    whispershot: [`https://i.imgur.com/NgIOGsT.png`, "Whispershot"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -124,7 +126,9 @@ export const secondaryWeapons = {
     abyssalPath: [`https://maplestory.io/api/GMS/${version}/item/1353603/icon`, "Abyssal Path"],
     relic: [`https://maplestory.io/api/GMS/${version}/item/1353703/icon`, "Relic"],
     fanTassel: [`https://maplestory.io/api/GMS/${version}/item/1353803/icon`, "Fan Tassel"],
-    bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"]
+    bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"],
+    weaponBelt: [`https://i.imgur.com/yKfIH8l.png`, "Weapon Belt"],
+    ornament: ["/class-icons/anima/lara/ornament.png","Ornament"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
@@ -300,7 +304,7 @@ export const commonFifth = {
         "name": "Might of the Nova",
         "shortDesc": "HP Cost: 20% of Max HP, Max Enemies Hit: 15, Damage: 4000%, Number of Attacks: 10\\nBuff: After use, you are protected from fatal blows for 900 sec.\\nCooldown: 1200 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ef/Skill_Might_of_the_Nova.png/revision/latest?cb=20170628003202"],
+        "icons": ["/class-icons/5th-job/might-of-the-nova.png"],
         "animations": ["https://media1.giphy.com/media/eiYA7as3sG0mA6277y/giphy.gif"],
         "type": "Attack / Buff",
         "desc": "Deals a massive attack to nearby enemies while granting a buff that prevents you from one fatal blow",
@@ -312,7 +316,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, skills have a chance to not have a cooldown",
@@ -325,7 +329,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, skills have a chance to not have a cooldown",
@@ -338,7 +342,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, a percent of your equipment's Attack or Magic Attack will be converted to the one you use",
@@ -347,14 +351,26 @@ export const commonFifth = {
             "Converted bonus cannot exceed 150% of your weapon's base Attack/Magic Attack"
         ]
     },
-    grandisGoddessBlessingHY:{
+    grandisGoddessBlessingAN:{
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/8d/Skill_Grandis_Goddess%27s_Blessing.png/revision/latest?cb=20191122065033"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, increases %Damage, 100% Knockback Resistance and Talisman and Scroll Power charge rate "
+        "desc": "While active, increases %Damage, 100% Knockback Resistance and Talisman and Scroll Power charge rate"
+    },
+    lotusFlower:{
+        "name": "Lotus Flower",
+        "shortDesc": "MP Cost: 15% of Max MP, Lotus Summon Duration: 1775 sec.\\nInvincible for 3.5 sec. upon revival.\\nCooldown: 400 sec. Skill Cooldown upon successful revival: -1425 sec.",
+        "id": 400001013,
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/lotus-flower.png"],
+        "animations": ["https://media.giphy.com/media/SGdhCXQpAHwCb1Fe8U/giphy.gif"],
+        "type": "Buff Revive",
+        "desc": "When hit by a fatal attack, you will not die but instead heal back a percentage of your HP back",
+        "details": [
+            "You are briefly invincible after reviving"
+        ]
     },
     sengokuForce:{
         "name": "Sengoku Force, Assemble!",

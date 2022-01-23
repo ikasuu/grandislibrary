@@ -74,10 +74,10 @@ export function ClassIntro({data}) {
                 <Row>
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>
-                        <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
+                        {/* <PropertyBox skills={data.skill.notable} classType={data.content.classType}/> */}
                     </PropertyContainer>
                     <ProsConsContainer md="auto">
-                        <ClassProsCons pros={data.content.prosCons.pros} cons={data.content.prosCons.cons}/>
+                        {/* <ClassProsCons pros={data.content.prosCons.pros} cons={data.content.prosCons.cons}/> */}
                         <LinkSkill linkSkill={data.content.linkSkill}/>
                     </ProsConsContainer>
                 </Row>

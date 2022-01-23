@@ -43,7 +43,7 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/dark-elemental.png' alt='Skill Dark Elemental'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/haste.png' alt='Skill Haste (Night Walker)'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/shadow-bat.png' alt='Skill Shadow Bat'/>(Toggle), <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/throwing-booster.png' alt='Skill Throwing Booster'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/dark-servant.png' alt='Skill Dark Servant'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/spirit-projection.png' alt='Skill Shadow Stars'/>, <img width='32' height='32' src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>",
+            "active": "<img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/dark-elemental.png' alt='Skill Dark Elemental'/>(Toggle), <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/haste.png' alt='Skill Haste (Night Walker)'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/shadow-bat.png' alt='Skill Shadow Bat'/>(Toggle), <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/throwing-booster.png' alt='Skill Throwing Booster'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/dark-servant.png' alt='Skill Dark Servant'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/spirit-projection.png' alt='Skill Shadow Stars'/>, <img width='32' height='32' src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>",
             "summons": "<img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/dark-omen.png' alt='Skill Dark Omen'/>(20s cd), <img width='32' height='32' src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/>(30s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/greater-dark-servant.png' alt='Skill Greater Dark Servant'/>(60s cd)",
             "buffCd": "<img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/shadow-illusion.png' alt='Skill Shadow Illusion'/>(180s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png' alt='Skill Glory of the Guardians (Thunder Breaker)'/>(120s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/greater-dark-servant.png' alt='Skill Greater Dark Servant'/>(60s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/night-walker/shadow-spear.png' alt='Skill Shadow Spear'/>(180 - 165s cd)",
             "buffFifth": "<img width='32' height='32' src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/>(90 - 75s cd), <img width='32' height='32' src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>(240s cd)",
@@ -168,12 +168,12 @@
                     {
                         "id": 14001021,
                         "name": "Dark Elemental",
-                        "shortDesc": "MP Cost: 15, Hit enemies with Throwing Stars Skill within 180 sec. for a 20% chance to create a Mark of Darkness that stacks 2 times. Marked enemies will take 80% damage over time per stack every second for 5 seconds, and if Night Walkers attack these enemies, 4% DEF is ignored per stack.\\n[Passive Effects: Final Damage +15%]",
+                        "shortDesc": "Hit enemies with Throwing Stars Skill for a 20% chance to create a Mark of Darkness that stacks 2 times. Marked enemies will take 80% damage over time per stack every second for 5 seconds, and if Night Walkers attack these enemies, they'll ignore 4% defense per stacked Mark of Darkness.\\n[Passive Effects: Final Damage +15%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/cygnus-knights/night-walker/dark-elemental.png"],
                         "animations": ["https://media0.giphy.com/media/esFN2OrTEiH7bMicix/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "Whenever your Throwing Star skills hit an enemy, there is a chance to debuff enemies (up to 2 stacks)",
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, your Throwing Star attacks have a chance to debuff enemies (up to 2 stacks)",
                         "details": [
                             "<strong>[Debuff]</strong>: Marked enemies take periodic damage and your attacks deal increased %Ignore DEF",
                             "<strong>[Passive]</strong>: Permanently increases %Final Damage"

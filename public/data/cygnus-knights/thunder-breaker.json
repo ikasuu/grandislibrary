@@ -43,7 +43,7 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png' alt='Skill Lightning Elemental'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/knuckle-booster.png' alt='Skill Knuckle Booster'/>, <img width='32' height='32' src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/>, <img width='32' height='32' src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>",
+            "active": "<img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png' alt='Skill Lightning Elemental'/>(Toggle), <img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/knuckle-booster.png' alt='Skill Knuckle Booster'/>, <img width='32' height='32' src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/>, <img width='32' height='32' src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>",
             "summons": "<img width='32' height='32' src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/>(30s cd)",
             "buffCd": "<img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/arc-charger.png' alt='Skill Arc Charger'/>(296 - 180s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png' alt='Skill Primal Bolt'/>(120s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png' alt='Skill Glory of the Guardians (Thunder Breaker)'/>(120s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png' alt='Skill Lightning Cascade'/> (120 - 105s cd)",
             "buffFifth": "<img width='32' height='32' src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/>(70 - 64s cd), <img width='32' height='32' src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>(240s cd), <img width='32' height='32' src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/>(180s cd <img width='32' height='32' src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>)",
@@ -181,12 +181,12 @@
                     {
                         "id": 15001022,
                         "name": "Lightning Elemental",
-                        "shortDesc": "MP Cost: 20, Duration: 180 sec. Chance to create Lightning Charge: 10%, Buff Duration: 30, Monster DEF Ignored: 5%. Max Stacks: 1.",
+                        "shortDesc": "Chance to create Lightning Charge: 10%, Buff Duration: 30, Monster DEF Ignored: 5%. Max Stacks: 1.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png"],
                         "animations": ["https://media3.giphy.com/media/rkceNDqVFh7OCLO2no/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "When active, your attacks have a chance to provide a stacking buff that increases %Ignore DEF (up to 1)"
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, your attacks have a chance to provide a stacking buff that increases %Ignore DEF (up to 1)"
                     },
                     {
                         "id": 15000023,
@@ -652,7 +652,7 @@
                 },
                 {
                     "name": "Lightning Spear Multistrike",
-                    "shortDesc": "MP Cost: 1000, Duration: 60 sec, Max Combo Attacks: 12\\nCombo Attack: Max Enemies Hit: 4, Damage: 750%, Number of Attacks: 5. When hit, Max Lightnings: 3, Max Enemies Hit: 3, Damage: 1000%, Number of Attacks: 4. Multiple lightning bolt flash.\\nFinal combo attacks up to 7 enemies with 1200% damage 7 times. When hit, activates large lightning bolts 3 times, attacking up to 8 eneemies with 1450% damage 6 times.\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 1000, Duration: 60 sec, Max Combo Attacks: 12\\nCombo Attack: Max Enemies Hit: 4, Damage: 1000%, Number of Attacks: 5. When hit, Max Lightnings: 3, Max Enemies Hit: 3, Damage: 1100%, Number of Attacks: 4. Multiple lightning bolt flash.\\nFinal combo attacks up to 7 enemies with 1400% damage 7 times. When hit, activates large lightning bolts 3 times, attacking up to 8 eneemies with 1500% damage 6 times.\\nCooldown: 120 sec.",
                     "id": 400051044,
                     "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-spear-multistrike.png"],
                     "animations": ["https://media4.giphy.com/media/VdStVzbYIK5yp4dcUx/giphy.gif"],

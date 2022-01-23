@@ -46,7 +46,7 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/soul-element.png' alt='Skill Soul Element'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/soul-speed.png' alt='Skill Soul Speed'/>, [ <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/> / <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/> / <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png' alt='Skill Equinox Cycle'/> ](Toggle), <img width='32' height='32' src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/soul-forge.png' alt='Skill Soul Forge'/>",
+            "active": "<img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/soul-element.png' alt='Skill Soul Element'/>(Toggle), <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/soul-speed.png' alt='Skill Soul Speed'/>, [ <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/> / <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/> / <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png' alt='Skill Equinox Cycle'/> ](Toggle), <img width='32' height='32' src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>, <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/soul-forge.png' alt='Skill Soul Forge'/>",
             "summons": "<img width='32' height='32' src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/>(30s cd)",
             "buffCd": "<img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png' alt='Skill Glory of the Guardians (Dawn Warrior)'/>(120s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/celestial-dance.png' alt='Skill Celestial Dance'/>(150s cd), <img width='32' height='32' src='/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/>(180s cd)",
             "buffFifth": "<img width='32' height='32' src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/>(180s cd), <img width='32' height='32' src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>(240s cd), <img width='32' height='32' src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/>(240s cd)",
@@ -173,12 +173,12 @@
                     {
                         "id": 11001022,
                         "name": "Soul Element",
-                        "shortDesc": "MP Cost: 20, Duration: 180, Immobility Debuff Chance: 80%, Debuff Duration: 2\\n[Passive Effect: Ignores 10% of Monster DEF]",
+                        "shortDesc": "Immobility Debuff Chance: 80%, Debuff Duration: 2\\n[Passive Effect: Ignores 10% of Monster DEF]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-element.png"],
                         "animations": ["https://media4.giphy.com/media/YRvHsErMqHjuUG7i7a/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "While active, grants a chance to stun enemies",
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, grants a chance to stun enemies",
                         "details": [
                             "<strong>[Passive]</strong>: Permanently increases %Ignore DEF"
                         ]
