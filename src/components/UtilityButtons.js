@@ -90,17 +90,17 @@ export function QuickJump({settings, setSettings}) {
                 <MenuItem onClick={handleClose}><MenuLink smooth to="#property" scroll={el => scrollWidthOffset(el)}>Class Properties</MenuLink></MenuItem>
                 <MenuItem onClick={handleClose}><MenuLink smooth to="#stat" scroll={el => scrollWidthOffset(el)}>Base Stats</MenuLink></MenuItem>
                 <MenuItem onClick={handleClose}><MenuLink smooth to="#skill" scroll={el => scrollWidthOffset(el)}>Skill Info</MenuLink></MenuItem>
-                <Divider variant="middle" />
+                <Divider variant="middle"/>
                 <MenuHeader>Settings</MenuHeader>
                 <FormGroup>
                     {/* <FormControlLabel
                         control={<Switch color="primary" checked={settings.offline} onChange={handleChange} name="offline"/>}
                         label="Offline Skill Info"
-                    /> */}
+                   /> */}
                     <FormControlLabel
                         control={<Switch color="primary" checked={settings.animations} onChange={handleChange} name="animations"/>}
                         label="Skill Animations"
-                    />
+                   />
                 </FormGroup>
             </Menu>
         </div>

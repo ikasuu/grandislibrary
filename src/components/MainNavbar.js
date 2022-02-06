@@ -48,7 +48,7 @@ function MainNavbar(props) {
                 height="42"
                 className="d-inline-block align-text-top"
                 alt="Grandis Library logo"
-              />{' '}
+             />{' '}
               Grandis Library
               {' '}
               <Badge variant="warning">BETA</Badge>
