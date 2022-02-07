@@ -46,7 +46,7 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/nova/angelic-buster/melody-cross.png' alt='Skill Melody Cross'/>, <img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/>, <img src='/class-icons/nova/angelic-buster/iron-blossom.png' alt='Skill Iron Blossom'/>, <img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/>, <img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior (Angelic Buster)'/>, <img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/>(Toggle)",
+            "active": "<img src='/class-icons/nova/angelic-buster/melody-cross.png' alt='Skill Melody Cross'/>, <img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/>, <img src='/class-icons/nova/angelic-buster/iron-blossom.png' alt='Skill Iron Blossom'/>, <img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/>, <img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior (Angelic Buster)'/>",
             "summons": "<img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/>(60s cd), <img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/>(120s cd), <img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/>(120s cd), <img src='/class-icons/nova/angelic-buster/mighty-mascot.png' alt='Skill Mighty Mascot'/>(120s cd)",
             "buffCd": "<img src='/class-icons/link-skills/terms-and-conditions.png' alt='Skill Terms and Conditions'/>(90s cd), <img src='/class-icons/nova/angelic-buster/pretty-exaltation.png' alt='Skill Pretty Exaltation'/>(120s cd), <img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/>(120s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/>(70 - 64s cd), <img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/>(240s cd), <img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/>(180s cd <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>)",
@@ -102,7 +102,6 @@
                     "shortDesc": "Hold down attack key to attack continuously. Works while moving. Deal 60% damage to 3 enemies. 20% recharge success chance.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/soul-buster.png"],
-                    "animations": ["/class-icons/nova/angelic-buster/soul-buster-preview.png"],
                     "type": "Basic Attack Modifier",
                     "desc": "Holding your Attack Key will fire homing bullets",
                     "details": [
@@ -470,14 +469,14 @@
                 {
                     "id": 65121011,
                     "name": "Soul Seeker Expert",
-                    "shortDesc": "35% chance to summon a Soul Seeker when attacking with an Angelic Buster skill (Excludes attack specfic bonuses, Soul Buster and Soul Seeker skills). When using Celestial Roar, activation rate +15%.\\nThe summoned Soul Seeker's Attack Power will be only 75% of a regular Soul Seeker.",
+                    "shortDesc": "35% chance to summon a Soul Seeker. Final Damage will be only 75% of the damage a direct use of this skill would inflict.",
                     "maxLevel": 10,
-                    "icons": ["/class-icons/nova/angelic-buster/soul-seeker.png"],
-                    "type": "Toggle Attack",
-                    "desc": "When toggled, whenever you attack, there is a chance to create <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/>",
+                    "icons": ["/class-icons/nova/angelic-buster/soul-seeker-expert.png"],
+                    "type": "Passive",
+                    "desc": "While attacking, successful attacks have a chance to activate <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/>",
                     "details": [
-                        "<img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/> has an increased chance to create <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/>",
-                        "Deals reduced damage compared to <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/>"
+                        "Deals reduced %Final Damage compared to using <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/> directly",
+                        "Summons and <img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/> cannot activate this passive"
                     ]
                 }]
             ]
