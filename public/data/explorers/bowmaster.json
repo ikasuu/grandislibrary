@@ -42,7 +42,6 @@
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> +15%] [<img src='/class-icons/explorers/bowmaster/bow-expert.png' alt='Skill Bow Expert'/> +8%]",
                 "<strong>Final Damage</strong>: [<img src='/class-icons/explorers/bowmaster/reckless-hunt.png' alt='Skill Reckless Hunt'/> +30% while toggled]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
-                "<strong>Damage Reduction (Regular Monsters)</strong>: +20%",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/explorers/bowmaster/marksmanship.png' alt='Skill Marksmanship'/> +25%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/explorers/bowmaster/focused-fury.png' alt='Skill Focused Fury'/> 20 & up to 100]"
             ]
@@ -64,7 +63,7 @@
         "howToCreate": {
             "image": ["/class-icons/explorers/how-to-create.png",[499,374]],
             "npc": [
-                ["https://maplestory.io/api/GMS/216/npc/10200/icon",[108,111]],
+                ["/images/npc/athena-pierce.png",[108,111]],
                 ["/images/npc/sugar.png",[64,97]]
             ],
             "info": [
@@ -644,7 +643,7 @@
                     "desc": "While active, increases %Damage and arrows periodically rain from the sky on to enemies",
                     "details": [
                         "If attacking more than one enemy, the arrows gain increased number of attacks for each additional enemy",
-                        "Magic Arrows from <img src'/class-icons/explorers/bowmaster/quiver-cartridge.png' alt='Skill Quiver Cartridge'/> have an increased chance to activate where arrows rain down",
+                        "Magic Arrows from <img src='/class-icons/explorers/bowmaster/quiver-cartridge.png' alt='Skill Quiver Cartridge'/> have an increased chance to activate where arrows rain down",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -655,7 +654,10 @@
                     "icons": ["/class-icons/explorers/bowmaster/inhuman-speed.png"],
                     "animations": ["https://media1.giphy.com/media/ehJirtl72c2PSkPWQU/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "When first activated, creates an afterimage that attacks alongside you. While the Skill is on cooldown, every 10 attacks, you create another afterimage that attacks alongside you"
+                    "desc": "Fires a barrage of arrows at enemies within range",
+                    "details": [
+                        "While Inhuman Speed is on cooldown, every few attacks, you create another afterimage that attacks alongside you"
+                    ]
                 },
                 {
                     "name": "Quiver Barrage",
@@ -666,8 +668,8 @@
                     "type": "Buff Attack",
                     "desc": "While active, increases %Attack and uses every <img src='/class-icons/explorers/bowmaster/quiver-cartridge.png' alt='Skill Quiver Cartridge'/> quiver at once without consuming them",
                     "details": [
-                        "Additionally, adds another quiver type, Flaming Arrows that explode and damages nearby enemies",
-                        "Cannot be used together with <img src='/class-icons/explorers/bowmaster/enchanted-quiver.png' alt='Skill Enchanted Quiver'/> <ul> <li><img src='/class-icons/explorers/bowmaster/enchanted-quiver.png' alt='Skill Enchanted Quiver'/> will be canceled if Quiver Barrage is activated</li> </ul>"
+                        "Additionally, adds another quiver type, Flaming Arrows that explode damaging nearby enemies",
+                        "Cannot be used together with <img src='/class-icons/explorers/bowmaster/enchanted-quiver.png' alt='Skill Enchanted Quiver'/> and will be cancelled if Quiver Barrage is activated"
                     ]
                 },
                 {
