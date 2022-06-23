@@ -72,7 +72,7 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel, animationS
                     {skillData.animations && animationSetting && skillData.animations.map((animation, index) => <SkillAnimation key={index} animation={animation} name={name}/>
                     )}
                     <Card.Title>
-                        {skillData.icons.map((icon, index) => <Icon key={index} src={icon} alt=""/>)}<SkillName>{name}</SkillName>
+                        {skillData.icons.map((icon, index) => <Icon key={index} src={`${icon}`} alt=""/>)}<SkillName>{name}</SkillName>
                         <SkillBadge variant="secondary">{skillData.type}</SkillBadge>
                         {skillData.reqLev && <SkillBadge variant="secondary">Lv. {skillData.reqLev}</SkillBadge>}
                     </Card.Title>
