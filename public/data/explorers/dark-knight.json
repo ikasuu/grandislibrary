@@ -32,7 +32,7 @@
             ]
         },
         "baseStats": [
-            "Excludes attack specfic bonuses, Link Skills, and buffs with cooldowns. Includes <img src='/class-icons/explorers/dark-knight/final-pact-damage.png' alt='Skill Final Pact - Damage'/> <img src='/class-icons/explorers/dark-knight/final-pact-critical-chance.png' alt='Skill Final Pact - Critical Chance'/> Final Pact - Damage and Critical Chance",
+            "Excludes attack specfic bonuses, Link Skills, and buffs with long cooldowns. Includes <img src='/class-icons/explorers/dark-knight/final-pact-damage.png' alt='Skill Final Pact - Damage'/> <img src='/class-icons/explorers/dark-knight/final-pact-critical-chance.png' alt='Skill Final Pact - Critical Chance'/> Final Pact - Damage and Critical Chance",
             [
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Hex of the Evil Eye (3rd Job)'><img src='/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png' alt='Skill Hex of the Evil Eye'/></span> +10%] [<span data-tooltip='Lord of Darkness (3rd Job)'><img src='/class-icons/explorers/dark-knight/lord-of-darkness.png' alt='Skill Lord of Darkness'/></span> +30%] [<span data-tooltip='Final Pact (4th Job)'><img src='/class-icons/explorers/dark-knight/final-pact.png' alt='Skill Final Pact'/></span> +30% when above 20% HP]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Lord of Darkness (3rd Job)'><img src='/class-icons/explorers/dark-knight/lord-of-darkness.png' alt='Skill Lord of Darkness'/></span> +8%] [<span data-tooltip='Barricade Mastery (4th Job)'><img src='/class-icons/explorers/dark-knight/barricade-mastery.png' alt='Skill Barricade Mastery'/></span> +15%] [<span data-tooltip='Final Pact (4th Job)'><img src='/class-icons/explorers/dark-knight/final-pact.png' alt='Skill Final Pact'/></span> +15% when above 20% HP]",
@@ -40,7 +40,7 @@
                 "<strong>Final Damage</strong>: [<span data-tooltip='Cross Surge (3rd Job)'><img src='/class-icons/explorers/dark-knight/cross-surge.png' alt='Skill Cross Surge'/></span> +50% & up to +20% from buff] [<span data-tooltip='Final Pact (4th Job)'><img src='/class-icons/explorers/dark-knight/final-pact.png' alt='Skill Final Pact'/></span> +35% when above 20% HP]",
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Dark Resonance (4th Job)'><img src='/class-icons/explorers/dark-knight/dark-resonance.png' alt='Skill Dark Resonance'/></span> +30%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Warrior Mastery (1st Job)'><img src='/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]",
-                "<strong>Attack Speed (Weapon)</strong>: 3 [Spear], 2 [Polearm]",
+                "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Abnormal Status Resistance</strong>: <span data-tooltip='Endure (3rd Job)'><img src='/class-icons/explorers/dark-knight/endure.png' alt='Skill Endure'/></span> 20]"
             ]
         ],
@@ -707,9 +707,9 @@
                     "type": "Buff Attack",
                     "desc": "While active, periodically damages nearby enemies",
                     "details": [
-                        "Whenever you attack, recover some %Max HP and gain 1 Life Force (up to 15)<ul><li>If your HP is full, instead you will gain an HP shield based on the amount that was supposed to be recovered</li><li>Periodically you will gain a maximum-strength shield</li></ul>",
+                        "The attack will recover some %Max HP and generate 1 Life Force (up to 15)<ul><li>If your HP is full, instead you will gain an HP shield based on the amount that was supposed to be recovered</li><li>Periodically you will gain a maximum-strength shield</li></ul>",
                         "While active, increases %Damage Reduction including %Max HP attack",
-                        "At the end of the skill or when the Skill Key is pressed again, based on how much Life Force was accumulated, you will unleash a deadly attack<ul><li>Cancelling the skill during <img src='/class-icons/explorers/dark-knight/gungnirs-descent.png' alt='Skill Gungnir's Descent'/>, <img src='/class-icons/explorers/dark-knight/nightshade-explosion.png' alt='Skill Nightshade Explosion'/>, and <img src='/class-icons/explorers/dark-knight/calamitous-cyclone.png' alt='Skill Calamitous Cyclone'/> will have no end action delay</li></ul>",
+                        "While active, pressing the Skill Key again will cancel the buff and based on how much Life Force was accumulated, you will unleash a deadly attack<ul><li>Cancelling the skill during <img src='/class-icons/explorers/dark-knight/gungnirs-descent.png' alt='Skill Gungnir's Descent'/>, <img src='/class-icons/explorers/dark-knight/nightshade-explosion.png' alt='Skill Nightshade Explosion'/>, and <img src='/class-icons/explorers/dark-knight/calamitous-cyclone.png' alt='Skill Calamitous Cyclone'/> will have no end action delay</li></ul>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
