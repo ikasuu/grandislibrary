@@ -23,7 +23,7 @@
                 "Master of Damage over Time debuffs"
             ],
             "cons": [
-                "Short-ranged mobbing attack with <img src='/class-icons/explorers/fire-poison/paralyze.png' alt='Skill Paralyze'/> Paralyze",
+                "Short-ranged mobbing attack with <img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Paralyze'/> Paralyze",
                 "Slow playstyle that requires preparation &amp; setup to deal damage",
                 "<img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery (Fire, Poison)'/> Teleport Mastery will trigger Damage Reflect",
                 "Need to remember to toggle <img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard (Magician)'/> Magic Guard",
@@ -31,25 +31,26 @@
             ]
         },
         "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with cooldowns",
+            "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [<img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/> +30%] [<img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/> +5% when wand is equipped]",
-                "<strong>Crit Damage</strong>: [<img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/> +13%]",
-                "<strong>Damage</strong>: [<img src='/class-icons/explorers/fire-poison/elemental-amplification.png' alt='Skill Elemental Amplification'/> +50%] [<img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/> up to +40%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/> +40%] [<img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/> +5% per stack up to +25%] [<img src='/class-icons/explorers/fire-poison/burning-magic.png' alt='Skill Burning Magic'/> +20% to damage over time, stun, freeze, darkness, paralysis]",
+                "<strong>Crit Rate</strong>: [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +30%] [<span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +5% when wand is equipped]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +13%]",
+                "<strong>Damage</strong>: [<span data-tooltip='Elemental Amplification (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-amplification.png' alt='Skill Elemental Amplification'/></span> +50%] [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/></span> up to +40%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Elemental Drain (2nd Job)'><img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/></span> up to +25%] [<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +50%] [<span data-tooltip='Burning Magic (3rd Job)'><img src='/class-icons/explorers/fire-poison/burning-magic.png' alt='Skill Burning Magic'/></span> +20% to damage over time, stun, freeze, darkness, paralysis]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
-                "<strong>Buff Duration</strong>: [<img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/> +50%]",
-                "<strong>Ignore DEF</strong>: [<img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/> +20%]",
-                "<strong>Ignore Elemental Resistance</strong>: [<img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/> +10%]",
-                "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation'/> 20]"
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> +40%] [<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> +60%]",
+                "<strong>Buff Duration</strong>: [<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%]",
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/></span> +20%]",
+                "<strong>Ignore Elemental Resistance</strong>: [<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +10%]",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Elemental Adaptation (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation'/></span> 20]"
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard (Magician)'/>(Toggle), <img src='/class-icons/explorers/fire-poison/magic-booster.png' alt='Skill Magic Booster (Magician)'/>, <img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/>, <img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/> (Toggle), <img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/>, <img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery (Fire, Poison)'/>(Toggle), <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/>, <img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/>",
-            "summons": "<img src='/class-icons/explorers/fire-poison/viral-slime.png' alt='Skill Viral Slime'/>(78 - 60s cd), <img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/>, <img src='/class-icons/explorers/fire-poison/elemental-fury.png' alt='Skill Elemental Fury'/>(75s cd)",
-            "buffCd": "<img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation (Fire, Poison)'/>(582 - 240s cd), <img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/>(180s cd)<img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure (Magician)'/>(120s cd)",
-            "buffFifth": "<img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/>(59 - 30s cd), <img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/>(180s cd), <img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd)",
-            "iFrame": "<img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60 - 53s cd)"
+            "active": "<span data-tooltip='Magic Guard (1st Job)'><img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard'/></span>(Toggle) <span data-tooltip='Meditation (2nd Job)'><img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/></span> <span data-tooltip='Ignite'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span>(Toggle) <span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span>(Toggle) <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span>(Toggle)",
+            "summons": "<span data-tooltip='Creeping Toxin (3rd Job)'><img src='/class-icons/explorers/fire-poison/creeping-toxin.png' alt='Skill Creeping Toxin'/></span>(30s cd) <span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> <span data-tooltip='Elemental Fury (5th Job)'><img src='/class-icons/explorers/fire-poison/elemental-fury.png' alt='Skill Elemental Fury'/></span>(75s cd)",
+            "buffCd": "<span data-tooltip='Elemental Adaptation (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation (Fire, Poison)'/></span>(240s cd) <span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/></span>(180s cd) <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span>(120s cd)",
+            "buffFifth": "<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(59 - 30s cd) <span data-tooltip='Maple World Goddess Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(60s cd)",
+            "iFrame": "<span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(60s cd)"
         },
         "linkSkill": {
             "id": 80002762,
@@ -68,16 +69,16 @@
                 ["/images/npc/sugar.png",[64,97]]
             ],
             "info": [
-                "To create one, choose the 'Explorers' option in the Character Creation screen and then continue through the story until you reach the quest <a href='https://maplestory.fandom.com/wiki/Quests/77/Victoria_Island_or_Bust!' target='_blank' rel='noopener'/>'Victoria Island or Bust'</a> and choose the 'Magician, intelligent and magical' option",
-                "Once you reach Lv. 30 as a Magician, talk to Grendel the Really Old to accept a quest called <a href='https://maplestory.fandom.com/wiki/Quests/77/Path_of_Fire_and_Poison' target='_blank' rel='noopener'/>'Path of Fire and Poison'</a>. Completing the quest will make you a Wizard (Fire, Poison) and you will be on the path to an Arch Mage (Fire, Poison). Wizard (Fire, Poison) is the 2nd job of Arch Mage (Fire, Poison)"
+                "To create one, choose the 'Explorers' option in the Character Creation screen and then continue through the story until you reach the town <img src='/images/map-icons/lith-harbor.png' alt='MapIcon Lith Harbor'/> Lith Harbor where Sugar has a quest called 'The Adventure Begins'. Accept the quest and choose the option 'Magician' when prompted",
+                "Continue with the story until Lv. 30 as a Magician and talk to Grendel the Really Old to accept a quest called 'The 3 Arcane Paths'. Complete the quest by choosing the option Wizard (Fire, Poison) and you will be on the path to a Arch Mage (Fire, Poison). Wizard (Fire, Poison) is the 2nd job of Arch Mage (Fire, Poison)"
             ]
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/> -> <img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard (Magician)'/> -> <img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/> -> <img src='/class-icons/explorers/mage/magic-armor.png' alt='Skill Magic Armor.png'/> -> <img src='/class-icons/explorers/mage/energy-bolt.png' alt='Skill Energy Bolt.png'/>"],
-                ["2nd Job", "<img src='/class-icons/explorers/fire-poison/spell-mastery.png' alt='Skill Spell Mastery'/> -> <img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/> -> <img src='/class-icons/explorers/fire-poison/magic-booster.png' alt='Skill Magic Booster (Magician)'/> -> <img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/> -> <img src='/class-icons/explorers/fire-poison/mp-eater.png' alt='Skill MP Eater'/> -> <img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/> -> <img src='/class-icons/explorers/fire-poison/flame-orb.png' alt='Skill Flame Orb'/> -> <img src='/class-icons/explorers/fire-poison/poison-breath.png' alt='Skill Poison Breath'/>"],
-                ["3rd Job", "<img src='/class-icons/explorers/fire-poison/mana-burn.png' alt='Skill Mana Burn.png'/> -> <img src='/class-icons/explorers/fire-poison/burning-magic.png' alt='Skill Burning Magic'/> -> <img src='/class-icons/explorers/fire-poison/elemental-amplification.png' alt='Skill Element Amplification'/> -> <img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/> -> <img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/> -> <img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery (Fire, Poison)'/> -> <img src='/class-icons/explorers/fire-poison/viral-slime.png' alt='Skill Viral Slime'/> -> <img src='/class-icons/explorers/fire-poison/explosion.png' alt='Skill Explosion'/> -> <img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/> -> <img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation (Fire, Poison)'/>"],
-                ["4th Job", "<img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/> -> <img src='/class-icons/explorers/fire-poison/paralyze.png' alt='Skill Paralyze'/> -> <img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/> -> <img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/> -> <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> -> <img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/> -> <img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/> -> <img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/> -> <img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/> -> <img src='/class-icons/common/heros-will.png' alt='Skill Hero'/>"]
+                ["1st Job", "<span data-tooltip='Mana Wave'><img src='/class-icons/explorers/mage/mana-wave.png' alt='Skill Mana Wave'/></span> -> <span data-tooltip='Teleport'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> -> <span data-tooltip='Magic Guard'><img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard'/></span> -> <span data-tooltip='MP Boost'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> -> <span data-tooltip='Magic Armor'><img src='/class-icons/explorers/mage/magic-armor.png' alt='Skill Magic Armor.png'/></span> -> <span data-tooltip='Energy Bolt'><img src='/class-icons/explorers/mage/energy-bolt.png' alt='Skill Energy Bolt.png'/></span>"],
+                ["2nd Job", "<span data-tooltip='Spell Mastery'><img src='/class-icons/explorers/fire-poison/spell-mastery.png' alt='Skill Spell Mastery'/></span> -> <span data-tooltip='High Wisdom'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> -> <span data-tooltip='Agile Magic'><img src='/class-icons/explorers/fire-poison/agile-magic.png' alt='Skill Agile Magic'/></span> -> <span data-tooltip='Ignite'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span> -> <span data-tooltip='MP Eater'><img src='/class-icons/explorers/fire-poison/mp-eater.png' alt='Skill MP Eater'/></span> -> <span data-tooltip='Meditation'><img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/></span> -> <span data-tooltip='Flame Orb'><img src='/class-icons/explorers/fire-poison/flame-orb.png' alt='Skill Flame Orb'/></span> -> <span data-tooltip='Poison Breath'><img src='/class-icons/explorers/fire-poison/poison-breath.png' alt='Skill Poison Breath'/></span>"],
+                ["3rd Job", "<span data-tooltip='Teleport Boost'><img src='/class-icons/explorers/fire-poison/teleport-boost.png' alt='Skill Teleport Boost'/></span> -> <span data-tooltip='Burning Magic'><img src='/class-icons/explorers/fire-poison/burning-magic.png' alt='Skill Burning Magic'/></span> -> <span data-tooltip='Elemental Amplification'><img src='/class-icons/explorers/fire-poison/elemental-amplification.png' alt='Skill Element Amplification'/></span> -> <span data-tooltip='Arcane Overdrive'><img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> -> <span data-tooltip='Elemental Decrease'><img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> -> <span data-tooltip='Teleport Mastery'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> -> <span data-tooltip='Creeping Toxin'><img src='/class-icons/explorers/fire-poison/creeping-toxin.png' alt='Skill Creeping Toxin'/></span> -> <span data-tooltip='Explosion'><img src='/class-icons/explorers/fire-poison/explosion.png' alt='Skill Explosion'/></span> -> <span data-tooltip='Poison Mist'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> -> <span data-tooltip='Elemental Adaptation'><img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation (Fire, Poison)'/></span>"],
+                ["4th Job", "<span data-tooltip='Buff Mastery'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> -> <span data-tooltip='Flame Sweep'><img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/></span> -> <span data-tooltip='Ifrit'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> -> <span data-tooltip='Arcane Aim'><img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Infinity'><img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/></span> -> <span data-tooltip='Meteor Shower'><img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/></span> -> <span data-tooltip='Mist Eruption'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> -> <span data-tooltip='Flame Haze'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
             ],
             "details": [
                 "Put one SP into each skill first and then max each skill in this order",
@@ -85,25 +86,28 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/explorers/fire-poison/paralyze-reinforce.png' alt='Skill Paralyze - Reinforce'/> <img src='/class-icons/explorers/fire-poison/paralyze-extra-strike.png' alt='Skill Paralyze - Extra Strike'/> Paralyze - Reinforce and Extra Strike</li><li><img src='/class-icons/explorers/fire-poison/mist-eruption-reinforce.png' alt='Skill Mist Eruption - Reinforce'/> <img src='/class-icons/explorers/fire-poison/mist-eruption-guardbreaker.png' alt='Skill Mist Eruption - Guardbreaker'/> <img src='/class-icons/explorers/fire-poison/mist-eruption-cooldown-cutter.png' alt='Skill Mist Eruption - Cooldown Cutter'/> Mist Eruption - Reinforce, Guardbreaker, and Cooldown Cutter</li></ul>" 
+            "recommended": "<ul><li><img src='/class-icons/explorers/fire-poison/flame-sweep-reinforce.png' alt='Skill Flame Sweep - Reinforce'/> <img src='/class-icons/explorers/fire-poison/flame-sweep-extra-strike.png' alt='Skill Flame Sweep - Extra Strike'/> Flame Sweep - Reinforce and Extra Strike</li><li><img src='/class-icons/explorers/fire-poison/mist-eruption-reinforce.png' alt='Skill Mist Eruption - Reinforce'/> <img src='/class-icons/explorers/fire-poison/mist-eruption-guardbreaker.png' alt='Skill Mist Eruption - Guardbreaker'/> <img src='/class-icons/explorers/fire-poison/mist-eruption-cooldown-cutter.png' alt='Skill Mist Eruption - Cooldown Cutter'/> Mist Eruption - Reinforce, Guardbreaker, and Cooldown Cutter</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<img src='/class-icons/explorers/fire-poison/paralyze.png' alt='Skill Paralyze'/> <img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/> <img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/> <img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/> <img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/> <img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/> <img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/> <img src='/class-icons/explorers/fire-poison/megiddo-flame.png' alt='Skill Megiddo Flame'/> <img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/>",
-            "possible": "<img src='/class-icons/explorers/mage/energy-bolt.png' alt='Skill Energy Bolt'/> <img src='/class-icons/explorers/fire-poison/flame-orb.png' alt='Skill Flame Orb'/> <img src='/class-icons/explorers/fire-poison/poison-breath.png' alt='Skill Poison Breath'/> <img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/> <img src='/class-icons/explorers/fire-poison/explosion.png' alt='Skill Explosion'/> <img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/> <img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery (Fire, Poison)'/> <img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/> <img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/> <img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/> <img src='/class-icons/explorers/fire-poison/paralyze.png' alt='Skill Paralyze'/> <img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/> <img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/> <img src='/class-icons/explorers/fire-poison/megiddo-flame.png' alt='Skill Megiddo Flame'/>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Flame Haze (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> <span data-tooltip='Mist Eruption (4th Job)'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> <span data-tooltip='Flame Sweep (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Teleport Mastery/Creeping Toxin (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span> <span data-tooltip='Ignite (2nd Job)'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span></div><h6>Tertiary Trio</h6><div><span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> <span data-tooltip='Megiddo Flame (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/megiddo-flame.png' alt='Skill Megiddo Flame'/></span> <span data-tooltip='Meteor Shower (4th Job)'><img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first and so on</li><li>6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)</li></ul>",
+            "possible": "<span data-tooltip='Flame Orb (1st Job)'><img src='/class-icons/explorers/fire-poison/flame-orb.png' alt='Skill Flame Orb'/></span> <span data-tooltip='Poison Breath (2nd Job)'><img src='/class-icons/explorers/fire-poison/poison-breath.png' alt='Skill Poison Breath'/></span> <span data-tooltip='Ignite (2nd Job)'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span> <span data-tooltip='Explosion (3rd Job)'><img src='/class-icons/explorers/fire-poison/explosion.png' alt='Skill Explosion'/></span> <span data-tooltip='Poison Mist (3rd Job)'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> <span data-tooltip='Teleport Mastery/Creeping Toxin (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> <span data-tooltip='Flame Haze (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> <span data-tooltip='Mist Eruption (4th Job)'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> <span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> <span data-tooltip='Flame Sweep (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/></span> <span data-tooltip='Meteor Shower (4th Job)'><img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/></span> <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span> <span data-tooltip='Megiddo Flame (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/megiddo-flame.png' alt='Skill Megiddo Flame'/></span>"
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/2893/magician",
-            "https://maplestory.fandom.com/wiki/Magician_(Fire,_Poison)"
+            "https://maplestory.fandom.com/wiki/Magician_(Fire,_Poison)",
+            "https://discord.gg/PX2v4BV3Qp"
         ],
+        "specialThanks": "Special thanks to bel and the members of the Explorer Mage Discord for their help in making this overview!",
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
-            ["Boost Nodes Build + Inner Ability","Maple Central"],
-            ["5th Job Skill Animation (DoT Punisher)", "KyoWantsCute"]
+            ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Explorer Mage Discord"],
+            ["5th Job Skill Animation (DoT Punisher)", "KyoWantsCute"],
+            ["Unreliable Memory Probabilties","OrangeMushroom"]
         ],
         "extraContent": {
             "title": "DoT Debuffs",
-            "content": "<p>Stacking DoT debuffs will increase the %Final Damage of <img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/> Mist Eruption against an enemy. Below is a list of skills that apply DoT effects:</p><ul><li><img src='/class-icons/explorers/fire-poison/poison-breath.png' alt='Skill Poison Breath'/> <strong>Poison Breath </strong>(2nd Job)</li><li><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/> <strong>Ignite </strong>(2nd Job)</li><li><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/> <strong>Poison Mist</strong> (3rd Job)</li><li><img src='/class-icons/explorers/fire-poison/viral-slime.png' alt='Skill Viral Slime'/> <strong>Viral Slime</strong> (3rd Job)</li><li><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery (Fire, Poison)'/> <strong>Teleport Mastery </strong>(3rd Job)</li><li><img src='/class-icons/explorers/fire-poison/paralyze.png' alt='Skill Paralyze'/> <strong>Paralyze </strong>(4th Job)</li><li><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/> <strong>Flame Haze </strong>(4th Job)</li><li><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/> <strong>Ifrit </strong>(4th Job)</li><li><img src='/class-icons/explorers/fire-poison/megiddo-flame.png' alt='Skill Megiddo Flame'/> <strong>Megiddo Flame </strong>(Hyper Skill)</li><li><img src='/class-icons/explorers/fire-poison/dot-punisher.png' alt='Skill DoT Punisher'/> <strong>DoT Punisher </strong>(5th Job)</li><li><img src='/class-icons/explorers/fire-poison/poison-nova.png' alt='Skill Poison Nova'/> <strong>Poison Nova </strong>(5th Job)</li></ul>"
+            "content": "<p>Stacking DoT debuffs will increase the %Final Damage of <img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/> Mist Eruption against an enemy. Below is a list of skills that apply DoT effects:</p><ul><li><img src='/class-icons/explorers/fire-poison/poison-breath.png' alt='Skill Poison Breath'/> <strong>Poison Breath </strong>(2nd Job)</li><li><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/> <strong>Poison Mist</strong> (3rd Job)</li><li><img src='/class-icons/explorers/fire-poison/creeping-toxin.png' alt='Skill Creeping Toxin'/> <strong>Creeping Toxin</strong> (3rd Job)</li><li><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery (Fire, Poison)'/> <strong>Teleport Mastery </strong>(3rd Job)</li><li><img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/> <strong>Flame Sweep </strong>(4th Job)</li><li><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/> <strong>Flame Haze </strong>(4th Job)</li><li><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/> <strong>Ifrit </strong>(4th Job)</li><li><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/> <strong>Inferno Aura </strong>(Hyper Skill)</li><li><img src='/class-icons/explorers/fire-poison/megiddo-flame.png' alt='Skill Megiddo Flame'/> <strong>Megiddo Flame </strong>(Hyper Skill)</li><li><img src='/class-icons/explorers/fire-poison/dot-punisher.png' alt='Skill DoT Punisher'/> <strong>DoT Punisher </strong>(5th Job)</li><li><img src='/class-icons/explorers/fire-poison/poison-nova.png' alt='Skill Poison Nova'/> <strong>Poison Nova </strong>(5th Job)</li></ul>"
         }
     },
     "skill": {
@@ -156,10 +160,10 @@
                     {
                         "id": 2001008,
                         "name": "Energy Bolt",
-                        "shortDesc": "MP Cost: 24, Damage: 309%, Max Enemies Hit: 4",
+                        "shortDesc": "MP Cost: 24, Damage: 78%, Number of Attacks: 4 Max Enemies Hit: 4",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/mage/energy-bolt.png"],
-                        "animations": ["https://media.giphy.com/media/j4RyIeCIMXdlR1ixq0/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/ylq5hulgqPGUBLH1rg/giphy.gif"],
                         "type": "Attack",
                         "desc": "Casts an explosive orb forward"
                     },
@@ -169,20 +173,21 @@
                         "shortDesc": "MP Cost: 13, Damage Displaced: 85% of your MP, Duration: While the skill is activated",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/mage/magic-guard.png"],
-                        "animations": ["https://media.giphy.com/media/5NSZHNVfJkGIzneXyV/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/ZIL4LSon88n7qZSvEg/giphy.gif"],
                         "type": "Toggle Buff",
                         "desc": "When toggled, a portion of your damage taken will be redirected towards your MP",
                         "details": [
-                            "<strong>[Note]</strong>: Always remember to keep this toggled on"
+                            "Excludes attacks that deal %Max HP damage",
+                            "Will not work if you have 0 MP"
                         ]
                     },
                     {
                         "id": 2001009,
                         "name": "Teleport",
-                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 170, and up and down with 275",
+                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 190, and up and down with 295",
                         "maxLevel": 5,
                         "icons": ["/class-icons/explorers/mage/teleport.png"],
-                        "animations": ["https://media.giphy.com/media/HPpGTgVXB45DnJTAgJ/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/w2NDK6o6Dknms7d2iK/giphy.gif"],
                         "type": "Active",
                         "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
                         "details": [
@@ -190,10 +195,24 @@
                         ]
                     },
                     {
+                        "id": 2001009,
+                        "name": "Mana Wave",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance. Hold the Jump key after using to spend 20 MP to descent slowly for up to 5 sec.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/mage/mana-wave.png"],
+                        "animations": ["https://media.giphy.com/media/gxIClcKxrEeQsfUllv/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
+                            "After using Mana Wave, holding the Jump Key will allow you to slowly float down<ul><li>You can move while floating</li></ul>"
+                        ]
+                    },
+                    {
                         "id": 2000010,
                         "name": "Magic Armor",
-                        "shortDesc": "Defense: +100",
-                        "maxLevel": 10,
+                        "shortDesc": "Defense: +90",
+                        "maxLevel": 9,
                         "icons": ["/class-icons/explorers/mage/magic-armor.png"],
                         "type": "Passive"
                     },
@@ -214,14 +233,14 @@
                         "shortDesc": "MP Cost: 22, Damage: 301%, Number of Attacks: 2, Max Enemies Hit: 6",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/fire-poison/flame-orb.png"],
-                        "animations": ["https://media.giphy.com/media/rC9fd874ML1A8KNf14/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/G4C7vqK5qNLuNtnS1h/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Casts a fireball forward"
+                        "desc": "Casts several fireballs forward"
                     },
                     {
                         "id": 2100009,
                         "name": "Elemental Drain",
-                        "shortDesc": "For each Damage-Over-Time effect active on nearby foes (up to 5): Final Damage: +3%.",
+                        "shortDesc": "For each Damage-Over-Time effect active on nearby foes (up to 5): Final Damage: +3%. Total applied between Elemental Drains.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/fire-poison/elemental-drain.png"],
                         "type": "Passive"
@@ -229,12 +248,15 @@
                     {
                         "id": 2101005,
                         "name": "Poison Breath",
-                        "shortDesc": "MP Cost: 17, Damage: 180%, Enemies Hit: 6, Damage Over Time: 60% damage every 1 sec for 10 sec",
+                        "shortDesc": "MP Cost: 17, Damage: 180%, Enemies Hit: 6, Number of Attacks: 6\\nDamage Over Time: 60% damage every 1 sec for 10 sec",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/fire-poison/poison-breath.png"],
-                        "animations": ["https://media.giphy.com/media/jPe2J9h20nGMjs2bjI/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/IcdBjFHk9UO4SKDWvJ/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Casts an orb forward that applies a damaging poison debuff"
+                        "desc": "Casts an explosion poison cloud around you",
+                        "details": [
+                            "Applies a damaging debuff to enemies hit"
+                        ]
                     },
                     {
                         "id": 2101001,
@@ -242,18 +264,17 @@
                         "shortDesc": "MP Cost: 16, Party Member Magic ATT: +30, Duration: 240 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/fire-poison/meditation.png"],
-                        "animations": ["https://media.giphy.com/media/3fIMoDGQMeQrsvfgmi/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/Rsq275IZ6UUO1VXrNl/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
                         "id": 2101008,
-                        "name": "Magic Booster",
-                        "shortDesc": "MP Cost: 20, Weapon's Attack Speed increased for 240 sec",
+                        "name": "Agile Magic",
+                        "shortDesc": "Attack Speed: +2, INT: +20",
                         "maxLevel": 10,
-                        "icons": ["/class-icons/explorers/fire-poison/magic-booster.png"],
-                        "animations": ["https://media.giphy.com/media/Sd9k6xsibRtuapiT5u/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "Increases Attack Speed (by 2 stages)"
+                        "icons": ["/class-icons/explorers/fire-poison/agile-magic.png"],
+                        "type": "Passive",
+                        "desc": "Increases Attack Speed (by 2 stages) and grants flat INT"
                     },
                     {
                         "id": 2101010,
@@ -261,12 +282,12 @@
                         "shortDesc": "When casting Fire magic, 50% chance to create a wall of fire that attacks at a certain interval with the following effects - [Max Enemies Hit: 8. Damage: 40%, Attack Count: 3, Duration: 6]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/fire-poison/ignite.png"],
-                        "animations": ["https://media.giphy.com/media/xQ5LOwlvOuTH7CZnWv/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/8W6151CxFuhyp6Qh2G/giphy.gif"],
                         "type": "Toggle",
-                        "desc": "While toggled, there is a chance to create a wall of fire when a Fire-Attribute attacks damages an enemy",
+                        "desc": "While toggled, successfully striking an enemy with a Fire-Attribute attacks has a chance to create a damaging wall of fire",
                         "details": [
-                            "Unaffected by Damage Reflect",
-                            "Enemies that touch the wall receive a damaging burn debuff"
+                            "<span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span> does not trigger Ignite",
+                            "Unaffected by Damage Reflect"
                         ]
                     },
                     {
@@ -288,13 +309,13 @@
                     {
                         "id": 2100000,
                         "name": "MP Eater",
-                        "shortDesc": "MP Absorb Chance: 20%, Amount Absorbed: 10% of the enemy's Max MP",
+                        "shortDesc": "MP Absorb Chance: 20%, Amount Absorbed: 10% of Max MP\\nAmount Absorbed: 5% of the boss's Max MP",
                         "maxLevel": 9,
                         "icons": ["/class-icons/explorers/fire-poison/mp-eater.png"],
                         "type": "Passive",
                         "desc": "Your attacks have a chance to steal a portion of the enemy's %Max HP",
                         "details": [
-                            "Does not apply to bosses"
+                            "Effectiveness is reduced for bosses"
                         ]
                     }]
                 ],
@@ -305,7 +326,7 @@
                         "shortDesc": "MP Cost: 56, Damage: 405%, Number of Attacks: 2, Max Enemies Hit: 8",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/fire-poison/explosion.png"],
-                        "animations": ["https://media.giphy.com/media/npwfLSflNOvVHmfiOc/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/n73GPo4EfJGFiZrdKr/giphy.gif"],
                         "type": "Attack",
                         "desc": "Casts an explosion around yourself"
                     },
@@ -315,71 +336,67 @@
                         "shortDesc": "MP Cost: 55, Damage: 270%, Duration: 15 sec, Damage Over Time: 240% damage every 1 sec for 6 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/fire-poison/poison-mist.png"],
-                        "animations": ["https://media.giphy.com/media/MqiRzBgs97el0bxwiQ/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/mVysMeRiePkCdeY3dT/giphy.gif"],
                         "type": "Attack",
                         "desc": "Releases a lingering poisonous fog that applies a damaging poison debuff"
                     },
                     {
                         "id": 2111010,
-                        "name": "Viral Slime",
-                        "shortDesc": "MP Cost: 40, 160% continuous damage to the target for 10 sec. Slime will last up to 60 sec and it will split up to 10 slimes\\nCooldown: 60 sec.",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/explorers/fire-poison/viral-slime.png"],
-                        "animations": ["https://media.giphy.com/media/4JZfUDq9WAfbJIGhG1/giphy.gif"],
+                        "name": "Creeping Toxin",
+                        "shortDesc": "MP Cost: 54, Totem Duration: 60\\nSummons a totem that transforms the surrounding area into a toxic pool which deals 204% every 1 sec for 10 sec to enemies within that pool.\\nCreeping Toxin Explosion: MP Cost 60. Chain explosions initiated by Creeping Toxin Explosion do not consume MP. Toxin pools can be detonated for 1.5 sec after they appear, dealing 192% damage 5 times to up to 10 enemies. That explosion will detonate any other nearby toxic pools.\\nAn enemy damaged by chain explosions, taking place within 0.4 sec. of one another, takes 50% less Final Damage from all explosions after the first.\\nCooldown: 30 sec.",
+                        "maxLevel": 14,
+                        "icons": ["/class-icons/explorers/fire-poison/creeping-toxin.png"],
+                        "animations": ["https://media.giphy.com/media/q9xKE4GpG8SpGiaMPx/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons a slime that seeks and attacks enemies",
+                        "desc": "Summons a totem that spreads a toxic pool along a platform",
                         "details": [
-                            "If the slime defeats an enemy, it will split into 2"
+                            "Enemies within the pool will receive a damaging debuff",
+                            "Using a Fire-Attribute attack will cause the pool to explode<ul><li>The explosion will detonate nearby pools</li><li>Enemies will take reduced %Final Damage for all explosions after the first</li></ul>"
                         ]
                     },
                     {
                         "id": 2111011,
                         "name": "Elemental Adaptation (Fire, Poison)",
-                        "shortDesc": "MP Cost: 35, upon defending critical Abnormal Status, consumes up to 2% of Max MP and regenerate the barrier up to 5 times at 80% chance.\\nCooldown: 240 sec\\n[Passive Effect: Increases Abnormal Status and all Elemental Resistances by 20%]",
+                        "shortDesc": "MP Cost: 35, activates Elemental Adaptation.\\nConsumes 2% of Max MP for a 100% chance to block debilitating status conditions, and regenerate the barrier up to 10 times.\\nCooldown: 240 sec.\\n[Passive Effect: Status and Elemental Resistances +20%]",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/fire-poison/elemental-adaptation.png"],
-                        "animations": ["https://media.giphy.com/media/IaQdy4ZA1dmWuAlwJz/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/zlA7RNEHE3bS2SO985/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Creates a barrier that blocks one Abnormal Status effect",
+                        "desc": "Creates a barrier that blocks up to 10 Abnormal Status effect",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
-                            "Once an Abnormal Status is blocked, there is a chance for the barrier to regenerate up to 5 times"
+                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
                         ]
-                    },
-                    {
-                        "id": 2111008,
-                        "name": "Elemental Decrease",
-                        "shortDesc": "MP Cost: 50, Elemental Attribute Resistance: -10%, Duration: 240 sec\\n[Passive : Final damage +40%]",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/explorers/fire-poison/elemental-decrease.png"],
-                        "animations": ["https://media.giphy.com/media/ztNTYy5KwJ6OhIrV1D/giphy.gif"],
-                        "type": "Buff"
                     },
                     {
                         "id": 2111007,
                         "name": "Teleport Mastery",
-                        "shortDesc": "Additional MP Cost: 20, Max Enemies Hit: 6, Damage: 272%, Stun Chance: 80%, Stun Duration: 4. For 4 sec, 98% damage at every 2 sec.\\nPermanently increases Teleport distance by 20",
+                        "shortDesc": "Additional MP Cost: 20, Max Monsters Hit: 6, Damage: 340%, Stun Chance: 80%, Stun Duration: 4 sec. For 4 sec., inflicts 98% damage at every 2 sec.\\n[Passive Effect: Knockback Resistance: +40%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/fire-poison/teleport-mastery.png"],
-                        "animations": ["https://media.giphy.com/media/RmhuvFs0qYdQyd609E/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/53RJiAP3M1yC3ZkSQx/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "When toggled, using <img src='/class-icons/explorers/mage/teleport.png' alt='Skill Light Speed'/> will damage nearby enemies",
+                        "desc": "While toggled, using <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> will damage nearby enemies",
                         "details": [
-                            "Has a chance to stun enemies and apply a damaging burn debuff",
-                            "Permanently increases the teleport distance"
+                            "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance",
+                            "Has a chance to stun enemies and apply a damaging debuff"
                         ]
                     },
                     {
-                        "id": 2110012,
-                        "name": "Mana Burn",
-                        "shortDesc": "Fire magic attacks burn 1% of the enemy's current MP, at 10% chance, and restore your MP by a set percentage of consumed MP.\\nIf MP is burned, you can recover at least 100, but cannot recover more than 3000.\\nIf the enemy's MP is under 20%, activation is restricted.",
-                        "maxLevel": 4,
-                        "icons": ["/class-icons/explorers/fire-poison/mana-burn.png"],
-                        "type": "Passive",
-                        "desc": "When using Fire-Attribute attacks magic, your attack has a chance to reduce an enemy's MP and restore your MP",
-                        "details": [
-                            "Does not work if the enemy's MP is below 20%"
-                        ]
+                        "id": 2111016,
+                        "name": "Teleport Boost",
+                        "shortDesc": "MP Cost: 20, Teleport Distance: Horizontal +65, Vertical +25.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/fire-poison/teleport-boost.png"],
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, increases the teleport distance of <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span>"
+                    },
+                    {
+                        "id": 2111008,
+                        "name": "Elemental Decrease",
+                        "shortDesc": "Enemy Elemental Resistance: -10%, Final damage +50%]",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/explorers/fire-poison/elemental-decrease.png"],
+                        "type": "Passive"
                     },
                     {
                         "id": 2110001,
@@ -387,7 +404,11 @@
                         "shortDesc": "MP Cost: +50%, Damage: +50%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/fire-poison/elemental-amplification.png"],
-                        "type": "Passive"
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Does not apply to <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span>"
+                        ]
                     },
                     {
                         "id": 2110009,
@@ -409,29 +430,32 @@
                 [
                 "4th Job", [{
                     "id": 2121006,
-                    "name": "Paralyze",
-                    "shortDesc": "MP Cost: 40, Damage: 220%, Attack Count: 7, Max Enemies Hit: 8, Paralysis Duration: 5 sec, Damage Over Time: 240% damage every 1 sec",
+                    "name": "Flame Sweep",
+                    "shortDesc": "MP Cost: 40, Damage: 220%, Number of Attacks: 7, Max Enemies Hit: 8\\nBurn Duration: 5 sec., Damage Over Time: 240% damage every 1 sec.",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/explorers/fire-poison/paralyze.png"],
-                    "animations": ["https://media.giphy.com/media/EqN2erWuKlK6LQ9VL8/giphy.gif"],
+                    "icons": ["/class-icons/explorers/fire-poison/flame-sweep.png"],
+                    "animations": ["https://media.giphy.com/media/Dr9lGpzVXOaBizoTtZ/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Casts a wall of flame in front of you that applies paralysis and a damaging burn debuff"
+                    "desc": "Casts a wall of flame in front of you",
+                    "details": [
+                        "Applies a damaging debuff to enemies hit"
+                    ]
                 },
                 {
                     "id": 2121003,
                     "name": "Mist Eruption",
-                    "shortDesc": "[Active Effects] MP Cost: 100, Max Enemies Hit: 12, Damage: 125%, Number of Attacks: 10, Number of Explosions: 2, Ignored Enemy Defense: +40%. Final Damage Modifier: +20% for 2 explosions, +45% for 3 explosions, +80% for 4 explosions, +125% for 5 explosions. Max Simultaneous Mist Explosions: 6. Cooldown: 10 sec\\nMist Eruption's cooldown is reduced by 2 seconds upon striking an enemy with 5 or more explosions. This cooldown reduction applies before other cooldown reductions.\\n[Passive Effect] Permanently increases Poison Mist's continuous damage to 300%.",
+                    "shortDesc": "MP Cost: 100, Max Enemies Hit: 12, Damage: 125%, Number of Attacks: 10, Number of Explosions: 2, Ignore Defense: +40%. Final Damage Modifier: +20% for 2 explosions, +45% for 3 explosions, +80% for 4 explosions, +125% for 5 explosions. Max Simultaneous Mist Explosions: 6. Cooldown: 10 sec\\nMist Eruption's cooldown is reduced by 2 seconds upon striking an enemy with 5 or more explosions. This cooldown reduction applies before other cooldown reductions.\\n[Passive Effect] Permanently increases Poison Mist's continuous damage to 300%.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/fire-poison/mist-eruption.png"],
-                    "animations": ["https://media.giphy.com/media/fLZZ5Yxc0tm8pks6Up/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/o8E0DcJ5v9M18Xow4g/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Causes nearby <img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/> to explode damaging nearby enemies",
+                    "desc": "Causes nearby <span data-tooltip='Poison Mist (3rd Job)'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> to explode damaging nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Damage of <img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/>",
-                        "Damage of the explosion is increased based on how many DoT debuffs an enemy has active",
+                        "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Poison Mist (3rd Job)'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> DoT",
+                        "The explosion gains increased %Final Damage based on how many DoT debuffs an enemy has active",
                         "Explosion has increased %Ignore DEF",
-                        "If the explosion hits an enemy, the cooldown of <img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/> Flame Haze is reset",
-                        "Not affected by cooldown resets<ul><li>Cooldown is slightly reduced if an enemy is hit by 5 or more explosions</li></ul>"
+                        "If the explosion hits an enemy, the cooldown of <span data-tooltip='Flame Haze (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> is reset",
+                        "Not affected by cooldown resets<ul><li>Cooldown is slightly reduced if an enemy hit has 5 or more DoT debuffs</li></ul>"
                     ]
                 },
                 {
@@ -449,14 +473,14 @@
                 {
                     "id": 2121007,
                     "name": "Meteor Shower",
-                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 15, Damage: 315%, Number of Attacks: 12, Cooldown: 45 sec\\nPassive Effect: [Final Attack] While on cooldown, your attack skills have a 60% chance to strike a single enemy with a meteorite, dealing 220% damage.",
+                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 15, Damage: 315%, Number of Attacks: 12, Cooldown: 45 sec\\nPassive Effect: [Final Attack] Your attack skills have a 60% chance to strike a single enemy with a meteorite, dealing 220% damage.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/fire-poison/meteor-shower.png"],
-                    "animations": ["https://media.giphy.com/media/qSsZls2tyBGlmpqAkr/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/7vEYcK0ZVlhPqiuJOT/giphy.gif"],
                     "type": "Attack / Final Attack",
                     "desc": "Creates a shower of meteors that rain down from the sky",
                     "details": [
-                        "<strong>[Final Attack]</strong>: While Meteor Shower is on cooldown, there is a chance your attacks cause for a meteor to strike a single enemy"
+                        "<strong>[Final Attack]</strong>: Your attacks have a chance for a meteor to strike a single enemy"
                     ]
                 },
                 {
@@ -465,12 +489,12 @@
                     "shortDesc": "MP Cost: 70, Damage on a Single Target: 202%, Number of Attacks: 15, inflicts 200% continuous damage at 100% chance for 10 sec. Maintains untouchable status and slows enemy by -50%. Upon hitting enemy, the Poison Mist forms on enemy location. If no enemy is hit, the Poison Mist forms on your location\\nCooldown: 10 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/fire-poison/flame-haze.png"],
-                    "animations": ["https://media.giphy.com/media/HG0CSr7ofqpoDYGSeK/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/9UAq9Q8v02y327tWca/giphy.gif"],
                     "type": "Attack",
                     "desc": "Launches a fireball forward at a single enemy that applies a damaging burning debuff",
                     "details": [
                         "Enemies with the debuff are slowed and cannot deal touch damage",
-                        "<img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/> will form where an enemy was hit or around you if no enemy are struck"
+                        "<span data-tooltip='Poison Mist (3rd Job)'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> will form where an enemy was hit or around you if no enemy are struck"
                     ]
                 },
                 {
@@ -479,26 +503,27 @@
                     "shortDesc": "MP Cost: 80, Increases final damage of Magic ATT by 70%.\\nPeriodically recovers base HP and MP by 10% and increases final damage of Magic ATT by 3%.\\nFinal Damage increased by Infinity is additive.\\nKnockback Resistance: +70%, Duration: 40 sec, Cooldown: 3 min",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/fire-poison/infinity.png"],
-                    "animations": ["https://media.giphy.com/media/LOBUBIYv6zF14hKLC1/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/E5VaLKgQ7uV800icqR/giphy.gif"],
                     "type": "Buff",
-                    "desc": "When active, your skills do not consume mana and you gain increased %Knockback Resistance and %Final Damage",
+                    "desc": "When active, your skills do not consume mana and you gain increased %Final Damage",
                     "details": [
-                        "Additionally while active, continuously increases %Final Damage and periodically restores %Max HP/MP",
+                        "Additionally while active, continuously increases %Final Damage (additively) and periodically restores %Max HP/MP",
+                        "When the buff is close to expiring, a visual effect will appear around your character",
                         "Unaffected by cooldown resets"
                     ]
                 },
                 {
                     "id": 2121005,
                     "name": "Ifrit",
-                    "shortDesc": "MP Cost: 120, Duration: 260 sec, Damage: 150%, Max Enemies Hit: 3, Number of Attacks: 3. Duration: 2 sec. Causes damage every 1 sec. for 140% damage. Permanently increases mastery by 70%",
+                    "shortDesc": "MP Cost: 120, Duration: 260 sec.\\nDamage: 150%, Max Enemies Hit: 3, Number of Attacks: 3, Damage Over Time: 140% damage every 1 sec. for 2 sec.\\n[Passive Effect: Permanently increases Mastery by 70%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/fire-poison/ifrit.png"],
-                    "animations": ["https://media.giphy.com/media/MFg3mENg3GUPww79Vv/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/bUheFXCeFza6wysgRi/giphy.gif"],
                     "type": "Summon",
                     "desc": "Summons a fire golem that attacks nearby enemies that applies a damaging burn debuff",
                     "details": [
-                        "Unaffected by Damage Reflect",
-                        "<strong>[Passive]</strong>: Increases %Weapon Mastery"
+                        "<strong>[Passive]</strong>: Increases %Weapon Mastery",
+                        "Unaffected by Damage Reflect"
                     ]
                 },
                 {
@@ -507,7 +532,7 @@
                     "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/maple-warrior.png"],
-                    "animations": ["https://media.giphy.com/media/UWpWu2Y4qs8fdhYc7B/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/FfzsyFZY2KlxoV0w5v/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
@@ -516,18 +541,18 @@
                     "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/heros-will.png"],
-                    "animations": ["https://media.giphy.com/media/OxQ31y7qEaDeAQRBPt/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/wmhREyDzH5wYW3df4k/giphy.gif"],
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
                 },
                 {
                     "id": 2120010,
                     "name": "Arcane Aim",
-                    "shortDesc": "Ignores 20% of enemy DEF. Aside from minions' attacks, damage will increase by 8% for 5 sec at a 80% chance when the attack hits. Accumulates up to 5 times.",
+                    "shortDesc": "Ignores 20% of enemy DEF. Successful attacks have a 100% chance to increase your damage by 8% for 5 sec (excludes minion damage).\\nThis effect stacks up to 5 times.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/fire-poison/arcane-aim.png"],
                     "type": "Passive",
-                    "desc": "Damaging an enemy has a chance to grant a stacking %Damage buff (up to 5 times)",
+                    "desc": "Successfully damaging an enemy grants a stacking %Damage buff (up to 5 times)",
                     "details": [
                         "Summon attacks cannot trigger this effect",
                         "Additionally increases %Ignore DEF"
@@ -536,7 +561,7 @@
                 {
                     "id": 2120012,
                     "name": "Buff Mastery",
-                    "shortDesc": "Permanently Increased Magic ATT: +30, Buff Duration: +50%",
+                    "shortDesc": "Permanently Increased Magic ATT: +30, Buff Duration: +50%, Knockback Resistance: +60%",
                     "maxLevel": 10,
                     "icons": ["/class-icons/explorers/fire-poison/buff-mastery.png"],
                     "type": "Passive"
@@ -582,10 +607,10 @@
                 },
                 {
                     "id": 2120046,
-                    "name": "Paralyze - Reinforce",
+                    "name": "Flame Sweep - Reinforce",
                     "shortDesc": "Damage: +10%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/fire-poison/paralyze-reinforce.png"],
+                    "icons": ["/class-icons/explorers/fire-poison/flame-sweep-reinforce.png"],
                     "type": "Passive",
                     "desc": "",
                     "details": [
@@ -595,10 +620,10 @@
                 },
                 {
                     "id": 2120047,
-                    "name": "Paralyze - Cripple",
+                    "name": "Flame Sweep - Cripple",
                     "shortDesc": "Additional 20% damage",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/fire-poison/paralyze-cripple.png"],
+                    "icons": ["/class-icons/explorers/fire-poison/flame-sweep-cripple.png"],
                     "type": "Passive",
                     "desc": "",
                     "details": [
@@ -608,10 +633,10 @@
                 },
                 {
                     "id": 2120048,
-                    "name": "Paralyze - Extra Strike",
+                    "name": "Flame Sweep - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/fire-poison/paralyze-extra-strike.png"],
+                    "icons": ["/class-icons/explorers/fire-poison/flame-sweep-extra-strike.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -647,13 +672,14 @@
                 {
                     "id": 2121054,
                     "name": "Inferno Aura",
-                    "shortDesc": "MP Cost: 100 per second, Damage per 3 second(s): 400%, Number of Attacks: 2.",
+                    "shortDesc": "MP Cost: 100 per second, Damage per 3 second(s): 400%, Number of Attacks: 2.\\nAttacked enemies receive 500% damage every 1 sec. for 30 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/fire-poison/inferno-aura.png"],
-                    "animations": ["https://media.giphy.com/media/m23VgxspUD77SaY9aS/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/UX5N4IXOiESOqOvagR/giphy.gif"],
                     "type": "Toggle Buff",
-                    "desc": "When toggled, creates an aura that damages nearby enemies",
+                    "desc": "When toggled, creates an aura that periodically explodes damaging nearby enemies",
                     "details": [
+                        "Applies a damaging debuff to enemies hit",
                         "Ignores Attack Ignore and Damage Reflect"
                     ],
                     "reqLev": 140
@@ -661,13 +687,17 @@
                 {
                     "id": 2121052,
                     "name": "Megiddo Flame",
-                    "shortDesc": "MP Cost: 500, Enemies Hit: 1, Damage: 420%, Number of Attacks: 15, 700% damage every 1 sec for 30 sec. Negates Attack Ignore and Attack Reflect effects.\\nCooldown: 50 sec",
+                    "shortDesc": "MP Cost: 500, Blue Flames: 3\\nDamage: 380%, Number of Attacks: 4. Blue flame splits after hitting the enemy, generating 1 additional flames. Up to 11 flames can be generated, including the original flame.\\nWhen multiple blue flame strikes a single enemy, Final Damage decreases by 55% for subsequent flames.\\nEnemies burned by the blue flame take 700% damage every 1 sec for 30 sec.\\nCooldown: 50 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/fire-poison/megiddo-flame.png"],
-                    "animations": ["https://media.giphy.com/media/9kM8Hyq27RZDtRbzgm/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/xyffh7vMxMxxbxZb2r/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Launches a fireball that damages a single enemy and applies a damaging burning debuff",
+                    "desc": "Launches several fireballs that seek out nearby enemies",
                     "details": [
+                        "Applies a damaging debuff when the fireball strikes an enemy",
+                        "Upon damaging an enemy, the fireballs split creating up to a maximum of 11 flames, including the original flames",
+                        "Enemies will take reduced %Final Damage for all fireballs after the first if multiple strike a single enemy",
+                        "Fireballs will target boss monsters first prioritizing based on highest HP",
                         "Ignores Attack Ignore and Damage Reflect"
                     ],
                     "reqLev": 160
@@ -675,17 +705,17 @@
                 {
                     "id": 2121053,
                     "name": "Epic Adventure",
-                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Explorer class in the party",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/mage/epic-adventure.png"],
-                    "animations": ["https://media.giphy.com/media/9h439XuORh7SUpEIdj/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/KFVP2Zhbx74Fgawmiy/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
                 }
             ]
         },
         "fifth": {
-            "fifthCommon": ["expMagician", "goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthCommon": ["expMagician", "mindDelve", "goddessBlessing", "manaOverload", "etherealForm"],
             "fifthMain": [
                 {
                     "name": "DoT Punisher",
@@ -709,7 +739,7 @@
                     "type": "Attack",
                     "desc": "Releases multiple poison orbs that spread out in all directions, poisoning any enemies it collides with",
                     "details": [
-                        "After several seconds, you can detonate the orbs to explode with <img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/> dealing massive damage<ul><li>The orbs will change colors when they are ready to detonate</li></ul>",
+                        "After several seconds, you can detonate the orbs to explode with <span data-tooltip='Mist Eruption (4th Job)'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> dealing massive damage<ul><li>The orbs will change colors when they are ready to detonate</li></ul>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -722,23 +752,24 @@
                     "type": "Summon",
                     "desc": "Summons a spirit of fire to attack nearby enemies",
                     "details": [
-                        "Duration is increased for each stack of <img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/>",
-                        "Can only be used when <img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/> is active",
+                        "Duration is increased for each stack of <span data-tooltip='Fervent Drain (4th Job)'><img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/></span>",
+                        "Can only be used when <span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> is active",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Poison Chain",
-                    "shortDesc": "MP Cost: 1000, Enemies Hit: 1, Damage: 500%, Number of Attacks: 4, Poison Duration: 20 sec. Explosion from poisoned enemy attacks 5 times with 300% damage periodically, and spreads to 2 enemies nearby that aren't poisoned.\\nPoison accumulates up to 5 times. Explosion damage increases 55%p each in proportion to the accumulated poison.\\nExplosion can occur up to 9 times on 1 enemy and up to 22 times on all enemies in total.\\nIf it ended because the available explosions were used up, every poison is removed and there is an additional explosion.\\nCooldown: 25 sec",
+                    "shortDesc": "MP Cost: 1000, Enemies Hit: 2, Damage: 500%, Number of Attacks: 4, Poison Duration: 20 sec. Explosion from poisoned enemy attacks 5 times with 300% damage periodically, and spreads to 3 enemies nearby that aren't poisoned.\\nIf there are no enemies nearby, this skill creates a poison crystal for 10 sec. The poison crystal spreads to 1 enemy nearby and disappears or naturally disappears, without spreading, when the duration ends.\\nPoison accumulates up to 5 times. Explosion damage increases 55%p each in proportion to the accumulated poison.\\nExplosion can occur up to 9 times on 1 enemy and up to 22 times on all enemies in total.\\nIf it ended because the available explosions were used up, every poison is removed and there is an additional explosion.\\nCooldown: 25 sec",
                     "id": 400021066,
                     "icons": ["/class-icons/explorers/fire-poison/poison-chain.png"],
                     "animations": ["https://media.giphy.com/media/93YvH6nNgdHoxjyv2u/giphy-downsized-large.gif"],
                     "type": "Attack",
-                    "desc": "Casts a stacking poisonous debuff onto a single enemy that spreads to nearby enemies",
+                    "desc": "Casts a stacking poisonous debuff onto two enemies that spreads to nearby enemies",
                     "details": [
+                        "If no enemies nearby, a crystal is created that will infect the next enemy in range and disappears",
                         "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<ul><li>Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion</li></ul>",
                         "Each enemy can only explode up to 9 times, and a total of 22 times across all affected enemies<ul><li>If you reach maximum explosions, when the skill ends, all enemies will explode for a final explosion</li></ul>",
-                        "Does not trigger Damage Reflect or <img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/>"
+                        "Does not trigger Damage Reflect or <span data-tooltip='Fervent Drain (4th Job)'><img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/></span>"
                     ]
                 }
             ]
@@ -747,27 +778,27 @@
             {
                 "name": "Poison Mist - 3rd Job",
                 "icons": ["/class-icons/explorers/fire-poison/poison-mist.png"],
-                "animations": ["https://media.giphy.com/media/MqiRzBgs97el0bxwiQ/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/mVysMeRiePkCdeY3dT/giphy.gif"]
             },
             {
-                "name": "Paralyze - 4th Job",
-                "icons": ["/class-icons/explorers/fire-poison/paralyze.png"],
-                "animations": ["https://media.giphy.com/media/EqN2erWuKlK6LQ9VL8/giphy.gif"]
+                "name": "Flame Sweep - 4th Job",
+                "icons": ["/class-icons/explorers/fire-poison/flame-sweep.png"],
+                "animations": ["https://media.giphy.com/media/Dr9lGpzVXOaBizoTtZ/giphy.gif"]
             },
             {
                 "name": "Mist Eruption - 4th Job",
                 "icons": ["/class-icons/explorers/fire-poison/mist-eruption.png"],
-                "animations": ["https://media.giphy.com/media/fLZZ5Yxc0tm8pks6Up/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/o8E0DcJ5v9M18Xow4g/giphy.gif"]
             },
             {
                 "name": "Meteor Shower - 4th Job",
                 "icons": ["/class-icons/explorers/fire-poison/meteor-shower.png"],
-                "animations": ["https://media.giphy.com/media/qSsZls2tyBGlmpqAkr/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/7vEYcK0ZVlhPqiuJOT/giphy.gif"]
             },
             {
                 "name": "Flame Haze - 4th Job",
                 "icons": ["/class-icons/explorers/fire-poison/flame-haze.png"],
-                "animations": ["https://media.giphy.com/media/HG0CSr7ofqpoDYGSeK/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/9UAq9Q8v02y327tWca/giphy.gif"]
             },
             {
                 "name": "DoT Punisher - 5th Job",
@@ -781,5 +812,5 @@
             }
         ]
     },
-    "meta": "Arch Mage (Fire, Poison) is an INT mage class part of the Explorers class group. They specialize in Damage over Time magic and dealing heavy damage with massive attacks"
+    "meta": "Arch Mage (Fire, Poison) is an INT mage class part of the Explorers. Arch Mage (Fire, Poison) utilize both Staves and Wands as their primary weapons. For their secondary weapon, Arch Mage (Fire, Poison) can equip Magic Books and Shields"
 }

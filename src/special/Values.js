@@ -181,7 +181,7 @@ export const commonFifth = {
         "shortDesc": "MP Cost: 150. Use the number keys to select a spell that can be activated with Unreliable Memory. This skill is canceled if you fail to select a spell within 5 sec, or if you press any other keys.\\nCooldown: 5 sec.",
         "id": 400001063,
         "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/mind-delve.png"],
-        "animations": ["https://media4.giphy.com/media/ncQEHsz4n9SUxkaU4l/giphy.gif"],
+        "animations": ["https://media.giphy.com/media/pBcdQ9kl2OkOXJY95t/giphy.gif"],
         "type": "Active",
         "desc": "When used, allows you select 3rd - 4th job skills using the Number Keys to be cast when using <span data-tooltip='Unreliable Memory (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>",
         "details": [
