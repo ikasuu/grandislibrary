@@ -42,7 +42,7 @@
                 "<strong>Final Damage</strong>: +0%<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<img src='/class-icons/other/beast-tamer/bear-assault.png' alt='Skill Bear Assault'/> +20% while active]</div><div style='text-indent: 40px'/><strong>[Leopard]</strong>: [<img src='/class-icons/other/beast-tamer/deadly-fangs.png' alt='Skill Deadly Fangs'/> +20%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<img src='/class-icons/other/beast-tamer/cats-cradle-blitzkrieg.png' alt='Skill Cats Cradle Blitzkreig'/> +20% from debuff]</div>",
                 "<strong>Boss Damage</strong>: [<img src='/class-icons/other/beast-tamer/growth-spurt.png' alt='Skill Growth Spurt'/> +11%] [<img src='/class-icons/link-skills/focus-spirit.png'/> up to +10%]",
                 "<strong>Attack Speed (Weapon)</strong>:<div style='text-indent: 40px'/><strong>[Bear]</strong>: 4</div><div style='text-indent: 40px'/><strong>[Leopard]</strong>: 4</div><div style='text-indent: 40px'/><strong>[Hawk]</strong>: 5</div>",
-                "<strong>Knockback Resistance</strong>: +0%<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<img src='/class-icons/other/beast-tamer/dumb-luck.png' alt='Skill Dumb Luck'/> +95%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<img src='/class-icons/other/beast-tamer/purr-powered.png' alt='Skill Purr Powered'/> +30%]</div>",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/other/beast-tamer/growth-spurt.png' alt='Skill Growth Spurt'/> +100%]<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<img src='/class-icons/other/beast-tamer/dumb-luck.png' alt='Skill Dumb Luck'/> +95%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<img src='/class-icons/other/beast-tamer/purr-powered.png' alt='Skill Purr Powered'/> +30%]</div>",
                 "<strong>Ignore DEF</strong>: +0%<div style='text-indent: 40px'/><strong>[Bear]</strong>: [<img src='/class-icons/other/beast-tamer/defense-ignorance.png' alt='Skill Defense Ignorance'/> +30%] [<img src='/class-icons/other/beast-tamer/bear-assault.png' alt='Skill Bear Assault'/> +20%]</div><div style='text-indent: 40px'/><strong>[Leopard]</strong>: [<img src='/class-icons/other/beast-tamer/leopard-reflexes.png' alt='Skill Leopard Reflexes'/> +60%]</div><div style='text-indent: 40px'/><strong>[Hawk]</strong>: [<img src='/class-icons/other/beast-tamer/max-mobility.png' alt='Skill Max Mobility'/> +30%] [<img src='/class-icons/other/beast-tamer/regroup.png' alt='Skill Regroup'/> +20%]</div><div style='text-indent: 40px'/><strong>[Cat]</strong>: [<img src='/class-icons/other/beast-tamer/mousers-insight.png' alt='Skill Mousers Instinct'/> +20%] [<img src='/class-icons/other/beast-tamer/fire-kitty.png' alt='Skill Fire Kitty'/> +40% from debuff]</div>",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/other/beast-tamer/growth-spurt.png' alt='Skill Growth Spurt'/> 40]",
                 "<strong>Item Drop Rate</strong>: +0<div style='text-indent: 40px'/><strong>[Cat]</strong>: [<img src='/class-icons/other/beast-tamer/sticky-paws.png' alt='Skill Sticky Paws'/> +20%]</div>",
@@ -159,7 +159,7 @@
                 {
                     "id": 110000513,
                     "name": "Growth Spurt",
-                    "shortDesc": "INT: +60 , LUK: +30, Critical Rate: +16%, Max HP: +40%, Max MP: +16%, Boss Damage: +11%, Magic ATT: +5%, DEF: +2000, All Abnormal Status and Elemental Resistance: +40%, Damage taken when hit by enemies: -40%.",
+                    "shortDesc": "INT: +60 , LUK: +30, Critical Rate: +16%, Max HP: +40%, Max MP: +16%, Boss Damage: +11%, Magic ATT: +5%, DEF: +2000, All Abnormal Status and Elemental Resistance: +40%, Damage taken when hit by enemies: -40%, Knockback Resistance: +100%.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/other/beast-tamer/growth-spurt.png"],
                     "type": "Passive",
@@ -202,6 +202,9 @@
                         "animations": ["https://media0.giphy.com/media/L069vTxBGyofRZEf9D/giphy.gif"],
                         "type": "Basic Attack Modifier",
                         "desc": "Swipes forward 3 times consecutively",
+                        "details": [
+                            "You can move and jump while casting"
+                        ],
                         "reqLev": 10
                     },
                     {
@@ -278,7 +281,8 @@
                         "details": [
                             "Activates when pressing Attack Key 4 times in a row",
                             "To keep Furious Strikes going, you can hold onto or mash the Attack Key",
-                            "While casting, increases %Damage Reduction including %Max HP attacks"
+                            "While casting, increases %Damage Reduction including %Max HP attacks",
+                            "You can move and jump while casting"
                         ],
                         "reqLev": "54 + 73 SP"
                     },

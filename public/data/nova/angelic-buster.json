@@ -38,19 +38,19 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt=' skill Soul Shooter Expert'/> +30%]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/> +45%] [<img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt=' skill Soul Shooter Expert'/> +15%]",
                 "<strong>Damage</strong>: [<img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/> +20%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/> +10%]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/> +25%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
-                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/nova/angelic-buster/iron-blossom.png' alt='Skill Iron Blossom'/> +80%]",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/nova/angelic-buster/iron-blossom.png' alt='Skill Iron Blossom'/> +40%] [<img src='/class-icons/nova/angelic-buster/love-me-heart.png' alt='Skill Love Me Heart'/> +60%]",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/> +15%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/> 40]"
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/nova/angelic-buster/melody-cross.png' alt='Skill Melody Cross'/>, <img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/>, <img src='/class-icons/nova/angelic-buster/iron-blossom.png' alt='Skill Iron Blossom'/>, <img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/>, <img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior (Angelic Buster)'/>",
+            "active": "<img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/>, <img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/>, <img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior (Angelic Buster)'/>",
             "summons": "<img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/>(60s cd), <img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/>(120s cd), <img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/>(120s cd), <img src='/class-icons/nova/angelic-buster/mighty-mascot.png' alt='Skill Mighty Mascot'/>(120s cd)",
             "buffCd": "<img src='/class-icons/link-skills/terms-and-conditions.png' alt='Skill Terms and Conditions'/>(90s cd), <img src='/class-icons/nova/angelic-buster/pretty-exaltation.png' alt='Skill Pretty Exaltation'/>(120s cd), <img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/>(120s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/>(70 - 64s cd), <img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/>(240s cd), <img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/>(180s cd <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>)",
-            "iFrame": "<img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death), <img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/>(120s cd)"
+            "iFrame": "<img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/>(60s cd), <img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death), <img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/>(120s cd)"
         },
         "linkSkill": {
             "id": 80001155,
@@ -206,22 +206,17 @@
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
                             "Can be used twice in a row"
                         ]
                     },
                     {
                         "id": 65001002,
                         "name": "Melody Cross",
-                        "shortDesc": "Weapon attack speed +2 for 180 sec.\\n[Passive Effect : Max HP +2500]",
+                        "shortDesc": "Attack Speed: +2, Max HP: +2500",
                         "maxLevel": 15,
                         "icons": ["/class-icons/nova/angelic-buster/melody-cross.png"],
-                        "animations": ["https://media4.giphy.com/media/cXv8JOwUkA8UScoLCY/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "Increases Attack Speed (by 2 stages)",
-                        "details": [
-                            "<strong>[Passive]</strong>: Grants flat Max HP"
-                        ]
+                        "type": "Passive"
                     },
                     {
                         "id": 65000003,
@@ -303,6 +298,7 @@
                         "desc": "Throws out orbs that seek out and attack nearby enemies",
                         "details": [
                             "After hitting an enemy, there is a chance to create another Soul Seeker at its location",
+                            "Prioritizes bosses with the highest HP first",
                             "Ignores by Damage Reflect"
                         ]
                     },
@@ -332,11 +328,10 @@
                     {
                         "id": 65111004,
                         "name": "Iron Blossom",
-                        "shortDesc": "Duration: 180 sec, Knockback Resistance: +40%. Effect doubled when Power Transfer Shield is up.",
+                        "shortDesc": "Knockback Resistance: +40%, DEX: +20",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/iron-blossom.png"],
-                        "animations": ["https://media1.giphy.com/media/9sc2Cs9kdYZViBxUCf/giphy.gif"],
-                        "type": "Buff"
+                        "type": "Passive"
                     },
                     {
                         "id": 65110003,
@@ -349,7 +344,7 @@
                     {
                         "id": 65110005,
                         "name": "Love Me Heart",
-                        "shortDesc": "Max HP: +1000, DEF: +1000",
+                        "shortDesc": "Max HP: +1000, DEF: +1000, Knockback Resistance: +60%",
                         "maxLevel": 4,
                         "icons": ["/class-icons/nova/angelic-buster/love-me-heart.png"],
                         "type": "Passive"
@@ -377,7 +372,7 @@
                 {
                     "id": 65121101,
                     "name": "Trinity",
-                    "shortDesc": "Mobs Hit: 1, Damage: 720%, Number of Hits: 2. This skill can be cast up to 3 times in a row. 2nd Attack: 3 hits. 3rd Attack: 4 hits.\\n+10% Trinity and Trinity Fusion increase Damage and DEF Ignore on a successful hit with Trinity. Stacks up to 3 times. Soul Battery skill. Recharge Chance: 50%.\\n[Passive Effect] Final Damage: +10%, Enemy DEF Ignore: +15%",
+                    "shortDesc": "Mobs Hit: 1, Damage: 720%, Number of Hits: 2. This skill can be cast up to 3 times in a row. 2nd Attack: 3 hits. 3rd Attack: 4 hits.\\n+10% Trinity and Trinity Fusion increase Damage and DEF Ignore on a successful hit with Trinity. Stacks up to 3 times. Soul Battery skill. Recharge Chance: 50%.\\n[Passive Effect] Final Damage: +25%, Enemy DEF Ignore: +15%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/trinity.png"],
                     "animations": ["https://media4.giphy.com/media/l4ENGwe9KOqvmoGjAl/giphy.gif"],
@@ -405,14 +400,15 @@
                 {
                     "id": 65121003,
                     "name": "Soul Resonance",
-                    "shortDesc": "Hold the key for this skill. Mobs Hit: 10, Damage: 146%, Number of Continuous Attacks: 5, Max Key-down Duration: 8 sec. Max Finishing Attack Based on Remaining Duration: 600%, Number of Attacks: 5. Boss Damage: +50%\\nWhile in use, any attacks that inflict damage proportional to Max HP will suffer a -35% penalty to damage.\\nCooldown: 60 sec.",
+                    "shortDesc": "This is a continous channeled skill. Invincibility Duration: 2., Max Enemies Hit: 10, Damage: 146%, Number of Continuous Attacks: 5, Hold the skill key down to cast continously for up to 8 sec. Inflicts a final attack dealing up to 600% damage 5 times based on the time channeled. Boss Damage: +50%\\nWhile in use, any attacks that inflict damage proportional to Max HP will suffer a -35% penalty to damage.\\nCooldown: 60 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/soul-resonance.png"],
                     "animations": ["https://media0.giphy.com/media/EJUrtg7y2v8034oNUR/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "Create a vortex that damages enemies within it",
                     "details": [
-                        "At the end of the duration, unleash a massive explosion<ul><li>Depending on how long the skill was held, the damage increases</li></ul>",
+                        "Upon casting, you are briefly invincible",
+                        "At the end of the duration, unleash a massive explosion<ul><li>Based on how long the skill was held, the damage increases</li></ul>",
                         "You take reduced damage while casting (including %Max HP attacks) and cannot be knocked back",
                         "Deals increased %Damage to bosses"
                     ]
@@ -476,7 +472,8 @@
                     "desc": "While attacking, successful attacks have a chance to activate <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/>",
                     "details": [
                         "Deals reduced %Final Damage compared to using <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/> directly",
-                        "Summons and <img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/> cannot activate this passive"
+                        "Summons and <img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/> cannot activate this passive",
+                        "Prioritizes bosses with the highest HP first"
                     ]
                 }]
             ]
@@ -593,7 +590,7 @@
                 {
                     "id": 65121053,
                     "name": "Final Contract",
-                    "shortDesc": "Duration: 30 sec, Attack Power: 50, Critical Rate: 30%. Knockback Resistance: +100%, Status Resistance: +100%, Elemental Resistance +100%\\nCooldown: 120 sec.",
+                    "shortDesc": "Duration: 30 sec, Attack Power: 50, Critical Rate: 30%. Status Resistance: +100%, Elemental Resistance +100%\\nCooldown: 120 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/final-contract.png"],
                     "animations": ["https://media0.giphy.com/media/e8epjVU09WGxc8EzB1/giphy.gif"],
@@ -619,7 +616,7 @@
                 },
                 {
                     "name": "Superstar Spotlight",
-                    "shortDesc": "Installs 3 spotlights that shine on you for 30 sec. Each spotlight deals 800% damage 3 times to up to 15 enemies within its area.\\nWhile you are within the spotlight, you gain Status Resistance +25, Critical Rate +15%, Knockback Resistance +20%, and Final Damage +5%.\\nYou receive a separate bonus for each spotlight, up to 3 buffs.\\nCooldown: 120 sec",
+                    "shortDesc": "Installs 3 spotlights that shine on you for 30 sec. Each spotlight deals 800% damage 3 times to up to 15 enemies within its area.\\nWhile you are within the spotlight, you gain Status Resistance +25, Critical Rate +15%, and Final Damage +5%.\\nYou receive a separate bonus for each spotlight, up to 3 buffs. The Final Damage bonus is calculated cumulatively for each spotlight.\\nCooldown: 120 sec",
                     "id": 400021030,
                     "icons": ["/class-icons/nova/angelic-buster/superstar-spotlight.png"],
                     "animations": ["https://media0.giphy.com/media/tP3byNppXgJAsnabEI/giphy.gif"],
@@ -627,7 +624,7 @@
                     "desc": "3 Spotlights appear on the screen, shining light at your location. The spotlights will deal damage to enemies inside it and provides a stacking buff if you are in it",
                     "details": [
                         "Enemies can take damage from multiple spotlights",
-                        "If you are within the spotlight, you gain %Crit Rate, %Knockback Resistance, %Final Damage and Abnormal Status Resistance<ul><li>Each spotlight will grant the buff (stacking up to 3 times)</li></ul>",
+                        "If you are within the spotlight, you gain %Crit Rate, %Final Damage (additive), and Abnormal Status Resistance<ul><li>Each spotlight will grant the buff (stacking up to 3 times)</li></ul>",
                         "Unaffected by Damage Reflect"
                     ]
                 },

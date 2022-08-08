@@ -37,7 +37,7 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/demon-avenger/demonic-veracity.png' alt='Skill Demonic Veracity'/> +20%]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png' alt='Skill Advanced Desperado Mastery'/> +8%]",
                 "<strong>Damage</strong>: [<img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/> +30%] [<img src='/class-icons/link-skills/wild-rage.png' alt='Skill Wild Rage'/> up to +15%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/demon-avenger/overload-release.png' alt='Skill Overload Release'/> +25%]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/demon-avenger/overload-release.png' alt='Skill Overload Release'/> +25%] [<img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/> +15%]",
                 "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/demonic-blood.png' alt='Skill Demonic Blood'/> +100%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/resistance/demon-avenger/defense-expertise.png' alt='Skill Defense Expertise'/> +30%] [<img src='/class-icons/resistance/demon-avenger/nether-slice.png' alt='Skill Nether Slice'/> +30% from debuff]",
@@ -47,7 +47,7 @@
         "buffInfo": {
             "active": "<img src='/class-icons/resistance/demon-avenger/overload-release.png' alt='Skill Overload Release'/>, <img src='/class-icons/resistance/demon-avenger/battle-pact.png' alt='Skill Battle Pact (Demon Avenger)'/>, <img src='/class-icons/resistance/demon-avenger/ward-evil.png' alt='Skill Ward Evil'/>, <img src='/class-icons/resistance/demon-avenger/diabolic-recovery.png' alt='Skill Diabolic Recovery'/>, <img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior (Demon)'/>",
             "summons": "<img src='/class-icons/resistance/demon-avenger/bat-swarm.png' alt='Skill Bat Swarm'/>, <img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/>(150s cd), <img src='/class-icons/resistance/demon-avenger/dimensional-sword.png' alt='Skill Dimensional Sword'/>(120s cd)",
-            "buffCd": "<img src='/class-icons/resistance/demon-avenger/forbidden-contract.png' alt='Skill Forbidden Contract'/>(75s cd), <img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/>(120s cd), <img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/>(149 - 120s cd), <img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/>(240s cd)",
+            "buffCd": "<img src='/class-icons/resistance/demon-avenger/forbidden-contract.png' alt='Skill Forbidden Contract'/>(75s cd), <img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/>(120s cd), <img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/>(1s cd), <img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/>(240s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/>(180s cd), <img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess's Blessing'/>(120s cd), <img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/>(240s cd)",
             "binds": "<img src='/class-icons/resistance/demon-avenger/blood-prison.png' alt='Skill Blood Prison'/>(180 - 120s cd)",
             "iFrame": "<img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/>(240s cd, HP cannot go below 1)"
@@ -384,6 +384,7 @@
                     "desc": "Create homing shields that seek and attack enemies",
                     "details": [
                         "<strong>[Passive]</strong>: Increases the %Damage of <img src='/class-icons/resistance/demon-avenger/exceed-lunar-slash.png' alt='Skill Exceed Lunar Slash'/>",
+                        "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -433,7 +434,7 @@
                 {
                     "id": 31220004,
                     "name": "Overwhelming Power",
-                    "shortDesc": "Damage: +30%, Attack Speed: +1",
+                    "shortDesc": "Final Damage: +15%, Damage: +30%, Attack Speed: +1",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/demon-avenger/overwhelming-power.png"],
                     "type": "Passive"
@@ -599,12 +600,12 @@
             "fifthMain": [
                 {
                     "name": "Demonic Frenzy",
-                    "shortDesc": "HP Cost: 20% of Max HP, consumes 6000 HP per sec, Healing Restriction: items and skills can only heal 1% of Max HP, hit damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 35% per 2% HP consumed. Your demonic blood spills periodically to coat the ground for 5 sec and deal 500% damage on up to 10 enemies 2 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 125 sec",
+                    "shortDesc": "HP Cost: 20% of Max HP, consumes 6000 HP per sec, Healing Restriction: items and skills can only heal 1% of Max HP, hit damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 35% per 2% HP consumed. Your demonic blood spills periodically to coat the ground for 5 sec and deal 765% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 125 sec",
                     "id": 400021002,
                     "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
                     "animations": ["https://media4.giphy.com/media/rSfx6cHXUYJTQi9A24/giphy.gif"],
                     "type": "Toggle Buff",
-                    "desc": "While active, you gain increased %Final Damage and you coat the ground with your blood that damage enemies that touch it",
+                    "desc": "While toggled, gain increased %Final Damage and coat the ground with your blood that damage enemies that touch it",
                     "details": [
                         "Costs HP to activate and drains HP each sec while active",
                         "Items and skills can only recover 1% Max HP but you take reduced damage (including %Max HP attacks)",
@@ -614,16 +615,17 @@
                 },
                 {
                     "name": "Demonic Blast",
-                    "shortDesc": "Consumes 1% of Max HP to attack up to 8 enemies. Consumes an additional 3% of current HP per second while charging, Max Charging Time: 30 sec. Damage -30% only for attacks that inflict damage at a certain ratio of the Max HP while attacking.\\nLv. 1 (No Charge): Deals 1000% damage 7 times, restores 10% of Max HP\\nLv. 2 (3 sec Charge): Deals 1300% damage 9 times, restores 15% of Max HP\\nLv. 3 (4 sec Charge from Lv. 2): Deals 1600% damage 12 times, restores 25% of Max HP, Critical Rate +100%, Ignore Def +100%\\nCooldown: 10 sec",
+                    "shortDesc": "Consumes 3% of Max HP, Max Enemies Hit: 8, Damage: 1450%, Number of Attacks: 12. For attacks that inflict damage at a certain ratio of the target's Max HP, Damage -30%.\\nHP Recovery: 25% of Max HP, Additional Critical Rate: 100%, Additional Ignore Defense: 100%\\nCooldown: 12 sec.",
                     "id": 400021030,
                     "icons": ["/class-icons/resistance/demon-avenger/demonic-blast.png"],
                     "animations": ["https://media1.giphy.com/media/sZbHbmgoM0AJlKm852/giphy.gif"],
-                    "type": "Key-down Active Attack",
-                    "desc": "Charges to release an explosive attack that damages nearby enemies",
+                    "type": "Attack",
+                    "desc": "Releases an explosion that damages enemies around you",
                     "details": [
-                        "Holding the Skill Key will charge the skill increasing the %Damage of the skill<ul><li>Also increases %Damage Reduction for %Max HP attacks while charging</li></ul>",
-                        "When fully charged, the attack is a guaranteed Critical Hit and will have 100% Ignore DEF",
-                        "If the attack defeats an enemy or hits a boss, you restore some %Max HP<ul><li>HP recovered is not affected by <img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/> Demonic Frenzy or Ghost Park</li></ul>"
+                        "If the attack defeats an enemy or hits a boss, you restore some %Max HP<ul><li>HP recovered is not affected by <img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/> Demonic Frenzy or Ghost Park</li></ul>",
+                        "While casting, increases %Damage Reduction including %Max HP attacks",
+                        "The attack is a guaranteed Critical Hit and will have 100% Ignore DEF",
+                        "Can be used while using other skills"
                     ]
                 },
                 {
@@ -642,7 +644,7 @@
                 },
                 {
                     "name": "Revenant",
-                    "shortDesc": "HP Cost: 25% of Max HP, Duration: 30 sec\\nWhen using the Exceed skill, activates Thorn of Fury, which damages 5 enemies with 600% damage 9 time(s). Additional Monster DEF Ignored: +30%, Cooldown: 4 sec\\n Saves Damage Taken, up to 200% of Max HP, as Fury, and reduces cooldown in proportion to amount saved. Your current Fury amount decreases by 7% periodically.\\nAfter the skill ends, any saved Fury, plus 1% of max HP will come back to you as damage 25 time(s).\\nThis damage cannot kill you by itself.\\nCooldown: 240 sec",
+                    "shortDesc": "HP Cost: 25% of Max HP, Duration: 30 sec\\nWhen using the Exceed skill, activates Thorn of Fury, which damages 5 enemies with 600% damage 9 time(s). Additional Monster DEF Ignored: +30%, Cooldown: 4 sec\\n Saves Damage Taken, up to 200% of Max HP, as Fury, and reduces cooldown in proportion to amount saved. Your current Fury amount decreases by 7% periodically.\\nAfter the skill ends, any saved Fury, plus 1% of max HP will come back to you as damage 25 time(s). This damage cannot kill you by itself.\\nCooldown: 240 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/demon-avenger/revenant.png"],
                     "animations": ["https://media2.giphy.com/media/NRuSxovhin7b9ZFr17/giphy.gif"],

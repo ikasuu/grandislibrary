@@ -39,15 +39,15 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/wild-hunter/natures-wrath.png' alt='Skill Natures Wrath'/> +25%] [<img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> +20%] [<img src='/class-icons/resistance/wild-hunter/crossbow-expert.png' alt='Skill Crossbow Expert'/> +20%] [<img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/> up to +18%]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> +15%] [<img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/> up to +12%] [<img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/> +8% while unmounted]",
                 "<strong>Damage</strong>: [<img src='/class-icons/resistance/wild-hunter/crossbow-mastery.png' alt='Skill Crossbow Mastery'/> +10%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/wild-hunter/extended-magazine.png' alt='Skill Extended Magazine'/> +20%]",
-                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/wild-hunter/jaguar-mastery.png' alt='Skill Jaguar Mastery'/> +50%] [<img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/> +50% while mounted]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/> +10%] [<img src='/class-icons/resistance/wild-hunter/extended-magazine.png' alt='Skill Extended Magazine'/> +20%]",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/wild-hunter/jaguar-mastery.png' alt='Skill Jaguar Mastery'/> +50%] [<img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/> +50%] [<img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/> +50% while mounted]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/resistance/wild-hunter/wild-instinct.png' alt='Skill Wild Instinct'/> +30%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/> 15] [<img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/> 30 while unmounted]"
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/>(Mount), <img src='/class-icons/resistance/wild-hunter/soul-arrow.png' alt='Skill Soul Arrow Crossbow'/>, <img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/>, <img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/>, <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/>",
+            "active": "<img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/>(Mount), <img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/>, <img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/>, <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/>",
             "summons": "<img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/>(8s cd),<img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/>(30s cd), <img src='/class-icons/resistance/wild-hunter/jaguar-storm.png' alt='Skill Jaguar Storm'/>(149 - 120s cd)",
             "buffCd": "<img src='/class-icons/resistance/wild-hunter/silent-rampage.png' alt='Skill Silent Rampage'/>(120s cd), <img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/>(120s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/>(180s cd), <img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/>(120s cd)",
@@ -201,7 +201,7 @@
                         "type": "Umounted | Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
                         ]
                     },
                     {
@@ -242,9 +242,11 @@
                         "type": "Summon",
                         "desc": "Summons your Jaguar to fight with you",
                         "details": [
-                            "If your Jaguar is already summoned, you can use this skill again to mount onto it",
                             "<strong>[Final Attack Debuff]</strong>: When Jaguar attacks, there is a chance to apply a stacking debuff called <strong>'Another Bite'</strong> that causes your Crossbow skills to deal an extra attack",
-                            "When Jaguar is summoned you will gain increased %Crit Damage and Abnormal Status Resistance"
+                            "If your Jaguar is already summoned, you can use this skill again to mount onto it",
+                            "When Jaguar is summoned you will gain increased %Crit Damage and Abnormal Status Resistance",
+                            "While summoned, pressing the Down Arrow Key and Skill Key together fixes Jaguar in place and attacks nearby enemies",
+                            "Prioritizes bosses with highest HP within range first"
                         ]
                     },
                     {
@@ -361,11 +363,14 @@
                     {
                         "id": 33101003,
                         "name": "Soul Arrow: Crossbow",
-                        "shortDesc": "MP Cost: 30, ATT +20 for 300 sec, able to attack without spending arrows.",
+                        "shortDesc": "Attack Power +20. Allows you to attack without consuming arrows.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/resistance/wild-hunter/soul-arrow.png"],
-                        "animations": ["https://media0.giphy.com/media/j2TItguR78snSQZRyW/giphy.gif"],
-                        "type": "Buff"
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Uses the arrow with the highest Attack to calculate your damage"
+                        ]
                     },
                     {
                         "id": 33101005,
@@ -457,7 +462,7 @@
                         "icons": ["/class-icons/resistance/wild-hunter/white-heat-rush.png"],
                         "animations": ["https://media3.giphy.com/media/F7lirJyljqD7f1BaEv/giphy.gif"],
                         "type": "Mounted | Attack",
-                        "desc": "Dash upwards diagonally while dealing damage and pushing enemies away"
+                        "desc": "Dash diagonally in the direction of the Arrow Key combined while pushing enemies away"
                     },
                     {
                         "id": 33111013,
@@ -475,7 +480,7 @@
                     {
                         "id": 33111007,
                         "name": "Feline Berserk",
-                        "shortDesc": "MP Cost: 130, Attack Power: +20%, Duration: 300 sec, Speed: +15. Attack Speed will increase by 1.\\n[Passive Effect - Max HP: +50%]",
+                        "shortDesc": "MP Cost: 130. Gives the Jaguar red wings for 300 sec.\\n[Passive Effects - Attack Power: +20%, Final Damage: +10%, Movement Speed: +15, Attack Speed: +1, Max HP: +50%]",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/wild-hunter/feline-berserk.png"],
                         "animations": ["https://media2.giphy.com/media/zdsKA6oaS4y38JqSn3/giphy.gif"],
@@ -512,9 +517,9 @@
                         "icons": ["/class-icons/resistance/wild-hunter/backstep.png"],
                         "animations": ["https://media3.giphy.com/media/YiXFu1SQtbQ4t7ohtn/giphy.gif"],
                         "type": "Toggle",
-                        "desc": "When toggled, you will walk backward without changing directions",
+                        "desc": "While toggled, walk backward without changing directions",
                         "details": [
-                            "<strong>[Passive]</strong>: Increases %Damage Reduction"
+                            "<strong>[Passive]</strong>: Permanently increases %Damage Reduction"
                         ]
                     }]
                 ],
@@ -536,7 +541,7 @@
                 {
                     "id": 33121214,
                     "name": "Wild Arrow Blast",
-                    "shortDesc": "MP Cost per attack: 13, For each shot, Max Enemies Hit: 8, Damage: 185%, Number of Piercing Attacks: 2\\nGrenade: attacks up to 3 enemies for 655% damage 2 times. Cooldown: 3 sec.",
+                    "shortDesc": "MP Cost per attack: 13, Max Enemies Hit (per shot): 8, Damage: 185%, Number of Piercing Attacks: 2\\nGrenade: attacks up to 3 enemies for 655% damage 2 times. Cooldown: 3 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast.png"],
                     "animations": ["https://media1.giphy.com/media/DTFS2QXZAV1mIdhsvc/giphy.gif"],
@@ -544,7 +549,22 @@
                     "desc": "Continuously fires arrows and Jaguar artillery that pierce and hit multiple enemies but has reduced damage and range",
                     "details": [
                         "Can move, jump, and use <img src='/class-icons/resistance/wild-hunter/graviboots.png' alt='Skill Graviboots'/> while casting",
-                        "If the attack hits an enemy, a grenade will be fired towards enemies that were not initially hit"
+                        "If the attack hits an enemy, a grenade will be fired towards enemies that were not initially hit",
+                        "Right-clicking the skill will change the skill to Wild Arrow Blast Type P that is only usable while mounted"
+                    ]
+                },
+                {
+                    "id": 33121220,
+                    "name": "Wild Arrow Blast Type P",
+                    "shortDesc": "MP Cost: 200, Damage: 300%, Number of Attacks: 4, Max Enemies Hit: 8\\nDamage Against Normal Monsters: +120%p",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png"],
+                    "animations": ["https://media.giphy.com/media/DRMA1EnL6tvqkps0Js/giphy.gif"],
+                    "type": "Mounted | Attack",
+                    "desc": "Fires an explosive blast forward",
+                    "details": [
+                        "Deals increased %Damage to regular monsters",
+                        "Right-clicking the skill will change the skill back to Wild Arrow Blast"
                     ]
                 },
                 {
@@ -560,14 +580,14 @@
                 {
                     "id": 33121016,
                     "name": "Drill Salvo",
-                    "shortDesc": "MP Cost: 50, Duration: 15 sec, Damage: 430%, Number of Attacks: 1, Max Enemies Hit: 10\\nCooldown: 30 sec\\nWild Arrow Blast Damage Against Normal Monsters While Mounted on Jaguar: +40%",
+                    "shortDesc": "MP Cost: 50, Duration: 15 sec, Damage: 430%, Number of Attacks: 1, Max Enemies Hit: 10\\nCooldown: 30 sec\\nWild Arrow Blast and Wild Arrow Blast Type P Damage Against Normal Monsters While Mounted on Jaguar: +40%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/wild-hunter/drill-salvo.png"],
                     "animations": ["https://media1.giphy.com/media/MKLCywxt9NR7PxI34r/giphy.gif"],
                     "type": "Summon",
                     "desc": "Summons a turret that launches drill attacks",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> %Damage against Normal Monsters while mounted on Jaguar"
+                        "<strong>[Passive]</strong>: Permanently increases <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> and <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/> %Damage against regular monsters while mounted on Jaguar"
                     ]
                 },
                 {
@@ -643,7 +663,7 @@
                 {
                     "id": 33120015,
                     "name": "Natural Force",
-                    "shortDesc": "Elemental Resistance: +30%, Abnormal Status Resistance: +15",
+                    "shortDesc": "Elemental Resistance: +30%, Abnormal Status Resistance: +15, Knockback Resistance: +50%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/wild-hunter/natural-force.png"],
                     "type": "Passive"
@@ -713,6 +733,10 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast-reinforce.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> and <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/>"
+                    ],
                     "reqLev": 150
                 },
                 {
@@ -722,6 +746,10 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast-guardbreak.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Ignore DEF of <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> and <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/>"
+                    ],
                     "reqLev": 165
                 },
                 {
@@ -731,6 +759,10 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast-boss-rush.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Boss Damage of <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> and <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/>"
+                    ],
                     "reqLev": 190
                 }
             ],
@@ -835,7 +867,7 @@
                 },
                 {
                     "name": "Wild Arrow Blast Type X",
-                    "shortDesc": "MP Cost: 1000, Max Key Down Duration: 7.2 sec, Frontal Enemies Hit: 8, Damage: 1050%, Number of Consecutive Attacks: 5, Enemy DEF Ignored: 20%\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000, Max Key Down Duration: 5.0 sec, Frontal Enemies Hit: 8, Damage: 1105%, Number of Consecutive Attacks: 7, Enemy DEF Ignored: 20%\\nCooldown: 120 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast-type-x.png"],
                     "animations": ["https://media4.giphy.com/media/bDhCAxvPVCKjg8uHhq/giphy.gif"],
@@ -860,14 +892,14 @@
                 "animations": ["https://media1.giphy.com/media/DTFS2QXZAV1mIdhsvc/giphy.gif"]
             },
             {
+                "name": "Wild Arrow Blast Type P - 4th Job",
+                "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png"],
+                "animations": ["https://media.giphy.com/media/DRMA1EnL6tvqkps0Js/giphy.gif"]
+            },
+            {
                 "name": "Drill Salvo - 4th Job",
                 "icons": ["/class-icons/resistance/wild-hunter/drill-salvo.png"],
                 "animations": ["https://media1.giphy.com/media/MKLCywxt9NR7PxI34r/giphy.gif"]
-            },
-            {
-                "name": "Jaguar Rampage - Hyper Skill",
-                "icons": ["/class-icons/resistance/wild-hunter/jaguar-rampage.png"],
-                "animations": ["https://media1.giphy.com/media/PSLOUph5YXgGh4R5T2/giphy.gif"]
             },
             {
                 "name": "Jaguar Storm - 5th Job",

@@ -36,11 +36,12 @@
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/nova/cadena/chain-arts-thrash-linked-attack-reinforce.png' alt='Skill Chain Arts Thrash Linked Attack Reinforce'/> Linked Attack Reinforce, and buffs with long cooldowns",
             [
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/nova/cadena/wisdom-of-shadows.png' alt='Skill Wisdom of Shadows'/> +10%] [<img src='/class-icons/nova/cadena/weapons-expert.png' alt='Skill Weapons Expert'/> +30%] [<img src='/class-icons/nova/cadena/wisdom-of-shadows-ii.png' alt='Skill Wisdom of the Shadows II'/> +10%] [<img src='/class-icons/nova/cadena/cheap-shot.png' alt='Skill Cheap Shot'/> +2% to debuffed]",
-                "<strong>Crit Damage</strong>: [<img src='/class-icons/nova/cadena/wisdom-of-shadows.png' alt='Skill Wisdom of Shadows'/> +5%] [<img src='/class-icons/nova/cadena/weapons-expert.png' alt='Skill Weapons Expert'/> +15%] [<img src='/class-icons/nova/cadena/wisdom-of-shadows-ii.png' alt='Skill Wisdom of the Shadows II'/> +5%] [<img src='/class-icons/nova/cadena/cheap-shot.png' alt='Skill Cheap Shot'/> +10% to debuffed]",
+                "<strong>Crit Damage</strong>: [<img src='/class-icons/nova/cadena/wisdom-of-shadows.png' alt='Skill Wisdom of Shadows'/> +5%] [<img src='/class-icons/nova/cadena/weapons-expert.png' alt='Skill Weapons Expert'/> +18%] [<img src='/class-icons/nova/cadena/wisdom-of-shadows-ii.png' alt='Skill Wisdom of the Shadows II'/> +10%] [<img src='/class-icons/nova/cadena/cheap-shot.png' alt='Skill Cheap Shot'/> +10% to debuffed]",
                 "<strong>Damage</strong>: [<img src='/class-icons/link-skills/unfair-advantage.png' alt='Skill Unfair Advantage'/> up to +6% to lower level enemies & up to +6% to debuffed]",
                 "<strong>Final Damage</strong>: [<img src='/class-icons/nova/cadena/muscle-memory-iii.png' alt='Skill Muscle Memory III'/> up to +88%] [<img src='/class-icons/nova/cadena/chain-arts-thrash.png' alt='Skill Chain Arts Thrash'/> +10% to skills after 1st attack]",
                 "<strong>Attack Speed (Weapon)</strong>: 2",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/nova/cadena/keen-eye.png' alt='Skill Keen Eye'/> +20%] [<img src='/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/> +30% from debuff]",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/nova/cadena/determination.png' alt='Skill Determination'/> +40%] [<img src='/class-icons/nova/cadena/wisdom-of-shadows-ii.png' alt='Skill Wisdom of Shadows II'/> +60%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/nova/cadena/determination.png' alt='Skill Determination'/> 30]"
             ]
         ],
@@ -49,8 +50,8 @@
             "summons": "<img src='/class-icons/nova/cadena/summon-shuriken.png' alt='Skill Summon Shuriken'/>(10s cd), <img src='/class-icons/nova/cadena/apocalypse-cannon.png' alt='Skill Apocalypse Cannon'/>(25s cd), <img src='/class-icons/nova/cadena/chain-arts-maelstrom.png' alt='Skill Chain Arts Maelstrom'/>(Passive)",
             "buffCd": "<img src='/class-icons/nova/cadena/shadowdealers-elixir.png' alt='Skill Shadowdealer's Elixir'/>(120s cd), <img src='/class-icons/nova/cadena/veteran-shadowdealer.png' alt='Skill Veteran Shadowdealer'/>(180s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/>(90 - 75s cd), <img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/>(240s cd)",
-            "binds": "<img src='/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/>(179 - 150s cd)",
-            "iFrame": "<img src='/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/>(179 - 150s cd), <img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death)"
+            "binds": "<img src='/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/>(120s cd)",
+            "iFrame": "<img src='/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/>(120s cd), <img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death)"
         },
         "linkSkill": {
             "id": 80000261,
@@ -192,7 +193,7 @@
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
                             "Can be used twice in a row"
                         ]
                     },
@@ -268,7 +269,7 @@
                     {
                         "id": 64100004,
                         "name": "Muscle Memory",
-                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +3% per stack, for 20 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing this buff stack inflicts additional hits. [Bonus Hits] Damage: 100%, Max Enemies Hit: 5, Number of Attacks: 2, Cooldown: 0.25 sec.\\n[Passive Effect: Damage for Scimitar +80%p]",
+                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +3% per stack, for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing this buff stack inflicts additional hits. [Bonus Hits] Damage: 100%, Max Enemies Hit: 5, Number of Attacks: 2, Cooldown: 0.25 sec.\\n[Passive Effect: Damage for Scimitar +80%p]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/nova/cadena/muscle-memory.png"],
                         "animations": ["https://media.giphy.com/media/bLpUBIdHNSRK3TgWJa/giphy.gif"],
@@ -363,7 +364,7 @@
                     {
                         "id": 64110005,
                         "name": "Muscle Memory II",
-                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +7% per stack, for 20 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 3\\nCooldown for Bonus Hits: 0.25 sec\\n[Passive Effects - Damage for Summon Scimitar, Claw, Shuriken +100%p]",
+                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +7% per stack, for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 3\\nCooldown for Bonus Hits: 0.25 sec\\n[Passive Effects - Damage for Summon Scimitar, Claw, Shuriken +100%p]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/nova/cadena/muscle-memory-ii.png", "/class-icons/nova/cadena/muscle-memory.png"],
                         "animations": ["https://media.giphy.com/media/bYI1072L6mF3i9x5Uk/giphy.gif"],
@@ -378,7 +379,7 @@
                     {
                         "id": 64110006,
                         "name": "Determination",
-                        "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%",
+                        "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%, Knockback Resistance: +40%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/nova/cadena/determination.png"],
                         "type": "Passive"
@@ -418,7 +419,7 @@
                 {
                     "id": 64121021,
                     "name": "Summon Brick",
-                    "shortDesc": "MP Cost: 45, Damage: 485%, Max Enemies Hit: 7, Number of Attacks: 7\\nCooldown: 8 sec",
+                    "shortDesc": "MP Cost: 45, Damage: 535%, Max Enemies Hit: 7, Number of Attacks: 7\\nCooldown: 8 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/summon-brick.png"],
                     "animations": ["https://media.giphy.com/media/D3YHtyOyDfJZS6eK83/giphy.gif"],
@@ -431,7 +432,7 @@
                 {
                     "id": 64121003,
                     "name": "Summon Spiked Bat",
-                    "shortDesc": "MP Cost: 40, [First Hit] Damage: 450%, Max Enemies Hit: 8, Number of Attacks: 6\\n[2nd Hit] Damage: 555%, Number of Attacks: 7, Max Enemies Hit: 8\\n[3rd Hit] Damage: 715%, Max Enemies Hit: 10, Number of Attacks: 8\\nFor each enemy struck fewer than Max Enemies Hit, Damage Increase by 5%. Enemies struck by 3rd Hit have a 100% chance to be confused. [Confusion] Duration: 15 sec, Enemy Attack: -20%\\nCooldown: 12 sec",
+                    "shortDesc": "MP Cost: 40, [First Hit] Damage: 490%, Max Enemies Hit: 8, Number of Attacks: 6\\n[2nd Hit] Damage: 610%, Number of Attacks: 7, Max Enemies Hit: 8\\n[3rd Hit] Damage: 790%, Max Enemies Hit: 10, Number of Attacks: 8\\nFor each enemy struck fewer than Max Enemies Hit, Damage Increase by 5%. Enemies struck by 3rd Hit have a 100% chance to be confused. [Confusion] Duration: 15 sec, Enemy Attack: -20%\\nCooldown: 12 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/summon-spiked-bat.png"],
                     "animations": ["https://media.giphy.com/media/wx06aYncVQJCuvuYlj/giphy.gif"],
@@ -461,7 +462,7 @@
                 {
                     "id": 64121001,
                     "name": "Chain Arts: Beatdown",
-                    "shortDesc": "MP Cost: 255, Max Enemies Hit: 1, Damage: 300%, Attacks: 2, Stun Duration: 10 sec. Increases stun duration up to 100% based on inflicted damage. If the enemy isn't stunned, invincible for 5 sec.\\nDepending on the number of skill key presses, follow-up attack power is divided into 3 levels. Attacks each group of enemies with 770%/880%/990% damage, respectively, 15 time(s), and activates a final attack that attacks 10 enemies with 250%/350%/500% damage, respectively, 10 time(s)\\nDuring the consecutive attacks, activates a shockwave that attacks up to 10 enemies with 600% damage 4 time(s). Additional DEF ignored: +80%.\\nCooldown: 150 sec",
+                    "shortDesc": "MP Cost: 255, Max Enemies Hit: 1, Damage: 300%, Attacks: 2, Stun Duration: 10 sec. Increases stun duration up to 100% based on inflicted damage. If the enemy isn't stunned, invincible for 5 sec.\\nDepending on the number of skill key presses, follow-up attack power is divided into 3 levels. Attacks each group of enemies with 770%/880%/990% damage, respectively, 15 time(s), and activates a final attack that attacks 10 enemies with 250%/350%/500% damage, respectively, 10 time(s)\\nDuring the consecutive attacks, activates a shockwave that attacks up to 10 enemies with 600% damage 4 time(s). Additional DEF ignored: +80%.\\nCooldown: 120 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/chain-arts-beatdown.png"],
                     "animations": ["https://media.giphy.com/media/uVtmb3AGZXL6CnqeHe/giphy-downsized-large.gif"],
@@ -495,7 +496,7 @@
                 {
                     "id": 64120006,
                     "name": "Muscle Memory III",
-                    "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +11% for 20 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 350%, Max Enemies Hit: 7, Number of Attacks: 4, Cooldown: 0.25 sec\\n[Passive Effect: Damage for Summon Scimitar, Claw, Shuriken, Shotgun, Daggers, and Decoy Bomb are all increased by +120%p]",
+                    "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +11% for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 350%, Max Enemies Hit: 7, Number of Attacks: 4, Cooldown: 0.25 sec\\n[Passive Effect: Damage for Summon Scimitar, Claw, Shuriken, Shotgun, Daggers, and Decoy Bomb are all increased by +170%p]",
                     "maxLevel": 10,
                     "icons": ["/class-icons/nova/cadena/muscle-memory-iii.png", "/class-icons/nova/cadena/muscle-memory.png"],
                     "animations": ["https://media.giphy.com/media/wgbOXaLLZCdN3Gy0Md/giphy.gif"],
@@ -525,7 +526,7 @@
                 {
                     "id": 64120008,
                     "name": "Weapons Expert",
-                    "shortDesc": "For chain and all Summoned Weapons - Mastery: +70%, Attack Power: +30, Critical Rate: +30%, Critical Damage: +15%",
+                    "shortDesc": "For chain and all Summoned Weapons - Mastery: +70%, Attack Power: +30, Critical Rate: +30%, Critical Damage: +18%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/weapons-expert.png", "/class-icons/nova/cadena/weapon-mastery.png"],
                     "type": "Upgraded Passive",
@@ -538,7 +539,7 @@
                 {
                     "id": 64120009,
                     "name": "Wisdom of Shadows II",
-                    "shortDesc": "Attack Power: +30, Critical Damage: +5%, Critical Rate: +10%, Avoidability: +15%",
+                    "shortDesc": "Attack Power: +30, Critical Damage: +10%, Critical Rate: +10%, Avoidability: +15%, Knockback Resistance: +60%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/wisdom-of-shadows-ii.png"],
                     "type": "Passive"

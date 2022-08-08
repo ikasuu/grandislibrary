@@ -33,12 +33,12 @@
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/> Final Form, and buffs with long cooldowns",
             [
+                "<strong>Attack</strong>: [<img src='/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> +30%]",
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> +20%] [<img src='/class-icons/nova/kaiser/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/> +20%] [<img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/> +20% while active]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/nova/kaiser/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/> +15%]",
-                "<strong>Attack</strong>: [<img src='/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> +30%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/> +15% to debuffed] [<img src='/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/> +15% (extra +5% if <img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/> is active) when using Attack Commands]",
-                "<strong>Boss Damage</strong>: [<img src='/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> +20%] [<img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/> +18% while active]",
-                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/nova/kaiser/scale-skin.png' alt='Skill Scale Skin'/> +40%] [<img src='/class-icons/nova/kaiser/transfiguration.png' alt='Skill Transfiguration'/> up to +40%]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/> +32%] [<img src='/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/> +15% to debuffed] [<img src='/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/> +15% (extra +5% if <img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/> is active) when using Attack Commands]",
+                "<strong>Boss Damage</strong>: [<img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/> +18% while active]",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/nova/kaiser/scale-skin.png' alt='Skill Scale Skin'/> +40%] [<img src='/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor'/> +60%] [<img src='/class-icons/nova/kaiser/transfiguration.png' alt='Skill Transfiguration'/> up to +40%]",
                 "<strong>Attack Speed (Weapon)</strong>: 4 (<img src='/class-icons/nova/kaiser/transfiguration.png' alt='Skill Transfiguration'/> -1 when above Stage 1)",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/nova/kaiser/unbreakable-will.png' alt='Skill Unbreakable Will'/> +40%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/> 60]"
@@ -217,7 +217,7 @@
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
                         ]
                     },
                     {
@@ -279,7 +279,8 @@
                         "type": "Attack",
                         "desc": "Summons swords that hover above your head",
                         "details": [
-                            "Pressing the Skill Key again causes the swords to seek out enemies in range"
+                            "Pressing the Skill Key again causes the swords to seek out enemies in range",
+                            "Prioritizes enemies with the highest Max HP first"
                         ]
                     },
                     {
@@ -481,7 +482,7 @@
                 {
                     "id": 61121100,
                     "name": "Gigas Wave",
-                    "shortDesc": "MP Cost: 50, Enemies Hit: 1, Damage: 330%, Number of Attacks: 9\\nFinal Form: MP Cost: 60, Enemies Hit: 3, Damage: 330%, Number of Attacks: 11",
+                    "shortDesc": "MP Cost: 50, Enemies Hit: 1, Damage: 360%, Number of Attacks: 9\\nFinal Form: MP Cost: 60, Enemies Hit: 3, Damage: 360%, Number of Attacks: 11",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/kaiser/gigas-wave.png"],
                     "animations": ["https://media.giphy.com/media/cP5XFUcr3vkzW0e8m8/giphy.gif"],
@@ -535,7 +536,7 @@
                 {
                     "id": 61120007,
                     "name": "Advanced Tempest Blade",
-                    "shortDesc": "MP Cost: 60, Number of Your Swords Summoned: 5. Use the skill again after summoning to send the swords at the enemy and deal 400% damage with 4 attacks.\\nCooldown: 10 sec\\nPermanently Increase Attack Power: +20\\nFinal Form: Number of Attacks: +1",
+                    "shortDesc": "MP Cost: 60, Number of Your Swords Summoned: 5. Use the skill again after summoning to send the swords at the enemy and deal 450% damage with 4 attacks.\\nCooldown: 10 sec\\nPermanently Increase Attack Power: +20\\nFinal Form: Number of Attacks: +1",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/kaiser/advanced-tempest-blades.png", "/class-icons/nova/kaiser/tempest-blades.png"],
                     "type": "Upgraded Passive",
@@ -548,14 +549,14 @@
                 {
                     "id": 61121009,
                     "name": "Grand Armor",
-                    "shortDesc": "MP Cost: MP 10% of Max MP, Duration: 15 sec. Damage taken, including attacks that deal damage in proportion to Max HP, is reduced by 12%.\\nCooldown: 120 sec.\\n[Passive Effect - Damage Taken: -20%]",
+                    "shortDesc": "MP Cost: MP 10% of Max MP, Duration: 15 sec. Damage taken, including attacks that deal damage in proportion to Max HP, is reduced by 12%.\\nCooldown: 120 sec.\\n[Passive Effect - Damage Taken: -20%, Knockback Resistance: +60%]",
                     "maxLevel": 20,
                     "icons": ["/class-icons/nova/kaiser/grand-armor.png"],
                     "animations": ["https://media0.giphy.com/media/cIKW4al99NOXpwvxtH/giphy.gif"],
                     "type": "Buff",
                     "desc": "Increases %Damage Reduction including %Max HP attacks",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Damage Reudction (Regular Monsters)"
+                        "<strong>[Passive]</strong>: Permanently increases %Damage Reudction (Regular Monsters) and %Knockback Resistance"
                     ]
                 },
                 {
@@ -781,12 +782,13 @@
                         "<img src='/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/> must be active in order to use skill",
                         "Pressing the skill key again will release the swords causing an explosion<ul><li>The explosion will deal more damage the longer it stays in the ground</li></ul>",
                         "Ignores <img src='/class-icons/nova/kaiser/draco-surge.png' alt='Skill Draco Surge'/> Draco Surge's cooldown (up to 3 times)",
+                        "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Draco Surge",
-                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 8, Damage: 625%, Number of Attacks: 10. After that, launches the Dragon Warrant, Damage: 625%, Number of Attacks: 6, Max Enemies Hit: 8. Additional Critical rate: +100%, Additional Monster DEF Ignored: +50%\\nFinal Form: Increases Draco Wave's attack count by 2\\nActivates upon using Gigas Wave\\nCooldown: 6 sec",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 8, Damage: 700%, Number of Attacks: 10. After that, launches the Dragon Warrant, Damage: 700%, Number of Attacks: 6, Max Enemies Hit: 8. Additional Critical rate: +100%, Additional Monster DEF Ignored: +50%\\nFinal Form: Increases Draco Wave's attack count by 2\\nActivates upon using Gigas Wave\\nCooldown: 6 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/nova/kaiser/draco-surge.png"],
                     "animations": ["https://media0.giphy.com/media/EDFhkmxclUiE0Cs8Ta/giphy.gif"],
@@ -798,10 +800,10 @@
                     ]
                 },
                 {
-                    "name": "Dragon Blaze",
-                    "shortDesc": "MP Cost: 1000, Deal automatic attacks to up to 8 surrounding enemies for 500% damage 6 times periodically for 20 sec.\\nFire Energy: Maintained 5 sec. Upon detonation, the Fire Energy and surroundings near Kaiser will attack up to 10 enemies for 750% damage 5 time(s). Explosion Cooldown: 3.6 sec\\nFire Orb: 6 Forms Fire Orb(s) that attack for 700% damage 3 time(s). Re-creation Cooldown: 10 sec\\nCooldown: 120 sec",
+                    "name": "Dragonflare",
+                    "shortDesc": "MP Cost: 1000, Deal automatic attacks to up to 8 surrounding enemies for 750% damage 6 times periodically for 20 sec.\\nFire Energy: Maintained 5 sec. Upon detonation, the Fire Energy and surroundings near Kaiser will attack up to 10 enemies for 900% damage 6 time(s). Explosion Cooldown: 3.6 sec\\nFire Orb: 6 Forms Fire Orb(s) that attack for 700% damage 3 time(s). Re-creation Cooldown: 10 sec\\nCooldown: 120 sec",
                     "id": 400021067,
-                    "icons": ["/class-icons/nova/kaiser/dragon-blaze.png"],
+                    "icons": ["/class-icons/nova/kaiser/dragonflare.png"],
                     "animations": ["https://media4.giphy.com/media/F3tTpw4PwnrV4fvvL9/giphy.gif"],
                     "type": "Attack",
                     "desc": "Flames surround you that damages enemies caught in it",

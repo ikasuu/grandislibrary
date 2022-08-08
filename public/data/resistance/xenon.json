@@ -39,15 +39,16 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/xenon/perspective-shift.png' alt='Skill Perspective Shift'/> +40%]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/resistance/xenon/xenon-expert.png' alt='Skill Xenon Expert'/> +8%]",
                 "<strong>Damage</strong>: [<img src='/class-icons/resistance/xenon/multilateral-i.png' alt='Skill Multilateral I'/> +40%]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/xenon/multilateral-vi.png' alt='Skill Multilateral VI'/> +15%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
-                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/xenon/multilateral-i.png' alt='Skill Multilateral I'/> +40%] [<img src='/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/> +50%]",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/xenon/multilateral-i.png' alt='Skill Multilateral I'/> +50%] [<img src='/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/> +50%]",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/> +30%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/resistance/xenon/multilateral-i.png' alt='Skill Multilateral I'/> 40]"
             ]
         ],
         "buffInfo": {
             "active": "<img src='/class-icons/resistance/xenon/circuit-surge.png' alt='Skill Circuit Surge'/>, <img src='/class-icons/resistance/xenon/pinpoint-salvo.png' alt='Skill Pinpoint Salvo'/>(Toggle), <img src='/class-icons/resistance/xenon/aegis-system.png' alt='Skill Aegis System'/>(Toggle), <img src='/class-icons/resistance/xenon/manifest-projector.png' alt='Skill Manifest Projector'/>, <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/>",
-            "summons": "[ <img src='/class-icons/resistance/xenon/hypogram-field-penetrate.png' alt='Skill Hypogram Field Penetrate'/>/<img src='/class-icons/resistance/xenon/hypogram-field-force-field.png' alt='Skill Hypogram Field Force Field'/>/<img src='/class-icons/resistance/xenon/hypogram-field-support.png' alt='Skill Hypogram Field Support'/> ](39 - 30s cd), <img src='/class-icons/resistance/xenon/hypogram-field-fusion.png' alt='Skill Hypogram Field Fusion'/>(100s cd), <img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/>(25s cd), <img src='/class-icons/resistance/xenon/photon-ray.png' alt='Skill Photon Ray'/>(35s cd)",
+            "summons": "[ <img src='/class-icons/resistance/xenon/hypogram-field-penetrate.png' alt='Skill Hypogram Field Penetrate'/>/<img src='/class-icons/resistance/xenon/hypogram-field-force-field.png' alt='Skill Hypogram Field Force Field'/>/<img src='/class-icons/resistance/xenon/hypogram-field-support.png' alt='Skill Hypogram Field Support'/> ](39 - 30s cd), <img src='/class-icons/resistance/xenon/hypogram-field-fusion.png' alt='Skill Hypogram Field Fusion'/>(90s cd), <img src='/class-icons/resistance/xenon/photon-ray.png' alt='Skill Photon Ray'/>(30s cd), <img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/>(25s cd)",
             "buffCd": "<img src='/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/>(Costs Energy), <img src='/class-icons/resistance/xenon/amaranth-generator.png' alt='Skill Amaranth Generator'/>(90s cd), <img src='/class-icons/resistance/xenon/core-overload.png' alt='Skill Core Overload'/>(180s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/>(90 - 75s cd), <img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/>(70 - 64s cd), <img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/>(180s cd), <img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/>(180s cd <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>)",
             "binds": "<img src='/class-icons/resistance/xenon/entangling-lash.png' alt='Skill Entangling Lash'/>(180s cd)",
@@ -168,6 +169,18 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/xenon/mimic-protocol.png"],
                     "type": "Passive"
+                },
+                {
+                    "id": 30020300,
+                    "name": "Star Force Conversion",
+                    "shortDesc": "Increases STR, DEX and LUK in proportion to the Star Force of your equipped items",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/resistance/xenon/star-force-conversion.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "For every 10 Star Force (up to 100 stars), gain 7 STR, DEX, and LUK"
+                    ]
                 }]
             ],
             [
@@ -270,7 +283,10 @@
                         "icons": ["/class-icons/resistance/xenon/quicksilver-takeoff.png"],
                         "animations": ["https://media4.giphy.com/media/JT4uSYFHDs1BeIoXfW/giphy.gif"],
                         "type": "Modal Attack",
-                        "desc": "Lashes your whip blade while boosting you up into the air"
+                        "desc": "Lashes your whip blade while boosting you up into the air",
+                        "details": [
+                            "After casting, <img src='/class-icons/resistance/xenon/propulsion-burst.png' alt='Skill Propulsion Burst'/> can be used once before landing"
+                        ]
                     },
                     {
                         "id": 36101001,
@@ -670,12 +686,15 @@
                 {
                     "id": 36120016,
                     "name": "Multilateral VI",
-                    "shortDesc": "[At 330+ STR] 5% for Knockback Resistance\\n[At 330+ DEX] 5% for Elemental Resistance, 5 for Abnormal Status Resistance\\n[At 330+ LUK]: 5% Avoidability\\n[At 330+ STR, DEX, and LUK] +5% Damage",
+                    "shortDesc": "Permanently Final Damage: +15%\\n[At 330+ STR] 15% for Knockback Resistance\\n[At 330+ DEX] 15% for Elemental Resistance, 5 for Abnormal Status Resistance\\n[At 330+ LUK]: 5% Avoidability\\n[At 330+ STR, DEX, and LUK] +5% Damage",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/xenon/multilateral-vi.png", "/class-icons/resistance/xenon/multilateral-i.png"],
                     "type": "Upgraded Passive",
                     "reqLev": "Req. 200",
-                    "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                    "desc": "Grants special bonuses once you've reached a certain amount of stats",
+                    "details": [
+                        "Now also increases %Final Damage"
+                    ]
                 }]
             ]
         ],
@@ -834,7 +853,7 @@
                 },
                 {
                     "name": "Hypogram Field: Fusion",
-                    "shortDesc": "MP cost: 1000, Hologram Field generated for 30 sec.\\nWhenever the orb makes contact with the Hologram Field, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 5. The same amount of damage is inflicted when the orb touches monsters.\\nDamage inflicted by party members within the field is increased by 17%, 1 surplus energy recharged whenever a party member within the field evades an attack.\\nMissiles fired by the Aegis System increased by 7 when Xenon is inside the field.\\nCooldown: 100 sec",
+                    "shortDesc": "MP cost: 1000, Hologram Field generated for 30 sec.\\nWhenever the orb makes contact with the Hologram Field, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 5. The same amount of damage is inflicted when the orb touches monsters.\\nDamage inflicted by party members within the field is increased by 17%, 1 surplus energy recharged whenever a party member within the field evades an attack.\\nMissiles fired by the Aegis System increased by 7 when Xenon is inside the field.\\nCooldown: 90 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/xenon/hypogram-field-fusion.png"],
                     "animations": ["https://media3.giphy.com/media/Z5AvJ3ez7Hpl8Gs5mV/giphy.gif"],
@@ -848,7 +867,7 @@
                 },
                 {
                     "name": "Photon Ray",
-                    "shortDesc": "MP Cost: 150, aim mode activates for 20 sec, additional 350 MP consumed upon firing.\\nInitial shots are 3 blast each. Can take up to 15 additional shots are 15 shots.\\nPhotonic cannon attacks 3 times with 700% damage per shot.\\nCooldown: 35 sec.",
+                    "shortDesc": "MP Cost: 150, aim mode activates for 20 sec. Additional 350 MP consumed upon firing.\\nInitial shots are 3 blast each. Can take up to 15 additional shots are 15 shots.\\nPhotonic cannon attacks 3 times with 700% damage per shot.\\nCooldown: 30 sec.",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/xenon/photon-ray.png"],
                     "animations": ["https://media3.giphy.com/media/uBUcPQuftygoRS3fu2/giphy.gif"],

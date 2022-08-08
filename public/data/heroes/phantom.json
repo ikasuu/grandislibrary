@@ -35,9 +35,10 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/> +35%] [<img src='/class-icons/link-skills/phantom-instinct.png' alt='Skill Phantom Instinct'/> up to +20%]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/> +15%]",
                 "<strong>Damage</strong>: [<img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere Daria'/> +30%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/> +30%] [<img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/> +25%]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/> +30%] [<img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/> +32%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere Daria'/> +30%] [<img src='/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/> +20% from debuff]",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/heroes/phantom/bad-luck-ward.png' alt='Skill Bad Luck Ward'/> +40%] [<img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/> +60%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/heroes/phantom/bad-luck-ward.png' alt='Skill Bad Luck Ward'/> 45]"
             ]
         ],
@@ -204,7 +205,7 @@
                         "desc": "Double jump skill",
                         "details": [
                             "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed",
-                            "Can be assigned a Key Slot using or activated by pressing jump twice",
+                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
                             "Can be used twice in a row"
                         ]
                     },
@@ -323,7 +324,7 @@
                     {
                         "id": 24111003,
                         "name": "Bad Luck Ward",
-                        "shortDesc": "Max HP: +30%, Max MP: +30%, Elemental Resistance: +45%, Abnormal Status Resistance: +45",
+                        "shortDesc": "Max HP: +30%, Max MP: +30%, Elemental Resistance: +45%, Abnormal Status Resistance: +45, Knockback Resistance: +40%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/phantom/bad-luck-ward.png"],
                         "type": "Passive"
@@ -425,7 +426,7 @@
                     {
                         "id": 24121004,
                         "name": "Priere D'Aria",
-                        "shortDesc": "MP Cost: 120, Aria's image appears.\\n[Passive Effects - Damage: +30%, Enemy Defense Rate Ignored: 30%]",
+                        "shortDesc": "MP Cost: 120, Aria's image appears.\\n[Passive Effects - Damage: +30%, Ignore Defense: 30%, Knockback Resistance: +60%]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/phantom/priere-daria.png"],
                         "animations": ["https://media3.giphy.com/media/kM7XSZHNvYjz9Fb8LN/giphy.gif"],
@@ -452,7 +453,7 @@
                     {
                         "id": 24120006,
                         "name": "Cane Expert",
-                        "shortDesc": "Cane Mastery: +70%, Attack Power: +40, Critical Damage: +15%, Final Damage: +25%",
+                        "shortDesc": "Cane Mastery: +70%, Attack Power: +40, Critical Damage: +15%, Final Damage: +32%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/phantom/cane-expert.png", "/class-icons/heroes/phantom/cane-mastery.png"],
                         "type": "Upgraded Passive",
@@ -621,7 +622,7 @@
             "fifthMain": [
                 {
                     "name": "Luck of the Draw",
-                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 7 sec. Attack by periodically throwing multiple cards forward. Damage: 465%, Number of Attacks: 1, Damage Taken during skill: -15%.\\nWhen finished, draws a card to buff all party members for 30 sec.\\nRed Cross - Increases Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -7%, Abnormal Status Resistance: +22\\nHourglass - Active Cooldowns shortened by 28% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +5%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 150 sec",
+                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 7 sec. Attack by periodically throwing multiple cards forward. Damage: 700%, Number of Attacks: 1, Damage Taken during skill: -15%.\\nWhen finished, draws a card to buff all party members for 30 sec.\\nRed Cross - Increases Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -7%, Abnormal Status Resistance: +22\\nHourglass - Active Cooldowns shortened by 28% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +5%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 180 sec",
                     "id": 400031002,
                     "icons": ["/class-icons/heroes/phantom/luck-of-the-draw.png"],
                     "animations": ["https://media3.giphy.com/media/z6sDesJ5bVpSzyhmni/giphy.gif"],
@@ -629,6 +630,7 @@
                     "desc": "While held, throw a flurry of cards towards a single enemy",
                     "details": [
                         "You take reduced damage while this skill is active",
+                        "Prioritizes bosses with the highest Max HP first",
                         "At the end of the skill, you will draw a card that buffs all party members:<ul><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-red.png' alt='Red Cross'/> [Red Cross]: </strong>Recovers %HP/MP over time</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-green.png' alt='Tree of Life'/> [Tree of Life]: </strong>Increases %Damage Reduction (including %Max HP attacks) and Abnormal Status Resistance</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-yellow.png' alt='Hourglass'/> [Hourglass]: </strong>Reduces active cooldowns by 20% (except 5th Job skills & skills that ignore cooldown resets)</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-blue.png' alt='Sharp Sword'/> [Three Swords]: </strong>Increases %Final Damage</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-black.png' alt='Joker'/> [Crescent Moon]: </strong>Gain all buffs simultaneously</li><li>You are invincible while drawing the card</li></ul>"
                     ]
                 },

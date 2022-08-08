@@ -38,7 +38,7 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/> +15%] [<img src='/class-icons/resistance/battle-mage/staff-mastery.png' alt='Skill Staff Mastery'/> +20%] [<img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/> +20% while active]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/> +20%] [<img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/> +20%] [<img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/> +10% while active]",
                 "<strong>Damage</strong>: [<img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/> +10%] [<img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/> +20% while active] [<img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/> +40% while active]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/> +15%]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/> +25%]",
                 "<strong>Knockback Resistance</strong>: [<img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/> +100%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3 [<img src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/> -1 while active, does not bypass Soft Cap]",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/> +30%] [<img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/> +20% from debuff]",
@@ -157,13 +157,14 @@
                     {
                         "id": 32001002,
                         "name": "Combat Teleport",
-                        "shortDesc": "MP Cost: 20, Horizontal range: 210, Vertical range: 290",
+                        "shortDesc": "MP Cost: 20, Horizontal range: 210, Vertical range: 290\\nBlink Jump: Consume 25 MP to jump up a certain distance. Can be linked with Teleport 1 time(s) before landing, reduces the delay between Teleports when linking with Teleport consecutively after Blink Jump.",
                         "maxLevel": 5,
                         "icons": ["/class-icons/resistance/battle-mage/combat-teleport.png"],
                         "type": "Active",
                         "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
                         "details": [
-                            "Can be used in the air and on ladders<ul><li>Can still be used even if there are no platforms to teleport to</li></ul>"
+                            "Pressing the Up Arrow Key and Jump Key together in the air will perform an Up Jump<ul><li>Teleport can be used without a platform once before landing</li></ul>",
+                            "Can be used in the air and on ladders"
                         ]
                     },
                     {
@@ -333,20 +334,20 @@
                     {
                         "id": 32111016,
                         "name": "Dark Shock",
-                        "shortDesc": "Increases the MP Cost of Combat Teleport by 15. Teleporting creates a streak of black lightning between your start and end positions. [Black Lightning] Max Enemies Hit: 8, Damage: 225%, Number of Attacks: 4. Afflicts enemies with Dark Brand for 15 sec. Attacking enemies with Dark Brand consumes the brand and deals an additional 350% damage 4 number of times. Brand-consuming attacks deal 20% bonus damage against bosses.",
+                        "shortDesc": "Increases the MP Cost of Combat Teleport by 15. Teleporting creates a streak of black lightning between your start and end positions. [Black Lightning] Max Enemies Hit: 8, Damage: 225%, Number of Attacks: 4. Afflicts enemies with Dark Brand for 15 sec. Attacking enemies with Dark Brand deals an additional 350% damage 4 number of times. Brand-consuming attacks deal 20% bonus damage against bosses. Brand is consumed upon attacking 15 times.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/battle-mage/dark-shock.png"],
                         "animations": ["https://media4.giphy.com/media/xodnSODsIYcnbE9HDe/giphy.gif"],
                         "type": "Toggle Attack",
                         "desc": "When toggled, your <img src='/class-icons/resistance/battle-mage/combat-teleport.png' alt='Skill Teleport'/> teleporting creates a shock attack that applies a 'Dark Brand' debuff",
                         "details": [
-                            "<strong>[Dark Brand Debuff]</strong>: Attacking this enemy consumes the debuff and deals an additional attack<ul><li>If the enemy is a boss, the attack that consumes the debuff deals increased %Damage</li></ul>"
+                            "<strong>[Dark Brand Debuff]</strong>: Attacking this enemy deals an additional attack<ul><li>The debuff is consumed upon attacking the enemy 15 times</li><li>If the enemy is a boss, your attacks deals increased %Damage</li></ul>"
                         ]
                     },
                     {
                         "id": 32110001,
                         "name": "Battle Mastery",
-                        "shortDesc": "Final Damage: +15%, Critical Damage: +20%",
+                        "shortDesc": "Final Damage: +25%, Critical Damage: +20%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/battle-mage/battle-mastery.png"],
                         "type": "Passive"
@@ -381,6 +382,15 @@
                             "Reduces number of enemies required to activate to 6 and time between activations to 6 secs",
                             "Increases %Damage and number of hits"
                         ]
+                    },
+                    {
+                        "id": 32111021,
+                        "name": "Teleport Boost",
+                        "shortDesc": "MP Cost: 20, Teleport Ver. 2 Horizontal Range: +65, Teleport Ver. 2 Vertical Range: +30",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/resistance/battle-mage/teleport-boost.png"],
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, increases the horizontal teleport distance of <img src='/class-icons/resistance/battle-mage/combat-teleport.png' alt='Skill Combat Teleport'/>"
                     }]
                 ],
                 [
@@ -695,7 +705,7 @@
                 },
                 {
                     "name": "Abyssal Lightning",
-                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament\\nDuration: 40 sec, Normal Monster Damage: +30%. Periodically creates 2 netherworld passages, the passages remain for 15 sec, and up to 6 can exist in the map. Dark Brand attacks must be activated 6 times to consume the brand.\\nNetherworld Lightning: Max Enemies Hit: 8, Damage: 1600%, Number of Attacks: 6, Additional Critical Rate: +100%, Ignores additional 20% Enemy DEF, Cooldown: 0.6 sec.\\nCooldown: 200 sec",
+                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament\\nDuration: 40 sec, Normal Monster Damage: +30%. Periodically creates 2 netherworld passages, the passages remain for 15 sec, and up to 6 can exist in the map. Dark Brand attacks must be activated 30 times to consume the brand.\\nNetherworld Lightning: Max Enemies Hit: 8, Damage: 1600%, Number of Attacks: 6, Additional Critical Rate: +100%, Ignores additional 20% Enemy DEF, Cooldown: 0.6 sec.\\nCooldown: 200 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/battle-mage/abyssal-lightning.png"],
                     "animations": ["https://media2.giphy.com/media/RzcARu9K9xBHVTqarA/giphy.gif"],
@@ -703,7 +713,7 @@
                     "desc": "While active, periodically creates passageways that you can teleport to",
                     "details": [
                         "To teleport to a passage, press the Skill Key and any Arrow Key together to move to the nearest passage<ul><li>Up to 6 passageways can exist at a time</li><li>Using a passageway will activate <img src='/class-icons/resistance/battle-mage/dark-shock.png' alt='Skill Dark Shock'/></li></ul>",
-                        "While active, Dark Brand debuff will only be consumed after activating 6 times",
+                        "While active, Dark Brand debuff will only be consumed after activating 30 times",
                         "When <img src='/class-icons/resistance/battle-mage/dark-shock.png' alt='Skill Dark Shock'/> or the Dark Brand debuff activates, lightning will strike near you damaging nearby enemies<ul><li>The attack is a guaranteed Critical Hit and has increased %Ignore DEF</li></ul>",
                         "You are invincible at the initial cast and ending of the skill",
                         "Deals increased %Damage to regular monsters"

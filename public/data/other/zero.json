@@ -35,12 +35,12 @@
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/other/zero/heavy-sword-mastery.png' alt='Skill Heavy Sword Mastery'/> Heavy Sword Mastery Damage boost, <img src='/class-icons/other/zero/critical-bind.png' alt='Skill Critical Bind'/> Critical Bind debuff, and buffs with long cooldowns. Some stats are only active while playing as Alpha or Beta",
             [
-                "<strong>Crit Rate</strong>: [<img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> up to +20%]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/reinforce-body.png' alt='Skill Reinforce Body'/> +40%]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/heavy-sword-mastery.png' alt='Skill Heavy Sword Mastery'/> +15%]</div>",
+                "<strong>Crit Rate</strong>: [<img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> up to +20%]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/reinforce-body.png' alt='Skill Reinforce Body'/> +30%]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/heavy-sword-mastery.png' alt='Skill Heavy Sword Mastery'/> +30%]</div>",
                 "<strong>Crit Damage</strong>: +0%<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/divine-leer.png' alt='Skill Divine Leer'/> +50%</div>",
                 "<strong>Damage</strong>: [<img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> up to +10%]",
                 "<strong>Boss Damage</strong>: +0%<div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/heavy-sword-mastery.png' alt='Skill Heavy Sword Mastery'/> +30%]</div>",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/other/zero/resolution-time.png' alt='Skill Resolution Time'/> +25%]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/long-sword-mastery.png' alt='Skill Long Sword Mastery'/> +5%]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/heavy-sword-mastery.png' alt='Skill Heavy Sword Mastery'/> +5%]</div>",
-                "<strong>Knockback Resistance</strong>: +0%<div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/solid-body.png' alt='Skill Solid Body'/> +100%]</div>",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/other/zero/resolution-time.png' alt='Skill Resolution Time'/> +25%]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/long-sword-mastery.png' alt='Skill Long Sword Mastery'/> +16%]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/heavy-sword-mastery.png' alt='Skill Heavy Sword Mastery'/> +16%]</div>",
+                "<strong>Knockback Resistance</strong>: +0%<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/reinforce-body.png' alt='Skill Reinforce Body'/> +100%]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/solid-body.png' alt='Skill Solid Body'/> +100%]</div>",
                 "<strong>Attack Speed (Weapon)</strong>: [<img src='/class-icons/other/zero/divine-speed.png' alt='Skill Divine Speed'/> -1 while active] [<img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> -1 when max stacks]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: 3</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: 5</div>",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/link-skills/rhinnes-blessing.png' alt='Skill Rhinnes Blessing'/> up to +10%] [<img src='/class-icons/other/zero/armor-split.png' alt='Skill Armor Split'/> up to +50% from debuff]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/long-sword-mastery.png' alt='Skill Long Sword Mastery'/> +30%]</div>",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/other/zero/divine-force.png' alt='Skill Divine Force'/> 10 while active]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/reinforce-body.png' alt='Skill Reinforce Body'/> 10]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/solid-body.png' alt='Skill Solid Body'/> 40]</div>"
@@ -121,7 +121,8 @@
                     "desc": "",
                     "details": [
                         "<strong>[Tag]</strong>: To switch between Alpha and Beta, use skills for the corresponding character",
-                        "<strong>[Assist]</strong>: After using Tag to switch, for up to 3 seconds, the other character will assist you by attacking when you attack"
+                        "<strong>[Assist]</strong>: After using Tag to switch, for up to 3 seconds, the other character will assist you by attacking when you attack",
+                        "Right-clicking the skill will toggle Forward Tag ON/OFF preventing you from moving forward when activating Tag"
                     ]
                 },
                 {
@@ -477,7 +478,7 @@
                     {
                         "id": 101000203,
                         "name": "Long Sword Mastery",
-                        "shortDesc": "Permanent Long Sword Mastery Bonus: 70%, Attack Power: +40, Final Damage: +5%, Speed: +30, Jump: +20, Attack Speed: +3 step, Ignores 30% of enemy defense.",
+                        "shortDesc": "Permanent Long Sword Mastery Bonus: 70%, Attack Power: +40, Final Damage: +16%, Speed: +30, Jump: +20, Attack Speed: +3 step, Ignores 30% of enemy defense.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/zero/long-sword-mastery.png"],
                         "type": "Passive",
@@ -495,7 +496,7 @@
                     {
                         "id": 101100203,
                         "name": "Reinforce Body",
-                        "shortDesc": "Permanently Increases Alpha's HP: +30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%, Max Time Force: +30%, Critical Rate: +40%",
+                        "shortDesc": "Permanently Increases Alpha's HP: +30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%, Knockback Resistance: +100%, Max Time Force: +30%, Critical Rate: +30%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/other/zero/reinforce-body.png"],
                         "type": "Passive",
@@ -683,7 +684,7 @@
                     {
                         "id": 101000103,
                         "name": "Heavy Sword Mastery",
-                        "shortDesc": "Permanently adds Heavy Sword Mastery Bonus: +70%, Critical Rate: +15%, Boss Damage: +30%, Attack Power: +80, Final Damage: +5%, Attack Speed: +3.\\nDamage: +8% for each target fewer than skill's Max Targets.",
+                        "shortDesc": "Permanently adds Heavy Sword Mastery Bonus: +70%, Critical Rate: +30%, Boss Damage: +30%, Attack Power: +80, Final Damage: +16%, Attack Speed: +3.\\nDamage: +8% for each target fewer than skill's Max Targets.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/zero/heavy-sword-mastery.png"],
                         "type": "Passive",
@@ -724,7 +725,7 @@
                     {
                         "id": 101120110,
                         "name": "Critical Bind",
-                        "shortDesc": "Beta's Attack Bind Chance: 10%, Duration: 4 sec Targets who are not stunned, including normal monsters, will be debuffed for the same amount of time.\\nAlpha's attacks gain +30% Critical Rate and +20% Critical Damage against targets who are stunned by Critical Bind.\\nThe Bind effect will expire after inflicting damage proportional to the remaining effect duration.\\nEnemies affected will resist Critical Bind for 35 sec. afterwards.",
+                        "shortDesc": "Beta's Attack Bind Chance: 10%, Duration: 4 sec Targets who are not stunned, including normal monsters, will be debuffed for the same amount of time.\\nAlpha's attacks gain +30% Critical Rate and +20% Critical Damage against targets who are stunned by Critical Bind.\\nThe Bind effect will expire after inflicting damage proportional to the remaining effect duration.\\nStunned enemies will resist Critical Bind, and be immune to stunning, for 35 sec. afterwards.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/other/zero/critical-bind.png"],
                         "type": "Passive Bind",

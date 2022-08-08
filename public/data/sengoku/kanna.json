@@ -39,14 +39,15 @@
                 "<strong>Damage</strong>: [<img src='/class-icons/sengoku/kanna/kasen.png' alt='Skil Kasen'/> +30%] [<img src='/class-icons/link-skills/elementalism.png' alt='Skill Elementalism'/> up to +10%]",
                 "<strong>Final Damage</strong>: [<img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/> +5% for each party member up to +30%]",
                 "<strong>Attack Speed (Weapon)</strong>: 4",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/sengoku/kanna/geomancy.png' alt='Skill Geomancy'/> +30%] [<img src='/class-icons/sengoku/kanna/nightghost-guide.png' alt='Skill Nightghost Guide'/> +70%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/sengoku/kanna/lifeblood-ritual.png' alt='Skill Lifeblood Ritual'/> 30]",
                 "<strong>EXP Rate (From Monsters)</strong>: [<img src='/class-icons/sengoku/kanna/nightghost-guide.png' alt='Skill Nightghost Guide'/> +30% from debuff]"
             ]
         ],
         "buffInfo": {
             "active": "<img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/>, <img src='/class-icons/sengoku/kanna/radiant-peacock.png' alt='Skill Radiant Peacock'/>, <img src='/class-icons/sengoku/kanna/shikigami-doppelganger.png' alt='Skill Shikigami Doppelganger'/>(Toggle), <img src='/class-icons/sengoku/akatsuki-warrior.png' alt='Skill Akatsuki Warrior'/>, <img src='/class-icons/sengoku/kanna/circle-of-supression.png' alt='Skill Circle of Suppression'/>",
-            "summons": "<img src='/class-icons/sengoku/kanna/ghost-yaksha-trainee.png' alt='Skill Ghost Yaksha Trainee'/>(3s cd), <img src='/class-icons/sengoku/kanna/blossom-barrier.png' alt='Skill Blossom Barrier'/>(100s cd), <img src='/class-icons/sengoku/kanna/kishin-shoukan.png' alt='Skill Kishin Shoukan'/>(98 - 60s cd), <img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skill Bellflower Barrier'/>(180s cd), <img src='/class-icons/5th-job/sengoku-force-assemble.png' alt='Skill Sengoku Force, Assemble!'/>, (120s cd), <img src='/class-icons/sengoku/kanna/yuki-musume-shoukan.png' alt='Skill Yuki-musume Shoukan'/>(90 - 75s cd), <img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit's Domain'/>(220 - 196s cd), <img src='/class-icons/sengoku/kanna/liberated-spirit-circle.png' alt='Skill Liberated Spirit Circle'/>(25s cd passive), <img src='/class-icons/sengoku/kanna/ghost-yaksha-great-oni-lords-legion.png' alt='Skill Great Oni Lord'/>(180s cd)",
-            "buffCd": "<img src='/class-icons/sengoku/princesss-vow.png' alt='Skill Princess's Vow'/>(120s cd)",
+            "summons": "<img src='/class-icons/sengoku/kanna/ghost-yaksha-trainee.png' alt='Skill Ghost Yaksha Trainee'/>(3s cd), <img src='/class-icons/sengoku/kanna/blossom-barrier.png' alt='Skill Blossom Barrier'/>(100s cd), <img src='/class-icons/sengoku/kanna/kishin-shoukan.png' alt='Skill Kishin Shoukan'/>(60s cd), <img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skill Bellflower Barrier'/>(180s cd), <img src='/class-icons/5th-job/sengoku-force-assemble.png' alt='Skill Sengoku Force, Assemble!'/>, (120s cd), <img src='/class-icons/sengoku/kanna/yuki-musume-shoukan.png' alt='Skill Yuki-musume Shoukan'/>(90 - 75s cd), <img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit's Domain'/>(220 - 196s cd), <img src='/class-icons/sengoku/kanna/liberated-spirit-circle.png' alt='Skill Liberated Spirit Circle'/>(25s cd passive), <img src='/class-icons/sengoku/kanna/ghost-yaksha-great-oni-lords-legion.png' alt='Skill Great Oni Lord'/>(180s cd)",
+            "buffCd": "<img src='/class-icons/sengoku/kanna/nine-tailed-fury.png' alt='Skill Nine-Tailed Fury'/>(180s cd), <img src='/class-icons/sengoku/princesss-vow.png' alt='Skill Princess's Vow'/>(120s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/>(59 - 30s cd), <img src='/class-icons/5th-job/princess-sakunos-blessing.png' alt='Skill Princess Sakuno's Blessing'/>(240s cd), <img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd)",
             "binds": "<img src='/class-icons/sengoku/kanna/binding-tempest.png' alt='Skill Binding Tempest'/>(177 - 120s cd), <img src='/class-icons/sengoku/kanna/veritable-pandemonium.png' alt='Skill Veritable Pandemonium'/>(120s cd)",
             "iFrame": "<img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd), <img src='/class-icons/sengoku/kanna/ghost-yaksha-great-oni-lords-legion.png' alt='Skill Great Oni Lord'/>(180s cd)"
@@ -136,7 +137,7 @@
                     {
                         "id": 42000000,
                         "name": "Geomancy",
-                        "shortDesc": "Permanently gain Insight Lv. 30\\nEvery 5 sec, Kanna will discover a Mana Vein in the area when one of the skills below is used.\\n[1st-4th Skills] Shikigami Haunting 3rd Hit\\n[2nd Skills] Exorcist's Charm, Shikigami Charm\\n[4th Skill] Falling Sakura\\nThe spiritual energy of nature flows within the Mana Vein, allowing Kanna's Mana to recover even more quickly This effect stacks with MP recovery from other skills. Up to 3 Mana Veins can be active at one time.",
+                        "shortDesc": "Permanently gain Insight Lv. 30 and increases Knockback Resistance by 30%.\\nEvery 5 sec, Kanna will discover a Mana Vein in the area when one of the skills below is used.\\n[1st-4th Skills] Shikigami Haunting 3rd Hit\\n[2nd Skills] Exorcist's Charm, Shikigami Charm\\n[4th Skill] Falling Sakura\\nThe spiritual energy of nature flows within the Mana Vein, allowing Kanna's Mana to recover even more quickly This effect stacks with MP recovery from other skills. Up to 3 Mana Veins can be active at one time.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/sengoku/kanna/geomancy.png"],
                         "animations": ["https://media1.giphy.com/media/DRTAXke0FWxUQBxWve/giphy.gif"],
@@ -145,7 +146,7 @@
                         "details": [
                             "Up to 3 Mana Veins can be active at one time",
                             "Skills that trigger Mana Vein:<ul><li><img src='/class-icons/sengoku/kanna/shikigami-haunting.png' alt='Skill Shikigami Haunting'/> Shikigami Haunting Skills (1st - 4th Job)</li><li><img src='/class-icons/sengoku/kanna/exorcists-charm.png' alt='Skill Exorcist's Charm'/> Exorcist's Charm (2nd Job)</li><li><img src='/class-icons/sengoku/kanna/falling-sakura.png' alt='Skill Falling Sakura'/> Falling Sakura (4th Job)</li></ul>",
-                            "Also permanently increases Insight trait to Lv. 30"
+                            "Also permanently increases Insight trait to Lv. 30 and %Knockback Resistance"
                         ]
                     },
                     {
@@ -311,12 +312,12 @@
                     {
                         "id": 42111004,
                         "name": "Blossom Barrier",
-                        "shortDesc": "Mana Cost: 20, Duration: 100 sec, Damage Reduction: 60%, Status Resistance: +30\\nKnockback Resistance: +50%\\nCooldown: 100 sec",
+                        "shortDesc": "Mana Cost: 20, Duration: 100 sec, Damage Reduction: 60%, Status Resistance: +30\\nCooldown: 100 sec",
                         "maxLevel": 10,
                         "icons": ["/class-icons/sengoku/kanna/blossom-barrier.png"],
                         "animations": ["https://media.giphy.com/media/RMjuZHW4K1lw7VC1it/giphy.gif", "/class-icons/sengoku/kanna/blossom-barrier-preview.png"],
                         "type": "Buff Zone",
-                        "desc": "Within the barrier, party members and you will gain %Damage Reduction, Abnormal Status Resistance and %Knockback Resistance",
+                        "desc": "Within the barrier, party members and you will gain %Damage Reduction, Abnormal Status Resistance",
                         "details": [
                             "If you place Blossom Barrier on top of a <img src='/class-icons/sengoku/kanna/geomancy.png' alt='Skill Geomancy'/> Mana Vein, the barrier will grow bigger and you will gain increased Mana recovery"
                         ]
@@ -398,14 +399,13 @@
                     {
                         "id": 42111003,
                         "name": "Kishin Shoukan",
-                        "shortDesc": "Mana Cost: 20, Duration: 30 sec. Summons the demons Hana and Yuki.\\nWhile summoned, the two demons ricochet an orb of energy between them to attack enemies caught in the crossfire. Max Enemies Hit: 10, Damage: 150%, Attack Count: 2\\nReduces the respawn waiting time on the field by 40%, and increases max amount of enemies that can be created by 50%.\\nEffect cannot be stacked within the same zone.\\nCooldown: 60 sec",
+                        "shortDesc": "Mana Cost: 20, Duration: 30 sec. Summons the demons Hana and Yuki.\\nWhile summoned, the two demons ricochet an orb of energy between them to attack enemies caught in the crossfire. Max Enemies Hit: 10, Damage: 150%, Attack Count: 2\\nCooldown: 60 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/sengoku/kanna/kishin-shoukan.png"],
                         "animations": ["https://media.giphy.com/media/dWBJAfeUifoR9K0QEa/giphy.gif"],
                         "type": "Summon",
                         "desc": "Summons two demons that send an orb back and forth, damaging enemies it passes through",
                         "details": [
-                            "When summoned, increases the max amount of enemies on the map and reduces respawn rates of enemies<ul><li>Effects cannot be stacked</li></ul>",
                             "Duration can be increased by <img src='/class-icons/sengoku/kanna/nightghost-guide.png' alt='Skill Nightghost Guide'/> Nightghost Guide (4th Job)"
                         ]
                     },
@@ -478,7 +478,7 @@
                 {
                     "id": 42121102,
                     "name": "Nine-Tailed Fury",
-                    "shortDesc": "Mana Cost: 60, Max Enemies Hit: 15, Damage: 540%, Attack Count: 9, Duration: 35 sec, Damage Increase: 20%.\\nCooldown: 45 sec\\n[Passive Effect: When attacking while Nine-Tailed Fury is off cooldown, Haku attacks up to 6 enemies in front of him for 150% damage 3 times, at a 60% chance]",
+                    "shortDesc": "Mana Cost: 60, Max Enemies Hit: 15, Damage: 540%, Attack Count: 9, Duration: 35 sec, Damage Increase: 20%.\\nCooldown: 180 sec\\n[Passive Effect: When attacking while Nine-Tailed Fury is off cooldown, Haku attacks up to 6 enemies in front of him for 150% damage 3 times, at a 60% chance]",
                     "maxLevel": 10,
                     "icons": ["/class-icons/sengoku/kanna/nine-tailed-fury.png"],
                     "animations": ["https://media.giphy.com/media/ln6LadUTweX5gVwBSA/giphy.gif"],
@@ -513,14 +513,15 @@
                 {
                     "id": 42120003,
                     "name": "Nightghost Guide",
-                    "shortDesc": "Attack Chance: 30%, Max Enemies Hit: 6, Damage: 160%, Attack Count: 1. Attacked Targets have a 30% chance to yield 30% additional EXP for 5 sec, and have an increased chance to drop equipment with potential. Also, when this effect is activated, the installed Kishin Shoukan's duration is increased by 5 sec.\\n[Passive Effect: Kishin Shoukan Damage: +200%p]",
+                    "shortDesc": "Attack Chance: 30%, Max Enemies Hit: 6, Damage: 160%, Attack Count: 1. Attacked Targets have a 30% chance to yield 30% additional EXP for 5 sec, and have an increased chance to drop equipment with potential. Also, when this effect is activated, the installed Kishin Shoukan's duration is increased by 5 sec.\\n[Passive Effect: Kishin Shoukan Damage: +200%p, Knockback Resistance: +70%]",
                     "maxLevel": 10,
                     "icons": ["/class-icons/sengoku/kanna/nightghost-guide.png"],
                     "type": "Final Attack Passive",
                     "desc": "Attacks have a chance to deal an additional hit that debuffs enemies",
                     "details": [
-                        "Additionally increases the %Damage of <img src='/class-icons/sengoku/kanna/kishin-shoukan.png' alt='Skill Kishin Shoukan'/> and whenever Nightghost Guide activates, the duration of <img src='/class-icons/sengoku/kanna/kishin-shoukan.png' alt='Skill Kishin Shoukan'/> is increased by 5 secs",
-                        "<strong>[Debuff]</strong>: Enemies have a chance to yield extra EXP and a higher chance to drop equipment with Potential"
+                        "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance and the %p Damage of <img src='/class-icons/sengoku/kanna/kishin-shoukan.png' alt='Skill Kishin Shoukan'/>",
+                        "<strong>[Debuff]</strong>: Enemies have a chance to yield extra EXP and a higher chance to drop equipment with Potential",
+                        "When Nightghost Guide activates, the duration of <img src='/class-icons/sengoku/kanna/kishin-shoukan.png' alt='Skill Kishin Shoukan'/> is increased by 5 secs"
                     ]
                 },
                 {

@@ -38,7 +38,7 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png' alt='Skill Soul Pledge'/> +10%] [<img src='/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/> +35% while active]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png' alt='Skill Student of the Blade'/> +15%]",
                 "<strong>Boss Damage</strong>: [<img src='/class-icons/cygnus-knights/dawn-warrior/unpredictable.png' alt='Skill Unpredictable'/> +15%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/> +25% while active] [<img src='/class-icons/cygnus-knights/dawn-warrior/true-sight.png' alt='Skill True Sight'/> +5% from debuff]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/cygnus-knights/dawn-warrior/soul-forge.png' alt='Skill Soul Forge'/> +10%] [<img src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/> +25% while active] [<img src='/class-icons/cygnus-knights/dawn-warrior/true-sight.png' alt='Skill True Sight'/> +5% from debuff]",
                 "<strong>Knockback Resistance</strong>: [<img src='/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png' alt='Skill Soul Pledge'/> +100%]",
                 "<strong>Attack Speed (Weapon)</strong>: [1H] 3, [2H] 4 [<img src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/> -2 while active, does not bypass Soft Cap]",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/cygnus-knights/dawn-warrior/soul-element.png' alt='Skill Soul Element'/> +10%] [<img src='/class-icons/cygnus-knights/dawn-warrior/unpredictable.png' alt='Skill Unpredictable'/> +30%] [<img src='/class-icons/cygnus-knights/dawn-warrior/true-sight.png' alt='Skill True Sight'/> +10% from debuff]",
@@ -51,7 +51,7 @@
             "buffCd": "<img src='/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png' alt='Skill Glory of the Guardians (Dawn Warrior)'/>(120s cd), <img src='/class-icons/cygnus-knights/dawn-warrior/celestial-dance.png' alt='Skill Celestial Dance'/>(150s cd), <img src='/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/>(180s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/>(180s cd), <img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>(240s cd), <img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/>(240s cd)",
             "binds": "<img src='/class-icons/cygnus-knights/dawn-warrior/impaling-rays.png' alt='Skill Impaling Rays'/> (180s cd)",
-            "iFrame": "<img src='/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png' alt='Skill Soul Eclipse'/>(180s cd)"
+            "iFrame": "<img src='/class-icons/cygnus-knights/dawn-warrior/styx-crossing.png' alt='Skill Styx Crossing'/>(35s cd), <img src='/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png' alt='Skill Soul Eclipse'/>(180s cd)"
         },
         "linkSkill": {
                 "id": 80000055,
@@ -622,7 +622,7 @@
                 {
                     "id": 11121054,
                     "name": "Soul Forge",
-                    "shortDesc": "MP Cost: 150, Attack Power: +50, Duration: 180 sec.",
+                    "shortDesc": "MP Cost: 150, Attack Power: +50, Final Damage: +10%, Duration: 180 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-forge.png"],
                     "animations": ["https://media3.giphy.com/media/EvRH7aWelAhmANEuNS/giphy.gif"],
@@ -636,7 +636,7 @@
                 {
                     "id": 11121052,
                     "name": "Styx Crossing",
-                    "shortDesc": "MP Cost: 300, activates Chase Cut 5 times, dealing 160% damage 5 times to 15 enemies. During Max Charge: Damage: 580%, you can deal damage to enemies with Attack Ignore or Attack Reflection effects. Can move and jump while charging, charging canceled when other skill is used except for Elemental Shift.\\nCooldown: 20 sec.",
+                    "shortDesc": "MP Cost: 300, activates Chase Cut 5 times, dealing 160% damage 5 times to 15 enemies.\\nDuring Max Charge: Damage: 580%, you can deal damage to enemies with Attack Ignore or Attack Reflection effects.\\nCan move and jump while charging, charging canceled when other skill is used except for Elemental Shift.\\nCooldown: 35 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/dawn-warrior/styx-crossing.png"],
                     "animations": ["https://media2.giphy.com/media/wgH7tmNZUQScPtMdO6/giphy.gif"],
@@ -644,7 +644,7 @@
                     "desc": "Charge up and release a devastating strike in front of you",
                     "details": [
                         "Ignores Attack Ignores and Damage Reflects",
-                        "You will not be knocked back while charging",
+                        "While charging, you are invincible",
                         "You can move, jump and use <img src='/class-icons/cygnus-knights/elemental-shift.png' alt='Skill Elemental Shift'/> while charging<ul><li>Other skills will cancel the charge and immediately strike</li></ul>"
                     ],
                     "reqLev": 160
@@ -678,7 +678,7 @@
                 },
                 {
                     "name": "Rift of Damnation",
-                    "shortDesc": "MP Cost: 1000, disables Styx Crossing's cooldown for 40 sec and sets skill to max charge, but reduces Final Damage by 50%. Resets Styx Crossing's cooldown upon use.\\nAttacking with Styx Crossing creates a rift to the underworld for 10 sec. Continually attacking the area around the rift with Styx Crossing causes the rift to grow, and eventually shatter, actvating an explosion 5 times that deals 1045% damage to up to 15 enemies 6 times. No more than 2 rifts can be open at once. After a rift shatters, you cannot create another for 5 sec. When the duration of a rift is over, it disappears and explodes immediately, but the damage is reduced.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1000, disables Styx Crossing's cooldown for 40 sec. Does not consume MP and sets skill to max charge, but attacks with 362% damage. Resets Styx Crossing's cooldown upon use.\\nAttacking with Styx Crossing creates a rift to the underworld for 10 sec. Continually attacking the area around the rift with Styx Crossing causes the rift to grow, and eventually shatter, actvating an explosion 5 times that deals 1045% damage to up to 15 enemies 6 times. No more than 2 rifts can be open at once. After a rift shatters, you cannot create another for 5 sec. When the duration of a rift is over, it disappears and explodes immediately, but the damage is reduced.\\nCooldown: 180 sec",
                     "id": 400011055,
                     "icons": ["/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png"],
                     "animations": ["https://media1.giphy.com/media/Nwk5zVHKhahYydIW70/giphy.gif"],

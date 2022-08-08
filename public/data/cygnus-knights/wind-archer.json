@@ -39,16 +39,17 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/cygnus-knights/wind-archer/sylvan-aid.png' alt='Skill Sylvan Aid'/> +10%] [<img src='/class-icons/cygnus-knights/wind-archer/albatross.png' alt='Skill Albatross'/> +25%] [<img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> +20%]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> +15%] [<img src='/class-icons/cygnus-knights/wind-archer/bow-expert.png' alt='Skill Bow Expert'/> +20%]",
                 "<strong>Damage</strong>: [<img src='/class-icons/cygnus-knights/wind-archer/storm-elemental.png' alt='Skill Storm Elemental'/> +10%] [<img src='/class-icons/cygnus-knights/wind-archer/albatross.png' alt='Skill Albatross'/> +25%] [<img src='/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png' alt='Skill Pinpoint Pierce'/> +15% from debuff]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/cygnus-knights/wind-archer/bow-expert.png' alt='Skill Bow Expert'/> +25%]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/cygnus-knights/wind-archer/bow-mastery.png' alt='Skill Bow Mastery'/> +10%] [<img src='/class-icons/cygnus-knights/wind-archer/bow-expert.png' alt='Skill Bow Expert'/> +25%]",
                 "<strong>Boss Damage</strong>: [<img src='/class-icons/cygnus-knights/wind-archer/bow-expert.png' alt='Skill Bow Expert'/> +40%]",
                 "<strong>Attack Speed (Weapon)</strong>: 2",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/cygnus-knights/wind-archer/albatross.png' alt='Skill Albatross'/> +15%] [<img src='/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png' alt='Skill Pinpoint Pierce'/> +15% from debuff] [<img src='/class-icons/cygnus-knights/wind-archer/emerald-flower.png' alt='Skill Emerald Flower'/> +10% from debuff]",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/cygnus-knights/wind-archer/featherweight.png' alt='Skill Featherweight'/> +40%] [<img src='/class-icons/cygnus-knights/wind-archer/touch-of-the-wind.png' alt='Skill Touch of the Wind'/> +60%]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/cygnus-knights/wind-archer/featherweight.png' alt='Skill Featherweight'/> 10] [<img src='/class-icons/cygnus-knights/wind-archer/albatross.png' alt='Skill Albatross'/> 15]"
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/cygnus-knights/wind-archer/storm-elemental.png' alt='Skill Storm Elemental'/>(Toggle), <img src='/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png' alt='Skill Trifling Wind I'/>(Toggle), <img src='/class-icons/cygnus-knights/wind-archer/sylvan-aid.png' alt='Skill Sylvan Aid'/>, <img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>, <img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/>, <img src='/class-icons/cygnus-knights/wind-archer/storm-bringer.png' alt='Skill Storm Bringer'/>",
-            "summons": "<img src='/class-icons/cygnus-knights/wind-archer/emerald-flower.png' alt='Skill Emerald Flower'/>, <img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/>(30s cd), <img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/>(60s cd)",
+            "active": "<img src='/class-icons/cygnus-knights/wind-archer/storm-elemental.png' alt='Skill Storm Elemental'/>(Toggle), <img src='/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png' alt='Skill Trifling Wind I'/>(Toggle), <img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>, <img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/>, <img src='/class-icons/cygnus-knights/wind-archer/storm-bringer.png' alt='Skill Storm Bringer'/>",
+            "summons": "<img src='/class-icons/cygnus-knights/wind-archer/emerald-flower.png' alt='Skill Emerald Flower'/>, <img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/>(30s cd), <img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/>(Toggle)",
             "buffCd": "<img src='/class-icons/cygnus-knights/wind-archer/glory-of-the-guardians.png' alt='Skill Glory of the Guardians (Wind Archer)'/>(120s cd), <img src='/class-icons/cygnus-knights/wind-archer/gale-barrier.png' alt='Skill Gale Barrier'/>(90s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>(240s cd), <img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/>(120s cd)"
         },
@@ -242,16 +243,19 @@
                     {
                         "id": 13101024,
                         "name": "Sylvan Aid",
-                        "shortDesc": "MP Cost: 30, Attack Power: 20, Critical Rate: +10%, No Arrows Used for: 200 sec.",
+                        "shortDesc": "Allows you to use your skills without consuming arrows. ATT: +20, Critical Rate: +10%",
                         "maxLevel": 9,
                         "icons": ["/class-icons/cygnus-knights/wind-archer/sylvan-aid.png"],
-                        "animations": ["https://media4.giphy.com/media/VlfwgnVziZ5D1VvMId/giphy.gif"],
-                        "type": "Buff"
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Uses the arrow with the highest Attack to calculate your damage"
+                        ]
                     },
                     {
                         "id": 13100025,
                         "name": "Bow Mastery",
-                        "shortDesc": "Bow Mastery: +50%",
+                        "shortDesc": "Bow Mastery: +50%, Final Damage: +10%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/cygnus-knights/wind-archer/bow-mastery.png"],
                         "type": "Passive"
@@ -335,7 +339,7 @@
                     {
                         "id": 13110025,
                         "name": "Featherweight",
-                        "shortDesc": "Damage Taken: -30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%. ",
+                        "shortDesc": "Damage Taken: -30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%, Knockback Resistance: +40%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/wind-archer/featherweight.png"],
                         "type": "Passive"
@@ -423,7 +427,7 @@
                 {
                     "id": 13120004,
                     "name": "Touch of the Wind",
-                    "shortDesc": "Attack power: +10%, Dexterity: +15%, Max HP: +20%, Additional Avoidability: +30%",
+                    "shortDesc": "Attack Power: +10%, DEX: +15%, Max HP: +20%, Additional Avoidability: +30%, Knockback Resistance: +60%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/touch-of-the-wind.png"],
                     "type": "Passive"
@@ -595,7 +599,7 @@
             "fifthMain": [
                 {
                     "name": "Howling Gale",
-                    "shortDesc": "MP Cost: 500, Wind Energy increases by 1 every 20 sec (up to 2 max)\\nConsume 1 Wind Energy - Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 3, Duration: 10 sec\\nConsume 2 Wind Energy - Max Enemies Hit: 15, Damage: 1200%, Number of Attacks: 3",
+                    "shortDesc": "MP Cost: 500, Wind Energy increases by 1 every 20 sec (up to 2 max)\\nConsume 1 Wind Energy - Max Enemies Hit: 10, Damage: 650%, Number of Attacks: 3, Duration: 10 sec\\nConsume 2 Wind Energy - Max Enemies Hit: 15, Damage: 1560%, Number of Attacks: 3",
                     "id": 400041008,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/howling-gale.png"],
                     "animations": ["https://media2.giphy.com/media/GYUJkIX9GpxNIwCL6g/giphy.gif", "https://media2.giphy.com/media/2X9muFOBuvbRSGKpgD/giphy.gif"],
@@ -605,19 +609,23 @@
                         "Gain 1 Wind Energy every 20 secs (max 2 Wind Energy)",
                         "<strong>[Consume 1 Wind Energy]</strong>: Creates a smaller vortex that is quicker but deals less damage",
                         "<strong>[Consume 2 Wind Energy]</strong>: Creates a giant vortex that is slower but deals more damage",
+                        "Right-clicking the skill will toggle Speed Reduction Mode ON/OFF causing the gale to slow down when it collides with an enemy",
+                        "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Merciless Winds",
-                    "shortDesc": "MP Cost: 500, Duration: 8 sec. Creates 10 enemy-seeking Spirit Arrows that deal 1000% damage 3 times.\\nIf more than one Spirit Arrow strikes the same enemy, the Final Damage of each additional arrow is reduced by 25%.\\nEnemies hit by Spirit Arrows take 1000% damage every 1 sec for 9 sec\\nCooldown: 10 sec",
+                    "shortDesc": "MP Cost: 500, Duration: 8 sec. Creates 10 enemy-seeking Spirit Arrows that deal 1100% damage 3 times.\\nIf more than one Spirit Arrow strikes the same enemy, the Final Damage of each additional arrow is reduced by 15%.\\nEnemies hit by Spirit Arrows take 1000% damage every 1 sec for 9 sec\\nCooldown: 10 sec",
                     "id": 400041028,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/merciless-winds.png"],
                     "animations": ["https://media0.giphy.com/media/pJgd9UjU1s1q0qVMow/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Create special arrows that seek out nearby enemies. Each additional arrow that hits the same enemy deals reduced %Final Damage",
+                    "desc": "Create homing arrows that seek out nearby enemies",
                     "details": [
-                        "Enemies hit gain a damaging debuff"
+                        "Enemies hit gain a damaging debuff",
+                        "Enemies hit by multiple arrows will take reduced %Final Damage after the first",
+                        "Prioritizes bosses with the highest HP first"
                     ]
                 },
                 {

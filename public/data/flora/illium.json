@@ -42,7 +42,8 @@
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/flora/illium/endless-research.png' alt='Skill Endless Research'/> +30%]",
                 "<strong>Damage</strong>: [<img src='/class-icons/flora/illium/lucent-brand.png' alt='Skill Lucent Brand'/> +10%] [<img src='/class-icons/flora/illium/might-of-the-flora.png' alt='Skill Might of the Flora'/> +10%] [<img src='/class-icons/flora/illium/umbral-brand.png' alt='Skill Umbral Brand'/> +20% from debuff] [<img src='/class-icons/link-skills/tide-of-battle.png' alt='Skill Tide of Battle'/> up to +12%]",
                 "<strong>Boss Damage</strong>: [<img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/> +30%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/> +35%]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/> +40%]",
+                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/flora/illium/might-of-the-flora.png' alt='Skill Might of the Flora'/> +40%] [<img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/> +60%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/> +25%] [<img src='/class-icons/flora/illium/umbral-brand.png' alt='Skill Umbral Brand'/> up to +20% from debuff]",
                 "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/flora/illium/crystal-skill-resonance.png' alt='Skill Crystal Skill Resonance'/> 30]"
@@ -190,6 +191,7 @@
                         "type": "Active",
                         "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
                         "details": [
+                            "Can be used while on ladders",
                             "While in the air, if you hold down the Skill Key, you can fly around"
                         ]
                     },
@@ -378,7 +380,7 @@
                     {
                         "id": 152111003,
                         "name": "Crystal Skill - Wings of Glory",
-                        "shortDesc": "Crystal Charge Cost: 150\\nDuration: 20 sec\\nFinal Damage: +25%, Knockback Resistance: +100%, Boss Damage: +30%\\nWinged Javelin: explodes on contact, striking up to 5 enemies ofr 300% damage 6 times, Damage Against Normal Monsters: +20%. If total enemies struct is lower than the max, an additional 10% is added to the final damage for each enemy below the max. Final Damage increases up to 40%.",
+                        "shortDesc": "Crystal Charge Cost: 150\\nDuration: 20 sec\\nFinal Damage: +25%, Knockback Resistance: +100%, Boss Damage: +30%\\nWinged Javelin: explodes on contact, striking up to 5 enemies for 300% damage 6 times, Damage Against Normal Monsters: +20%. If total enemies struct is lower than the max, an additional 10% is added to the final damage for each enemy below the max. Final Damage increases up to 40%.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/illium/crystal-skill-wings-of-glory.png"],
                         "animations": ["https://media.giphy.com/media/J6Dd8eNulGBGxQ80nD/giphy.gif"],
@@ -388,7 +390,8 @@
                             "Requires a minimum of 150 Charges to use",
                             "While in Wings of Glory, you gain increased %Final Damage, %Boss Damage, and 100% Knockback Resistance",
                             "Winged Javelins deals increased %Damage to regular monsters and deals increased %Final Damage the fewer enemies hit",
-                            "While active, you can still use <img src='/class-icons/flora/illium/crystalline-wings.png' alt='Skill Crystalline Wings'/> to teleport"
+                            "While active, you can still use <img src='/class-icons/flora/illium/crystalline-wings.png' alt='Skill Crystalline Wings'/> to teleport",
+                            "Pressing the Skill Key again will end the skill early"
                         ]
                     },
                     {
@@ -405,6 +408,15 @@
                             "Requires a minimum of 60 Charges to use",
                             "This skill also heals some %Max HP and grants <img src='/class-icons/flora/illium/lucent-brand.png' alt='Skill Lucent Brand'/> whenever it comes in contact with Illium or a party member"
                         ]
+                    },
+                    {
+                        "id": 2211017,
+                        "name": "Crystalline Wings - Boost",
+                        "shortDesc": "MP Cost: 20, Crystalline Wings Teleport Distance: Horizontal +60, Vertical +45.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/flora/illium/crystalline-wings-boost.png"],
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, increases the teleport distance of <img src='/class-icons/flora/illium/crystalline-wings.png' alt='Skill Crystalline Wings'/>"
                     },
                     {
                         "id": 152110009,
@@ -435,7 +447,7 @@
                     {
                         "id": 152110011,
                         "name": "Might of the Flora",
-                        "shortDesc": "Max HP & MP: +20%\\nDamage: +10%\\nJump: +10, Movement Speed: +10, Max Movement Speed: +10",
+                        "shortDesc": "Max HP & MP: +20%\\nDamage: +10%\\nJump: +10, Movement Speed: +10, Max Movement Speed: +10\\nKnockback Resistance: +40%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/flora/illium/might-of-the-flora.png"],
                         "type": "Passive"
@@ -573,12 +585,11 @@
                 {
                     "id": 152121011,
                     "name": "Flash Crystal Battery",
-                    "shortDesc": "MP Cost: 100, Duration: 10 sec, Crystal Charges from Radiant skills: +100%, Cooldown: 120 sec",
+                    "shortDesc": "MP Cost: 100, immediately fully charges Crystal.\\nCooldown: 180 sec",
                     "maxLevel": 20,
                     "icons": ["/class-icons/flora/illium/flash-crystal-battery.png"],
-                    "animations": ["https://media.giphy.com/media/RIXijm8pagxboTC5ml/giphy.gif"],
-                    "type": "Active",
-                    "desc": "For a short period increases the amount of Charge gained"
+                    "animations": ["https://media.giphy.com/media/X3gi4W7LBLn8SRoWGl/giphy.gif"],
+                    "type": "Active"
                 },
                 {
                     "id": 152120012,
@@ -609,7 +620,7 @@
                 {
                     "id": 152120015,
                     "name": "Wisdom of the Crystal",
-                    "shortDesc": "Lucent Gauntlet Mastery: +70%, Attack Speed: +1, Boss Damage: +30%, Ignore DEF: +25%, Final Damage: +35%",
+                    "shortDesc": "Lucent Gauntlet Mastery: +70%\\mAttack Speed: +1, Knockback Resistance: +60%\\nBoss Damage: +30%, Ignore DEF: +25%, Final Damage: +45%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/flora/illium/wisdom-of-the-crystal.png", "/class-icons/flora/illium/lucent-gauntlet-mastery.png"],
                     "type": "Upgraded Passive",

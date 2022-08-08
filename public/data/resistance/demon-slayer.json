@@ -38,7 +38,7 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/demon-slayer/outrage.png' alt='Skill Outrage'/> +20%] [<img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/> +15% to stunned, blinded, frozen, incapacitated]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/resistance/demon-slayer/barricade-mastery.png' alt='Skill Barricade Mastery'/> +15%]",
                 "<strong>Damage</strong>: [<img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/> +35%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/demon-slayer/focused-fury.png' alt='Skill Focused Fury'/> +25%] [<img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/> +15% to stunned, blinded, frozen, incapacitated]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/demon-slayer/focused-fury.png' alt='Skill Focused Fury'/> +30%] [<img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/> +15% to stunned, blinded, frozen, incapacitated]",
                 "<strong>Boss Damage</strong>: [<img src='/class-icons/link-skills/fury-unleashed.png' alt='Skill Fury Unleashed'/> up to +20%]",
                 "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/demonic-blood.png' alt='Skill Demonic Blood'/> +100%]",
                 "<strong>Attack Speed (Weapon)</strong>: 2",
@@ -48,12 +48,12 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/resistance/demon-slayer/battle-pact.png' alt='Skill Battle Pact (Demon Slayer)'/>, <img src='/class-icons/resistance/demon-slayer/vengeance.png' alt='Skill Vengeance'/>, <img src='/class-icons/resistance/demon-slayer/leech-aura.png' alt='Skill Leech Aura'/>, <img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior (Demon)'/>",
+            "active": "<img src='/class-icons/resistance/demon-slayer/battle-pact.png' alt='Skill Battle Pact (Demon Slayer)'/>, <img src='/class-icons/resistance/demon-slayer/vengeance.png' alt='Skill Vengeance'/>, <img src='/class-icons/resistance/demon-slayer/leech-aura.png' alt='Skill Leech Aura'/>, <img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior (Demon)'/>, <img src='/class-icons/resistance/demon-slayer/blue-blood.png' alt='Skill Blue Blood'/>(Toggle)",
             "summons": "<img src='/class-icons/resistance/demon-slayer/spirit-of-rage.png' alt='Skill Spirit of Rage'/>(120 - 105s cd),<img src='/class-icons/resistance/demon-slayer/orthrus.png' alt='Skill Orthrus'/>(120s cd), <img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/>(150s cd)",
-            "buffCd": "<img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/>(32 - 90s cd), <img src='/class-icons/resistance/demon-slayer/boundless-rage.png' alt='Skill Boundless Rage'/>(214 - 200s cd), <img src='/class-icons/resistance/demon-slayer/blue-blood.png' alt='Skill Blue Blood'/>(120s cd), <img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/>(120s cd), <img src='/class-icons/resistance/demon-slayer/demon-awakening.png' alt='Skill Demon Awakening'/>(120s cd)",
+            "buffCd": "<img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/>(90s cd), <img src='/class-icons/resistance/demon-slayer/boundless-rage.png' alt='Skill Boundless Rage'/>(200s cd), <img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/>(120s cd), <img src='/class-icons/resistance/demon-slayer/demon-awakening.png' alt='Skill Demon Awakening'/>(120s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/>(180s cd), <img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess's Blessing'/>(120s cd), <img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/>(240s cd)",
             "binds": "<img src='/class-icons/resistance/demon-slayer/binding-darkness.png' alt='Skill Binding Darkness'/>(180 - 120s cd)",
-            "iFrame": "<img src='/class-icons/resistance/demon-slayer/raven-storm.png' alt='Skill Raven Storm'/>(30s cd), <img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/>(32 - 90s cd), <img src='/class-icons/resistance/demon-slayer/demon-bane.png' alt='Skill Demon Bane'/>(240s cd)"
+            "iFrame": "<img src='/class-icons/resistance/demon-slayer/raven-storm.png' alt='Skill Raven Storm'/>(30s cd), <img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/>(90s cd), <img src='/class-icons/resistance/demon-slayer/demon-bane.png' alt='Skill Demon Bane'/>(240s cd)"
         },
         "linkSkill": {
             "id": 80000001,
@@ -364,7 +364,7 @@
                     {
                         "id": 31110007,
                         "name": "Focused Fury",
-                        "shortDesc": "Final Damage: +25%, Increases Attack Speed",
+                        "shortDesc": "Final Damage: +30%, Increases Attack Speed",
                         "maxLevel": 18,
                         "icons": ["/class-icons/resistance/demon-slayer/focused-fury.png"],
                         "type": "Passive",
@@ -627,16 +627,15 @@
                 {
                     "id": 31121054,
                     "name": "Blue Blood",
-                    "shortDesc": "HP Cost: 300, Fury Cost: 30, Final damage of all attacks: +90% for 60 sec.\\nCooldown: 120 sec, Cooldown: -3 sec every time 50 Fury is absorbed, Additional Cooldown: -2 sec every 4 sec when using Blue Blood and Boundless Rage at the same time.\\n[Passive Effect - Fury consumption on all skills: -20%]",
+                    "shortDesc": "HP Cost: 300, Fury Cost: 30, Final Damage of all attacks: +90%\\n[Passive Effect - Fury consumption on all skills: -20%]",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/demon-slayer/blue-blood.png"],
                     "animations": ["https://media1.giphy.com/media/RQAudgIzODJQ6pd17G/giphy.gif"],
-                    "type": "Buff",
-                    "desc": "Increases the number of hits per attack of all your skills",
+                    "type": "Toggle Buff",
+                    "desc": "While active, increases the number of hits per attack of all your skills",
                     "details": [
                         "<strong>[Passive]</strong>: Permanently reduces DF consumption on all Skills",
-                        "Does not apply to summoning skills or 5th Job Common Skills",
-                        "Cooldown is reduced whenever you gain 50 DF and cooldown is also periodically reduced when <img src='/class-icons/resistance/demon-slayer/boundless-rage.png' alt='Skill Boundless Rage'/> is active"
+                        "Does not apply to summoning skills or 5th Job Common Skills"
                     ],
                     "reqLev": 140
                 },
@@ -712,15 +711,16 @@
                 },
                 {
                     "name": "Demon Bane",
-                    "shortDesc": "Fury Cost: 60, HP Cost: 2000\\nAttacks up to 5 enemies with 650% damage 6 times during key-down. Max Key-Down Time: 4 sec\\nWhen you stop holding the key, become invincible for 1.5 sec to consecutively attack 12 enemies with 1300% damage 7 time(s), increases attack time by 2x in proportion to key-down duration.\\nAdditional Critical Rate: +50%, Additional DEF Ignored: +30% for all attacks\\nCooldown: 240 sec",
+                    "shortDesc": "Fury Cost: 60, HP Cost: 2000, Invincibility Duration: 8.0 sec.\\nAttacks up to 5 enemies with 650% damage 6 times during key-down. Max Key-Down Time: 4 sec\\nWhen you stop holding the key, consecutively attack 12 enemies with 1560% damage 7 time(s), increases attack time by 2x in proportion to key-down duration.\\nAdditional Critical Rate: +50%, Additional DEF Ignored: +30% for all attacks\\nCooldown: 240 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/demon-slayer/demon-bane.png"],
                     "animations": ["https://media4.giphy.com/media/FYnW6puGpYvGyaSkc8/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "Releases a storm of blades that strike from below",
                     "details": [
-                        "When you release the Skill Key, you become invincible briefly and release a devastating final attack<ul><li>Invincibility duration is increased based on how long the skill was held</li><li>Attack has increased %Ignore DEF and %Crit Rate</li></ul>",
-                        "To cancel the invincible attack early, press the Down Arrow Key and Skill Key together"
+                        "Upon casting, you are invincible for a few seconds",
+                        "Attack has increased %Ignore DEF and %Crit Rate",
+                        "Unleashes a final attack after the Skill Key is released<ul><li>The duration of the attack increases based on how long the Skill Key was held</li><li>To cancel the attack early, press the Down Arrow Key and Skill Key together</li></ul>"
                     ]
                 }
             ]
