@@ -229,7 +229,7 @@
                     {
                         "id": 0,
                         "name": "Eruption: Heaving River",
-                        "shortDesc": "River Spirit Duration: 16 sec. Surge Max Enemies Hit: 6, Damage: 215%, Number of Attacks: 4, Max Surges: 8",
+                        "shortDesc": "River Spirit Duration: 16 sec. Surge Max Enemies Hit: 6, Damage: 260%, Number of Attacks: 4, Max Surges: 8",
                         "maxLevel": 20,
                         "icons": ["/class-icons/anima/lara/eruption-heaving-river.png"],
                         "animations": ["https://media.giphy.com/media/8NDzSyLTnI5qfI4MH4/giphy.gif"],
@@ -239,7 +239,7 @@
                     {
                         "id": 0,
                         "name": "Eruption: Whirlwind",
-                        "shortDesc": "Wind Spirit Duration: 16 sec. Whirlwind Max Enemies Hit: 6, Damage: 63%, Number of Consecutive Attacks: 5, Max Whirlwinds: 5",
+                        "shortDesc": "Wind Spirit Duration: 16 sec. Whirlwind Max Enemies Hit: 6, Damage: 90%, Number of Consecutive Attacks: 5, Max Whirlwinds: 5",
                         "maxLevel": 20,
                         "icons": ["/class-icons/anima/lara/eruption-whirlwind.png"],
                         "animations": ["https://media.giphy.com/media/RC0w1H5XTOHNue4Nu1/giphy-downsized-large.gif"],
@@ -249,7 +249,7 @@
                     {
                         "id": 0,
                         "name": "Eruption: Sunrise Well",
-                        "shortDesc": "Giant Max Enemies Hit: 6, Damage: 120%, Number of Attacks: 6. After attack, Lava Area Duration: 16, Damage: 85% per 1 sec., Number of Attacks: 1, Max Enemies Hit: 10\\nPeriodically creates 4 volcanic bomb(s). Volcanic Bomb Damage: 75%, Number of Attacks: 3, Max Volcanic Bombs: 5. If several volcanic bombs hit a single enemy, Final Damage for the second volcanic bomb and onwards: -10%. Damage Over Time for enemies hit by volcanic bombs: 60% damage for 8 sec.",
+                        "shortDesc": "Giant Max Enemies Hit: 6, Damage: 145%, Number of Attacks: 6. After attack, Lava Area Duration: 16, Damage: 110% per 1 sec., Number of Attacks: 1, Max Enemies Hit: 10\\nPeriodically creates 4 volcanic bomb(s). Volcanic Bomb Damage: 95%, Number of Attacks: 3, Max Volcanic Bombs: 5. If several volcanic bombs hit a single enemy, Final Damage for the second volcanic bomb and onwards: -10%. Damage Over Time for enemies hit by volcanic bombs: 60% damage for 8 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/anima/lara/eruption-sunrise-well.png"],
                         "animations": ["https://media.giphy.com/media/iz5zCJlWqZLj6fivgR/giphy-downsized-large.gif"],
@@ -429,7 +429,7 @@
                     {
                         "id": 0,
                         "name": "Absorption: River Puddle Douse",
-                        "shortDesc": "When Essense Sprinkle hits, a River Spirit appears and attacks enemies for 90 sec. Max Enemies Hit: 6, Damage: 590%, Number of Attacks: 6\\nCooldown: 2.5 sec.",
+                        "shortDesc": "When Essense Sprinkle hits, a River Spirit appears and attacks enemies for 90 sec. Max Enemies Hit: 6, Damage: 510%, Number of Attacks: 10\\nCooldown: 2.5 sec.",
                         "maxLevel": 30,
                         "icons": ["/class-icons/anima/lara/absorption-river-puddle-douse.png"],
                         "animations": ["https://media.giphy.com/media/vKJ3jz6X8gjd4vQscR/giphy.gif"],
@@ -439,7 +439,7 @@
                     {
                         "id": 0,
                         "name": "Absorption: Fierce Wind",
-                        "shortDesc": "When Essense Sprinkle hits, a fierce wind appears on one enemy for 90 sec.\\nMax Enemies Hit: 6, Damage: 255%, Number of Attacks: 2\\nCooldown: 2.5 sec.",
+                        "shortDesc": "When Essense Sprinkle hits, a fierce wind appears on one enemy for 90 sec.\\nMax Enemies Hit: 6, Damage: 250%, Number of Lasting Attacks: 3\\nCooldown: 2.5 sec.",
                         "maxLevel": 30,
                         "icons": ["/class-icons/anima/lara/absorption-fierce-wind.png"],
                         "animations": ["https://media.giphy.com/media/dyMDC0wUni5deuavmw/giphy.gif"],
@@ -449,13 +449,14 @@
                     {
                         "id": 0,
                         "name": "Absorption: Sunlit Grain",
-                        "shortDesc": "When Essense Sprinkle hits, sun land spirits appear and create 5 fireball(s) that pursue and attack enemies for 90 sec.\\nDamage: 230%, Number of Attacks: 6\\nCooldown: 2.5 sec.",
+                        "shortDesc": "When Essense Sprinkle hits, sun land spirits appear and create 5 fireball(s) that pursue and attack enemies for 90 sec.\\nDamage: 265%, Number of Attacks: 6\\nWhen a single enemy is struck by several fireballs, starting with the second fireball, Final Damage: -40%\\nCooldown: 2.5 sec.",
                         "maxLevel": 30,
                         "icons": ["/class-icons/anima/lara/absorption-sunlit-grain.png"],
                         "animations": ["https://media.giphy.com/media/V9gX6Sw7DFzzFTQ9OU/giphy.gif"],
                         "type": "Absorption Buff Attack",
                         "desc": "When <img src='/class-icons/anima/lara/essence-sprinkle.png' alt='Skill Essence Sprinkle'/> and <img src='/class-icons/anima/lara/wakeup-call.png' alt='Skill Wakeup Call'/> hits an enemy, a Sun Spirit appears and creates fireballs that seek out nearby enemies",
                         "details": [
+                            "Enemies hit by multiple fireballs take reduced %Final Damage after the first fireball",
                             "Prioritizes bosses with the highest HP first"
                         ]
                     },
@@ -476,7 +477,7 @@
                     {
                         "id": 0,
                         "name": "Nature Master",
-                        "shortDesc": "Eruption Skill Duration: +18 sec\\nHeaving River\\nSurge Max Monsters Hit: +2, Number of Attacks: +5, Damage: +325%p. Periodically creates a big surge with Max Enemies Hit: 10, Damage: +680%, Number of Attacks: 8. Max Surge Count: A normal surge and a big surge, for a total of 9.\\nWhirlwind\\nIncreases whirlwind range, Max Monsters Hit: +4, Damage: +232%p\\nSunrise Well\\nGiant Max Monsters Hit: 4, Damage: +365%p. Increases lava area creation range, Lava Area Damage: +205%p, Volcanic Bomb Damage: +250%p, Damage Over Time for enemies hit with volcanic bombs: +50%p. Creates volcanic bombs more frequently, 5 at a time, up to 5 time(s).",
+                        "shortDesc": "Eruption Skill Duration: +18 sec\\nHeaving River\\nSurge Max Monsters Hit: +2, Number of Attacks: +5, Damage: 750%. Periodically creates a big surge with Max Enemies Hit: 10, Damage: 860%, Number of Attacks: 8. Max Surge Count: A normal surge and a big surge, for a total of 9.\\nWhirlwind\\nIncreases whirlwind range, Max Monsters Hit: +4, Damage: 445%\\nSunrise Well\\nGiant Max Monsters Hit: 4, Damage: 750%. Increases lava area creation range, Lava Area Damage: 420%, Volcanic Bomb Damage: 450%, Damage Over Time for enemies hit with volcanic bombs: 125%. Creates volcanic bombs more frequently, 5 at a time, up to 5 time(s).",
                         "maxLevel": 10,
                         "icons": ["/class-icons/anima/lara/nature-master.png", "/class-icons/anima/lara/eruption-heaving-river.png", "/class-icons/anima/lara/eruption-whirlwind.png", "/class-icons/anima/lara/eruption-sunrise-well.png"],
                         "type": "Upgraded Passive",
@@ -496,7 +497,7 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases %p Damage, number of hits, and max enemies hit",
+                            "Increases %p Damage, Number of Hits, and Max Enemies Hit",
                             "Periodically a big River Spirit will appear, dealing a more powerful attack"
                         ]
                     },
@@ -511,7 +512,7 @@
                         "desc": "",
                         "details": [
                             "Increases range of attack",
-                            "Increases %p Damage and max enemies hit"
+                            "Increases %p Damage and Max Enemies Hit"
                         ]
                     },
                     {
@@ -588,7 +589,7 @@
                     {
                         "id": 0,
                         "name": "In-depth Geomancy",
-                        "shortDesc": "Mountain Kid Appearance Rate: +70%, Increases Mountain Kid attack range\\nMountain Kid Damage: +208%p, Boss Monster Damage: +260%p\\nMountain Seed Damage: +265%p, Mountain Seed Duration: +20 sec\\nWakeup Call Damage: +45%p\\nDragon Vein Traces Damage: +55%p",
+                        "shortDesc": "Mountain Kid Appearance Rate: +70%, Increases Mountain Kid attack range\\nMountain Kid Damage: +208%p, Boss Monster Damage: +260%p\\nMountain Seed Damage: +265%p, Mountain Seed Duration: +20 sec\\nWakeup Call Damage: +95%p\\nDragon Vein Traces Damage: +55%p",
                         "maxLevel": 20,
                         "icons": ["/class-icons/anima/lara/in-depth-geomancy.png"],
                         "type": "Passive"

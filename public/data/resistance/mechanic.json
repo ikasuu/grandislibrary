@@ -34,8 +34,8 @@
             [
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/> +10%] [<img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/> +20%] [<img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> +30% in tank form]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/> +5%]",
-                "<strong>Damage</strong>: [<img src='/class-icons/resistance/mechanic/hidden-peace.png' alt='Skill Hidden Peace'/> +10%] [<img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/> up to +48%] [<img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> +10% in tank form]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/> +25%] [<img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> +10% while nearby]",
+                "<strong>Damage</strong>: [<img src='/class-icons/resistance/mechanic/hidden-peace.png' alt='Skill Hidden Peace'/> +10%] [<img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/> up to +40%] [<img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> +10% in tank form]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/> +34%] [<img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> +10% while nearby]",
                 "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/> +100% while mounted]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/> +30%] [<img src='/class-icons/resistance/mechanic/mechanized-defense-system.png' alt='Skill Mechanized Defense System'/> +15%] [<img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> +10% from debuff]",
@@ -358,7 +358,8 @@
                         "desc": "Fires a concentrated bullet that hits one enemy",
                         "details": [
                             "Usable only in <img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> Tank Mode",
-                            "Shares the same SP and Key Slot as <img src='/class-icons/resistance/mechanic/ap-salvo.png' alt='Skill AP Salvo'/>"
+                            "Shares the same SP and Key Slot as <img src='/class-icons/resistance/mechanic/ap-salvo.png' alt='Skill AP Salvo'/>",
+                            "Prioritizes bosses with the highest HP first"
                         ]
                     },
                     {
@@ -389,7 +390,7 @@
                     {
                         "id": 35110016,
                         "name": "Overclock",
-                        "shortDesc": "Final Damage: 25%, Critical Rate: 20%, Enemy DEF Ignored: +30%",
+                        "shortDesc": "Final Damage: 34%, Critical Rate: 20%, Enemy DEF Ignored: +30%",
                         "maxLevel": 15,
                         "icons": ["/class-icons/resistance/mechanic/overclock.png"],
                         "type": "Passive"
@@ -463,9 +464,9 @@
                     "shortDesc": " MP Cost: 70, Max Enemies Hit: 8, Damage: 390%, Number of Attacks: 4",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/mechanic/heavy-salvo-plus.png"],
-                    "animations": ["https://media0.giphy.com/media/kFI1gQETu0ZwQ1iveo/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/SAAhPmSmcmxMfhK7C9/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Fires a barrage of bullets forward",
+                    "desc": "Fires an explosive blast forward",
                     "details": [
                         "Usable only in <img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/> Humanoid Mode",
                         "Shares the same Skill Points (SP) and Key Slot as <img src='/class-icons/resistance/mechanic/ap-salvo-plus.png' alt='Skill AP Salvo Plus'/>"
@@ -483,7 +484,8 @@
                     "details": [
                         "Usable only in <img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> Tank Mode",
                         "Shares the same Skill Points (SP) and Key Slot as <img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/>",
-                        "Upon hitting an enemy, the bullet explodes damaging nearby enemies"
+                        "Upon hitting an enemy, the bullet explodes damaging nearby enemies",
+                        "Prioritizes bosses with the highest HP first"
                     ]  
                 },
                 {
@@ -569,10 +571,14 @@
                 {
                     "id": 35120001,
                     "name": "Robot Mastery",
-                    "shortDesc": "Increases damage by 6% for each summoned Robot.\\nRobot's Final Damage and Final Self-Destruct Damage: +105%, Summon Duration for skills aside from 5th skills: +40%.\\n<Robo Launcher RM7> Damage: +135%p.",
+                    "shortDesc": "Increases damage by 5% for each summoned Robot.\\nRobot's Final Damage and Final Self-Destruct Damage: +105%, Summon Duration for skills aside from 5th skills: +40%.\\n<Robo Launcher RM7> Damage: +135%p.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/mechanic/robot-mastery.png"],
-                    "type": "Passive"
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Right-clicking the skill will toggle a function ON/OFF that allows skill effect transparency to apply to robot skills affected by Robot Mastery"
+                    ]
                 },
                 {
                     "id": 35120014,
@@ -798,7 +804,7 @@
             {
                 "name": "Heavy Salvo Plus - 4th Job",
                 "icons": ["/class-icons/resistance/mechanic/heavy-salvo-plus.png"],
-                "animations": ["https://media0.giphy.com/media/kFI1gQETu0ZwQ1iveo/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/SAAhPmSmcmxMfhK7C9/giphy.gif"]
             },
             {
                 "name": "AP Salvo Plus - 4th Job",

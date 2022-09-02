@@ -51,7 +51,7 @@
             "buffCd": "<img src='/class-icons/nova/cadena/shadowdealers-elixir.png' alt='Skill Shadowdealer's Elixir'/>(120s cd), <img src='/class-icons/nova/cadena/veteran-shadowdealer.png' alt='Skill Veteran Shadowdealer'/>(180s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/>(90 - 75s cd), <img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/>(240s cd)",
             "binds": "<img src='/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/>(120s cd)",
-            "iFrame": "<img src='/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/>(120s cd), <img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death)"
+            "iFrame": "<img src='/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts: Reign of Chains'/>(45s cd), <img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death)"
         },
         "linkSkill": {
             "id": 80000261,
@@ -448,30 +448,33 @@
                 {
                     "id": 64121002,
                     "name": "Chain Arts: Reign of Chains",
-                    "shortDesc": "MP Cost per attack: 25, Damage: 600%, Max Enemies Hit: 12, Number of Attacks: 2, Attack Duration: 6 sec,\\nCan use directional keys to move while holding the skill key.\\nCooldown: 50 sec",
+                    "shortDesc": "MP Cost per attack: 25, Invincibility Duration: 2 sec\\nDamage: 600%, Max Enemies Hit: 12, Number of Attacks: 2, Attack Duration: 6 sec,\\nCan use directional keys to move while holding the skill key.\\nCooldown: 45 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/chain-arts-reign-of-chains.png"],
                     "animations": ["https://media.giphy.com/media/Sx92dxcSS5cuAC7K4a/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "While held, violently swings your chain pulling enemies in and damaging them",
                     "details": [
+                        "This skill will refresh the <img src='/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/> Muscle Memory buff but does not count as a stack",
+                        "Upon casting, you are briefly invincible",
                         "You can move while casting",
-                        "This skill will refresh the <img src='/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/> Muscle Memory buff but does not count as a stack"
+                        "Unaffected by cooldown resets"
                     ]
                 },
                 {
                     "id": 64121001,
                     "name": "Chain Arts: Beatdown",
-                    "shortDesc": "MP Cost: 255, Max Enemies Hit: 1, Damage: 300%, Attacks: 2, Stun Duration: 10 sec. Increases stun duration up to 100% based on inflicted damage. If the enemy isn't stunned, invincible for 5 sec.\\nDepending on the number of skill key presses, follow-up attack power is divided into 3 levels. Attacks each group of enemies with 770%/880%/990% damage, respectively, 15 time(s), and activates a final attack that attacks 10 enemies with 250%/350%/500% damage, respectively, 10 time(s)\\nDuring the consecutive attacks, activates a shockwave that attacks up to 10 enemies with 600% damage 4 time(s). Additional DEF ignored: +80%.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 255, Max Enemies Hit: 1, Damage: 300%, Attacks: 2, Stun Duration: 10 sec. Increases stun duration up to 100% based on inflicted damage.\\nFor 5 sec after casting, depending on the number of additional hits activated by Muscle Memory, follow-up attack is divided into 3 levels. If the number of activations isn't met within this time, Strike occurs at the minimum level.\\nStrike: Whem Muscle Memory number of activations is 0/3/5, respectively, attacks the group in their location based on the level with 770%/880%/990% damage, respectively, 15 times(s), and activates a final attack that attacks 10 enemies with 250%/350%/500% damage, respectively 10 time(s)\\nDuring the consecutive attacks, activates a shockwave that attacks up to 10 enemies with 600% damage 4 time(s). Additional DEF Ignored: +80%.\\nCooldown: 120 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/chain-arts-beatdown.png"],
                     "animations": ["https://media.giphy.com/media/uVtmb3AGZXL6CnqeHe/giphy-downsized-large.gif"],
                     "type": "Bind Attack",
-                    "desc": "Binds an enemy with the highest Max HP and prepares for a powerful attack",
+                    "desc": "Binds an enemy with the highest Max HP and prepares a powerful attack",
                     "details": [
+                        "Based on the number of times <img src='/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/> is activated, the strength of the attack increases",
+                        "This skill will not count towards <img src='/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/> Muscle Memory but will grant full stacks when used",
                         "Attack has increased %Ignore DEF",
-                        "You have a short time frame to repeatedly press the skill key, you will deal more damage up to a cap of 25 presses",
-                        "This skill will not count towards <img src='/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/> Muscle Memory but will grant full stacks when used"
+                        "Unaffected by cooldown resets"
                     ]
                 },
                 {

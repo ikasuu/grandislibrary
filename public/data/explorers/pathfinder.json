@@ -191,6 +191,8 @@
                         "desc": "Fires several arrows that seek out enemies",
                         "details": [
                             "Changes the emblem at the center of the gauge to 'Deluge'",
+                            "Prioritizes bosses with the highest HP first",
+                            "Unaffected by Damage Reflect",
                             "<strong>[Recommended]</strong>: In 2nd job, place <span data-tooltip='Cardinal Burst (2nd)'><img src='/class-icons/explorers/pathfinder/cardinal-burst.png' alt='Skill Cardinal Burst'/></span> first and <span data-tooltip='Cardinal Deluge (1st Job)'><img src='/class-icons/explorers/pathfinder/cardinal-deluge.png' alt='Skill Cardinal Deluge'/></span> second into a skill macro for ease of use<ul><li>Skill macros can be found on a button in the Skill UI on the bottom right</li></ul>"
                         ]
                     },
@@ -305,6 +307,7 @@
                         "type": "Passive",
                         "desc": "When using <span data-tooltip='Cardinal Burst (2nd Job)'><img src='/class-icons/explorers/pathfinder/cardinal-burst.png' alt='Skill Cardinal Burst'/></span> while your relic is displaying the 'Deluge' emblem, you have a chance to create homing arrows",
                         "details": [
+                            "Prioritizes bosses with the highest HP first",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -430,6 +433,7 @@
                         "type": "Passive",
                         "desc": "When using <span data-tooltip='Cardinal Deluge (1st Job)'><img src='/class-icons/explorers/pathfinder/cardinal-deluge.png' alt='Skill Cardinal Deluge'/></span> while your relic is displaying the 'Burst' emblem, you have a chance to create homing arrows",
                         "details": [
+                            "Prioritizes bosses with the highest HP first",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -740,15 +744,15 @@
                 {
                     "id": 3321035,
                     "name": "Ancient Astra [Deluge]",
-                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 7 enemies, for 400% damage, 6 times. Has a 30% chance to create 2 magical arrows that attack 2 times, dealing 240% damage.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 20%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 7 enemies, for 400% damage, 6 times. Has a 30% chance to create 2 magical arrows that attack 2 times, dealing 240% damage.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra-deluge.png", "/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "animations": ["https://media3.giphy.com/media/cZFWxk1ntZRUQtUz4k/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "",
                     "details": [
-                        "Fires a barrage of arrows that have a chance to create additional homing arrows when an enemy is hit<ul><li>You cannot move while casting</li></ul>",
-                        "While casting, reduces damage taken including %Max HP attacks (by 20%)",
+                        "Fires a barrage of arrows that have a chance to create additional homing arrows when an enemy is hit<ul><li>You cannot move while casting</li><li>Arrows prioritize bosses with the highest HP first</li></ul>",
+                        "While casting, reduces damage taken including %Max HP attacks",
                         "Ancient Astra ends early if you run out of Relic gauge points"
                     ],
                     "reqLev": 160
@@ -764,7 +768,7 @@
                     "desc": "",
                     "details": [
                         "Fires explosive arrows that can be aimed using the Up and Down Arrow Keys<ul><li>The first arrow fired cannot be angled and will be fired straight ahead</li></ul>",
-                        "While casting, reduces damage taken including %Max HP attacks (by 60%)",
+                        "While casting, reduces damage taken including %Max HP attacks",
                         "Ancient Astra ends early if you run out of Relic gauge points"
                     ],
                     "reqLev": 160
@@ -772,7 +776,7 @@
                 {
                     "id": 3321035,
                     "name": "Ancient Astra [Torrent]",
-                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 4 enemies, for 360% damage, 6 times.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 4 enemies, for 360% damage, 6 times.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra-torrent.png", "/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "animations": ["https://media3.giphy.com/media/yj3JOoyMoVVkoOJAgR/giphy.gif"],
@@ -780,6 +784,7 @@
                     "desc": "",
                     "details": [
                         "Fires a barrage of arrows forward<ul><li>You can move forward and backward while casting</li></ul>",
+                        "While casting, reduces damage taken including %Max HP attacks",
                         "Ancient Astra ends early if you run out of Relic gauge points"
                     ],
                     "reqLev": 160
@@ -822,7 +827,8 @@
                     "type": "Ancient Force Summon",
                     "desc": "Transforms <img src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/> into a giant tornado that stops when it hits an enemy",
                     "details": [
-                        "Can only be used when <img src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/> is active",
+                        "Can only be used when <span data-tooltip='Shadow Raven (3rd Job)'><img src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/></span> is active",
+                        "If <span data-tooltip='Fury of the Wild (5th Job)'><img src='/class-icons/5th-job/fury-of-the-wild.png' alt='Skill Fury of the Wild'/></span> is active, pressing the Down Arrow Key and Skill Key together activates an <span data-tooltip='Fury of the Wild Tempest (5th Job)'><img src='/class-icons/explorers/pathfinder/fury-of-the-wild-tempest.png' alt='Skill Fury of the Wild Tempest'/></span> enhanced tempest that has a shorter duration but faster attack speed<ul><li>Right-clicking the skill will toggle a function ON/OFF that swaps the activation command of the <span data-tooltip='Raven Tempest (5th Job)'><img src='/class-icons/explorers/pathfinder/raven-tempest.png' alt='Skill Raven Tempest'/></span> regular and <span data-tooltip='Fury of the Wild Tempest (5th Job)'><img src='/class-icons/explorers/pathfinder/fury-of-the-wild-tempest.png' alt='Skill Fury of the Wild Tempest'/></span> enhanced Tempest while <span data-tooltip='Fury of the Wild (5th Job)'><img src='/class-icons/5th-job/fury-of-the-wild.png' alt='Skill Fury of the Wild'/></span> is active</li><li>If <span data-tooltip='Fury of the Wild (5th Job)'><img src='/class-icons/5th-job/fury-of-the-wild.png' alt='Skill Fury of the Wild'/></span> has any remaining duration, it will be resummoned for that duration once the attack ends</li></ul>",
                         "You can change the direction of the skill by pressing the Skill Key",
                         "Attacks charge up Relic Gauge",
                         "Unaffected by Damage Reflect"

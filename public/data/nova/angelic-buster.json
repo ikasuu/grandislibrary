@@ -46,7 +46,7 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/>, <img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/>, <img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior (Angelic Buster)'/>",
+            "active": "<img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/>, <img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/>, <img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior (Angelic Buster)'/>, <img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/>(Toggle)",
             "summons": "<img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/>(60s cd), <img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/>(120s cd), <img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/>(120s cd), <img src='/class-icons/nova/angelic-buster/mighty-mascot.png' alt='Skill Mighty Mascot'/>(120s cd)",
             "buffCd": "<img src='/class-icons/link-skills/terms-and-conditions.png' alt='Skill Terms and Conditions'/>(90s cd), <img src='/class-icons/nova/angelic-buster/pretty-exaltation.png' alt='Skill Pretty Exaltation'/>(120s cd), <img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/>(120s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/>(70 - 64s cd), <img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/>(240s cd), <img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/>(180s cd <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>)",
@@ -372,16 +372,15 @@
                 {
                     "id": 65121101,
                     "name": "Trinity",
-                    "shortDesc": "Mobs Hit: 1, Damage: 720%, Number of Hits: 2. This skill can be cast up to 3 times in a row. 2nd Attack: 3 hits. 3rd Attack: 4 hits.\\n+10% Trinity and Trinity Fusion increase Damage and DEF Ignore on a successful hit with Trinity. Stacks up to 3 times. Soul Battery skill. Recharge Chance: 50%.\\n[Passive Effect] Final Damage: +25%, Enemy DEF Ignore: +15%",
+                    "shortDesc": "Max Enemies Hit: 3, Damage: 630%, Number of Hits: 6. +15% Trinity and Trinity Fusion increase Damage and DEF Ignore on hit. Stacks up to 2 times. Soul Battery skill. Recharge Chance: 50%.\\n[Passive Effect] Final Damage: +25%, Enemy DEF Ignore: +15%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/trinity.png"],
-                    "animations": ["https://media4.giphy.com/media/l4ENGwe9KOqvmoGjAl/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/O0cSSYRVeE0IlbJqUb/giphy.gif"],
                     "type": "Soul Battery Attack",
-                    "desc": "Unleashes a powerful attack against one enemy",
+                    "desc": "Unleashes a barrage of strikes forward",
                     "details": [
                         "<strong>[Passive]</strong>: Permanently increases %Final Damage and %Ignore DEF",
-                        "Can be used consecutively up to 3 times",
-                        "Upon hitting an enemy with this skill, you gain a stacking %<img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/> Trinity Damage and %Ignore DEF buff (up to 3 stacks)"
+                        "Upon successful hits, increases the stacking %Damage and %Ignore DEF increase to Trinity (up to 2 stacks)"
                     ]
                 },
                 {
@@ -465,14 +464,15 @@
                 {
                     "id": 65121011,
                     "name": "Soul Seeker Expert",
-                    "shortDesc": "35% chance to summon a Soul Seeker. Final Damage will be only 75% of the damage a direct use of this skill would inflict.",
+                    "shortDesc": "35% chance to summon a Soul Seeker when attacking with an Angelic Buster skill (excludes Soul Buster and Soul Seeker skills).\\nWhen using Celestial Roar, activation rate +15%, when using Trinity, activation rate +25%.\\nFinal Damage will be only 75% of the damage a direct use of this skill would inflict.",
                     "maxLevel": 10,
                     "icons": ["/class-icons/nova/angelic-buster/soul-seeker-expert.png"],
-                    "type": "Passive",
-                    "desc": "While attacking, successful attacks have a chance to activate <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/>",
+                    "type": "Toggle Attack",
+                    "desc": "While toggled, successful attacks have a chance to activate <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/>",
                     "details": [
                         "Deals reduced %Final Damage compared to using <img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/> directly",
-                        "Summons and <img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/> cannot activate this passive",
+                        "Using <img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/> (+15%) or <img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/> (+25%) have an increased chance to activate Soul Seeker Expert",
+                        "Summons and <img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/> cannot trigger Soul Seeker Expert",
                         "Prioritizes bosses with the highest HP first"
                     ]
                 }]
@@ -555,7 +555,7 @@
                 {
                     "id": 65120051,
                     "name": "Trinity - Extra Strike",
-                    "shortDesc": "Damage: -70%p, Number of Attacks: +1",
+                    "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/trinity-extra-strike.png"],
                     "type": "Passive",
@@ -630,7 +630,7 @@
                 },
                 {
                     "name": "Mighty Mascot",
-                    "shortDesc": "Duration: 35 sec. When successfully recharged, uses Twinkle Star or Magical Balloon. Max Enemies Hit: 6, Damage: 1200%, Number of Attacks: 5. Cannot be used in the middle of another action.\\nUse Twinkle Star or Magical Bubble, or acquire 1 Magical Bubble. Up to 8 can be held at a time.\\nUse the skill once more to cast Shiny Bubble Breath. Duration: 3 sec, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 8.\nAll Magical Bubbles will be consumed upon use of Shiny Bubble Breath. Duration is increased by 0.4 sec for every bubble. Can be used once while summoned. Skill ends only after all Bubbles are used up, even if the summon duration ends beforehand.\\nCooldown: 120 sec",
+                    "shortDesc": "Duration: 35 sec. When successfully recharged, uses Twinkle Star or Magical Balloon. Max Enemies Hit: 6, Damage: 1200%, Number of Attacks: 5. Cannot be used in the middle of another action.\\nUse Twinkle Star or Magical Bubble, or acquire 1 Magical Bubble every 3 sec. Up to 8 can be held at a time.\\nUse the skill once more to cast Shiny Bubble Breath. Duration: 3 sec, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 8.\nAll Magical Bubbles will be consumed upon use of Shiny Bubble Breath. Duration is increased by 0.4 sec for every bubble. Can be used once while summoned. Skill ends only after all Bubbles are used up, even if the summon duration ends beforehand.\\nCooldown: 120 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/nova/angelic-buster/mighty-mascot.png"],
                     "animations": ["https://media1.giphy.com/media/TOxQcjHUDrdrU3Mu5v/giphy.gif"],

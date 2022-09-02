@@ -335,6 +335,7 @@
                         "type": "Specter | Toggle Attack",
                         "desc": "While active, attacks will create homing orbs in Specter Mode",
                         "details": [
+                            "Prioritizes bosses with the highest HP first",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -797,14 +798,14 @@
                     "icons": ["/class-icons/flora/ark/abyssal-recall.png"],
                     "animations": ["https://media2.giphy.com/media/J6Dd7zwMoE6rur9I7X/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Unleashes a devastating attack to enemies on the map before dealing an explosive final attack",
+                    "desc": "Shift into Specter Form and unleash a devastating attack to enemies on the map before dealing an explosive final attack",
                     "details": [
+                        "Pressing the Skill Key again while the attack is active, cancels the attack early and activates the final attack",
                         "After the attack, you will not consume any Specter resource for a short period",
-                        "Female Arks do not have a cutscene animation, just the attack animation",
-                        "Does not trigger <img src='/class-icons/flora/ark/impending-death.png' alt='Skill Impending Doom'/>",
                         "You are invincible while the attack is active",
-                        "When used, you will be shifted into Specter Form",
-                        "Ignores Attack Ignore and Damage Reflect"
+                        "Does not trigger <img src='/class-icons/flora/ark/impending-death.png' alt='Skill Impending Doom'/>",
+                        "Ignores Attack Ignore and Damage Reflect",
+                        "<strong>[Note]</strong>: Female Arks do not have a cutscene animation, just the attack animation"
                     ]
                 },
                 {
@@ -814,7 +815,10 @@
                     "icons": ["/class-icons/flora/ark/infinity-spell.png"],
                     "animations": ["https://media1.giphy.com/media/jrovIn9aSAT75PxlCs/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, automatically grants max charges of <img src='/class-icons/flora/ark/basic-buff.png' alt='Skill Basic Cast'/> Basic Spell Bullet when attacking and creates more <img src='/class-icons/flora/ark/impending-death.png' alt='Skill Impending Doom'/> orbs"
+                    "desc": "While active, automatically grants max charges of <img src='/class-icons/flora/ark/basic-buff.png' alt='Skill Basic Cast'/> Basic Spell Bullet when attacking and creates more <img src='/class-icons/flora/ark/impending-death.png' alt='Skill Impending Doom'/> orbs",
+                    "details": [
+                        "Prioritizes bosses with the highest HP first"
+                    ]
                 },
                 {
                     "name": "Devious Nightmare",

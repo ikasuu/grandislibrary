@@ -353,7 +353,7 @@
                         "type": "Passive",
                         "desc": "Possess attacks apply a stacking debuff onto enemies that 'Execute' type attacks can consume to damage an enemy",
                         "details": [
-                            "<strong>[Debuff]</strong>: Execute skills consumes one stack of the debuff and damages the enemy<ul><li>Additionally grants a buff that increases the %Final Damage of Death's Blessing briefly and generates some Malice</li></ul>",
+                            "<strong>[Debuff]</strong>: Execute skills consumes one stack of the debuff and damages the enemy<ul><li>Additionally grants a buff that increases the %p Final Damage of Death's Blessing and Execute Skills briefly and generates Malice when Death's Blessing is triggered</li></ul>",
                             "When the debuff is consumed, the cooldown of <img src='/class-icons/nova/kain/shadow-step.png' alt='Skill Shadow Step'/> is reset",
                             "Ignores Attack Ignore and Damage Reflect"
                         ]
@@ -472,16 +472,16 @@
                         "id": 0,
                         "offline": true,
                         "name": "Advanced Death's Blessing",
-                        "shortDesc": "Upon defeating 50 enemies, recover 5% max HP.\\nUpon materializing Death’s Blessing on a boss, recover 3% max HP.\\nDeath’s Blessing Damage: +163%p\\nMerit buff: Death’s Blessing/Execute Skills Final Damage: +10%, increases Malice created by 2 when Execute SKill that can materialize blessing hits.",
+                        "shortDesc": "Upon defeating 50 enemies, recover 5% max HP.\\nUpon materializing Death’s Blessing on a boss, recover 3% max HP.\\nDeath’s Blessing Damage: +163%p\\nMerit buff: Death’s Blessing/Execute Skills Final Damage: +18%p, increases Malice created by 2 when Execute SKill that can materialize blessing hits.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/nova/kain/advanced-deaths-blessing.png", "/class-icons/nova/kain/deaths-blessing.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Restore %Max HP whenever you defeat a certain amount of enemies or when Death's Blessing activates on a boss",
-                            "Increases %Damage",
-                            "Increases %Final Damage buff provided from Merit buff",
-                            "While Merit buff is active, gain more Malice when Execute skills that activates Death's Blessing"
+                            "Now restores %Max HP whenever you defeat a certain amount of enemies or when Death's Blessing activates on a boss",
+                            "Increases %p Damage of attack",
+                            "Increases %p Final Damage buff provided from Merit buff",
+                            "While Merit buff is active, gain more Malice when Death's Blessing activates"
                         ]
                     },
                     {
@@ -854,14 +854,14 @@
                 },
                 {
                     "name": "Grip of Agony",
-                    "shortDesc": "Passive Effect: Upon either defeating 30 enemies or attacking a boss 25 times, you can harvest up to 5 Death Throes.\\nActive Effect: MP Cost: 600, Required Death Throes: 1\\nConsumes all harvested Death Throes to summon Hand of Agony for 5 seconds attacking up to 12 enemies for 1200% damage 6 consecutive times. Duration increases by 1 second for each additional Death Throe consumed. Cooldown: 90 sec",
+                    "shortDesc": "Passive Effect: Upon either defeating 30 enemies or attacking a boss 25 times, you can harvest up to 5 Death Throes.\\nActive Effect: MP Cost: 600, Required Death Throes: 1\\nConsumes all harvested Death Throes to summon Hand of Agony for 5 seconds attacking up to 12 enemies for 1000% damage 8 consecutive times. Duration increases by 1 second for each additional Death Throe consumed. Cooldown: 90 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/nova/kain/grip-of-agony.png"],
                     "animations": ["https://media.giphy.com/media/E7m0nSnj0haBCIvhy5/giphy.gif"],
                     "type": "Attack",
                     "desc": "Creates a zone of agony at your position that damages enemies within it",
                     "details": [
-                        "This skill has a special resource called Death Throes which are gained from defeating enemies and attacking boss monsters and you can hold up to 5 Death Throes<ul><li>Using Grip of Agony consumes all Death Throes to increase the duration of the attack</li></ul>",
+                        "Uses a special resource called Death Throes which are gained from defeating enemies and attacking boss monsters and you can hold up to 5 Death Throes<ul><li>Using Grip of Agony consumes all Death Throes to increase the duration of the attack</li></ul>",
                         "Ignores Damage Reflect"
                     ]
                 }
