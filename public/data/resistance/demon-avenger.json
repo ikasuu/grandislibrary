@@ -90,11 +90,12 @@
             "http://maplestory.nexon.net/game/classes-and-jobs/3371/demon-avenger",
             "https://maplestory.fandom.com/wiki/Demon"
         ],
+        "specialThanks": "Special thanks to Kerkerseele for their help in making this overview!",
         "credits": [
             ["Skill Icons", "MapleWiki"],
             ["Skill Animations", "Ikasuu"],
             ["Boost Nodes Build + Inner Ability","Maple Central"],
-            ["5th Job Skills Animations", "KyoWantsCute"]
+            ["5th Job Skills Animations", "KyoWantsCute, Kerkerseele"]
         ],
         "extraContent": {
             "title": "Exceed Mechanic",
@@ -601,9 +602,9 @@
                     "shortDesc": "HP Cost: 20% of Max HP, consumes 6000 HP per sec, Healing Restriction: items and skills can only heal 1% of Max HP, hit damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 35% per 2% HP consumed. Your demonic blood spills periodically to coat the ground for 5 sec and deal 765% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 125 sec",
                     "id": 400021002,
                     "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
-                    "animations": ["https://media4.giphy.com/media/rSfx6cHXUYJTQi9A24/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/FHWtnSun6sL2Z6n162/giphy.gif"],
                     "type": "Toggle Buff",
-                    "desc": "While toggled, gain increased %Final Damage and coat the ground with your blood that damage enemies that touch it",
+                    "desc": "While toggled, gain increased %Final Damage and create a zone around you that damages enemies within it",
                     "details": [
                         "Costs HP to activate and drains HP each sec while active",
                         "Items and skills can only recover 1% Max HP but you take reduced damage (including %Max HP attacks)",
@@ -631,9 +632,9 @@
                     "shortDesc": "HP Cost: 20%, summons a magic sword for 40 sec every 3 sec. Max Enemies Hit: 8, Damage: 1850%, Number of Attacks: 8\\nThe skill duration becomes 1/5 if the skill is used again while summoning, but the magic sword will spin quickly and deal 900% damage to 8 enemies 8 times.\\nAll Dimensional Sword hits receive Additional Monster DEF Ignored: +100%\\nCooldown: 120 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/demon-avenger/dimensional-sword.png"],
-                    "animations": ["https://media0.giphy.com/media/xaOKDtWZFUeXVALHLw/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/D6V4AHh4BhxhYMap6A/giphy.gif", "https://media.giphy.com/media/w9YlX5uKzz8R5K0wzL/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summon swords that hover above you while attacking nearby enemies",
+                    "desc": "Summon swords above your head that periodically slashes forward at nearby enemies",
                     "details": [
                         "Pressing the Skill Key again while the skill is active will reduce the duration but the swords will spin around you to deal damage to nearby enemies",
                         "Attack has 100% Ignore DEF",
@@ -645,7 +646,7 @@
                     "shortDesc": "HP Cost: 25% of Max HP, Duration: 30 sec\\nWhen using the Exceed skill, activates Thorn of Fury, which damages 5 enemies with 900% damage 12 time(s). Additional Monster DEF Ignored: +30%, Cooldown: 4 sec\\n Saves Damage Taken, up to 200% of Max HP, as Fury, and reduces cooldown in proportion to amount saved. Your current Fury amount decreases by 7% periodically.\\nAfter the skill ends, any saved Fury, plus 1% of max HP will come back to you as damage 25 time(s). This damage cannot kill you by itself.\\nCooldown: 240 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/demon-avenger/revenant.png"],
-                    "animations": ["https://media2.giphy.com/media/NRuSxovhin7b9ZFr17/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/kjnnQ9pNNG9KSrkFvr/giphy.gif", "https://media.giphy.com/media/AiPYWiAqkgZlUve2ve/giphy.gif"],
                     "type": "Buff Attack",
                     "desc": "While active, you cannot go below 1 HP and whenever you use an Exceed attack, an additional attack appears",
                     "details": [
@@ -681,7 +682,7 @@
             {
                 "name": "Demonic Frenzy - 5th Job",
                 "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
-                "animations": ["https://media4.giphy.com/media/rSfx6cHXUYJTQi9A24/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/FHWtnSun6sL2Z6n162/giphy.gif"]
             },
             {
                 "name": "Demonic Blast - 5th Job",
@@ -691,7 +692,7 @@
             {
                 "name": "Dimensional Sword - 5th Job",
                 "icons": ["/class-icons/resistance/demon-avenger/dimensional-sword.png"],
-                "animations": ["https://media0.giphy.com/media/xaOKDtWZFUeXVALHLw/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/D6V4AHh4BhxhYMap6A/giphy.gif"]
             }
         ]
     },
