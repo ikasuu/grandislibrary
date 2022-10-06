@@ -48,12 +48,14 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/flora/adele/aether-forge.png' alt='Skill Aether Forge'/>(Toggle), <img src='/class-icons/flora/adele/aetherial-arms.png' alt='Skill Aetherial Arms'/>(Toggle), <img src='/class-icons/flora/adele/weave-infusion.png' alt='Skill Weave Infusion'/>, <img src='/class-icons/flora/adele/hero-of-the-flora.png' alt='Skill Hero of the Flora (Adele)'/>",
+            "active": "<img src='/class-icons/flora/adele/weave-infusion.png' alt='Skill Weave Infusion'/>, <img src='/class-icons/flora/adele/hero-of-the-flora.png' alt='Skill Hero of the Flora (Adele)'/>",
+            "toggles": "<img src='/class-icons/flora/adele/aether-forge.png' alt='Skill Aether Forge'/>, <img src='/class-icons/flora/adele/aetherial-arms.png' alt='Skill Aetherial Arms'/>",
             "summons": "<img src='/class-icons/flora/adele/hunting-decree.png' alt='Skill Hunting Decree'/>, <img src='/class-icons/flora/adele/reign-of-destruction.png' alt='Skill True Nobility'/>(30s cd), <img src='/class-icons/flora/adele/infinity-blade.png' alt='Skill Infinity Blade'/>(180s cd), <img src='/class-icons/flora/adele/storm.png' alt='Skill Storm'/>(90s cd)",
             "buffCd": "<img src='/class-icons/flora/adele/divine-wrath.png' alt='Skill Divine Wrath (Adele)'/>(120s cd), <img src='/class-icons/flora/adele/legacy-restoration.png' alt='Skill Legacy Restoration'/>(180s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/>(180s cd), <img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/>(240s cd), <img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/>(200s cd), <img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/>(240s cd)",
             "binds": "<img src='/class-icons/flora/adele/blade-torrent.png' alt='Skill Blade Torrent'/>(180s cd)",
-            "iFrame": "<img src='/class-icons/flora/adele/aether-guard.png' alt='Skill Aether Guard'/>(60s cd), <img src='/class-icons/flora/adele/infinity-blade.png' alt='Skill Infinite'/>(180s cd)"
+            "iFrame": "<img src='/class-icons/flora/adele/infinity-blade.png' alt='Skill Infinite'/>(180s cd)",
+            "damageReduce": "<img src='/class-icons/flora/adele/aether-guard.png' alt='Skill Aether Guard'/>(-40%/-95% | 60s cd)"
         },
         "linkSkill": {
             "id": 80002857,
@@ -502,10 +504,10 @@
                     "icons": ["/class-icons/flora/adele/aether-guard.png"],
                     "animations": ["https://media2.giphy.com/media/RsNUW30Yhczac2feSx/giphy.gif"],
                     "type": "Key-down Active",
-                    "desc": "An Aether Sword rotates around you, protecting you",
+                    "desc": "While held, damage taken including %Max HP attacks is reduced",
                     "details": [
-                        "While held, damage taken including %Max HP attacks is reduced",
-                        "If you press and the Skill Key the moment you are attacked, the damage is nullified and damage received is reduced even further while holding the Skill Key",
+                        "If you press the Skill Key the moment you are attacked, the damage taken is reduced even further while holding the Skill Key",
+                        "Can be used while using Trigger skills except for <img src='/class-icons/flora/adele/plummet.png' alt='Skill Plummet'/> Plummet (4th Job)",
                         "Cooldown is reduced based on the duration the skill was held",
                         "Unaffected by cooldown resets"
                     ]

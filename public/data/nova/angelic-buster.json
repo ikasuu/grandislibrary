@@ -46,11 +46,13 @@
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/>, <img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/>, <img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior (Angelic Buster)'/>, <img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/>(Toggle)",
+            "active": "<img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/>, <img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/>, <img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior (Angelic Buster)'/>",
+            "toggles": "<img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/>",
             "summons": "<img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/>(60s cd), <img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/>(120s cd), <img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/>(120s cd), <img src='/class-icons/nova/angelic-buster/mighty-mascot.png' alt='Skill Mighty Mascot'/>(120s cd)",
             "buffCd": "<img src='/class-icons/link-skills/terms-and-conditions.png' alt='Skill Terms and Conditions'/>(90s cd), <img src='/class-icons/nova/angelic-buster/pretty-exaltation.png' alt='Skill Pretty Exaltation'/>(120s cd), <img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/>(120s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/>(70 - 64s cd), <img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/>(240s cd), <img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/>(180s cd <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>)",
-            "iFrame": "<img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/>(60s cd), <img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death), <img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/>(120s cd)"
+            "iFrame": "<img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/>(60s cd), <img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>(1200s cd blocks 1 death), <img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/>(120s cd)",
+            "damageReduce": "<img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/>(-35% | 60s cd), <img src='/class-icons/nova/angelic-buster/trinity-fusion.png' alt='Skill Trinity Fusion'/>(-17% | 14s cd)"
         },
         "linkSkill": {
             "id": 80001155,
@@ -408,7 +410,7 @@
                     "details": [
                         "Upon casting, you are briefly invincible",
                         "At the end of the duration, unleash a massive explosion<ul><li>Based on how long the skill was held, the damage increases</li></ul>",
-                        "You take reduced damage while casting (including %Max HP attacks) and cannot be knocked back",
+                        "You take reduced damage while casting (including %Max HP attacks) and cannot be knocked back at all (Super Knockback Resistance)",
                         "Deals increased %Damage to bosses"
                     ]
                 },
@@ -644,7 +646,7 @@
                 },
                 {
                     "name": "Trinity Fusion",
-                    "shortDesc": "A dragon's enemy attacks 7 enemies, for 355% damage, 3 times. 9 attack(s) will occur in total.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of Max HP will sure a 17% damage penalty.\\nCooldown: 14 sec\\n[Passive Effect: DEX +35]",
+                    "shortDesc": "A dragon's enemy attacks 7 enemies, for 355% damage, 3 times. 9 attack(s) will occur in total.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of Max HP will suffer a -17% damage penalty.\\nCooldown: 14 sec\\n[Passive Effect: DEX +35]",
                     "id": 400021067,
                     "icons": ["/class-icons/nova/angelic-buster/trinity-fusion.png"],
                     "animations": ["https://media0.giphy.com/media/TGSafmzWKzRvBivmw9/giphy.gif"],
@@ -652,8 +654,8 @@
                     "desc": "Unleashes a powerful blast attack in front of you",
                     "details": [
                         "<strong>[Passive]</strong>: Grants flat DEX",
-                        "Can be activated by pressing the Down Arrow Key and <img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/> together",
-                        "While casting, you gain increased %Damage Reduction against %Max HP attacks"
+                        "Can be activated by pressing the Down Arrow Key and <img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/> together<ul><li>Can be used while casting <img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></li></ul>",
+                        "While casting, you gain increased %Damage Reduction against %Max HP attacks and cannot be knocked back at all (Super Knockback Resistance)"
                     ]
                 }
             ]

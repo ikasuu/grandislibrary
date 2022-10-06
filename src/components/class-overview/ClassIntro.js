@@ -242,11 +242,13 @@ function ClassDetail({content}) {
               <Table size="sm" borderless>
                 <tbody>
                   <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
-                  {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<tr><th><strong>Summons</strong>:</th><td>None</td></tr>}
+                  {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.toggles))}</StatTableData></tr>:<></>}
+                  {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<></>}
                   <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData></tr>
                   <tr><th><strong>5th Job Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</StatTableData></tr>
                   {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
                   {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
+                  {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.damageReduce))}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
                 </tbody>
               </Table>
             </BuffAndActivesWrapper>
