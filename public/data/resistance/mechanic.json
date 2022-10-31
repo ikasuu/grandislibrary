@@ -11,46 +11,29 @@
             {"weapon": ["gun"]},
             {"secondary": ["magnum"]}
         ],
-        "classType": [
-            "Mech-riding",
-            "Projectiles",
-            "Summon Utility"
-        ],
         "innerAbility": ["+1 Passive Skills", "Crit Rate +20%", "Boss Damage +10%"],
-        "prosCons": {
-            "pros": [
-                "Lots of utility and summons",
-                "You mount a mech and a tank to fight!",
-                "Heavy, hard-hitting artillery attacks"
-            ],
-            "cons": [
-                "You must constantly spam your <img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/> Homing Beacon missiles while attacking",
-                "Main mobbing attack <img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/> hits mostly horizontally",
-                "Must micromanage robots"
-            ]
-        },
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/> +10%] [<img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/> +20%] [<img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> +30% in tank form]",
-                "<strong>Crit Damage</strong>: [<img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/> +5%]",
-                "<strong>Damage</strong>: [<img src='/class-icons/resistance/mechanic/hidden-peace.png' alt='Skill Hidden Peace'/> +10%] [<img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/> up to +40%] [<img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> +10% in tank form]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/> +34%] [<img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> +10% while nearby]",
-                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/> +100% while mounted]",
+                "<strong>Crit Rate</strong>: [<span data-tooltip='Mechanic Mastery (2nd Job)'><img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/></span> +10%] [<span data-tooltip='Overclock (3rd Job)'><img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/></span> +20%] [<span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> +30% in tank form]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Mechanic Mastery (2nd Job)'><img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/></span> +5%]",
+                "<strong>Damage</strong>: [<span data-tooltip='Hidden Peace (Beginner Skill)'><img src='/class-icons/resistance/mechanic/hidden-peace.png' alt='Skill Hidden Peace'/></span> +10%] [<span data-tooltip='Robot Mastery (4th Job)'><img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/></span> up to +40%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Overclock (3rd Job)'><img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/></span> +34%] [<span data-tooltip='Enhanced Support Unit (4th Job)'><img src='/class-icons/resistance/mechanic/enhanced-support-unit.png' alt='Skill Support Unit H-EX'/> +10% while nearby]</span>",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Humanoid Mech (1st Job)'><img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/></span> +100% while mounted]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
-                "<strong>Ignore DEF</strong>: [<img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/> +30%] [<img src='/class-icons/resistance/mechanic/mechanized-defense-system.png' alt='Skill Mechanized Defense System'/> +15%] [<img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> +10% from debuff]",
-                "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> 40]",
-                "<strong>Summon Duration</strong>: [<img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/> +40%]"
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Overclock (3rd Job)'><img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/></span> +30%] [<span data-tooltip='Support Unit: H-EX (4th Job)'><img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/></span> +10% from debuff]",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Support Unit: H-EX (3rd Job)'><img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/></span> 40]",
+                "<strong>Summon Duration</strong>: [<span data-tooltip='Robot Mastery (4th Job)'><img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/></span> +40%]"
             ]
         ],
         "buffInfo": {
-            "active": "[ <img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/> / <img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/>(Mount) ], <img src='/class-icons/resistance/mechanic/mechanic-rage.png' alt='Skill Mechanic Rage'/>, <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/>",
-            "toggles": "<img src='/class-icons/resistance/mechanic/perfect-armor.png' alt='Skill Perfect Armor'/>",
-            "summons": "<img src='/class-icons/resistance/mechanic/open-portal-gx-9.png' alt='Skill Open Portal GX-9'/>, <img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/>, <img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/>, <img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock 'n Shock'/>(160s cd), <img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots 'n Tots'/>(60s cd), <img src='/class-icons/resistance/mechanic/distortion-bomb.png' alt='Skill Distortion Bomb'/>(8s cd), <img src='/class-icons/resistance/mechanic/doomsday-device.png' alt='Skill Doomsday Device'/>(200s cd), <img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/>(25s cd), <img src='/class-icons/resistance/mechanic/mecha-carrier.png' alt='Skill Mecha Carrier'/>(200s cd)",
-            "buffCd": "<img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>(500 - 180s cd), <img src='/class-icons/resistance/mechanic/full-spread.png' alt='Skill Full Spread'/>(100s cd), <img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/>(120s cd)",
-            "buffFifth": "<img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/>(70 - 64s cd), <img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/>(180s cd), <img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/>(180s cd <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>)",
-            "iFrame": "<img src='/class-icons/resistance/mechanic/full-metal-barrage.png' alt='Skill Full Metal Barrage'/>(200s cd)",
-            "damageReduce": "<img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/>(-50% | 30s)"
+            "active": "[ <span data-tooltip='Humanoid Mech (1st Job)'><img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/></span> / <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span>(Mount) ] <span data-tooltip='Mechanic Rage (2nd Job)'><img src='/class-icons/resistance/mechanic/mechanic-rage.png' alt='Skill Mechanic Rage'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
+            "toggles": "<span data-tooltip='Perfect Armor (2nd Job)'><img src='/class-icons/resistance/mechanic/perfect-armor.png' alt='Skill Perfect Armor'/></span>",
+            "summons": "<span data-tooltip='Open Portal: GX-9 (2nd Job)'><img src='/class-icons/resistance/mechanic/open-portal-gx-9.png' alt='Skill Open Portal GX-9'/></span> <span data-tooltip='Robo Launcher RM7 (2nd Job)'><img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/></span> <span data-tooltip='Support Unit: H-EX (3rd Job)'><img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/></span> <span data-tooltip='Rock &#39;n Shock (3rd Job)'><img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock &#39;n Shock'/></span>(160s cd) <span data-tooltip='Bots &#39;n Tots (4th Job)'><img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots &#39;n Tots'/></span>(60s cd) <span data-tooltip='Distortion Bomb (Hyper Skill)'><img src='/class-icons/resistance/mechanic/distortion-bomb.png' alt='Skill Distortion Bomb'/></span>(8s cd) <span data-tooltip='Doomsday Device (5th Job)'><img src='/class-icons/resistance/mechanic/doomsday-device.png' alt='Skill Doomsday Device'/></span>(200s cd) <span data-tooltip='Mecha Carrier (5th Job)'><img src='/class-icons/resistance/mechanic/mecha-carrier.png' alt='Skill Mecha Carrier'/></span>(200s cd) <span data-tooltip='Resistance Infantry (5th Job)'><img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/></span>(25s cd)",
+            "buffCd": "<span data-tooltip='Roll of the Dice (3rd Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>(180s cd) <span data-tooltip='Full Spread (Hyper Skill)'><img src='/class-icons/resistance/mechanic/full-spread.png' alt='Skill Full Spread'/></span>(100s cd) <span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>(120s cd)",
+            "buffFifth": "<span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>(70 - 64s cd) <span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)",
+            "iFrame": "<span data-tooltip='Full Metal Barrage (5th Job)'><img src='/class-icons/resistance/mechanic/full-metal-barrage.png' alt='Skill Full Metal Barrage'/></span>(200s cd)",
+            "damageReduce": "<span data-tooltip='Giant Robot SG-88 (4th Job)'><img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/></span>(-50% | 30s cd)"
         },
         "linkSkill": {
             "id": 80000329,
@@ -72,10 +55,10 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<img src='/class-icons/resistance/mechanic/rocket-booster.png' alt='Skill Rocket Booster'/> -> <img src='/class-icons/resistance/mechanic/me-07-drillhands.png' alt='Skill ME-07 Drillhands'/> -> <img src='/class-icons/resistance/mechanic/gatling-gun.png' alt='Skill Gatling Gun'/> -> <img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/>"],
-                ["2nd Job", "<img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/> -> <img src='/class-icons/resistance/mechanic/open-portal-gx-9.png' alt='Skill Open Portal GX-9'/> -> <img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Gun Mastery'/> -> <img src='/class-icons/resistance/mechanic/mechanic-rage.png' alt='Skill Mechanic Rage'/> -> <img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/> -> <img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/> -> <img src='/class-icons/resistance/mechanic/heavy-gatling-gun.png' alt='Skill Heavy Gatling Gun'/> -> <img src='/class-icons/resistance/mechanic/perfect-armor.png' alt='Skill Perfect Armor'/>"],
-                ["3rd Job", "<img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/> -> <img src='/class-icons/resistance/mechanic/mechanized-defense-system.png' alt='Skill Mechanized Defense System'/> -> <img src='/class-icons/resistance/mechanic/advanced-homing-beacon.png' alt='Skill Advanced Homing Beacon'/> -> <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/> -> <img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock 'n Shock'/> -> <img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> -> <img src='/class-icons/resistance/mechanic/heavy-salvo.png' alt='Skill Heavy Salvo'/> -> <img src='/class-icons/resistance/mechanic/punch-launcher.png' alt='Skill Punch Launcher'/>"],
-                ["4th Job", "<img src='/class-icons/resistance/mechanic/homing-beacon-research.png' alt='Skill Homing Beacon Research'/> -> <img src='/class-icons/common/double-down.png' alt='Skill Double Down'/> -> <img src='/class-icons/resistance/mechanic/extreme-mech.png' alt='Skill Extreme Mech'/> -> <img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/> -> <img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/> -> <img src='/class-icons/resistance/mechanic/mech-alloy-research.png' alt='Skill Mech Alloy Research'/> -> <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> -> <img src='/class-icons/resistance/mechanic/enhanced-support-unit.png' alt='Skill Enhanced Support Unit'/> -> <img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots '/> -> <img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/> -> <img src='/class-icons/common/heros-will.png' alt='Skill Hero'/>"]
+                ["1st Job", "<span data-tooltip='Rocket Booster'><img src='/class-icons/resistance/mechanic/rocket-booster.png' alt='Skill Rocket Booster'/></span> -> <span data-tooltip='ME-07 Drillhands'><img src='/class-icons/resistance/mechanic/me-07-drillhands.png' alt='Skill ME-07 Drillhands'/></span> -> <span data-tooltip='Gatling Gun'><img src='/class-icons/resistance/mechanic/gatling-gun.png' alt='Skill Gatling Gun'/></span> -> <span data-tooltip='Humanoid Mech'><img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/></span>"],
+                ["2nd Job", "<span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Open Portal: GX-9'><img src='/class-icons/resistance/mechanic/open-portal-gx-9.png' alt='Skill Open Portal GX-9'/></span> -> <span data-tooltip='Mechanic Mastery'><img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/></span> -> <span data-tooltip='Mechanic Rage'><img src='/class-icons/resistance/mechanic/mechanic-rage.png' alt='Skill Mechanic Rage'/></span> -> <span data-tooltip='Robo Launcher RM7'><img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/></span> -> <span data-tooltip='Homing Beacon'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> -> <span data-tooltip='Heavy Gatling Gun'><img src='/class-icons/resistance/mechanic/heavy-gatling-gun.png' alt='Skill Heavy Gatling Gun'/></span> -> <span data-tooltip='Perfect Armor'><img src='/class-icons/resistance/mechanic/perfect-armor.png' alt='Skill Perfect Armor'/></span>"],
+                ["3rd Job", "<span data-tooltip='Overclock'><img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/></span> -> <span data-tooltip='Mechanized Defense System'><img src='/class-icons/resistance/mechanic/mechanized-defense-system.png' alt='Skill Mechanized Defense System'/></span> -> <span data-tooltip='Advanced Homing Beacon'><img src='/class-icons/resistance/mechanic/advanced-homing-beacon.png' alt='Skill Advanced Homing Beacon'/></span> -> <span data-tooltip='Roll of the Dice'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span> -> <span data-tooltip='Rock &#39;n Shock'><img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock &#39;n Shock'/></span> -> <span data-tooltip='Support Unit: H-EX'><img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/></span> -> <span data-tooltip='Heavy Salvo'><img src='/class-icons/resistance/mechanic/heavy-salvo.png' alt='Skill Heavy Salvo'/></span> -> <span data-tooltip='Punch Launcher'><img src='/class-icons/resistance/mechanic/punch-launcher.png' alt='Skill Punch Launcher'/></span>"],
+                ["4th Job", "<span data-tooltip='Homing Beacon Research'><img src='/class-icons/resistance/mechanic/homing-beacon-research.png' alt='Skill Homing Beacon Research'/></span> -> <span data-tooltip='Double Down'><img src='/class-icons/common/double-down.png' alt='Skill Double Down'/></span> -> <span data-tooltip='Extreme Mech'><img src='/class-icons/resistance/mechanic/extreme-mech.png' alt='Skill Extreme Mech'/></span> -> <span data-tooltip='Robot Mastery'><img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/></span> -> <span data-tooltip='Heavy Salvo Plus'><img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/></span> -> <span data-tooltip='Mech Alloy Research'><img src='/class-icons/resistance/mechanic/mech-alloy-research.png' alt='Skill Mech Alloy Research'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Enhanced Support Unit'><img src='/class-icons/resistance/mechanic/enhanced-support-unit.png' alt='Skill Enhanced Support Unit'/></span> -> <span data-tooltip='Bots &#39;n Tots'><img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots '/></span> -> <span data-tooltip='Giant Robot SG-88'><img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
             ],
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -87,11 +70,10 @@
             "recommended": "<ul><li><img src='/class-icons/resistance/mechanic/rock-n-shock-reinforce.png' alt='Skill Rock 'n Shock - Reinforce'/> <img src='/class-icons/resistance/mechanic/rock-n-shock-cooldown-cutter.png' alt='Skill Rock 'n Shock - Cooldown Cutter'/> Rock 'n Shock - Persist and Cooldown Cutter</li><li><img src='/class-icons/resistance/mechanic/support-unit-h-ex-party-reinforce.png' alt='Skill Support Unit H-EX - Party Reinforce'/> Support Unit - H-EX - Party Reinforce</li><li><img src='/class-icons/resistance/mechanic/heavy-salvo-reinforce.png' alt='Skill Salvo - Reinforce'/> <img src='/class-icons/resistance/mechanic/ap-salvo-plus-extra-strike.png' alt='Skill AP Salvo Plus - Extra Strike'/> Salvo - Reinforce and Extra Strike</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/> <img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/> <img src='/class-icons/resistance/mechanic/distortion-bomb.png' alt='Skill Distortion Bomb'/> <img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/> <img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock 'n Shock'/> <img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots 'n Tots'/>",
-            "possible": "<img src='/class-icons/resistance/mechanic/me-07-drillhands.png' alt='Skill ME-07 Drillhands'/> <img src='/class-icons/resistance/mechanic/gatling-gun.png' alt='Skill Gatling Gun'/> <img src='/class-icons/resistance/mechanic/rocket-booster.png' alt='Skill Rocket Booster'/> <img src='/class-icons/resistance/mechanic/heavy-gatling-gun.png' alt='Skill Heavy Gatling Gun'/> <img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/> <img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/> <img src='/class-icons/resistance/mechanic/punch-launcher.png' alt='Skill Punch Launcher'/> <img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock 'n Shock'/> <img src='/class-icons/resistance/mechanic/heavy-salvo.png' alt='Skill Heavy Salvo'/> <img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> <img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/> <img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots 'n Tots'/> <img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/> <img src='/class-icons/resistance/mechanic/distortion-bomb.png' alt='Skill Distortion Bomb'/>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> <span data-tooltip='Heavy Salvo Plus and AP Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/></span> <span data-tooltip='Distortion Bomb (Hyper Skill)'><img src='/class-icons/resistance/mechanic/distortion-bomb.png' alt='Skill Distortion Bomb'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Robo Launcher RM7 (2nd Job)'><img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/></span> <span data-tooltip='Rock &#39;n Shock (3rd Job)'><img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock &#39;n Shock'/></span> <span data-tooltip='Bots &#39;n Tots (4th Job)'><img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots &#39;n Tots'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)</li></ul>",
+            "possible": "<span data-tooltip='ME-07 Drillhands (1st Job)'><img src='/class-icons/resistance/mechanic/me-07-drillhands.png' alt='Skill ME-07 Drillhands'/></span> <span data-tooltip='Gatling Gun (1st Job)'><img src='/class-icons/resistance/mechanic/gatling-gun.png' alt='Skill Gatling Gun'/></span> <span data-tooltip='Rocket Booster (1st Job)'><img src='/class-icons/resistance/mechanic/rocket-booster.png' alt='Skill Rocket Booster'/></span> <span data-tooltip='Heavy Gatling Gun (2nd Job)'><img src='/class-icons/resistance/mechanic/heavy-gatling-gun.png' alt='Skill Heavy Gatling Gun'/></span> <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> <span data-tooltip='Robo Launcher RM7 (2nd Job)'><img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/></span> <span data-tooltip='Punch Launcher (3rd Job)'><img src='/class-icons/resistance/mechanic/punch-launcher.png' alt='Skill Punch Launcher'/></span> <span data-tooltip='Rock &#39;n Shock (3rd Job)'><img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock &#39;n Shock'/></span> <span data-tooltip='Heavy Salvo and AP Salvo (3rd Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo.png' alt='Skill Heavy Salvo'/></span> <span data-tooltip='Support Unit: H-EX (3rd Job)'><img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/></span> <span data-tooltip='Giant Robot SG-88 (4th Job)'><img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/></span> <span data-tooltip='Bots &#39;n Tots (4th Job)'><img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots 'n Tots'/></span> <span data-tooltip='Heavy Salvo Plus and AP Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/></span> <span data-tooltip='Distortion Bomb (Hyper Skill)'><img src='/class-icons/resistance/mechanic/distortion-bomb.png' alt='Skill Distortion Bomb'/></span>"
         },
         "moreInfo": [
-            "http://maplestory.nexon.net/game/classes-and-jobs/3393/mechanic",
             "https://maplestory.fandom.com/wiki/Mechanic"
         ],
         "specialThanks": "Special thanks to Gboy and fuegobagel for their help in making this overview!",
@@ -104,7 +86,7 @@
         ],
         "extraContent": {
             "title": "Robot Mastery",
-            "content": "<p>Based on the number of summoned robots that are out, <img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/> Robot Mastery provides a stacking %Damage buff. Below is a list of skills that trigger and stack Robot Mastery</p><ul><li><img src='/class-icons/resistance/mechanic/open-portal-gx-9.png' alt='Skill Open Portal GX-9'/> Open Portal: GX-9 <strong>(2nd Job)</strong></li><li><img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/> Robo Launcher RM7 <strong>(2nd Job)</strong></li><li><img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> Support Unit: H-EX <strong>(3rd Job)</strong></li><li><img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock 'n Shock'/> Rock 'n Shock <strong>(3rd Job)</strong></li><li><img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/> Giant Robot SG-88 <strong>(4th Job)</strong></li><li><img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots 'n Tots'/> Bots 'n Tots <strong>(4th Job)</strong></li><li><img src='/class-icons/resistance/mechanic/doomsday-device.png' alt='Skill Doomsday Device'/> Doomsday Device <strong>(5th Job)</strong></li><li><img src='/class-icons/resistance/mechanic/mecha-carrier.png' alt='Mecha Carrier'/> Mecha Carrier <strong>(5th Job)</strong></li></ul>"
+            "content": "<p>Based on the number of summoned robots that are out, <img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/> Robot Mastery (4th Job) provides a stacking %Damage buff. Below is a list of skills that trigger and stack Robot Mastery</p><ul><li><img src='/class-icons/resistance/mechanic/open-portal-gx-9.png' alt='Skill Open Portal GX-9'/> Open Portal: GX-9 <strong>(2nd Job)</strong></li><li><img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/> Robo Launcher RM7 <strong>(2nd Job)</strong></li><li><img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/> Support Unit: H-EX <strong>(3rd Job)</strong></li><li><img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock 'n Shock'/> Rock 'n Shock <strong>(3rd Job)</strong></li><li><img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/> Giant Robot SG-88 <strong>(4th Job)</strong></li><li><img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots 'n Tots'/> Bots 'n Tots <strong>(4th Job)</strong></li><li><img src='/class-icons/resistance/mechanic/doomsday-device.png' alt='Skill Doomsday Device'/> Doomsday Device <strong>(5th Job)</strong></li><li><img src='/class-icons/resistance/mechanic/mecha-carrier.png' alt='Mecha Carrier'/> Mecha Carrier <strong>(5th Job)</strong></li></ul>"
         }
     },
     "skill": {
@@ -150,7 +132,7 @@
                 {
                     "id": 30001068,
                     "name": "Jet Booster",
-                    "shortDesc": "Booster Max: 100, All Skill Activation MP Cost: 8\\nDouble Acceleration: While in the air, press the jump or skill key to perform a mid-air jump. Use with the up arrow key to jump upward. Consumes 25 of the booster. Can be used even when not mounted on the Mech, in which case it does not consume any of the booster.\\nBooster Deployment: CWhile in the air, press the Down key, together with the jump or skill key, to hover in the air at a cost of 25 of the booster per sec.\\nMechanic Dash: Press Left twice, Right twice, or, if on the ground, Left/Right plus the skill key to dash in a straight line. If used in the air, consumes 25 of the booster. Cooldown: 0.3 sec.",
+                    "shortDesc": "Booster Max: 100, All Skill Activation MP Cost: 8\\nDouble Acceleration: While in the air, press the jump or skill key to perform a mid-air jump. Use with the up arrow key to jump upward. Consumes 25 of the booster. Can be used even when not mounted on the Mech, in which case it does not consume any of the booster.\\nBooster Deployment: While in the air, press the Down key, together with the jump or skill key, to hover in the air at a cost of 25 of the booster per sec.\\nMechanic Dash: Press Left twice, Right twice, or, if on the ground, Left/Right plus the skill key to dash in a straight line. If used in the air, consumes 25 of the booster. Cooldown: 0.3 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/mechanic/jet-booster.png"],
                     "animations": ["https://media2.giphy.com/media/daNgACMllVbRVYSSci/giphy.gif"],
@@ -246,7 +228,7 @@
                         "type": "Attack",
                         "desc": "Launches a homing missile that explodes dealing damage to nearby enemies",
                         "details": [
-                            "Prioritizes bosses with the highest HP first while in <img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> Tank Mech (3rd Job)",
+                            "Prioritizes bosses with the highest HP first while in <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> Tank Mode (3rd Job)",
                             "Unaffected by Damage Reflect",
                             "Right-clicking the skill toggles the smoke visual effect ON/OFF"
                         ]
@@ -331,7 +313,7 @@
                         "type": "Active Mount",
                         "desc": "Mount onto your Tank Mech",
                         "details": [
-                            "<img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/> fires additional missiles at each enemy instead of one but deals reduced %Final Damage",
+                            "<span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> fires additional missiles at each enemy instead of one but deals reduced %Final Damage",
                             "While in Tank Mech, you gain increased %Crit Rate"
                         ]
                     },
@@ -345,8 +327,8 @@
                         "type": "Attack",
                         "desc": "Fires a barrage of bullets forward",
                         "details": [
-                            "Usable only in <img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/> Humanoid Mode",
-                            "Shares the same SP and Key Slot as <img src='/class-icons/resistance/mechanic/ap-salvo.png' alt='Skill AP Salvo'/>"
+                            "Usable only in <span data-tooltip='Humanoid Mech (1st Job)'><img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/></span> Humanoid Mode",
+                            "Shares the same SP and Key Slot as <span data-tooltip='AP Salvo (3rd Job)'><img src='/class-icons/resistance/mechanic/ap-salvo.png' alt='Skill AP Salvo'/></span>"
                         ]
                     },
                     {
@@ -359,8 +341,8 @@
                         "type": "Attack",
                         "desc": "Fires a concentrated bullet that hits one enemy",
                         "details": [
-                            "Usable only in <img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> Tank Mode",
-                            "Shares the same SP and Key Slot as <img src='/class-icons/resistance/mechanic/ap-salvo.png' alt='Skill AP Salvo'/>",
+                            "Usable only in <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> Tank Mode",
+                            "Shares the same SP and Key Slot as <span data-tooltip='Heavy Salvo (3rd Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo.png' alt='Skill AP Salvo'/></span>",
                             "Prioritizes bosses with the highest HP first"
                         ]
                     },
@@ -407,7 +389,7 @@
                         "type": "Buff",
                         "desc": "Grants a buff depending on the number rolled",
                         "details": [
-                            "<strong>[One]:</strong> Reduces cooldown of <img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/>",
+                            "<strong>[One]:</strong> Reduces cooldown of <span data-tooltip='Roll of the Die (3rd Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>",
                             "<strong>[Two]</strong>: Increases %DEF",
                             "<strong>[Three]</strong>: Increases %Max HP/MP",
                             "<strong>[Four]</strong>: Increases %Crit Rate",
@@ -470,8 +452,8 @@
                     "type": "Attack",
                     "desc": "Fires an explosive blast forward",
                     "details": [
-                        "Usable only in <img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/> Humanoid Mode",
-                        "Shares the same Skill Points (SP) and Key Slot as <img src='/class-icons/resistance/mechanic/ap-salvo-plus.png' alt='Skill AP Salvo Plus'/>"
+                        "Usable only in <span data-tooltip='Humanoid Mech (1st Job)'><img src='/class-icons/resistance/mechanic/humanoid-mech.png' alt='Skill Humanoid Mech'/></span> Humanoid Mode",
+                        "Shares the same Skill Points (SP) and Key Slot as <span data-tooltip='AP Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/ap-salvo-plus.png' alt='Skill AP Salvo Plus'/></span>"
                     ]  
                 },
                 {
@@ -484,8 +466,8 @@
                     "type": "Attack",
                     "desc": "Fire an explosive bullet that hits one enemy",
                     "details": [
-                        "Usable only in <img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> Tank Mode",
-                        "Shares the same Skill Points (SP) and Key Slot as <img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/>",
+                        "Usable only in <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> Tank Mode",
+                        "Shares the same Skill Points (SP) and Key Slot as <span data-tooltip='Heavy Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/></span>",
                         "Upon hitting an enemy, the bullet explodes damaging nearby enemies",
                         "Prioritizes bosses with the highest HP first"
                     ]  
@@ -559,7 +541,7 @@
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases the number of <img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/> homing missiles fired"
+                        "Increases the number of <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> homing missiles fired"
                     ]
                 },
                 {
@@ -674,7 +656,7 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/mechanic/heavy-salvo-reinforce.png"],
                     "type": "Passive",
-                    "desc": "Increases the %Damage of <img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/> and <img src='/class-icons/resistance/mechanic/ap-salvo-plus.png' alt='Skill AP Salvo Plus'/>",
+                    "desc": "Increases the %Damage of <span data-tooltip='Heavy Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/></span> and <span data-tooltip='AP Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/ap-salvo-plus.png' alt='Skill AP Salvo Plus'/></span>",
                     "reqLev": 150
                 },
                 {
@@ -684,7 +666,7 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/mechanic/heavy-salvo-plus-spread.png"],
                     "type": "Passive",
-                    "desc": "Increases the number of enemies hit by <img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/>",
+                    "desc": "Increases the number of enemies hit by <span data-tooltip='Heavy Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/></span>",
                     "reqLev": 165
                 },
                 {
@@ -694,7 +676,7 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/mechanic/ap-salvo-plus-extra-strike.png"],
                     "type": "Passive",
-                    "desc": "Increases the number of hits per attack of <img src='/class-icons/resistance/mechanic/ap-salvo-plus.png' alt='Skill AP Salvo Plus'/>",
+                    "desc": "Increases the number of hits per attack of <span data-tooltip='AP Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/ap-salvo-plus.png' alt='Skill AP Salvo Plus'/></span>",
                     "reqLev": 190
                 }
             ],
@@ -707,9 +689,9 @@
                     "icons": ["/class-icons/resistance/mechanic/full-spread.png"],
                     "animations": ["https://media0.giphy.com/media/JTJ9Rqr4173kldWdc6/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Increases the number of homing missiles fired from <img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/>",
+                    "desc": "Increases the number of homing missiles fired from <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span>",
                     "details": [
-                        "Deals reduced %Damage similar to <img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/> but damage reduction does not stack"
+                        "Deals reduced %Damage similar to <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> but damage reduction does not stack"
                     ],
                     "reqLev": 140
                 },
@@ -773,7 +755,7 @@
                     "desc": "Unleashes a gigantic mech that fires and bursts down enemies in front of you",
                     "details": [
                         "You are invincible while casting but you cannot move or change directions",
-                        "Can fire <img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/> while casting<ul><li>Fires additional homing missiles while active</li><li>Multi-target will not have any %Final Damage reduction</li><li>You cannot use <img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/> for a short period after casting this skill</li></ul>"
+                        "Can fire <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> while casting<ul><li>Fires additional homing missiles while active</li><li>Multi-target will not have any %Final Damage reduction</li><li>You cannot use <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> for a short period after casting this skill</li></ul>"
                     ]
                 },
                 {

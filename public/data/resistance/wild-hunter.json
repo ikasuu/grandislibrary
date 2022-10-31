@@ -12,48 +12,29 @@
             {"secondary": ["arrowhead"]},
             {"ammo": "arrowC"}
         ],
-        "classType": [
-            "Party Buff - Crit Rate + Crit Damage",
-            "Jaguar-riding",
-            "Micro-management"
-        ],
         "innerAbility": ["Boss Damage +20%", "Crit Rate +10%", "Chance to Skip Cooldown +10%"],
-        "prosCons": {
-            "pros": [
-                "Unique mechanic of mounting a Jaguar that you can ride and attack on",
-                "Lots of %Damage Reduction passives and %Max HP buffs",
-                "Has summons that attack for you and 5th Job makes you a cat lady",
-                "Has very good party buffs with <img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/> Call of the Wild and <img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> Sharp Eyes",
-                "Has a bind with <img src='/class-icons/resistance/wild-hunter/jaguar-soul.png' alt='Skill Jaguar Soul'/> Jaguar Soul"
-            ],
-            "cons": [
-                "Micromanagement with controlling Jaguar when unmounted",
-                "Occasionally has lots of buttons to press and manage",
-                "Certain skills have long cooldowns"
-            ]
-        },
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/resistance/wild-hunter/flurry.png' alt='Skill Flurry'/> Flurry buff, and buffs with long cooldowns",
             [
-                "<strong>Attack</strong>: [<img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/> +10%] [<img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/> +20%]",
-                "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/wild-hunter/natures-wrath.png' alt='Skill Natures Wrath'/> +25%] [<img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> +20%] [<img src='/class-icons/resistance/wild-hunter/crossbow-expert.png' alt='Skill Crossbow Expert'/> +20%] [<img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/> up to +18%]",
-                "<strong>Crit Damage</strong>: [<img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> +15%] [<img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/> up to +12%] [<img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/> +8% while unmounted]",
-                "<strong>Damage</strong>: [<img src='/class-icons/resistance/wild-hunter/crossbow-mastery.png' alt='Skill Crossbow Mastery'/> +10%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/> +10%] [<img src='/class-icons/resistance/wild-hunter/extended-magazine.png' alt='Skill Extended Magazine'/> +20%]",
-                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/wild-hunter/jaguar-mastery.png' alt='Skill Jaguar Mastery'/> +50%] [<img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/> +50%] [<img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/> +50% while mounted]",
+                "<strong>Attack</strong>: [<span data-tooltip='Call of the Wild (2nd Job)'><img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/></span> +10%] [<span data-tooltip='Feline Berserk (3rd Job)'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span> +20%]",
+                "<strong>Crit Rate</strong>: [<span data-tooltip='Nature&#39;s Wrath (1st Job)'><img src='/class-icons/resistance/wild-hunter/natures-wrath.png' alt='Skill Natures Wrath'/></span> +25%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +20%] [<span data-tooltip='Jaguar Link (3rd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/></span> up to +18%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%] [<span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/resistance/wild-hunter/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +20%] [<span data-tooltip='Jaguar Link (3rd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/></span> up to +12%] [<span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> +8% while unmounted]",
+                "<strong>Damage</strong>: [<span data-tooltip='Crossbow Mastery (2nd Job)'><img src='/class-icons/resistance/wild-hunter/crossbow-mastery.png' alt='Skill Crossbow Mastery'/></span> +10%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Feline Berserk (3rd Job)'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span> +10%] [<span data-tooltip='Extended Magazine (4th Job)'><img src='/class-icons/resistance/wild-hunter/extended-magazine.png' alt='Skill Extended Magazine'/></span> +20%]",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Jaguar Mastery (2nd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-mastery.png' alt='Skill Jaguar Mastery'/></span> +50%] [<span data-tooltip='Natural Force (4th Job)'><img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/></span> +50%] [<span data-tooltip='Jaguar Rider (1st Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/></span> +50% while mounted]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
-                "<strong>Ignore DEF</strong>: [<img src='/class-icons/resistance/wild-hunter/wild-instinct.png' alt='Skill Wild Instinct'/> +30%]",
-                "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/> 15] [<img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/> 30 while unmounted]"
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Wild Instinct (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-instinct.png' alt='Skill Wild Instinct'/></span> +30%]",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Natural Force (4th Job)'><img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/></span> 15] [<span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> 30 while unmounted]"
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/>(Mount), <img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/>, <img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/>, <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/>",
-            "toggles": "<img src='/class-icons/resistance/wild-hunter/backstep.png' alt='Skill Backstep'/>",
-            "summons": "<img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/>(8s cd),<img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/>(30s cd), <img src='/class-icons/resistance/wild-hunter/jaguar-storm.png' alt='Skill Jaguar Storm'/>(149 - 120s cd)",
-            "buffCd": "<img src='/class-icons/resistance/wild-hunter/silent-rampage.png' alt='Skill Silent Rampage'/>(120s cd), <img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/>(120s cd)",
-            "buffFifth": "<img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/>(180s cd), <img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/>(120s cd)",
-            "binds": "<img src='/class-icons/resistance/wild-hunter/jaguar-soul.png' alt='Skill Jaguar Soul'/>(210s cd)",
-            "iFrame": "<img src='/class-icons/resistance/wild-hunter/primal-fury.png' alt='Skill Primal Fury'/>(120s cd)"
+            "active": "<span data-tooltip='Jaguar Rider (1st Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/></span>(Mount) <span data-tooltip='Call of the Wild (2nd Job)'><img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/></span> <span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
+            "toggles": "<span data-tooltip='Backstep (3rd Job)'><img src='/class-icons/resistance/wild-hunter/backstep.png' alt='Skill Backstep'/></span>",
+            "summons": "<span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span>(Unmounted) <span data-tooltip='Hunting Assistant Unit (3rd Job)'><img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/></span>(8s cd) <span data-tooltip='Drill Salvo (4th Job)'><img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/></span>(30s cd) <span data-tooltip='Jaguar Storm (5th Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-storm.png' alt='Skill Jaguar Storm'/></span>(149 - 120s cd) <span data-tooltip='Resistance Infantry (5th Job)'><img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/></span>(25s cd) <span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)",
+            "buffCd": "<span data-tooltip='Silent Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/silent-rampage.png' alt='Skill Silent Rampage'/></span>(120s cd) <span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>(120s cd)",
+            "buffFifth": "<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>(120s cd)",
+            "binds": "<span data-tooltip='Jaguar Soul (4th Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-soul.png' alt='Skill Jaguar Soul'/></span>(210s cd)",
+            "iFrame": "<span data-tooltip='Primal Fury (5th Job)'><img src='/class-icons/resistance/wild-hunter/primal-fury.png' alt='Skill Primal Fury'/></span>(120s cd)"
         },
         "linkSkill": {
             "id": 80000329,
@@ -75,10 +56,10 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<img src='/class-icons/resistance/wild-hunter/double-jump.png' alt='Skill Double Jump (Wild Hunter)'/> -> <img src='/class-icons/resistance/wild-hunter/resistance-auto-crank.png' alt='Skill Resistance Auto Crank'/> -> <img src='/class-icons/resistance/wild-hunter/natures-wrath.png' alt='Skill Nature's Wrath'/> -> <img src='/class-icons/resistance/wild-hunter/double-shot.png' alt='Skill Double Shot (Wild Hunter)'/>"],
-                ["2nd Job", "<img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/> -> <img src='/class-icons/resistance/wild-hunter/jaguar-mastery.png' alt='Skill Jaguar Mastery'/> -> <img src='/class-icons/resistance/wild-hunter/crossbow-mastery.png' alt='Skill Crossbow Mastery'/> -> <img src='/class-icons/resistance/wild-hunter/crossbow-acceleration.png' alt='Skill Crossbow Booster'/> -> <img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/> -> <img src='/class-icons/resistance/wild-hunter/soul-arrow.png' alt='Skill Soul Arrow Crossbow'/> -> <img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/> -> <img src='/class-icons/resistance/wild-hunter/triple-shot.png' alt='Skill Triple Shot'/>"],
-                ["3rd Job", "<img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/> -> <img src='/class-icons/resistance/wild-hunter/backstep.png' alt='Skill Backstep'/> -> <img src='/class-icons/resistance/wild-hunter/flurry.png' alt='Skill Flurry'/> -> <img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/> -> <img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/> -> <img src='/class-icons/resistance/wild-hunter/enduring-fire.png' alt='Skill Enduring Fire'/> -> <img src='/class-icons/resistance/wild-hunter/white-heat-rush.png' alt='Skill White Heat Rush'/>"],
-                ["4th Job", "<img src='/class-icons/resistance/wild-hunter/wild-instinct.png' alt='Skill Wild Instinct'/> -> <img src='/class-icons/resistance/wild-hunter/extended-magazine.png' alt='Skill Extended Magazine'/> -> <img src='/class-icons/resistance/wild-hunter/crossbow-expert.png' alt='Skill Crossbow Expert'/> -> <img src='/class-icons/resistance/wild-hunter/advanced-final-attack.png' alt='Skill Advanced Final Attack (Wild Hunter)'/> -> <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> -> <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> -> <img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/> -> <img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/> -> <img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/> -> <img src='/class-icons/common/heros-will.png' alt='Skill Hero'/>"]
+                ["1st Job", "<span data-tooltip='Double Jump'><img src='/class-icons/resistance/wild-hunter/double-jump.png' alt='Skill Double Jump'/></span> -> <span data-tooltip='Resistance Auto Crank'><img src='/class-icons/resistance/wild-hunter/resistance-auto-crank.png' alt='Skill Resistance Auto Crank'/></span> -> <span data-tooltip='Nature&#39;s Wrath'><img src='/class-icons/resistance/wild-hunter/natures-wrath.png' alt='Skill Nature&#39;s Wrath'/></span> -> <span data-tooltip='Double Shot'><img src='/class-icons/resistance/wild-hunter/double-shot.png' alt='Skill Double Shot'/></span>"],
+                ["2nd Job", "<span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Jaguar Mastery'><img src='/class-icons/resistance/wild-hunter/jaguar-mastery.png' alt='Skill Jaguar Mastery'/></span> -> <span data-tooltip='Crossbow Mastery'><img src='/class-icons/resistance/wild-hunter/crossbow-mastery.png' alt='Skill Crossbow Mastery'/></span> -> <span data-tooltip='Crossbow Acceleration'><img src='/class-icons/resistance/wild-hunter/crossbow-acceleration.png' alt='Skill Crossbow Acceleration'/></span> -> <span data-tooltip='Call of the Wild'><img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/></span> -> <span data-tooltip='Soul Arrow: Crossbow'><img src='/class-icons/resistance/wild-hunter/soul-arrow.png' alt='Skill Soul Arrow Crossbow'/></span> -> <span data-tooltip='Final Attack'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> -> <span data-tooltip='Triple Shot'><img src='/class-icons/resistance/wild-hunter/triple-shot.png' alt='Skill Triple Shot'/></span>"],
+                ["3rd Job", "<span data-tooltip='Jaguar Link'><img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/></span> -> <span data-tooltip='Backstep'><img src='/class-icons/resistance/wild-hunter/backstep.png' alt='Skill Backstep'/></span> -> <span data-tooltip='Flurry'><img src='/class-icons/resistance/wild-hunter/flurry.png' alt='Skill Flurry'/></span> -> <span data-tooltip='Feline Berserk'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span> -> <span data-tooltip='Hunting Assistant Unit'><img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/></span> -> <span data-tooltip='Enduring Fire'><img src='/class-icons/resistance/wild-hunter/enduring-fire.png' alt='Skill Enduring Fire'/></span> -> <span data-tooltip='White Heat Rush'><img src='/class-icons/resistance/wild-hunter/white-heat-rush.png' alt='Skill White Heat Rush'/></span>"],
+                ["4th Job", "<span data-tooltip='Wild Instinct'><img src='/class-icons/resistance/wild-hunter/wild-instinct.png' alt='Skill Wild Instinct'/></span> -> <span data-tooltip='Extended Magazine'><img src='/class-icons/resistance/wild-hunter/extended-magazine.png' alt='Skill Extended Magazine'/></span> -> <span data-tooltip='Crossbow Expert'><img src='/class-icons/resistance/wild-hunter/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> -> <span data-tooltip='Advanced Final Attack'><img src='/class-icons/resistance/wild-hunter/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> -> <span data-tooltip='Wild Arrow Blast'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Sharp Eyes'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> -> <span data-tooltip='Natural Force'><img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/></span> -> <span data-tooltip='Drill Salvo'><img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
             ],
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -90,13 +71,11 @@
             "recommended": "<ul><li><img src='/class-icons/resistance/wild-hunter/feline-berserk-reinforce.png' alt='Skill Feline Berserk - Reinforce'/> Feline Berserk - Reinforce</li><li><img src='/class-icons/resistance/wild-hunter/summon-jaguar-enhance.png' alt='Skill Summon Jaguar - Enhance'/> <img src='/class-icons/resistance/wild-hunter/summon-jaguar-reinforce.png' alt='Skill Summon Jaguar - Reinforce'/> <img src='/class-icons/resistance/wild-hunter/summon-jaguar-cooldown-cutter.png' alt='Skill Summon Jaguar - Cooldown Cutter'/> Summon Jaguar - Enhance, Reinforce and Cooldown Cutter</li><li><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-reinforce.png' alt='Skill Wild Arrow Blast - Reinforce'/> Wild Arrow Blast - Reinforce</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> <img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/> <img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/> <img src='/class-icons/resistance/wild-hunter/exploding-arrows.png' alt='Skill Exploding Arrows'/> <img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/> <img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/> <img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/> <img src='/class-icons/resistance/wild-hunter/white-heat-rush.png' alt='Skill White Heat Rush'/> <img src='/class-icons/resistance/wild-hunter/sonic-roar.png' alt='Skill Sonic Roar'/>",
-            "possible": "<img src='/class-icons/resistance/wild-hunter/double-shot.png' alt='Skill Double Shot (Wild Hunter)'/> <img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/> <img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/> <img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/> <img src='/class-icons/resistance/wild-hunter/dash-n-slash.png' alt='Skill Dash 'n Slash'/> <img src='/class-icons/resistance/wild-hunter/white-heat-rush.png' alt='Skill White Heat Rush'/> <img src='/class-icons/resistance/wild-hunter/enduring-fire.png' alt='Skill Enduring Fire'/> <img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/> <img src='/class-icons/resistance/wild-hunter/sonic-roar.png' alt='Skill Sonic Roar'/> <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> <img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/> <img src='/class-icons/resistance/wild-hunter/exploding-arrows.png' alt='Skill Exploding Arrows'/>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Wild Arrow Blast and Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span> <span data-tooltip='Summon Jaguar and Another Bite (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Exploding Arrows and Jaguar Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/exploding-arrows.png' alt='Skill Exploding Arrows'/></span> <span data-tooltip='Sonic Roar and Jaguar Soul (3rd Job / 4th Job)'><img src='/class-icons/resistance/wild-hunter/sonic-roar.png' alt='Skill Sonic Roar'/></span> <span data-tooltip='Hunting Assistant Unit (3rd Job)'><img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/></span></div><h6>Tertiary Trio</h6><div><span data-tooltip='Dash &#39;n Slash and White Heat Rush (2nd Job / 3rd Job)'><img src='/class-icons/resistance/wild-hunter/dash-n-slash.png' alt='Skill Dash &#39;n Slash'/></span> <span data-tooltip='Swipe (1st Job)'><img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/></span> <span data-tooltip='Drill Salvo (4th Job)'><img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first and so on</li><li>6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)</li></ul>",
+            "possible": "<span data-tooltip='Double Shot, Triple Shot, and Enduring Fire (1st Job / 2nd Job / 3rd Job)'><img src='/class-icons/resistance/wild-hunter/double-shot.png' alt='Skill Double Shot'/></span> <span data-tooltip='Summon Jaguar and Another Bite (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> <span data-tooltip='Swipe (1st Job)'><img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Dash &#39;n Slash and White Heat Rush (2nd Job / 3rd Job)'><img src='/class-icons/resistance/wild-hunter/dash-n-slash.png' alt='Skill Dash &#39;n Slash'/></span> <span data-tooltip='Hunting Assistant Unit (3rd Job)'><img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/></span> <span data-tooltip='Sonic Roar and Jaguar Soul (3rd Job / 4th Job)'><img src='/class-icons/resistance/wild-hunter/sonic-roar.png' alt='Skill Sonic Roar'/></span> <span data-tooltip='Wild Arrow Blast and Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span> <span data-tooltip='Drill Salvo (4th Job)'><img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/></span> <span data-tooltip='Exploding Arrows and Jaguar Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/exploding-arrows.png' alt='Skill Exploding Arrows'/></span>"
         },
         "moreInfo": [
-            "http://maplestory.nexon.net/game/classes-and-jobs/3155/wild-hunter",
-            "https://maplestory.fandom.com/wiki/Wild_Hunter",
-            "https://dexless.com/guides/wild-hunter-jaguar-caretaker.124/"
+            "https://maplestory.fandom.com/wiki/Wild_Hunter"
         ],
         "credits": [
             ["Skill Icons", "MapleWiki"],
@@ -217,7 +196,7 @@
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing jump twice",
                             "Can be used twice in a row",
-                            "Shares the same Skill Points (SP) and Key Slot with <img src='/class-icons/resistance/wild-hunter/double-jump.png' alt='Skill Double Jump'/> Double Jump"
+                            "Shares the same Skill Points (SP) and Key Slot with <span data-tooltip='Double Jump (1st Job)'><img src='/class-icons/resistance/wild-hunter/double-jump.png' alt='Skill Double Jump'/></span>"
                         ]
                     },
                     {
@@ -491,7 +470,7 @@
                     {
                         "id": 33110008,
                         "name": "Flurry",
-                        "shortDesc": "Dexterity: + 40, Dodge Chance: 40%, all attacks following a successful dodge for 1 sec will be criticals.",
+                        "shortDesc": "Dexterity: +40, Dodge Chance: 40%, all attacks following a successful dodge for 1 sec will be criticals.",
                         "maxLevel": 19,
                         "icons": ["/class-icons/resistance/wild-hunter/flurry.png"],
                         "type": "Passive",
@@ -550,9 +529,9 @@
                     "type": "Mounted | Key-down Attack",
                     "desc": "Continuously fires arrows and Jaguar artillery that pierce and hit multiple enemies but has reduced damage and range",
                     "details": [
-                        "Can move, jump, and use <img src='/class-icons/resistance/wild-hunter/graviboots.png' alt='Skill Graviboots'/> while casting",
+                        "Can move, jump, and use <span data-tooltip='Graviboots (1st Job)'><img src='/class-icons/resistance/wild-hunter/graviboots.png' alt='Skill Graviboots'/></span> while casting",
                         "If the attack hits an enemy, a grenade will be fired towards enemies that were not initially hit",
-                        "Right-clicking the skill will change the skill to Wild Arrow Blast Type P that is only usable while mounted"
+                        "Right-clicking the skill will change the skill to <span data-tooltip='Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/></span> that is only usable while mounted"
                     ]
                 },
                 {
@@ -566,7 +545,7 @@
                     "desc": "Fires an explosive blast forward",
                     "details": [
                         "Deals increased %Damage to regular monsters",
-                        "Right-clicking the skill will change the skill back to Wild Arrow Blast"
+                        "Right-clicking the skill will change the skill back to <span data-tooltip='Wild Arrow Blast (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span>"
                     ]
                 },
                 {
@@ -589,7 +568,7 @@
                     "type": "Summon",
                     "desc": "Summons a turret that launches drill attacks",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> and <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/> %Damage against regular monsters while mounted on Jaguar"
+                        "<strong>[Passive]</strong>: Permanently increases <span data-tooltip='Wild Arrow Blast (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span> and <span data-tooltip='Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/></span> %Damage against regular monsters while mounted on Jaguar"
                     ]
                 },
                 {
@@ -737,7 +716,7 @@
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Damage of <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> and <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/>"
+                        "Increases %Damage of <span data-tooltip='Wild Arrow Blast (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span> and <span data-tooltip='Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/></span>"
                     ],
                     "reqLev": 150
                 },
@@ -750,7 +729,7 @@
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Ignore DEF of <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> and <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/>"
+                        "Increases %Ignore DEF of <span data-tooltip='Wild Arrow Blast (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span> and <span data-tooltip='Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/></span>"
                     ],
                     "reqLev": 165
                 },
@@ -763,7 +742,7 @@
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Boss Damage of <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> and <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/>"
+                        "Increases %Boss Damage of <span data-tooltip='Wild Arrow Blast (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span> and <span data-tooltip='Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/></span>"
                     ],
                     "reqLev": 190
                 }
@@ -789,7 +768,7 @@
                     "type": "Mounted | Attack",
                     "desc": "Create a large area attack that deals damage to multiple enemies",
                     "details": [
-                        "Shares cooldown with <img src='/class-icons/resistance/wild-hunter/jaguar-rampage.png' alt='Skill Jaguar Rampage'/> Jaguar Rampage"
+                        "Shares cooldown with <span data-tooltip='Jaguar Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/jaguar-rampage.png' alt='Skill Jaguar Rampage'/></span>"
                     ],
                     "reqLev": 160
                 },
@@ -803,7 +782,7 @@
                     "type": "Jaguar | Attack",
                     "desc": "Jaguar dashes forward dealing damage and applying a stack of 'Another Bite'",
                     "details": [
-                        "Shares a cooldown with <img src='/class-icons/resistance/wild-hunter/exploding-arrows.png' alt='Skill Exploding Arrows'/> Exploding Arrows",
+                        "Shares a cooldown with <span data-tooltip='Exploding Arrows (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/exploding-arrows.png' alt='Skill Exploding Arrows'/></span>",
                         "Unaffected by Damage Reflect"
                     ],
                     "reqLev": 160
@@ -862,7 +841,7 @@
                     "desc": "Launches grenades that detonate when it hits an enemy",
                     "details": [
                         "If the grenade does not hit an enemy, it will bounce and detonate after a short delay",
-                        "When used with <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/> or <img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-x.png' alt='Skill Wild Arrow Blast Type X'/> there is no casting action meaning you can continue to move and continue attacking while casting Primal Grenade",
+                        "When used during <span data-tooltip='Wild Arrow Blast (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span>, <span data-tooltip='Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png' alt='Skill Wild Arrow Blast Type P'/></span>, or <span data-tooltip='Wild Arrow Blast Type X (5th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast-type-x.png' alt='Skill Wild Arrow Blast Type X'/></span>, there is no casting action meaning you can cast Primal Grenade while continuing attacking",
                         "1 grenade is prepared every 4.5 secs and you can hold up to 8 grenades at once",
                         "Unaffected by Damage Reflect"
                     ]

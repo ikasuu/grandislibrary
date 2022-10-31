@@ -11,25 +11,7 @@
             {"weapon": ["wand", "staff"]},
             {"secondary": ["mageShield", "magicBookB"]}
         ],
-        "classType": [
-            "Support",
-            "Utility",
-            "Party Buff - Increased EXP gained"
-        ],
         "innerAbility": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%"],
-        "prosCons": {
-            "pros": [
-                "Supportive class that is important for bossing",
-                "Lots of useful utility such as curing abnormal statuses, increasing EXP gained, and preventing KO",
-                "Has an ability to create a portal to the nearest town for convenience with <img src='/class-icons/explorers/bishop/mystic-door.png' alt='Skill Mystic Door'/> Mystic Door",
-                "Buffs last for a long time because of passive increased buff duration"
-            ],
-            "cons": [
-                "<img src='/class-icons/explorers/bishop/teleport-mastery.png' alt='Skill Teleport Mastery'/> Teleport Mastery will trigger Damage Reflect",
-                "Need to remember to toggle <img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard (Magician)'/> Magic Guard",
-                "Low knockback resistance"
-            ]
-        },
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
             [
@@ -51,7 +33,7 @@
             "toggles": "<span data-tooltip='Magic Guard (1st Job)'><img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard'/></span> <span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/bishop/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> <span data-tooltip='Teleport Boost (3rd Job)'><img src='/class-icons/explorers/bishop/teleport-boost.png' alt='Skill Teleport Boost'/></span> <span data-tooltip='Righteously Indignant (Hyper Skill)'><img src='/class-icons/explorers/bishop/righteously-indignant.png' alt='Skill Righteously Indignant'/></span>(Mode Switch)",
             "summons": "[ <span data-tooltip='Holy Fountain (3rd Job)'><img src='/class-icons/explorers/bishop/holy-fountain.png' alt='Skill Holy Fountain'/></span>(60s cd)(B) / <span data-tooltip='Fountain of Venegeance (3rd Job)'><img src='/class-icons/explorers/bishop/fountain-of-vengeance.png' alt='Skill Fountain of Vengeance'/></span>(30s cd)(V) ] <span data-tooltip='Mystic Door (3rd Job)'><img src='/class-icons/explorers/bishop/mystic-door.png' alt='Skill Mystic Door'/></span> <span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> <span data-tooltip='Holy Water (4th Job)'><img src='/class-icons/explorers/bishop/holy-water.png' alt='Skill Holy Water'/></span>(10s cd)(B) <span data-tooltip='Angel of Balance (5th Job)'><img src='/class-icons/explorers/bishop/angel-of-balance.png' alt='Skill Angel of Balance'/></span>(120s cd)",
             "buffCd": "<span data-tooltip='Divine Protection (3rd Job)'><img src='/class-icons/explorers/bishop/divine-protection.png' alt='Skill Divine Protection'/></span>(75s cd) <span data-tooltip='Triumph Feather (3rd Job)'><img src='/class-icons/explorers/bishop/triumph-feather.png' alt='Skill Triumph Feather'/></span>(60s cd)(V) <span data-tooltip='Holy Magic Shell (3rd Job)'><img src='/class-icons/explorers/bishop/holy-magic-shell.png' alt='Skill Holy Magic Shell'/></span>(90s cd) <span data-tooltip='Blood of the Divine (4th Job)'><img src='/class-icons/explorers/bishop/blood-of-the-divine.png' alt='Skill Blood of the Divine'/></span>(300s - 180s cd)(V) <span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/bishop/infinity.png' alt='Skill Infinity'/></span>(180s cd) <span data-tooltip='Heaven&#39;s Door (Hyper Skill)'><img src='/class-icons/explorers/bishop/heavens-door.png' alt='Skill Heaven&#39;s Door'/></span>(90s cd) <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span>(120s cd) <span data-tooltip='Benediction (5th Job)'><img src='/class-icons/explorers/bishop/benediction.png' alt='Skill Benediction'/></span>(180s cd)",
-            "buffFifth": "<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(59 - 30s cd) <span data-tooltip='Maple World Goddess Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(60s cd)",
+            "buffFifth": "<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(59 - 30s cd) <span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(60s cd)",
             "iFrame": "<span data-tooltip='Heaven&#39;s Door (Hyper Skill)'><img src='/class-icons/explorers/bishop/heavens-door.png' alt='Skill Heaven's Door'/></span>(90s cd, blocks 1 death - 600s cd) <span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(60s cd)",
             "damageReduce": "<span data-tooltip='Holy Magic Shell (3rd Job)'><img src='/class-icons/explorers/bishop/holy-magic-shell.png' alt='Skill Holy Magic Shell'/></span>(-10% | 90s cd) <span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(-MP | 60s cd)"
         },
@@ -97,7 +79,6 @@
             "possible": "<span data-tooltip='Heal/Angelic Wrath (2nd Job)'><img src='/class-icons/explorers/bishop/heal.png' alt='Skill Heal'/></span> <span data-tooltip='Holy Arrow (2nd Job)'><img src='/class-icons/explorers/bishop/holy-arrow.png' alt='Skill Holy Arrow'/></span> <span data-tooltip='Shining Ray (3rd Job)'><img src='/class-icons/explorers/bishop/shining-ray.png' alt='Skill Shining Ray'/></span> <span data-tooltip='Big Bang (4th Job)'><img src='/class-icons/explorers/bishop/big-bang.png' alt='Skill Big Bang'/></span> <span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> <span data-tooltip='Angel Ray (4th Job)'><img src='/class-icons/explorers/bishop/angel-ray.png' alt='Skill Angel Ray'/></span> <span data-tooltip='Genesis/Triumph Feather (4th/3rd Job)'><img src='/class-icons/explorers/bishop/genesis.png' alt='Skill Genesis'/></span> <span data-tooltip='Heaven&#39;s Door/Fountain of Venegeance (Hyper Skill/3rd Job)'><img src='/class-icons/explorers/bishop/heavens-door.png' alt='Skill Heaven's Door'/>"
         },
         "moreInfo": [
-            "http://maplestory.nexon.net/game/classes-and-jobs/2893/magician",
             "https://maplestory.fandom.com/wiki/Bishop",
             "https://discord.gg/PX2v4BV3Qp"
         ],

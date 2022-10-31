@@ -11,52 +11,30 @@
             {"weapon": ["armCannon"]},
             {"secondary": ["charge"]}
         ],
-        "classType": [
-            "Combo - High APM Class",
-            "Animation-cancelling",
-            "Mobile"
-        ],
         "innerAbility": ["+1 Passive Skills", "Boss Damage +10%", "Attack +21"],
-        "prosCons": {
-            "pros": [
-                "High, consistent damage throughout every stage of the game",
-                "Decent burst damage potential",
-                "Does not suffer from animation lock (end delay) on their skills",
-                "Lots of mobility<ul><li>Able to reposition and dodge boss attacks</li><li>Can traverse the map quickly</li></ul>",
-                "Capable of tanking one-hit KOs and super knockbacks",
-                "Has 3 iFrame skills",
-                "High early-game HP and DEF"
-            ],
-            "cons": [
-                "Requires good character control and practice",
-                "Lots of button pressing",
-                "High MP consumption",
-                "Short range on main attack skills"
-            ]
-        },
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
-                "<strong>Attack</strong>: [<img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/> +15%]",
-                "<strong>Crit Rate</strong>: [<img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/> +30%] [<img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/> up to +30%]",
-                "<strong>Crit Damage</strong>: [<img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/> +20%]",
-                "<strong>Damage</strong>: [<img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/> +20%]",
-                "<strong>Boss Damage</strong>:[<img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/> +20%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/> up to +60%] [<img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/> +10% from debuff]",
-                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/resistance/blaster/blast-shield.png' alt='Skill Blast Shield'/> +40% & +100% while using skills] [<img src='/class-icons/resistance/blaster/shield-training-ii.png' alt='Skill Shield Training II'/> +60%]",
-                "<strong>Attack Speed (Weapon)</strong>: 3 [<img src='/class-icons/resistance/blaster/combo-training.png' alt='Combo Training Icon'/> -1 at 6 stacks]",
-                "<strong>Ignore DEF</strong>: [<img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/> +35%]",
-                "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/resistance/blaster/shield-training.png' alt='Skill Shield Training'/> 40]"
+                "<strong>Attack</strong>: [<span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> +15%]",
+                "<strong>Crit Rate</strong>: [<span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +30%] [<span data-tooltip='Combo Training II (4th Job)'><img src='/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span> up to +30%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +20%]",
+                "<strong>Damage</strong>: [<span data-tooltip='Charge Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/></span> +20%]",
+                "<strong>Boss Damage</strong>:[<span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +20%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> up to +60%] [<span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span> +10% from debuff]",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Blast Shield (1st Job)'><img src='/class-icons/resistance/blaster/blast-shield.png' alt='Skill Blast Shield'/></span> +40% & +100% while using skills] [<span data-tooltip='Shield Training II (4th Job)'><img src='/class-icons/resistance/blaster/shield-training-ii.png' alt='Skill Shield Training II'/></span> +60%]",
+                "<strong>Attack Speed (Weapon)</strong>: 3 [<span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Combo Training Icon'/></span> -1 at 6 stacks]",
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Advanced Charge Mastery (4th Job)'><img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/></span> +35%]",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Shield Training (3rd Job)'><img src='/class-icons/resistance/blaster/shield-training.png' alt='Skill Shield Training'/></span> 40]"
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/resistance/blaster/arm-cannon-booster.png' alt='Skill Arm Cannon Boost'/>, <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/>",
-            "summons": "<img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/>(25s cd)",
-            "buffCd": "<img src='/class-icons/resistance/blaster/vitality-shield.png' alt='Skill Vitality Shield'/>(200s cd), <img src='/class-icons/resistance/blaster/cannon-overdrive.png' alt='Skill Cannon Overdrive'/>(240s cd), <img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/>(120s cd), <img src='/class-icons/resistance/blaster/rocket-punch.png' alt='Skill Rocket Punch'/>(120s cd), <img src='/class-icons/resistance/blaster/afterimage-shock.png' alt='Skill Afterimage Shock'/>(240s cd)",
-            "buffFifth": "<img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/>(180s cd), <img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/>(180s cd), <img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/>(240s cd)",
-            "binds": "<img src='/class-icons/resistance/blaster/revolving-blast.png' alt='Skill Revolving Blast'/>(120s cd)",
-            "iFrame": "<img src='/class-icons/resistance/blaster/revolving-blast.png' alt='Skill Revolving Blast'/>(120s cd), <img src='/class-icons/resistance/blaster/hyper-magnum-punch.png' alt='Skill Hyper Magnum Punch'/>(120s cd), <img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/>(100s cd)",
-            "damageReduce": "<img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/>(-35%), <img src='/class-icons/resistance/blaster/vitality-shield.png' alt='Skill Vitality Shield'/>(-35% | 200s cd)"
+            "active": "<span data-tooltip='Arm Cannon Booster (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-booster.png' alt='Skill Arm Cannon Boost'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
+            "summons": "<span data-tooltip='Resistance Infantry (5th Job)'><img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/></span>(25s cd)",
+            "buffCd": "<span data-tooltip='Vitality Shield (4th Job)'><img src='/class-icons/resistance/blaster/vitality-shield.png' alt='Skill Vitality Shield'/></span>(200s cd) <span data-tooltip='Cannon Overdrive (Hyper Skill)'><img src='/class-icons/resistance/blaster/cannon-overdrive.png' alt='Skill Cannon Overdrive'/></span>(240s cd) <span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>(120s cd) <span data-tooltip='Rocket Punch (5th Job)'><img src='/class-icons/resistance/blaster/rocket-punch.png' alt='Skill Rocket Punch'/></span>(120s cd) <span data-tooltip='Afterimage Shock (5th Job)'><img src='/class-icons/resistance/blaster/afterimage-shock.png' alt='Skill Afterimage Shock'/></span>(240s cd)",
+            "buffFifth": "<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>(180s cd) <span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>(180s cd) <span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>(240s cd)",
+            "binds": "<span data-tooltip='Revolving Blast (4th Job)'><img src='/class-icons/resistance/blaster/revolving-blast.png' alt='Skill Revolving Blast'/></span>(120s cd)",
+            "iFrame": "<span data-tooltip='Revolving Blast (4th Job)'><img src='/class-icons/resistance/blaster/revolving-blast.png' alt='Skill Revolving Blast'/></span>(120s cd) <span data-tooltip='Hyper Magnum Punch (Hyper Skill)'><img src='/class-icons/resistance/blaster/hyper-magnum-punch.png' alt='Skill Hyper Magnum Punch'/></span>(120s cd) <span data-tooltip='Bullet Blast (5th Job)'><img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/></span>(100s cd)",
+            "damageReduce": "<span data-tooltip='Advanced Charge Mastery (4th Job)'><img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/></span>(-35%) <span data-tooltip='Vitality Shield (4th Job)'><img src='/class-icons/resistance/blaster/vitality-shield.png' alt='Skill Vitality Shield'/></span>(-35% | 200s cd)"
         },
         "linkSkill": {
             "id": 80000329,
@@ -78,29 +56,27 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<img src='/class-icons/resistance/blaster/revolving-cannon-mastery.png' alt='Skill Revolving Cannon Mastery'/> -> <img src='/class-icons/resistance/blaster/blast-shield.png' alt='Skill Blast Shield'/> -> <img src='/class-icons/resistance/blaster/double-jump.png' alt='Skill Double Jump (Blaster)'/> -> <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> -> <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/> -> <img src='/class-icons/resistance/blaster/detonate.png' alt='Skill Detonate'/>"],
-                ["2nd Job", "<img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/> -> <img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/> -> <img src='/class-icons/resistance/blaster/arm-cannon-booster.png' alt='Skill Arm Cannon Boost'/> -> <img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/> -> <img src='/class-icons/resistance/blaster/revolving-cannon-plus.png' alt='Skill Revolving Cannon Plus'/> -> <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast (Blaster)'/> -> <img src='/class-icons/resistance/blaster/bobbing.png' alt='Skill Bobbing'/>"],
-                ["3rd Job", "<img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/> -> <img src='/class-icons/resistance/blaster/shield-training.png' alt='Skill Shield Training'/> -> <img src='/class-icons/resistance/blaster/revolving-cannon-plus-ii.png' alt='Skill Revolving Cannon Plus II'/> -> <img src='/class-icons/resistance/blaster/rocket-rush.png' alt='Skill Rocket Rush'/> -> <img src='/class-icons/resistance/blaster/magnum-launch.png' alt='Skill Magnum Launch'/> -> <img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/> -> <img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/>"],
-                ["4th Job", "<img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/> -> <img src='/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/> -> <img src='/class-icons/resistance/blaster/shield-training-ii.png' alt='Skill Shield Training II'/> -> <img src='/class-icons/resistance/blaster/revolving-cannon-plus-iii.png' alt='Skill Revolving Cannon Plus III'/> -> <img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/> -> <img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/> -> <img src='/class-icons/resistance/blaster/vitality-shield.png' alt='Skill Vitality Shield'/> -> <img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/> -> <img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/> -> <img src='/class-icons/resistance/blaster/revolving-blast.png' alt='Skill Revolving Blast'/> -> <img src='/class-icons/resistance/blaster/muzzle-flash.png' alt='Skill Muzzle Flash'/> -> <img src='/class-icons/common/heros-will.png' alt='Skill Hero'/>"]
+                ["1st Job", "<span data-tooltip='Revolving Cannon Mastery'><img src='/class-icons/resistance/blaster/revolving-cannon-mastery.png' alt='Skill Revolving Cannon Mastery'/></span> -> <span data-tooltip='Blast Shield'><img src='/class-icons/resistance/blaster/blast-shield.png' alt='Skill Blast Shield'/></span> -> <span data-tooltip='Double Jump'><img src='/class-icons/resistance/blaster/double-jump.png' alt='Skill Double Jump'/></span> -> <span data-tooltip='Bunker Buster Explosion'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span> -> <span data-tooltip='Magnum Punch'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span> -> <span data-tooltip='Detonate'><img src='/class-icons/resistance/blaster/detonate.png' alt='Skill Detonate'/></span>"],
+                ["2nd Job", "<span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Arm Cannon Mastery'><img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> -> <span data-tooltip='Arm Cannon Boost'><img src='/class-icons/resistance/blaster/arm-cannon-booster.png' alt='Skill Arm Cannon Boost'/></span> -> <span data-tooltip='Charge Mastery'><img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/></span> -> <span data-tooltip='Revolving Cannon Plus'><img src='/class-icons/resistance/blaster/revolving-cannon-plus.png' alt='Skill Revolving Cannon Plus'/></span> -> <span data-tooltip='Double Blast'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span> -> <span data-tooltip='Bobbing'><img src='/class-icons/resistance/blaster/bobbing.png' alt='Skill Bobbing'/></span>"],
+                ["3rd Job", "<span data-tooltip='Combo Training'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> -> <span data-tooltip='Shield Training'><img src='/class-icons/resistance/blaster/shield-training.png' alt='Skill Shield Training'/></span> -> <span data-tooltip='Revolving Cannon Plus II'><img src='/class-icons/resistance/blaster/revolving-cannon-plus-ii.png' alt='Skill Revolving Cannon Plus II'/></span> -> <span data-tooltip='Rocket Rush'><img src='/class-icons/resistance/blaster/rocket-rush.png' alt='Skill Rocket Rush'/></span> -> <span data-tooltip='Magnum Cannon'><img src='/class-icons/resistance/blaster/magnum-cannon.png' alt='Skill Magnum Cannon'/></span> -> <span data-tooltip='Hammer Smash'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span> -> <span data-tooltip='Weaving'><img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/></span>"],
+                ["4th Job", "<span data-tooltip='Advanced Charge Mastery'><img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/></span> -> <span data-tooltip='Combo Training II'><img src='/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span> -> <span data-tooltip='Shield Training II'><img src='/class-icons/resistance/blaster/shield-training-ii.png' alt='Skill Shield Training II'/></span> -> <span data-tooltip='Revolving Cannon Plus III'><img src='/class-icons/resistance/blaster/revolving-cannon-plus-iii.png' alt='Skill Revolving Cannon Plus III'/></span> -> <span data-tooltip='Gauntlet Expert'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> -> <span data-tooltip='Shotgun Punch'><img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/></span> -> <span data-tooltip='Vitality Shield'><img src='/class-icons/resistance/blaster/vitality-shield.png' alt='Skill Vitality Shield'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Ballistic Hurricane'><img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/></span> -> <span data-tooltip='Revolving Blast'><img src='/class-icons/resistance/blaster/revolving-blast.png' alt='Skill Revolving Blast'/></span> -> <span data-tooltip='Muzzle Flash'><img src='/class-icons/resistance/blaster/muzzle-flash.png' alt='Skill Muzzle Flash'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
             ],
             "details": [
                 "All 1st to 4th Job skills can be maxed",
                 "Put one SP into each skill first and then max each skill in this order",
                 "For any skills that have prerequisites, follow them first before following build path",
-                "Some players may not put SP into <img src='/class-icons/resistance/blaster/double-jump.png' alt='Skill Double Jump (Blaster)'/> Double Jump to gain better control of other mobile abilities"
+                "Some players may not put SP into <span data-tooltip='Double Jump (1st Job)'><img src='/class-icons/resistance/blaster/double-jump.png' alt='Skill Double Jump'/></span> to gain better control of other mobility skills"
             ]
         },
         "hyperBuild": {
             "recommended": "<ul><li><img src='/class-icons/resistance/blaster/aftershock-punch.png' alt='Skill Aftershock Punch'/> <img src='/class-icons/resistance/blaster/power-punch.png' alt='Skill Power Punch'/> <img src='/class-icons/resistance/blaster/piercing-punch.png' alt='Skill Piercing Punch'/> Aftershock Punch, Power Punch, Piercing Punch</li><li><img src='/class-icons/resistance/blaster/improved-bunker-explosion.png' alt='Skill Improved Bunker Explosion'/> Improved Bunker Explosion</li><li><img src='/class-icons/resistance/blaster/bunker-buster-explosion-guard-bonus.png' alt='Skill Bunker Buster Explosion Guard Bonus'/> / <img src='/class-icons/resistance/blaster/speedy-vitality-shield.png' alt='Skill Speedy Vitality Shield'/> Bunker Buster Explosion - Guard Bonus OR Speedy Vitality Shield</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/> <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast (Blaster)'/> <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> <img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/> <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> <img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/>",
-            "possible": "<img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/> <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> <img src='/class-icons/resistance/blaster/detonate.png' alt='Skill Detonate'/> <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast (Blaster)'/> <img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/> <img src='/class-icons/resistance/blaster/magnum-launch.png' alt='Skill Magnum Launch'/> <img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/> <img src='/class-icons/resistance/blaster/muzzle-flash.png' alt='Skill Muzzle Flash'/> <img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/> <img src='/class-icons/resistance/blaster/revolving-blast.png' alt='Skill Revolving Blast'/> <img src='/class-icons/resistance/blaster/hyper-magnum-punch.png' alt='Skill Hyper Magnum Punch'/>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span> <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Double Blast (2nd Job)'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span> <span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span> <span data-tooltip='Shotgun Punch (4th Job)'><img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)</li></ul>",
+            "possible": "<span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span> <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span> <span data-tooltip='Detonate (1st Job)'><img src='/class-icons/resistance/blaster/detonate.png' alt='Skill Detonate'/></span> <span data-tooltip='Double Blast (2nd Job)'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span> <span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span> <span data-tooltip='Rocket Rush and Magnum Cannon (3rd Job)'><img src='/class-icons/resistance/blaster/rocket-rush.png' alt='Skill Rocket Rush'/></span> <span data-tooltip='Shotgun Punch (4th Job)'><img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/></span> <span data-tooltip='Muzzle Flash (4th Job)'><img src='/class-icons/resistance/blaster/muzzle-flash.png' alt='Skill Muzzle Flash'/></span> <span data-tooltip='Ballistic Hurricane (4th Job)'><img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/></span> <span data-tooltip='Revolving Blast (4th Job)'><img src='/class-icons/resistance/blaster/revolving-blast.png' alt='Skill Revolving Blast'/></span> <span data-tooltip='Hyper Magnum Punch (Hyper Skill)'><img src='/class-icons/resistance/blaster/hyper-magnum-punch.png' alt='Skill Hyper Magnum Punch'/></span>"
         },
         "moreInfo": [
-            "http://maplestory.nexon.net/game/classes-and-jobs/15072/blaster",
-            "https://maplestory.fandom.com/wiki/Blaster",
-            "https://dexless.com/guides/blaster-guide.276/"
+            "https://maplestory.fandom.com/wiki/Blaster"
         ],
         "credits": [
             ["Skill Icons", "MapleWiki"],
@@ -111,7 +87,7 @@
         ],
         "extraContent": {
             "title": "Gauge and Combo Mechanics",
-            "content": "<p><em>Referenced from <a href='https://dexless.com/guides/blaster-guide.276/' target='_blank' rel='noopener noreferrer'/>Repentant</a></em></p><h3>Ammo Resource:</h3><p><img src='/class-icons/resistance/blaster/ammo-gauge.png' alt=''/> </p><p>A resource required to use <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> Revolving Cannon and <img src='/class-icons/resistance/blaster/detonate.png' alt='Skill Detonate'/> Detonate. Once your Ammo resource is depleted, you will need to reload which is done automatically when your Ammo is empty</p><h3>Dynamo Gauge:</h3><p><img src='/class-icons/resistance/blaster/dynamo-gauge.png' alt=''/> </p><p>This resource is exclusively used to activate <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> Bunker Buster Explosion. You gain one Dynamo Gauge bar whenever you use <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> Revolving Cannon. Once <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> is used, you enter an Overheat state where your gauge is set to max but you cannot charge the Dynamo Gauge or use <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></p><h3>Charge Skills:</h3><p>Skills with a 'C' on the Skill Icon are Charge Skills. These skills can be held and charged while using other skills. When fully charged, releasing these Charge Skills while using other skills will cancel that skill and instead activate the Charge Skill and create an additional shockwave attack. This is used for Animation Canceling There are four Charge Skills:</p><ul><li><img src='/class-icons/resistance/blaster/bobbing.png' alt='Skill Bobbing'/> <strong>Bobbing [2nd Job]</strong></li><li><img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/> <strong>Weaving [3rd Job]</strong></li><li><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/> <strong>Hammer Smash [3rd Job]</strong></li><li><img src='/class-icons/resistance/blaster/hyper-magnum-punch.png' alt='Skill Hyper Magnum Punch'/> <strong>Hyper Magnum Punch [Hyper Skill]</strong></li></ul><p>Bobbing and Weaving are your main Charge Skills that are used mainly for Animation Canceling. Although, they cannot cancel all skills like <img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/> Ballistic Hurricane's uppercut, <img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/> Bullet Blast's rush, and Decent Skill buffs While charging, attacks won't knock you back. You can hold up to 2 Charge skills at once. The charging animation is invisible and an orange aura will surround your character when the Charge skill is ready</p>"
+            "content": "<p><em>Referenced from <a href='https://dexless.com/guides/blaster-guide.276/' target='_blank' rel='noopener noreferrer'/>Repentant</a></em></p><h3>Ammo Resource:</h3><p><img src='/class-icons/resistance/blaster/ammo-gauge.png' alt=''/> </p><p>A resource required to use <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> Revolving Cannon (1st Job), <img src='/class-icons/resistance/blaster/detonate.png' alt='Skill Detonate'/> Detonate (1st Job), and <img src='/class-icons/resistance/blaster/magnum-cannon.png' alt='Skill Magnum Cannon'/> Magnum Cannon (3rd Job). Once your Ammo resource is depleted, you will need to reload which is done automatically when your Ammo is empty</p><h3>Dynamo Gauge:</h3><p><img src='/class-icons/resistance/blaster/dynamo-gauge.png' alt=''/> </p><p>This resource is exclusively used to activate <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> Bunker Buster Explosion. You gain one Dynamo Gauge bar whenever you use <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> Revolving Cannon. Once <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span> is used, you enter an Overheat state where your gauge is set to max but you cannot charge the Dynamo Gauge or use <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span></p><h3>Charge Skills:</h3><p>Skills with a 'C' on the Skill Icon are Charge Skills. These skills can be held and charged while using other skills. When fully charged, releasing these Charge Skills while using other skills will cancel that skill and instead activate the Charge Skill and create an additional shockwave attack. This is used for Animation Canceling There are four Charge Skills:</p><ul><li><img src='/class-icons/resistance/blaster/bobbing.png' alt='Skill Bobbing'/> <strong>Bobbing [2nd Job]</strong></li><li><img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/> <strong>Weaving [3rd Job]</strong></li><li><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/> <strong>Hammer Smash [3rd Job]</strong></li><li><img src='/class-icons/resistance/blaster/hyper-magnum-punch.png' alt='Skill Hyper Magnum Punch'/> <strong>Hyper Magnum Punch [Hyper Skill]</strong></li></ul><p>Bobbing and Weaving are your main Charge Skills that are used mainly for Animation Canceling. Although, they cannot cancel all skills like <img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/> Ballistic Hurricane's uppercut, <img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/> Bullet Blast's rush, and Decent Skill buffs While charging, attacks won't knock you back. You can hold up to 2 Charge skills at once. The charging animation is invisible and an orange aura will surround your character when the Charge skill is ready</p>"
         }
     },
     "skill": {
@@ -167,7 +143,7 @@
                         "type": "Attack",
                         "desc": "Punches forward",
                         "details": [
-                            "Can use <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> Revolving Cannon while attacking",
+                            "Can use <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> while attacking",
                             "Attack can be linked with:<ul><li><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/> Double Blast (2nd Job)</li><li><img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/> Bullet Blast (5th Job)</li></ul>"
                         ]
                     },
@@ -198,7 +174,7 @@
                         "details": [
                             "Requires 3 or more Dynamo Guage bars to use",
                             "Attack has increased %Ignore DEF",
-                            "After using, you will Overheat briefly which sets your Dynamax Gauge to max but you cannot charge the Dynamo Gauge or use <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/>"
+                            "After using, you will Overheat briefly which sets your Dynamax Gauge to max but you cannot charge the Dynamo Gauge or use <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span>"
                         ]
                     },
                     {
@@ -270,8 +246,8 @@
                         "type": "Attack",
                         "desc": "Performs two punches in front of you",
                         "details": [
-                            "Pressing <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/> twice will also trigger this skill",
-                            "Can use <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> Revolving Cannon while attacking",
+                            "Pressing <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span> twice will also trigger this skill",
+                            "Can use <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> while attacking",
                             "Attack can be linked with:<ul><li><img src='/class-icons/resistance/blaster/bobbing.png' alt='Skill Bobbing'/> Bobbing (2nd Job)</li><li><img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/> Weaving (3rd Job)</li><li><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/> Hammer Smash (3rd Job)</li><li><img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/> Shotgun Punch (4th Job)</li><li><img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/> Bullet Blast (5th Job)</li></ul>"
                             
                         ]
@@ -286,7 +262,7 @@
                         "type": "Charge Active",
                         "desc": "Dashes forward while avoiding enemy attacks",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/>",
+                            "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span>",
                             "Gain increased %Avoidability after dashing",
                             "Jumping will cancel the dash",
                             "Right-clicking the skill will toggle a function ON/OFF for pressing the Skill Key again to cancel the dash",
@@ -341,9 +317,9 @@
                         "icons": ["/class-icons/resistance/blaster/revolving-cannon-plus.png"],
                         "animations": ["https://media1.giphy.com/media/XCR3lWGgVJLF0bvRqa/giphy.gif"],
                         "type": "Passive",
-                        "desc": "Increases the %p Damage of <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/>, <img src='/class-icons/resistance/blaster/revolving-cannon-mastery.png' alt='Skill Revolving Cannon Mastery'/>, and of <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> during <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/>",
+                        "desc": "Increases the %p Damage of <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span>, <span data-tooltip='Revolving Cannon Mastery (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon-mastery.png' alt='Skill Revolving Cannon Mastery'/></span>, and <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> during <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span>",
                         "details": [
-                            "Additionally increases the capacity of your Ammo and Dynamo Gauge<ul> <li>Using <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> at 4 bars or higher will increase the %Damage of the skill and create a more powerful attack</li> </ul>"
+                            "Additionally increases the capacity of your Ammo and Dynamo Gauge<ul> <li>Using <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span> at 4 bars or higher will increase the %Damage of the skill and create a more powerful attack</li> </ul>"
                         ]
                     }]
                 ],
@@ -359,7 +335,7 @@
                         "desc": "Strikes the ground creating a damaging shockwave around you that debuffs enemies",
                         "details": [
                             "<strong>[Debuff]</strong>: Enemies take increased %Final Damage from Blaster",
-                            "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast (Blaster)'/>",
+                            "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Double Blast (2nd Job)'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span>",
                             "While charging, enemy attacks will not knock you back",
                             "Shockwave is not affected by Damage Reflect",
                             "Attack can be linked with:<ul><li><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/> Magnum Punch (1st Job)</li><li><img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/> Bullet Blast (5th Job)</li></ul>"
@@ -375,7 +351,7 @@
                         "type": "Charge Active",
                         "desc": "Dashes backward while avoiding enemy attacks",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/>",
+                            "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span>",
                             "You gain increased %Avoidability after dashing",
                             "You can jump to cancel the dash",
                             "Right-clicking the skill will toggle a function ON/OFF for pressing the Skill Key again to cancel the dash",
@@ -419,8 +395,8 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases %p Damage of <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/>, <img src='/class-icons/resistance/blaster/revolving-cannon-mastery.png' alt='Skill Revolving Cannon Mastery'/>, and <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/>'s damage during <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/> and <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/>",
-                            "Capacity of your Ammo and Dynamo Gauge is increased once more<ul> <li>Using <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> at 5 bars or higher will increase the %Damage of the skill and create a more powerful attack</li> </ul>"
+                            "Increases %p Damage of <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span>, <span data-tooltip='Revolving Cannon Mastery (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon-mastery.png' alt='Skill Revolving Cannon Mastery'/></span>, and <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> during <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span> and <span data-tooltip='Double Blast (2nd Job)'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span>",
+                            "Capacity of your Ammo and Dynamo Gauge is increased once more<ul> <li>Using <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span> at 5 bars or higher will increase the %Damage of the skill and create a more powerful attack</li> </ul>"
                         ]
                     },
                     {
@@ -461,7 +437,7 @@
                     "type": "Attack",
                     "desc": "Punches forward creating a powerful blast that creates a shockwave",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast (Blaster)'/>",
+                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Double Blast (2nd Job)'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span>",
                         "Deals increased %Damage to regular monsters",
                         "Attack can be linked with:<ul><li><img src='/class-icons/resistance/blaster/bobbing.png' alt='Skill Bobbing'/> Bobbing (2nd Job)</li><li><img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/> Weaving (3rd Job)</li><li><img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/> Bullet Blast (5th Job)</li></ul>"
                     ]
@@ -474,10 +450,10 @@
                     "icons": ["/class-icons/resistance/blaster/muzzle-flash.png"],
                     "animations": ["https://media1.giphy.com/media/hsX8Uo04RjZjjJ1Oeu/giphy.gif"],
                     "type": "Passive Attack",
-                    "desc": "Instantly dashes to a nearby enemy while using <img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/>",
+                    "desc": "Instantly dashes to a nearby enemy while using <span data-tooltip='Weaving (3rd Job)'><img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/></span>",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/>",
-                        "Can only be used during <img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/><ul><li>Pressing <img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/> while dashing will activate Muzzle Flash</li></ul>",
+                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span>",
+                        "Can only be used during <span data-tooltip='Weaving (3rd Job)'><img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/></span><ul><li>Pressing <span data-tooltip='Weaving (3rd Job)'><img src='/class-icons/resistance/blaster/weaving.png' alt='Skill Weaving'/></span> while dashing will activate Muzzle Flash</li></ul>",
                         "Will not activate if there are no enemies in range",
                         "Attack can be linked with:<ul><li><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/> Magnum Punch (1st Job)</li><li><img src='/class-icons/resistance/blaster/bullet-blast.png' alt='Skill Bullet Blast'/> Bullet Blast (5th Job)</li></ul>"
                     ]
@@ -492,7 +468,7 @@
                     "type": "Key-down Attack",
                     "desc": "Creates a cyclone around you that pulls in nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/>",
+                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span>",
                         "At the end of the attack, you perform an uppercut attack",
                         "You can move while holding down the Skill Key"
                     ]
@@ -510,7 +486,7 @@
                         "When used, fully reloads your Ammo",
                         "While grabbing the enemy, you are invincible but immobile",
                         "Consumes all of your Dynamo Gauge",
-                        "Can use <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> Revolving Cannon while attacking to create a series of explosions<ul><li>After using <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> 6 times, you can cast <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> that deals increased %Damage</li></ul>"
+                        "Can use <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> while attacking to create a series of explosions<ul><li>After using <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> 6 times, you can cast <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span> that deals increased %Damage</li></ul>"
                     ]
                 },
                 {
@@ -521,11 +497,11 @@
                     "icons": ["/class-icons/resistance/blaster/vitality-shield.png"],
                     "animations": ["https://media2.giphy.com/media/G3KTdLGMJSdUo6kBk6/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Converts your active <img src='/class-icons/resistance/blaster/blast-shield.png' alt='Skill Blast Shield'/> into HP",
+                    "desc": "Converts your active <span data-tooltip='Blast Shield (1st Job)'><img src='/class-icons/resistance/blaster/blast-shield.png' alt='Skill Blast Shield'/></span> into HP",
                     "details": [
-                        "Cannot be used if there is no <img src='/class-icons/resistance/blaster/blast-shield.png' alt='Skill Blast Shield'/> or if your HP is full",
-                        "After casting, you take reduced damage, including %Max HP damage<ul><li>Amount reduced is based on <img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/> (-35%)",
-                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='/class-icons/resistance/blaster/rocket-rush.png' alt='Skill Rocket Rush'/> and <img src='/class-icons/resistance/blaster/magnum-launch.png' alt='Skill Magnum Launch'/>"
+                        "Cannot be used if there is no <span data-tooltip='Blast Shield (1st Job)'><img src='/class-icons/resistance/blaster/blast-shield.png' alt='Skill Blast Shield'/></span> or if your HP is full",
+                        "After casting, you take reduced damage, including %Max HP damage<ul><li>Amount reduced is based on <span data-tooltip='Advanced Charge Mastery (4th Job)'><img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/></span> (-35%)",
+                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Rocket Rush (3rd Job)'><img src='/class-icons/resistance/blaster/rocket-rush.png' alt='Skill Rocket Rush'/></span> and <span data-tooltip='Magnum Cannon (3rd Job)'><img src='/class-icons/resistance/blaster/magnum-cannon.png' alt='Skill Magnum Cannon'/></span>"
                     ]
                 },
                 {
@@ -557,8 +533,8 @@
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "Increases %p Damage of <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/>, <img src='/class-icons/resistance/blaster/revolving-cannon-mastery.png' alt='Skill Revolving Cannon Mastery'/>, and <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/>'s damage during <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/> and <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/>",
-                        "Capacity of your Ammo and Dynamo Gauge is increased once more<ul> <li>Using <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/> at 6 bars or higher will increase the %Damage of the skill and create a more powerful attack</li> </ul>"
+                        "Increases %p Damage of <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span>, <span data-tooltip='Revolving Cannon Mastery (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon-mastery.png' alt='Skill Revolving Cannon Mastery'/></span>, and <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> during <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span> and <span data-tooltip='Double Blast (2nd Job)'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span>",
+                        "Capacity of your Ammo and Dynamo Gauge is increased once more<ul> <li>Using <span data-tooltip='Bunker Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span> at 6 bars or higher will increase the %Damage of the skill and create a more powerful attack</li> </ul>"
                     ]
                 },
                 {
@@ -573,7 +549,7 @@
                         "Increases amount of damage converted",
                         "Increases Abnormal Status and %Elemental Resistance provided",
                         "Now increases %Knockback Resistance",
-                        "Now increases %p Damage of <img src='/class-icons/resistance/blaster/rocket-rush.png' alt='Skill Rocket Rush'/> and <img src='/class-icons/resistance/blaster/magnum-launch.png' alt='Skill Magnum Launch'/>"
+                        "Now increases %p Damage of <span data-tooltip='Rocket Rush (3rd Job)'><img src='/class-icons/resistance/blaster/rocket-rush.png' alt='Skill Rocket Rush'/></span> and <span data-tooltip='Magnum Cannon (3rd Job)'><img src='/class-icons/resistance/blaster/magnum-cannon.png' alt='Skill Magnum Cannon'/></span>"
                     ]
                 },
                 {
@@ -628,7 +604,7 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/blaster/aftershock-punch.png"],
                     "type": "Passive",
-                    "desc": "Increases the number of hits from the shockwaves created from <img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/> and <img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/>",
+                    "desc": "Increases the number of hits from the shockwaves created from <span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span> and <span data-tooltip='Shotgun Punch (4th Job)'><img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/></span>",
                     "reqLev": 140
                 },
                 {
@@ -638,7 +614,7 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/blaster/power-punch.png"],
                     "type": "Passive",
-                    "desc": "Increases the %Damage of <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/>, <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast (Blaster)'/>, <img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/>, <img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/>, <img src='/class-icons/resistance/blaster/muzzle-flash.png' alt='Skill Muzzle Flash'/>, and <img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/>",
+                    "desc": "Increases the %Damage of <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span>, <span data-tooltip='Double Blast (2nd Job)'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span>, <span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span>, <span data-tooltip='Shotgun Punch (4th Job)'><img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/></span>, <span data-tooltip='Muzzle Flash (4th Job)'><img src='/class-icons/resistance/blaster/muzzle-flash.png' alt='Skill Muzzle Flash'/></span>, and <span data-tooltip='Ballistic Hurricane (4th Job)'><img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/></span>",
                     "reqLev": 150
                 },
                 {
@@ -648,7 +624,7 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/blaster/piercing-punch.png"],
                     "type": "Passive",
-                    "desc": "Increases the %Ignore DEF of <img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/>, <img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast (Blaster)'/>, <img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/>, <img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/>, <img src='/class-icons/resistance/blaster/muzzle-flash.png' alt='Skill Muzzle Flash'/>, and <img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/>",
+                    "desc": "Increases the %Ignore DEF of <span data-tooltip='Magnum Punch (1st Job)'><img src='/class-icons/resistance/blaster/magnum-punch.png' alt='Skill Magnum Punch'/></span>, <span data-tooltip='Double Blast (2nd Job)'><img src='/class-icons/resistance/blaster/double-blast.png' alt='Skill Double Blast'/></span>, <span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span>, <span data-tooltip='Shotgun Punch (4th Job)'><img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/></span>, <span data-tooltip='Muzzle Flash (4th Job)'><img src='/class-icons/resistance/blaster/muzzle-flash.png' alt='Skill Muzzle Flash'/></span>, and <span data-tooltip='Ballistic Hurricane (4th Job)'><img src='/class-icons/resistance/blaster/ballistic-hurricane.png' alt='Skill Ballistic Hurricane'/></span>",
                     "reqLev": 180
                 },
                 {
@@ -733,9 +709,9 @@
                     "type": "Charge Attack",
                     "desc": "Unleashes a powerful explosive punch in front of you",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Damage of <img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/> to regular monsters",
+                        "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Shotgun Punch (4th Job)'><img src='/class-icons/resistance/blaster/shotgun-punch.png' alt='Skill Shotgun Punch'/></span> to regular monsters",
                         "You generate more shockwaves depending on how long the Skill Key was held",
-                        "While charging, the effects of <img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/> are activated and you gain increased Abnormal Status Resistance",
+                        "While charging, the effects of <span data-tooltip='Charge Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/></span> are activated and you gain increased Abnormal Status Resistance",
                         "While charging, you gain increased %Final Damage whenever you are hit and cannot be stunned or knocked back"
                     ],
                     "reqLev": 160
@@ -764,7 +740,7 @@
                     "type": "Buff Attack",
                     "desc": "While active, your attacks trigger additional explosions",
                     "details": [
-                        "<img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> will be replaced while this skill is active",
+                        "<span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> will be replaced while this skill is active",
                         "The explosion will consume 1 Ammo",
                         "Attack has 100% Ignore DEF"
                     ]
@@ -778,7 +754,7 @@
                     "type": "Key-down Attack",
                     "desc": "Throws a rapid barrage of punches out in front of you",
                     "details": [
-                        "Activates effects of <img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/> and <img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/> at max stack",
+                        "Activates effects of <span data-tooltip='Charge Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/></span> and <span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> at max stack",
                         "Deals increased %Final Damage for every hit (up to 100%)",
                         "While attacking, you will not be knocked back"
                     ]
@@ -794,8 +770,8 @@
                     "details": [
                         "Consumes 1 Ammo",
                         "Attack is a guaranteed Critical Hit and has increased 100% Ignore DEF",
-                        "While holding down the Skill Key, using <img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/> will consume additional Ammo (up to 5) to create a more powerful explosion<ul><li>You are invincible while charging</li></ul>",
-                        "Activates the effects of <img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/> and remains at max stack while casting",
+                        "While holding down the Skill Key, using <span data-tooltip='Revolving Cannon (1st Job)'><img src='/class-icons/resistance/blaster/revolving-cannon.png' alt='Skill Revolving Cannon'/></span> will consume additional Ammo (up to 5) to create a more powerful explosion<ul><li>You are invincible while charging</li></ul>",
+                        "Activates the effects of <span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> and remains at max stack while casting",
                         "If you press the Down Arrow Key when you release the Skill Key, you will attack in place instead of charging forward"
                     ]
                 },
@@ -806,7 +782,7 @@
                     "icons": ["/class-icons/resistance/blaster/afterimage-shock.png"],
                     "animations": ["https://media0.giphy.com/media/u6cH976EmX5AZEUvdi/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, an additional attack will appear whenever you use a Gauntlet Revolver attack pr <img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/>",
+                    "desc": "While active, an additional attack will appear whenever you use a Gauntlet Revolver attack or <span data-tooltip='Bunkber Buster Explosion (1st Job)'><img src='/class-icons/resistance/blaster/bunker-buster-explosion.png' alt='Skill Bunker Buster Explosion'/></span>",
                     "details": [
                         "<strong>[Passive]</strong>: While the skill is on cooldown, Gauntlet Revolver attacks create a different additional attack that damages nearby enemies",
                         "Additional attack can only appear up to 99 times",
