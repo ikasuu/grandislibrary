@@ -21,14 +21,14 @@
                 "<strong>Boss Damage</strong>: +0%<div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/heavy-sword-mastery.png' alt='Skill Heavy Sword Mastery'/> +30%]</div>",
                 "<strong>Final Damage</strong>: [<img src='/class-icons/other/zero/resolution-time.png' alt='Skill Resolution Time'/> +25%]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/long-sword-mastery.png' alt='Skill Long Sword Mastery'/> +16%]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/heavy-sword-mastery.png' alt='Skill Heavy Sword Mastery'/> +16%]</div>",
                 "<strong>Knockback Resistance</strong>: +0%<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/reinforce-body.png' alt='Skill Reinforce Body'/> +100%]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/solid-body.png' alt='Skill Solid Body'/> +100%]</div>",
-                "<strong>Attack Speed (Weapon)</strong>: [<img src='/class-icons/other/zero/divine-speed.png' alt='Skill Divine Speed'/> -1 while active] [<img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> -1 when max stacks]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: 3</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: 5</div>",
+                "<strong>Attack Speed (Weapon)</strong>: [<img src='/class-icons/other/zero/divine-aura.png' alt='Skill Divine Aura'/> -1 while active] [<img src='/class-icons/other/zero/doubletime.png' alt='Skill Doubletime'/> -1 when max stacks]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: 3</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: 5</div>",
                 "<strong>Ignore DEF</strong>: [<img src='/class-icons/link-skills/rhinnes-blessing.png' alt='Skill Rhinnes Blessing'/> up to +10%] [<img src='/class-icons/other/zero/armor-split.png' alt='Skill Armor Split'/> up to +50% from debuff]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/long-sword-mastery.png' alt='Skill Long Sword Mastery'/> +30%]</div>",
-                "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/other/zero/divine-force.png' alt='Skill Divine Force'/> 10 while active]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/reinforce-body.png' alt='Skill Reinforce Body'/> 10]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/solid-body.png' alt='Skill Solid Body'/> 40]</div>"
+                "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/other/zero/divine-aura.png' alt='Skill Divine Aura'/> 10 while active]<div style='text-indent: 40px'/><strong>[Alpha]</strong>: [<img src='/class-icons/other/zero/reinforce-body.png' alt='Skill Reinforce Body'/> 10]</div><div style='text-indent: 40px'/><strong>[Beta]</strong>: [<img src='/class-icons/other/zero/solid-body.png' alt='Skill Solid Body'/> 40]</div>"
             ]
         ],
         "buffInfo": {
             "active": "<img src='/class-icons/other/zero/rhinnes-protection.png' alt='Skill Rhinne's Protection'/>",
-            "toggles": "[ <img src='/class-icons/other/zero/divine-force.png' alt='Skill Divine Force'/> / <img src='/class-icons/other/zero/divine-speed.png' alt='Skill Divine Speed'/> ]",
+            "toggles": "<img src='/class-icons/other/zero/divine-aura.png' alt='Skill Divine Aura'/>",
             "summons": "<img src='/class-icons/other/zero/time-distortion.png' alt='Skill Time Distortion'/>(240s cd)",
             "buffCd": "<img src='/class-icons/other/zero/time-holding.png' alt='Skill Time Holding'/>(180s cd), <img src='/class-icons/other/zero/rewind.png' alt='Skill Rewind'/>(1800s cd)",
             "buffFifth": "<img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/>(180s cd), <img src='/class-icons/other/zero/transcendent-rhinnes-prayer.png' alt='Skill Transcendent Rhinne's Prayer'/>(240s cd), <img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/>(240s cd)",
@@ -124,30 +124,13 @@
                     "type": "Active"
                 },
                 {
-                    "id": 100001263,
-                    "name": "Divine Force",
-                    "shortDesc": "Time Force Cost: 20, Attack Power: +20, Magic ATT: +20, DEF: +500, Elemental Resistance: +10%, and all Abnormal Status Resistance: +10",
-                    "maxLevel": 1,
-                    "icons": ["/class-icons/other/zero/divine-force.png"],
-                    "animations": ["https://media4.giphy.com/media/fdVRSWBgKut3QCghGR/giphy.gif"],
-                    "type": "Toggle Party Buff",
-                    "desc": "",
-                    "details": [
-                        "Does not stack with <img src='/class-icons/other/zero/divine-speed.png' alt='Skill Divine Speed'/>"
-                    ]
-                },
-                {
                     "id": 100001264,
-                    "name": "Divine Speed",
-                    "shortDesc": "Time Force Cost: 20, Speed: +20, Jump: +10, Attack Speed: +1",
+                    "name": "Divine Aura",
+                    "shortDesc": "Time Force Cost: 20, Attack Power: +20, Magic ATT: +20, Attack Speed: +1, Speed: +20, Jump: +10, Defense: +500, All Elemental Resistance: +10%, and All Abnormal Status Resistance: +10%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/other/zero/divine-speed.png"],
-                    "animations": ["https://media0.giphy.com/media/GUxGdwRqwnn52fXp3Q/giphy.gif"],
-                    "type": "Toggle Party",
-                    "desc": "",
-                    "details": [
-                        "Does not stack with <img src='/class-icons/other/zero/divine-force.png' alt='Skill Divine Force'/>"
-                    ]
+                    "icons": ["/class-icons/other/zero/divine-aura.png"],
+                    "animations": ["https://media.giphy.com/media/uM3AYubWRHGHKbU3Em/giphy.gif"],
+                    "type": "Toggle Party Buff"
                 },
                 {
                     "id": 100001265,

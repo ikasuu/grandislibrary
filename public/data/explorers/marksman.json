@@ -17,7 +17,7 @@
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/explorers/marksman/evasion-boost.png' alt='Skill Evasion Boost'/> Evasion Boost buff, Link Skills, and buffs with long cooldowns",
             [
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Critical Shot (1st Job)'><img src='/class-icons/explorers/archer/critical-shot.png' alt='Skill Critical Shot'/></span> +40%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +20%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Reckless Hunt (3rd Job)'><img src='/class-icons/explorers/marksman/reckless-hunt.png' alt='Skill Reckless Hunt'/></span> +20% while toggled] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%] [<span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/explorers/marksman/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +15%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Reckless Hunt (3rd Job)'><img src='/class-icons/explorers/marksman/reckless-hunt.png' alt='Skill Reckless Hunt'/></span> +20%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%] [<span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/explorers/marksman/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +15%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Marksmanship (3rd Job)'><img src='/class-icons/explorers/marksman/marksmanship.png' alt='Skill Marksmanship'/></span> +15%]",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Crossbow Mastery (2nd Job)'><img src='/class-icons/explorers/marksman/crossbow-mastery.png' alt='Skill Crossbow Mastery'/></span> +20%] [<span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> +8% & +4% from buff] [<span data-tooltip='Bolt Surplus (4th Job)'><img src='/class-icons/explorers/marksman/bolt-surplus.png' alt='Skill Bolt Surplus'/></span> +15%] [<span data-tooltip='Last Man Standing (4th Job)'><img src='/class-icons/explorers/marksman/last-man-standing.png' alt='Skill Last Man Standing'/></span> +10%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
@@ -28,7 +28,6 @@
         ],
         "buffInfo": {
             "active": "<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
-            "toggles": "<span data-tooltip='Reckless Hunt (3rd Job)'><img src='/class-icons/explorers/marksman/reckless-hunt.png' alt='Skill Reckless Hunt Crossbow'/></span>",
             "summons": "<span data-tooltip='Frostprey (3rd Job)'><img src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/></span> <span data-tooltip='Blink Bolt (3rd Job)'><img src='/class-icons/explorers/marksman/blink-bolt.png' alt='Skill Blink Bolt'/></span>(120s cd) <span data-tooltip='Arrow Illusion (4th Job)'><img src='/class-icons/explorers/marksman/arrow-illusion.png' alt='Skill Arrow Illusion'/></span> <span data-tooltip='Fury of the Wild (5th Job)'><img src='/class-icons/5th-job/fury-of-the-wild.png' alt='Skill Fury of the Wild'/></span>(120 - 105s cd) <span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)",
             "buffCd": "<span data-tooltip='Bullseye Shot (Hyper Skill)'><img src='/class-icons/explorers/marksman/bullseye-shot.png' alt='Skill Bullseye Shot'/></span>(90s cd) <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/archer/epic-adventure.png' alt='Skill Epic Adventure'/></span>(120s cd)",
             "buffFifth": "<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>(120s cd)",
@@ -317,8 +316,7 @@
                         "shortDesc": "Reduces Avoidability. Critical Damage: +20%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/marksman/reckless-hunt.png"],
-                        "type": "Toggle Buff",
-                        "desc": "When toggled, reduces %Avoidability but increases %Crit Damage"
+                        "type": "Passive"
                     },
                     {
                         "id": 3210001,

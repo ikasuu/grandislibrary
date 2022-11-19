@@ -29,7 +29,7 @@
         ],
         "buffInfo": {
             "active": "<span data-tooltip='Photic Meditation (3rd Job)'><img src='/class-icons/heroes/luminous/photic-meditation.png' alt='Skill Photic Meditation'/></span> <span data-tooltip='Arcane Pitch (4th Job)'><img src='/class-icons/heroes/luminous/arcane-pitch.png' alt='Skill Arcane Pitch'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
-            "toggles": "<span data-tooltip='Black Blessing (2nd Job)'><img src='/class-icons/heroes/luminous/black-blessing.png' alt='Skill Black Blessing'/></span> <span data-tooltip='Light Speed Boost (3rd Job)'><img src='/class-icons/heroes/luminous/light-speed-boost.png' alt='Skill Light Speed Boost'/></span>",
+            "toggles": "<span data-tooltip='Light Speed Boost (3rd Job)'><img src='/class-icons/heroes/luminous/light-speed-boost.png' alt='Skill Light Speed Boost'/></span> <span data-tooltip='Equilibrium Liberation (3rd Job)'><img src='/class-icons/heroes/luminous/equilibrium-liberation.png' alt='Skill Equilibrium Liberation'/></span>",
             "summons": "<span data-tooltip='Morning Star (4th Job)'><img src='/class-icons/heroes/luminous/morning-star.png' alt='Skill Morning Star'/></span>(5s cd) <span data-tooltip='Gate of Light (5th Job)'><img src='/class-icons/heroes/luminous/gate-of-light.png' alt='Skill Gate of Light'/></span>(Usable only in Equilibrium) <span data-tooltip='Aether Conduit (5th Job)'><img src='/class-icons/heroes/luminous/aether-conduit.png' alt='Skill Aether Conduit'/></span>(30s cd) <span data-tooltip='Liberation Orb (5th Job)'><img src='/class-icons/heroes/luminous/liberation-orb.png' alt='Skill Liberation Orb'/></span>(180s cd)",
             "buffCd": "<span data-tooltip='Shadow Shell (3rd Job)'><img src='/class-icons/heroes/luminous/shadow-shell.png' alt='Skill Shadow Shell'/></span>(240s cd) <span data-tooltip='Equalize (Hyper Skill)'><img src='/class-icons/heroes/luminous/equalize.png' alt='Skill Equalize'/></span>(150s cd) <span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/luminous/heroic-memories.png' alt='Skill Heroic Memories (Luminous)'/></span>(120s cd)",
             "buffFifth": "<span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>(240s cd) <span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>(180s cd) <span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(60s cd)",
@@ -246,15 +246,10 @@
                     {
                         "id": 27100003,
                         "name": "Black Blessing",
-                        "shortDesc": "Creates a dark orb to protect you from all attacks for 3 sec. If you take damage, one orb of darkness will break and absorb 70% of damage.\\n[Boost to Magic Attack when orbs are accumulated]\\n1 orb: +15 Magic Attack\\n2 orbs: +24 Magic Attack\\n3 orbs: +30 Magic Attack",
+                        "shortDesc": "Magic ATT: +30, Damage Taken: -50%.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/luminous/black-blessing.png"],
-                        "animations": ["https://media3.giphy.com/media/YEwmxSErpmJkI4UMBq/giphy.gif"],
-                        "type": "Toggle Passive",
-                        "desc": "Periodically while in combat, creates orbs around you that absorb a portion of damage taken",
-                        "details": [
-                            "Based on how many orbs you have active, you gain increased Magic Attack (max 3 orbs)"
-                        ]
+                        "type": "Passive"
                     },
                     {
                         "id": 27101004,
@@ -376,6 +371,18 @@
                         "icons": ["/class-icons/heroes/luminous/light-speed-boost.png"],
                         "type": "Toggle Buff",
                         "desc": "While toggled, increases the horizontal teleport distance of <span data-tooltip='Light Speed (1st Job)'><img src='/class-icons/heroes/luminous/light-speed.png' alt='Skill Light Speed'/></span>"
+                    },
+                    {
+                        "id": 27111009,
+                        "name": "Equilibrium Liberation",
+                        "shortDesc": "Upon activation, Equilibrium does not trigger automatically when the light/dark gauge is full of the opposing element.\\nInstead, it enters the delay state where Equilibrium is triggered upon successfully landing the Equilibrium skill.\\nEven if Equilibrium Liberation is deactivated, you can only trigger Equilibrium when you land the Equilibrium skill if you're in delay state\\nCooldown: 3 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/heroes/luminous/equilibrium-liberation.png"],
+                        "type": "Toggle Active",
+                        "desc": "While toggled, you will not enter Equilibrium or switch light/dark modes unless you successfully land an Equilibrium attack",
+                        "details": [
+                            "If you toggle Equilibrium Liberation off while you are in this delayed state, you will not automatically enter Equilibrium until you successfully land an Equilibrium attack"
+                        ]
                     }]
                 ],
                 [

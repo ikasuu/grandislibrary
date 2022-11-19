@@ -18,7 +18,7 @@
             [
                 "<strong>Attack</strong>: [<span data-tooltip='Call of the Wild (2nd Job)'><img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/></span> +10%] [<span data-tooltip='Feline Berserk (3rd Job)'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span> +20%]",
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Nature&#39;s Wrath (1st Job)'><img src='/class-icons/resistance/wild-hunter/natures-wrath.png' alt='Skill Natures Wrath'/></span> +25%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +20%] [<span data-tooltip='Jaguar Link (3rd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/></span> up to +18%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%] [<span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/resistance/wild-hunter/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +20%] [<span data-tooltip='Jaguar Link (3rd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/></span> up to +12%] [<span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> +8% while unmounted]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> +8%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%] [<span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/resistance/wild-hunter/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +20%] [<span data-tooltip='Jaguar Link (3rd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/></span> up to +12%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Crossbow Mastery (2nd Job)'><img src='/class-icons/resistance/wild-hunter/crossbow-mastery.png' alt='Skill Crossbow Mastery'/></span> +10%]",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Feline Berserk (3rd Job)'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span> +10%] [<span data-tooltip='Extended Magazine (4th Job)'><img src='/class-icons/resistance/wild-hunter/extended-magazine.png' alt='Skill Extended Magazine'/></span> +20%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Jaguar Mastery (2nd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-mastery.png' alt='Skill Jaguar Mastery'/></span> +50%] [<span data-tooltip='Natural Force (4th Job)'><img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/></span> +50%] [<span data-tooltip='Jaguar Rider (1st Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/></span> +50% while mounted]",
@@ -213,7 +213,7 @@
                     {
                         "id": 33001007,
                         "name": "Summon Jaguar",
-                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 6, Damage of Summoned Jaguar: 140% + 1% per character level. Debuff Chance: 15%, Max Stacks: 3, Duration: 15 sec\\nAnother Bite: [Final Attack Type Skill] Crossbow-Type Skills - Damage against Debuffed Enemies: 60% per stack + 1% for every 3 player levels.\\nCritical Damage of Summoned Jaguar: +8%, Abnormal Status Resistance: +30.\\nCooldown: 1 sec.",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 6, Damage of Summoned Jaguar: 170%. Debuff Chance: 15%, Max Stacks: 3, Duration: 15 sec\\nAnother Bite: [Final Attack Type Skill] Crossbow-Type Skills - Damage against Debuffed Enemies: 70%.\\nCooldown: 1 sec.\\n[Passive Effect - Critical Damage of Summoned Jaguar: +8%, Abnormal Status Resistance: +30",
                         "maxLevel": 1,
                         "icons": ["/class-icons/resistance/wild-hunter/summon-jaguar.png"],
                         "animations": ["https://media0.giphy.com/media/Vk32HTYng2umG26AN6/giphy.gif"],
@@ -221,8 +221,8 @@
                         "desc": "Summons your Jaguar to fight with you",
                         "details": [
                             "<strong>[Final Attack Debuff]</strong>: When Jaguar attacks, there is a chance to apply a stacking debuff called <strong>'Another Bite'</strong> that causes your Crossbow skills to deal an extra attack",
+                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage and Abnormal Status Resistance",
                             "If your Jaguar is already summoned, you can use this skill again to mount onto it",
-                            "When Jaguar is summoned you will gain increased %Crit Damage and Abnormal Status Resistance",
                             "While summoned, pressing the Down Arrow Key and Skill Key together fixes Jaguar in place and attacks nearby enemies",
                             "Prioritizes bosses with highest HP within range first"
                         ]

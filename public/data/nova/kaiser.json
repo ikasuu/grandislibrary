@@ -28,7 +28,7 @@
         ],
         "buffInfo": {
             "active": "<span data-tooltip='Blaze On (2nd Job)'><img src='/class-icons/nova/kaiser/blaze-on.png' alt='Skill Blaze On'/></span> <span data-tooltip='Cursebite (3rd Job)'><img src='/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/></span> <span data-tooltip='Final Form (3rd Job)'><img src='/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>(Transform) <span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/kaiser/nova-warrior.png' alt='Skill Nova Warrior'/></span>",
-            "toggles": "[ <span data-tooltip='Realign: Defender Mode (Beginner Skill)'><img src='/class-icons/nova/kaiser/realign-defender-mode.png' alt='Skill Realign Defender Mode'/></span> / <span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/></span> ]",
+            "toggles": "[ <span data-tooltip='Realign: Defender Mode (Beginner Skill)'><img src='/class-icons/nova/kaiser/realign-defender-mode.png' alt='Skill Realign Defender Mode'/></span> / <span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/></span> ] <span data-tooltip='Tempest Blades (2nd Job)'><img src='/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span>",
             "summons": "<span data-tooltip='Stone Dragon (3rd Job)'><img src='/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/></span> <span data-tooltip='Nova Guardians (5th Job)'><img src='/class-icons/nova/kaiser/nova-guardians.png' alt='Skill Nova Guardians'/></span>(120s cd)",
             "buffCd": "<span data-tooltip='Grand Armor (4th Job)'><img src='/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor'/></span>(120s cd) <span data-tooltip='Kaiser&#39;s Majesty (Hyper Skill)'><img src='/class-icons/nova/kaiser/kaisers-majesty.png' alt='Skill Kaiser's Majesty'/></span>(90s cd)",
             "buffFifth": "<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>(180s cd) <span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/></span>(240s cd) <span data-tooltip='Might of the Nova (5th Job)'><img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>(1200s cd) <span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>(240s cd)",
@@ -254,16 +254,25 @@
                     {
                         "id": 61101002,
                         "name": "Tempest Blades",
-                        "shortDesc": "MP Cost: 30, Swords Summoned: 3. Use the skill again after summoning to send the swords at the enemy and deal 300% damage with 3 attacks.\\nCooldown: 10 sec\\nFinal Form: Number of Attacks: +1",
+                        "shortDesc": "MP Cost: 30, Swords Summoned: 3 per 3 sec\\nUse Tempest Blades: Charge after summoning to send the swords at the enemy and deal 300% damage with 3 attacks.\\nFinal Form: Number of Attacks: +1",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/kaiser/tempest-blades.png"],
                         "animations": ["https://media4.giphy.com/media/1LA9MUMwL0tK8ZBg7M/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Summons swords that hover above your head",
+                        "type": "Toggle Summon",
+                        "desc": "While toggled, periodically summons swords that hover above your head",
                         "details": [
-                            "Pressing the Skill Key again causes the swords to seek out enemies in range",
+                            "Activate the swords to strike nearby enemies by using <span data-tooltip='Tempest Blades: Charge (2nd Job)'><img src='/class-icons/nova/kaiser/tempest-blades-charge.png' alt='Skill Tempest Blades: Charge'/></span>",
                             "Prioritizes enemies with the highest Max HP first"
                         ]
+                    },
+                    {
+                        "id": 61101009,
+                        "name": "Tempest Blades: Charge",
+                        "shortDesc": "MP Cost: 30, Discharges the swords summoned by Tempest Blades.\\nCooldown: 10 sec",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/nova/kaiser/tempest-blades-charge.png"],
+                        "type": "Active",
+                        "desc": "Activate swords summoned by <span data-tooltip='Tempest Blades (2nd Job)'><img src='/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span> to seek out nearby enemies"
                     },
                     {
                         "id": 61101004,

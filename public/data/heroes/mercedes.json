@@ -30,7 +30,8 @@
         ],
         "buffInfo": {
             "active": "<span data-tooltip='Ancient Warding (4th Job)'><img src='/class-icons/heroes/mercedes/ancient-warding.png' alt='Skill Ancient Warding'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
-            "summons": "<span data-tooltip='Elemental Knights (3rd Job)'><img src='/class-icons/heroes/mercedes/elemental-knights.png' alt='Skill Elemental Knights'/></span>(120s cd) <span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)",
+            "toggles": "<span data-tooltip='Elemental Knights (3rd Job)'><img src='/class-icons/heroes/mercedes/elemental-knights.png' alt='Skill Elemental Knights'/></span>",
+            "summons": "<span data-tooltip='Elemental Knights (3rd Job)'><img src='/class-icons/heroes/mercedes/elemental-knights.png' alt='Skill Elemental Knights'/></span>(Toggle | 120s cd) <span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)",
             "buffCd": "<span data-tooltip='Elvish Blessing (Hyper Skill)'><img src='/class-icons/heroes/mercedes/elvish-blessing.png' alt='Skill Elvish Blessing'/></span>(180s cd) <span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/mercedes/heroic-memories.png' alt='Skill Heroic Memories'/></span>(120s cd) <span data-tooltip='Spirit of Elluel (5th Job)'><img src='/class-icons/heroes/mercedes/spirit-of-elluel.png' alt='Skill Spirit of Elluel'/></span>(180s cd) <span data-tooltip='Royal Knights (5th Job)'><img src='/class-icons/heroes/mercedes/royal-knights.png' alt='Skill Royal Knights'/></span>(180s cd)",
             "buffFifth": "<span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>(240s cd) <span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>(180s cd) <span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>(120s cd)",
             "iFrame": "<span data-tooltip='Water Shield (3rd Job)'><img src='/class-icons/heroes/mercedes/water-shield.png' alt='Skill Water Shield'/></span>(70s cd) <span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>(240s cd)",
@@ -336,10 +337,11 @@
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/mercedes/elemental-knights.png"],
                         "animations": ["https://media1.giphy.com/media/vps8eo1J5lerGP7pzD/giphy.gif"],
-                        "type": "Summon",
-                        "desc": "Summons an Elemental Knight to fight by your side",
+                        "type": "Toggle Summon",
+                        "desc": "While toggled, summon an Elemental Knight to fight by your side",
                         "details": [
                             "There are 3 possible spirits that can be summoned<ul><li><strong>[Ice Spirit]: </strong>Has a chance to freeze enemies</li><li><strong>[Fire Spirit]: </strong>Attacks apply a burn effect to enemies</li><li><strong>[Shadow Spirit]</strong>: Attacks deal increased damage</li></ul>",
+                            "When triggered, a cooldown will occur before another spirit can be summoned",
                             "Unaffected by Damage Reflect"
                         ]
                     },
