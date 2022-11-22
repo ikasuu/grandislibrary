@@ -63,8 +63,7 @@
             "details": [
                 "All 1st to 4th Job skills can be maxed",
                 "Put one SP into each skill first and then max each skill in this order",
-                "For any skills that have prerequisites, follow them first before following build path",
-                "To obtain <img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
+                "For any skills that have prerequisites, follow them first before following build path"
             ]
         },
         "hyperBuild": {
@@ -95,12 +94,12 @@
                 "Beginner", [{
                     "id": 10001244,
                     "name": "Elemental Slash",
-                    "shortDesc": "MP Cost: 0, Damage: 130%, Number of Attacks: 1, Max Enemies Hit: 3",
+                    "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/elemental-slash.png"],
-                    "animations": ["https://media.giphy.com/media/WHwWSUAbcwH1ZevbjG/giphy.gif"],
+                    "animations": ["https://media1.giphy.com/media/5irbTpJkg7qZanOLzB/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Strikes forward hitting multiple enemies"
+                    "desc": "Strikes forward damaging multiple enemies"
                 },
                 {
                     "id": 10001245,
@@ -110,6 +109,18 @@
                     "icons": ["/class-icons/cygnus-knights/imperial-recall.png"],
                     "animations": ["https://media.giphy.com/media/9akWc5fAE8AUxAGIZP/giphy.gif"],
                     "type": "Active"
+                },
+                {
+                    "id": 10000246,
+                    "name": "Noble Mind",
+                    "shortDesc": "Increases Empress's Blessing max level by 6",
+                    "maxLevel": 6,
+                    "icons": ["/class-icons/cygnus-knights/noble-mind.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing quests from Neinheart after Lv. 120"
+                    ]
                 },
                 {
                     "id": 10000249,
@@ -138,6 +149,21 @@
                     "details": [
                         "Can be activated by pressing jump twice",
                         "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump"
+                    ]
+                },
+                {
+                    "id": 10001244,
+                    "name": "Echo of Hero",
+                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players",
+                        "Has a cooldown (2 hrs)"
                     ]
                 }]
             ],
@@ -438,11 +464,7 @@
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/call-of-cygnus.png"],
                     "animations": ["https://media.giphy.com/media/I0hvGdl5m1WI8lebjk/giphy.gif"],
-                    "type": "Party Buff",
-                    "desc": "",
-                    "details": [
-                        "To obtain <img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete the quest 'The Alliance Gathers' at Lv. 120"
-                    ]
+                    "type": "Party Buff"
                 },
                 {
                     "id": 11121000,

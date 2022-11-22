@@ -58,8 +58,7 @@
             "details": [
                 "All 1st to 4th Job skills can be maxed",
                 "Put one SP into each skill first and then max each skill in this order",
-                "For any skills that have prerequisites, follow them first before following build path",
-                "To obtain <img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete a series of quests in 4th Job"
+                "For any skills that have prerequisites, follow them first before following build path"
             ]
         },
         "hyperBuild": {
@@ -104,6 +103,21 @@
                     "details": [
                         "For %Max HP attacks, reduces the amount of damage taken",
                         "Can be found in the <img src='/class-icons/link-skills/link-manager.png' alt='Skill Link Manager'/> Link Manager<ul><li>Skill is only applicable to Mihile, when linked, characters receive a %Knockback Resistance buff instead</li></ul>"
+                    ]
+                },
+                {
+                    "id": 10001244,
+                    "name": "Echo of Hero",
+                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players",
+                        "Has a cooldown (2 hrs)"
                     ]
                 }]
             ],
@@ -438,11 +452,7 @@
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/call-of-cygnus.png"],
                     "animations": ["https://media4.giphy.com/media/ttbYsfm6dsdZ0ZHrzk/giphy.gif"],
-                    "type": "Party Buff",
-                    "desc": "",
-                    "details": [
-                        "To obtain <img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/> Call of Cygnus, you need to complete the quest 'The Alliance Gathers' at Lv. 120 from Neinheart in Ereve"
-                    ]
+                    "type": "Party Buff"
                 },
                 {
                     "id": 11121000,
