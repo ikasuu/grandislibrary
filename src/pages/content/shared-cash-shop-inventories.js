@@ -68,7 +68,7 @@ function SharedCashShopInventory() {
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
                     <StyledTd style={{color: 'black'}}/>
-                    <StyledTd style={{color: 'black'}}>Jett / Zen</StyledTd>
+                    <StyledTd style={{color: 'black'}}>Jett</StyledTd>
                 </ClassBlock>
                 <ClassBlock>
                     <StyledTd style={{color: 'black'}}/>
