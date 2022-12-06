@@ -13,26 +13,28 @@
         ],
         "innerAbility": ["Boss Damage +20%", "Buff Duration +38%", "Crit Rate +20%"],
         "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
+            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
-                "<strong>Attack</strong>: [<img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/> +10%]",
-                "<strong>Crit Rate</strong>: [<img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/> +30%] [<img src='/class-icons/cygnus-knights/blaze-wizard/natural-talent.png' alt='Skill Natural Talent'/> +5% when wand is equipped]",
-                "<strong>Crit Damage</strong>: [<img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/> +20%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/> +30%] [<img src='/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic'/> +50%]",
+                "<strong>Attack</strong>: [<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%]",
+                "<strong>Crit Rate</strong>: [<span data-tooltip='Burning Focus (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/></span> +30%] [<span data-tooltip='Natural Talent (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/natural-talent.png' alt='Skill Natural Talent'/></span> +5% when wand is equipped]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Burning Focus (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/></span> +20%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Liberated Magic (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/></span> +30%] [<span data-tooltip='Pure Magic (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic'/></span> +50%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
-                "<strong>Ignore DEF</strong>: [<img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> +30%]",
-                "<strong>Knockback Resistance</strong>: [<img src='/class-icons/cygnus-knights/blaze-wizard/brilliant-enlightenment.png' alt='Skill Brilliant Enlightenment'/> +40%] [<img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/> +60%]",
-                "<strong>Ignore Elemental Resistance</strong>: [<img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> +10%]",
-                "<strong>Abnormal Status Resistance</strong>: [<img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/> 30]"
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Fires of Creation (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span> +30%]",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Brilliant Enlightenment (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/brilliant-enlightenment.png' alt='Skill Brilliant Enlightenment'/></span> +40%] [<span data-tooltip='Wild Blaze (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/></span> +60%]",
+                "<strong>Ignore Elemental Resistance</strong>: [<span data-tooltip='Final Orbital Flame - Fox Mode (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame-3.png' alt='Skill Final Orbital Flame'/> +10% from debuff]",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Wild Blaze (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/></span> 30] [<span data-tooltip='Cygnus Blessing (Link Skill)'><img src='/class-icons/link-skills/cygnus-blessing.png' alt='Skill Cygnus Blessing'/></span> up to 15]"
             ]
         ],
         "buffInfo": {
-            "active": "<img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/>, <img src='/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png' alt='Skill Word of Fire'/>, <img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/>",
-            "summons": "<img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/>(5s cd), <img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/>(45s cd), <img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/>(30s cd), <img src='/class-icons/cygnus-knights/blaze-wizard/salamander-mischief.png' alt='Skill Salamander Mischief'/>(90s cd)",
-            "buffCd": "<img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/>(1800s cd), <img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/>(5s cd), <img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/>(45s cd), <img src='/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png' alt='Skill Flame Barrier'/>(90s cd), <img src='/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png' alt='Skill Glory of the Guardians (Dawn Warrior)'/>(120s cd)",
-            "buffFifth": "<img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/>(59 - 30s cd), <img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>(240s cd), <img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd)",
-            "iFrame": "<img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/>(1800s cd revive), <img src='/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/>(100s cd), <img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/>(60s cd)",
-            "damageReduce": "<img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/>(-5% | 240s cd)"
+            "active": "<span data-tooltip='Call of Cygnus (4th Job)'><img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/></span> <span data-tooltip='Fires of Creation (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span>",
+            "toggles": "<span data-tooltip='Orbital Explosion (2nd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-explosion.png' alt='Skill Orbital Explosion'/></span>",
+            "summons": "<span data-tooltip='Blazing Extinction (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/></span>(5s cd) <span data-tooltip='Burning Conduit (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/></span>(45s cd) <span data-tooltip='Salamander Mischief (5th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/salamander-mischief.png' alt='Skill Salamander Mischief'/></span>(90s cd) <span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>(30s cd)",
+            "buffCd": "<span data-tooltip='Phoenix Run (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/></span>(1800s cd) <span data-tooltip='Burning Conduit (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/></span>(45s cd) <span data-tooltip='Flame Barrier (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png' alt='Skill Flame Barrier'/></span>(180s cd) <span data-tooltip='Phoenix Drive (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png' alt='Skill Phoenix Drive'/></span> <span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>(120s cd)",
+            "buffFifth": "<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(59 - 30s cd) <span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/></span>(240s cd) <span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(60s cd)",
+            "binds": "<span data-tooltip='Cinder Maelstrom (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png' alt='Skill Cinder Maelstrom'/></span>(180s cd)",
+            "iFrame": "<span data-tooltip='Phoenix Run (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/></span>(1800s cd revive) <span data-tooltip='Cataclysm (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/></span>(100s cd) <span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>(60s cd)",
+            "damageReduce": "<span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>(-5% | 240s cd)"
         },
         "linkSkill": {
                 "id": 80000055,
@@ -53,10 +55,10 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<img src='/class-icons/cygnus-knights/blaze-wizard/natural-talent.png' alt='Skill Natural Talent'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/fire-repulsion.png' alt='Skill Fire Repulsion'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/firewalk.png' alt='Skill Firewalk'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/flame-elemental.png' alt='Skill Flame Elemental'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/flame-bite.png' alt='Skill Flame Bite'/>"],
-                ["2nd Job", "<img src='/class-icons/cygnus-knights/blaze-wizard/flashfire.png' alt='Skill Flashfire'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/spell-control.png' alt='Skill Spell Control'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png' alt='Skill Word of Fire'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/greater-flame-elemental.png' alt='Skill Greater Flame Elemental'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/controlled-burn.png' alt='Skill Controlled Burn'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/greater-orbital-flame.png' alt='Skill Greater Orbital Flame'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/flame-vortex.png' alt='Skill Flame Vortex'/>"],
-                ["3rd Job", "<img src='/class-icons/cygnus-knights/blaze-wizard/brilliant-enlightenment.png' alt='Skill Brilliant Enlightenment'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='Skill Burning Focus'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/grand-flame-elemental.png' alt='Skill Grand Flame Elemental'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png' alt='Skill Cinder Maelstrom'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame.png' alt='Skill Grand Orbital Flame'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png' alt='Skill Flame Tempest'/>"],
-                ["4th Job", "<img src='/class-icons/cygnus-knights/blaze-wizard/final-flame-elemental.png' alt='Skill Final Flame Elemental'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame.png' alt='Skill Final Orbital Flame'/> -> <img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png' alt='Skill Flame Barrier'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno'/> -> <img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/>"]
+                ["1st Job", "<span data-tooltip='Natural Talent'><img src='/class-icons/cygnus-knights/blaze-wizard/natural-talent.png' alt='Skill Natural Talent'/></span> -> <span data-tooltip='Fire Repulsion'><img src='/class-icons/cygnus-knights/blaze-wizard/fire-repulsion.png' alt='Skill Fire Repulsion'/></span> -> <span data-tooltip='Firewalk'><img src='/class-icons/cygnus-knights/blaze-wizard/firewalk.png' alt='Skill Firewalk'/></span> -> <span data-tooltip='Flame Elemental'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-elemental.png' alt='Skill Flame Elemental'/></span> -> <span data-tooltip='Orbital Flame'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/></span> -> <span data-tooltip='Flame Bite'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-bite.png' alt='Skill Flame Bite'/></span>"],
+                ["2nd Job", "<span data-tooltip='Flashfire'><img src='/class-icons/cygnus-knights/blaze-wizard/flashfire.png' alt='Skill Flashfire'/></span> -> <span data-tooltip='Spell Control'><img src='/class-icons/cygnus-knights/blaze-wizard/spell-control.png' alt='Skill Spell Control'/></span> -> <span data-tooltip='Word of Fire'><img src='/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png' alt='Skill Word of Fire'/></span> -> <span data-tooltip='Greater Flame Elemental'><img src='/class-icons/cygnus-knights/blaze-wizard/greater-flame-elemental.png' alt='Skill Greater Flame Elemental'/></span> -> <span data-tooltip='Controlled Burn'><img src='/class-icons/cygnus-knights/blaze-wizard/controlled-burn.png' alt='Skill Controlled Burn'/></span> -> <span data-tooltip='Orbital Explosion'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-explosion.png' alt='Skill Orbital Explosion'/></span> -> <span data-tooltip='Greater Orbital Flame'><img src='/class-icons/cygnus-knights/blaze-wizard/greater-orbital-flame.png' alt='Skill Greater Orbital Flame'/></span> -> <span data-tooltip='Flame Vortex'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-vortex.png' alt='Skill Flame Vortex'/></span>"],
+                ["3rd Job", "<span data-tooltip='Brilliant Enlightenment'><img src='/class-icons/cygnus-knights/blaze-wizard/brilliant-enlightenment.png' alt='Skill Brilliant Enlightenment'/></span> -> <span data-tooltip='Burning Focus'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='Skill Burning Focus'/></span> -> <span data-tooltip='Grand Flame Elemental'><img src='/class-icons/cygnus-knights/blaze-wizard/grand-flame-elemental.png' alt='Skill Grand Flame Elemental'/></span> -> <span data-tooltip='Liberated Magic'><img src='/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/></span> -> <span data-tooltip='Phoenix Run'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/></span> -> <span data-tooltip='Cinder Maelstrom'><img src='/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png' alt='Skill Cinder Maelstrom'/></span> -> <span data-tooltip='Grand Orbital Flame'><img src='/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame.png' alt='Skill Grand Orbital Flame'/></span> -> <span data-tooltip='Flame Tempest'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png' alt='Skill Flame Tempest'/></span>"],
+                ["4th Job", "<span data-tooltip='Final Flame Elemental'><img src='/class-icons/cygnus-knights/blaze-wizard/final-flame-elemental.png' alt='Skill Final Flame Elemental'/></span> -> <span data-tooltip='Pure Magic'><img src='/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic'/></span> -> <span data-tooltip='Final Orbital Flame'><img src='/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame.png' alt='Skill Final Orbital Flame'/></span> -> <span data-tooltip='Call of Cygnus'><img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/></span> -> <span data-tooltip='Fires of Creation'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span> -> <span data-tooltip='Flame Barrier'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png' alt='Skill Flame Barrier'/></span> -> <span data-tooltip='Wild Blaze'><img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/></span> -> <span data-tooltip='Burning Conduit'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/></span> -> <span data-tooltip='Towering Inferno'><img src='/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno'/></span> -> <span data-tooltip='Blazing Extinction'><img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/></span>"]
             ],
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -65,11 +67,11 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame-range.png' alt='Skill Orbital Flame - Range'/> <img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame-guardbreak.png' alt='Skill Orbital Flame - Guardbreak'/> <img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame-split-attack.png' alt='Skill Orbital Flame - Split Attack'/> Orbital Flame - Range, Guard Break and Split Attack</li><li><img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-reinforce.png' alt='Skill Blazing Extinction - Reinforce'/> <img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-add-attack.png' alt='Skill Blazing Extinction - Add Attack'/> Blazing Extinction - Reinforce and Add Attack</li></ul>" 
+            "recommended": "<ul><li><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame-range.png' alt='Skill Orbital Flame - Range'/> <img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame-guardbreak.png' alt='Skill Orbital Flame - Guardbreak'/> <img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame-split-attack.png' alt='Skill Orbital Flame - Split Attack'/> Orbital Flame - Range, Guard Break and Split Attack</li><li><img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-add-attack.png' alt='Skill Blazing Extinction - Add Attack'/> Blazing Extinction - Add Attack</li><li><img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-reinforce.png' alt='Skill Blazing Extinction - Reinforce'/> / <img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-spread.png' alt='Skill Blazing Extinction - Spread'/> Blazing Extinction - Reinforce OR Blazing Extinction - Spread</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/> <img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/> <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> <img src='/class-icons/cygnus-knights/blaze-wizard/dragon-blaze.png' alt='Skill Dragon Blaze'/> <img src='/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno'/> <img src='/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/>",
-            "possible": "<img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/> <img src='/class-icons/cygnus-knights/blaze-wizard/flame-bite.png' alt='Skill Flame Bite'/> <img src='/class-icons/cygnus-knights/blaze-wizard/flame-vortex.png' alt='Skill Flame Vortex'/> <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> <img src='/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png' alt='Skill Flame Tempest'/> <img src='/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png' alt='Skill Cinder Maelstrom'/> <img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/> <img src='/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno'/> <img src='/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/> <img src='/class-icons/cygnus-knights/blaze-wizard/dragon-blaze.png' alt='Skill Dragon Blaze'/>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Orbital Flame (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/></span> <span data-tooltip='Phoenix Drive (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png' alt='Skill Phoenix Drive'/></span> <span data-tooltip='Blazing Extinction (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Cataclysm (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/></span> <span data-tooltip='Towering Inferno (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno'/></span> *</div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>The last skill from the Secondary Trio can be any skill as Blaze Wizard only has 5 skills to boost</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)</li></ul>",
+            "possible": "<span data-tooltip='Orbital Flame (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/></span> <span data-tooltip='Flame Bite (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-bite.png' alt='Skill Flame Bite'/></span> <span data-tooltip='Flame Vortex (2nd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-vortex.png' alt='Skill Flame Vortex'/></span> <span data-tooltip='Orbital Explosion (2nd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-explosion.png' alt='Skill Orbital Explosion'/></span> <span data-tooltip='Flame Tempest (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png' alt='Skill Flame Tempest'/></span> <span data-tooltip='Cinder Maelstrom (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png' alt='Skill Cinder Maelstrom'/></span> <span data-tooltip='Blazing Extinction (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/></span> <span data-tooltip='Towering Inferno (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno'/></span> <span data-tooltip='Cataclysm (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/></span> <span data-tooltip='Phoenix Drive (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png' alt='Skill Phoenix Drive'/></span>"
         },
         "moreInfo": [
             "http://maplestory.nexon.net/game/classes-and-jobs/2889/blaze-wizard",
@@ -78,8 +80,7 @@
         "specialThanks": "Special thanks to TajMaJon for their help in making this overview!",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu, TajMaJon"],
-            ["Hyper Passive Build", "Toasted_Ham"],
-            ["Boost Nodes Build + Inner Ability","Maple Central"]
+            ["Boost Nodes Build + Hyper Passive Build + Inner Ability","Maple Central"]
         ]
     },
     "skill": {
@@ -91,7 +92,7 @@
                     "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/elemental-slash.png"],
-                    "animations": ["https://media1.giphy.com/media/5irbTpJkg7qZanOLzB/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/rTDyr5N8XEXYkgcafb/giphy.gif"],
                     "type": "Attack",
                     "desc": "Strike forward damaging multiple enemies"
                 },
@@ -101,7 +102,7 @@
                     "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/imperial-recall.png"],
-                    "animations": ["https://media2.giphy.com/media/G6EPY8oodm94P6vkbO/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/KPyjeVg5rwyJrJONFk/giphy.gif"],
                     "type": "Active"
                 },
                 {
@@ -168,11 +169,11 @@
                         "shortDesc": "MP Cost: 24, Max Enemies Hit: 4, Damage: 200%, Number of Attacks: 1",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
-                        "animations": ["https://media0.giphy.com/media/FlQolrSTU0gt54hquW/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/W4zaZNmIQMxSURQoPJ/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Shoots a projectile which can be directed using the Arrow Keys",
+                        "desc": "Shoots a fireball which can be directed using the Arrow Keys",
                         "details": [
-                            "Initially, you can only shoot out one projectile"
+                            "Initially, you can only fire one fireball"
                         ]
                     }, 
                     {
@@ -181,9 +182,23 @@
                         "shortDesc": "MP Cost: 38, Max Enemies Hit: 4, Damage: 180%, Number of Attacks: 3",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/flame-bite.png"],
-                        "animations": ["https://media.giphy.com/media/KgDz9MooLKXQHiteCL/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/7eJH7tdT91YkPSBYjv/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Sends out a burst of flames forward"
+                        "desc": "Release a burst of flames forward"
+                    },
+                    {
+                        "id": 12000023,
+                        "name": "Firewalk",
+                        "shortDesc": "MP Cost: 12, Jump in the input direction.\\n[Passive Effect - Defense: +100]",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/cygnus-knights/blaze-wizard/firewalk.png", "/class-icons/cygnus-knights/elemental-shift.png"],
+                        "animations": ["https://media.giphy.com/media/qBpl0ksAwfKYI7yE1X/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "<strong>[Passive]</strong>: Grants flat DEF",
+                            "Modifies the appearance of <span data-tooltip='Elemental Shift (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-shift.png' alt='Skill Elemental Shift'/></span>"
+                        ]
                     },
                     {
                         "id": 12000022,
@@ -191,23 +206,9 @@
                         "shortDesc": "Duration: 8 sec, Magic ATT: +10",
                         "maxLevel": 10,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/flame-elemental.png"],
-                        "animations": ["https://media4.giphy.com/media/QPz7AfldSDkMmVn0aq/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/iFYjXhJPR8fngI6Vvx/giphy.gif"],
                         "type": "Passive",
-                        "desc": "Using <img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/> will temporarily summon a Flame Elemental that follows you that provides a Magic Attack buff"
-                    },
-                    {
-                        "id": 12000023,
-                        "name": "Firewalk",
-                        "shortDesc": "MP Cost: 12, Jump in the input direction.\\n[Passive Effect - Defense: +100]",
-                        "maxLevel": 5,
-                        "icons": ["/class-icons/cygnus-knights/elemental-shift.png", "/class-icons/cygnus-knights/blaze-wizard/firewalk.png"],
-                        "animations": ["https://media3.giphy.com/media/CZLqoPcnfPOxRQCFbM/giphy.gif"],
-                        "type": "Passive",
-                        "desc": "Double jump skill",
-                        "details": [
-                            "<strong>[Passive]</strong>: Grants flat DEF",
-                            "Can be activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
-                        ]
+                        "desc": "Using direct attacking skills will temporarily summon a Flame Elemental that provides a flat Magic Attack buff"
                     },
                     {
                         "id": 12000024,
@@ -233,7 +234,7 @@
                         "shortDesc": "MP Cost: 28, Max Enemies Hit: 8, Damage: 250%, Number of Attacks: 1",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/greater-orbital-flame.png", "/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
-                        "animations": ["https://media2.giphy.com/media/ThLn9ghj284gtJMDvK/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/lHIuggeloPXacXOtOt/giphy.gif"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -243,25 +244,22 @@
                     {
                         "id": 12101021,
                         "name": "Flame Vortex",
-                        "shortDesc": "MP Cost: 22, Damage: 210%, Number of Attacks: 2, Number of Enemies pushed back: 6.",
+                        "shortDesc": "MP Cost: 22, Damage: 210%, Number of Attacks: 2, Max Enemies Hit with Knock-back Attack: 6",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/flame-vortex.png"],
-                        "animations": ["https://media.giphy.com/media/VJC5svuBdaG1yL5AaO/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/sjAqvD7PK6WwYknAIe/giphy.gif"],
                         "type": "Attack",
                         "desc": "Pushes enemies back with a vortex of flames"
                     },
                     {
                         "id": 12101024,
-                        "name": "Ignition",
-                        "shortDesc": "MP Cost: 13, Duration: 300 sec, Probability to activate [Ignition] effect: 100%.\\nIgnition: Duration: 10 sec, Damage: 220% per sec, AoE Damage at the end of duration: 240%",
+                        "name": "Orbital Explosion",
+                        "shortDesc": "MP Cost: 13\\nWhen Orbital Flame, Phoenix Drive, Orbital Inferno, or Inferno Sphere lands 10 times, the next Orbital Flame type skill will be an additional hit dealing 55% damage 3 times.",
                         "maxLevel": 10,
-                        "icons": ["/class-icons/cygnus-knights/blaze-wizard/ignition.png"],
-                        "animations": ["https://media2.giphy.com/media/K5WDKSspsStsji0KYy/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "Your attacks have a chance to set enemies on fire",
-                        "details": [
-                            "At the end of the burn, enemies will explode damaging itself"
-                        ]
+                        "icons": ["/class-icons/cygnus-knights/blaze-wizard/orbital-explosion.png"],
+                        "animations": ["https://media.giphy.com/media/6cWhoUJh6i7Df84OH3/giphy.gif"],
+                        "type": "Toggle Attack",
+                        "desc": "While active, upon landing 10 successful hits using <span data-tooltip='Orbital Flame (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/></span>, <span data-tooltip='Phoenix Drive (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png' alt='Skill Phoenix Drive'/></span>, <span data-tooltip='Orbital Inferno (5th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-inferno.png' alt='Skill Orbital Inferno'/></span>, or <span data-tooltip='Inferno Sphere (5th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/inferno-sphere.png' alt='Skill Inferno Sphere'/></span>, the next Orbital Flame-type skill will deal an additional attack"
                     },
                     {
                         "id": 12101025,
@@ -269,28 +267,30 @@
                         "shortDesc": "MP Cost: 45, Trail Duration: 100 sec, Reuse skill during this time to teleport to your original location.",
                         "maxLevel": 5,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/flashfire.png"],
-                        "animations": ["https://media.giphy.com/media/dyYDe1KsOMO5Dwx4zB/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/9nXSgljHybd0GP7SEt/giphy.gif"],
                         "type": "Active",
-                        "desc": "Places down a flame at your position that you can teleport back to by pressing the Skill Key again"
-                    },
-                    {
-                        "id": 12101023,
-                        "name": "Word of Fire",
-                        "shortDesc": "MP Cost: 13, Duration: 300 sec, Magic ATT: +20, Attack Speed: +2 level",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png"],
-                        "animations": ["https://media0.giphy.com/media/RfH72usgQvffqw3v3M/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "Grants flat Attack and increases Attack Speed (by 2 stages)"
+                        "desc": "Leave a flame at your position that you can teleport back to by pressing the Skill Key again"
                     },
                     {
                         "id": 12101022,
                         "name": "Controlled Burn",
-                        "shortDesc": "Recovers 99% of your MP upon casting.\\nCooldown: 60 sec",
+                        "shortDesc": "Recovers 100% of your MP upon casting.\\nCooldown: 60 sec\\n[Passive Effects: MP Absorb Chance: 30%, Amount Absorbed: 10% of Max HP\\nAmount Absorbed: 5% of the boss's Max MP]",
                         "maxLevel": 9,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/controlled-burn.png"],
-                        "animations": ["https://media1.giphy.com/media/BUJGUtlBIlXoJxJkEN/giphy.gif"],
-                        "type": "Active"
+                        "animations": ["https://media.giphy.com/media/yV7yYM7HslyMSUywcc/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Upon use, restores your MP",
+                        "details": [
+                            "<strong>[Passive]</strong>: Permanently, your attacks have a chance to steal a portion of the enemy's %Max HP<ul><li>Effectiveness is reduced for bosses</li></ul>"
+                        ]
+                    },
+                    {
+                        "id": 12101023,
+                        "name": "Word of Fire",
+                        "shortDesc": "Magic ATT: +20, Attack Speed: +2",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png"],
+                        "type": "Passive"
                     },
                     {
                         "id": 12100026,
@@ -301,7 +301,7 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases Attack provided"
+                            "Increases Magic Attack provided"
                         ]
                     },
                     {
@@ -317,36 +317,37 @@
                 "3rd Job", [{
                         "id": 12110020,
                         "name": "Grand Orbital Flame",
-                        "shortDesc": "MP Cost: 36, Max Enemies Hit: 8, Damage: 275%, Number of Attacks: 2. Damage Against Normal Monsters: +20%",
+                        "shortDesc": "MP Cost: 36, Max Enemies Hit: 8, Damage: 275%, Number of Attacks: 2. Damage Against Normal Monsters: +20%\\nUpon using 3 times, the next attack actives enhanced Grand Orbital Flame.\\n------Enhanced Orbital Flame------\\nMP Cost: 36, Max Enemies Hit: 8, Damage: 330%, Number of Attacks: 2, Damage Against Normal Enemies: +20%",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame.png", "/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
-                        "animations": ["https://media2.giphy.com/media/vkeNfasF1MwPL7ayCv/giphy.gif"],
+                        "icons": ["/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame.png", "/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame-2.png", "/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
+                        "animations": ["https://media.giphy.com/media/UFgm3IiX586lAqM65O/giphy.gif"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
                             "Increases %Damage of attack and allows you to throw up to 3 projectiles",
-                            "Now deals increased %Damage to regular monsters"
+                            "Now deals increased %Damage to regular monsters",
+                            "Using this skill 3 times enhances the next Orbital Flame"
                         ]
                     },
                     {
                         "id": 12111021,
                         "name": "Flame Tempest",
-                        "shortDesc": "MP Cost: 56, Damage: 405%, Number of Attacks: 2, Number of Enemies pushed away: 8.",
+                        "shortDesc": "MP Cost: 56, Damage: 405%, Number of Attacks: 2, Max Enemies Hit with Knock-back AttacK: 8",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png"],
-                        "animations": ["https://media.giphy.com/media/fSSknsUuypuAr7bztg/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/aNbdljSAc4izVgonX7/giphy.gif"],
                         "type": "Attack",
                         "desc": "Lashes out flames in both directions that pushes enemies back"
                     },
                     {
                         "id": 12111022,
                         "name": "Cinder Maelstrom",
-                        "shortDesc": "MP Cost: 120, Duration: 20 sec, Blows up one enemy to deal 300% Damage, Pulls 8 enemies.\\nCooldown: 30 sec",
+                        "shortDesc": "MP Cost: 120, Max Enemies Hit: 6, Damage: 300%, Number of Attacks: 12, Stun Duration: 10 sec\\nCooldown: 180 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png"],
-                        "animations": ["https://media.giphy.com/media/Ke2N0gT2oGcdUuzZ3p/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Causes an enemy to grow large and pull in nearby enemies"
+                        "animations": ["https://media.giphy.com/media/KG0RBtvk9NbtzLcbhT/giphy.gif"],
+                        "type": "Bind Attack",
+                        "desc": "Releases a circle of flames around you that binds enemies within it"
                     },
                     {
                         "id": 12111023,
@@ -354,10 +355,11 @@
                         "shortDesc": "MP Cost: 300, Duration: 1800 sec, Teleports backward at the moment of impact to recover 50% HP, Ignore Damage Duration: 3 sec\\nCooldown 1800 sec",
                         "maxLevel": 15,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png"],
-                        "animations": ["https://media2.giphy.com/media/G4v2o9ALKegKRFDqcr/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/h1n0AcC0hxtS9OXSOn/giphy.gif", "https://media.giphy.com/media/5StSteGIRubCcJEwdf/giphy.gif"],
                         "type": "Buff Revive",
-                        "desc": "When hit by a fatal attack, you will not die but instead heal back a percentage of your HP back",
+                        "desc": "When hit by a fatal attack, teleport backwards and heal back a percentage of your HP back",
                         "details": [
+                            "You are briefly invincible after recovering",
                             "Unaffected by cooldown resets"
                         ]
                     },
@@ -370,7 +372,7 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases Attack provided"
+                            "Increases Magic Attack provided"
                         ]
                     },
                     {
@@ -405,7 +407,7 @@
                     "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/call-of-cygnus.png"],
-                    "animations": ["https://media0.giphy.com/media/5PBQ2cd682zPHHrhNL/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/7u07zWXt86hC2wD4Na/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
@@ -414,7 +416,7 @@
                     "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
-                    "animations": ["https://media.giphy.com/media/cuqmzfjh6yctWpFmpm/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/l9JDnIxBKAWGlxqV4O/giphy.gif"],
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
                     "details": [
@@ -424,15 +426,17 @@
                 {
                     "id": 12120006,
                     "name": "Final Orbital Flame",
-                    "shortDesc": "MP Cost: 43, Max Enemies Hit: 8, Damage: 330%, Number of Attacks: 2. Damage Against Normal Monsters: +40%.",
+                    "shortDesc": "MP Cost: 43, Max Enemies Hit: 8, Damage: 330%, Number of Attacks: 2. Damage Against Normal Monsters: +40%\\nUpon using 3 times, the next attack activates enhanced Final Orbital Flame.\\n------Enhanced Orbital Flame------\\nMP Cost: 36, Max Enemies Hit: 8, Damage: 430%, Number of Attacks: 2, Damage Against Normal Enemies: +40%\\n-------------Flame Fox-------------\\nMP Cost: 43, Max Enemies Hit: 8, Damage: 570%, Number of Attacks: 2\\nUpon landing, Enemy Elemental Resistance: -10%. Upon landing 10 times, Fox Mischief Debuff Duration: 20 sec\\n--------Enhanced Flame Fox--------\\nMP Cost: 43, Max Enemies Hit: 8, Damage: 630%, Number of Attacks: 2",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame.png", "/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
-                    "animations": ["https://media3.giphy.com/media/VGVb6tDX7NsCeV9NyZ/giphy.gif"],
+                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame.png", "/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame-2.png", "/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame-3.png", "/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame-4.png", "/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
+                    "animations": ["https://media.giphy.com/media/AlqVxkFby0kBiVMbuQ/giphy.gif", "https://media.giphy.com/media/4Tb5e5siHnASF5vXj6/giphy.gif"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
                         "Increases %Damage of attack and allows you to throw up to 4 projectiles",
-                        "Increases additional %Damage against regular monsters"
+                        "Increases additional %Damage against regular monsters",
+                        "Increases %Damage of enhanced attack",
+                        "Attack has different effects when <span data-tooltip='Fires of Creation (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span> Flame Fox is summoned<ul><li>Fires a non-returning fireball that deals increased %Damage, and Number of Attacks and when this skill hits an enemy 10 times, 'Fox Mischief' debuff is applied (up to 5 stacks)</li><li><strong>[Fox Mischief]</strong>: Upon 5 stacks, using <span data-tooltip='Towering Inferno (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/towering-inferno-2.png' alt='Skill Towering Inferno'/></span> Fox Mode consumes debuff and triggers an additional attack</li><li>When this attack hits an enemy, reduces their %Elemental Resistance</li></ul>"
                     ]
                 },
                 {
@@ -441,59 +445,63 @@
                     "shortDesc": "MP Cost: 40, Duration: 10 sec, Damage: 310%, Number of Attacks: 4, Max Enemies Hit: 8\\nCooldown: 5 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png"],
-                    "animations": ["https://media4.giphy.com/media/kTOarpDmgxwGQkwMII/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/7lFMfEbzIhAfPdpWcv/giphy.gif"],
                     "type": "Attack",
                     "desc": "Launches a fireball that slowly moves and attacks nearby enemies"
                 },
                 {
                     "id": 12121002,
                     "name": "Towering Inferno",
-                    "shortDesc": "MP Cost: 115, Max Enemies Hit: 15, Damage: 350%, Number of Attacks: 10, Final Damage increased by 90% for enemies hit by Ignition. Can immediately detonate Ignition, but not cast it.\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 115, Damage: 350%, Number of Attacks: 10, Max Enemies Hit: 15\\nCooldown: 30 sec\\n------Flame Fox Version------\\nMP Cost: 22, Max Enemies Hit: 15, Damage: 340%, Number of Attacks: 4\\nLanding on enemy with 5 stacks of Fox Mischief deals additional attack with 1800% damage 5 times\\nCooldown: 30 sec",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png"],
-                    "animations": ["https://media.giphy.com/media/WQaMQtTjUFZqqU7chV/giphy.gif"],
+                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png", "/class-icons/cygnus-knights/blaze-wizard/towering-inferno-2.png"],
+                    "animations": ["https://media.giphy.com/media/zhaa4NxhZan4vmRhzs/giphy.gif", "https://media.giphy.com/media/sowGhqldUfGnoWHu0Y/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Releases a blast of fire at your location",
+                    "desc": "Only usable when <img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> is active. The attack will differ depending on which animal was summoned",
                     "details": [
-                        "Deals increased %Final Damage to enemies that are affected with the <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition burn<ul><li><img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> will also instantly to detonate and explode</li></ul>"
+                        "<strong>[Blazing Lion]</strong>: Releases a blast of fire at your location that deals increased %Damage and Number of Attacks",
+                        "<strong>[Flame Fox]</strong>: Fires a fireball that deals reduced %Damage and Number of Attacks, however deals a devastating additional attack to enemies with 5 stacks of Fox Mischief",
+                        "Pressing the Down Arrow Key and Skill Key together will activate the attack of the opposite form"
                     ]
                 },
                 {
                     "id": 12121004,
                     "name": "Fires of Creation",
-                    "shortDesc": "MP Cost: 115, Duration: 300 sec, Additional MP Cost: 105%, Ignore DEF: +30%. [Ignition] effects: Elemental Resistance: -10%.\\nCooldown: 5 sec",
+                    "shortDesc": "MP Cost: 115, Duration: 300 sec, MP Consumption: +105%, Ignore Defense: +30%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png"],
-                    "animations": ["https://media.giphy.com/media/SrzXryGvzi6OBb6t8z/giphy.gif", "https://media.giphy.com/media/KFnDGviutx03u1uKfB/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/ipQMlDjbDb7Qf2giWt/giphy.gif", "https://media.giphy.com/media/aLKXd0pDxDLwbRLAdP/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Increases %MP Costs, %Ignore Def and causes <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition debuff to reduce %Elemental Resistance of enemy",
+                    "desc": "",
                     "details": [
-                        "A lion will be summoned if you press on the Skill Key<ul><li>If you press the Down Key while pressing this Skill Key, a fox will be summoned</li></ul>"
+                        "Pressing the Skill Key will summon a Blazing Lion",
+                        "Pressing the Down Arrow Key and Skill Key together summons a Flame Fox",
+                        "<span data-tooltip='Orbital Flame (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/></span> and <span data-tooltip='Towering Inferno (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png' alt='Skill Towering Inferno'/></span> will have different effects based on the spirit summoned"
                     ]
                 },
                 {
                     "id": 12121005,
                     "name": "Burning Conduit",
-                    "shortDesc": "MP Cost: 115, Duration: 30 sec, Damage: +60% and Attack Speed: +-1 stages when you are on the pentacle.\\nYou can receive the same effects outside the pentacle, but party members need to be on the pentacle.\\nCooldown: 45 sec, cooldown -1 for every remaining second if pentacle disappears before the duration ends. Can be decreaesd up to 15 sec.",
+                    "shortDesc": "MP Cost: 115, Duration: 30 sec, Damage: +60% and Attack Speed: +-1 stages when you are on the pentacle.\\nYou can receive the same effects outside the pentacle, but party members need to be on the pentacle.\\nCooldown: 45 sec, cooldown -1 for every remaining second if pentacle disappears before the duration ends. Can be decreased up to 15 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png"],
-                    "animations": ["https://media.giphy.com/media/JPs7KL5yjl4RusvBsI/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/NRY37olWiQt9RPm7Yh/giphy.gif"],
                     "type": "Party Buff Zone",
                     "desc": "Creates a zone that increases %Damage and Attack Speed (by 1 stage) while within the zone",
                     "details": [
-                        "While active, you always receive the effects however, party members must stay within the zone to receive the effects",
+                        "While active, you always receive the effects, however party members must stay within the zone to receive the effects",
                         "Cooldown is reduced if Burning Conduit ends early (-1 sec for every remaining sec, up to 15 sec)"
                     ]
                 },
                 {
                     "id": 12121003,
                     "name": "Flame Barrier",
-                    "shortDesc": "MP Cost: 22, Duration: 15 sec, Damage Intake: -50%. Explodes at the end, Max Enemies Hit: 8, Damage: 350%\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 22, Duration: 15 sec, Number of Debilitating Status Condition Blocks: 10\\nCooldown: 180 sec",
                     "maxLevel": 20,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png"],
-                    "animations": ["https://media.giphy.com/media/h4No85YIrRxmkAC6LU/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/5Hlg9feEGFzfGqJMmC/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Creates a shield that reduces damage taken. At the end of the buff, the barrier explodes dealing damage"
+                    "desc": "Creates a barrier that blocks up to 10 Abnormal Status effect"
                 },
                 {
                     "id": 12120007,
@@ -504,7 +512,7 @@
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "Increases Attack provided"
+                        "Increases Magic Attack provided"
                     ]
                 },
                 {
@@ -518,7 +526,7 @@
                 {
                     "id": 12120008,
                     "name": "Wild Blaze",
-                    "shortDesc": "Ignition Final DoT: +60%, Status and Elemental Resistance: +30%, Knockback Resistance: +60%.",
+                    "shortDesc": "Status Resistance: +30, Elemental Resistance: +30%, Knockback Resistance: +60%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png"],
                     "type": "Passive"
@@ -587,30 +595,28 @@
                 },
                 {
                     "id": 12120050,
-                    "name": "Ignition - Reinforce",
-                    "shortDesc": "Additional 20% damage.",
+                    "name": "Orbital Explosion - Critical Chance",
+                    "shortDesc": "Critical Rate: +20%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/ignition-reinforce.png"],
+                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/orbital-explosion-critical-chance.png"],
                     "type": "Passive",
-                    "desc": "Increases %Damage of DoT",
                     "reqLev": 150
                 },
                 {
                     "id": 12120051,
-                    "name": "Ignition - Mass Explosion",
-                    "shortDesc": "Damage: +20%",
+                    "name": "Orbital Explosion - Guardbreak",
+                    "shortDesc": "Enemy Defense Ignored: +20%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/ignition-mass-explosion.png"],
+                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/orbital-explosion-guardbreak.png"],
                     "type": "Passive",
-                    "desc": "Increases %Damage of explosion",
                     "reqLev": 165
                 },
                 {
                     "id": 12120049,
-                    "name": "Ignition - Max Ignition",
-                    "shortDesc": "Decrease DoT interval by 0.5",
+                    "name": "Orbital Explosion - Reinforce",
+                    "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/ignition-max-ignition.png"],
+                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/orbital-explosion-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 190
                 }
@@ -618,39 +624,41 @@
             "hyperActive": [
                 {
                     "id": 12121054,
-                    "name": "Dragon Blaze",
-                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 1, Max Duration: 2 sec, Damage: 500%, Number of Attacks: Up to 6 while the key is held.\\nUpon releasing the key or after the attack has finished, attacks 10 more times for 500% Damage. Can immediately detonate Ignition, but not cast it.\\nCooldown: 90 sec",
+                    "name": "Phoenix Drive",
+                    "shortDesc": "MP Cost: 300, Duration: 15 sec, enhances Orbital Flame\\n[Blazing Lion] - Max Enemies Hit: 8, Damage: 315%, Number of Attacks: 2, Flame Launched: 3. When several flames attack a single enemy, starting with the second flame, Final Damage: -50%, Damage Against Normal Enemies: +40%\\n[Flame Fox] - Max Enemies Hit: 8, Damage: 450%, Number of Attacks: 2, Flame Launched: 4. When several flames attack a single enemy, starting with the second flame, Final Damage: -50%\\nCooldown: 90 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/dragon-blaze.png"],
-                    "animations": ["https://media.giphy.com/media/YPV6obronI5akavFgF/giphy.gif"],
-                    "type": "Key-down Attack",
-                    "desc": "Releases a barrage of fireballs forward that damages a single enemy",
+                    "icons": ["/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png"],
+                    "animations": ["https://media.giphy.com/media/pORCH9u6AodsKp4LIl/giphy.gif", "https://media.giphy.com/media/0fu6eOdCA4JEcSnNEm/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "Upon use, enhances <span data-tooltip='Orbital Flame (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png' alt='Skill Orbital Flame'/></span> with additional fireballs and has different effects based on <span data-tooltip='Fires of Creation (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span> spirit summoned",
                     "details": [
-                        "If the enemy has the <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition burn, it will detonate and explode"
+                        "<strong>[Blazing Lion]</strong>: Deals reduced %Damage and launches fewer fireballs, however deals increased %Damage to regular monsters",
+                        "<strong>[Flame Fox]</strong>: Deals increased %Damage and launches an extra fireball",
+                        "Additional fireballs deals reduced %Final Damage after the first fireballs"
                     ],
                     "reqLev": 140
                 },
                 {
                     "id": 12121052,
                     "name": "Cataclysm",
-                    "shortDesc": "MP Cost: 350, Max Enemies Hit: 15, Damage: 860%, Number of Attacks: 7. Invincible during casting. Can immediately detonate Ignition, but not cast it.\\nCooldown: 100 sec",
+                    "shortDesc": "MP Cost: 350, Max Enemies Hit: 15, Damage: 860%, Number of Attacks: 7, invincible during casting motion\\nCooldown: 100 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/cataclysm.png"],
-                    "animations": ["https://media1.giphy.com/media/f8OuKTizuJhHU0krFY/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/2YKxJCRJgM4U7vWe4H/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Unleashes a large fireball that damages enemies on screen while causing any <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition burn to detonate and explode",
+                    "desc": "Unleashes a large fireball that damages enemies in a large area",
                     "details": [
-                        "You are invincible during this time"
+                        "You are invincible while casting"
                     ],
                     "reqLev": 160
                 },
                 {
                     "id": 11121053,
                     "name": "Glory of the Guardians",
-                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Cygnus class or Mihile in the party",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/glory-of-the-guardians.png"],
-                    "animations": ["https://media3.giphy.com/media/MXpfx9c27xnEFKygBg/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/P8XfVlRspk2tIRqCnl/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
                 }
@@ -674,30 +682,31 @@
                 },
                 {
                     "name": "Savage Flame",
-                    "shortDesc": "Passive Effects: Gain 1 Flame Charge for each enemy struck that is afflicted by Ignition, up to 6 flames.\\nActive Effect - MP Cost: 800, Flame Cost: 2+ charges, Cooldown: 20 sec\\n[Blazing Lion]: Activates explosion 5 times, hitting up to 15 enemies for 400% damage 12 times. Increases Final Damage by 35% for every Flame Charge over the minimum cost.\\n[Flame Fox]: Maintained up to 5 sec. Creates 8 foxfires that randomly strike 8 enemies within range. Each foxfire deals 500% damage and can regenerate up to 7 times. Regenerates 2 more time for each 1 Flame Charge over the minimum cost.",
+                    "shortDesc": "Passive Effects: Gain 1 Flame Charge when normal enemy is hit 1 times, boss is hit 25 times, or boss is defeated 1 times with Blaze Wizard's direct skill attack, up to 6 flames.\\nActive Effect - MP Cost: 800, Flame Cost: 2+ charges, Cooldown: 20 sec\\n[Blazing Lion]: Activates explosion 5 times, hitting up to 15 enemies for 400% damage 12 times. Increases Final Damage by 35% for every Flame Charge over the minimum cost.\\n[Flame Fox]: Maintained up to 5 sec. Creates 8 foxfires that strike 8 enemies within range. Each foxfire deals 500% damage and can regenerate up to 7 times. Regenerates 2 more time for each 1 Flame Charge over the minimum cost.",
                     "id": 400041028,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/savage-flame.png"],
                     "animations": ["https://media1.giphy.com/media/YpZeXh6dkZZ5Xcdjf2/giphy.gif", "https://media2.giphy.com/media/Z98f3mAq8Ev5YU1vDe/giphy.gif"],
                     "type": "Attack",
                     "desc": "Only usable when <img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/> is active. The attack will differ depending on which animal was summoned",
                     "details": [
-                        "Enemies who are debuffed with the <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/> Ignition burn will grant 1 Flame Charge which is used to cast Savage Flame. A minimum of 2 Fire Charges is required to cast",
-                        "<strong>[Lion Attack]</strong>: Launches forward dealing massive damage and increases %Final Damage depending on remaining Fire Charges",
-                        "<strong>[Fox Attack]</strong>: Creates fireballs that attack nearby enemies. The fireballs will regenerate and attack again depending on how many Fire Charges were used to cast<ul><li>Attack prioritizes bosses with highest Max HP first</li></ul>"
+                        "Striking an enemy with a direct attack skill 1 time or a boss 25 times grants 1 Flame Charge (up to 6)",
+                        "<strong>[Lion Attack]</strong>: Launches forward dealing massive damage and increases %Final Damage depending on remaining Flame Charges<ul><li>Minimum of 2 Flame Charges is required to cast</li></ul>",
+                        "<strong>[Fox Attack]</strong>: Creates fireballs that attack nearby enemies. The fireballs will regenerate and attack again depending on how many Flame Charges were used to cast<ul><li>Attack prioritizes bosses with highest Max HP first</li></ul>",
+                        "Pressing the Down Arrow Key and Skill Key together will activate the attack of the opposite form"
                     ]
                 },
                 {
                     "name": "Inferno Sphere",
-                    "shortDesc": "MP Cost: 75, consumes 1 Phoenix Feather every sec\\nMax Enemies Hit: 12, Damage: 1100%, Number of Attacks: 8, Additional Critical Rate: +50%, Additional Monster DEF Ignored: +50%\\n1 Phoenix Feather will be prepared every 12 sec. You can have up to 10 feathers.\\nCooldown: 2.5 sec",
+                    "shortDesc": "MP Cost: 75 per sec., consumes 1 Phoenix Feather\\nMax Enemies Hit: 12, Damage: 1100%, Number of Attacks: 8, Additional Critical Rate: +50%, Additional Monster DEF Ignored: +50%\\n1 Phoenix Feather will be prepared every 12 sec. You can have up to 10 feathers.\\nCooldown: 2.5 sec",
                     "id": 400041037,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/inferno-sphere.png"],
                     "animations": ["https://media3.giphy.com/media/S40986yvx4fkh3CRT0/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Damages enemies within the circle when held down",
+                    "desc": "While held, creates a flame circle that damages enemies within",
                     "details": [
-                        "The attack has increased %Crit Rate and %Ignore Def",
-                        "This skill has a special resource called Phoenix Feathers which are prepared every 12 seconds and you can hold up to 10 feathers",
-                        "This skill costs 1 feather every second to cast"
+                        "Attack has increased %Crit Rate and %Ignore Def",
+                        "Attacks uses a special resource called 'Phoenix Feathers' gained every 12 seconds (up to 10 feathers)",
+                        "Costs 1 feather every second to cast"
                     ]
                 },
                 {
@@ -707,12 +716,12 @@
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/salamander-mischief.png"],
                     "animations": ["https://media3.giphy.com/media/CKjFnp7kfJQ5uccBdc/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons a salamander that continuously pounces at a single target",
+                    "desc": "Summons a salamander that continuously pounces at a single target upon successful attacks",
                     "details": [
-                        "The salamander will return to you once an enemy has been hit 12 times or if you travel too far away",
-                        "Each time the salamander hits an enemy, it gains 1 Ember which increases the %Final Damage of the attack<ul><li>The max amount of Embers that can be collected increases based on the Skill Level</li><li>When the salamander disappears, you will gain a Magic Attack buff based on the amount of Embers collected</li></ul>",
-                        "The salamander will prioritize boss monsters and enemies with the highest Max HP",
-                        "Unaffected by Damage Reflect and will not trigger <img src='/class-icons/cygnus-knights/blaze-wizard/ignition.png' alt='Skill Ignition'/>"
+                        "The salamander will return to you after attacking 12 times or if you travel too far away",
+                        "Upon striking an enemy, it gains 1 Ember that increases the %Final Damage of the attack<ul><li>The max amount of Embers that can be collected increases based on the Skill Level</li><li>When the salamander disappears, gain a Magic Attack buff based on the amount of Embers collected</li></ul>",
+                        "Prioritize boss monsters and enemies with the highest Max HP",
+                        "Unaffected by Damage Reflect"
                     ]
                 }
             ]
@@ -721,32 +730,32 @@
             {
                 "name": "Orbital Flame - 1st Job",
                 "icons": ["/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
-                "animations": ["https://media0.giphy.com/media/FlQolrSTU0gt54hquW/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/AlqVxkFby0kBiVMbuQ/giphy.gif"]
             },
             {
                 "name": "Blazing Extinction - 4th Job",
                 "icons": ["/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png"],
-                "animations": ["https://media4.giphy.com/media/kTOarpDmgxwGQkwMII/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/7lFMfEbzIhAfPdpWcv/giphy.gif"]
             },
             {
                 "name": "Towering Inferno - 4th Job",
                 "icons": ["/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png"],
-                "animations": ["https://media.giphy.com/media/WQaMQtTjUFZqqU7chV/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/zhaa4NxhZan4vmRhzs/giphy.gif"]
             },
             {
                 "name": "Burning Conduit - 4th Job",
                 "icons": ["/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png"],
-                "animations": ["https://media.giphy.com/media/JPs7KL5yjl4RusvBsI/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/NRY37olWiQt9RPm7Yh/giphy.gif"]
             },
             {
-                "name": "Dragon Blaze - Hyper Skill",
-                "icons": ["/class-icons/cygnus-knights/blaze-wizard/dragon-blaze.png"],
-                "animations": ["https://media.giphy.com/media/YPV6obronI5akavFgF/giphy.gif"]
+                "name": "Phoenix Drive - Hyper Skill",
+                "icons": ["/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png"],
+                "animations": ["https://media.giphy.com/media/pORCH9u6AodsKp4LIl/giphy.gif"]
             },
             {
                 "name": "Cataclysm - Hyper Skill",
                 "icons": ["/class-icons/cygnus-knights/blaze-wizard/cataclysm.png"],
-                "animations": ["https://media1.giphy.com/media/f8OuKTizuJhHU0krFY/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/2YKxJCRJgM4U7vWe4H/giphy.gif"]
             },
             {
                 "name": "Savage Flame - 5th Job",
