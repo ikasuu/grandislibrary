@@ -29,10 +29,10 @@
             "active": "<span data-tooltip='Hyper Body (2nd Job)'><img src='/class-icons/explorers/dark-knight/hyper-body.png' alt='Skill Hyper Body'/></span> <span data-tooltip='Cross Surge (3rd Job)'><img src='/class-icons/explorers/dark-knight/cross-surge.png' alt='Skill Cross Surge'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
             "toggles": "<span data-tooltip='Evil Eye (2nd Job)'><img src='/class-icons/explorers/dark-knight/evil-eye.png' alt='Skill Evil Eye'/></span> <span data-tooltip='Accept Final Pact (4th Job)'><img src='/class-icons/explorers/dark-knight/accept-final-pact.png' alt='Skill Accept Final Pact'/></span>(Special)",
             "summons": "<span data-tooltip='Radiant Evil (5th Job)'><img src='/class-icons/explorers/dark-knight/radiant-evil.png' alt='Skill Radiant Evil'/></span>(20s cd)",
-            "buffCd": "<span data-tooltip='Dark Resonance (4th Job)'><img src='/class-icons/explorers/dark-knight/dark-resonance.png' alt='Skill Dark Resonance'/></span>(70s cd) <span data-tooltip='Dark Thirst (Hyper Skill)'><img src='/class-icons/explorers/dark-knight/dark-thirst.png' alt='Skill Dark Thirst'/></span>(120s cd) <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure (Warrior)'/></span>(120s cd) <span data-tooltip='Darkness Aura (5th Job)'><img src='/class-icons/explorers/dark-knight/darkness-aura.png' alt='Skill Darkness Aura'/></span>(180s cd)",
+            "buffCd": "<span data-tooltip='Dark Resonance (4th Job)'><img src='/class-icons/explorers/dark-knight/dark-resonance.png' alt='Skill Dark Resonance'/></span>(70s cd) <span data-tooltip='Dark Thirst (Hyper Skill)'><img src='/class-icons/explorers/dark-knight/dark-thirst.png' alt='Skill Dark Thirst'/></span>(90s cd) <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure (Warrior)'/></span>(120s cd) <span data-tooltip='Darkness Aura (5th Job)'><img src='/class-icons/explorers/dark-knight/darkness-aura.png' alt='Skill Darkness Aura'/></span>(180s cd)",
             "buffFifth": "<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>(180s cd) <span data-tooltip='Maple World  Goddess Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>(15s cd) <span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>(240s cd)",
             "iFrame": "<span data-tooltip='Final Pact (4th Job)'><img src='/class-icons/explorers/dark-knight/final-pact.png' alt='Skill Final Pact'/></span>(180 - 900s cd revive)",
-            "damageReduce": "<span data-tooltip='Spear of Darkness (5th Job)'><img src='/class-icons/explorers/dark-knight/spear-of-darkness.png' alt='Skill Spear of Darkness'/></span>(-10% | 10s cd) <span data-tooltip='Darkness Aura (5th Job)'><img src='/class-icons/explorers/dark-knight/darkness-aura.png' alt='Skill Darkness Aura'/></span>(-10% | 180s cd)"
+            "damageReduce": "<span data-tooltip='Spear of Darkness (5th Job)'><img src='/class-icons/explorers/dark-knight/spear-of-darkness.png' alt='Skill Spear of Darkness'/></span>(-10% | 10s cd) <span data-tooltip='Darkness Aura (5th Job)'><img src='/class-icons/explorers/dark-knight/darkness-aura.png' alt='Skill Darkness Aura'/></span>(-10% / up to 30% HP Barrier | 180s cd)"
         },
         "linkSkill": {
             "id": 80002758,
@@ -299,7 +299,7 @@
                     {
                         "id": 1311012,
                         "name": "Rush",
-                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 12, Damage: 305%",
+                        "shortDesc": "MP Cost: 20, Damage: 305%, Max Enemies Pushed: 12",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/dark-knight/rush.png"],
                         "animations": ["https://media.giphy.com/media/Hc4BbvMVoK3oB1Dpse/giphy.gif"],
@@ -309,7 +309,7 @@
                     {
                         "id": 1311015,
                         "name": "Cross Surge",
-                        "shortDesc": "MP Cost: 20, Increases Final Damage by up to 20% for 200 sec. This number decreases based on the percentage of Max HP that you have lost.\\nDamage Taken is reduced by 8% of your missing HP, up to a maximum of 4000.\\n[Passive Effect] - Final Damage: +50%]",
+                        "shortDesc": "MP Cost: 20, Increases Final Damage by up to 20% for 200 sec. This number decreases in proportion to your HP when your current HP is less than 50% of your Max HP.\\nDamage Taken is reduced by 8% of your missing HP, up to a maximum of 4000.\\n[Passive Effect] - Final Damage: +50%]",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/dark-knight/cross-surge.png"],
                         "animations": ["https://media.giphy.com/media/NYO1bv7kKuVofDRMxG/giphy.gif"],
@@ -604,7 +604,7 @@
                 {
                     "id": 1321054,
                     "name": "Dark Thrist",
-                    "shortDesc": "MP Cost: 300, Duration: 30 sec, ATT: +80, Recover 9% of Max HP when attacking.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 300, Duration: 25 sec, ATT: +80, Recover 9% of Max HP when attacking.\\nCooldown: 90 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/dark-knight/dark-thirst.png"],
                     "animations": ["https://media.giphy.com/media/edkupY3Pwof347tlYX/giphy.gif"],
@@ -642,10 +642,10 @@
             "fifthMain": [
                 {
                     "name": "Spear of Darkness",
-                    "shortDesc": "MP Cost: 350. A summoned spear deals 650% damage 7 times on up to 12 enemies. For attacks that inflict damage at a certain ratio of the target's Max HP, Damage-10%.\\nAdditional Critical Rate: +100%. Ignores 50% Enemy DEF.\\nCooldown: 10 sec.",
+                    "shortDesc": "MP Cost: 350. A summoned spear deals 650% damage 7 times on up to 12 enemies. For attacks that inflict damage at a certain ratio of the target's Max HP, Damage -10% (while you're preparing to throw the spear).\\nCritical Rate: +100%. Ignores 50% Enemy DEF.\\nCooldown: 10 sec.",
                     "id": 400011004,
                     "icons": ["/class-icons/explorers/dark-knight/spear-of-darkness.png"],
-                    "animations": ["https://media3.giphy.com/media/CJYI6QjRt7my3rJOUf/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/iHcjku8wyuumlBp6ag/giphy.gif"],
                     "type": "Attack",
                     "desc": "Hurls a spear forward that pierces through enemies",
                     "details": [
@@ -657,10 +657,10 @@
                 },
                 {
                     "name": "Radiant Evil",
-                    "shortDesc": "MP Cost: 1000, An Evil Eye appears in front of you, attacking up to 10 enemies 6 times, dealing 235% damage for 3 sec, and ignoring 20% additional enemy Defense.\\nCooldown: 20 sec",
+                    "shortDesc": "MP Cost: 1000, An Evil Eye appears in front of you, attacking up to 10 enemies 6 times, dealing 235% damage for 3 sec, and ignoring 20% additional enemy Defense.\\nCooldown: 20 sec.",
                     "id": 400011054,
                     "icons": ["/class-icons/explorers/dark-knight/radiant-evil.png"],
-                    "animations": ["https://media3.giphy.com/media/vzkRfpmEWmaAKHPC9M/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/EuiqmppgXVXmIOv15A/giphy.gif"],
                     "type": "Evil Eye Summon",
                     "desc": "Evil Eye transforms into a giant eye that pulsates damaging nearby enemies",
                     "details": [
@@ -674,7 +674,7 @@
                     "shortDesc": "MP Cost: 100. Deals 945% damage 12 times consecutively on up to 12 enemies for up to 4.5 sec. Recover 1% of max HP for every attack that lands.\\nWhen key is released, activates a shockwave 5 times that deals 15 final attack(s) with 710% damage to a max of 12 enemies. Recover 10% of max HP for every final attack that lands.\\nAll Piercing Cyclone hits receive Additional Critical Rate: +100%, and Addition Monster Def Ignored: +50%\\nCooldown: 180 sec",
                     "id": 400011068,
                     "icons": ["/class-icons/explorers/dark-knight/calamitous-cyclone.png"],
-                    "animations": ["https://media0.giphy.com/media/nqcrKk81tNRt6GMRX4/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/vC2Fu4TbFBDZlwwxJb/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "Unleashes a flurry of quick strikes in front of you",
                     "details": [
@@ -687,7 +687,7 @@
                     "shortDesc": "MP Cost: 1000. Periodically attack up to 3 enemies with 800% damage 5 times over 40 sec. Recover 3% of max HP per attack and obtain 1 Life Force. If HP recovery exceeds Max HP, gain an HP shield amounting to 75% of the recovery amount. Max Life Force: 15, Max Shield: 27% of Max HP. Periodically generates a maximum-strength shield. Damage Taken -9% (includes damage proportional to Max HP).\\nReusing this skill while it is active will cancel its effect and trigger a dark slash that strikes 8 enemies for 1325% damage 13 times, plus an additional 1 slashes for each 3 Life Force possessed.\\nCooldown: 180 sec",
                     "id": 400011068,
                     "icons": ["/class-icons/explorers/dark-knight/darkness-aura.png"],
-                    "animations": ["https://media.giphy.com/media/n96bjT55xk07aOniGE/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/aXgariVUq4XWkJz3YG/giphy-downsized-large.gif"],
                     "type": "Buff Attack",
                     "desc": "While active, periodically damages nearby enemies",
                     "details": [
@@ -723,17 +723,17 @@
             {
                 "name": "Radiant Evil - 5th Job",
                 "icons": ["/class-icons/explorers/dark-knight/radiant-evil.png"],
-                "animations": ["https://media3.giphy.com/media/vzkRfpmEWmaAKHPC9M/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/EuiqmppgXVXmIOv15A/giphy.gif"]
             },
             {
                 "name": "Calamitous Cyclone - 5th Job",
                 "icons": ["/class-icons/explorers/dark-knight/calamitous-cyclone.png"],
-                "animations": ["https://media0.giphy.com/media/nqcrKk81tNRt6GMRX4/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/vC2Fu4TbFBDZlwwxJb/giphy.gif"]
             },
             {
                 "name": "Darkness Aura - 5th Job",
                 "icons": ["/class-icons/explorers/dark-knight/darkness-aura.png"],
-                "animations": ["https://media.giphy.com/media/n96bjT55xk07aOniGE/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/aXgariVUq4XWkJz3YG/giphy-downsized-large.gif"]
             }
         ]
     },

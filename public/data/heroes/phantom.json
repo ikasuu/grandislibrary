@@ -375,18 +375,17 @@
                         "desc": "Allows you to use a stolen 4th Job Explorer skill"
                     },
                     {
-                        "id": 24120002,
-                        "name": "Carte Noir",
-                        "shortDesc": "Upon a successful critical attack, a card has a 100% chance to appear. Damage: 270%, Deck +1\\nSwerve Card: attacks up to 4 enemies for 900% of damage. Damage Against Normal Monsters: +100%, Cooldown increases by 5 sec.\\nBonus Avoidability: 20%.",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/heroes/phantom/carte-noir.png", "/class-icons/heroes/phantom/carte-blanche.png"],
-                        "animations": ["https://media.giphy.com/media/S85DLjUuvQtzD2zywZ/giphy.gif"],
-                        "type": "Upgraded Passive",
-                        "desc": "",
+                        "id": 24121005,
+                        "name": "Tempest",
+                        "shortDesc": "MP Cost per attack: 20, Can hold key down for up to 5 sec, Max Enemies Hit: 8, Damage: 400%, Number of Attacks: 3\\nCooldown: 18 sec",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/phantom/tempest.png"],
+                        "animations": ["https://media.giphy.com/media/Lm6UVRo6Yvd9DnAilg/giphy.gif  "],
+                        "type": "Key-down Attack",
+                        "desc": "While held, releases an expanding tornado of cards that deals damage to enemies within it",
                         "details": [
-                            "Increases %Damage and chance to create cards on successful critical hits",
-                            "Now grants a new attack when you attack that periodically creates a card that targets nearby enemies previously were not targeted by the skillk<ul><li>Deals increased %Damage to regular monsters</li></ul>",
-                            "Now increases %Avoidability"
+                            "All attacks from Tempest are critical hits",
+                            "You may move while casting"
                         ]
                     },
                     {
@@ -404,6 +403,22 @@
                         ]
                     },
                     {
+                        "id": 24120002,
+                        "name": "Carte Noir",
+                        "shortDesc": "Upon a successful critical attack, a card has a 100% chance to appear. Damage: 270%, Deck +1\\nSwerve Card: attacks up to 4 enemies for 900% of damage. Cooldown increases by 5 sec.\\nBonus Avoidability: 20%.\\nDamage Against Normal Monsters: +150%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/phantom/carte-noir.png", "/class-icons/heroes/phantom/carte-blanche.png"],
+                        "animations": ["https://media.giphy.com/media/S85DLjUuvQtzD2zywZ/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage and chance to create cards on successful critical hits",
+                            "Now grants a new attack when you attack that periodically creates a card that targets nearby enemies previously were not targeted by the skill",
+                            "Attack now deal increased %Damage to regular monsters",
+                            "Now increases %Avoidability"
+                        ]
+                    },
+                    {
                         "id": 24121004,
                         "name": "Priere D'Aria",
                         "shortDesc": "MP Cost: 120, Aria's image appears.\\n[Passive Effects - Damage: +30%, Ignore Defense: 30%, Knockback Resistance: +60%]",
@@ -414,20 +429,6 @@
                         "desc": "",
                         "details": [
                             "Skill is a passive, the active effect does nothing except displays an animation"
-                        ]
-                    },
-                    {
-                        "id": 24121005,
-                        "name": "Tempest",
-                        "shortDesc": "Key-down Skill. MP Cost: 20 per attack, Damage: 200%, Number of Attacks: 3, Max Enemies Hit: 8\\nCooldown: 18 sec",
-                        "maxLevel": 30,
-                        "icons": ["/class-icons/heroes/phantom/tempest.png"],
-                        "animations": ["https://media.giphy.com/media/Lm6UVRo6Yvd9DnAilg/giphy.gif  "],
-                        "type": "Key-down Attack",
-                        "desc": "Creates an expanding tornado of cards that deals damage to enemies within it",
-                        "details": [
-                            "All attacks from Tempest are critical hits",
-                            "You may move while casting"
                         ]
                     },
                     {
@@ -602,16 +603,16 @@
             "fifthMain": [
                 {
                     "name": "Luck of the Draw",
-                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 7 sec. Attack by periodically throwing multiple cards forward. Damage: 700%, Number of Attacks: 1, Damage Taken during skill: -15%.\\nWhen finished, draws a card to buff all party members for 30 sec.\\nRed Cross - Increases Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -7%, Abnormal Status Resistance: +22\\nHourglass - Active Cooldowns shortened by 28% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +5%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 7 sec. Attack by periodically throwing multiple cards forward. Damage: 700%, Number of Attacks: 1, Damage Taken during skill: -15%.\\nWhen finished, draws a card to buff all party members for 30 sec.\\nPriest - Increases Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -7%, Abnormal Status Resistance: +22\\nHourglass - Active Cooldowns shortened by 28% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +5%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 180 sec",
                     "id": 400031002,
                     "icons": ["/class-icons/heroes/phantom/luck-of-the-draw.png"],
                     "animations": ["https://media3.giphy.com/media/z6sDesJ5bVpSzyhmni/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "While held, throw a flurry of cards towards a single enemy",
                     "details": [
-                        "While casting, damage taken is reduced (including %Max HP attacks)",
+                        "While casting, damage taken is reduced (including %Max HP attacks) and you are immune to stun status effects",
                         "Prioritizes bosses with the highest Max HP first",
-                        "At the end of the skill, you will draw a card that buffs all party members:<ul><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-red.png' alt='Red Cross'/> [Red Cross]: </strong>Recovers %HP/MP over time</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-green.png' alt='Tree of Life'/> [Tree of Life]: </strong>Increases %Damage Reduction (including %Max HP attacks) and Abnormal Status Resistance</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-yellow.png' alt='Hourglass'/> [Hourglass]: </strong>Reduces active cooldowns by 20% (except 5th Job skills & skills that ignore cooldown resets)</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-blue.png' alt='Sharp Sword'/> [Three Swords]: </strong>Increases %Final Damage</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-black.png' alt='Joker'/> [Crescent Moon]: </strong>Gain all buffs simultaneously</li><li>You are invincible while drawing the card</li></ul>"
+                        "At the end of the skill, you will draw a card that buffs all party members:<ul><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-red.png' alt='Priest'/> [Priest]: </strong>Recovers %HP/MP over time</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-green.png' alt='Tree of Life'/> [Tree of Life]: </strong>Increases %Damage Reduction (including %Max HP attacks) and Abnormal Status Resistance</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-yellow.png' alt='Hourglass'/> [Hourglass]: </strong>Reduces active cooldowns by 20% (except 5th Job skills & skills that ignore cooldown resets)</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-blue.png' alt='Sharp Sword'/> [Three Swords]: </strong>Increases %Final Damage</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-black.png' alt='Joker'/> [Crescent Moon]: </strong>Gain all buffs simultaneously</li><li>You are invincible while drawing the card</li></ul>"
                     ]
                 },
                 {

@@ -31,7 +31,7 @@
             "summons": "<span data-tooltip='Frostprey (3rd Job)'><img src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/></span> <span data-tooltip='Blink Bolt (3rd Job)'><img src='/class-icons/explorers/marksman/blink-bolt.png' alt='Skill Blink Bolt'/></span>(120s cd) <span data-tooltip='Arrow Illusion (4th Job)'><img src='/class-icons/explorers/marksman/arrow-illusion.png' alt='Skill Arrow Illusion'/></span> <span data-tooltip='Fury of the Wild (5th Job)'><img src='/class-icons/5th-job/fury-of-the-wild.png' alt='Skill Fury of the Wild'/></span>(120 - 105s cd) <span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)",
             "buffCd": "<span data-tooltip='Bullseye Shot (Hyper Skill)'><img src='/class-icons/explorers/marksman/bullseye-shot.png' alt='Skill Bullseye Shot'/></span>(90s cd) <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/archer/epic-adventure.png' alt='Skill Epic Adventure'/></span>(120s cd)",
             "buffFifth": "<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>(120s cd)",
-            "iFrame": "<span data-tooltip='Perfect Shot (5th Job)'><img src='/class-icons/explorers/marksman/perfect-shot.png' alt='Skill Perfect Shot'/></span>(180s cd)"
+            "iFrame": "<span data-tooltip='Perfect Shot (5th Job)'><img src='/class-icons/explorers/marksman/perfect-shot.png' alt='Skill Perfect Shot'/></span>(60s cd)"
         },
         "linkSkill": {
                 "id":80002766,
@@ -65,7 +65,7 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/explorers/marksman/piercing-arrow-spread.png' alt='Skill Piercing Arrow - Spread'/> Piercing Arrow - Spread</li><li><img src='/class-icons/explorers/marksman/snipe-extra-strike.png' alt='Skill Snipe - Cooldown Cutter'/> <img src='/class-icons/explorers/marksman/snipe-reinforce.png' alt='Skill Snipe - Reinforce'/> <img src='/class-icons/explorers/marksman/snipe-boss-rush.png' alt='Skill Snipe - Boss Rush'/> Snipe - Cooldown Cutter, Reinforce, and Boss Rush</li><li><img src='/class-icons/explorers/marksman/sharp-eyes-critical-chance.png' alt='Skill Sharp Eyes - Critical Chance'/> / <img src='/class-icons/explorers/marksman/piercing-arrow-extra-strike.png' alt='Skill Piercing Arrow - Extra Strike'/> Sharp Eyes - Critical Chance OR Piercing Arrow - Extra Strike</li></ul>"
+            "recommended": "<ul><li><img src='/class-icons/explorers/marksman/piercing-arrow-spread.png' alt='Skill Piercing Arrow - Spread'/> Piercing Arrow - Spread</li><li><img src='/class-icons/explorers/marksman/snipe-extra-strike.png' alt='Skill Snipe - Extra Strike'/> <img src='/class-icons/explorers/marksman/snipe-reinforce.png' alt='Skill Snipe - Reinforce'/> <img src='/class-icons/explorers/marksman/snipe-boss-rush.png' alt='Skill Snipe - Boss Rush'/> Snipe - Extra Strike, Reinforce, and Boss Rush</li><li><img src='/class-icons/explorers/marksman/sharp-eyes-critical-chance.png' alt='Skill Sharp Eyes - Critical Chance'/> / <img src='/class-icons/explorers/marksman/piercing-arrow-extra-strike.png' alt='Skill Piercing Arrow - Extra Strike'/> Sharp Eyes - Critical Chance OR Piercing Arrow - Extra Strike</li></ul>"
         },
         "nodeInfo": {
             "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> <span data-tooltip='Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> <span data-tooltip='Bolt Burst/Frostprey (3rd Job)'><img src='/class-icons/explorers/marksman/bolt-burst.png' alt='Skill Bolt Burst'/></span></div><ul><li>Any combination of these skills are good</li><li>2 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)</li></ul>",
@@ -275,7 +275,7 @@
                     {
                         "id": 3211008,
                         "name": "Bolt Burst",
-                        "shortDesc": "MP Cost: 90, Damage: 300%, Number of Attacks: 6, Max Enemies Hit: 8\\nCooldown: 10 sec",
+                        "shortDesc": "MP Cost: 90, Damage: 300%, Number of Attacks: 6, Max Enemies Hit: 8\\nCooldown: 7 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/marksman/bolt-burst.png"],
                         "animations": ["https://media.giphy.com/media/wUJcRrEb7TkawV4M8C/giphy.gif"],
@@ -586,7 +586,7 @@
                 {
                     "id": 3221054,
                     "name": "Bullseye Shot",
-                    "shortDesc": "MP Cost: 200, Duration: 30 sec, Critical Rate: +20%, Critical Damage: +10%, Monster DEF Ignored: +20%, Damage: +20%\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 200, Duration: 20 sec, Critical Rate: +20%, Critical Damage: +10%, Monster DEF Ignored: +20%, Damage: +20%\\nCooldown: 60 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/marksman/bullseye-shot.png"],
                     "animations": ["https://media.giphy.com/media/Tvisi4Q4BF7aIPwTFV/giphy.gif"],
@@ -621,7 +621,7 @@
             "fifthMain": [
                 {
                     "name": "Perfect Shot",
-                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 12, Damage: 1700%, Number of Attacks: 14, Critical Shot Count: 7\\nDamage Range: 15% - 100% depending on enemy's proximity to the center of your sights, Enemy DEF Ignored: 100%\\nDuration: 12 sec, invincible for 2 sec after skill ends.\\nSuccessful hits grant Marked Target for 15 sec.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 12, Damage: 1700%, Number of Attacks: 14, Multiple Critical Shot Count: 4\\nDamage Range: 20% - 100% depending on enemy's proximity to the center of your sights, Enemy DEF Ignored: 100%\\nDuration: 2 sec. invincible for 1 sec. after skill ends.\\nSuccessful hits grant Marked Target for 15 sec.\\nCooldown: 60 sec",
                     "id": 400031006,
                     "icons": ["/class-icons/explorers/marksman/perfect-shot.png"],
                     "animations": ["https://media0.giphy.com/media/cLpmoC5mw5EZ88YnDD/giphy.gif"],
@@ -638,12 +638,15 @@
                 },
                 {
                     "name": "Split Shot",
-                    "shortDesc": "MP Cost: 800, Duration: 72 sec. Landing a hit with Snipe, Empowered Piercing Arrow, Empowered Snipe, Piercing Arrow, or -- after using Repeating Crossbow Cartridge -- Full Burst Shot causes your arrow to split and attack up to 10 enemies, dealing 1200% damage 5 times.\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 800, Duration: 72 sec. Landing a hit with Snipe, Empowered Piercing Arrow, Empowered Snipe, Piercing Arrow, or -- after using Repeating Crossbow Cartridge -- Full Burst Shot causes your arrow to split and attack up to 10 enemies, dealing 1200% damage 5 times.\\nIgnore Enemy Defense: 25%\\nCooldown: 120 sec.",
                     "id": 400031015,
                     "icons": ["/class-icons/explorers/marksman/split-shot.png"],
                     "animations": ["https://media2.giphy.com/media/JXAKMPlqiGOHYBwnx3/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, using <img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/>, <img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/>, or <img src='/class-icons/explorers/marksman/repeating-crossbow-cartridge.png' alt='Skill Repeating Crossbow Cartridge'/> releases a burst of arrows forward"
+                    "desc": "While active, using <img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/>, <img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/>, or <img src='/class-icons/explorers/marksman/repeating-crossbow-cartridge.png' alt='Skill Repeating Crossbow Cartridge'/> releases a burst of arrows forward",
+                    "details": [
+                        "Attack deals increased %Ignore DEF"
+                    ]
                 },
                 {
                     "name": "Surge Bolt",

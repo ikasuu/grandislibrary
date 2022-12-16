@@ -29,9 +29,9 @@
             "active": "<span data-tooltip='Spirit Blade (2nd Job)'><img src='/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> <span data-tooltip='Scarring Sword (3rd Job)'><img src='/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
             "toggles": "<span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> <span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span>",
             "summons": "<span data-tooltip='Burning Soul Blade (5th Job)'><img src='/class-icons/explorers/hero/burning-soul-blade-1.png' alt='Skill Burning Soul Blade'/></span>(120s cd)",
-            "buffCd": "<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>(120s cd) <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure (Warrior)'/></span>(120s cd) <span data-tooltip='Instinctual Blade (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span>(240s cd)",
+            "buffCd": "<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>(120s cd) <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure (Warrior)'/></span>(120s cd) <span data-tooltip='Instinctual Blade (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span>(120s cd)",
             "buffFifth": "<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>(180s cd) <span data-tooltip='Maple World  Goddess Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>(15s cd) <span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>(240s cd)",
-            "iFrame": "<span data-tooltip='Worldreaver (5th Job)'><img src='/class-icons/explorers/hero/worldreaver.png' alt='Skill Worldreaver'/></span>(20s cd)"
+            "iFrame": "<span data-tooltip='Worldreaver (5th Job)'><img src='/class-icons/explorers/hero/worldreaver.png' alt='Skill Worldreaver'/></span>(25s cd)"
         },
         "linkSkill": {
                 "id": 80002758,
@@ -229,7 +229,7 @@
                     {
                         "id": 1101013,
                         "name": "Combo Attack",
-                        "shortDesc": "While activated, 40% chance of having the attack added to the Combo Count. Attack Power for each Combo Count: +2. Max Combo Count: 5",
+                        "shortDesc": "While activated, 40% chance of having the attack added to the Combo Count.\\nAttack Power for each Combo Count: +2. Max Combo Count: 5",
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/hero/combo-attack.png"],
                         "animations": ["https://media.giphy.com/media/8IYyO1LGF85d3t23MM/giphy.gif"],
@@ -363,7 +363,7 @@
                     {
                         "id": 1111008,
                         "name": "Beam Blade",
-                        "shortDesc": "MP Cost: 55. Launches a blade that deal 180% damage 5 times to up to 8 enemies. Beam Blade Damage Against Normal Monsters: +180%p\\nCooldown: 7 sec.",
+                        "shortDesc": "MP Cost: 55. Launches a blade that deal 180% damage 5 times to up to 8 enemies.\\nBeam Blade Damage Against Normal Monsters: +180%p\\nCooldown: 7 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/hero/beam-blade.png"],
                         "animations": ["https://media.giphy.com/media/GJh1jQT8JFCGtMV61m/giphy.gif"],
@@ -379,7 +379,7 @@
                 "4th Job", [{
                     "id": 1121008,
                     "name": "Raging Blow",
-                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 200%, Number of Attacks: 7, Final attack is critical\\nEnhanced Raging Blow - Attack: 7 times, Damage: 215%, and the final two attacks are criticals.\\n[Passive Effects: Beam Blade Damage +70%p]",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 4, Final attack is critical\\nEnhanced Raging Blow - Attack: 4 times, Damage: 344%, and the final two attacks are criticals.\\n[Passive Effects: Beam Blade Damage +70%p]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/hero/raging-blow.png"],
                     "animations": ["https://media.giphy.com/media/87xLc1lUKMOMo1hX5e/giphy.gif", "https://media.giphy.com/media/dT7AsZBHPXbOvCcP2F/giphy.gif"],
@@ -639,7 +639,7 @@
                 },
                 {
                     "name": "Worldreaver",
-                    "shortDesc": "MP Cost: 500, Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 14, Invulnerable while casting.\\nOn hit, increases Final Damage for 5 sec. by the Final Damage bonus of the 6 Combo Orbs. Final Damage increase from Combo Orb is additive.\\nCooldown: 20 sec.",
+                    "shortDesc": "MP Cost: 500, Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 14, Invulnerable while casting.\\nCooldown: 25 sec.",
                     "id": 400011027,
                     "icons": ["/class-icons/explorers/hero/worldreaver.png"],
                     "animations": ["https://media.giphy.com/media/jQiKV8C5OYNzD2wmtd/giphy.gif"],
@@ -647,13 +647,12 @@
                     "desc": "Slices nearby enemies in half dealing tremendous damage",
                     "details": [
                         "While casting, you are invulnerable",
-                        "Briefly increases amount of %Final Damage provided by <span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span>",
-                        "Attack is unaffected by Damage Reflect"
+                        "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Instinctual Combo",
-                    "shortDesc": "Can be used if you have at least 1 Combo Orb. MP Cost: 1000, Duration: 30 sec\\nThe Combo Orb increases Final Damage, damage to bosses, and Attack Power by 17%.\\nDecreases the chance of charging Combo Orbs by 50%\\nTear in Space: Periodically activates a rift 3 time(s). Damage: 400%, Max Enemies Hit: 6, Number of Attacks: 6. Cannot charge the Combo Orb with the Tear in Space.\\nCooldown: 240 sec",
+                    "shortDesc": "Can be used if you have at least 1 Combo Orb. MP Cost: 1000, Duration: 20 sec\\nThe Combo Orb increases Final Damage, damage to bosses, and Attack Power by 17%.\\nDecreases the chance of charging Combo Orbs by 50%\\nTear in Space: Periodically activates a rift 3 time(s). Damage: 325%, Max Enemies Hit: 6, Number of Attacks: 6. Cannot charge the Combo Orb with the Tear in Space.\\nCooldown: 120 sec",
                     "id": 400011073,
                     "icons": ["/class-icons/explorers/hero/instinctual-combo.png"],
                     "animations": ["https://media.giphy.com/media/3ZBgUWHGOrYdECsEEQ/giphy.gif"],
@@ -666,13 +665,14 @@
                 },
                 {
                     "name": "Sword Illusion",
-                    "shortDesc": "MP Cost: 700, Max Enemies Hit: 8, Damage: 250%, Attack Count: 4, Chase Cut Activation Count: 12. Afterwards, activates 5 explosion(s), which attack 5 time(s) for 500% damage.\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 700, Max Enemies Hit: 8, Damage: 250%, Attack Count: 4, Chase Cut Activation Count: 12. Afterwards, activates 5 explosion(s), which attack 5 time(s) for 500% damage.\\nWhile Combo Attack is active, upon use, increases Final Damage for 8 sec by the Final Damage bonus of the 6 Combo Orbs. Final Damage increase from Combo Orb is additive.\\nCooldown: 30 sec",
                     "id": 400011073,
                     "icons": ["/class-icons/explorers/hero/sword-illusion.png"],
                     "animations": ["https://media.giphy.com/media/gLbIeSNjXVWii2e9ul/giphy.gif"],
                     "type": "Attack",
                     "desc": "Slashes forward several times and creates an explosion",
                     "details": [
+                        "Upon use, briefly increases amount of %Final Damage provided by <span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span>",
                         "Unaffected by Damage Reflect"
                     ]
                 }

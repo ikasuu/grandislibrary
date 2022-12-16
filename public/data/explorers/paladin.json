@@ -320,7 +320,10 @@
                         "icons": ["/class-icons/explorers/paladin/noble-demand.png"],
                         "animations": ["https://media.giphy.com/media/TmO2tNABdC3vx7iAms/giphy.gif"],
                         "type": "Active Debuff",
-                        "desc": "Debuffs nearby enemies by reducing their %Attack, %DEF and %Accuracy"
+                        "desc": "Debuffs nearby enemies by reducing their %Attack, %DEF and %Accuracy",
+                        "details": [
+                            "Reduction to %DEF can be considered as %Ignore DEF"
+                        ]
                     },
                     {
                         "id": 1211014,
@@ -658,11 +661,12 @@
                     "shortDesc": "[Passive Effects] Creates 1 spiraling hammer around you whenever you generate a Light Charge. Up to 5 hammers can be active at once, and their duration is shared with Vessel of Light.\\n\\n[Active Effects] MP Cost: 1000. Hammers automatically attack up to 8 enemies 4 times dealing 1050% damage over 30 sec. Attack speed increases with the number of hammers.\\nCooldown: 60 sec",
                     "id": 400011052,
                     "icons": ["/class-icons/explorers/paladin/hammers-of-the-righteous.png"],
-                    "animations": ["https://media0.giphy.com/media/fx5X5NrlzJ1YVgUSm9/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/jONSLgsZ35AlIiUNKF/giphy-downsized-large.gif"],
                     "type": "Attack",
                     "desc": "Passively creates hammers whenever you gain a Light Charge (up to 5 hammers)",
                     "details": [
                         "<strong>[Active]</strong>: Causes the hammers to grow and damage enemies around you and will gain attack speed based on the number of hammers active",
+                        "While active, pressing the Skill Key again will end the attack early",
                         "Duration of the hammers is shared with <span data-tooltip='Vessel of Light (2nd Job)'><img src='/class-icons/explorers/paladin/vessel-of-light.png' alt='Skill Vessel of Light'/></span>",
                         "Unaffected by Damage Reflect"
                     ]
@@ -672,7 +676,7 @@
                     "shortDesc": "Consumes 2% of max HP per sec. Deals 595% damage 12 times consecutively on up to 12 enemies while holding the key down.\\nAfter some time passes, the cross gets bigger, which will increase attack speed and deal 1040% damage.\\nMax Key-down Time: 6 sec, Additional Critical Rate: +100%, Additional Monster DEF Ignored: +100%\\nDamage Reduction During Key-down: 50% (including Percentage HP attacks)\\nCooldown: 180 sec.",
                     "id": 400011072,
                     "icons": ["/class-icons/explorers/paladin/grand-guardian.png"],
-                    "animations": ["https://media0.giphy.com/media/6P9wXg8Sa4WZ065Fxa/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/YmSRdgNe8g6GKZ3ASL/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "While held, consumes %Max HP to create a cross that deals damage and slowly expands and will increase in attack speed and damage",
                     "details": [
@@ -683,7 +687,7 @@
                 },
                 {
                     "name": "Mighty Mjolnir",
-                    "shortDesc": "MP Cost: 500, sets 1 enemy as the target and deals 450% damage 6 time(s). Additional Critical Rate: 50%. Tracks down a total of 4 enemies as targets, including the first attack.\\nA shockwave occurs after attacking the tracked target, dealing additional attacks up to 6 enemies, with 500% damage, 9 time(s).\\n1 Hammer will be prepared every 15 sec, and you can hold up to 2.\\nCooldown: 2.5 sec",
+                    "shortDesc": "MP Cost: 500, sets 1 enemy as the target and deals 360% damage 6 time(s). Additional Critical Rate: 50%. Tracks down a total of 4 enemies as targets, including the first attack.\\nA shockwave occurs after attacking the tracked target, dealing additional attacks up to 6 enemies, with 400% damage, 9 time(s).\\n1 Hammer will be prepared every 12 sec, and you can hold up to 3.\\nCooldown: 2.5 sec",
                     "id": 400011072,
                     "icons": ["/class-icons/explorers/paladin/mighty-mjolnir.png"],
                     "animations": ["https://media.giphy.com/media/rSSm6GZthLv5LId2SY/giphy.gif"],
@@ -692,7 +696,7 @@
                     "details": [
                         "The hammer has increased %Crit Chance and creates a shockwave when it hits a target that damages nearby enemies",
                         "You can control the direction of where the hammer is thrown by pressing the Skill Key and any Arrow Key",
-                        "You gain one hammer every 15 secs and can store up to 2 at a time",
+                        "You gain 1 hammer every 12 secs (up to 3 at a time)",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -722,12 +726,12 @@
             {
                 "name": "Hammers of the Righteous - 5th Job",
                 "icons": ["/class-icons/explorers/paladin/hammers-of-the-righteous.png"],
-                "animations": ["https://media0.giphy.com/media/fx5X5NrlzJ1YVgUSm9/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/jONSLgsZ35AlIiUNKF/giphy-downsized-large.gif"]
             },
             {
                 "name": "Grand Guardian - 5th Job",
                 "icons": ["/class-icons/explorers/paladin/grand-guardian.png"],
-                "animations": ["https://media0.giphy.com/media/6P9wXg8Sa4WZ065Fxa/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/YmSRdgNe8g6GKZ3ASL/giphy.gif"]
             },
             {
                 "name": "Mighty Mjolnir - 5th Job",

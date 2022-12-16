@@ -30,7 +30,7 @@
             "active": "<span data-tooltip='Maha Blessing (3rd Job)'><img src='/class-icons/heroes/aran/maha-blessing.png' alt='Skill Maha Blessing'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> <span data-tooltip='Adrenaline Rush Activate (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt='Skill Adrenaline Rush Activate'/></span>(Special)",
             "toggles": "<span data-tooltip='Body Pressure (1st Job)'><img src='/class-icons/heroes/aran/body-pressure.png' alt='Skill Body Pressure'/></span> <span data-tooltip='Drain (2nd Job)'><img src='/class-icons/heroes/aran/drain.png' alt='Skill Drain'/></span> <span data-tooltip='Snow Charge (2nd Job)'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span>",
             "summons": "<span data-tooltip='Maha&#39;s Domain (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-domain.png' alt='Skill Maha's Domain'/></span> (90s cd)",
-            "buffCd": "<span data-tooltip='Adrenaline Burst (Hyper Skill)'><img src='/class-icons/heroes/aran/adrenaline-burst.png' alt='Skill Adrenaline Burst'/></span>(240s cd) <span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/aran/heroic-memories.png' alt='Skill Heroic Memories'/></span>(120s cd) <span data-tooltip='Maha&#39;s Fury (5th Job)'><img src='/class-icons/heroes/aran/mahas-fury.png' alt='Skill Maha&#39;s Fury'/></span>(90s cd)",
+            "buffCd": "<span data-tooltip='Adrenaline Burst (Hyper Skill)'><img src='/class-icons/heroes/aran/adrenaline-burst.png' alt='Skill Adrenaline Burst'/></span>(180s cd) <span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/aran/heroic-memories.png' alt='Skill Heroic Memories'/></span>(120s cd) <span data-tooltip='Maha&#39;s Fury (5th Job)'><img src='/class-icons/heroes/aran/mahas-fury.png' alt='Skill Maha&#39;s Fury'/></span>(90s cd)",
             "buffFifth": "<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>(180s cd) <span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>(180s cd) <span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>(240s cd) <span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>(240s cd)",
             "binds": "<span data-tooltip='Blizzard Tempest (5th Job)'><img src='/class-icons/heroes/aran/blizzard-tempest.png' alt='Skill Blizzard Tempest'/></span>(180s cd)",
             "iFrame": "<span data-tooltip='Finisher - Hunter&#39;s Prey (4th Job)'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter's Prey'/></span>(Adrenaline Mode) <span data-tooltip='Maha&#39;s Domain (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-domain.png' alt='Skill Maha&#39;s Domain'/></span>(90s cd) <span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>(240s cd)"
@@ -404,16 +404,16 @@
                     "4th Job", [{
                         "id": 21120022,
                         "name": "Beyond Blade",
-                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 6, Damage: 285%, Number of Attacks: 5. Deals up to 3 additional hits with consecutive key presses.\\n2 Hits: Attack 5 times for 300% damage\\n3 Hits: Attack 5 times for 315% damage.\\nFor each enemy struck fewer than Max Enemies Hit, 6% of the damage that would be dealt is doubled and inflicted as bonus damage.\\nBonus Critical Rate: 100%, Ignored Monster DEF: 30%\\nFires a shockwave that hits up to 6 enemies for 400% damage 5 times if in Adrenaline Rush state.\\nCan be used after Final Blow.",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 6, Damage: 295%, Number of Attacks: 5. Deals up to 3 additional hits with consecutive key presses.\\n2 Hits: Attack 5 times for 311% damage\\n3 Hits: Attack 5 times for 326% damage.\\nBonus Critical Rate: 100%, Ignore Monster DEF: 30%, Damage Against Normal Enemies: +8%\\nDamage: +20%p when used by linking with Final Blow.\\nFires a shockwave that hits up to 6 enemies for 400% damage 5 times if in Adrenaline Rush state.",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/aran/beyond-blade.png"],
                         "animations": ["https://media.giphy.com/media/L1WHFDUsN8ZobX9Bu9/giphy.gif"],
                         "type": "Attack",
                         "desc": "Performs 3 separate attacks consecutively, dealing increased %Damage the fewer enemies hit",
                         "details": [
-                            "Can only be used linked after using <span data-tooltip='Final Blow (3rd Job)'><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/></span>",
+                            "Deals increased %p Damage if <span data-tooltip='Final Blow (3rd Job)'><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/></span> is used first and linked together",
+                            "Attack has additional %Ignore DEF, is a guaranteed Critical Hit, and deals increased %Damage to regular monsters",
                             "While casting, prevents you from being knocked back at all (Super Knockback Resistance)",
-                            "Has additional %Ignore DEF and is a guaranteed Critical Hit",
                             "During <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span>, shockwaves will be shot both in front and behind you"
                         ]
                     },
@@ -628,7 +628,7 @@
                 {
                     "id": 21121058,
                     "name": "Adrenaline Burst",
-                    "shortDesc": "MP Cost: 500, Cooldown: 240 sec",
+                    "shortDesc": "MP Cost: 500, Cooldown: 180 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/aran/adrenaline-burst.png"],
                     "type": "Buff",
@@ -670,12 +670,12 @@
             "fifthMain": [
                 {
                     "name": "Maha's Fury",
-                    "shortDesc": "MP Cost: 1000, instantly increases combo to 80, Maha empowers you for 37 sec, Attack Power: +30%\\nBlizzard Damage: 900% every 3 sec, Max Enemies Hit: 10, Number of Attacks: 5\\nCooldown: 90 sec ",
+                    "shortDesc": "MP Cost: 1000, instantly increases combo to 160, Maha empowers you for 37 sec, Attack Power: +30%\\nBlizzard Damage: 900% every 3 sec, Max Enemies Hit: 10, Number of Attacks: 5\\nCooldown: 90 sec ",
                     "id": 400031002,
                     "icons": ["/class-icons/heroes/aran/mahas-fury.png"],
                     "animations": ["https://media3.giphy.com/media/OW0uXIKlOqOeLyltwM/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "Equips Maha which will instantly increase combo to 80 and grants %Attack Power",
+                    "desc": "Equips Maha which will instantly increase combo to 160 and grants %Attack Power",
                     "details": [
                         "While active, periocially, a blizzard appears around you damaging nearby enemies"
                     ]
@@ -697,7 +697,7 @@
                 },
                 {
                     "name": "Fenrir Crash",
-                    "shortDesc": "MP Cost: 200, Damage: 625%, Number of Attacks: 6, Max Enemies Hit: 10\\nFor each enemy struck fewer than Max Enemies Hit, 6% of the damage that would be dealt is doubled and inflicted as bonus damage.\\nAdditional Critical Rate: +100%, Additional Monster DEF Ignored: +50%\\nCreates an iceberg that hits up to 10 enemies for 625% damage 6 time(s) if Adrenaline Rush is active.\\nUsed after Beyond Blade 3rd Hit.",
+                    "shortDesc": "MP Cost: 200, Damage: 710%, Number of Attacks: 6, Max Enemies Hit: 10\\nBonus Critical Rate: 100%, Additional Ignore Defense: 50%\\nWhile Adrenaline Rush is active, Max Enemies Hit: 10, Number of Attacks: 6, Iceberg Damage: 625%\\nCan be used after Beyond Blade 3rd Hit.",
                     "id": 400031028,
                     "icons": ["/class-icons/heroes/aran/fenrir-crash.png"],
                     "animations": ["https://media0.giphy.com/media/WXvpblIhTQ9bAtIsbj/giphy.gif"],
@@ -705,9 +705,8 @@
                     "desc": "After the 3rd attack of <span data-tooltip='Beyond Blade (4th Job)'><img src='/class-icons/heroes/aran/beyond-blade.png' alt='Skill Beyond Blade'/></span>, Fenrir crashes down on the ground, damaging nearby enemies",
                     "details": [
                         "Used automatically after <span data-tooltip='Beyond Blade (4th Job)'><img src='/class-icons/heroes/aran/beyond-blade.png' alt='Skill Beyond Blade'/></span> 3rd hit",
-                        "Prevents knockback while active",
-                        "Deals increased %Damage the fewer enemies hit",
-                        "Has increased %Ignore DEF and is a guaranteed Critical Hit",
+                        "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
+                        "While casting, prevents you from being knocked back at all (Super Knockback Resistance)",
                         "During <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span>, an iceberg will appear dealing damage to nearby enemies"
                     ]
                 },

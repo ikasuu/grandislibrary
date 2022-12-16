@@ -34,7 +34,7 @@
             "buffCd": "<span data-tooltip='Roll of the Dice (3rd Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>(180s cd) <span data-tooltip='Stimulating Conversation (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/stimulating-conversation.png' alt='Skill Stimulating Conversation'/></span>(180s cd) <span data-tooltip='Serpent Spirit (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/serpent-spirit.png' alt='Skill Serpent Spirit'/>(60s cd)</span> <span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/pirate/epic-adventure.png' alt='Skill Epic Adventure'/></span>(120s cd)",
             "buffFifth": "<span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>(70 - 64s cd) <span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)",
             "iFrame": "<span data-tooltip='Sommersault Kick (1st Job)'><img src='/class-icons/explorers/pirate/sommersault-kick.png' alt='Skill Sommersault Kick'/></span>(Touch Damage iFrame) <span data-tooltip='Lightning Form (5th Job)'><img src='/class-icons/explorers/buccaneer/lightning-form.png' alt='Skill Lightning Form'/></span>(180s cd, during Energy Orb cast) <span data-tooltip='Howling Fist (5th Job)'><img src='/class-icons/explorers/buccaneer/howling-fist.png' alt='Skill Howling Fist'/></span>(90s cd)",
-            "damageReduce": "<span data-tooltip='Defensive Stance (4th Job)'><img src='/class-icons/explorers/buccaneer/defensive-stance.png' alt='Skill Defensive Stance'/></span>(-40% | 25% chance)"
+            "damageReduce": "<span data-tooltip='Defensive Stance (4th Job)'><img src='/class-icons/explorers/buccaneer/defensive-stance.png' alt='Skill Defensive Stance'/></span>(-30% | 4s cd)"
         },
         "linkSkill": {
                 "id":80002774,
@@ -318,7 +318,7 @@
                     {
                         "id": 5101004,
                         "name": "Sea Serpent Burst",
-                        "shortDesc": "Damage: 111%, Max Enemies Hit: 8, Number of Attacks: 4\\nCooldown: 11 sec.",
+                        "shortDesc": "Damage: 111%, Max Enemies Hit: 6, Number of Attacks: 4\\nCooldown: 11 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/buccaneer/sea-serpent-burst.png"],
                         "animations": ["https://media.giphy.com/media/CRgfWwdi9DSwS2RyFL/giphy.gif"],
@@ -415,7 +415,7 @@
                     {
                         "id": 5111018,
                         "name": "Serpent Assault",
-                        "shortDesc": "Damage: 423%, Max Enemies Hit: 15, Number of Attacks: 6",
+                        "shortDesc": "Damage: 423%, Max Enemies Hit: 12, Number of Attacks: 6",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/buccaneer/serpent-assault.png"],
                         "animations": ["https://media.giphy.com/media/co2vQDEDgdGiXHUOtP/giphy.gif"],
@@ -472,7 +472,7 @@
                     {
                         "id": 5121016,
                         "name": "Hook Bomber",
-                        "shortDesc": "MP Cost: 46, Damage: 565%, Number of Attacks: 4, Max Enemies Hit: 10",
+                        "shortDesc": "MP Cost: 46, Damage: 565%, Number of Attacks: 4, Max Enemies Hit: 7",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/buccaneer/hook-bomber.png"],
                         "animations": ["https://media.giphy.com/media/NAwEwHJ1OvOx6lTmGP/giphy.gif"],
@@ -494,7 +494,7 @@
                     {
                         "id": 5120022,
                         "name": "Sea Serpent Burst II",
-                        "shortDesc": "Damage: 425%, Max Enemies Hit: 10, Number of Attacks: 8\\nCooldown: 7 sec.",
+                        "shortDesc": "Damage: 425%, Max Enemies Hit: 8, Number of Attacks: 8\\nCooldown: 7 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/buccaneer/sea-serpent-burst-ii.png", "/class-icons/explorers/buccaneer/sea-serpent-burst.png"],
                         "animations": ["https://media.giphy.com/media/hIQ4iWPxa3lljXdXQs/giphy.gif"],
@@ -622,11 +622,11 @@
                     {
                         "id": 5120011,
                         "name": "Defensive Stance",
-                        "shortDesc": "Trigger Chance: 25%, Damage Taken: -40%. Will also activate for attacks that take off a certain percentage of your max HP.",
+                        "shortDesc": "When sea serpent or assault skills hit, generates a protective shield for 3 sec that takes 30% damage (includes damage proportional to Max HP).\\nUnable to recreate Protective Shield for 4 sec when activated.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/buccaneer/defensive-stance.png"],
                         "type": "Passive",
-                        "desc": "Grants a chance to take reduced damage when hit including %Max HP attacks"
+                        "desc": "Upon landing a successful Sea Serpent or Assault skill, create a barrier that reduces damage taken (including %Max HP attacks)"
                     },
                     {
                         "id": 5120011,

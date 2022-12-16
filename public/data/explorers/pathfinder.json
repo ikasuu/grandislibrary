@@ -251,7 +251,7 @@
                     {
                         "id": 3301003,
                         "name": "Cardinal Burst",
-                        "shortDesc": "MP Cost: 15, Max Enemies: 4, Damage: 200%, Attack Count: 4, when the arrow explodes.",
+                        "shortDesc": "MP Cost: 15, Max Enemies: 5, Damage: 200%, Attack Count: 4, when the arrow explodes.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/pathfinder/cardinal-burst.png"],
                         "animations": ["https://media.giphy.com/media/SA0iTiVe5bfY3JAzmb/giphy.gif"],
@@ -326,14 +326,13 @@
                     {
                         "id": 3310001,
                         "name": "Cardinal Burst Amplification",
-                        "shortDesc": "MP Cost: 20, Max Enemies: 5, Damage: 300%, Attack Count: 4, when the arrow explodes.\\nIf the total number of enemies struck is lower than the maximum, this skill's final damage will increased by an additional 10% for each enemy below the max.",
+                        "shortDesc": "MP Cost: 20, Max Enemies: 6, Damage: 420%, Attack Count: 4, when the arrow explodes.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/pathfinder/cardinal-burst-amplification.png", "/class-icons/explorers/pathfinder/cardinal-burst.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases %Damage and Max Enemies Hit of attack",
-                            "Additionally, gains increased %Final Damage the fewer enemies hit"
+                            "Increases %Damage and Max Enemies Hit of attack"
                         ]
                     },
                     {
@@ -355,7 +354,7 @@
                     {
                         "id": 3311010,
                         "name": "Triple Impact",
-                        "shortDesc": "Relic Gauge Cost: 50. Explosions deal 400% damage 5 times to up to 4 enemies.\\nCooldown 10 sec",
+                        "shortDesc": "Relic Gauge Cost: 50. Explosions deal 265% damage 5 times to up to 4 enemies.\\nCooldown 10 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/pathfinder/triple-impact.png"],
                         "animations": ["https://media.giphy.com/media/VIPY8sbgRYgXlAYWCp/giphy.gif"],
@@ -459,7 +458,7 @@
                     {
                         "id": 3320001,
                         "name": "Curseweaver",
-                        "shortDesc": "Using certain skills will inflict enemies with the Ancient Curse debuff, which lasts for 15 sec and can be stacked up to 5 times.\\nSkills that utilize the Ancient Bow deal an increased 4% Critical Damage to enemies for each stack of the curse debuff currently afflicting them.",
+                        "shortDesc": "Using certain skills will inflict enemies with the Ancient Curse debuff, which lasts for 30 sec and can be stacked up to 5 times.\\nSkills that utilize the Ancient Bow deal an increased 4% Critical Damage to enemies for each stack of the curse debuff currently afflicting them.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/pathfinder/curseweaver.png"],
                         "type": "Passive",
@@ -472,7 +471,7 @@
                     {
                         "id": 3320002,
                         "name": "Advanced Cardinal Force",
-                        "shortDesc": "When using Cardinal Force skills, MP Cost: 30\\nCardinal Deluge\\nFires an arrow that deals 300% damage to up to 6 enemies 4 times. Fires 1 additional arrow if a boss monster is within range.\\nCardinal Burst\\nAn exploding arrow deals 400% damage to up to 6 enemies 4 times. If total enemies struck is lower than the max, an additional 10% is added to the final damage for each enemy below the max.\\nCardinal Torrent\\nConsumes 1 Swiftstrike Charge. Deals 540% damage 5 times to up to 7 nearby enemies. You gain 1 Swiftstrike Charge every 7 sec up to a maximum of 5. You cannot be pushed back while casting, and each enemy hit will receive 1 stack of the Ancient Curse debuff.",
+                        "shortDesc": "When using Cardinal Force skills, MP Cost: 30\\nCardinal Deluge\\nFires an arrow that deals 300% damage to up to 6 enemies 4 times. Fires 1 additional arrow if a boss monster is within range.\\nBountiful Deluge Normal Enemy Damage: +100%\\nCardinal Burst\\nAn exploding arrow deals 600% damage to up to 7 enemies 4 times.\\nBountiful Burst Normal Enemy Damage: +100%\\nCardinal Torrent\\nConsumes 1 Swiftstrike Charge. Deals 540% damage 5 times to up to 7 nearby enemies. You gain 1 Swiftstrike Charge every 7 sec up to a maximum of 5. You cannot be pushed back while casting, and each enemy hit will receive 1 stack of the Ancient Curse debuff.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/pathfinder/advanced-cardinal-force.png", "/class-icons/explorers/pathfinder/cardinal-deluge.png", "/class-icons/explorers/pathfinder/cardinal-burst.png", "/class-icons/explorers/pathfinder/cardinal-torrent.png"],
                         "animations": ["https://media.giphy.com/media/H422SodZD7TNa5l5nP/giphy.gif", "https://media.giphy.com/media/WsvBfbCd5AHSW2X8OT/giphy.gif"],
@@ -481,6 +480,7 @@
                         "details": [
                             "Increases %Damage of attack",
                             "<span data-tooltip='Cardinal Deluge (1st Job)'><img src='/class-icons/explorers/pathfinder/cardinal-deluge.png' alt='Skill Cardinal Deluge'/></span> and <span data-tooltip='Cardinal Burst (2nd Job)'><img src='/class-icons/explorers/pathfinder/cardinal-burst.png' alt='Skill Cardinal Burst'/></span> have bigger animations and hitboxes",
+                            "Homing arrows from <span data-tooltip='Bountiful Deluge (2nd Job)'><img src='/class-icons/explorers/pathfinder/bountiful-deluge.png' alt='Skill Bountiful Deluge'/></span> <span data-tooltip='Bountiful Burst (3rd Job)'><img src='/class-icons/explorers/pathfinder/bountiful-burst.png' alt='Skill Bountiful Burst'/></span> now deal increased %Damage to regular monsters",
                             "When dashing in place using <span data-tooltip='Cardinal Torrent (3rd Job)'><img src='/class-icons/explorers/pathfinder/cardinal-torrent.png' alt='Skill Cardinal Torrent'/></span>, you cannot be pushed back (Super Knockback Resistance) and enemies hit by the attack will gain a stack of <span data-tooltip='Curseweaver (4th Job)'><img src='/class-icons/explorers/pathfinder/curseweaver.png' alt='Skill Curseweaver'/></span> debuff"
                         ]
                     },
@@ -501,7 +501,7 @@
                     {
                         "id": 3321014,
                         "name": "Combo Assault",
-                        "shortDesc": "Relic Gauge Cost: 150. Bow attack deals 500% damage to up to 4 enemies 7 times, inflicting 1 stack(s) of the Ancient Curse debuff.\\nArrow attack deals 550% damage to up to 10 enemies 5 times.\\nCooldown: 20 sec",
+                        "shortDesc": "Relic Gauge Cost: 100. Bow attack deals 500% damage to up to 4 enemies 7 times, inflicting 1 stack(s) of the Ancient Curse debuff.\\nArrow attack deals 550% damage to up to 10 enemies 5 times.\\nCooldown: 20 sec",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/pathfinder/combo-assault.png"],
                         "animations": ["https://media.giphy.com/media/eKTtbptGr7YJy01VU9/giphy.gif"],
@@ -556,11 +556,11 @@
                     {
                         "id": 3320009,
                         "name": "Ancient Archery",
-                        "shortDesc": "Bountiful Deluge Damage: +50%p, Bountiful Burst Damage: +50%p\\nSwarm Shot First Arrow Damage: +350%p, Additional Magical Arrows' Damage: +200%p, Triple Impact Explosion Damage: +200%p.\\nFinal Damage of Ancient Force and Enchant Force Skills: +10%, Boss Damage: +50%",
+                        "shortDesc": "Bountiful Deluge Damage: +50%p, Bountiful Burst Damage: +50%p\\nSwarm Shot First Arrow Damage: +350%p, Additional Magical Arrows' Damage: +200%p\\nFinal Damage of Ancient Force and Enchant Force Skills: +10%, Boss Damage: +50%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/pathfinder/ancient-archery.png"],
                         "type": "Passive",
-                        "desc": "Increases the %p Damage of <span data-tooltip='Bountiful Deluge (2nd Job)'><img src='/class-icons/explorers/pathfinder/bountiful-deluge.png' alt='Skill Bountiful Deluge'/></span>, <span data-tooltip='Bountiful Burst (3rd Job)'><img src='/class-icons/explorers/pathfinder/bountiful-burst.png' alt='Skill Bountiful Burst'/></span>, <span data-tooltip='Swarm Shot (2nd Job)'><img src='/class-icons/explorers/pathfinder/swarm-shot.png' alt='Skill Swarm Shot'/></span>, and <span data-tooltip='Triple Shot (3rd Job)'><img src='/class-icons/explorers/pathfinder/triple-impact.png' alt='Skill Triple Impact'/></span>",
+                        "desc": "Increases the %p Damage of <span data-tooltip='Bountiful Deluge (2nd Job)'><img src='/class-icons/explorers/pathfinder/bountiful-deluge.png' alt='Skill Bountiful Deluge'/></span>, <span data-tooltip='Bountiful Burst (3rd Job)'><img src='/class-icons/explorers/pathfinder/bountiful-burst.png' alt='Skill Bountiful Burst'/></span>, and <span data-tooltip='Swarm Shot (2nd Job)'><img src='/class-icons/explorers/pathfinder/swarm-shot.png' alt='Skill Swarm Shot'/></span>",
                         "details": [
                             "Additionally increases %Final Damage and %Boss Damage of Ancient Force and Enchant Force skills"
                         ]

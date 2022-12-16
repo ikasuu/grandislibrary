@@ -18,7 +18,7 @@
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +30%] [<span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +5% when wand is equipped]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +13%] [<span data-tooltip='Freezing Crush (2nd Job)'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span> up to +15%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Elemental Amplification (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-amplification.png' alt='Skill Elemental Amplification'/></span> +50%] [<span data-tooltip='Freezing Crush (2nd Job)'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span> up to +60% for lightning attacks] [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/ice-lightning/arcane-aim.png' alt='Skill Arcane Aim'/></span> up to +40%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +50%] [<span data-tooltip='Storm Magic (3rd Job)'><img src='/class-icons/explorers/ice-lightning/storm-magic.png' alt='Skill Storm Magic'/></span> +20% to damage over time, frozen, stun, darkness, paralysis]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +40%] [<span data-tooltip='Storm Magic (3rd Job)'><img src='/class-icons/explorers/ice-lightning/storm-magic.png' alt='Skill Storm Magic'/></span> +20% to damage over time, frozen, stun, darkness, paralysis]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/ice-lightning/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> +40%] [<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/ice-lightning/buff-mastery.png' alt='Skill Buff Mastery'/></span> +60%]",
                 "<strong>Buff Duration</strong>: [<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/ice-lightning/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%]",
@@ -180,7 +180,7 @@
                     {
                         "id": 2001009,
                         "name": "Mana Wave",
-                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance. Hold the Jump key after using to spend 20 MP to descent slowly for up to 5 sec.",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.\\nHold the Jump key after using to spend 20 MP to descent slowly for up to 5 sec.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/mage/mana-wave.png"],
                         "animations": ["https://media.giphy.com/media/XoznlDX2nWDUPJR43N/giphy.gif"],
@@ -319,21 +319,6 @@
                         "desc": "Icicles strike down from above damaging and freezing nearby enemies"
                     },
                     {
-                        "id": 2211011,
-                        "name": "Thunder Sphere",
-                        "maxLevel": 20,
-                        "shortDesc": "MP Cost: 55, Lightning Orb Summon Duration: 120 sec., Damage: 370%, Max Enemies Hit: 5, Number of Attacks: 1\\nUsing the skill again with the down arrow key fixes the orb in place for 50 sec. Fixed Orb Damage: 370%, Max enemies Hit: 6, Number of Attacks: 3\\nDamage Against Normal Enemies: +170%p\\nFixed Orb Cooldown: 30 sec.",
-                        "icons": ["/class-icons/explorers/ice-lightning/thunder-sphere.png"],
-                        "animations": ["https://media.giphy.com/media/nQeHYXs8iVS5tZq81Q/giphy.gif", "https://media.giphy.com/media/oIIeJPJQ5Wh21ZH2Cl/giphy.gif"],
-                        "type": "Summon",
-                        "desc": "Summons an orb that strikes nearby enemies and follows you around",
-                        "details": [
-                            "While active, pressing the Down Arrow Key and Skill Key together will fix the orb in place and attack in a wider range",
-                            "Deals increased %p Damage to regular monsters",
-                            "Does not consume <span data-tooltip='Freezing Crush (2nd Job'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span> freezing stacks"
-                        ]
-                    },
-                    {
                         "id": 2211012,
                         "name": "Elemental Adaptation (Ice, Lightning)",
                         "shortDesc": "MP Cost: 190, upon blocking a debilitating status condition, activates a barrier that blocks additional debilitating status conditions for 30 sec and initiates a 240 sec. Cooldown.\\n[Passive Effect: Status and Elemental Resistances +20%]",
@@ -345,6 +330,34 @@
                         "details": [
                             "Once an Abnormal Status is blocked, gain a barrier that blocks all Abnormal Statuses and the skill will go on cooldown",
                             "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                        ]
+                    },
+                    {
+                        "id": 2211010,
+                        "name": "Frost Ward",
+                        "maxLevel": 10,
+                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 8, Damage: 255%, Number of Attacks: 4",
+                        "icons": ["/class-icons/explorers/ice-lightning/frost-ward.png"],
+                        "animations": ["https://media.giphy.com/media/qPdFS6ZOhp1CX2ouKq/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Casts a blast of ice forward that freezes and slows enemies hit",
+                        "details": [
+                            "Deals increased damage to Fire type monsters"
+                        ]
+                    },
+                    {
+                        "id": 2211011,
+                        "name": "Thunder Sphere",
+                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 55, Lightning Orb Summon Duration: 120 sec., Damage: 370%, Max Enemies Hit: 6, Number of Attacks: 3\\nUsing the skill again with the down arrow key fixes the orb in place for 60 sec. Fixed Orb Damage: 370%, Max enemies Hit: 6, Number of Attacks: 3\\nDamage Against Normal Enemies: +170%p\\nFixed Orb Cooldown: 30 sec.",
+                        "icons": ["/class-icons/explorers/ice-lightning/thunder-sphere.png"],
+                        "animations": ["https://media.giphy.com/media/nQeHYXs8iVS5tZq81Q/giphy.gif", "https://media.giphy.com/media/oIIeJPJQ5Wh21ZH2Cl/giphy.gif"],
+                        "type": "Summon",
+                        "desc": "Summons an orb that strikes nearby enemies and follows you around",
+                        "details": [
+                            "While active, pressing the Down Arrow Key and Skill Key together will fix the orb in place and attack in a wider range",
+                            "Deals increased %p Damage to regular monsters",
+                            "Does not consume <span data-tooltip='Freezing Crush (2nd Job'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span> freezing stacks"
                         ]
                     },
                     {
@@ -360,6 +373,34 @@
                             "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance",
                             "Has a chance to stun enemies"
                         ]
+                    },
+                    {
+                        "id": 2211017,
+                        "name": "Teleport Boost",
+                        "shortDesc": "MP Cost: 20, Teleport Distance: Horizontal +65, Vertical +25.",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/explorers/ice-lightning/teleport-boost.png"],
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, increases the teleport distance of <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span>",
+                        "details": [
+                            "Cannot be used at the same time as <span data-tooltip='Teleport Mastery - Range'><img src='/class-icons/explorers/ice-lightning/teleport-mastery-range.png' alt='Skill Teleport Mastery - Range'/></span>"
+                        ]
+                    },
+                    {
+                        "id": 2210013,
+                        "name": "Shatter",
+                        "maxLevel": 4,
+                        "shortDesc": "Attack frozen enemies with a 100% chance to ignore 2% DEF for each stack",
+                        "icons": ["/class-icons/explorers/ice-lightning/shatter.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "id": 2211008,
+                        "name": "Elemental Decrease",
+                        "maxLevel": 9,
+                        "shortDesc": "Elemental Attribute Resistance: -10%, Final damage: +40%",
+                        "icons": ["/class-icons/explorers/ice-lightning/elemental-decrease.png"],
+                        "type": "Passive"
                     },
                     {
                         "id": 2210009,
@@ -383,47 +424,6 @@
                         "shortDesc": "MP Cost: +50%, Damage: +50%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/ice-lightning/elemental-amplification.png"],
-                        "type": "Passive"
-                    },
-                    {
-                        "id": 2210013,
-                        "name": "Shatter",
-                        "maxLevel": 4,
-                        "shortDesc": "Attack frozen enemies with a 100% chance to ignore 2% DEF for each stack",
-                        "icons": ["/class-icons/explorers/ice-lightning/shatter.png"],
-                        "type": "Passive"
-                    },
-                    {
-                        "id": 2211010,
-                        "name": "Frost Ward",
-                        "maxLevel": 10,
-                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 8, Damage: 255%, Number of Attacks: 4",
-                        "icons": ["/class-icons/explorers/ice-lightning/frost-ward.png"],
-                        "animations": ["https://media.giphy.com/media/qPdFS6ZOhp1CX2ouKq/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Casts a blast of ice forward that freezes and slows enemies hit",
-                        "details": [
-                            "Deals increased damage to Fire type monsters"
-                        ]
-                    },
-                    {
-                        "id": 2211017,
-                        "name": "Teleport Boost",
-                        "shortDesc": "MP Cost: 20, Teleport Distance: Horizontal +65, Vertical +25.",
-                        "maxLevel": 1,
-                        "icons": ["/class-icons/explorers/ice-lightning/teleport-boost.png"],
-                        "type": "Toggle Buff",
-                        "desc": "While toggled, increases the teleport distance of <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span>",
-                        "details": [
-                            "Cannot be used at the same time as <span data-tooltip='Teleport Mastery - Range'><img src='/class-icons/explorers/ice-lightning/teleport-mastery-range.png' alt='Skill Teleport Mastery - Range'/></span>"
-                        ]
-                    },
-                    {
-                        "id": 2211008,
-                        "name": "Elemental Decrease",
-                        "maxLevel": 9,
-                        "shortDesc": "Elemental Attribute Resistance: -10%, Final damage: +50%",
-                        "icons": ["/class-icons/explorers/ice-lightning/elemental-decrease.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -451,7 +451,8 @@
                     "type": "Key-down Bind Attack",
                     "desc": "Binds enemies hit by the breath while also reducing their %DEF",
                     "details": [
-                        "You are invincible while casting but you cannot move"
+                        "You are invincible while casting but you cannot move",
+                        "Reduction to %DEF can be considered as %Ignore DEF"
                     ]
                 },
                 {
@@ -470,7 +471,7 @@
                 {
                     "id": 2221012,
                     "name": "Frozen Orb",
-                    "shortDesc": "MP Cost: 50, create a Frozen Orb that deals 220% damage with ice shards to up to 8 enemies, Cooldown: 5 sec",
+                    "shortDesc": "MP Cost: 50, create a Frozen Orb that deals 220% damage with ice shards to up to 8 enemies\\nCooldown: 5 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/ice-lightning/frozen-orb.png"],
                     "animations": ["https://media.giphy.com/media/OMou1Tk6YiurzhWgWY/giphy.gif"],
@@ -484,7 +485,7 @@
                 {
                     "id": 2221004,
                     "name": "Infinity",
-                    "shortDesc": "MP Cost: 80, Duration: 40 sec. Periodically restores your base HP and MP by 10%.\\nIncreases Final Damage by 70% during the buff. Periodically increases Final Damage by 3%, Final Damage increased by Infinity is additive.\\nMana swirls around the character when 30% remains of the final buff duration (accounting for the duration-enhancing effects).\\nCooldown: 180 sec.",
+                    "shortDesc": "MP Cost: 80, Duration: 40 sec. Periodically restores your base HP and MP by 10%.\\nIncreases Final Damage by 70% during the buff. Periodically increases Final Damage by 3%, can increased up to 115%, Final Damage increased by Infinity is additive.\\nMana swirls around the character when 30% remains of the final buff duration (accounting for the duration-enhancing effects).\\nCooldown: 180 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/ice-lightning/infinity.png"],
                     "animations": ["https://media.giphy.com/media/3hZm0cskYb9S2pDW19/giphy.gif"],
@@ -591,6 +592,10 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/ice-lightning/teleport-mastery-range.png"],
                     "type": "Toggle Passive",
+                    "desc": "",
+                    "details": [
+                        "While toggled, increases teleport distance"
+                    ],
                     "reqLev": 180
                 },
                 {
@@ -652,7 +657,7 @@
                 {
                     "id": 2221054,
                     "name": "Absolute Zero Aura",
-                    "shortDesc": "MP Cost: 60 per second. Grants Status Resistance: +20, Elemental Resistance: +20% and Damage Taken: -20% to you and nearby party members.\\nFreezes up to 15 enemies periodically.\\nVortex: Duration: 15 sec. Allies within the vortex receive the effects of Absolute Zero Aura for the vortex's duration, even if they weren't nearby when Absolute Zero Aura was first case, or if Absolute Zero Aura has since been toggled Off. Enemies within the vortex freeze more quickly.\\nVortex Cooldown: 60 sec.",
+                    "shortDesc": "MP Cost: 60 per second. Grants Status Resistance: +20, Elemental Resistance: +20% and Damage Taken: -20% to you and nearby party members.\\nFreezes up to 15 enemies periodically.\\nVortex: Duration: 30 sec. Allies within the vortex receive the effects of Absolute Zero Aura for the vortex's duration, even if they weren't nearby when Absolute Zero Aura was first case, or if Absolute Zero Aura has since been toggled Off. Enemies within the vortex freeze more quickly.\\nVortex Cooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/ice-lightning/absolute-zero-aura.png"],
                     "animations": ["https://media.giphy.com/media/yg6S3u35djAsZgz9u8/giphy.gif", "https://media.giphy.com/media/WgSSVa0sYvKIag9PPD/giphy.gif"],
@@ -723,14 +728,14 @@
                 },
                 {
                     "name": "Spirit of Snow",
-                    "shortDesc": "MP Cost: 1000, stacks Freeze, Max Enemies Hit: 10, Number of Attacks: 9, Damage: 800%, Attack Duration: 30 sec\\nDeals 1700% damage when attacking 1 enemy and stacks Freeze 3 time(s)\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000, stacks Freeze, Max Enemies Hit: 10, Number of Attacks: 9, Damage: 1700%, Attack Duration: 30 sec\\nWhen attacking 1 enemy, Freeze Stacks: 3\\nCooldown: 120 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/explorers/ice-lightning/spirit-of-snow.png"],
                     "animations": ["https://media.giphy.com/media/KFi2458O0ZRxQXH3AL/giphy-downsized-large.gif"],
                     "type": "Summon",
                     "desc": "Summons a spirit of snow to attack nearby enemies and applies stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span>",
                     "details": [
-                        "Deals increased damage and applies 3 stacks when attacking a single enemy",
+                        "When attacking a single enemy, applies 3 stacks instead",
                         "Unaffected by Damage Reflect"
                     ]
                 },
