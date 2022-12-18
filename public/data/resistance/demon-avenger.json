@@ -32,7 +32,7 @@
             "buffCd": "<span data-tooltip='Forbidden Contract (Hyper Skill)'><img src='/class-icons/resistance/demon-avenger/forbidden-contract.png' alt='Skill Forbidden Contract'/></span>(75s cd) <span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span>(120s cd) <span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>(240s cd)",
             "buffFifth": "<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>(180s cd) <span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess's Blessing'/></span>(120s cd) <span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>(240s cd)",
             "binds": "<span data-tooltip='Blood Prison (4th Job)'><img src='/class-icons/resistance/demon-avenger/blood-prison.png' alt='Skill Blood Prison'/></span>(120s cd)",
-            "iFrame": "<span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>(240s cd, HP cannot go below 1)",
+            "iFrame": "<span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>(120s cd, HP cannot go below 1)",
             "damageReduce": "<span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span>(-30% | 1s cd) <span data-tooltip='Demonic Blast (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-blast.png' alt='Skill Demonic Blast'/></span>(-30% | 12s cd) <span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>(-25% | 150s cd) <span data-tooltip='Other World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>(-70% | 120s cd)"
         },
         "linkSkill": {
@@ -170,7 +170,7 @@
                     {
                         "id": 31011001,
                         "name": "Overload Release",
-                        "shortDesc": "Resets Overload to 0. Duration: 60 sec, Final damage: +15%, Max HP Restored: 100%\\n20% of overall HP restored even when under the effect of certain statuses (not including the recovery reductions from Demonic Frenzy or the ones within Ghost Park).",
+                        "shortDesc": "Resets Overload to 0. Duration: 90 sec, Final damage: +15%, Max HP Restored: 100%\\n20% of overall HP restored even when under the effect of certain statuses (not including the recovery reductions from Demonic Frenzy or the ones within Ghost Park).",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/demon-avenger/overload-release.png"],
                         "animations": ["https://media3.giphy.com/media/6vQcemPIeHMEzrLzSZ/giphy.gif"],
@@ -364,6 +364,7 @@
                     "desc": "Create homing shields that seek and attack enemies",
                     "details": [
                         "<strong>[Passive]</strong>: Increases the %Damage of <span data-tooltip='Exceed: Lunar Slash (3rd Job)'><img src='/class-icons/resistance/demon-avenger/exceed-lunar-slash.png' alt='Skill Exceed Lunar Slash'/></span>",
+                        "Can be used while in the air",
                         "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
                     ]
@@ -371,7 +372,7 @@
                 {
                     "id": 31221002,
                     "name": "Nether Slice",
-                    "shortDesc": "HP Cost: 1000, Enemies Hit: 12, Damage: 350%, Number of Attacks: 4, Debuff Duration: 30 sec, Enemy DEF: -30%\\n[Passive Effect: Exceed: Demon Strike Damage: +155%]",
+                    "shortDesc": "HP Cost: 1000, Enemies Hit: 12, Damage: 350%, Number of Attacks: 4, Debuff Duration: 60 sec, Enemy DEF: -30%\\n[Passive Effect: Exceed: Demon Strike Damage: +155%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/demon-avenger/nether-slice.png"],
                     "animations": ["https://media4.giphy.com/media/D2XyircJ05OMDaGdpK/giphy.gif"],
@@ -580,7 +581,7 @@
             "fifthMain": [
                 {
                     "name": "Demonic Frenzy",
-                    "shortDesc": "HP Cost: 20% of Max HP, consumes 6000 HP per sec, Healing Restriction: items and skills can only heal 1% of Max HP, hit damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 35% per 2% HP consumed. Your demonic blood, burning with vengeance, lingers in the area, periodically dealing 765% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 1 sec",
+                    "shortDesc": "HP Cost: 20% of Max HP, consumes 6000 HP per sec, Healing Restriction: items and skills can only heal 1% of Max HP, hit damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 20% per 2% HP consumed. Your demonic blood, burning with vengeance, lingers in the area, periodically dealing 765% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 1 sec",
                     "id": 400021002,
                     "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
                     "animations": ["https://media.giphy.com/media/FHWtnSun6sL2Z6n162/giphy.gif"],
@@ -624,7 +625,7 @@
                 },
                 {
                     "name": "Revenant",
-                    "shortDesc": "HP Cost: 25% of Max HP, Duration: 30 sec\\nWhen using the Exceed skill, activates Thorn of Fury, which damages 5 enemies with 900% damage 12 time(s). Additional Monster DEF Ignored: +30%, Cooldown: 4 sec\\n Saves Damage Taken, up to 200% of Max HP, as Fury, and reduces cooldown in proportion to amount saved. Your current Fury amount decreases by 7% periodically.\\nAfter the skill ends, any saved Fury, plus 1% of max HP will come back to you as damage 25 time(s). This damage cannot kill you by itself.\\nCooldown: 240 sec",
+                    "shortDesc": "HP Cost: 25% of Max HP, Duration: 15 sec\\nWhen using the Exceed skill, activates Thorn of Fury, which damages 5 enemies with 900% damage 12 time(s). Additional Monster DEF Ignored: +30%, Cooldown: 4 sec\\nSaves Damage Taken, up to 200% of Max HP, as Fury, and reduces cooldown in proportion to amount saved. Your current Fury amount decreases by 7% periodically.\\nAfter the skill ends, any saved Fury, plus 1% of max HP will come back to you as damage 25 time(s). This damage cannot kill you by itself.\\nCooldown: 120 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/demon-avenger/revenant.png"],
                     "animations": ["https://media.giphy.com/media/PhDyO4Y17ntgZuGEKy/giphy.gif", "https://media.giphy.com/media/AiPYWiAqkgZlUve2ve/giphy.gif"],

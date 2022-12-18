@@ -32,8 +32,7 @@
             "summons": "<span data-tooltip='Open Portal: GX-9 (2nd Job)'><img src='/class-icons/resistance/mechanic/open-portal-gx-9.png' alt='Skill Open Portal GX-9'/></span> <span data-tooltip='Robo Launcher RM7 (2nd Job)'><img src='/class-icons/resistance/mechanic/robo-launcher-rm7.png' alt='Skill Robo Launcher RM7'/></span> <span data-tooltip='Support Unit: H-EX (3rd Job)'><img src='/class-icons/resistance/mechanic/support-unit-h-ex.png' alt='Skill Support Unit H-EX'/></span> <span data-tooltip='Rock &#39;n Shock (3rd Job)'><img src='/class-icons/resistance/mechanic/rock-n-shock.png' alt='Skill Rock &#39;n Shock'/></span>(160s cd) <span data-tooltip='Bots &#39;n Tots (4th Job)'><img src='/class-icons/resistance/mechanic/bots-n-tots.png' alt='Skill Bots &#39;n Tots'/></span>(60s cd) <span data-tooltip='Distortion Bomb (Hyper Skill)'><img src='/class-icons/resistance/mechanic/distortion-bomb.png' alt='Skill Distortion Bomb'/></span>(8s cd) <span data-tooltip='Doomsday Device (5th Job)'><img src='/class-icons/resistance/mechanic/doomsday-device.png' alt='Skill Doomsday Device'/></span>(200s cd) <span data-tooltip='Mecha Carrier (5th Job)'><img src='/class-icons/resistance/mechanic/mecha-carrier.png' alt='Skill Mecha Carrier'/></span>(200s cd) <span data-tooltip='Resistance Infantry (5th Job)'><img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/></span>(25s cd)",
             "buffCd": "<span data-tooltip='Roll of the Dice (3rd Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>(180s cd) <span data-tooltip='Full Spread (Hyper Skill)'><img src='/class-icons/resistance/mechanic/full-spread.png' alt='Skill Full Spread'/></span>(100s cd) <span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>(120s cd)",
             "buffFifth": "<span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>(70 - 64s cd) <span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)",
-            "iFrame": "<span data-tooltip='Full Metal Barrage (5th Job)'><img src='/class-icons/resistance/mechanic/full-metal-barrage.png' alt='Skill Full Metal Barrage'/></span>(200s cd)",
-            "damageReduce": "<span data-tooltip='Giant Robot SG-88 (4th Job)'><img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/></span>(-50% | 30s cd)"
+            "iFrame": "<span data-tooltip='Giant Robot SG-88 (4th Job)'><img src='/class-icons/resistance/mechanic/giant-robot-sg-88.png' alt='Skill Giant Robot SG-88'/></span>(60s cd) <span data-tooltip='Full Metal Barrage (5th Job)'><img src='/class-icons/resistance/mechanic/full-metal-barrage.png' alt='Skill Full Metal Barrage'/></span>(200s cd)"
         },
         "linkSkill": {
             "id": 80000329,
@@ -166,7 +165,7 @@
                         "desc": "Mount onto your Humanoid Mech",
                         "details": [
                             "<strong>[Passive]</strong>: Permanently grants flat Max HP/MP",
-                            "When mounted you gain increased 100% Knockback Resistance, Attack, DEF and Max Movement Speed"
+                            "While mounted, gain increased 100% Knockback Resistance, Attack, DEF and Max Movement Speed"
                         ]
                     },
                     {
@@ -224,12 +223,14 @@
                         "maxLevel": 15,
                         "icons": ["/class-icons/resistance/mechanic/homing-beacon.png"],
                         "animations": ["https://media1.giphy.com/media/j52DA25qU3ngm8MANl/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Launches a homing missile that explodes dealing damage to nearby enemies",
+                        "type": "Key-down Attack",
+                        "desc": "While held, launches homing missiles that seek out nearby enemies",
                         "details": [
                             "Prioritizes bosses with the highest HP first while in <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> Tank Mode (3rd Job)",
-                            "Unaffected by Damage Reflect",
-                            "Right-clicking the skill toggles the smoke visual effect ON/OFF"
+                            "Can be used while using other skills",
+                            "Right-clicking the skill toggles the smoke visual effect ON/OFF",
+                            "Unaffected by Damage Reflect"
+                            
                         ]
                     },
                     {
@@ -333,12 +334,12 @@
                     {
                         "id": 35111007,
                         "name": "AP Salvo",
-                        "shortDesc": "MP Cost: 35, Damage: 250%, Number of Attacks: 6, Enemies Hit: 1",
+                        "shortDesc": "MP Cost: 35, Damage: 250%, Number of Attacks: 6, Enemies Hit: 4",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/mechanic/ap-salvo.png"],
                         "animations": ["https://media3.giphy.com/media/gLzPjnVOtdvwISJdcF/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a concentrated bullet that hits one enemy",
+                        "desc": "Fires a concentrated bullet that pierces enemies",
                         "details": [
                             "Usable only in <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> Tank Mode",
                             "Shares the same SP and Key Slot as <span data-tooltip='Heavy Salvo (3rd Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo.png' alt='Skill AP Salvo'/></span>",
@@ -399,7 +400,7 @@
                     {
                         "id": 35111002,
                         "name": "Rock 'n Shock",
-                        "shortDesc": "MP Cost: 75, When 3 coils are placed - Tesla Coil Duration: 60 sec, Damage: 200%, Max Monsters Hit: 10, Self-Destruct Damage: 550%\\nCooldown: 160 sec",
+                        "shortDesc": "MP Cost: 75, When 3 coils are placed - Tesla Coil Duration: 80 sec, Damage: 200%, Max Monsters Hit: 10, Self-Destruct Damage: 550%\\nCooldown: 160 sec",
                         "maxLevel": 10,
                         "icons": ["/class-icons/resistance/mechanic/rock-n-shock.png"],
                         "animations": ["https://media2.giphy.com/media/j6q5kUf9QDr5hWM7Iw/giphy.gif"],
@@ -458,12 +459,12 @@
                 {
                     "id": 35121016,
                     "name": "AP Salvo Plus",
-                    "shortDesc": "MP Cost: 90, First Hit has Damage: 285%, Number of Attacks: 6, Enemies Hit: 1.\\n2nd Explosion: Enemies Hit: 4, Damage: 350%, Number of Attacks: 1",
+                    "shortDesc": "MP Cost: 90, First Hit has Damage: 285%, Number of Attacks: 6, Enemies Hit: 6.\\n2nd Explosion: Enemies Hit: 4, Damage: 350%, Number of Attacks: 1",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/mechanic/ap-salvo-plus.png"],
                     "animations": ["https://media3.giphy.com/media/dB6htq3szbz927lrR6/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Fire an explosive bullet that hits one enemy",
+                    "desc": "Fire an explosive bullet that pierces enemies",
                     "details": [
                         "Usable only in <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> Tank Mode",
                         "Shares the same Skill Points (SP) and Key Slot as <span data-tooltip='Heavy Salvo Plus (4th Job)'><img src='/class-icons/resistance/mechanic/heavy-salvo-plus.png' alt='Skill Heavy Salvo Plus'/></span>",
@@ -474,7 +475,7 @@
                 {
                     "id": 35121003,
                     "name": "Giant Robot SG-88",
-                    "shortDesc": "MP Cost: 400, Max Enemies Hit: 15, Damage: 500%, Number of Attacks: 8. Damage to Nearby Enemies: 1300% per sec, Number of Attacks: 2. Damage -50% only for attacks that inflict damage at a certain ratio of the Max HP.\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 400, Max Enemies Hit: 15, Damage: 500%, Number of Attacks: 8. Damage to Nearby Enemies: 1300% per sec, Number of Attacks: 2. Invincible while using it.\\nCooldown: 60 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/mechanic/giant-robot-sg-88.png"],
                     "animations": ["https://media1.giphy.com/media/KENbYpeoYGttd5vGsu/giphy.gif"],
@@ -482,7 +483,7 @@
                     "desc": "Tap the Attack Key to charge up and release a devastating attack",
                     "details": [
                         "Charging will increase the %Damage dealt",
-                        "Reduces damage taken while charging, including %Max HP attacks"
+                        "While charging, you are invincible"
                     ]
                 },
                 {
@@ -501,7 +502,7 @@
                 {
                     "id": 35121009,
                     "name": "Bots 'n Tots",
-                    "shortDesc": "MP Cost: 100, Robot Factory Duration: 30 sec, Max Toy Robots Summoned: 3 toy robots. Summon Interval: Every 3 sec., Self-Destruct Damage: 1000%\\nToy Robots' Self-Destruct Damage: 500%\\nCooldown: 60 sec.",
+                    "shortDesc": "MP Cost: 100, Robot Factory Duration: 60 sec, Max Toy Robots Summoned: 3 toy robots. Summon Interval: Every 3 sec., Self-Destruct Damage: 1000%\\nToy Robots' Self-Destruct Damage: 500%\\nCooldown: 60 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/mechanic/bots-n-tots.png"],
                     "animations": ["https://media2.giphy.com/media/jUt5WJsFRCOCQJma0p/giphy.gif"],
@@ -742,7 +743,10 @@
                     "icons": ["/class-icons/resistance/mechanic/mobile-missile-battery.png"],
                     "animations": ["https://media2.giphy.com/media/B7QtKd8tGilOCQmqfR/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Releases a canister of missiles that unloads on nearby enemies"
+                    "desc": "Releases a canister of missiles that unloads on nearby enemies",
+                    "details": [
+                        "Prioritize bosses with the highest HP first"
+                    ]
                 },
                 {
                     "name": "Full Metal Barrage",

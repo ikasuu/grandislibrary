@@ -15,10 +15,10 @@
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
-                "<strong>Magic Attack</strong>: [<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +15%] [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +25%]",
+                "<strong>Magic Attack</strong>: [<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +15%] [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%]",
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +15%] [<span data-tooltip='Staff Mastery (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-mastery.png' alt='Skill Staff Mastery'/></span> +20%] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +20% while active]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +20%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +20%] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +10% while active]",
-                "<strong>Damage</strong>: [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%] [<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +20% while active] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +40% while active]",
+                "<strong>Damage</strong>: [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%] [<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +20% while active] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +25% while active]",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +25%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Power Stance (3rd Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +100%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3 [<span data-tooltip='Hasty Aura (1st Job)'><img src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/></span> -1 while active, does not bypass Soft Cap]",
@@ -315,14 +315,15 @@
                     {
                         "id": 32111016,
                         "name": "Dark Shock",
-                        "shortDesc": "Increases the MP Cost of Combat Teleport by 15. Teleporting creates a streak of black lightning between your start and end positions. [Black Lightning] Max Enemies Hit: 8, Damage: 225%, Number of Attacks: 4. Afflicts enemies with Dark Brand for 15 sec. Attacking enemies with Dark Brand deals an additional 350% damage 4 number of times. Brand-consuming attacks deal 20% bonus damage against bosses. Brand is consumed upon attacking 15 times.",
+                        "shortDesc": "Increases the MP Cost of Combat Teleport by 15. Teleporting creates a streak of black lightning between your start and end positions. [Black Lightning] Max Enemies Hit: 8, Damage: 100%, Number of Attacks: 4, Damage Against Normal Enemies: +150%p. Afflicts enemies with Dark Brand for 15 sec. If you attack enemies with Dark Brand, the brand activates and deals an additional 400% damage 4 number of times. Brand-consuming attacks deal 20% bonus damage against bosses. Brand is consumed upon attacking 15 times.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/battle-mage/dark-shock.png"],
                         "animations": ["https://media4.giphy.com/media/xodnSODsIYcnbE9HDe/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "While toggled, your <span data-tooltip='Combat Teleport (1st Job)'><img src='/class-icons/resistance/battle-mage/combat-teleport.png' alt='Skill Teleport'/></span> teleporting creates a shock attack that applies a 'Dark Brand' debuff",
+                        "desc": "While toggled, <span data-tooltip='Combat Teleport (1st Job)'><img src='/class-icons/resistance/battle-mage/combat-teleport.png' alt='Skill Teleport'/></span> teleporting creates a shock attack that applies a 'Dark Brand' debuff",
                         "details": [
-                            "<strong>[Dark Brand Debuff]</strong>: Attacking this enemy deals an additional attack<ul><li>The debuff is consumed upon attacking the enemy 15 times</li><li>If the enemy is a boss, your attacks deals increased %Damage</li></ul>"
+                            "<strong>[Dark Brand Debuff]</strong>: Attacking this enemy deals an additional attack<ul><li>The debuff is consumed upon attacking the enemy 15 times</li><li>If the enemy is a boss, your attacks deals increased %Damage</li></ul>",
+                            "Shock attack deals increased %p Damage to regular monsters"
                         ]
                     },
                     {
@@ -432,7 +433,7 @@
                 {
                     "id": 32121010,
                     "name": "Battle Rage",
-                    "shortDesc": "MP Cost: 50, Damage: +40%, Critical Rate: +20%, Critical Damage: +10%\\nReduces the Max Enemies Hit for all skills (except some summons) by 1/3. For skills that target multiple enemies, Max Enemies Hit won't be reduced below 2.\\nExcludes attack specfic bonuses, Condemnation, Ambassador Scythe when enhanced by Aura Scythe, Altar of Annihilation, and Grim Harvest from max enemies hit reduction.\\n[Passive Effects: Max HP +30%, Max MP +30%]",
+                    "shortDesc": "MP Cost: 50, Damage: +25%, Critical Rate: +20%, Critical Damage: +10%\\nReduces the Max Enemies Hit for all skills (except some summons) by 1/3. For skills that target multiple enemies, Max Enemies Hit won't be reduced below 2.\\nExcludes attack specfic bonuses, Condemnation, Ambassador Scythe when enhanced by Aura Scythe, Altar of Annihilation, and Grim Harvest from max enemies hit reduction.\\n[Passive Effects: Max HP +30%, Max MP +30%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/battle-mage/battle-rage.png"],
                     "animations": ["https://media1.giphy.com/media/L1mOrPCVYzB3bN9gN0/giphy.gif"],
@@ -440,7 +441,7 @@
                     "desc": "Increases %Damage, %Crit Rate, and %Crit Damage",
                     "details": [
                         "<strong>[Passive]</strong>: Permanently increases %Max HP/MP",
-                        "While active, you can only target enemy<ul><li>Excludes attack specfic bonuses, <span data-tooltip='Condemnation (1st Job)'><img src='/class-icons/resistance/battle-mage/condemnation.png' alt='Skill Condemnation'/></span>, <span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span>(Ambassador Scythe), <span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span>, <span data-tooltip='Altar of Annihilation (5th Job)'><img src='/class-icons/resistance/battle-mage/altar-of-annihilation.png' alt='Skill Altar of Annihilation'/></span>, and <span data-tooltip='Grim Harvest (5th Job)'><img src='/class-icons/resistance/battle-mage/grim-harvest.png' alt='Skill Grim Harvest'/></span></li></ul>"
+                        "While active, Max Enemies Hit for all skills is reduced by 1/3, however will not be reduced below 2<ul><li>Excludes some summons, <span data-tooltip='Condemnation (1st Job)'><img src='/class-icons/resistance/battle-mage/condemnation.png' alt='Skill Condemnation'/></span>, <span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span>(Ambassador Scythe), <span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span>, <span data-tooltip='Altar of Annihilation (5th Job)'><img src='/class-icons/resistance/battle-mage/altar-of-annihilation.png' alt='Skill Altar of Annihilation'/></span>, and <span data-tooltip='Grim Harvest (5th Job)'><img src='/class-icons/resistance/battle-mage/grim-harvest.png' alt='Skill Grim Harvest'/></span></li></ul>"
                     ]
                 },
                 {
@@ -488,7 +489,7 @@
                 {
                     "id": 32120020,
                     "name": "Spell Boost",
-                    "shortDesc": "Magic ATT: +25%, Damage: +10%, Enemy DEF Ignored: +30%",
+                    "shortDesc": "Magic ATT: +10%, Damage: +10%, Enemy DEF Ignored: +30%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/battle-mage/spell-boost.png"],
                     "type": "Passive"
@@ -650,13 +651,13 @@
                     "desc": "When toggled, grants the effects of all your auras and alters your Blow-type skill into a slashing attack",
                     "details": [
                         "While active, gain increased Magic Attack for yourself",
-                        "While active, aura type skills cannot be used except for <span data-tooltip='Weakening Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/></span> and Aura Scythe can be used",
+                        "While active, aura type skills cannot be used except for <span data-tooltip='Weakening Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/></span> and Aura Scythe can be used<ul>When the skill ends, the previously applied aura will be applied again</ul>",
                         "Pressing the Skill Key again will end the skill early"
                     ]
                 },
                 {
                     "name": "Altar of Annihilation",
-                    "shortDesc": "MP Cost: 500, Altar Duration: 40 sec, Max Enemies Hit: 10, Damage: 1600%, Number of Attacks: 4\\nThe orb takes 0.8 sec to move to the next altar. After 2 altars, the number of attacks increases by 2 for every additional altar.\\nA new altar can be summoned every 25 sec, up to 4 altars.\\nEnemies hit gain Dark Brand.\\nCooldown: 0.5 sec",
+                    "shortDesc": "MP Cost: 500, Altar Duration: 40 sec, Max Enemies Hit: 10, Damage: 1600%, Number of Attacks: 4\\nThe orb takes 0.8 sec to move to the next altar. After 2 altars, the number of attacks increases by 2 for every additional altar.\\nA new altar can be summoned every 23 sec, up to 4 altars.\\nEnemies hit gain Dark Brand.\\nCooldown: 0.5 sec",
                     "id": 400021030,
                     "icons": ["/class-icons/resistance/battle-mage/altar-of-annihilation.png"],
                     "animations": ["https://media2.giphy.com/media/0fBLvs3WNU3ziNb5me/giphy.gif"],
@@ -664,14 +665,14 @@
                     "desc": "Creates an altar where when there are more than two altars active, an orb will travel between altars damaging enemies that it passes through",
                     "details": [
                         "If no altars are active, pressing the Down Arrow Key with the Skill Key will place 2 altars at once",
-                        "A new altar is gained every 25 secs, up to 4 altars can be held at a time",
+                        "A new altar is gained every 23 secs (up to 4 altars)",
                         "Orb will apply the 'Dark Brand' debuff from <span data-tooltip='Dark Shock (3rd Job)'><img src='/class-icons/resistance/battle-mage/dark-shock.png' alt='Skill Dark Shock'/></span>",
                         "Unaffected Damage Reflect"
                     ]
                 },
                 {
                     "name": "Grim Harvest",
-                    "shortDesc": "MP Cost: 1000, summons the Grim Harvest that attacks for 30 sec every 4 sec. Max Enemies Hit: 10, Damage: 1600%, Number of Attacks: 12\\nUse the skill again to re-summon near you, can be used once every 10 sec.\\nIf the Grim Harvest defeats an enemy, the duration increases by 0.2 sec per 1 enemy. If a boss was attacked, the duration increases by 2 sec. Duration increased to up to 3 sec for each attack.\\nAttack interval becomes 50% with the Master of Death applied, but duration is not increased with attacks\\nCooldown: 100 sec",
+                    "shortDesc": "MP Cost: 1000, summons the Grim Harvest that attacks for 30 sec every 4 sec. Max Enemies Hit: 12, Damage: 1600%, Number of Attacks: 12\\nUse the skill again to re-summon near you, can be used once every 10 sec.\\nIf the Grim Harvest defeats an enemy, the duration increases by 0.2 sec per 1 enemy. If a boss was attacked, the duration increases by 2 sec. Duration increased to up to 3 sec for each attack.\\nAttack interval becomes 50% with the Master of Death applied, but duration is not increased with attacks\\nCooldown: 100 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/resistance/battle-mage/grim-harvest.png"],
                     "animations": ["https://media2.giphy.com/media/3W9bWWfTttMIxAWB98/giphy.gif"],

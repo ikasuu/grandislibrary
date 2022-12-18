@@ -33,8 +33,8 @@
             "summons": "<span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span>(Unmounted) <span data-tooltip='Hunting Assistant Unit (3rd Job)'><img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/></span>(8s cd) <span data-tooltip='Drill Salvo (4th Job)'><img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/></span>(30s cd) <span data-tooltip='Jaguar Storm (5th Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-storm.png' alt='Skill Jaguar Storm'/></span>(149 - 120s cd) <span data-tooltip='Resistance Infantry (5th Job)'><img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/></span>(25s cd) <span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)",
             "buffCd": "<span data-tooltip='Silent Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/silent-rampage.png' alt='Skill Silent Rampage'/></span>(120s cd) <span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>(120s cd)",
             "buffFifth": "<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess's Blessing'/></span>(180s cd) <span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>(120s cd)",
-            "binds": "<span data-tooltip='Jaguar Soul (4th Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-soul.png' alt='Skill Jaguar Soul'/></span>(210s cd)",
-            "iFrame": "<span data-tooltip='Primal Fury (5th Job)'><img src='/class-icons/resistance/wild-hunter/primal-fury.png' alt='Skill Primal Fury'/></span>(120s cd)"
+            "binds": "<span data-tooltip='Jaguar Soul (4th Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-soul.png' alt='Skill Jaguar Soul'/></span>(120s cd)",
+            "iFrame": "<span data-tooltip='Feline Berserk (3rd Job)'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span>(70s cd) <span data-tooltip='Primal Fury (5th Job)'><img src='/class-icons/resistance/wild-hunter/primal-fury.png' alt='Skill Primal Fury'/></span>(120s cd)"
         },
         "linkSkill": {
             "id": 80000329,
@@ -230,7 +230,7 @@
                     {
                         "id": 33001016,
                         "name": "Swipe",
-                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 8, Damage: 200% + 1% per character level, Number of Attacks: 4.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 30%.\\nRecover 7% of Max HP when attacking.\\nCooldown: 5 sec",
+                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 8, Damage: 230%, Number of Attacks: 4.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 30%.\\nRecover 7% of Max HP when attacking.\\nCooldown: 5 sec",
                         "maxLevel": 1,
                         "icons": ["/class-icons/resistance/wild-hunter/swipe.png"],
                         "animations": ["https://media3.giphy.com/media/5VJk3VzKXewgrEeCmH/giphy.gif"],
@@ -320,13 +320,14 @@
                     {
                         "id": 33101115,
                         "name": "Dash 'n Slash",
-                        "shortDesc": "MP Cost: 45, Max Enemies Hit: 8, Damage: 225% + 1% per level, Number of Attacks: 2, Stun Chance: 100% for 3 sec.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 80%.\\nCooldown: 7 sec",
+                        "shortDesc": "MP Cost: 45, Max Enemies Hit: 8, Damage: 285%, Number of Attacks: 2, Stun Chance: 100% for 3 sec.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 80%.\\nCooldown: 7 sec\\n[Passive Effect - Summon Jaguar and Swipe Damage: =30%p, Another Bite Damage: +15%p]",
                         "maxLevel": 1,
                         "icons": ["/class-icons/resistance/wild-hunter/dash-n-slash.png"],
                         "animations": ["https://media1.giphy.com/media/9vLGDmynzY5THW09dD/giphy.gif", "https://media3.giphy.com/media/3PZizCCDmo8IcgYPwb/giphy.gif"],
                         "type": "Attack",
                         "desc": "Jaguar dashes forward pushing enemies and dealing damage to them. Also stuns and has a chance to apply a stack of 'Another Bite'",
                         "details": [
+                            "<strong>[Passive]</strong>: Permanently increases the %Damage of <span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> and <span data-tooltip='Swipe (1st Job)'><img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/></span> by a flat amount",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -422,13 +423,14 @@
                     {
                         "id": 33111015,
                         "name": "Sonic Roar",
-                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 220% + 1% per level, Number of Attacks: 6.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 40%.\\nCooldown: 6 sec",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 6.\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 40%.\\nCooldown: 6 sec\\n[Passive Effect - Summon Jaguar, Swipe, and Dash 'n Slash Damage: +40%p, Another Bite Damage: +15p]",
                         "maxLevel": 1,
                         "icons": ["/class-icons/resistance/wild-hunter/sonic-roar.png"],
                         "animations": ["https://media4.giphy.com/media/IQVM4oBYfgBSYaJkzm/giphy.gif"],
                         "type": "Jaguar | Attack",
                         "desc": "Jaguar roars creating a shockwave that damages multiple enemies and has a chance to apply a stack of 'Another Bite'",
                         "details": [
+                            "<strong>[Passive]</strong>: Permanently increases the %Damage of <span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> and <span data-tooltip='Swipe (1st Job)'><img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/></span>, <span data-tooltip='Dash &#39;n Slash (2nd Job)'><img src='/class-icons/resistance/wild-hunter/dash-n-slash.png' alt='Skill Dash &#39;n Slash'/></span>, and Another Bite debuff by a flat amount",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -445,12 +447,12 @@
                     {
                         "id": 33111013,
                         "name": "Hunting Assistant Unit",
-                        "shortDesc": "MP Cost: 64, Duration: 31 sec, Attack Duration: 3 sec, Reload time: 4 sec, Number of Enemies: 8, Damage: 150%, Number of Attacks: 3\\nCooldown: 8 sec",
+                        "shortDesc": "MP Cost: 64, Duration: 31 sec, Attack Duration: 5 sec, Reload time: 2 sec, Number of Enemies: 8, Damage: 150%, Number of Attacks: 3\\nCooldown: 8 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/wild-hunter/hunting-assistant-unit.png"],
                         "animations": ["https://media3.giphy.com/media/mCxZSLab0ZpKEvPmhj/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons a turret that attacks in an area for a certain interval before having to recharge to attack again",
+                        "desc": "Deploy a turret fires arrows in a small circle in intervals",
                         "details": [
                             "Unaffected by Damage Reflect"
                         ]
@@ -458,12 +460,15 @@
                     {
                         "id": 33111007,
                         "name": "Feline Berserk",
-                        "shortDesc": "MP Cost: 130. Gives the Jaguar red wings for 300 sec.\\n[Passive Effects - Attack Power: +20%, Final Damage: +10%, Movement Speed: +15, Attack Speed: +1, Max HP: +50%]",
+                        "shortDesc": "MP Cost: 130, Invincibility Duration: 2 sec.\\nCooldown: 70 sec.\\n[Passive Effects - Attack Power: +20%, Final Damage: +10%, Movement Speed: +15, Attack Speed: +1, Max HP: +50%]",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/wild-hunter/feline-berserk.png"],
-                        "animations": ["https://media2.giphy.com/media/zdsKA6oaS4y38JqSn3/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/QofQ8qDbe4Ldq7ihVU/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Skill is a passive, the active effect provides a visual red wing effect"
+                        "desc": "Upon use, become invincible for a brief period",
+                        "details": [
+                            "<strong>[Passive]</strong>: Permanently increases %Attack, %Final Damage, Attack Speed (by 1 stage), %Max HP, and Movement Speed"
+                        ]
                     },
                     {
                         "id": 33110008,
@@ -549,17 +554,20 @@
                 {
                     "id": 33121017,
                     "name": "Jaguar Soul",
-                    "shortDesc": "MP Cost: 300, Enemies Hit: 1, Damage: 270% + 1% per character level, Number of Attacks: 12. Stun Chance: 100%, Duration: 10 sec, Stun Duration increased by up to 100% based on damage inflicted by Jaguar Soul\\nAnother Bite Debuff Chance: 100%\\nCooldown: 210 sec",
+                    "shortDesc": "MP Cost: 300, Enemies Hit: 1, Damage: 180%, Stun Chance: 100%, Duration: 10 sec, Stun Duration increased by up to 100% based on damage inflicted by Jaguar Soul\\nAnother Bite Debuff Chance: 100%\\nCooldown: 120 sec\\n[Passive Effect - Summon Jaguar, Swipe, Dash 'n Slash, and Sonic Roar Damage: +50%p, Another Bite Damage: +20%p]",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/wild-hunter/jaguar-soul.png"],
                     "animations": ["https://media1.giphy.com/media/5MWtYOj8XPCZzKE51h/giphy.gif"],
                     "type": "Jaguar | Bind Attack",
-                    "desc": "Unleashes a cry that attacks and binds the enemy with the highest HP and applies a stack of 'Another Bite'"
+                    "desc": "Unleashes a cry that attacks and binds the enemy with the highest HP and applies a stack of 'Another Bite'",
+                    "details": [
+                        "<strong>[Passive]</strong>: Permanently increases the %Damage of <span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> and <span data-tooltip='Swipe (1st Job)'><img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/></span>, <span data-tooltip='Dash &#39;n Slash (2nd Job)'><img src='/class-icons/resistance/wild-hunter/dash-n-slash.png' alt='Skill Dash &#39;n Slash'/></span>, <span data-tooltip='Sonic Roar (3rd Job)'><img src='/class-icons/resistance/wild-hunter/sonic-roar.png' alt='Skill Sonic Roar'/></span>, and Another Bite debuff by a flat amount"
+                    ]
                 },
                 {
                     "id": 33121016,
                     "name": "Drill Salvo",
-                    "shortDesc": "MP Cost: 50, Duration: 15 sec, Damage: 430%, Number of Attacks: 1, Max Enemies Hit: 10\\nCooldown: 30 sec\\nWild Arrow Blast and Wild Arrow Blast Type P Damage Against Normal Monsters While Mounted on Jaguar: +40%",
+                    "shortDesc": "MP Cost: 50, Duration: 30 sec, Damage: 430%, Number of Attacks: 1, Max Enemies Hit: 10\\nCooldown: 30 sec\\nWild Arrow Blast and Wild Arrow Blast Type P Damage Against Normal Monsters While Mounted on Jaguar: +40%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/wild-hunter/drill-salvo.png"],
                     "animations": ["https://media1.giphy.com/media/MKLCywxt9NR7PxI34r/giphy.gif"],
@@ -766,6 +774,7 @@
                     "type": "Mounted | Attack",
                     "desc": "Create a large area attack that deals damage to multiple enemies",
                     "details": [
+                        "<strong>[Passive]</strong>: Permanently increases the %Damage of <span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> and <span data-tooltip='Swipe (1st Job)'><img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/></span>, <span data-tooltip='Dash &#39;n Slash (2nd Job)'><img src='/class-icons/resistance/wild-hunter/dash-n-slash.png' alt='Skill Dash &#39;n Slash'/></span>, <span data-tooltip='Sonic Roar (3rd Job)'><img src='/class-icons/resistance/wild-hunter/sonic-roar.png' alt='Skill Sonic Roar'/></span>, <span data-tooltip='Jaguar Soul (4th Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-soul.png' alt='Skill Jaguar Soul'/></span>, and Another Bite debuff by a flat amount",
                         "Shares cooldown with <span data-tooltip='Jaguar Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/jaguar-rampage.png' alt='Skill Jaguar Rampage'/></span>"
                     ],
                     "reqLev": 160
@@ -773,7 +782,7 @@
                 {
                     "id": 33121255,
                     "name": "Jaguar Rampage",
-                    "shortDesc": "MP Cost: 200, Enemies Hit: 6, Damage: 500% + 1% per level, Number of Attacks: 9. 100% Chance for Another Bite.\\nCooldown: 12 sec",
+                    "shortDesc": "MP Cost: 200, Enemies Hit: 6, Damage: 800%, Number of Attacks: 9. 100% Chance for Another Bite.\\nCooldown: 12 sec\\n[Passive Effect - Summon Jaguar, Swipe, Dash 'n Slash, Sonic Roar, and Jaguar Soul Damage: +150%p, Another Bite Damage: +40%p",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/wild-hunter/jaguar-rampage.png"],
                     "animations": ["https://media1.giphy.com/media/PSLOUph5YXgGh4R5T2/giphy.gif"],
@@ -802,7 +811,7 @@
             "fifthMain": [
                 {
                     "name": "Jaguar Storm",
-                    "shortDesc": "MP Cost: 1000, summons 7 jaguars from among the ones you've tamed (excluding your current jaguar) for 40 sec. Applies 87% Final Damage to the skills of summoned jaguars. While this skill is active, using the jaguar skill to attack will cause a 150% damage increase in Damage Against Normal Monsters and 50% increase in the debuff chance for Another Bite.\\nIf the skill is activated with the down arrow key, only 3 jagulars will be summoned but their Final Damage will increase to 205%.\\nIf you activate this skill again while it is active, your jaguars will be re-summoned to your location. Jaguars can be re-summoned once every 6 secs.\\nCooldown: 125 sec.\\n[Passive Effect - ATT Power: +55]",
+                    "shortDesc": "MP Cost: 1000, summons 7 jaguars from among the ones you've tamed (excluding your current jaguar) for 40 sec. Applies 87% Final Damage to the skills of summoned jaguars. While this skill is active, using the jaguar skill to attack will cause a 150% damage increase in Damage Against Normal Monsters and 50% increase in the debuff chance for Another Bite.\\nIf the skill is activated with the down arrow key, only 3 jagulars will be summoned but their Final Damage will increase to 205%.\\nIf you activate this skill again while it is active, your jaguars will be re-summoned to your location. Jaguars can be re-summoned once every 3 secs.\\nCooldown: 125 sec.\\n[Passive Effect - ATT Power: +55]",
                     "id": 400021002,
                     "icons": ["/class-icons/resistance/wild-hunter/jaguar-storm.png"],
                     "animations": ["https://media3.giphy.com/media/D2Bzyt5ukObgVAddR8/giphy.gif"],
