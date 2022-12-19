@@ -180,12 +180,11 @@
                     {
                         "id": 0,
                         "name": "Peerless Mountain",
-                        "shortDesc": "Consume 40 MP to reduce damage taken by 50%.",
+                        "shortDesc": "Consume 40 MP to reduce damage taken by 70%.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/anima/lara/peerless-mountain.png"],
                         "animations": ["https://media.giphy.com/media/lTWkFHWMVoTFBSRwPB/giphy.gif", "https://media.giphy.com/media/Xpa41UpYmQ9s2tFPOw/giphy.gif"],
-                        "type": "Toggle Buff",
-                        "desc": "While toggled, consumes mana to reduce damage taken when hit"
+                        "type": "Toggle Buff"
                     },
                     {
                         "id": 0,
@@ -358,7 +357,7 @@
                     {
                         "id": 0,
                         "name": "Wakeup Call",
-                        "shortDesc": "MP Cost: 30. Creates as many intangible forces as there are enemies. Min Intangible Forces: 7, Max Intangible Forces: 12, Damage: 105% Number of Attacks: 4\\nIf several intangible forces hit a single enemy, Final Damage for the second intangible force and onwards: -40%\\nCooldown: 11 sec.",
+                        "shortDesc": "MP Cost: 30. Creates as many intangible forces as there are enemies. Min Intangible Forces: 7, Max Intangible Forces: 12, Damage: 105% Number of Attacks: 4\\nIf several intangible forces hit a single enemy, Final Damage for the second intangible force and onwards: -40%\\nCooldown: 9 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/anima/lara/wakeup-call.png"],
                         "animations": ["https://media.giphy.com/media/xg9CV4DmCA6APLkaMU/giphy.gif"],
@@ -465,7 +464,7 @@
                     {
                         "id": 0,
                         "name": "Dragon Vein Conversion",
-                        "shortDesc": "MP Cost: 80, Press direction keys within 3 sec of using the skill to convert the target Dragon Vein's attribute into a different attribute.\\nCooldown: 3 sec., Increases cooldown by 7 sec when attribute conversion is successful.",
+                        "shortDesc": "MP Cost: 80, Press direction keys within 3 sec of using the skill to convert the target Dragon Vein's attribute into a different attribute.\\nCooldown: 3 sec., Increases cooldown by 4 sec when attribute conversion is successful.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/anima/lara/dragon-vein-conversion.png"],
                         "animations": ["https://media.giphy.com/media/YpkkYQHk60gMTYC3x6/giphy.gif"],
@@ -553,7 +552,7 @@
                         "desc": "While held, reduces damage taken including %Max HP attacks",
                         "details": [
                             "Depending on how long the skill was held, the cooldown will be shorter",
-                            "Unaffected by cooldown resets"
+                            "Unaffected by cooldown resets and Critical Abnormal Statuses"
                         ]
                     },
                     {

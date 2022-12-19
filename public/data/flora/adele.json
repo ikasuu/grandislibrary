@@ -253,7 +253,7 @@
                     {
                         "id": 151101003,
                         "name": "Resonance Rush",
-                        "shortDesc": "Aether crystal used with Resonance Rush vanishes.\\nDamage: 120%, Number of Attacks: 6, Max Enemies Hit: 6\\nIf total enemies struck is lower than the max, an additional 15% is added to the final damage for each enemy below the max. Increased final damage is additive.\\nWhen attack hits, a buff triggers for 30 sec that increases final damage by 5% and Enemy DEF Ignored by 5%. Can be stacked up to 2 times.",
+                        "shortDesc": "Aether crystal used with Resonance Rush vanishes.\\nDamage: 502%, Number of Attacks: 6, Max Enemies Hit: 6\\nWhen attack hits, a buff triggers for 30 sec that increases final damage by 5% and Enemy DEF ignored by 5%. Can be stacked up to 2 times.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/flora/adele/resonance-rush.png"],
                         "animations": ["https://media2.giphy.com/media/kZKSgUf3uY4YmAbPc9/giphy.gif"],
@@ -261,9 +261,8 @@
                         "desc": "Lunges a sword forward while dashing",
                         "details": [
                             "Can only be used when there is a nearby <img src='/class-icons/flora/adele/aether-crystal.png' alt='Aether Crystal'/> or when linked with <img src='/class-icons/flora/adele/impale.png' alt='Impale'/><ul><li><img src='/class-icons/flora/adele/aether-crystal.png' alt='Aether Crystal'/> crystal will disappear if you dash to it</li></ul>",
-                            "Deals increased %Damage the fewer enemies there are",
-                            "You can use the Arrow Keys to decide the direction you dash towards",
-                            "If the skill hits an enemy, you gain a stacking buff that increases %Final Damage and %Ignore DEF"
+                            "If the attack is successful, gain a stacking buff that increases %Final Damage and %Ignore DEF",
+                            "Pressing together with an Arrow Keys controls the direction you dash"
                         ]
                     },
                     {
@@ -461,7 +460,7 @@
                 {
                     "id": 151121001,
                     "name": "Grave Proclamation",
-                    "shortDesc": "MP Cost: 150, Enemies Hit: 1, Damage: 800%, Number of Attacks: 10\\nIncreases damage to enemy with mark of death by 20%, and ignores additional 10% defense rate.\\nIf there is an enemy with the mark within attack range of Hunting Decree or Infinity Blade, the attack will focus on that enemy.\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 150, Enemies Hit: 1, Damage: 220%, Number of Attacks: 10\\nIncreases damage to enemy with mark of death by 20%, and ignores additional 10% defense rate.\\nIf there is an enemy with the mark within attack range of Hunting Decree or Infinity Blade, the attack will focus on that enemy.\\nCooldown: 10 sec",
                     "maxLevel": 20,
                     "icons": ["/class-icons/flora/adele/grave-proclamation.png"],
                     "animations": ["https://media1.giphy.com/media/RHCpLWle8DraSrvQBW/giphy.gif"],
@@ -469,8 +468,8 @@
                     "desc": "Marks an enemy causing all Aether Swords and <img src='/class-icons/flora/adele/magic-dispatch.png' alt='Skill Magic Dispatch'/> to target them",
                     "details": [
                         "<strong>[Debuff]</strong>: Attacks towards this enemy deals increased %Damage and %Ignore Def",
-                        "If you press the Skill Key again, the mark can be moved to another target if there is a mark active",
-                        "The skill will target the enemy with the highest Max HP",
+                        "Pressing the Skill Key again will move the the mark to another target if there is a mark active",
+                        "Prioritizes enemy with the highest Max HP",
                         "Unaffected by cooldown resets"
                     ]
                 },
@@ -668,7 +667,7 @@
                 {
                     "id": 151121041,
                     "name": "Shardbreaker",
-                    "shortDesc": "MP Cost: 250, creates a shard in the location of up to 7 enemies.\\nFor each shard that is created and shattered, Max Enemies Hit: 7, Damage: 500%, Number of Attacks: 6\\nIf all of the shards attack only 1 enemy, final damage of Shardbreaker is increased by 300%.\\nIf total enemies struck is lower than the max, creates up to 5 shards in random locations.\\nAfter shards shatter, creates up to 5 aether crystals.\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 250, creates a shard in the location of up to 7 enemies.\\nFor each shard that is created and shattered, Max Enemies Hit: 7, Damage: 2000%, Number of Attacks: 6\\nIf total enemies struck is lower than the max, creates up to 5 shards in random locations.\\nAfter shards shatter, creates up to 5 aether crystals.\\nCooldown: 60 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/flora/adele/shardbreaker.png"],
                     "animations": ["https://media1.giphy.com/media/h2a2hDKzqycExpYwuz/giphy.gif"],
@@ -676,8 +675,7 @@
                     "desc": "Creates shards at the location of enemies that explode",
                     "details": [
                         "Deals damage when the shards land and explode",
-                        "Deals increased %Damage if only one enemy is hit",
-                        "Creates <img src='/class-icons/flora/adele/aether-crystal.png' alt='Aether Crystal'/> at the location of the explosion"
+                        "Creates <img src='/class-icons/flora/adele/aether-crystal.png' alt='Aether Crystal'/> at the location of the explosion (up to 5 crystals)<ul><li>If the number of enemies hit is less than the max, crystals will be created in random locations</li></ul>"
                     ],
                     "reqLev": 140
                 },
@@ -748,14 +746,15 @@
                 },
                 {
                     "name": "Storm",
-                    "shortDesc": "MP Cost: 500, Duration: 14 sec. Automatically attacks up to 7 nearby enemies periodically, for 500% damage 2 time(s).\\nThe skill's attack count is increased by 2 for every 2 aether swords recalled beyond the first pair.\\nCooldown: 90 sec.",
+                    "shortDesc": "MP Cost: 500, Duration: 14 sec. Automatically attacks up to 7 nearby enemies periodically, for 500% damage 2 time(s).\\nUpon casting, once more than 2 aether swords have been commanded, the skill's attack count is increased by 2 for each pair of aether swords beyond those first two.\\nCooldown: 90 sec.",
                     "id": 400021067,
                     "icons": ["/class-icons/flora/adele/storm.png"],
                     "animations": ["https://media4.giphy.com/media/dbhParw91q0UXfrqO7/giphy.gif"],
                     "type": "Aether Sword Attack",
-                    "desc": "Commands all your <img src='/class-icons/flora/adele/hunting-decree.png' alt='Skill Hunting Decree'/> swords to gather and surround yourself in a storm of swords",
+                    "desc": "Creates a storm of swords to gather and surround yourself",
                     "details": [
-                        "Based on the number of <img src='/class-icons/flora/adele/hunting-decree.png' alt='Skill Hunting Decree'/> swords that were active when Storm is used, the number of hits per attack is increased",
+                        "Requires <img src='/class-icons/flora/adele/hunting-decree.png' alt='Skill Hunting Decree'/> swords to be active to use",
+                        "When more than 1 pair of <img src='/class-icons/flora/adele/hunting-decree.png' alt='Skill Hunting Decree'/> swords are active, the attack count is increased by 2 for each pair of swords beyond the first pair",
                         "Pressing the Skill Key again will end the skill early",
                         "Unaffected by Damage Reflect"
                     ]

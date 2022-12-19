@@ -30,7 +30,7 @@
             "active": "<span data-tooltip='Blaze On (2nd Job)'><img src='/class-icons/nova/kaiser/blaze-on.png' alt='Skill Blaze On'/></span> <span data-tooltip='Cursebite (3rd Job)'><img src='/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/></span> <span data-tooltip='Final Form (3rd Job)'><img src='/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>(Transform) <span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/kaiser/nova-warrior.png' alt='Skill Nova Warrior'/></span>",
             "toggles": "[ <span data-tooltip='Realign: Defender Mode (Beginner Skill)'><img src='/class-icons/nova/kaiser/realign-defender-mode.png' alt='Skill Realign Defender Mode'/></span> / <span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/></span> ] <span data-tooltip='Tempest Blades (2nd Job)'><img src='/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span>",
             "summons": "<span data-tooltip='Stone Dragon (3rd Job)'><img src='/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/></span> <span data-tooltip='Nova Guardians (5th Job)'><img src='/class-icons/nova/kaiser/nova-guardians.png' alt='Skill Nova Guardians'/></span>(120s cd)",
-            "buffCd": "<span data-tooltip='Grand Armor (4th Job)'><img src='/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor'/></span>(120s cd) <span data-tooltip='Kaiser&#39;s Majesty (Hyper Skill)'><img src='/class-icons/nova/kaiser/kaisers-majesty.png' alt='Skill Kaiser's Majesty'/></span>(90s cd)",
+            "buffCd": "<span data-tooltip='Grand Armor (4th Job)'><img src='/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor'/></span>(120s cd) <span data-tooltip='Kaiser&#39;s Majesty (Hyper Skill)'><img src='/class-icons/nova/kaiser/kaisers-majesty.png' alt='Skill Kaiser&#39;s Majesty'/></span>(90s cd) <span data-tooltip='Final Trance (Hyper Skill)'><img src='/class-icons/nova/kaiser/final-trance.png' alt='Skill Final Trance'/></span>(240s cd)",
             "buffFifth": "<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>(180s cd) <span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/></span>(240s cd) <span data-tooltip='Might of the Nova (5th Job)'><img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>(1200s cd) <span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>(240s cd)",
             "iFrame": "<span data-tooltip='Ancestral Prominence (Hyper Skill)'><img src='/class-icons/nova/kaiser/ancestral-prominence.png' alt='Skill Ancestral Prominence'/></span>(60s cd) <span data-tooltip='Might of the Nova (5th Job)'><img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>(1200s cd blocks 1 death)",
             "damageReduce": "<span data-tooltip='Grand Armor (4th Job)'><img src='/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor'/></span>(-12% | 120s cd) <span data-tooltip='Defender Mode III (4th Job)'><img src='/class-icons/nova/kaiser/defender-mode-iii.png' alt='Skill Defender Mode III'/></span>(-5% | Transform)"
@@ -262,6 +262,7 @@
                         "desc": "While toggled, periodically summons swords that hover above your head",
                         "details": [
                             "Activate the swords to strike nearby enemies by using <span data-tooltip='Tempest Blades: Charge (2nd Job)'><img src='/class-icons/nova/kaiser/tempest-blades-charge.png' alt='Skill Tempest Blades: Charge'/></span>",
+                            "During <span data-tooltip='Final Form (3rd Job)'><img src='/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>, swords will gain 1 additional number of attacks",
                             "Prioritizes enemies with the highest Max HP first"
                         ]
                     },
@@ -500,15 +501,14 @@
                 {
                     "id": 61121104,
                     "name": "Blade Burst",
-                    "shortDesc": "MP Cost: 45, Mobs Hit: 12, Damage: 300%, Number of Attacks: 5. Explosion damage hits 12 enemies for 225% damage 4 times.",
+                    "shortDesc": "MP Cost: 45, Damage: 480%, Number of Attacks: 5, Max Enemies Hit: 12",
                     "maxLevel": 20,
                     "icons": ["/class-icons/nova/kaiser/blade-burst.png"],
-                    "animations": ["https://media2.giphy.com/media/jBTUak4IWQ6rvehl0V/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/zc6Y4imVlGCmcof4OM/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Swords strike down on enemies and explode on your location",
+                    "desc": "Swords strike down on enemies",
                     "details": [
-                        "<strong>[Combo]:</strong> Attack -> Down Arrow + <span data-tooltip='Dragon Link (Beginner Skill)'><img src='/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span>",
-                        "Can be used in the air"
+                        "<strong>[Combo]:</strong> Attack -> Down Arrow + <span data-tooltip='Dragon Link (Beginner Skill)'><img src='/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span>"
                     ]
                 },
                 {
@@ -517,7 +517,7 @@
                     "shortDesc": "MP Cost: 70, Damage: 300%, Number of Attacks: 8, Max Enemies Hit: 15. Creates several fire trails afterwards.\\nFire trail periodically inflicts 200% damage up to 6 enemies for 20 sec.\\nCooldown: 20 sec",
                     "maxLevel": 20,
                     "icons": ["/class-icons/nova/kaiser/inferno-breath.png"],
-                    "animations": ["https://media.giphy.com/media/Pn7tLd3SRqymurqs3K/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/JsL3JFTPTGBlqyeRBb/giphy.gif"],
                     "type": "Attack",
                     "desc": "Summons a dragon that breaths fire on enemies. The attack leaves a trail of fire that damages enemies",
                     "details": [
@@ -527,13 +527,13 @@
                 {
                     "id": 61120007,
                     "name": "Advanced Tempest Blade",
-                    "shortDesc": "MP Cost: 60, Number of Your Swords Summoned: 5. Use the skill again after summoning to send the swords at the enemy and deal 450% damage with 4 attacks.\\nCooldown: 10 sec\\nPermanently Increase Attack Power: +20\\nFinal Form: Number of Attacks: +1",
+                    "shortDesc": "MP Cost: 60, Swords Summoned: 5 per 3 sec\\nUse Tempest Blades: Charge after summoning to send the swords at the enemy and deal 450% damage with 4 attacks.\\nPermanently Attack Power: +20\\nFinal Form: Number of Attacks: +1",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/kaiser/advanced-tempest-blades.png", "/class-icons/nova/kaiser/tempest-blades.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Damage, number of hits, and number of swords summoned",
+                        "Increases %Damage, Number of Hits, and number of swords summoned",
                         "Now grants flat Attack"
                     ]
                 },
@@ -600,7 +600,7 @@
                     "desc": "",
                     "details": [
                         "Increases DEF provided",
-                        "Now when toggled, while in <span data-tooltip='Final Form (3rd Job)'><img src='/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>, gain increased %Damage Reduction (including %Max HP attacks)"
+                        "Now when toggled, During <span data-tooltip='Final Form (3rd Job)'><img src='/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>, gain increased %Damage Reduction (including %Max HP attacks)"
                     ]
                 },
                 {
@@ -728,14 +728,15 @@
                     "type": "Attack",
                     "desc": "Unleashes a powerful explosion that blows up enemies on screen",
                     "details": [
-                        "You are invincible while casting"
+                        "Invincible while casting",
+                        "Unaffected by cooldown reduction"
                     ],
                     "reqLev": 160
                 },
                 {
                     "id": 61121053,
                     "name": "Final Trance",
-                    "shortDesc": "MP Cost: 300, Transforms into Final Form for 60 sec.\\nCooldown: 300 sec",
+                    "shortDesc": "MP Cost: 300, Transforms into Final Form for 60 sec.\\nCooldown: 240 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/kaiser/final-trance.png"],
                     "animations": ["https://media1.giphy.com/media/zngA7kj6xJNrizAPmc/giphy.gif"],
@@ -836,7 +837,7 @@
             {
                 "name": "Blade Burst - 4th Job",
                 "icons": ["/class-icons/nova/kaiser/blade-burst.png"],
-                "animations": ["https://media.giphy.com/media/gjNJZf8X6RgJWSqvxd/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/zc6Y4imVlGCmcof4OM/giphy.gif"]
             },
             {
                 "name": "Bladefall - 5th Job",

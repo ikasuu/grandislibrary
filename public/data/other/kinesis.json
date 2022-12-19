@@ -19,7 +19,7 @@
                 "<strong>Crit Rate</strong>: [<img src='/class-icons/other/kinesis/esp.png' alt='Skill ESP'/> +10%] [<img src='/class-icons/other/kinesis/esp-mastery.png' alt='Skill ESP Mastery'/> +10%] [<img src='/class-icons/other/kinesis/third-eye.png' alt='Skill Third Eye'/> +20%]",
                 "<strong>Crit Damage</strong>: [<img src='/class-icons/other/kinesis/third-eye.png' alt='Skill Third Eye'/> +20%] [<img src='/class-icons/other/kinesis/mastery.png' alt='Skill Mastery'/> +10%] [<img src='/class-icons/link-skills/judgment.png' alt='Skill Judgment'/> up to +4%]",
                 "<strong>Damage</strong>: [<img src='/class-icons/other/kinesis/pure-power.png' alt='Skill Pure Power'/> +20%] [<img src='/class-icons/other/kinesis/telepath-tactics.png' alt='Skill Telepath Tactics'/> +20%]",
-                "<strong>Final Damage</strong>: [<img src='/class-icons/other/kinesis/awakening.png' alt='Skill Awakening'/> +40%] [<img src='/class-icons/other/kinesis/telepath-tactics.png' alt='Skill Telepath Tactics'/> +20%] [<img src='/class-icons/other/kinesis/mind-break.png' alt='Skill Mind Break'/> +40%] [<img src='/class-icons/other/kinesis/mind-tremor.png' alt='Skill Mind Tremor'/> +10% from debuff]",
+                "<strong>Final Damage</strong>: [<img src='/class-icons/other/kinesis/mind-break.png' alt='Skill Mind Break'/> +40%] [<img src='/class-icons/other/kinesis/telepath-tactics.png' alt='Skill Telepath Tactics'/> +20%] [<img src='/class-icons/other/kinesis/awakening.png' alt='Skill Awakening'/> +15%] [<img src='/class-icons/other/kinesis/mind-tremor.png' alt='Skill Mind Tremor'/> +10% from debuff]",
                 "<strong>Boss Damage</strong>: [<img src='/class-icons/other/kinesis/psychic-charger.png' alt='Skill Psychic Charger'/> +30%]",
                 "<strong>Attack Speed (Weapon)</strong>: 3",
                 "<strong>Buff Duration</strong>: [<img src='/class-icons/other/kinesis/supreme-concentration.png' atl='Skill Supreme Concentration'/> +20%]",
@@ -250,7 +250,7 @@
                     {
                         "id": 142101003,
                         "name": "Ultimate - Deep Impact",
-                        "shortDesc": "Psychic Point 5 consumed. Max Enemies Hit: 4, Damage: 170%, Number of Attacks: 7. Targets hit have all buffs removed\\nDamage for [Ultimate - Metal Press] +130%",
+                        "shortDesc": "Psychic Point 2 consumed. Max Enemies Hit: 4, Damage: 170%, Number of Attacks: 7. Targets hit have all buffs removed\\nDamage for [Ultimate - Metal Press] +130%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/kinesis/ultimate-deep-impact.png"],
                         "animations": ["https://media3.giphy.com/media/YqtpHYxl0VZq5XgeeK/giphy.gif"],
@@ -321,15 +321,15 @@
                     {
                         "id": 142111006,
                         "name": "Mind Tremor",
-                        "shortDesc": "Max Enemies with reduced Speed in the area: 5, DEF Reduction and Received Final Damage: +10%\\nDEF Reduction and Final Damage Increase is double the amount of monsters affected in the area.\\nDuration: 30, Debuff is applied to enemies who enter and leave the area for the same duration of being in the area.\\n[Psychic Point recovery during skill use: 1]\\nCooldown: 30 sec",
+                        "shortDesc": "Reduces up to 5 enemies' speed by 25%. Ignores an additional 10% DEF and applies a debuff that increases Final Damage by 10% to Kinesis's attack.\\nDuration: 30. For enemies who leave the area of effect, the debuff lingers for a time equal to the time they spent in the area of effect.\\n[Psychic Point recovery during skill use: 1]\\nCooldown: 30 sec",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/kinesis/mind-tremor.png"],
                         "animations": ["https://media2.giphy.com/media/eiLmAbvo964qTLEjmx/giphy.gif"],
                         "type": "Active Debuff Zone",
-                        "desc": "Creates an area on the ground that slows and debuffs enemies",
+                        "desc": "Creates an area on the ground that slows, decreases enemy %DEF and debuffs while enemies in are it",
                         "details": [
-                            "<strong>[Debuff]</strong>: Decreases %DEF and increases %Final Damage dealt to enemy<ul><li>Reduction to %DEF can be considered as %Ignore DEF</li></ul>",
-                            "The effects of the debuff will increase depending on how many enemies are affected",
+                            "<strong>[Debuff]</strong>: Increases %Final Damage dealt to enemy<ul><li>For enemies that leave the zone, the debuff duration is equal to the duration spent within it</li></ul>",
+                            "Reduction to %DEF can be considered as %Ignore DEF",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -376,14 +376,15 @@
                     {
                         "id": 142111010,
                         "name": "Kinetic Jaunt",
-                        "shortDesc": "Move up quickly and in selected directions. Duration increases with skill level. Moving during skill uses costs 2 Psychic Points.\\nCooldown: 10 sec",
+                        "shortDesc": "Move up quickly and in selected directions. Duration increases with skill level.\\nCasting this skill while using other skills costs 2 Psychic Points\\nCooldown: 4 sec",
                         "maxLevel": 4,
                         "icons": ["/class-icons/other/kinesis/kinetic-jaunt.png"],
                         "animations": ["https://media1.giphy.com/media/XgMQ12fVckEn6CfKny/giphy.gif"],
-                        "type": "PP Key-down Active",
+                        "type": "Key-down Active",
                         "desc": "While held, levitate up into the air",
                         "details": [
-                            "You can move while this skill is held"
+                            "You can move while this skill is held",
+                            "Costs PP when cast while using other skills and the cooldown is increased (to 8 sec)"
                         ]
                     },
                     {
@@ -453,31 +454,31 @@
                 {
                     "id": 142121005,
                     "name": "Ultimate - B.P.M.",
-                    "shortDesc": "Enemies Hit: 3, Damage: 175%, Number of Attacks: 7, Psychic Point Cost on First Use: 1. On/Off skill\\nCooldown: 0.5 sec\\n[Ultimate - Metal Press] Damage: +310%p\\n[Ultimate - Deep Impact] Damage: +270%\\n[Ultimate - Trainwreck] Damage: +100%",
+                    "shortDesc": "Enemies Hit: 3, Damage: 175%, Number of Attacks: 7. When activated once, consumes 1 slot(s) of Psychic Points\\nAttack stops when Psychic Points are consumed, resumes attack when recovering more than 3 Psychic Points.\\nCooldown: 0.5 sec\\n[Ultimate - Metal Press] Damage: +310%p\\n[Ultimate - Deep Impact] Damage: +270%\\n[Ultimate - Trainwreck] Damage: +100%",
                     "maxLevel": 20,
                     "icons": ["/class-icons/other/kinesis/ultimate-bpm.png"],
                     "animations": ["https://media1.giphy.com/media/JTDOTSXpAH20pu26AK/giphy.gif"],
                     "type": "PP Toggle Attack",
                     "desc": "While active, continously strike forward with a barrage of psychic punches",
                     "details": [
-                        "Increases %Damage of <img src='/class-icons/other/kinesis/ultimate-metal-press.png' alt='Skill Ultimate - Metal Press'/>, <img src='/class-icons/other/kinesis/ultimate-deep-impact.png' alt='Skill Ultimate - Deep Impact'/> and <img src='/class-icons/other/kinesis/ultimate-trainwreck.png' alt='Skill Ultimate - Trainwreck'/>",
-                        "You can use other attacks while this skill is active",
-                        "Consumes PP only when attack successfully hits",
+                        "<strong>[Passive]</strong> Increases %Damage of <img src='/class-icons/other/kinesis/ultimate-metal-press.png' alt='Skill Ultimate - Metal Press'/>, <img src='/class-icons/other/kinesis/ultimate-deep-impact.png' alt='Skill Ultimate - Deep Impact'/> and <img src='/class-icons/other/kinesis/ultimate-trainwreck.png' alt='Skill Ultimate - Trainwreck'/> by a flat amount",
+                        "Consumes PP only when attack successfully hits<ul><li>Attack automatically stops when all PP is consumed and resumes once more than 3 PP is available</li></ul>",
+                        "Can be used while casting other skills",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "id": 142120003,
                     "name": "Mind Quake",
-                    "shortDesc": "Initial hit - Max Enemies hit: 5, Damage: 500%, Number of Attacks: 1, Enemies in area have Speed Reduction, DEF Reduction and Received Final Damage: +10%\\nDEF Reduction and Final Damage Increase is triple the amount of monsters affected in the area.\\nDuration: 30, Debuff is applied to enemies who enter and leave the area for the same duration they spent in the area.\\n[Psychic Point recovery during skill use: 1]\\nCooldown: 30 sec",
+                    "shortDesc": "Initial hit - Max Enemies hit: 5, Damage: 1000%, Number of Attacks: 4.\\nReduces speed of enemies within the area by 30%.\\nIgnores an additional 15% DEF and applies a debuff that increases Final Damage by 15% to Kinesis's attack.\\nDuration: 30. For enemies who leave the area of effect, the debuff lingers for a time equal to the time they spent in the area of effect.\\n[Psychic Point recovery during skill use: 1]\\nCooldown: 30 sec",
                     "maxLevel": 20,
                     "icons": ["/class-icons/other/kinesis/mind-quake.png", "/class-icons/other/kinesis/mind-tremor.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
                         "Now damages enemies on initial hit",
-                        "Now triples the amount of DEF Reduction and Final Damage applied based on enemies affected in the area",
-                        "Debuff now applies to both enemies that enter and leave"
+                        "Increases slow and %DEF reduction effect",
+                        "Increases %Final Damage from debuff"
                     ]
                 },
                 {
@@ -534,7 +535,7 @@
                 {
                     "id": 142120010,
                     "name": "Awakening",
-                    "shortDesc": "Final Damage: +40%, Ultimate Skill Critical Damage: +20%",
+                    "shortDesc": "Final Damage: +15%, Ultimate Skill Critical Damage: +20%",
                     "maxLevel": 20,
                     "icons": ["/class-icons/other/kinesis/awakening.png"],
                     "type": "Passive"
@@ -623,7 +624,7 @@
                 {
                     "id": 142120036,
                     "name": "Mind Tremor - Overwhelm",
-                    "shortDesc": "DEF reduction rate doubles",
+                    "shortDesc": "DEF Reduction: +10%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/other/kinesis/mind-tremor-overwhelm.png"],
                     "type": "Passive",
@@ -737,7 +738,7 @@
                 },
                 {
                     "name": "Ultimate - Mind Over Matter",
-                    "shortDesc": "Psychic Point Cost: 10. Max Enemies Hit: 10, Damage: 1000%, Number of Attacks: 5. Attacks more quickly as object accelerates.\\nWhile traveling towards you, object moves at 75% speed.\\nInflicts an additional 1400% damage to up to 12 enemies 12 times when the object disappears.\\nCooldown: 90 sec",
+                    "shortDesc": "Psychic Point Cost: 10, Duration: 30 sec, Max Enemies Hit: 10, Damage: 1000%, Number of Attacks: 5\\nWhile traveling towards you, object moves at 75% speed.\\nInflicts an additional 1400% damage to up to 12 enemies 12 times when the object disappears.\\nCooldown: 90 sec",
                     "id": 400021030,
                     "icons": ["/class-icons/other/kinesis/ultimate-mind-over-matter.png"],
                     "animations": ["https://media2.giphy.com/media/iY1v2KiTOJlruBG3EY/giphy.gif"],

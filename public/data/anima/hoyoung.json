@@ -72,9 +72,9 @@
         ],
         "specialThanks": "Special thanks to Kénsa for their help in making this overview!",
         "extraContent": {
-            "title": "Talisman Energy and Scroll Energy",
-            "content": "<p><img src='/class-icons/anima/hoyoung/hoyoung-gauge.png' alt='Hoyoung Gauge'/></p><p>Hoyoung has two secondary resources called Talisman Energy and Scroll Energy that are used for Talisman Skills and Scroll Skills. In Hoyoung's gauge, the inner circle is the Talisman Energy and the outer ring is the Scroll Energy. Talisman Energy is charged by using Attribute Skills and Scroll Energy is charged by using Talisman Skills and Attribute Skills.</p><p>Hoyoung's Attribute Skills are split into 3 different attributes, Humanity, Earth, and Heaven. On Hoyoung's gauge, you'll notice three orbs, this is your Attribute Combo, each representing a different attribute. Using a unique attribute will increase the stage of your Attribute Combo and grant bonus Talisman Energy. Once you consume all three orbs (Stage 3), the Attribute Combo resets</p><p><em>Talisman Energy is unlocked at 1st Job while Scroll Energy is unlocked at 3rd Job</em></p>"
-        }
+            "title": "Talisman Energy and Scroll Energy & Dark Sight",
+            "content": "<p><img src='/class-icons/anima/hoyoung/hoyoung-gauge.png' alt='Hoyoung Gauge'/></p><p>Hoyoung has two secondary resources called Talisman Energy and Scroll Energy that are used for Talisman Skills and Scroll Skills. In Hoyoung's gauge, the inner circle is the Talisman Energy and the outer ring is the Scroll Energy. Talisman Energy is charged by using Attribute Skills and Scroll Energy is charged by using Talisman Skills and Attribute Skills.</p><p>Hoyoung's Attribute Skills are split into 3 different attributes, Humanity, Earth, and Heaven. On Hoyoung's gauge, you'll notice three orbs, this is your Attribute Combo, each representing a different attribute. Using a unique attribute will increase the stage of your Attribute Combo and grant bonus Talisman Energy. Once you consume all three orbs (Stage 3), the Attribute Combo resets</p><p><em>Talisman Energy is unlocked at 1st Job while Scroll Energy is unlocked at 3rd Job</em></p><h3>Dark Sight</h3><p><em>Credits to the <a href='https://discord.gg/FR55ADj' target='_blank' rel='noopener noreferrer'>Night Walker Discord</a> for the list of attacks avoidable with Dark Sight. For an actively maintained version, please check out the Night Walker Discord</em></p><p>In 2nd Job, using the clone version of Attribute Skills will trigger <img src='/class-icons/anima/hoyoung/out-of-sight.png' alt='Skill Out of Sight'/> Out of Sight to briefly grant <img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight state. Below is a list of avoidable attacks that have been tested:</p><div class='ds-table'><table><thead><tr><th>Boss</th><th>Avoidable Attack</th></tr></thead><tbody><tr><td>All Enemies</td><td>Touch Damage</td></tr> <tr><td>Hilla</td><td>Lightning Bolt, Flame Breath</td></tr> <tr><td>Cygnus</td><td>All minions (including instructors) touch damage + attacks</td></tr> <tr><td>Princess No</td><td>(Miroku/4F - All attacks except Infinite Flame), Butterfly Throw (except Black Butterfly Seduce), Sakura Shower</td></tr> <tr><td>Magnus</td><td>Immobilizing Gas, Falling Debris, Dash</td></tr> <tr><td>Papulatus</td><td>Hand Smash, Floor Rift, Timed Cursed/Seal (both cast + seal), Falling Debris</td></tr> <tr><td>Gollux</td><td>Reverse/99% Bomb</td></tr> <tr><td>Crimson Queen</td><td>Burn DoT (gain stacks but no damage taken)</td></tr> <tr><td>Pierre</td><td>Fire Spin (Blue Form)</td></tr> <tr><td>Von Bon</td><td>Falling Debris</td></tr> <tr><td>Vellum</td><td>Falling Stun Rocks</td></tr> <tr><td>Pink Bean (Statuses)</td><td>All attacks except Laser, Poison Clouds, Mini Pink Beans</td></tr> <tr><td>Pink Bean</td><td>Blue ground attack, Big Bang, Mini Pink Beans</td></tr> <tr><td>Lotus</td><td>Falling Debris (except platforms), Green Vaccum (prevents slow/grounding)</td></tr> <tr><td>Damien</td><td>Yellow(p1)/Red(p2) Falling Fireballs, Dash(p2), Thorn Bind (Can be done reactively when he disappears w/ Monster Silhouettes enabled in settings)</td></tr> <tr><td>Will</td><td>P1 (Segment Test) Red Meteors, P2 Web</td></tr> <tr><td>Guardian Angel Slime</td><td>Slime Pool DoT, Slime minion touch damage (not their attacks, i.e. Pink Slime's seduce), Magma Slime touch + landing on head</td></tr> <tr><td>Verus Hilla</td><td>Corpse DoT</td></tr> <tr><td>Gloom</td><td>Falling Debris</td></tr> <tr><td>Darknell</td><td>Debris (Both Vertical + Horizontal), Small Minion touch damage (except sword swing)</td></tr> <tr><td>Black Mage</td><td>P1 Knights' Dash (still applies curse), P1 Red Lightning, Falling Debris (Vertical), Diagonal/Rolling Debris (only while midair), P3 Down FMA</td></tr> <tr><td>Seren P1 (P2 untested)</td><td>Falling Debris, Dash (still adds sun gauge)</td></tr> <tr><td>Kalos P1</td><td>Nothing</td></tr></tbody></table></div>"
+        } 
     },
     "skill": {
         "primary":[
@@ -174,7 +174,7 @@
                     {
                         "id": 164001001,
                         "name": "Talisman: Evil-Sealing Gourd",
-                        "shortDesc": "Talisman Energy Cost: 100, Max Enemies Swallowed: 4. Launch swallowed enemies by pressing the skill key again.\\nAttacks up to 6 enemies that are absorbed or within range of the launch attack for 250% damage 6 times. Damage divided by the number of enemies being attacked (excluding 50% of Damage).\\nBoss Damage: +20%.",
+                        "shortDesc": "Talisman Energy Cost: 100, Max Enemies Swallowed: 4. Launch swallowed enemies by pressing the skill key again.\\nAttacks up to 6 enemies that are absorbed or within range of the launch attack for 250% damage 6 times.\\nBoss Damage: +20%.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/anima/hoyoung/talisman-evil-sealing-gourd.png"],
                         "animations": ["https://media.giphy.com/media/S92s9ysVXXlJ9IIbGg/giphy.gif"],
@@ -261,6 +261,7 @@
                         "details": [
                             "Deals increased %Damage to regular monsters",
                             "Summoning skills will not create clones",
+                            "Prioritizes bosses with the highest HP first",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -285,14 +286,14 @@
                     {
                         "id": 164100006,
                         "name": "Out of Sight",
-                        "shortDesc": "Using Ground-Shattering Wave (Clone), Stone Tremor (Clone), Iron Fan Gale (Clone), or Consuming Flames (Clone) hides you for 2 sec, Using an attack skill while hidden will reveal you.\\n[Passive Effects: Avoidability +20%]",
+                        "shortDesc": "Using Ground-Shattering Wave (Clone), Stone Tremor (Clone), Iron Fan Gale (Clone), or Consuming Flames (Clone) hides you for 2 sec, Using an attack skill while hidden will reveal you.\\nIf you dodge an attack that deals damage proportional to Max HP, your remaining time to hide will be reduced by 20% of the maximum.\\n[Passive Effects: Avoidability +20%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/anima/hoyoung/out-of-sight.png"],
                         "type": "Passive",
-                        "desc": "Whenever you use the clone version of Attribute Skills (like <img src='/class-icons/anima/hoyoung/earth-ground-shattering-wave.png' alt='Skill Earth Ground-Shattering Wave'/>), you become hidden and cannot be hit by enemies similar to <img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight",
+                        "desc": "Upon using the clone version of Attribute Skills (like <img src='/class-icons/anima/hoyoung/earth-ground-shattering-wave.png' alt='Skill Earth Ground-Shattering Wave'/>) will grant <img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight state",
                         "details": [
-                            "Additionally, permanently increases %Avoidability",
-                            "Attacking will reveal you"
+                            "While in the <img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight state, if you dodge an attack that deals %Max HP, the duration is reduced slightly",
+                            "Additionally, permanently increases %Avoidability"
                         ]
                     },
                     {
@@ -373,6 +374,7 @@
                         "type": "Talisman Summon",
                         "desc": "Summons a flame spirit that seeks and attacks nearby enemies",
                         "details": [
+                            "Prioritizes bosses with the highest HP first",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -513,6 +515,7 @@
                     "desc": "While active, gain increased %Final Damage and your attacks create butterflies that seek and attack nearby enemies",
                     "details": [
                         "<strong>[Passive]</strong>: Permanently increases %p Damage of <img src='/class-icons/anima/hoyoung/scroll-degeneration.png' alt='Skill Scroll Degeneration'/>",
+                        "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -671,11 +674,15 @@
                 {
                     "id": 164121041,
                     "name": "Sage: Tai Yu's Miracle Tonic",
-                    "shortDesc": "MP Cost: 800. For 12 sec, periodically restores Talisman Energy by 35 and Scroll Energy by 350.\\nCooldown: 100 sec",
+                    "shortDesc": "MP Cost: 800. Completely restores Talisman and Scroll Energy as soon as it's used. For 12 sec, periodically restores Talisman Energy by 35 and Scroll Energy by 350.\\nCooldown: 100 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/anima/hoyoung/sage-tai-yus-miracle-tonic.png"],
                     "animations": ["https://media.giphy.com/media/Z64InC2HEJRoumDYEG/giphy.gif"],
                     "type": "Buff",
+                    "desc": "When used, fully restores Talisman and Scroll Energy",
+                    "details": [
+                        "While active, periodically restores Talisman and Scroll Energy"
+                    ],
                     "reqLev": 140
                 },
                 {
@@ -690,19 +697,19 @@
                     "details": [
                         "Can be used while in the air or while using 1st to 4th Job Skills<ul><li>For <img src='/class-icons/anima/hoyoung/humanity-gold-banded-cudgel.png' alt='Skill Humanity Gold Banded Cudgel'/> only during the final attack can this skill be used</li></ul>",
                         "Depending on how long the skill was held, the cooldown will be shorter",
-                        "Unaffected by cooldown resets"
+                        "Unaffected by cooldown resets and cooldown reduction"
                     ],
                     "reqLev": 160
                 },
                 {
                     "id": 164121043,
                     "name": "Sage: Tai Yu Clone",
-                    "shortDesc": "HP Cost: 15% of Max HP, Clone charges to the enemy with the highest Max HP within range, Max Enemies Hit: 8, Damage: 800%, Number of Attacks: 8\\nStun Duration: 8 sec, If only a few enemies are hit, the duration increases to up to 11 sec\\nStun duration can increase up to 100% based on the damage inflicted with the attack.\\nCooldown: 200 sec",
+                    "shortDesc": "HP Cost: 15% of Max HP, Max Enemies Hit: 8, Damage: 800%, Number of Attacks: 8\\nStun Duration: 11 sec\\nStun duration can increase up to 100% based on the damage inflicted with the attack.\\nCooldown: 200 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/anima/hoyoung/sage-tai-yu-clone.png"],
                     "animations": ["https://media.giphy.com/media/OU2X0hEirWST2yiIEs/giphy.gif"],
                     "type": "Bind Attack",
-                    "desc": "A clone charges towards the enemy with the highest Max HP and binds nearby enemies in its path",
+                    "desc": "A clone charges towards enemies that binds enemies in its path",
                     "reqLev": 190
                 }
             ]
@@ -738,14 +745,15 @@
                 },
                 {
                     "name": "Sage: Wrath of God",
-                    "shortDesc": "MP Cost: 1000, Duration: 30 sec, Damage: +70%\\nThe gods strike once per 12 successful attacks, hitting up to 10 enemies for 1700% damage 8 times, Cooldown: 1.5 sec\\nUsing the skill again will immediately end its effects and summon the gods at once, creating 6 shockwave(s) that attacks up to 15 enemies for 2000% damage 12 times.\\nYou are invincible while summoning the gods. It negates attack ignore and attack reflection effects.\\nUpon summoning the gods, damage for Heaven, Earth, and Humanity Skills, as well as Clone/True skills, increases by 20% for 30 sec.\\nCooldown: 200 sec",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec, Damage: +70%\\nThe gods strike once per 12 successful attacks, hitting up to 10 enemies for 1700% damage 8 times, Cooldown: 1.5 sec\\nUsing the skill again will immediately end its effects and summon the gods at once, creating 6 shockwave(s) that attacks up to 15 enemies for 2000% damage 12 times.\\nYou are invincible while summoning the gods. This skill negates attack ignore and attack reflection effects.\\nUpon summoning the gods, damage for Heaven, Earth, and Humanity Skills, as well as Clone/True skills, increases by 20% for 30 sec.\\nCooldown: 200 sec",
                     "id": 400021067,
                     "icons": ["/class-icons/anima/hoyoung/sage-wrath-of-god.png"],
                     "animations": ["https://media.giphy.com/media/YVIOpH9rbVgMyigYls/giphy-downsized-large.gif"],
                     "type": "Buff Attack",
                     "desc": "While active, increases your %Damage and your attacks periodically trigger giant gods to attack nearby enemies",
                     "details": [
-                        "Pressing the Skill Key again will end the skill early and release a massive attack<ul><li>You are invincible during this period</li><li>After the final attack, gain a buff that increases %Damage of Attribute Skills</li><li>Ignores Attack Ignore and Damage Reflect</ul>",
+                        "Pressing the Skill Key again will end the skill early and release a massive attack<ul><li>While casting, you are invincible</li><li>After the final attack, gain a buff that increases %Damage of Attribute Skills</li><li>Ignores Attack Ignore and Damage Reflect</ul>",
+                        "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
                     ]
                 },

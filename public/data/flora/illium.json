@@ -128,7 +128,8 @@
                         "details": [
                             "Attack can hit the same enemy multiple times",
                             "Javelins can also bounce off of your <img src='/class-icons/flora/illium/deploy-crystal.png' alt='Skill Deploy Crystal'/> orb",
-                            "Deals increased %Damage to regular monsters"
+                            "Deals increased %Damage to regular monsters",
+                            "Prioritizes bosses with the highest HP first"
                         ]
                     },
                     {
@@ -289,10 +290,14 @@
                     {
                         "id": 152100011,
                         "name": "Aegis of Light",
-                        "shortDesc": "Damage Taken: -50%",
+                        "shortDesc": "Damage Taken: -70%, MP Absorb Chance: 20%, Amount Absorbed: 10% of Max MP\\nAmount Absorbed from Boss: 5% of Max MP",
                         "maxLevel": 4,
                         "icons": ["/class-icons/flora/illium/aegis-of-light.png"],
-                        "type": "Passive"
+                        "type": "Passive",
+                        "desc": "Reduces damage taken (excludes %Max HP attacks) and your attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "MP absorption effectiveness is reduced for bosses"
+                        ]
                     },
                     {
                         "id": 152100012,
@@ -352,17 +357,17 @@
                     {
                         "id": 152111003,
                         "name": "Crystal Skill - Wings of Glory",
-                        "shortDesc": "Crystal Charge Cost: 150\\nDuration: 20 sec\\nFinal Damage: +25%, Knockback Resistance: +100%, Boss Damage: +30%\\nWinged Javelin: explodes on contact, striking up to 5 enemies for 300% damage 6 times, Damage Against Normal Monsters: +20%. If total enemies struct is lower than the max, an additional 10% is added to the final damage for each enemy below the max. Final Damage increases up to 40%.",
+                        "shortDesc": "Crystal Charge Cost: 150\\nDuration: 20 sec\\nFinal Damage: +25%, Knockback Resistance: +100%, Boss Damage: +30%\\nWinged Javelin: Explodes on contact, Max Enemies Hit: 5, Damage: 500%, Number of Attacks: 6, Damage Against Normal Enemies: +20%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/illium/crystal-skill-wings-of-glory.png"],
                         "animations": ["https://media.giphy.com/media/J6Dd8eNulGBGxQ80nD/giphy.gif"],
                         "type": "Crystal Buff",
-                        "desc": "Allows you to fly and throw special explosive <img src='/class-icons/flora/illium/winged-javelin.png' alt='Skill Winged Javelin'/> Winged Javelins",
+                        "desc": "Allows you to fly and throw explosive <img src='/class-icons/flora/illium/winged-javelin.png' alt='Skill Winged Javelin'/> Winged Javelins",
                         "details": [
                             "Requires a minimum of 150 Charges to use",
-                            "While in Wings of Glory, you gain increased %Final Damage, %Boss Damage, and 100% Knockback Resistance",
-                            "Winged Javelins deals increased %Damage to regular monsters and deals increased %Final Damage the fewer enemies hit",
+                            "While in Wings of Glory, gain increased %Final Damage, %Boss Damage, and 100% Knockback Resistance",
                             "While active, you can still use <img src='/class-icons/flora/illium/crystalline-wings.png' alt='Skill Crystalline Wings'/> to teleport",
+                            "Winged Javelins deals increased %Damage to regular monsters",
                             "Pressing the Skill Key again will end the skill early"
                         ]
                     },
@@ -732,12 +737,12 @@
             "fifthMain": [
                 {
                     "name": "Crystal Ignition",
-                    "shortDesc": "MP Cost: 30, DoT: 1400%, Number of Attacks: 5, Max Enemies Hit: 15, damage increased by 20% when attacking a boss\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost per Attack: 30, Max Key-Down Duration: 6 sec, DoT: 2331%, Number of Attacks: 5, Max Enemies Hit: 15. Damage increased by 20% when attacking a boss.\\nCooldown: 180 sec",
                     "id": 400021002,
                     "icons": ["/class-icons/flora/illium/crystal-ignition.png"],
                     "animations": ["https://media3.giphy.com/media/bGxMXxB38vVUsrKePb/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Fires a beam of light forward",
+                    "desc": "While held, fire a beam of light forward",
                     "details": [
                         "Deals increased %Boss Damage",
                         "Refreshes stacks of <img src='/class-icons/flora/illium/umbral-brand.png' alt='Skill Umbral Brand'/> on enemies"
@@ -787,7 +792,7 @@
                 },
                 {
                     "name": "Crystal Gate",
-                    "shortDesc": "MP Cost: 500, Duration: 155 sec, Max Crystal Gates: 3, activates after setting up at least 2. The setup time and the Crystal Gate duration are the same.\\nAfter using it once, all Crystal Gates cannot be used for 2 sec and Crystal Gates you actually used cannot be used for 5 sec.\\nPeriodically obtain Magic ATT +55 buff for 25 sec around the Crystal Gate. Direct skill attacks that hit during the buff will bombard 5 times through the Crystal Gate up to 3 enemies with 900% damage. Cooldown: 1.5 sec\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 500, Duration: 155 sec, Max Crystal Gates: 3, activates after setting up at least 2. The setup time and the Crystal Gate duration are the same. After using it once, all Crystal Gates cannot be used for 2 sec and Crystal Gates you actually used cannot be used for 5 sec.\\nPeriodically obtain Magic ATT +55 buff for 25 sec around the Crystal Gate. Direct skill attacks that hit during the buff will bombard 5 times through the Crystal Gate up to 3 enemies with 900% damage. Cooldown: 1.5 sec\\nCooldown: 180 sec. Cooldown is reduced as much as 50% of the remaining cooldown if it ends before the Crystal Gate's duration.",
                     "id": 400021067,
                     "icons": ["/class-icons/flora/illium/crystal-gate.png"],
                     "animations": ["https://media1.giphy.com/media/V1hfgksEMmMPLq9Bz1/giphy.gif"],
@@ -795,8 +800,9 @@
                     "desc": "Places down a portal that allows you to travel back and forth from both",
                     "details": [
                         "To use the portal, press the Up Arrow Key on the portal<ul><li>Has a cooldown (2 secs) between teleports and the portal used also has a cooldown (5 secs)</li></ul>",
-                        "While near the portal, you gain a Magic Attack buff and your attacks create explosions that damage nearby enemies",
-                        "Using a portal can activate <img src='/class-icons/link-skills/tide-of-battle.png' alt='Skill Tide of Battle'/>"
+                        "While near the portal, gain a Magic Attack buff and your attacks create explosions that damage nearby enemies",
+                        "Using a portal can activate <img src='/class-icons/link-skills/tide-of-battle.png' alt='Skill Tide of Battle'/>",
+                        "If the skill ends early, a portion of the cooldown is refunded based on the remaining duration"
                     ]
                 }
             ]
