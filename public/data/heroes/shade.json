@@ -357,12 +357,15 @@
                     "4th Job", [{
                         "id": 25121000,
                         "name": "Bomb Punch",
-                        "shortDesc": "MP Cost: 20, Damage: 320%, Number of Attacks: 4, Max Enemies Hit: 8",
+                        "shortDesc": "MP Cost: 20 per hit\\n[1st hit]: Max Enemies Hit: 8, Damage 300%, Number of Attacks: 3\\n[2nd hit]: Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 3\\n[3rd hit]: Max Enemies Hit: 8, Damgae: 300%, Number of Attacks: 3, Stun chance: 100%, Stun Duration: 2 sec\\nAll attacks increases Damage Against Normal Enemies by 255% points",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/shade/bomb-punch.png"],
                         "animations": ["https://media.giphy.com/media/UrtvBnz6RhRfGSL3dT/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Punches forward several times"
+                        "desc": "Punches forward several times",
+                        "details": [
+                            "Attack gains increased %Damage against regular monsters by a flat amount"
+                        ]
                     },
                     {
                         "id": 25121005,
