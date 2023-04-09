@@ -17,13 +17,55 @@
             [
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +20%]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> +25% from debuff] [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +20% while active]",
-                "<strong>Damage</strong>: [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +5% when axe is equipped]",
+                "<strong>Damage</strong>: ",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%] [<span data-tooltip='Advanced Combo (4th Job)'><img src='/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span> up to +100%] [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active] [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Warrior Mastery (1st Job)'><img src='/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]",
                 "<strong>Attack Speed (Weapon)</strong>: [1H] 2, [2H] 3",
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Combat Mastery (4th Job)'><img src='/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> +50%]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Endure (3rd Job)'><img src='/class-icons/explorers/hero/endure.png' alt='Skill Endure'/></span> 30]"
             ]
+        ],
+        "weaponStats": {
+            "weaponMultiply": ["[1H] 1.34x [2H] 1.44x", "-"],
+            "attackSpeed": ["[1H] 2 [2H] 3", ""],
+            "mastery": ["90%", "[Base 20%] [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +70%]"]
+        },
+        "attackStats": [
+            {
+                "name": "Main Stat - STR",
+                "stat": "+15% +50(80)",
+                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] [<span data-tooltip='Agile Arms (2nd Job)'><img src='/class-icons/explorers/hero/agile-arms.png' alt='Skill Agile Arms'/></span> +20] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30] (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +30)"
+            },
+            {
+                "name": "Secondary Stat - DEX",
+                "stat": "+30",
+                "detail": "[<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30]"
+            },
+            {
+                "name": "Attack",
+                "stat": "+80(~154)",
+                "detail": "[<span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> +2 per orb up to +20] [<span data-tooltip='Spirit Blade (2nd Job)'><img src='/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> +30] [<span data-tooltip='Advanced Final Attack (4th Job)'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +30] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +50} {<img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/> up to 20% of Combo Orbs (+4)} (<span data-tooltip='Advanced Final Attack - Ferocity (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-final-attack-ferocity.png' alt='Skill Advanced Final Attack Ferocity'/></span> +20)"
+            },
+            {
+                "name": "Damage",
+                "stat": "(+65%)",
+                "detail": "[<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +5% when axe is equipped] {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%) (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +3% when hit up to +30%)"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+20%(24%)",
+                "detail": "[<span data-tooltip='Advanced Combo Attack - Boss Rush (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png' alt='Skill Advanced Combo Attack Boss Rush'/></span> +2% per orb up to +20%] {<img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/> up to 20% of Combo Orbs (+4%)}"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+142%(~535.71%)",
+                "detail": "[<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%] x [<span data-tooltip='Advanced Combo (4th Job)'><img src='/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span>/<span data-tooltip='Advanced Combo Attack - Reinforce (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack Reinforce'/></span> +120% + {<img src='/class-icons/explorers/hero/sword-illusion.png' alt='Skill Sword Illusion'/> (Final Damage increase of 6 Combo Orbs) +72%}] x [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated] x [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active] x {<span data-tooltip='Instinctual Combo (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png'/> alt='Skill Instinctual Combo'/></span> up to 20% of Combo Orbs (+24%)} x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%)"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+50%(~58%)",
+                "detail": "[<span data-tooltip='Combat Mastery (4th Job)'><img src='/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> +50%] x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%)"
+            }
         ],
         "buffInfo": {
             "active": "<span data-tooltip='Spirit Blade (2nd Job)'><img src='/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> <span data-tooltip='Scarring Sword (3rd Job)'><img src='/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span> <span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>",
@@ -68,7 +110,7 @@
             "recommended": "<ul><li><img src='/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack - Reinforce'/> <img src='/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png' alt='Skill Advanced Combo Attack - Boss Rush'/> Advanced Combo Attack - Reinforce and Boss Rush</li> <li><img src='/class-icons/explorers/hero/advanced-final-attack-opportunity.png' alt='Skill Advanced Final Attack - Opportunity'/> Advanced Final Attack - Opportunity</li> <li><img src='/class-icons/explorers/hero/raging-blow-reinforce.png' alt='Skill Raging Blow - Reinforce'/> <img src='/class-icons/explorers/hero/raging-blow-extra-strike.png' alt='Skill Raging Blow - Extra Strike'/> Raging Blow - Reinforce and Extra Strike</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Raging Blow (4th Job)'><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> <span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> <span data-tooltip='Rising Rage (Hyper Skill)'><img src='/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> <span data-tooltip='Beam Blade (4th Job)'><img src='/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Exact duplicates cannot be equipped at the same time</li></ul></li></ul>",
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Raging Blow (4th Job)'><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> <span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> <span data-tooltip='Rising Rage (Hyper Skill)'><img src='/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> <span data-tooltip='Beam Blade (4th Job)'><img src='/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
             "possible": "<span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Brandish (2nd Job)'><img src='/class-icons/explorers/hero/brandish.png' alt='Skill Brandish'/></span> <span data-tooltip='Flash Blade (2nd Job)'><img src='/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/></span> <span data-tooltip='Intrepid Slash (3rd Job)'><img src='/class-icons/explorers/hero/intrepid-slash.png' alt='Skill Intrepid Slash'/></span> <span data-tooltip='Leap Attack (1st Job), Rush (3rd Job), and Upward Charge (1st Job)'><img src='/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span> <span data-tooltip='Beam Blade (3rd Job)'><img src='/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span> <span data-tooltip='Raging Blow (4th Job)'><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> <span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> <span data-tooltip='Rising Rage (Hyper Skill)'><img src='/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> <span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>"
         },
         "moreInfo": [
@@ -418,7 +460,7 @@
                     "type": "Swordsmanship Attack",
                     "desc": "Strikes forward while applying a debuff to enemies hit",
                     "details": [
-                        "<strong>[Debuff]</strong>: Enemy receive increased %Crit Damage and is damaged periodically<ul><li>The amount is reduced for party members</li></ul>",
+                        "<strong>[Debuff]</strong>: Critical Hits against enemy deals increased %Damage and enemy is damaged over time<ul><li>%Damage increase is reduced for party member Critical Hits</li></ul>",
                         "Deals increased %Damage to regular monsters"
                     ]
                 },
