@@ -65,6 +65,17 @@ const ProsConsContainer = styled(Col)`
   }
 `;
 
+// Container to hold ClassBuff and LinkSkill
+const BuffContainer = styled(Col)`
+  max-width: 36rem;
+  
+
+  /* For iPad so that the elements do not display as blocks */
+  @media (max-width: 1199px){
+      max-width: 33rem;
+  }
+`;
+
 export function ClassIntro({data}) {
     return (
         <div>
@@ -74,12 +85,12 @@ export function ClassIntro({data}) {
                 <Row>
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>
-                        {/* <PropertyBox skills={data.skill.notable} classType={data.content.classType}/> */}
+                        <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
                     </PropertyContainer>
-                    <ProsConsContainer md="auto">
-                        {/* <ClassProsCons pros={data.content.prosCons.pros} cons={data.content.prosCons.cons}/> */}
+                    <BuffContainer md="auto">
+                        <ClassBuffs content={data.content}/>
                         <LinkSkill linkSkill={data.content.linkSkill}/>
-                    </ProsConsContainer>
+                    </BuffContainer>
                 </Row>
             </Container>
             <hr/>
@@ -89,6 +100,28 @@ export function ClassIntro({data}) {
     );
 }
 
+function ClassBuffs({content}) {
+    return (
+        <div>
+          <BuffAndActivesWrapper md="auto">
+              <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order instead, show all active skills excluding primary attacks"/></StyledHeaderTwo>
+              <Table size="sm">
+              <tbody>
+                  <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
+                  {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.toggles))}</StatTableData></tr>:<></>}
+                  {content.buffInfo.summons ? <tr><th><strong>Summons &amp; Placables</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<tr><th><strong>Summons &amp; Placables</strong>:</th><td>None</td></tr>}
+                  <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData></tr>
+                  <tr><th><strong>Common V Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</StatTableData></tr>
+                  {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
+                  {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
+                  {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.damageReduce))}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
+              </tbody>
+              </Table>
+          </BuffAndActivesWrapper>
+        </div>
+    );
+  }
+
 /*
     Properties component in our Class Overviews
     Created by: Ikasuu, Fall 2020
@@ -96,7 +129,7 @@ export function ClassIntro({data}) {
 
 // Wrapper to hold info for Class Properties
 const ClassPropertyWrapper = styled.div`
-    max-width: 26rem;
+    max-width: 31rem;
 `;
 
 function ClassProperties({content}) {
@@ -167,10 +200,10 @@ function PropertyBox({skills, classType}) {
           { skills.map( skill => 
               <NotableSkill key={skill.name} skill={skill}/>
           )}
-          <StyledHeaderFive>Class Type</StyledHeaderFive>
+          {/* <StyledHeaderFive>Class Type</StyledHeaderFive>
           <ul>
               {classType.map(it => <li key={it}>{it}</li>)}
-          </ul>
+          </ul> */}
       </div>
   );
 }
