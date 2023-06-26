@@ -11,7 +11,7 @@
             {"weapon": ["wand"]},
             {"secondary": ["ornament"]}
         ],
-        "innerAbility": ["***First Line Options***", "+1 Passive Skills", "Meso Obtained +20% (For Training)", "***Second & Third Line Options***", "Boss Damage +10%", "Damage to Debuffed +8%", "Crit Rate +20%", "Meso Obtained +10% (For Training if +1 Passive Skills is 1st Line)"],
+        "innerAbility": ["***First Line Options***", "+1 Passive Skills", "Meso Obtained +20% (For Training)", "***Second & Third Line Options***", "Boss Damage +10%", "Damage to Debuffed +8%", "Crit Rate +20%", "Chance to Skip Cooldown +10%", "Meso Obtained +10% (For Training if +1 Passive Skills is 1st Line)"],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, 100% Knockback Resistance for certain skills while casting and buffs with long cooldowns",
             [
@@ -20,9 +20,9 @@
                 "<strong>Final Damage</strong>: [<span data-tooltip='Advanced Wand Mastery (4th Job)'><img src='/class-icons/anima/lara/advanced-wand-mastery.png' alt='Skill Advanced Wand Mastery'/></span> +30%] [<span data-tooltip='Insight (4th Job)'><img src='/class-icons/anima/lara/insight.png' alt='Skill Insight'/></span> +45%] [<span data-tooltip='Dragon Vein Echo (3rd Job)'><img src='/class-icons/anima/lara/dragon-vein-echo.png' alt='Skill Dragon Vein Echo'/></span> +5% when Dragon Vein is consumed]",
                 "<strong>Damage</strong>: [<span data-tooltip='Immaculate Thought (3rd Job)'><img src='/class-icons/anima/lara/immaculate-thought.png' alt='Skill Immaculate Thought'/></span> +20%] [<span data-tooltip='Nature&#39;s Friend (Link Skill)'><img src='/class-icons/link-skills/natures-friend.png' alt='Skill Natures Friend'/></span> +5%]",
                 "<strong>Boss Damage</strong>: [<span data-tooltip='Immaculate Thought (3rd Job)'><img src='/class-icons/anima/lara/immaculate-thought.png' alt='Skill Immaculate Thought'/></span> +10%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Immaculate Thought (3rd Job)'><img src='/class-icons/anima/lara/immaculate-thought.png' alt='Skill Immaculate Thought'/></span> +40%]",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Immaculate Thought (3rd Job)'><img src='/class-icons/anima/lara/immaculate-thought.png' alt='Skill Immaculate Thought'/></span> +40%] [<span data-tooltip='Relaxation (4th Job)'><img src='/class-icons/anima/lara/relaxation.png' alt='Skill Relaxation'/></span> +60%]",
                 "<strong>Attack Speed</strong>: Stage 6",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Insight (4th Job)'><img src='/class-icons/anima/lara/insight.png' alt='Skill Insight'/></span> +40%] [<span data-tooltip='Relaxation (4th Job)'><img src='/class-icons/anima/lara/relaxation.png' alt='Skill Relaxation'/></span> +60%]",
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Insight (4th Job)'><img src='/class-icons/anima/lara/insight.png' alt='Skill Insight'/></span> +40%]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Relaxation (4th Job)'><img src='/class-icons/anima/lara/relaxation.png' alt='Skill Relaxation'/></span> 30]",
                 "<strong>Summon Duration</strong>: [<span data-tooltip='Spirit Affinity (Beginner Skill)'><img src='/class-icons/anima/spirit-affinity.png' alt='Skill Spirit Affinity'/></span> +10%]"
             ]
@@ -421,7 +421,7 @@
                         "type": "Absorption Active",
                         "desc": "Activates an Absorption skill based on the Dragon Vein's attribute",
                         "details": [
-                            "Absorption skills absorbs a Dragon Veins to empower <span data-tooltip='Essence Sprinkle (1st Job)'><img src='/class-icons/anima/lara/essence-sprinkle.png' alt='Skill Essence Sprinkle'/></span> and <span data-tooltip='Wakeup Call (3rd Job)'><img src='/class-icons/anima/lara/wakeup-call.png' alt='Skill Wakeup Call'/></span>",
+                            "Absorption skills absorbs a Dragon Veins to empower <span data-tooltip='Essence Sprinkle (1st Job)'><img src='/class-icons/anima/lara/essence-sprinkle.png' alt='Skill Essence Sprinkle'/></span> and <span data-tooltip='Wakeup Call (3rd Job)'><img src='/class-icons/anima/lara/wakeup-call.png' alt='Skill Wakeup Call'/></span><ul><li>Absorption skills can also be activated by <span data-tooltip='Mountain Kid (1st Job)'><img src='/class-icons/anima/lara/mountain-kid.png' alt='Skill Mountain Kid'/></span> when you have the Inner Ability %Chance to Skip Cooldown</li></ul>",
                             "When an Absorption skill is active, activating an Eruption skill of the same attribute will cause the previously activated Absorption skill to end",
                             "While casting, you gain 100% Knockback Resistance",
                             "Eruption skills are unaffected by Damage Reflect"
@@ -484,6 +484,7 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
+                            "This version replaces the 2nd Job version and does not receive the passive bonus from 3rd Job Manifestation skills",
                             "Increases Eruption Skill Duration (from 16s to 18s)",
                             "Each individual upgrade will be described below"
                         ]
@@ -542,6 +543,7 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
+                            "This version replaces the 1st Job version but receives the passive bonus from <span data-tooltip='Geomancy (3rd Job)'><img src='/class-icons/anima/lara/geomancy.png' alt='Skill Geomancy'/></span>",
                             "Increases Attack Range, %Damage and Max Enemies Hit of attack"
                         ]
                     },
