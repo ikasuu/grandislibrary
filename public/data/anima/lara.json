@@ -21,7 +21,7 @@
                 "<strong>Damage</strong>: [<span data-tooltip='Immaculate Thought (3rd Job)'><img src='/class-icons/anima/lara/immaculate-thought.png' alt='Skill Immaculate Thought'/></span> +20%] [<span data-tooltip='Nature&#39;s Friend (Link Skill)'><img src='/class-icons/link-skills/natures-friend.png' alt='Skill Natures Friend'/></span> +5%]",
                 "<strong>Boss Damage</strong>: [<span data-tooltip='Immaculate Thought (3rd Job)'><img src='/class-icons/anima/lara/immaculate-thought.png' alt='Skill Immaculate Thought'/></span> +10%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Immaculate Thought (3rd Job)'><img src='/class-icons/anima/lara/immaculate-thought.png' alt='Skill Immaculate Thought'/></span> +40%] [<span data-tooltip='Relaxation (4th Job)'><img src='/class-icons/anima/lara/relaxation.png' alt='Skill Relaxation'/></span> +60%]",
-                "<strong>Attack Speed</strong>: Stage 6",
+                "<strong>Attack Speed</strong>: Stage 7",
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Insight (4th Job)'><img src='/class-icons/anima/lara/insight.png' alt='Skill Insight'/></span> +40%]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Relaxation (4th Job)'><img src='/class-icons/anima/lara/relaxation.png' alt='Skill Relaxation'/></span> 30]",
                 "<strong>Summon Duration</strong>: [<span data-tooltip='Spirit Affinity (Beginner Skill)'><img src='/class-icons/anima/spirit-affinity.png' alt='Skill Spirit Affinity'/></span> +10%]"
@@ -119,7 +119,6 @@
                 },
                 {
                     "id": 60011005,
-                    "offline": true,
                     "name": "Exclusive Spell",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -344,7 +343,7 @@
                         "type": "Manifestation Buff Zone",
                         "desc": "Converts a Wind Dragon Vein into a zone that increases Attack Speed (by 1 stage), Speed, and Jump to party members within it",
                         "details": [
-                            "Pressing the Up Arrow Key and holding the Jump Key within the buff zone allows you to float briefly",
+                            "Pressing the Up Arrow Key and holding the Jump Key within the buff zone allows you to float briefly<ul><li>Right-clicking the skill will toggle ON/OFF this ability for party members</li></ul>",
                             "Duration of buff is shorter for party members",
                             "Gain 100% Knockback Resistance during casting animation",
                             "<strong>[Passive]</strong>: Increases %p damage of <span data-tooltip='Eruption: Whirlwind (2nd Job)'><img src='/class-icons/anima/lara/eruption-whirlwind.png' alt='Skill Eruption Whirlwind'/></span>"
@@ -474,7 +473,7 @@
                     {
                         "id": 0,
                         "name": "Dragon Vein Conversion",
-                        "shortDesc": "MP Cost: 80, Press direction keys within 3 sec of using the skill to convert the target Dragon Vein's attribute into a different attribute.\\nCooldown: 3 sec., Increases cooldown by 4 sec when attribute conversion is successful.",
+                        "shortDesc": "MP Cost: 80, Press direction keys within 3 sec of using the skill to convert the target Dragon Vein's attribute into a different attribute.\\nCooldown: 1 sec., Increases cooldown by 6 sec when attribute conversion is successful.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/anima/lara/dragon-vein-conversion.png"],
                         "animations": ["https://media.giphy.com/media/YpkkYQHk60gMTYC3x6/giphy.gif"],
@@ -583,17 +582,20 @@
                     {
                         "id": 0,
                         "name": "Anima Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
                         "icons": ["/class-icons/anima/anima-heros-will.png"],
                         "animations": ["https://media.giphy.com/media/pMycAFAcwkRSv6CCV5/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                     },
                     {
                         "id": 0,
                         "name": "Advanced Wand Mastery",
-                        "shortDesc": "Wand Mastery: +70%\\nFinal Damage: +30%, Magic ATT: +50",
+                        "shortDesc": "Wand Mastery: +70%\\nFinal Damage: +30%, Magic ATT: +50, Attack Speed: +1",
                         "maxLevel": 30,
                         "icons": ["/class-icons/anima/lara/advanced-wand-mastery.png"],
                         "type": "Upgraded Passive",

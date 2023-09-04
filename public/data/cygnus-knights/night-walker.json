@@ -20,7 +20,7 @@
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Critical Throw (2nd Job)'><img src='/class-icons/cygnus-knights/night-walker/critical-throw.png' alt='Skill Critical Throw'/></span> +35%]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Critical Throw (2nd Job)'><img src='/class-icons/cygnus-knights/night-walker/critical-throw.png' alt='Skill Critical Throw'/></span> +10%] [<span data-tooltip='Alchemic Adrenaline'><img src='/class-icons/cygnus-knights/night-walker/alchemic-adrenaline.png' alt='Skill Alchemic Adrenaline'/></span> +10%] [<span data-tooltip='Throwing Expert (4th Job)'><img src='/class-icons/cygnus-knights/night-walker/throwing-expert.png' alt='skill Throwing Expert'/></span> +10%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Throwing Mastery (2nd Job)'><img src='/class-icons/cygnus-knights/night-walker/throwing-mastery.png'/></span> +30%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Shadow Momentum (3rd Job)'><img src='/class-icons/cygnus-knights/night-walker/shadow-momentum.png' alt='Skill Shadow Momentum'/></span> +20%] [<span data-tooltip='Dark Blessing (4th Job)'><img src='/class-icons/cygnus-knights/night-walker/dark-blessing.png' alt='Skill Dark Blessing'/></span> +10%] [<span data-tooltip='Shadow Bite (5th Job)'><img src='/class-icons/cygnus-knights/night-walker/shadow-bite.png' alt='Skill Shadow Bite'/></span> up to +20%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Shadow Momentum (3rd Job)'><img src='/class-icons/cygnus-knights/night-walker/shadow-momentum.png' alt='Skill Shadow Momentum'/></span> +20%] [<span data-tooltip='Dark Blessing (4th Job)'><img src='/class-icons/cygnus-knights/night-walker/dark-blessing.png' alt='Skill Dark Blessing'/></span> +8%] [<span data-tooltip='Shadow Bite (5th Job)'><img src='/class-icons/cygnus-knights/night-walker/shadow-bite.png' alt='Skill Shadow Bite'/></span> up to +20%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 8",
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Dark Blessing (4th Job)'><img src='/class-icons/cygnus-knights/night-walker/dark-blessing.png' alt='Skill Dark Blessing'/></span> +15%] [<span data-tooltip='Dark Elemental (1st Job)'><img src='/class-icons/cygnus-knights/night-walker/dark-elemental.png' alt='Skill Dark Elemental'/></span> up to +35% from debuff]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Enveloping Darkness (3rd Job)'><img src='/class-icons/common/enveloping-darkness.png' alt='Skill Enveloping Darkness'/></span> +40%] [<span data-tooltip='Dark Blessing (4th Job)'><img src='/class-icons/cygnus-knights/night-walker/dark-blessing.png' alt='Skill Dark Blessing'/></span> +60%]",
@@ -413,6 +413,7 @@
                             "<strong>[Inertia]</strong>: Based on stacks, Throw-type skills can be used and cancelled faster",
                             "Also permanently increases %Final Damage",
                             "Unaffected by %Buff Duration",
+                            "Right-clicking the skill will toggle the visual effect on/off",
                             "<strong>[Note]</strong>: Top animation is without Shadow Momentum"
                         ]
                     },
@@ -492,12 +493,12 @@
                 {
                     "id": 11121000,
                     "name": "Cygnus Knights' Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
                     "animations": ["https://media.giphy.com/media/XRci2FKnrzXuE6Cy2d/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
                         "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
                     ]
@@ -622,7 +623,7 @@
                 {
                     "id": 14120006,
                     "name": "Dark Blessing",
-                    "shortDesc": "Attack Power: +30, Ignore Defense: +15%, Final Damage: +10%, Knockback Resistance: +60%",
+                    "shortDesc": "Attack Power: +30, Ignore Defense: +15%, Final Damage: +8%, Knockback Resistance: +60%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/night-walker/dark-blessing.png"],
                     "type": "Passive"
@@ -773,7 +774,7 @@
             "fifthMain": [
                 {
                     "name": "Shadow Spear",
-                    "shortDesc": "MP Cost: 1000, Duration: 82. shadows form on the ground every time you use a dark attribute skill (except Shadow Spear and summons).\\nThe shadows slowly gather into a spear dealing 400% damage 2 times on up to 8 enemies\\nIf there are enough shadows, they'll form into a giant spear, with a 3.9 sec. cooldown, that deals 800% damage 6 times on up to 12 enemies\\nAll the Shadow Spear's attacks increase Damage Against Normal Monsters by 25%\\nCooldown: 180 sec.",
+                    "shortDesc": "MP Cost: 1000, Duration: 82. shadows form on the ground every time you use a dark attribute skill (except Shadow Spear and summons).\\nThe shadows slowly gather into a spear dealing 375% damage 2 times on up to 8 enemies\\nIf there are enough shadows, they'll form into a giant spear, with a 3.9 sec. cooldown, that deals 800% damage 6 times on up to 12 enemies\\nAll the Shadow Spear's attacks increase Damage Against Normal Monsters by 25%\\nCooldown: 180 sec.",
                     "id": 400041008,
                     "icons": ["/class-icons/cygnus-knights/night-walker/shadow-spear.png"],
                     "animations": ["https://media.giphy.com/media/X6hYRgoWV6HNuoI4kX/giphy.gif"],

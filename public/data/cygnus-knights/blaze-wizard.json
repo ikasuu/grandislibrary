@@ -18,7 +18,7 @@
                 "<strong>Attack</strong>: [<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%]",
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Burning Focus (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/></span> +30%] [<span data-tooltip='Natural Talent (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/natural-talent.png' alt='Skill Natural Talent'/></span> +5% when wand is equipped]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Burning Focus (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/></span> +20%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Liberated Magic (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/></span> +30%] [<span data-tooltip='Pure Magic (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic'/></span> +50%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Liberated Magic (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/></span> +25%] [<span data-tooltip='Pure Magic (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic'/></span> +50%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 7",
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Fires of Creation (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span> +30%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Brilliant Enlightenment (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/brilliant-enlightenment.png' alt='Skill Brilliant Enlightenment'/></span> +40%] [<span data-tooltip='Wild Blaze (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/></span> +60%]",
@@ -316,7 +316,7 @@
                 "3rd Job", [{
                         "id": 12110020,
                         "name": "Grand Orbital Flame",
-                        "shortDesc": "MP Cost: 36, Max Enemies Hit: 8, Damage: 275%, Number of Attacks: 2. Damage Against Normal Monsters: +20%\\nUpon using 3 times, the next attack actives enhanced Grand Orbital Flame.\\n------Enhanced Orbital Flame------\\nMP Cost: 36, Max Enemies Hit: 8, Damage: 330%, Number of Attacks: 2, Damage Against Normal Enemies: +20%",
+                        "shortDesc": "MP Cost: 36, Max Enemies Hit: 8, Damage: 275%, Number of Attacks: 2. Damage Against Normal Monsters: +25%\\nUpon using 3 times, the next attack actives enhanced Grand Orbital Flame.\\n------Enhanced Orbital Flame------\\nMP Cost: 36, Max Enemies Hit: 8, Damage: 330%, Number of Attacks: 2, Damage Against Normal Enemies: +20%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame.png", "/class-icons/cygnus-knights/blaze-wizard/grand-orbital-flame-2.png", "/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
                         "animations": ["https://media.giphy.com/media/UFgm3IiX586lAqM65O/giphy.gif"],
@@ -377,7 +377,7 @@
                     {
                         "id": 12110025,
                         "name": "Liberated Magic",
-                        "shortDesc": "MP Cost: +130%, Final Damage: +30%",
+                        "shortDesc": "MP Cost: +130%, Final Damage: +25%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png"],
                         "type": "Passive"
@@ -412,12 +412,12 @@
                 {
                     "id": 11121000,
                     "name": "Cygnus Knights' Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
                     "animations": ["https://media.giphy.com/media/l9JDnIxBKAWGlxqV4O/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
                         "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
                     ]
@@ -425,7 +425,7 @@
                 {
                     "id": 12120006,
                     "name": "Final Orbital Flame",
-                    "shortDesc": "MP Cost: 43, Max Enemies Hit: 8, Damage: 330%, Number of Attacks: 2. Damage Against Normal Monsters: +40%\\nUpon using 3 times, the next attack activates enhanced Final Orbital Flame.\\n------Enhanced Orbital Flame------\\nMP Cost: 36, Max Enemies Hit: 8, Damage: 430%, Number of Attacks: 2, Damage Against Normal Enemies: +40%\\n-------------Flame Fox-------------\\nMP Cost: 43, Max Enemies Hit: 8, Damage: 570%, Number of Attacks: 2\\nUpon landing, Enemy Elemental Resistance: -10%. Upon landing 10 times, Fox Mischief Debuff Duration: 20 sec\\n--------Enhanced Flame Fox--------\\nMP Cost: 43, Max Enemies Hit: 8, Damage: 630%, Number of Attacks: 2",
+                    "shortDesc": "MP Cost: 43, Max Enemies Hit: 8, Damage: 330%, Number of Attacks: 2. Damage Against Normal Monsters: +50%\\nUpon using 3 times, the next attack activates enhanced Final Orbital Flame.\\n------Enhanced Orbital Flame------\\nMP Cost: 36, Max Enemies Hit: 8, Damage: 430%, Number of Attacks: 2, Damage Against Normal Enemies: +40%\\n-------------Flame Fox-------------\\nMP Cost: 43, Max Enemies Hit: 8, Damage: 570%, Number of Attacks: 2\\nUpon landing, Enemy Elemental Resistance: -10%. Upon landing 10 times, Fox Mischief Debuff Duration: 20 sec\\n--------Enhanced Flame Fox--------\\nMP Cost: 43, Max Enemies Hit: 8, Damage: 630%, Number of Attacks: 2",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame.png", "/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame-2.png", "/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame-3.png", "/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame-4.png", "/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png"],
                     "animations": ["https://media.giphy.com/media/AlqVxkFby0kBiVMbuQ/giphy.gif", "https://media.giphy.com/media/4Tb5e5siHnASF5vXj6/giphy.gif"],
@@ -451,7 +451,7 @@
                 {
                     "id": 12121002,
                     "name": "Towering Inferno",
-                    "shortDesc": "MP Cost: 115, Damage: 350%, Number of Attacks: 10, Max Enemies Hit: 15\\nCooldown: 30 sec\\n------Flame Fox Version------\\nMP Cost: 22, Max Enemies Hit: 15, Damage: 340%, Number of Attacks: 4\\nLanding on enemy with 5 stacks of Fox Mischief deals additional attack with 1800% damage 5 times\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 115, Damage: 350%, Number of Attacks: 10, Max Enemies Hit: 15\\nCooldown: 30 sec\\n------Flame Fox Version------\\nMP Cost: 22, Max Enemies Hit: 15, Damage: 630%, Number of Attacks: 6\\nLanding on enemy with 5 stacks of Fox Mischief deals additional attack with 1800% damage 12 times\\nCooldown: 30 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png", "/class-icons/cygnus-knights/blaze-wizard/towering-inferno-2.png"],
                     "animations": ["https://media.giphy.com/media/zhaa4NxhZan4vmRhzs/giphy.gif", "https://media.giphy.com/media/sowGhqldUfGnoWHu0Y/giphy.gif"],

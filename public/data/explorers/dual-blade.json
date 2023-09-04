@@ -89,8 +89,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -100,8 +98,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -110,8 +106,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -120,8 +114,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 1282,
-                    "offline": true,
                     "name": "Return",
                     "shortDesc": "Returns you to Kerning City Back Alley when used.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -134,8 +126,6 @@
                     ]
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -514,12 +504,15 @@
                 {
                     "id": 4341008,
                     "name": "Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/heros-will.png"],
                     "animations": ["https://media.giphy.com/media/sajVelUi0qKvCB6yHu/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                 },
                 {
                     "id": 4341006,
@@ -712,10 +705,10 @@
             "fifthCommon": ["expThief", "goddessBlessing", "venomBurst", "lastResort"],
             "fifthMain": [
                 {
-                    "name": "Blade Tempest",
+                    "name": "Blade Storm",
                     "shortDesc": "MP Cost: 20 per attack. Attack up to 10 enemies, with 1155% damage, 7 times, then deals 895% damage, 5 times, on up to 10 enemies in front of you for 5 sec, ignoring 100% additional Enemy DEF.\\nCooldown: 90 sec",
                     "id": 400041006,
-                    "icons": ["/class-icons/explorers/dual-blade/blade-tempest.png"],
+                    "icons": ["/class-icons/explorers/dual-blade/blade-storm.png"],
                     "animations": ["https://media2.giphy.com/media/jQElPxklrTLfYHBWQP/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "Unleashes a barrage of slashes in front of you",
@@ -793,8 +786,8 @@
                 "animations": ["https://media.giphy.com/media/ekxSfhXGSMiWxQv7PM/giphy.gif"]
             },
             {
-                "name": "Blade Tempest - 5th Job",
-                "icons": ["/class-icons/explorers/dual-blade/blade-tempest.png"],
+                "name": "Blade Storm - 5th Job",
+                "icons": ["/class-icons/explorers/dual-blade/blade-storm.png"],
                 "animations": ["https://media2.giphy.com/media/jQElPxklrTLfYHBWQP/giphy.gif"]
             },
             {

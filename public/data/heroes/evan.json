@@ -15,9 +15,9 @@
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
+                "<strong>Magic Attack</strong>: [<span data-tooltip='Dragon Fury (4th Job)'><img src='/class-icons/heroes/evan/dragon-fury.png' alt='Skill Dragon Fury'/></span> +30%]",
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Critical Magic (3rd Job)'><img src='/class-icons/heroes/evan/critical-magic.png' alt='Skill Critical Magic'/></span> +30%] [<span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/heroes/evan/spell-mastery.png' alt='Skill Spell Mastery'/></span> +15% & +5% when wand is equipped]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Critical Magic (3rd Job)'><img src='/class-icons/heroes/evan/critical-magic.png' alt='Skill Critical Magic'/></span> +20%] [<span data-tooltip='Magic Mastery (4th Job)'><img src='/class-icons/heroes/evan/magic-mastery.png' alt='Skill Magic Mastery'/></span> +20%]",
-                "<strong>Magic Attack</strong>: [<span data-tooltip='Dragon Fury (4th Job)'><img src='/class-icons/heroes/evan/dragon-fury.png' alt='Skill Dragon Fury'/></span> +35% while MP between range]",
                 "<strong>Damage</strong>: [<span data-tooltip='Partners (2nd Job)'><img src='/class-icons/heroes/evan/partners.png' alt='Skill Partners'/></span> +20% while Mir is attacking]",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/heroes/evan/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +17%] [<span data-tooltip='Magic Amplification (3rd Job)'><img src='/class-icons/heroes/evan/magic-amplification.png' alt='Skill Magic Amplification'/></span> +30%] [<span data-tooltip='Return Flash (2nd Job)'><img src='/class-icons/heroes/evan/return-flash.png' alt='Skill Return Flash'/></span> +10% from debuff]",
                 "<strong>Boss Damage</strong>: [<span data-tooltip='High Dragon Potential (4th Job)'><img src='/class-icons/heroes/evan/high-dragon-potential.png' alt='Skill High Dragon Potential'/></span> +20%]",
@@ -80,8 +80,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -91,8 +89,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -101,8 +97,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -111,7 +105,6 @@
                     "type": "Buff"
                 },    
                 {
-                    "id": 20010194,
                     "name": "Inherited Will",
                     "shortDesc": "Permanently increases Magic ATT by 10 and All Stats by 10",
                     "maxLevel": 1,
@@ -123,7 +116,6 @@
                     ]
                 },
                 {
-                    "id": 20011293,
                     "name": "Back to Nature",
                     "shortDesc": "MP Cost: 100, Moves you to your Front Yard.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -132,8 +124,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Hero's Echo",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -231,7 +221,6 @@
                         ]
                     },
                     {
-                        "id": 22111011,
                         "name": "Wind Circle",
                         "shortDesc": "MP Cost: 40. Knocks back up to 6 enemies, dealing 108% damage 5 times\\nCasting Wind Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Wind Circle, or casting Wind Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
                         "maxLevel": 10,
@@ -241,8 +230,6 @@
                         "desc": "Creates a gust of wind that pushes enemies"
                     },
                     {
-                        "id": 22111012,
-                        "offline": true,
                         "name": "Dragon Flash",
                         "shortDesc": "MP Cost: 60, Damage: 95%, Number of Attacks: 4, Max Enemies Hit: 8, Duration: 3.5 sec\\nCooldown: 8 sec",
                         "maxLevel": 20,
@@ -255,10 +242,8 @@
                         ]
                     },
                     {
-                        "id": 22110014,
-                        "offline": true,
                         "name": "Wind Flash",
-                        "shortDesc": "MP Cost: 60, Max Enemies Hit: 3, Damage: 55%, Number of Attacks: 2, Number of Wind Blades: 3, Duration: 3.5 sec\\nWhen many wind blades hit 1 enemy, final damage of wind blade is reduced by 35%",
+                        "shortDesc": "MP Cost: 60, Max Enemies Hit: 3, Damage: 55%, Number of Attacks: 2, Number of Wind Blades: 3, Duration: 3.5 sec\\nNormal Enemy Damage: +75% points\\nWhen many wind blades hit 1 enemy, final damage of wind blade is reduced by 35%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/evan/wind-flash.png"],
                         "animations": ["https://media.giphy.com/media/f61j8J7JnzwCbzkAth/giphy.gif"],
@@ -266,6 +251,7 @@
                         "desc": "Mir creates blades of wind that seek and attack nearby enemies",
                         "details": [
                             "Shares Skill Points (SP) with <span data-tooltip='Dragon Flash (2nd Job)'><img src='/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/></span>",
+                            "Deals increased %Damage to Regular Monsters by a flat amount",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -369,7 +355,6 @@
                         ]
                     },
                     {
-                        "id": 22141011,
                         "name": "Thunder Circle",
                         "shortDesc": "MP Cost: 48, Max Enemies Hit: 8, Damage: 170%, Number of Attacks: 5\\nCasting Thunder Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Thunder Circle, or casting Thunder Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
                         "maxLevel": 10,
@@ -379,8 +364,6 @@
                         "desc": "Creates a spark of lightning around your character"
                     },
                     {
-                        "id": 22141012,
-                        "offline": true,
                         "name": "Dragon Dive",
                         "shortDesc": "MP Cost: 70, Max Enemies Hit: 6, Damage: 130%, Number of Attacks: 3, Duration: 3.5 sec\\nCooldown: 8 sec\\n[Wind Circle] Damage: +62% points\\n[Dragon Flash] Damage: +50% points\\n[Wind Flash] Damage: +30% points\\n[Thunder Flash] Damage: +150% points",
                         "maxLevel": 20,
@@ -394,8 +377,6 @@
                         ]
                     },
                     {
-                        "id": 22140015,
-                        "offline": true,
                         "name": "Thunder Dive",
                         "shortDesc": "MP Cost: 70, Max Enemies Hit: 1, Damage: 135%, Number of Attacks: 1, Number of Orbs: 4, Duration: 9 sec, Orbs disappear after hitting enemies or after a set time",
                         "maxLevel": 20,
@@ -409,7 +390,6 @@
                         ]
                     },
                     {
-                        "id": 22140013,
                         "name": "Return Dive",
                         "shortDesc": "Duration: 60 sec, Attack Speed of you and nearby party members: +1",
                         "maxLevel": 20,
@@ -422,8 +402,6 @@
                         ]
                     },
                     {
-                        "id": 22140014,
-                        "offline": true,
                         "name": "Thunder Flash",
                         "shortDesc": "MP Cost: 70, Damage (per Crash): 400%, Number of Attacks: 9, Max Enemies Hit: 8\\nFinal Damage of crash decreases by 60% every time the same enemy is attacked repeatedly",
                         "maxLevel": 20,
@@ -438,7 +416,6 @@
                         ]
                     },
                     {
-                        "id": 22141017,
                         "name": "Magic Debris",
                         "shortDesc": "Amount of Debris Created: 1, Debris Formation Cooldown: 0.6 sec, Maximum Debris Limit: 15, MP Cost: 100, Maximum Enemies Hit: 15, Damage: 70%, Number of Hits: 1, Damage: +40% points (for every 5 debris), unactivated debris disappears after a set time",
                         "maxLevel": 10,
@@ -508,7 +485,6 @@
                         ]
                     },
                     {
-                        "id": 22171062,
                         "name": "Earth Circle",
                         "shortDesc": "MP Cost: 58, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 5\\nCasting Earth Circle after a Mir skill will instead trigger a fusion skill. Casting Mana Burst before Earth Circle, or casting Earth Circle while lying down, will not prevent the fusion skill from triggering. However, MP cost will be multiplied by 3.",
                         "maxLevel": 20,
@@ -518,8 +494,6 @@
                         "desc": "Launches earth from beneath in front of you"
                     },
                     {
-                        "id": 22171063,
-                        "offline": true,
                         "name": "Dragon Breath",
                         "shortDesc": "MP Cost: 80, Max Enemies Hit: 8, Damage: 240%, Number of Attacks: 5, Duration: 3 sec\\nCooldown: 10 sec\\n[Wind Circle] Damage: +212% points\\n[Dragon Flash] Damage: +320% points\\n[Wind Flash] Damage: +160% points\\n[Thunder Flash] Damage: +745% points\\n[Thunder Circle] Damage: +150% points\\n[Dragon Dive] Damage: +195% points\\n[Thunder Dive] Damage: +210% points\\n[Earth Dive] Damage: +620% points",
                         "maxLevel": 30,
@@ -533,8 +507,6 @@
                         ]
                     },
                     {
-                        "id": 22170068,
-                        "offline": true,
                         "name": "Wind Breath",
                         "shortDesc": "MP Cost: 80, Damage: 215%, Number of Attacks: 6, Max Enemies Hit: 8, Duration: 3.5 sec, Damage (enemies less than 30% health): +65% points",
                         "maxLevel": 30,
@@ -548,8 +520,6 @@
                         ]
                     },
                     {
-                        "id": 22170065,
-                        "offline": true,
                         "name": "Earth Breath",
                         "shortDesc": "MP Cost: 80, Max Enemies Hit: 4, Damage: 280%, Number of Attacks: 6",
                         "maxLevel": 30,
@@ -563,7 +533,6 @@
                         ]
                     },
                     {
-                        "id": 22170064,
                         "name": "Return Flame",
                         "shortDesc": "Max Enemies Hit: 8, Damage: 150%, Duration: 30",
                         "maxLevel": 30,
@@ -577,8 +546,6 @@
                         ]
                     },
                     {
-                        "id": 22170065,
-                        "offline": true,
                         "name": "Earth Dive",
                         "shortDesc": "MP Cost: 70, Forms rocks and 3 Crashes, Damage (per crash): 370%, Number of Attacks: 10, Max Enemies Hit: 6\\nFinal Damage of crash decreases by 50% every time the same enemy is attacked repeatedly.",
                         "maxLevel": 30,
@@ -593,7 +560,6 @@
                         ]
                     },
                     {
-                        "id": 22171095,
                         "name": "Dark Fog",
                         "shortDesc": "MP Cost: 400, Damage: 400%, Max Enemies Hit: 15, Number of Attacks: 6, Crit Rate: +20%, Cooldown: 40 sec\\n[Passive Effect - Magic Debris Damage: +20%]",
                         "maxLevel": 10,
@@ -609,7 +575,7 @@
                     {
                         "id": 22171073,
                         "name": "Blessing of the Onyx",
-                        "shortDesc": "MP Cost: 48, DEF: +600, Magic ATT: +80, Duration: 180 sec",
+                        "shortDesc": "MP Cost: 48, DEF: +600, Magic ATT: +55, Duration: 180 sec",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/evan/blessing-of-the-onyx.png"],
                         "animations": ["https://media2.giphy.com/media/Gm6uGjQMT6sPjyB4G0/giphy.gif"],
@@ -631,12 +597,15 @@
                     {
                         "id": 22171069,
                         "name": "Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
                         "icons": ["/class-icons/common/heros-will.png"],
                         "animations": ["https://media.giphy.com/media/hcH1dScSQUwxuARcxW/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                     },
                     {
                         "id": 22170070,
@@ -675,7 +644,7 @@
                     {
                         "id": 22170074,
                         "name": "Dragon Fury",
-                        "shortDesc": "Magic ATT: +35%, MP Range: 15% to 100% of Max MP",
+                        "shortDesc": "Magic ATT: +30%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/evan/dragon-fury.png"],
                         "type": "Passive"

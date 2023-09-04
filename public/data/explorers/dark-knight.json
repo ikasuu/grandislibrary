@@ -30,7 +30,7 @@
             "toggles": "<span data-tooltip='Accept Final Pact (4th Job)'><img src='/class-icons/explorers/dark-knight/accept-final-pact.png' alt='Skill Accept Final Pact'/></span>(Special)",
             "summons": "<div><span data-tooltip='Evil Eye (2nd Job)'><img src='/class-icons/explorers/dark-knight/evil-eye.png' alt='Skill Evil Eye'/></span>(Toggle)</div> <div><span data-tooltip='Radiant Evil (5th Job)'><img src='/class-icons/explorers/dark-knight/radiant-evil.png' alt='Skill Radiant Evil'/></span>[3s](20s cd)</div>",
             "buffCd": "<div><span data-tooltip='Dark Resonance (4th Job)'><img src='/class-icons/explorers/dark-knight/dark-resonance.png' alt='Skill Dark Resonance'/></span>[30s](70s cd)</span> <div><span data-tooltip='Dark Thirst (Hyper Skill)'><img src='/class-icons/explorers/dark-knight/dark-thirst.png' alt='Skill Dark Thirst'/></span>[25s](90s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure (Warrior)'/></span>[60s](120s cd)</div> <div><span data-tooltip='Darkness Aura (5th Job)'><img src='/class-icons/explorers/dark-knight/darkness-aura.png' alt='Skill Darkness Aura'/></span>[40s](180s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[36s](240s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "iFrame": "<div>[<span data-tooltip='Final Pact (4th Job)'><img src='/class-icons/explorers/dark-knight/final-pact.png' alt='Skill Final Pact'/></span> <strong>Final Pact</strong>:</div><div> <span data-tooltip='Final Pact - Lesser (4th Job)'><img src='/class-icons/explorers/dark-knight/lesser-pact.png' alt='Skill Lesser Pact'/></span>[2s](180s / 110s cd)</div> <div><span data-tooltip='Final Pact - Moderate (4th Job)'><img src='/class-icons/explorers/dark-knight/moderate-pact.png' alt='Skill Moderate Pact'/></span>[8s](260s / 180s cd)</div> <div><span data-tooltip='Final Pact - Greater (4th Job)'><img src='/class-icons/explorers/dark-knight/greater-pact.png' alt='Skill Greater Pact'/></span>[40s](900s / 600s cd)</div> <div><em>(Cooldown is reduced if enemies are defeated or bosses are hit a certain number of times)</em>]</div>",
             "damageReduce": "<div><span data-tooltip='Spear of Darkness (5th Job)'><img src='/class-icons/explorers/dark-knight/spear-of-darkness.png' alt='Skill Spear of Darkness'/></span>(-10% while casting | 10s cd)</div> <div><span data-tooltip='Darkness Aura (5th Job)'><img src='/class-icons/explorers/dark-knight/darkness-aura.png' alt='Skill Darkness Aura'/></span>[40s](-10% / up to 30% HP Barrier | 180s cd)</div>"
         },
@@ -88,8 +88,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -99,8 +97,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -109,8 +105,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -119,8 +113,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 1281,
-                    "offline": true,
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -129,8 +121,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -449,7 +439,7 @@
                 {
                     "id": 1321015,
                     "name": "Dark Resonance",
-                    "shortDesc": "MP Cost: 85, Duration: 30., restores 100% of Max HP immediately upon casting, Final Damage: +10%, Ignore Defense: +10%, Boss Damage: +15%\\nCooldown: 70 sec., direct skill attacks reduce cooldown by 0.35 sec.\\n[Passive Effect: Ignore Defense: +30%]",
+                    "shortDesc": "MP Cost: 85, Duration: 30 sec., restores 100% of Max HP immediately upon casting, Final Damage: +8%, Ignore Defense: +10%, Boss Damage: +15%\\nCooldown: 70 sec., direct skill attacks reduce cooldown by 0.35 sec.\\n[Passive Effect: Ignore Defense: +30%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/dark-knight/dark-resonance.png"],
                     "animations": ["https://media.giphy.com/media/c5EET8fXpO9fRzCI2a/giphy.gif"],
@@ -485,12 +475,15 @@
                 {
                     "id": 1321010,
                     "name": "Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/heros-will.png"],
                     "animations": ["https://media.giphy.com/media/Tb7N861tQootGGBpol/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                 },
                 {
                     "id": 1320011,
@@ -622,7 +615,7 @@
                 {
                     "id": 1321054,
                     "name": "Dark Thrist",
-                    "shortDesc": "MP Cost: 300, Duration: 25 sec, ATT: +80, Recover 9% of Max HP when attacking.\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 300, Duration: 25 sec, ATT: +50, Recover 9% of Max HP when attacking.\\nCooldown: 90 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/dark-knight/dark-thirst.png"],
                     "animations": ["https://media.giphy.com/media/edkupY3Pwof347tlYX/giphy.gif"],

@@ -75,7 +75,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 20031203,
                     "name": "To The Skies",
                     "shortDesc": "MP Cost: 30, Returns you to Lumiere",
                     "maxLevel": 1,
@@ -83,7 +82,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 20031205,
                     "name": "Shroud Walk",
                     "shortDesc": "MP Cost: 30, Use directional keys to teleport\\n(Arrows shown only for the directions you can go)\\nNumber of directional keys you can enter: 3, Each movement you make after the skill ends increases the cooldown by 1.5 seconds.",
                     "maxLevel": 1,
@@ -96,7 +94,6 @@
                     ]
                 },
                 {
-                    "id": 20030206,
                     "name": "Dexterous Training",
                     "shortDesc": "DEX: +40, Avoidability: +20%, Diligence: Lv. 20, Insight: Lv. 20",
                     "maxLevel": 1,
@@ -104,7 +101,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 20031207,
                     "name": "Skill Swipe",
                     "shortDesc": "MP Cost: 30, Shifts to steal mode upon use\\nMove the mouse cursor to select the nearby Explorer character",
                     "maxLevel": 1,
@@ -118,7 +114,6 @@
                     ]
                 },
                 {
-                    "id": 20031208,
                     "name": "Loadout",
                     "shortDesc": "Manage stolen skills. 30 second cooldown added.",
                     "maxLevel": 1,
@@ -130,7 +125,6 @@
                     ]
                 },
                 {
-                    "id": 20031210,
                     "name": "Judgment Draw",
                     "shortDesc": "MP Cost: 60, Attacks enemies with Carte Noir 10 times. Also grants one of the following effects for 30 sec.\\nDestin Card: Critical Rate +20%\\nMalheur Card: Item Drop Rate +10%\\nEndurance Card: Abnormal Status Resistance +20, Elemental Resistance +20\\nDrain Card: 1% of Max HP recovered when attacking",
                     "maxLevel": 1,
@@ -144,7 +138,6 @@
                     ]
                 },
                 {
-                    "id": 20031260,
                     "name": "Judgment Draw Auto/Manual",
                     "shortDesc": "Auto Mode: Automatically activates the Judgment Draw skill when your deck is full.\\nManual Mode: Judgment Draw must be used manually, even if your deck is empty.",
                     "maxLevel": 1,
@@ -153,8 +146,6 @@
                     "desc": "When this skill is on Auto, <span data-tooltip='Judgment Draw (Beginner Skill)'><img src='/class-icons/heroes/phantom/judgment-draw.png' alt='Skill Judgment Draw'/><img src='/class-icons/heroes/phantom/judgment-draw-2.png' alt='Skill Judgment Draw (2)'/></span> will automatically be used when your Card Gauge is filled"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -371,7 +362,7 @@
                     "4th Job", [{
                         "id": 24121000,
                         "name": "Mille Aiguilles",
-                        "shortDesc": "MP Cost per attack: 15, Damage: 140%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.",
+                        "shortDesc": "MP Cost per attack: 15, Damage: 160%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/phantom/mille-aiguilles.png"],
                         "animations": ["https://media.giphy.com/media/duo8SPcWHyySBy6q1s/giphy.gif"],
@@ -394,7 +385,7 @@
                     {
                         "id": 24121005,
                         "name": "Tempest",
-                        "shortDesc": "MP Cost per attack: 20, Can hold key down for up to 5 sec, Max Enemies Hit: 8, Damage: 400%, Number of Attacks: 3\\nCooldown: 18 sec",
+                        "shortDesc": "MP Cost per attack: 20, Can hold key down for up to 5 sec, Max Enemies Hit: 8, Damage: 455%, Number of Attacks: 3\\nCooldown: 18 sec",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/phantom/tempest.png"],
                         "animations": ["https://media.giphy.com/media/Lm6UVRo6Yvd9DnAilg/giphy.gif  "],
@@ -486,12 +477,15 @@
                     {
                         "id": 24121009,
                         "name": "Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
                         "icons": ["/class-icons/common/heros-will.png"],
                         "animations": ["https://media.giphy.com/media/3pDiBVzJKSNscD3KCZ/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                     }]
             ]
         ],

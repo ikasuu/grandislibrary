@@ -30,12 +30,12 @@
         "buffInfo": {
             "active": "<div><span data-tooltip='Vengeance (2nd Job)'><img src='/class-icons/resistance/demon-slayer/vengeance.png' alt='Skill Vengeance'/></span>[180s]</div> <div><span data-tooltip='Leech Aura (4th Job)'><img src='/class-icons/resistance/demon-slayer/leech-aura.png' alt='Skill Leech Aura'/></span>[180s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
             "toggles": "<span data-tooltip='Blue Blood (Hyper Skill)'><img src='/class-icons/resistance/demon-slayer/blue-blood.png' alt='Skill Blue Blood'/></span>",
-            "summons": "<div><span data-tooltip='Spirit of Rage (5th Job)'><img src='/class-icons/resistance/demon-slayer/spirit-of-rage.png' alt='Skill Spirit of Rage'/></span>[16s](120s cd)</div> <div><span data-tooltip='Orthrus (5th Job)'><img src='/class-icons/resistance/demon-slayer/orthrus.png' alt='Skill Orthrus'/></span>[55s](120s cd)</div> <div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[60s](150s cd)</div>",
+            "summons": "<div><span data-tooltip='Spirit of Rage (5th Job)'><img src='/class-icons/resistance/demon-slayer/spirit-of-rage.png' alt='Skill Spirit of Rage'/></span>[16s](120s cd)</div> <div><span data-tooltip='Orthrus (5th Job)'><img src='/class-icons/resistance/demon-slayer/orthrus.png' alt='Skill Orthrus'/></span>[55s](120s cd)</div> <div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[48s](120s cd)</div>",
             "buffCd": "<div><span data-tooltip='Dark Metamorphosis (4th Job)'><img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/></span>[180s](90s cd)</div> <div><span data-tooltip='Boundless Rage (4th Job)'><img src='/class-icons/resistance/demon-slayer/boundless-rage.png' alt='Skill Boundless Rage'/></span>[35s](120s cd)</div> <div><span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span>[60s](120s cd)</div> <div><span data-tooltip='Demon Awakening (5th Job)'><img src='/class-icons/resistance/demon-slayer/demon-awakening.png' alt='Skill Demon Awakening'/></span>[65s](120s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s cd)</div> <div><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[36s](240s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Binding Darkness (4th Job)'><img src='/class-icons/resistance/demon-slayer/binding-darkness.png' alt='Skill Binding Darkness'/></span>[10s](120s cd)</div>",
             "iFrame": "<div><span data-tooltip='Raven Storm (3rd Job)'><img src='/class-icons/resistance/demon-slayer/raven-storm.png' alt='Skill Raven Storm'/></span>(30s cd)</div> <div><span data-tooltip='Dark Metamorphosis (4th Job)'><img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/></span>(90s cd)</div> <div><span data-tooltip='Demon Bane (5th Job)'><img src='/class-icons/resistance/demon-slayer/demon-bane.png' alt='Skill Demon Bane'/></span>[6s](120s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[6s](-25% | 150s cd)</div> <div><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>[40s, triggers once](-75% | 120s cd)</div>"
+            "damageReduce": "<div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[6s](-25% | 120s cd)</div> <div><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>[40s, triggers once](-75% | 120s cd)</div>"
         },
         "linkSkill": {
             "id": 80000001,
@@ -88,7 +88,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 30010110,
                     "name": "Dark Winds",
                     "shortDesc": "High Jump: Press the up arrow key twice during a jump\\nJag Jump: Press the right or left arrow key twice during a jump\\nGlide: Jump Key (Maintain Press)",
                     "maxLevel": 1,
@@ -101,7 +100,6 @@
                     ]
                 },
                 {
-                    "id": 30010185,
                     "name": "Demonic Blood",
                     "shortDesc": "Willpower: Lv. 20, Ambition: Lv. 20, Knockback Resistance: +100%",
                     "maxLevel": 1,
@@ -109,7 +107,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 30010111,
                     "name": "Curse of Fury",
                     "shortDesc": "1% chance to increase damage by 100% when attacking. Recovers 5% HP when triggered. Absorbs Fury if target is eliminated.",
                     "maxLevel": 1,
@@ -117,8 +114,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Hero's Echo",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -503,12 +498,15 @@
                 {
                     "id": 31121015,
                     "name": "The Demon's Will",
-                    "shortDesc": "HP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "HP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/the-demons-will.png"],
                     "animations": ["https://media.giphy.com/media/MAcw9LG2mlOnQ1gNtM/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "id": 31120008,
@@ -678,7 +676,7 @@
                 },
                 {
                     "name": "Spirit of Rage",
-                    "shortDesc": "Consumes 60 Fury and 10% of Max HP\\nDuration: 15 sec, Max Enemies Hit: 12, Damage: 1950%, Number of Attacks: 12\\n[On Disappearance] Max Enemies Hit: 12, Damage: 2100%, Number of Attacks: 15\\nAll hits receive Critical Rate: +100% and additional Ignore Def: +50%\\nCooldown: 123 sec",
+                    "shortDesc": "Fury Cost: 60, HP Cost: 2000\\nDuration: 15 sec, Max Enemies Hit: 12, Damage: 1950%, Number of Attacks: 12\\n[On Disappearance] Max Enemies Hit: 12, Damage: 2100%, Number of Attacks: 15\\nAll hits receive Critical Rate: +100% and additional Ignore Def: +50%\\nCooldown: 123 sec",
                     "id": 400021030,
                     "icons": ["/class-icons/resistance/demon-slayer/spirit-of-rage.png"],
                     "animations": ["https://media1.giphy.com/media/3kQpBZjOVNLvXWm12O/giphy.gif"],

@@ -106,7 +106,6 @@
                 },
                 {
                     "id": 160001005,
-                    "offline": true,
                     "name": "Exclusive Spell",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -530,12 +529,15 @@
                 {
                     "id": 164121010,
                     "name": "Anima Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/anima/anima-heros-will.png"],
                     "animations": ["https://media4.giphy.com/media/Q1HXu5h7wXORvDtoJh/giphy.gif"],
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
-                    "type": "Buff"
+                    "type": "Buff",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "id": 164120010,
@@ -703,7 +705,7 @@
                 {
                     "id": 164121043,
                     "name": "Sage: Tai Yu Clone",
-                    "shortDesc": "HP Cost: 15% of Max HP, Max Enemies Hit: 8, Damage: 800%, Number of Attacks: 8\\nStun Duration: 11 sec\\nStun duration can increase up to 100% based on the damage inflicted with the attack.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 8, Damage: 800%, Number of Attacks: 8\\nStun Duration: 11 sec\\nStun duration can increase up to 100% based on the damage inflicted with the attack.\\nCooldown: 180 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/anima/hoyoung/sage-tai-yu-clone.png"],
                     "animations": ["https://media.giphy.com/media/OU2X0hEirWST2yiIEs/giphy.gif"],

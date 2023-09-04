@@ -29,10 +29,10 @@
         ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
-            "toggles": "<span data-tooltip='Fox Spirits (2nd Job)'><img src='/class-icons/heroes/shade/fox-spirits.png' alt='Skill Fox Spirits'/></span>",
+            "toggles": "<span data-tooltip='Fox Spirits (2nd Job)'><img src='/class-icons/heroes/shade/fox-spirits.png' alt='Skill Fox Spirits'/></span> <span data-tooltip='Summon Other Spirit (3rd Job)'><img src='/class-icons/heroes/shade/summon-other-spirit.png' alt='Skill Summon Other Spirit'/></span>",
             "summons": "<div><span data-tooltip='Spiritgate (5th Job)'><img src='/class-icons/heroes/shade/spiritgate.png' alt='Skill Spiritgate'/></span>[30s](60s cd)</div>",
             "buffCd": "<div><span data-tooltip='Spirit Ward (4th Job)'><img src='/class-icons/heroes/shade/spirit-ward.png' alt='Skill Spirit Ward'/></span>[30s / 3 Blocks](60s cd)</div> <div><span data-tooltip='Spirit Bond Max (Hyper Skill)'><img src='/class-icons/heroes/shade/spirit-bond-max.png' alt='Skill Spirit Bond Max'/></span>[30s](120s cd)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/shade/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Spirit Flow (5th Job)'><img src='/class-icons/heroes/shade/spirit-flow.png' alt='Skill Spirit Flow'/></span>[60s](120s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[30s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
+            "buffFifth": "<div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
             "binds": "<div><span data-tooltip='Spirit Trap (3rd Job)'><img src='/class-icons/heroes/shade/spirit-trap.png' alt='Skill Spirit Trap'/></span>[10s](210s cd)</div>",
             "iFrame": "<div><span data-tooltip='Summon Other Spirit (3rd Job)'><img src='/class-icons/heroes/shade/summon-other-spirit.png' alt='Skill Summon Other Spirit'/></span>[3s](1800s cd revive)</div> <div><span data-tooltip='Spirit Incarnation (Hyper Skill)'><img src='/class-icons/heroes/shade/spirit-incarnation.png' alt='Skill Spirit Incarnation'/></span>[Up to 8s](120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Smashing Multipunch (5th Job)'><img src='/class-icons/heroes/shade/smashing-multipunch.png' alt='Skill Smashing Multipunch'/></span>[Up to 1.3s](-50% | 60s cd)</div>"
@@ -75,7 +75,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 20051284,
                     "name": "Fox Trot",
                     "shortDesc": "MP Cost: 20. When no enemies are around, you'll be teleported forward 300.",
                     "maxLevel": 1,
@@ -89,7 +88,6 @@
                     ]
                 },
                 {
-                    "id": 20050285,
                     "name": "Spirit Bond 1",
                     "shortDesc": "Recovers 1% HP on hit.\\nChance of permanently increasing Power Stance: 100%, Damage Taken: -30%",
                     "maxLevel": 1,
@@ -97,7 +95,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 20050074,
                     "name": "Spirit Affinity",
                     "shortDesc": "Minion Duration +5%",
                     "maxLevel": 1,
@@ -105,8 +102,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Hero's Echo",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -330,14 +325,15 @@
                     {
                         "id": 25111209,
                         "name": "Summon Other Spirit",
-                        "shortDesc": "Prevents KO when hit by a fatal attack, Max Enemies Hit: 15, Damage: 450%, Number of Attacks: 4, Invincibility: 3 sec\\nCooldown: 1800 sec",
+                        "shortDesc": "MP Cost: 150. When hit by an attack that would prove fatal, consume the buff to deal 450% damage up to 15 enemies 4 times and become invincible for 3 sec.\\nUpon consuming buff - Cooldown: 1800 sec",
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/shade/summon-other-spirit.png"],
                         "animations": ["https://media2.giphy.com/media/JJyVlhx7PaIKG5cReg/giphy.gif"],
-                        "type": "Passive Revive",
-                        "desc": "When hit by a fatal attack, you will be revived, knocking by enemies and dealing damage",
+                        "type": "Toggle Revive Buff",
+                        "desc": "While toggled, when hit by a fatal attack, you revive and damage nearby enemies",
                         "details": [
-                            "You are briefly invincible after reviving"  
+                            "You are briefly invincible after reviving",
+                            "Unaffected by cooldown resets"
                         ]
                     },
                     {
@@ -442,12 +438,15 @@
                     {
                         "id": 25121211,
                         "name": "Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
                         "icons": ["/class-icons/common/heros-will.png"],
                         "animations": ["https://media.giphy.com/media/yMbSiR8DYn6R2QM4PM/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                     },
                     {
                         "id": 25120112,

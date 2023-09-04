@@ -31,7 +31,7 @@
             "toggles": "<span data-tooltip='Buckshot (Hyper Skill)'><img src='/class-icons/explorers/cannoneer/buckshot.png' alt='Skill Buckshot'/></span>",
             "summons": "<div><span data-tooltip='Anchors Aweigh (4th Job)'><img src='/class-icons/explorers/cannoneer/anchors-aweigh.png' alt='Skill Anchors Aweigh'/></span>[60s]</div> <div><span data-tooltip='Monkey Militia (4th Job)'><img src='/class-icons/explorers/cannoneer/monkey-militia.png' alt='Skill Monkey Militia'/></span>[60s](10s cd)</div> <div><span data-tooltip='Rolling Rainbow (Hyper Skill)'><img src='/class-icons/explorers/cannoneer/rolling-rainbow.png' alt='Skill Rolling Rainbow'/></span>[12s](90s cd)</div> <div><span data-tooltip='Monkey Business (5th Job)'><img src='/class-icons/explorers/cannoneer/monkey-business.png' alt='Skill Monkey Business'/></span>[35s](90s cd)</div> <div><span data-tooltip='Poolmaker (5th Job)'><img src='/class-icons/explorers/cannoneer/poolmaker.png' alt='Skill Poolmaker'/></span>[Attack - 20 Barrages / Supply Buff - 20s](60s cd)</div> <div><span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span>[30s](30s cd)</div>",
             "buffCd": "<div><span data-tooltip='Barrel Roulette (3rd Job)'><img src='/class-icons/explorers/cannoneer/barrel-roulette.png' alt='Skill Barrel Roulette'/></span>[220s](30s cd / 60s cd if Ice)</div> <div><span data-tooltip='Roll of the Dice (3rd Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>[180s](60s cd / 30s cd if 1)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/pirate/epic-adventure.png' alt='Skill Epic Adventure'/>[60s](120s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[30s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)</div>",
             "iFrame": "<div><span data-tooltip='The Nuclear Option (5th Job)'><img src='/class-icons/explorers/cannoneer/the-nuclear-option.png' alt='Skill The Nuclear Option'/></span>(30s cd)</div>"
         },
         "linkSkill": {
@@ -89,8 +89,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -100,8 +98,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -110,8 +106,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -120,8 +114,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 1283,
-                    "offline": true,
                     "name": "Homeward Cannon",
                     "shortDesc": "Returns you to the Nautilus when used.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -134,7 +126,6 @@
                     ]
                 },
                 {
-                    "id": 20050109,
                     "name": "Master of Swimming",
                     "shortDesc": "Permanently increases swimming speed and prevents HP loss when swimming.",
                     "maxLevel": 1,
@@ -142,7 +133,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 20050111,
                     "name": "Master of Organization",
                     "shortDesc": "Permanently expands Equip, Use, Set-up, and Etc. Inventory.",
                     "maxLevel": 1,
@@ -150,8 +140,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -169,7 +157,6 @@
             ],
             [
                 "1st Job", [{
-                        "id": 5011000,
                         "name": "Cannon Blaster",
                         "shortDesc": "MP Cost: 11, Damage: 75%, Max Enemies Hit: 6, Number of Attacks: 4",
                         "maxLevel": 20,
@@ -354,7 +341,7 @@
                     {
                         "id": 5311004,
                         "name": "Barrel Roulette",
-                        "shortDesc": "MP Cost: 60, applies a random buff for 220 sec.\\nLightning: [Final Attack Skills] When attacking with a direct skill, additional attack to 6 enemies for 150% damage.\\nIce: Critical Damage: +5%.\\nSlow: When attacking, 50% chance of applying Slow Abnormal Status for 5 sec to all enemies, including bosses.\\nSkull: When attacking, continuous damage of 225% Damage every 1 sec for 5 sec.\\nCooldown: 60 sec., but only half applies if you get a buff other than ice.\\n[Passive Effects: Final Damage +10%, Critical Damage +10%, Critical Rate +20%]",
+                        "shortDesc": "MP Cost: 70, applies a random buff for 220 sec.\\nLightning: [Final Attack Skills] When attacking with a direct skill, additional attack to 6 enemies for 175% damage.\\nIce: Critical Damage: +5%.\\nSlow: When attacking, 55% chance of applying Slow Abnormal Status for 5 sec to all enemies, including bosses.\\nSkull: When attacking, continuous damage of 225% Damage every 1 sec for 5 sec.\\nBarrel Roulette Prepared: every 15 sec, Max Number Owned: 4\\n[Passive Effects: Final Damage +10%, Critical Damage +10%, Critical Rate +20%]",
                         "maxLevel": 15,
                         "icons": ["/class-icons/explorers/cannoneer/barrel-roulette.png"],
                         "animations": ["https://media.giphy.com/media/M3p0J8tz4SRUu6w2Zo/giphy.gif"],
@@ -362,7 +349,7 @@
                         "desc": "Grants a random buff",
                         "details":[
                             "<strong>[Passive]</strong>: Permanently icreases %Final Damage, %Crit Damage, and %Crit Rate",
-                            "Cooldown is halved if you get a buff other than Ice"
+                            "Skill is prepared every 15 sec (up to 4 charges)"
                         ]
                     },
                     {
@@ -422,7 +409,7 @@
                     {
                         "id": 5321012,
                         "name": "Cannon Barrage",
-                        "shortDesc": "MP Cost: 63, Number of Attacks: 4, Damage: 750%, Bonus Critical Rate: 15%, Ignore DEF: 20%",
+                        "shortDesc": "MP Cost: 63, Number of Attacks: 4, Damage: 780%, Bonus Critical Rate: 15%, Ignore DEF: 20%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/cannoneer/cannon-barrage.png"],
                         "animations": ["https://media.giphy.com/media/NAF2uZ2tRAQYm4AwGk/giphy.gif"],
@@ -485,12 +472,15 @@
                     {
                         "id": 5321006,
                         "name": "Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
                         "icons": ["/class-icons/common/heros-will.png"],
                         "animations": ["https://media.giphy.com/media/uHlAN1JnKHtMly61Na/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds "
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                     },
                     {
                         "id": 5320009,
@@ -643,7 +633,7 @@
                 {
                     "id": 5321052,
                     "name": "Rolling Rainbow",
-                    "shortDesc": "Installation skill. MP Cost: 300, Damage: 600% to 10 enemies within a range, Number of attacks: 3, Duration: 12 sec.\\nCooldown: 90 sec",
+                    "shortDesc": "Installation skill. MP Cost: 300, Damage: 800% to 10 enemies within a range, Number of attacks: 3, Duration: 12 sec.\\nCooldown: 90 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/cannoneer/rolling-rainbow.png"],
                     "animations": ["https://media.giphy.com/media/Z2vVVjXLjEhXQxRJcY/giphy.gif"],

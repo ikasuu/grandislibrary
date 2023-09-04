@@ -31,12 +31,10 @@
             "toggles": "<span data-tooltip='Void Enhance (3rd Job)'><img src='/class-icons/flora/khali/void-enhance.png' alt='Skill Void Enhance'/></span>",
             "summons": "<div><span data-tooltip='Summon Chakri (3rd Job)'><img src='/class-icons/flora/khali/summon-chakri.png' alt='Skill Summon Chakri'/></span>[30s, Max 6 Chakri](Toggle)</div> <div><span data-tooltip='Death Blossom (Hyper Skill)'><img src='/class-icons/flora/khali/death-blossom.png' alt='Skill Death Blossom'/></span>[30s](90s cd)</div> <span data-tooltip='Hex: Pandemonium (5th Job)'><img src='/class-icons/flora/khali/hex-pandemonium.png' alt='Skill Hex: Pandemonium'/></span>[3s](30s cd)</div>",
             "buffCd": "<div><span data-tooltip='Desert Veil (4th Job)'><img src='/class-icons/flora/khali/desert-veil.png' alt='Skill Desert Veil'/></span>[3s](75s cd)</div> <div><span data-tooltip='Oblivion (Hyper Skill)'><img src='/class-icons/flora/khali/oblivion.png' alt='Skill Oblivion'/></span>[30s](180s cd)</div> <div><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/khali/divine-wrath.png' alt='Skill Divine Wrath'/></span>[60s](120s cd)</div> <div><span data-tooltip='Resonate: Ultimatum (5th Job)'><img src='/class-icons/flora/khali/resonate-ultimatum.png' alt='Skill Resonate: Ultimatum'/></span>[30s](180s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](200s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](120s cd, 180s recharge - max 2 charges)</div>",
             "iFrame": "<div><span data-tooltip='Desert Veil (4th Job)'><img src='/class-icons/flora/khali/desert-veil.png' alt='Skill Desert Veil'/></span>[3s](75s cd)</div> <div><span data-tooltip='Void Burst (5th Job)'><img src='/class-icons/flora/khali/void-burst.png' alt='Skill Void Burst'/></span>[4.3s during skill, 3.5s after skill](180s cd)</div>"
         },
         "linkSkill": {
-            "offline": true,
-            "id": 150030241,
             "name": "Innate Gift",
             "shortDesc": "Damage: +5%\\nUpon attacking, Recovery Chance: 100%, Recovery 2% of Max HP/MP per sec, Duration: 5 sec\\nCooldown: 30 sec.",
             "maxLevel": 2,
@@ -105,8 +103,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 60011005,
-                    "offline": true,
                     "name": "Exclusive Spell",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -439,12 +435,15 @@
                 {
                     "id": 151121006,
                     "name": "Floran Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/flora/khali/floran-heros-will.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ia3lid3ZwZjZuYXVuNWw4cW1yb2JwYXo4amxxbnBvN2ozc3JsMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W74dRA0FTfmE07PATX/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "name": "Insanity III",

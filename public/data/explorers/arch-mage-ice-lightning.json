@@ -100,7 +100,6 @@
             [
                 "Beginner", [{
                     "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -111,7 +110,6 @@
                 },
                 {
                     "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -121,7 +119,6 @@
                 },
                 {
                     "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -131,7 +128,6 @@
                 },
                 {
                     "id": 1281,
-                    "offline": true,
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -141,7 +137,6 @@
                 },
                 {
                     "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -450,7 +445,7 @@
                 "4th Job", [{
                     "id": 2221006,
                     "name": "Chain Lightning",
-                    "shortDesc": "MP Cost: 44, Damage: 200%, Number of Attacks: 10, Max Monsters Hit: 6, Stun Chance: 90%, Stun Duration: 4 sec, Additional Critical Rate: 25%",
+                    "shortDesc": "MP Cost: 44, Damage: 220%, Number of Attacks: 10, Max Monsters Hit: 6, Stun Chance: 90%, Stun Duration: 4 sec, Additional Critical Rate: 25%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/ice-lightning/chain-lightning.png"],
                     "animations": ["https://media.giphy.com/media/gGumMGH72aWdIc8Ekl/giphy.gif"],
@@ -542,12 +537,15 @@
                 {
                     "id": 2221008,
                     "name": "Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/heros-will.png"],
                     "animations": ["https://media.giphy.com/media/mITBd3s9GD4GjcVBWF/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "id": 2220013,

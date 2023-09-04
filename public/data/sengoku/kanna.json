@@ -76,7 +76,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 40020000,
                     "name": "Blessing of the Five Elements",
                     "shortDesc": "Permanently increases HP by 15%, Damage from enemies: - 20%\\n+HP while +MP item is equipped\\n+1 Magic Attack for every 700 HP\\n[Magic Attack Increase: -]",
                     "maxLevel": 1,
@@ -84,7 +83,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 40020109,
                     "name": "Haku the Familiar",
                     "shortDesc": "The mystical creature Haku follows you around everywhere. EVERYWHERE.",
                     "maxLevel": 1,
@@ -96,7 +94,6 @@
                     ]
                 },
                 {
-                    "id": 40020001,
                     "name": "Manaflow",
                     "shortDesc": "When Mana is not full, automatically recovers 50 every 6 seconds until full.\\nFan Weapon Mastery: +40%.",
                     "maxLevel": 1,
@@ -104,7 +101,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 40021227,
                     "name": "Return of the Five Planets",
                     "shortDesc": "Returns you to Momijigaoka.\\nCooldown 600 sec",
                     "maxLevel": 1,
@@ -113,8 +109,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -540,12 +534,12 @@
                 {
                     "id": 42121000,
                     "name": "Vanquisher's Charm",
-                    "shortDesc": "Mana Cost: 15, Max Duration: 10 sec, Max Enemies Hit: 8, Damage: 300%, Number of Consecutive Attacks: 5\\nYou can move and jump while holding down the skill key.\\nWhile in use, increases the amount needed to activate Shikigami Doppelganger by 30.\\nCooldown: 60 sec",
+                    "shortDesc": "Mana Cost: 40, Max Duration: 10 sec, Max Enemies Hit: 8, Damage: 330%, Number of Consecutive Attacks: 5\\nYou can move and jump while holding down the skill key.\\nCooldown: 60 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/sengoku/kanna/vanquishers-charm.png"],
                     "animations": ["https://media1.giphy.com/media/h1tOlEp5gmFT0tHybE/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Launches charms forward that damage nearby enemies",
+                    "desc": "Launches charms forward that damage enemies",
                     "details": [
                         "Can move and jump while attacking"
                     ]
@@ -735,16 +729,15 @@
                 },
                 {
                     "name": "Spirit's Domain",
-                    "shortDesc": "Mana Cost: 40, Spiritstone Duration: 70 sec\\n[Basic Effect] Deals 600% damage to up to 15 enemies within range 3 times every 3 sec. Periodically restores 3% of Max HP/MP, Final Damage +10%, Status Resistance +25\\nThe Spiritstone grows more powerful with every 500 mana absorbed from the caster, boosting its Basic Effect up to 3x.\\nWhen the Spiritstone is at full power, party members within range gain 2 Attack Speed, and the mana cost of the caster's skills are reduced to 0.\\nCooldown: 200 sec",
+                    "shortDesc": "Mana Cost: 40, Spiritstone Duration: 70 sec, the Cursed Spiritstone grows more powerful with every 120 mana absorbed from the caster, and activates additional effects per stage when boosting Cursed Spiritstone (can be boosted up to 2 times)\\n[Basic Effect] Deals 600% damage to up to 15 enemies within range 3 times every 3 sec. Periodically restores 3% of Max HP/MP, Final Damage +4%, Status Resistance +25\\n[Boost Stage 1 Additional Effect] Boosts Basic Effect by 2x, party members within range gain 1 Attack Speed, caster's Boost Damage +45%, and the mana cost of the caster's skills is reduced by 50%\\n[Boost Stage 2 Additional Effect] Boosts Basic Effect by 3x, party members within range gain 2 Attack Speed, caster's Boos Damage +90%, and the mana cost of the caster's skill is reduced by 100%\\nCooldown: 200 sec",
                     "id": 400021030,
                     "icons": ["/class-icons/sengoku/kanna/spirits-domain.png"],
                     "animations": ["https://media.giphy.com/media/L32uWI8kIF7PnlNops/giphy.gif"],
                     "type": "Summon / Buff Zone",
                     "desc": "Creates a domain that grows more powerful the more Mana is consumed",
                     "details": [
-                        "While active, enemies in range will take damage, you and party members within the domain will gain %Final Damage and Abnormal Status Resistance and periodically restore %HP/MP",
-                        "When Spirit Domain is fully charged, you and party members inside the domain gain increased Attack Speed (by 2 stages) and your skills cast no Mana",
-                        "Using <span data-tooltip='Shikigami Haunting 4 (4th Job)'><img src='/class-icons/sengoku/kanna/shikigami-haunting-4.png' alt='Skill Shikigami Haunting 4'/></span> will also count towards the Mana absorbed"
+                        "While active, the domain damages nearby enemies and grants a party buff within the domain that periodically restore %HP/MP and increases %Final Damage and Abnormal Status Resistance",
+                        "Based on the Mana consumed, the domain can be boosted by up to 2 stages granting increased Attack Speed, and for the caster, %Boss Damage and reduced Mana costs"
                     ]
                 },
                 {

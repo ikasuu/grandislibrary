@@ -18,7 +18,7 @@
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/bishop/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +30%] [<span data-tooltip='Holy Focus (3rd Job)'><img src='/class-icons/explorers/bishop/holy-focus.png' alt='Skill Holy Focus'/></span> +40%] [<span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +5% when wand is equipped]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/bishop/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +13%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/bishop/arcane-aim.png' alt='Skill Arcane Aim'/></span> up to +40%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Blessed Ensemble (2nd Job)'><img src='/class-icons/explorers/bishop/blessed-ensemble.png' alt='Skill Blessed Ensemble'/></span> +3% for each party member up to +18%] [<span data-tooltip='Angel Ray (4th Job)'><img src='/class-icons/explorers/bishop/angel-ray.png' alt='Skill Angel Ray'/></span> up to +10% from debuff] [<span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> +25% from debuff for holy attacks] [<span data-tooltip='Righteously Indignant (Hyper Skill)'><img src='/class-icons/explorers/bishop/righteously-indignant.png' alt='Skill Righteously Indignant'/></span> +30%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Blessed Harmony (4th Job)'><img src='/class-icons/explorers/bishop/blessed-ensemble.png' alt='Skill Blessed Harmony'/></span> +4% & +2% for each party member up to +12%] [<span data-tooltip='Angel Ray (4th Job)'><img src='/class-icons/explorers/bishop/angel-ray.png' alt='Skill Angel Ray'/></span> up to +10% from debuff] [<span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> +25% from debuff for holy attacks] [<span data-tooltip='Righteously Indignant (Hyper Skill)'><img src='/class-icons/explorers/bishop/righteously-indignant.png' alt='Skill Righteously Indignant'/></span> +30%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/bishop/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> +40%] [<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/bishop/buff-mastery.png' alt='Skill Buff Mastery'/></span> +60%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 7",
                 "<strong>Buff Duration</strong>: [<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/bishop/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%]",
@@ -98,8 +98,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -109,8 +107,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -119,8 +115,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -129,8 +123,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 1281,
-                    "offline": true,
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -139,8 +131,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -244,7 +234,7 @@
                     {
                         "id": 2300009,
                         "name": "Blessed Ensemble",
-                        "shortDesc": "Including yourself, increases final damage by 2% in proportion to the number of nearby party members you have buffed. 20% bonus EXP fo each Cleric in the party.",
+                        "shortDesc": "Including yourself, increases final damage by 1% in proportion to the number of nearby party members you have buffed. 20% bonus EXP fo each Cleric in the party.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/bishop/blessed-ensemble.png"],
                         "type": "Passive",
@@ -534,13 +524,14 @@
                 {
                     "id": 2320013,
                     "name": "Blessed Harmony",
-                    "shortDesc": "Increases your Final Damage by 3% for each nearby party members under the effect of your buffs.",
+                    "shortDesc": "Final Damage: +4%, Increases your Final Damage by 2% for each nearby party members under the effect of your buffs.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/bishop/blessed-ensemble.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Final Damage provided per stack"
+                        "Increases %Final Damage provided per stack",
+                        "Now grants flat %Final Damage"
                     ]
                 },
                 {
@@ -642,12 +633,15 @@
                 {
                     "id": 2321009,
                     "name": "Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/heros-will.png"],
                     "animations": ["https://media.giphy.com/media/W1nqUvkv86mGHixTTi/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "id": 2320012,
@@ -815,7 +809,7 @@
                     "desc": "Creates an aura around your character where party members inside it gain a buff",
                     "details": [
                         "<strong>[Buff]:</strong> Party members other than yourself gain increases %Final Damage and Attack Speed while periodically restoring %Max HP/MP and clearing certain Abnormal Statuses",
-                        "While active, pressing the Skill Key again within 5 sec will reduce the duration and cooldown for a shorter version",
+                        "While active, pressing the Skill Key again within 5 sec will reduce the duration and cooldown for a shorter version<ul><li>Right-clicking this skill will toggle ON/OFF automatically triggering this effect upon use</li></ul>",
                         "Effects scale off of your INT stat: <ul> <li><strong>[Final Damage]: </strong>+1% for every 2500 INT (up to +40%)</li> <li><strong>[HP/MP Recovery]: </strong>+1% for every 2000 INT (up to +10%)</li> <li><strong>[Attack Speed]: </strong>+1% for every 10000 INT (up to +3)</li> </ul>"
                     ]
                 },
@@ -829,6 +823,7 @@
                     "desc": "Summons an angel based on whether Benevolence or Vengeance skills are active",
                     "details": [
                         "Cannot be summoned while <span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> is active",
+                        "While active, pressing the Skill Key again within 5 sec will reduce the duration and cooldown for a shorter version<ul><li>Right-clicking this skill will toggle ON/OFF automatically triggering this effect upon use</li></ul>",
                         "<strong>[Vengeance]</strong>: Grants a buff to nearby party members that periodically restores %Max HP and increases their %Damage<ul><li>Damage increase scales off of your INT stat, +1% for every 1250 INT (up to +100%)</li></ul>",
                         "<strong>[Benevolence]</strong>: Attacks nearby enemies and applies the debuff from <span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> however the %Final Damage bonus is decreased",
                         "Unaffected by Damage Reflect"

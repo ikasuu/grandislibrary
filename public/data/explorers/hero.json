@@ -72,7 +72,7 @@
             "toggles": "<span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> <span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span>",
             "summons": "<div><span data-tooltip='Burning Soul Blade (5th Job)'><img src='/class-icons/explorers/hero/burning-soul-blade-1.png' alt='Skill Burning Soul Blade'/></span>[75s](120s cd)</div>",
             "buffCd": "<div><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>[30s](120s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Instinctual Blade (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span>[20s](120s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[36s](240s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "iFrame": "<div><span data-tooltip='Worldreaver (5th Job)'><img src='/class-icons/explorers/hero/worldreaver.png' alt='Skill Worldreaver'/></span>(25s cd)</div>"
         },
         "linkSkill": {
@@ -133,8 +133,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -144,8 +142,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -154,8 +150,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -164,8 +158,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 1281,
-                    "offline": true,
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -174,8 +166,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -500,12 +490,15 @@
                 {
                     "id": 1121011,
                     "name": "Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/heros-will.png"],
                     "animations": ["https://media.giphy.com/media/NObjYHI8mQRj7fwi0M/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                 },
                 {
                     "id": 1120003,
@@ -688,12 +681,11 @@
                     "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
                     "animations": ["https://media1.giphy.com/media/RGGyqEcRKlFU49DhcL/giphy.gif?cid=790b7611420c152aab6633a04745253a8516f456b0b73095"],
                     "type": "Summon",
-                    "desc": "Summons a sword that attacks whenever you attack",
+                    "desc": "When used, fully charges your Combo and summons a sword that attacks whenever you attack",
                     "details": [
-                        "Pressing the Skill Key again will make it stationary and attack nearby enemies",
+                        "Pressing the Skill Key again will make it stationary and attack nearby enemies<ul><li>Pressing the Down Arrow Key and Skill Key together when first summoning will deploy the sword in the stationary state</li></ul>",
                         "The sword's attacks have increased %Crit Rate",
                         "Deals increased damage while <span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> Enraged",
-                        "Upon casting, fully charges your Combo",
                         "Unaffected by Damage Reflect"
                     ]
                 },

@@ -31,7 +31,7 @@
             "toggles": "<span data-tooltip='Impending Doom (2nd Job)'><img src='/class-icons/flora/ark/impending-death.png' alt='Skill Impending Death'/></span>",
             "summons": "<div><span data-tooltip='Endlessly Starving Beast (5th Job)'><img src='/class-icons/flora/ark/endlessly-starving-beast.png' alt='Skill Endlessly Starving Beast'/></span>(120s cd)</div>",
             "buffCd": "<div><span data-tooltip='Contact Caravan (Beginner Skill)'><img src='/class-icons/flora/ark/contact-caravan.png' alt='Skill Contact Caravan'/></span>[300s](600s cd)</div> <div><span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span>[60s](120s cd)</div> <div><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/ark/divine-wrath.png' alt='Skill Divine Wrath'/></span>[60s](120s cd)</div> <div><span data-tooltip='Infinity Spell (5th Job)'><img src='/class-icons/flora/ark/infinity-spell.png' alt='Skill Infinity Spell'/></span>[50s](120s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](200s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[30s](60s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
+            "buffFifth": "<div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](120s cd, 180s recharge - max 2 charges)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
             "binds": "<div><span data-tooltip='Blissful Restraint (4th Job)'><img src='/class-icons/flora/ark/blissful-restraint.png' alt='Skill Blissful Restraint'/></span>[9s](120s cd)</div>",
             "iFrame": "<div><span data-tooltip='Creeping Terror (3rd Job)'><img src='/class-icons/flora/ark/creeping-terror.png' alt='Skill Creeping Terror'/></span>[Up to 5s](60s cd)</div> <div><span data-tooltip='Abyssal Recall (5th Job)'><img src='/class-icons/flora/ark/abyssal-recall.png' alt='Skill Abyssal Recall'/></span>(120s cd)</div>"
         },
@@ -77,7 +77,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 150011074,
                     "name": "Contact Caravan",
                     "shortDesc": "MP Cost: 100, gains a buff for 300 sec\\nFerret: Active Cooldowns shortened by 10% (except skills that ignore cooldown resets)\\nSalvo: Damage increases by 8%\\nMar: EXP +4%\\nZippy: Applies Ferret, Salvo, and Mar's buffs at the same time at half strength\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -96,7 +95,6 @@
                     ]
                 },
                 {
-                    "id": 150010079,
                     "name": "Magic Conversion",
                     "shortDesc": "25% of your equipment's Magic ATT is converted to Attack Power, excluding your weapon. Any set effects do not apply. Only converts up to 10% of your weapon's base Attack Power.",
                     "maxLevel": 1,
@@ -104,8 +102,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 150011005,
-                    "offline": true,
                     "name": "Exclusive Spell",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -532,7 +528,6 @@
                     "desc": "Dashes towards a nearby enemy and binds them",
                     "details": [
                         "Attack will prioritize the enemy with the highest Max HP",
-                        "The binded enemy takes damage at the end from all the attacks inflicted during the bind",
                         "When used, you will be shifted into Specter Form",
                         "Unaffected by Damage Reflect, cooldown resets, and does not trigger <span data-tooltip='Impending Death (2nd Job)'><img src='/class-icons/flora/ark/impending-death.png' alt='Skill Impending Doom'/></span>"
                     ]
@@ -549,12 +544,15 @@
                 {
                     "id": 155121009,
                     "name": "Floran Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/flora/ark/floran-heros-will.png"],
                     "animations": ["https://media1.giphy.com/media/2qpEVaM8y61HcNSEmJ/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds "
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "id": 155120010,

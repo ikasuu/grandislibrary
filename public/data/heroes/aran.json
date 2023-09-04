@@ -31,7 +31,7 @@
             "toggles": "<span data-tooltip='Body Pressure (1st Job)'><img src='/class-icons/heroes/aran/body-pressure.png' alt='Skill Body Pressure'/></span> <span data-tooltip='Drain (2nd Job)'><img src='/class-icons/heroes/aran/drain.png' alt='Skill Drain'/></span> <span data-tooltip='Snow Charge (2nd Job)'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span>",
             "summons": "<div><span data-tooltip='Maha&#39;s Domain (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-domain.png' alt='Skill Maha's Domain'/></span>[8s](90s cd)</div>",
             "buffCd": "<div><span data-tooltip='Adrenaline Burst (Hyper Skill)'><img src='/class-icons/heroes/aran/adrenaline-burst.png' alt='Skill Adrenaline Burst'/></span>(180s cd)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/aran/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maha&#39;s Fury (5th Job)'><img src='/class-icons/heroes/aran/mahas-fury.png' alt='Skill Maha&#39;s Fury'/></span>[40s](90s cd)</div> <div><span data-tooltip='Blizzard Tempest (5th Job)'><img src='/class-icons/heroes/aran/blizzard-tempest.png' alt='Skill Blizzard Tempest'/></span>[20s / 10s Bind](180s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[36s](240s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Blizzard Tempest (5th Job)'><img src='/class-icons/heroes/aran/blizzard-tempest.png' alt='Skill Blizzard Tempest'/></span>[10s](180s cd)</div>",
             "iFrame": "<div><span data-tooltip='Finisher - Hunter&#39;s Prey (4th Job)'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter's Prey'/></span>(Adrenaline Mode)</div> <div><span data-tooltip='Maha&#39;s Domain (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-domain.png' alt='Skill Maha&#39;s Domain'/></span>[2s](90s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div>"
         },
@@ -77,8 +77,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -88,8 +86,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -98,8 +94,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -108,7 +102,6 @@
                     "type": "Buff"
                 },  
                 {
-                    "id": 20000194,
                     "name": "Regained Memory",
                     "shortDesc": "Permanently increase Attack Power: +5%, DEF: +300, Speed: +10",
                     "maxLevel": 1,
@@ -120,7 +113,6 @@
                     ]
                 },
                 {
-                    "id": 20001295,
                     "name": "Combat Step",
                     "shortDesc": "MP Cost: 5, travel a short distance\\nMovement Speed +15, Max Movement Speed +20",
                     "maxLevel": 1,
@@ -137,7 +129,6 @@
                     ]
                 },
                 {
-                    "id": 20001296,
                     "name": "Return to Rien",
                     "shortDesc": "MP Cost: 100.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -146,8 +137,6 @@
                     "desc": "Teleports to Rien, Aran's hometown"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -471,11 +460,11 @@
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/aran/storm-of-fear.png"],
                         "animations": ["https://media4.giphy.com/media/JVPf2T3tjFuFCUi1Mq/giphy.gif"],
-                        "type": "Command Key-down Attack",
+                        "type": "Key-down Attack",
                         "desc": "Creates a whirlwind around you that pulls in nearby enemies",
                         "details": [
                             "Can only be used in <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> and only one finisher can be used per rush",
-                            "Can only be activated with <img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> Command<ul><li>↓ + ← + → + Attack (Hold)</li></ul>"
+                            "<img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> <strong>[Command]:</strong> ↓ + ← + → + Attack (Hold)"
                         ]
                     },
                     {
@@ -485,13 +474,13 @@
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/aran/hunters-prey.png"],
                         "animations": ["https://media3.giphy.com/media/crCUwG8CPqzLaAurpc/giphy.gif"],
-                        "type": "Command Key-down Attack",
+                        "type": "Key-down Attack",
                         "desc": "Charges forward to strike a powerful blow that targets the enemy or boss with the highest Max HP in the direction you are facing",
                         "details": [
                             "The longer you charge, the more damage dealt<ul><li>You are invincible while charging</li></ul>",
                             "While charging, you may change directions<ul><li>If there are no enemies in the direction you are facing, attack will target the nearest enemy</li><li>If no enemies within range, you will dash towards the direction you are facing</li></ul>",
                             "Can only be used in <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> and only one finisher can be used per rush",
-                            "Can only be activated with <img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> Command<ul><li>↓ + → + ↓ + Attack (Hold)</li></ul>"
+                            "<img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> <strong>[Command]:</strong> ↓ + → + ↓ + Attack (Hold)"
                         ]
                     },
                     {
@@ -527,12 +516,15 @@
                     {
                         "id": 21121008,
                         "name": "Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
                         "icons": ["/class-icons/common/heros-will.png"],
                         "animations": ["https://media.giphy.com/media/adTOoShPyVuIa4WTGK/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                     },
                     {
                         "id": 21120011,

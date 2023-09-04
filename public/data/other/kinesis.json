@@ -80,7 +80,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 140001289,
                     "name": "Psychic Attack",
                     "shortDesc": "Up to 1 enemies attacked 1 times at 100% damage\\n[Charges 1 Psychic Points when used]",
                     "maxLevel": 1,
@@ -93,7 +92,6 @@
                     ]
                 },
                 {
-                    "id": 140001290,
                     "name": "Return",
                     "shortDesc": "Returns to Kinesis's Hideout.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -102,7 +100,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 140000291,
                     "name": "ESP",
                     "shortDesc": "Critical Rate: 10%, Avoidability: 12%, Speed: +10",
                     "maxLevel": 6,
@@ -114,8 +111,6 @@
                     ]
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -258,13 +253,15 @@
                     {
                         "id": 142101009,
                         "name": "Psychic Drain",
-                        "shortDesc": "Max Enemies Hit: 5, Damage: 150%, Duration: 30 sec. Restores 1 Psychic Point on each use.\\nCooldown: 3 sec",
+                        "shortDesc": "Max Enemies Hit: 5, Damage: 150%, Duration: 30 sec. Restores 1 Psychic Point on each use upon attacking normal enemies, Cooldown: 3 sec\\n[Passive Effect: 40% chance to restore 1 Psychic Points upon attacking bosses]",
                         "maxLevel": 9,
                         "icons": ["/class-icons/other/kinesis/psychic-drain.png"],
                         "animations": ["https://media3.giphy.com/media/ejzIitsfDK6ElG5fXO/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Creates a damaging area that also quickly generates PP while active",
+                        "desc": "Creates a damaging area",
                         "details": [
+                            "<strong>[Passive]</strong>: Permanently grants successful attacks on a boss a chance to restore 1 Psychic Point",
+                            "Regular Monsters damaged by the area grants 1 Psychic Point",
                             "Unaffected by Damage Reflect"
                         ]
                     },

@@ -31,7 +31,7 @@
             "toggles": "<span data-tooltip='Lightning Elemental (1st Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png' alt='Skill Lightning Elemental'/></span> <span data-tooltip='Arc Charger (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/arc-charger.png' alt='Skill Arc Charger'/></span>",
             "summons": "<div><span data-tooltip='Sea Wave (2nd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/sea-wave.png' alt='Skill Sea Wave'/></span>[24 Attacks or 2700 Distance](12s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div>",
             "buffCd": "<div><span data-tooltip='Typhoon (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/typhoon.png' alt='Skill Typhoon'/></span>[90s](12s cd)</div> <div><span data-tooltip='Primal Bolt (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png' alt='Skill Primal Bolt'/></span>[30s](120s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Lightning Cascade (5th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png' alt='Skill Lightning Cascade'/></span>[52s](120s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[30s](60s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](240s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
+            "buffFifth": "<div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](240s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
             "iFrame": "<div><span data-tooltip='Deep Rising (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/deep-rising.png' alt='Skill Deep Rising'/></span>(45s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 240s cd)</div>"
         },
@@ -251,7 +251,7 @@
                         "desc": "Dash forward while pushing enemies back",
                         "details": [
                             "Does not generate Lightning Charges",
-                            "Pressing the Down Arrow Key and the Skill Key together will cancel the dash early",
+                            "While dashing, pressing the Down Arrow Key will cancel the dash early",
                             "Right-clicking the skill will toggle a lock ON/OFF to prevent it from cancelling with the Arrow Keys<ul><li>Instead, pressing the Skill Key again will cancel the dash early</li></ul>",
                             "When used first, can be linked with all skills except <span data-tooltip='Thunder (3rd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/thunder.png' alt='Skill Thunder'/></span><ul><li>Certain skills can link to Tidal Crash faster</li><li>Can be used to cancel cast actions when used after a skill while mid-air</li></ul>"
                         ]
@@ -410,12 +410,12 @@
                 {
                     "id": 11121000,
                     "name": "Cygnus Knights' Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/cygnus-knights-will.png"],
                     "animations": ["https://media.giphy.com/media/O6vogC8JMFTF9weAuO/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds",
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
                         "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
                     ]
@@ -673,7 +673,7 @@
                     "type": "Buff Attack",
                     "desc": "While active, increases %Final Damage and your attacks creates a chain of lightning that bounces to nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: While on cooldown, periodically while attacking, a lightning bolt may strike if there are normal monsters nearby",
+                        "<strong>[Passive]</strong>: While buff is not active, periodically while attacking, a lightning bolt may strike if there are normal monsters nearby",
                         "The lightning damage is reduced for each enemy it spreads to",
                         "Deals increased %Damage if only one enemy is hit",
                         "Unaffected by Damage Reflect"

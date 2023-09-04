@@ -87,7 +87,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 20021000,
                     "name": "Crystal Throw",
                     "shortDesc": "MP Cost: 7, Damage: 40",
                     "maxLevel": 3,
@@ -97,7 +96,6 @@
                     "desc": "Throws a rock that deals fixed damage"
                 },
                 {
-                    "id": 20021001,
                     "name": "Infiltrate",
                     "shortDesc": "MP Cost: 15, Hide for 30 sec, Movement Speed: +15",
                     "maxLevel": 3,
@@ -107,7 +105,6 @@
                     "desc": "Turn invisible preventing touch damage"
                 },
                 {
-                    "id": 20020002,
                     "name": "Potion Mastery",
                     "shortDesc": "Recovery Rate: +115%",
                     "maxLevel": 3,
@@ -115,7 +112,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 30001281,
                     "name": "Secret Assembly",
                     "shortDesc": "MP Cost: 100, you move to the Resistance Secret Plaza\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -124,8 +120,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 30001281,
-                    "offline": true,
                     "name": "Capture",
                     "shortDesc": "MP Cost: 10, can capture up to 5 types of monsters\\nCooldown: 10 sec",
                     "maxLevel": 1,
@@ -138,7 +132,6 @@
                     ]
                 },
                 {
-                    "id": 30001062,
                     "name": "Call of the Hunter",
                     "shortDesc": "MP Cost: 10, summons a monster for 60 sec\\nThe monster attacks with 200% + 1% per monster level damage every 2 sec\\nCooldown: 30 sec",
                     "maxLevel": 1,
@@ -147,8 +140,6 @@
                     "desc": "Allows you to randomly summon a monster you've captured (aside from a Jaguar)"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Hero's Echo",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -209,7 +200,7 @@
                         "type": "Mounted | Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice",
+                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
                             "Can be used twice in a row",
                             "Shares the same Skill Points (SP) and Key Slot with <span data-tooltip='Double Jump (1st Job)'><img src='/class-icons/resistance/wild-hunter/double-jump.png' alt='Skill Double Jump'/></span>"
                         ]
@@ -558,7 +549,7 @@
                 {
                     "id": 33121220,
                     "name": "Wild Arrow Blast Type P",
-                    "shortDesc": "MP Cost: 200, Damage: 300%, Number of Attacks: 4, Max Enemies Hit: 8\\nDamage Against Normal Monsters: +180%p",
+                    "shortDesc": "MP Cost: 50, Damage: 300%, Number of Attacks: 4, Max Enemies Hit: 8\\nDamage Against Normal Monsters: +180%p",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png"],
                     "animations": ["https://media.giphy.com/media/DRMA1EnL6tvqkps0Js/giphy.gif"],
@@ -616,12 +607,15 @@
                 {
                     "id": 33121008,
                     "name": "Hero's Will",
-                    "shortDesc": "MP Cost: 30\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30\\nCooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/heros-will.png"],
                     "animations": ["https://media.giphy.com/media/6wdz0r0wMdZFVZ96ud/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "id": 33120013,

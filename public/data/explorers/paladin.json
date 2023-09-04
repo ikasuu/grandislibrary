@@ -29,7 +29,7 @@
             "active": "<div><span data-tooltip='Combat Orders (3rd Job)'><img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/></span>[200s]</div> <div><span data-tooltip='Divine Blessing (4th Job)'><img src='/class-icons/explorers/paladin/divine-blessing.png' alt='Skill Divine Blessing'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
             "toggles": "<span data-tooltip='Parashock Guard (3rd Job)'><img src='/class-icons/explorers/paladin/parashock-guard.png' alt='Skill Parashock Guard'/></span>",
             "buffCd": "</div><span data-tooltip='Sacrosanctity (Hyper Skill)'><img src='/class-icons/explorers/paladin/sacrosanctity.png' alt='Skill Sacrosanctity'/></span>[30s](300s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Divine Echo (5th Job)'><img src='/class-icons/explorers/paladin/divine-echo.png' alt='Skill Divine Echo'/></span>[45s](90s cd)",
-            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[36s](240s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Smite Shield (Hyper Skill)'><img src='/class-icons/explorers/paladin/smite-shield.png' alt='Skill Smite Shield'/></span>[10s](120s cd)</div>",
             "iFrame": "<div><span data-tooltip='Sacrosanctity (Hyper Skill)'><img src='/class-icons/explorers/paladin/sacrosanctity.png' alt='Skill Sacrosanctity'/></span>[30s](300 - 75s cd based on remaining duration)</div>",
             "damageReduce": "<div><span data-tooltip='Vessel of Light (2nd Job)'><img src='/class-icons/explorers/paladin/vessel-of-light.png' alt='Skill Vessel of Light'/></span>[30s](-10%)</div> <div><span data-tooltip='Divine Shield (3rd Job)'><img src='/class-icons/explorers/paladin/divine-shield.png' alt='Skill Divine Shield'/></span>[90s/10 hits](-25% | 30s cd)</div> <div><span data-tooltip='Grand Guardian (5th Job)'><img src='/class-icons/explorers/paladin/grand-guardian.png' alt='Skill Grand Guardian'/></span>(-50% while held | 180s cd)</div>"
@@ -93,8 +93,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -104,8 +102,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -114,8 +110,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -124,8 +118,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 1281,
-                    "offline": true,
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -134,8 +126,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -395,7 +385,8 @@
                         "type": "Passive",
                         "desc": "Creates a shield when hit that absorbs attacks and increases your Attack",
                         "details": [
-                            "For attacks that deal %Max HP damage, reduces amount taken by a percentage"
+                            "For attacks that deal %Max HP damage, reduces amount taken by a percentage",
+                            "Right-clicking the skill will toggle the visual effect on/off"
                         ]
                     }]
                 ],
@@ -419,7 +410,7 @@
                 {
                     "id": 1221009,
                     "name": "Blast",
-                    "shortDesc": "MP Cost: 24, Damage: 285%, Number of Attacks: 10, Max Enemies Hit: 3",
+                    "shortDesc": "MP Cost: 24, Damage: 305%, Number of Attacks: 10, Max Enemies Hit: 3",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/paladin/blast.png"],
                     "animations": ["https://media.giphy.com/media/XVTJ3Z7fGoVnEQ1esM/giphy.gif"],
@@ -429,7 +420,7 @@
                 {
                     "id": 1221022,
                     "name": "Divine Judgment",
-                    "shortDesc": "Each time an enemy is struck by your Blast skill, they receive a stack of Divine Brand.\\nDivine Brand Max Duration: 30 sec. When Divine Brand stacks 5 times, an explosion deals 500% damage 10 times to up to 1 enemies. Explosion damage receives Ignore Defense +20%.",
+                    "shortDesc": "Each time an enemy is struck by your Blast skill, they receive a stack of Divine Brand.\\nDivine Brand Max Duration: 30 sec. When Divine Brand stacks 5 times, an explosion deals 550% damage 10 times to up to 1 enemies. Explosion damage receives Ignore Defense +20%.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/paladin/divine-judgment.png"],
                     "type": "Passive",
@@ -456,7 +447,7 @@
                 {
                     "id": 1221011,
                     "name": "Heaven's Hammer",
-                    "shortDesc": "MP Cost: 60, Damage: 570%, Number of Attacks: 8, Max Enemies Hit: 15, Boss Damage: +30%\\nCooldown: 15 sec",
+                    "shortDesc": "MP Cost: 60, Damage: 620%, Number of Attacks: 8, Max Enemies Hit: 15, Boss Damage: +30%\\nCooldown: 15 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/paladin/heavens-hammer.png"],
                     "animations": ["https://media.giphy.com/media/ycBc2nKhR3EEx1XshM/giphy.gif"],
@@ -488,12 +479,15 @@
                 {
                     "id": 1221012,
                     "name": "Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/heros-will.png"],
                     "animations": ["https://media.giphy.com/media/qMynVOfjiBaCuROCQU/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                 },
                 {
                     "id": 1221016,
@@ -705,7 +699,7 @@
                 },
                 {
                     "name": "Mighty Mjolnir",
-                    "shortDesc": "MP Cost: 500, sets 1 enemy as the target and deals 360% damage 6 time(s). Additional Critical Rate: 50%. Tracks down a total of 4 enemies as targets, including the first attack.\\nA shockwave occurs after attacking the tracked target, dealing additional attacks up to 6 enemies, with 400% damage, 9 time(s).\\n1 Hammer will be prepared every 12 sec, and you can hold up to 3.\\nCooldown: 2.5 sec",
+                    "shortDesc": "MP Cost: 500, sets 1 enemy as the target and deals 400% damage 6 time(s). Additional Critical Rate: 50%. Tracks down a total of 4 enemies as targets, including the first attack.\\nA shockwave occurs after attacking the tracked target, dealing additional attacks up to 6 enemies, with 450% damage, 9 time(s).\\n1 Hammer will be prepared every 12 sec, and you can hold up to 3.\\nCooldown: 2.5 sec",
                     "id": 400011072,
                     "icons": ["/class-icons/explorers/paladin/mighty-mjolnir.png"],
                     "animations": ["https://media.giphy.com/media/rSSm6GZthLv5LId2SY/giphy.gif"],

@@ -31,7 +31,7 @@
             "active": "<div><span data-tooltip='Jolly Roger (4th Job)'><img src='/class-icons/explorers/corsair/jolly-roger.png' alt='Skill Jolly Roger'/></span>[180s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
             "summons": "<div><span data-tooltip='Scurvy Summons (2nd Job)'><img src='/class-icons/explorers/corsair/scurvy-summons.png' alt='Skill Scurvy Summons'/></span>[120s](45s cd)</div> <div><span data-tooltip='Siege Bomber (3rd Job)'><img src='/class-icons/explorers/corsair/siege-bomber.png' alt='Skill Siege Bomber'/></span>[60s]</div> <div><span data-tooltip='Broadside (4th Job)'><img src='/class-icons/explorers/corsair/broadside.png' alt='Skill Broadside'/></span>[60s]</div> <div><span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span>[30s](30s cd)</div>",
             "buffCd": "<div><span data-tooltip='Roll of the Dice (3rd Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>[180s](60s cd / 30s cd if 1)</div> <div><span data-tooltip='Whaler&#39;s Potion (Hyper Skill)'><img src='/class-icons/explorers/corsair/whalers-potion.png' alt='Skill Whalers Potion'/></span>[20s](90s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/pirate/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[30s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)</div>",
             "iFrame": "<div><span data-tooltip='Target Lock (5th Job)'><img src='/class-icons/explorers/corsair/target-lock.png' alt='Skill Target Lock'/></span>(30s cd)</div> <div><span data-tooltip='Nautilus Assault (5th Job)'><img src='/class-icons/explorers/corsair/nautilus-assault.png' alt='Skill Nautilus Assault'/></span>(180s cd)</div>"
         },
         "linkSkill": {
@@ -92,8 +92,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
-                    "offline": true,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -103,8 +101,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
-                    "offline": true,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -113,8 +109,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
-                    "offline": true,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -123,8 +117,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 1281,
-                    "offline": true,
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -133,7 +125,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 20050109,
                     "name": "Master of Swimming",
                     "shortDesc": "Permanently increases swimming speed and prevents HP loss when swimming.",
                     "maxLevel": 1,
@@ -141,7 +132,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 20050111,
                     "name": "Master of Organization",
                     "shortDesc": "Permanently expands Equip, Use, Set-up, and Etc. Inventory.",
                     "maxLevel": 1,
@@ -149,8 +139,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -564,12 +552,15 @@
                     {
                         "id": 5221010,
                         "name": "Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
                         "icons": ["/class-icons/common/heros-will.png"],
                         "animations": ["https://media.giphy.com/media/4bQxENksexKFS7kjsL/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                     },
                     {
                         "id": 5220012,

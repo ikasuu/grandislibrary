@@ -81,7 +81,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 60020216,
                     "name": "Haggle",
                     "shortDesc": "Purchase items 4% cheaper at shops. Does not apply if the purchase cost is above 70% of the sales cost.\\nWhen stacked with the Merchandising guild skill, the higher figure is applied first.",
                     "maxLevel": 1,
@@ -93,7 +92,6 @@
                     ]
                 },
                 {
-                    "id": 60021217,
                     "name": "Back to HQ",
                     "shortDesc": "MP Cost: 100, Moves you to the Shadowdealers Hideout.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -102,8 +100,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 60011005,
-                    "offline": true,
                     "name": "Exclusive Spell",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -133,7 +129,8 @@
                         "details": [
                             "Pressing an Arrow Key and Skill Key together allows you to direct the chain at a 45° angle upwards/downwards or a straight shot if no Arrow Key is pressed",
                             "Initially when used, the chain will attach to the target and apply a slow debuff if it is an enemy<ul><li>Pressing again will move you towards the target</li><li>While moving, you temporarily enter a <img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight state and cannot be hit</li><li>While in the <img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight state, if you dodge an attack that deals %Max HP, the duration is reduced slightly</li></ul>",
-                            "Based on how long the Skill Key is held, the grapple distance will increase"
+                            "Based on how long the Skill Key is held, the grapple distance will increase",
+                            "Unaffected by cooldown resets"
                         ]
                     },
                     {
@@ -251,7 +248,7 @@
                     {
                         "id": 64100004,
                         "name": "Muscle Memory",
-                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +3% per stack, for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing this buff stack inflicts additional hits. [Bonus Hits] Damage: 100%, Max Enemies Hit: 5, Number of Attacks: 2, Cooldown: 0.25 sec.\\n[Passive Effect: Damage for Scimitar +80%p]",
+                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +3% per stack, for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing this buff stack inflicts additional hits. [Bonus Hits] Damage: 100%, Max Enemies Hit: 5, Number of Attacks: 2, Cooldown: 0.2 sec.\\n[Passive Effect: Damage for Scimitar +80%p]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/nova/cadena/muscle-memory.png"],
                         "animations": ["https://media.giphy.com/media/bLpUBIdHNSRK3TgWJa/giphy.gif"],
@@ -259,7 +256,8 @@
                         "desc": "Whenever a new Summon weapon skill is used, a chain attack will activate damaging nearby enemies",
                         "details": [
                             "For each unique Summon weapon skill used, gain a stacking %Final Damage buff<ul><li>Each Muscle Memory activation refreshes the buff duration</li></ul>",
-                            "Additionally, permanently increases %p Damage of <span data-tooltip='Summon Scimitar (1st Job)'><img src='/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span>"
+                            "Additionally, permanently increases %p Damage of <span data-tooltip='Summon Scimitar (1st Job)'><img src='/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span>",
+                            "Unaffected by %Buff Duration and cooldown resets"
                         ]
                     },
                     {
@@ -348,7 +346,7 @@
                     {
                         "id": 64110005,
                         "name": "Muscle Memory II",
-                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +7% per stack, for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 3\\nCooldown for Bonus Hits: 0.25 sec\\n[Passive Effects - Damage for Summon Scimitar, Claw, Shuriken +100%p]",
+                        "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +7% per stack, for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 3\\nCooldown for Bonus Hits: 0.2 sec\\n[Passive Effects - Damage for Summon Scimitar, Claw, Shuriken +100%p]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/nova/cadena/muscle-memory-ii.png", "/class-icons/nova/cadena/muscle-memory.png"],
                         "animations": ["https://media.giphy.com/media/bYI1072L6mF3i9x5Uk/giphy.gif"],
@@ -478,17 +476,20 @@
                 {
                     "id": 64121005,
                     "name": "Nova Temperance",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/nova/nova-temperance.png"],
                     "animations": ["https://media.giphy.com/media/lTxkvM3hr7o2hsrdSM/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds "
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "id": 64120006,
                     "name": "Muscle Memory III",
-                    "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +10% for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 350%, Max Enemies Hit: 7, Number of Attacks: 4, Cooldown: 0.25 sec\\n[Passive Effect: Damage for Summon Scimitar, Claw, Shuriken, Shotgun, Daggers, and Decoy Bomb are all increased by +170%p]",
+                    "shortDesc": "Triggers upon switching summoned weapons. [Stack Bonus] Attack Skill Final Damage +10% for 30 sec. Stacks up to the number of weapon summon skills you possess (excluding Chain Arts).\\nRefreshing or incrementing this buff stack inflicts additional hits. [Bonus Hits] Damage: 350%, Max Enemies Hit: 7, Number of Attacks: 4, Cooldown: 0.2 sec\\n[Passive Effect: Damage for Summon Scimitar, Claw, Shuriken, Shotgun, Daggers, and Decoy Bomb are all increased by +170%p]",
                     "maxLevel": 10,
                     "icons": ["/class-icons/nova/cadena/muscle-memory-iii.png", "/class-icons/nova/cadena/muscle-memory.png"],
                     "animations": ["https://media.giphy.com/media/wgbOXaLLZCdN3Gy0Md/giphy.gif"],

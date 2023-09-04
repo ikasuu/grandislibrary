@@ -32,7 +32,7 @@
             "toggles": "<span data-tooltip='Aether Forge (2nd Job)'><img src='/class-icons/flora/adele/aether-forge.png' alt='Skill Aether Forge'/></span> <span data-tooltip='Aetherial Arms (2nd Job)'><img src='/class-icons/flora/adele/aetherial-arms.png' alt='Skill Aetherial Arms'/></span>",
             "summons": "<div><span data-tooltip='Hunting Decree (3rd Job)'><img src='/class-icons/flora/adele/hunting-decree.png' alt='Skill Hunting Decree'/></span>[40s]</div> <div><span data-tooltip='Reign of Destruction (3rd Job)'><img src='/class-icons/flora/adele/reign-of-destruction.png' alt='Skill Reign of Destruction'/></span>[7s](30s cd)</div> <div><span data-tooltip='True Nobility (3rd Job)'><img src='/class-icons/flora/adele/true-nobility.png' alt='Skill True Nobility'/></span>[20s](180s cd)</div> <div><span data-tooltip='Infinity Blade (5th Job)'><img src='/class-icons/flora/adele/infinity-blade.png' alt='Skill Infinity Blade'/></span>[30s](180s cd)</div> <div><span data-tooltip='Storm (5th Job)'><img src='/class-icons/flora/adele/storm.png' alt='Skill Storm'/></span>[14s](90s cd)</div>",
             "buffCd": "<div><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/adele/divine-wrath.png' alt='Skill Divine Wrath'/></span>[60s](120s cd)</div> <div><span data-tooltip='Legacy Restoration (5th Job)'><img src='/class-icons/flora/adele/legacy-restoration.png' alt='Skill Legacy Restoration'/></span>[30s](180s cd)</div>",
-            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](200s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[36s](240s cd)</div>",
+            "buffFifth": "<div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](120s cd, 180s recharge - max 2 charges)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Blade Torrent (Hyper Skill)'><img src='/class-icons/flora/adele/blade-torrent.png' alt='Skill Blade Torrent'/>[10s](180s cd)</div>",
             "iFrame": "<div><span data-tooltip='Infinity Blade (5th Job)'><img src='/class-icons/flora/adele/infinity-blade.png' alt='Skill Infinity Blade'/></span>(180s cd)</span>",
             "damageReduce": "<div><span data-tooltip='Aether Guard (4th Job)'><img src='/class-icons/flora/adele/aether-guard.png' alt='Skill Aether Guard'/></span>[Up to 8s](-40% when held / -55% when held if parried attack | 60 - 35.5s cd based on remaining duration)</div>"
@@ -78,7 +78,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 150021000,
                     "name": "Artistic Recall",
                     "shortDesc": "MP Cost: 30, you move to Ristonia.\\nCooldown: 600 sec",
                     "maxLevel": 1,
@@ -87,7 +86,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 150020079,
                     "name": "Magic Conversion",
                     "shortDesc": "35% of your equipment's Magic ATT is converted to Attack Power, excluding your weapon. Any set effects do not apply. Only converts up to 15% of your weapon's base Attack Power.",
                     "maxLevel": 1,
@@ -95,7 +93,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 150020006,
                     "name": "Recalling Greatness",
                     "shortDesc": "Critical Damage: +10%, Attack Power: +10%",
                     "maxLevel": 10,
@@ -107,8 +104,6 @@
                     ]
                 },
                 {
-                    "id": 60011005,
-                    "offline": true,
                     "name": "Exclusive Spell",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -515,12 +510,15 @@
                 {
                     "id": 151121006,
                     "name": "Floran Hero's Will",
-                    "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/flora/adele/floran-heros-will.png"],
                     "animations": ["https://media3.giphy.com/media/Tq9EsWm6lB7MlhjXwh/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                    "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                    ]
                 },
                 {
                     "id": 151120007,

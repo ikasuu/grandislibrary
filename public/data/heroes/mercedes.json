@@ -80,7 +80,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 20020109,
                     "name": "Elven Healing",
                     "shortDesc": "Recovers HP and MP by 5% of Max HP and MP every 4 seconds.",
                     "maxLevel": 1,
@@ -88,7 +87,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 20020111,
                     "name": "Updraft",
                     "shortDesc": "Can be used on ladders or ropes.\\n[Command:Up Arrow Key + Jump ]",
                     "maxLevel": 1,
@@ -98,7 +96,6 @@
                     "desc": "When climbing ladders, pressing the Up Arrow Key and Jump key will launch you up"
                 },
                 {
-                    "id": 20020112,
                     "name": "Elven Grace",
                     "shortDesc": "Permanently increases Attack Speed 1 level. Speed: +10, Jump: +20, Damage Against Normal Monsters: 10%, Charm: +30",
                     "maxLevel": 1,
@@ -106,7 +103,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 20021110,
                     "name": "Elven Blessing",
                     "shortDesc": "Returns you to Elluel\\nCooldown: 600 sec\\nAdditional Effect: Permanently receive 20% additional EXP",
                     "maxLevel": 3,
@@ -119,8 +115,6 @@
                     ]
                 },
                 {
-                    "id": 0,
-                    "offline": true,
                     "name": "Hero's Echo",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
@@ -412,7 +406,7 @@
                     {
                         "id": 23121003,
                         "name": "Lightning Edge",
-                        "shortDesc": "MP Cost: 74, Max Enemies Hit: 8, Damage: 420%, Number of Attacks: 3\\n[Passive Effect: Gust Dive Damage: +237%p]",
+                        "shortDesc": "MP Cost: 74, Max Enemies Hit: 8, Damage: 420%, Number of Attacks: 3, and dash forward\\n[Passive Effect: Gust Dive Damage: +237%p]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/mercedes/lightning-edge.png"],
                         "animations": ["https://media.giphy.com/media/MFt51FftwLBCmGcELL/giphy.gif"],
@@ -526,12 +520,15 @@
                     {
                         "id": 23121008,
                         "name": "Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 360 sec",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
                         "icons": ["/class-icons/common/heros-will.png"],
                         "animations": ["https://media.giphy.com/media/9zy7n1JCuxhkVjO9OR/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for a few seconds"
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
                     }]
             ]
         ],
