@@ -115,6 +115,7 @@ function ClassBuffs({content}) {
                   {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
                   {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
                   {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.damageReduce))}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
+                  {content.buffInfo.knockback ? <tr><th><strong>Knockback Immunity</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.knockback))}</StatTableData></tr>:<tr><th><strong>Knockback Immunity</strong>:</th><td>None</td></tr>}
               </tbody>
               </Table>
           </BuffAndActivesWrapper>
@@ -262,31 +263,31 @@ function ClassDetail({content}) {
         <Container>
           {content.specialThanks && <p><em>{content.specialThanks}</em></p>}
           {content.discord && <p><em>For more in-depth info, visit the Class Discord at <a href={content.discord} target='_blank' rel='noreferrer'>{content.discord}</a></em></p>}
-          <Row>
-            <BaseStatsWrapper md="auto">
-              <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>
-              <Table borderless>
-                <tbody>
-                    {content.baseStats[1].map((stat, index) => <tr key={index}><StatTableData>{parse(DOMPurify.sanitize(stat))}</StatTableData></tr>)}
-                </tbody>
-              </Table>
-            </BaseStatsWrapper>
-            <BuffAndActivesWrapper md="auto">
-              <StyledHeaderTwo>Buffs &amp; Other Actives</StyledHeaderTwo>
-              <Table size="sm" borderless>
-                <tbody>
-                  <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.active))}</StatTableData></tr>
-                  {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.toggles))}</StatTableData></tr>:<></>}
-                  {content.buffInfo.summons ? <tr><th><strong>Summons</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.summons))}</StatTableData></tr>:<></>}
-                  <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffCd))}</StatTableData></tr>
-                  <tr><th><strong>5th Job Buffs</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.buffFifth))}</StatTableData></tr>
-                  {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.binds))}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
-                  {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.iFrame))}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
-                  {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{parse(DOMPurify.sanitize(content.buffInfo.damageReduce))}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
-                </tbody>
-              </Table>
-            </BuffAndActivesWrapper>
-          </Row>
+        <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>
+        <StyledHeaderThree>Weapon Related</StyledHeaderThree>
+        <p><strong>Weapon Multiplier</strong> {content.weaponStats.weaponMultiply}</p>
+        <p><strong>Attack Speed</strong> {content.weaponStats.attackSpeed[0]} | {parse(DOMPurify.sanitize(content.weaponStats.attackSpeed[1]))}</p>
+        <p><strong>Mastery</strong> {content.weaponStats.mastery[0]} | {parse(DOMPurify.sanitize(content.weaponStats.mastery[1]))}</p>
+        <StyledHeaderThree>Attack Related</StyledHeaderThree>
+        {content.attackStats.map((stat, index) => <div key={index}>
+            <p><strong>{stat.name}:</strong> {stat.stat} | {parse(DOMPurify.sanitize(stat.detail))}</p>
+        </div>)}
+        <StyledHeaderThree>Defense Related</StyledHeaderThree>
+        {content.defenseStats.map((stat, index) => <div key={index}>
+            <p><strong>{stat.name}:</strong> {stat.stat} | {parse(DOMPurify.sanitize(stat.detail))}</p>
+        </div>)}
+        <StyledHeaderThree>Movement Related</StyledHeaderThree>
+        {content.movementStats.map((stat, index) => <div key={index}>
+            <p><strong>{stat.name}:</strong> {stat.stat} | {parse(DOMPurify.sanitize(stat.detail))}</p>
+        </div>)}
+        <StyledHeaderThree>Secondary Attacks Related</StyledHeaderThree>
+        {content.secondaryAttacks.map((stat, index) => <div key={index}>
+            <p><strong>{stat.name}:</strong> {stat.stat} | {parse(DOMPurify.sanitize(stat.detail))}</p>
+        </div>)}
+        <StyledHeaderThree>Utility Related</StyledHeaderThree>
+        {content.utilityStats.map((stat, index) => <div key={index}>
+            <p><strong>{stat.name}:</strong> {stat.stat} | {parse(DOMPurify.sanitize(stat.detail))}</p>
+        </div>)}
         <StyledHeaderTwo>Skill Build Path</StyledHeaderTwo>
         <Table borderless>
           <tbody>
