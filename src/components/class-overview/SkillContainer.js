@@ -136,5 +136,23 @@ export function VSkillContainer({skillData, settings}) {
         </div>
     );
 }
+export function HexaSkillContainer({skillData, settings}){
+    return(
+        <div>
+            {
+                skillData.map( skill => 
+                    <div key={skill.id}>
+                        <SkillInfo 
+                            skillData={skill}
+                            name={skill.name}
+                            properties={{}}
+                            shortDesc={skill.shortDesc}
+                            maxLevel={"25 + 5"}
+                            animationSetting={settings.animations}/>
+                    </div>)
+            }
+        </div>
+    )
+}
 
 export default SkillContainer;

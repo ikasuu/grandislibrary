@@ -70,7 +70,9 @@ export class ClassOverview extends Component {
                         <div id="skill"/>
                         <SkillTab
                           primary={data.skill.primary}
-                          fifth={data.skill.fifth} hyper={data.skill.hyper}
+                          fifth={data.skill.fifth}
+                          sixth={data.skill.sixth}
+                          hyper={data.skill.hyper}
                           hyperSkillBuild={data.content.hyperBuild}
                           nodeInfo={data.content.nodeInfo}/>
                         <hr/>

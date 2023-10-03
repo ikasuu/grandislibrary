@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Tab, Tabs} from 'react-bootstrap';
-import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 import LazyLoad, { forceCheck } from 'react-lazyload';
 import storage from 'local-storage-fallback';
 
-import { SkillContainer, VSkillContainer } from './SkillContainer';
+import { HexaSkillContainer, SkillContainer, VSkillContainer } from './SkillContainer';
 import { commonFifth } from '../../special/Values';
 import { QuickJump } from '../UtilityButtons';
 
@@ -40,7 +39,7 @@ const StyledHeaderThree = styled.h3`
     margin: 2rem 0 1.25rem 0;
 `;
 
-export function SkillTab({primary, fifth, hyper}) {
+export function SkillTab({primary, fifth, sixth, hyper, slug}) {
 
   // Hook to store setting info to be used by UtilityButton (QuickJump), this is also where the button is stored
   // When changes are made to settings, we have a useEffect hook that auto-updates our storage version of setting
@@ -58,14 +57,15 @@ export function SkillTab({primary, fifth, hyper}) {
             {createSkillTabs(primary, settings)}
             <Tab eventKey="fifth" title="5th Job">
               <LazyLoad height={2000} offset={100}>
+              <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
+                <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
+                <a href="#skill"><span className="jump-button-tabs"/></a>
                 <StyledHeaderThree>Common V Skills</StyledHeaderThree>
                 <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings}/>
-                <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
-                <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
-                <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
-                <Link smooth to="#skill" scroll={el => scrollWidthOffset(el)}><span className="jump-button-tabs"/></Link>
+                <a href="#skill"><span className="jump-button-tabs"/></a>
               </LazyLoad>
             </Tab>
+            {sixth && <Tab eventKey="sixth" title="6th Job"><SixthJobTab sixth={sixth} settings={settings}/></Tab>}
             {hyper && <Tab eventKey="hyper" title="Hyper Skills">
               <LazyLoad height={2000} offset={100}>
                 <StyledHeaderThree>Passive Skills</StyledHeaderThree>
@@ -77,16 +77,24 @@ export function SkillTab({primary, fifth, hyper}) {
           </Tabs>
         </Container>
       </LazyLoad>
-      <QuickJump settings={settings} setSettings={setSettings}/> 
+      <QuickJump settings={settings} setSettings={setSettings} slug={slug}/> 
     </div>
   );
 }
 
-// Used to scroll to anchor tags
-const scrollWidthOffset = (el) => {
-  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-  const yOffset = -80; 
-  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+function SixthJobTab({sixth, settings}){
+  return(
+    <div>
+      <LazyLoad height={2000} offset={100}>
+      <StyledHeaderThree>Mastery Core Skills</StyledHeaderThree>
+        <HexaSkillContainer skillData={sixth.masteryCore} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
+        <StyledHeaderThree>Origin Skills</StyledHeaderThree>
+        <HexaSkillContainer skillData={sixth.originSkill} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
+      </LazyLoad>
+    </div>
+  )
 }
 
 // Retrieves settings from storage, if it does not exist, use default value (false & true)
