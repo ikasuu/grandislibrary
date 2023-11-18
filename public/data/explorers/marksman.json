@@ -385,13 +385,14 @@
                     {
                         "id": 3221007,
                         "name": "Snipe",
-                        "shortDesc": "MP Cost: 50, Damage: 480%, Number of Attacks: 9\\nIgnore Defense: 25%, Bonus Critical Rate: 100%",
+                        "shortDesc": "MP Cost: 50, Damage: 480%, Number of Attacks: 9\\nIgnore Defense: 25%, Bonus Critical Rate: 100%\\nEnemies struck are marked and using Empowered Snipe on them deals 320% additional damage 5 times.",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/marksman/snipe.png"],
                         "animations": ["https://media.giphy.com/media/7hZHwy9vChFFsfSXHI/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a powerful arrow at a single enemy",
+                        "desc": "Fires a powerful arrow at one enemy and marks them",
                         "details": [
+                            "Marked enemies hit by an <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> Empowered Snipe are dealt an additional attack",
                             "Attack is a guaranteed Critical Hit and has increased %Ignore DEF",
                             "Prioritizes enemy with highest max HP within range first"
                         ]
@@ -399,7 +400,7 @@
                     {
                         "id": 3221017,
                         "name": "Greater Empowered Arrows",
-                        "shortDesc": "Empowered Piercing Arrow II: MP Cost: 87. Pierces up to 10 enemies, dealing 427% damage 6 times. Explodes at end trajectory, dealing 280% damage 10 times to up to 10 enemies.\\nEmpowered Snipe: MP Cost: 105. Deals 535% damage 10 times with +25% Ignore DEF and +100% Critical Rate. Enemies struck will be afflicted wtih Double Tap debuff for 5 sec. Using Snipe on an enemy with the Double Tap debuff deals 320% additional damage 10 times.\\nMarked Target: Final Damage +4% for 15 sec, Ignore Monster DEF: +13%.\\n[Passive Effect] Final Damage +8%, Ignore DEF: +20%",
+                        "shortDesc": "When Piercing Arrow hits 3 times, Empowered Piercing Arrow II can be activated.\\nWhen Snipe hits 3 times, Empowered Snipe can be activated.\\nEmpowered Piercing Arrow II: MP Cost: 87. Pierces up to 10 enemies, dealing 427% damage 6 times. Explodes at end trajectory, dealing 280% damage 10 times to up to 10 enemies.\\nEmpowered Snipe: MP Cost: 105. Deals 535% damage 10 times with +25% Ignore DEF and +100% Critical Rate. Striking an enemy marked by Snipe deals 320% additional damage 10 times.\\nMarked Target: Final Damage +4% for 15 sec, Ignore Monster DEF: +13%.\\n[Passive Effect] Final Damage +8%, Ignore DEF: +20%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/marksman/greater-empowered-arrows.png", "/class-icons/explorers/marksman/empowered-arrows.png"],
                         "animations": ["https://media.giphy.com/media/oZuLKhz2cau77eqju2/giphy.gif", "https://media.giphy.com/media/tVnArmNaS8ZAU4FZVD/giphy.gif"],
@@ -408,8 +409,8 @@
                         "details": [
                             "Increases %Damage, Max Enemies Pierced, and Number of Attacks of empowered attack",
                             "Empowered attack now explodes at the end, damaging nearby enemies",
-                            "<span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> can now also be empowered by using <span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Piercing Arrow'/></span> or <span data-tooltip='Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> a set number of times<ul><li>Enemies hit with empowered <span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Piercing Arrow'/></span> gain a debuff causing the next <span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Piercing Arrow'/></span> to deal an additional attack and consume the debuff</li></ul>",
-                            "All Empowered attacks grant a buff if the attack successfully lands<ul><li><strong>[Buff]</strong>: Increases %Final Damage and %Ignore DEF</li></ul>",
+                            "<span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> will now also be empowered by using <span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Piercing Arrow'/></span> a set number of times<ul><li>Enemies hit with empowered <span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> are dealt an additional attack",
+                            "All Empowered attacks grant a buff upon successful attacks<ul><li><strong>[Buff]</strong>: Increases %Final Damage and %Ignore DEF</li></ul>",
                             "Also permanently increases your %Final Damage and %Ignore DEF"
                         ]
                     },

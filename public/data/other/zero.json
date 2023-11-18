@@ -177,7 +177,7 @@
                 },
                 {
                     "name": "Doubletime",
-                    "shortDesc": "Reduces Zero's attack skill cooldown by 4 seconds (excluding used skill, Transcendent skill, and 5th Job skills).\\n[Detect]: When Alpha attacks, damage increases by 1% for 20 seconds. Can stack up to 5 times.\\n[Strength]: When Beta attacks, damage increases by 1% for 20 seconds. Can stack up to 5 times\\nEffect for [Detect] and [Strength] remains even when tagged.",
+                    "shortDesc": "Reduces Zero's attack skill cooldown by 4 seconds (excluding used skill, Transcendent skill, 5th Job skills, and some 6th job skills).\\n[Detect]: When Alpha attacks, damage increases by 1% for 20 seconds. Can stack up to 5 times.\\n[Strength]: When Beta attacks, damage increases by 1% for 20 seconds. Can stack up to 5 times\\nEffect for [Detect] and [Strength] remains even when tagged.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/other/zero/doubletime.png"],
                     "type": "Passive",
@@ -185,6 +185,7 @@
                     "details": [
                         "<img src='/class-icons/other/zero/doubletime-recon.png' alt='Skill Doubletime Recon'/> <strong>[Alpha - Detect]</strong>: Increases %Crit Rate",
                         "<img src='/class-icons/other/zero/doubletime-strength.png' alt='Skill Doubletime Strength'/> <strong>[Beta - Strength]</strong>: Increases %Damage<ul><li>At max stacks increases Attack Speed (by 1 stage)</li></ul>",
+                        "Excludes Transcendent, 5th Job, and some 6th Job skills",
                         "Effects persist even when tagged"
                     ]
                 },
@@ -703,6 +704,7 @@
                     "details": [
                         "While active, nearby enemies are slowed, skills have reduced cooldowns and you gain increased Attack Speed (by 2 stages), %Final Damage",
                         "When the skill ends, deals a final attack that prioritizes binded enemies and bosses with the highest Max HP first",
+                        "Right-clicking the skill will toggle ON/OFF Break Mode where enemies binded at the end of the attack<ul><li>Activating the skill by pressing the Down Arrow Key and Skill Key together will trigger the opposite mode</li></ul>",
                         "Unaffected by Attack Ignore and Damage Reflect"
                     ]
                 },

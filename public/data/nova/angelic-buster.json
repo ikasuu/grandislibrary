@@ -584,12 +584,12 @@
             "fifthMain": [
                 {
                     "name": "Sparkle Burst",
-                    "shortDesc": "Summons an orb that grants 6 sec of invincibility, the orb can last up to 30 sec and explodes used again, Max Enemies Hit: 15, Damage: 900%, Number of Attacks: 15.\\nAll attack skills except Soul Buster further enhance orb invincibility duration and powers, up to 2 stages, with each stage increasing the Final Damage by 100%, and the invincibility duration by 2 sec.\\nCooldown: 120 sec",
+                    "shortDesc": "Summons an orb that grants 6 sec of invincibility, the orb explodes 3 times after 30 sec or when used again, Max Enemies Hit: 15, Damage: 900%, Number of Attacks: 15.\\nAll attack skills except Soul Buster further enhance orb invincibility duration and powers, up to 2 stages, with each stage increasing the Final Damage by 100%, and the invincibility duration by 2 sec.\\nCooldown: 120 sec",
                     "id": 400021002,
                     "icons": ["/class-icons/nova/angelic-buster/sparkle-burst.png"],
                     "animations": ["https://media4.giphy.com/media/TF3PchDrHWarxQDY6l/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Creates an orb that grants brief invincibility when activated. At the end of the duration or when the Skill Key is pressed again, the orb will explode damaging nearby enemies",
+                    "desc": "Creates an orb that grants brief invincibility when activated. At the end of the duration or when the Skill Key is pressed again, the orb explodes damaging nearby enemies",
                     "details": [
                         "All attacks except <span data-tooltip='Soul Buster (Beginner Skill)'><img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/></span> will charge the orb, increasing its %Final Damage and the invincibility duration (up to 2 stages)"
                     ]
@@ -603,8 +603,9 @@
                     "type": "Attack",
                     "desc": "3 Spotlights appear on the screen, shining light at your location. The spotlights will deal damage to enemies inside it and provides a stacking buff if you are in it",
                     "details": [
-                        "Enemies can take damage from multiple spotlights",
                         "If you are within the spotlight, you gain %Crit Rate, %Final Damage (additive), and Abnormal Status Resistance<ul><li>Each spotlight will grant the buff (stacking up to 3 times)</li></ul>",
+                        "Enemies can take damage from multiple spotlights",
+                        "Right-clicking the skill will toggle ON/OFF the skill's background music",
                         "Unaffected by Damage Reflect"
                     ]
                 },
