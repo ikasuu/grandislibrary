@@ -147,7 +147,7 @@ export function HexaSkillContainer({skillData, settings}){
                             name={skill.name}
                             properties={{}}
                             shortDesc={skill.shortDesc}
-                            maxLevel={"25 + 5"}
+                            maxLevel={"30"}
                             animationSetting={settings.animations}/>
                     </div>)
             }

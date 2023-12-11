@@ -754,34 +754,22 @@
         "sixth": {
             "masteryCore": [
                 {
-                    "name": "Burning Soul Blade",
-                    "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summon Duration: 72 sec. Press the skill key again to have the blade stay put (it will respawn if you stray too far).\\nWhen you use an offensive skill, attacks up to 8 enemies 6 times every 1 sec with 50% bonus Critical Rate.\\nNormal - Damage: 620% (While enraged: 700%)\\nStationary - Damage: 565% (While enraged: 615%)\\nCooldown: 120 sec.",
-                    "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
-                    "animations": ["https://media1.giphy.com/media/RGGyqEcRKlFU49DhcL/giphy.gif?cid=790b7611420c152aab6633a04745253a8516f456b0b73095"],
-                    "type": "Summon",
-                    "desc": "When used, fully charges your Combo and summons a sword that attacks whenever you attack",
-                    "details": [
-                        "Pressing the Skill Key again will make it stationary and attack nearby enemies<ul><li>Pressing the Down Arrow Key and Skill Key together when first summoning will deploy the sword in the stationary state</li></ul>",
-                        "The sword's attacks have increased %Crit Rate",
-                        "Deals increased damage while <span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> Enraged",
-                        "Unaffected by Damage Reflect"
-                    ]
+                    "name": "HEXA Raging Blow",
+                    "shortDesc": "MP Cost: 51, Max Enemies Hit: 8, Damage: 530%, Number of Attacks: 4, Final attack is always a critical hit, attack range of Burning Soul Blade normal state is increased\\nEnhanced Raging Blow - Attack: 4 times, Damage: 590%, and the final two attacks are criticals, attack range of Instinctual Combo and Burning Soul Blade is increased",
+                    "icons": ["/class-icons/explorers/hero/hexa-raging-blow.png", "/class-icons/explorers/hero/raging-blow.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGV6M2k4bXk0bTJ4NGpxY3ZzeG9kaHBsbGVmdGc2d3Z6Zmw0dWZjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1BU5CUfBiNQIraio3z/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
                 }
             ],
             "originSkill": [
                 {
-                    "name": "Burning Soul Blade",
-                    "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summon Duration: 72 sec. Press the skill key again to have the blade stay put (it will respawn if you stray too far).\\nWhen you use an offensive skill, attacks up to 8 enemies 6 times every 1 sec with 50% bonus Critical Rate.\\nNormal - Damage: 620% (While enraged: 700%)\\nStationary - Damage: 565% (While enraged: 615%)\\nCooldown: 120 sec.",
-                    "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
-                    "animations": ["https://media1.giphy.com/media/RGGyqEcRKlFU49DhcL/giphy.gif?cid=790b7611420c152aab6633a04745253a8516f456b0b73095"],
-                    "type": "Summon",
-                    "desc": "When used, fully charges your Combo and summons a sword that attacks whenever you attack",
-                    "details": [
-                        "Pressing the Skill Key again will make it stationary and attack nearby enemies<ul><li>Pressing the Down Arrow Key and Skill Key together when first summoning will deploy the sword in the stationary state</li></ul>",
-                        "The sword's attacks have increased %Crit Rate",
-                        "Deals increased damage while <span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> Enraged",
-                        "Unaffected by Damage Reflect"
-                    ]
+                    "name": "Spirit Calibur",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nChase Cut occurs 12 times which attack up to 15 enemies with 3900% damage 14 times\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/hero/spirit-calibur.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTMydG1uY291Nnl1aGI1YTI4dG9jOGY2am5pYXc5bmI2OGR6ZWg2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Idg3ncL8llavpo5tVo/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": ""
                 }
             ]
         },
@@ -820,6 +808,16 @@
                 "name": "Instinctual Combo - 5th Job",
                 "icons": ["/class-icons/explorers/hero/instinctual-combo.png"],
                 "animations": ["https://media.giphy.com/media/3ZBgUWHGOrYdECsEEQ/giphy.gif"]
+            },
+            {
+                "name": "HEXA Raging Blow - 6th Job",
+                "icons": ["/class-icons/explorers/hero/hexa-raging-blow.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGV6M2k4bXk0bTJ4NGpxY3ZzeG9kaHBsbGVmdGc2d3Z6Zmw0dWZjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1BU5CUfBiNQIraio3z/giphy.gif"]
+            },
+            {
+                "name": "Spirit Calibur - 6th Job",
+                "icons": ["/class-icons/explorers/hero/spirit-calibur.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTMydG1uY291Nnl1aGI1YTI4dG9jOGY2am5pYXc5bmI2OGR6ZWg2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Idg3ncL8llavpo5tVo/giphy.gif"]
             }
         ]
     },

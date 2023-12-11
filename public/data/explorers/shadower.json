@@ -31,7 +31,7 @@
             "summons": "<div><span data-tooltip='Dark Flare (3rd Job)'><img src='/class-icons/explorers/shadower/dark-flare.png' alt='Skill Dark Flare'/></span>[60s](60s cd)</div> <div><span data-tooltip='Smokescreen (4th Job)'><img src='/class-icons/explorers/shadower/smokescreen.png' alt='Skill Smokescreen'/></span>[30s](150s cd)</div> <div><span data-tooltip='Shadow Veil (Hyper Skill)'><img src='/class-icons/explorers/shadower/shadow-veil.png' alt='Skill Shadow Veil'/></span>[12s](60s cd)</div>",
             "buffCd": "<div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/thief/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div>",
             "buffFifth": "<div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Shadow Walker (5th Job)'><img src='/class-icons/5th-job/shadow-walker.png' alt='Skill Shadow Walker'/></span>[30s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Dark Sight (1st Job)'><img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>[200s](Special, 0 - 15s cd)</div> <div><span data-tooltip='Trickblade (5th Job)'><img src='/class-icons/explorers/shadower/trickblade.png' alt='Skill Trickblade'/></span>[1.8s](20s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Dark Sight (1st Job)'><img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>[200s](Special, 0 - 15s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Smokescreen (4th Job)'><img src='/class-icons/explorers/shadower/smokescreen.png' alt='Skill Smokescreen'/></span>[30s](-10% | 150s cd)</div>"
         },
         "linkSkill": {
@@ -755,6 +755,35 @@
                 }
             ]
         },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "HEXA Assassinate",
+                    "shortDesc": "MP Cost: 57, Damage: 395%, Number of Consecutive Attacks: 6, Press the skill key once more to deal 690% damage 6 times as the final blow.\\nFinal Damage increases by 50% when using a final blow that consumes the Murderous Intent buff.\\nEnhances to HEXA Pulverize every 10 sec.",
+                    "icons": ["/class-icons/explorers/shadower/hexa-assassinate.png", "/class-icons/explorers/shadower/assassinate.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHA1dWJ5dnhvNzUzZDZkcW5paHA4N21kMzQ1OXpoMm1hM3VkbWplcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bfzrumApammZ3HBUUi/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                },
+                {
+                    "name": "HEXA Pulverize",
+                    "shortDesc": "MP Cost: 57, Damage: 480%, Number of Consecutive Attacks: 6, Press the skill key once more to deal 835% damage 6 times as the final blow.\\nFinal Damage increases by 50% when using a final blow that consumes the Murderous Intent buff.\\nUpon use, Dark Sight Duration: 6 sec\\nCooldown: 10 sec\\nUsing Shadow Veil increases the number of uses by 2, using Smokescreen increases the number of uses by 3, maintaining for 3 sec within Smokescreen charges the number of uses by 1, Max Number of Charges: 5",
+                    "icons": ["/class-icons/explorers/shadower/hexa-pulverize.png", "/class-icons/explorers/shadower/assassinate.png"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                }
+            ],
+            "originSkill": [
+                {
+                    "name": "Halve Cut",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15, Damage: 6300%, Number of Attacks: 6, Chase Cuts: 5. Damage: 7200%, Number of Attacks: 6, Chase Cuts: 5. Damage: 8400%, Number of Attacks: 7, Finishing Blows: 8\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/explorers/shadower/halve-cut.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG5rdms5a2N0a2Q0OGgzdHFtZW84ZnhjMzl5ZXIyMzc2MGxiZ2xpYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a9rjqeYE1ZRWDp8dTS/giphy.gif"],
+                    "type": "Bind Attack",
+                    "desc": ""
+                }
+            ]
+        },
         "notable": [
             {
                 "name": "Shadow Partner - 3rd Job",
@@ -790,6 +819,16 @@
                 "name": "Sonic Blow - 5th Job",
                 "icons": ["/class-icons/explorers/shadower/sonic-blow.png"],
                 "animations": ["https://media3.giphy.com/media/fYY03ozM65PWVOHuKo/giphy.gif"]
+            },
+            {
+                "name": "HEXA Assassinate - 6th Job",
+                "icons": ["/class-icons/explorers/shadower/hexa-assassinate.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHA1dWJ5dnhvNzUzZDZkcW5paHA4N21kMzQ1OXpoMm1hM3VkbWplcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bfzrumApammZ3HBUUi/giphy.gif"]
+            },
+            {
+                "name": "Halve Cut - 6th Job",
+                "icons": ["/class-icons/explorers/shadower/halve-cut.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG5rdms5a2N0a2Q0OGgzdHFtZW84ZnhjMzl5ZXIyMzc2MGxiZ2xpYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a9rjqeYE1ZRWDp8dTS/giphy.gif"]
             }
         ]
     },
