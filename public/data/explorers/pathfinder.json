@@ -32,7 +32,8 @@
             "toggles": "<div><span data-tooltip='Curse Enchant Force (4th Job)'><img src='/class-icons/explorers/pathfinder/curse-enchant-force.png' alt='Skill Curse Enchant Force'/></span>(Special)</div>",
             "summons": "<div><span data-tooltip='Shadow Raven (3rd Job)'><img src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/></span>[220s]</div> <div><span data-tooltip='Raven Tempest (5th Job)'><img src='/class-icons/explorers/pathfinder/raven-tempest.png' alt='Skill Raven Tempest'/></span>[27s/10s](120s cd)</div> <div><span data-tooltip='Obsidian Barrier (5th Job)'><img src='/class-icons/explorers/pathfinder/obsidian-barrier.png' alt='Skill Obsidian Barrier'/></span>[12s](120s cd)</div> <div><span data-tooltip='Relic Unbound (5th Job)'><img src='/class-icons/explorers/pathfinder/relic-unbound.png' alt='Skill Relic Unbound'/></span>[22s/10s/40s](120s cd)</div> <div><span data-tooltip='Fury of the Wild (5th Job)'><img src='/class-icons/5th-job/fury-of-the-wild.png' alt='Skill Fury of the Wild'/></span>[40s](105s cd)</div> <div><span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)</div>",
             "buffCd": "<div><span data-tooltip='Awakened Relic (Hyper Skill)'><img src='/class-icons/explorers/pathfinder/awakened-relic.png' alt='Skill Awakened Relic'/></span>[30s](120s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/archer/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>[30s](120s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Nova Blast (5th Job)'><img src='/class-icons/explorers/pathfinder/nova-blast.png' alt='Skill Nova Blast'/></span>(120s cd)</div>",
+            "binds": "<div><span data-tooltip='Forsaken Relic (6th Job)'><img src='/class-icons/explorers/pathfinder/forsaken-relic.png' alt='Skill Forsaken Relic'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Nova Blast (5th Job)'><img src='/class-icons/explorers/pathfinder/nova-blast.png' alt='Skill Nova Blast'/></span>(120s cd)</div> <div><span data-tooltip='Forsaken Relic (6th Job)'><img src='/class-icons/explorers/pathfinder/forsaken-relic.png' alt='Skill Forsaken Relic'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Ancient Astra (Hyper Skill)'><img src='/class-icons/explorers/pathfinder/ancient-astra.png' alt='Skill Ancient Astra'/></span>(-60% | 60s cd)</div> <div><span data-tooltip='Obsidian Barrier (5th Job)'><img src='/class-icons/explorers/pathfinder/obsidian-barrier.png' alt='Skill Obsidian Barrier'/></span>[12s](-40% | 120s cd)</div>"
         },
         "linkSkill": {
@@ -157,7 +158,6 @@
             [
                 "1st Job", [
                     {
-                        "id": 3010001,
                         "name": "Curse Dampening I",
                         "shortDesc": "Activated when attacking with a Cardinal Force skill. Accumulates up to level 10, with a Critical Rate increase of 2% for each level.\\nCan only be activated when the curse is reducing your Critical Rate.",
                         "maxLevel": 1,
@@ -169,7 +169,6 @@
                         ]
                     },
                     {
-                        "id": 3011004,
                         "name": "Cardinal Deluge",
                         "shortDesc": "MP Cost: 10, Max Enemies Hit: 4. Blasts an arrow that deals 90% damage 4 times.",
                         "maxLevel": 20,
@@ -185,7 +184,6 @@
                         ]
                     },
                     {
-                        "id": 3011005,
                         "name": "Double Jump",
                         "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
                         "maxLevel": 10,
@@ -200,7 +198,6 @@
                         ]
                     },
                     {
-                        "id": 3010003,
                         "name": "Archery Mastery",
                         "shortDesc": "Range +120, Movement Speed +30, Attack Speed: +1.\\nMax Movement Speed Increased to 160",
                         "maxLevel": 15,
@@ -208,7 +205,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 3010002,
                         "name": "Forceful Shot",
                         "shortDesc": "Critical Rate: +40%",
                         "maxLevel": 20,
@@ -218,7 +214,6 @@
                 ],
                 [
                     "2nd Job", [{
-                        "id": 3300000,
                         "name": "Relic Charge I",
                         "shortDesc": "Relic Gauge Maximum Charge: 1000\\nAttacking an enemy with a Cardinal Force skill charges the relic gauge by 10, and by 5 for every guided arrow of Cardinal Deluge that hits an enemy.\\nIf a different Cardinal Force skill is used next, the cooldown for all Ancient Force skills will be reduced by 0.5, except for the 5th Job Advancement skills.",
                         "maxLevel": 1,
@@ -230,7 +225,6 @@
                         ]
                     },
                     {
-                        "id": 3300001,
                         "name": "Curse Dampening II",
                         "shortDesc": "Activated when attacking with a Cardinal Force skill. Accumulates up to level 10, with a Defense increase of 2% for each level.\\nCan only be activated when the curse is reducing your Defense.",
                         "maxLevel": 1,
@@ -242,7 +236,6 @@
                         ]
                     },
                     {
-                        "id": 3300002,
                         "name": "Cardinal Deluge Amplification",
                         "shortDesc": "MP Cost: 15. Fires an arrow that deals 200% damage to up to 5 enemies 4 times. If a boss monster is within the attack's range, fires 1 additional arrows.",
                         "maxLevel": 10,
@@ -255,7 +248,6 @@
                         ]
                     },
                     {
-                        "id": 3301003,
                         "name": "Cardinal Burst",
                         "shortDesc": "MP Cost: 15, Max Enemies: 5, Damage: 200%, Attack Count: 4, when the arrow explodes.",
                         "maxLevel": 20,
@@ -269,7 +261,6 @@
                         ]
                     },
                     {
-                        "id": 3301008,
                         "name": "Swarm Shot",
                         "shortDesc": "Relic Gauge Cost: 50, Max Enemies Hit: 8, Damage: 200%, Attack Count: 4. Creates 2 magical arrows that deal 100% damage 4 times each time this attack pierces an enemy.\\nCooldown: 10 sec.",
                         "maxLevel": 19,
@@ -279,7 +270,6 @@
                         "desc": "Fires an arrow forward that splits upon hitting an enemy and seeks out nearby enemies"
                     },
                     {
-                        "id": 3301010,
                         "name": "Agile Ancient Bows",
                         "shortDesc": "Attack Speed: +2, DEX: +20",
                         "maxLevel": 10,
@@ -287,7 +277,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 3300005,
                         "name": "Bountiful Deluge",
                         "shortDesc": "When using Cardinal Burst while the relic displays the Deluge emblem, there is a 40% chance to create 3 magical arrows.\\nThese magical arrows will chase and attack nearby enemies for 2 sec, dealing 100% damage 3 times.",
                         "maxLevel": 20,
@@ -300,7 +289,6 @@
                         ]
                     },
                     {
-                        "id": 3300006,
                         "name": "Ancient Bow Mastery",
                         "shortDesc": "Ancient Bow Mastery: +50%, Attack Power +30",
                         "maxLevel": 10,
@@ -308,7 +296,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 3300007,
                         "name": "Physical Training",
                         "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
                         "maxLevel": 5,
@@ -318,7 +305,6 @@
                 ],
                 [
                     "3rd Job", [{
-                        "id": 3310000,
                         "name": "Curse Dampening III",
                         "shortDesc": "Activated when attacking with a Cardinal Force skill. Accumulates up to level 10, with a Status Resistance increase of 2% for each level.\\nCan only be activated when the curse is reducing your Status Resistance.",
                         "maxLevel": 1,
@@ -330,7 +316,6 @@
                         ]
                     },
                     {
-                        "id": 3310001,
                         "name": "Cardinal Burst Amplification",
                         "shortDesc": "MP Cost: 20, Max Enemies: 6, Damage: 420%, Attack Count: 4, when the arrow explodes.",
                         "maxLevel": 10,
@@ -342,7 +327,6 @@
                         ]
                     },
                     {
-                        "id": 3311002,
                         "name": "Cardinal Torrent",
                         "shortDesc": "MP Cost: 20, Consumes 1 Swiftstrike Charge\\nDeals 400% damage 5 times to up to 6 nearby enemies.\\nYou gain 1 Swiftstrike Charge every 7 sec, and can store up to a maximum of 5.",
                         "maxLevel": 20,
@@ -358,7 +342,6 @@
                         ]
                     },
                     {
-                        "id": 3311010,
                         "name": "Triple Impact",
                         "shortDesc": "Relic Gauge Cost: 50. Explosions deal 265% damage 5 times to up to 4 enemies.\\nCooldown 10 sec\\n[Passive Effect - Swarm Shot Normal Enemy Damage: +120% points]",
                         "maxLevel": 20,
@@ -373,7 +356,6 @@
                         ]
                     },
                     {
-                        "id": 3311009,
                         "name": "Shadow Raven",
                         "shortDesc": "MP Cost: 70, summon a Raven for 220 sec. Deals 390% damage to up to 4 enemies at once.\\n[Passive Effect: Increases your Defense by 30%]",
                         "maxLevel": 10,
@@ -387,7 +369,6 @@
                         ]
                     },
                     {
-                        "id": 3311012,
                         "name": "Cursebound Endurance",
                         "shortDesc": "MP Cost: 58, increases Status Resistance by 30 for 300 sec. If afflicted by an abnormal status while this skill, Status Resistance will be increased by 20, and can be stacked up to 5 times.\\n[Passive Effect: Increases Status Resistance by 30 and all Elemental Resistances by 30%]",
                         "maxLevel": 14,
@@ -401,7 +382,6 @@
                         ]
                     },
                     {
-                        "id": 3310006,
                         "name": "Guidance of the Ancients",
                         "shortDesc": "Each time the Relic Gauge has been filled up by 500, your Final Damage is increased by 8% for 40 sec.\\nRestores HP/MP by 8% when activated\\n[Passive Effect: Increases Max HP by 50% and Final Damage by 20%]",
                         "maxLevel": 10,
@@ -413,7 +393,6 @@
                         ]
                     },
                     {
-                        "id": 3310004,
                         "name": "Bountiful Burst",
                         "shortDesc": "When using Cardinal Deluge while the relic displays the Burst emblem, there is a 40% chance to create 2 magical arrows.\\nThese magical arrows will chase nearby enemies for 2 sec and explode on contact, dealing 150% damage to up to 4 enemies 3 times.",
                         "maxLevel": 20,
@@ -426,7 +405,6 @@
                         ]
                     },
                     {
-                        "id": 3310005,
                         "name": "Evasion Boost",
                         "shortDesc": "Dodge Chance: 30%, all attacks following a successful dodge for 1 sec will be critical hits, Knockback Resistance: +40%",
                         "maxLevel": 10,
@@ -439,7 +417,6 @@
                         ]
                     },
                     {
-                        "id": 3310008,
                         "name": "Archer's Essence",
                         "shortDesc": "Critical Rate: +10%, Damage: +10%, Ignore Defense: +30%",
                         "maxLevel": 10,
@@ -449,7 +426,6 @@
                 ],
                 [
                     "4th Job", [{
-                        "id": 3320000,
                         "name": "Relic Charge II",
                         "shortDesc": "The Relic Gauge is charged by 20 when attacking an enemy with a Cardinal Force skill, and by 10 per hit from Cardinal Deluge's guided arrows.\\nThe Shadow Raven will charge the Relic Gauge by 10 for each enemy hit by its attacks. When you use another Cardinal Force skill, all Ancient Force and Enchant Force skills will have their cooldowns reduced by 1 sec, except for 5th Job Advancement skills.",
                         "maxLevel": 1,
@@ -463,7 +439,6 @@
                         ]
                     },
                     {
-                        "id": 3320001,
                         "name": "Curseweaver",
                         "shortDesc": "Using certain skills will inflict enemies with the Ancient Curse debuff, which lasts for 30 sec and can be stacked up to 5 times.\\nSkills that utilize the Ancient Bow deal an increased 4% Critical Damage to enemies for each stack of the curse debuff currently afflicting them.",
                         "maxLevel": 1,
@@ -485,7 +460,6 @@
                         "desc": "Using the Arrow Keys, choose between Deluge (Up), Burst (Left), or Torrent (Right) to always apply on Enchant Force Skills"
                     },
                     {
-                        "id": 3320002,
                         "name": "Advanced Cardinal Force",
                         "shortDesc": "When using Cardinal Force skills, MP Cost: 30\\nCardinal Deluge\\nFires an arrow that deals 300% damage to up to 6 enemies 5 times. Fires 1 additional arrow if a boss monster is within range.\\nBountiful Deluge Normal Enemy Damage: +100%\\nCardinal Burst\\nAn exploding arrow deals 600% damage to up to 7 enemies 5 times.\\nBountiful Burst Normal Enemy Damage: +100%\\nCardinal Torrent\\nConsumes 1 Swiftstrike Charge. Deals 540% damage 5 times to up to 7 nearby enemies. You gain 1 Swiftstrike Charge every 7 sec up to a maximum of 5. You cannot be pushed back while casting, and each enemy hit will receive 1 stack of the Ancient Curse debuff.",
                         "maxLevel": 20,
@@ -501,7 +475,6 @@
                         ]
                     },
                     {
-                        "id": 3321012,
                         "name": "Glyph of Impalement",
                         "shortDesc": "Relic Gauge Cost: 100, Max Enemies Hit: 8, Damage: 880%, Attack Count: 6. Final Damage increased by 10% per stack of the Ancient Curse debuff.\\nCooldown: 15 sec.",
                         "maxLevel": 30,
@@ -515,7 +488,6 @@
                         ]
                     },
                     {
-                        "id": 3321014,
                         "name": "Combo Assault",
                         "shortDesc": "Relic Gauge Cost: 100. Bow attack deals 500% damage to up to 4 enemies 7 times, inflicting 1 stack(s) of the Ancient Curse debuff.\\nArrow attack deals 550% damage to up to 10 enemies 5 times.\\nCooldown: 20 sec",
                         "maxLevel": 30,
@@ -530,7 +502,6 @@
                         ]
                     },
                     {
-                        "id": 3321022,
                         "name": "Sharp Eyes",
                         "shortDesc": "MP Cost: 45, Critical Rate: +20%, Critical Damage: +15%, Duration: 300 sec",
                         "maxLevel": 30,
@@ -539,7 +510,6 @@
                         "type": "Party Buff"
                     },
                     {
-                        "id": 3321023,
                         "name": "Maple Warrior",
                         "shortDesc": "MP Cost: 60, Increases all stats assigned APs by 15% for 900 sec",
                         "maxLevel": 30,
@@ -548,7 +518,6 @@
                         "type": "Party Buff"
                     },
                     {
-                        "id": 3321024,
                         "name": "Hero's Will",
                         "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
@@ -561,7 +530,6 @@
                         ]
                     },
                     {
-                        "id": 3320008,
                         "name": "Bountiful Torrent",
                         "shortDesc": "When using Cardinal Deluge or Cardinal Burst while the relic displays the Torrent emblem, your next 6 attacks within the following 7 sec have a 40% chance to apply 1 stack of the Ancient Curse debuff.\\nPermanently increases your Attack Power by 20%.",
                         "maxLevel": 20,
@@ -573,7 +541,6 @@
                         ]
                     },
                     {
-                        "id": 3320009,
                         "name": "Ancient Archery",
                         "shortDesc": "Bountiful Deluge Damage: +65%p, Bountiful Burst Damage: +70%p\\nSwarm Shot First Arrow Damage: +350%p, Additional Magical Arrows' Damage: +200%p\\nFinal Damage of Ancient Force and Enchant Force Skills: +10%, Boss Damage: +50%",
                         "maxLevel": 30,
@@ -585,7 +552,6 @@
                         ]
                     },
                     {
-                        "id": 3320010,
                         "name": "Ancient Bow Expertise",
                         "shortDesc": "Ancient Bow Mastery: +70%. Attack Power: +60, Critical Damage: +10%",
                         "maxLevel": 30,
@@ -598,7 +564,6 @@
                         ]
                     },
                     {
-                        "id": 3320011,
                         "name": "Illusion Step",
                         "shortDesc": "DEX: +80, Bonus Avoidability Chance: +30%, Damage Taken: -20%, Knockback Resistance: +60%",
                         "maxLevel": 30,
@@ -610,7 +575,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 3320025,
                     "name": "Sharp Eyes - Persist",
                     "shortDesc": "Duration: +30 sec",
                     "maxLevel": 1,
@@ -619,7 +583,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 3320026,
                     "name": "Sharp Eyes - Guardbreak",
                     "shortDesc": "Enemy DEF Ignored: +5%",
                     "maxLevel": 1,
@@ -628,7 +591,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 3320027,
                     "name": "Sharp Eyes - Critical Chance",
                     "shortDesc": "Critical Rate: +5%",
                     "maxLevel": 1,
@@ -637,7 +599,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 3320028,
                     "name": "Cardinal Force - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -650,7 +611,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 3320029,
                     "name": "Cardinal Force - Bountiful Enhance",
                     "shortDesc": "Activation rate and debuff application chance: +10%",
                     "maxLevel": 1,
@@ -664,7 +624,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 3320030,
                     "name": "Cardinal Force - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
@@ -677,7 +636,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 3320031,
                     "name": "Ancient Force - Boss Rush",
                     "shortDesc": "Boss Damage: +20%",
                     "maxLevel": 1,
@@ -690,7 +648,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 3320032,
                     "name": "Ancient Force - Guardbreak",
                     "shortDesc": "Ignore Defense: +20%",
                     "maxLevel": 1,
@@ -703,7 +660,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 3320033,
                     "name": "Ancient Force - Enchant Enhance",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -718,7 +674,6 @@
             ],
             "hyperActive": [
                 {
-                    "id": 3321034,
                     "name": "Awakened Relic",
                     "shortDesc": "MP Cost: 300, Instantly fills the Relic Gauge to its maximum capacity. The amount charged counts toward the activation of Guidance of the Ancients.\\nFor 30 sec, 1 additional magical arrows will be created when Bountiful Deluge and Bountiful Burst are used, and the time required to generate a unit of Swiftstrike Energy is reduced to 3 sec\\nCooldown: 120 sec",
                     "maxLevel": 1,
@@ -733,7 +688,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 3321035,
                     "name": "Ancient Astra",
                     "shortDesc": "",
                     "maxLevel": 1,
@@ -743,7 +697,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 3321035,
                     "name": "Ancient Astra [Deluge]",
                     "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 7 enemies, for 400% damage, 6 times. Has a 30% chance to create 2 magical arrows that attack 2 times, dealing 240% damage.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
@@ -759,7 +712,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 3321035,
                     "name": "Ancient Astra [Burst]",
                     "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to intermittenly fire arrows at the designated angle. The arrows' explosion deals 1440% damage, 10 times, to up to 12 enemies. The fire arrow fired with this skill cannot be angled and is fired straight ahead.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
@@ -775,7 +727,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 3321035,
                     "name": "Ancient Astra [Torrent]",
                     "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 4 enemies, for 360% damage, 6 times.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
@@ -791,7 +742,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 3321041,
                     "name": "Epic Adventure",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
                     "maxLevel": 1,
@@ -808,7 +758,6 @@
                 {
                     "name": "Nova Blast",
                     "shortDesc": "Relic Gauge Cost: 200 or more required to use the skill. Consumes all energy built up in the Relic Gauge to activate an explosion 6 times that deals 900% damage 15 times to up to 15 enemies. Invulnerable while casting.\\nIf the consumed Relic Gauge exceeds certain thresholds (25%/50%/75%/100%), Final Damage will be increased by 25%/50%/75%/100%, respectively. Ignore Def +100%\\nCooldown: 120 sec",
-                    "id": 400031034,
                     "icons": ["/class-icons/explorers/pathfinder/nova-blast.png"],
                     "animations": ["https://media2.giphy.com/media/JCUnBMtM6PKls25vSO/giphy.gif"],
                     "type": "Ancient Force Attack",
@@ -822,7 +771,6 @@
                 {
                     "name": "Raven Tempest",
                     "shortDesc": "Relic Gauge Cost: 300\\nRaven Tempest: Duration: 27 sec, Max Enemies Hit: 12, Damage: 900%, Attack Count: 5\\nFury of the Wild Tempest: Duration: 10 sec, Max enemies Hit: 12, Damage: 900%, Number of Attacks: 6\\nCharges the Relic Gauge by 20 when attacking\\nDirection Change Cooldown: 2, Cooldown: 120 sec",
-                    "id": 400031036,
                     "icons": ["/class-icons/explorers/pathfinder/raven-tempest.png"],
                     "animations": ["https://media2.giphy.com/media/zuIveM1teNcGxxzSbU/giphy.gif"],
                     "type": "Ancient Force Summon",
@@ -838,7 +786,6 @@
                 {
                     "name": "Obsidian Barrier",
                     "shortDesc": "",
-                    "id": 400031037,
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "type": "Enchant Force Attack/Buff Zone",
                     "desc": "Creates a protective barrier for your and your party members that have different effects based on the emblem displayed on your Relic Gauge and damages enemies within it (except for Deluge)"
@@ -846,7 +793,6 @@
                 {
                     "name": "Obsidian Barrier [Deluge]",
                     "shortDesc": "Relic Gauge Cost: 300, Duration: 11 sec, Hit damage -40% (including attacks that deal a fixed percent of damage)\\nCooldown: 120 sec",
-                    "id": 400031037,
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-deluge.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/UUTGXzKkcbVupXfbDj/giphy.gif"],
                     "type": "Enchant Force Attack/Buff Zone",
@@ -859,7 +805,6 @@
                 {
                     "name": "Obsidian Barrier [Burst]",
                     "shortDesc": "Relic Gauge Cost: 300, Duration: 11 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%\\nThe shield will deal 950% damage 4 times to up to 15 enemies within its radius.\\nCooldown: 120 sec",
-                    "id": 400031037,
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-burst.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/XO2wqf3jltl5YWG5Bi/giphy.gif"],
                     "type": "Enchant Force Attack/Buff Zone",
@@ -874,7 +819,6 @@
                 {
                     "name": "Obsidian Barrier [Torrent]",
                     "shortDesc": "Relic Gauge Cost: 300, Duration: 11 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%.\\nThe shield will deal 950% damage 4 times to up to 10 enemies within its radius.\\nRedeployment Cooldown: 2 sec, Cooldown: 120 sec",
-                    "id": 400031037,
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-torrent.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/RYRC7BQrkl3gNJttj6/giphy.gif"],
                     "type": "Enchant Force Attack/Buff Zone",
@@ -889,7 +833,6 @@
                 {
                     "name": "Relic Unbound",
                     "shortDesc": "Relic Gauge Cost: 250\\nDeluge Enhancement: rapidly shoot arrows that periodically deal 1000% damage for 22 sec\\nBurst Enhancement: shoot arrows that explode 4 times periodically dealing 1250% damage up to 10 enemies 8 times for 10 sec, can shoot up to 4 arrows\\nTorrent Enhancement: sets up to 3 Relics that periodically attacks up to 6 enemies with 1400% damage 5 times for 40 sec\\nCooldown: 120 sec",
-                    "id": 400031037,
                     "icons": ["/class-icons/explorers/pathfinder/relic-unbound.png"],
                     "animations": ["https://media0.giphy.com/media/r6Va6RN6wAkIV0mc2G/giphy.gif"],
                     "type": "Enchant Force Summon",

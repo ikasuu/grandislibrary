@@ -31,7 +31,8 @@
             "toggles": "<span data-tooltip='Soul Link (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/soul-link.png' alt='Skill Soul Link'/></span> <span data-tooltip='Roiling Soul (4th Job)'><img src='/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span>",
             "summons": "<div><span data-tooltip='Install Shield (4th Job)'><img src='/class-icons/cygnus-knights/mihile/install-shield.png' alt='Skill Install Shield'/></span>[60s](30s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div>",
             "buffCd": "<div><span data-tooltip='Knight&#39;s Watch (Link Skill)'><img src='/class-icons/link-skills/knights-watch.png' alt='Skill Knight&#39;s Watch'/></span>[45s](180s cd)</div> <div><span data-tooltip='Soul Majesty (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/soul-majesty.png' alt='Skill Soul Majesty'/></span>[25s](180s cd)</div> <div><span data-tooltip='Queen of Tomorrow (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png' alt='Skill Queen of Tomorrow'/></span>[60s](120s cd)</div> <div><span data-tooltip='Shield of Light (5th Job)'><img src='/class-icons/cygnus-knights/mihile/shield-of-light.png' alt='Skill Shield of Light'/></span>[99s / 25s barrier](180s cd)</div> <div><span data-tooltip='Radiant Soul (5th Job)'><img src='/class-icons/cygnus-knights/mihile/radiant-soul.png' alt='Skill Radiant Soul'/></span>[35s](180s cd)</div> <div><span data-tooltip='Light of Courage (5th Job)'><img src='/class-icons/cygnus-knights/mihile/light-of-courage.png' alt='Skill Light of Courage'/></span>[25s / 12s barrier](90s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>[45s](240s cd)</span></div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Royal Guard (1st Job)'><img src='/class-icons/cygnus-knights/mihile/royal-guard.png' alt='Skill Royal Guard'/></span>[4s](6s cd)</div>",
+            "binds" : "<div><span data-tooltip='Durendal (6th Job)'><img src='/class-icons/cygnus-knights/mihile/durendal.png' alt='Skill Durendal'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Royal Guard (1st Job)'><img src='/class-icons/cygnus-knights/mihile/royal-guard.png' alt='Skill Royal Guard'/></span>[4s](6s cd)</div> <div><span data-tooltip='Durendal (6th Job)'><img src='/class-icons/cygnus-knights/mihile/durendal.png' alt='Skill Durendal'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Knight&#39;s Watch (Link Skill)'><img src='/class-icons/link-skills/knights-watch.png' alt='Skill Knight&#39;s Watch'/></span>[45s / 9 Attacks](-30% | 180s cd)</div> <div><span data-tooltip='Soul Asylum (4th Job)'><img src='/class-icons/cygnus-knights/mihile/soul-asylum.png' alt='Skill Soul Asylum'/></span>[15s](-5%) - <em>Additional -5% if <span data-tooltip='Soul Majesty (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/soul-majesty.png' alt='Skill Soul Majesty'/></span> is active [25s Buff](180s cd)</em></div> <div><span data-tooltip='Shield of Light (5th Job)'><img src='/class-icons/cygnus-knights/mihile/shield-of-light.png' alt='Skill Shield of Light'/></span>[25s / 35 Attacks](-83% | 180s cd)</div> <div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 240s cd)</div>"
         },
         "linkSkill": {
@@ -86,7 +87,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 50001000,
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
@@ -96,7 +96,6 @@
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
                 {
-                    "id": 50001001,
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
@@ -105,7 +104,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 50001002,
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
@@ -114,7 +112,6 @@
                     "type": "Buff"
                 },
                 {
-                    "id": 10001245,
                     "name": "Imperial Recall",
                     "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
                     "maxLevel": 1,
@@ -123,7 +120,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 10000246,
                     "name": "Noble Mind",
                     "shortDesc": "Increases Empress's Blessing max level by 6",
                     "maxLevel": 6,
@@ -135,7 +131,6 @@
                     ]
                 },
                 {
-                    "id": 10000250,
                     "name": "Elemental Expert",
                     "shortDesc": "Attack Power and Magic ATT: +10%",
                     "maxLevel": 1,
@@ -143,7 +138,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 50001214,
                     "name": "Knight's Watch",
                     "shortDesc": "Barrier Duration: 45 sec, Enemy Blows Blocked: 9, Damage: +25%. Damage -30% only for attacks that inflict damage at a certain ratio of the Max HP\\nCooldown: 180 sec",
                     "maxLevel": 3,
@@ -184,7 +178,6 @@
                     ]
                 },
                 {
-                    "id": 10001244,
                     "name": "Hero's Echo",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
                     "maxLevel": 1,
@@ -203,7 +196,6 @@
             ],
             [
                 "1st Job", [{
-                        "id": 51001004,
                         "name": "Shining Pierce",
                         "shortDesc": "MP Cost: 14, Max Enemies Hit: 5, Damage: 190%, Number of Attacks: 2\\nBlind Chance: 15%, Blind Duration: 10 sec, Accuracy: -30%",
                         "maxLevel": 20,
@@ -216,7 +208,6 @@
                         ]
                     },
                     {
-                        "id": 51001005,
                         "name": "Royal Guard",
                         "shortDesc": "MP Cost: 20, become invincible when attacked for 4 sec, nullifying attacks and counterattacking for a set time after use. Attack Power increases for 20 sec per counterattack.\\nIf you guard successfully while in Attack Power Increase buff state, counterattack damage, attack range, and Attack Power increases gradually.\\n[1st Time]: Max Number of Enemies: 6, Damage: 305%, Number of Attacks: 4, Attack Power: +10.\\n[2nd Time]: Max Number of Enemies: 7, Damage: 370%, Number of Attacks: 5, Attack Power: +15.\\n[3rd Time]: Max Number of Enemies: 8, Damage: 470%, Number of Attacks: 6, Attack Power: +20.\\nCooldown: 6 sec",
                         "maxLevel": 1,
@@ -232,7 +223,6 @@
                         ]
                     },
                     {
-                        "id": 51001003,
                         "name": "Weightless Heart",
                         "shortDesc": "MP Cost: 20, allows you to jump a greater distance",
                         "maxLevel": 10,
@@ -245,7 +235,6 @@
                         ]
                     },
                     {
-                        "id": 51000001,
                         "name": "Soul Shield",
                         "shortDesc": "DEF: +200, Max HP: +20%, Knockback Resistance: +40%",
                         "maxLevel": 10,
@@ -253,7 +242,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 51000002,
                         "name": "Soul Devotion",
                         "shortDesc": "Speed: +25, Jump +20, Max Speed: +10",
                         "maxLevel": 10,
@@ -261,7 +249,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 51000014,
                         "name": "Righteous Indignation",
                         "shortDesc": "When attacking enemies with Blind, Final Damage: +10%, Critical Rate: +10%",
                         "maxLevel": 15,
@@ -271,7 +258,6 @@
                 ],
                 [
                 "2nd Job", [{
-                        "id": 51101005,
                         "name": "Four-Point Assault",
                         "shortDesc": "MP Cost: 18, Max Enemies Hit: 6, Damage: 145%, Number of Attacks: 6\\nBlind Chance: 20%, Blind Duration: 10 sec, Accuracy: -30%",
                         "maxLevel": 20,
@@ -284,7 +270,6 @@
                         ]
                     },
                     {
-                        "id": 51101006,
                         "name": "Radiant Driver",
                         "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 400% while moving",
                         "maxLevel": 9,
@@ -294,7 +279,6 @@
                         "desc": "Dashes forward while pushing enemies back"
                     },
                     {
-                        "id": 51101007,
                         "name": "Vertical Radiant Driver",
                         "shortDesc": "MP Cost: 35, Max Enemies Hit: 6, Damage: 400% while moving",
                         "maxLevel": 9,
@@ -308,7 +292,6 @@
                         ]
                     },
                     {
-                        "id": 51101004,
                         "name": "Encourage",
                         "shortDesc": "MP Cost: 20, Duration: 180 sec, Attack Power: +30\\n[Passive Effects: Royal Guard Lv. 1 - 3 Counterattack Damage: +70% points]",
                         "maxLevel": 20,
@@ -321,7 +304,6 @@
                         ]
                     },
                     {
-                        "id": 51101003,
                         "name": "Agile Swords",
                         "shortDesc": "Attack Speed: +2, STR: +20",
                         "maxLevel": 10,
@@ -329,7 +311,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 51100001,
                         "name": "Sword Mastery",
                         "shortDesc": "One-Handed Sword Mastery: +50%, Attack Power: +20, Final Damage: +15%",
                         "maxLevel": 10,
@@ -337,7 +318,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 51100002,
                         "name": "Final Attack",
                         "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 50% Final Attack damage 3 time(s).",
                         "maxLevel": 20,
@@ -346,7 +326,6 @@
                         "desc": "Grants your attacks a chance to deal an additional hit"
                     },
                     {
-                        "id": 51100000,
                         "name": "Physical Training",
                         "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
                         "maxLevel": 5,
@@ -356,7 +335,6 @@
                 ],
                 [
                 "3rd Job", [{
-                        "id": 51111006,
                         "name": "Soul Release",
                         "shortDesc": "MP Cost: 19, Max Enemies Hit: 6, Damage: 460%, Number of Attacks: 3\\nBlind Chance: 30%, Blind Duration: 10 sec, Accuracy: -30%",
                         "maxLevel": 20,
@@ -369,7 +347,6 @@
                         ]
                     },
                     {
-                        "id": 51111005,
                         "name": "Magic Crash",
                         "shortDesc": "MP Cost: 15, 100% chance to remove enemies' buffs. For 22 sec, prevents 10 enemies from casting buffs.\\nCooldown: 60 sec",
                         "maxLevel": 10,
@@ -382,7 +359,6 @@
                         ]
                     },
                     {
-                        "id": 51111008,
                         "name": "Soul Link",
                         "shortDesc": "MP Cost per sec: 15\\n[Mihile]: Damage: +5% per party member in the same map. If you are not in a party, you will be considered to be in a 1-person party.\\n[Party Member]: When Mihile succeeds with Royal Guard, creates a protective shield that is 10% of each party member's Max HP for 10.0 sec for party members in the Soul Link's range.\\nPeriodically for 8 sec, party members in the Soul Link's range receive a bonus to Attack and MAGIC ATT equal to 50% of the Attack Power bonus from Royal Guard. If Advanced Royal Guard is active, they will receive 20% of its Status Resistance and 30% of its DEF Bonus.",
                         "maxLevel": 20,
@@ -397,7 +373,6 @@
                         ]
                     },
                     {
-                        "id": 51110009,
                         "name": "Advanced Royal Guard",
                         "shortDesc": "[4th Time]: Max Number of Enemies: 10, Damage: 580%, Number of Attacks: 7, Attack Power: +30.\\n[5th Time]: Max Number of Enemies: 15, Damage: 665%, Number of Attacks: 9, Attack Power: +45\\n[Passive Effect - Defense: +100%, Status Resistance: +60, Elemental Resistance: +60%]",
                         "maxLevel": 10,
@@ -411,7 +386,6 @@
                         ]
                     },
                     {
-                        "id": 51110000,
                         "name": "Self Recovery",
                         "shortDesc": "Restores 4% of Max HP and 4% of Max MP every 4 sec.",
                         "maxLevel": 14,
@@ -419,7 +393,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 51110001,
                         "name": "Loyal Oath",
                         "shortDesc": "Strength: +60, Critical Rate: +20%, Final Damage: +23%, Attack Speed: +1",
                         "maxLevel": 20,
@@ -427,7 +400,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 51110002,
                         "name": "Advanced Righteous Indignation",
                         "shortDesc": "When attacking enemies with Blind, Stun, Offensive Defense debuff, or Charging Light debuff, Final Damage: +15%, Critical Rate: +10%\\nAdditive with effect that increases with Righteous Indignation",
                         "maxLevel": 10,
@@ -440,7 +412,6 @@
                         ]
                     },
                     {
-                        "id": 51110014,
                         "name": "Offensive Defense",
                         "shortDesc": "When Royal Guard's counterattack hits, give enemy Offensive Defense debuff for 20 sec\\nWhen Radiant Soul skill hits enemy with the debuff, a light shockwave is created centered on the enemy that was hit. The Offensive Defense debuff disappears when the enemy is hit by the light shockwave.\\nLight Shockwave - Max Enemies Hit: 6, Damage: 350%, Number of Attacks: 5\\nCooldown: 12 sec",
                         "maxLevel": 20,
@@ -456,7 +427,6 @@
                 ],
                 [
                 "4th Job", [{
-                    "id": 51121005,
                     "name": "Call of Cygnus",
                     "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
@@ -465,7 +435,6 @@
                     "type": "Party Buff"
                 },
                 {
-                    "id": 11121000,
                     "name": "Cygnus Knights' Will",
                     "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 1,
@@ -478,7 +447,6 @@
                     ]
                 },
                 {
-                    "id": 51121009,
                     "name": "Radiant Cross",
                     "shortDesc": "MP Cost: 70, Max Enemies Hit: 7, Damage: 530%, Number of Attacks: 4\\nBlind Chance: 30%, Blind Duration: 10 sec, Accuracy: -30%\\n------Radiant Cross - Assault------\\nMP Cost: 70, Max Enemies Hit: 12, Damage: 326%, Number of Attacks: 10\\nBlind Chance: 30%, Blind Duration: 10 sec, Accuracy: -30%",
                     "maxLevel": 30,
@@ -492,7 +460,6 @@
                     ]
                 },
                 {
-                    "id": 51121006,
                     "name": "Roiling Soul",
                     "shortDesc": "MP Cost: 50, Final Damage: +25%, Critical Damage: +10%\\nRadiant Soul Skill Blind Chance: +100%\\nReduces the Max Enemies Hit for all skills (except some summons) by 1/3. For skills that target multiple enemies, Max Enemies Hit won't be reduced below 2.",
                     "maxLevel": 30,
@@ -505,7 +472,6 @@
                     ]
                 },
                 {
-                    "id": 51121007,
                     "name": "Install Shield",
                     "shortDesc": "MP Cost: 80, Duration: 60 sec\\nPeriodically deals 225% damage 4 times to up to 6 enemies.\\nDamage Against Normal Enemies: +60%\\nCooldown: 30 sec",
                     "maxLevel": 30,
@@ -519,7 +485,6 @@
                     ]
                 },
                 {
-                    "id": 51120018,
                     "name": "Advanced Offensive Defense",
                     "shortDesc": "Offensive Defense Light Shockwave Damage: +250% points\\nLight Shockwave cooldown decreases to 10 sec\\nRoyal Guard Counterattack Damage at All Levels: +200% points",
                     "maxLevel": 20,
@@ -532,7 +497,6 @@
                     ]
                 },
                 {
-                    "id": 51120003,
                     "name": "Soul Asylum",
                     "shortDesc": "When Royal Guard is successful, Damage -5% only for attacks that inflict damage at a certain ratio to max HP for 15 sec\\nDamage -10% permanently, Max HP: +20%",
                     "maxLevel": 10,
@@ -544,7 +508,6 @@
                     ]
                 },
                 {
-                    "id": 51120001,
                     "name": "Expert Sword Mastery",
                     "shortDesc": "One-Handed Sword Mastery: +70%\\nAttack Power: +30, Critical Rate: 15%, Critical Damage: +15%",
                     "maxLevel": 30,
@@ -557,7 +520,6 @@
                     ]
                 },
                 {
-                    "id": 51120002,
                     "name": "Advanced Final Attack",
                     "shortDesc": "Attack Power: +30 permanently.\\n[Final Attack Skills] Final Attack Chance: 75%, Damage: 95%, Times Activated: 4.",
                     "maxLevel": 30,
@@ -570,7 +532,6 @@
                     ]
                 },
                 {
-                    "id": 51120000,
                     "name": "Combat Mastery",
                     "shortDesc": "40% enemy DEF ignored",
                     "maxLevel": 15,
@@ -578,7 +539,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 51120004,
                     "name": "Power Stance",
                     "shortDesc": "Knockback Resistance: +60%",
                     "maxLevel": 30,
@@ -590,7 +550,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 51120043,
                     "name": "Royal Guard - Enhance",
                     "shortDesc": "Decrease the potentcy of attacks that inflict damage at a certain ratio to Max HP by an additional 5%, additive with Soul Asylum's effect",
                     "maxLevel": 1,
@@ -599,7 +558,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 51120044,
                     "name": "Royal Guard - Guardbreak",
                     "shortDesc": "Enemy Defense Ignored: +20%",
                     "maxLevel": 1,
@@ -608,7 +566,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 51120045,
                     "name": "Royal Guard - Persist",
                     "shortDesc": "Increases the damage reduction effect duration of attacks that inflict damage at a certain ratio to Max HP by 5 sec",
                     "maxLevel": 1,
@@ -617,7 +574,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 51120056,
                     "name": "Radiant Cross - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -626,7 +582,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 51120057,
                     "name": "Radiant Cross - Guardbreak",
                     "shortDesc": "Enemy Defense Ignored: +20%",
                     "maxLevel": 1,
@@ -635,7 +590,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 51120058,
                     "name": "Radiant Cross - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
@@ -644,7 +598,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 51120049,
                     "name": "Install Shield - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -653,7 +606,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 51120050,
                     "name": "Install Shield - Spread",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
@@ -662,7 +614,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 51120051,
                     "name": "Install Shield - Persist",
                     "shortDesc": "Duration: +10 sec",
                     "maxLevel": 1,
@@ -673,7 +624,6 @@
             ],
             "hyperActive": [
                 {
-                    "id": 51121054,
                     "name": "Soul Majesty",
                     "shortDesc": "MP Cost: 200, Duration: 25 sec, Damage: +15%\\nWhen Soul Asylum's Royal Guard succeeds while active, damage reduction of the damage reduction effect increases by 5%. The increased damage reduction is additive with Soul Asylum's effect.\\nOffensive Defense debuff occurs due to the active Install Shield. Cooldown of Offensive Defense Light Shockwave decreases to 2 sec\\nWhen Offensive Defense's Light Shockwave occurs, Light Wave occurs as well\\nLight Wave - Max Enemies Hit: 8, Damage: 700%, Number of Attacks; 6\\nCooldown: 180 sec",
                     "maxLevel": 1,
@@ -687,7 +637,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 51121052,
                     "name": "Charging Light",
                     "shortDesc": "MP Cost: 300, Number of Enemies: 15, Damage: 825%, Number of Attacks: 10\\n10% more damage for party members including yourself for 60 sec\\nBlind Chance: 50%, Blind Duration: 10 sec, Accuracy: -30%\\nCooldown: 15 sec",
                     "maxLevel": 1,
@@ -701,7 +650,6 @@
                     ]
                 },
                 {
-                    "id": 51121053,
                     "name": "Queen of Tomorrow",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
                     "maxLevel": 1,
@@ -718,7 +666,6 @@
                 {
                     "name": "Shield of Light",
                     "shortDesc": "MP Cost: 1000, Duration: 89 sec, Final Damage: +30%\\nDamage Reduction (to you and party members inside shield): 80% (including Percentage HP attacks) for 25 sec, blocks debilitating status conditions\\nUpon successful blocking of the attack and status conditions, the shield has 3 layers, which can defend against 9, 9, and 14 attacks, respectively. Number of blocks decrease only once both status condition and attack are applied at the same time.\\nCooldow: 180 sec",
-                    "id": 400041008,
                     "icons": ["/class-icons/cygnus-knights/mihile/shield-of-light.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2dydHFtcGRmZnN1bWZzOGdvcHpsOWh3cXc2cXZhMndocnp1M3plNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yYtM6jYywV8LR3Wmnf/giphy.gif"],
                     "type": "Buff Zone",
@@ -731,7 +678,6 @@
                 {
                     "name": "Sword of Light",
                     "shortDesc": "MP Cost: 800, Max Enemies Hit: 12, Number of Attacks: 7\\nDamage increases based on Royal Guard's Attack Power buff's stack.\\n[3 Stacks or Lower] - Damage: 1450%\\n[4 Stacks] - Damage: 1650%\\n[5 Stacks] - Damage: 2000%\\n100% chance to Blind enemies for 10 sec, reducing their Accuracy by 30%\\nAfter use, Royal Guard's Attack Power Buff Duration: +6 sec, cannot exceed max stacks\\nCooldown: 12 sec",
-                    "id": 400041028,
                     "icons": ["/class-icons/cygnus-knights/mihile/sword-of-light.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXQ4NjM2bnVtZHNoZ3IyNHl4MmU0b2pybDR0aWNwbzhwZ20xZnBkNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RYgCioLyI29iO0IiRZ/giphy.gif"],
                     "type": "Radiant Soul Attack",
@@ -746,7 +692,6 @@
                 {
                     "name": "Radiant Soul",
                     "shortDesc": "MP Cost: 1200\\nEquip a Sword of Light for 35 sec., empowering your attacks. Attack Power: +27%, Critical Rate: +100%, and Ignore Defense: +100%. Increases the duration of Royal Guard to a total of 0.5 sec.\\nWhile active, the afterimage of the sword periodically falls upon to 4 enemies, attacking 5 times for 900% damage.\\nRadiant Soul Slash: [Radiant Soul Skill] MP Cost: 100, Max Enemies Hit: 8, Damage: 880%, Number of Attacks: 12\\nLight Force Rei: [Radiant Soul Skill] Max Enemies Hit: 8, Damage: 1870%, Number of Light Attacks: 12, Number of Light Attack Occurances: 6.\\nWhen Radiant Soul Slash and Light Force Rei hits, 50% chance to Blind for 10 sec and decrease Accuracy by 30%\\nCooldown: 180 sec.",
-                    "id": 400041037,
                     "icons": ["/class-icons/cygnus-knights/mihile/radiant-soul.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWdiMHJpYjc5dTV1bDdzYzd2ODJiYzAzd3Q4MGVkdXA4djdsbXJ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i0AboThcxKsKusofMi/giphy-downsized-large.gif"],
                     "type": "Buff Attack",
@@ -761,7 +706,6 @@
                 {
                     "name": "Light of Courage",
                     "shortDesc": "MP Cost: 1000, Duration: 25 sec, Damage: +22%.\\nParty Effect: Forms a protective shield that corresponds to 265% of your party's cumulative max HP. Protective Shield Duration: 12 sec., 7% of maxmium reduced every sec.\\nCooldown: 90 sec.",
-                    "id": 400041037,
                     "icons": ["/class-icons/cygnus-knights/mihile/light-of-courage.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2dpMnpoemI3cXJmbnFyNzlzNnM2eDZpMWJ6NHIzN2VmMjRkYmozMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IXqFJRVHMr5AQSPXyv/giphy.gif"],
                     "type": "Party Buff",

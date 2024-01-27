@@ -32,7 +32,8 @@
             "toggles": "<span data-tooltip='Assassin&#39;s Mark (2nd Job)'><img src='/class-icons/explorers/night-lord/assassins-mark.png' alt='Skill Assassin&#39;s Mark'/></span>",
             "summons": "<div><span data-tooltip='Dark Flare (3rd Job)'><img src='/class-icons/explorers/night-lord/dark-flare.png' alt='Skill Dark Flare'/></span>[60s](60s cd)</div> <div><span data-tooltip='Frailty Curse (4th Job)'><img src='/class-icons/explorers/night-lord/frailty-curse.png' alt='Skill Frailty Curse'/></span>[40s]</div> <div><span data-tooltip='Dark Lord&#39;s Omen (5th Job)'><img src='/class-icons/explorers/night-lord/dark-lords-omen.png' alt='Skill Dark Lord&#39;s Omen'/></span>[12s](60s)</div>",
             "buffCd": "<div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/thief/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Throw Blasting (5th Job)'><img src='/class-icons/explorers/night-lord/throw-blasting.png' alt='Skill Throw Blasting'/></span>[90s](180s cd)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Shadow Walker (5th Job)'><img src='/class-icons/5th-job/shadow-walker.png' alt='Skill Shadow Walker'/></span>[30s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Dark Sight (1st Job)'><img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>[200s](Special, 0 - 15s cd)</div>"
+            "binds": "<div><span data-tooltip='Life and Death (6th Job)'><img src='/class-icons/explorers/night-lord/life-and-death.png' alt='Skill Life and Death'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Dark Sight (1st Job)'><img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>[200s](Special, 0 - 15s cd)</div> <div><span data-tooltip='Life and Death (6th Job)'><img src='/class-icons/explorers/night-lord/life-and-death.png' alt='Skill Life and Death'/></span>(360s cd)</div>"
         },
         "linkSkill": {
             "id": 80002770,
@@ -145,7 +146,6 @@
             [
                 "1st Job", [
                     {
-                        "id": 4001334,
                         "name": "Double Stab",
                         "shortDesc": "MP Cost: 14, Damage: 165%, Number of Attacks: 2, Enemies Hit: 5",
                         "maxLevel": 15,
@@ -158,7 +158,6 @@
                         ]
                     },
                     {
-                        "id": 4001344,
                         "name": "Lucky Seven",
                         "shortDesc": "MP Cost: 14, Throwing Star Cost: 2, Damage: 110%, Enemies Hit: 5, Number of Attacks: 3",
                         "maxLevel": 15,
@@ -171,7 +170,6 @@
                         ]
                     },
                     {
-                        "id": 4001005,
                         "name": "Haste",
                         "shortDesc": "Speed: +40, Jump: +20, Max Speed: +20",
                         "maxLevel": 10,
@@ -179,7 +177,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 4001003,
                         "name": "Dark Sight",
                         "shortDesc": "MP Cost: 5, hides in the shadows for 200 seconds.\\nWhen Dark Sight is deactivated, cooldown increased per attack dodged: 3 seconds. Stacks up to 5 times.",
                         "maxLevel": 10,
@@ -194,7 +191,6 @@
                         ]
                     },
                     {
-                        "id": 4001014,
                         "name": "Flash Jump",
                         "shortDesc": "MP Cost: 12, jumps further, able to use 2 times consecutively.",
                         "maxLevel": 5,
@@ -208,7 +204,6 @@
                         ]
                     },
                     {
-                        "id": 4000000,
                         "name": "Nimble Body",
                         "shortDesc": "Permanently increases LUK by 20",
                         "maxLevel": 10,
@@ -219,7 +214,6 @@
                 [
                 "2nd Job", [
                     {
-                        "id": 4101008,
                         "name": "Shuriken Burst",
                         "shortDesc": "MP Cost: 18 and 3 throwing stars. Deals 560% damage to up to 1 enemies. Upon striking an enemy, detonates in place dealing 105% damage 6 times to up to 6 enemies.",
                         "maxLevel": 20,
@@ -229,7 +223,6 @@
                         "desc": "Throws several shurikens forward that explodes damaging nearby enemies"
                     },
                     {
-                        "id": 4101010,
                         "name": "Gust Charm",
                         "shortDesc": "MP Cost: 17 and 2 throwing stars, Damage: 245%, Max Enemies Hit: 6, Knockback Range: 350",
                         "maxLevel": 9,
@@ -239,7 +232,6 @@
                         "desc": "Creates a gust of wind that pushes enemies back"
                     },
                     {
-                        "id": 4101011,
                         "name": "Assassin's Mark",
                         "shortDesc": "Grants a 40% chance to leave a mark on attack. Attacking again will produce 2 Throwing Stars to deal 150% damage",
                         "maxLevel": 1,
@@ -253,7 +245,6 @@
                         ]
                     },
                     {
-                        "id": 4101015,
                         "name": "Shadow Surge",
                         "shortDesc": "MP Cost: 35. Dashes forward a set distance while under the effect of Dark Sight.\\nCooldown: 5 sec\\nEach attack against an enemy with Assassin's Mark or Night Lord's Mark reduces cooldown: by 1 sec.",
                         "maxLevel": 5,
@@ -268,7 +259,6 @@
                         ]
                     },
                     {
-                        "id": 4101016,
                         "name": "Shadow Leap",
                         "shortDesc": "MP Cost: 16. Allows you to leap a greater distance.",
                         "maxLevel": 5,
@@ -278,7 +268,6 @@
                         "desc": "Up jump skill"
                     },
                     {
-                        "id": 4100000,
                         "name": "Claw Mastery",
                         "shortDesc": "Claw Mastery: +50%, Throwing Stars: +200",
                         "maxLevel": 10,
@@ -290,7 +279,6 @@
                         ]
                     },
                     {
-                        "id": 4101003,
                         "name": "Agile Claws",
                         "shortDesc": "Attack Speed: +2, Luck: +20",
                         "maxLevel": 10,
@@ -298,7 +286,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 4100001,
                         "name": "Critical Throw",
                         "shortDesc": "Critical Rate: +50%, Critical Damage: +5%",
                         "maxLevel": 30,
@@ -306,7 +293,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 4100007,
                         "name": "Physical Training",
                         "shortDesc": "Permanently increases LUK by 30 and DEX by 30",
                         "maxLevel": 5,
@@ -316,7 +302,6 @@
                 ],
                 [
                 "3rd Job", [{
-                        "id": 4111010,
                         "name": "Triple Throw",
                         "shortDesc": "MP Cost: 20, Throwing Stars Cost: 3, Damage: 290%, Number of Attacks: 3",
                         "maxLevel": 20,
@@ -329,7 +314,6 @@
                         ]
                     },
                     {
-                        "id": 4111015,
                         "name": "Shuriken Challenge",
                         "shortDesc": "MP Cost: 30 and 2 throwing stars. Damage: 260%, Number of Attacks: 4, Max Enemies Hit: 8",
                         "maxLevel": 20,
@@ -339,7 +323,6 @@
                         "desc": "Hurls a giant shuriken forward"
                     },
                     {
-                        "id": 4111007,
                         "name": "Dark Flare",
                         "shortDesc": "MP Cost: 100, Shuriken Summon Duration: 60 sec., that periodically deals 360% damage to 3 enemies nearby. Cooldown: 60 sec.",
                         "maxLevel": 20,
@@ -352,7 +335,6 @@
                         ]
                     },
                     {
-                        "id": 4111002,
                         "name": "Shadow Partner",
                         "shortDesc": "MP Cost: 64, summons a shadow that makes an additional hit that is 70% of the final damage for all attacks for 200 sec",
                         "maxLevel": 20,
@@ -366,7 +348,6 @@
                         ]
                     },
                     {
-                        "id": 4111009,
                         "name": "Spirit of the Star",
                         "shortDesc": "Attack Power: +10. Enables use of skills without consuming Throwing Stars.",
                         "maxLevel": 10,
@@ -379,7 +360,6 @@
                         ]
                     },
                     {
-                        "id": 4110008,
                         "name": "Enveloping Darkness",
                         "shortDesc": "Max HP: +20%, Abnormal Status Resistance: +30, Elemental Resistance: +30%",
                         "maxLevel": 4,
@@ -387,7 +367,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 4110011,
                         "name": "Venom",
                         "shortDesc": "Status Chance: 30%, Damage Over Time: 90% damage every 1 sec for 6 sec",
                         "maxLevel": 10,
@@ -396,7 +375,6 @@
                         "desc": "Grants a chance for your attacks to apply a poisoning debuff"
                     },
                     {
-                        "id": 4110012,
                         "name": "Expert Throwing Star Handling",
                         "shortDesc": "Final Damage: +25%, Critical Rate: +20%",
                         "maxLevel": 10,
@@ -404,7 +382,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 4110014,
                         "name": "Alchemic Adrenaline",
                         "shortDesc": "Recovery Amount: +170%, Critical Damage: +10%, Knockback Resistance: +40%",
                         "maxLevel": 10,
@@ -414,7 +391,6 @@
                 ],
                 [
                 "4th Job", [{
-                    "id": 4121013,
                     "name": "Quad Star",
                     "shortDesc": "MP Cost: 26, Throwing Stars Cost: 4, Damage: 540%, Number of Attacks: 4",
                     "maxLevel": 30,
@@ -427,7 +403,6 @@
                     ]
                 },
                 {
-                    "id": 4121017,
                     "name": "Showdown",
                     "shortDesc": "MP 50, Stars Consumed: 3.\\nAttack up to 6 enemies with 708% damage 2 times, then provoke by creating 6 shurikens.\\nThe provoked enemies become untouchable. For 140 sec, acquired EXP and Item Drop Rate increases by 5%. Effect halved for bosses.\\nShurikens attack 6 times for 24% damage. If a single enemy is hit by several shurikens at the same time, Final Damage decreases by 50%, starting with the second shuriken. Damage Against Normal Enemies: +200%\\nShuriken Cooldown: 5 sec.",
                     "maxLevel": 30,
@@ -441,7 +416,6 @@
                     ]
                 },
                 {
-                    "id": 4120018,
                     "name": "Night Lord's Mark",
                     "shortDesc": "Leave a mark on attack at 60% chance. Attacking again will produce 3 Throwing Stars to deal 255% damage.",
                     "maxLevel": 10,
@@ -453,7 +427,6 @@
                     ]
                 },
                 {
-                    "id": 4121016,
                     "name": "Sudden Raid",
                     "shortDesc": "MP Cost: 290, Throwing Stars Cost: 1, Damage: 494%, Max Enemies Hit: 15, Number of Attacks: 7, Damage Over Time: 210% damage every 1 sec for 10 sec, Cooldown: 30 sec",
                     "maxLevel": 30,
@@ -466,7 +439,6 @@
                     ]
                 },
                 {
-                    "id": 4121015,
                     "name": "Frailty Curse",
                     "shortDesc": "MP Cost: 41, lasts for 40 sec. Reduces Attack Power and Defense by 30% and Movement Speed by -60 for enemies, excluding Boss Monsters.\\n[Passive Effect: Increases Damage When Attacking Bosses by 10%]",
                     "maxLevel": 30,
@@ -481,7 +453,6 @@
                     ]
                 },
                 {
-                    "id": 4121000,
                     "name": "Maple Warrior",
                     "shortDesc": "MP Cost: 60, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
@@ -490,7 +461,6 @@
                     "type": "Party Buff"
                 },
                 {
-                    "id": 4121009,
                     "name": "Hero's Will",
                     "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
@@ -503,7 +473,6 @@
                     ]
                 },
                 {
-                    "id": 4120014,
                     "name": "Dark Harmony",
                     "shortDesc": "Attack Power: +20, Ignore Defense: +30%, Final Damage: +8%",
                     "maxLevel": 30,
@@ -511,7 +480,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 4120002,
                     "name": "Shadow Shifter",
                     "shortDesc": "Dodge Chance: 45%, Knockback Resistance: +60%",
                     "maxLevel": 20,
@@ -520,7 +488,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 4120011,
                     "name": "Toxic Venom",
                     "shortDesc": "Poison Chance: 50%, 160% damage every 1 sec for 8 sec, can be stacked 3 times",
                     "maxLevel": 10,
@@ -533,7 +500,6 @@
                     ]
                 },
                 {
-                    "id": 4120012,
                     "name": "Claw Expert",
                     "shortDesc": "Claw Mastery: +70%. Attack Power: +30, Critical Damage: +10%",
                     "maxLevel": 30,
@@ -550,7 +516,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 4120043,
                     "name": "Showdown - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -563,7 +528,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 4120044,
                     "name": "Showdown - Spread",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
@@ -576,7 +540,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 4120045,
                     "name": "Showdown - Enhance",
                     "shortDesc": "EXP Obtained and Item Drop Rate: +5%",
                     "maxLevel": 1,
@@ -585,7 +548,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 4120046,
                     "name": "Frailty Curse - Enhance",
                     "shortDesc": "Additional 10% Attack Power and Defense reduction.",
                     "maxLevel": 1,
@@ -594,7 +556,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 4120047,
                     "name": "Frailty Curse - Slow",
                     "shortDesc": "Additional 10 Speed reduced",
                     "maxLevel": 1,
@@ -603,7 +564,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 4120048,
                     "name": "Frailty Curse - Boss Rush",
                     "shortDesc": "Frailty Curse is applied to bosses.",
                     "maxLevel": 1,
@@ -612,7 +572,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 4120049,
                     "name": "Quad Star - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -621,7 +580,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 4120050,
                     "name": "Quad Star - Boss Rush",
                     "shortDesc": "Boss Damage: +20%",
                     "maxLevel": 1,
@@ -630,7 +588,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 4120051,
                     "name": "Quad Star - Extra Strike",
                     "shortDesc": "1 additional attacks",
                     "maxLevel": 1,
@@ -641,7 +598,6 @@
             ],
             "hyperActive": [
                 {
-                    "id": 4121054,
                     "name": "Bleed Dart",
                     "shortDesc": "MP Cost: 200, Duration: 90 sec, Attack Power: +50.\\nBleed Chance: 100%, Bleed Damage: 2000% damage every sec, Bleed Duration: 3 sec",
                     "maxLevel": 1,
@@ -652,7 +608,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 4121052,
                     "name": "Death Star",
                     "shortDesc": "MP Cost: 300, Throwing Stars Cost: 1, Damage: 358%, Number of Attacks: 7, Max Enemies Hit: 8\\nCooldown: 14 sec\\n[Passive Effect - Night Lord's Mark Damage: +100% points]",
                     "maxLevel": 1,
@@ -666,7 +621,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 4121053,
                     "name": "Epic Adventure",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
                     "maxLevel": 1,
@@ -683,7 +637,6 @@
                 {
                     "name": "Throwing Star Barrage",
                     "shortDesc": "MP Cost: 1000, Duration: 45 sec. Throwing skills gain extra spread.\\nTriple Throw attacks in 4 extra directions, with extra projectiles dealing 290% damage\\nQuad Star attacks in 3 extra directions, with extra projectiles dealing 370% damage\\nCooldown: 180 sec.",
-                    "id": 400041001,
                     "icons": ["/class-icons/explorers/night-lord/throwing-star-barrage.png"],
                     "animations": ["https://media.giphy.com/media/cUkc0zgM769dfFoL9i/giphy.gif"],
                     "type": "Buff Attack",
@@ -695,7 +648,6 @@
                 {
                     "name": "Shurrikane",
                     "shortDesc": "MP Cost: 800. Throwing Stars Cost: 1, Max Enemies Hit: 6, Damage: 600%, Number of Attacks: 5\\nA huge shuriken flies forward striking foes, dealing additional damage for 2 sec before disappearing. Using the skill again while the shuriken is flying will stop it immediately at its current location\\n40% of normal chance to trigger Assassin's Mark.\\nCooldown: 25 sec.",
-                    "id": 400041020,
                     "icons": ["/class-icons/explorers/night-lord/shurrikane.png"],
                     "animations": ["https://media.giphy.com/media/14j7c3hNKbFmJVFKXi/giphy.gif"],
                     "type": "Attack",
@@ -709,7 +661,6 @@
                 {
                     "name": "Dark Lord's Omen",
                     "shortDesc": "MP Cost: 1000, shoot 5 Throwing Star(s) per 1 enemy for 12 sec, dealing 850% damage to max 7 enemies\\n7 additional Throwing Stars are launched regardless of the number of enemies.\\nBoss Damage: +30%\\nThe scroll explodes when the skill duration ends, dealing 2150% damage with 10 additional attacks. Max Enemies Hit: 12\\nCooldown: 60 sec",
-                    "id": 400041038,
                     "icons": ["/class-icons/explorers/night-lord/dark-lords-omen.png"],
                     "animations": ["https://media.giphy.com/media/RQGlcRw75eKcso90Je/giphy-downsized-large.gif"],
                     "type": "Summon",
@@ -723,7 +674,6 @@
                 {
                     "name": "Throw Blasting",
                     "shortDesc": "Explosive Charm: explosion occurs around enemy hit by skill that throws shurikens up to 6 enemies with 950% damage 5 times\\nPassive Effect: 1 explosive charm is prepared every 10 sec and activates. Active and Passive Effects cannot trigger simultaneously.\\nActive Effect: MP Cost: 1000, Duration: 60 sec, Usable Explosive Charms: 68, uses min 2 and max 4 charms per attack skill, Cooldown: 180 sec",
-                    "id": 400041038,
                     "icons": ["/class-icons/explorers/night-lord/throw-blasting.png"],
                     "animations": ["https://media.giphy.com/media/XWe1GYRejXwyUtIDIv/giphy.gif"],
                     "type": "Buff Attack",

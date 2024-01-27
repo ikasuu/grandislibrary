@@ -30,8 +30,8 @@
             "toggles": "<span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span>",
             "summons": "<div><span data-tooltip='Bat Swarm (2nd Job)'><img src='/class-icons/resistance/demon-avenger/bat-swarm.png' alt='Skill Bat Swarm'/></span>[40 Attacks / Distance Based]</div> <div><span data-tooltip='Nether Shield (4th Job)'><img src='/class-icons/resistance/demon-avenger/nether-shield.png' alt='Skill Nether Shield'/></span>[8 Attacks](6s cd)</div> <div><span data-tooltip='Dimensional Sword (5th Job)'><img src='/class-icons/resistance/demon-avenger/dimensional-sword.png' alt='Skill Dimensional Sword'/></span>[40s, 1/5 duration if reactivated](120s cd)</div> <div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[48s](120s cd)</div>",
             "buffCd": "<div><span data-tooltip='Forbidden Contract (Hyper Skill)'><img src='/class-icons/resistance/demon-avenger/forbidden-contract.png' alt='Skill Forbidden Contract'/></span>[30s](75s cd)</div> <div><span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span>[60s](120s cd)</div> <div><span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>[15s](120s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess's Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Blood Prison (4th Job)'><img src='/class-icons/resistance/demon-avenger/blood-prison.png' alt='Skill Blood Prison'/></span>[10s](120s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>[15s](120s cd, HP cannot go below 1)</div>",
+            "binds": "<div><span data-tooltip='Blood Prison (4th Job)'><img src='/class-icons/resistance/demon-avenger/blood-prison.png' alt='Skill Blood Prison'/></span>[10s](120s cd)</div> <div><span data-tooltip='Requiem (6th Job)'><img src='/class-icons/resistance/demon-avenger/requiem.png' alt='Skill Requiem'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>[15s](120s cd, HP cannot go below 1)</div> <div><span data-tooltip='Requiem (6th Job)'><img src='/class-icons/resistance/demon-avenger/requiem.png' alt='Skill Requiem'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span>[20% of Max HP, consumes 6000 HP per sec](-30% | 1s cd)</div> <div><span data-tooltip='Demonic Blast (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-blast.png' alt='Skill Demonic Blast'/></span>(-30% | 12s cd)</div> <div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[6s](-25% | 120s cd)</div> <div><span data-tooltip='Other World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>[40s, triggers once](-75% | 120s cd)</div>"
         },
         "linkSkill": {
@@ -168,7 +168,6 @@
             [
                 "1st Job", [
                     {
-                        "id": 31011000,
                         "name": "Exceed: Double Slash",
                         "shortDesc": "HP Cost: 1%, Damage: 200%, Number of Attacks: 2, Max Enemies Hit: 8",
                         "maxLevel": 20,
@@ -178,7 +177,6 @@
                         "desc": "Slashes forward twice"
                     },
                     {
-                        "id": 31011001,
                         "name": "Overload Release",
                         "shortDesc": "Resets Overload to 0. Duration: 90 sec, Final damage: +15%, Max HP Restored: 100%\\n20% of overall HP restored even when under the effect of certain statuses (not including the recovery reductions from Demonic Frenzy or the ones within Ghost Park).",
                         "maxLevel": 20,
@@ -191,7 +189,6 @@
                         ]
                     },
                     {
-                        "id": 31010002,
                         "name": "Life Sap",
                         "shortDesc": "100% chance to recover 5% HP on hit",
                         "maxLevel": 10,
@@ -199,7 +196,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 31010003,
                         "name": "Demonic Veracity",
                         "shortDesc": "Speed: +45, Max Speed: +20, Jump: +20, Critical Rate: +20%",
                         "maxLevel": 15,
@@ -210,7 +206,6 @@
                 [
                 "2nd Job", [
                     {
-                        "id": 31201000,
                         "name": "Exceed: Demon Strike",
                         "shortDesc": "HP Cost: 1%, Damage: 125%, Number of Attacks: 4, Max Enemies Hit: 10",
                         "maxLevel": 20,
@@ -220,7 +215,6 @@
                         "desc": "Dash forward while slicing through enemies"
                     },
                     {
-                        "id": 31201001,
                         "name": "Bat Swarm",
                         "shortDesc": "HP Cost: 1% of Max HP, Damage: 200%, Number of Attacks: 40.\\nThe cloud expires once you finish attacking, move a certain distance, or its timer runs out. Press the skill key again to change direction.",
                         "maxLevel": 20,
@@ -234,7 +228,6 @@
                         ]
                     },
                     {
-                        "id": 31201002,
                         "name": "Agile Demon",
                         "shortDesc": "Attack Speed: +2, Max HP: +400",
                         "maxLevel": 10,
@@ -242,7 +235,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 31200004,
                         "name": "Unbreakable Steel",
                         "shortDesc": "Permanently increases Defense by 100%.",
                         "maxLevel": 9,
@@ -250,7 +242,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 31200005,
                         "name": "Desperado Mastery",
                         "shortDesc": "Permanently increases Desperado Mastery by 50%.",
                         "maxLevel": 10,
@@ -258,7 +249,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 31200006,
                         "name": "Rage Within",
                         "shortDesc": "Permanently increases Max HP by 600 and Defense by 500",
                         "maxLevel": 5,
@@ -266,7 +256,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 31200003,
                         "name": "Abyssal Connection",
                         "shortDesc": "Attack +40",
                         "maxLevel": 20,
@@ -276,7 +265,6 @@
                 ],
                 [
                 "3rd Job", [{
-                        "id": 31211000,
                         "name": "Exceed: Lunar Slash",
                         "shortDesc": "HP Cost: 3%, Damage: 300%, Number of Attacks: 3, Max Enemies Hit: 10",
                         "maxLevel": 20,
@@ -286,7 +274,6 @@
                         "desc": "Slash around yourself"
                     },
                     {
-                        "id": 31211001,
                         "name": "Vitality Veil",
                         "shortDesc": "HP Cost per attack: 100, Enemies hit with Key Pressed: 12, Damage: 300%, HP Restored: 10%.\\nExplosion Damage: 1000%\\nCooldown: 12 sec",
                         "maxLevel": 20,
@@ -299,7 +286,6 @@
                         ]
                     },
                     {
-                        "id": 31211002,
                         "name": "Shield Charge",
                         "shortDesc": "HP Cost: 2% of Max HP, Enemies Hit: 12, Damage: 200%, Number of Attacks: 2.\\nEnemies Hit After Charge: 12, Damage After Charge: 200%",
                         "maxLevel": 20,
@@ -312,7 +298,6 @@
                         ]
                     },
                     {
-                        "id": 31211003,
                         "name": "Ward Evil",
                         "shortDesc": "HP Cost: 900, Duration: 180 sec, Elemental Resistance: +50%, Status Resistance: +50, Damage Intake: -30%",
                         "maxLevel": 20,
@@ -321,7 +306,6 @@
                         "type": "Buff"
                     },
                     {
-                        "id": 31211004,
                         "name": "Diabolic Recovery",
                         "shortDesc": "HP Cost: 900, Duration: 180 sec, Max HP: +25%. Restores 5% HP every 4 sec",
                         "maxLevel": 20,
@@ -330,7 +314,6 @@
                         "type": "Buff"
                     },
                     {
-                        "id": 31210005,
                         "name": "Pain Dampener",
                         "shortDesc": "Exceed Overload HP Absorption Penalty: -2%, Exceed Damage: +20%",
                         "maxLevel": 20,
@@ -339,7 +322,6 @@
                         "desc": "Reduces the penalty to <span data-tooltip='Life Sap (1st Job)'><img src='/class-icons/resistance/demon-avenger/life-sap.png' alt='Skill Life Sap'/></span> from <span data-tooltip='Exceed (Beginner Skill)'><img src='/class-icons/resistance/demon-avenger/exceed.png' alt='Skill Exceed'/></span> and increases the %Damage of Exceed Skills"
                     },
                     {
-                        "id": 31210006,
                         "name": "Advanced Life Sap",
                         "shortDesc": "Increases Life Sap's absorption amount boosted to 10% of Max HP, Overload Release's final damage increase amount boosted to 25%.",
                         "maxLevel": 4,
@@ -350,7 +332,6 @@
                 ],
                 [
                 "4th Job", [{
-                    "id": 31221000,
                     "name": "Exceed: Execution",
                     "shortDesc": "HP Cost: 4%, Damage: 540%, Number of Attacks: 4, Max Enemies Hit: 2. Enemy DEF Ignored: 30%.",
                     "maxLevel": 30,
@@ -364,7 +345,6 @@
                     ]
                 },
                 {
-                    "id": 31221001,
                     "name": "Nether Shield",
                     "shortDesc": "HP Cost: 8% of Max HP, Shields: 2, Damage: 500%, Number of Attacks: 2, Attacks per Shield: 8.\\nCooldown: 6 sec\\n[Passive Effect: Exceed: Lunar Slash Damage: +330%]",
                     "maxLevel": 30,
@@ -379,7 +359,6 @@
                     ]
                 },
                 {
-                    "id": 31221002,
                     "name": "Nether Slice",
                     "shortDesc": "HP Cost: 1000, Enemies Hit: 12, Damage: 350%, Number of Attacks: 4, Debuff Duration: 60 sec, Enemy DEF: -30%\\n[Passive Effect: Exceed: Demon Strike Damage: +155%]",
                     "maxLevel": 30,
@@ -393,7 +372,6 @@
                     ]
                 },
                 {
-                    "id": 31221003,
                     "name": "Blood Prison",
                     "shortDesc": "HP Cost: 5000, Max Enemies Hit: 14, Damage: 800%, Number of Attacks: 3, Stun Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Blood Prison.\\nCooldown: 120 sec",
                     "maxLevel": 30,
@@ -403,7 +381,6 @@
                     "desc": "Unleashes a large attack that binds nearby enemies"
                 },
                 {
-                    "id": 31221008,
                     "name": "Maple Warrior",
                     "shortDesc": "HP Cost: 1000, Duration: 900 sec, All Stats assigned APs: +15%\\n[Passive - Max HP: +15%]",
                     "maxLevel": 30,
@@ -412,7 +389,6 @@
                     "type": "Party Buff"
                 },
                 {
-                    "id": 31121015,
                     "name": "The Demon's Will",
                     "shortDesc": "HP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 1,
@@ -425,7 +401,6 @@
                     ]
                 },
                 {
-                    "id": 31220004,
                     "name": "Overwhelming Power",
                     "shortDesc": "Final Damage: +15%, Damage: +30%, Attack Speed: +1",
                     "maxLevel": 30,
@@ -433,7 +408,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 31220005,
                     "name": "Defense Expertise",
                     "shortDesc": "Enemy DEF Ignored: 30%, Shield Charge and Nether Shield Damage: +20%.\\nShield Charge and Nether Shield ignore 2x DEF.",
                     "maxLevel": 30,
@@ -441,7 +415,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 31220006,
                     "name": "Advanced Desperado Mastery",
                     "shortDesc": "Desperado Mastery: +70%, Attack Power: +50, Critical Damage: +8%",
                     "maxLevel": 30,
@@ -454,7 +427,6 @@
                     ]
                 },
                 {
-                    "id": 31220007,
                     "name": "Infernal Exceed",
                     "shortDesc": "[Final Attack Skills] Chance to deliver an extra attack after Exceed: 70%, Damage: 200%, Bonus Number of Attacks: 2, Max Enemies Hit: 2",
                     "maxLevel": 15,
@@ -467,7 +439,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 31220043,
                     "name": "Exceed - Reinforce",
                     "shortDesc": "Exceed Skills Damage: +20%",
                     "maxLevel": 1,
@@ -477,7 +448,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 31220044,
                     "name": "Exceed - Reduce Overload",
                     "shortDesc": "Exceed Overload: -2",
                     "maxLevel": 1,
@@ -487,7 +457,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 31220045,
                     "name": "Exceed - Opportunity",
                     "shortDesc": "Bonus Exceed Attack Chance: +10%",
                     "maxLevel": 1,
@@ -497,7 +466,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 31220046,
                     "name": "Ward Evil - Harden",
                     "shortDesc": "Damage Intake: -10%",
                     "maxLevel": 1,
@@ -506,7 +474,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 31220047,
                     "name": "Ward Evil - Immunity Enhance 1",
                     "shortDesc": "Status Resistance: +10",
                     "maxLevel": 1,
@@ -515,7 +482,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 31220048,
                     "name": "Ward Evil - Immunity Enhance 2",
                     "shortDesc": "Elemental Resistance: +10%",
                     "maxLevel": 1,
@@ -524,7 +490,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 31220049,
                     "name": "Nether Shield - Reinforce",
                     "shortDesc": "Nether Shield Damage: +20%",
                     "maxLevel": 1,
@@ -533,7 +498,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 31220050,
                     "name": "Nether Shield - Spread",
                     "shortDesc": "Permanently increases the max number of attacks per Nether Shield by 2.",
                     "maxLevel": 1,
@@ -542,7 +506,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 31220051,
                     "name": "Nether Shield - Range",
                     "shortDesc": "Nether Shield Range: +50",
                     "maxLevel": 1,
@@ -553,7 +516,6 @@
             ],
             "hyperActive": [
                 {
-                    "id": 31221054,
                     "name": "Forbidden Contract",
                     "shortDesc": "HP Cost: 5000 , Duration: 30 sec, Damage: +10%, Skill HP Consumption: 0\\nCooldown: 75 sec",
                     "maxLevel": 1,
@@ -563,7 +525,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 31221052,
                     "name": "Thousand Swords",
                     "shortDesc": "Max HP Cost: 15%, Exceed Overload: +5, Damage: 500%, Number of Attacks: 8, Max Enemies Hit: 14\\nCooldown: 8 sec",
                     "maxLevel": 1,
@@ -577,7 +538,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 31221053,
                     "name": "Demonic Fortitude",
                     "shortDesc": "HP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
                     "maxLevel": 1,
@@ -594,7 +554,6 @@
                 {
                     "name": "Demonic Frenzy",
                     "shortDesc": "HP Cost: 20% of Max HP, consumes 6000 HP per sec, Healing Restriction: items and skills can only heal 1% of Max HP, hit damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 20% per 2% HP consumed. Your demonic blood, burning with vengeance, lingers in the area, periodically dealing 765% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 1 sec",
-                    "id": 400021002,
                     "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
                     "animations": ["https://media.giphy.com/media/FHWtnSun6sL2Z6n162/giphy.gif"],
                     "type": "Toggle Buff",
@@ -609,7 +568,6 @@
                 {
                     "name": "Demonic Blast",
                     "shortDesc": "Consumes 3% of Max HP, Max Enemies Hit: 8, Damage: 1450%, Number of Attacks: 12. For attacks that inflict damage at a certain ratio of the target's Max HP, Damage -30%.\\nHP Recovery: 25% of Max HP, Additional Critical Rate: 100%, Additional Ignore Defense: 100%\\nCooldown: 12 sec.",
-                    "id": 400021030,
                     "icons": ["/class-icons/resistance/demon-avenger/demonic-blast.png"],
                     "animations": ["https://media.giphy.com/media/dkj41MelAKdjHBu5AV/giphy.gif"],
                     "type": "Attack",
@@ -624,7 +582,6 @@
                 {
                     "name": "Dimensional Sword",
                     "shortDesc": "HP Cost: 20% of Max HP. Summon a magic sword for 40 sec every 3 sec. Max Enemies Hit: 8, Damage: 1850%, Number of Attacks: 14\\nThe skill duration becomes 1/5 if the skill is used again while summoning, but the magic sword will spin quickly and deal 900% damage to 8 enemies 8 times.\\nAll Dimensional Sword hits receive Additional Monster DEF Ignored: +100%\\nCooldown: 120 sec",
-                    "id": 400021067,
                     "icons": ["/class-icons/resistance/demon-avenger/dimensional-sword.png"],
                     "animations": ["https://media.giphy.com/media/D6V4AHh4BhxhYMap6A/giphy.gif", "https://media.giphy.com/media/w9YlX5uKzz8R5K0wzL/giphy.gif"],
                     "type": "Summon",
@@ -638,7 +595,6 @@
                 {
                     "name": "Revenant",
                     "shortDesc": "HP Cost: 25% of Max HP, Duration: 15 sec\\nWhen using the Exceed skill, activates Thorn of Fury, which damages 5 enemies with 900% damage 12 time(s). Additional Monster DEF Ignored: +30%, Cooldown: 4 sec\\nSaves Damage Taken, up to 100% of Max HP, as Fury, and reduces cooldown in proportion to amount saved. Your current Fury amount decreases by 7% periodically.\\nAfter the skill ends, any saved Fury, plus 1% of max HP will come back to you as damage 25 time(s). This damage cannot kill you by itself.\\nCooldown: 120 sec",
-                    "id": 400021067,
                     "icons": ["/class-icons/resistance/demon-avenger/revenant.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Rlbnhnc3YwYnNjY21vZnAzYW51Mm11dnQ4dHlmOXZwYXR4OTB2MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xXFqPq6ZoeNv29mdaW/giphy-downsized-large.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjBqc3RpYzM3aW91MDB6dHVkMXhhOXByYTk5MGxkazNnY2VjZ21xeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3NqsIBxHcOHp8q69FO/giphy-downsized-large.gif"],
                     "type": "Buff Attack",

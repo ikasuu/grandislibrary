@@ -32,8 +32,8 @@
             "toggles": "<span data-tooltip='Light Speed Boost (3rd Job)'><img src='/class-icons/heroes/luminous/light-speed-boost.png' alt='Skill Light Speed Boost'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
             "summons": "<div><span data-tooltip='Morning Star (4th Job)'><img src='/class-icons/heroes/luminous/morning-star.png' alt='Skill Morning Star'/></span>(5s cd)</div> <div><span data-tooltip='Gate of Light (5th Job)'><img src='/class-icons/heroes/luminous/gate-of-light.png' alt='Skill Gate of Light'/></span>[40s](Usable only in Equilibrium)</div> <div><span data-tooltip='Aether Conduit (5th Job)'><img src='/class-icons/heroes/luminous/aether-conduit.png' alt='Skill Aether Conduit'/></span>[6s](30s cd)</div> <div><span data-tooltip='Liberation Orb (5th Job)'><img src='/class-icons/heroes/luminous/liberation-orb.png' alt='Skill Liberation Orb'/></span>[45s](180s cd)</div>",
             "buffCd": "<div><span data-tooltip='Shadow Shell (3rd Job)'><img src='/class-icons/heroes/luminous/shadow-shell.png' alt='Skill Shadow Shell'/></span>[7 Critical Abnormal Statuses](240s cd)</div> <div><span data-tooltip='Equalize (Hyper Skill)'><img src='/class-icons/heroes/luminous/equalize.png' alt='Skill Equalize'/></span>(150s cd)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/luminous/heroic-memories.png' alt='Skill Heroic Memories (Luminous)'/></span>[60s](120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div>",
-            "binds": "<div><span data-tooltip='Armageddon (Hyper Skill)'><img src='/class-icons/heroes/luminous/armageddon.png' alt='Skill Armageddon'/></span>[10s](120s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Armageddon (Hyper Skill)'><img src='/class-icons/heroes/luminous/armageddon.png' alt='Skill Armageddon'/></span>(120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div>",
+            "binds": "<div><span data-tooltip='Armageddon (Hyper Skill)'><img src='/class-icons/heroes/luminous/armageddon.png' alt='Skill Armageddon'/></span>[10s](120s cd)</div> <div><span data-tooltip='Harmonic Paradox (6th Job)'><img src='/class-icons/heroes/luminous/harmonic-paradox.png' alt='Skill Harmonic Paradox'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Armageddon (Hyper Skill)'><img src='/class-icons/heroes/luminous/armageddon.png' alt='Skill Armageddon'/></span>(120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div> <div><span data-tooltip='Harmonic Paradox (6th Job)'><img src='/class-icons/heroes/luminous/harmonic-paradox.png' alt='Skill Harmonic Paradox'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div>"
         },
         "linkSkill": {
@@ -143,7 +143,6 @@
             ],
             [
                 "1st Job", [{
-                        "id": 27001100,
                         "name": "Flash Shower",
                         "shortDesc": "MP Cost: 21. Max Enemies Hit: 5, Damage: 280%.",
                         "maxLevel": 20,
@@ -153,7 +152,6 @@
                         "desc": "Shoots out a projectile forward that passes through enemies"
                     },
                     {
-                        "id": 27001201,
                         "name": "Abyssal Drop",
                         "shortDesc": "MP Cost: 22. Max Enemies Hit: 6, Number of Attacks: 3, Damage: 107%.",
                         "maxLevel": 20,
@@ -163,7 +161,6 @@
                         "desc": "Summons several crystals that drop in front of you"
                     },
                     {
-                        "id": 27001002,
                         "name": "Light Speed",
                         "shortDesc": "Light Speed: MP Cost: 20, Horizontal Teleport: 190, Vertical Teleport: 320\\nLight Leap: Consume 25 MP to jump up. Can be linked with Light Speed 1 time without a platform before landing. After learning Darkness Mastery, can also be linked during Equilibrium.\\n[Passive Effects: Speed: +20, Jump: +10]",
                         "maxLevel": 10,
@@ -179,7 +176,6 @@
                         ]
                     },
                     {
-                        "id": 27000003,
                         "name": "Standard Magic Guard",
                         "shortDesc": "85% of damage affects MP instead of HP. If your MP reaches 0, your HP takes full damage.\\n[Passive Effect: +150 Defense.]",
                         "maxLevel": 10,
@@ -187,7 +183,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 27000004,
                         "name": "Mana Well",
                         "shortDesc": "Max MP: +30%",
                         "maxLevel": 20,
@@ -195,7 +190,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 27000106,
                         "name": "Light Affinity",
                         "shortDesc": "Increase light magic's final damage by 5%",
                         "maxLevel": 5,
@@ -207,7 +201,6 @@
                         ]
                     },
                     {
-                        "id": 27000207,
                         "name": "Dark Affinity",
                         "shortDesc": "Increase dark magic's final damage by 5%",
                         "maxLevel": 5,
@@ -221,7 +214,6 @@
                 ],
                 [
                     "2nd Job", [{
-                        "id": 27101100,
                         "name": "Sylvan Lance",
                         "shortDesc": "MP Cost: 31. Max Enemies Hit: 8, Damage: 115%, Number of Attacks: 4.",
                         "maxLevel": 20,
@@ -231,7 +223,6 @@
                         "desc": "Fires several homing spears forward"
                     },
                     {
-                        "id": 27101101,
                         "name": "Blinding Pillar",
                         "shortDesc": "MP Cost: 15, Max Enemies Hit: 10, Distance: 350, Knockback Chance: 100%.",
                         "maxLevel": 10,
@@ -241,7 +232,6 @@
                         "desc": "Creates pillars of light around you that pushes enemies back and has a chance to stun"
                     },
                     {
-                        "id": 27101202,
                         "name": "Pressure Void",
                         "shortDesc": "MP Cost: 15, Enemies Hit: 8, Number of Attacks: 1, Damage: 168%. Steer by holding the skill key and using Left Arrow Key,Right Arrow Key. Maximum range of 350 to the left and right.",
                         "maxLevel": 20,
@@ -254,7 +244,6 @@
                         ]
                     },
                     {
-                        "id": 27100003,
                         "name": "Black Blessing",
                         "shortDesc": "Magic ATT: +30, Damage Taken: -50%.",
                         "maxLevel": 20,
@@ -262,7 +251,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 27101004,
                         "name": "Agile Magic",
                         "shortDesc": "Attack Speed: +2, INT: +20",
                         "maxLevel": 10,
@@ -270,7 +258,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 27100005,
                         "name": "Spell Mastery",
                         "shortDesc": "Magic Mastery: 50%, Magic ATT: +10, Damage: +15%, Critical Rate: +20%, Attack Speed: +1",
                         "maxLevel": 10,
@@ -278,7 +265,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 27100006,
                         "name": "High Wisdom",
                         "shortDesc": "Permanently increase INT by 40",
                         "maxLevel": 4,
@@ -288,7 +274,6 @@
                 ],
                 [
                     "3rd Job", [{
-                        "id": 27111100,
                         "name": "Spectral Light",
                         "shortDesc": "MP Cost per attack: 20. Max Enemies Hit: 8, Damage: 121%, Number of Attacks: 4. Steer the beams by holding the skill key and pressing Up or Down.",
                         "maxLevel": 20,
@@ -302,7 +287,6 @@
                         ]
                     },
                     {
-                        "id": 27111101,
                         "name": "Ray of Redemption",
                         "shortDesc": "MP Cost: 41, Damage: 180%, Number of Attacks: 3, Max Enemies Hit: 6, Recovery: 800%\\n[Cooldown: 5 sec]",
                         "maxLevel": 20,
@@ -312,7 +296,6 @@
                         "desc": "Shines a beam of light in front of you that damages enemies and heals nearby party members "
                     },
                     {
-                        "id": 27111202,
                         "name": "Moonlight Spear",
                         "shortDesc": "MP Cost: 75, Max Enemies Hit: 6, Damage: 371%, Number of Attacks: 2",
                         "maxLevel": 20,
@@ -322,7 +305,6 @@
                         "desc": "Launches spears beneath nearby enemies"
                     },
                     {
-                        "id": 27111303,
                         "name": "Death Scythe",
                         "shortDesc": "MP Cost: 120, Max Enemies Hit: 10, Damage: 230%, Number of Attacks: 6\\n[Cooldown: 24 sec]",
                         "maxLevel": 20,
@@ -335,7 +317,6 @@
                         ]
                     },
                     {
-                        "id": 27111004,
                         "name": "Shadow Shell",
                         "shortDesc": "MP Cost: 200. Ignore debilitating status conditions 7 times. Cooldown: 240 sec when broken.\\n[Passive Effect: Increases Elemental Resistance by 40% and Abnormal Status Resistance by 40, Knockback Resistance: +40%]",
                         "maxLevel": 10,
@@ -348,7 +329,6 @@
                         ]
                     },
                     {
-                        "id": 27111005,
                         "name": "Dusk Guard",
                         "shortDesc": "DEF: +300, Ignore Damage Chance: 20%\\nKnockback Resistance: +40%",
                         "maxLevel": 10,
@@ -357,7 +337,6 @@
                         "desc": "Increases %Knockback Resistance, grants flat DEF, and a chance to ignore an enemy attack"
                     },
                     {
-                        "id": 27111006,
                         "name": "Photic Meditation",
                         "shortDesc": "MP Cost: 55. Duration: 180 sec. Increases you and your party members' Magic ATT by 40.",
                         "maxLevel": 20,
@@ -366,7 +345,6 @@
                         "type": "Party Buff"
                     },
                     {
-                        "id": 27110007,
                         "name": "Self Recovery",
                         "shortDesc": "Recovers 2.0% of Max HP and Max MP periodically.\\nMP Absorb Chance: 30%, Amount Absorbed: 5% of Max MP\\nAmount Absorbed: 3% of the boss's Max MP",
                         "maxLevel": 4,
@@ -378,7 +356,6 @@
                         ]
                     },
                     {
-                        "id": 27111008,
                         "name": "Light Speed Boost",
                         "shortDesc": "MP Cost: 20, Light Speed Horizontal Movement +65",
                         "maxLevel": 1,
@@ -400,7 +377,6 @@
                 ],
                 [
                     "4th Job", [{
-                        "id": 27121012,
                         "name": "The Crossroads of Destiny",
                         "shortDesc": "Cooldown: 6 hrs",
                         "maxLevel": 1,
@@ -409,7 +385,6 @@
                         "desc": "Allows you to swap between <span data-tooltip='Light Affinity (1st Job)'><img src='/class-icons/heroes/luminous/light-affinity.png' alt='Skill Light Affinity'/></span> and <span data-tooltip='Dark Affinity (1st Job)'><img src='/class-icons/heroes/luminous/dark-affinity.png' alt='Skill Dark Affinity'/></span>"
                     },
                     {
-                        "id": 27121100,
                         "name": "Reflection",
                         "shortDesc": "MP Cost: 81, Damage: 440%, Number of Attacks: 4, Max Enemies Hit: 8",
                         "maxLevel": 30,
@@ -422,7 +397,6 @@
                         ]
                     },
                     {
-                        "id": 27121201,
                         "name": "Morning Star",
                         "shortDesc": "MP Cost: 50, Max Enemies Hit: 8, Knockback Damage: 180%, Number of Attacks: 2, Explosion Damage: 370%\\nCooldown: 5 sec\\n[Passive Effect: Final Damage +36%, Boss Damage: +15%]",
                         "maxLevel": 30,
@@ -437,7 +411,6 @@
                         ]
                     },
                     {
-                        "id": 27121202,
                         "name": "Apocalypse",
                         "shortDesc": "MP Cost: 100, Max Enemies Hit: 8, Number of Attacks: 7, Damage: 340%.",
                         "maxLevel": 30,
@@ -447,7 +420,6 @@
                         "desc": "Unleashes a burst of void energy in front of you"
                     },
                     {
-                        "id": 27121303,
                         "name": "Ender",
                         "shortDesc": "MP Cost: 49, Max Enemies Hit: 2. Damage: 455%, Number of Attacks: 7\\nAdditional Critical rate: 100%, Additional DEF ignored: 40%\\n[Cooldown: 12 sec]",
                         "maxLevel": 30,
@@ -461,7 +433,6 @@
                         ]
                     },
                     {
-                        "id": 27121005,
                         "name": "Dark Crescendo",
                         "shortDesc": "When direct skill attacks hit, there is a 80% chance to increase damage by 8% for 30 secs. Can stack up to 5 times",
                         "maxLevel": 30,
@@ -470,7 +441,6 @@
                         "desc": "When your attacks hit an enemy, there is a chance to gain a stacking %Damage buff"
                     },
                     {
-                        "id": 27121006,
                         "name": "Arcane Pitch",
                         "shortDesc": "MP Cost: 85, Ignored Monster Elemental Resistance 10%, Duration: 180 sec\\n[Passive: Final damage +40%, Ignore Defense: 40%, Knockback Resistance: +60%]",
                         "maxLevel": 30,
@@ -479,7 +449,6 @@
                         "type": "Buff"
                     },
                     {
-                        "id": 27120007,
                         "name": "Magic Mastery",
                         "shortDesc": "Mastery: +70%, Magic ATT: +30, Critical Rate: +15%, Critical Damage: +18%",
                         "maxLevel": 30,
@@ -492,7 +461,6 @@
                         ]
                     },
                     {
-                        "id": 27120008,
                         "name": "Darkness Mastery",
                         "shortDesc": "Equilibrium Duration: +7 sec. Time to reach Sunfire and Eclipse decreases when light or dark skills are used.\\nCan use Light Speed up to 2 times in the air while Equilibrium is active.\\nDeath Scythe Damage: +100%",
                         "maxLevel": 10,
@@ -505,7 +473,6 @@
                         ]
                     },
                     {
-                        "id": 27121009,
                         "name": "Maple Warrior",
                         "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                         "maxLevel": 30,
@@ -514,7 +481,6 @@
                         "type": "Party Buff"
                     },
                     {
-                        "id": 27121010,
                         "name": "Hero's Will",
                         "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
@@ -531,7 +497,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 27120043,
                     "name": "Reflection - Reinforce",
                     "shortDesc": "Damage +20%",
                     "maxLevel": 1,
@@ -540,7 +505,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 27120044,
                     "name": "Reflection - Spread",
                     "shortDesc": "Increases split damage reduction rate to 0%.",
                     "maxLevel": 1,
@@ -549,7 +513,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 27120045,
                     "name": "Reflection - Range Up",
                     "shortDesc": "Range +50",
                     "maxLevel": 1,
@@ -558,7 +521,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 27120046,
                     "name": "Apocalypse - Reinforce",
                     "shortDesc": "Damage +20%",
                     "maxLevel": 1,
@@ -567,7 +529,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 27120047,
                     "name": "Apocalypse - Recharge",
                     "shortDesc": "Increases gauge fill amount",
                     "maxLevel": 1,
@@ -576,7 +537,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 27120048,
                     "name": "Apocalypse - Extra Target",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
@@ -585,7 +545,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 27120049,
                     "name": "Ender - Reinforce",
                     "shortDesc": "Damage +20%",
                     "maxLevel": 1,
@@ -594,7 +553,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 27120050,
                     "name": "Ender - Extra Target",
                     "shortDesc": "Max Enemies Hit: +1",
                     "maxLevel": 1,
@@ -603,7 +561,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 27120051,
                     "name": "Ender - Range Up",
                     "shortDesc": "Range 40",
                     "maxLevel": 1,
@@ -614,7 +571,6 @@
             ],
             "hyperActive": [
                 {
-                    "id": 27121054,
                     "name": "Equalize",
                     "shortDesc": "MP Cost: 1000, Equilibrium status begins.\\nCooldown: 150 sec",
                     "maxLevel": 1,
@@ -625,7 +581,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 27121052,
                     "name": "Armageddon",
                     "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 1000%, Number of Attacks: 3, Stun Duration: 10 sec, Invincible while casting.\\nStun Duration: up to +100% depending on damage inflicted with Armageddon.\\nCooldown: 120 sec",
                     "maxLevel": 1,
@@ -639,7 +594,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 27121053,
                     "name": "Heroic Memories",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
                     "maxLevel": 1,
@@ -656,7 +610,6 @@
                 {
                     "name": "Gate of Light",
                     "shortDesc": "MP Cost: 1000, Max Enemies Hit: 12, Damage: 900%, Number of Attacks: 10\\nDuration: 37 sec\\nCan be used once while Equilibrium is active",
-                    "id": 400031002,
                     "icons": ["/class-icons/heroes/luminous/gate-of-light.png"],
                     "animations": ["https://media4.giphy.com/media/vMERZQoDqTZ2YCTRGR/giphy.gif"],
                     "type": "Equilibrium Summon",
@@ -669,7 +622,6 @@
                 {
                     "name": "Aether Conduit",
                     "shortDesc": "MP Cost: 1000, Summon Duration: 6 sec, Max Enemies Hit: 10\\nSunfire - Damage: 900%, Number of Attacks: 4\\nEclipse - Damage: 640%, Number of Attacks: 5\\nEquilibrium - Damage: 850%, Number of Attacks: 6\\nCritical Rate: +15% to all attacks\\nCooldown: 30 sec",
-                    "id": 400031020,
                     "icons": ["/class-icons/heroes/luminous/aether-conduit.png"],
                     "animations": ["https://media3.giphy.com/media/KvP3ewqwDi6Ugsepyz/giphy.gif"],
                     "type": "Summon",
@@ -683,7 +635,6 @@
                 {
                     "name": "Baptism of Light and Darkness",
                     "shortDesc": "MP Cost: 2000, activates the Baptism of Light and Darkness 13 times consecutively. Damage: 900%, Number of Attacks: 7\\nBonus Critical Rate: +100%, Additional Monster DEF Ignored: +100%\\nCooldown: 45 sec\\nIf the Equilibrium skill hits while Equilibrium is active, Baptism of Light and Darkness Cooldown: -3 sec\\nWhen Equilibrium is activated, the cooldown of Baptism of Light and Darkness is reset once.",
-                    "id": 400031028,
                     "icons": ["/class-icons/heroes/luminous/baptism-of-light-and-darkness.png"],
                     "animations": ["https://media3.giphy.com/media/vZ4MRQ3vlyQ5LIFrMa/giphy.gif"],
                     "type": "Attack",
@@ -698,7 +649,6 @@
                 {
                     "name": "Liberation Orb",
                     "shortDesc": "[Passive Effect]: Damage: 750%, Number of Attacks: 4, Cooldown: 6 sec, obtain up to 4 magic power per attribute. Light: creates up to 1 light zone(s) that attack up to 3 enemies. Darkness: fires magic bullets that move back and forth across up to 7 enemies.\\n[Active Effect]: MP Cost: 1200, Cooldown: 180 sec\\nDuration: 45 sec, direct skill attacks that create 10 magic orbs, each of which attack 1 enemy, attack activates up to 20 times. Additional Critical Rate: 100%, Damage increases by 150%p for each unit of accumulated magic power beyond the first. Cooldown: 0.9 sec. Imbalance: creates a magic orb that deals 1200% damage. Balance: creates a magic orb that deals 1300% damage.",
-                    "id": 400031028,
                     "icons": ["/class-icons/heroes/luminous/liberation-orb.png"],
                     "animations": ["https://media2.giphy.com/media/HGSH2kvfrMusIVpaRr/giphy.gif"],
                     "type": "Passive Attack / Summon",

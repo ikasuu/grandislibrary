@@ -34,6 +34,8 @@
             "toggles": "<span data-tooltip='Storm Elemental (1st Job)'><img src='/class-icons/cygnus-knights/wind-archer/storm-elemental.png' alt='Skill Storm Elemental'/></span> <span data-tooltip='Trifling Wind I (2nd Job)'><img src='/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png' alt='Skill Trifling Wind I'/></span>",
             "summons": "<div><span data-tooltip='Emerald Flower (3rd Job)'><img src='/class-icons/cygnus-knights/wind-archer/emerald-flower.png' alt='Skill Emerald Flower'/></span>[60s]</div> <div><span data-tooltip='Howling Gale (5th Job)'><img src='/class-icons/cygnus-knights/wind-archer/howling-gale.png' alt='Skill Howling Gale'/></span>[10s](20-60s cd)</div> <div><span data-tooltip='Vortex Sphere (5th Job)'><img src='/class-icons/cygnus-knights/wind-archer/vortex-sphere.png' alt='Skill Vortex Sphere'/></span>(30s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div> <div><span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)</div>",
             "buffCd": "<div><span data-tooltip='Storm Whim (Hyper Skill)'><img src='/class-icons/cygnus-knights/wind-archer/storm-whim.png' alt='Skill Storm Whim'/></span>[30s](120s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/wind-archer/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Gale Barrier (5th Job)'><img src='/class-icons/cygnus-knights/wind-archer/gale-barrier.png' alt='Skill Gale Barrier'/></span>[45s](90s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/></span>[45s](240s cd)</div> <div><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>[30s](120s cd)</div>",
+            "binds": "<div><span data-tooltip='Mistral Spring (6th Job)'><img src='/class-icons/cygnus-knights/wind-archer/mistral-spring.png' alt='Skill Mistral Spring'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Mistral Spring (6th Job)'><img src='/class-icons/cygnus-knights/wind-archer/mistral-spring.png' alt='Skill Mistral Spring'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Gale Barrier (5th Job)'><img src='/class-icons/cygnus-knights/wind-archer/gale-barrier.png' alt='Skill Gale Barrier'/></span>[45s](Special Barrier | 90s cd)</div> <div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 240s cd)</div>"
         },
         "linkSkill": {
@@ -85,7 +87,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 10001244,
                     "name": "Elemental Slash",
                     "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
                     "maxLevel": 1,
@@ -95,7 +96,6 @@
                     "desc": "Strike forward damaging multiple enemies"
                 },
                 {
-                    "id": 10001245,
                     "name": "Imperial Recall",
                     "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
                     "maxLevel": 1,
@@ -104,7 +104,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 10000246,
                     "name": "Noble Mind",
                     "shortDesc": "Increases Empress's Blessing max level by 6",
                     "maxLevel": 6,
@@ -116,7 +115,6 @@
                     ]
                 },
                 {
-                    "id": 10000247,
                     "name": "Elemental Harmony",
                     "shortDesc": "Dexterity increases 1 for every 2 levels the character gains",
                     "maxLevel": 1,
@@ -124,7 +122,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 10000250,
                     "name": "Elemental Expert",
                     "shortDesc": "Attack Power and Magic ATT: +10%",
                     "maxLevel": 1,
@@ -132,7 +129,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 10000252,
                     "name": "Elemental Shift",
                     "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
                     "maxLevel": 1,
@@ -146,7 +142,6 @@
                     ]
                 },
                 {
-                    "id": 10001244,
                     "name": "Hero's Echo",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
                     "maxLevel": 1,
@@ -163,7 +158,6 @@
             ],
             [
                 "1st Job", [{
-                        "id": 13001020,
                         "name": "Breeze Arrow",
                         "shortDesc": "MP Cost: 22, Max Enemies Hit: 5, Damage: 120%, Number of Attacks: 3",
                         "maxLevel": 20,
@@ -173,7 +167,6 @@
                         "desc": "Fires a shot of arrows forward"
                     },
                     {
-                        "id": 13001021,
                         "name": "Wind Walk",
                         "shortDesc": "MP Cost: 10, Moves along the platform on the ground and stops at the end of the platform. Can be used with Gust Swift in the air.\\nPassive Effect: Speed: +35, Jump: +15, Max Speed: +20",
                         "maxLevel": 15,
@@ -187,7 +180,6 @@
                         ]
                     },
                     {
-                        "id": 13001022,
                         "name": "Gust Swift",
                         "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.",
                         "maxLevel": 1,
@@ -200,7 +192,6 @@
                         ]
                     },
                     {
-                        "id": 13001022,
                         "name": "Storm Elemental",
                         "shortDesc": "Damage: +10%",
                         "maxLevel": 10,
@@ -209,7 +200,6 @@
                         "type": "Toggle Buff"
                     },
                     {
-                        "id": 13000023,
                         "name": "Whispers of the Wind",
                         "shortDesc": "Attack Power: +20, Range: +160",
                         "maxLevel": 20,
@@ -220,7 +210,6 @@
                 [
                 "2nd Job", [
                     {
-                        "id": 13101021,
                         "name": "Gust Shot",
                         "shortDesc": "MP Cost: 20, Max Monsters Hit: 6, Damage: 520%, Number of Attacks: 1",
                         "maxLevel": 20,
@@ -233,7 +222,6 @@
                         ]
                     },
                     {
-                        "id": 13101029,
                         "name": "Spiraling Vortex",
                         "shortDesc": "MP Cost: 31, Max Enemies Pushed Back: 6, Damage: 175%, Number of Attacks: 3",
                         "maxLevel": 20,
@@ -243,7 +231,6 @@
                         "desc": "Fires an arrow that pushes enemies back"
                     },
                     {
-                        "id": 13101022,
                         "name": "Trifling Wind I",
                         "shortDesc": "Max soul energy created: 3, Chance to create energy: 30%, Random enemies damaged: 170%, Chance to create enhanced soul energy: 5%, Damage of enhanced soul energy: 210%",
                         "maxLevel": 20,
@@ -258,7 +245,6 @@
                         ]
                     },
                     {
-                        "id": 13101024,
                         "name": "Sylvan Aid",
                         "shortDesc": "Allows you to use your skills without consuming arrows. ATT: +20, Critical Rate: +10%",
                         "maxLevel": 9,
@@ -270,7 +256,6 @@
                         ]
                     },
                     {
-                        "id": 13101023,
                         "name": "Agile Bows",
                         "shortDesc": "Attack Speed: +2, DEX: +20",
                         "maxLevel": 10,
@@ -278,7 +263,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 13100025,
                         "name": "Bow Mastery",
                         "shortDesc": "Bow Mastery: +50%, Final Damage: +10%",
                         "maxLevel": 10,
@@ -286,7 +270,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 13100026,
                         "name": "Physical Training",
                         "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
                         "maxLevel": 5,
@@ -296,7 +279,6 @@
                 ],
                 [
                 "3rd Job", [{
-                        "id": 13111020,
                         "name": "Sentient Arrow",
                         "shortDesc": "MP Cost: 25, Max Enemies Hit: 6, Damage: 190%, Number of Attacks: 5",
                         "maxLevel": 20,
@@ -306,7 +288,6 @@
                         "desc": "Release a burst of gust around your character damaging enemies caught within"
                     },
                     {
-                        "id": 13111021,
                         "name": "Pinpoint Pierce",
                         "shortDesc": "MP Cost: 37, Max Enemies Hit: 1, Damage: 340%, Number of Attacks: 2.\\nActivates a debuff of 15% Damage and 15% Ignore Defense to all of Wind Archer's attacks for 60 sec.",
                         "maxLevel": 20,
@@ -319,7 +300,6 @@
                         ]
                     },
                     {
-                        "id": 13110022,
                         "name": "Trifling Wind II",
                         "shortDesc": "Max soul energy created: 4, Chance to create energy: 40%, Random enemies damaged: 215%, Chance to create enhanced soul energy: 10%, Damage of enhanced soul energy: 270%",
                         "maxLevel": 20,
@@ -331,7 +311,6 @@
                         ]
                     },
                     {
-                        "id": 13111023,
                         "name": "Eagle Eye",
                         "shortDesc": "Attack Power: +20, Max HP: +1500, Critical Rate: +10%, Attack Speed: +1",
                         "maxLevel": 20,
@@ -339,7 +318,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 13111024,
                         "name": "Emerald Flower",
                         "shortDesc": "MP Cost: 60, Duration: 60 sec. Crystal Flower HP: 20000 Slows affected enemies.",
                         "maxLevel": 10,
@@ -352,7 +330,6 @@
                         ]
                     },
                     {
-                        "id": 13110025,
                         "name": "Featherweight",
                         "shortDesc": "Damage Taken: -30%, Abnormal Status Resistance: +10, Elemental Resistance: +10%, Knockback Resistance: +40%",
                         "maxLevel": 20,
@@ -360,7 +337,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 13110026,
                         "name": "Second Wind",
                         "shortDesc": "Avoidability Chance: +30%, Defense: +1000\\nWhen attack hits, Attack Power: +15 for 5 sec",
                         "maxLevel": 14,
@@ -374,7 +350,6 @@
                 ],
                 [
                 "4th Job", [{
-                    "id": 13121000,
                     "name": "Call of Cygnus",
                     "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
@@ -383,7 +358,6 @@
                     "type": "Party Buff"
                 },
                 {
-                    "id": 11121000,
                     "name": "Cygnus Knights' Will",
                     "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 1,
@@ -396,7 +370,6 @@
                     ]
                 },
                 {
-                    "id": 13121016,
                     "name": "Fairy Spiral",
                     "shortDesc": "MP Cost: 36, Max Enemies Pushed Back: 6, Damage: 380%, Number of Attacks: 5\\n[Passive Effect: Sentient Arrow Damage: +100% points]",
                     "maxLevel": 30,
@@ -409,7 +382,6 @@
                     ]
                 },
                 {
-                    "id": 13121001,
                     "name": "Song of Heaven",
                     "shortDesc": "MP Cost per attack: 8, Max Enemies Hit: 4, Damage: 390%",
                     "maxLevel": 30,
@@ -422,7 +394,6 @@
                     ]
                 },
                 {
-                    "id": 13120003,
                     "name": "Trifling Wind III",
                     "shortDesc": "Max soul energy created: 5, Chance to create energy: 50%, Random enemies damaged: 290%, Chance to create enhanced soul energy: 20%, Damage of enhanced soul energy: 390%",
                     "maxLevel": 30,
@@ -434,7 +405,6 @@
                     ]
                 },
                 {
-                    "id": 13121054,
                     "name": "Storm Bringer",
                     "shortDesc": "MP Cost: 70, Duration: 200 sec., Chance to summon a large arrow on attack: 30%, Additional Damage from Arrow: 380%",
                     "maxLevel": 15,
@@ -447,7 +417,6 @@
                     ]
                 },
                 {
-                    "id": 13121005,
                     "name": "Sharp Eyes",
                     "shortDesc": "MP Cost: 45, Critical Rate: +20%, Critical Damage: +15%, Duration: 300 sec",
                     "maxLevel": 30,
@@ -456,7 +425,6 @@
                     "type": "Party Buff"
                 },
                 {
-                    "id": 13120004,
                     "name": "Touch of the Wind",
                     "shortDesc": "Attack Power: +10%, Dexterity: +15%, Max HP: +20%, Additional Avoidability: +30%, Knockback Resistance: +60%",
                     "maxLevel": 20,
@@ -464,7 +432,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 13120006,
                     "name": "Bow Expert",
                     "shortDesc": "Bow Mastery: +70%. Attack Power: +30, Final Damage: +35%, Critical Damage: +20%, Damage Against Bosses: +40%",
                     "maxLevel": 30,
@@ -477,7 +444,6 @@
                     ]
                 },
                 {
-                    "id": 13120007,
                     "name": "Emerald Dust",
                     "shortDesc": "Increases Crystal Flower's Max HP to 40000, Monster DEF: -10%, Damage Intake: -20%",
                     "maxLevel": 10,
@@ -489,7 +455,6 @@
                     ]
                 },
                 {
-                    "id": 13120008,
                     "name": "Albatross Max",
                     "shortDesc": "Attack Power: +30, Damage: +25%, Ignore Enemy Defense: +15%, Critical Rate: +15%, Status Resistance: +15, Elemental Resistance: +15%, Attack Speed: +1",
                     "maxLevel": 30,
@@ -507,7 +472,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 13120043,
                     "name": "Trifling Wind - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -516,7 +480,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 13120044,
                     "name": "Trifling Wind - Enhance",
                     "shortDesc": "Activation Chance: +10%",
                     "maxLevel": 1,
@@ -525,7 +488,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 13120045,
                     "name": "Trifling Wind - Double Chance",
                     "shortDesc": "Spirit Aura occurs twice and can hit a target twice",
                     "maxLevel": 1,
@@ -539,7 +501,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 13120046,
                     "name": "Fairy Spiral - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -548,7 +509,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 13120047,
                     "name": "Fairy Spiral - Spread",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
@@ -557,7 +517,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 13120048,
                     "name": "Fairy Spiral - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
@@ -566,7 +525,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 13120049,
                     "name": "Song of Heaven - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -575,7 +533,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 13120050,
                     "name": "Song of Heaven - Guardbreak",
                     "shortDesc": "Monster DEF ignored increased 20%",
                     "maxLevel": 1,
@@ -584,7 +541,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 13120051,
                     "name": "Song of Heaven - Boss Rush",
                     "shortDesc": "Boss Damage: +30%",
                     "maxLevel": 1,
@@ -595,7 +551,6 @@
             ],
             "hyperActive": [
                 {
-                    "id": 13121054,
                     "name": "Storm Whim",
                     "shortDesc": "MP Cost: 200, Duration: 30, Strong Spirit Arrow Chance: 30%, Damage: 560%\\nCooldown: 120 sec",
                     "maxLevel": 1,
@@ -609,7 +564,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 13121052,
                     "name": "Monsoon",
                     "shortDesc": "MP Cost: 350, Enemies Hit: 15, Damage: 430%, Number of Attacks: 12. Debuff Damage: 200% every 1 sec for 30 sec.\\nCooldown: 30 sec",
                     "maxLevel": 1,
@@ -623,7 +577,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 11121053,
                     "name": "Glory of the Guardians",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
                     "maxLevel": 1,
@@ -640,7 +593,6 @@
                 {
                     "name": "Howling Gale",
                     "shortDesc": "MP Cost: 500, consumes wind energy to summon a gust for 10 sec\\nThe power of the summoned gust varies based on the amount of wind energy\\n1 - Max Enemies Hit: 10, Damage: 650%, Number of Attacks: 3, Gust Summoned: 1\\n2 - Max Enemies Hit: 15, Damage: 1560%, Number of Attacks: 3, Gust Summoned: 1\\n3 - Max Enemies Hit: 15, Gust Damage: 1560%, Number of Attacks: 3, Gust Summoned: 1. Max Enemies Hit: 15, Gust Damage: 850%, Number of Attacks: 3, Gust Summoned: 1\\nWind energy increases by 1 every 20 sec and you can hold up to 3.",
-                    "id": 400041008,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/howling-gale.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q3cGNldW9hdmRkcjhsMDN5aHl2dXV0djRzN2JraGJxM2VjNnQ5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J6o5azRRKSVMm4ij6q/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemo2emR2emVram0ycnYxMWVha29vb2FhZTdmZXl2N3F2YXoxbWlscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cu8QzRb4A1ZUXO6wKr/giphy.gif"],
                     "type": "Summon",
@@ -658,7 +610,6 @@
                 {
                     "name": "Merciless Winds",
                     "shortDesc": "MP Cost: 500, Duration: 8 sec. Creates 10 enemy-seeking Spirit Arrows that deal 1100% damage 3 times.\\nIf more than one Spirit Arrow strikes the same enemy, the Final Damage of each additional arrow is reduced by 15%.\\nEnemies hit by Spirit Arrows take 1000% damage every 1 sec for 9 sec\\nCooldown: 10 sec",
-                    "id": 400041028,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/merciless-winds.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJ5cWpmNnFybHlnbGFjeXhzdmVpeGlieTdtY2d4bjN5MzJ0MTZhYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/46ALCfLORlc5i7WUmN/giphy.gif"],
                     "type": "Attack",
@@ -673,7 +624,6 @@
                 {
                     "name": "Gale Barrier",
                     "shortDesc": "MP Cost: 1000, Duration: 45 sec, creates a wind barrier with the 300 Elemental\\nDamage is nullified when the 1 Elemental is used for damage equal to 1% of max HP when hit. Also applies to attacks that deal damage proportional to the max HP.\\nLaunches 3 whirlwind(s) that deal(s) 1100% damage every 2 sec upon attack. Decreases the Final Damage of the whirlwind by 50% if multiple whirlwinds attack 1 enemy.\\nCooldown: 90 sec",
-                    "id": 400041037,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/gale-barrier.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXFxbjhxNGg5YmhhbG0xZ3UyNGtoN2Z4eGw0OG14eGgyMW5yZXh2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CZK7HrIOFMtSknyPQS/giphy.gif"],
                     "type": "Buff",
@@ -686,7 +636,6 @@
                 {
                     "name": "Vortex Sphere",
                     "shortDesc": "MP Cost: 750. Creates a Vortex Sphere, which moves on a collision course with the enemy. The sphere periodically attacks up to 10 enemies, for 800% damage, 6 times.\\nDecreases Vortex Sphere's speed by 50% for 1 sec if a Boss Monster is attacked.\\nCollision occurs up to 20 times for each enemy.\\nCooldown: 30 sec",
-                    "id": 400041037,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/vortex-sphere.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWlzNXF1NjB3ZXI1cDlyaWhuZWtheng4ZXoyMXdjYmlsdnlodWxncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lTkYFwGCdUDQg5AWUN/giphy.gif"],
                     "type": "Attack",

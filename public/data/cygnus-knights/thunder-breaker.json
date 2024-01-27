@@ -31,7 +31,8 @@
             "toggles": "<span data-tooltip='Lightning Elemental (1st Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png' alt='Skill Lightning Elemental'/></span> <span data-tooltip='Arc Charger (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/arc-charger.png' alt='Skill Arc Charger'/></span>",
             "summons": "<div><span data-tooltip='Sea Wave (2nd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/sea-wave.png' alt='Skill Sea Wave'/></span>[24 Attacks or 2700 Distance](12s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div>",
             "buffCd": "<div><span data-tooltip='Typhoon (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/typhoon.png' alt='Skill Typhoon'/></span>[90s](12s cd)</div> <div><span data-tooltip='Primal Bolt (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png' alt='Skill Primal Bolt'/></span>[30s](120s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Lightning Cascade (5th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png' alt='Skill Lightning Cascade'/></span>[52s](120s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](240s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
-            "iFrame": "<div><span data-tooltip='Deep Rising (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/deep-rising.png' alt='Skill Deep Rising'/></span>(45s cd)</div>",
+            "binds": "<div><span data-tooltip='Thunder Wall Sea Wave (6th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png' alt='Skill Thunder Wall Sea Wave'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Deep Rising (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/deep-rising.png' alt='Skill Deep Rising'/></span>(45s cd)</div> <div><span data-tooltip='Thunder Wall Sea Wave (6th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png' alt='Skill Thunder Wall Sea Wave'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 240s cd)</div>"
         },
         "linkSkill": {
@@ -89,7 +90,6 @@
         "primary":[
             [
                 "Beginner", [{
-                    "id": 10001244,
                     "name": "Elemental Slash",
                     "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
                     "maxLevel": 1,
@@ -99,7 +99,6 @@
                     "desc": "Strike forward damaging multiple enemies"
                 },
                 {
-                    "id": 10001245,
                     "name": "Imperial Recall",
                     "shortDesc": "MP Cost: 100, return to Ereve immediately.\\nCooldown: 600 sec.",
                     "maxLevel": 1,
@@ -108,7 +107,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 10000246,
                     "name": "Noble Mind",
                     "shortDesc": "Increases Empress's Blessing max level by 6",
                     "maxLevel": 6,
@@ -120,7 +118,6 @@
                     ]
                 },
                 {
-                    "id": 10000246,
                     "name": "Elemental Harmony",
                     "shortDesc": "Strength increases 1 for every 2 levels the character gains",
                     "maxLevel": 1,
@@ -128,7 +125,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 10000250,
                     "name": "Elemental Expert",
                     "shortDesc": "Attack Power and Magic ATT: +10%",
                     "maxLevel": 1,
@@ -136,7 +132,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 10000252,
                     "name": "Elemental Shift",
                     "shortDesc": "MP Cost: 4, jumps further in the appropriate direction",
                     "maxLevel": 1,
@@ -150,7 +145,6 @@
                     ]
                 },
                 {
-                    "id": 10001244,
                     "name": "Hero's Echo",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
                     "maxLevel": 1,
@@ -167,7 +161,6 @@
             ],
             [
                 "1st Job", [{
-                        "id": 15001020,
                         "name": "Lightning Punch",
                         "shortDesc": "MP Cost: 21, Max Enemies Hit: 4, Damage: 160%, Number of Attacks: 2",
                         "maxLevel": 20,
@@ -180,7 +173,6 @@
                         ]
                     },
                     {
-                        "id": 15001021,
                         "name": "Flash",
                         "shortDesc": "MP Cost: 9, Max Enemies Hit: 4 Damage: 310%, Number of Attacks: 1\\nWhen no enemies are around, you'll be teleported forward 300.",
                         "maxLevel": 15,
@@ -195,7 +187,6 @@
                         ]
                     },
                     {
-                        "id": 15001022,
                         "name": "Lightning Elemental",
                         "shortDesc": "Chance to create Lightning Charge: 10%, Buff Duration: 30 sec\\nSame chance to create 2 Lightning Charge when linking skill\\nMax Lightning Charge Stacks: 2\\nIgnore Enemy Defense: 5% per Lightning Charge\\nConsuming Lightning Charge temporarily applies adjusted buff for 10 sec that increases the same amount of stats as those increased by the consumed Lightning Charge\\nWhile adjusted buff is active, adjusted buff stacks decrease when Lightning Charge is obtained\\nAll stats increased by Lightning Charge and adjusted buff are additive.",
                         "maxLevel": 10,
@@ -210,7 +201,6 @@
                         ]
                     },
                     {
-                        "id": 15000023,
                         "name": "Electrified",
                         "shortDesc": "Chance to create Lightning Charge: +20%\\nSpeed: +40, Jump: +20, Max Speed: +20.",
                         "maxLevel": 20,
@@ -227,7 +217,6 @@
                 ],
                 [
                 "2nd Job", [{
-                        "id": 15101020,
                         "name": "Shark Sweep",
                         "shortDesc": "MP Cost: 31, Damage: 155%, Number of Attacks: 4, Max Enemies Hit: 6",
                         "maxLevel": 20,
@@ -240,7 +229,6 @@
                         ]
                     },
                     {
-                        "id": 15101021,
                         "name": "Tidal Crash",
                         "shortDesc": "MP Cost: 20, Max Monsters Hit: 8, Damage: 255%, Number of Attacks: 2 while moving forward",
                         "maxLevel": 20,
@@ -256,7 +244,6 @@
                         ]
                     },
                     {
-                        "id": 15100023,
                         "name": "Sea Wave",
                         "shortDesc": "MP Cost: 50, created when linking skill and not under cooldown\\nFlows in a fixed direction, Max Enemies Hit: 5, Damage: 190%, Number of Attacks: 4\\nDisappears when moving a distance of 2700 or the number of enemies attacked is 24\\nMax Attack on Single Enemy: 1\\nCooldown: 12 sec",
                         "maxLevel": 15,
@@ -271,7 +258,6 @@
                         ]
                     },
                     {
-                        "id": 15101022,
                         "name": "Agile Knuckles",
                         "shortDesc": "Strenght: +20, Knuckle Attack Speed: +2",
                         "maxLevel": 5,
@@ -279,7 +265,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 15100023,
                         "name": "Knuckle Mastery",
                         "shortDesc": "Knuckle Mastery: +50%, Final Damage: +5%",
                         "maxLevel": 10,
@@ -287,7 +272,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 15100024,
                         "name": "Gains",
                         "shortDesc": "Permanent STR: +60, Critical Rate: +10%, Critical Damage: +5%",
                         "maxLevel": 14,
@@ -295,7 +279,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 15100025,
                         "name": "Lightning Boost",
                         "shortDesc": "Attack Power: +20\\nLightning Charge Chance: +20%, Max Stacks: +1\\nDamage: +2% per Lightning Charge, damage increased from Lightning Charge is additive",
                         "maxLevel": 10,
@@ -312,7 +295,6 @@
                 ],
                 [
                 "3rd Job", [{
-                        "id": 15111020,
                         "name": "Ascension",
                         "shortDesc": "MP Cost: 41, Max Enemies Hit: 6, Damage: 225%, Number of Attacks: 5",
                         "maxLevel": 20,
@@ -325,7 +307,6 @@
                         ]
                     },
                     {
-                        "id": 15111021,
                         "name": "Thunder",
                         "shortDesc": "MP Cost: 37, Max Enemies Hit: 6, Damage: 170%, Number of Attacks: 4",
                         "maxLevel": 20,
@@ -340,7 +321,6 @@
                         ]
                     },
                     {
-                        "id": 15111022,
                         "name": "Gale",
                         "shortDesc": "MP Cost: 65, can be used when Lightning Charge stack is 3\\nUses all Lightning Charge stacks, Max Enemies Hit: 6, Damage: 381%, Number of Attacks: 3. When used at max Lightning Charge stacks, Damage: +40% points\\nDamage: +2% per Lightning Charge used, Buff Duration: 60 sec\\nHowever, this skill doesn't generate Lightning Charges.\\nCooldown: 20 sec",
                         "maxLevel": 20,
@@ -356,7 +336,6 @@
                         ]
                     },
                     {
-                        "id": 15110023,
                         "name": "Seawall",
                         "shortDesc": "Abnormal Status Resistance: +30, Elemental Resistance: +30%",
                         "maxLevel": 20,
@@ -364,7 +343,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 15110024,
                         "name": "Ironclad",
                         "shortDesc": "Damage: +5%, Critical Rate: +10%\\nDamage Taken: -10%, Knockback Resistance: +40%",
                         "maxLevel": 10,
@@ -372,7 +350,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 15110025,
                         "name": "Link Mastery",
                         "shortDesc": "When linked skill hits, increases Final Damage by 6% for 30 sec. Link Mastery stacks up to 3 times and the Final Damage increase from Link Mastery is additive",
                         "maxLevel": 14,
@@ -381,7 +358,6 @@
                         "desc": "Successfully linking skills provides a stacking %Final Damage buff (addtiive)"
                     },
                     {
-                        "id": 15110026,
                         "name": "Lightning Lord",
                         "shortDesc": "Attack Power: +30, Critical Damage: +10%\\nLightning Charge Chance: +30%, Max Charges: +1\\nDamage: +3% per Lightning Charge, damage increased from Lightning Charge is additive.",
                         "maxLevel": 20,
@@ -398,7 +374,6 @@
                 ],
                 [
                 "4th Job", [{
-                    "id": 15121000,
                     "name": "Call of Cygnus",
                     "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
@@ -407,7 +382,6 @@
                     "type": "Party Buff"
                 },
                 {
-                    "id": 11121000,
                     "name": "Cygnus Knights' Will",
                     "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 1,
@@ -420,7 +394,6 @@
                     ]
                 },
                 {
-                    "id": 15121001,
                     "name": "Annihilate",
                     "shortDesc": "MP Cost: 60, Max Enemies Hit: 1, Damage: 335%, Number of Attacks: 7",
                     "maxLevel": 30,
@@ -435,7 +408,6 @@
                     ]
                 },
                 {
-                    "id": 15121002,
                     "name": "Thunderbolt",
                     "shortDesc": "MP Cost: 75, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 5",
                     "maxLevel": 30,
@@ -448,7 +420,6 @@
                     ]
                 },
                 {
-                    "id": 15120003,
                     "name": "Typhoon",
                     "shortDesc": "MP Cost: 49, can be used when Lightning Charge stack is 2\\nUses all Lightning Charge stacks, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 5. When used at max Lightning Charge stacks, Damage: +100% points\\nDamage: +3% per Lightning Charge used, Buff Duration: 90 sec\\nHowever, this skill doesn't generate Lightning Charges.\\nCooldown: 12 sec",
                     "maxLevel": 30,
@@ -466,7 +437,6 @@
                     ]
                 },
                 {
-                    "id": 15121004,
                     "name": "Arc Charger",
                     "shortDesc": "MP Cost: 80, makes an additional hit that is 70% of the final damage for all attacks",
                     "maxLevel": 30,
@@ -480,7 +450,6 @@
                     ]
                 },
                 {
-                    "id": 15121005,
                     "name": "Speed Infusion",
                     "shortDesc": "HP Cost: 40, MP Cost: 40, Duration: 300 sec, Attack Speed: +2\\n[Passive Effect: Sea Wave Damage: +100% points]",
                     "maxLevel": 30,
@@ -493,7 +462,6 @@
                     ]
                 },
                 {
-                    "id": 15120006,
                     "name": "Knuckle Expert",
                     "shortDesc": "Knuckle Mastery: +70%. Attack Power: +30\\nFinal Damage: +15%, Critical Damage: +15%",
                     "maxLevel": 30,
@@ -506,7 +474,6 @@
                     ]
                 },
                 {
-                    "id": 15120007,
                     "name": "Electrify",
                     "shortDesc": "Max HP: 20%, Avoidability: +20%, Knockback Resistance: +60%, Damage Intake: -20%",
                     "maxLevel": 15,
@@ -514,7 +481,6 @@
                     "type": "Passive"
                 },
                 {
-                    "id": 15120008,
                     "name": "Thunder God",
                     "shortDesc": "Lightning Charge Chance: +30%, Max Stacks: 1\\nIgnore Enemy Defense: +9% per Lightning Charge\\nCritical Rate: +10%, Critical Damage: +15%",
                     "maxLevel": 30,
@@ -533,7 +499,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 15120043,
                     "name": "Gale - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -542,7 +507,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 15120044,
                     "name": "Gale - Spread",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
@@ -551,7 +515,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 15120045,
                     "name": "Gale - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
@@ -560,7 +523,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 15120046,
                     "name": "Thunderbolt - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -569,7 +531,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 15120047,
                     "name": "Thunderbolt - Spread",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
@@ -578,7 +539,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 15120048,
                     "name": "Thunderbolt - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
@@ -587,7 +547,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 15120049,
                     "name": "Annihilate - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -596,7 +555,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 15120050,
                     "name": "Annihilate - Guardbreak",
                     "shortDesc": "Monster DEF ignored increased 20%",
                     "maxLevel": 1,
@@ -605,7 +563,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 15120051,
                     "name": "Annihilate - Boss Rush",
                     "shortDesc": "Boss Damage: +20%",
                     "maxLevel": 1,
@@ -616,7 +573,6 @@
             ],
             "hyperActive": [
                 {
-                    "id": 15121054,
                     "name": "Primal Bolt",
                     "shortDesc": "MP Cost: 200, Duration: 30 sec, skill doesn't consume MP while active\\nFor every Lightning Charge, Damage: +4%, Ignore Enemy Defense: +10%\\nWhen using Link Mastery skill, ignores required Lightning Charges and doesn't consume Lightning Charges, and Gale's cooldown isn't applied.\\nDecreases Link Mastery skill's cooldown when linking skill while active\\nSea Wave: Decreases 1.5 sec each up to 9 sec when linking\\nShark Torpedo: Decreases 0.5 sec each up to 2 sec when linking\\nLightning God Spear Strike: Decreases 0.5 sec each up to 3 sec when linking\\nCooldown: 120 sec",
                     "maxLevel": 1,
@@ -633,7 +589,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 15121052,
                     "name": "Deep Rising",
                     "shortDesc": "MP Cost: 350, Max Enemies Hit: 15, Damage: 860%, Number of Attacks: 7, invincible during casting motion\\nCooldown: 45 sec",
                     "maxLevel": 1,
@@ -649,7 +604,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 11121053,
                     "name": "Glory of the Guardians",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly Cygnus Knights and Mihile in the party receive the effect\\nCooldown: 120 sec",
                     "maxLevel": 1,
@@ -666,7 +620,6 @@
                 {
                     "name": "Lightning Cascade",
                     "shortDesc": "MP Cost: 1000, Grants Final Damage +24% for 42 sec. Initial Damage: 600%, Max Enemies Hit: 5, Number of Attacks: 6. Send forth a lightning bolt.\\nThe damage it deals decreases with each enemy it attacks, and it can hit up to 4 nearby enemies in a row\\nWhen only one bolt triggers, it becomes a more powerful version, dealing 800% damage 7 times.\\nLightning Spawn Cooldown: 3 sec\\nPassive Effect: when you attack during the Lightning Cascade cooldown, 1 lightning bolt activates if there are normal monsters nearby. Cooldown: 6 sec. Active and Passive Effects cannot trigger simultaneously.\\nSkill Cooldown: 120 sec",
-                    "id": 400051007,
                     "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png"],
                     "animations": ["https://media.giphy.com/media/yb0wjFEtReo4LsDmph/giphy.gif"],
                     "type": "Buff Attack",
@@ -681,7 +634,6 @@
                 {
                     "name": "Shark Torpedo",
                     "shortDesc": "MP Cost: 500, Consumes 2 Lightning Charges.\\nFires a deadly spirit-shark that deals 2000% damage 7 times to up to 15 enemies.\\nWhen Lightning Charge is at max stacks, Damage: +200% points\\nCooldown: 8 sec",
-                    "id": 400051016,
                     "icons": ["/class-icons/cygnus-knights/thunder-breaker/shark-torpedo.png"],
                     "animations": ["https://media3.giphy.com/media/EprWwmMl2jpUFAwLXt/giphy.gif"],
                     "type": "Link Mastery Attack",
@@ -695,7 +647,6 @@
                 {
                     "name": "Lightning God Spear Strike",
                     "shortDesc": "MP Cost: 500\\nA divine trident is summoned after 8 linked attacks land successfully.\\nMax Enemies Hit: 8, Damage: 300%, Number of Attacks: 6\\nAfterwards, activates Lightning at set intervals 4 times, which hits up to 8 enemies for 400% damage 7 times.\\nCooldown: 7 sec",
-                    "id": 400051044,
                     "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-god-spear-strike.png"],
                     "animations": ["https://media1.giphy.com/media/2JiaR3rUyriiIADRLc/giphy.gif"],
                     "type": "Link Mastery Attack",
@@ -710,7 +661,6 @@
                 {
                     "name": "Lightning Spear Multistrike",
                     "shortDesc": "MP Cost: 1000, Duration: 60 sec, Max Combo Attacks: 12\\nCombo Attack: Max Enemies Hit: 4, Damage: 1000%, Number of Attacks: 5. When hit, Max Lightnings: 3, Max Enemies Hit: 3, Damage: 1100%, Number of Attacks: 4. Multiple lightning bolt flash.\\nFinal combo attacks up to 7 enemies with 1400% damage 7 times. When hit, activates large lightning bolts 3 times, attacking up to 8 eneemies with 1500% damage 6 times.\\nCooldown: 120 sec.",
-                    "id": 400051044,
                     "icons": ["/class-icons/cygnus-knights/thunder-breaker/lightning-spear-multistrike.png"],
                     "animations": ["https://media4.giphy.com/media/VdStVzbYIK5yp4dcUx/giphy.gif"],
                     "type": "Attack",

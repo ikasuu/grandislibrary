@@ -30,7 +30,8 @@
             "active": "<div><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span>[300s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
             "summons": "<div><span data-tooltip='Frostprey (3rd Job)'><img src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/></span>[220s]</div> <div><span data-tooltip='Blink Bolt (3rd Job)'><img src='/class-icons/explorers/marksman/blink-bolt.png' alt='Skill Blink Bolt'/></span>[120s]</div> <div><span data-tooltip='Arrow Illusion (4th Job)'><img src='/class-icons/explorers/marksman/arrow-illusion.png' alt='Skill Arrow Illusion'/></span>[30s]</div> <div><span data-tooltip='Fury of the Wild (5th Job)'><img src='/class-icons/5th-job/fury-of-the-wild.png' alt='Skill Fury of the Wild'/></span>[40s](105s cd)</div> <div><span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)</div>",
             "buffCd": "<div><span data-tooltip='Bullseye Shot (Hyper Skill)'><img src='/class-icons/explorers/marksman/bullseye-shot.png' alt='Skill Bullseye Shot'/></span>[40s](120s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/archer/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>[30s](120s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Perfect Shot (5th Job)'><img src='/class-icons/explorers/marksman/perfect-shot.png' alt='Skill Perfect Shot'/></span>[Up to 2s while casting & 1s after casting](60s cd)</div>"
+            "binds": "<div><span data-tooltip='Final Aim (6th Job)'><img src='/class-icons/explorers/marksman/final-aim.png' alt='Skill Final Aim'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Perfect Shot (5th Job)'><img src='/class-icons/explorers/marksman/perfect-shot.png' alt='Skill Perfect Shot'/></span>[Up to 2s while casting & 1s after casting](60s cd)</div> <div><span data-tooltip='Final Aim (6th Job)'><img src='/class-icons/explorers/marksman/final-aim.png' alt='Skill Final Aim'/></span>(360s cd)</div>"
         },
         "linkSkill": {
                 "id":80002766,
@@ -137,7 +138,6 @@
             [
                 "1st Job", [
                     {
-                        "id": 3001004,
                         "name": "Arrow Blow",
                         "shortDesc": "MP Cost: 11, Damage: 160%, Max Enemies Hit: 5, Arrows Fired: 3",
                         "maxLevel": 20,
@@ -147,7 +147,6 @@
                         "desc": "Fires several piercing arrows forward"
                     },
                     {
-                        "id": 3001007,
                         "name": "Double Jump",
                         "shortDesc": "MP Cost: 10, allows you to jump a greater distance",
                         "maxLevel": 10,
@@ -162,7 +161,6 @@
                         ]
                     },
                     {
-                        "id": 3000001,
                         "name": "Critical Shot",
                         "shortDesc": "Critical Rate: +40%",
                         "maxLevel": 20,
@@ -170,7 +168,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id":3000002,
                         "name": "Archery Mastery",
                         "shortDesc": "Range +120, Movement Speed +30, Attack Speed: +1.\\nMax Movement Speed Increased to 160",
                         "maxLevel": 15,
@@ -180,7 +177,6 @@
                 ],
                 [
                     "2nd Job", [{
-                        "id": 3201005,
                         "name": "Piercing Arrow",
                         "shortDesc": "MP Cost: 36, Damage: 130%, Max Enemies Pierced: 6, Number of Attacks: 4.\\nFinal Damage increases by 15% with each enemy pierced, and damage is doubled.",
                         "maxLevel": 20,
@@ -193,7 +189,6 @@
                         ]
                     },
                     {
-                        "id": 3201012,
                         "name": "Covering Fire",
                         "shortDesc": "MP Cost: 5, if you press and hold the skill key after jumping a certain distance backward, you will attack enemies at up to 105% of damage for 2 sec while in mid-air",
                         "maxLevel": 9,
@@ -206,7 +201,6 @@
                         ]
                     },
                     {
-                        "id": 3201002,
                         "name": "Crossbow Booster",
                         "shortDesc": "Attack Speed: +2, DEX: +20",
                         "maxLevel": 10,
@@ -214,7 +208,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 3201004,
                         "name": "Soul Arrow: Crossbow",
                         "shortDesc": "Attack Power: +30. Allows you to attack without consuming arrows.",
                         "maxLevel": 20,
@@ -226,7 +219,6 @@
                         ]
                     },
                     {
-                        "id": 3200000,
                         "name": "Crossbow Mastery",
                         "shortDesc": "Crossbow Mastery: +50%, Final Damage: +20%",
                         "maxLevel": 10,
@@ -234,7 +226,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 3200001,
                         "name": "Final Attack : Crossbow",
                         "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 150% Final Attack damage.",
                         "maxLevel": 20,
@@ -243,7 +234,6 @@
                         "desc": "Grants your attacks a chance to deal an additional hit"
                     },
                     {
-                        "id": 3200006,
                         "name": "Physical Training",
                         "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
                         "maxLevel": 5,
@@ -253,7 +243,6 @@
                 ],
                 [
                     "3rd Job", [{
-                        "id": 3211009,
                         "name": "Empowered Arrows",
                         "shortDesc": "After striking enemies with Piercing Arrows 3 times, your next Piercing Arrow will be upgraded to an Empowered Piercing Arrow.\\nEmpowered Piercing Arrow - MP Cost: 30, Damage: 230%, Max enemies Pierced: 8, Number of Attacks: 6\\n[Passive Effects - Piercing Arrow Damage: +140%p]",
                         "maxLevel": 10,
@@ -266,7 +255,6 @@
                         ]
                     },
                     {
-                        "id": 3211005,
                         "name": "Frostprey",
                         "shortDesc": "MP Cost: 70, summon Frostprey for 220 sec.\\nDamage: 390%, Max Enemies Hit: 4, Freeze Duration: 3 sec.\\n[Passive Effects - Defense: +30%]",
                         "maxLevel": 10,
@@ -280,7 +268,6 @@
                         ]
                     },
                     {
-                        "id": 3211008,
                         "name": "Bolt Burst",
                         "shortDesc": "MP Cost: 90, Damage: 300%, Number of Attacks: 6, Max Enemies Hit: 8\\nCooldown: 7 sec",
                         "maxLevel": 20,
@@ -290,7 +277,6 @@
                         "desc": "Releases a burst of arrows around you"
                     },
                     {
-                        "id": 3211010,
                         "name": "Blink Bolt",
                         "shortDesc": "MP Cost: 28. Places a marker that lasts 120 sec.\\nUse skill again to teleport to the marker's location. Teleport Cooldown: 2 sec.\\nUse the skill again while holding the Down Arrow key to replace your previous marker. Marker Placement Cooldown: 1 sec",
                         "maxLevel": 10,
@@ -304,7 +290,6 @@
                         ]
                     },
                     {
-                        "id": 3211011,
                         "name": "Painkiller",
                         "shortDesc": "MP Cost: 50, Clear Status and make you immune to it for 1 sec.\\nCooldown: 300 sec\\n[Passive Effect: Increase Abnormal Status Resistance by 20 and Elemental Resistance by 20%]",
                         "maxLevel": 20,
@@ -317,7 +302,6 @@
                         ]
                     },
                     {
-                        "id": 3211012,
                         "name": "Reckless Hunt: Crossbow",
                         "shortDesc": "Reduces Avoidability. Critical Damage: +20%",
                         "maxLevel": 10,
@@ -325,7 +309,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 3210001,
                         "name": "Mortal Blow",
                         "shortDesc": "Grants a 10% chance when attacking to deal 20% increased damage to an enemy. 1% Max HP & MP recovered when triggered.",
                         "maxLevel": 10,
@@ -337,7 +320,6 @@
                         ]
                     },
                     {
-                        "id": 3210013,
                         "name": "Aggressive Resistance",
                         "shortDesc": "When attacking, for 8 sec, 20% of damage dealt will be converted into a barrier. Reduces 60% of damage taken. Able to reduce damage up to 65% of Max HP",
                         "maxLevel": 10,
@@ -346,7 +328,6 @@
                         "desc": "When attacking, you create a shield based on a portion of your damage dealt that absorbs a portion of incoming damage"
                     },
                     {
-                        "id": 3210007,
                         "name": "Evasion Boost",
                         "shortDesc": "Dodge Chance: 30%, all attacks following a successful dodge for 1 sec will be criticals, Knockback Resistance: +40%, Max HP: +40%",
                         "maxLevel": 4,
@@ -359,7 +340,6 @@
                         ]
                     },
                     {
-                        "id": 3210015,
                         "name": "Marksmanship",
                         "shortDesc": "Monster DEF Ignored: 25%, Damage: +15%",
                         "maxLevel": 20,
@@ -369,7 +349,6 @@
                 ],
                 [
                     "4th Job", [{
-                        "id": 3221017,
                         "name": "Piercing Arrow II",
                         "shortDesc": "MP Cost: 42, Damage: 343%, Max Enemies Pierced: 8, Number of Attacks: 5\\nWhen piercing multiple enemies, each pierced enemy takes 15% more Final Damage than the previous one.\\nArrow Fragment bounces off the first enemy hit, dealing 350% damage 4 times up to 2 enemies.",
                         "maxLevel": 30,
@@ -382,7 +361,6 @@
                         ]
                     },
                     {
-                        "id": 3221007,
                         "name": "Snipe",
                         "shortDesc": "MP Cost: 50, Damage: 480%, Number of Attacks: 9\\nIgnore Defense: 25%, Bonus Critical Rate: 100%\\nEnemies struck are marked and using Empowered Snipe on them deals 320% additional damage 5 times.",
                         "maxLevel": 30,
@@ -397,7 +375,6 @@
                         ]
                     },
                     {
-                        "id": 3221017,
                         "name": "Greater Empowered Arrows",
                         "shortDesc": "When Piercing Arrow hits 3 times, Empowered Piercing Arrow II can be activated.\\nWhen Snipe hits 3 times, Empowered Snipe can be activated.\\nEmpowered Piercing Arrow II: MP Cost: 87. Pierces up to 10 enemies, dealing 427% damage 6 times. Explodes at end trajectory, dealing 280% damage 10 times to up to 10 enemies.\\nEmpowered Snipe: MP Cost: 105. Deals 535% damage 10 times with +25% Ignore DEF and +100% Critical Rate. Striking an enemy marked by Snipe deals 320% additional damage 10 times.\\nMarked Target: Final Damage +4% for 15 sec, Ignore Monster DEF: +13%.\\n[Passive Effect] Final Damage +8%, Ignore DEF: +20%",
                         "maxLevel": 20,
@@ -414,7 +391,6 @@
                         ]
                     },
                     {
-                        "id": 3221014,
                         "name": "Arrow Illusion",
                         "shortDesc": "MP Cost: 70, summon Arrow Illusion with 100000 HP for 30 sec\\nArrow Illusion periodically deals 200% damage and pulls in enemies. 70% chance to stun hit enemies for 4 sec.\\nWhen Arrow Illusion takes damage, reflect 1200% of damage.\\n[Passive Effects - Ignore Defense: 30%]",
                         "maxLevel": 30,
@@ -430,7 +406,6 @@
                         ]
                     },
                     {
-                        "id": 3221002,
                         "name": "Sharp Eyes",
                         "shortDesc": "MP Cost: 45, Critical Rate: +20%, Critical Damage: +15%, Duration: 300 sec",
                         "maxLevel": 30,
@@ -439,7 +414,6 @@
                         "type": "Party Buff"
                     },
                     {
-                        "id": 3221008,
                         "name": "Hero's Will",
                         "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
@@ -452,7 +426,6 @@
                         ]
                     },
                     {
-                        "id": 3221000,
                         "name": "Maple Warrior",
                         "shortDesc": "MP Cost: 60, Increases all stats assigned APs by 15% for 900 sec",
                         "maxLevel": 30,
@@ -461,7 +434,6 @@
                         "type": "Party Buff"
                     },
                     {
-                        "id": 3220004,
                         "name": "Crossbow Expert",
                         "shortDesc": "Crossbow Mastery: +70%. Attack Power: +30, Critical Damage: +15%",
                         "maxLevel": 30,
@@ -474,7 +446,6 @@
                         ]
                     },
                     {
-                        "id": 3221006,
                         "name": "Illusion Step",
                         "shortDesc": "DEX: +80, Bonus Avoidability Chance: 30% chance, Damage Taken: -20%, Knockback Resistance: +60%",
                         "maxLevel": 30,
@@ -482,7 +453,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 3220015,
                         "name": "Bolt Surplus",
                         "shortDesc": "Increases the number of attacks for all multi-hit skills by 1.\\nFinal damage increases by 15%",
                         "maxLevel": 10,
@@ -494,7 +464,6 @@
                         ]
                     },
                     {
-                        "id": 3220016,
                         "name": "Last Man Standing",
                         "shortDesc": "Final Damage: +10%",
                         "maxLevel": 10,
@@ -507,7 +476,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 3220043,
                     "name": "Sharp Eyes - Persist",
                     "shortDesc": "Duration: +30 sec",
                     "maxLevel": 1,
@@ -516,7 +484,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 3220044,
                     "name": "Sharp Eyes - Guardbreak",
                     "shortDesc": "Enemy DEF Ignored: +5%",
                     "maxLevel": 1,
@@ -525,7 +492,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 3220045,
                     "name": "Sharp Eyes - Critical Chance",
                     "shortDesc": "Critical Rate: +5%",
                     "maxLevel": 1,
@@ -534,7 +500,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 3220046,
                     "name": "Piercing Arrow - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -543,7 +508,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 3220047,
                     "name": "Piercing Arrow - Spread",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
@@ -556,7 +520,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 3220048,
                     "name": "Piercing Arrow - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
@@ -565,7 +528,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 3220049,
                     "name": "Snipe - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
@@ -574,7 +536,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 3220050,
                     "name": "Snipe - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
@@ -583,7 +544,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 3220051,
                     "name": "Snipe - Boss Rush",
                     "shortDesc": "Boss Damage: +10%",
                     "maxLevel": 1,
@@ -594,7 +554,6 @@
             ],
             "hyperActive": [
                 {
-                    "id": 3221054,
                     "name": "Bullseye Shot",
                     "shortDesc": "MP Cost: 200, Duration: 40 sec, Critical Rate: +20%, Critical Damage: +10%, Monster DEF Ignored: +20%, Damage: +20%\\nCooldown: 120 sec",
                     "maxLevel": 1,
@@ -604,7 +563,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 3221052,
                     "name": "High Speed Shot",
                     "shortDesc": "MP Cost: 300, Damage: 450%, Number of Attacks: 9, Enemies Hit: 12\\nCooldown: 15 sec",
                     "maxLevel": 1,
@@ -615,7 +573,6 @@
                     "reqLev": 160
                 },
                 {
-                    "id": 3221053,
                     "name": "Epic Adventure",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
                     "maxLevel": 1,
@@ -632,7 +589,6 @@
                 {
                     "name": "Perfect Shot",
                     "shortDesc": "MP Cost: 1000. Shooting once, Max Enemies Hit: 12, Damage: 1700%, Number of Attacks: 14, Multiple Critical Shot Count: 4\\nDamage Range: 20% - 100% depending on enemy's proximity to the center of your sights. Ignore Defense: 100%\\nDuration: 2 sec. Invincible for 1 sec. after skill ends.\\nSuccessful hits grant Marked Target for 15 sec.\\nCooldown: 60 sec.",
-                    "id": 400031006,
                     "icons": ["/class-icons/explorers/marksman/perfect-shot.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3N3YTgyNm00M3VtMnBjeW56OHE5Y25jbXNycDNvNGx2aDU2NHF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTSMPrKQjiJxiW8Cnh/giphy.gif"],
                     "type": "Attack",
@@ -649,7 +605,6 @@
                 {
                     "name": "Split Shot",
                     "shortDesc": "MP Cost: 800, Duration: 72 sec. Landing a hit with Snipe, Empowered Piercing Arrow, Empowered Snipe, Piercing Arrow, or -- after using Repeating Crossbow Cartridge -- Full Burst Shot causes your arrow to split and attack up to 10 enemies, dealing 1200% damage 5 times.\\nIgnore Enemy Defense: 25%\\nCooldown: 120 sec.",
-                    "id": 400031015,
                     "icons": ["/class-icons/explorers/marksman/split-shot.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW9iNWtwcXB5ampma29udmtmcHdobnlpNG12NTk0Z2FuZG4xbW5yNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CicYcmyNPYbTuOOF6r/giphy.gif"],
                     "type": "Buff Attack",
@@ -661,7 +616,6 @@
                 {
                     "name": "Surge Bolt",
                     "shortDesc": "MP Cost: 750, Max Enemies Hit: 10, Damage: 1000%, Number of Attacks: 10. Deals 1500% damage after focus is complete\\nAdditional Monster DEF Ignored: 50%, Additional Critical Rate: +100%\\nMax Focus Duration: 10 sec\\nCooldown: 10 sec",
-                    "id": 400031025,
                     "icons": ["/class-icons/explorers/marksman/surge-bolt.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmVxbzR0Y3c3N2k4dzhnbHBkeThrY3RvbmoweXUxcDBvbnk3ZnF6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2saTLGjCOLwBAAg1lS/giphy.gif"],
                     "type": "Key-down Attack",
@@ -676,7 +630,6 @@
                 {
                     "name": "Repeating Crossbow Cartridge",
                     "shortDesc": "MP Cost: 750, Duration: 60 sec, Usable Cartridges: 8\\nFull Burst Shot: MP Cost: 150, Cartridge Used: 1, Damage: 750%, Number of Arrow Attacks: 9, Arrows Fired: 4, DEF Ignored: 25%, Critical Rate: 100%\\nCooldown: 120 sec",
-                    "id": 400031025,
                     "icons": ["/class-icons/explorers/marksman/repeating-crossbow-cartridge.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGFyOW96aTJzZDdyOGgzd2N5dnk3NW5lMDNyd2RjcjZzbzA5YnVwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UaztPImMHeYuWfOHjK/giphy.gif"],
                     "type": "Attack / Buff",

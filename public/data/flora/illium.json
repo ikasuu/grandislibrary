@@ -32,7 +32,8 @@
             "toggles": "<span data-tooltip='Crystalline Wings - Boost (3rd Job)'><img src='/class-icons/flora/illium/crystalline-wings-boost.png' alt='Skill Crystalline Wings - Boost'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
             "summons": "<div><span data-tooltip='Ex (1st Job)'><img src='/class-icons/flora/illium/ex.png' alt='Skill Ex'/></span>[180s]</div> <div><span data-tooltip='Deploy Crystal (2nd Job)'><img src='/class-icons/flora/illium/deploy-crystal.png' alt='Skill Deploy Crystal'/></span></div> <div><span data-tooltip='Machina (2nd Job)'><img src='/class-icons/flora/illium/machina.png' alt='Skill Machina'/></span>[180s]</div> <div><span data-tooltip='Crystal Skill - Deus (4th Job)'><img src='/class-icons/flora/illium/crystal-skill-deus.png' alt='Skill Crystal Skill - Deus'/></span>[30s](90 Charges)</div> <div><span data-tooltip='Templar Knight (5th Job)'><img src='/class-icons/flora/illium/templar-knight.png' alt='Skill Templar Knight'/></span>[40s](180s cd)</div> <span data-tooltip='Crystalline Spirit (5th Job)'><img src='/class-icons/flora/illium/crystalline-spirit.png' alt='Skill Crystalline Spirit'/></span>[30s](2.5s cd, 20s recharge)</div> <div><span data-tooltip='Crystal Gate (5th Job)'><img src='/class-icons/flora/illium/crystal-gate.png' alt='Skill Crystal Gate'/></span>[160s](180 - 90s cd based on remaining duration)</div>",
             "buffCd": "<div><span data-tooltip='Crystal Skill - Wings of Glory (3rd Job)'><img src='/class-icons/flora/illium/crystal-skill-wings-of-glory.png' alt='Skill Crystal Skill - Wings of Glory'/></span>[20s](150 Charges)</div> <div><span data-tooltip='Flash Crystal Battery (4th Job)'><img src='/class-icons/flora/illium/flash-crystal-battery.png' alt='Skill Flash Crystal Battery'/></span>(180s cd)</div> <div><span data-tooltip='Crystalline Bulwark (Hyper Skill)'><img src='/class-icons/flora/illium/crystalline-bulwark.png' alt='Skill Crystalline Bulwark'/></span>[4-10s based on Lucent Brand stacks](180s cd)</div> <div><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/illium/divine-wrath.png' alt='Skill Divine Wrath'/></span>[60s](120s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](120s cd, 180s recharge - max 2 charges)</div>",
-            "iFrame": "<div><span data-tooltip='Crystalline Bulwark (Hyper Skill)'><img src='/class-icons/flora/illium/crystalline-bulwark.png' alt='Skill Crystalline Bulwark'/></span>(180s cd)</div> <span data-tooltip='Longinus Zone (Hyper Skill)'><img src='/class-icons/flora/illium/longinus-zone.png' alt='Skill Longinus Zone'/></span>[4-10s based on Lucent Brand stacks](120s cd)",
+            "binds": "<div><span data-tooltip='Mytocrystal Expanse (6th Job)'><img src='/class-icons/flora/illium/mytocrystal-expanse.png' alt='Skill Mytocrystal Expanse'/>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Crystalline Bulwark (Hyper Skill)'><img src='/class-icons/flora/illium/crystalline-bulwark.png' alt='Skill Crystalline Bulwark'/></span>(180s cd)</div> <span data-tooltip='Longinus Zone (Hyper Skill)'><img src='/class-icons/flora/illium/longinus-zone.png' alt='Skill Longinus Zone'/></span>[4-10s based on Lucent Brand stacks](120s cd) <div><span data-tooltip='Mytocrystal Expanse (6th Job)'><img src='/class-icons/flora/illium/mytocrystal-expanse.png' alt='Skill Mytocrystal Expanse'/>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div>"
         },
         "linkSkill": {
@@ -113,7 +114,6 @@
             [
                 "1st Job", [
                     {
-                        "id": 152001001,
                         "name": "Radiant Javelin",
                         "shortDesc": "MP Cost: 24, Damage: 100%, Number of Attacks: 2, Max Enemies Hit: 4\\nDamage against normal monsters: +20%",
                         "maxLevel": 20,
@@ -129,7 +129,6 @@
                         ]
                     },
                     {
-                        "id": 152001002,
                         "name": "Radiant Orb",
                         "shortDesc": "MP Cost: 15. Max Enemies Hit: 3, Damage: 50%, Number of Attacks: 1. Radiant Javelin Damage: +15% for 2 sec after use.",
                         "maxLevel": 20,
@@ -143,7 +142,6 @@
                         ]
                     },
                     {
-                        "id": 152001003,
                         "name": "Ex",
                         "shortDesc": "MP Cost: 90, Duration: 180 sec. Moves to the target and attacks for a short time. Damage increases after a certain number of hits.\\n[Stage 1] Damage: 60%, increases after 10 hits.\\n[Stage 2] Damage: 100%, increases after 10 hits.\\n[Stage 3] Damage: 200%, attack ends after 20 hits.",
                         "maxLevel": 20,
@@ -156,7 +154,6 @@
                         ]
                     },
                     {
-                        "id": 152001004,
                         "name": "Crystalline Wings",
                         "shortDesc": "MP Cost: 20, Teleport horizontally a distance of 195, or vertically a distance of 275.",
                         "maxLevel": 5,
@@ -170,7 +167,6 @@
                         ]
                     },
                     {
-                        "id": 152000006,
                         "name": "Lucent Gauntlet Mastery",
                         "shortDesc": "Lucent Gauntlet Mastery: +40%, Critical Rate: +20%, Damage Taken: -40%",
                         "maxLevel": 10,
@@ -178,7 +174,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 152000007,
                         "name": "Lucent Brand",
                         "shortDesc": "Max Stacks: 3, Duration: 10 sec\\nAttack Power & Magic ATT +2 per stack\\n[Passive Effects - Max HP & Max MP: +10%, Damage: +10%, DEF: +100]",
                         "maxLevel": 10,
@@ -194,7 +189,6 @@
                 [
                 "2nd Job", [
                     {
-                        "id": 152100010,
                         "name": "Crystal Battery",
                         "shortDesc": "Max Crystal Charges: 30\\n- Radiant Javelin Grants 1 Charge\\n- Radiant Orb Grants 2 Charges",
                         "maxLevel": 1,
@@ -208,7 +202,6 @@
                         ]
                     },
                     {
-                        "id": 152101003,
                         "name": "Deploy Crystal",
                         "shortDesc": "Your Crystal Battery will reset 10 sec after reaching the max Crystal Charge count.",
                         "maxLevel": 1,
@@ -222,7 +215,6 @@
                         ]
                     },
                     {
-                        "id": 152100001,
                         "name": "Reaction - Destruction",
                         "shortDesc": "MP Cost: 50, Max Enemies Hit: 9 , Damage: 400%, Number of Attacks: 4\\nCooldown: 6 sec",
                         "maxLevel": 20,
@@ -235,7 +227,6 @@
                         ]
                     },
                     {
-                        "id": 152100002,
                         "name": "Reaction - Domination",
                         "shortDesc": "MP Cost: 50, Max Enemies Hit: 9 , Damage: 400%, Number of Attacks: 1\\nCooldown: 6 sec",
                         "maxLevel": 20,
@@ -248,7 +239,6 @@
                         ]
                     },
                     {
-                        "id": 152101006,
                         "name": "Crystal Skill - Vortex of Light",
                         "shortDesc": "Crystal Charge Cost: 30, MP Cost: 80, Max Enemies Hit: 12, Damage: 500%, Number of Attacks: 10",
                         "maxLevel": 10,
@@ -261,7 +251,6 @@
                         ]
                     },
                     {
-                        "id": 152101007,
                         "name": "Gauntlet Frenzy",
                         "shortDesc": "MP Cost: 12, Duration: 300 sec, Lucent Gauntlet Attack Speed: +2",
                         "maxLevel": 10,
@@ -271,7 +260,6 @@
                         "desc": "Increases Attack Speed (by 2 stages)"
                     },
                     {
-                        "id": 152101008,
                         "name": "Machina",
                         "shortDesc": "MP Cost: 100, Duration: 180 sec\\nDamage: 250%, Number of Attacks: 4, Enemies Hit: 5",
                         "maxLevel": 20,
@@ -284,7 +272,6 @@
                         ]
                     },
                     {
-                        "id": 152100011,
                         "name": "Aegis of Light",
                         "shortDesc": "Damage Taken: -70%, MP Absorb Chance: 20%, Amount Absorbed: 5% of Max MP\\nAmount Absorbed from Boss: 3% of Max MP",
                         "maxLevel": 4,
@@ -296,7 +283,6 @@
                         ]
                     },
                     {
-                        "id": 152100012,
                         "name": "Umbral Brand",
                         "shortDesc": "Duration: 10 sec, DEF: 4%\\nIllium's attacks inflict 20% bonus damage against Umbral Branded targets.",
                         "maxLevel": 10,
@@ -347,7 +333,6 @@
                         ]
                     },
                     {
-                        "id": 152111003,
                         "name": "Crystal Skill - Wings of Glory",
                         "shortDesc": "Crystal Charge Cost: 150\\nDuration: 20 sec\\nFinal Damage: +25%, Knockback Resistance: +100%, Boss Damage: +30%\\nWinged Javelin: Explodes on contact, Max Enemies Hit: 5, Damage: 500%, Number of Attacks: 6, Damage Against Normal Enemies: +20%",
                         "maxLevel": 20,
@@ -364,7 +349,6 @@
                         ]
                     },
                     {
-                        "id": 152111007,
                         "name": "Crystal Skill - Resonance",
                         "shortDesc": "Crystal Charge Cost: 60, MP Cost: 200, Resonance Cycles: 15, Effect: Grants Lucent Brand, Restores 10% of Max HP\\n[Passive Effects - Abnormal Status Resistance: +30, Elemental Resistance: +30%]",
                         "maxLevel": 20,
@@ -379,7 +363,6 @@
                         ]
                     },
                     {
-                        "id": 2211017,
                         "name": "Crystalline Wings - Boost",
                         "shortDesc": "MP Cost: 20, Crystalline Wings Teleport Distance: Horizontal +60, Vertical +45.",
                         "maxLevel": 1,
@@ -388,7 +371,6 @@
                         "desc": "While toggled, increases the teleport distance of <span data-tooltip='Crystalline Wings (1st Job)'><img src='/class-icons/flora/illium/crystalline-wings.png' alt='Skill Crystalline Wings'/></span>"
                     },
                     {
-                        "id": 152110009,
                         "name": "Lucent Brand II",
                         "shortDesc": "Max Stacks: 6, Duration: 10 sec\\n[Stack Bonuses] 1-3 Stacks: Attack Power & Magic ATT +2\\n4 - 6 Stacks: Attack Power & Magic ATT +4\\n[Passive Effects - Radiant Javelin Damage +200%p]",
                         "maxLevel": 10,
@@ -401,7 +383,6 @@
                         ]
                     },
                     {
-                        "id": 152110010,
                         "name": "Umbral Brand II",
                         "shortDesc": "Max Stacks: 3 times, Duration: 10 sec\\nReduces enemy Defense based on stack count.\\n[Stack Bonuses]1 Stack: DEF -4%\\n2-3 Stacks: DEF -4%\\nIllium's attacks aginst Umbral Branded enemies inflict an additional hit dealing 30%. The bonus hit's damage is multiplied up to 3x based on the number of Stacks.",
                         "maxLevel": 10,
@@ -414,7 +395,6 @@
                         ]
                     },
                     {
-                        "id": 152110011,
                         "name": "Might of the Flora",
                         "shortDesc": "Max HP & MP: +20%\\nDamage: +10%\\nJump: +10, Movement Speed: +10, Max Movement Speed: +10\\nKnockback Resistance: +40%",
                         "maxLevel": 10,
@@ -422,7 +402,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 152110012,
                         "name": "Tenacity",
                         "shortDesc": "Intelligence: +40, Magic ATT: +10%",
                         "maxLevel": 10,
@@ -430,7 +409,6 @@
                         "type": "Passive"
                     },
                     {
-                        "id": 152110013,
                         "name": "Endless Research",
                         "shortDesc": "Magic ATT: +50, Critical Damage: +30%, Critical Rate: +20%",
                         "maxLevel": 4,
@@ -441,7 +419,6 @@
                 [
                 "4th Job", [
                 {
-                    "id": 152120014,
                     "name": "Crystal Battery III",
                     "shortDesc": "Max Crystal Charges: 150\\n-Radiant Javelin Grants 1 Charge\\n-Radiant Orb Grants 2 Charges\\n-Longinus Spear Grants 3 Charges",
                     "maxLevel": 1,
@@ -453,7 +430,6 @@
                     ]
                 },
                 {
-                    "id": 152120001,
                     "name": "Radiant Javelin II",
                     "shortDesc": "MP Cost: 6, Max Enemies Hit: 1, Damage: 95%p, Number of Attacks: 1\\nOn Hit: Creates 2 shards that each inflict 130% damage. Upon using Winged Javelin: Creates 3 additional projectiles instead of shards which pursue enemies and strike for 250% damage 3 times.\\n[Passive Effects - Increases Winged Javelin's damage by 200%]",
                     "maxLevel": 30,
@@ -466,7 +442,6 @@
                     ]
                 },
                 {
-                    "id": 152120003,
                     "name": "Radiant Orb II",
                     "shortDesc": "MP Cost: 15, Max Enemies Hit: 2, Damage: +260p%",
                     "maxLevel": 30,
@@ -479,7 +454,6 @@
                     ]
                 },
                 {
-                    "id": 152121004,
                     "name": "Longinus Spear",
                     "shortDesc": "MP Cost: 150\\nMax Enemies Hit: 10, Damage: 950%, Number of Attacks: 8\\nBoss Damage: +20%\\nCooldown: 15 sec",
                     "maxLevel": 30,
@@ -493,7 +467,6 @@
                     ]
                 },
                 {
-                    "id": 152121005,
                     "name": "Crystal Skill - Deus",
                     "shortDesc": "Crystal Charge Cost: 90, MP Cost: 300, Duration: 30 sec, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 5\\nSatellite Attack Power is equial to Ex's.\\n[Passive Effects - Ex Damage: +100%]",
                     "maxLevel": 30,
@@ -507,7 +480,6 @@
                     ]
                 },
                 {
-                    "id": 152121007,
                     "name": "Vortex Wings",
                     "shortDesc": "Crystal Charge Cost: 30, MP Cost: 200, Max Enemies Hit: 12, Damage: 1070%, Number of Attacks: 15\\n[Passive Effects: Increases damage for Reaction - Destruction II and Reaction - Domination II by 135%p]",
                     "maxLevel": 30,
@@ -521,7 +493,6 @@
                     ]
                 },
                 {
-                    "id": 152120008,
                     "name": "Resonance Wings",
                     "shortDesc": "Places Umbral Brands on enemies and Lucent Brands on allies, up to 12 targets.\\n[Passive Effects - Crystal Skill - Increases Vortex of Light's damage by +100%]",
                     "maxLevel": 30,
@@ -533,7 +504,6 @@
                     ]
                 },
                 {
-                    "id": 152121009,
                     "name": "Hero of the Flora",
                     "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
@@ -542,7 +512,6 @@
                     "type": "Party Buff"
                 },
                 {
-                    "id": 152121010,
                     "name": "Floran Hero's Will",
                     "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
@@ -555,7 +524,6 @@
                     ]
                 },
                 {
-                    "id": 152121011,
                     "name": "Flash Crystal Battery",
                     "shortDesc": "MP Cost: 100, immediately fully charges Crystal.\\nCooldown: 180 sec",
                     "maxLevel": 20,
@@ -564,7 +532,6 @@
                     "type": "Active"
                 },
                 {
-                    "id": 152120012,
                     "name": "Lucent Brand III",
                     "shortDesc": "Max Stacks: 10, Duration: 10 sec\\n[Stack Bonuses]\\n1-3 Stacks: Attack Power & Magic ATT +2\\n4-6 Stacks: Attack Power & Magic ATT +4\\n7-9 Stacks: Attack Power & Magic ATT +6\\n10 Stacks: Attack Power & Magic ATT +10\\n[Passive Effects - Machina Damage: +100%p]",
                     "maxLevel": 10,
@@ -577,7 +544,6 @@
                     ]
                 },
                 {
-                    "id": 152120013,
                     "name": "Umbral Brand III",
                     "shortDesc": "Max Stacks: 5, Duration: 10 sec\\n[Stack Bonuses]\\n1 Stack: DEF: -4%\\n2-3 Stack: DEF: -4%\\n4-5 Stack: DEF: -4%\\nIllium's attacks against Umbral Branded enemies inflict an additional hit dealing 40%. The bonus hit's damage is multiplied up to 5x based on the number of Stacks.",
                     "maxLevel": 10,
@@ -590,7 +556,6 @@
                     ]
                 },
                 {
-                    "id": 152120015,
                     "name": "Wisdom of the Crystal",
                     "shortDesc": "Lucent Gauntlet Mastery: +70%\\nAttack Speed: +1, Knockback Resistance: +60%\\nBoss Damage: +30%, Ignore DEF: +25%, Final Damage: +45%",
                     "maxLevel": 30,
@@ -607,7 +572,6 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "id": 152120031,
                     "name": "Javelin - Reinforce",
                     "shortDesc": "Radiant Javelin Damage: +20%",
                     "maxLevel": 1,
@@ -616,7 +580,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 152120032,
                     "name": "Javelin - Extra Strike",
                     "shortDesc": "Radiant Javelin Attack Count: +1",
                     "maxLevel": 1,
@@ -625,7 +588,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 152120033,
                     "name": "Javelin - Boss Rush",
                     "shortDesc": "Radiant Javelin Boss Damage: +20%",
                     "maxLevel": 1,
@@ -634,7 +596,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 152120034,
                     "name": "Longinus - Reinforce",
                     "shortDesc": "Longinus Spear Damage: +20%",
                     "maxLevel": 1,
@@ -643,7 +604,6 @@
                     "reqLev": 140
                 },
                 {
-                    "id": 152120035,
                     "name": "Longinus - Extra Strike",
                     "shortDesc": "Longinus Spear Attack Count: +1",
                     "maxLevel": 1,
@@ -652,7 +612,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 152120036,
                     "name": "Longinus - Cooldown Cutter",
                     "shortDesc": "Longinus Spear Cooldown: -20%",
                     "maxLevel": 1,
@@ -661,7 +620,6 @@
                     "reqLev": 180
                 },
                 {
-                    "id": 152120037,
                     "name": "Deus - Reinforce",
                     "shortDesc": "Crystal Skill - Deus & Satellite Damage: +20%",
                     "maxLevel": 1,
@@ -670,7 +628,6 @@
                     "reqLev": 150
                 },
                 {
-                    "id": 152120038,
                     "name": "Deus - Extra Strike",
                     "shortDesc": "Crystal Skill - Deus & Satellite Attack Counts: +1",
                     "maxLevel": 1,
@@ -679,7 +636,6 @@
                     "reqLev": 165
                 },
                 {
-                    "id": 152120039,
                     "name": "Deus - Boss Rush",
                     "shortDesc": "Crystal Skill - Deus & Satellite Boss Damage: +20%",
                     "maxLevel": 1,
@@ -729,7 +685,6 @@
                 {
                     "name": "Crystal Ignition",
                     "shortDesc": "MP Cost per Attack: 30, Max Key-Down Duration: 6 sec, DoT: 2331%, Number of Attacks: 5, Max Enemies Hit: 15. Damage increased by 20% when attacking a boss.\\nCooldown: 180 sec",
-                    "id": 400021002,
                     "icons": ["/class-icons/flora/illium/crystal-ignition.png"],
                     "animations": ["https://media3.giphy.com/media/bGxMXxB38vVUsrKePb/giphy.gif"],
                     "type": "Key-down Attack",
@@ -742,7 +697,6 @@
                 {
                     "name": "Reaction - Spectral Blast",
                     "shortDesc": "Max Enemies Hit: 15, Damage: 1900%, Boss Damage: +20%, Number of Attacks: 6\\nCooldown: 1 sec",
-                    "id": 400021030,
                     "icons": ["/class-icons/flora/illium/reaction-spectral-blast.png"],
                     "type": "Passive Attack",
                     "desc": "When <span data-tooltip='Crystal Ignition (5th Job)'><img src='/class-icons/flora/illium/crystal-ignition.png' alt='Skill Crystal Ignition'/></span> hits your <span data-tooltip='Deploy Crystal (2nd Job)'><img src='/class-icons/flora/illium/deploy-crystal.png' alt='Skill Deploy Crystal'/></span> orb, it splits and creates three beams of light in front of you",
@@ -753,7 +707,6 @@
                 {
                     "name": "Templar Knight",
                     "shortDesc": "MP Cost: 200, Duration: 40 sec, Max Enemies Hit: 12, DoT: 1000%, Number of Attacks: 12\\nIf Crystal Charges reach 3 while preparing attack, Final Damage is multiplied by 2.\\nCooldown: 180 sec",
-                    "id": 400021030,
                     "icons": ["/class-icons/flora/illium/templar-knight.png"],
                     "animations": ["https://media4.giphy.com/media/w4FsL0hKDCWiVWNbOz/giphy.gif"],
                     "type": "Summon",
@@ -767,7 +720,6 @@
                 {
                     "name": "Crystalline Spirit",
                     "shortDesc": "MP Cost: 500, uses 1 crystal shard\\nA crystalline spirit forms near the mytocrystal for 30 sec. Only 75% of Final Damage for the Reaction skill the spirit activates is applied, but if it's the 5th skill, 100% is applied. Not affected by cooldown reset.\\nUsing Wings of Glory will disperse the crystalline spirit. Each spirit dispersed in the remaining time increases damage by 30%.\\nPrepares 1 crystal shard every 20 sec up to 2 shards.\\nCooldown: 2.5 sec\\n[Passive Effect: Magic ATT: +55]",
-                    "id": 400021067,
                     "icons": ["/class-icons/flora/illium/crystalline-spirit.png"],
                     "animations": ["https://media4.giphy.com/media/SJub9yDV6hJgYtw2G3/giphy.gif"],
                     "type": "Summon",
@@ -784,7 +736,6 @@
                 {
                     "name": "Crystal Gate",
                     "shortDesc": "MP Cost: 500, Duration: 155 sec, Max Crystal Gates: 3, activates after setting up at least 2. The setup time and the Crystal Gate duration are the same. After using it once, all Crystal Gates cannot be used for 2 sec and Crystal Gates you actually used cannot be used for 5 sec.\\nPeriodically obtain Magic ATT +55 buff for 25 sec around the Crystal Gate. Direct skill attacks that hit during the buff will bombard 5 times through the Crystal Gate up to 3 enemies with 900% damage. Cooldown: 1.5 sec\\nCooldown: 180 sec. Cooldown is reduced as much as 50% of the remaining cooldown if it ends before the Crystal Gate's duration.",
-                    "id": 400021067,
                     "icons": ["/class-icons/flora/illium/crystal-gate.png"],
                     "animations": ["https://media1.giphy.com/media/V1hfgksEMmMPLq9Bz1/giphy.gif"],
                     "type": "Summon",
