@@ -45,10 +45,10 @@ function MegaBurning() {
                     <img src="https://maplestory.io/api/GMS/214/item/2433444/icon" alt=""/> <a href="https://maplestory.wiki/GMS/214/item/2433444" target="_blank" rel="noreferrer noopener"><strong>[Use] Legendary Cryptic Chest</strong></a>
                     <ul>
                         <li>
-                            Contains Lv. 100 <a href="https://maplestory.fandom.com/wiki/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Onyx_Maple_Hat.png/revision/latest?cb=20180509152508" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
+                            Contains Lv. 100 <a href="https://maplestorywiki.net/w/Equipment_Set/Frozen_Set" target="_blank" rel="noreferrer noopener">Frozen Set</a> <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/5e/Eqp_Onyx_Maple_Hat.png/revision/latest?cb=20180509152508" alt="Eqp Onyx Maple Hat" width="33" height="24"/>
                             <img src="https://vignette.wikia.nocookie.net/maplestory/images/f/fb/Eqp_Onyx_Maple_Suit.png/revision/latest?cb=20180516204357" alt="Eqp Onyx Maple Suit" width="28" height="29"/>
                             <img src="https://vignette.wikia.nocookie.net/maplestory/images/6/6c/Eqp_Onyx_Maple_Cape.png/revision/latest?cb=20180516202756" alt="Eqp Onyx Maple Cape" width="31" height="30"/> and <strong></strong>
-                            <a href="https://maplestory.fandom.com/wiki/Mastery_Box" target="_blank" rel="noreferrer noopener">Mastery Boxes (x8)</a>
+                            <a href="https://maplestorywiki.net/w/Mastery_Box" target="_blank" rel="noreferrer noopener">Mastery Boxes (x8)</a>
                             <ul>
                                 <li>Consists of Hat, Overall, Cape, Weapon, and Secondary Weapon</li>
                             </ul>
@@ -82,7 +82,7 @@ function MegaBurning() {
             <h3>Credits:</h3>
             <p>Image Credits:</p> 
             <p><a href="http://maplestory.nexon.net/">http://maplestory.nexon.net/</a></p>
-            <p><a href="https://maplestory.fandom.com/wiki/">https://maplestory.fandom.com/wiki/</a></p>
+            <p><a href="https://maplestorywiki.net/w/">https://maplestorywiki.net/w/</a></p>
             <p>More info at:</p>
             <p><a href="http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project" target="_blank" rel="noopener noreferrer">http://maplestory.nexon.net/news/51725/level-up-with-the-double-mega-burning-project</a></p>
         </div>

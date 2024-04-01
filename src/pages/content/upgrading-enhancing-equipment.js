@@ -87,7 +87,7 @@ function UpgradeEquipment() {
                   <img src="https://maplestory.io/api/GMS/210.1.1/item/2049300/icon" alt=""/> <strong>[Equip Enhancement Scroll]</strong>: These scrolls provides <strong>one star force</strong> (enhancement [1], refer to image at top) on success
               </li>
               <li>
-                  <strong>[Pure Equipment Enhancement Scroll]: </strong>The Pure version scrolls are mainly used on Tyrant or <a href="https://maplestory.fandom.com/wiki/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">"Superior"</a> gear because it does not destroy an item on failure
+                  <strong>[Pure Equipment Enhancement Scroll]: </strong>The Pure version scrolls are mainly used on Tyrant or <a href="https://maplestorywiki.net/w/Category:Superior_Equipment" target="_blank" rel="noreferrer noopener">"Superior"</a> gear because it does not destroy an item on failure
                   <ul>
                     <li>Star Forcing/Enhancing Superior Gear costs much more than regular gear and has a higher chance to being destroyed on failure which is why people the prefer the Pure Equipment Enhancement Scrolls</li>
                     <li>These scrolls are also known as "No Booms"</li>
@@ -268,7 +268,7 @@ function UpgradeEquipment() {
             <hr/>
             <p><img className="repository-image" src="https://i.imgur.com/S5tz1Gz.png" alt="Transpose UI"/></p>
             <p>Tranposing allows you to transfer an equipment's bonus stats from Bonus Stats, Scroll and Star Force Enhancements (the blue and green stats) to <strong>Sweetwater gear</strong>. The Star Force count will also drop by 1 but you retain the bonus stats. Potential Ranks also carry over but the Potential Lines will be reset</p>
-            <p>Transposing is unlocked after gaining access to Commerci at Lv. 140. Transposing will cost <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/56/Etc_Commerci_Denaro.png/revision/latest?cb=20140901070302" alt="Etc Commerci Denaro" width="30" height="22"/> <a href="https://maplestory.fandom.com/wiki/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaros]</a> and the chance for transposing to succeed is not guaranteed</p>
+            <p>Transposing is unlocked after gaining access to Commerci at Lv. 140. Transposing will cost <img src="https://vignette.wikia.nocookie.net/maplestory/images/5/56/Etc_Commerci_Denaro.png/revision/latest?cb=20140901070302" alt="Etc Commerci Denaro" width="30" height="22"/> <a href="https://maplestorywiki.net/w/Commerci_Denaro" target="_blank" rel="noreferrer noopener">[Commerci Denaros]</a> and the chance for transposing to succeed is not guaranteed</p>
             <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
             <h2 id="cubing">Cubing &amp; Potentials</h2>
             <hr/>
