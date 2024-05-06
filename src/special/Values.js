@@ -35,7 +35,7 @@ export const classes = {
     resistance: [["battle-mage", "Battle Mage"], ["blaster", "Blaster"], ["mechanic", "Mechanic"], ["wild-hunter", "Wild Hunter"], ["xenon", "Xenon"], ["demon-slayer", "Demon Slayer"], ["demon-avenger", "Demon Avenger"]],
     nova: [["angelic-buster", "Angelic Buster"], ["kaiser", "Kaiser"], ["cadena", "Cadena"], ["kain", "Kain"]],
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
-    flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"]],
+    flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
     other: [["hoyoung", "Hoyoung"], ["kinesis", "Kinesis"], ["zero", "Zero"], ["lynn", "Lynn"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]]
 }
@@ -67,7 +67,7 @@ export const weapons = {
     desperado: [`https://maplestory.io/api/GMS/${version}/item/1232007/icon`, "Desperado"],
     katana: [`https://maplestory.io/api/GMS/${version}/item/1542040/icon`, "Katana"],
     fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552015/icon`, "Fan"],
-    memorialStaff: [`https://i.imgur.com/Z1OPeaW.png`, "Memorial Staff"],
+    memorialStaff: [`https://maplestory.io/api/GMS/${version}/item/1252000/icon`, "Memorial Staff"],
     psyLimiter: [`https://maplestory.io/api/GMS/${version}/item/1262011/icon`, "Psy-limiter"],
     armCannon: [`https://maplestory.io/api/GMS/${version}/item/1582025/icon`, "Arm Cannon"],
     longSword: [`https://maplestory.io/api/GMS/${version}/item/1572007/icon`, "Alpha - Long Sword"],
@@ -76,8 +76,8 @@ export const weapons = {
     ancientBow: [`https://maplestory.io/api/GMS/${version}/item/1592000/icon`, "Ancient Bow"],
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
     bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
-    whispershot: [`https://maplestory.io/api/GMS/${version}/item/1252000/icon`, "Whispershot"],
-    chakram: [`https://maplestory.io/api/KMS/373/item/1404007/icon`, "Chakram"]
+    whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"],
+    chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -130,7 +130,7 @@ export const secondaryWeapons = {
     bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"],
     weaponBelt: [`https://i.imgur.com/yKfIH8l.png`, "Weapon Belt"],
     ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"],
-    hexSeeker: [`https://maplestory.io/api/KMS/373/item/1354032/icon`, "Hex Seeker"]
+    hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
@@ -168,10 +168,10 @@ export const commonFifth = {
         "name": "Unreliable Memory",
         "shortDesc": "MP Cost: 100. Uses a memorized skill.\\nIgnored MP cost and cooldown of selected skill, and reduces cooldown of Unreliable Memory by a fixed amount according to set probability rates.\\nCooldown: 355 sec.\\n[Passive Effect: INT +25]",
         "id": 400001021,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/unreliable-memory.png"],
+        "icons": ["/class-icons/5th-job/unreliable-memory.png"],
         "animations": ["https://media4.giphy.com/media/ncQEHsz4n9SUxkaU4l/giphy.gif"],
         "type": "Active",
-        "desc": "Uses the memorized skill chosen from <span data-tooltip='Mind Delve (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/mind-delve.png' alt='Skill Mind Delve'/></span>",
+        "desc": "Uses the memorized skill chosen from <span data-tooltip='Mind Delve (5th Job)'><img src='/class-icons/5th-job/mind-delve.png' alt='Skill Mind Delve'/></span>",
         "details": [
             "<strong>[Passive]</strong>: Grants flat INT",
             "Ignores MP cost and cooldowns",
@@ -182,14 +182,14 @@ export const commonFifth = {
         "name": "Mind Delve",
         "shortDesc": "MP Cost: 150. Use the number keys to select a spell that can be activated with Unreliable Memory. This skill is canceled if you fail to select a spell within 5 sec, or if you press any other keys.\\nCooldown: 5 sec.",
         "id": 400001063,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/mind-delve.png"],
+        "icons": ["/class-icons/5th-job/mind-delve.png"],
         "animations": ["https://media.giphy.com/media/pBcdQ9kl2OkOXJY95t/giphy.gif"],
         "type": "Active",
-        "desc": "When used, allows you to select 3rd - 4th job skills using the Number Keys to be cast when using <span data-tooltip='Unreliable Memory (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>",
+        "desc": "When used, allows you to select 3rd - 4th job skills using the Number Keys to be cast when using <span data-tooltip='Unreliable Memory (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>",
         "details": [
             "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
             "Only skills with SP allocated can be chosen",
-            "This skill is gained alongside and shares SP with <span data-tooltip='Unreliable Memory (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>"
+            "This skill is gained alongside and shares SP with <span data-tooltip='Unreliable Memory (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Memory'/></span>"
         ]
     },
     expBowman: {
@@ -320,7 +320,7 @@ export const commonFifth = {
         "name": "Might of the Nova",
         "shortDesc": "HP Cost: 20% of Max HP, Max Enemies Hit: 15, Damage: 4000%, Number of Attacks: 10\\nBuff: After use, you are protected from fatal blows for 900 sec.\\nCooldown: 1200 sec",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/might-of-the-nova.png"],
+        "icons": ["/class-icons/5th-job/might-of-the-nova.png"],
         "animations": ["https://media1.giphy.com/media/eiYA7as3sG0mA6277y/giphy.gif"],
         "type": "Attack / Buff",
         "desc": "Deals a massive attack to nearby enemies while granting a buff that prevents you from one fatal blow",
@@ -332,7 +332,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, skills have a chance to not have a cooldown",
@@ -345,7 +345,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media0.giphy.com/media/mJKwclZzBmPziE6TBJ/giphy.gif"],
         "type": "Buff",
         "desc": "While active, skills have a chance to not have a cooldown",
@@ -358,7 +358,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Talisman and Scroll Energy Charge: +70%\\nDamage: +35%, Knockback Resistance: +100%\\nCooldown: 240 sec",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTI4YWJiM21vemt5MW5yNDRnM2hncWkzYXo3cWM0YzVqcGYwOGpweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1FUDtuDNiNos8qi01U/giphy.gif"],
         "type": "Buff",
         "desc": "While active, a percent of your equipment's Attack or Magic Attack will be converted to the one you use",
@@ -371,7 +371,7 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
         "desc": "While active, increases %Damage and Talisman and Scroll Power charge rate",
@@ -383,10 +383,10 @@ export const commonFifth = {
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 52% chance to not have cooldown, up to 5 times\\nDamage: +30%, Knockback Resistance: +100%\\nKaiser receives additional 10% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 90% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +85\\nAnima: Damage: +35%\\nHoyoung: Talisman and Scroll Energy Charge: +70%, Lara: Increases Final Damage Increase to 10% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, increases %Damage and %Final Damage bonus from <img src='http://localhost:3000/grandislibrary/class-icons/anima/lara/dragon-vein-echo.png' alt='Skill Dragon Vein Echo'/>",
+        "desc": "While active, increases %Damage and %Final Damage bonus from <img src='/class-icons/anima/lara/dragon-vein-echo.png' alt='Skill Dragon Vein Echo'/>",
         "details": [
             "Blessing is prepared every 180 sec (up to 2 blessings)"
         ]
@@ -395,7 +395,7 @@ export const commonFifth = {
         "name": "Afterimage of the Otherworld",
         "shortDesc": "HP Cost: 5%, Afterimage of the Otherworld Duration: 47 sec\\nIncreases all stats that you invested AP into by 15% when there is an Afterimage of the Otherworld within the same map\\n10% chance to restore 3% of Max HP and 3% of Max MP when attacking enemies created by Afterimage of the Otherworld\\nCooldown: 60 sec",
         "id": 400001065,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/afterimage-of-the-otherworld.png"],
+        "icons": ["/class-icons/5th-job/afterimage-of-the-otherworld.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXA2N294M3ozdm5ncHlkdDkxa2hyeTNvM3dpcjJxZTAzZXdqaGpnMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0WvCReMHp6vK0YgdOm/giphy.gif"],
         "type": "Summon",
         "desc": "Places a portal that increases all stats directly invested with AP and applies a debuff to an enemy",
@@ -407,7 +407,7 @@ export const commonFifth = {
         "name": "Transcendent",
         "shortDesc": "HP Cost: 5%, Applies Light, Life, and Time Blessing\\nLight Blessing\\nDuration: 20 sec\\nCreates a spear of light when using the attack skill that flies toward enemies in front. Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 4. Remains in place where it sticks, Enemies Hit: 10, Damage: 400%, Number of Attacks: 4, Max Continuous Attacks: 5\\nMax Spears of Light: 7, Spear of Light Cooldown: 2 sec\\nLife Blessing\\nDuration: 28 sec\\nFinal Damage: +5%, Number of Debilitating Status Conditions Blocked: 3\\nTime Blessing\\nDuration: 55 sec, 100% chance for afterimage of a previous time to remain when using 4th job or lower skills (excluding Beginner Skills), Max Enemies Hit: 10, Damage: 350%, Number of Attacks: 3\\nAfterimage of skills that triggered Assist for Zero deals 400% damage\\nAfterimage attack occurs only once per skill\\nCooldown: 120 sec",
         "id": 400001065,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/transcendent.png"],
+        "icons": ["/class-icons/5th-job/transcendent.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmVyem9wYXUzYWRkaG90andkeW03ZDlicG5nYjAxYThnNXZkcngxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/a29UzvDhUSFQgmdnc0/giphy.gif"],
         "type": "Buff",
         "desc": "When used, applies 3 different buff effects",
@@ -421,7 +421,7 @@ export const commonFifth = {
         "name": "Lotus Flower",
         "shortDesc": "MP Cost: 15% of Max MP, Lotus Summon Duration: 1775 sec.\\nInvincible for 3.5 sec. upon revival.\\nCooldown: 400 sec. Skill Cooldown upon successful revival: -1425 sec.",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/lotus-flower.png"],
+        "icons": ["/class-icons/5th-job/lotus-flower.png"],
         "animations": ["https://media.giphy.com/media/SGdhCXQpAHwCb1Fe8U/giphy.gif"],
         "type": "Buff Revive",
         "desc": "When hit by a fatal attack, you will not die but instead heal back a percentage of your HP back",
@@ -486,28 +486,28 @@ export const commonFifth = {
         "name": "Power of Destiny",
         "shortDesc": "MP Cost: 100. Uses the selected Power of Destiny\\n[Power of Destiny: Might] - Duration: 45 sec, Damage: +19%, Cooldown: 90 sec\\n[Power of Destiny: Perceive] - Duration: 60 sec, Ignore Defense: +25%, Cooldown: 180 sec\\n[Power of Destiny: Boon] - Duration: 60 sec, Attack Power & Magic ATT & All Stats: +25, Cooldown: 90 sec\\n[Power of Destiny: Journey] - Duration: 300 sec, Normal Enemy Damage: +25%, Cooldown: 600 sec",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png"],
+        "icons": ["/class-icons/5th-job/power-of-destiny.png"],
         "type": "Buff",
-        "desc": "Uses the memorized skill chosen from <span data-tooltip='Ring of Samsara (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/ring-of-samsara.png' alt='Skill Ring of Samsara'/></span>",
+        "desc": "Uses the memorized skill chosen from <span data-tooltip='Ring of Samsara (5th Job)'><img src='/class-icons/5th-job/ring-of-samsara.png' alt='Skill Ring of Samsara'/></span>",
         "details": [
-            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-might.png' alt='Skill Power of Destiny Might'/> <strong>[1 - Might]</strong>: Increases %Damage",
-            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-perceive.png' alt='Skill Power of Destiny Perceive'/> <strong>[2 - Perceive]</strong>: Increases %Ignore DEF",
-            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-boon.png' alt='Skill Power of Destiny Boon'/> <strong>[3 - Boon]</strong>: Grants flat Attack, Magic Attack, and All Stats",
-            "<img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny-journey.png' alt='Skill Power of Destiny Journey'/> <strong>[4 - Journey]</strong>: Increases %Damage to regular monsters"
+            "<img src='/class-icons/5th-job/power-of-destiny-might.png' alt='Skill Power of Destiny Might'/> <strong>[1 - Might]</strong>: Increases %Damage",
+            "<img src='/class-icons/5th-job/power-of-destiny-perceive.png' alt='Skill Power of Destiny Perceive'/> <strong>[2 - Perceive]</strong>: Increases %Ignore DEF",
+            "<img src='/class-icons/5th-job/power-of-destiny-boon.png' alt='Skill Power of Destiny Boon'/> <strong>[3 - Boon]</strong>: Grants flat Attack, Magic Attack, and All Stats",
+            "<img src='/class-icons/5th-job/power-of-destiny-journey.png' alt='Skill Power of Destiny Journey'/> <strong>[4 - Journey]</strong>: Increases %Damage to regular monsters"
         ]
     },
     ringOfSamsara:{
         "name": "Ring of Samsara",
         "shortDesc": "MP Cost: 150. Use the number keys to select an effect that can be activated with Power of Destiny. This skill is canceled if you fail to select spell within 5s sec, or if you press any other keys",
         "id": 400001013,
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/ring-of-samsara.png"],
+        "icons": ["/class-icons/5th-job/ring-of-samsara.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3RtZGE3bTN2cXVlaWQ5aDBqNm5iZXhtbXV4YTlmM3dxZnE3b2MxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/znevSsvwnIjsxw8ZW0/giphy.gif"],
         "type": "Active",
-        "desc": "When used, allows you to select between 4 possible buffs using the Number Keys to be cast when using <span data-tooltip='Power of Destiny (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>",
+        "desc": "When used, allows you to select between 4 possible buffs using the Number Keys to be cast when using <span data-tooltip='Power of Destiny (5th Job)'><img src='/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>",
         "details": [
             "Failing to choose a skill within 5 sec or pressing other keys will cancel this skill",
             "The selected skill is reset at 12:00 AM UTC<ul><li>During that time, the buff cannot be changed until after reset</li></ul>",
-            "This skill is gained alongside and shares SP with <span data-tooltip='Power of Destiny (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>"
+            "This skill is gained alongside and shares SP with <span data-tooltip='Power of Destiny (5th Job)'><img src='/class-icons/5th-job/power-of-destiny.png' alt='Skill Power of Destiny'/></span>"
         ]
     },
     weaponAura:{
