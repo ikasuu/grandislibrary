@@ -11,7 +11,12 @@
             {"weapon": ["oneHSword", "twoHSword", "oneHAxe", "twoHAxe"]},
             {"secondary": ["medallion", "warShield"]}
         ],
-        "innerAbility": ["Attack Speed +1 (for 2-H) / Boss Damage +20% (for 1-H)", "Crit Rate +20%", "Boss Damage +10% (for 2-H) / Damage to Debuffed +8% (for 1-H)"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1 (for 2-H) / Boss Damage +20% (for 1-H)", "Crit Rate +20%", "Boss Damage +10% (for 2-H) / Damage to Debuffed +8% (for 1-H)"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
             [
@@ -64,7 +69,7 @@
             {
                 "name": "Final Damage",
                 "stat": "+142%(~535.71%)",
-                "detail": "[<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%] x [<span data-tooltip='Advanced Combo (4th Job)'><img src='/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span>/<span data-tooltip='Advanced Combo Attack - Reinforce (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack Reinforce'/></span> +120% + {<img src='/class-icons/explorers/hero/sword-illusion.png' alt='Skill Sword Illusion'/> (Final Damage increase of 6 Combo Orbs) +72%}] x [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated] x [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active] x {<span data-tooltip='Instinctual Combo (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> up to 20% of Combo Orbs (+24%)} x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%)"
+                "detail": "[<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%] x [<span data-tooltip='Advanced Combo (4th Job)'><img src='/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span>/<span data-tooltip='Advanced Combo Attack - Reinforce (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack Reinforce'/></span> +120% + {<span data-tooltip='Sword Illusion (5th Job)'><img src='/class-icons/explorers/hero/sword-illusion.png' alt='Skill Sword Illusion'/></span> (Final Damage increase of 6 Combo Orbs) +72%}] x [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated] x [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active] x {<span data-tooltip='Instinctual Combo (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> up to 20% of Combo Orbs (+24%)} x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%)"
             },
             {
                 "name": "Ignore DEF",

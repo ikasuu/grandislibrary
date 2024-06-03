@@ -11,7 +11,12 @@
             {"weapon": ["soulShooter"]},
             {"secondary": ["soulRing"]}
         ],
-        "innerAbility": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/> Finale Ribbon debuff, and buffs with long cooldowns",
             [

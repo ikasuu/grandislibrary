@@ -12,7 +12,12 @@
             {"secondary": ["arrowhead"]},
             {"ammo": "arrowC"}
         ],
-        "innerAbility": ["Boss Damage +20%", "Crit Rate +10%", "Chance to Skip Cooldown +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Boss Damage +20%", "Crit Rate +10%", "Chance to Skip Cooldown +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/resistance/wild-hunter/flurry.png' alt='Skill Flurry'/> Flurry buff, and buffs with long cooldowns",
             [

@@ -11,7 +11,12 @@
             {"weapon": ["wand", "staff"]},
             {"secondary": ["mageShield", "magicBookI"]}
         ],
-        "innerAbility": ["Attack Speed +1", "Buff Duration +38%", "Crit Rate +20%", "***Alternative Option 1***", "Buff Duration +50%", "Crit Rate +20%", "Boss Damage +10%", "***Alternative Option 2 (For Farming)***", "Meso Obtained +20%", "Buff Duration +38%", "Boss Damage +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Crit Rate +20%", "***Alternative Option 1***", "Buff Duration +50%", "Crit Rate +20%", "Boss Damage +10%", "***Alternative Option 2 (For Farming)***", "Meso Obtained +20%", "Buff Duration +38%", "Boss Damage +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
             [
@@ -26,6 +31,63 @@
                 "<strong>Ignore Elemental Resistance</strong>: [<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +10%]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Elemental Adaptation (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-adaptation.png' alt='Skill Elemental Adaptation'/></span> 20] [<span data-tooltip='Absolute Zero Aura (Hyper Skill)'><img src='/class-icons/explorers/ice-lightning/absolute-zero-aura.png' alt='Skill Absolute Zero Aura'/></span> 20]"
             ]
+        ],
+        "weaponStats": {
+            "weaponMultiply": "1.2x",
+            "attackSpeed": ["Stage 7", "[Stage 4, unaffected by weapon attack speed] [<span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +1] [<span data-tooltip='Agile Magic (2nd Job)'><img src='/class-icons/explorers/ice-lightning/agile-magic.png' alt='Skill Agile Magic'/></span> +2]"],
+            "mastery": ["95%", "[Base +25%] [<span data-tooltip='Elquines (4th Job)'><img src='/class-icons/explorers/ice-lightning/elquines.png' alt='Skill Elquines'/></span> +70%]"]
+        },
+        "attackStats": [
+            {
+                "name": "INT",
+                "stat": "+15%(415%) +60(90)",
+                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='Agile Magic (2nd Job)'><img src='/class-icons/explorers/ice-lightning/agile-magic.png' alt='Skill Agile Magic'/></span> +20] [<span data-tooltip='High Wisdom (2nd Job)'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> +40] (<span data-tooltip='Unreliable Magic - Passive (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Magic'/></span> +30)"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+70",
+                "detail": "[<span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/ice-lightning/spell-mastery.png' alt='Skill Spell Mastery'/></span> +10] [<span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/ice-lightning/meditation.png' alt='Skill Meditation'/></span> +30] [<span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/ice-lightning/buff-mastery.png' alt='Skill Buff Mastery'/></span> +30]"
+            },
+            {
+                "name": "Crit Chance",
+                "stat": "+35%(~40%)",
+                "detail": "[Base +5%] [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +30%] (<span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +5% if Wand is equipped)"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+13%(~28%)",
+                "detail": "[<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +13%] {<span data-tooltip='Frost Clutch (4th Job)'><img src='/class-icons/explorers/ice-lightning/freezing-clutch.png' alt='Skill Frost Clutch'/></span> +3% per stack up to +15% from debuff}"
+            },
+            {
+                "name": "Damage",
+                "stat": "+50%(~189%)",
+                "detail": "[<span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/ice-lightning/element-amplification.png' alt='Skill Element Amplification'/></span> +50%] [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/ice-lightning/arcane-aim.png' alt='Skill Arcane Aim'/></span> up to +40%] [<span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span> up to +9% from debuff] {<span data-tooltip='Frost Clutch (4th Job)'><img src='/class-icons/explorers/ice-lightning/freezing-clutch.png' alt='Skill Frost Clutch'/></span> +12% per stack up to +60% from debuff for lightning attribute attacks} {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+40%(~349.04%)",
+                "detail": "[<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +40%] x {<span data-tooltip='Storm Magic (3rd Job)'><img src='/class-icons/explorers/ice-lightning/storm-magic.png' alt='Skill Storm Magic'/></span> +20% to enemies affected by DoT, stun, freeze, darkness, paralysis} x {<span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/ice-lightning/infinity.png' alt='Skill Infinity'/></span> up to +115%} x {<span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/ice-lightning/jupiter-thunder.png' alt='Skill Jupiter Thunder'/></span> +12% from debuff to lightning attribute attacks} x (<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8%)"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+20%(~34.48%)",
+                "detail": "[<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/ice-lightning/arcane-aim.png' alt='Skill Arcane Aim'/></span> +20%] x [<span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span> up to +9%] {<span data-tooltip='Shatter (3rd Job)'><img src='/class-icons/explorers/ice-lightning/shatter.png' alt='Skill Shatter'/></span> +2% per stack up to +10% from debuff}"
+            },
+            {
+                "name": "Ignore Elemental Resistance",
+                "stat": "+10%",
+                "detail": "[<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +10%]"
+            },
+            {
+                "name": "Buff Duration",
+                "stat": "+50%",
+                "detail": "[<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/ice-lightning/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%]"
+            }
         ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Meditation (2nd Job)'><img src='/class-icons/explorers/ice-lightning/meditation.png' alt='Skill Meditation'/></span>[240s]</div> <div><span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior (4th Job)'/></span>[900s]</div>",
@@ -87,7 +149,7 @@
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
             ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Explorer Mage Discord"],
-            ["Unreliable Memory Probabilties","OrangeMushroom"]
+            ["Unreliable Memory Probabilities","OrangeMushroom"]
         ],
         "extraContent": {
             "title": "Freezing Crush",

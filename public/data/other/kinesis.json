@@ -11,7 +11,12 @@
             {"weapon": ["psyLimiter"]},
             {"secondary": ["chessPiece"]}
         ],
-        "innerAbility": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/other/kinesis/mind-tremor.png' alt='Skill Mind Tremor'/> Mind Tremor bonus based on enemies affected, <img src='/class-icons/other/kinesis/awakening.png' alt='Skill Awakening'/> Awakening Ultimate Skill Crit Damage boost, <img src='/class-icons/other/kinesis/mind-tremor-overwhelm.png' alt='Skill Mind Tremor Overwhelm'/> Mind Tremor - Overwhelm, <img src='/class-icons/other/kinesis/mind-break-enhance.png' alt='Skill Mind Break Enhance'/> Mind Break - Enhance, and buffs with long cooldowns",
             [

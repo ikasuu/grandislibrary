@@ -11,7 +11,12 @@
             {"weapon": ["whipBlade"]},
             {"secondary": ["coreController"]}
         ],
-        "innerAbility": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/> OOParts Code, and buffs with long cooldowns",
             [
