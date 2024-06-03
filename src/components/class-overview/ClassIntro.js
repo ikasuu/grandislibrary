@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DOMPurify from 'dompurify';
 import parse from 'html-react-parser';
 import styled from 'styled-components';
-import { Col, Container, Image, Table, Row, Card } from 'react-bootstrap';
+import { Col, Container, Image, Table, Row, Card, Modal } from 'react-bootstrap';
 
 import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Values';
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
+import { Chip } from '@material-ui/core';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -74,7 +75,7 @@ export function ClassIntro({data}) {
                 <Row>
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>
-                        <PropertyBox skills={data.skill.notable} classType={data.content.classType}/>
+                        <PropertyBox skills={data.skill.notable} infographics={data.content.infographics}/>
                         <LinkSkill linkSkill={data.content.linkSkill}/>
                     </PropertyContainer>
                     <BuffContainer md="auto">
@@ -160,15 +161,56 @@ function ClassProperties({content}) {
     Created by: Ikasuu, Fall 2020
 */
 
-function PropertyBox({skills, classType}) {
+function PropertyBox({skills, infographics}) {
   return (
       <div style={{paddingLeft: '0.5rem'}}>
-          <StyledHeaderFive>Skill Preview<InfoButton tooltip="Click the skill icon to view skill animation"/></StyledHeaderFive>
-          { skills.map( skill => 
-              <NotableSkill key={skill.name} skill={skill}/>
-          )}
+        <StyledHeaderFive>Skill Preview<InfoButton tooltip="Click the skill icon to view skill animation"/></StyledHeaderFive>
+        { skills.map( skill => 
+            <NotableSkill key={skill.name} skill={skill}/>
+        )}
+        {
+            infographics ? 
+            <div>
+                <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
+                {
+                    infographics.map( image => 
+                    <ClassInfographic infographic={image.src} title={image.title}/>
+                )}
+            </div>
+            : <></>
+        }
       </div>
   );
+}
+
+/*
+    Displays the class infographics in the class properties section and handles modal logic
+    Created by: Ikasuu, Spring 2024
+*/
+
+export function ClassInfographic({ infographic, title }) {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+    return (
+        <span>
+            <Chip label={title} className="hvr-grow" onClick={handleShow} clickable size="large"/>
+            <Modal centered show={show} onHide={handleClose} aria-labelledby="infographic-image" size="lg">
+                <Modal.Header closeButton>
+                    <Modal.Title id="infographic-image">
+                            {title}
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <a href={`/class-infographic/${infographic}`} target="_blank" rel="noreferrer noopener">
+                        <Image src={`/grandislibrary/class-infographic/${infographic}`} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
+                    </a>
+                </Modal.Body>
+            </Modal>
+        </span>
+    );
 }
 
 /*
@@ -257,16 +299,20 @@ function ClassDetail({content}) {
             <Container>{parse(DOMPurify.sanitize(content.nodeInfo.possible))}</Container>
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
             <div>
-            {
-                content.innerAbility.map((preset, index) => 
-                    <AbilityPreset key={index} name={preset.name} set={preset.abilities}/>
-                )
-            }
+                {
+                    content.innerAbility.map((preset, index) => 
+                        <AbilityPreset key={index} name={preset.name} set={preset.abilities}/>
+                    )
+                }
             </div>
       </Container>
     );
 }
 
+/*
+    Displays the Inner Ability preset given from data
+    Created by: Ikasuu, Summer 2024
+*/
 function AbilityPreset({name, set}){
     return(
         <div>
