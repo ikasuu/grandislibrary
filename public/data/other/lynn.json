@@ -11,7 +11,12 @@
             {"weapon": ["memorialStaff"]},
             {"secondary": ["leaf", "mageShield"]}
         ],
-        "innerAbility": ["Attack Speed +1 / +1 Passive Skills", "Boss Damage +10%", "Buff Duration +38% / Damage to Debuffed +8%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Buff Duration +38% / Damage to Debuffed +8%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [

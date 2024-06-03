@@ -12,7 +12,12 @@
             {"secondary": ["jewel"]},
             {"ammo": "throwingStar"}
         ],
-        "innerAbility": ["Boss Damage +20%", "Crit Rate +20%", "Damage to Debuffed +8%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to Debuffed +8%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [

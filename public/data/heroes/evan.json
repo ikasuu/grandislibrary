@@ -11,7 +11,12 @@
             {"weapon": ["wand", "staff"]},
             {"secondary": ["mageShield", "document"]}
         ],
-        "innerAbility": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [

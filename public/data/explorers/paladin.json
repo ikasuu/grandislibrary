@@ -11,7 +11,12 @@
             {"weapon": ["oneHSword", "twoHSword", "oneHBlunt", "twoHBlunt"]},
             {"secondary": ["rosary", "warShield"]}
         ],
-        "innerAbility": ["***First Line Options***", "Attack Speed +1 (for 2-H)", "Boss Damage 20% (for 1-H)", "***Second & Third Line Options***", "Crit Rate +20%", "Damage to Debuffed +8%", "Boss Damage +10% (for 2-H)", "Meso Obtained +15% (For Farming)"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["***First Line Options***", "Attack Speed +1 (for 2-H)", "Boss Damage 20% (for 1-H)", "***Second & Third Line Options***", "Crit Rate +20%", "Damage to Debuffed +8%", "Boss Damage +10% (for 2-H)", "Meso Obtained +15% (For Farming)"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders buff, and buffs with long cooldowns",
             [
@@ -486,7 +491,7 @@
                     "name": "Magic Crash",
                     "shortDesc": "MP Cost: 15, 100% chance to remove enemies' buffs. Buff Block Duration: 22 sec\\nCooldown: 60 sec",
                     "maxLevel": 10,
-                    "icons": ["/class-icons/explorers/hero/magic-crash.png"],
+                    "icons": ["/class-icons/explorers/paladin/magic-crash.png"],
                     "animations": ["https://media.giphy.com/media/oGqoEaxLy9dk9bu0uG/giphy.gif"],
                     "type": "Active Debuff",
                     "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs",

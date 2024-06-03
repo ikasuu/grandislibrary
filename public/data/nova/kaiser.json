@@ -11,7 +11,12 @@
             {"weapon": ["twoHSword"]},
             {"secondary": ["dragonEssence"]}
         ],
-        "innerAbility": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/> Final Form, and buffs with long cooldowns",
             [

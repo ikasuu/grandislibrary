@@ -11,7 +11,12 @@
             {"weapon": ["wand", "staff"]},
             {"secondary": ["mageShield", "magicBookB"]}
         ],
-        "innerAbility": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%", "***Alternative Option 1***", "Buff Duration +50%", "Boss Damage +10%", "Damage to Debuffed +8% / Meso Obtained +15% (For Farming)", "***Alternative Option 2 (For Farming)***", "Meso Obtained +20%", "Buff Duration +38%", "Boss Damage +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%", "***Alternative Option 1***", "Buff Duration +50%", "Boss Damage +10%", "Damage to Debuffed +8% / Meso Obtained +15% (For Farming)", "***Alternative Option 2 (For Farming)***", "Meso Obtained +20%", "Buff Duration +38%", "Boss Damage +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
             [
@@ -36,7 +41,7 @@
         "attackStats": [
             {
                 "name": "INT",
-                "stat": "+15% +50",
+                "stat": "+15%(415%) +50",
                 "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='Agile Magic (2nd Job)'><img src='/class-icons/explorers/bishop/agile-magic.png' alt='Skill Agile Magic'/></span> +20] [<span data-tooltip='High Wisdom (2nd Job)'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> +40] (<span data-tooltip='Unreliable Magic - Passive (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Magic'/></span> +30)"
             },
             {
@@ -56,8 +61,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+40%(~85%)",
-                "detail": "[<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/bishop/arcane-aim.png' alt='Skill Arcane Aim'/></span> up to +40%] (<span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span> up to +9%) {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} {<span data-tooltip='Angel of Balance - Vengeance (5th Job)'><img src='/class-icons/explorers/bishop/angel-of-balance.png' alt='Skill Angel of Balance'/></span> +5%} {<span data-tooltip='Peacemaker - Holy Light (5th Job)'><img src='/class-icons/explorers/bishop/peacemaker.png' alt='Skill Peacemaker - Holy Light'/></span> +11%}"
+                "stat": "+40%(~105%)",
+                "detail": "[<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/bishop/arcane-aim.png' alt='Skill Arcane Aim'/></span> up to +40%] [<span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span> up to +9% from debuff] {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} {<span data-tooltip='Angel of Balance - Vengeance (5th Job)'><img src='/class-icons/explorers/bishop/angel-of-balance.png' alt='Skill Angel of Balance'/></span> +5%} {<span data-tooltip='Peacemaker - Holy Light (5th Job)'><img src='/class-icons/explorers/bishop/peacemaker.png' alt='Skill Peacemaker - Holy Light'/></span> +11%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
             },
             {
                 "name": "Boss Damage",
@@ -72,12 +77,17 @@
             {
                 "name": "Ignore DEF",
                 "stat": "+64.16%(~67.38%)",
-                "detail": "[<span data-tooltip='Angelic Wrath (2nd Job)'><img src='/class-icons/explorers/bishop/angelic-wrath.png' alt='Skill Angelic Wrath'/></span> +44% from debuff] [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/bishop/arcane-aim.png' alt='Skill Arcane Aim'/></span> +20%] x [<span data-tooltip='Righteously Indignant - Passive (Hyper Skill)'><img src='/class-icons/explorers/bishop/righteously-indignant.png' alt='Skill Righteously Indignant'/></span> +20%] x (<span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span> up to +9%)"
+                "detail": "[<span data-tooltip='Angelic Wrath (2nd Job)'><img src='/class-icons/explorers/bishop/angelic-wrath.png' alt='Skill Angelic Wrath'/></span> +44% from debuff] [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/bishop/arcane-aim.png' alt='Skill Arcane Aim'/></span> +20%] x [<span data-tooltip='Righteously Indignant - Passive (Hyper Skill)'><img src='/class-icons/explorers/bishop/righteously-indignant.png' alt='Skill Righteously Indignant'/></span> +20%] x [<span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span> up to +9% from debuff]"
             },
             {
                 "name": "Ignore Elemental Resistance",
                 "stat": "+10%",
                 "detail": "[<span data-tooltip='Righteously Indignant - Passive (Hyper Skill)'><img src='/class-icons/explorers/bishop/righteously-indignant.png' alt='Skill Righteously Indignant'/></span> +10%]"
+            },
+            {
+                "name": "Buff Duration",
+                "stat": "+50%",
+                "detail": "[<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%]"
             }
         ],
         "buffInfo": {
@@ -139,11 +149,11 @@
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
             ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Explorer Mage Discord"],
-            ["Unreliable Memory Probabilties","OrangeMushroom"]
+            ["Unreliable Memory Probabilities","OrangeMushroom"]
         ],
         "extraContent": {
             "title": "Benevolence and Vengeance",
-            "content": "<p>At Lv. 140, you unlock the Hyper Skill, <img src='/class-icons/explorers/bishop/righteously-indignant.png' alt='Skill Righteously Indignant'/> Righteously Indignant that allows you to swap between Benevolence skills and Venegeance skills</p> <p>Benevolence skills provide supportive abilties like party heals and utility while Venegeance skills provide offensive abilities like attacks and self-buffs. Benevolence and Venegeance skills share the same Key Slot and Skill Points (SP)</p><p>Below are a list of all Benevolence and Venegeance skills:</p><ul><li><img src='/class-icons/explorers/bishop/heal.png' alt='Skill Heal'/> / <img src='/class-icons/explorers/bishop/angelic-wrath.png' alt='Skill Angelic Wrath'/> Heal & Angelic Wrath (2nd Job)</li><li><img src='/class-icons/explorers/bishop/holy-fountain.png' alt='Skill Holy Fountain'/> / <img src='/class-icons/explorers/bishop/fountain-of-vengeance.png' alt='Skill Fountain of Venegeance'/> Holy Fountain & Fountain of Venegeance (3rd Job)</li><li><img src='/class-icons/explorers/bishop/dispel.png' alt='Skill Dispel'/> / <img src='/class-icons/explorers/bishop/triumph-feather.png' alt='Skill Triumph Feather'/> Dispel & Triumph Feather (3rd Job)</li><li><img src='/class-icons/explorers/bishop/holy-water.png' alt='Skill Holy Water'/> / <img src='/class-icons/explorers/bishop/blood-of-the-divine.png' alt='Skill Blood of the Divine'/> Holy Water & Blood of the Divine (4th Job)</li></ul>"
+            "content": "<p>At Lv. 140, you unlock the Hyper Skill, <img src='/class-icons/explorers/bishop/righteously-indignant.png' alt='Skill Righteously Indignant'/> Righteously Indignant that allows you to swap between Benevolence skills and Venegeance skills</p> <p>Benevolence skills provide supportive abilities like party heals and utility while Venegeance skills provide offensive abilities like attacks and self-buffs. Benevolence and Venegeance skills share the same Key Slot and Skill Points (SP)</p><p>Below are a list of all Benevolence and Venegeance skills:</p><ul><li><img src='/class-icons/explorers/bishop/heal.png' alt='Skill Heal'/> / <img src='/class-icons/explorers/bishop/angelic-wrath.png' alt='Skill Angelic Wrath'/> Heal & Angelic Wrath (2nd Job)</li><li><img src='/class-icons/explorers/bishop/holy-fountain.png' alt='Skill Holy Fountain'/> / <img src='/class-icons/explorers/bishop/fountain-of-vengeance.png' alt='Skill Fountain of Venegeance'/> Holy Fountain & Fountain of Venegeance (3rd Job)</li><li><img src='/class-icons/explorers/bishop/dispel.png' alt='Skill Dispel'/> / <img src='/class-icons/explorers/bishop/triumph-feather.png' alt='Skill Triumph Feather'/> Dispel & Triumph Feather (3rd Job)</li><li><img src='/class-icons/explorers/bishop/holy-water.png' alt='Skill Holy Water'/> / <img src='/class-icons/explorers/bishop/blood-of-the-divine.png' alt='Skill Blood of the Divine'/> Holy Water & Blood of the Divine (4th Job)</li></ul>"
         }
     },
     "skill": {

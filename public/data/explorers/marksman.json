@@ -12,7 +12,12 @@
             {"secondary": ["bowThimble"]},
             {"ammo": "arrowC"}
         ],
-        "innerAbility": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"],
+        "innerAbility": [
+            {
+                "name": "Preset 1",
+                "abilities": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"]
+            }
+        ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/explorers/marksman/evasion-boost.png' alt='Skill Evasion Boost'/> Evasion Boost buff, Link Skills, and buffs with long cooldowns",
             [
