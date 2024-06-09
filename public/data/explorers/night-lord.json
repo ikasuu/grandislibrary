@@ -32,6 +32,53 @@
                 "<strong>EXP & Item Drop Rate (From Monsters)</strong>: [<span data-tooltip='Showdown (4th Job)'><img src='/class-icons/explorers/night-lord/showdown.png' alt='Skill Showdown'/></span> +5% from debuff]"
             ]
         ],
+        "weaponStats": {
+            "weaponMultiply": "1.75x",
+            "attackSpeed": ["Stage 8", "[Stage 6] [<span data-tooltip='Agile Claws (2nd Job)'><img src='/class-icons/explorers/night-lord/agile-claws.png' alt='Skill Agile Claws'/></span> +2]"],
+            "mastery": ["85%", "[Base +15%] [<span data-tooltip='Claw Expert (4th Job)'><img src='/class-icons/explorers/night-lord/claw-expert.png' alt='Skill Claw Expert'/></span> +70%]"]
+        },
+        "attackStats": [
+            {
+                "name": "LUK",
+                "stat": "+15%(415%) +70",
+                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='Nimble Body (1st Job)'><img src='/class-icons/explorers/thief/nimble-body.png' alt='Skill Nimble Body'/></span> +20] [<span data-tooltip='Agile Claws (2nd Job)'><img src='/class-icons/explorers/night-lord/agile-claws.png' alt='Skill Agile Claws'/></span> +20] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30]"
+            },
+            {
+                "name": "Attack",
+                "stat": "+110",
+                "detail": "[<span data-tooltip='Spirit of the Star (3rd Job)'><img src='/class-icons/explorers/night-lord/spirit-of-the-star.png' alt='Skill Spirit of the Star'/></span> +10] [<span data-tooltip='Dark Harmony (4th Job)'><img src='/class-icons/explorers/night-lord/dark-harmony.png' alt='Skill Dark Harmony'/></span> +20] [<span data-tooltip='Dagger Export (4th Job)'><img src='/class-icons/explorers/shadower/dagger-expert.png' alt='Skill Dagger Expert'/></span> +40] [<span data-tooltip='Meso Mastery (3rd Job)'><img src='/class-icons/explorers/shadower/meso-mastery.png' alt='Skill Meso Mastery'/></span> +25] [<span data-tooltip='Shadower Instinct (4th Job)'><img src='/class-icons/explorers/shadower/shadower-instinct.png' alt='Skill Shadower Instinct'/></span> +50]"
+            },
+            {
+                "name": "Crit Chance",
+                "stat": "+75%",
+                "detail": "[Base +5%] [<span data-tooltip='Critical Throw (2nd Job)'><img src='/class-icons/explorers/night-lord/critical-throw.png' alt='Skill Critical Throw'/></span> +50%] [<span data-tooltip='Expert Throwing Star Handling (3rd Job)'><img src='/class-icons/explorers/night-lord/expert-throwing-star-handling.png' alt='Skill Expert Throwing Star Handling'/></span> +20%]"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+25%",
+                "detail": "[<span data-tooltip='Critical Throw (2nd Job)'><img src='/class-icons/explorers/night-lord/critical-throw.png' alt='Skill Critical Throw'/></span> +5%] [<span data-tooltip='Alchemic Adrenaline (3rd Job)'><img src='/class-icons/explorers/night-lord/alchemic-adrenaline.png' alt='Skill Alchemic Adrenaline'/></span> +10%] [<span data-tooltip='Claw Expert (4th Job)'><img src='/class-icons/explorers/night-lord/claw-expert.png' alt='Skill Claw Expert'/></span> +10%]"
+            },
+            {
+                "name": "Damage",
+                "stat": "(+10%)",
+                "detail": "{<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/thief/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+10%",
+                "detail": "[<span data-tooltip='Frailty Curse (4th Job)'><img src='/class-icons/explorers/night-lord/frailty-curse.png' alt='Skill Frailty Curse'/></span> +10%]"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+35%(~109.3%)",
+                "detail": "[<span data-tooltip='Expert Throwing Star Handling (3rd Job)'><img src='/class-icons/explorers/night-lord/expert-throwing-star-handling.png' alt='Skill Expert Throwing Star Handling'/></span> +25%] x [<span data-tooltip='Dark Harmony (4th Job)'><img src='/class-icons/explorers/night-lord/dark-harmony.png' alt='Skill Dark Harmony'/></span> +8%] x (<span data-tooltip='Shadow Walk (5th Job)'><img src='https://grandislibrary.com/class-icons/5th-job/shadow-walker.png' alt='Skill Shadow Walk'/></span> +14%) x (<span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +36% in Stage 2)"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+30%(~56%)",
+                "detail": "[<span data-tooltip='Dark Harmony (4th Job)'><img src='/class-icons/explorers/night-lord/dark-harmony.png' alt='Skill Dark Harmony'/></span> +30%] x {<span data-tooltip='Frailty Curse (4th Job)'><img src='/class-icons/explorers/night-lord/frailty-curse.png' alt='Skill Frailty Curse'/></span> +30% + (<span data-tooltip='Frailty Curse - Enhance (Hyper Skill)'><img src='/class-icons/explorers/night-lord/frailty-curse-enhance.png' alt='Skill Frailty Curse - Enhance'/></span> +10%)}"
+            }
+        ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Shadow Partner (3rd Job)'><img src='/class-icons/common/shadow-partner.png' alt='Skill Shadow Partner'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><span data-tooltip='Bleed Dart (Hyper Skill)'><img src='/class-icons/explorers/night-lord/bleed-dart.png' alt='Skill Bleed Dart'/></span>[90s]</div>",
             "toggles": "<span data-tooltip='Assassin&#39;s Mark (2nd Job)'><img src='/class-icons/explorers/night-lord/assassins-mark.png' alt='Skill Assassin&#39;s Mark'/></span>",

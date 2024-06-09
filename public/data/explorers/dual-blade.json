@@ -30,7 +30,7 @@
         ],
         "weaponStats": {
             "weaponMultiply": "1.3x",
-            "attackSpeed": ["Stage 8", "[Stage 6] [<span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/dual-blade/katara-booster.png' alt='Skill Katara Booster'/></span> +2]"],
+            "attackSpeed": ["Stage 8", "[Stage 6] [<span data-tooltip='Katara Booster (2nd Job)'><img src='/class-icons/explorers/dual-blade/katara-booster.png' alt='Skill Katara Booster'/></span> +2]"],
             "mastery": ["90%", "[Base +20%] [<span data-tooltip='Katara Expert (4th Job)'><img src='/class-icons/explorers/dual-blade/katara-expert.png' alt='Skill Katara Expert'/></span> +70%]"]
         },
         "attackStats": [
@@ -41,23 +41,23 @@
             },
             {
                 "name": "Attack",
-                "stat": "+90(+15)",
-                "detail": "[<span data-tooltip='Channel Karma (2nd Job)'><img src='/class-icons/explorers/dual-blade/channel-karma.png' alt='Skill Channel Karma'/></span> +30] [<span data-tooltip='Katara Expert (4th Job)'><img src='/class-icons/explorers/dual-blade/katara-expert.png' alt='Skill Katara Expert'/></span> +30] [<span data-tooltip='Thorns (4th Job)'><img src='/class-icons/explorers/dual-blade/thorns.png' alt='Skill Thorns'/></span> +30] (<span data-tooltip='Shadow Meld (3rd Job)'><img src='/class-icons/explorers/dual-blade/shadow-meld.png' alt='Skill Shadow Meld'/></span> +15)"
+                "stat": "+90(105)",
+                "detail": "[<span data-tooltip='Channel Karma (2nd Job)'><img src='/class-icons/explorers/dual-blade/channel-karma.png' alt='Skill Channel Karma'/></span> +30] [<span data-tooltip='Katara Expert (4th Job)'><img src='/class-icons/explorers/dual-blade/katara-expert.png' alt='Skill Katara Expert'/></span> +30] [<span data-tooltip='Thorns (4th Job)'><img src='/class-icons/explorers/dual-blade/thorns.png' alt='Skill Thorns'/></span> +30] (<span data-tooltip='Shadow Meld (3rd Job)'><img src='/class-icons/explorers/dual-blade/shadow-meld.png' alt='Skill Shadow Meld'/></span> +15 upon activating)"
             },
             {
                 "name": "Crit Chance",
                 "stat": "+40%(100%)",
-                "detail": "[Base +5%] [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +30%] (<span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +5% if Wand is equipped)"
+                "detail": "[Base +5%] [<span data-tooltip='Sharpness (4th Job)'><img src='/class-icons/explorers/dual-blade/sharpness.png' alt='Skill Sharpness'/></span> +35%] {<span data-tooltip='Shadow Meld (3rd Job)'><img src='/class-icons/explorers/dual-blade/shadow-meld.png' alt='Skill Shadow Meld'/></span> +100% upon activating}"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+13%",
-                "detail": "[<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +13%] {<span data-tooltip='Frost Clutch (4th Job)'><img src='/class-icons/explorers/ice-lightning/freezing-clutch.png' alt='Skill Frost Clutch'/></span> +3% per stack up to +15% from debuff}"
+                "detail": "[<span data-tooltip='Sharpness (4th Job)'><img src='/class-icons/explorers/dual-blade/sharpness.png' alt='Skill Sharpness'/></span> +13%]"
             },
             {
                 "name": "Damage",
-                "stat": "+50%(~189%)",
-                "detail": "[<span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/ice-lightning/element-amplification.png' alt='Skill Element Amplification'/></span> +50%] [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/ice-lightning/arcane-aim.png' alt='Skill Arcane Aim'/></span> up to +40%] [<span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span> up to +9% from debuff] {<span data-tooltip='Frost Clutch (4th Job)'><img src='/class-icons/explorers/ice-lightning/freezing-clutch.png' alt='Skill Frost Clutch'/></span> +12% per stack up to +60% from debuff for lightning attribute attacks} {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+                "stat": "+10%(~40%)",
+                "detail": "[<span data-tooltip='Blade Clone (Hyper Skill)'><img src='/class-icons/explorers/dual-blade/blade-clone.png' alt='Skill Blade Clone'/></span> +10%] {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/thief/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
             },
             {
                 "name": "Boss Damage",
@@ -66,23 +66,13 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+40%(~349.04%)",
-                "detail": "[<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +40%] x {<span data-tooltip='Storm Magic (3rd Job)'><img src='/class-icons/explorers/ice-lightning/storm-magic.png' alt='Skill Storm Magic'/></span> +20% to enemies affected by DoT, stun, freeze, darkness, paralysis} x {<span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/ice-lightning/infinity.png' alt='Skill Infinity'/></span> up to +115%} x {<span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/ice-lightning/jupiter-thunder.png' alt='Skill Jupiter Thunder'/></span> +12% from debuff to lightning attribute attacks} x (<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8%)"
+                "stat": "+68%(~206.16%)",
+                "detail": "[<span data-tooltip='Katara Expert (4th Job)'><img src='/class-icons/explorers/dual-blade/katara-expert.png' alt='Skill Katara Expert'/></span> +20%] x {<span data-tooltip='Final Cut (4th Job)'><img src='/class-icons/explorers/dual-blade/final-cut.png' alt='Skill Final Cut'/></span> +40%} x {<span data-tooltip='Advanced Dark Sight (3rd Job)'><img src='/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'/></span> +20% + (<span data-tooltip='Shadow Walk (5th Job)'><img src='https://grandislibrary.com/class-icons/5th-job/shadow-walker.png' alt='Skill Shadow Walk'/></span> +14%)} x (<span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +36% in Stage 2)"
             },
             {
                 "name": "Ignore DEF",
-                "stat": "+20%(~34.48%)",
-                "detail": "[<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/ice-lightning/arcane-aim.png' alt='Skill Arcane Aim'/></span> +20%] x [<span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span> up to +9%] {<span data-tooltip='Shatter (3rd Job)'><img src='/class-icons/explorers/ice-lightning/shatter.png' alt='Skill Shatter'/></span> +2% per stack up to +10% from debuff}"
-            },
-            {
-                "name": "Ignore Elemental Resistance",
-                "stat": "+10%",
-                "detail": "[<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +10%]"
-            },
-            {
-                "name": "Buff Duration",
-                "stat": "+50%",
-                "detail": "[<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/ice-lightning/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%]"
+                "stat": "+0%",
+                "detail": ""
             }
         ],
         "buffInfo": {
