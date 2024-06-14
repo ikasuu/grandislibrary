@@ -22,9 +22,9 @@
             [
                 "<strong>Attack</strong>: [<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%]",
                 "<strong>Crit Rate</strong>: [<span data-tooltip='Loyal Oath (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/loyal-oath.png' alt='Skill Loyal Oath'/></span> +20%] [<span data-tooltip='Expert Sword Mastery (4th Job)'><img src='/class-icons/cygnus-knights/mihile/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/></span> +15%] [<span data-tooltip='Advanced Righteous Indignation (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png' alt='Skill Advanced Righteous Indignation'/></span> +20% to debuffed* (refer to skill)]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Expert Sword Mastery (4th Job)'><img src='/class-icons/cygnus-knights/mihile/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/></span> +15%] [<span data-tooltip='Roiling Soul (4th Job)'><img src='/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span> +10% while active]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Expert Sword Mastery (4th Job)'><img src='/class-icons/cygnus-knights/mihile/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/></span> +20%] [<span data-tooltip='Roiling Soul (4th Job)'><img src='/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span> +10% while active]",
                 "<strong>Damage</strong>: [<span data-tooltip='Soul Link (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/soul-link.png' alt='Skill Soul Link'/></span> +5% for each party member up to +30%]",
-                "<strong>Final Damage</strong>: <span data-tooltip='Sword Mastery (2nd Job)'>[<img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +15%] [<span data-tooltip='Loyal Oath (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/loyal-oath.png' alt='Skill Loyal Oath'/></span> +23%] [<span data-tooltip='Roiling Soul (4th Job)'><img src='/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span> +25% while active] [<span data-tooltip='Advanced Righteous Indignation (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png' alt='Skill Advanced Righteous Indignation'/> +25% to debuffed* (refer to skill)]",
+                "<strong>Final Damage</strong>: <span data-tooltip='Sword Mastery (2nd Job)'>[<img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +15%] [<span data-tooltip='Loyal Oath (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/loyal-oath.png' alt='Skill Loyal Oath'/></span> +25%] [<span data-tooltip='Roiling Soul (4th Job)'><img src='/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span> +25% while active] [<span data-tooltip='Advanced Righteous Indignation (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png' alt='Skill Advanced Righteous Indignation'/> +25% to debuffed* (refer to skill)]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Soul Shield (1st Job)'><img src='/class-icons/cygnus-knights/mihile/soul-shield.png' alt='Skill Soul Shield'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 8",
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Combat Mastery (4th Job)'><img src='/class-icons/cygnus-knights/mihile/combat-mastery.png' alt='Skill Combat Mastery'/></span> +40%]",
@@ -400,7 +400,7 @@
                     },
                     {
                         "name": "Loyal Oath",
-                        "shortDesc": "Strength: +60, Critical Rate: +20%, Final Damage: +23%, Attack Speed: +1",
+                        "shortDesc": "Strength: +60, Critical Rate: +20%, Final Damage: +25%, Attack Speed: +1",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/mihile/loyal-oath.png"],
                         "type": "Passive"
@@ -515,7 +515,7 @@
                 },
                 {
                     "name": "Expert Sword Mastery",
-                    "shortDesc": "One-Handed Sword Mastery: +70%\\nAttack Power: +30, Critical Rate: 15%, Critical Damage: +15%",
+                    "shortDesc": "One-Handed Sword Mastery: +70%\\nAttack Power: +30, Critical Rate: 15%, Critical Damage: +20%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/mihile/expert-sword-mastery.png", "/class-icons/common/weapon-mastery-sword.png"],
                     "type": "Upgraded Passive",
@@ -736,7 +736,7 @@
             "originSkill": [
                 {
                     "name": "Durendal",
-                    "shortDesc": "MP Cost: 1200, invincible during casting\\nPowerfully stab the sword of light, Max Enemies Hit: 15, Damage: 4500%, Number of Attacks: 7, Chase Cuts: 2\\nThen light energy is released, Damage: 5400%, Number of Attacks: 5, Earth Waves: 9\\nLastly, Damage: 6600%, Number of Attacks: 14, Final Blows: 5\\nBlind Chance: 100%, Blind Duration: 10 sec, Accuracy: -30%\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nPowerfully stab the sword of light, Max Enemies Hit: 15, Damage: 1500%, Number of Attacks: 7, Chase Cuts: 6\\nThen light energy is released, Damage: 1350%, Number of Attacks: 6, Earth Waves: 30\\nLastly, Damage: 1375%, Number of Attacks: 14, Final Blows: 24\\nBlind Chance: 100%, Blind Duration: 10 sec, Accuracy: -30%\\nCooldown: 360 sec",
                     "icons": ["/class-icons/cygnus-knights/mihile/durendal.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGV4amJ3dGZ1dnNtN2oxMWs2MWo0MXg1bTE1MnUydTI5b2xwazhmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z0SQRhA4az3tjt1pVH/giphy.gif"],
                     "type": "Bind Attack",
