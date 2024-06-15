@@ -20,7 +20,7 @@
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives,  and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [<span data-tooltip='Outrage (2nd Job)'><img src='/class-icons/resistance/demon-slayer/outrage.png' alt='Skill Outrage'/></span> +20%] [<span data-tooltip='Insult to Injury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/></span> +15% to stunned, blinded, frozen, incapacitated]",
+                "<strong>Crit Rate</strong>: [<span data-tooltip='Outrage (2nd Job)'><img src='/class-icons/resistance/demon-slayer/outrage.png' alt='Skill Outrage'/></span> +20%] [<span data-tooltip='Insult to Injury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/></span> +15%]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Barricade Mastery (4th Job)'><img src='/class-icons/resistance/demon-slayer/barricade-mastery.png' alt='Skill Barricade Mastery'/></span> +15%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Dark Metamorphosis (4th Job)'><img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/></span> +35%]",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/resistance/demon-slayer/weapon-mastery.png' alt='Skill Weapon Mastery'/></span> +10%] [<span data-tooltip='Focused Fury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/focused-fury.png' alt='Skill Focused Fury'/></span> +30%] [<span data-tooltip='Insult to Injury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/></span> +15% to stunned, blinded, frozen, incapacitated]",
@@ -328,21 +328,17 @@
                     },
                     {
                         "name": "Insult to Injury",
-                        "shortDesc": "When attacking enemies in Stun, Blind, Freeze, Slow, or Incapacitation status, Final Damage: +15%, Critical Rate: +15%",
+                        "shortDesc": "Final Damage (to stunned, blinded, frozen, slowed, incapacitated enemies): +15%, Permanently increases Critical Rate by 15%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/resistance/demon-slayer/insult-to-injury.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Focused Fury",
-                        "shortDesc": "Final Damage: +30%, Increases Attack Speed",
+                        "shortDesc": "Final Damage: +30%, Attack Speed: +1",
                         "maxLevel": 18,
                         "icons": ["/class-icons/resistance/demon-slayer/focused-fury.png"],
-                        "type": "Passive",
-                        "desc": "",
-                        "details": [
-                            "Increases Attack Speed (by 1 stage)"
-                        ]
+                        "type": "Passive"
                     },
                     {
                         "name": "Possessed Aegis",
@@ -686,7 +682,7 @@
             "originSkill": [
                 {
                     "name": "Nightmare",
-                    "shortDesc": "Fury Cost: 50, invincible during casting\\nRelease Fury, Max Enemies Hit: 15, Damage: 3600%, Number of Attacks: 4, Shockwaves: 5, then manifest the Demon's territory.\\nDemon's Territory - Duration: 20 sec, max Fury limit can exceed up to 500 times. Using direct attack skills activates the Flames of the Netherworld, Max Enemies Hit: 3, Damage: 3900%, Number of Attacks: 4, Cooldown: 0.3 sec\\nWhen using the flames of the nether world activate, Bonus Fury Recovery: 10\\nUsing the skill again ends it immediately, Max Enemies Hit: 15, Damage: 9000%, Number of Attacks: 7, Netherworld Judgment Activations: 9\\nFor each 10 Fury gained by exceeding the max Fury limit, Netherworld Judgment Final Damage: +1%, invincible during casting of Netherworld Judgment\\nCooldown: 360 sec",
+                    "shortDesc": "Fury Cost: 50, Invincible during casting\\nRelease Fury, Shockwave Max Enemies Hit: 15, Damage: 3000%, Number of Attacks: 4, Shockwaves: 6, then manifest the Demon's territory.\\nDemon's Territory - Duration: 20 sec, max Fury limit can exceed up to 500 times. Using direct attack skills activates the Flames of the Netherworld, Max Enemies Hit: 3, Damage: 2229%, Number of Attacks: 7, Cooldown: 0.3 sec\\nWhen using the flames of the nether world activate, Bonus Fury Recovery: 10\\nUsing the skill again ends it immediately, Max Enemies Hit: 15, Damage: 1760%, Number of Attacks: 7, Netherworld Judgment Activations: 46\\nFor each 10 Fury gained by exceeding the max Fury limit, Netherworld Judgment Final Damage: +1%, invincible and ignore status effects during casting of Netherworld Judgment\\nCooldown: 360 sec",
                     "icons": ["/class-icons/resistance/demon-slayer/nightmare.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3gyYWQ3cTNvZzM3bDB4aGUweTVkbHd1M3NjbnU2bDlmYjg0anI1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vvnHxT7mfrmBuVcVER/giphy-downsized-large.gif"],
                     "type": "Bind Attack",

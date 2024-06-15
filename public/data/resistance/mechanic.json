@@ -230,9 +230,9 @@
                         "type": "Key-down Attack",
                         "desc": "While held, launches homing missiles that seek out nearby enemies",
                         "details": [
-                            "Prioritizes bosses with the highest HP first while in <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> Tank Mode (3rd Job)",
-                            "Can be used while using other skills",
                             "Right-clicking the skill toggles the smoke visual effect ON/OFF",
+                            "Prioritizes bosses with the highest HP first",
+                            "Can be used while using other skills",
                             "Unaffected by Damage Reflect"
                             
                         ]
@@ -303,16 +303,12 @@
                 [
                 "3rd Job", [{
                         "name": "Tank Mech",
-                        "shortDesc": "Tank Mode MP Cost: 50 plus 10 MP every 5 sec, Normal Attack Damage: 100%\\nRegular Attack MP Cost: 20, Additional Critical Rate: +30%\\nHoming missile's final damage is reduced to 60% of the original damage.",
+                        "shortDesc": "Tank Mode MP Cost: 50 plus 10 MP every 5 sec, Regular Attack: 100%, Regular Attack Critical Rate: +30%",
                         "maxLevel": 1,
                         "icons": ["/class-icons/resistance/mechanic/tank-mech.png"],
                         "animations": ["https://media2.giphy.com/media/S6kcepai5zfqDihj4o/giphy.gif"],
                         "type": "Active Mount",
-                        "desc": "Mount onto your Tank Mech",
-                        "details": [
-                            "<span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> fires additional missiles at each enemy instead of one but deals reduced %Final Damage",
-                            "While in Tank Mech, you gain increased %Crit Rate"
-                        ]
+                        "desc": "Mount onto your Tank Mech that gains increased %Crit Rate"
                     },
                     {
                         "name": "Heavy Salvo",
@@ -653,15 +649,12 @@
             "hyperActive": [
                 {
                     "name": "Full Spread",
-                    "shortDesc": "MP Cost: 200, Duration: 10 sec to fire 6 additional shots.\\nHoming Beacon's damage decreased to 60%, does not stack with the damage reduction from Tank Mech.\\nCooldown: 90 sec.",
+                    "shortDesc": "MP Cost: 200, Duration: 10 sec, Additional Missiles: 6\\nCooldown: 90 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/mechanic/full-spread.png"],
                     "animations": ["https://media0.giphy.com/media/JTJ9Rqr4173kldWdc6/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Increases the number of homing missiles fired from <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span>",
-                    "details": [
-                        "Deals reduced %Damage similar to <span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> but damage reduction does not stack"
-                    ],
+                    "desc": "Increases the number of <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> homing missiles fired",
                     "reqLev": 140
                 },
                 {
@@ -715,14 +708,14 @@
                 },
                 {
                     "name": "Full Metal Barrage",
-                    "shortDesc": "MP Cost: 1500, Can down-key for up to 10 sec, Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 11.\\nWhen Homing Beacon is used during casting, 7 additional Beacons are fired, can be stacked with Full Spread.\\nCannot use Homing Beacon for 2 sec after skill ends.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1500, Can down-key for up to 10 sec, Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 11.\\nWhen Homing Beacon is used during casting, 7 additional Beacons are fired, can be stacked with Full Spread. Final Damage: +67%\\nCannot use Homing Beacon for 2 sec after skill ends.\\nCooldown: 180 sec",
                     "icons": ["/class-icons/resistance/mechanic/full-metal-barrage.png"],
                     "animations": ["https://media0.giphy.com/media/dGaeGbzzWGBl9s9Lbp/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "Unleashes a gigantic mech that fires and bursts down enemies in front of you",
                     "details": [
                         "You are invincible while casting but you cannot move or change directions",
-                        "Can fire <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> while casting<ul><li>Fires additional homing missiles while active</li><li>Multi-target will not have any %Final Damage reduction</li><li>You cannot use <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> for a short period after casting this skill</li></ul>"
+                        "Can fire <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> while casting<ul><li>Increases %Final Damage of homing missiles and fires additional missiles while active</li><li>You cannot use <span data-tooltip='Homing Beacon (2nd Job)'><img src='/class-icons/resistance/mechanic/homing-beacon.png' alt='Skill Homing Beacon'/></span> for a short period after casting this skill</li></ul>"
                     ]
                 },
                 {

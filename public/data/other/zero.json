@@ -677,7 +677,7 @@
                 },
                 {
                     "name": "Twin Blades of Time",
-                    "shortDesc": "Time Force Cost: 50, Max Enemies Hit: 12, Invulnerable while casting skill\\n[Beta Link] 1st Hit: Deals 2000% damage 8 times, 2nd Hit: Deals 1900% damage 12 times, 3rd Hit: Deals 2400% damage 13 times\\n[Alpha Link] 1st Hit: Deals 2000% damage 8 times, 2nd Hit: Deals 1900% damage 12 times, 3rd Hit: deal 2400% damage 13 times\\n[Joint Attack]: Triggers an explosion 3 time(s), which deals 2200% damage 15 times. Triggers additional explosion for every 2 remaining linked attacks. Max Explosions: 5. Ignores an additional 100% Monster DEF\\nCooldown: 120 sec",
+                    "shortDesc": "Time Force Cost: 50, Max Enemies Hit: 12, Invulnerable while casting skill\\n[Beta Link] 1st Hit: Deals 2000% damage 8 times\\n2nd Hit: Deals 1900% damage 12 times\\n3rd Hit: Deals 2400% damage 13 times\\n[Alpha Link] 1st Hit: Deals 2000% damage 8 times\\n2nd Hit: Deals 1900% damage 12 times\\n3rd Hit: deal 2400% damage 13 times\\n[Joint Attack]: Triggers an explosion 3 time(s), which deals 2200% damage 15 times. Triggers additional explosion for every 2 remaining linked attacks. Max Explosions: 5. Ignores Defense: +100%\\nCooldown: 120 sec",
                     "icons": ["/class-icons/other/zero/twin-blades-of-time.png"],
                     "animations": ["https://media.giphy.com/media/uoJbWezsBAd5vtQEMC/giphy.gif"],
                     "type": "Key-down Attack",
@@ -689,7 +689,7 @@
                 },
                 {
                     "name": "Shadow Flash",
-                    "shortDesc": "Time Force Cost: 10, creates a sanctuary that lasts during cooldown. Max Enemies Hit: 8\\nAlpha: Deals Damage: 1000%, Number of Attacks: 6. Beta: Deals Damage: 1300%, Number of Attacks: 5\\nSkill Cooldown: Consumes 25 Time Force to destroy the sanctuary, move to the location, and attack up to 15 enemies. Alpha: Activates a sword attack 3 time(s), Damage: 800%, Number of Attacks: 15. Beta: Activates a sword attack 2 time(s). Damage: 1750%, Number of Attacks: 12\\nCooldown: 40 sec",
+                    "shortDesc": "Time Force Cost: 10, creates a sanctuary that lasts during cooldown. Max Enemies Hit: 8\\nAlpha: Deals Damage: 1300%, Number of Attacks: 6\\nBeta: Deals Damage: 1690%, Number of Attacks: 5\\nSkill Cooldown: Consumes 25 Time Force to destroy the sanctuary, move to the location, and attack up to 15 enemies.\\nAlpha: Activates a sword attack 3 time(s), Damage: 1045%, Number of Attacks: 15\\nBeta: Activates a sword attack 3 time(s). Damage: 1520%, Number of Attacks: 12\\nCooldown: 40 sec",
                     "icons": ["/class-icons/other/zero/shadow-flash-alpha.png", "/class-icons/other/zero/shadow-flash-beta.png"],
                     "animations": ["https://media.giphy.com/media/ZUTqmI9Y0x7XiCixyI/giphy-downsized-large.gif"],
                     "type": "Attack",
@@ -700,7 +700,7 @@
                 },
                 {
                     "name": "Ego Weapon",
-                    "shortDesc": "Alpha: Lazuli forms 9 blade(s), attacking 6 time(s) for 350% damage\\nBeta: Lapis forms 3 Heavy Swords, unleashing 2 shock(s) for 350% damage to 4 enemies\\nCooldown: 15 sec",
+                    "shortDesc": "Alpha: Lazuli forms 9 blade(s), attacking 6 time(s) for 455% damage.\\nBeta: Lapis forms 3 Heavy Swords, unleashing 2 shock(s) for 455% damage to 4 enemies\\nCooldown: 15 sec",
                     "icons": ["/class-icons/other/zero/ego-weapon-alpha.png", "/class-icons/other/zero/ego-weapon-beta.png"],
                     "animations": ["https://media.giphy.com/media/kh54fxm9FLcI2R5pSG/giphy.gif"],
                     "type": "Passive Attack",
@@ -716,6 +716,13 @@
         },
         "sixth": {
             "masteryCore": [
+                {
+                    "name": "Time Piece",
+                    "shortDesc": "Creates 3 Traces of Time when Assist hits 4 times.\\nUp to 10 Traces of Time can exist on one map, and are activated by Time Crystal when the opposite Zero's attack hits.\\nTrace recreation cooldown: 2 seconds\\nTime Crystal: attacks 4 times with 1440% damage",
+                    "icons": ["/class-icons/other/zero/time-piece.png"],
+                    "type": "Passive",
+                    "desc": ""
+                },
                 {
                     "name": "HEXA Wind Cutter",
                     "shortDesc": "Time Force Cost: 17, Damage: 265%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 175% per 0.5 sec, Number of Attacks: 3, Duration: 3 sec.\\nCooldown: 15 sec",
@@ -733,7 +740,7 @@
                 },
                 {
                     "name": "HEXA Storm Break",
-                    "shortDesc": "Time Force Cost: 21, Damage: 535%, Max Hits: 10, Number of Attacks: 8\\n[Vortex]: Max Enemies Hit: 8, Damage: 535% per 0.5 sec, Number of Attacks: 4, Duration: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 4, Damage Over Time: 370% damage per 1 sec, Normal Enemy Damage: +330% points",
+                    "shortDesc": "Time Force Cost: 21, Damage: 535%, Max Enemies Hit: 8, Max Hits: 10\\n[Vortex]: Max Enemies Hit: 8, Damage: 535% per 0.5 sec, Number of Attacks: 4, Duration of Vortex: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 4, Damage Over Time: 370% damage per 1 sec, Normal Enemy Damage: +330% points",
                     "icons": ["/class-icons/other/zero/hexa-storm-break.png", "/class-icons/other/zero/advanced-storm-break.png"],
                     "type": "Upgraded Passive",
                     "desc": ""
@@ -757,13 +764,6 @@
                     "shortDesc": "Time Force Cost: 19, Damage: 610%, Max Enemies Hit: 7, Max Hits: 10\\n[Shock Wave]: Max Enemies Hit: 7, Damage: 455%, Number of Attacks: 10\\n[Shock Field]: Max Enemies Hit: 7 Duration: 5 Damage Over Time: 545% damage per 1 sec, Normal Enemy Damage: +340% points",
                     "icons": ["/class-icons/other/zero/hexa-groundbreaker.png", "/class-icons/other/zero/mega-groundbreaker.png"],
                     "type": "Upgraded Passive",
-                    "desc": ""
-                },
-                {
-                    "name": "Time Piece",
-                    "shortDesc": "Creates 3 Traces of Time when Assist hits 4 times.\\nUp to 10 Traces of Time can exist on one map, and are activated by Time Crystal when the opposite Zero's attack hits.\\nTrace recreation cooldown: 2 seconds\\nTime Crystal: attacks 4 times with 1440% damage",
-                    "icons": ["/class-icons/other/zero/time-piece.png"],
-                    "type": "Passive",
                     "desc": ""
                 }
             ],

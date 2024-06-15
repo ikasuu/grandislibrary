@@ -20,10 +20,10 @@
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [<span data-tooltip='Critical Insight (4th Job)'><img src='/class-icons/heroes/shade/critical-insight.png' alt='Skill Critical Insight'/></span> +25% & +75% when enemy is below 50% HP]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Advanced Knuckle Mastery (4th Job)'><img src='/class-icons/heroes/shade/advanced-knuckle-mastery.png' alt='Skill Advanced Knuckle Mastery'/></span> +20%] [<span data-tooltip='Critical Insight (4th Job)'><img src='/class-icons/heroes/shade/critical-insight.png' alt='Skill Critical Insight'/></span> +25% when enemy is below 50% HP]",
+                "<strong>Crit Rate</strong>: [<span data-tooltip='Knuckle Mastery (2nd Job)'><img src='/class-icons/common/knuckle-mastery.png' alt='Skill Knuckle Mastery'/></span> +10%] [<span data-tooltip='Critical Insight (4th Job)'><img src='/class-icons/heroes/shade/critical-insight.png' alt='Skill Critical Insight'/></span> +25%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Advanced Knuckle Mastery (4th Job)'><img src='/class-icons/heroes/shade/advanced-knuckle-mastery.png' alt='Skill Advanced Knuckle Mastery'/></span> +20%] [<span data-tooltip='Critical Insight (4th Job)'><img src='/class-icons/heroes/shade/critical-insight.png' alt='Skill Critical Insight'/></span> +10%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Spirit Bond 3 (3rd Job)'><img src='/class-icons/heroes/shade/spirit-bond-3.png' alt='Skill Spirit Bond 3'/></span> +20%] [<span data-tooltip='Weaken (3rd Job)'><img src='/class-icons/heroes/shade/weaken.png' alt='Skill Weaken'/></span> +20% from debuff]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Spirit Bond 4 (4th Job)'><img src='/class-icons/heroes/shade/spirit-bond-4.png' alt='Skill Spirit Bond 4'/></span> +15%] [<span data-tooltip='Advanced Knuckle Mastery (4th Job)'><img src='/class-icons/heroes/shade/advanced-knuckle-mastery.png' alt='Skill Advanced Knuckle Mastery'/></span> +16%] [<span data-tooltip='Blade Imp (2nd Job / 3rd Job)'><img src='/class-icons/heroes/shade/blade-imp-downward-slash.png' alt='Skill Blade Imp - Downward Slash'/></span> +10% from debuff]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Spirit Bond 4 (4th Job)'><img src='/class-icons/heroes/shade/spirit-bond-4.png' alt='Skill Spirit Bond 4'/></span> +15%] [<span data-tooltip='Advanced Knuckle Mastery (4th Job)'><img src='/class-icons/heroes/shade/advanced-knuckle-mastery.png' alt='Skill Advanced Knuckle Mastery'/></span> +16%] [<span data-tooltip='Critical Insight (4th Job)'><img src='/class-icons/heroes/shade/critical-insight.png' alt='Skill Critical Insight'/></span> +10%] [<span data-tooltip='Blade Imp (2nd Job / 3rd Job)'><img src='/class-icons/heroes/shade/blade-imp-downward-slash.png' alt='Skill Blade Imp - Downward Slash'/></span> +10% from debuff]",
                 "<strong>Boss Damage</strong>: [<span data-tooltip='Spirit Bond 4 (4th Job)'><img src='/class-icons/heroes/shade/spirit-bond-4.png' alt='Skill Spirit Bond 4'/></span> +30%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Spirit Bond 1 (Beginner)'><img src='/class-icons/heroes/shade/spirit-bond-1.png' alt='Skill Spirit Bond 1'/></span> +100%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 7",
@@ -209,7 +209,7 @@
                     },
                     {
                         "name": "Knuckle Mastery",
-                        "shortDesc": "Knuckle Mastery: +50%",
+                        "shortDesc": "Knuckle Mastery: +50%, Critical Rate: +10%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/common/knuckle-mastery.png"],
                         "type": "Passive"
@@ -274,12 +274,12 @@
                     },
                     {
                         "name": "Spirit Frenzy",
-                        "shortDesc": "MP Cost: 7, Damage: 90%, Number of Attacks: 5, Max Enemies Hit: 10\\nCooldown: 10 sec",
+                        "shortDesc": "MP Cost per Attack: 7, Can be held for up to 5 sec, Max Enemies Hit: 10, Damage: 175%, Number of Attacks: 5\\nCooldown: 10 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/shade/spirit-frenzy.png"],
                         "animations": ["https://media.giphy.com/media/SsZa2OFaajnwis0G7u/giphy.gif"],
                         "type": "Key-down Attack",
-                        "desc": "Summons a flurry of spirits that spin around you dealing damage",
+                        "desc": "While held, a flurry of spirits surrounds you dealing damage",
                         "details": [
                             "You can move while casting"
                         ]
@@ -444,7 +444,7 @@
                     },
                     {
                         "name": "Critical Insight",
-                        "shortDesc": "When an enemy goes below 50% HP, your Critical Rate increases by 75% and your Critical Damage increases by 25%\\nPermanently increases your Critical Rate by 25%.",
+                        "shortDesc": "Critical Rate: +25%, Critical Damage: +10%, Final Damage: +10%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/shade/critical-insight.png"],
                         "type": "Passive"
@@ -579,7 +579,7 @@
             "fifthMain": [
                 {
                     "name": "Spirit Flow",
-                    "shortDesc": "MP Cost: 1000, Resets cooldowns, Final Damage: +17% for 55 sec\\nCauses your attack skills to periodically trigger the spirits guiding you to attack using your own attack skills (excluding 5th Job Skills). Continous Channeled Skills triggered this way have a duration of 3 sec.\\nSpirit Attack Cooldown: 2 sec\\Spirit Guardian infuses once during Spirit Flow, Shade's Spirit Frenzy Final Damage: +550%\\nCooldown :120 sec",
+                    "shortDesc": "MP Cost: 1000, Resets cooldowns, Final Damage: +17% for 55 sec\\nCauses your attack skills to periodically trigger the spirits guiding you to attack using your own attack skills (excluding 5th Job Skills). Continous Channeled Skills triggered this way have a duration of 3 sec.\\nSpirit Attack Cooldown: 2 sec\\nSpirit Guardian infuses once during Spirit Flow, Shade's Spirit Frenzy Final Damage: +550%\\nCooldown: 120 sec",
                     "icons": ["/class-icons/heroes/shade/spirit-flow.png"],
                     "animations": ["https://media.giphy.com/media/DyBNIkp6SH9oYcgtHp/giphy-downsized-large.gif"],
                     "type": "Buff Attack",
@@ -643,7 +643,7 @@
             "originSkill": [
                 {
                     "name": "Advent of the Fox",
-                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15, Damage: 1920%, Number of Attacks: 12, Number of Awakenings: 8\\nDuration: 40 sec, Final Damage: +10%, enhances martial arts, fixed in place one time upon using Spirit Frenzy, Cooldown: 13 sec\\nFox God Claw\\n1st hit - MP Cost: 70, Max Enemies Hit: 10, Damage: 745%, Number of Attacks: 8\\n2nd hit - MP Cost: 70, Max Enemies Hit: 10, Damage: 745%, Number of Attacks: 8\\n3rd hit - MP Cost: 80, Max enemies Hit: 10, Damage: 795%, Number of Attacks: 10\\nFox Spirits Orb - Creation Chance: 40%, Damage: 360%, Max Number of Attacks: 3\\nFox God Avatar - Max Enemies Hit: 15, Damage: 1320%, Number of Attacks: 13, Bonus Fox Spirits Orb Creation: 6, Cooldown: 6 sec, does not share cooldown with True Spirit Claw\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15, Damage: 960%, Number of Attacks: 12, Number of Awakenings: 16\\nDuration: 40 sec, Final Damage: +10%, enhances martial arts, fixed in place one time upon using Spirit Frenzy, Cooldown: 13 sec\\nFox God Claw\\n1st hit - MP Cost: 70, Max Enemies Hit: 10, Damage: 745%, Number of Attacks: 8\\n2nd hit - MP Cost: 70, Max Enemies Hit: 10, Damage: 745%, Number of Attacks: 8\\n3rd hit - MP Cost: 80, Max enemies Hit: 10, Damage: 795%, Number of Attacks: 10\\nFox Spirits Orb - Creation Chance: 40%, Damage: 360%, Max Number of Attacks: 3\\nFox God Avatar - Activates Fox God's Power for Max Enemies Hit: 15, Damage: 440%, Number of Attacks 13 (745 times), Bonus Fox Spirits Orb Creation: 6, Cooldown: 6 sec, does not share cooldown with True Spirit Claw\\nCooldown: 360 sec",
                     "icons": ["/class-icons/heroes/shade/advent-of-the-fox-1.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWhncGM2d2p3azRsM2c4bWduajNjOHdkbm14Mng4eHdibG41emVmcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8ipYxNYKRZ3fhreorL/giphy.gif"],
                     "type": "Bind Attack",

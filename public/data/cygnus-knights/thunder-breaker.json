@@ -684,17 +684,24 @@
             "masteryCore": [
                 {
                     "name": "HEXA Annihilate",
-                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 3, Damage: 470%, Number of Attacks: 7\\nCreates Lightning Brand that lasts for 90 sec on the enemy struck, Lightning Occurs if you attack the branded enemy with another direct attack skill.\\nLightning Strike: attack 3 times with 190% damage.",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 3, Damage: 470%, Number of Attacks: 7\\nCreate a Lightning Brand on enemies hit that lasts 90 sec.",
                     "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-annihilate.png", "/class-icons/cygnus-knights/thunder-breaker/annihilate.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzN0a2U0NHA4YWhvZ3JkMTU0aWtha2t3Nm4wb2E5dDdzYzJlZnpqbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2ThHvPHkwGa1augr97/giphy.gif"],
                     "type": "Upgraded Passive",
+                    "desc": ""
+                },
+                {
+                    "name": "Thunder Bolt",
+                    "shortDesc": "When attacking Lightning Brand marked enemies with a direct attack skill (excluding HEXA Annihilate and Tidal Crash), Lightning Strike hits the enemy. Damage: 380%, Number of Attacks: 3\\nCreate a massive thunderbolt instead when using linked skills (excluding Sea Wave, Lightning Spear Multistrike's linked attack, and Thunder Wall Sea Wave). Damage: 340%, Number of Attacks: 5\\nBoss Damage: +40%, Ignore Defense: +20%",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder-bolt.png"],
+                    "type": "Passive",
                     "desc": ""
                 }
             ],
             "originSkill": [
                 {
                     "name": "Thunder Wall Sea Wave",
-                    "shortDesc": "MP Cost: 1200, invincible during casting\\nShock Wave that attacks up to 15 enemies with 3240% damage 4 times is triggered 11 times, then Shock Wave that attacks with 5520% damage 7 times is triggered 14 times\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nShock Wave that attacks up to 15 enemies with 1390% damage 5 times is triggered 32 times,\\nthen Shock Wave that attacks with 1370% damage 7 times is triggered 62 times\\nCooldown: 360 sec",
                     "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm9xczlpZXFwNXR5Y2FjaWg0aGdld3hjeG4xamhpNTVobjNmY3Z5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QrnWvp0witiOso8Bge/giphy.gif"],
                     "type": "Bind Attack",
