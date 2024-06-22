@@ -14,14 +14,14 @@
         "innerAbility": [
             {
                 "name": "Preset 1",
-                "abilities": ["Boss Damage +20%", "Attack +21", "Damage to Debuffed +8% / Buff Duration +38%"]
+                "abilities": ["Boss Damage +20%", "Attack +21", "Damage to Abnormal Status +8% / Buff Duration +38%"]
             }
         ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
                 "<strong>Attack</strong>: [<span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/> +15%]",
-                "<strong>Crit Rate</strong>: [<span data-tooltip='Shadow Heart (1st Job)'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Shadow Heart'/></span> +20%] [<span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +15% & +20% to bosses] [<span data-tooltip='Groggy Mastery (3rd Job)'><img src='/class-icons/explorers/buccaneer/groggy-mastery.png' alt='Skill Groggy Mastery'/></span> +60% to debuffed]",
+                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Shadow Heart (1st Job)'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Shadow Heart'/></span> +20%] [<span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +15% & +20% to bosses] [<span data-tooltip='Groggy Mastery (3rd Job)'><img src='/class-icons/explorers/buccaneer/groggy-mastery.png' alt='Skill Groggy Mastery'/></span> +60% to debuffed]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Shadow Heart (1st Job)'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Shadow Heart'/></span> +5%] [<span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +10%] [<span data-tooltip='Groggy Mastery (3rd Job)'><img src='/class-icons/explorers/buccaneer/groggy-mastery.png' alt='Skill Groggy Mastery'/></span> +15% to debuffed] [<span data-tooltip='Serpent Spirit (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/serpent-spirit.png' alt='Skill Serpent Spirit'/> up to +15%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Aggressive Stance (4th Job)'><img src='/class-icons/explorers/buccaneer/aggressive-stance.png' alt='Skill Aggressive Stance'/></span> +25% after proc]",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> +13%] [<span data-tooltip='Typhoon Crush (4th Job)'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> +10%] [<span data-tooltip='Sea Serpent&#39;s Rage (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpent&#39;s Rage'/></span> +20% from debuff]",
@@ -489,7 +489,7 @@
                     },
                     {
                         "name": "Sea Serpent's Rage",
-                        "shortDesc": "Damage: 430%, Max Enemies Hit: 6, Number of Attacks: 6. Your attack skills deal +20% Final Damage against enemies afflicted with Serpent's Mark for 15 sec. Cooldown: 4 sec",
+                        "shortDesc": "Damage: 430%, Max Enemies Hit: 6, Number of Attacks: 6. Your attack skills deal +20% Final Damage against enemies afflicted with Serpent's Mark for 30 sec. Cooldown: 4 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/buccaneer/sea-serpents-rage.png"],
                         "animations": ["https://media.giphy.com/media/oDdVOfZP3zjJoqtCX4/giphy.gif"],
@@ -802,7 +802,7 @@
             "originSkill": [
                 {
                     "name": "Unleash Neptunus",
-                    "shortDesc": "MP Cost: 1200, invincible during casting\\nNeptunus, the original sea serpent, awakens, Max Enemies Hit: 15, Damage: 3000%, Number of Attacks: 8, Waves: 3. Afterwards, Damage: 4500%, Number of Attacks: 12, Ocean Fury: 7\\nWhen using 5th job skills (excluding Lord of the Deep and fighting skills), Neptunus Enrage activates for 30 sec.\\nNeptunus Enrage - Cooldown: 4 sec\\n1st hit - Max Enemies Hit: 10, Damage: 2100%, Number of Attacks: 6\\n2nd hit - Max Enemies Hit: 10, Damage: 2400%, Number of Attacks: 8\\n3rd hit - Max Enemies Hit: 10, Damage: 3000%, Number of Attacks: 10\\n4th hit - Max Enemies Hit: 10, Damage: 3000%, Number of Attacks: 10\\n5th hit - Max Enemies Hit: 10, Damage: 3600%, Number of Attacks: 12\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nNeptunus, the original sea serpent, awakens, Max Enemies Hit: 15, Damage: 1380%, Number of Attacks: 13, Waves: 4. Afterwards, Damage: 1140%, Number of Attacks: 15, Ocean Fury: 22\\nWhen using 5th job skills (excluding Lord of the Deep and fighting skills), Neptunus Enrage activates for 30 sec.\\nNeptunus Enrage - Cooldown: 4 sec\\n1st hit - Max Enemies Hit: 10, Damage: 1680%, Number of Attacks: 12\\n2nd hit - Max Enemies Hit: 10, Damage: 1800%, Number of Attacks: 13\\n3rd hit - Max Enemies Hit: 10, Damage: 1920%, Number of Attacks: 15\\n4th hit - Max Enemies Hit: 10, Damage: 1920%, Number of Attacks: 15\\n5th hit - Max Enemies Hit: 10, Damage: 2180%, Number of Attacks: 15\\nCooldown: 360 sec",
                     "icons": ["/class-icons/explorers/buccaneer/unleash-neptunus.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnZlZnBtaXRvYW4xY2s2Mm9uazAxNTJldW1nOTJzZHI0dzdoa2gzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ponU2IGeZwMGu2eFi6/giphy.gif"],
                     "type": "Bind Attack",

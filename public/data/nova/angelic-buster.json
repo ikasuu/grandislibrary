@@ -14,42 +14,46 @@
         "innerAbility": [
             {
                 "name": "Preset 1",
-                "abilities": ["Attack Speed +1", "Crit Rate +20%", "Boss Damage +10%"]
+                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%", "[Note]: %Buff Duration replaces %Dmg to Abnormal Status as Link Skill benefits more from Buff Duration IA"]
             }
         ],
         "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/> Finale Ribbon debuff, and buffs with long cooldowns",
+            "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/> Finale Ribbon debuff, Link Skill, and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [<span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt=' skill Soul Shooter Expert'/></span> +30%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Star Gazer (4th Job)'><img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/></span> +45%] [<span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt=' skill Soul Shooter Expert'/></span> +15%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Affinity Heart III (3rd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/></span> +20%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Trinity (4th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> +25%]",
+                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> +25%] [<span data-tooltip='Center Stage (3rd Job)'><img src='/class-icons/nova/angelic-buster/center-stage.png' alt='Skill Center Stage'/></span> +10%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Dragon Whistle (3rd Job)'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> +6%] [<span data-tooltip='Center Stage (3rd Job)'><img src='/class-icons/nova/angelic-buster/center-stage.png' alt='Skill Center Stage'/></span> +15%] [<span data-tooltip='Star Gazer (4th Job)'><img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/></span> +20%]",
+                "<strong>Damage</strong>: [<span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> +10%] [<span data-tooltip='Affinity Heart III (3rd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/></span> +10%] [<span data-tooltip='Affinity Heart IV (4th Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iv.png' alt='Skill Affinity Heart IV'/></span> +25% from buff]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Beautiful Soul (2nd Job)'><img src='/class-icons/nova/angelic-buster/beautiful-soul.png' alt='Skill Beautiful Soul'/></span> +5%] [<span data-tooltip='Blossoming Star (3rd Job)'><img src='/class-icons/nova/angelic-buster/blossoming-star.png' alt='Skill Blossoming Star'/></span> +14%] [<span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> +10%] [<span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> +21%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 7",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Iron Blossom (3rd Job)'><img src='/class-icons/nova/angelic-buster/iron-blossom.png' alt='Skill Iron Blossom'/></span> +40%] [<span data-tooltip='Love Me Heart (3rd Job)'><img src='/class-icons/nova/angelic-buster/love-me-heart.png' alt='Skill Love Me Heart'/></span> +60%]",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Trinity (4th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> +15%]",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Blossoming Star (3rd Job)'><img src='/class-icons/nova/angelic-buster/blossoming-star.png' alt='Skill Blossoming Star'/></span> +40%] [<span data-tooltip='Love Me Heart (3rd Job)'><img src='/class-icons/nova/angelic-buster/love-me-heart.png' alt='Skill Love Me Heart'/></span> +60%]",
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Dragon Whistle (3rd Job)'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> +16%]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> 40]"
             ]
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Power Transfer (2nd Job)'><img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/></span>[180s]</div> <div><span data-tooltip='Star Gazer (4th Job)'><img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/></span>[180s]</div> <div><span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Star Gazer (4th Job)'><img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/></span>[180s]</div> <div><span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/angelic-buster/nova-warrior.png' alt='Skill Nova Warrior'/></span>[900s]</div>",
             "toggles": "<span data-tooltip='Soul Seeker Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/></span>",
-            "summons": "<div><span data-tooltip='Supreme Supernova (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/></span>[12s](60s cd)</div> <div><span data-tooltip='Sparkle Burst (5th Job)'><img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/></span>[30s](120s cd)</div> <div><span data-tooltip='Superstar Spotlight (5th Job)'><img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/></span>[30s](120s cd)</div> <div><span data-tooltip='Mighty Mascot (5th Job)'><img src='/class-icons/nova/angelic-buster/mighty-mascot.png' alt='Skill Mighty Mascot'/></span>[36s](120s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Terms and Conditions (Link Skill)'><img src='/class-icons/link-skills/terms-and-conditions.png' alt='Skill Terms and Conditions'/></span>[10s](90s cd)</div> <div><span data-tooltip='Pretty Exaltation (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/pretty-exaltation.png' alt='Skill Pretty Exaltation'/></span>[30s](120s cd)</div> <div><span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span>[30s](120s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>[960s](1200s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
+            "summons": "<div><span data-tooltip='Supreme Supernova (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/></span>[12s](60s cd)</div> <div><span data-tooltip='Superstar Spotlight (5th Job)'><img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/></span>[30s](120s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Terms and Conditions (Link Skill)'><img src='/class-icons/link-skills/terms-and-conditions.png' alt='Skill Terms and Conditions'/></span>[10s](90s cd)</div> <div><span data-tooltip='Pretty Exaltation (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/pretty-exaltation.png' alt='Skill Pretty Exaltation'/></span>[30s](60s cd)</div> <div><span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span>[30s](120s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess's Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>[960s](1200s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
             "binds": "<div><span data-tooltip='Grand Finale (6th Job)'><img src='/class-icons/nova/angelic-buster/grand-finale.png' alt='Skill Grand Finale'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Soul Resonance (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span>[2s](60s cd)</div> <div><span data-tooltip='Sparkle Burst (5th Job)'><img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/></span>[Up to 10s](120s cd)</span> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>[960s Buff](1200s cd blocks 1 death)</span></div> <div><span data-tooltip='Grand Finale (6th Job)'><img src='/class-icons/nova/angelic-buster/grand-finale.png' alt='Skill Grand Finale'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Soul Resonance (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span>[Up to 8s](-35% | 60s cd)</div> <div><span data-tooltip='Trinity Fusion (5th Job)'><img src='/class-icons/nova/angelic-buster/trinity-fusion.png' alt='Skill Trinity Fusion'/></span>(-20% | 13s cd)</div>"
+            "iFrame": "<div><span data-tooltip='Soul Resonance (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span>[2s](60s cd)</div> <div><span data-tooltip='Sparkle Burst (5th Job)'><img src='/class-icons/nova/angelic-buster/sparkle-burst.png' alt='Skill Sparkle Burst'/></span>[10s on 2nd press](120s cd)</span> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/>[960s Buff](1200s cd blocks 1 death)</span></div> <div><span data-tooltip='Grand Finale (6th Job)'><img src='/class-icons/nova/angelic-buster/grand-finale.png' alt='Skill Grand Finale'/></span>(360s cd)</div>",
+            "damageReduce": "<div><span data-tooltip='Soul Resonance (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span>[Up to 8s](-35% | 60s cd)</div> <div><span data-tooltip='Mighty Mascot (5th Job)'><img src='/class-icons/nova/angelic-buster/mighty-mascot.png' alt='Skill Mighty Mascot'/></span>[Up to 1.8s](-40% | 60s cd)</div> <div><span data-tooltip='Trinity Fusion (5th Job)'><img src='/class-icons/nova/angelic-buster/trinity-fusion.png' alt='Skill Trinity Fusion'/></span>(-20% | 13s cd)</div>"
         },
         "linkSkill": {
             "id": 80001155,
+            "offline": true,
+            "name": "Terms and Conditions",
+            "shortDesc": "Duration: 10 sec, Damage: +60%\\nCooldown: 60 sec",
+            "maxLevel": 3,
             "icons": ["/class-icons/link-skills/terms-and-conditions.png"],
             "type": "Buff"
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<span data-tooltip='Feather Hop'><img src='/class-icons/nova/angelic-buster/feather-hop.png' alt='Skill Feather Hop'/></span> -> <span data-tooltip='Melody Cross'><img src='/class-icons/nova/angelic-buster/melody-cross.png' alt='Skill Melody Cross'/></span> -> <span data-tooltip='Affinity Heart I'><img src='/class-icons/nova/angelic-buster/affinity-heart-i.png' alt='Skill Affinity Heart I'/></span> -> <span data-tooltip='Star Bubble'><img src='/class-icons/nova/angelic-buster/star-bubble.png' alt='Skill Star Bubble'/></span>"],
+                ["1st Job", "<span data-tooltip='Feather Hop'><img src='/class-icons/nova/angelic-buster/feather-hop.png' alt='Skill Feather Hop'/></span> -> <span data-tooltip='Melody Cross'><img src='/class-icons/nova/angelic-buster/melody-cross.png' alt='Skill Melody Cross'/></span> -> <span data-tooltip='Affinity Heart'><img src='/class-icons/nova/angelic-buster/affinity-heart.png' alt='Skill Affinity Heart'/></span> -> <span data-tooltip='Star Bubble'><img src='/class-icons/nova/angelic-buster/star-bubble.png' alt='Skill Star Bubble'/></span>"],
                 ["2nd Job", "<span data-tooltip='Beautiful Soul'><img src='/class-icons/nova/angelic-buster/beautiful-soul.png' alt='Skill Beautiful Soul'/></span> -> <span data-tooltip='Soul Shooter Mastery'><img src='/class-icons/nova/angelic-buster/soul-shooter-mastery.png' alt='Skill Soul Shooter Mastery'/></span> -> <span data-tooltip='Affinity Heart II'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> -> <span data-tooltip='Power Transfer'><img src='/class-icons/nova/angelic-buster/power-transfer.png' alt='Skill Power Transfer'/></span> -> <span data-tooltip='Lovely Sting'><img src='/class-icons/nova/angelic-buster/lovely-sting.png' alt='Skill Lovely Sting'/></span> -> <span data-tooltip='Pink Pummel'><img src='/class-icons/nova/angelic-buster/pink-pummel.png' alt='Skill Pink Pummel'/></span>"],
-                ["3rd Job", "<span data-tooltip='Love Me Heart'><img src='/class-icons/nova/angelic-buster/love-me-heart.png' alt='Skill Love Me Heart'/></span> -> <span data-tooltip='Affinity Heart III'><img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/></span> -> <span data-tooltip='Dragon Whistle'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> -> <span data-tooltip='Iron Blossom'><img src='/class-icons/nova/angelic-buster/iron-blossom.png' alt='Skill Iron Blossom'/></span> -> <span data-tooltip='Heavenly Crash'><img src='/class-icons/nova/angelic-buster/heavenly-crash.png' alt='Skill Heavenly Crash'/></span> -> <span data-tooltip='Shining Star Burst'><img src='/class-icons/nova/angelic-buster/shining-star-burst.png' alt='Skill Shining Star Burst'/></span> -> <span data-tooltip='Soul Seeker'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span>"],
-                ["4th Job", "<span data-tooltip='Soul Seeker Expert'><img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/></span> -> <span data-tooltip='Affinity Heart IV'><img src='/class-icons/nova/angelic-buster/affinity-heart-iv.png' alt='Skill Affinity Heart IV'/></span> -> <span data-tooltip='Soul Seeker Expert'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> -> <span data-tooltip='Celestial Roar'><img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/></span> -> <span data-tooltip='Nova Warrior'><img src='/class-icons/nova/nova-warrior.png' alt='Skill Nova Warrior'/></span> -> <span data-tooltip='Star Gazer'><img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/></span> -> <span data-tooltip='Trinity'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> -> <span data-tooltip='Soul Resonance'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span> -> <span data-tooltip='Finale Ribbon'><img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/></span> -> <span data-tooltip='Nova Temperance'><img src='/class-icons/nova/nova-temperance.png' alt='Skill Nova Temperance'/></span>"]
+                ["3rd Job", "<span data-tooltip='Love Me Heart'><img src='/class-icons/nova/angelic-buster/love-me-heart.png' alt='Skill Love Me Heart'/></span> -> <span data-tooltip='Affinity Heart III'><img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/></span> -> <span data-tooltip='Dragon Whistle'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> -> <span data-tooltip='Blossoming Star'><img src='/class-icons/nova/angelic-buster/blossoming-star.png' alt='Skill Blossoming Star'/></span> -> <span data-tooltip='Center Stage'><img src='/class-icons/nova/angelic-buster/center-stage.png' alt='Skill Center Stage'/></span> -> <span data-tooltip='Star Crash'><img src='/class-icons/nova/angelic-buster/star-crash.png' alt='Skill Star Crash'/></span> -> <span data-tooltip='Soul Seeker'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span>"],
+                ["4th Job", "<span data-tooltip='Soul Seeker Expert'><img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/></span> -> <span data-tooltip='Affinity Heart IV'><img src='/class-icons/nova/angelic-buster/affinity-heart-iv.png' alt='Skill Affinity Heart IV'/></span> -> <span data-tooltip='Soul Seeker Expert'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> -> <span data-tooltip='Celestial Roar'><img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/></span> -> <span data-tooltip='Nova Warrior'><img src='/class-icons/nova/angelic-buster/nova-warrior.png' alt='Skill Nova Warrior'/></span> -> <span data-tooltip='Star Gazer'><img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/></span> -> <span data-tooltip='Trinity'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> -> <span data-tooltip='Soul Resonance'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span> -> <span data-tooltip='Finale Ribbon'><img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/></span> -> <span data-tooltip='Nova Temperance'><img src='/class-icons/nova/nova-temperance.png' alt='Skill Nova Temperance'/></span>"]
             ],
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -58,76 +62,105 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/nova/angelic-buster/soul-seeker-make-up.png' alt='Skill Soul Seeker - Make Up'/> Soul Seeker – Make Up</li><li><img src='/class-icons/nova/angelic-buster/soul-seeker-reinforce.png' alt='Skill Soul Seeker - Reinforce'/> Soul Seeker – Reinforce OR <img src='/class-icons/nova/angelic-buster/piercing-soul-seeker.png' alt='Skill Piercing Soul Seeker'/> Piercing Soul Seeker</li><li><img src='/class-icons/nova/angelic-buster/finale-ribbon-cooldown-cutter.png' alt='Skill Finale Ribbon - Cooldown Cutter'/> Finale Ribbon – Cooldown Cutter</li><li><img src='/class-icons/nova/angelic-buster/trinity-extra-strike.png' alt='Skill Trinity-Extra Strike'/> Trinity – Extra Strike</li><li><img src='/class-icons/nova/angelic-buster/trinity-reinforce.png' alt='Skill Trinity-Reinforce'/> Trinity – Reinforce OR <img src='/class-icons/nova/angelic-buster/piercing-trinity.png' alt='Skill Piercing Trinity'/> Piercing Trinity<ul><li>Go for extra %Ignore DEF if you need more (min. 90% IED)</li></ul></li></ul>" 
+            "recommended": "<ul><li><img src='/class-icons/nova/angelic-buster/soul-seeker-reinforce.png' alt='Skill Soul Seeker - Reinforce'/> <img src='/class-icons/nova/angelic-buster/soul-seeker-make-up.png' alt='Skill Soul Seeker - Make Up'/> Soul Seeker – Reinforce and Make Up</li><li><img src='/class-icons/nova/angelic-buster/finale-ribbon-cooldown-cutter.png' alt='Skill Finale Ribbon - Armorbreak'/> Finale Ribbon – Armorbreak</li><li><img src='/class-icons/nova/angelic-buster/trinity-reinforce.png' alt='Skill Trinity-Reinforce'/> <img src='/class-icons/nova/angelic-buster/trinity-extra-strike.png' alt='Skill Trinity-Extra Strike'/> Trinity – Reinforce and Extra Strike</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Trinity and Trinity Fusion (4th Job / 5th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> <span data-tooltip='Supreme Supernova (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/></span> <span data-tooltip='Soul Seeker and Soul Seeker Expert (3rd Job / 4th Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Celestial Roar (4th Job)'><img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/></span> <span data-tooltip='Soul Resonance (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span> <span data-tooltip='Finale Ribbon (4th Job)'><img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Soul Buster (1st Job)'><img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/></span> <span data-tooltip='Star Bubble (1st Job)'><img src='/class-icons/nova/angelic-buster/star-bubble.png' alt='Skill Star Bubble'/></span> <span data-tooltip='Lovely Sting (2nd Job)'><img src='/class-icons/nova/angelic-buster/lovely-sting.png' alt='Skill Lovely Sting'/></span> <span data-tooltip='Pink Pummel (2nd Job)'><img src='/class-icons/nova/angelic-buster/pink-pummel.png' alt='Skill Pink Pummel'/></span> <span data-tooltip='Soul Seeker and Soul Seeker Expert (3rd Job / 4th Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span> <span data-tooltip='Shining Star Burst (3rd Job)'><img src='/class-icons/nova/angelic-buster/shining-star-burst.png' alt='Skill Shining Star Burst'/></span> <span data-tooltip='Heavenly Crash (3rd Job)'><img src='/class-icons/nova/angelic-buster/heavenly-crash.png' alt='Skill Heavenly Crash'/></span> <span data-tooltip='Celestial Roar (4th Job)'><img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/></span> <span data-tooltip='Trinity and Trinity Fusion (4th Job / 5th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> <span data-tooltip='Finale Ribbon (4th Job)'><img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/></span> <span data-tooltip='Soul Resonance (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span> <span data-tooltip='Supreme Supernova (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/></span>"
+            "recommended": "<h6>Bossing Trio</h6><div><span data-tooltip='Trinity and Trinity Fusion (4th Job / 5th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> <span data-tooltip='Supreme Supernova (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/></span> <span data-tooltip='Soul Seeker and Soul Seeker Expert (3rd Job / 4th Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span></div><h6>Mobbing Trio</h6><div><span data-tooltip='Celestial Roar (4th Job)'><img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/></span> <span data-tooltip='Soul Resonance (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span> <span data-tooltip='Finale Ribbon (4th Job)'><img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/></span></div><ul><li>Either categories can be maxed first based on if you prioritize bossing or mobbing</li><li>Any combination of these skills are good but preferred from same category so that the skills boosted match your priorities</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
+            "possible": "<span data-tooltip='Soul Buster (1st Job)'><img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/></span> <span data-tooltip='Star Bubble (1st Job)'><img src='/class-icons/nova/angelic-buster/star-bubble.png' alt='Skill Star Bubble'/></span> <span data-tooltip='Lovely Sting (2nd Job)'><img src='/class-icons/nova/angelic-buster/lovely-sting.png' alt='Skill Lovely Sting'/></span> <span data-tooltip='Pink Pummel (2nd Job)'><img src='/class-icons/nova/angelic-buster/pink-pummel.png' alt='Skill Pink Pummel'/></span> <span data-tooltip='Soul Seeker and Soul Seeker Expert (3rd Job / 4th Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span> <span data-tooltip='Star Crash (3rd Job)'><img src='/class-icons/nova/angelic-buster/star-crash.png' alt='Skill Star Crash'/></span> <span data-tooltip='Celestial Roar (4th Job)'><img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/></span> <span data-tooltip='Trinity and Trinity Fusion (4th Job / 5th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> <span data-tooltip='Finale Ribbon (4th Job)'><img src='/class-icons/nova/angelic-buster/finale-ribbon.png' alt='Skill Finale Ribbon'/></span> <span data-tooltip='Soul Resonance (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-resonance.png' alt='Skill Soul Resonance'/></span> <span data-tooltip='Supreme Supernova (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/supreme-supernova.png' alt='Skill Supreme Supernova'/></span>"
         },
         "moreInfo": [
-            "https://maplestorywiki.net/w/Angelic_Buster"
+            "https://maplestorywiki.net/w/Angelic_Buster",
+            "discord.gg/angelicbuster"
         ],
+        "infographics": [
+            {
+                "src": "angelic-buster-overview.png",
+                "title": "Overview"
+            },
+            {
+                "src": "angelic-buster-6th-job.png",
+                "title": "6th Job"
+            }
+        ],
+        "specialThanks": "Special thanks to the members of the Angelic Buster Discord for their help in making this overview!",
+        "discord": "discord.gg/angelicbuster",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
-            ["Hyper Passive Build", "Stupid_Otaku"],
-            ["Boost Nodes Build + Inner Ability","Maple Central"],
-            ["5th Job Skills Animations", "KyoWantsCute"]
-        ],
-        "extraContent": {
-            "title": "Soul Battery Recharge",
-            "content": "<p><img class='extra-content-image' src='/class-icons/nova/angelic-buster/soul-recharge-system.png' alt='/class-icons/nova/angelic-buster/soul-recharge-system.png'/></p><p>Angelic Busters skills do not use any MP and does not have a MP resource. Angelic Buster instead has a special resource called Soul Battery that some skills require you to charge to use. Your Soul Battery can be recharged by attacking enemies</p><p>As you level up and gain new skills, you upgrade a skill called <img src='/class-icons/nova/angelic-buster/affinity-heart-i.png' alt='Skill Affinity Heart I'/> Affinity Heart. As you upgrade this skill, the chance for your battery to recharge will be higher until eventually you won't need to worry about it at all</p>"
-        }
+            ["Infographic", "TQ"],
+            ["6th Job Infographic", "Rai, Aux, and Boosty"],
+            ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Angelic Buster Discord"]
+        ]
     },
     "skill": {
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/exclusive-spell.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3l2bnFsZHB5NTBpazVhOXoydTV6ZG1veXoyZWg4M2I4Mzk2NWl3MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tscNOLiWIdLe5noi5i/giphy.gif"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/23/Pink_Power_Superstar' target='_blank' rel='noopener noreferrer'>'[Skill] Pink Power Superstar'</a>",
+                        "Affects all nearby players",
+                        "Has a cooldown (2 hrs)"
+                    ]
+                },
+                {
                     "name": "Soul Buster",
-                    "shortDesc": "Hold down attack key to attack continuously. Works while moving. Deal 60% damage to 3 enemies. 20% recharge success chance.",
+                    "shortDesc": "MP Cost: 2, Hold the attack key to fire Eskalade's power forward\\nCan be used while moving. Max Enemies Hit: 3, Damage: 60%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/soul-buster.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeThnZTI2bGZrbHQ1a29iMzg5OWM2OHd3aTNhenA0bDBkNXloa3Q3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pbpjLemsyfZHdDn68n/giphy.gif"],
                     "type": "Basic Attack Modifier",
-                    "desc": "Holding your Attack Key will fire homing bullets",
+                    "desc": "Holding the Attack Key fire bullets forward",
                     "details": [
                         "Can move while attacking"
                     ]
                 },
                 {
                     "name": "True Heart Inheritance",
-                    "shortDesc": "Additional Soul Shooter Mastery: +10%",
+                    "shortDesc": "Soul Shooter Mastery: +10%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/true-heart-inheritance.png"],
-                    "type": "Passive"
-                },
-                {
-                    "name": "Grappling Heart",
-                    "shortDesc": "Use to move to nearest the platform above you. Press jump while moving to cancel.",
-                    "maxLevel": 1,
-                    "icons": ["/class-icons/nova/angelic-buster/grappling-heart.png"],
-                    "type": "Active",
+                    "type": "Passive",
                     "desc": "",
+                    "reqLev": "Req. 200",
                     "details": [
-                        "Pressing the Jump Key while launching up will cancel the grapple early"
+                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/23/Pink_Power_Superstar' target='_blank' rel='noopener noreferrer'>'[Skill] Pink Power Superstar'</a>"
                     ]
                 },
                 {
-                    "name": "Terms and Condition",
-                    "shortDesc": "+120% skill damage for 10 sec when active\\nCooldown: 90 sec. Skill effects reduced to half when used with link skill.",
+                    "name": "Grappling Heart",
+                    "shortDesc": "Move to the nearest platform above you.\\nPress jump while moving to cancel.",
                     "maxLevel": 1,
+                    "icons": ["/class-icons/nova/angelic-buster/grappling-heart.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc21qMmwxb2xlY3Y4Y3A3ZzQzbjdybHhhcmZpajAwZHR5eGprb3R3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mkg8eqpV972fLqqCJN/giphy.gif"],
+                    "type": "Active",
+                    "desc": ""
+                },
+                {
+                    "name": "Terms and Condition",
+                    "shortDesc": "MP Cost: 30, Duration: 10 sec, Damage: +120%\\nEffect reduced to half when used as a link skill\\nCooldown: 60 sec",
+                    "maxLevel": 3,
                     "icons": ["/class-icons/link-skills/terms-and-conditions.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2FpazZzMThldDc1YmlkajZsczRwbGU2bjAzZXRtY3MwMG9uanFiMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4oYSPbhHQI7U9Dg0P0/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "details": [
-                        "Angelic Buster gains a bigger damage increase compared to the linked version",
+                        "%Damage increase is halved for other characters when linked",
                         "Can be found in the <img src='/class-icons/link-skills/link-manager.png' alt='Skill Link Manager'/> Link Manager"
                     ]
                 },
                 {
                     "name": "Day Dreamer",
-                    "shortDesc": "Return to Angelic Buster's room when used.\\nCooldown: 600 sec",
+                    "shortDesc": "MP Cost: 30, Return to the Lovely Buster Suite\\nCooldown: 600 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/day-dreamer.png"],
-                    "animations": ["https://media4.giphy.com/media/tUjzmJHEaVjS4xi3GS/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2h2ZGh1OHJtbGJkdHJ4MGkyem9odTJqeDZyYmFndW1qNmZubTRvYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fkAWr2naT2JDe2OgQV/giphy.gif"],
                     "type": "Active",
                     "desc": "",
                     "details": [
@@ -136,10 +169,10 @@
                 },
                 {
                     "name": "Dress-up",
-                    "shortDesc": "Use this skill to alter pre-transformation and post-transformation appearances.",
+                    "shortDesc": "MP Cost: 20, Transform into Angelic Buster\\nWhen used as Angelic Buster, transform back into Tear.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/dress-up.png"],
-                    "animations": ["https://media2.giphy.com/media/ZMtHIKR4lXVBFmUqki/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamtyZXk2aTJ0bHB5bWVrb3BwNjZrejhsZGwyc245cG4zenp1OXpyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UebgZkKpC1bFd1eJ3n/giphy.gif"],
                     "type": "Active Transform",
                     "desc": "Switches between your normal form and transformed form",
                     "details": [
@@ -147,18 +180,15 @@
                     ]
                 },
                 {
-                    "name": "Exclusive Spell",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "name": "On Stage",
+                    "shortDesc": "MP Cost: 100, plays up to 5 tracks from Angelic Buster's album\\nMovement ends the concert, only usable in town\\nCooldown: 1 hour",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/nova/exclusive-spell.png"],
-                    "animations": ["https://media2.giphy.com/media/R0UHlI4FfAdRSmzRtL/giphy.gif"],
-                    "type": "Buff",
+                    "icons": ["/class-icons/nova/angelic-buster/on-stage.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnJoeWF4MzBpYTY5Y2ZzN3BhOGEwYzR4NmJlNTd1a2d4N2o4ODcxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ljw7bKlUVB6cncGgmd/giphy.gif"],
+                    "type": "Active",
                     "desc": "",
-                    "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/23/Pink_Power_Superstar' target='_blank' rel='noopener noreferrer'>'Pink Power Superstar'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "To obtain this skill, complete the quest '[Skill] On Stage'"
                     ]
                 }]
             ],
@@ -166,19 +196,19 @@
                 "1st Job", [
                     {
                         "name": "Star Bubble",
-                        "shortDesc": "Enemies Hit: 6, Damage: 500%, Number of Attacks: 1. Soul Battery Skill. Recharge Chance: 70%",
+                        "shortDesc": "MP Cost: 6, Max enemies Hit: 8, Damage: 165%, Number of Attacks: 3",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/star-bubble.png"],
-                        "animations": ["https://media3.giphy.com/media/rh9X5hvz0W8fzQoPHe/giphy.gif"],
-                        "type": "Soul Battery Attack",
-                        "desc": "Fires an explosive bubble forward"
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzEydzR1dzg4eWhjaWVvcmc0MnRycnY1bzFoaGdqbm52MXBjd3NrdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9cXXi79eDvtNiEhqFh/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a blast of bubbles forward"
                     },
                     {
                         "name": "Feather Hop",
-                        "shortDesc": "Jump distance will increase with level. Press Jump + directional key in air to jump again.",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/nova/angelic-buster/feather-hop.png"],
-                        "animations": ["https://media3.giphy.com/media/VfKpaxOzCWA4SQJ5GE/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmRwc3p4Zzd0YWZpNDM0M2MzbGMyYWtpaGhzNnR6M3owaGViMzRpcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/17kPflNvXxIZ6CNp4v/giphy.gif"],
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
@@ -188,16 +218,16 @@
                     },
                     {
                         "name": "Melody Cross",
-                        "shortDesc": "Attack Speed: +2, Max HP: +2500",
+                        "shortDesc": "Max HP: +2500, Max MP: +2000, Attack Speed: +2",
                         "maxLevel": 15,
                         "icons": ["/class-icons/nova/angelic-buster/melody-cross.png"],
                         "type": "Passive"
                     },
                     {
-                        "name": "Affinity Heart I",
-                        "shortDesc": "Recharge Rate: +30%, Speed: +40, Jump: +20, Speed Limit: +25",
+                        "name": "Affinity Heart",
+                        "shortDesc": "Speed: +40, Max Speed: +25, Jump: +20",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/nova/angelic-buster/affinity-heart-i.png"],
+                        "icons": ["/class-icons/nova/angelic-buster/affinity-heart.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -205,32 +235,21 @@
                 "2nd Job", [
                     {
                         "name": "Lovely Sting",
-                        "shortDesc": "Enemies Hit: 8, Damage: 600%, Number of Attacks: 1. You can detonate the debuff on enemies afterwards. Soul Battery skill. Recharge Chance: 50%",
+                        "shortDesc": "MP Cost: 15, Max Enemies Hit: 8, Damage: 160%, Number of Attacks: 4",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/lovely-sting.png"],
-                        "animations": ["https://media3.giphy.com/media/4VGLp0jYbgZoi3zyeu/giphy.gif"],
-                        "type": "Soul Battery Attack",
-                        "desc": "Fires a piercing beam that inflicts a debuff",
-                        "details": [
-                            "<strong>[Debuff]</strong>: Pressing the Skill Key again detonates the debuff and damages the enemy"
-                        ]
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhtZ3A2NW4wZGk5dzUxdzQydzR6anE3eWZiMW9qM3Uyb2hsbWttayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1VwmTCe8x1Y9rTpgr2/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Fires a piercing beam forward"
                     },
                     {
                         "name": "Pink Pummel",
-                        "shortDesc": "Enemies Hit: 12, Damage: 480%, Number of Attacks: 1. Recharge Chance: 20%",
+                        "shortDesc": "MP Cost: 11, Max Enemies Hit: 12, Damage: 125%, Number of Attacks: 4 while moving",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/pink-pummel.png"],
-                        "animations": ["https://media1.giphy.com/media/tY3GBd2akIkcvIag6U/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnoyaDZsamUweDA1M2toNGJ1ZDl0a3Nsd2toeXhrbGg0ZGI5c2R4cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g9Oc3KrCDCNhfueueG/giphy.gif"],
                         "type": "Attack",
                         "desc": "Dashes forward while pushing back enemies"
-                    },
-                    {
-                        "name": "Power Transfer",
-                        "shortDesc": "Duration: 180. Convert 1% of damage dealt into a protective shield that decreases Damage by 50%.\\nCreates a protective shield with a value of 1000 upon casting. The max value of the shield is equal to your Max HP, but it cannot exceed 99999.",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/nova/angelic-buster/power-transfer.png"],
-                        "animations": ["https://media4.giphy.com/media/aqslRNd7mdBJFqNV83/giphy.gif"],
-                        "type": "Buff"
                     },
                     {
                         "name": "Soul Shooter Mastery",
@@ -241,179 +260,172 @@
                     },
                     {
                         "name": "Beautiful Soul",
-                        "shortDesc": "Permanent +40 DEX",
-                        "maxLevel": 4,
+                        "shortDesc": "DEX: +40, Final Damage: +5%",
+                        "maxLevel": 14,
                         "icons": ["/class-icons/nova/angelic-buster/beautiful-soul.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Affinity Heart II",
-                        "shortDesc": "Every 10 enemies KO'd gives you a 100% chance to recharge. Abnormal Status Resistance: +40, Elemental Resistance: +40%.",
+                        "shortDesc": "Abnormal Status Resistance: +40, Elemental Resistance: +40%, Damage: +10%, Critical Rate: +25%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/affinity-heart-ii.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Power Transfer",
+                        "shortDesc": "Damage Taken: -50%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/angelic-buster/power-transfer.png"],
                         "type": "Passive"
                     }]
                 ],
                 [
                 "3rd Job", [{
                         "name": "Soul Seeker",
-                        "shortDesc": "Summons 2 spirits to randomly attack 2 mobs in range. Each spirit will deal 320% damage 1 times. 85% chance to recreate spirit and attacks up to 7 time(s). Soul Battery skill. Recharge Chance: 30%",
+                        "shortDesc": "MP Cost: 19, Number of Essences: 2\\nEssence Damage: 320%, Number of Attacks: 1 until the max attack count is reached or it disappears\\nChance for Essence to Respawn on Hit: 85%, Number of Attacks: 7",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/soul-seeker.png"],
-                        "animations": ["https://media1.giphy.com/media/XRRMgf25Hvcz9Iubqk/giphy.gif"],
-                        "type": "Soul Battery Attack",
-                        "desc": "Throws out orbs that seek out and attack nearby enemies",
-                        "details": [
-                            "After hitting an enemy, there is a chance to create another Soul Seeker at its location",
-                            "Prioritizes bosses with the highest HP first",
-                            "Ignores by Damage Reflect"
-                        ]
-                    },
-                    {
-                        "name": "Shining Star Burst",
-                        "shortDesc": "Mobs Hit: 8, Damage: 780%, Number of Attacks: 1. Damage dealt against enemies launched by Heavenly Crash doubled. Soul Battery skill. Recharge Chance: 40%",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/nova/angelic-buster/shining-star-burst.png"],
-                        "animations": ["https://media4.giphy.com/media/QvDf9OYxyufrkS9YUs/giphy.gif"],
-                        "type": "Soul Battery Attack",
-                        "desc": "Blades strike down from above onto enemies in front of you",
-                        "details": [
-                            "Enemies launched by <span data-tooltip='Heavenly Crash (3rd Job)'><img src='/class-icons/nova/angelic-buster/heavenly-crash.png' alt='Skill Heavenly Crash'/></span> will take extra damage"
-                        ]
-                    },
-                    {
-                        "name": "Heavenly Crash",
-                        "shortDesc": "Mobs Hit: 8, Damage: 760%, Number of Attacks: 1. Attacked mobs lifted upwards. Recharge Chance: 20%",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/nova/angelic-buster/heavenly-crash.png"],
-                        "animations": ["https://media0.giphy.com/media/RrC8r9rmRCIUE5tfVo/giphy.gif"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2JiZXZveWUwcjdtM3N1ZWdoMG5yYjRpdWU1M2tsbHFxenZuYWRmeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VegUQUr5SUdMirMfXp/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Smashes a hammer creating a shockwave that launches enemies into the air"
+                        "desc": "Throw orbs that seek out and attack nearby enemies",
+                        "details": [
+                            "After hitting an enemy, there is a chance to create another Soul Seeker at its location (up to 7 times)",
+                            "Prioritizes bosses with the highest HP first",
+                            "Unaffected by Damage Reflect"
+                        ]
                     },
                     {
-                        "name": "Iron Blossom",
-                        "shortDesc": "Knockback Resistance: +40%, DEX: +20",
+                        "name": "Star Crash",
+                        "shortDesc": "MP Cost: 21, Max Enemies Hit: 8, Damage: 185%, Number of Attacks: 5",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/nova/angelic-buster/iron-blossom.png"],
+                        "icons": ["/class-icons/nova/angelic-buster/star-crash.png"],
+                        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWdjYjR6bWd0bTFjcjBmZmw0ZTk2eGNocDNxYzBvcGh1NjFwNWt0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tYUzwfJBUobVrj3JkQ/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Blades strike down from above onto enemies in front of you"
+                    },
+                    {
+                        "name": "Blossoming Star",
+                        "shortDesc": "Knockback Resistance: +40%, DEX: +20, Final Damage: +14%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/angelic-buster/blossoming-star.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Dragon Whistle",
-                        "shortDesc": "Attack +40",
+                        "shortDesc": "Attack +40, Ignore Defense: +16%, Critical Damage: +6%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/dragon-whistle.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Love Me Heart",
-                        "shortDesc": "Max HP: +1000, DEF: +1000, Knockback Resistance: +60%",
+                        "shortDesc": "Max HP: +1000, Max MP: +1000, DEF: +1000, Knockback Resistance: +60%",
                         "maxLevel": 4,
                         "icons": ["/class-icons/nova/angelic-buster/love-me-heart.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Affinity Heart III",
-                        "shortDesc": "+100% Recharge chance when Recharge fails twice in a row. Dex: +40, Damage: +20%",
+                        "shortDesc": "DEX: +40, Damage: +10%, Final Damage: +10%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/affinity-heart-iii.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Center Stage",
+                        "shortDesc": "Critical Rate: +10%, Critical Damage: +15%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/nova/angelic-buster/center-stage.png"],
                         "type": "Passive"
                     }]
                 ],
                 [
                 "4th Job", [{
                     "name": "Celestial Roar",
-                    "shortDesc": "Mobs Hit: 8, Damage: 580%, Number of Attacks: 4, Stun Chance: 90%, Stun Duration: 3 sec. Soul Battery skill. Recharge Chance: 40%",
+                    "shortDesc": "MP Cost: 21, Max Enemies Hit: 8, Damage: 580%, Number of Attacks: 4\\nStun Chance: 90%, Stun Duration: 3 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/celestial-roar.png"],
-                    "animations": ["https://media2.giphy.com/media/TA8na3YA0lTG33IcMn/giphy.gif"],
-                    "type": "Soul Battery Attack",
-                    "desc": "Fires shockwave forward that has a chance to stun enemies"
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3d0NDNhZHN0ZGxzd2VkMGNlc2V6a3YwM3l5MzhudHduamdpMzQzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AtnaQPR8a6XquijNXN/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Fires a shockwave forward that has a chance to stun enemies"
                 },
                 {
                     "name": "Trinity",
-                    "shortDesc": "Max Enemies Hit: 3, Damage: 630%, Number of Hits: 6. +15% Trinity and Trinity Fusion increase Damage and DEF Ignore on hit. Stacks up to 2 times. Soul Battery skill. Recharge Chance: 50%.\\n[Passive Effect] Final Damage: +25%, Enemy DEF Ignore: +15%",
+                    "shortDesc": "MP Cost: 23, Max Enemies Hit: 3, Damage: 630%, Number of Attacks: 6\\nTrinity/Trinity Fusion Damage and Ignore Defense: +15%, Duration: 30 sec, Max Stacks: 2",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/trinity.png"],
-                    "animations": ["https://media.giphy.com/media/O0cSSYRVeE0IlbJqUb/giphy.gif"],
-                    "type": "Soul Battery Attack",
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDI1MXpranhwcXg3a3l4dzE0aXp2eXRwYjA1cGF6bzZvOTFianlzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9EFQPYbk0qFanpB0O6/giphy.gif"],
+                    "type": "Attack",
                     "desc": "Unleashes a barrage of strikes forward",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Final Damage and %Ignore DEF",
-                        "Upon successful hits, increases the stacking %Damage and %Ignore DEF increase to Trinity (up to 2 stacks)"
+                        "Upon successful hits, grants a stacking buff that increases Trinity's (including enhanced 5th Job version) %Damage and %Ignore DEF (up to 2 stacks)"
                     ]
                 },
                 {
                     "name": "Finale Ribbon",
-                    "shortDesc": "Mobs Hit: 10, Damage: 400%, Number of Attacks: 10. Creates debuff that has Duration: 60 sec, Angelic Buster's Final Damage: +25%, Party Members with All Other Jobs' Damage: +20%\\nCooldown: 40 sec, Recharge Chance: 50%",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 10, Damage: 400%, Number of Attacks: 10\\nDamage Over Time: 30%, Damage Duration: 60 sec, Damage Interval: 1 sec, Party Member Damage (Excluding Angelic Buster): +20%\\nCooldown: 40 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/finale-ribbon.png"],
-                    "animations": ["https://media0.giphy.com/media/nGdWGYwyG1oZ8w2k5M/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnlzandxZnczNXBzODUyYWJuZTdqN24xeG1hcXkyZGp1NTA3NndkayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9AAlLwAK9NsqGAsHNT/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Swings ribbons that create a gigantic attack that debuffs enemies",
+                    "desc": "Swings ribbons that form a gigantic attack that debuffs enemies",
                     "details": [
-                        "<strong>[Debuff]</strong>: Enemy takes increased %Final Damage from Angelic Buster and increased %Damage for your party members"
+                        "<strong>[Debuff]</strong>: Enemy takes damage over time and receives increased %Damage from party members (excluding Angelic Buster)"
+                    ]
+                },
+                {
+                    "name": "Soul Seeker Expert",
+                    "shortDesc": "35% chance to create Soul Seeker when using Angelic Buster skills (excluding Soul Buster, Soul Seeker, and Superstar Spotlight)\\nCelestial Roar and Trinity Creation Chance: +25%\\nAutomatically created Soul Seekers deal 75% damage of directly craeted Soul Seekers",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/nova/angelic-buster/soul-seeker-expert.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjVyb3oxNjZkZjJobG9pbzhjZ29qazBoeHgzMjZweDYycWc4M2ptcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xrG8sN4RUmPoHwXTty/giphy.gif"],
+                    "type": "Toggle Attack",
+                    "desc": "While toggled, successful attacks have a chance to activate <span data-tooltip='Soul Seeker (3rd Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span> Soul Seekers",
+                    "details": [
+                        "Deals reduced %Final Damage compared to manually using <span data-tooltip='Soul Seeker (3rd Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span>",
+                        "<span data-tooltip='Celestial Roar (4th Job)'><img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/></span> or <span data-tooltip='Trinity (4th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> have an increased chance to create Soul Seekers",
+                        "<span data-tooltip='Soul Buster (Beginner Skill)'><img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/></span>, <span data-tooltip='Soul Seeker (3rd Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span>, and <span data-tooltip='Superstar Spotlight (5th Job)'><img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/></span> will not create Soul Seekers",
+                        "Prioritizes bosses with the highest HP first"
                     ]
                 },
                 {
                     "name": "Soul Resonance",
-                    "shortDesc": "This is a continous channeled skill. Invincibility Duration: 2 sec., Max Enemies Hit: 10, Damage: 146%, Number of Continuous Attacks: 5, Hold the skill key down to cast continously for up to 8 sec. Inflicts a final attack dealing up to 600% damage 5 times based on the time channeled. Boss Damage: +50%\\nWhile in use, any attacks that inflict damage proportional to Max HP will suffer a -35% penalty to damage.\\nCooldown: 60 sec.",
+                    "shortDesc": "MP Cost: 40, Invincibility Duration: 2 sec\\nHold down the key to continuously attack up to 10 enemies, for 145%, 5 times.\\nHold for at least 8 sec to make a final blow that deals up to 600% damage 5 times based on the time held. Boss Damage: +50%\\nWhile casting, any Max HP scaling damage taken is reduced by 35%.\\nCooldown: 60 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/soul-resonance.png"],
-                    "animations": ["https://media0.giphy.com/media/EJUrtg7y2v8034oNUR/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajQxb3gzaXh0NXphOGpwdDN1MGg5cnN3M2RwZWpzbHRuZG45NTAzaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OGuGbDP7BucKG5SWgJ/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Create a vortex that damages enemies within it",
+                    "desc": "While held, create a vortex that damages enemies within it",
                     "details": [
                         "Upon casting, you are briefly invincible",
-                        "At the end of the duration, unleash a massive explosion<ul><li>Based on how long the skill was held, the damage increases</li></ul>",
                         "While casting, take reduced damage (including %Max HP attacks) and you cannot be knocked back at all (Super Knockback Resistance)",
-                        "Deals increased %Damage to bosses and can be used in the air"
+                        "When the skill ends, deals an explosion that increases in damage based on how long the skill was held",
+                        "Deals increased %Damage to bosses"
                     ]
                 },
                 {
                     "name": "Star Gazer",
-                    "shortDesc": "Critical Damage: +45%, Duration: 180 sec",
+                    "shortDesc": "MP Cost: 50, Critical Damage: +20%, Duration: 180 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/star-gazer.png"],
-                    "animations": ["https://media0.giphy.com/media/cytoTqZ29R3HY8W5Lq/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHEzbGM2bmtiNjU0bzVkd2ltbG1yMG14amx0YnBrcXNiMjkyZnd6OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uiU5rBfApuJirZFBRE/giphy.gif"],
                     "type": "Buff"
                 },
                 {
-                    "name": "Soul Shooter Expert",
-                    "shortDesc": "Mastery: +70%, Attack Power: +30, Critical Rate: +30%, Critical Damage: +15%",
-                    "maxLevel": 30,
-                    "icons": ["/class-icons/nova/angelic-buster/soul-shooter-expert.png", "/class-icons/nova/angelic-buster/soul-shooter-mastery.png"],
-                    "type": "Upgraded Passive",
-                    "desc": "",
-                    "details": [
-                        "Increases %Weapon Mastery provided",
-                        "Now grants flat Attack and increases %Crit Rate and %Crit Damage"
-                    ]
-                },
-                {
-                    "name": "Affinity Heart IV",
-                    "shortDesc": "100% chance to reattempt Recharge again when it fails. 50% chance to increase damage by 30% for 5 seconds when Recharge is successful.",
-                    "maxLevel": 30,
-                    "icons": ["/class-icons/nova/angelic-buster/affinity-heart-iv.png"],
-                    "type": "Passive",
-                    "desc": "",
-                    "detail": [
-                        "Right-clicking the skill will toggle ON/OFF the Soul Battery UI"
-                    ]
-                },
-                {
                     "name": "Nova Warrior",
-                    "shortDesc": "Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec.",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/nova/nova-warrior.png"],
-                    "animations": ["https://media1.giphy.com/media/1bfqHJUqM2kiKH2XMb/giphy.gif"],
+                    "icons": ["/class-icons/nova/angelic-buster/nova-warrior.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjZlNmh2MjlmMXE1M2szMW56MTAxMHNoNjRyYXRvNW1mbTQ5aG1ycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5C2b4SLIOy54SULFNT/giphy.gif"],
                     "type": "Party Buff"
                 },
                 {
                     "name": "Nova Temperance",
-                    "shortDesc": "Cooldown: 300 sec",
+                    "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["/class-icons/nova/nova-temperance.png"],
-                    "animations": ["https://media1.giphy.com/media/OubCLEOZUNkpBnvTJy/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG9jNG02cmdrdmNvYnppM2VvcWE1c2twdDBlc2N5NTR1amgyaWsxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jqGxEYInbazcXus5gN/giphy.gif"],
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
@@ -421,31 +433,32 @@
                     ]
                 },
                 {
-                    "name": "Soul Seeker Expert",
-                    "shortDesc": "35% chance to summon a Soul Seeker when attacking with an Angelic Buster skill (excludes Soul Buster and Soul Seeker skills).\\nWhen using Celestial Roar, activation rate +15%, when using Trinity, activation rate +25%.\\nFinal Damage will be only 75% of the damage a direct use of this skill would inflict.",
-                    "maxLevel": 10,
-                    "icons": ["/class-icons/nova/angelic-buster/soul-seeker-expert.png"],
-                    "type": "Toggle Attack",
-                    "desc": "While toggled, successful attacks have a chance to activate <span data-tooltip='Soul Seeker (3rd Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span>",
+                    "name": "Soul Shooter Expert",
+                    "shortDesc": "Soul Shooter Mastery: +70%\\nAttack Power: +30, Final Damage: +21%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/angelic-buster/soul-shooter-expert.png", "/class-icons/nova/angelic-buster/soul-shooter-mastery.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
                     "details": [
-                        "Deals reduced %Final Damage compared to using <span data-tooltip='Soul Seeker (3rd Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker.png' alt='Skill Soul Seeker'/></span> directly",
-                        "Using <span data-tooltip='Celestial Roar (4th Job)'><img src='/class-icons/nova/angelic-buster/celestial-roar.png' alt='Skill Celestial Roar'/></span> (+15%) or <span data-tooltip='Trinity (4th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> (+25%) have an increased chance to activate Soul Seeker Expert",
-                        "Summons and <span data-tooltip='Soul Buster (Beginner Skill)'><img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/></span> cannot trigger Soul Seeker Expert",
-                        "Prioritizes bosses with the highest HP first"
+                        "Increases %Weapon Mastery provided",
+                        "Now grants flat Attack and increases %Final Damage"
+                    ]
+                },
+                {
+                    "name": "Affinity Heart IV",
+                    "shortDesc": "Angelic Buster skill damage (excluding Soul Seeker Expert and Grand Finale: Cheering Balloons): +25%, Duration: 30 sec",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/nova/angelic-buster/affinity-heart-iv.png"],
+                    "type": "Passive",
+                    "desc": "Successful attacks (excluding <span data-tooltip='Soul Seeker Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/></span> and <span data-tooltip='Grand Finale (6th Job)'><img src='/class-icons/nova/angelic-buster/grand-finale.png' alt='Skill Grand Finale'/></span>- Cheering Balloons) grant a %Damage buff",
+                    "details": [
+                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
                     ]
                 }]
             ]
         ],
         "hyper":{
             "hyperPassive": [
-                {
-                    "name": "Soul Seeker - Reinforce",
-                    "shortDesc": "Damage +20%",
-                    "maxLevel": 1,
-                    "icons": ["/class-icons/nova/angelic-buster/soul-seeker-reinforce.png"],
-                    "type": "Passive",
-                    "reqLev": 140
-                },
                 {
                     "name": "Soul Seeker - Make Up",
                     "shortDesc": "Recreation chance +10%",
@@ -455,8 +468,16 @@
                     "reqLev": 150
                 },
                 {
+                    "name": "Soul Seeker - Reinforce",
+                    "shortDesc": "Damage +20%",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/nova/angelic-buster/soul-seeker-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
                     "name": "Piercing Soul Seeker",
-                    "shortDesc": "Bonus DEF ignored: 10%",
+                    "shortDesc": "Ignore Defense: +10%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/piercing-soul-seeker.png"],
                     "type": "Passive",
@@ -472,10 +493,11 @@
                 },
                 {
                     "name": "Finale Ribbon - Armorbreak",
-                    "shortDesc": "DEF Ignored: +15%",
+                    "shortDesc": "Ignore Defense: +15%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/finale-ribbon-armorbreak.png"],
                     "type": "Passive",
+                    "desc": "Permanently increases %Ignore DEF for all skills",
                     "reqLev": 165
                 },
                 {
@@ -492,14 +514,16 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/trinity-reinforce.png"],
                     "type": "Passive",
+                    "desc": "Applies to <span data-tooltip='Trinity (4th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> and <span data-tooltip='Trinity Fusion (4th Job)'><img src='/class-icons/nova/angelic-buster/trinity-fusion.png' alt='Skill Trinity Fusion'/></span>",
                     "reqLev": 150
                 },
                 {
                     "name": "Piercing Trinity",
-                    "shortDesc": "Bonus DEF ignored: 20%",
+                    "shortDesc": "Ignore Defense: +20%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/piercing-trinity.png"],
                     "type": "Passive",
+                    "desc": "Applies to <span data-tooltip='Trinity (4th Job)'><img src='/class-icons/nova/angelic-buster/trinity.png' alt='Skill Trinity'/></span> and <span data-tooltip='Trinity Fusion (4th Job)'><img src='/class-icons/nova/angelic-buster/trinity-fusion.png' alt='Skill Trinity Fusion'/></span>",
                     "reqLev": 165
                 },
                 {
@@ -514,21 +538,26 @@
             "hyperActive": [
                 {
                     "name": "Pretty Exaltation",
-                    "shortDesc": "Duration: 30 sec, Enemy DEF Ignored: 30%, Damage upon attacking Boss Monster: 20%, Chance to trigger Soul Seeker Expert: +15%\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 100, Final Damage: +5%, Duration: 20 sec\\nChance to Create Soul Seeker Expert: 15%, Chance to Respawn Soul: 5%, Number of Soul Seekers Created: +2\\nSoul Seeker Final Damage: -45%, multiplied with Soul Seeker Expert's Final Damage reduction effect\\nCooldown: 60 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/pretty-exaltation.png"],
-                    "animations": ["https://media1.giphy.com/media/R0bmwODahkNwbLyJGS/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWduZWc3dXJ0dXZuZGZueDBhZG1pa3Q1djR1cW1oY3BzZ2pjZmkyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IfGVe8n5PEpVWmijFI/giphy.gif"],
                     "type": "Buff",
+                    "desc": "Increases %Final Damage and enhances <span data-tooltip='Soul Seeker Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-seeker-expert.png' alt='Skill Soul Seeker Expert'/></span>",
+                    "details": [
+                        "While active, increases the number of Soul Seekers created, the chance to create and recreate but, further reduces the %Final Damage penalty (multiplicative)",
+                        "Unaffected by Damage Reflect"
+                    ],
                     "reqLev": 140
                 },
                 {
                     "name": "Supreme Supernova",
-                    "shortDesc": "Duration: 12 sec, Mobs Hit: 15, Damage: 600%, Number of Attacks: 3\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 100, Energy Orb Duration: 12 sec\\nEnergy Orb Max Enemies Hit: 15, Damage: 600%, Number of Attacks: 3\\nCooldown: 60 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/supreme-supernova.png"],
-                    "animations": ["https://media2.giphy.com/media/DlZlysIBBBJrzyxSzk/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWttcjdnMGNkOHVxZDcyZXFnZm0wbDI1MTU4cWFsdGYxcWw0YTRweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ii0FDV2TGWbQaN5EoL/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Creates a giant supernova that damages enemies within it",
+                    "desc": "Creates an energy orb that damages enemies within it",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ],
@@ -536,10 +565,10 @@
                 },
                 {
                     "name": "Final Contract",
-                    "shortDesc": "Duration: 30 sec, Attack Power: 50, Critical Rate: 30%. Status Resistance: +100%, Elemental Resistance +100%\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 150, Duration: 30 sec\\nAttack Power: +50, Damage: +10%, Ignore Defense: +30%, Boss Damage: +20%, Critical Rate: +30%\\nAbnormal Status Resistance: +100, Elemental Resistance: +100%\\nCooldown: 120 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/final-contract.png"],
-                    "animations": ["https://media0.giphy.com/media/e8epjVU09WGxc8EzB1/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHNhZHllNnVvNnNuNDAzdmsyYzF0OTk4bHA1b20yeHg5ZTJ5NHptOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b0RHe7GwQBTy0uJsEY/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
                 }
@@ -550,47 +579,47 @@
             "fifthMain": [
                 {
                     "name": "Sparkle Burst",
-                    "shortDesc": "Summons an orb that grants 6 sec of invincibility, the orb explodes 3 times after 30 sec or when used again, Max Enemies Hit: 15, Damage: 900%, Number of Attacks: 15.\\nAll attack skills except Soul Buster further enhance orb invincibility duration and powers, up to 2 stages, with each stage increasing the Final Damage by 100%, and the invincibility duration by 2 sec.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 600, Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 15 Love Explosions: 15\\nInvincible for 10 sec after 30 sec or when using the skill is used again.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/nova/angelic-buster/sparkle-burst.png"],
-                    "animations": ["https://media4.giphy.com/media/TF3PchDrHWarxQDY6l/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmI5MnRhb2xvOW4wbzVzNXVweHB6ZzYxZHRqeWJmNXUxZ3ZqbXA4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/34OzpYHS98yjvl0278/giphy-downsized-large.gif"],
                     "type": "Attack",
-                    "desc": "Creates an orb that grants brief invincibility when activated. At the end of the duration or when the Skill Key is pressed again, the orb explodes damaging nearby enemies",
+                    "desc": "Releases a blast of energy that attacks a wide area",
                     "details": [
-                        "All attacks except <span data-tooltip='Soul Buster (Beginner Skill)'><img src='/class-icons/nova/angelic-buster/soul-buster.png' alt='Skill Soul Buster'/></span> will charge the orb, increasing its %Final Damage and the invincibility duration (up to 2 stages)"
+                        "After 30 secs of casting or when the Skill Key is pressed again, grants invincibility for 10 sec"
                     ]
                 },
                 {
                     "name": "Superstar Spotlight",
-                    "shortDesc": "Installs 3 spotlights that shine on you for 30 sec. Each spotlight deals 800% damage 3 times to up to 15 enemies within its area.\\nWhile you are within the spotlight, you gain Status Resistance +25, Critical Rate +15%, and Final Damage +5%.\\nYou receive a separate bonus for each spotlight, up to 3 buffs. The Final Damage bonus is calculated cumulatively for each spotlight.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 600, Installs 3 spotlights that shine on you for 30 sec\\nWhile you are within the spotlight, you gain Status Resistance +75, Critical Rate +45%, and Final Damage +15%.\\nEach spotlight deals 1600% damage 3 times against up to 15 enemies within its area.\\nEach subsequent spotlight to hit the same enemy deals 75% less Final Damage.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/nova/angelic-buster/superstar-spotlight.png"],
-                    "animations": ["https://media0.giphy.com/media/tP3byNppXgJAsnabEI/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHIxZnYwN2V1dnhoZWRzMGZpNHg4Y3V3bmhkMTg0eWxkN2g1OHVrciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jeJb353LlNq9I3Rvzm/giphy-downsized-large.gif"],
                     "type": "Attack",
-                    "desc": "3 Spotlights appear on the screen, shining light at your location. The spotlights will deal damage to enemies inside it and provides a stacking buff if you are in it",
+                    "desc": "3 Spotlights appear that shine light at your location which damages enemies inside it and provides a buff if you are in it",
                     "details": [
-                        "If you are within the spotlight, you gain %Crit Rate, %Final Damage (additive), and Abnormal Status Resistance<ul><li>Each spotlight will grant the buff (stacking up to 3 times)</li></ul>",
-                        "Enemies can take damage from multiple spotlights",
+                        "When within the spotlight, gain %Crit Rate, %Final Damage (additive), and Abnormal Status Resistance",
+                        "Enemies damaged by multiple spotlights take reduced %Final Damage after the first",
                         "Right-clicking the skill will toggle ON/OFF the skill's background music",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Mighty Mascot",
-                    "shortDesc": "Duration: 35 sec. When successfully recharged, uses Twinkle Star or Magical Balloon. Max Enemies Hit: 6, Damage: 1200%, Number of Attacks: 5. Cannot be used in the middle of another action.\\nUse Twinkle Star or Magical Bubble, or acquire 1 Magical Bubble every 3 sec. Up to 8 can be held at a time.\\nUse the skill once more to cast Shiny Bubble Breath. Duration: 3 sec, Max Enemies Hit: 10, Damage: 500%, Number of Attacks: 8.\nAll Magical Bubbles will be consumed upon use of Shiny Bubble Breath. Duration is increased by 0.4 sec for every bubble. Can be used once while summoned. Skill ends only after all Bubbles are used up, even if the summon duration ends beforehand.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 450, Can be held for up to 1.8 sec\\nMax Enemies Hit: 15, Damage: 1400%, Number of Attacks: 5, Trigger 7 explosions that deals 1650% damage to up to 15 enemies 10 times after skill release.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of MAx HP will suffer a -40% damage penalty.\\nCooldown: 60 sec",
                     "icons": ["/class-icons/nova/angelic-buster/mighty-mascot.png"],
-                    "animations": ["https://media1.giphy.com/media/TOxQcjHUDrdrU3Mu5v/giphy.gif"],
-                    "type": "Summon",
-                    "desc": "When summoned, whenever your battery recharges, Mighty Mascot will attack",
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHptd2hyZ3pndWJ0OXA3bm5hdGRycWxqYjRvdGZ0bWh4OGpuN3J1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ot8Ro0uvVST4gp5ykj/giphy.gif"],
+                    "type": "Key-down attack",
+                    "desc": "While held, releases an energy beam forward",
                     "details": [
-                        "The attacks will generate a resource called 'Magical Bubbles' if they land (up to 8 at a time) and periodically every few seconds",
-                        "Pressing the Skill Key again will consume all Magical Bubbles to create a breath attack<ul><li>The duration of the attack is increased for each Magical Bubble consumed</li><li>The attack only ends after all the Magical Bubbles are consumed and will keep going even if the summon expires</li></ul>",
+                        "While casting, gain increased %Damage Reduction against %Max HP attacks and cannot be knocked back at all (Super Knockback Resistance)",
+                        "When the attack ends, deals an explosion attack",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Trinity Fusion",
-                    "shortDesc": "A dragon's enemy attacks 7 enemies, for 355% damage, 3 times. 9 attack(s) will occur in total.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of Max HP will suffer a -17% damage penalty.\\nCooldown: 14 sec\\n[Passive Effect: DEX +35]",
+                    "shortDesc": "MP Cost: 80, A dragon's enemy attacks 7 enemies, for 355% damage, 3 times. 9 attack(s) will occur in total.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of Max HP will suffer a -17% damage penalty.\\nCooldown: 14 sec\\n[Passive Effect: DEX +35]",
                     "icons": ["/class-icons/nova/angelic-buster/trinity-fusion.png"],
-                    "animations": ["https://media0.giphy.com/media/TGSafmzWKzRvBivmw9/giphy.gif"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHJia3FnMXV4MmloMWkwYWtldmFramVuZGJmcnJ5cno5dGR2ZmNueSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gB2N1pykK1cpUqCG1H/giphy.gif"],
                     "type": "Attack",
                     "desc": "Unleashes a powerful blast attack around you",
                     "details": [
@@ -605,7 +634,7 @@
             "masteryCore": [
                 {
                     "name": "HEXA Trinity",
-                    "shortDesc": "Max Enemies Hit: 4, Damage: 1020%, Number of Attacks: 6\\n+15% HEXA Trinity and Trinity Fusion Damage and DEF Ignore on hit.\\nIncrease buff stacked up to 2 times.\\nSoul Battery skill. Recharge Chance: 100%.",
+                    "shortDesc": "MP Cost: 30, Max Enemies Hit: 4, Damage: 1020%, Number of Attacks: 6\\nHEXA Trinity/Trinity Fusion Damage and Ignore Defense: +15%, Duration: 30 sec, Max Stacks:",
                     "icons": ["/class-icons/nova/angelic-buster/hexa-trinity.png", "/class-icons/nova/angelic-buster/trinity.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3BkM3ZvaWlzeG1rNHozZ21iZnd4bGwwM2dkaXI4cWh5eXUzZWJzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Uq3ZAf86qmNSXpYDiK/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -615,11 +644,14 @@
             "originSkill": [
                 {
                     "name": "Grand Finale",
-                    "shortDesc": "Invincible during casting, applies Affinity effect for 20 sec\\nMax Enemies Hit: 15, Damage: 4800%, Number of Attacks: 8, Sound Waves: 3. Afterwards, Damage: 7200%, Number of Attacks: 14, Cannon Roars: 7\\n25 Cheering Balloons soar at the concert's grand finale and target enemies.\\nAfter the concert ends, Soul Seeker changes to Cheering Balloons for 30 sec.\\nCheering Balloons - Damage: 680%. Has the same chance as Soul Seeker to regenerate upon hit, attacking up to 7 times.\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting, applies Affinity effect for 30 sec\\nMax Enemies Hit: 15, Damage: 694%, Number of Attacks: 9, Sound Waves: 12. Afterwards, Damage: 703%, Number of Attacks: 14, Cannon Roars: 38\\n25 Cheering Balloons at the finale target enemies.\\nAfterwards, Soul Seeker changes to Cheering Balloons for 30 sec.\\nCheering Balloons - Damage: 490%, while Cheering Balloons created while the buff is active deal 673% damage and attack 7 times, with the same chance to respawn upon hit as Soul Seekers. Each subsequent Cheering Balloon created while the buff is active that hits the same enemy deals 43% less Final Damage.\\nAdditional Cheering Balloons: 10, Cheering Balloons that fly in the finale only have Pretty Exaltation's increased respawn chance, and Soul Seekers that become Cheering Balloons have all of Pretty Exaltation's effects.\\nCooldown: 360 sec",
                     "icons": ["/class-icons/nova/angelic-buster/grand-finale.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmFuMW8zbG95MHF2cDh5OTZnMXBlZ2V2ZnBhaGV2bjhycDUyOGFxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D1t01lReKBobROczEr/giphy.gif"],
                     "type": "Bind Attack",
-                    "desc": ""
+                    "desc": "",
+                    "details": [
+                        "<strong>[Note]</strong>: The cutscene is still from pre-redux, click <a href='https://g.nexonstatic.com/media/0frn11dh/angelic-buster-redux-6th-skill-v2.mp4'>here</a> for an updated cutscene version but does not show the Cheering Balloons"
+                    ]
                 }
             ]
         },
@@ -627,37 +659,37 @@
             {
                 "name": "Soul Seeker - 3rd Job",
                 "icons": ["/class-icons/nova/angelic-buster/soul-seeker.png"],
-                "animations": ["https://media1.giphy.com/media/XRRMgf25Hvcz9Iubqk/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2JiZXZveWUwcjdtM3N1ZWdoMG5yYjRpdWU1M2tsbHFxenZuYWRmeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VegUQUr5SUdMirMfXp/giphy.gif"]
             },
             {
                 "name": "Celestial Roar - 4th Job",
                 "icons": ["/class-icons/nova/angelic-buster/celestial-roar.png"],
-                "animations": ["https://media2.giphy.com/media/TA8na3YA0lTG33IcMn/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3d0NDNhZHN0ZGxzd2VkMGNlc2V6a3YwM3l5MzhudHduamdpMzQzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AtnaQPR8a6XquijNXN/giphy.gif"]
             },
             {
                 "name": "Trinity - 4th Job",
                 "icons": ["/class-icons/nova/angelic-buster/trinity.png"],
-                "animations": ["https://media.giphy.com/media/O0cSSYRVeE0IlbJqUb/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDI1MXpranhwcXg3a3l4dzE0aXp2eXRwYjA1cGF6bzZvOTFianlzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9EFQPYbk0qFanpB0O6/giphy.gif"]
             },
             {
                 "name": "Supreme Supernova - Hyper Skill",
                 "icons": ["/class-icons/nova/angelic-buster/supreme-supernova.png"],
-                "animations": ["https://media2.giphy.com/media/DlZlysIBBBJrzyxSzk/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWttcjdnMGNkOHVxZDcyZXFnZm0wbDI1MTU4cWFsdGYxcWw0YTRweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ii0FDV2TGWbQaN5EoL/giphy.gif"]
             },
             {
                 "name": "Sparkle Burst - 5th Job",
                 "icons": ["/class-icons/nova/angelic-buster/sparkle-burst.png"],
-                "animations": ["https://media4.giphy.com/media/TF3PchDrHWarxQDY6l/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmI5MnRhb2xvOW4wbzVzNXVweHB6ZzYxZHRqeWJmNXUxZ3ZqbXA4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/34OzpYHS98yjvl0278/giphy-downsized-large.gif"]
             },
             {
                 "name": "Superstar Spotlight - 5th Job",
                 "icons": ["/class-icons/nova/angelic-buster/superstar-spotlight.png"],
-                "animations": ["https://media0.giphy.com/media/tP3byNppXgJAsnabEI/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHIxZnYwN2V1dnhoZWRzMGZpNHg4Y3V3bmhkMTg0eWxkN2g1OHVrciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jeJb353LlNq9I3Rvzm/giphy-downsized-large.gif"]
             },
             {
                 "name": "Mighty Mascot - 5th Job",
                 "icons": ["/class-icons/nova/angelic-buster/mighty-mascot.png"],
-                "animations": ["https://media1.giphy.com/media/TOxQcjHUDrdrU3Mu5v/giphy.gif"]
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHptd2hyZ3pndWJ0OXA3bm5hdGRycWxqYjRvdGZ0bWh4OGpuN3J1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ot8Ro0uvVST4gp5ykj/giphy.gif"]
             },
             {
                 "name": "HEXA Trinity - 6th Job",

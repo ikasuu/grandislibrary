@@ -14,13 +14,13 @@
         "innerAbility": [
             {
                 "name": "Preset 1",
-                "abilities": ["+1 Passive Skills", "Boss Damage +10%", "Damage to Debuffed +8%"]
+                "abilities": ["+1 Passive Skills", "Boss Damage +10%", "Damage to Abnormal Status +8%"]
             }
         ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [<span data-tooltip='Mechanic Mastery (2nd Job)'><img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/></span> +10%] [<span data-tooltip='Overclock (3rd Job)'><img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/></span> +20%] [<span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> +30% in tank form]",
+                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Mechanic Mastery (2nd Job)'><img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/></span> +15%] [<span data-tooltip='Overclock (3rd Job)'><img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/></span> +20%] [<span data-tooltip='Tank Mech (3rd Job)'><img src='/class-icons/resistance/mechanic/tank-mech.png' alt='Skill Tank Mech'/></span> +30% in tank form]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Mechanic Mastery (2nd Job)'><img src='/class-icons/resistance/mechanic/mechanic-mastery.png' alt='Skill Mechanic Mastery'/></span> +5%]",
                 "<strong>Damage</strong>: [<span data-tooltip='Hidden Peace (Beginner Skill)'><img src='/class-icons/resistance/mechanic/hidden-peace.png' alt='Skill Hidden Peace'/></span> +10%] [<span data-tooltip='Robot Mastery (4th Job)'><img src='/class-icons/resistance/mechanic/robot-mastery.png' alt='Skill Robot Mastery'/></span> +45%]",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Overclock (3rd Job)'><img src='/class-icons/resistance/mechanic/overclock.png' alt='Skill Overclock'/></span> +39%] [<span data-tooltip='Enhanced Support Unit (4th Job)'><img src='/class-icons/resistance/mechanic/enhanced-support-unit.png' alt='Skill Support Unit H-EX'/> +7% while nearby]</span>",
@@ -223,7 +223,7 @@
                     },
                     {
                         "name": "Homing Beacon",
-                        "shortDesc": "MP Cost: 65, Damage: 350%, Max Enemy Hit: 4 at once",
+                        "shortDesc": "MP Cost: 65, Damage: 210%, Max Enemy Hit: 4 at once",
                         "maxLevel": 15,
                         "icons": ["/class-icons/resistance/mechanic/homing-beacon.png"],
                         "animations": ["https://media1.giphy.com/media/j52DA25qU3ngm8MANl/giphy.gif"],
@@ -239,7 +239,7 @@
                     },
                     {
                         "name": "Mechanic Mastery",
-                        "shortDesc": "Attack Power: +20, Weapon Mastery: +50%, Critical Rate: +10%, Critical Damage: +5%",
+                        "shortDesc": "Attack Power: +20, Weapon Mastery: +50%, Critical Rate: +15%, Critical Damage: +5%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/resistance/mechanic/mechanic-mastery.png"],
                         "type": "Passive"
@@ -400,7 +400,7 @@
                     },
                     {
                         "name": "Advanced Homing Beacon",
-                        "shortDesc": "Homing Beacon Damage: +500%",
+                        "shortDesc": "Homing Beacon Damage: +300%",
                         "maxLevel": 15,
                         "icons": ["/class-icons/resistance/mechanic/advanced-homing-beacon.png", "/class-icons/resistance/mechanic/homing-beacon.png"],
                         "type": "Upgraded Passive",
@@ -754,7 +754,7 @@
             "originSkill": [
                 {
                     "name": "Ground Zero",
-                    "shortDesc": "MP Cost: 1800, invincible during casting\\nMax Enemies Hit: 15, Damage: 7800%, Number of Attacks: 7, Number of Earthquakes: 3, then Max Enemies Hit: 15, Damage: 13200%, Number of Attacks: 12, Number of Explosions: 6\\nMassive Bombardment - Duration: 30 sec, Max Enemies Hit: 15, Bombardment Damage: 5400%, Number of Attacks: 6\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1800, invincible during casting\\nMax Enemies Hit: 15, Damage: 2040%, Number of Attacks: 8, Number of Earthquakes: 10, then Max Enemies Hit: 15, Damage: 1980%, Number of Attacks: 15, Number of Explosions: 32\\nMassive Bombardment - Duration: 30 sec, Max Enemies Hit: 15, Bombardment Damage: 2888%, Number of Attacks: 15\\nCooldown: 360 sec",
                     "icons": ["/class-icons/resistance/mechanic/ground-zero.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Nhd3hhMXJ5MjVocWI1OHRqOXJ4d2IwcDJ4eXJ2cWNtcDQ3cGNobiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gEjS52c3RAYARgMWpl/giphy.gif"],
                     "type": "Bind Attack",

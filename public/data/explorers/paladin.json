@@ -14,14 +14,14 @@
         "innerAbility": [
             {
                 "name": "Preset 1",
-                "abilities": ["***First Line Options***", "Attack Speed +1 (for 2-H)", "Boss Damage 20% (for 1-H)", "***Second & Third Line Options***", "Crit Rate +20%", "Damage to Debuffed +8%", "Boss Damage +10% (for 2-H)", "Meso Obtained +15% (For Farming)"]
+                "abilities": ["***First Line Options***", "Attack Speed +1 (for 2-H)", "Boss Damage 20% (for 1-H)", "***Second & Third Line Options***", "Crit Rate +20%", "Damage to Abnormal Status +8%", "Boss Damage +10% (for 2-H)", "Meso Obtained +15% (For Farming)"]
             }
         ],
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders buff, and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [<span data-tooltip='High Paladin (4th Job)'><img src='/class-icons/explorers/paladin/high-paladin.png' alt='Skill High Paladin'/></span> +40%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='High Paladin (4th Job)'><img src='/class-icons/explorers/paladin/high-paladin.png' alt='Skill High Paladin'/></span> +15% & +6% / +5% depending on weapon equipped] ",
+                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='High Paladin (4th Job)'><img src='/class-icons/explorers/paladin/high-paladin.png' alt='Skill High Paladin'/></span> +40%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='High Paladin (4th Job)'><img src='/class-icons/explorers/paladin/high-paladin.png' alt='Skill High Paladin'/></span> +20% & +6% / +5% depending on weapon equipped] ",
                 "<strong>Damage</strong>: [<span data-tooltip='Greater Vessel of Light (4th Job)'><img src='/class-icons/explorers/paladin/greater-vessel-of-light.png' alt='Skill Greater Vessel of Light'/></span> up to 25%]",
                 "<strong>Final Damage</strong>: [<span data-tooltip='Divine Blessing (4th Job)'><img src='/class-icons/explorers/paladin/divine-blessing.png' alt='Skill Divine Blessing'/></span> +20%] [<span data-tooltip='High Paladin (4th Job)'><img src='/class-icons/explorers/paladin/high-paladin.png' alt='Skill High Paladin'/></span> +40%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Warrior Mastery (1st Job)'><img src='/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Knockback Resistance (2nd Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Knockback Resistance'/></span> +60%]",
@@ -53,8 +53,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+20-21%",
-                "detail": "[<span data-tooltip='High Paladin (4th Job)'><img src='/class-icons/explorers/paladin/high-paladin.png' alt='Skill High Paladin'/></span> +15% & (+6% if [1H] Sword is equipped) / (+5% if [2H] Sword or Blunt Weapon is equipped)]"
+                "stat": "+25-26%",
+                "detail": "[<span data-tooltip='High Paladin (4th Job)'><img src='/class-icons/explorers/paladin/high-paladin.png' alt='Skill High Paladin'/></span> +20% & (+6% if [1H] Sword is equipped) / (+5% if [2H] Sword or Blunt Weapon is equipped)]"
             },
             {
                 "name": "Damage",
@@ -555,7 +555,7 @@
                 },
                 {
                     "name": "High Paladin",
-                    "shortDesc": "Mastery: +70%, DEF: +400, Critical Rate: +40%, Critical Damage: +15%, DEF Ignored: +30%, Final Damage: +40%\\nCritical Damage +6% and Mastery +3% when equipped with a One-Handed Sword\\nCritical Damage +5% when equipped with a Two-Handed Sword\\nCritical Damage +5%, DEF Ignored +10%, and Mastery +3% when equipped with a One-Handed Blunt weapon\\nCritical Damage +5% and DEF Ignored +10% when equipped with a Two-Handed Blunt weapon",
+                    "shortDesc": "Mastery: +70%, DEF: +400, Critical Rate: +40%, Critical Damage: +20%, DEF Ignored: +30%, Final Damage: +40%\\nCritical Damage +6% and Mastery +3% when equipped with a One-Handed Sword\\nCritical Damage +5% when equipped with a Two-Handed Sword\\nCritical Damage +5%, DEF Ignored +10%, and Mastery +3% when equipped with a One-Handed Blunt weapon\\nCritical Damage +5% and DEF Ignored +10% when equipped with a Two-Handed Blunt weapon",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/paladin/high-paladin.png"],
                     "type": "Passive",
@@ -768,7 +768,7 @@
             "originSkill": [
                 {
                     "name": "Sacred Bastion",
-                    "shortDesc": "MP Cost: 1200, invincible during casting\\nShock Wave that attacks up to 15 enemies with 3600% damage 7 times is triggered 7 times, then Shock Wave that attacks with 3300% damage 12 times is triggered 5 times.\\nCreates a sanctuary for 30 seconds, activates Light of Judgment to attack up to 5 enemies with 1800% damage 6 times when Paladin attacks within the sanctuary, Light of Judgment marks Divine Brand on enemies, Cooldown: 0.5 seconds\\nSkill Cooldown: 360 seconds",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nShock Wave that attacks up to 15 enemies with 787% damage 9 times is triggered 28 times, then Shock Wave that attacks with 895% damage 14 times is triggered 17 times.\\nCreates a sanctuary for 30 seconds, activates Light of Judgment to attack up to 5 enemies with 1200% damage 13 times when Paladin attacks within the sanctuary, Light of Judgment marks Divine Brand on enemies, Cooldown: 0.5 seconds\\nSkill Cooldown: 360 seconds",
                     "icons": ["/class-icons/explorers/paladin/sacred-bastion.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGNvZzdjeXluMGp2bTJ4cGFocjA4a2dxN285NG9lZ2tmNmQ1d3Z3MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/383YQSllNNMHvvqaq1/giphy.gif"],
                     "type": "Bind Attack",
