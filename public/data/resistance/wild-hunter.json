@@ -321,7 +321,7 @@
                         "maxLevel": 1,
                         "icons": ["/class-icons/resistance/wild-hunter/dash-n-slash.png"],
                         "animations": ["https://media1.giphy.com/media/9vLGDmynzY5THW09dD/giphy.gif", "https://media3.giphy.com/media/3PZizCCDmo8IcgYPwb/giphy.gif"],
-                        "type": "Attack",
+                        "type": "Jaguar | Attack",
                         "desc": "Jaguar dashes forward pushing enemies and dealing damage to them. Also stuns and has a chance to apply a stack of 'Another Bite'",
                         "details": [
                             "<strong>[Passive]</strong>: Permanently increases the %Damage of <span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> and <span data-tooltip='Swipe (1st Job)'><img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/></span> by a flat amount",
@@ -826,19 +826,115 @@
         "sixth": {
             "masteryCore": [
                 {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-wild-arrow-blast.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <span data-tooltip='Wild Arrow Blast and Wild Arrow Blast Type P (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-arrow-blast.png' alt='Skill Wild Arrow Blast'/></span> enhanced with V Matrix above Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
                     "name": "HEXA Wild Arrow Blast",
                     "shortDesc": "MP Cost per attack: 16, Damage: 530% per shot. When casting, Speed: 140, Boss Damage: +15%\\nWild Nature: When Another Bite triggers, 100% chance to maintain for 30 sec. When at 50 stacks, firing speed of Wild Arrow Blast increases for 10 sec.",
                     "icons": ["/class-icons/resistance/wild-hunter/hexa-wild-arrow-blast.png", "/class-icons/resistance/wild-hunter/wild-arrow-blast.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2M1YXNlZ3I5dXo2MHphNG51YXRzNHB6czd0cmc1bDdycTAybjJ6ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W7cSP0eGwwcEQGp5So/giphy.gif"],
                     "type": "Unmounted | Upgraded Passive",
-                    "desc": ""
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
                 },
                 {
                     "name": "HEXA Wild Arrow Blast",
                     "shortDesc": "MP Cost per attack: 16. Fires a piercing arrow for each shot, Max Enemies Hit: 8, Damage: 345%, Number of Attacks: 2\\nGrenade - Damage: 415%, Number of Attacks: 4, then Max Enemies Hit: 10, Explosion Damage: 415%, Number of Explosions: 6, Normal Enemy Damage: +250% points, Cooldown: 1.2 sec",
                     "icons": ["/class-icons/resistance/wild-hunter/hexa-wild-arrow-blast.png", "/class-icons/resistance/wild-hunter/wild-arrow-blast.png"],
                     "type": "Mounted | Upgraded Passive",
-                    "desc": ""
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-jaguar.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <span data-tooltip='Swipe (1st Job)'><img src='/class-icons/resistance/wild-hunter/swipe.png' alt='Skill Swipe'/></span> <span data-tooltip='Dash &#39;n Slash and White Heat Rush (2nd Job / 3rd Job)'><img src='/class-icons/resistance/wild-hunter/dash-n-slash.png' alt='Skill Dash &#39n Slash'/></span> <span data-tooltip='Sonic Roar and Jaguar Soul (3rd Job / 4th Job)'><img src='/class-icons/resistance/wild-hunter/sonic-roar.png' alt='Skill Sonic Roar'/></span> <span data-tooltip='Exploding Arrows and Jaguar Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/exploding-arrows.png' alt='Skill Exploding Arrows'/></span> enhanced with V Matrix above Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Swipe",
+                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 8, Damage: 700%, Number of Attacks: 4\\nRecover 7% of Max HP upon hitting\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 30%\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-swipe.png", "/class-icons/resistance/wild-hunter/swipe.png"],
+                    "type": "Jaguar | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Wild Lure",
+                    "shortDesc": "MP Cost: 55, Taunt Duration: 30 sec, Max Enemies Hit: 10\\nCooldown: 20 sec",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-wild-lure.png", "/class-icons/resistance/wild-hunter/wild-lure.png"],
+                    "type": "Jaguar | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Dash 'n Slash",
+                    "shortDesc": "MP Cost: 49, Max Enemies Hit: 8, Damage: 735%, Number of Attacks: 2\\nStun Chance: 100%, Stun Duration: 3 sec\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 90%\\nCooldown: 7 sec\\n------Mounted------\\nMP Cost: 49, Max Enemies Hit: 8, Damage: 735%, Number of Attacks: 2\\nStun Chance: 100%, Stun Duration: 3 sec",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-dash-n-slash.png", "/class-icons/resistance/wild-hunter/dash-n-slash.png"],
+                    "type": "Jaguar | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Sonic Roar",
+                    "shortDesc": "MP Cost: 44, Max Enemies Hit: 8, Damage: 728%, Number of Attacks: 6\\nDebuff Chance when attacking an enemy without Another Bite Debuff: 100%, Bonus Another Bite Debuff Chance: 40%\\nCooldown: 6 sec",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-sonic-roar.png", "/class-icons/resistance/wild-hunter/sonic-roar.png"],
+                    "type": "Jaguar | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Jaguar Soul",
+                    "shortDesc": "MP Cost: 330, Max Enemies Hit: 10, Damage: 462%, Number of Attacks: 12\\nStun Duration for Attacked Enemies: 10 sec, Stun Duration: +100%, depending on damage inflicted with Jaguar Soul\\nAnother Bite Debuff Chance: 100%\\nCooldown: 120 sec",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-jaguar-soul.png", "/class-icons/resistance/wild-hunter/jaguar-soul.png"],
+                    "type": "Jaguar | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Jaguar Rampage",
+                    "shortDesc": "MP Cost: 220, Max Enemies Hit: 6, Damage: 1120%, Number of Attacks: 9\\nAnother Bite Debuff Chance: 100%\\nCooldown: 12 sec",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-jaguar-rampage.png", "/class-icons/resistance/wild-hunter/jaguar-rampage.png"],
+                    "type": "Jaguar | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Exploding Arrows",
+                    "shortDesc": "MP Cost: 220, Damage: 646%, Number of Attacks: 11, Max Enemies Hit: 15\\nCooldown: 12 sec",
+                    "icons": ["/class-icons/resistance/wild-hunter/hexa-exploding-arrows.png", "/class-icons/resistance/wild-hunter/exploding-arrows.png"],
+                    "type": "Mounted | Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
                 }
             ],
             "originSkill": [
