@@ -809,7 +809,7 @@
             "fifthMain": [
                 {
                     "name": "Nova Blast",
-                    "shortDesc": "Relic Gauge Cost: 200 or more required to use the skill. Consumes all energy built up in the Relic Gauge to activate an explosion 6 times that deals 900% damage 15 times to up to 15 enemies. Invulnerable while casting.\\nIf the consumed Relic Gauge exceeds certain thresholds (25%/50%/75%/100%), Final Damage will be increased by 25%/50%/75%/100%, respectively. Ignore Def +100%\\nCooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 200 or more required to use the skill. Consumes all energy built up in the Relic Gauge to activate an explosion 6 times that deals 1000% damage 15 times to up to 15 enemies. Invulnerable while casting.\\nIf the consumed Relic Gauge exceeds certain thresholds (25%/50%/75%/100%), Final Damage will be increased by 25%/50%/75%/100%, respectively. Ignore Def +100%\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/nova-blast.png"],
                     "animations": ["https://media2.giphy.com/media/JCUnBMtM6PKls25vSO/giphy.gif"],
                     "type": "Ancient Force Attack",
@@ -822,7 +822,7 @@
                 },
                 {
                     "name": "Raven Tempest",
-                    "shortDesc": "Relic Gauge Cost: 300\\nRaven Tempest: Duration: 27 sec, Max Enemies Hit: 12, Damage: 900%, Attack Count: 5\\nFury of the Wild Tempest: Duration: 10 sec, Max enemies Hit: 12, Damage: 900%, Number of Attacks: 6\\nCharges the Relic Gauge by 20 when attacking\\nDirection Change Cooldown: 2, Cooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 300\\nRaven Tempest: Duration: 27 sec, Max Enemies Hit: 12, Damage: 1000%, Attack Count: 5\\nFury of the Wild Tempest: Duration: 10 sec, Max enemies Hit: 12, Damage: 1000%, Number of Attacks: 6\\nCharges the Relic Gauge by 20 when attacking\\nDirection Change Cooldown: 2, Cooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/raven-tempest.png"],
                     "animations": ["https://media2.giphy.com/media/zuIveM1teNcGxxzSbU/giphy.gif"],
                     "type": "Ancient Force Summon",
@@ -837,14 +837,14 @@
                 },
                 {
                     "name": "Obsidian Barrier",
-                    "shortDesc": "",
+                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal fixed percent of damage by -20%.\\nThe shield will deal 760% damage 4 times to up to 8 enemies within its radius.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "type": "Enchant Force Attack/Buff Zone",
                     "desc": "Creates a protective barrier for your and your party members that have different effects based on the emblem displayed on your Relic Gauge and damages enemies within it (except for Deluge)"
                 },
                 {
                     "name": "Obsidian Barrier [Deluge]",
-                    "shortDesc": "Relic Gauge Cost: 300, Duration: 11 sec, Hit damage -40% (including attacks that deal a fixed percent of damage)\\nCooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, Hit damage -40% (including attacks that deal a fixed percent of damage)\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-deluge.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/UUTGXzKkcbVupXfbDj/giphy.gif"],
                     "type": "Enchant Force Attack/Buff Zone",
@@ -856,7 +856,7 @@
                 },
                 {
                     "name": "Obsidian Barrier [Burst]",
-                    "shortDesc": "Relic Gauge Cost: 300, Duration: 11 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%\\nThe shield will deal 950% damage 4 times to up to 15 enemies within its radius.\\nCooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%\\nThe shield will deal 1040% damage 4 times to up to 15 enemies within its radius.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-burst.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/XO2wqf3jltl5YWG5Bi/giphy.gif"],
                     "type": "Enchant Force Attack/Buff Zone",
@@ -870,7 +870,7 @@
                 },
                 {
                     "name": "Obsidian Barrier [Torrent]",
-                    "shortDesc": "Relic Gauge Cost: 300, Duration: 11 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%.\\nThe shield will deal 950% damage 4 times to up to 10 enemies within its radius.\\nRedeployment Cooldown: 2 sec, Cooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%.\\nThe shield will deal 1040% damage 4 times to up to 10 enemies within its radius.\\nRedeployment Cooldown: 2 sec, Cooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-torrent.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/RYRC7BQrkl3gNJttj6/giphy.gif"],
                     "type": "Enchant Force Attack/Buff Zone",
@@ -884,7 +884,7 @@
                 },
                 {
                     "name": "Relic Unbound",
-                    "shortDesc": "Relic Gauge Cost: 250\\nDeluge Enhancement: rapidly shoot arrows that periodically deal 1000% damage for 22 sec\\nBurst Enhancement: shoot arrows that explode 4 times periodically dealing 1250% damage up to 10 enemies 8 times for 10 sec, can shoot up to 4 arrows\\nTorrent Enhancement: sets up to 3 Relics that periodically attacks up to 6 enemies with 1400% damage 5 times for 40 sec\\nCooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 250\\nDeluge Enhancement: rapidly shoot arrows that periodically deal 1100% damage for 22 sec\\nBurst Enhancement: shoot arrows that explode 4 times periodically dealing 1375% damage up to 10 enemies 8 times for 10 sec, can shoot up to 4 arrows\\nTorrent Enhancement: sets up to 3 Relics that periodically attacks up to 6 enemies with 1540% damage 5 times for 40 sec\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/relic-unbound.png"],
                     "animations": ["https://media0.giphy.com/media/r6Va6RN6wAkIV0mc2G/giphy.gif"],
                     "type": "Enchant Force Summon",

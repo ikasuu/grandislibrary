@@ -808,7 +808,7 @@
             "fifthMain": [
                 {
                     "name": "Benediction",
-                    "shortDesc": "MP Cost: 1000, Duration: 42 sec, Final Damage (all party members in range): +5%\\nParty members other than yourself periodically recover 1% of max HP/MP, clear certain statuses, and have their Attack Speed increased.\\nFinal Damage: +1% per 2500 INT (up to +40% max)\\nHP/MP Recovery: +1% per 2000 INT (up to +10% max)\\nAttack Speed: +1 per 10000 INT (up to +3 max)\\nUsing the skill again within 5 sec after use reduces duration by 14 sec and cooldown by 60 sec.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1000, Duration: 45 sec, Final Damage (all party members in range): +5%\\nParty members other than yourself periodically recover 1% of max HP/MP, clear certain statuses, and have their Attack Speed increased.\\nFinal Damage: +1% per 2500 INT (up to +45% max)\\nHP/MP Recovery: +1% per 2000 INT (up to +10% max)\\nAttack Speed: +1 per 10000 INT (up to +3 max)\\nUsing the skill again within 5 sec after use reduces duration by 15 sec and cooldown by 60 sec.\\nCooldown: 180 sec",
                     "icons": ["/class-icons/explorers/bishop/benediction.png"],
                     "animations": ["https://media0.giphy.com/media/fLL904f95ZGghkCEwq/giphy.gif"],
                     "type": "Buff Zone",
@@ -821,34 +821,34 @@
                 },
                 {
                     "name": "Angel of Balance",
-                    "shortDesc": "MP Cost: 1000, Summon Duration: 38 sec\\nAngel of Benevolence: Grants a buff that recovers 15% of party members' Max HP every 5 sec., and increases their damage by 5%, for 4 sec. and by 1% per 1250 INT. Damage can increase by up to 100%.\\nAvenging Angel: Attacks up to 12 enemies dealing 1000% damage 10 times. Attacked enemies are marked for 60 sec. Holy damage dealt to marked enemies by you and party members consumes the mark and grants the attack Final Damage: +10%.\\nCooldown: 180 sec.",
+                    "shortDesc": "MP Cost: 1000, Summon Duration: 40 sec\\nAfter use, use the skill again within 5 sec to reduce duration by 10 sec and cooldown by 60 sec.\\nAngel of Benevolence: Grants a buff that recovers 16% of party members' Max HP every 5 sec., and increases their damage by 5%, for 4 sec. and by 1% per 1250 INT. Damage can increase by up to 100%.\\nAvenging Angel: Attacks up to 12 enemies dealing 1100% damage 10 times. Attacked enemies are marked for 60 sec. Holy damage dealt to marked enemies by you and party members consumes the mark and grants the attack Final Damage: +10%.\\nCooldown: 180 sec.",
                     "icons": ["/class-icons/explorers/bishop/angel-of-balance.png"],
                     "animations": ["https://media4.giphy.com/media/8oDLiNFxGCnqZfhJkQ/giphy.gif", "https://media4.giphy.com/media/URNGCyY13yFPcimUKi/giphy.gif"],
                     "type": "Summon",
                     "desc": "Summons two angels that attack nearby enemies and buff party members",
                     "details": [
-                        "Cannot be summoned at the same time as <span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> Bahamut which will be despawned",
+                        "<strong>[Angel of Vengeance]</strong>: Grants a buff to nearby party members that periodically restores %Max HP and increases their %Damage<ul><li>Damage increase scales off of your INT stat, +1% for every 1250 INT (up to +100%)</li></ul>",
+                        "<strong>[Avenging Angel]</strong>: Attacks nearby enemies and applies the debuff from <span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> however the %Final Damage bonus is decreased",
+                        "Upon summoning, <span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> Bahamut will despawn and then respawn once the summon expires",
                         "While active, pressing the Skill Key within 5 sec will reduce the duration and cooldown for a shorter version<ul><li>Right-clicking this skill will toggle ON/OFF automatically triggering this effect upon use</li></ul>",
-                        "<strong>[Vengeance]</strong>: Grants a buff to nearby party members that periodically restores %Max HP and increases their %Damage<ul><li>Damage increase scales off of your INT stat, +1% for every 1250 INT (up to +100%)</li></ul>",
-                        "<strong>[Benevolence]</strong>: Attacks nearby enemies and applies the debuff from <span data-tooltip='Bahamut (4th Job)'><img src='/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> however the %Final Damage bonus is decreased",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Peacemaker",
-                    "shortDesc": "MP Cost: 350, deals 700% damage to up to 6 enemies 4 time(s) at every interval, or restores 40% of the Bishop's max HP for you and your party members that come into contact with the object.\\nMax Contact Count: 12. Both attacks and recovery consume the contact count.\\nHoly Light: Max Enemies Hit: 15, Damage: 700%, Number of Attacks: 12. The Bishop and party members that come into contact with the light will gain a buff that increases damage by 10% for 8 sec, while also increasing 1% for each remaining contact.\\nCooldown: 10 sec.",
+                    "shortDesc": "MP Cost: 350, deals 770% damage to up to 6 enemies 4 time(s) at every interval, or restores 45% of the Bishop's max HP for you and your party members that come into contact with the object.\\nMax Contact Count: 12. Both attacks and recovery consume the contact count.\\nHoly Light: Max Enemies Hit: 15, Damage: 770%, Number of Attacks: 12. The Bishop and party members that come into contact with the light will gain a buff that increases damage by 11% for 8 sec, while also increasing 1% for each remaining contact.\\nCooldown: 10 sec.",
                     "icons": ["/class-icons/explorers/bishop/peacemaker.png"],
                     "animations": ["https://media3.giphy.com/media/UjJzIrHnJ1VUbTLktp/giphy.gif"],
                     "type": "Attack / Heal",
                     "desc": "Sends an angel forward that damages enemies and heals party members it passes through",
                     "details": [
-                        "At the end of its range, the angel lingers dealing damage and buffing party members<ul><li><strong>[Buff]: </strong>Increases %Damage</li><li>Pressing the Skill Key again will cause the angel to disappear</li></ul>",
+                        "At the end of its range or when the Skill Key is pressed again, the angel expands dealing damage and buffing party members<ul><li><strong>[Buff]</strong>: Increases %Damage</li></ul>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Divine Punishment",
-                    "shortDesc": "MP Cost per Attack: 40, Consumes 1 holy light per sec.\\nAttacks up to 6 enemies to the front, for 485% damage, 10 times.\\n1 holy light is prepared every 8.5 sec, and you can hold up to 8 at a time.\\nCooldown: 1.5 sec.",
+                    "shortDesc": "MP Cost per Attack: 40, Consumes 1 holy light per sec.\\nAttacks up to 6 enemies to the front, for 535% damage, 10 times.\\n1 holy light is prepared every 8.5 sec, and you can hold up to 8 at a time.\\nCooldown: 1.5 sec.",
                     "icons": ["/class-icons/explorers/bishop/divine-punishment.png"],
                     "animations": ["https://media1.giphy.com/media/ZHfg0SXUAcrQreCMbj/giphy.gif"],
                     "type": "Key-down Attack",

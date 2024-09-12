@@ -83,7 +83,7 @@
             "active": "<div><span data-tooltip='Shadow Partner (3rd Job)'><img src='/class-icons/common/shadow-partner.png' alt='Skill Shadow Partner'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><span data-tooltip='Bleed Dart (Hyper Skill)'><img src='/class-icons/explorers/night-lord/bleed-dart.png' alt='Skill Bleed Dart'/></span>[90s]</div>",
             "toggles": "<span data-tooltip='Assassin&#39;s Mark (2nd Job)'><img src='/class-icons/explorers/night-lord/assassins-mark.png' alt='Skill Assassin&#39;s Mark'/></span>",
             "summons": "<div><span data-tooltip='Dark Flare (3rd Job)'><img src='/class-icons/explorers/night-lord/dark-flare.png' alt='Skill Dark Flare'/></span>[60s](60s cd)</div> <div><span data-tooltip='Frailty Curse (4th Job)'><img src='/class-icons/explorers/night-lord/frailty-curse.png' alt='Skill Frailty Curse'/></span>[40s]</div> <div><span data-tooltip='Dark Lord&#39;s Omen (5th Job)'><img src='/class-icons/explorers/night-lord/dark-lords-omen.png' alt='Skill Dark Lord&#39;s Omen'/></span>[12s](60s)</div>",
-            "buffCd": "<div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/thief/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Throw Blasting (5th Job)'><img src='/class-icons/explorers/night-lord/throw-blasting.png' alt='Skill Throw Blasting'/></span>[90s](180s cd)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Shadow Walker (5th Job)'><img src='/class-icons/5th-job/shadow-walker.png' alt='Skill Shadow Walker'/></span>[30s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/thief/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Throwing Star Barrage (5th Job)'><img src='/class-icons/explorers/night-lord/throwing-star-barrage.png' alt='Skill Throwing Star Barrage'/></span>[50s](180s cd)</div> <div><span data-tooltip='Throw Blasting (5th Job)'><img src='/class-icons/explorers/night-lord/throw-blasting.png' alt='Skill Throw Blasting'/></span>[90s](180s cd)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Shadow Walker (5th Job)'><img src='/class-icons/5th-job/shadow-walker.png' alt='Skill Shadow Walker'/></span>[30s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div>",
             "binds": "<div><span data-tooltip='Life and Death (6th Job)'><img src='/class-icons/explorers/night-lord/life-and-death.png' alt='Skill Life and Death'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Dark Sight (1st Job)'><img src='/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>[200s](Special, 0 - 15s cd)</div> <div><span data-tooltip='Life and Death (6th Job)'><img src='/class-icons/explorers/night-lord/life-and-death.png' alt='Skill Life and Death'/></span>(360s cd)</div>"
         },
@@ -688,7 +688,7 @@
             "fifthMain": [
                 {
                     "name": "Throwing Star Barrage",
-                    "shortDesc": "MP Cost: 1000, Duration: 45 sec. Throwing skills gain extra spread.\\nTriple Throw attacks in 4 extra directions, with extra projectiles dealing 290% damage\\nQuad Star attacks in 3 extra directions, with extra projectiles dealing 370% damage\\nCooldown: 180 sec.",
+                    "shortDesc": "MP Cost: 1000, Duration: 50 sec. Throwing skills gain extra spread.\\nTriple Throw attacks in 4 extra directions, with extra projectiles dealing 290% damage\\nQuad Star attacks in 3 extra directions, with extra projectiles dealing 370% damage\\nCooldown: 180 sec.",
                     "icons": ["/class-icons/explorers/night-lord/throwing-star-barrage.png"],
                     "animations": ["https://media.giphy.com/media/cUkc0zgM769dfFoL9i/giphy.gif"],
                     "type": "Buff Attack",
@@ -699,7 +699,7 @@
                 },
                 {
                     "name": "Shurrikane",
-                    "shortDesc": "MP Cost: 800. Throwing Stars Cost: 1, Max Enemies Hit: 6, Damage: 600%, Number of Attacks: 5\\nA huge shuriken flies forward striking foes, dealing additional damage for 2 sec before disappearing. Using the skill again while the shuriken is flying will stop it immediately at its current location\\n40% of normal chance to trigger Assassin's Mark.\\nCooldown: 25 sec.",
+                    "shortDesc": "MP Cost: 800. Throwing Stars Cost: 1, Max Enemies Hit: 6, Damage: 660%, Number of Attacks: 5\\nA huge shuriken flies forward striking foes, dealing additional damage for 2 sec before disappearing. Using the skill again while the shuriken is flying will stop it immediately at its current location\\n40% of normal chance to trigger Assassin's Mark.\\nCooldown: 25 sec.",
                     "icons": ["/class-icons/explorers/night-lord/shurrikane.png"],
                     "animations": ["https://media.giphy.com/media/14j7c3hNKbFmJVFKXi/giphy.gif"],
                     "type": "Attack",
@@ -712,7 +712,7 @@
                 },
                 {
                     "name": "Dark Lord's Omen",
-                    "shortDesc": "MP Cost: 1000, shoot 5 Throwing Star(s) per 1 enemy for 12 sec, dealing 850% damage to max 7 enemies\\n7 additional Throwing Stars are launched regardless of the number of enemies.\\nBoss Damage: +30%\\nThe scroll explodes when the skill duration ends, dealing 2150% damage with 10 additional attacks. Max Enemies Hit: 12\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 1000, shoot 5 Throwing Star(s) per 1 enemy for 12 sec, dealing 935% damage to max 7 enemies\\n7 additional Throwing Stars are launched regardless of the number of enemies.\\nBoss Damage: +30%\\nThe scroll explodes when the skill duration ends, dealing 2365% damage with 10 additional attacks. Max Enemies Hit: 12\\nCooldown: 60 sec",
                     "icons": ["/class-icons/explorers/night-lord/dark-lords-omen.png"],
                     "animations": ["https://media.giphy.com/media/RQGlcRw75eKcso90Je/giphy-downsized-large.gif"],
                     "type": "Summon",
@@ -725,7 +725,7 @@
                 },
                 {
                     "name": "Throw Blasting",
-                    "shortDesc": "Explosive Charm: explosion occurs around enemy hit by skill that throws shurikens up to 6 enemies with 950% damage 5 times\\nPassive Effect: 1 explosive charm is prepared every 10 sec and activates. Active and Passive Effects cannot trigger simultaneously.\\nActive Effect: MP Cost: 1000, Duration: 60 sec, Usable Explosive Charms: 68, uses min 2 and max 4 charms per attack skill, Cooldown: 180 sec",
+                    "shortDesc": "Explosive Charm: explosion occurs around enemy hit by skill that throws shurikens up to 6 enemies with 1045% damage 5 times\\nPassive Effect: 1 explosive charm is prepared every 10 sec and activates. Active and Passive Effects cannot trigger simultaneously.\\nActive Effect: MP Cost: 1000, Duration: 60 sec, Usable Explosive Charms: 68, uses min 2 and max 4 charms per attack skill, Cooldown: 180 sec",
                     "icons": ["/class-icons/explorers/night-lord/throw-blasting.png"],
                     "animations": ["https://media.giphy.com/media/XWe1GYRejXwyUtIDIv/giphy.gif"],
                     "type": "Buff Attack",
