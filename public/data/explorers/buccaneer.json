@@ -13,7 +13,6 @@
         ],
         "innerAbility": [
             {
-                "name": "Preset 1",
                 "abilities": ["Boss Damage +20%", "Damage to Abnormal Status +8%", "Buff Duration +38%"]
             }
         ],
@@ -31,6 +30,53 @@
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Typhoon Crush (4th Job)'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> +40%]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> 30]"
             ]
+        ],
+        "weaponStats": {
+            "weaponMultiply": "1.7x",
+            "attackSpeed": ["Stage 8", "[Stage 5] [<span data-tooltip='Agile Knuckles (2nd Job)'><img src='/class-icons/explorers/buccaneer/agile-knuckles.png' alt='Skill Agile Knuckles'/></span> +2] [<span data-tooltip='Speed Infusion (4th Job)'><img src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/></span> +2, does not break soft cap]"],
+            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> +70%]"]
+        },
+        "attackStats": [
+            {
+                "name": "STR",
+                "stat": "+15%(440%) +50(120)",
+                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) (<span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span> +25%) [<span data-tooltip='Pirate Blessing (Link Skill)'><img src='/class-icons/link-skills/pirate-blessing.png' alt='Skill Pirate Blessing'/></span> up to +70] [<span data-tooltip='Agile Knuckles (2nd Job)'><img src='/class-icons/explorers/buccaneer/agile-knuckles.png' alt='Skill Agile Knuckles'/></span> +20] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30]"
+            },
+            {
+                "name": "Attack",
+                "stat": "+19% +90(130)",
+                "detail": "[<span data-tooltip='Echo of Hero (Beginner Skill)'><img src='/class-icons/common/echo-of-hero.png' alt='Skill Echo of Hero'/></span> +4%] [<span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> +15%] [<span data-tooltip='Dark Clarity (2nd Job)'><img src='/class-icons/explorers/buccaneer/dark-clarity.png' alt='Skill Dark Clarity'/></span> +30] [<span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +30] [<span data-tooltip='Typhoon Crush (4th Job)'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> +30] (<span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40) (<span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span> +80% of base weapon attack power & -15% of base weapon power while on cooldown)"
+            },
+            {
+                "name": "Crit Chance",
+                "stat": "+40% (60% for bosses) (100% for debuffed)",
+                "detail": "[Base +5%] [<span data-tooltip='Shadow Heart (1st Job)'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Critical Fire'/></span> +20%] [<span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +15% & +20% against bosses] [<span data-tooltip='Groggy Mastery (3rd Job)'><img src='/class-icons/explorers/buccaneer/groggy-mastery.png' alt='Skill Groggy Mastery'/></span> +60% to debuffed]"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+30%(~45%)",
+                "detail": "[<span data-tooltip='Shadow Heart (1st Job)'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Critical Fire'/></span> +5%] [<span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +10%] [<span data-tooltip='Groggy Mastery (3rd Job)'><img src='/class-icons/explorers/buccaneer/groggy-mastery.png' alt='Skill Groggy Mastery'/></span> +15% to debuffed] [<span data-tooltip='Serpent Spirit (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/serpent-spirit.png' alt='Skill Serpent Spirit'/></span> up to +15% from debuff]"
+            },
+            {
+                "name": "Damage",
+                "stat": "(75%)",
+                "detail": "{<span data-tooltip='Aggressive Stance (4th Job)'><img src='/class-icons/explorers/buccaneer/aggressive-stance.png' alt='Skill Aggressive Stance'/></span> +25% after proc} {<span data-tooltip='Stimulating Conversation (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/stimulating-conversation.png' alt='Skill Stimulating Conversation'/></span> +20%} {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/pirate/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+20%",
+                "detail": "[<span data-tooltip='Stimulating Conversation (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/stimulating-conversation.png' alt='Skill Stimulating Conversation'/></span> +20%]"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+24.3%(~87.94%)",
+                "detail": "[<span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> +13%] x [<span data-tooltip='Typhoon Crush (4th Job)'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> +10%] x {<span data-tooltip='Sea Serpent&#39;s Rage (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpent&#39;s Rage'/></span> +20% from debuff} x {<span data-tooltip='Lightning Form (5th Job)'><img src='/class-icons/explorers/buccaneer/lightning-form.png' alt='Skill Lightning Form'/></span> +26%}"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+40%",
+                "detail": "[<span data-tooltip='Typhoon Crush (4th Job)'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> +40%]"
+            }
         ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span>[180s]</div> <div><span data-tooltip='Speed Infusion (4th Job)'><img src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/></span>[180s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><span data-tooltip='Serpent Spirit (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/serpent-spirit.png' alt='Skill Serpent Spirit'/>[90s]</span></div>",
@@ -604,7 +650,7 @@
                         "desc": "Upon landing a successful Sea Serpent or Assault skill, create a barrier that reduces damage taken (including %Max HP attacks)"
                     },
                     {
-                        "name": "Aggresive Stance",
+                        "name": "Aggressive Stance",
                         "shortDesc": "When one of your attack skills hits an enemy, grants a buff that increases your damage by 25% for 10 sec. Striking a foe while the buff is active will refresh its duration.\\n[Passive Effects] Corkscrew Blow Damage: +100%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/buccaneer/aggressive-stance.png"],

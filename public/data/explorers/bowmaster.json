@@ -14,8 +14,12 @@
         ],
         "innerAbility": [
             {
-                "name": "Preset 1",
-                "abilities": ["***First Line Options***", "Boss Damage +20%", "Meso / Item Drop +20% (For Farming)", "***Second & Third Line Options***", "Crit Rate +20%", "Damage to Abnormal Status +8%", "Attack +21", "Meso / Item Drop +15% (For Farming if Boss Damage is 1st Line)"]
+                "name": "1st Line Options",
+                "abilities": ["Boss Damage +20%", "Meso Obtained +20% (For Farming)", "Item Drop Rate +20% (For Farming)"]
+            },
+            {
+                "name": "2nd & 3rd Line Options",
+                "abilities": ["Crit Rate +20%", "Damage to Abnormal Status +8%", "Attack +21", "Meso Obtained +15% (If not 1st Line)", "Item Drop Rate +15% (If not 1st Line)"]
             }
         ],
         "baseStats": [
@@ -24,12 +28,59 @@
                 "<strong>Attack</strong>: [<span data-tooltip='Marksmanship (3rd Job)'><img src='/class-icons/explorers/bowmaster/marksmanship.png' alt='Skill Marksmanship'/></span> +25%]",
                 "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Critical Shot (1st Job)'><img src='/class-icons/explorers/archer/critical-shot.png' alt='Skill Critical Shot'/></span> +40%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +20%]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%] [<span data-tooltip='Bow Expert (4th Job)'><img src='/class-icons/explorers/bowmaster/bow-expert.png' alt='Skill Bow Expert'/></span> +16%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Reckless Hunt (3rd Job)'><img src='/class-icons/explorers/bowmaster/reckless-hunt.png' alt='Skill Reckless Hunt'/></span> +30%] [<span data-tooltip='Enchanted Quiver (4th Job)'><img src='/class-icons/explorers/bowmaster/enchanted-quiver.png' alt='Skill Enchanted Quiver'/></span> +6%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Reckless Hunt: Bow (3rd Job)'><img src='/class-icons/explorers/bowmaster/reckless-hunt.png' alt='Skill Reckless Hunt: Bow'/></span> +30%] [<span data-tooltip='Enchanted Quiver (4th Job)'><img src='/class-icons/explorers/bowmaster/enchanted-quiver.png' alt='Skill Enchanted Quiver'/></span> +6%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 7",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Evasion Boost (3rd Job)'><img src='/class-icons/explorers/bowmaster/evasion-boost.png' alt='Skill Evasion Boost'/></span> +40%] [<span data-tooltip='Illusion Step (4th Job)'><img src='/class-icons/explorers/bowmaster/illusion-step.png' alt='Skill Illusion Step'/></span> +60%]",
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Marksmanship (3rd Job)'><img src='/class-icons/explorers/bowmaster/marksmanship.png' alt='Skill Marksmanship'/></span> +25%] [<span data-tooltip='Armor Break (4th Job)'><img src='/class-icons/explorers/bowmaster/armor-break.png' alt='Skill Armor Break'/></span> +40%]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Focused Fury (3rd Job)'><img src='/class-icons/explorers/bowmaster/focused-fury.png' alt='Skill Focused Fury'/></span> 20 & up to 100]"
             ]
+        ],
+        "weaponStats": {
+            "weaponMultiply": "1.3x",
+            "attackSpeed": ["Stage 7", "[Stage 4] [<span data-tooltip='Archery Mastery (1st Job)'><img src='/class-icons/explorers/archer/archery-mastery.png' alt='Skill Archery Mastery'/></span> +1] [<span data-tooltip='Agile Bows (2nd Job)'><img src='/class-icons/explorers/bowmaster/agile-bows.png' alt='Skill Agile Bows'/></span> +2]"],
+            "mastery": ["85%", "[Base +15%] [<span data-tooltip='Bow Expert (4th Job)'><img src='/class-icons/explorers/bowmaster/bow-expert.png' alt='Skill Bow Expert'/></span> +70%]"]
+        },
+        "attackStats": [
+            {
+                "name": "DEX",
+                "stat": "+15%(415%) +130",
+                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='Agile Bows (2nd Job)'><img src='/class-icons/explorers/bowmaster/agile-bows.png' alt='Skill Agile Bows'/></span> +20] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30] [<span data-tooltip='Illusion Step (4th Job)'><img src='/class-icons/explorers/bowmaster/illusion-step.png' alt='Skill Illusion Step'/></span> +80]"
+            },
+            {
+                "name": "Attack",
+                "stat": "+25%(~45%) +150(~200)",
+                "detail": "[<span data-tooltip='Marksmanship (3rd Job)'><img src='/class-icons/explorers/bowmaster/marksmanship.png' alt='Skill Marksmanship'/></span> +25%] [<span data-tooltip='Soul Arrow: Bow (2nd Job)'><img src='/class-icons/explorers/bowmaster/soul-arrow-bow.png' alt='Skill Soul Arrow: Bow'/></span> +30] [<span data-tooltip='Reckless Hunt: Bow (3rd Job)'><img src='/class-icons/explorers/bowmaster/reckless-hunt.png' alt='Skill Reckless Hunt: Bow'/></span> +40] [<span data-tooltip='Bow Expert (4th Job)'><img src='/class-icons/explorers/bowmaster/bow-expert.png' alt='Skill Bow Expert'/></span> +60] [<span data-tooltip='Advanced Final Attack (4th Job)'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +20] {<span data-tooltip='Concentrate (Hyper Skill)'><img src='/class-icons/explorers/bowmaster/concentrate.png' alt='Skill Concentrate'/></span> +50} {<span data-tooltip='Quiver Barrage (5th Job)'><img src='/class-icons/explorers/bowmaster/quiver-barrage.png' alt='Skill Quiver Barrage'/></span> +20%} {<span data-tooltip='Concentrate (Hyper Skill)'><img src='/class-icons/explorers/bowmaster/concentrate.png' alt='Skill Concentrate'/></span> +50}"
+            },
+            {
+                "name": "Crit Chance",
+                "stat": "+65%(~75%)",
+                "detail": "[Base +5%] [<span data-tooltip='Adventurer&#39;s Curiosity (Link Skill)'><img src='/class-icons/link-skills/adventurers-curiousity.png' alt='Skill Adventurer&#39;s Curiosity'/></span> up to +10%] [<span data-tooltip='Critical Shot (1st Job)'><img src='/class-icons/explorers/archer/critical-shot.png' alt='Skill Critical Shot'/></span> +40%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +20%]"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+31%",
+                "detail": "[<span data-tooltip='Bow Expert (4th Job)'><img src='/class-icons/explorers/bowmaster/bow-expert.png' alt='Skill Bow Expert'/></span> +16%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%]"
+            },
+            {
+                "name": "Damage",
+                "stat": "(95%)",
+                "detail": "{<span data-tooltip='Mortal Blow (3rd Job)'><img src='/class-icons/explorers/bowmaster/mortal-blow.png' alt='Skill Mortal Blow'/></span> +35% after 30 successful attacks} {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/archer/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} {<span data-tooltip='Storm of Arrows (5th Job)'><img src='/class-icons/explorers/bowmaster/storm-of-arrows.png' alt='Skill Storm of Arrows'/></span> +30%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "(~20%)",
+                "detail": "{<span data-tooltip='Concentrate (Hyper Skill)'><img src='/class-icons/explorers/bowmaster/concentrate.png' alt='Skill Concentrate'/></span> +20%}"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+47.45%",
+                "detail": "[<span data-tooltip='Reckless Hunt: Bow (3rd Job)'><img src='/class-icons/explorers/bowmaster/reckless-hunt.png' alt='Skill Reckless Hunt: Bow'/></span> +30%] x [<span data-tooltip='Enchanted Quiver (4th Job)'><img src='/class-icons/explorers/bowmaster/enchanted-quiver.png' alt='Skill Enchanted Quiver'/></span> +6%]"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+55%(~57.25%)",
+                "detail": "[<span data-tooltip='Marksmanship (3rd Job)'><img src='/class-icons/explorers/marksman/marksmanship.png' alt='Skill Marksmanship'/></span> +25%] x [<span data-tooltip='Armor Break (4th Job)'><img src='/class-icons/explorers/bowmaster/armor-break.png' alt='Skill Armor Break'/></span> +40%] x (<span data-tooltip='Sharp Eyes - Guardbreak (Hyper Skill)'><img src='/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png' alt='Skill Sharp Eyes - Guardbreak'/></span> +5%)"
+            }
         ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span>[300s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
@@ -62,7 +113,7 @@
             "build": [
                 ["1st Job", "<span data-tooltip='Double Jump'><img src='/class-icons/explorers/archer/double-jump-1.png' alt='Skill Double Jump'/></span> -> <span data-tooltip='Archery Mastery'><img src='/class-icons/explorers/archer/archery-mastery.png' alt='Skill Archery Mastery.png'/></span> -> <span data-tooltip='Critical Shot'><img src='/class-icons/explorers/archer/critical-shot.png' alt='Skill Critical Shot'/></span> -> <span data-tooltip='Arrow Blow'><img src='/class-icons/explorers/archer/arrow-blow.png' alt='Skill Arrow Blow'/></span>"],
                 ["2nd Job", "<span data-tooltip='Bow Mastery'><img src='/class-icons/explorers/bowmaster/bow-mastery.png' alt='Skill Bow Mastery'/></span> -> <span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Agile Bows'><img src='/class-icons/common/agile-bows.png' alt='Skill Agile Bows'/></span> -> <span data-tooltip='Soul Arrow'><img src='/class-icons/explorers/bowmaster/soul-arrow.png' alt='Skill Soul Arrow'/></span> -> <span data-tooltip='Final Attack'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> -> <span data-tooltip='Wind Arrow'><img src='/class-icons/explorers/bowmaster/wind-arrow.png' alt='Skill Wind Arrow'/></span> -> <span data-tooltip='Covering Fire'><img src='/class-icons/explorers/bowmaster/covering-fire.png' alt='Skill Covering Fire'/></span>"],
-                ["3rd Job", "<span data-tooltip='Reckless Hunt'><img src='/class-icons/explorers/bowmaster/reckless-hunt.png' alt='Skill Reckless Hunt'/></span> -> <span data-tooltip='Phoenix'><img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix'/></span> -> <span data-tooltip='Evasion Boost'><img src='/class-icons/explorers/bowmaster/evasion-boost.png' alt='Skill Evasion Boost'/></span> -> <span data-tooltip='Marksmanship'><img src='/class-icons/explorers/bowmaster/marksmanship.png' alt='Skill Marksmanship'/></span> -> <span data-tooltip='Blink Shot'><img src='/class-icons/explorers/bowmaster/blink-shot.png' alt='Skill Blink Shot'/></span> -> <span data-tooltip='Speed Mirage'><img src='/class-icons/explorers/bowmaster/speed-mirage.png' alt='Skill Speed Mirage'/></span> -> <span data-tooltip='Arrow Blaster'><img src='/class-icons/explorers/bowmaster/arrow-blaster.png' alt='Skill Arrow Blaster'/></span> -> <span data-tooltip='Mortal Blow'><img src='/class-icons/explorers/bowmaster/mortal-blow.png' alt='Skill Mortal Blow'/></span> -> <span data-tooltip='Focused Fury'><img src='/class-icons/explorers/bowmaster/focused-fury.png' alt='Skill Focused Fury'/></span>"],
+                ["3rd Job", "<span data-tooltip='Reckless Hunt: Bow'><img src='/class-icons/explorers/bowmaster/reckless-hunt.png' alt='Skill Reckless Hunt: Bow'/></span> -> <span data-tooltip='Phoenix'><img src='/class-icons/explorers/bowmaster/phoenix.png' alt='Skill Phoenix'/></span> -> <span data-tooltip='Evasion Boost'><img src='/class-icons/explorers/bowmaster/evasion-boost.png' alt='Skill Evasion Boost'/></span> -> <span data-tooltip='Marksmanship'><img src='/class-icons/explorers/bowmaster/marksmanship.png' alt='Skill Marksmanship'/></span> -> <span data-tooltip='Blink Shot'><img src='/class-icons/explorers/bowmaster/blink-shot.png' alt='Skill Blink Shot'/></span> -> <span data-tooltip='Speed Mirage'><img src='/class-icons/explorers/bowmaster/speed-mirage.png' alt='Skill Speed Mirage'/></span> -> <span data-tooltip='Arrow Blaster'><img src='/class-icons/explorers/bowmaster/arrow-blaster.png' alt='Skill Arrow Blaster'/></span> -> <span data-tooltip='Mortal Blow'><img src='/class-icons/explorers/bowmaster/mortal-blow.png' alt='Skill Mortal Blow'/></span> -> <span data-tooltip='Focused Fury'><img src='/class-icons/explorers/bowmaster/focused-fury.png' alt='Skill Focused Fury'/></span>"],
                 ["4th Job", "<span data-tooltip='Armor Break'><img src='/class-icons/explorers/bowmaster/armor-break.png' alt='Skill Armor Break'/></span> -> <span data-tooltip='Bow Expert'><img src='/class-icons/explorers/bowmaster/bow-expert.png' alt='Skill Bow Expert'/></span> -> <span data-tooltip='Advanced Final Attack'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> -> <span data-tooltip='Arrow Stream'><img src='/class-icons/explorers/bowmaster/arrow-stream.png' alt='Skill Arrow Stream'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Sharp Eyes'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> -> <span data-tooltip='Illusion Step'><img src='/class-icons/explorers/bowmaster/illusion-step.png' alt='Skill Illusion Step'/></span> -> <span data-tooltip='Enchanted Quiver'><img src='/class-icons/explorers/bowmaster/enchanted-quiver.png' alt='Skill Enchanted Quiver'/></span> -> <span data-tooltip='Hurricane'><img src='/class-icons/explorers/bowmaster/hurricane.png' alt='Skill Hurricane'/></span> -> <span data-tooltip='Speed Mirage II'><img src='/class-icons/explorers/bowmaster/speed-mirage-ii.png' alt='Skill Speed Mirage II'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
             ],
             "details": [

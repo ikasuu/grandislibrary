@@ -13,7 +13,6 @@
         ],
         "innerAbility": [
             {
-                "name": "Preset 1",
                 "abilities": ["Attack Speed +1", "Boss Damage +10%", "Damage to Abnormal Status +8%", "Alternatively, for 2nd or 3rd Line - Meso / Item Drop +15% (For Farming)"]
             }
         ],
@@ -30,6 +29,53 @@
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Cannon Overload (4th Job)'><img src='/class-icons/explorers/cannoneer/cannon-overload.png' alt='Skill Cannon Overload'/></span> +20%]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Pirate Rush (3rd Job)'><img src='/class-icons/explorers/cannoneer/pirate-rush.png' alt='Skill Pirate Rush'/></span> 20]"
             ]
+        ],
+        "weaponStats": {
+            "weaponMultiply": "1.5x",
+            "attackSpeed": ["Stage 7", "[Stage 2] [<span data-tooltip='Agile Cannons (2nd Job)'><img src='/class-icons/explorers/cannoneer/agile-cannons.png' alt='Skill Agile Cannons'/></span> +2] [<span data-tooltip='Reinforced Cannon (3rd Job)'><img src='/class-icons/explorers/cannoneer/reinforced-cannon.png' alt='Skill Reinforced Cannon'/></span> +1] [<span data-tooltip='Cannon Overload (4th Job)'><img src='/class-icons/explorers/cannoneer/cannon-overload.png' alt='Skill Cannon Overload'/></span> +1] [<span data-tooltip='Buckshot (Hyper Skill)'><img src='/class-icons/explorers/cannoneer/buckshot.png' alt='Skill Buckshot'/></span> +1]"],
+            "mastery": ["85%", "[Base +15%] [<span data-tooltip='Cannon Overload (4th Job)'><img src='/class-icons/explorers/cannoneer/cannon-overload.png' alt='Skill Cannon Overload'/></span> +70%]"]
+        },
+        "attackStats": [
+            {
+                "name": "STR",
+                "stat": "+15%(440%) +110(180)",
+                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) (<span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span> +25%) [<span data-tooltip='Pirate Blessing (Link Skill)'><img src='/class-icons/link-skills/pirate-blessing.png' alt='Skill Pirate Blessing'/></span> up to +70] [<span data-tooltip='Agile Cannons (2nd Job)'><img src='/class-icons/explorers/cannoneer/agile-cannons.png' alt='Skill Agile Cannons'/></span> +20] [<span data-tooltip='Pirate Training (2nd Job)'><img src='/class-icons/explorers/cannoneer/pirate-training.png' alt='Skill Pirate Training'/></span> +30] [<span data-tooltip='Mega Monkey Magic (4th Job)'><img src='/class-icons/explorers/cannoneer/mega-monkey-magic.png' alt='Skill Mega Monkey Magic'/></span> +60]"
+            },
+            {
+                "name": "Attack",
+                "stat": "+60(100)",
+                "detail": "[<span data-tooltip='Cannon Boost (1st Job)'><img src='/class-icons/explorers/cannoneer/cannon-boost.png' alt='Skill Cannon Boost'/></span> +20] [<span data-tooltip='Reinforced Cannon (3rd Job)'><img src='/class-icons/explorers/cannoneer/reinforced-cannon.png' alt='Skill Reinforced Cannon'/></span> +40] (<span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40) (<span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span> +80% of base weapon attack power & -15% of base weapon power while on cooldown)"
+            },
+            {
+                "name": "Crit Chance",
+                "stat": "+45%",
+                "detail": "[Base +5%] [<span data-tooltip='Critical Fire (2nd Job)'><img src='/class-icons/explorers/cannoneer/critical-fire.png' alt='Skill Critical Fire'/></span> +20%] [<span data-tooltip='Barrel Roulette (3rd Job)'><img src='/class-icons/explorers/cannoneer/barrel-roulette.png' alt='Skill Barrel Roulette'/></span> +20%]"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+15%(~20%)",
+                "detail": "[<span data-tooltip='Critical Fire (2nd Job)'><img src='/class-icons/explorers/cannoneer/critical-fire.png' alt='Skill Critical Fire'/></span> +5%] [<span data-tooltip='Barrel Roulette (3rd Job)'><img src='/class-icons/explorers/cannoneer/barrel-roulette.png' alt='Skill Barrel Roulette'/></span> +10% & {+5% when Ice Buff}]"
+            },
+            {
+                "name": "Damage",
+                "stat": "(100%)",
+                "detail": "{<span data-tooltip='Monkey Fury (3rd Job)'><img src='/class-icons/explorers/cannoneer/monkey-fury.png' alt='Skill Monkey Fury'/></span> +40% from debuff} {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/pirate/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} {<span data-tooltip='Poolmaker (5th Job)'><img src='/class-icons/explorers/cannoneer/poolmaker.png' alt='Skill Poolmaker'/></span> +30% from supplies} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+40%",
+                "detail": "[<span data-tooltip='Pirate&#39;s Spirit (4th Job)'><img src='/class-icons/explorers/cannoneer/pirates-spirit.png' alt='Skill Pirate&#39;s Spirit'/></span> +40%]"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+57.66%",
+                "detail": "[<span data-tooltip='Barrel Roulette (3rd Job)'><img src='/class-icons/explorers/cannoneer/barrel-roulette.png' alt='Skill Barrel Roulette'/></span> +10%] x [<span data-tooltip='Reinforced Cannon (3rd Job)'><img src='/class-icons/explorers/cannoneer/reinforced-cannon.png' alt='Skill Reinforced Cannon'/></span> +5%] x [<span data-tooltip='Counter Crush (3rd Job)'><img src='/class-icons/explorers/cannoneer/counter-crush.png' alt='Skill Counter Crush'/></span> +5%] x [<span data-tooltip='Cannon Overload (4th Job)'><img src='/class-icons/explorers/cannoneer/cannon-overload.png' alt='Skill Cannon Overload'/></span> +30%]"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+20%",
+                "detail": "[<span data-tooltip='Cannon Overload (4th Job)'><img src='/class-icons/explorers/cannoneer/cannon-overload.png' alt='Skill Cannon Overload'/></span> +20%]"
+            }
         ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Monkey Magic (2nd Job)'><img src='/class-icons/explorers/cannoneer/monkey-magic.png' alt='Skill Monkey Magic'/></span>[180s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
