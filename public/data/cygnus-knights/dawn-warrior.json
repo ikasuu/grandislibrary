@@ -32,8 +32,8 @@
         ],
         "weaponStats": {
             "weaponMultiply": "[1H] 1.24x [2H] 1.34x",
-            "attackSpeed": ["[1H] 9 [2H] 8", "[Stage 5 for 1H / Stage 4 for 2H] [<span data-tooltip='Soul Speed (2nd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-speed.png' alt='Skill Soul Speed'/></span> +2] [<span data-tooltip='Master of the Sword (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png' alt='Skill Master of the Sword'/></span> +2]"],
-            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Student of the Blade (2nd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png' alt='Skill Student of the Blade'/></span> +70%]"]
+            "attackSpeed": ["[1H] 9 [2H] 8", "[Stage 5 for 1H / Stage 4 for 2H] [<span data-tooltip='Soul Speed (2nd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-speed.png' alt='Skill Soul Speed'/></span> +2] [<span data-tooltip='Master of the Sword (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png' alt='Skill Master of the Sword'/></span> +2 while active, bypasses Soft Cap]"],
+            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Student of the Blade (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png' alt='Skill Student of the Blade'/></span> +70%]"]
         },
         "attackStats": [
             {
@@ -43,38 +43,38 @@
             },
             {
                 "name": "Attack",
-                "stat": "+10% +150",
-                "detail": "[<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%] [<span data-tooltip='Soul Blessing (2nd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-blessing.png' alt='Skill Soul Blessing'/></span> +15] [<span data-tooltip='Spirit Blade (2nd Job)'><img src='/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> +30] [<span data-tooltip='Advanced Final Attack (4th Job)'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +30] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +50} {<img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/> up to 20% of Combo Orbs (+4)} (<span data-tooltip='Advanced Final Attack - Ferocity (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-final-attack-ferocity.png' alt='Skill Advanced Final Attack Ferocity'/></span> +20)"
+                "stat": "+10% +150(175)",
+                "detail": "[<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%] [<span data-tooltip='Soul Blessing (2nd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-blessing.png' alt='Skill Soul Blessing'/></span> +15] [<span data-tooltip='Divine Hand (2nd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/divine-hand.png' alt='Skill Divine Hand'/></span> +20] [<span data-tooltip='Soul Blessing II (3rd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-blessing-ii.png' alt='Skill Soul Blessing II'/></span> +15] [<span data-tooltip='Inner Voice (3rd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/inner-voice.png' alt='Skill Inner Voice'/></span> +30] [<span data-tooltip='Student of the Blade (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png' alt='Skill Student of the Blade'/></span> +50] [<span data-tooltip='Cygnus Blessing (Link Skill)'><img src='/class-icons/link-skills/cygnus-blessing.png' alt='Skill Cygnus Blessing'/></span> up to +25]"
             },
             {
                 "name": "Crit Chance",
-                "stat": "+40%(70%)",
-                "detail": "[Base +5%] [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +15%] [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +20%] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +30%}"
+                "stat": "+15%(65%)",
+                "detail": "[Base +5%] [<span data-tooltip='Soul Pledge (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png' alt='Skill Weapon Mastery'/></span> +10%] [<span data-tooltip='Falling Moon (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/></span> +35% while active]"
             },
             {
                 "name": "Crit Damage",
-                "stat": "(+20%)",
-                "detail": "[<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +20%]"
+                "stat": "+12%",
+                "detail": "[<span data-tooltip='Student of the Blade (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png' alt='Skill Student of the Blade'/></span> +12%]"
             },
             {
                 "name": "Damage",
-                "stat": "(+65%)",
-                "detail": "(<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +5% when axe is equipped) {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%) (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +3% when hit up to +30%)"
+                "stat": "(+130%)",
+                "detail": "{<span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span> +10%} (<span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span> up to +120%)"
             },
             {
                 "name": "Boss Damage",
-                "stat": "+20%(24%)",
-                "detail": "[<span data-tooltip='Advanced Combo Attack - Boss Rush (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png' alt='Skill Advanced Combo Attack Boss Rush'/></span> +2% per orb up to +20%] {<img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/> up to 20% of Combo Orbs (+4%)}"
+                "stat": "+20%",
+                "detail": "[<span data-tooltip='Unpredictable (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/unpredictable.png' alt='Skill Unpredictable'/></span> +20%]"
             },
             {
                 "name": "Final Damage",
-                "stat": "+142%(~535.71%)",
-                "detail": "[<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%] x [<span data-tooltip='Advanced Combo (4th Job)'><img src='/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span>/<span data-tooltip='Advanced Combo Attack - Reinforce (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack Reinforce'/></span> +120% + {<span data-tooltip='Sword Illusion (5th Job)'><img src='/class-icons/explorers/hero/sword-illusion.png' alt='Skill Sword Illusion'/></span> (Final Damage increase of 6 Combo Orbs) +72%}] x [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated] x [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active] x {<span data-tooltip='Instinctual Combo (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> up to 20% of Combo Orbs (+24%)} x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%)"
+                "stat": "+37.5%(~67.61%)",
+                "detail": "[<span data-tooltip='Rising Sun (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/></span> +25% while active] x [<span data-tooltip='Soul Blessing III (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-blessing-iii.png' alt='Skill Soul Blessing III'/></span> +10%] x [<span data-tooltip='True Sight (3rd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/true-sight.png' alt='Skill True Sight'/></span> +5% from debuff [<span data-tooltip='True Sight - Enhance (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/true-sight-enhance.png' alt='Skill True Sight - Enhance'/></span> +10%)] x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%)"
             },
             {
                 "name": "Ignore DEF",
-                "stat": "+50%(~58%)",
-                "detail": "[<span data-tooltip='Combat Mastery (4th Job)'><img src='/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> +50%] x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%)"
+                "stat": "+37%",
+                "detail": "[<span data-tooltip='Soul Element (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-element.png' alt='Skill Soul Element'/></span> +10%] x [<span data-tooltip='Unpredictable (2nd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/unpredictable.png' alt='Skill Unpredictable'/></span> +30%] x [<span data-tooltip='True Sight (3rd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/true-sight.png' alt='Skill True Sight'/></span> +10% from debuff [<span data-tooltip='True Sight - Guardbreak (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/true-sight-guardbreak.png' alt='Skill True Sight - Guardbreak'/></span> +10%)] x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%)"
             }
         ],
         "buffInfo": {
