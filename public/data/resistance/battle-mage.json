@@ -23,12 +23,59 @@
                 "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +15%] [<span data-tooltip='Staff Mastery (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-mastery.png' alt='Skill Staff Mastery'/></span> +20%] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +20% while active]",
                 "<strong>Crit Damage</strong>: [<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +15%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +20%] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +10% while active]",
                 "<strong>Damage</strong>: [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%] [<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +10% while active] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +25% while active]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +25%] [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span>",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +25%] [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +5%]",
                 "<strong>Knockback Resistance</strong>: [<span data-tooltip='Power Stance (3rd Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +100%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 8 [<span data-tooltip='Hasty Aura (1st Job)'><img src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/></span> +1 while active, does not bypass Soft Cap]",
                 "<strong>Ignore DEF</strong>: [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +30%] [<span data-tooltip='Weakening Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/></span> +20% from debuff]",
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Blue Aura (3rd Job)'><img src='/class-icons/resistance/battle-mage/blue-aura.png' alt='Skill Blue Aura'/></span> 30 & 20 while active]"
             ]
+        ],
+        "weaponStats": {
+            "weaponMultiply": "1.2x",
+            "attackSpeed": ["8", "[Stage 4] [<span data-tooltip='Hasty Aura (1st Job)'><img src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/></span> +2 & +1 while active - does not bypass Soft Cap] [<span data-tooltip='Staff Boost (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-boost.png' alt='Skill Staff Boost'/></span> +2]"],
+            "mastery": ["95%", "[Base +25%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +70%]"]
+        },
+        "attackStats": [
+            {
+                "name": "INT",
+                "stat": "+15%(415%) +40",
+                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='High Wisdom (2nd Job)'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> +40]"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+25% +80(~140)",
+                "detail": "[<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +15%] [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%] [<span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +20] [<span data-tooltip='Staff Mastery (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-mastery.png' alt='Skill Staff Mastery'/></span> +30] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +30] {<span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span> +60}"
+            },
+            {
+                "name": "Crit Chance",
+                "stat": "+40%(~60%)",
+                "detail": "[Base +5%] [<span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +15%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +20%] {<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +20% while active}"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+35%(~45%)",
+                "detail": "[<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +15%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +20%] {<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +10% while active}"
+            },
+            {
+                "name": "Damage",
+                "stat": "+15%(~70%)",
+                "detail": "[<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%] {<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +10% while active} {<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +25% while active} {<span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/for-liberty.png' alt='Skill For Liberty'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "(~5%)",
+                "detail": "(<span data-tooltip='Dark Aura - Boss Rush (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/dark-aura-boss-rush.png' alt='Skill Dark Aura - Boss Rush'/></span> +5%)"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+58.6%(~79.85%)",
+                "detail": "[<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +25%] x [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +5%] x (<span data-tooltip='Weakening Aura - Elemental Decrease (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/weakening-aura-elemental-decrease.png' alt='Skill Weakening Aura - Elemental Decrease'/></span> +8%) x (<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8% while toggled)"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+30%(~44%)",
+                "detail": "[<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +30%] x {<span data-tooltip='Weakening Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/></span> +20% from debuff}"
+            }
         ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Staff Boost (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-boost.png' alt='Skill Staff Boost'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
@@ -622,7 +669,7 @@
             "fifthMain": [
                 {
                     "name": "Aura Scythe",
-                    "shortDesc": "MP Cost: 100 per sec, Duration: 40 sec, grants the effect of all your auras. Additional Magic ATT increase by 56 for the self.\\nThe Aura Scythe enhances your Blow skills. MP Cost: 75, Max Enemies Hit: 10, Damage: 300%, Number of Attacks: 12. Additional Critical Rate: +50%, Enemy DEF Ignored: +50%.\\nCan be toggled On/Off.\\nCooldown: 90 sec.",
+                    "shortDesc": "MP Cost: 100 per sec, Duration: 40 sec, grants the effect of all your auras. Additional Magic ATT increase by 60 for the self.\\nThe Aura Scythe enhances your Blow skills. MP Cost: 75, Max Enemies Hit: 10, Damage: 300%, Number of Attacks: 12. Additional Critical Rate: +50%, Enemy DEF Ignored: +50%.\\nCan be toggled On/Off.\\nCooldown: 90 sec.",
                     "icons": ["/class-icons/resistance/battle-mage/aura-scythe.png"],
                     "animations": ["https://media0.giphy.com/media/PTsU31Ntwf7nUvhrTC/giphy.gif"],
                     "type": "Party Aura / Buff Attack",
