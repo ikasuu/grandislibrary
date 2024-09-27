@@ -36,7 +36,7 @@ export const classes = {
     nova: [["angelic-buster", "Angelic Buster"], ["kaiser", "Kaiser"], ["cadena", "Cadena"], ["kain", "Kain"]],
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
-    other: [["hoyoung", "Hoyoung"], ["kinesis", "Kinesis"], ["zero", "Zero"], ["lynn", "Lynn"]],
+    other: [["kinesis", "Kinesis"], ["zero", "Zero"], ["lynn", "Lynn"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]]
 }
 

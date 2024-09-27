@@ -75,7 +75,7 @@ export function ClassIntro({data}) {
                 <Row>
                     <PropertyContainer md="auto">
                         <ClassProperties content={data.content}/>
-                        <PropertyBox skills={data.skill.notable} infographics={data.content.infographics}/>
+                        <PropertyBox skills={data.skill.notable} infographics={data.content.infographics} resources={data.content.moreInfo}/>
                         <LinkSkill linkSkill={data.content.linkSkill}/>
                     </PropertyContainer>
                     <BuffContainer md="auto">
@@ -161,7 +161,7 @@ function ClassProperties({content}) {
     Created by: Ikasuu, Fall 2020
 */
 
-function PropertyBox({skills, infographics}) {
+function PropertyBox({skills, infographics, resources}) {
   return (
       <div style={{paddingLeft: '0.5rem'}}>
         <StyledHeaderFive>Skill Preview<InfoButton tooltip="Click the skill icon to view skill animation"/></StyledHeaderFive>
@@ -170,18 +170,29 @@ function PropertyBox({skills, infographics}) {
         )}
         {
             infographics ? 
-            <div>
-                <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
-                {
-                    infographics.map( image => 
-                    <ClassInfographic infographic={image.src} title={image.title}/>
-                )}
-            </div>
+            <InfographicBox data={infographics}/>
             : <></>
         }
+        <ResourceBox data={resources}/>
       </div>
   );
 }
+
+/*
+    Box component to display Class Infographcis in Class Overviews
+    Created by: Ikasuu, Fall 2024
+*/
+    function InfographicBox({data}){
+        return(
+            <div>
+                <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
+                {
+                    data.map(image => 
+                    <ClassInfographic key={image.title} infographic={image.src} title={image.title}/>
+                )}
+            </div>
+        )
+    }
 
 /*
     Displays the class infographics in the class properties section and handles modal logic
@@ -209,6 +220,35 @@ export function ClassInfographic({ infographic, title }) {
                     </a>
                 </Modal.Body>
             </Modal>
+        </span>
+    );
+}
+
+/*
+    Box component to display Resources in Class Overviews
+    Created by: Ikasuu, Fall 2024
+*/
+function ResourceBox({data}){
+    return(
+        <div>
+            <StyledHeaderFive>Other Resources<InfoButton tooltip="Click the chip to open an external link in a new tab"/></StyledHeaderFive>
+            {
+                data.map(resource => 
+                <ResourceLink key={resource.title} link={resource.link} title={resource.title}/>
+            )}
+        </div>
+    );
+}
+
+/*
+    Handles the logic for the resource links in the class properties section
+    Created by: Ikasuu, Fall 2024
+*/
+
+function ResourceLink({link, title}){
+    return(
+        <span>
+            <a href={link} target="_blank" rel="noreferrer noopener"><Chip deleteIcon={<span className="launch-button"/>} onDelete={()=>{}} label={title} className="hvr-grow" clickable size="large"/></a>
         </span>
     );
 }
