@@ -24,141 +24,150 @@
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +15%] [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +20%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +20% while active]",
-                "<strong>Damage</strong>: [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +5% when axe is equipped] [<span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> +25% to Critical Hits from debuff]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%] [<span data-tooltip='Advanced Combo (4th Job)'><img src='/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span> up to +100%] [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active] [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Warrior Mastery (1st Job)'><img src='/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]",
+                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +15%] [<span data-tooltip='Chance Attack (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +20%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Enrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +20% while active]",
+                "<strong>Damage</strong>: [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +5% when axe is equipped] [<span data-tooltip='Puncture (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> +25% to Critical Hits from debuff]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%] [<span data-tooltip='Advanced Combo (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span> up to +100%] [<span data-tooltip='Enrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active] [<span data-tooltip='Chance Attack (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated]",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Warrior Mastery (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]",
                 "<strong>Attack Speed (Weapon)</strong>: [1H] Stage 8, [2H] Stage 7",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Combat Mastery (4th Job)'><img src='/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> +50%]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Endure (3rd Job)'><img src='/class-icons/explorers/hero/endure.png' alt='Skill Endure'/></span> 30]"
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Combat Mastery (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> +50%]",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Endure (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/endure.png' alt='Skill Endure'/></span> 30]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "[1H] 1.34x [2H] 1.44x",
-            "attackSpeed": ["[1H] 8 [2H] 7", "[Stage 5 for 1H / Stage 4 for 2H] [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +1] [<span data-tooltip='Agile Arms (2nd Job)'><img src='/class-icons/explorers/hero/agile-arms.png' alt='Skill Agile Arms'/></span> +2]"],
-            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "[1H] 1.34x [2H] 1.44x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "[1H] 8 [2H] 7",
+                "detail": "<ul><li class='bs-no-icon'>Stage 5 for 1H / Stage 4 for 2H</li> <li><span data-tooltip='Weapon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +1</li> <li><span data-tooltip='Agile Arms (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/agile-arms.png' alt='Skill Agile Arms'/></span> +2</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Weapon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +70%</li></ul>"
+            },
             {
                 "name": "STR",
                 "stat": "+15%(415%) +50(80)",
-                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='Agile Arms (2nd Job)'><img src='/class-icons/explorers/hero/agile-arms.png' alt='Skill Agile Arms'/></span> +20] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30] (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +30)"
+                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='Agile Arms (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/agile-arms.png' alt='Skill Agile Arms'/></span> +20</li> <li><span data-tooltip='Physical Training (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +30</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "+80(~154)",
-                "detail": "[<span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> +2 per orb up to +20] [<span data-tooltip='Spirit Blade (2nd Job)'><img src='/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> +30] [<span data-tooltip='Advanced Final Attack (4th Job)'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +30] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +50} {<img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/> up to 20% of Combo Orbs (+4)} (<span data-tooltip='Advanced Final Attack - Ferocity (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-final-attack-ferocity.png' alt='Skill Advanced Final Attack Ferocity'/></span> +20)"
+                "detail": "<ul><li><span data-tooltip='Combo Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> +2 per orb up to +20</li> <li><span data-tooltip='Spirit Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> +30</li> <li><span data-tooltip='Advanced Final Attack (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +30</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +50</li> <li><span data-tooltip='Instinctual Combo (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> up to 20% of Combo Orbs (+4)</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Advanced Final Attack - Ferocity (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-final-attack-ferocity.png' alt='Skill Advanced Final Attack Ferocity'/></span> +20</li></ul>"
             },
             {
                 "name": "Crit Chance",
                 "stat": "+40%(70%)",
-                "detail": "[Base +5%] [<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +15%] [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +20%] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +30%}"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Weapon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +15%</li> <li><span data-tooltip='Chance Attack (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +30%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "(+20%)",
-                "detail": "[<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +20%]"
+                "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Enrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +20%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "(+65%)",
-                "detail": "(<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +5% when axe is equipped) {<span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%) (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%)"
+                "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Weapon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +5% when axe is equipped</li> <li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li> <li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "+20%(24%)",
-                "detail": "[<span data-tooltip='Advanced Combo Attack - Boss Rush (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png' alt='Skill Advanced Combo Attack Boss Rush'/></span> +2% per orb up to +20%] {<img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/> up to 20% of Combo Orbs (+4%)}"
+                "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Instinctual Combo (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> up to 20% of Combo Orbs (+4%)</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Advanced Combo Attack - Boss Rush (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png' alt='Skill Advanced Combo Attack Boss Rush'/></span> +2% per orb up to +20%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+142%(~535.71%)",
-                "detail": "[<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%] x [<span data-tooltip='Advanced Combo (4th Job)'><img src='/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span>/<span data-tooltip='Advanced Combo Attack - Reinforce (Hyper Skill)'><img src='/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack Reinforce'/></span> +120% + {<span data-tooltip='Sword Illusion (5th Job)'><img src='/class-icons/explorers/hero/sword-illusion.png' alt='Skill Sword Illusion'/></span> (Final Damage increase of 6 Combo Orbs) +72%}] x [<span data-tooltip='Chance Attack (3rd Job)'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated] x [<span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active] x {<span data-tooltip='Instinctual Combo (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> up to 20% of Combo Orbs (+24%)} x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%)"
+                "detail": "<ul><li><span data-tooltip='Weapon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +10%</li></ul> × <ul><li><span data-tooltip='Advanced Combo (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span>/<span data-tooltip='Advanced Combo Attack - Reinforce (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack Reinforce'/></span> +120% + {<span data-tooltip='Sword Illusion (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/sword-illusion.png' alt='Skill Sword Illusion'/></span> (Final Damage increase of 6 Combo Orbs) +72%}</li></ul> × <ul><li><span data-tooltip='Chance Attack (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> +25% to pierced, incapacitated</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Enrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> +25% while active</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Instinctual Combo (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> up to 20% of Combo Orbs (+24%)</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+50%(~58%)",
-                "detail": "[<span data-tooltip='Combat Mastery (4th Job)'><img src='/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> +50%] x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%)"
+                "detail": "<ul><li><span data-tooltip='Combat Mastery (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> +50%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%</li></ul>"
             }
         ],
         "defenseStats": [
             {
                 "name": "Abnormal Status Resistance",
                 "stat": "+30(~210)",
-                "detail": "[<span data-tooltip='Endure (3rd Job)'><img src='/class-icons/explorers/hero/endure.png' alt='Skill Endure'/></span> +30] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +100} (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +80)"
+                "detail": "[<span data-tooltip='Endure (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/endure.png' alt='Skill Endure'/></span> +30] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +100} (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +80)"
             },
             {
                 "name": "Knockback Resistance",
                 "stat": "+100%",
-                "detail": "[<span data-tooltip='Warrior Mastery (1st Job)'><img src='/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]"
+                "detail": "[<span data-tooltip='Warrior Mastery (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]"
             },
             {
                 "name": "Defense",
                 "stat": "+200",
-                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> +200]"
+                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> +200]"
             },
             {
                 "name": "Damage Reduction (Non-Max HP)",
                 "stat": "-40%",
-                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> -10%] [<span data-tooltip='Spirit Blade (2nd Job)'><img src='/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> -30%]"
+                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> -10%] [<span data-tooltip='Spirit Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> -30%]"
             }
         ],
         "movementStats": [
             {
                 "name": "Extra Jump",
-                "detail": "[<span data-tooltip='War Leap (1st Job)'><img src='/class-icons/explorers/warrior/war-leap-4.png' alt='Skill War Leap'/></span> Double Jump]"
+                "detail": "[<span data-tooltip='War Leap (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/war-leap-4.png' alt='Skill War Leap'/></span> Double Jump]"
             },
             {
                 "name": "Up Jump",
-                "detail": "[<span data-tooltip='Upward Charge (1st Job)'><img src='/class-icons/explorers/warrior/upward-charge-4.png' alt='Skill Upward Charge'/></span>]"
+                "detail": "[<span data-tooltip='Upward Charge (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/upward-charge-4.png' alt='Skill Upward Charge'/></span>]"
             },
             {
                 "name": "Dash",
-                "detail": "[<span data-tooltip='Flash Blade (2nd Job)'><img src='/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/></span> Dash to nearby enemy] [<span data-tooltip='Rush (3rd Job)'><img src='/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span> Dash forward]"
+                "detail": "[<span data-tooltip='Flash Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/></span> Dash to nearby enemy] [<span data-tooltip='Rush (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span> Dash forward]"
             },
             {
                 "name": "Other",
-                "detail": "[<span data-tooltip='Leap Attack (1st Job)'><img src='/class-icons/explorers/warrior/leap-attack.png' alt='Skill Leap Attack'/></span> Descend to platform below]"
+                "detail": "[<span data-tooltip='Leap Attack (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/leap-attack.png' alt='Skill Leap Attack'/></span> Descend to platform below]"
             }
         ],
         "secondaryAttacks": [
             {
                 "name": "Additional Attacks",
-                "detail": "[<span data-tooltip='Advanced Final Attack (4th Job)'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> 75% chance] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> Sword strikes periodically occur up to 12 times}"
+                "detail": "[<span data-tooltip='Advanced Final Attack (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> 75% chance] {<span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> Sword strikes periodically occur up to 12 times}"
             },
             {
                 "name": "Damage Over Time",
-                "detail": "[<span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> 165% every 2 secs for 60 secs]"
+                "detail": "[<span data-tooltip='Puncture (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> 165% every 2 secs for 60 secs]"
             }
         ],
         "utilityStats": [
             {
                 "name": "Debuffs",
-                "detail": "[<span data-tooltip='Scarring Sword (4th Job)'><img src='/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span> Applies Pierced - Accuracy -20%, Attack -30% for 20 secs ] [<span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> Damage +25% for critical attacks for 60 secs (+10% when attacked by party members)]"
+                "detail": "[<span data-tooltip='Scarring Sword (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span> Applies Pierced - Accuracy -20%, Attack -30% for 20 secs ] [<span data-tooltip='Puncture (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> Damage +25% for critical attacks for 60 secs (+10% when attacked by party members)]"
             },
             {
                 "name": "Buff Disable & Cancel",
-                "detail": "{<span data-tooltip='Magic Crash (4th Job)'><img src='/class-icons/explorers/hero/magic-crash.png' alt='Skill Magic Crash'/></span> Limits monster buff effects for 22 secs}"
+                "detail": "{<span data-tooltip='Magic Crash (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/magic-crash.png' alt='Skill Magic Crash'/></span> Limits monster buff effects for 22 secs}"
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Spirit Blade (2nd Job)'><img src='/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span>[200s]</div> <div><span data-tooltip='Scarring Sword (3rd Job)'><img src='/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
-            "toggles": "<span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> <span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span>",
-            "summons": "<div><span data-tooltip='Burning Soul Blade (5th Job)'><img src='/class-icons/explorers/hero/burning-soul-blade-1.png' alt='Skill Burning Soul Blade'/></span>[75s](120s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>[30s](120s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Instinctual Blade (5th Job)'><img src='/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span>[20s](120s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[Up to 5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Spirit Calibur (6th Job)'><img src='/class-icons/explorers/hero/spirit-calibur.png' alt='Skill Spirit Calibur'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Worldreaver (5th Job)'><img src='/class-icons/explorers/hero/worldreaver.png' alt='Skill Worldreaver'/></span>[1.6s](25s cd)</div> <div><span data-tooltip='Spirit Calibur (6th Job)'><img src='/class-icons/explorers/hero/spirit-calibur.png' alt='Skill Spirit Calibur'/></span>(360s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[Up to 5s](21% HP Barrier | 15s cd)</div>",
-            "knockback": "<div><span data-tooltip='Flash Blade (2nd Job)'><img src='/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/></span>(4s cd)</div> <div><span data-tooltip='Rush (3rd Job)'><img src='/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span></div> </div> <div><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>[30s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>"
+            "active": "<div><span data-tooltip='Spirit Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span>[200s]</div> <div><span data-tooltip='Scarring Sword (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
+            "toggles": "<span data-tooltip='Combo Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> <span data-tooltip='Enrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span>",
+            "summons": "<div><span data-tooltip='Burning Soul Blade (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/burning-soul-blade-1.png' alt='Skill Burning Soul Blade'/></span>[75s](120s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>[30s](120s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Instinctual Blade (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span>[20s](120s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[Up to 5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
+            "binds": "<div><span data-tooltip='Spirit Calibur (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-calibur.png' alt='Skill Spirit Calibur'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Worldreaver (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/worldreaver.png' alt='Skill Worldreaver'/></span>[1.6s](25s cd)</div> <div><span data-tooltip='Spirit Calibur (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-calibur.png' alt='Skill Spirit Calibur'/></span>(360s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[Up to 5s](21% HP Barrier | 15s cd)</div>",
+            "knockback": "<div><span data-tooltip='Flash Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/></span>(4s cd)</div> <div><span data-tooltip='Rush (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span></div> </div> <div><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>[30s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>"
         },
         "linkSkill": {
                 "id": 80002758,
-                "icons": ["/class-icons/link-skills/invincible-belief.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/link-skills/invincible-belief.png"],
                 "type": "Passive",
                 "desc": "",
                 "details": ["Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"]
         },
         "howToCreate": {
-            "image": ["/class-icons/explorers/how-to-create.png", [499,374]],
+            "image": ["http://localhost:3000/grandislibrary/class-icons/explorers/how-to-create.png", [499,374]],
             "npc": [
                 ["/images/npc/dances-with-balrog.png", [98,107]],
                 ["/images/npc/sugar.png",[64,97]]
@@ -170,10 +179,10 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job","<span data-tooltip='War Leap'><img src='/class-icons/explorers/warrior/war-leap-1.png' alt='Skill War Leap'/></span> -> <span data-tooltip='Iron Body'><img src='/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> -> <span data-tooltip='Warrior Mastery'><img src='/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> -> <span data-tooltip='Slash Blast'><img src='/class-icons/explorers/warrior/slash-blast.png' alt='Skill Slash Blast'/></span> -> <span data-tooltip='Upward Charge'><img src='/class-icons/explorers/warrior/upward-charge-1.png' alt='Skill Upward Charge'/></span>"],
-                ["2nd Job", "<span data-tooltip='Weapon Mastery'><img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> -> <span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Agile Arms'><img src='/class-icons/explorers/hero/agile-arms.png' alt='Skill Agile Arms'/></span> -> <span data-tooltip='Spirit Blade'><img src='/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> -> <span data-tooltip='Final Attack'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> -> <span data-tooltip='Brandish'><img src='/class-icons/explorers/hero/brandish.png' alt='Skill Brandish'/></span> -> <span data-tooltip='Flash Blade'><img src='/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/>"],
-                ["3rd Job", "<span data-tooltip='Self Recovery'><img src='/class-icons/explorers/hero/self-recovery.png' alt='Skill Self Recovery'/></span> -> <span data-tooltip='Chance Attack'><img src='/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> -> <span data-tooltip='Combo Synergy'><img src='/class-icons/explorers/hero/combo-synergy.png' alt='Skill Combo Synergy'/></span> -> <span data-tooltip='Endure'><img src='/class-icons/explorers/hero/endure.png' alt='Skill Endure'/></span> -> <span data-tooltip='Intrepid Slash'><img src='/class-icons/explorers/hero/intrepid-slash.png' alt='Skill Intrepid Slash'/></span> -> <span data-tooltip='Beam Blade'><img src='/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span> -> <span data-tooltip='Rush'><img src='/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span> -> <span data-tooltip='Scarring Sword'><img src='/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span>"],
-                ["4th Job", "<span data-tooltip='Advanced Combo'><img src='/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span> -> <span data-tooltip='Advanced Final Attack'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> -> <span data-tooltip='Power Stance'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> -> <span data-tooltip='Raging Blow'><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> -> <span data-tooltip='Combat Mastery'><img src='/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> -> <span data-tooltip='Magic Crash'><img src='/class-icons/explorers/hero/magic-crash.png' alt='Skill Magic Crash'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Enrage'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> -> <span data-tooltip='Puncture'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
+                ["1st Job","<span data-tooltip='War Leap'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/war-leap-1.png' alt='Skill War Leap'/></span> -> <span data-tooltip='Iron Body'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> -> <span data-tooltip='Warrior Mastery'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> -> <span data-tooltip='Slash Blast'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/slash-blast.png' alt='Skill Slash Blast'/></span> -> <span data-tooltip='Upward Charge'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/upward-charge-1.png' alt='Skill Upward Charge'/></span>"],
+                ["2nd Job", "<span data-tooltip='Weapon Mastery'><img src='http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> -> <span data-tooltip='Physical Training'><img src='http://localhost:3000/grandislibrary/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Agile Arms'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/agile-arms.png' alt='Skill Agile Arms'/></span> -> <span data-tooltip='Spirit Blade'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> -> <span data-tooltip='Final Attack'><img src='http://localhost:3000/grandislibrary/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> -> <span data-tooltip='Brandish'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/brandish.png' alt='Skill Brandish'/></span> -> <span data-tooltip='Flash Blade'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/>"],
+                ["3rd Job", "<span data-tooltip='Self Recovery'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/self-recovery.png' alt='Skill Self Recovery'/></span> -> <span data-tooltip='Chance Attack'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/chance-attack.png' alt='Skill Chance Attack'/></span> -> <span data-tooltip='Combo Synergy'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-synergy.png' alt='Skill Combo Synergy'/></span> -> <span data-tooltip='Endure'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/endure.png' alt='Skill Endure'/></span> -> <span data-tooltip='Intrepid Slash'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/intrepid-slash.png' alt='Skill Intrepid Slash'/></span> -> <span data-tooltip='Beam Blade'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span> -> <span data-tooltip='Rush'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span> -> <span data-tooltip='Scarring Sword'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span>"],
+                ["4th Job", "<span data-tooltip='Advanced Combo'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo.png' alt='Skill Advanced Combo'/></span> -> <span data-tooltip='Advanced Final Attack'><img src='http://localhost:3000/grandislibrary/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> -> <span data-tooltip='Power Stance'><img src='http://localhost:3000/grandislibrary/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> -> <span data-tooltip='Raging Blow'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> -> <span data-tooltip='Combat Mastery'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combat-mastery.png' alt='Skill Combat Mastery'/></span> -> <span data-tooltip='Magic Crash'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/magic-crash.png' alt='Skill Magic Crash'/></span> -> <span data-tooltip='Maple Warrior'><img src='http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Enrage'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> -> <span data-tooltip='Puncture'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='http://localhost:3000/grandislibrary/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
             ],
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -182,11 +191,11 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack - Reinforce'/> <img src='/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png' alt='Skill Advanced Combo Attack - Boss Rush'/> Advanced Combo Attack - Reinforce and Boss Rush</li> <li><img src='/class-icons/explorers/hero/advanced-final-attack-opportunity.png' alt='Skill Advanced Final Attack - Opportunity'/> Advanced Final Attack - Opportunity</li> <li><img src='/class-icons/explorers/hero/raging-blow-reinforce.png' alt='Skill Raging Blow - Reinforce'/> <img src='/class-icons/explorers/hero/raging-blow-extra-strike.png' alt='Skill Raging Blow - Extra Strike'/> Raging Blow - Reinforce and Extra Strike</li></ul>" 
+            "recommended": "<ul><li><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo-attack-reinforce.png' alt='Skill Advanced Combo Attack - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png' alt='Skill Advanced Combo Attack - Boss Rush'/> Advanced Combo Attack - Reinforce and Boss Rush</li> <li><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-final-attack-opportunity.png' alt='Skill Advanced Final Attack - Opportunity'/> Advanced Final Attack - Opportunity</li> <li><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow-reinforce.png' alt='Skill Raging Blow - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow-extra-strike.png' alt='Skill Raging Blow - Extra Strike'/> Raging Blow - Reinforce and Extra Strike</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Raging Blow (4th Job)'><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> <span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> <span data-tooltip='Rising Rage (Hyper Skill)'><img src='/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> <span data-tooltip='Beam Blade (4th Job)'><img src='/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Brandish (2nd Job)'><img src='/class-icons/explorers/hero/brandish.png' alt='Skill Brandish'/></span> <span data-tooltip='Flash Blade (2nd Job)'><img src='/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/></span> <span data-tooltip='Intrepid Slash (3rd Job)'><img src='/class-icons/explorers/hero/intrepid-slash.png' alt='Skill Intrepid Slash'/></span> <span data-tooltip='Leap Attack (1st Job), Rush (3rd Job), and Upward Charge (1st Job)'><img src='/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span> <span data-tooltip='Beam Blade (3rd Job)'><img src='/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span> <span data-tooltip='Raging Blow (4th Job)'><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> <span data-tooltip='Puncture (4th Job)'><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> <span data-tooltip='Rising Rage (Hyper Skill)'><img src='/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> <span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Raging Blow (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> <span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Puncture (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> <span data-tooltip='Rising Rage (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> <span data-tooltip='Beam Blade (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
+            "possible": "<span data-tooltip='Final Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Brandish (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/brandish.png' alt='Skill Brandish'/></span> <span data-tooltip='Flash Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/></span> <span data-tooltip='Intrepid Slash (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/intrepid-slash.png' alt='Skill Intrepid Slash'/></span> <span data-tooltip='Leap Attack (1st Job), Rush (3rd Job), and Upward Charge (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span> <span data-tooltip='Beam Blade (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span> <span data-tooltip='Raging Blow (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> <span data-tooltip='Puncture (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/></span> <span data-tooltip='Rising Rage (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> <span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>"
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Hero"},
@@ -202,7 +211,7 @@
         ],
         "extraContent": {
             "title": "Swordsmanship Skills",
-            "content": "<p>Upon unlocking your Lv. 140 Hyper Skill, <img src='/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/> Cry Valhalla, the skill provides a buff that causes skills listed as 'Swordsmanship' skills to trigger additional attacks that damage nearby enemies. This additional attack can only trigger a set amount of times each time the buff is used</p><p>Below are a list of skills categorized as 'Swordsmanship' skills:</p><ul><li><img src='/class-icons/explorers/hero/brandish.png' alt='Skill Brandish'/> Brandish (2nd Job)</li><li><img src='/class-icons/explorers/hero/intrepid-slash.png' alt='Skill Intrepid Slash'/> Intrepid Slash (3rd Job)</li><li><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/> Raging Blow (4th Job)</li><li><img src='/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/> Puncture (4th Job)</li></ul>"
+            "content": "<p>Upon unlocking your Lv. 140 Hyper Skill, <img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/> Cry Valhalla, the skill provides a buff that causes skills listed as 'Swordsmanship' skills to trigger additional attacks that damage nearby enemies. This additional attack can only trigger a set amount of times each time the buff is used</p><p>Below are a list of skills categorized as 'Swordsmanship' skills:</p><ul><li><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/brandish.png' alt='Skill Brandish'/> Brandish (2nd Job)</li><li><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/intrepid-slash.png' alt='Skill Intrepid Slash'/> Intrepid Slash (3rd Job)</li><li><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/> Raging Blow (4th Job)</li><li><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/puncture.png' alt='Skill Puncture'/> Puncture (4th Job)</li></ul>"
         }
     },
     "skill": {
@@ -212,7 +221,7 @@
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
-                    "icons": ["/class-icons/explorers/three-snails.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/three-snails.png"],
                     "animations": ["https://media.giphy.com/media/QrAqaSNdwLfUhpayZm/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
@@ -221,7 +230,7 @@
                     "name": "Recovery",
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
-                    "icons": ["/class-icons/explorers/recovery.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/recovery.png"],
                     "animations": ["https://media.giphy.com/media/2ww0pfq09TtjUn0Tvz/giphy.gif"],
                     "type": "Buff"
                 },
@@ -229,7 +238,7 @@
                     "name": "Nimble Feet",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
-                    "icons": ["/class-icons/explorers/nimble-feet.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/nimble-feet.png"],
                     "animations": ["https://media.giphy.com/media/2iIN8sZy6yHTtKAO0l/giphy.gif"],
                     "type": "Buff"
                 },
@@ -237,7 +246,7 @@
                     "name": "Maple Return",
                     "shortDesc": "Returns you to Southperry Harbor on Maple Island.\\nCooldown: 600 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/maple-return.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/maple-return.png"],
                     "animations": ["https://media.giphy.com/media/och2oYzCI5ySaJyGob/giphy.gif"],
                     "type": "Active"
                 },
@@ -245,7 +254,7 @@
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/common/echo-of-hero.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
@@ -262,7 +271,7 @@
                         "name": "Slash Blast",
                         "shortDesc": "MP Cost: 6, Damage: 335%, Max Enemies Hit: 6",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/explorers/warrior/slash-blast.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/warrior/slash-blast.png"],
                         "animations": ["https://media.giphy.com/media/VOIQ77RkK13oipRhAR/giphy.gif"],
                         "type": "Attack",
                         "desc": "Slash forward at multiple enemies"
@@ -271,7 +280,7 @@
                         "name": "War Leap",
                         "shortDesc": "MP Cost: 11, allows you to jump a greater distance",
                         "maxLevel": 5,
-                        "icons": ["/class-icons/explorers/warrior/war-leap-1.png", "/class-icons/explorers/warrior/war-leap-4.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/warrior/war-leap-1.png", "http://localhost:3000/grandislibrary/class-icons/explorers/warrior/war-leap-4.png"],
                         "animations": ["https://media.giphy.com/media/XgzzR8I7ly0wJ9nk5Z/giphy.gif"],
                         "type": "Active",
                         "desc": "Double jump skill",
@@ -283,7 +292,7 @@
                         "name": "Upward Charge",
                         "shortDesc": "MP Cost: 20, Max Enemies Hit: 5, Damage: 304%.",
                         "maxLevel": 5,
-                        "icons": ["/class-icons/explorers/warrior/upward-charge-1.png", "/class-icons/explorers/warrior/upward-charge-4.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/warrior/upward-charge-1.png", "http://localhost:3000/grandislibrary/class-icons/explorers/warrior/upward-charge-4.png"],
                         "animations": ["https://media.giphy.com/media/EkYCQmz1cj3Kj2PQ3C/giphy.gif"],
                         "type": "Attack / Utility",
                         "desc": "Launch up into the air",
@@ -295,7 +304,7 @@
                         "name": "Leap Attack",
                         "shortDesc": "MP Cost: 5, Damage: 90%, Number of Attacks: 2, Max Enemies Hit: 4",
                         "maxLevel": 1,
-                        "icons": ["/class-icons/explorers/warrior/leap-attack.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/warrior/leap-attack.png"],
                         "animations": ["https://media.giphy.com/media/0k9ivs613ZunTO47TK/giphy.gif"],
                         "type": "Attack / Utility",
                         "desc": "Dive downwards towards nearby platforms below",
@@ -309,14 +318,14 @@
                         "name": "Iron Body",
                         "shortDesc": "DEF: +200, Max HP: +20%, Damage Taken: -10%",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/explorers/warrior/iron-body.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Warrior Mastery",
                         "shortDesc": "Speed: 10, Jump: 10, Max Speed: 10, Max HP Per Level: 20, Knockback Resistance: +40%",
                         "maxLevel": 15,
-                        "icons": ["/class-icons/explorers/warrior/warrior-mastery.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/warrior/warrior-mastery.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -325,7 +334,7 @@
                         "name": "Brandish",
                         "shortDesc": "MP Cost: 16, Damage: 280%, Number of Attacks: 2, Enemies Hit: 6",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/explorers/hero/brandish.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/brandish.png"],
                         "animations": ["https://media.giphy.com/media/oshpJcJHbaL7Ogx3es/giphy.gif"],
                         "type": "Swordsmanship Attack",
                         "desc": "Slash forward twice at multiple enemies"
@@ -334,7 +343,7 @@
                         "name": "Flash Blade",
                         "shortDesc": "MP Cost: 30, Max Enemies Hit: 6, Damage: 145%, Number of Attacks: 5\\nCooldown: 4 sec.",
                         "maxLevel": 9,
-                        "icons": ["/class-icons/explorers/hero/flash-blade.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/flash-blade.png"],
                         "animations": ["https://media.giphy.com/media/hNhhdh4xPBGLLo9FDa/giphy.gif"],
                         "type": "Attack",
                         "desc": "Dash towards enemies in a given direction",
@@ -348,7 +357,7 @@
                         "name": "Combo Attack",
                         "shortDesc": "While activated, 40% chance of having the attack added to the Combo Count.\\nAttack Power for each Combo Count: +2. Max Combo Count: 5",
                         "maxLevel": 1,
-                        "icons": ["/class-icons/explorers/hero/combo-attack.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png"],
                         "animations": ["https://media.giphy.com/media/8IYyO1LGF85d3t23MM/giphy.gif"],
                         "type": "Toggle Buff",
                         "desc": "While toggled, there is a chance to gain a Combo Orb (up to 5) when attacking",
@@ -361,7 +370,7 @@
                         "name": "Spirit Blade",
                         "shortDesc": "MP Cost: 20, Duration: 200 sec, Attack Power of Party Members Including Yourself: +30\\nDamage Taken: -30%, Damage Reflection: 500% of damage received.",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/explorers/hero/spirit-blade.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png"],
                         "animations": ["https://media.giphy.com/media/NVxhkK7pKQb0xy9Xie/giphy.gif"],
                         "type": "Party Buff",
                         "desc": "Grants you and your party flat Attack and increases %Damage Reduction for yourself",
@@ -373,7 +382,7 @@
                         "name": "Weapon Mastery",
                         "shortDesc": "Sword and Axe Mastery: +50%, Attack Speed: +1, Final Damage: +10%, Critical Rate: +15%\\nDamage +5% when equipped with an Axe.",
                         "maxLevel": 10,
-                        "icons": ["/class-icons/common/weapon-mastery-sword.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png"],
                         "type": "Passive",
                         "desc": ""
                     },
@@ -381,14 +390,14 @@
                         "name": "Agile Arms",
                         "shortDesc": "Attack Speed: +2, STR: +20",
                         "maxLevel": 10,
-                        "icons": ["/class-icons/explorers/hero/agile-arms.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/agile-arms.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Final Attack",
                         "shortDesc": "[Final Attack Skills] Has a 40% chance to deal Final Attack damage of 150%.",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/common/final-attack.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/common/final-attack.png"],
                         "type": "Final Attack Passive",
                         "desc": "Grants your attacks a chance to deal an additional hit"
                     },
@@ -396,7 +405,7 @@
                         "name": "Physical Training",
                         "shortDesc": "Permanently increase STR by 30 and DEX by 30.",
                         "maxLevel": 5,
-                        "icons": ["/class-icons/common/physical-training.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/common/physical-training.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -405,7 +414,7 @@
                         "name": "Intrepid Slash",
                         "shortDesc": "MP Cost: 19, Damage: 258%, Number of Attacks: 3, Max Enemies Hit: 6",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/explorers/hero/intrepid-slash.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/intrepid-slash.png"],
                         "animations": ["https://media.giphy.com/media/Va4aZ5guciBgzCgDQ5/giphy.gif"],
                         "type": "Swordsmanship Attack",
                         "desc": "Slashes forward consecutively at multiple enemies"
@@ -414,7 +423,7 @@
                         "name": "Rush",
                         "shortDesc": "MP Cost: 20, Damage: 305%, Max Enemies Pushed: 12",
                         "maxLevel": 10,
-                        "icons": ["/class-icons/explorers/hero/rush.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/rush.png"],
                         "animations": ["https://media.giphy.com/media/E4wIUic2hoITlJ1Tr3/giphy.gif"],
                         "type": "Attack",
                         "desc": "Dash forward while pushing enemies back",
@@ -426,7 +435,7 @@
                         "name": "Scarring Sword",
                         "shortDesc": "MP Cost: 20, Duration: 200 sec., 100% chance to pierce the enemy when attacking while skill is active\\nDecreases Accuracy by 20% and Attack Power by 30% of pierced enemy for 20 sec.",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/explorers/hero/scarring-sword.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/scarring-sword.png"],
                         "animations": ["https://media.giphy.com/media/MengmHh3cF6jZXUj3J/giphy.gif"],
                         "type": "Buff",
                         "desc": "While active, your attacks inflict a debuff on enemies",
@@ -438,7 +447,7 @@
                         "name": "Combo Synergy",
                         "shortDesc": "Has a 80% chance to gain a combo orb with every attack. Final Damage increases by 5% for each combo orb, total applied between combo orbs. Upon taking a hit, has a 30% chance to add a combo orb",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/explorers/hero/combo-synergy.png", "/class-icons/explorers/hero/combo-attack.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-synergy.png", "http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -451,28 +460,28 @@
                         "name": "Self Recovery",
                         "shortDesc": "Restores 4% of Max HP and 4% of Max MP every 4 sec.",
                         "maxLevel": 10,
-                        "icons": ["/class-icons/explorers/hero/self-recovery.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/self-recovery.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Chance Attack",
                         "shortDesc": "Final Damage (to pierced, incapacitated enemies): +25%\\nPermanently increases your Critical Rate by 20%.",
                         "maxLevel": 10,
-                        "icons": ["/class-icons/explorers/hero/chance-attack.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/chance-attack.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Endure",
                         "shortDesc": "Abnormal Status Resistance: +30, Elemental Resistance: +30%",
                         "maxLevel": 14,
-                        "icons": ["/class-icons/explorers/hero/endure.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/endure.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Beam Blade",
                         "shortDesc": "MP Cost: 55. Launches a blade that deal 180% damage 5 times to up to 8 enemies.\\nBeam Blade Damage Against Normal Monsters: +180%p\\nCooldown: 7 sec.",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/explorers/hero/beam-blade.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/beam-blade.png"],
                         "animations": ["https://media.giphy.com/media/GJh1jQT8JFCGtMV61m/giphy.gif"],
                         "type": "Attack",
                         "desc": "Launches a blade that pierces enemies in a given direction",
@@ -487,21 +496,21 @@
                     "name": "Raging Blow",
                     "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 4, Final attack is critical\\nEnhanced Raging Blow - Attack: 4 times, Damage: 344%, and the final two attacks are criticals.\\n[Passive Effects: Beam Blade Damage +70%p]",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/explorers/hero/raging-blow.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png"],
                     "animations": ["https://media.giphy.com/media/87xLc1lUKMOMo1hX5e/giphy.gif", "https://media.giphy.com/media/dT7AsZBHPXbOvCcP2F/giphy.gif"],
                     "type": "Swordsmanship Attack",
                     "desc": "Slashes forward furiously",
                     "details": [
                         "The final blow is a guaranteed Critical Hit",
                         "When Combo is fully charged, attack deals increased %Damage and the last 2 final blows are guaranteed Critical Hits",
-                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Beam Blade (3rd Job)'><img src='/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span>"
+                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Beam Blade (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/beam-blade.png' alt='Skill Beam Blade'/></span>"
                     ]
                 },
                 {
                     "name": "Puncture",
                     "shortDesc": "MP Cost: 36, Enemies Hit: 8, Damage: 400%, Number of Attacks: 4, Damage Against Normal Enemies: +50%\\nAttacked enemies have a 100% to take 165% damage every 2 sec, for 60 sec. Critical Hits deal 25% more damage to afflicted enemies. When a party member attacks, this increases by 10%",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/explorers/hero/puncture.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/puncture.png"],
                     "animations": ["https://media.giphy.com/media/L6k5XL4nPpTUE3k7aw/giphy.gif"],
                     "type": "Swordsmanship Attack",
                     "desc": "Strikes forward while applying a debuff to enemies hit",
@@ -514,20 +523,20 @@
                     "name": "Magic Crash",
                     "shortDesc": "MP Cost: 15, 100% chance to remove enemies' buffs. For 22 sec, prevents 10 enemies from casting buffs.\\nCooldown: 60 sec",
                     "maxLevel": 10,
-                    "icons": ["/class-icons/explorers/hero/magic-crash.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/magic-crash.png"],
                     "animations": ["https://media.giphy.com/media/QQ99qxMr7pLuY3sRKH/giphy.gif"],
                     "type": "Active Debuff",
                     "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs",
                     "details": [
                         "Enemies affected by Magic Crash cannot be affected again for a short period",
-                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        "Unaffected by <img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
                     ]
                 },
                 {
                     "name": "Enrage",
                     "shortDesc": "MP Cost 50:\\nFinal Damage: +25%, Critical Damage: +20%\\nReduces the Max Enemies Hit for all skills (except some summons) by 1/3. For skills that target multiple enemies, Max Enemies Hit won't be reduced below 3.",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/explorers/hero/enrage.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png"],
                     "animations": ["https://media.giphy.com/media/JmDjNR3zalRxAq9NDU/giphy.gif"],
                     "type": "Toggle Buff",
                     "desc": "While toggled, gain increased %Final Damage and %Crit Damage but reduces the Max Enemies Hit for all skills (except some summons)"
@@ -536,7 +545,7 @@
                     "name": "Maple Warrior",
                     "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/common/maple-warrior.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png"],
                     "animations": ["https://media.giphy.com/media/7oYp8YW2Il90GJnhQO/giphy.gif"],
                     "type": "Party Buff"
                 },
@@ -544,19 +553,19 @@
                     "name": "Hero's Will",
                     "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                     "maxLevel": 5,
-                    "icons": ["/class-icons/common/heros-will.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/common/heros-will.png"],
                     "animations": ["https://media.giphy.com/media/NObjYHI8mQRj7fwi0M/giphy.gif"],
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
-                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        "Unaffected by <img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
                     ]
                 },
                 {
                     "name": "Advanced Combo",
                     "shortDesc": "Final Damage boosted to 10% per Combo Orb, Max Combo Orbs: 10, Double Charge Speed Proc Rate: 80%, Weapon Mastery: Increased by 70%",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/explorers/hero/advanced-combo.png", "/class-icons/explorers/hero/combo-synergy.png", "/class-icons/common/weapon-mastery-sword.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo.png", "http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-synergy.png", "http://localhost:3000/grandislibrary/class-icons/common/weapon-mastery-sword.png"],
                     "animations": ["https://media.giphy.com/media/eePlgyvaP4VWYOMCkD/giphy.gif"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -571,21 +580,21 @@
                     "name": "Combat Mastery",
                     "shortDesc": "Defense Ignored: 50%",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/explorers/hero/combat-mastery.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/combat-mastery.png"],
                     "type": "Passive"
                 },
                 {
                     "name": "Power Stance",
                     "shortDesc": "Knockback Resistance: +60%.",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/common/power-stance.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/common/power-stance.png"],
                     "type": "Passive"
                 },
                 {
                     "name": "Advanced Final Attack",
                     "shortDesc": "Attack Power: +30 permanently.\\n[Final Attack Skills] Final Attack Chance: 60%, Damage: 170%, Times Activated: 3.",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/common/advanced-final-attack.png", "/class-icons/common/final-attack.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/common/advanced-final-attack.png", "http://localhost:3000/grandislibrary/class-icons/common/final-attack.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -601,7 +610,7 @@
                     "name": "Advanced Combo Attack - Reinforce",
                     "shortDesc": "Final Damage increased by 2% for each additional combo orb.",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/advanced-combo-attack-reinforce.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo-attack-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 140
                 },
@@ -609,7 +618,7 @@
                     "name": "Advanced Combo Attack - Opportunity",
                     "shortDesc": "Additional 20% chance to charge two combo orbs at once.",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/advanced-combo-attack-opportunity.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo-attack-opportunity.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
@@ -617,7 +626,7 @@
                     "name": "Advanced Combo Attack - Boss Rush",
                     "shortDesc": "Damage increases by 2% when attacking Boss Monster for each combo.",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -625,7 +634,7 @@
                     "name": "Advanced Final Attack - Reinforce",
                     "shortDesc": "Damage: +10%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/advanced-final-attack-reinforce.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-final-attack-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 140
                 },
@@ -633,7 +642,7 @@
                     "name": "Advanced Final Attack - Ferocity",
                     "shortDesc": "Attack +20",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/advanced-final-attack-ferocity.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-final-attack-ferocity.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
@@ -641,7 +650,7 @@
                     "name": "Advanced Final Attack - Opportunity",
                     "shortDesc": "Activation Chance +15%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/advanced-final-attack-opportunity.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-final-attack-opportunity.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -649,7 +658,7 @@
                     "name": "Raging Blow - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/raging-blow-reinforce.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
@@ -657,7 +666,7 @@
                     "name": "Raging Blow - Spread",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/raging-blow-spread.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow-spread.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
@@ -665,7 +674,7 @@
                     "name": "Raging Blow - Extra Strike",
                     "shortDesc": "Number of Attacks: +1",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/raging-blow-extra-strike.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow-extra-strike.png"],
                     "type": "Passive",
                     "reqLev": 190
                 }
@@ -675,7 +684,7 @@
                     "name": "Cry Valhalla",
                     "shortDesc": "MP Cost: 300, Knockdown Immunity Duration: 30 sec., combo fully charged\\nWhile the buff is active, Attack Power: +50, Critical Rate: +30%, Status Resistance: +100, Elemental Resistance: +100%\\n3 sword strikes periodically occur, dealing 370% damage up to 6 enemies 2 times. Sword strikes occur up to 12 times, with no more occuring afterwards.\\nCooldown: 120 sec.",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/cry-valhalla.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png"],
                     "animations": ["https://media.giphy.com/media/B40QpFvyclovVhasVI/giphy.gif"],
                     "type": "Buff",
                     "desc": "While active, grants flat Attack and increases %Crit Rate and Abnormal Status Resistance",
@@ -690,7 +699,7 @@
                     "name": "Rising Rage",
                     "shortDesc": "MP Cost: 200, Damage: 500%, Number of Attacks: 8, Enemies Hit: 10\\nCooldown: 10 sec ",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/hero/rising-rage.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/rising-rage.png"],
                     "animations": ["https://media.giphy.com/media/EUdosF6VLikdumxMU9/giphy.gif"],
                     "desc": "Unleash a massive explosion damaging nearby enemies",
                     "type": "Attack",
@@ -700,7 +709,7 @@
                     "name": "Epic Adventure",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Explorer class in the party\\nCooldown: 120 sec.",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/explorers/warrior/epic-adventure.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/warrior/epic-adventure.png"],
                     "animations": ["https://media.giphy.com/media/O2BwPvtM0XTmSjJLGd/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
@@ -713,13 +722,13 @@
                 {
                     "name": "Burning Soul Blade",
                     "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summon Duration: 75 sec. Press the skill key again to have the blade stay put (it will respawn if you stray too far).\\nWhen you use an offensive skill, attacks up to 8 enemies 6 times every 1 sec with 50% bonus Critical Rate.\\nNormal - Damage: 680% (While enraged: 770%)\\nStationary - Damage: 620% (While enraged: 675%)\\nCooldown: 120 sec.",
-                    "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/burning-soul-blade-1.png"],
                     "animations": ["https://media1.giphy.com/media/RGGyqEcRKlFU49DhcL/giphy.gif?cid=790b7611420c152aab6633a04745253a8516f456b0b73095"],
                     "type": "Summon",
                     "desc": "When used, fully charges your Combo and summons a sword that attacks whenever you attack",
                     "details": [
                         "Pressing the Skill Key again will make it stationary and attack nearby enemies<ul><li>Pressing the Down Arrow Key and Skill Key together when first summoning will deploy the sword in the stationary state</li><li>Right-clicking the skill will toggle ON/OFF a function to always summon in stationary state on cast</li></ul>",
-                        "Deals increased damage while <span data-tooltip='Enrage (4th Job)'><img src='/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> Enraged",
+                        "Deals increased damage while <span data-tooltip='Enrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span> Enraged",
                         "The sword's attacks have increased %Crit Rate",
                         "Unaffected by Damage Reflect"
                     ]
@@ -727,7 +736,7 @@
                 {
                     "name": "Worldreaver",
                     "shortDesc": "MP Cost: 500, Max Enemies Hit: 15, Damage: 880%, Number of Attacks: 14, Invulnerable while casting.\\nCooldown: 25 sec.",
-                    "icons": ["/class-icons/explorers/hero/worldreaver.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/worldreaver.png"],
                     "animations": ["https://media.giphy.com/media/jQiKV8C5OYNzD2wmtd/giphy.gif"],
                     "type": "Attack",
                     "desc": "Slices nearby enemies in half dealing tremendous damage",
@@ -739,24 +748,24 @@
                 {
                     "name": "Instinctual Combo",
                     "shortDesc": "Can be used if you have at least 1 Combo Orb. MP Cost: 1000, Duration: 20 sec\\nThe Combo Orb increases Final Damage, damage to bosses, and Attack Power by 20%.\\nDecreases the chance of charging Combo Orbs by 50%\\nTear in Space: Periodically activates a rift 3 time(s). Damage: 355%, Max Enemies Hit: 6, Number of Attacks: 6. Cannot charge the Combo Orb with the Tear in Space.\\nCooldown: 120 sec",
-                    "icons": ["/class-icons/explorers/hero/instinctual-combo.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png"],
                     "animations": ["https://media.giphy.com/media/3ZBgUWHGOrYdECsEEQ/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, using <span data-tooltip='Raging Blow (4th Job)'><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> will to create a 'Tear in Space'</li>",
+                    "desc": "While active, using <span data-tooltip='Raging Blow (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> will to create a 'Tear in Space'</li>",
                     "details": [
-                        "Increases <span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> stat bonuses of %Final Damage, %Boss Damage, and Attack",
+                        "Increases <span data-tooltip='Combo Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> stat bonuses of %Final Damage, %Boss Damage, and Attack",
                         "Decreases chance of obtaining Combo Orbs by 50%"
                     ]
                 },
                 {
                     "name": "Sword Illusion",
                     "shortDesc": "MP Cost: 700, Max Enemies Hit: 8, Damage: 275%, Attack Count: 4, Chase Cut Activation Count: 12. Afterwards, activates 5 explosion(s), which attack 5 time(s) for 550% damage.\\nWhile Combo Attack is active, upon use, increases Final Damage for 8 sec by the Final Damage bonus of the 6 Combo Orbs. Final Damage increase from Combo Orb is additive.\\nCooldown: 30 sec",
-                    "icons": ["/class-icons/explorers/hero/sword-illusion.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/sword-illusion.png"],
                     "animations": ["https://media.giphy.com/media/gLbIeSNjXVWii2e9ul/giphy.gif"],
                     "type": "Attack",
                     "desc": "Slashes forward several times and creates an explosion",
                     "details": [
-                        "Upon use, briefly increases amount of %Final Damage provided by <span data-tooltip='Combo Attack (2nd Job)'><img src='/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span>",
+                        "Upon use, briefly increases amount of %Final Damage provided by <span data-tooltip='Combo Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -767,18 +776,18 @@
                 {
                     "name": "1st Mastery Node",
                     "shortDesc": "",
-                    "icons": ["/class-icons/explorers/hero/hexa-raging-blow.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/hexa-raging-blow.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGV6M2k4bXk0bTJ4NGpxY3ZzeG9kaHBsbGVmdGc2d3Z6Zmw0dWZjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1BU5CUfBiNQIraio3z/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Raging Blow (4th Job)'><img src='/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <span data-tooltip='Raging Blow (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png' alt='Skill Raging Blow'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
                     "name": "HEXA Raging Blow",
                     "shortDesc": "MP Cost: 51, Max Enemies Hit: 8, Damage: 530%, Number of Attacks: 4, Final attack is always a critical hit, attack range of Burning Soul Blade normal state is increased\\nEnhanced Raging Blow - Attack: 4 times, Damage: 590%, and the final two attacks are criticals, attack range of Instinctual Combo and Burning Soul Blade is increased",
-                    "icons": ["/class-icons/explorers/hero/hexa-raging-blow.png", "/class-icons/explorers/hero/raging-blow.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/hexa-raging-blow.png", "http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -788,18 +797,18 @@
                 {
                     "name": "2nd Mastery Node",
                     "shortDesc": "",
-                    "icons": ["/class-icons/explorers/hero/hexa-rising-rage.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/hexa-rising-rage.png"],
                     "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExejdmc2g0MzJzb2ViajJ0aGowY2M1a2h6eWpmdjVyMzl1NTJiOGcxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/reGiOZ9vHUWo3Iplcb/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Rising Rage (Hyper Skill)'><img src='/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <span data-tooltip='Rising Rage (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/rising-rage.png' alt='Skill Rising Rage'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
                     "name": "HEXA Rising Rage",
                     "shortDesc": "MP Cost: 230\\nDamage: 254%, Max Enemies Hit: 10, Number of Attacks: 8, Chase Cuts: 4\\nCooldown: 10 sec\\n[Passive Effect: HEXA Raging Blow Damage: +148%p]",
-                    "icons": ["/class-icons/explorers/hero/hexa-rising-rage.png", "/class-icons/explorers/hero/rising-rage.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/hexa-rising-rage.png", "http://localhost:3000/grandislibrary/class-icons/explorers/hero/rising-rage.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -811,7 +820,7 @@
                 {
                     "name": "Spirit Calibur",
                     "shortDesc": "MP Cost: 1200, invincible during casting\\nDamage: 472%, Max Enemies Hit: 15, Number of Attacks: 14, Chase Cuts: 33, the final blow deals 470% damage 15 times and erupts 48 times.\\nCooldown: 360 sec",
-                    "icons": ["/class-icons/explorers/hero/spirit-calibur.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-calibur.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTMydG1uY291Nnl1aGI1YTI4dG9jOGY2am5pYXc5bmI2OGR6ZWg2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Idg3ncL8llavpo5tVo/giphy.gif"],
                     "type": "Bind Attack",
                     "desc": ""
@@ -821,47 +830,47 @@
         "notable": [
             {
                 "name": "Combo Attack - 2nd Job",
-                "icons": ["/class-icons/explorers/hero/combo-attack.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png"],
                 "animations": ["https://media.giphy.com/media/8IYyO1LGF85d3t23MM/giphy.gif"]
             },
             {
                 "name": "Beam Blade - 3rd Job",
-                "icons": ["/class-icons/explorers/hero/beam-blade.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/beam-blade.png"],
                 "animations": ["https://media.giphy.com/media/GJh1jQT8JFCGtMV61m/giphy.gif"]
             },
             {
                 "name": "Raging Blow - 4th Job",
-                "icons": ["/class-icons/explorers/hero/raging-blow.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png"],
                 "animations": ["https://media.giphy.com/media/dT7AsZBHPXbOvCcP2F/giphy.gif"]
             },
             {
                 "name": "Rising Rage - Hyper Skill",
-                "icons": ["/class-icons/explorers/hero/rising-rage.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/rising-rage.png"],
                 "animations": ["https://media.giphy.com/media/EUdosF6VLikdumxMU9/giphy.gif"]
             },
             {
                 "name": "Burning Soul Blade - 5th Job",
-                "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/burning-soul-blade-1.png"],
                 "animations": ["https://media1.giphy.com/media/RGGyqEcRKlFU49DhcL/giphy.gif?cid=790b7611420c152aab6633a04745253a8516f456b0b73095"]
             },
             {
                 "name": "Worldreaver - 5th Job",
-                "icons": ["/class-icons/explorers/hero/worldreaver.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/worldreaver.png"],
                 "animations": ["https://media.giphy.com/media/jQiKV8C5OYNzD2wmtd/giphy.gif"]
             },
             {
                 "name": "Instinctual Combo - 5th Job",
-                "icons": ["/class-icons/explorers/hero/instinctual-combo.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png"],
                 "animations": ["https://media.giphy.com/media/3ZBgUWHGOrYdECsEEQ/giphy.gif"]
             },
             {
                 "name": "HEXA Raging Blow - 6th Job",
-                "icons": ["/class-icons/explorers/hero/hexa-raging-blow.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/hexa-raging-blow.png"],
                 "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGV6M2k4bXk0bTJ4NGpxY3ZzeG9kaHBsbGVmdGc2d3Z6Zmw0dWZjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1BU5CUfBiNQIraio3z/giphy.gif"]
             },
             {
                 "name": "Spirit Calibur - 6th Job",
-                "icons": ["/class-icons/explorers/hero/spirit-calibur.png"],
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-calibur.png"],
                 "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTMydG1uY291Nnl1aGI1YTI4dG9jOGY2am5pYXc5bmI2OGR6ZWg2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Idg3ncL8llavpo5tVo/giphy.gif"]
             }
         ]

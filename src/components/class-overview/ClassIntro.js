@@ -291,7 +291,7 @@ function ClassBuffs({content}) {
 
 // Wrapper for Base Stats table
 const BaseStatsWrapper = styled(Col)`
-  max-width: 32rem;
+  max-width: 68rem;
 `;
 
 const BaseStatTitle = styled(StyledHeaderTwo)`
@@ -312,9 +312,15 @@ function ClassDetail({content}) {
            {content.discord && <p><em>For more in-depth info, visit the Class Discord at <a href={content.discord} target='_blank' rel='noreferrer'>{content.discord}</a></em></p>}
             <BaseStatsWrapper md="auto">
                 <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>
-                <Table borderless>
+                <Table responsive>
                     <tbody>
-                        {content.baseStats[1].map((stat, index) => <tr key={index}><StatTableData>{parse(DOMPurify.sanitize(stat))}</StatTableData></tr>)}
+                        {content.attackStats.map((stat, index) => 
+                            <tr key={index}>
+                                <StatTableData width='18%'><strong>{parse(DOMPurify.sanitize(stat.name))}</strong></StatTableData>
+                                <StatTableData width='18%'>{parse(DOMPurify.sanitize(stat.stat))}</StatTableData>
+                                <StatTableData className='bs-data-vals'>{parse(DOMPurify.sanitize(stat.detail))}</StatTableData>
+                            </tr>
+                        )}
                     </tbody>
                 </Table>
             </BaseStatsWrapper>

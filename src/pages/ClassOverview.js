@@ -8,6 +8,8 @@ import HeaderImageUrl from '../special/Values';
 import HeaderImage from '../components/HeaderImage';
 import SkillTab from '../components/class-overview/SkillTab';
 
+import '../css/class-overview.css';
+
 /*
     Repsonsible for rendering whole Class Overview page
     Created by: Ikasuu, Fall 2020
