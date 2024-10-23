@@ -19,81 +19,90 @@
         "baseStats": [
             "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
             [
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Piercing Vision (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +35%] [<span data-tooltip='Phantom Instinct (Link Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/link-skills/phantom-instinct.png' alt='Skill Phantom Instinct'/></span> up to +20%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Cane Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +15%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +30%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Piercing Vision (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +30%] [<span data-tooltip='Cane Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +32%]",
+                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Piercing Vision (3rd Job)'><img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +35%] [<span data-tooltip='Phantom Instinct (Link Skill)'><img src='/class-icons/link-skills/phantom-instinct.png' alt='Skill Phantom Instinct'/></span> up to +20%]",
+                "<strong>Crit Damage</strong>: [<span data-tooltip='Cane Expert (4th Job)'><img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +15%]",
+                "<strong>Damage</strong>: [<span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +30%]",
+                "<strong>Final Damage</strong>: [<span data-tooltip='Piercing Vision (3rd Job)'><img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +30%] [<span data-tooltip='Cane Expert (4th Job)'><img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +32%]",
                 "<strong>Attack Speed (Weapon)</strong>: Stage 7",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +30%] [<span data-tooltip='Penombre (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> +20% from debuff]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Bad Luck Ward (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/bad-luck-ward.png' alt='Skill Bad Luck Ward'/></span> +40%] [<span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +60%]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Bad Luck Ward (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/bad-luck-ward.png' alt='Skill Bad Luck Ward'/></span> 45]"
+                "<strong>Ignore DEF</strong>: [<span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +30%] [<span data-tooltip='Penombre (4th Job)'><img src='/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> +20% from debuff]",
+                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Bad Luck Ward (3rd Job)'><img src='/class-icons/heroes/phantom/bad-luck-ward.png' alt='Skill Bad Luck Ward'/></span> +40%] [<span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +60%]",
+                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Bad Luck Ward (3rd Job)'><img src='/class-icons/heroes/phantom/bad-luck-ward.png' alt='Skill Bad Luck Ward'/></span> 45]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.3x",
-            "attackSpeed": ["7", "[Stage 5] [<span data-tooltip='Cane Acceleration (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-acceleration.png' alt='Skill Cane Acceleration'/></span> +2]"],
-            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Cane Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Cane Acceleration (2nd Job)'><img src='/class-icons/heroes/phantom/cane-acceleration.png' alt='Skill Cane Acceleration'/></span> +2</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Cane Expert (4th Job)'><img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +70%</li></ul>"
+            },
             {
                 "name": "LUK",
                 "stat": "+15%(415%) +140",
-                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='Cane Acceleration (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-acceleration.png' alt='Skill Cane Acceleration'/></span> +20] [<span data-tooltip='Devil&#39;s Luck (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/devils-luck.png' alt='Skill Devil&#39;s Luck'/></span> +60] [<span data-tooltip='Final Feint (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span> +60]"
+                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='Cane Acceleration (2nd Job)'><img src='/class-icons/heroes/phantom/cane-acceleration.png' alt='Skill Cane Acceleration'/></span> +20</li> <li><span data-tooltip='Devil&#39;s Luck (2nd Job)'><img src='/class-icons/heroes/phantom/devils-luck.png' alt='Skill Devil&#39;s Luck'/></span> +60</li> <li><span data-tooltip='Final Feint (3rd Job)'><img src='/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span> +60</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "+80(105)",
-                "detail": "[<span data-tooltip='Lune (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/lune.png' alt='Skill Lune'/></span> +40] [<span data-tooltip='Cane Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +40] [<span data-tooltip='Maha Blessing (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/maha-blessing.png' alt='Skill Maha Blessing'/></span> +30] [<span data-tooltip='Might (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/might.png' alt='Skill Might'/></span> +40] (<span data-tooltip='Last Resort (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +30) (<span data-tooltip='Freud&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/freuds-blessing.png' alt='Skill Freud&#39;s Blessing'/></span> +25)"
+                "detail": "<ul><li><span data-tooltip='Lune (3rd Job)'><img src='/class-icons/heroes/phantom/lune.png' alt='Skill Lune'/></span> +40</li> <li><span data-tooltip='Cane Expert (4th Job)'><img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +40</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +30</li> <li><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='https://grandislibrary.com/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud&#39;s Wisdom'/></span> +25</li></ul>"
             },
             {
                 "name": "Crit Chance",
                 "stat": "+40%(~75%)",
-                "detail": "[Base +5%] [<span data-tooltip='Piercing Vision (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +35%] [<span data-tooltip='Phantom Instinct (Link Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/link-skills/phantom-instinct.png' alt='Skill Phantom Instinct'/></span> up to +20%] {<span data-tooltip='Judgment Draw - Destin (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw.png' alt='Skill Judgment Draw'/></span> +20%}"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Piercing Vision (3rd Job)'><img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +35%</li> <li><span data-tooltip='Phantom Instinct (Link Skill)'><img src='/class-icons/link-skills/phantom-instinct.png' alt='Skill Phantom Instinct'/></span> up to +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Judgment Draw - Destin (Beginner Skill)'><img src='/class-icons/heroes/phantom/judgment-draw.png' alt='Skill Judgment Draw'/></span> +20%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+15%",
-                "detail": "[<span data-tooltip='Cane Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +15%]"
+                "detail": "<ul><li><span data-tooltip='Cane Expert (4th Job)'><img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +15%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+30%(~60%)",
-                "detail": "[<span data-tooltip='Priere D&#39;Aria (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39Aria'/></span> +30%] {<span data-tooltip='Heroic Memories (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/heroic-memories.png' alt='Skill Heroic Memories'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+                "detail": "<ul><li><span data-tooltip='Priere D&#39;Aria (3rd Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39Aria'/></span> +30%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/phantom/heroic-memories.png' alt='Skill Heroic Memories'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "(~25%)",
-                "detail": "(<span data-tooltip='Freud&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/freuds-blessing.png' alt='Skill Freud&#39;s Blessing'/></span> +25%)"
+                "detail": "<ul class='bs-opt-val'><li><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='https://grandislibrary.com/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud&#39;s Wisdom'/></span> +25%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+71.6%(~123.08%)",
-                "detail": "[<span data-tooltip='Piercing Vision (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +30%] x [<span data-tooltip='Cane Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +32%] x [<span data-tooltip='Luck of the Draw (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw.png' alt='Skill Luck of the Draw'/></span> +6%} x (<span data-tooltip='Last Resort (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +36% in Stage 2)"
+                "detail": "<ul><li><span data-tooltip='Piercing Vision (3rd Job)'><img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +30%</li></ul> × <ul><li><span data-tooltip='Cane Expert (4th Job)'><img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +32%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Luck of the Draw (4th Job)'><img src='/class-icons/heroes/phantom/luck-of-the-draw.png' alt='Skill Luck of the Draw'/></span> +6%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +36% in Stage 2</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+30%(~44%)",
-                "detail": "[<span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +30%] x [<span data-tooltip='Penombre (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> +20% from debuff]"
+                "detail": "<ul><li><span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Penombre (4th Job)'><img src='/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> +20% from debuff</li></ul>"
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Maple Warrior (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><strong>[Note]</strong>: Explorer buffs can also be stolen and used</div>",
-            "buffCd": "<div><span data-tooltip='Final Feint (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span>(1800s cd upon revive)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div>",
-            "binds": "<div><span data-tooltip='Defying Fate (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/defying-fate.png' alt='Skill Defying Fate'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Final Feint (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span>[4s](1800s cd revive)</div> <div><span data-tooltip='Vol D&#39;Ame (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/vol-dame.png' alt='Skill Vol D&#39;Ame'/></span>(120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div> <div><span data-tooltip='Luck of the Draw (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw.png' alt='Skill Luck of the Draw'/></span>(180s cd)</div> <div><span data-tooltip='Phantom&#39;s Mark (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/phantoms-mark.png' alt='Skill Phantom's Mark'/></span>[2s](30s cd)</div> <div><span data-tooltip='Defying Fate (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/defying-fate.png' alt='Skill Defying Fate'/></span>(360s cd)</div> <div><strong>[Note]</strong>: Can steal Explorer iFrames</div>",
-            "damageReduce": "<div><span data-tooltip='Luck of the Draw (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw.png' alt='Skill Luck of the Draw'/></span><span data-tooltip='Luck of the Draw - Tree of Life (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-green.png' alt='Skill Tree of Life'/></span>[30s Buff](-15% while casting / -8% Buff | 180s cd)</div>"
+            "active": "<div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><strong>[Note]</strong>: Explorer buffs can also be stolen and used</div>",
+            "buffCd": "<div><span data-tooltip='Final Feint (4th Job)'><img src='/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span>(1800s cd upon revive)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/phantom/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div>",
+            "binds": "<div><span data-tooltip='Defying Fate (6th Job)'><img src='/class-icons/heroes/phantom/defying-fate.png' alt='Skill Defying Fate'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Final Feint (3rd Job)'><img src='/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span>[4s](1800s cd revive)</div> <div><span data-tooltip='Vol D&#39;Ame (4th Job)'><img src='/class-icons/heroes/phantom/vol-dame.png' alt='Skill Vol D&#39;Ame'/></span>(120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div> <div><span data-tooltip='Luck of the Draw (5th Job)'><img src='/class-icons/heroes/phantom/luck-of-the-draw.png' alt='Skill Luck of the Draw'/></span>(180s cd)</div> <div><span data-tooltip='Phantom&#39;s Mark (5th Job)'><img src='/class-icons/heroes/phantom/phantoms-mark.png' alt='Skill Phantom's Mark'/></span>[2s](30s cd)</div> <div><span data-tooltip='Defying Fate (6th Job)'><img src='/class-icons/heroes/phantom/defying-fate.png' alt='Skill Defying Fate'/></span>(360s cd)</div> <div><strong>[Note]</strong>: Can steal Explorer iFrames</div>",
+            "damageReduce": "<div><span data-tooltip='Luck of the Draw (5th Job)'><img src='/class-icons/heroes/phantom/luck-of-the-draw.png' alt='Skill Luck of the Draw'/></span><span data-tooltip='Luck of the Draw - Tree of Life (5th Job)'><img src='/class-icons/heroes/phantom/luck-of-the-draw-green.png' alt='Skill Tree of Life'/></span>[30s Buff](-15% while casting / -8% Buff | 180s cd)</div>"
         },
         "linkSkill": {
                 "id":80000002,
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/link-skills/phantom-instinct.png"],
+                "icons": ["/class-icons/link-skills/phantom-instinct.png"],
                 "type": "Passive"
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<span data-tooltip='Feather Foot'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/feather-foot.png' alt='Skill Feather Foot'/></span> -> <span data-tooltip='Phantom Swiftness'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/phantom-swiftness.png' alt='Skill Phantom Swiftness'/></span> -> <span data-tooltip='Impeccable Memory I'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-i.png' alt='Skill Impeccable Memory I'/></span> -> <span data-tooltip='Double Entendre'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/double-entendre.png' alt='Skill Double Entendre'/></span>"],
-                ["2nd Job", "<span data-tooltip='Devil&#39;s Luck'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/devils-luck.png' alt='Skill Devil's Luck'/></span> -> <span data-tooltip='Cane Mastery'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-mastery.png' alt='Skill Cane Mastery'/></span> -> <span data-tooltip='Cane Acceleration'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-acceleration.png' alt='Skill Cane Booster'/></span> -> <span data-tooltip='Carte Blanche'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-blanche.png' alt='Skill Carte Blanche'/></span> -> <span data-tooltip='Impeccable Memory II'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> -> <span data-tooltip='Calling Card'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/calling-card.png' alt='Skill Calling Card'/></span> -> <span data-tooltip='Mille Cartes'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span>"],
-                ["3rd Job", "<span data-tooltip='Piercing Vision'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> -> <span data-tooltip='Mist Mask'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mist-mask.png' alt='Skill Mist Mask'/></span> -> <span data-tooltip='Bad Luck Ward'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/bad-luck-ward.png' alt='Skill Bad Luck Ward'/></span> -> <span data-tooltip='Final Feint'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span> -> <span data-tooltip='Lune'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/lune.png' alt='Skill Lune'/></span> -> <span data-tooltip='Impeccable Memory III'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iii.png' alt='Skill Impeccable Memory III'/></span> -> <span data-tooltip='Blason'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/blason.png' alt='Skill Blason'/></span> -> <span data-tooltip='Rapier Wit'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rapier-wit.png' alt='Skill Rapier Wit'/></span>"],
-                ["4th Job", "<span data-tooltip='Carte Noir'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-noir.png' alt='Skill Carte Noir'/></span> -> <span data-tooltip='Cane Expert'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> -> <span data-tooltip='Maple Warrior'><img src='http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Priere D&#39;Aria'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D'Aria'/></span> -> <span data-tooltip='Impeccable Memory IV'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span> -> <span data-tooltip='Vol D&#39;Ame'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/vol-dame.png' alt='Skill Vol D&#39;Ame'/></span> -> <span data-tooltip='Penombre'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> -> <span data-tooltip='Mille Aiguilles'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> -> <span data-tooltip='Tempest'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='http://localhost:3000/grandislibrary/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
+                ["1st Job", "<span data-tooltip='Feather Foot'><img src='/class-icons/heroes/phantom/feather-foot.png' alt='Skill Feather Foot'/></span> -> <span data-tooltip='Phantom Swiftness'><img src='/class-icons/heroes/phantom/phantom-swiftness.png' alt='Skill Phantom Swiftness'/></span> -> <span data-tooltip='Impeccable Memory I'><img src='/class-icons/heroes/phantom/impeccable-memory-i.png' alt='Skill Impeccable Memory I'/></span> -> <span data-tooltip='Double Entendre'><img src='/class-icons/heroes/phantom/double-entendre.png' alt='Skill Double Entendre'/></span>"],
+                ["2nd Job", "<span data-tooltip='Devil&#39;s Luck'><img src='/class-icons/heroes/phantom/devils-luck.png' alt='Skill Devil's Luck'/></span> -> <span data-tooltip='Cane Mastery'><img src='/class-icons/heroes/phantom/cane-mastery.png' alt='Skill Cane Mastery'/></span> -> <span data-tooltip='Cane Acceleration'><img src='/class-icons/heroes/phantom/cane-acceleration.png' alt='Skill Cane Booster'/></span> -> <span data-tooltip='Carte Blanche'><img src='/class-icons/heroes/phantom/carte-blanche.png' alt='Skill Carte Blanche'/></span> -> <span data-tooltip='Impeccable Memory II'><img src='/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> -> <span data-tooltip='Calling Card'><img src='/class-icons/heroes/phantom/calling-card.png' alt='Skill Calling Card'/></span> -> <span data-tooltip='Mille Cartes'><img src='/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span>"],
+                ["3rd Job", "<span data-tooltip='Piercing Vision'><img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> -> <span data-tooltip='Mist Mask'><img src='/class-icons/heroes/phantom/mist-mask.png' alt='Skill Mist Mask'/></span> -> <span data-tooltip='Bad Luck Ward'><img src='/class-icons/heroes/phantom/bad-luck-ward.png' alt='Skill Bad Luck Ward'/></span> -> <span data-tooltip='Final Feint'><img src='/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span> -> <span data-tooltip='Lune'><img src='/class-icons/heroes/phantom/lune.png' alt='Skill Lune'/></span> -> <span data-tooltip='Impeccable Memory III'><img src='/class-icons/heroes/phantom/impeccable-memory-iii.png' alt='Skill Impeccable Memory III'/></span> -> <span data-tooltip='Blason'><img src='/class-icons/heroes/phantom/blason.png' alt='Skill Blason'/></span> -> <span data-tooltip='Rapier Wit'><img src='/class-icons/heroes/phantom/rapier-wit.png' alt='Skill Rapier Wit'/></span>"],
+                ["4th Job", "<span data-tooltip='Carte Noir'><img src='/class-icons/heroes/phantom/carte-noir.png' alt='Skill Carte Noir'/></span> -> <span data-tooltip='Cane Expert'><img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Priere D&#39;Aria'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D'Aria'/></span> -> <span data-tooltip='Impeccable Memory IV'><img src='/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span> -> <span data-tooltip='Vol D&#39;Ame'><img src='/class-icons/heroes/phantom/vol-dame.png' alt='Skill Vol D&#39;Ame'/></span> -> <span data-tooltip='Penombre'><img src='/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> -> <span data-tooltip='Mille Aiguilles'><img src='/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> -> <span data-tooltip='Tempest'><img src='/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
             ],
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -102,11 +111,11 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest-reinforce.png' alt='Skill Tempest - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest-cooldown-cutter.png' alt='Skill Tempest - Cooldown Cutter'/> Tempest - Reinforce and Cooldown Cutter</li><li><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles-reinforce.png' alt='Skill Mille Aiguilles - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles-guardbreak.png' alt='Skill Mille Aiguilles - Guardbreak'/> Mille Aiguilles - Reinforce and Guardbreak</li><li><strong>Choice of</strong>:<ul><li> <img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-reinforce.png' alt='Skill Impeccable Memory - Reinforce'/> Impeccable Memory - Reinforce</li><li> <img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-persist.png' alt='Skill Impeccable Memory - Persist'/> Impeccable Memory - Persist</li><li> <img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-enhance.png' alt='Skill Impeccable Memory - Enhance'/> Impeccable Memory - Enhance</li></ul></li></ul>"
+            "recommended": "<ul><li><img src='/class-icons/heroes/phantom/tempest-reinforce.png' alt='Skill Tempest - Reinforce'/> <img src='/class-icons/heroes/phantom/tempest-cooldown-cutter.png' alt='Skill Tempest - Cooldown Cutter'/> Tempest - Reinforce and Cooldown Cutter</li><li><img src='/class-icons/heroes/phantom/mille-aiguilles-reinforce.png' alt='Skill Mille Aiguilles - Reinforce'/> <img src='/class-icons/heroes/phantom/mille-aiguilles-guardbreak.png' alt='Skill Mille Aiguilles - Guardbreak'/> Mille Aiguilles - Reinforce and Guardbreak</li><li><strong>Choice of</strong>:<ul><li> <img src='/class-icons/heroes/phantom/impeccable-memory-reinforce.png' alt='Skill Impeccable Memory - Reinforce'/> Impeccable Memory - Reinforce</li><li> <img src='/class-icons/heroes/phantom/impeccable-memory-persist.png' alt='Skill Impeccable Memory - Persist'/> Impeccable Memory - Persist</li><li> <img src='/class-icons/heroes/phantom/impeccable-memory-enhance.png' alt='Skill Impeccable Memory - Enhance'/> Impeccable Memory - Enhance</li></ul></li></ul>"
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Mille Aiguilles (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> <span data-tooltip='Tempest (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> <span data-tooltip='Carte Blanche and Carte Noir (2nd Job / 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-noir.png' alt='Skill Carte Noir'/></span></div><h6>Secondary Trio</h6><div>[ <span data-tooltip='Impeccable Memory II (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> / <span data-tooltip='Impeccable Memory IV (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span> ] <span data-tooltip='Impeccable Memory III (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iii.png' alt='Skill Impeccable Memory III'/></span> <span data-tooltip='Carte Rose Finale (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-rose-finale.png' alt='Skill Carte Rose Finale'/></span></div><h6>Tertiary Trio</h6><div>[ <span data-tooltip='Impeccable Memory II (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> / <span data-tooltip='Impeccable Memory IV (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span> ] <span data-tooltip='Blason (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/blason.png' alt='Skill Blason'/></span> <span data-tooltip='Penombre (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first and so on</li><li>Choose <span data-tooltip='Impeccable Memory II (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> for using <span data-tooltip='Cardinal Burst (2nd Job, Pathfinder)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/pathfinder/cardinal-burst.png' alt='Skill Cardinal Burst'/></span> or <span data-tooltip='Impeccable Memory IV (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span> for using 4th Job skill mobbing<ul><li>Based on what's chosen for Secondary Trio, choose the other skill for the Tertiary Trio</li></ul></li><li>6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Double Entendre (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/double-entendre.png' alt='Skill Double Entendre'/></span> <span data-tooltip='Calling Card (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/calling-card.png' alt='Skill Calling Card'/></span> <span data-tooltip='Mille Cartes (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span> <span data-tooltip='Carte Blanche and Carte Noir (2nd Job / 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-noir.png' alt='Skill Carte Noir'/></span> <span data-tooltip='Blason (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/blason.png' alt='Skill Blason'/></span> <span data-tooltip='Rapier Wit (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rapier-wit.png' alt='Skill Rapier Wit'/></span> <span data-tooltip='Mille Aiguilles (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> <span data-tooltip='Penombre (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> <span data-tooltip='Tempest (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> <span data-tooltip='Rose Carte Finale (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rose-carte-finale.png' alt='Skill Carte Rose Finale'/></span> <span data-tooltip='Impeccable Memory I (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-i.png' alt='Skill Impeccable Memory I'/></span> <span data-tooltip='Impeccable Memory II (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> <span data-tooltip='Impeccable Memory III (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iii.png' alt='Skill Impeccable Memory III'/></span> <span data-tooltip='Impeccable Memory IV (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Mille Aiguilles (4th Job)'><img src='/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> <span data-tooltip='Tempest (4th Job)'><img src='/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> <span data-tooltip='Carte Blanche and Carte Noir (2nd Job / 4th Job)'><img src='/class-icons/heroes/phantom/carte-noir.png' alt='Skill Carte Noir'/></span></div><h6>Secondary Trio</h6><div>[ <span data-tooltip='Impeccable Memory II (2nd Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> / <span data-tooltip='Impeccable Memory IV (4th Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span> ] <span data-tooltip='Impeccable Memory III (3rd Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-iii.png' alt='Skill Impeccable Memory III'/></span> <span data-tooltip='Carte Rose Finale (Hyper Skill)'><img src='/class-icons/heroes/phantom/carte-rose-finale.png' alt='Skill Carte Rose Finale'/></span></div><h6>Tertiary Trio</h6><div>[ <span data-tooltip='Impeccable Memory II (2nd Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> / <span data-tooltip='Impeccable Memory IV (4th Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span> ] <span data-tooltip='Blason (3rd Job)'><img src='/class-icons/heroes/phantom/blason.png' alt='Skill Blason'/></span> <span data-tooltip='Penombre (4th Job)'><img src='/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first and so on</li><li>Choose <span data-tooltip='Impeccable Memory II (2nd Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> for using <span data-tooltip='Cardinal Burst (2nd Job, Pathfinder)'><img src='/class-icons/explorers/pathfinder/cardinal-burst.png' alt='Skill Cardinal Burst'/></span> or <span data-tooltip='Impeccable Memory IV (4th Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span> for using 4th Job skill mobbing<ul><li>Based on what's chosen for Secondary Trio, choose the other skill for the Tertiary Trio</li></ul></li><li>6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
+            "possible": "<span data-tooltip='Double Entendre (1st Job)'><img src='/class-icons/heroes/phantom/double-entendre.png' alt='Skill Double Entendre'/></span> <span data-tooltip='Calling Card (2nd Job)'><img src='/class-icons/heroes/phantom/calling-card.png' alt='Skill Calling Card'/></span> <span data-tooltip='Mille Cartes (2nd Job)'><img src='/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span> <span data-tooltip='Carte Blanche and Carte Noir (2nd Job / 4th Job)'><img src='/class-icons/heroes/phantom/carte-noir.png' alt='Skill Carte Noir'/></span> <span data-tooltip='Blason (3rd Job)'><img src='/class-icons/heroes/phantom/blason.png' alt='Skill Blason'/></span> <span data-tooltip='Rapier Wit (3rd Job)'><img src='/class-icons/heroes/phantom/rapier-wit.png' alt='Skill Rapier Wit'/></span> <span data-tooltip='Mille Aiguilles (4th Job)'><img src='/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> <span data-tooltip='Penombre (4th Job)'><img src='/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> <span data-tooltip='Tempest (4th Job)'><img src='/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> <span data-tooltip='Rose Carte Finale (Hyper Skill)'><img src='/class-icons/heroes/phantom/rose-carte-finale.png' alt='Skill Carte Rose Finale'/></span> <span data-tooltip='Impeccable Memory I (1st Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-i.png' alt='Skill Impeccable Memory I'/></span> <span data-tooltip='Impeccable Memory II (2nd Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-ii.png' alt='Skill Impeccable Memory II'/></span> <span data-tooltip='Impeccable Memory III (3rd Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-iii.png' alt='Skill Impeccable Memory III'/></span> <span data-tooltip='Impeccable Memory IV (4th Job)'><img src='/class-icons/heroes/phantom/impeccable-memory-iv.png' alt='Skill Impeccable Memory IV'/></span>"
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Phantom"},
@@ -120,7 +129,7 @@
         ],
         "extraContent": {
             "title": "Explorer Skill Stealing",
-            "content": "<p><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/skill-managment.png'/></p><p>Phantoms can steal the skills of Explorer classes to copy and use them. Certain skills cannot be stolen and the passive effects of skills do not apply</p> <p>To steal skills, use the <img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/skill-swipe.png' alt='Skill Skill Swipe'/> Skill Swipe skill in your beginners tab and search for Explorers to steal from. To manage your stolen skills, open up the Skill Management UI by using the <img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/loadout.png' alt='Skill Loadout'/> Loadout skill in your beginners tab</p>"
+            "content": "<p><img src='/class-icons/heroes/phantom/skill-managment.png'/></p><p>Phantoms can steal the skills of Explorer classes to copy and use them. Certain skills cannot be stolen and the passive effects of skills do not apply</p> <p>To steal skills, use the <img src='/class-icons/heroes/phantom/skill-swipe.png' alt='Skill Skill Swipe'/> Skill Swipe skill in your beginners tab and search for Explorers to steal from. To manage your stolen skills, open up the Skill Management UI by using the <img src='/class-icons/heroes/phantom/loadout.png' alt='Skill Loadout'/> Loadout skill in your beginners tab</p>"
         }
     },
     "skill": {
@@ -130,14 +139,14 @@
                     "name": "To The Skies",
                     "shortDesc": "MP Cost: 30, Returns you to Lumiere",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/to-the-skies.png"],
+                    "icons": ["/class-icons/heroes/phantom/to-the-skies.png"],
                     "type": "Active"
                 },
                 {
                     "name": "Shroud Walk",
                     "shortDesc": "MP Cost: 30, Use directional keys to teleport\\n(Arrows shown only for the directions you can go)\\nNumber of directional keys you can enter: 3, Each movement you make after the skill ends increases the cooldown by 1.5 seconds.",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/shroud-walk.png"],
+                    "icons": ["/class-icons/heroes/phantom/shroud-walk.png"],
                     "animations": ["https://media1.giphy.com/media/Z5sObbVDkh31uSlgeF/giphy.gif"],
                     "type": "Active",
                     "desc": "Allows you to teleport using the directional keys up to 3 times",
@@ -149,27 +158,27 @@
                     "name": "Dexterous Training",
                     "shortDesc": "DEX: +40, Avoidability: +20%, Diligence: Lv. 20, Insight: Lv. 20",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/dexterous-training.png"],
+                    "icons": ["/class-icons/heroes/phantom/dexterous-training.png"],
                     "type": "Passive"
                 },
                 {
                     "name": "Skill Swipe",
                     "shortDesc": "MP Cost: 30, Shifts to steal mode upon use\\nMove the mouse cursor to select the nearby Explorer character",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/skill-swipe.png"],
-                    "animations": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/skill-swipe-preview.jpg"],
+                    "icons": ["/class-icons/heroes/phantom/skill-swipe.png"],
+                    "animations": ["/class-icons/heroes/phantom/skill-swipe-preview.jpg"],
                     "type": "Special Active",
                     "desc": "Activates a special UI where you can select and steal skills from nearby Explorer characters",
                     "details": [
                         "Passive effects of stolen skills will not be applied",
-                        "Skill duration and cooldowns will be the same for Phantom<ul><li>Certain skills may not be stolen and Bishop's <span data-tooltip='Heal (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/heal.png' alt='Skill Heal'/></span> cooldown, if stolen will be longer</li></ul>"
+                        "Skill duration and cooldowns will be the same for Phantom<ul><li>Certain skills may not be stolen and Bishop's <span data-tooltip='Heal (2nd Job)'><img src='/class-icons/explorers/bishop/heal.png' alt='Skill Heal'/></span> cooldown, if stolen will be longer</li></ul>"
                     ]
                 },
                 {
                     "name": "Loadout",
                     "shortDesc": "Manage stolen skills. 30 second cooldown added.",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/loadout.png"],
+                    "icons": ["/class-icons/heroes/phantom/loadout.png"],
                     "type": "Special Active",
                     "desc": "Allows you to manage all the skills you have stolen",
                     "details": [
@@ -180,7 +189,7 @@
                     "name": "Judgment Draw",
                     "shortDesc": "MP Cost: 60, Attacks enemies with Carte Noir 10 times. Also grants one of the following effects for 30 sec.\\nDestin Card: Critical Rate +20%\\nMalheur Card: Item Drop Rate +10%\\nEndurance Card: Abnormal Status Resistance +20, Elemental Resistance +20\\nDrain Card: 1% of Max HP recovered when attacking",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-2.png"],
+                    "icons": ["/class-icons/heroes/phantom/judgment-draw.png", "/class-icons/heroes/phantom/judgment-draw-2.png"],
                     "animations": ["https://media.giphy.com/media/XCxZpbcYcQauPvUQe5/giphy.gif"],
                     "type": "Attack",
                     "desc": "Releases all the cards in your Card Gauge which seek out and attack one enemy",
@@ -193,15 +202,15 @@
                     "name": "Judgment Draw Auto/Manual",
                     "shortDesc": "Auto Mode: Automatically activates the Judgment Draw skill when your deck is full.\\nManual Mode: Judgment Draw must be used manually, even if your deck is empty.",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-auto.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-manual.png"],
+                    "icons": ["/class-icons/heroes/phantom/judgment-draw-auto.png", "/class-icons/heroes/phantom/judgment-draw-manual.png"],
                     "type": "Toggle",
-                    "desc": "When this skill is on Auto, <span data-tooltip='Judgment Draw (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw.png' alt='Skill Judgment Draw'/><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-2.png' alt='Skill Judgment Draw (2)'/></span> will automatically be used when your Card Gauge is filled"
+                    "desc": "When this skill is on Auto, <span data-tooltip='Judgment Draw (Beginner Skill)'><img src='/class-icons/heroes/phantom/judgment-draw.png' alt='Skill Judgment Draw'/><img src='/class-icons/heroes/phantom/judgment-draw-2.png' alt='Skill Judgment Draw (2)'/></span> will automatically be used when your Card Gauge is filled"
                 },
                 {
                     "name": "Echo of Hero",
                     "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/echo-of-hero.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
@@ -218,7 +227,7 @@
                         "name": "Double Entendre",
                         "shortDesc": "MP Cost: 14, Damage: 178%, Number of Attacks: 2, Max Enemies Hit: 4",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/double-entendre.png"],
+                        "icons": ["/class-icons/heroes/phantom/double-entendre.png"],
                         "animations": ["https://media.giphy.com/media/YTEtXAhdxGjXEDgglK/giphy.gif"],
                         "type": "Attack",
                         "desc": "Strikes forward twice"
@@ -227,7 +236,7 @@
                         "name": "Impeccable Memory I",
                         "shortDesc": "MP Cost: MP to use the equipped skill.\\nSkill Level of the stolen skill cannot be over 20",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-i.png"],
+                        "icons": ["/class-icons/heroes/phantom/impeccable-memory-i.png"],
                         "animations": ["https://media.giphy.com/media/4bg3X7inRsWXqygx5s/giphy.gif"],
                         "type": "Stolen Skill",
                         "desc": "Allows you to use a stolen 1st Job Explorer skill"
@@ -236,7 +245,7 @@
                         "name": "Phantom Swiftness",
                         "shortDesc": "MP Cost: 20, Additional Jump distance\\n[Passive Effects - Movement Speed +35, Max Movement Speed +20, Jump +20]",
                         "maxLevel": 15,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/phantom-swiftness.png"],
+                        "icons": ["/class-icons/heroes/phantom/phantom-swiftness.png"],
                         "animations": ["https://media.giphy.com/media/h1Qm730PeDP3C2tnVa/giphy.gif"],
                         "type": "Active",
                         "desc": "Double jump skill",
@@ -250,7 +259,7 @@
                         "name": "Feather Foot",
                         "shortDesc": "Avoidability +20%",
                         "maxLevel": 10,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/feather-foot.png"],
+                        "icons": ["/class-icons/heroes/phantom/feather-foot.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -259,7 +268,7 @@
                         "name": "Calling Card",
                         "shortDesc": "MP Cost: 21, Damage: 170%, Number of Attacks: 3, Max Enemies Hit: 4",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/calling-card.png"],
+                        "icons": ["/class-icons/heroes/phantom/calling-card.png"],
                         "animations": ["https://media.giphy.com/media/j6x1TU8KaRfg4A4iIa/giphy.gif"],
                         "type": "Attack",
                         "desc": "Sends out cards that strike forward"
@@ -268,7 +277,7 @@
                         "name": "Impeccable Memory II",
                         "shortDesc": "MP Cost: MP to use the equipped skill.\\nSkill Level of the stolen skill cannot be over 20",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-ii.png"],
+                        "icons": ["/class-icons/heroes/phantom/impeccable-memory-ii.png"],
                         "animations": ["https://media1.giphy.com/media/5FB6zE2ZZ8cTb9mt9U/giphy.gif"],
                         "type": "Stolen Skill",
                         "desc": "Allows you to use a stolen 2nd Job Explorer skill"
@@ -277,7 +286,7 @@
                         "name": "Mille Cartes",
                         "shortDesc": "MP Cost: 40, Damage: 320%, Max Enemies Hit: 10, Knocks back enemies",
                         "maxLevel": 15,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png"],
+                        "icons": ["/class-icons/heroes/phantom/mille-cartes.png"],
                         "animations": ["https://media.giphy.com/media/eNA3AbdliV4SeB4KA8/giphy.gif"],
                         "type": "Attack",
                         "desc": "Launches a blast of cards that pushes enemies back"
@@ -286,7 +295,7 @@
                         "name": "Carte Blanche",
                         "shortDesc": "Upon a successful critical attack, card appears at 60% chance, Damage: 160%, Deck +1",
                         "maxLevel": 10,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-blanche.png"],
+                        "icons": ["/class-icons/heroes/phantom/carte-blanche.png"],
                         "animations": ["https://media.giphy.com/media/S85DLjUuvQtzD2zywZ/giphy.gif"],
                         "type": "Passive",
                         "desc": "When you land a critical hit, there is a chance to create a card that seek and attack a nearby enemy"
@@ -295,14 +304,14 @@
                         "name": "Cane Mastery",
                         "shortDesc": "Cane Mastery: +50%",
                         "maxLevel": 10,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-mastery.png"],
+                        "icons": ["/class-icons/heroes/phantom/cane-mastery.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Cane Acceleration",
                         "shortDesc": "Attack Speed +2, Luck: +20",
                         "maxLevel": 10,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-acceleration.png"],
+                        "icons": ["/class-icons/heroes/phantom/cane-acceleration.png"],
                         "type": "Pasive",
                         "desc": "Increases Attack Speed (by 2 stages) and grants flat LUK"
                     },
@@ -310,7 +319,7 @@
                         "name": "Devil's Luck",
                         "shortDesc": "Permanently increases LUK by 60",
                         "maxLevel": 9,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/devils-luck.png"],
+                        "icons": ["/class-icons/heroes/phantom/devils-luck.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -319,7 +328,7 @@
                         "name": "Blason",
                         "shortDesc": "MP Cost: 30, Damage: 320%, Number of Attacks: 4, Max Enemies Hit: 8",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/blason.png"],
+                        "icons": ["/class-icons/heroes/phantom/blason.png"],
                         "animations": ["https://media.giphy.com/media/jPHadI5ltslrpbcHgt/giphy.gif"],
                         "type": "Attack",
                         "desc": "Slices up enemies in front of you"
@@ -328,7 +337,7 @@
                         "name": "Impeccable Memory III",
                         "shortDesc": "MP Cost: MP to use the equipped skill.\\nSkill Level of the stolen skill cannot be over 20",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iii.png"],
+                        "icons": ["/class-icons/heroes/phantom/impeccable-memory-iii.png"],
                         "animations": ["https://media.giphy.com/media/inUCxelHYmTgMoa0yV/giphy.gif"],
                         "type": "Stolen Skill",
                         "desc": "Allows you to use a stolen 3rd Job Explorer skill"
@@ -337,7 +346,7 @@
                         "name": "Final Feint",
                         "shortDesc": "MP Cost: 300, upon death, you revive with 100% of Max HP. Makes you invincible for 4 sec\\nAfter using buff: Cooldown: 1800 sec\\n[Passive Effects: Permanently increases LUK by 60]",
                         "maxLevel": 10,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/final-feint.png"],
+                        "icons": ["/class-icons/heroes/phantom/final-feint.png"],
                         "animations": ["https://media4.giphy.com/media/XhiuK6by7GvEBKepcR/giphy.gif"],
                         "type": "Buff Revive",
                         "desc": "When hit by a fatal attack, you will not die but instead heal back a percentage of your HP back",
@@ -351,21 +360,21 @@
                         "name": "Bad Luck Ward",
                         "shortDesc": "Max HP: +30%, Max MP: +30%, Elemental Resistance: +45%, Abnormal Status Resistance: +45, Knockback Resistance: +40%",
                         "maxLevel": 10,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/bad-luck-ward.png"],
+                        "icons": ["/class-icons/heroes/phantom/bad-luck-ward.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Lune",
                         "shortDesc": "Attack Power +40",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/lune.png"],
+                        "icons": ["/class-icons/heroes/phantom/lune.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Mist Mask",
                         "shortDesc": "Additional Avoidability Chance: 30%",
                         "maxLevel": 10,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mist-mask.png"],
+                        "icons": ["/class-icons/heroes/phantom/mist-mask.png"],
                         "animations": ["https://media2.giphy.com/media/1LrR3wVYhqhQyTCZtr/giphy.gif"],
                         "type": "Passive",
                         "desc": "Grants a chance to dodge attacks"
@@ -374,20 +383,20 @@
                         "name": "Rapier Wit",
                         "shortDesc": "MP Cost: 40, While moving - Damage: 270%, Max Enemies Hit: 10, Number of Attacks: 2, After moving - Attacks 3 times with 270% damage\\n[Passive Effects - Carte Mille Damage: +50%]",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rapier-wit.png"],
+                        "icons": ["/class-icons/heroes/phantom/rapier-wit.png"],
                         "animations": ["https://media.giphy.com/media/JTJCCdSF7JWo1ha1sE/giphy.gif"],
                         "type": "Attack",
                         "desc": "Dashes forward and then strikes forward",
                         "details": [
-                            "<strong>[Passive]</strong>: Increases %Damage of <span data-tooltip='Mille Cartes (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span>",
-                            "Can be linked with <span data-tooltip='Mille Cartes (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span> to reduce post-attack delay"
+                            "<strong>[Passive]</strong>: Increases %Damage of <span data-tooltip='Mille Cartes (2nd Job)'><img src='/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span>",
+                            "Can be linked with <span data-tooltip='Mille Cartes (2nd Job)'><img src='/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span> to reduce post-attack delay"
                         ]
                     },
                     {
                         "name": "Piercing Vision",
                         "shortDesc": "Permanently increases Critical Rate by 35% and Final Damage by 30%.",
                         "maxLevel": 14,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/piercing-vision.png"],
+                        "icons": ["/class-icons/heroes/phantom/piercing-vision.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -396,7 +405,7 @@
                         "name": "Mille Aiguilles",
                         "shortDesc": "MP Cost per attack: 15, Damage: 160%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.",
                         "maxLevel": 30,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png"],
+                        "icons": ["/class-icons/heroes/phantom/mille-aiguilles.png"],
                         "animations": ["https://media.giphy.com/media/duo8SPcWHyySBy6q1s/giphy.gif"],
                         "type": "Key-down Attack",
                         "desc": "Strikes forward with a flurry of attacks",
@@ -408,7 +417,7 @@
                         "name": "Impeccable Memory IV",
                         "shortDesc": "MP Cost: MP to use the equipped skill.\\nSkill Level of the stolen skill cannot be over 30",
                         "maxLevel": 30,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iv.png"],
+                        "icons": ["/class-icons/heroes/phantom/impeccable-memory-iv.png"],
                         "animations": ["https://media.giphy.com/media/VoI74qhCZqFl6Eg4i5/giphy.gif"],
                         "type": "Stolen Skill",
                         "desc": "Allows you to use a stolen 4th Job Explorer skill"
@@ -417,7 +426,7 @@
                         "name": "Tempest",
                         "shortDesc": "MP Cost per attack: 20, Can hold key down for up to 5 sec, Max Enemies Hit: 8, Damage: 455%, Number of Attacks: 3\\nCooldown: 18 sec",
                         "maxLevel": 30,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png"],
+                        "icons": ["/class-icons/heroes/phantom/tempest.png"],
                         "animations": ["https://media.giphy.com/media/Lm6UVRo6Yvd9DnAilg/giphy.gif  "],
                         "type": "Key-down Attack",
                         "desc": "While held, releases an expanding tornado of cards that deals damage to enemies within it",
@@ -430,20 +439,20 @@
                         "name": "Penombre",
                         "shortDesc": "MP Cost: 50, Damage: 450%, Max Enemies Hit: 10, Number of Attacks: 3\\nFor enemy attacked, Ignore Defense: 20% for 60 sec.\\n[Passive Effects - Rapier Wit Damage: +50%]",
                         "maxLevel": 30,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/penombre.png"],
+                        "icons": ["/class-icons/heroes/phantom/penombre.png"],
                         "animations": ["https://media.giphy.com/media/MBBdaIQ63EZ0TidfgS/giphy.gif"],
                         "type": "Attack",
                         "desc": "Leap backwards while throwing cards that explode and debuffs enemies hit",
                         "details": [
                             "<strong>[Debuff]</strong>: Attacks towards this enemy have increased %Ignore DEF",
-                            "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Rapier Wit (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rapier-wit.png' alt='Skill Rapier Wit'/></span>"
+                            "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Rapier Wit (3rd Job)'><img src='/class-icons/heroes/phantom/rapier-wit.png' alt='Skill Rapier Wit'/></span>"
                         ]
                     },
                     {
                         "name": "Carte Noir",
                         "shortDesc": "Upon a successful critical attack, a card has a 100% chance to appear. Damage: 270%, Deck +1\\nSwerve Card: attacks up to 4 enemies for 900% of damage. Cooldown increases by 5 sec.\\nBonus Avoidability: 20%.\\nDamage Against Normal Monsters: +150%",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-noir.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-blanche.png"],
+                        "icons": ["/class-icons/heroes/phantom/carte-noir.png", "/class-icons/heroes/phantom/carte-blanche.png"],
                         "animations": ["https://media.giphy.com/media/S85DLjUuvQtzD2zywZ/giphy.gif"],
                         "type": "Upgraded Passive",
                         "desc": "",
@@ -458,7 +467,7 @@
                         "name": "Priere D'Aria",
                         "shortDesc": "MP Cost: 120, Aria's image appears.\\n[Passive Effects - Damage: +30%, Ignore Defense: 30%, Knockback Resistance: +60%]",
                         "maxLevel": 30,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/priere-daria.png"],
+                        "icons": ["/class-icons/heroes/phantom/priere-daria.png"],
                         "animations": ["https://media3.giphy.com/media/kM7XSZHNvYjz9Fb8LN/giphy.gif"],
                         "type": "Passive / Active",
                         "desc": "",
@@ -470,7 +479,7 @@
                         "name": "Cane Expert",
                         "shortDesc": "Cane Mastery: +70%, Attack Power: +40, Critical Damage: +15%, Final Damage: +32%",
                         "maxLevel": 30,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-expert.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/cane-mastery.png"],
+                        "icons": ["/class-icons/heroes/phantom/cane-expert.png", "/class-icons/heroes/phantom/cane-mastery.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
@@ -482,7 +491,7 @@
                         "name": "Vol D'Ame",
                         "shortDesc": "MP Cost: 60, Max Enemies: 12, Buffs applied:\\nAttack: Attack +40\\nDamage Ignored: Damage Received -40%\\nDamage Reflect: Reflects 600% of Damage Received\\nCancels Physical/Magic Attacks, Obsidian Skin: Temporary Invincibility except against some attacks\\nCooldown: 120 sec",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/vol-dame.png"],
+                        "icons": ["/class-icons/heroes/phantom/vol-dame.png"],
                         "animations": ["https://media.giphy.com/media/elc0m7nnoLw6gLHhee/giphy.gif"],
                         "type": "Active",
                         "desc": "Steals the buffs of nearby enemies, if more than one is stolen, the most powerful is applied",
@@ -494,7 +503,7 @@
                         "name": "Maple Warrior",
                         "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
                         "maxLevel": 30,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png"],
+                        "icons": ["/class-icons/common/maple-warrior.png"],
                         "animations": ["https://media.giphy.com/media/3Ys6wR497mKuFgsdJf/giphy.gif"],
                         "type": "Party Buff"
                     },
@@ -502,12 +511,12 @@
                         "name": "Hero's Will",
                         "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
                         "maxLevel": 5,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/common/heros-will.png"],
+                        "icons": ["/class-icons/common/heros-will.png"],
                         "animations": ["https://media.giphy.com/media/3pDiBVzJKSNscD3KCZ/giphy.gif"],
                         "type": "Buff",
                         "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                         "details": [
-                            "Unaffected by <img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
                         ]
                     }]
             ]
@@ -518,7 +527,7 @@
                     "name": "Tempest - Reinforce",
                     "shortDesc": "Damage +20%",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest-reinforce.png"],
+                    "icons": ["/class-icons/heroes/phantom/tempest-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 140
                 },
@@ -526,7 +535,7 @@
                     "name": "Tempest - Cooldown Cutter",
                     "shortDesc": "Cooldown: -20%",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest-cooldown-cutter.png"],
+                    "icons": ["/class-icons/heroes/phantom/tempest-cooldown-cutter.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
@@ -534,7 +543,7 @@
                     "name": "Tempest - Extra Target",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest-extra-target.png"],
+                    "icons": ["/class-icons/heroes/phantom/tempest-extra-target.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -542,7 +551,7 @@
                     "name": "Mille Aiguilles - Reinforce",
                     "shortDesc": "Damage +20%",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles-reinforce.png"],
+                    "icons": ["/class-icons/heroes/phantom/mille-aiguilles-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 140
                 },
@@ -550,7 +559,7 @@
                     "name": "Mille Aiguilles - Extra Target",
                     "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles-extra-target.png"],
+                    "icons": ["/class-icons/heroes/phantom/mille-aiguilles-extra-target.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
@@ -558,7 +567,7 @@
                     "name": "Mille Aiguilles - Guardbreak",
                     "shortDesc": "Bonus 20% monster DEF ignored",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles-guardbreak.png"],
+                    "icons": ["/class-icons/heroes/phantom/mille-aiguilles-guardbreak.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },
@@ -566,7 +575,7 @@
                     "name": "Impeccable Memory - Reinforce",
                     "shortDesc": "Damage: +15%",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-reinforce.png"],
+                    "icons": ["/class-icons/heroes/phantom/impeccable-memory-reinforce.png"],
                     "type": "Passive",
                     "desc": "Increases %Damage of stolen explorer skills",
                     "reqLev": 150
@@ -575,7 +584,7 @@
                     "name": "Impeccable Memory - Persist",
                     "shortDesc": "Buff Duration: +10%",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-persist.png"],
+                    "icons": ["/class-icons/heroes/phantom/impeccable-memory-persist.png"],
                     "type": "Passive",
                     "desc": "Increases %Buff Duration of stolen explorer skills",
                     "reqLev": 165
@@ -584,7 +593,7 @@
                     "name": "Impeccable Memory - Enhance",
                     "shortDesc": "Loadout's number of stolen 4th skill slots increases by 1.",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-enhance.png"],
+                    "icons": ["/class-icons/heroes/phantom/impeccable-memory-enhance.png"],
                     "type": "Passive",
                     "reqLev": 190
                 }
@@ -594,7 +603,7 @@
                     "name": "Impeccable Memory H",
                     "shortDesc": "MP Cost: the stolen skill's MP cost",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-h.png"],
+                    "icons": ["/class-icons/heroes/phantom/impeccable-memory-h.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHRqNzVkdWc1ZzB0aWd6cWVyb2Vtejl4M3Fmejk3dmF6MThtbHMwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LGc1AbrDhieo6wnuvl/giphy.gif"],
                     "type": "Stolen Skill",
                     "desc": "Allows you to use a stolen Explorer Hyper Skill",
@@ -604,7 +613,7 @@
                     "name": "Rose Carte Finale",
                     "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 700%, Number of Attacks: 6, Deals 200% damage to 6 enemies near the card 2 times.\\nCooldown: 30 sec",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rose-carte-finale.png"],
+                    "icons": ["/class-icons/heroes/phantom/rose-carte-finale.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjU2ejBhdjgzaW1mdTdieHJucnlreXFmZzYzMmVmamNrcXhlbnZ0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QENwiN0XD94OafbVuf/giphy.gif"],
                     "type": "Attack",
                     "desc": "Cards rain from above leaving a damaging field of cards",
@@ -614,7 +623,7 @@
                     "name": "Heroic Memories",
                     "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/heroic-memories.png"],
+                    "icons": ["/class-icons/heroes/phantom/heroic-memories.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZ0OWZ3ejJkdXhuMmwya3U5YTJ2dmYyMmZhY2N2ZTdya216Z2xyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DbTXeRfWevYnKTNG4C/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
@@ -627,20 +636,20 @@
                 {
                     "name": "Luck of the Draw",
                     "shortDesc": "MP Cost: 1000, Can hold the key down for up to 7 sec. Attack by periodically throwing multiple cards forward. Damage: 770%, Number of Attacks: 1, Damage Taken during skill: -15%.\\nWhen finished, draws a card to buff all party members for 30 sec.\\nPriest - Increases Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -8%, Abnormal Status Resistance: +25\\nHourglass - Active Cooldowns shortened by 32% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +6%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 180 sec",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw.png"],
+                    "icons": ["/class-icons/heroes/phantom/luck-of-the-draw.png"],
                     "animations": ["https://media3.giphy.com/media/z6sDesJ5bVpSzyhmni/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "While held, throw a flurry of cards towards a single enemy",
                     "details": [
                         "While casting, damage taken is reduced (including %Max HP attacks) and you are immune to stun status effects",
                         "Prioritizes bosses with the highest Max HP first",
-                        "At the end of the skill, you will draw a card that buffs all party members:<ul><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-red.png' alt='Priest'/> [Priest]: </strong>Recovers %HP/MP over time</li><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-green.png' alt='Tree of Life'/> [Tree of Life]: </strong>Increases %Damage Reduction (including %Max HP attacks) and Abnormal Status Resistance</li><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-yellow.png' alt='Hourglass'/> [Hourglass]: </strong>Reduces active cooldowns by 20% (except 5th Job skills & skills that ignore cooldown resets)</li><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-blue.png' alt='Sharp Sword'/> [Three Swords]: </strong>Increases %Final Damage</li><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-black.png' alt='Joker'/> [Crescent Moon]: </strong>Gain all buffs simultaneously</li><li>You are invincible while drawing the card</li></ul>"
+                        "At the end of the skill, you will draw a card that buffs all party members:<ul><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-red.png' alt='Priest'/> [Priest]: </strong>Recovers %HP/MP over time</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-green.png' alt='Tree of Life'/> [Tree of Life]: </strong>Increases %Damage Reduction (including %Max HP attacks) and Abnormal Status Resistance</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-yellow.png' alt='Hourglass'/> [Hourglass]: </strong>Reduces active cooldowns by 20% (except 5th Job skills & skills that ignore cooldown resets)</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-blue.png' alt='Sharp Sword'/> [Three Swords]: </strong>Increases %Final Damage</li><li><strong><img src='/class-icons/heroes/phantom/luck-of-the-draw-black.png' alt='Joker'/> [Crescent Moon]: </strong>Gain all buffs simultaneously</li><li>You are invincible while drawing the card</li></ul>"
                     ]
                 },
                 {
                     "name": "Ace in the Hole",
                     "shortDesc": "MP Cost: 800, 3 of cards ricochet 6 times, dealing 1320% damage, before releasing the energy stored inside to strike up to 12 enemies for 1760% damage 6 times.\\nLiberated Card: activates its offensive power 3 time(s). Max Enemies Hit: 10, Damage: 1540%, Number of Attacks: 1. Attacks are activated up to 21 time(s) in proportion to the number the ricocheted cards' remaining attacks.\\nCooldown: 15 sec.",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/ace-in-the-hole.png"],
+                    "icons": ["/class-icons/heroes/phantom/ace-in-the-hole.png"],
                     "animations": ["https://media0.giphy.com/media/kW29e07w4a3CHWerXZ/giphy.gif", "https://media.giphy.com/media/5OHxZzpfuOcCoWqj1i/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws out several cards that bounces around before unleashing a final attack",
@@ -654,7 +663,7 @@
                 {
                     "name": "Phantom's Mark",
                     "shortDesc": "MP Cost: 1000. Requires 7 Master Thief Marks, if there is no enemy already marked as a target. Uses all Master Thief Marks upon skill activation.\\nInvincible for 2 sec after moving.\\nActivates a trajectory 7 time(s) dealing 660% damage 6 time(s) and complete the Master Thief Mark, activating 2 times and dealing 1055% damage 15 time(s). For all attacks, Max Enemies Hit: 10, Additional Critical Rate: +100%\\nEnemies hit with a Cane skill or Tempest get a debuff for 30 sec. Targets the enemy with 7 stacks.\\nMille Aiguilles, Tempest, and Rift Break must hit targets 7 times more than other skills to mark an enemy or earn Master Thief Marks.\\nAttack skills that utilize Impeccable Memory must hit 5 times.\\n Cooldown: 30 sec",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/phantoms-mark.png"],
+                    "icons": ["/class-icons/heroes/phantom/phantoms-mark.png"],
                     "animations": ["https://media0.giphy.com/media/rQTYVjZjosjYjJAE90/giphy.gif"],
                     "type": "Attack",
                     "desc": "Cane skill attacks mark enemies with the stacking 'Master Thief Mark' debuff. Using this skill will teleport behind the target with the most stacks",
@@ -662,14 +671,14 @@
                         "When activated, you will be invincible briefly after teleporting",
                         "If there are no enemies marked, the enemy with the highed Max HP will be targeted",
                         "All hits from this skill are critical hits",
-                        "<span data-tooltip='Mille Aiguilles (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> and <span data-tooltip='Tempest (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> must hit an enemy 7 times to gain a stack of Master Thief Marks",
+                        "<span data-tooltip='Mille Aiguilles (4th Job)'><img src='/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> and <span data-tooltip='Tempest (4th Job)'><img src='/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> must hit an enemy 7 times to gain a stack of Master Thief Marks",
                         "Immpeccable Memory attacks must hit an enemy 5 times to gain a stack of Master Thief Marks"
                     ]
                 },
                 {
                     "name": "Rift Break",
                     "shortDesc": "MP Cost: 1000, Max Enemies Hit: 10, Damage: 880%, Number of Attacks: 7, Max Chase Cut or Teleport: 7\\nCooldown: 30 sec, cooldown is reduced by 3.5 sec per remaining teleports",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rift-break.png"],
+                    "icons": ["/class-icons/heroes/phantom/rift-break.png"],
                     "animations": ["https://media2.giphy.com/media/gyZW0xYCyfmnrWLg3O/giphy.gif"],
                     "type": "Attack",
                     "desc": "Instantly teleports to enemies and damages surrounding enemies at that location",
@@ -686,18 +695,18 @@
                 {
                     "name": "1st Mastery Node",
                     "shortDesc": "",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/hexa-tempest.png"],
+                    "icons": ["/class-icons/heroes/phantom/hexa-tempest.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Y0cXdsN29hdmYxcnNuNm0xa3BicGFrdGt5cGhoMmw1dmRyY2wzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qeqUHP4ACAv2VbYzfn/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Tempest (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <span data-tooltip='Tempest (4th Job)'><img src='/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
                     "name": "HEXA Tempest",
                     "shortDesc": "MP Cost per attack: 25, Can hold key down for up to 3 sec, Max Enemies Hit: 8, Damage: 840%, Number of Attacks: 4\\nCooldown: 18 sec",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/hexa-tempest.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png"],
+                    "icons": ["/class-icons/heroes/phantom/hexa-tempest.png", "/class-icons/heroes/phantom/tempest.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -707,18 +716,18 @@
                 {
                     "name": "2nd Mastery Node",
                     "shortDesc": "",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/hexa-mille-aiguilles.png"],
+                    "icons": ["/class-icons/heroes/phantom/hexa-mille-aiguilles.png"],
                     "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjBjbWppeHVwd3czYWVucnUydmpiMWdmZGJmampla3BmMzgwejgzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/577g5iZpX3Lg7Slxon/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Mille Aiguilles (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <span data-tooltip='Mille Aiguilles (4th Job)'><img src='/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
                     "name": "HEXA Mille Aiguilles",
                     "shortDesc": "MP Cost per Attack: 17, Damage: 450%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.\\n------HEXA Mille Aiguilles: Fortune------\\nMP Cost: 75, Max Enemies Hit: 7, Damage: 670%, Number of Attacks: 6",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/hexa-mille-aiguilles.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/hexa-mille-aiguilles-fortune.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png"],
+                    "icons": ["/class-icons/heroes/phantom/hexa-mille-aiguilles.png", "/class-icons/heroes/phantom/hexa-mille-aiguilles-fortune.png", "/class-icons/heroes/phantom/mille-aiguilles.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -728,7 +737,7 @@
                 {
                     "name": "Fate Shuffle",
                     "shortDesc": "MP Cost: 120, Decides HEXA Mille Aiguille's fate\\nCooldown: 3 sec",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/fate-shuffle.png"],
+                    "icons": ["/class-icons/heroes/phantom/fate-shuffle.png"],
                     "type": "Active",
                     "desc": "",
                     "details": [
@@ -741,7 +750,7 @@
                 {
                     "name": "Defying Fate",
                     "shortDesc": "MP Cost: 1200, invincible during casting\\nRefuses fate, Max Enemies Hit: 15, Damage: 780%, Number of Attacks: 15, Number of Chase Cuts: 57\\nHero's Will Duration: 30 sec, Max Enemies Hit: 15, Damage: 640%, Number of Attacks: 15\\nCooldown: 360 sec",
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/defying-fate.png"],
+                    "icons": ["/class-icons/heroes/phantom/defying-fate.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdpOGxxbm9scm03ZzdwOWU4NGhsMHk3ZnhodzI3aGhwejk4dWVweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/61F4doahR76BqDsg4q/giphy.gif"],
                     "type": "Bind Attack",
                     "desc": ""
@@ -751,47 +760,47 @@
         "notable": [
             {
                 "name": "Judgment Draw - Beginner Skill",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-2.png"],
+                "icons": ["/class-icons/heroes/phantom/judgment-draw-2.png"],
                 "animations": ["https://media.giphy.com/media/XCxZpbcYcQauPvUQe5/giphy.gif"]
             },
             {
                 "name": "Impeccable Memory - 1st/2nd/3rd/4th/Hyper Skills",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/impeccable-memory-iv.png"],
+                "icons": ["/class-icons/heroes/phantom/impeccable-memory-iv.png"],
                 "animations": ["https://media.giphy.com/media/WQrWxY2wbp3DxJqRSV/giphy.gif"]
             },
             {
                 "name": "Mille Aiguilles - 4th Job",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png"],
+                "icons": ["/class-icons/heroes/phantom/mille-aiguilles.png"],
                 "animations": ["https://media.giphy.com/media/duo8SPcWHyySBy6q1s/giphy.gif"]
             },
             {
                 "name": "Penombre - 4th Job",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/penombre.png"],
+                "icons": ["/class-icons/heroes/phantom/penombre.png"],
                 "animations": ["https://media.giphy.com/media/MBBdaIQ63EZ0TidfgS/giphy.gif"]
             },
             {
                 "name": "Carte Rose Finale - Hyper Skill",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rose-carte-finale.png"],
+                "icons": ["/class-icons/heroes/phantom/rose-carte-finale.png"],
                 "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjU2ejBhdjgzaW1mdTdieHJucnlreXFmZzYzMmVmamNrcXhlbnZ0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QENwiN0XD94OafbVuf/giphy.gif"]
             },
             {
                 "name": "Luck of the Draw - 5th Job",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw.png"],
+                "icons": ["/class-icons/heroes/phantom/luck-of-the-draw.png"],
                 "animations": ["https://media3.giphy.com/media/z6sDesJ5bVpSzyhmni/giphy.gif"]
             },
             {
                 "name": "Ace in the Hole - 5th Job",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/ace-in-the-hole.png"],
+                "icons": ["/class-icons/heroes/phantom/ace-in-the-hole.png"],
                 "animations": ["https://media0.giphy.com/media/kW29e07w4a3CHWerXZ/giphy.gif"]
             },
             {
                 "name": "HEXA Tempest - 6th Job",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/hexa-tempest.png"],
+                "icons": ["/class-icons/heroes/phantom/hexa-tempest.png"],
                 "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Y0cXdsN29hdmYxcnNuNm0xa3BicGFrdGt5cGhoMmw1dmRyY2wzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qeqUHP4ACAv2VbYzfn/giphy.gif"]
             },
             {
                 "name": "Defying Fate - 6th Job",
-                "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/defying-fate.png"],
+                "icons": ["/class-icons/heroes/phantom/defying-fate.png"],
                 "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDdpOGxxbm9scm03ZzdwOWU4NGhsMHk3ZnhodzI3aGhwejk4dWVweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/61F4doahR76BqDsg4q/giphy.gif"]
             }
         ]
