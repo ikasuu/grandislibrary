@@ -53,7 +53,7 @@
             {
                 "name": "STR",
                 "stat": "+15% +50",
-                "detail": "<ul><li><span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/kaiser/nova-warrior.png' alt='Skill Nova Warrior'/></span> +15%</li> <li><span data-tooltip='Inner Blaze (2nd Job)'><img src='/class-icons/nova/kaiser/inner-blaze.png' alt='Skill Inner Blaze'/></span> +40</li> <li><span data-tooltip='Advanced Inner Blaze (3rd Job)'><img src='/class-icons/nova/kaiser/advanced-inner-blaze.png' alt='Skill Advanced Inner Blaze'/></span> +30</li></ul>"
+                "detail": "<ul><li><span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/kaiser/nova-warrior.png' alt='Skill Nova Warrior'/></span> +15%</li> <li><span data-tooltip='Inner Blaze (2nd Job)'><img src='/class-icons/nova/kaiser/inner-blaze.png' alt='Skill Inner Blaze'/></span> +20</li> <li><span data-tooltip='Advanced Inner Blaze (3rd Job)'><img src='/class-icons/nova/kaiser/advanced-inner-blaze.png' alt='Skill Advanced Inner Blaze'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +30</li></ul>"
             },
             {
                 "name": "Attack",
@@ -63,7 +63,7 @@
             {
                 "name": "Crit Rate",
                 "stat": "+65%",
-                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Catalyze (3rd Job)'><img src='/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/></span> +20%</li> <li><span data-tooltip='Expert Sword Mastery (4th Job)'><img src='/class-icons/nova/kaiser/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/></span> +10%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign: Attacker Mode'/></span> +20% while toggled</li></ul>"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Catalyze (3rd Job)'><img src='/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/></span> +20%</li> <li><span data-tooltip='Expert Sword Mastery (4th Job)'><img src='/class-icons/nova/kaiser/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/></span> +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign: Attacker Mode'/></span> +20% while toggled</li></ul>"
             },
             {
                 "name": "Crit Damage",
@@ -73,7 +73,7 @@
             {
                 "name": "Damage",
                 "stat": "(~77%)",
-                "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Iron Will (Link Skill)'><img src='/class-icons/link-skills/iron-will.png' alt='Skill Iron Will'/></span> +4% per Morph Gauge up to +12%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Grandis Goddess&#39;s Blessing (5th)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span> +35%</li> <li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul>"
+                "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Iron Will (Link Skill)'><img src='/class-icons/link-skills/iron-will.png' alt='Skill Iron Will'/></span> +4% per Morph Gauge up to +12%</li></ul> <ul class='bs-opt-val'><li class='bs-long-text'><div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span></div> <div>+35%<br/>+11% for each Morph Gauge Stage (+22%)</div></li> <li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul>"
             },
             {
                 "name": "Boss Damage",
@@ -428,8 +428,8 @@
                         "type": "Active Transform",
                         "desc": "Transforms you into your true form",
                         "details": [
-                            "All your attacks will be enhanced and you gain increased %Final Damage, %Crit Rate and 100% Knockback Resistance<ul><li>In 4th Job, the bonus effects become stronger</li></ul>",
-                            "While transformed, your attacks ignore Attack Ignore and Damage Reflect",
+                            "Attacks are enhanced and you gain increased %Final Damage and 100% Knockback Resistance<ul><li>In 4th Job, the %Final Damage bonus is increased</li></ul>",
+                            "While transformed, attacks ignore Attack Ignore and Damage Reflect",
                             "You can teleport a short distance by the Skill Key and an Arrow Key for the direction you want to go together"
                         ]
                     },
@@ -586,7 +586,7 @@
                     "type": "Buff",
                     "desc": "Increases %Damage Reduction including %Max HP attacks",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Damage Reudction (Regular Monsters) and %Knockback Resistance"
+                        "<strong>[Passive]</strong>: Permanently increases %Damage Reduction (Regular Monsters) and %Knockback Resistance"
                     ]
                 },
                 {
