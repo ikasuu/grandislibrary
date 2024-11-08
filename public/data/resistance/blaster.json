@@ -31,51 +31,60 @@
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Shield Training (3rd Job)'><img src='/class-icons/resistance/blaster/shield-training.png' alt='Skill Shield Training'/></span> 40]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.7x",
-            "attackSpeed": ["7(8)", "[Stage 5] [<span data-tooltip='Arm Cannon Booster (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-booster.png' alt='Skill Arm Cannon Booster'/></span> +2] {<span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> +1 at 6 stacks}"],
-            "mastery": ["90%", "[Base +25%] [<span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.7x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7(8)",
+                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Arm Cannon Booster (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-booster.png' alt='Skill Arm Cannon Booster'/></span> +2</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> +1 at 6 stacks</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +70%</li></ul>"
+            },
             {
                 "name": "STR",
                 "stat": "+15%(415%) +30",
-                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30]"
+                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +30</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "+15% +60",
-                "detail": "[<span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> +15%] [<span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +20] [<span data-tooltip='Combo Training II (4th Job)'><img src='/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span> +40]"
+                "detail": "<ul><li><span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> +15%</li> <li><span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +20</li> <li><span data-tooltip='Combo Training II (4th Job)'><img src='/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span> +40</li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+35%(~65%)",
-                "detail": "[Base +5%] [<span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +30%] {<span data-tooltip='Combo Training II (4th Job)'><img src='/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span> up to +30%}"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +30%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Combo Training II (4th Job)'><img src='/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span> up to +30%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+20%",
-                "detail": "[<span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +20%]"
+                "detail": "<ul><li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +20%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+20%(~50%)",
-                "detail": "[<span data-tooltip='Charge Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/></span> +20%] {<span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/blaster/for-liberty.png' alt='Skill For Liberty'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%) (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%)"
+                "detail": "<ul><li><span data-tooltip='Charge Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/></span> +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li> <li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul> "
             },
             {
                 "name": "Boss Damage",
                 "stat": "+20%",
-                "detail": "[<span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +20%]"
+                "detail": "<ul><li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +20%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+60%(~76%)",
-                "detail": "[<span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +5%] x {<span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span> +10% from debuff} x {<span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> up to +60%} x "
+                "detail": "<ul><li><span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +5%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Hammer Smash (3rd Job)'><img src='/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span> +10% from debuff</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Combo Training (3rd Job)'><img src='/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> up to +60%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+35%",
-                "detail": "[<span data-tooltip='Advanced Charge Mastery (4th Job)'><img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/></span> +35%] x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%)"
+                "detail": "<ul><li><span data-tooltip='Advanced Charge Mastery (4th Job)'><img src='/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/></span> +35%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%</li></ul>"
             }
         ],
         "buffInfo": {
@@ -779,7 +788,7 @@
                     "shortDesc": "MP Cost: 1000, Ammo Cost: 1 after reloading bullets upon casting\\nCan prepare for up to 5 sec, adds up to 5 bullets by using the Revolving Cannon\\nLaunches an explosion in proportion to the number of bullets used after Charge when the key is released. Skill can be used again during Charge to launch an immediate explosion.\\nInvincible during preparation and Charge. Combo Training remains at the max level while casting skill.\\nCharge: Max Enemies Hit: 12, Damage: 3300%, Number of Attacks: 15\\nExplosion: Max Enemies Hit: 12, Damage: 2640%, Number of Attacks: 15\\nAll hits receive Additional Critical Rate: +100% and Additional Monster DEF Ignored: +100%\\nCooldown: 100 sec",
                     "icons": ["/class-icons/resistance/blaster/bullet-blast.png"],
                     "animations": ["https://media3.giphy.com/media/rC7Pgai5h64MSkpzF2/giphy.gif"],
-                    "type": "Attack",
+                    "type": "Key-down Attack",
                     "desc": "While held, prepare to charge forward and release a massive explosion behind you upon charging",
                     "details": [
                         "Reloads Ammo and consumes 1 Ammo",

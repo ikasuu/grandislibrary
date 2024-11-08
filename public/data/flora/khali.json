@@ -35,51 +35,60 @@
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Vigilance (3rd Job)'><img src='/class-icons/flora/khali/vigilance.png' alt='Skill Vigilance'/></span> 30]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.3x",
-            "attackSpeed": ["8", "[Stage 6] [<span data-tooltip='Chakram Booster (2nd Job)'><img src='/class-icons/flora/khali/chakram-booster.png' alt='Skill Chakram Booster'/></span> +2]"],
-            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Chakram Expert (4th Job)'><img src='/class-icons/flora/khali/chakram-expert.png' alt='Skill Chakram Expert'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<ul><li class='bs-no-icon'>Stage 6</li> <li><span data-tooltip='Chakram Booster (2nd Job)'><img src='/class-icons/flora/khali/chakram-booster.png' alt='Skill Chakram Booster'/></span> +2</li>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Chakram Expert (4th Job)'><img src='/class-icons/flora/khali/chakram-expert.png' alt='Skill Chakram Expert'/></span> +70%</li></ul>"
+            },
             {
                 "name": "LUK",
                 "stat": "+15% +60",
-                "detail": "[<span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/khali/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span> +15%] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +60]"
+                "detail": "<ul><li><span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/khali/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span> +15%</li> <li><span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +60</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "+120",
-                "detail": "[<span data-tooltip='Flare (1st Job)'><img src='/class-icons/flora/khali/flare.png' alt='Skill Flare'/></span> +30] [<span data-tooltip='Chakram Mastery (2nd Job)'><img src='/class-icons/flora/khali/chakram-mastery.png' alt='Skill Chakram Mastery'/></span> +30] [<span data-tooltip='Intuition (3rd Job)'><img src='/class-icons/flora/khali/intuition.png' alt='Skill Intuition'/></span> +30] [<span data-tooltip='Chakram Expert (4th Job)'><img src='/class-icons/flora/khali/chakram-expert.png' alt='Skill Chakram Expert'/></span> +30] [<span data-tooltip='Magic Conversion (Beginner Skill)'><img src='/class-icons/flora/magic-conversion.png' alt='Skill Magic Conversion'/></span> 50% of Attack from equipment - excluding weapon, cannot exceed 20% of weapon's base Attack] (<span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span> +100 & 100% of Magic Attack from equipment - excluding weapon, cannot exceed 150% of weapon's base Magic Attack)"
+                "detail": "<ul><li><span data-tooltip='Flare (1st Job)'><img src='/class-icons/flora/khali/flare.png' alt='Skill Flare'/></span> +30</li> <li><span data-tooltip='Chakram Mastery (2nd Job)'><img src='/class-icons/flora/khali/chakram-mastery.png' alt='Skill Chakram Mastery'/></span> +30</li> <li><span data-tooltip='Intuition (3rd Job)'><img src='/class-icons/flora/khali/intuition.png' alt='Skill Intuition'/></span> +30</li> <li><span data-tooltip='Chakram Expert (4th Job)'><img src='/class-icons/flora/khali/chakram-expert.png' alt='Skill Chakram Expert'/></span> +30</li> <li class='bs-long-text'><div><span data-tooltip='Magic Conversion (Beginner Skill)'><img src='/class-icons/flora/magic-conversion.png' alt='Skill Magic Conversion'/></span></div> <div>50% of Magic Attack from equipment - excluding weapon<br/>Cannot exceed 20% of weapon's base Magic Attack</div></li></ul> <ul class='bs-opt-val'><li class='bs-long-text'><div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span></div> <div>+100 & 100% of Magic Attack from equipment - excluding weapon<br/>Cannot exceed 150% of weapon's base Magic Attack</div></li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+40%",
-                "detail": "[Base +5%] [<span data-tooltip='Impulse (2nd Job)'><img src='/class-icons/flora/khali/impulse.png' alt='Skill Impulse'/></span> +35%]"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Impulse (2nd Job)'><img src='/class-icons/flora/khali/impulse.png' alt='Skill Impulse'/></span> +35%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+40%",
-                "detail": "[<span data-tooltip='Impulse (2nd Job)'><img src='/class-icons/flora/khali/impulse.png' alt='Skill Impulse'/></span> +20%] [<span data-tooltip='Chakram Expert (4th Job)'><img src='/class-icons/flora/khali/chakram-expert.png' alt='Skill Chakram Expert'/></span> +8%]"
+                "detail": "<ul><li><span data-tooltip='Impulse (2nd Job)'><img src='/class-icons/flora/khali/impulse.png' alt='Skill Impulse'/></span> +20%</li> <li><span data-tooltip='Chakram Expert (4th Job)'><img src='/class-icons/flora/khali/chakram-expert.png' alt='Skill Chakram Expert'/></span> +8%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+5%(~15%)",
-                "detail": "[<span data-tooltip='Innate Gift (Link Skill)'><img src='/class-icons/link-skills/innate-gift.png' alt='Skill Innate Gift'/></span> up to +5%] {<span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/khali/divine-wrath.png' alt='Skill Divine Wrath'/></span> +10%} (<span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span> up to +45%)"
+                "detail": "<ul><li><span data-tooltip='Innate Gift (Link Skill)'><img src='/class-icons/link-skills/innate-gift.png' alt='Skill Innate Gift'/></span> up to +5%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/khali/divine-wrath.png' alt='Skill Divine Wrath'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span> up to +45%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "+30%",
-                "detail": "[<span data-tooltip='Redemption (4th Job)'><img src='/class-icons/flora/khali/redemption.png' alt='Skill Redemption'/></span> +30%]"
+                "detail": "<ul><li><span data-tooltip='Redemption (4th Job)'><img src='/class-icons/flora/khali/redemption.png' alt='Skill Redemption'/></span> +30%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+82%(~136.6%)",
-                "detail": "[<span data-tooltip='Intuition (3rd Job)'><img src='/class-icons/flora/khali/intuition.png' alt='Skill Intuition'/></span> +25%] x [<span data-tooltip='Redemption (4th Job)'><img src='/class-icons/flora/khali/redemption.png' alt='Skill Redemption'/></span> +30%] x (<span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +36% in Stage 2)"
+                "detail": "<ul><li><span data-tooltip='Intuition (3rd Job)'><img src='/class-icons/flora/khali/intuition.png' alt='Skill Intuition'/></span> +25%</li></ul> × <ul><li><span data-tooltip='Redemption (4th Job)'><img src='/class-icons/flora/khali/redemption.png' alt='Skill Redemption'/></span> +30%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +36% in Stage 2</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+36%",
-                "detail": "[<span data-tooltip='Intuition (3rd Job)'><img src='/class-icons/flora/khali/intuition.png' alt='Skill Intuition'/></span> +20%] x [<span data-tooltip='Redemption (4th Job)'><img src='/class-icons/flora/khali/redemption.png' alt='Skill Redemption'/></span> +20%]"
+                "detail": "<ul><li><span data-tooltip='Intuition (3rd Job)'><img src='/class-icons/flora/khali/intuition.png' alt='Skill Intuition'/></span> +20%</li></ul> × <ul><li><span data-tooltip='Redemption (4th Job)'><img src='/class-icons/flora/khali/redemption.png' alt='Skill Redemption'/></span> +20%</li></ul>"
             }
         ],
         "buffInfo": {

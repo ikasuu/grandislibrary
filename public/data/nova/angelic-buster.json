@@ -31,51 +31,60 @@
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> 40]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.7x",
-            "attackSpeed": ["7", "[Stage 5] [<span data-tooltip='Melody Cross (1st Job)'><img src='/class-icons/nova/angelic-buster/melody-cross.png' alt='Skill Melody Cross'/></span> +2]"],
-            "mastery": ["95%", "[Base +15%] [<span data-tooltip='True Heart Inheritance (Beginner Skill)'><img src='/class-icons/nova/angelic-buster/true-heart-inheritance.png' alt='Skill True Heart Inheritance'/></span> +10%] [<span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Melody Cross (1st Job)'><img src='/class-icons/nova/angelic-buster/melody-cross.png' alt='Skill Melody Cross'/></span> +2</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<ul><li class='bs-no-icon'>Base +15%</li> <li><span data-tooltip='True Heart Inheritance (Beginner Skill)'><img src='/class-icons/nova/angelic-buster/true-heart-inheritance.png' alt='Skill True Heart Inheritance'/></span> +10%</li> <li><span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> +70%</li>"
+            },
             {
                 "name": "DEX",
                 "stat": "+15% +100",
-                "detail": "[<span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/angelic-buster/nova-warrior.png' alt='Skill Nova Warrior'/></span> +15%] [<span data-tooltip='Beautiful Soul (2nd Job)'><img src='/class-icons/nova/angelic-buster/beautiful-soul.png' alt='Skill Beautiful Soul'/></span> +40] [<span data-tooltip='Blossoming Star (3rd Job)'><img src='/class-icons/nova/angelic-buster/blossoming-star.png' alt='Skill Blossoming Star'/></span> +20] [<span data-tooltip='Affinity Heart (3rd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart.png' alt='Skill Affinity Heart III'/></span> +40]"
+                "detail": "<ul><li><span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/angelic-buster/nova-warrior.png' alt='Skill Nova Warrior'/></span> +15%</li> <li><span data-tooltip='Beautiful Soul (2nd Job)'><img src='/class-icons/nova/angelic-buster/beautiful-soul.png' alt='Skill Beautiful Soul'/></span> +40</li> <li><span data-tooltip='Blossoming Star (3rd Job)'><img src='/class-icons/nova/angelic-buster/blossoming-star.png' alt='Skill Blossoming Star'/></span> +20</li> <li><span data-tooltip='Affinity Heart (3rd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart.png' alt='Skill Affinity Heart III'/></span> +40</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "+90(~140)",
-                "detail": "[<span data-tooltip='Soul Shooter Mastery (2nd Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-mastery.png' alt='Skill Soul Shooter Mastery'/></span> +20] [<span data-tooltip='Dragon Whistle (3rd Job)'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> +40] [<span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> +30] {<span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +50} (<span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40) (<span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span> +80% of base weapon attack power & -15% of base weapon power while on cooldown)"
+                "detail": "<ul><li><span data-tooltip='Soul Shooter Mastery (2nd Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-mastery.png' alt='Skill Soul Shooter Mastery'/></span> +20</li> <li><span data-tooltip='Dragon Whistle (3rd Job)'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> +40</li> <li><span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> +30</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +50</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40</li> <li class='bs-long-text'><div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span></div> <div>+80% of base weapon attack power<br/>-15% of base weapon power while on cooldown</div></li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+40%(~100%)",
-                "detail": "[Base +5%] [<span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> +25%] [<span data-tooltip='Center Stage (3rd Job)'><img src='/class-icons/nova/angelic-buster/center-stage.png' alt='Skill Center Stage'/></span> +10%] {<span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +30%} {<span data-tooltip='Superstar Spotlight (5th Job)'><img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/></span> +48%}"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> +25%</li> <li><span data-tooltip='Center Stage (3rd Job)'><img src='/class-icons/nova/angelic-buster/center-stage.png' alt='Skill Center Stage'/></span> +10%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +30%</li> <li><span data-tooltip='Superstar Spotlight (5th Job)'><img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/></span> +48%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+41%",
-                "detail": "[<span data-tooltip='Dragon Whistle (3rd Job)'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> +6%] [<span data-tooltip='Center Stage (3rd Job)'><img src='/class-icons/nova/angelic-buster/center-stage.png' alt='Skill Center Stage'/></span> +15%] [<span data-tooltip='Star Gazer (4th Job)'><img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/></span> +20%]"
+                "detail": "<ul><li><span data-tooltip='Dragon Whistle (3rd Job)'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> +6%</li> <li><span data-tooltip='Center Stage (3rd Job)'><img src='/class-icons/nova/angelic-buster/center-stage.png' alt='Skill Center Stage'/></span> +15%</li> <li><span data-tooltip='Star Gazer (4th Job)'><img src='/class-icons/nova/angelic-buster/star-gazer.png' alt='Skill Star Gazer'/></span> +20%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+45%(~175%)",
-                "detail": "[<span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> +10%] [<span data-tooltip='Affinity Heart III (3rd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/></span> +10%] [<span data-tooltip='Affinity Heart IV (4th Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iv.png' alt='Skill Affinity Heart IV'/></span> +25%] {<span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +10%} {<span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> up to +120%} (<span data-tooltip='Grandis Goddess&#39;s Blessing (5th)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span> +35%)"
+                "detail": "<ul><li><span data-tooltip='Affinity Heart II (2nd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-ii.png' alt='Skill Affinity Heart II'/></span> +10%</li> <li><span data-tooltip='Affinity Heart III (3rd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/></span> +10%</li> <li><span data-tooltip='Affinity Heart IV (4th Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iv.png' alt='Skill Affinity Heart IV'/></span> +25%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +10%</li> <li><span data-tooltip='Terms and Conditions (Link Skill)'><img src='/class-icons/link-skills/terms-and-conditions.png' alt='Skill Terms and Conditions'/></span> up to +120%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Grandis Goddess&#39;s Blessing (5th)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span> +35%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "(~20%)",
-                "detail": "{<span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +20%}"
+                "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +20%</li>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+59.32%(~97.39%)",
-                "detail": "[<span data-tooltip='Beautiful Soul (2nd Job)'><img src='/class-icons/nova/angelic-buster/beautiful-soul.png' alt='Skill Beautiful Soul'/></span> +5%] x [<span data-tooltip='Blossoming Star (3rd Job)'><img src='/class-icons/nova/angelic-buster/blossoming-star.png' alt='Skill Blossoming Star'/></span> +14%] x [<span data-tooltip='Affinity Heart III (3rd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/></span> +10%] x [<span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> +21%] x {<span data-tooltip='Pretty Exaltation (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/pretty-exaltation.png' alt='Skill Pretty Exaltation'/></span> +5%} x {<span data-tooltip='Superstar Spotlight (5th Job)'><img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/></span> +18%}"
+                "detail": "<ul><li><span data-tooltip='Beautiful Soul (2nd Job)'><img src='/class-icons/nova/angelic-buster/beautiful-soul.png' alt='Skill Beautiful Soul'/></span> +5%</li></ul> × <ul><li><span data-tooltip='Blossoming Star (3rd Job)'><img src='/class-icons/nova/angelic-buster/blossoming-star.png' alt='Skill Blossoming Star'/></span> +14%</li></ul> × <ul><li><span data-tooltip='Affinity Heart III (3rd Job)'><img src='/class-icons/nova/angelic-buster/affinity-heart-iii.png' alt='Skill Affinity Heart III'/></span> +10%</li></ul> × <ul><li><span data-tooltip='Soul Shooter Expert (4th Job)'><img src='/class-icons/nova/angelic-buster/soul-shooter-expert.png' alt='Skill Soul Shooter Expert'/></span> +21%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Pretty Exaltation (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/pretty-exaltation.png' alt='Skill Pretty Exaltation'/></span> +5%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Superstar Spotlight (5th Job)'><img src='/class-icons/nova/angelic-buster/superstar-spotlight.png' alt='Skill Superstar Spotlight'/></span> +18%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+16%(~50.02%)",
-                "detail": "[<span data-tooltip='Dragon Whistle (3rd Job)'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> +16%] x {<span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +30%} x (<span data-tooltip='Finale Ribbon - Armorbreak (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/finale-ribbon-armorbreak.png' alt='Skill Finale Ribbon - Armorbreak'/></span> +15%)"
+                "detail": "<ul><li><span data-tooltip='Dragon Whistle (3rd Job)'><img src='/class-icons/nova/angelic-buster/dragon-whistle.png' alt='Skill Dragon Whistle'/></span> +16%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Final Contract (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/final-contract.png' alt='Skill Final Contract'/></span> +30%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Finale Ribbon - Armorbreak (Hyper Skill)'><img src='/class-icons/nova/angelic-buster/finale-ribbon-armorbreak.png' alt='Skill Finale Ribbon - Armorbreak'/></span> +15%</li></ul>"
             }
         ],
         "buffInfo": {

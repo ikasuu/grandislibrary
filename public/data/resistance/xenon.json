@@ -30,51 +30,60 @@
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Multilateral I (Beginner Skill)'><img src='/class-icons/resistance/xenon/multilateral-i.png' alt='Skill Multilateral I'/></span> 40]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.3125x",
-            "attackSpeed": ["7", "[Stage 5] [<span data-tooltip='Xenon Booster (2nd Job)'><img src='/class-icons/resistance/xenon/xenon-booster.png' alt='Skill Xenon Booster'/></span> +2]"],
-            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Xenon Expert (4th Job)'><img src='/class-icons/resistance/xenon/xenon-expert.png' alt='Skill Xenon Expert'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3125x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Xenon Booster (2nd Job)'><img src='/class-icons/resistance/xenon/xenon-booster.png' alt='Skill Xenon Booster'/></span> +2</li>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Xenon Expert (4th Job)'><img src='/class-icons/resistance/xenon/xenon-expert.png' alt='Skill Xenon Expert'/></span> +70%</li>"
+            },
             {
                 "name": "STR, DEX, LUK",
                 "stat": "+45%(465%) +105",
-                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] [<span data-tooltip='Hybrid Logic (Link Skill)'><img src='/class-icons/link-skills/hybrid-logic.png' alt='Skill Hybrid Logic'/></span> up to +10%] [<span data-tooltip='Supply Surplus (Beginner Skill)'><img src='/class-icons/resistance/xenon/supply-surplus.png' alt='Skill Beginner Skill'/></span> up to +20%] {<span data-tooltip='Core Overload (5th Job)'><img src='/class-icons/link-skills/core-overload.png' alt='Skill Core Overload'/></span> up to +20%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='Structural Integrity (2nd Job)'><img src='/class-icons/resistance/xenon/structural-integrity.png' alt='Skill Structural Integrity'/></span> +25] [<span data-tooltip='Hybrid Defenses (3rd Job)'><img src='/class-icons/resistance/xenon/hybrid-defenses.png' alt='Skill Hybrid Defenses'/></span> +10] [<span data-tooltip='Star Force Conversion (Beginner Skill)'><img src='/class-icons/resistance/xenon/star-force-conversion.png' alt='Skill Star Force Conversion'/></span> up to +100]"
+                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li> <li><span data-tooltip='Hybrid Logic (Link Skill)'><img src='/class-icons/link-skills/hybrid-logic.png' alt='Skill Hybrid Logic'/></span> up to +10%</li> <li><span data-tooltip='Supply Surplus (Beginner Skill)'><img src='/class-icons/resistance/xenon/supply-surplus.png' alt='Skill Beginner Skill'/></span> up to +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Core Overload (5th Job)'><img src='/class-icons/resistance/xenon/core-overload.png' alt='Skill Core Overload'/></span> up to +20%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='Structural Integrity (2nd Job)'><img src='/class-icons/resistance/xenon/structural-integrity.png' alt='Skill Structural Integrity'/></span> +25</li> <li><span data-tooltip='Hybrid Defenses (3rd Job)'><img src='/class-icons/resistance/xenon/hybrid-defenses.png' alt='Skill Hybrid Defenses'/></span> +10</li> <li><span data-tooltip='Star Force Conversion (Beginner Skill)'><img src='/class-icons/resistance/xenon/star-force-conversion.png' alt='Skill Star Force Conversion'/></span> up to +70</li>"
             },
             {
                 "name": "Attack",
                 "stat": "+80",
-                "detail": "[<span data-tooltip='Circuit Surge (1st Job)'><img src='/class-icons/resistance/xenon/circuit-surge.png' alt='Skill Circuit Surge'/></span> +30] [<span data-tooltip='Xenon Mastery (2nd Job)'><img src='/class-icons/resistance/xenon/xenon-mastery.png' alt='Skill Xenon Mastery'/></span> +20] [<span data-tooltip='Xenon Expert (4th Job)'><img src='/class-icons/resistance/xenon/xenon-expert.png' alt='Skill Xenon Expert'/></span> +30] (<span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +30) (<span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40) (<span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span> +80% of base weapon attack power & -15% of base weapon power while on cooldown)"
+                "detail": "<ul><li><span data-tooltip='Circuit Surge (1st Job)'><img src='/class-icons/resistance/xenon/circuit-surge.png' alt='Skill Circuit Surge'/></span> +30</li> <li><span data-tooltip='Xenon Mastery (2nd Job)'><img src='/class-icons/resistance/xenon/xenon-mastery.png' alt='Skill Xenon Mastery'/></span> +20</li> <li><span data-tooltip='Xenon Expert (4th Job)'><img src='/class-icons/resistance/xenon/xenon-expert.png' alt='Skill Xenon Expert'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +30</li> <li><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40</li> <li class='bs-long-text'><div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span></div> <div>+80% of base weapon attack power<br/>-15% of base weapon power while on cooldown</div></li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+45%",
-                "detail": "[Base +5%] [<span data-tooltip='Perspective Shift (2nd Job)'><img src='/class-icons/resistance/xenon/perspective-shift.png' alt='Skill Perspective Shift'/></span> +40%]"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Perspective Shift (2nd Job)'><img src='/class-icons/resistance/xenon/perspective-shift.png' alt='Skill Perspective Shift'/></span> +40%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+8%",
-                "detail": "[<span data-tooltip='Xenon Expert (4th Job)'><img src='/class-icons/resistance/xenon/xenon-expert.png' alt='Skill Xenon Expert'/></span> +8%]"
+                "detail": "<ul><li><span data-tooltip='Xenon Expert (4th Job)'><img src='/class-icons/resistance/xenon/xenon-expert.png' alt='Skill Xenon Expert'/></span> +8%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+40%(~70%)",
-                "detail": "[<span data-tooltip='Multilateral VI (4th Job)'><img src='/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +40%] {<span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+                "detail": "<ul><li><span data-tooltip='Multilateral VI (4th Job)'><img src='/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +40%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span> +10%</li> <li><span data-tooltip='Hypogram Field: Fusion (5th Job)'><img src='/class-icons/resistance/xenon/hypogram-field-fusion.png' alt='Skill Hypogram Field: Fusion'/></span> +20% when within field</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "+30%",
-                "detail": "[<span data-tooltip='OOPArts Code (4th Job)'><img src='/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/></span> +30%]"
+                "detail": "<ul><li><span data-tooltip='OOPArts Code (4th Job)'><img src='/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/></span> +30%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+49.5%(~133.22)",
-                "detail": "[<span data-tooltip='Multilateral IV (4th Job)'><img src='/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +15%] x [<span data-tooltip='OOPArts Code (4th Job)'><img src='/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/></span> +30%] x {<span data-tooltip='Core Overload (5th Job)'><img src='/class-icons/resistance/xenon/core-overload.png' alt='Skill Core Overload'/></span> up to +20%} x (<span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +36% in Stage 2)"
+                "detail": "<ul><li><span data-tooltip='Multilateral IV (4th Job)'><img src='/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +15%</li></ul> × <ul><li><span data-tooltip='OOPArts Code (4th Job)'><img src='/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/></span> +30%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Core Overload (5th Job)'><img src='/class-icons/resistance/xenon/core-overload.png' alt='Skill Core Overload'/></span> up to +20%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +36% in Stage 2</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+30%",
-                "detail": "[<span data-tooltip='Offensive Matrix (4th Job)'><img src='/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/></span> +30%]"
+                "detail": "<ul><li><span data-tooltip='Offensive Matrix (4th Job)'><img src='/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/></span> +30%</li></ul>"
             }
         ],
         "buffInfo": {

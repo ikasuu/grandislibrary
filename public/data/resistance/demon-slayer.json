@@ -31,51 +31,60 @@
                 "<strong>EXP & Item Drop Rate (From Monsters)</strong>: [<span data-tooltip='Demon Cry (4th Job)'><img src='/class-icons/resistance/demon-slayer/demon-cry.png' alt='Skill Demon Cry'/></span> +20% from debuff]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.2x",
-            "attackSpeed": ["8", "[Stage 5] [<span data-tooltip='Agile Demon (1st Job)'><img src='/class-icons/resistance/demon-slayer/agile-demon.png' alt='Skill Agile Demon'/></span> +2] [<span data-tooltip='Focused Fury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/focused-fury.png' alt='Skill Focused Fury'/></span> +1]"],
-            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Barricade Mastery (4th Job)'><img src='/class-icons/resistance/demon-slayer/barricade-mastery.png' alt='Skill Barricade Mastery'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Agile Demon (1st Job)'><img src='/class-icons/resistance/demon-slayer/agile-demon.png' alt='Skill Agile Demon'/></span> +2</li> <li><span data-tooltip='Focused Fury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/focused-fury.png' alt='Skill Focused Fury'/></span> +1</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Barricade Mastery (4th Job)'><img src='/class-icons/resistance/demon-slayer/barricade-mastery.png' alt='Skill Barricade Mastery'/></span> +70%</li></ul>"
+            },
             {
                 "name": "STR",
                 "stat": "+15% +50",
-                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] [<span data-tooltip='Hybrid Logic (Link Skill)'><img src='/class-icons/link-skills/hybrid-logic.png' alt='Skill Hybrid Logic'/></span> up to +10%] [<span data-tooltip='Agile Demon (1st Job)'><img src='/class-icons/resistance/demon-slayer/agile-demon.png' alt='Skill Agile Demon'/></span> +20] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30]"
+                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li> <li><span data-tooltip='Agile Demon (1st Job)'><img src='/class-icons/resistance/demon-slayer/agile-demon.png' alt='Skill Agile Demon'/></span> +20</li> <li><span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +30</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "+100",
-                "detail": "[<span data-tooltip='Outrage (2nd Job)'><img src='/class-icons/resistance/demon-slayer/outrage.png' alt='Skill Outrage'/></span> +50] [<span data-tooltip='Barricade Mastery (4th Job)'><img src='/class-icons/resistance/demon-slayer/barricade-mastery.png' alt='Skill Barricade Mastery'/></span> +50]"
+                "detail": "<ul><li><span data-tooltip='Outrage (2nd Job)'><img src='/class-icons/resistance/demon-slayer/outrage.png' alt='Skill Outrage'/></span> +50</li> <li><span data-tooltip='Barricade Mastery (4th Job)'><img src='/class-icons/resistance/demon-slayer/barricade-mastery.png' alt='Skill Barricade Mastery'/></span> +50</li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+40%(~100%)",
-                "detail": "[Base +5%] [<span data-tooltip='Outrage (2nd Job)'><img src='/class-icons/resistance/demon-slayer/outrage.png' alt='Skill Outrage'/></span> +20%] [<span data-tooltip='Insult to Injury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/></span> +15%] {<span data-tooltip='Demon Awakening (5th Job)'><img src='/class-icons/resistance/demon-slayer/demon-awakening.png' alt='Skill Demon Awakening'/></span> +65%}"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Outrage (2nd Job)'><img src='/class-icons/resistance/demon-slayer/outrage.png' alt='Skill Outrage'/></span> +20%</li> <li><span data-tooltip='Insult to Injury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/></span> +15%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Demon Awakening (5th Job)'><img src='/class-icons/resistance/demon-slayer/demon-awakening.png' alt='Skill Demon Awakening'/></span> +65%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+15%",
-                "detail": "[<span data-tooltip='Barricade Mastery (4th Job)'><img src='/class-icons/resistance/demon-slayer/barricade-mastery.png' alt='Skill Barricade Mastery'/></span> +15%]"
+                "detail": "<ul><li><span data-tooltip='Barricade Mastery (4th Job)'><img src='/class-icons/resistance/demon-slayer/barricade-mastery.png' alt='Skill Barricade Mastery'/></span> +15%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+35%(~45%)",
-                "detail": "[<span data-tooltip='Dark Metamorphosis (4th Job)'><img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/></span> +35%] {<span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demon-slayer/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span> +10%}"
+                "detail": "<ul><li><span data-tooltip='Dark Metamorphosis (4th Job)'><img src='/class-icons/resistance/demon-slayer/dark-metamorphosis.png' alt='Skill Dark Metamorphosis'/></span> +35%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "+20%",
-                "detail": "[<span data-tooltip='Fury Unleashed (Link Skill)'><img src='/class-icons/link-skills/fury-unleashed.png' alt='Skill Fury Unleashed'/></span> up to +20%]"
+                "detail": "<ul><li><span data-tooltip='Fury Unleashed (Link Skill)'><img src='/class-icons/link-skills/fury-unleashed.png' alt='Skill Fury Unleashed'/></span> up to +20%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+43%(~64.45)",
-                "detail": "[<span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/resistance/demon-slayer/weapon-mastery.png' alt='Skill Weapon Mastery'/></span> +10%] x [<span data-tooltip='Focused Fury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/focused-fury.png' alt='Skill Focused Fury'/></span> +30%] x {<span data-tooltip='Insult to Injury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/></span> +15% to stunned, blinded, frozen, incapacitated} x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%) x (<span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span> +11%)"
+                "detail": "<ul><li><span data-tooltip='Weapon Mastery (2nd Job)'><img src='/class-icons/resistance/demon-slayer/weapon-mastery.png' alt='Skill Weapon Mastery'/></span> +10%</li></ul> × <ul><li><span data-tooltip='Focused Fury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/focused-fury.png' alt='Skill Focused Fury'/></span> +30%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Insult to Injury (3rd Job)'><img src='/class-icons/resistance/demon-slayer/insult-to-injury.png' alt='Skill Insult to Injury'/></span> +15% to stunned, blinded, frozen, incapacitated</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span> +11%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+30%",
-                "detail": "[<span data-tooltip='Binding Darkness (4th Job)'><img src='/class-icons/resistance/demon-slayer/binding-darkness.png' alt='Skill Binding Darkness'/></span> +30%] x {<span data-tooltip='Demon Cry (4th Job)'><img src='/class-icons/resistance/demon-slayer/demon-cry.png' alt='Skill Demon Cry'/></span> +15% from debuff}"
+                "detail": "<ul><li><span data-tooltip='Binding Darkness (4th Job)'><img src='/class-icons/resistance/demon-slayer/binding-darkness.png' alt='Skill Binding Darkness'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Demon Cry (4th Job)'><img src='/class-icons/resistance/demon-slayer/demon-cry.png' alt='Skill Demon Cry'/></span> +15% from debuff</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%</li></ul>"
             }
         ],
         "buffInfo": {

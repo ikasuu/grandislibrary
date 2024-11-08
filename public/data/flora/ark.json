@@ -35,51 +35,60 @@
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Advanced Fusion (3rd Job)'><img src='/class-icons/flora/ark/advanced-fusion.png' alt='Skill Advanced Fusion'/></span> 40]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.7x",
-            "attackSpeed": ["8", "[Stage 5] [<span data-tooltip='Knuckle Booster (2nd Job)'><img src='/class-icons/flora/ark/knuckle-booster.png' alt='Skill Knuckle Booster'/></span> +2] [<span data-tooltip='Gust Charge Drive (1st Job)'><img src='/class-icons/flora/ark/gust-charge-drive.png' alt='Skill Gust Charge Drive'/></span> +1]"],
-            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Knuckle Expert (4th Job)'><img src='/class-icons/flora/ark/knuckle-expert.png' alt='Skill Knuckle Expert'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Knuckle Booster (2nd Job)'><img src='/class-icons/flora/ark/knuckle-booster.png' alt='Skill Knuckle Booster'/></span> +2</li> <li><span data-tooltip='Gust Charge Drive (1st Job)'><img src='/class-icons/flora/ark/gust-charge-drive.png' alt='Skill Gust Charge Drive'/></span> +1</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Knuckle Expert (4th Job)'><img src='/class-icons/flora/ark/knuckle-expert.png' alt='Skill Knuckle Expert'/></span> +70%</li></ul>"
+            },
             {
                 "name": "STR",
                 "stat": "+15% +60",
-                "detail": "[<span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/ark/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span> +15%] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +60]"
+                "detail": "<ul><li><span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/ark/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span> +15%</li> <li><span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +60</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "+200",
-                "detail": "[<span data-tooltip='Mystic Arts Mastery (1st Job)'><img src='/class-icons/flora/ark/mystic-arts-mastery.png' alt='Skill Mystic Arts Mastery'/></span> +20] [<span data-tooltip='Knuckle Mastery (2nd Job)'><img src='/class-icons/common/knuckle-mastery.png' alt='Skill Knuckle Mastery'/></span> +20] [<span data-tooltip='Knuckle Expert (4th Job)'><img src='/class-icons/flora/ark/knuckle-expert.png' alt='Skill Knuckle Expert'/></span> +30] [<span data-tooltip='Complete Fusion (4th Job)'><img src='/class-icons/flora/ark/complete-fusion.png' alt='Skill Complete Fusion'/></span> +40] [<span data-tooltip='Magic Conversion (Beginner Skill)'><img src='/class-icons/flora/magic-conversion.png' alt='Skill Magic Conversion'/></span> 50% of Magic Attack from equipment - excluding weapon, cannot exceed 20% of weapon's base Magic Attack] [<span data-tooltip='Scarlet Charge Drive (2nd Job)'><img src='/class-icons/flora/ark/scarlet-charge-drive.png' alt='Skill Scarlet Charge Drive'/></span> +30 from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}] [<span data-tooltip='Master Corruption (2nd Job)'><img src='/class-icons/flora/ark/master-corruption.png' alt='Skill Master Corruption'/></span> +30 while in Specter Mode] (<span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span> +100 & 100% of Magic Attack from equipment - excluding weapon, cannot exceed 150% of weapon's base Magic Attack) (<span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40) (<span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span> +80% of base weapon attack power & -15% of base weapon power while on cooldown)"
+                "detail": "<ul><li><span data-tooltip='Mystic Arts Mastery (1st Job)'><img src='/class-icons/flora/ark/mystic-arts-mastery.png' alt='Skill Mystic Arts Mastery'/></span> +20</li> <li><span data-tooltip='Knuckle Mastery (2nd Job)'><img src='/class-icons/common/knuckle-mastery.png' alt='Skill Knuckle Mastery'/></span> +20</li> <li><span data-tooltip='Knuckle Expert (4th Job)'><img src='/class-icons/flora/ark/knuckle-expert.png' alt='Skill Knuckle Expert'/></span> +30</li> <li><span data-tooltip='Complete Fusion (4th Job)'><img src='/class-icons/flora/ark/complete-fusion.png' alt='Skill Complete Fusion'/></span> +40</li> <li class='bs-long-text'><div><span data-tooltip='Magic Conversion (Beginner Skill)'><img src='/class-icons/flora/magic-conversion.png' alt='Skill Magic Conversion'/></span></div> <div>50% of Magic Attack from equipment - excluding weapon<br/>Cannot exceed 20% of weapon's base Magic Attack</div></li> <li><span data-tooltip='Scarlet Charge Drive (2nd Job)'><img src='/class-icons/flora/ark/scarlet-charge-drive.png' alt='Skill Scarlet Charge Drive'/></span> +30 from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}</li> <li><span data-tooltip='Master Corruption (2nd Job)'><img src='/class-icons/flora/ark/master-corruption.png' alt='Skill Master Corruption'/></span> +30 while in Specter Mode</li></ul> <ul class='bs-opt-val'><li class='bs-long-text'><div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span></div> <div>+100 & 100% of Magic Attack from equipment - excluding weapon<br/>Cannot exceed 150% of weapon's base Magic Attack</div></li> <li><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40</li> <li class='bs-long-text'><div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span></div> <div>+80% of base weapon attack power<br/>-15% of base weapon power while on cooldown</div></li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+60%(~80%)",
-                "detail": "[Base +5%] [<span data-tooltip='Initiate Fusion (2nd Job)'><img src='/class-icons/flora/ark/initiate-fusion.png' alt='Skill Initiate Fusion'/></span> +5%] [<span data-tooltip='Advanced Fusion (3rd Job)'><img src='/class-icons/flora/ark/advanced-fusion.png' alt='Skill Advanced Fusion'/></span> +20%] [<span data-tooltip='Complete Fusion (4th Job)'><img src='/class-icons/flora/ark/complete-fusion.png' alt='Skill Complete Fusion'/></span> +10%] [<span data-tooltip='Scarlet Charge Drive (2nd Job)'><img src='/class-icons/flora/ark/scarlet-charge-drive.png' alt='Skill Scarlet Charge Drive'/></span> +30 from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}]"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Initiate Fusion (2nd Job)'><img src='/class-icons/flora/ark/initiate-fusion.png' alt='Skill Initiate Fusion'/></span> +5%</li> <li><span data-tooltip='Advanced Fusion (3rd Job)'><img src='/class-icons/flora/ark/advanced-fusion.png' alt='Skill Advanced Fusion'/></span> +20%</li> <li><span data-tooltip='Complete Fusion (4th Job)'><img src='/class-icons/flora/ark/complete-fusion.png' alt='Skill Complete Fusion'/></span> +10%</li> <li><span data-tooltip='Scarlet Charge Drive (2nd Job)'><img src='/class-icons/flora/ark/scarlet-charge-drive.png' alt='Skill Scarlet Charge Drive'/></span> +30 from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+30%",
-                "detail": "[<span data-tooltip='Knuckle Expert (4th Job)'><img src='/class-icons/flora/ark/knuckle-expert.png' alt='Skill Knuckle Expert'/></span> +30%]"
+                "detail": "<ul><li><span data-tooltip='Knuckle Expert (4th Job)'><img src='/class-icons/flora/ark/knuckle-expert.png' alt='Skill Knuckle Expert'/></span> +30%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+16%(~69%)",
-                "detail": "[<span data-tooltip='Solus (Link Skill)'><img src='/class-icons/link-skills/solus.png' alt='Skill Solus'/></span> up to +16%] [<span data-tooltip='Abyssal Charge Drive (4th Job)'><img src='/class-icons/flora/ark/abyssal-charge-drive.png' alt='Skill Abyssal Charge Drive'/></span> +20% from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}] {<span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/ark/divine-wrath.png' alt='Skill Divine Wrath'/></span> +10%} (<span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span> up to +45%)"
+                "detail": "<ul><li><span data-tooltip='Solus (Link Skill)'><img src='/class-icons/link-skills/solus.png' alt='Skill Solus'/></span> up to +16%</li> <li><span data-tooltip='Abyssal Charge Drive (4th Job)'><img src='/class-icons/flora/ark/abyssal-charge-drive.png' alt='Skill Abyssal Charge Drive'/></span> +20% from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/ark/divine-wrath.png' alt='Skill Divine Wrath'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span> up to +45%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "+60%(~90%)",
-                "detail": "[<span data-tooltip='Complete Fusion (4th Job)'><img src='/class-icons/flora/ark/complete-fusion.png' alt='Skill Complete Fusion'/></span> +30%] [<span data-tooltip='Abyssal Charge Drive (4th Job)'><img src='/class-icons/flora/ark/abyssal-charge-drive.png' alt='Skill Abyssal Charge Drive'/></span> +30% from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}]"
+                "detail": "<ul><li><span data-tooltip='Complete Fusion (4th Job)'><img src='/class-icons/flora/ark/complete-fusion.png' alt='Skill Complete Fusion'/></span> +30%</li> <li><span data-tooltip='Abyssal Charge Drive (4th Job)'><img src='/class-icons/flora/ark/abyssal-charge-drive.png' alt='Skill Abyssal Charge Drive'/></span> +30% from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+41.12%",
-                "detail": "[<span data-tooltip='Knuckle Mastery (2nd Job)'><img src='/class-icons/common/knuckle-mastery.png' alt='Skill Knuckle Mastery'/></span> +5%] x [<span data-tooltip='Advanced Fusion (3rd Job)'><img src='/class-icons/flora/ark/advanced-fusion.png' alt='Skill Advanced Fusion'/></span> +10%] x [<span data-tooltip='Battle Frenzy (4th Job)'><img src='/class-icons/flora/ark/battle-frenzy.png' alt='Skill Battle Frenzy'/></span> +20%]"
+                "detail": "<ul><li><span data-tooltip='Knuckle Mastery (2nd Job)'><img src='/class-icons/common/knuckle-mastery.png' alt='Skill Knuckle Mastery'/></span> +5%</li></ul> × <ul><li><span data-tooltip='Advanced Fusion (3rd Job)'><img src='/class-icons/flora/ark/advanced-fusion.png' alt='Skill Advanced Fusion'/></span> +10%</li></ul> × <ul><li><span data-tooltip='Battle Frenzy (4th Job)'><img src='/class-icons/flora/ark/battle-frenzy.png' alt='Skill Battle Frenzy'/></span> +20%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+44%(~56%)",
-                "detail": "[<span data-tooltip='Complete Fusion (4th Job)'><img src='/class-icons/flora/ark/complete-fusion.png' alt='Skill Complete Fusion'/></span> +30%] x [<span data-tooltip='Abyssal Charge Drive (4th Job)'><img src='/class-icons/flora/ark/abyssal-charge-drive.png' alt='Skill Abyssal Charge Drive'/></span> +20% from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}]"
+                "detail": "<ul><li><span data-tooltip='Complete Fusion (4th Job)'><img src='/class-icons/flora/ark/complete-fusion.png' alt='Skill Complete Fusion'/></span> +30%</li></ul> × <ul><li><span data-tooltip='Abyssal Charge Drive (4th Job)'><img src='/class-icons/flora/ark/abyssal-charge-drive.png' alt='Skill Abyssal Charge Drive'/></span> +20% from buff {<span data-tooltip='Charge Spell Amplifier (Hyper Skill)'><img src='/class-icons/flora/ark/charge-spell-amplifier.png' alt='Skill Charge Spell Amplifier'/></span> doubled when active}</li></ul>"
             }
         ],
         "buffInfo": {

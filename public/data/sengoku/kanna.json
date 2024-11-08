@@ -34,46 +34,55 @@
                 "<strong>EXP Rate (From Monsters)</strong>: [<span data-tooltip='Kishin Shoukan (3rd Job)'><img src='/class-icons/sengoku/kanna/kishin-shoukan.png' alt='Skill Kishin Shoukan'/></span> +10%] [<span data-tooltip='Nightghost Guide (4th Job)'><img src='/class-icons/sengoku/kanna/nightghost-guide.png' alt='Skill Nightghost Guide'/></span> +30% from debuff]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.35x",
-            "attackSpeed": ["6(8)", "[Stage 4] [<span data-tooltip='Radiant Peacock (2nd Job)'><img src='/class-icons/sengoku/kanna/radiant-peacock.png' alt='Skill Radiant Peacock'/></span> +2] {<span data-tooltip='Spirit&#39;s Domain (5th Job)'><img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit&#39;s Domain'/></span> up to +2}"],
-            "mastery": ["95%", "[Base +25%] [<span data-tooltip='Kasen (4th Job)'><img src='/class-icons/sengoku/kanna/kasen.png' alt='Skill Kasen'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.35x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "6(8)",
+                "detail": "<ul><li class='bs-no-icon'>Stage 4</li> <li><span data-tooltip='Radiant Peacock (2nd Job)'><img src='/class-icons/sengoku/kanna/radiant-peacock.png' alt='Skill Radiant Peacock'/></span> +2</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Spirit&#39;s Domain (5th Job)'><img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit&#39;s Domain'/></span> up to +2</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<ul><li class='bs-no-icon'>Base +25%</li> <li><span data-tooltip='Kasen (4th Job)'><img src='/class-icons/sengoku/kanna/kasen.png' alt='Skill Kasen'/></span> +70%</li></ul>"
+            },
             {
                 "name": "INT",
                 "stat": "+15% +40",
-                "detail": "[<span data-tooltip='Akatsuki Warrior (4th Job)'><img src='/class-icons/sengoku/akatsuki-warrior.png' alt='Skill Akatsuki Warrior'/></span> +15%] [<span data-tooltip='Spiritual Enlightenment (1st Job)'><img src='/class-icons/sengoku/kanna/spiritual-enlightenment.png' alt='Skill Spiritual Enlightenment'/></span> +40] [<span data-tooltip='Keen Edge (Link Skill)'><img src='/class-icons/link-skills/keen-edge.png' alt='Skill Keen Edge'/></span> up to +25]"
+                "detail": "<ul><li><span data-tooltip='Akatsuki Warrior (4th Job)'><img src='/class-icons/sengoku/akatsuki-warrior.png' alt='Skill Akatsuki Warrior'/></span> +15%</li> <li><span data-tooltip='Spiritual Enlightenment (1st Job)'><img src='/class-icons/sengoku/kanna/spiritual-enlightenment.png' alt='Skill Spiritual Enlightenment'/></span> +40</li></ul>"
             },
             {
                 "name": "Magic Attack",
                 "stat": "+30",
-                "detail": "[<span data-tooltip='Spirt Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +30] [<span data-tooltip='Blessing of the Five Elements (Beginner Skill)'><img src='/class-icons/sengoku/kanna/blessing-of-the-five-elements.png' alt='Skill Blessing of the Five Elements'/></span> +1 MATT for every 700 HP] [<span data-tooltip='Blessing of the Five Elements (Beginner Skill)'><img src='/class-icons/sengoku/kanna/blessing-of-the-five-elements.png' alt='Skill Blessing of the Five Elements'/></span> +50% of Secondary Slot Fan MATT]"
+                "detail": "<ul><li><span data-tooltip='Spirt Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +30</li> <li><span data-tooltip='Blessing of the Five Elements (Beginner Skill)'><img src='/class-icons/sengoku/kanna/blessing-of-the-five-elements.png' alt='Skill Blessing of the Five Elements'/></span> +1 MATT for every 700 HP</li> <li><span data-tooltip='Haku the Familiar 2 (1st Job)'><img src='/class-icons/sengoku/kanna/haku-the-familiar-2.png' alt='Skill Haku the Familiar 2'/></span> +50% of Secondary Slot Fan MATT</li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+45%",
-                "detail": "[Base +5%] [<span data-tooltip='Spirt Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +40%]"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Spirt Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +40%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+20%",
-                "detail": "[<span data-tooltip='Spirt Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +40%]"
+                "detail": "<ul><li><span data-tooltip='Spirt Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +40%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+30%",
-                "detail": "[<span data-tooltip='Haku Reborn (2nd Job)'><img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/></span> +15%] [<span data-tooltip='Kasen (4th Job)'><img src='/class-icons/sengoku/kanna/kasen.png' alt='Skil Kasen'/></span> +30%] [<span data-tooltip='Elementalism (Link Skill)'><img src='/class-icons/link-skills/elementalism.png' alt='Skill Elementalism'/></span> up to +10%] {<span data-tooltip='Nine-Tailed Fury (Beginner Skill)'><img src='/class-icons/sengoku/kanna/nine-tailed-fury.png' alt='Skill Nine-Tailed Fury'/></span> +20%} {<span data-tooltip='Yosuzume (3rd Job)'><img src='/class-icons/sengoku/kanna/yosuzume.png' alt='Skill Yosuzume'/></span> +5% from debuff} {<span data-tooltip='Bellflower Barrier (4th Job)'><img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skil Bellflower Barrier'/></span> +20%} {<span data-tooltip='Princess&#39;s Vow (Hyper Skill)'><img src='/class-icons/sengoku/hayato/princesss-vow.png' alt='Skill Princess&#39;s Vow'/></span> +10%}"
+                "detail": "<ul><li><span data-tooltip='Haku Reborn (2nd Job)'><img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/></span> +15%</li> <li><span data-tooltip='Kasen (4th Job)'><img src='/class-icons/sengoku/kanna/kasen.png' alt='Skil Kasen'/></span> +30%</li> <li><span data-tooltip='Elementalism (Link Skill)'><img src='/class-icons/link-skills/elementalism.png' alt='Skill Elementalism'/></span> up to +10%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Nine-Tailed Fury (Beginner Skill)'><img src='/class-icons/sengoku/kanna/nine-tailed-fury.png' alt='Skill Nine-Tailed Fury'/></span> +20%</li> <li><span data-tooltip='Yosuzume (3rd Job)'><img src='/class-icons/sengoku/kanna/yosuzume.png' alt='Skill Yosuzume'/></span> +5% from debuff</li> <li><span data-tooltip='Bellflower Barrier (4th Job)'><img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skil Bellflower Barrier'/></span> +20%</li> <li><span data-tooltip='Princess&#39;s Vow (Hyper Skill)'><img src='/class-icons/sengoku/princesss-vow.png' alt='Skill Princess&#39;s Vow'/></span> +10%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "(~5%)",
-                "detail": "{<span data-tooltip='Bellflower Barrier (4th Job)'><img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skil Bellflower Barrier'/></span> +5%} {<span data-tooltip='Spirit&#39;s Domain (5th Job)'><img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit&#39;s Domain'/></span> up to +100%}"
+                "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Bellflower Barrier (4th Job)'><img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skil Bellflower Barrier'/></span> +5%</li> <li><span data-tooltip='Spirit&#39;s Domain (5th Job)'><img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit&#39;s Domain'/></span> up to +100%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "(~222.5%)",
-                "detail": "[<span data-tooltip='Spirit Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +20%] x [<span data-tooltip='Haku Reborn (2nd Job)'><img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/></span> +1% for each party member up to +6%] x {<span data-tooltip='Spirit&#39;s Domain (5th Job)'><img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit&#39;s Domain'/></span> +5%} x (<span data-tooltip='Princess Sakuno&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/princess-sakunos-blessing.png' alt='Skill Princess Sakuno&#39;s Blessing'/></span> up to +50%) x (<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8% while toggled)"
+                "detail": "<ul><li><span data-tooltip='Spirit Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +20%</li></ul> × <ul><li><span data-tooltip='Haku Reborn (2nd Job)'><img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/></span> +1% for each party member up to +6%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Spirit&#39;s Domain (5th Job)'><img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit&#39;s Domain'/></span> +5%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Princess Sakuno&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/princess-sakunos-blessing.png' alt='Skill Princess Sakuno&#39;s Blessing'/></span> up to +50%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8% while toggled</li></ul>"
             },
             {
                 "name": "Ignore DEF",

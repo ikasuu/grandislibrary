@@ -62,7 +62,7 @@
                 "detail": "<ul><li><span data-tooltip='Jolly Roger (4th Job)'><img src='/class-icons/explorers/corsair/jolly-roger.png' alt='Skill Jolly Roger'/></span> +20%</li> <li><span data-tooltip='Infinity Blast (2nd Job)'><img src='/class-icons/explorers/corsair/infinity-blast.png' alt='Skill Infinity Blast'/></span> +10</li> <li><span data-tooltip='Cross Cut Blast (3rd Job)'><img src='/class-icons/explorers/corsair/cross-cut-blast.png' alt='Skill Cross Cut Blast'/></span> +60</li> <li><span data-tooltip='Majestic Presence (4th Job)'><img src='/class-icons/explorers/corsair/majestic-presence.png' alt='Skill Majestic Presence'/></span> +30</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Ahoy Mateys (4th Job)'><img src='/class-icons/explorers/corsair/ahoy-mateys.png' alt='Skill Ahoy Mateys'/></span> +45</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40</li> <li class='bs-long-text'><div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span></div> <div>+80% of base weapon attack power</br>-15% of base weapon power while on cooldown</div></li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+65%(~75%)",
                 "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Shadow Heart (1st Job)'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Shadow Heart'/></span> +20%</li> <li><span data-tooltip='Gun Mastery (2nd Job)'><img src='/class-icons/explorers/corsair/gun-mastery.png' alt='Skill Gun Mastery'/></span> +10%</li> <li><span data-tooltip='Fullmetal Jacket (3rd Job)'><img src='/class-icons/explorers/corsair/fullmetal-jacket.png' alt='Skill Fullmetal Jacket'/></span> +30%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Ahoy Mateys (4th Job)'><img src='/class-icons/explorers/corsair/ahoy-mateys.png' alt='Skill Ahoy Mateys'/></span> +10%</li></ul>"
             },
@@ -89,7 +89,7 @@
             {
                 "name": "Ignore DEF",
                 "stat": "+20%",
-                "detail": "<ul><li><span data-tooltip='Fullmetal Jacket (3rd Job)'><img src='/class-icons/explorers/corsair/fullmetal-jacket.png' alt='Skill Fullmetal Jacket'/></span> +20%</li></ul>"
+                "detail": "<ul><li><span data-tooltip='Fullmetal Jacket (3rd Job)'><img src='/class-icons/explorers/corsair/fullmetal-jacket.png' alt='Skill Fullmetal Jacket'/></span> +20%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span> +25%</li></ul>"
             }
         ],
         "buffInfo": {
@@ -658,6 +658,10 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/corsair/double-down-addition.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "When rolled, increases %Ignore DEF"
+                    ],
                     "reqLev": 150
                 },
                 {

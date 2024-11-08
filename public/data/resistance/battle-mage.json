@@ -30,51 +30,60 @@
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Blue Aura (3rd Job)'><img src='/class-icons/resistance/battle-mage/blue-aura.png' alt='Skill Blue Aura'/></span> 30 & 20 while active]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.2x",
-            "attackSpeed": ["8", "[Stage 4] [<span data-tooltip='Hasty Aura (1st Job)'><img src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/></span> +2 & +1 while active - does not bypass Soft Cap] [<span data-tooltip='Staff Boost (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-boost.png' alt='Skill Staff Boost'/></span> +2]"],
-            "mastery": ["95%", "[Base +25%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.2x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<ul><li class='bs-no-icon'>Stage 4</li> <li><span data-tooltip='Staff Boost (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-boost.png' alt='Skill Staff Boost'/></span> +2</li> <li><span data-tooltip='Hasty Aura (1st Job)'><img src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/></span> +2 & +1 while active - does not bypass soft cap</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<ul><li class='bs-no-icon'>Base +25%</li> <li><span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +70%</li></ul>"
+            },
             {
                 "name": "INT",
                 "stat": "+15%(415%) +40",
-                "detail": "[<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%) [<span data-tooltip='High Wisdom (2nd Job)'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> +40]"
+                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='High Wisdom (2nd Job)'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> +40</li></ul>"
             },
             {
                 "name": "Magic Attack",
                 "stat": "+25% +80(~140)",
-                "detail": "[<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +15%] [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%] [<span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +20] [<span data-tooltip='Staff Mastery (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-mastery.png' alt='Skill Staff Mastery'/></span> +30] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +30] {<span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span> +60}"
+                "detail": "<ul><li><span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +15%</li> <li><span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%</li> <li><span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +20</li> <li><span data-tooltip='Staff Mastery (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-mastery.png' alt='Skill Staff Mastery'/></span> +30</li> <li><span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +30</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span> +60</li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+40%(~60%)",
-                "detail": "[Base +5%] [<span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +15%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +20%] {<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +20% while active}"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +15%</li> <li><span data-tooltip='Staff Mastery (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-mastery.png' alt='Skill Staff Mastery'/></span> +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +20% while toggled</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+35%(~45%)",
-                "detail": "[<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +15%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +20%] {<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +10% while active}"
+                "detail": "<ul><li><span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +15%</li> <li><span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +10% while toggled</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+15%(~70%)",
-                "detail": "[<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%] {<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +10% while active} {<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +25% while active} {<span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/for-liberty.png' alt='Skill For Liberty'/></span> +10%} (<span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%)"
+                "detail": "<ul><li><span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span> +10%</li> <li><span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +10% while active</li> <li><span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +25% while toggled</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "(~5%)",
-                "detail": "(<span data-tooltip='Dark Aura - Boss Rush (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/dark-aura-boss-rush.png' alt='Skill Dark Aura - Boss Rush'/></span> +5%)"
+                "detail": "<ul class='bs-opt-val'><li><span data-tooltip='Dark Aura - Boss Rush (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/dark-aura-boss-rush.png' alt='Skill Dark Aura - Boss Rush'/></span> +5%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+58.6%(~79.85%)",
-                "detail": "[<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +25%] x [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +5%] x (<span data-tooltip='Weakening Aura - Elemental Decrease (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/weakening-aura-elemental-decrease.png' alt='Skill Weakening Aura - Elemental Decrease'/></span> +8%) x (<span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8% while toggled)"
+                "detail": "<ul><li><span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +25%</li></ul> × <ul><li><span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +5%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weakening Aura - Elemental Decrease (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/weakening-aura-elemental-decrease.png' alt='Skill Weakening Aura - Elemental Decrease'/></span> +8%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8% while toggled</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+30%(~44%)",
-                "detail": "[<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +30%] x {<span data-tooltip='Weakening Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/></span> +20% from debuff}"
+                "detail": "<ul><li><span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Weakening Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/></span> +20% from debuff</li></ul>"
             }
         ],
         "buffInfo": {

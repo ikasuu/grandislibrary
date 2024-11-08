@@ -30,51 +30,60 @@
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> 30]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.3x",
-            "attackSpeed": ["8", "[Stage 6] [<span data-tooltip='Whispershot Booster (2nd Job)'><img src='/class-icons/nova/kain/whispershot-booster.png' alt='Skill Whispershot Booster'/></span> +2]"],
-            "mastery": ["85%", "[Base +15%] [<span data-tooltip='Whispershot Expert (4th Job)'><img src='/class-icons/nova/kain/whispershot-expert.png' alt='Skill Whispershot Expert'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<ul><li class='bs-no-icon'>Stage 6</li> <li><span data-tooltip='Whispershot Booster (2nd Job)'><img src='/class-icons/nova/kain/whispershot-booster.png' alt='Skill Whispershot Booster'/></span> +2</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "85%",
+                "detail": "<ul><li class='bs-no-icon'>Base +15%</li> <li><span data-tooltip='Whispershot Mastery (4th Job)'><img src='/class-icons/nova/kain/whispershot-mastery-2.png' alt='Skill Whispershot Mastery'/></span> +70%</li></ul>"
+            },
             {
                 "name": "DEX",
                 "stat": "+15% +60",
-                "detail": "[<span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/kain/nova-warrior.png' alt='Skill Nova Warrior'/></span> +15%] [<span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +60]"
+                "detail": "<ul><li><span data-tooltip='Nova Warrior (4th Job)'><img src='/class-icons/nova/kain/nova-warrior.png' alt='Skill Nova Warrior'/></span> +15%</li> <li><span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +60</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "(~15%) +180",
-                "detail": "{<span data-tooltip='Incarnation (Hyper Skill)'><img src='/class-icons/nova/kain/incarnation.png' alt='Skill Incarnation'/></span> +15%} [<span data-tooltip='Assassin (1st Job)'><img src='/class-icons/nova/kain/assassin.png' alt='Skill Assassin'/></span> +40] [<span data-tooltip='Whispershot Mastery (2nd Job)'><img src='/class-icons/nova/kain/whispershot-mastery-1.png' alt='Skill Whispershot Mastery'/></span> +40] [<span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> +40] [<span data-tooltip='Grinding II (4th Job)'><img src='/class-icons/nova/kain/grinding-ii.png' alt='Skill Grinding II'/></span> +30] [<span data-tooltip='Whispershot Mastery (4th Job)'><img src='/class-icons/nova/kain/whispershot-mastery-2.png' alt='Skill Whispershot Expert'/></span> +30]"
+                "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Incarnation (Hyper Skill)'><img src='/class-icons/nova/kain/incarnation.png' alt='Skill Incarnation'/></span> +15%</li></ul> <ul><li><span data-tooltip='Assassin (1st Job)'><img src='/class-icons/nova/kain/assassin.png' alt='Skill Assassin'/></span> +40</li> <li><span data-tooltip='Whispershot Mastery (2nd Job)'><img src='/class-icons/nova/kain/whispershot-mastery-1.png' alt='Skill Whispershot Mastery'/></span> +40</li> <li><span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> +40</li> <li><span data-tooltip='Grinding II (4th Job)'><img src='/class-icons/nova/kain/grinding-ii.png' alt='Skill Grinding II'/></span> +30</li> <li><span data-tooltip='Whispershot Mastery (4th Job)'><img src='/class-icons/nova/kain/whispershot-mastery-2.png' alt='Skill Whispershot Expert'/></span> +30</li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+60%",
-                "detail": "[Base +5%] [<span data-tooltip='Assassin (1st Job)'><img src='/class-icons/nova/kain/assassin.png' alt='Skill Assassin'/></span> +35%] [<span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> +20%]"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Assassin (1st Job)'><img src='/class-icons/nova/kain/assassin.png' alt='Skill Assassin'/></span> +35%</li> <li><span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> +20%</li></ul>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+40%",
-                "detail": "[<span data-tooltip='Dogma (4th Job)'><img src='/class-icons/nova/kain/dogma.png' alt='Skill Dogma'/></span> +20%] [<span data-tooltip='Whispershot Mastery (4th Job)'><img src='/class-icons/nova/kain/whispershot-mastery-2.png' alt='Skill Whispershot Expert'/></span> +20%]"
+                "detail": "<ul><li><span data-tooltip='Dogma (4th Job)'><img src='/class-icons/nova/kain/dogma.png' alt='Skill Dogma'/></span> +20%</li> <li><span data-tooltip='Whispershot Mastery (4th Job)'><img src='/class-icons/nova/kain/whispershot-mastery-2.png' alt='Skill Whispershot Expert'/></span> +20%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+13%(~85%)",
-                "detail": "[<span data-tooltip='Adapt to Death (4th Job)'><img src='/class-icons/nova/kain/adapt-to-death.png' alt='Skill Adapt to Death'/></span> +13%] {<span data-tooltip='Time to Prepare (Link Skill)'><img src='/class-icons/link-skills/time-to-prepare.png' alt='Skill Time to Prepare'/></span> +17%} {<span data-tooltip='Incarnation (Hyper Skill)'><img src='/class-icons/nova/kain/incarnation.png' alt='Skill Incarnation'/></span> +15%} {<span data-tooltip='Thanatos Descent (5th Job)'><img src='/class-icons/nova/kain/thanatos-descent.png' alt='Skill Thanatos Descent'/></span> +45%} (<span data-tooltip='Grandis Goddess&#39;s Blessing (5th)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span> +35%)"
+                "detail": "<ul><li><span data-tooltip='Adapt to Death (4th Job)'><img src='/class-icons/nova/kain/adapt-to-death.png' alt='Skill Adapt to Death'/></span> +13%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Time to Prepare (Link Skill)'><img src='/class-icons/link-skills/time-to-prepare.png' alt='Skill Time to Prepare'/></span> up to +17%</li> <li><span data-tooltip='Incarnation (Hyper Skill)'><img src='/class-icons/nova/kain/incarnation.png' alt='Skill Incarnation'/></span> +15%</li> <li><span data-tooltip='Thanatos Descent (5th Job)'><img src='/class-icons/nova/kain/thanatos-descent.png' alt='Skill Thanatos Descent'/></span> +45%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Grandis Goddess&#39;s Blessing (5th)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span> +35%</li></ul>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "+10%",
-                "detail": "[<span data-tooltip='Adapt to Death (4th Job)'><img src='/class-icons/nova/kain/adapt-to-death.png' alt='Skill Adapt to Death'/></span> +10%]"
+                "detail": "<ul><li><span data-tooltip='Adapt to Death (4th Job)'><img src='/class-icons/nova/kain/adapt-to-death.png' alt='Skill Adapt to Death'/></span> +10%</li></ul>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+101.5%",
-                "detail": "[<span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> +24%] x [<span data-tooltip='Dogma (4th Job)'><img src='/class-icons/nova/kain/dogma.png' alt='Skill Dogma'/></span> +20%] x [<span data-tooltip='Whispershot Mastery (4th Job)'><img src='/class-icons/nova/kain/whispershot-expert.png' alt='Skill Whispershot Expert'/></span> +30%]"
+                "detail": "<ul><li><span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> +24%</li></ul> × <ul><li><span data-tooltip='Dogma (4th Job)'><img src='/class-icons/nova/kain/dogma.png' alt='Skill Dogma'/></span> +20%</li></ul> × <ul><li><span data-tooltip='Whispershot Mastery (4th Job)'><img src='/class-icons/nova/kain/whispershot-mastery-2.png' alt='Skill Whispershot Expert'/></span> +30%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+37%",
-                "detail": "[<span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> +10%] x [<span data-tooltip='Dogma (4th Job)'><img src='/class-icons/nova/kain/dogma.png' alt='Skill Dogma'/></span> +30%]"
+                "detail": "<ul><li><span data-tooltip='Natural Born Instinct (3rd Job)'><img src='/class-icons/nova/kain/natural-born-instinct.png' alt='Skill Natural Born Instinct'/></span> +10%</li></ul> × <ul><li><span data-tooltip='Dogma (4th Job)'><img src='/class-icons/nova/kain/dogma.png' alt='Skill Dogma'/></span> +30%</li></ul>"
             }
         ],
         "buffInfo": {
@@ -578,7 +587,7 @@
                         "type": "Passive"
                     },
                     {
-                        "name": "Whispershot Expert",
+                        "name": "Whispershot Mastery",
                         "shortDesc": "Whispershot Mastery: +70%\\nFinal Damage: +30%, Attack Power: +30, Critical Damage: +20%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/nova/kain/whispershot-mastery-2.png", "/class-icons/nova/kain/whispershot-mastery-1.png"],

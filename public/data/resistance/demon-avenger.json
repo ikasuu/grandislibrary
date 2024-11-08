@@ -29,36 +29,45 @@
                 "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Ward Evil (3rd Job)'><img src='/class-icons/resistance/demon-avenger/ward-evil.png' alt='Skill Ward Evil'/></span> 50]"
             ]
         ],
-        "weaponStats": {
-            "weaponMultiply": "1.3x",
-            "attackSpeed": ["7", "[Stage 4] [<span data-tooltip='Agile Demon (2nd Job)'><img src='/class-icons/resistance/demon-avenger/agile-demon.png' alt='Skill Agile Demon'/></span> +2] [<span data-tooltip='Overwhelming Power (4th Job)'><img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/></span> +1]"],
-            "mastery": ["90%", "[Base +20%] [<span data-tooltip='Advanced Desperado Mastery (4th Job)'><img src='/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png' alt='Skill Advanced Desperado Mastery'/></span> +70%]"]
-        },
         "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "7",
+                "detail": "<ul><li class='bs-no-icon'>Stage 4</li> <li><span data-tooltip='Agile Demon (2nd Job)'><img src='/class-icons/resistance/demon-avenger/agile-demon.png' alt='Skill Agile Demon'/></span> +2</li> <li><span data-tooltip='Overwhelming Power (4th Job)'><img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/></span> +1</li></ul>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "90%",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Advanced Desperado Mastery (4th Job)'><img src='/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png' alt='Skill Advanced Desperado Mastery'/></span> +70%</li></ul>"
+            },
             {
                 "name": "HP",
                 "stat": "+40% +1000",
-                "detail": "[<span data-tooltip='Diabolic Recovery (3rd Job)'><img src='/class-icons/resistance/demon-avenger/diabolic-recovery.png' alt='Skill Diabolic Recovery'/></span> +25%] [<span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%] [<span data-tooltip='Agile Demon (2nd Job)'><img src='/class-icons/resistance/demon-avenger/agile-demon.png' alt='Skill Agile Demon'/></span> +400] [<span data-tooltip='Rage Within (2nd Job)'><img src='/class-icons/resistance/demon-avenger/rage-within.png' alt='Skill Rage Within'/></span> +600]"
+                "detail": "<ul><li><span data-tooltip='Diabolic Recovery (3rd Job)'><img src='/class-icons/resistance/demon-avenger/diabolic-recovery.png' alt='Skill Diabolic Recovery'/></span> +25%</li> <li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li> <li><span data-tooltip='Agile Demon (2nd Job)'><img src='/class-icons/resistance/demon-avenger/agile-demon.png' alt='Skill Agile Demon'/></span> +400</li> <li><span data-tooltip='Rage Within (2nd Job)'><img src='/class-icons/resistance/demon-avenger/rage-within.png' alt='Skill Rage Within'/></span> +600</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +1500</li></ul>"
             },
             {
                 "name": "Attack",
                 "stat": "+90",
-                "detail": "[<span data-tooltip='Abyssal Connection (2nd Job)'><img src='/class-icons/resistance/demon-avenger/abyssal-connection.png' alt='Skill Abyssal Connection'/></span> +40] [<span data-tooltip='Advanced Desperado Mastery (4th Job)'><img src='/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png' alt='Skill Advanced Desperado Mastery'/></span> +50]"
+                "detail": "<ul><li><span data-tooltip='Abyssal Connection (2nd Job)'><img src='/class-icons/resistance/demon-avenger/abyssal-connection.png' alt='Skill Abyssal Connection'/></span> +40</li> <li><span data-tooltip='Advanced Desperado Mastery (4th Job)'><img src='/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png' alt='Skill Advanced Desperado Mastery'/></span> +50</li></ul>"
             },
             {
-                "name": "Crit Chance",
+                "name": "Crit Rate",
                 "stat": "+40%",
-                "detail": "[Base +5%] [<span data-tooltip='Demonic Voracity (1st Job)'><img src='/class-icons/resistance/demon-avenger/demonic-voracity.png' alt='Skill Demonic Voracity'/></span> +15%] [<span data-tooltip='Abyssal Connection (2nd Job)'><img src='/class-icons/resistance/demon-avenger/abyssal-connection.png' alt='Skill Abyssal Connection'/></span> +20%]"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Demonic Veracity (1st Job)'><img src='/class-icons/resistance/demon-avenger/demonic-veracity.png' alt='Skill Demonic Veracity'/></span> +15%</li> <li><span data-tooltip='Abyssal Connection (2nd Job)'><img src='/class-icons/resistance/demon-avenger/abyssal-connection.png' alt='Skill Abyssal Connection'/></span> +20%</li>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+8%",
-                "detail": "[<span data-tooltip='Advanced Desperado Mastery (4th Job)'><img src='/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png' alt='Skill Advanced Desperado Mastery'/></span> +8%]"
+                "detail": "<ul><li><span data-tooltip='Advanced Desperado Mastery (4th Job)'><img src='/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png' alt='Skill Advanced Desperado Mastery'/></span> +8%</li></ul>"
             },
             {
                 "name": "Damage",
                 "stat": "+40%(~60%)",
-                "detail": "[<span data-tooltip='Overwhelming Power (4th Job)'><img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/></span> +30%] [<span data-tooltip='Wild Rage (Link Skill)'><img src='/class-icons/link-skills/wild-rage.png' alt='Skill Wild Rage'/></span> up to +15%] {<span data-tooltip='Forbidden Contract (Hyper Skill)'><img src='/class-icons/resistance/demon-avenger/forbidden-contract.png' alt='Skill Forbidden Contract'/></span> +10%} {<span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demon-avenger/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span> +10%}"
+                "detail": "<ul><li><span data-tooltip='Overwhelming Power (4th Job)'><img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/></span> +30%</li> <li><span data-tooltip='Wild Rage (Link Skill)'><img src='/class-icons/link-skills/wild-rage.png' alt='Skill Wild Rage'/></span> up to +15%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Forbidden Contract (Hyper Skill)'><img src='/class-icons/resistance/demon-avenger/forbidden-contract.png' alt='Skill Forbidden Contract'/></span> +10%</li> <li><span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demon-avenger/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span> +10%</li> <li><span data-tooltip='Pain Dampener (3rd Job)'><img src='/class-icons/resistance/demon-avenger/pain-dampener.png' alt='Skill Pain Dampener'/></span> +20% to Exceed skills</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul>"
             },
             {
                 "name": "Boss Damage",
@@ -68,12 +77,12 @@
             {
                 "name": "Final Damage",
                 "stat": "+43.75%(~102.96)",
-                "detail": "[<span data-tooltip='Overload Release (1st Job)'><img src='/class-icons/resistance/demon-avenger/overload-release.png' alt='Skill Overload Release'/></span> +25%] x [<span data-tooltip='Overwhelming Power (4th Job)'><img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/></span> +15%] x [<span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span> up to +20% while toggled] x (<span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%) x (<span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span> +11%)"
+                "detail": "<ul><li><span data-tooltip='Overload Release (1st Job)'><img src='/class-icons/resistance/demon-avenger/overload-release.png' alt='Skill Overload Release'/></span> +25%</li></ul> × <ul><li><span data-tooltip='Overwhelming Power (4th Job)'><img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/></span> +15%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span> up to +20% while toggled</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span> +11%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+30%",
-                "detail": "[<span data-tooltip='Defense Expertise (4th Job)'><img src='/class-icons/resistance/demon-avenger/defense-expertise.png' alt='Skill Defense Expertise'/></span> +30%] x {<span data-tooltip='Nether Slice (4th Job)'><img src='/class-icons/resistance/demon-avenger/nether-slice.png' alt='Skill Nether Slice'/></span> +30% from debuff}"
+                "detail": "<ul><li><span data-tooltip='Defense Expertise (4th Job)'><img src='/class-icons/resistance/demon-avenger/defense-expertise.png' alt='Skill Defense Expertise'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Nether Slice (4th Job)'><img src='/class-icons/resistance/demon-avenger/nether-slice.png' alt='Skill Nether Slice'/></span> +30% from debuff</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%</li></ul>"
             }
         ],
         "buffInfo": {
