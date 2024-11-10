@@ -44,8 +44,8 @@
             },
             {
                 "name": "Weapon Mastery",
-                "stat": "90%",
-                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Mastery (4th Job)'><img src='/class-icons/other/kinesis/mastery.png' alt='Skill Mastery'/></span> +70%</li></ul>"
+                "stat": "90%(99%)",
+                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Mastery (4th Job)'><img src='/class-icons/other/kinesis/mastery.png' alt='Skill Mastery'/></span> +70%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Critical Rush (4th Job)'><img src='/class-icons/other/kinesis/critical-rush.png' alt='Skill Critical Rush'/></span> +1% per 30 combo kills</li></ul>"
             },
             {
                 "name": "INT",
@@ -86,6 +86,11 @@
                 "name": "Ignore DEF",
                 "stat": "+25%",
                 "detail": "<ul><li><span data-tooltip='Mind Scrambler (4th Job)'><img src='/class-icons/other/kinesis/mind-scrambler.png' alt='Skill Mind Scrambler'/></span> +25%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Mind Tremor (4th Job)'><img src='/class-icons/other/kinesis/mind-tremor.png' alt='Skill Mind Tremor'/></span> +15% from debuff</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Ultimate - Metal Press (1st Job)'><img src='/class-icons/other/kinesis/ultimate-metal-press.png' alt='Skill Ultimate - Metal Press'/></span>/<span data-tooltip='Psychic Clutch (4th Job)'><img src='/class-icons/other/kinesis/psychic-clutch.png' alt='Skill Psychic Clutch'/></span>/<span data-tooltip='Ultimate - Psychic Shot (4th Job)'><img src='/class-icons/other/kinesis/ultimate-psychic-shot.png' alt='Skill Ultimate - Psychic Shot'/></span> +15% from debuff</li></ul>"
+            },
+            {
+                "name": "Buff Duration",
+                "stat": "+20%",
+                "detail": "<ul><li><span data-tooltip='Supreme Concentration (4th Job)'><img src='/class-icons/other/kinesis/supreme-concentration.png' alt='Skill Supreme Concentration'/></span> +20%</li></ul>"
             }
         ],
         "buffInfo": {
@@ -324,7 +329,7 @@
                         "desc": "Leap into the air and dash down to the ground at an angle",
                         "details": [
                             "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Ultimate - Metal Press (1st Job)'><img src='/class-icons/other/kinesis/ultimate-metal-press.png' alt='Skill Ultimate - Metal Press'/></span>",
-                            "Attack is considered a teleport and can be used to dodge certain attacks such as P1 Lotus' lasers",
+                            "Attack is considered a teleport and can be used to dodge certain attacks",
                             "Enemies hit will have all buffs removed",
                             "Unaffected by Damage Reflect"
                         ]
@@ -597,8 +602,8 @@
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Combo kills as in the 'Combo' text that appears when you defeat an enemy",
-                        "Effects are similar to what Weapon Mastery skills do"
+                        "Combo kills refer to 'Combo' text that appears when you defeat an enemy",
+                        "Every 30 combo kills grant 1% Weapon Mastery"
                     ]
                 },
                 {

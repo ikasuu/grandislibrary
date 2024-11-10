@@ -54,7 +54,7 @@
             {
                 "name": "INT",
                 "stat": "+15% +40",
-                "detail": "[<span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/illium/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span> +15%] [<span data-tooltip='Tenacity (3rd Job)'><img src='/class-icons/flora/illium/tenacity.png' alt='Skill Tenacity'/></span> +40]"
+                "detail": "<ul><li><span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/illium/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span> +15%</li> <li><span data-tooltip='Tenacity (3rd Job)'><img src='/class-icons/flora/illium/tenacity.png' alt='Skill Tenacity'/></span> +40</li></ul>"
             },
             {
                 "name": "Magic Attack",
@@ -377,7 +377,7 @@
                     },
                     {
                         "name": "Reaction - Destruction II",
-                        "shortDesc": "MP Cost: 130, Max Enemies Hit: 9, Damage: 610%, Number of Attacks: 4, Detonations: 2\\nCooldown: 4 sec",
+                        "shortDesc": "MP Cost: 130, Max Enemies Hit: 9, Damage: 610%, Number of Attacks: 4, Detonations: 2, Boss Damage: +20%\\nCooldown: 4 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/illium/reaction-destruction-ii.png", "/class-icons/flora/illium/reaction-destruction.png"],
                         "type": "Upgraded Passive",
@@ -389,7 +389,7 @@
                     },
                     {
                         "name": "Reaction - Domination II",
-                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 12 , Damage: 610%, Number of Attacks: 2, Boss Damage: +20%\\nCooldown: 4 sec",
+                        "shortDesc": "MP Cost: 50, Max Enemies Hit: 12 , Damage: 610%, Number of Attacks: 2\\nCooldown: 4 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/illium/reaction-domination-ii.png", "/class-icons/flora/illium/reaction-domination.png"],
                         "type": "Upgraded Passive",
@@ -718,8 +718,8 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/flora/illium/crystalline-bulwark.png"],
                     "animations": ["https://media4.giphy.com/media/en9dkbhs7VcF3BN302/giphy.gif"],
-                    "type": "Buff",
-                    "desc": "While active, you and your party members become invulnerable based on how many Lucent Brand stacks the player currently has",
+                    "type": "Party Buff",
+                    "desc": "Grants you and party members invincibility based on the number of Lucent Brand stacks currently active",
                     "reqLev": 140
                 },
                 {
