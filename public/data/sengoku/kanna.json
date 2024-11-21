@@ -71,17 +71,17 @@
             },
             {
                 "name": "Damage",
-                "stat": "+30%",
-                "detail": "<ul><li><span data-tooltip='Elementalism (Link Skill)'><img src='/class-icons/link-skills/elementalism.png' alt='Skill Elementalism'/></span> +10%</li> <li><span data-tooltip='Haku Reborn (2nd Job)'><img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/></span> +15%</li> <li><span data-tooltip='Kasen (4th Job)'><img src='/class-icons/sengoku/kanna/kasen.png' alt='Skil Kasen'/></span> +30%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Nine-Tailed Fury (Beginner Skill)'><img src='/class-icons/sengoku/kanna/nine-tailed-fury.png' alt='Skill Nine-Tailed Fury'/></span> +20%</li> <li><span data-tooltip='Princess&#39;s Vow (Hyper Skill)'><img src='/class-icons/sengoku/princesss-vow.png' alt='Skill Princess&#39;s Vow'/></span> +10%</li> <li><span data-tooltip='Bellflower Barrier (4th Job)'><img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skil Bellflower Barrier'/></span> +20% within zone</li></ul> <ul class='bs-debuff-val'><li><span data-tooltip='Yosuzume (3rd Job)'><img src='/class-icons/sengoku/kanna/yosuzume.png' alt='Skill Yosuzume'/></span> +5%</li></ul>"
+                "stat": "+60%(110%)",
+                "detail": "<ul><li><span data-tooltip='Elementalism (Link Skill)'><img src='/class-icons/link-skills/elementalism.png' alt='Skill Elementalism'/></span> +10%</li> <li><span data-tooltip='Haku Reborn (2nd Job)'><img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/></span> +15%</li> <li><span data-tooltip='Kasen (4th Job)'><img src='/class-icons/sengoku/kanna/kasen.png' alt='Skil Kasen'/></span> +30%</li></ul> <ul class='bs-debuff-val'><li><span data-tooltip='Yosuzume (3rd Job)'><img src='/class-icons/sengoku/kanna/yosuzume.png' alt='Skill Yosuzume'/></span> +5%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Nine-Tailed Fury (Beginner Skill)'><img src='/class-icons/sengoku/kanna/nine-tailed-fury.png' alt='Skill Nine-Tailed Fury'/></span> +20%</li> <li><span data-tooltip='Princess&#39;s Vow (Hyper Skill)'><img src='/class-icons/sengoku/princesss-vow.png' alt='Skill Princess&#39;s Vow'/></span> +10%</li> <li><span data-tooltip='Bellflower Barrier (4th Job)'><img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skil Bellflower Barrier'/></span> +20% within zone</li></ul>"
             },
             {
                 "name": "Boss Damage",
-                "stat": "(~5%)",
+                "stat": "(+105%)",
                 "detail": "<ul class='bs-temp-val'><li><span data-tooltip='Bellflower Barrier (4th Job)'><img src='/class-icons/sengoku/kanna/bellflower-barrier.png' alt='Skil Bellflower Barrier'/></span> +5% within zone</li> <li><span data-tooltip='Spirit&#39;s Domain (5th Job)'><img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit&#39;s Domain'/></span> up to +100%</li></ul>"
             },
             {
                 "name": "Final Damage",
-                "stat": "(~222.5%)",
+                "stat": "+21.2%(136.97%)",
                 "detail": "<ul><li><span data-tooltip='Spirit Path (3rd Job)'><img src='/class-icons/sengoku/kanna/spirit-path.png' alt='Skill Spirit Path'/></span> +20%</li></ul> × <ul><li class='bs-long-text'><div><span data-tooltip='Haku Reborn (2nd Job)'><img src='/class-icons/sengoku/kanna/haku-reborn.png' alt='Skill Haku Reborn'/></span></div> <div>+1% per party member<br/>(Max. +6%)</div></li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Spirit&#39;s Domain (5th Job)'><img src='/class-icons/sengoku/kanna/spirits-domain.png' alt='Skill Spirit&#39;s Domain'/></span> up to +15%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Princess Sakuno&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/princess-sakunos-blessing.png' alt='Skill Princess Sakuno&#39;s Blessing'/></span> up to +50%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8% while toggled</li></ul>"
             },
             {
@@ -283,8 +283,7 @@
                             "<strong><img src='/class-icons/sengoku/kanna/hakus-gift.png' alt='Skill Haku's Gift'/> [Haku's Gift]</strong>: When Kanna is below 90%, Haku will restore some %HP",
                             "<strong><img src='/class-icons/sengoku/kanna/foxfire.png' alt='Skill Foxfire'/> [Foxfire]</strong>: Summons a barrier of foxfire, when Kanna is hit, the foxfire will reduce damage taken and explode dealing damage",
                             "<strong><img src='/class-icons/sengoku/kanna/breath-of-the-unseen.png' alt='Skill Breath of the Unseen'/> [Breath of the Unseen]</strong>: Kanna's %Final Damage is increased for each nearby party member",
-                            "<strong><img src='/class-icons/sengoku/kanna/hakus-blessing.png' alt='Skill Haku's Blessing'/> [Haku's Blessing]</strong>: Applies to party members, increases %Damage",
-                            "<strong>[Note]</strong>: In-game tooltip was not updated with V.252 changes, instead, the individual skills (that's hidden) was updated"
+                            "<strong><img src='/class-icons/sengoku/kanna/hakus-blessing.png' alt='Skill Haku's Blessing'/> [Haku's Blessing]</strong>: Applies to party members, increases %Damage"
                         ]
                     },
                     {
@@ -460,7 +459,7 @@
                 "4th Job", [
                 {
                     "name": "Haku Perfected",
-                    "shortDesc": "MP Cost: 50, Transformation Duration: 500 sec. Cooldown: 5 sec\\nHaku's Spirit Walker Skills\\n[Haku's Gift]: When Kanna's HP is below 90%, restores 80% of max HP. (Cooldown: 120 sec)\\n[Foxfire]: Summons a barrier made up of 3 wisps of foxfire for 55 sec. When Kanna is hit, the foxfire absorbs the damage instead, then retaliates by exploding for 1350% damage. (Cooldown: 60 sec)\\n[Breath of the Unseen]: Kanna's final damage increased by 5% for each party member. (Always Applied)\\n[Haku's Blessing]: Increases Magic ATT for you and your party members by 10% of Magic ATT of the Fan Haku has equipped in Equip tab (Always Applied. To check the effect, mouse over the Fan being equipped)",
+                    "shortDesc": "MP Cost: 50, Transformation Duration: 500 sec. Cooldown: 5 sec\\nHaku's Spirit Walker Skills\\n[Haku's Gift]: When Kanna's HP is below 90%, restores 80% of max HP. (Cooldown: 120 sec)\\n[Foxfire]: Summons a barrier made up of 3 wisps of foxfire for 55 sec. When Kanna is hit, the foxfire reduces the damage by 40%, then attacks back by exploding for 1350% damage. (Cooldown: 60 sec)\\n[Breath of the Unseen]: Kanna's final damage increased by 1% for each party member. (Always Applied)\\n[Haku's Blessing]: Increases damage of your party members by 10%.",
                     "maxLevel": 10,
                     "icons": ["/class-icons/sengoku/kanna/haku-perfected.png", "/class-icons/sengoku/kanna/haku-reborn.png"],
                     "type": "Upgraded Passive",
@@ -469,8 +468,7 @@
                         "Increases duration of buff",
                         "<strong><img src='/class-icons/sengoku/kanna/hakus-gift.png' alt='Skill Haku's Gift'/> [Haku's Gift]</strong>: Increases %Max HP restored",
                         "<strong><img src='/class-icons/sengoku/kanna/foxfire.png' alt='Skill Foxfire'/> [Foxfire]</strong>: Increases duration and %Damage of attack",
-                        "<strong><img src='/class-icons/sengoku/kanna/hakus-blessing.png' alt='Skill Haku's Blessing'/> [Haku's Blessing]</strong>: Increases amount of %Damage provided",
-                        "<strong>[Note]</strong>: In-game tooltip was not updated with V.252 changes, instead, the individual skills (that's hidden) was updated"
+                        "<strong><img src='/class-icons/sengoku/kanna/hakus-blessing.png' alt='Skill Haku's Blessing'/> [Haku's Blessing]</strong>: Increases amount of %Damage provided (10% -> 15%) - tooltip incorrect"
                     ]
                 },
                 {

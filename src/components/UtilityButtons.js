@@ -30,6 +30,11 @@ function InfoButton({tooltip}) {
 }
 
 /*
+    Base Stat info button which when hovered shows a tooltip
+    Created by: Ikasuu, Fall 2024
+*/
+
+/*
     Fab button that pops up quick jump menu in class overviews
     Created by: Ikasuu, Spring 2021
 */

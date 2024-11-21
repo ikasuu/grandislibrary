@@ -8,7 +8,8 @@ import { weapons, secondaryWeapons, weaponConsumable } from '../../special/Value
 import { LinkSkill, NotableSkill } from './SingleSkill';
 import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
-import { Chip } from '@material-ui/core';
+import { Accordion, AccordionDetails, AccordionSummary, Chip } from '@material-ui/core';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -311,7 +312,8 @@ function ClassDetail({content}) {
            {content.specialThanks && <p><em>{content.specialThanks}</em></p>}
            {content.discord && <p><em>For more in-depth info, visit the Class Discord at <a href={content.discord} target='_blank' rel='noreferrer'>{content.discord}</a></em></p>}
             <BaseStatsWrapper md="auto">
-                <BaseStatTitle>Base Stats (From Skills)<InfoButton tooltip={parse(DOMPurify.sanitize(content.baseStats[0]))}/></BaseStatTitle>
+                <BaseStatTitle>Base Stats (From Skills)</BaseStatTitle>
+                <BaseStatLegend/>
                 <Table responsive>
                     <tbody>
                         {content.attackStats.map((stat, index) => 
@@ -354,6 +356,42 @@ function ClassDetail({content}) {
       </Container>
     );
 }
+
+const BaseStatAccordion = styled(Accordion)`
+    margin-bottom: 2rem !important;
+`;
+
+function BaseStatLegend(){
+    return(
+        <BaseStatAccordion>
+            <AccordionSummary expandIcon={<ExpandMoreIcon/>}><strong>Legend Info</strong></AccordionSummary>
+            <AccordionDetails>
+                <Container>
+                    <div className="bs-data-vals">
+                        <ul><li>PERM</li></ul>
+                        <div>Stats that are always up or close to always up</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-toggle-val"><li>TOGGLE</li></ul>
+                        <div>Stats that are gained while skill is toggled on</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-debuff-val"><li>DEBUFF</li></ul>
+                        <div>Stats that are gained from debuffing the enemy</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-temp-val"><li>TEMP</li></ul>
+                        <div>Stats that have a condition or cooldown to activate</div>
+                    </div>
+                    <div className="bs-data-vals">
+                        <ul className="bs-opt-val"><li>UNLOCK</li></ul>
+                        <div>Stats that can be unlocked. These skills may also have a cooldown</div>
+                    </div>
+                </Container>
+            </AccordionDetails>
+        </BaseStatAccordion>
+    );
+};
 
 /*
     Displays the Inner Ability preset given from data

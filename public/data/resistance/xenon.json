@@ -52,7 +52,7 @@
             },
             {
                 "name": "Attack",
-                "stat": "+80",
+                "stat": "+80(150)",
                 "detail": "<ul><li><span data-tooltip='Circuit Surge (1st Job)'><img src='/class-icons/resistance/xenon/circuit-surge.png' alt='Skill Circuit Surge'/></span> +30</li> <li><span data-tooltip='Xenon Mastery (2nd Job)'><img src='/class-icons/resistance/xenon/xenon-mastery.png' alt='Skill Xenon Mastery'/></span> +20</li> <li><span data-tooltip='Xenon Expert (4th Job)'><img src='/class-icons/resistance/xenon/xenon-expert.png' alt='Skill Xenon Expert'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span> +30</li> <li><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40</li> <li class='bs-long-text'><div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span></div> <div>+80% of base weapon attack power<br/>-15% of base weapon power while on cooldown</div></li></ul>"
             },
             {
@@ -67,7 +67,7 @@
             },
             {
                 "name": "Damage",
-                "stat": "+40%(~70%)",
+                "stat": "+40%(90%)",
                 "detail": "<ul><li><span data-tooltip='Multilateral VI (4th Job)'><img src='/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +40%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span> +10%</li> <li><span data-tooltip='Hypogram Field: Fusion (5th Job)'><img src='/class-icons/resistance/xenon/hypogram-field-fusion.png' alt='Skill Hypogram Field: Fusion'/></span> +20% within field</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
             },
             {
@@ -77,13 +77,13 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+49.5%(~133.22)",
-                "detail": "<ul><li><span data-tooltip='Multilateral IV (4th Job)'><img src='/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +15%</li></ul> × <ul><li><span data-tooltip='OOPArts Code (4th Job)'><img src='/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/></span> +30%</li></ul> × <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Core Overload (5th Job)'><img src='/class-icons/resistance/xenon/core-overload.png' alt='Skill Core Overload'/></span></div> <div>+1% per extra power unit<br/>(Max. +20%)</div></li></ul> × <ul class='bs-opt-val'><li class='bs-long-text'><div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span></div> <div>+12% in Stage 1<br/>+36% in Stage 2</div></li></ul>"
+                "stat": "+49.5%(143.98%)",
+                "detail": "<ul><li><span data-tooltip='Multilateral IV (4th Job)'><img src='/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +15%</li></ul> × <ul><li><span data-tooltip='OOPArts Code (4th Job)'><img src='/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/></span> +30%</li></ul> × <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Core Overload (5th Job)'><img src='/class-icons/resistance/xenon/core-overload.png' alt='Skill Core Overload'/></span></div> <div>+1% per extra power unit<br/>(Max. +20%)</div></li></ul> × <ul class='bs-opt-val'><li class='bs-long-text'><div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span></div> <div>+13% in Stage 1<br/>+36% in Stage 2</div></li></ul>"
             },
             {
                 "name": "Ignore DEF",
-                "stat": "+30%",
-                "detail": "<ul><li><span data-tooltip='Offensive Matrix (4th Job)'><img src='/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/></span> +30%</li></ul>"
+                "stat": "+30%(51%)",
+                "detail": "<ul><li><span data-tooltip='Offensive Matrix (4th Job)'><img src='/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span> +30%</li></ul>"
             }
         ],
         "buffInfo": {
@@ -805,8 +805,9 @@
                     "icons": ["/class-icons/resistance/xenon/orbital-cataclysm.png"],
                     "animations": ["https://media0.giphy.com/media/yEd2I5HDyqRFEmjJHB/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Fires a powerful laser cannon that deals a devastating attack and grants a %Damage buff",
+                    "desc": "Fires a powerful laser cannon that reduces enemy %DEF and grants a %Damage buff",
                     "details": [
+                        "Reduction to %DEF can be considered as %Ignore DEF",
                         "Invincible while casting",
                         "Unaffected by cooldown reduction"
                     ],
