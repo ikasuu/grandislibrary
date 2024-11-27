@@ -13,22 +13,13 @@
         ],
         "innerAbility": [
             {
-                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to Abnormal Status +8%"]
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Attack +21 OR Buff Duration +38%", "Damage to Abnormal Status +8%"]
+            },
+            {
+                "name": "For Farming",
+                "abilities": ["Meso Obtained +20% OR Item Drop Rate +20%", "Meso Obtained +15% OR Item Drop Rate +15% (If not 1st Line)"]
             }
-        ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
-            [
-                "<strong>Attack</strong>: [<span data-tooltip='Regained Memory (Beginner)'><img src='/class-icons/heroes/aran/regained-memory.png' alt='Skill Regained Memory'/></span> +5%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span> +20% & up to +30%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span> +10%] [<span data-tooltip='High Mastery (4th Job)'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> +8%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Cleaving Blows (3rd Job)'><img src='/class-icons/heroes/aran/cleaving-blows.png' alt='Skill Cleaving Blows'/></span> +30%] [<span data-tooltip='Snow Charge (2nd Job)'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span> +10% & +10% to slowed]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='High Mastery (4th Job)'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> +15%] [<span data-tooltip='Polearm Mastery (2nd Job)'><img src='/class-icons/heroes/aran/polearm-mastery.png' alt='Skill Polearm Mastery'/></span> +8%]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 8",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Cleaving Blows (3rd Job)'><img src='/class-icons/heroes/aran/cleaving-blows.png' alt='Skill Cleaving Blows'/></span> +40%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Combo Ability (1st Job)'><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/></span> +50%] [<span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span> +50%]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span> 40]"
-            ]
         ],
         "attackStats": [
             {
@@ -38,7 +29,7 @@
             {
                 "name": "Attack Speed",
                 "stat": "8",
-                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Agile Polearms (1st Job)'><img src='/class-icons/heroes/aran/agile-polearms.png' alt='Skill Agile Polearms'/></span> +2</li> <li><span data-tooltip='Polearm Mastery (2nd Job)'><img src='/class-icons/heroes/aran/polearm-mastery.png' alt='Skill Agile Bowguns'/></span> +1</li>"
+                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Agile Polearms (1st Job)'><img src='/class-icons/heroes/aran/agile-polearms.png' alt='Skill Agile Polearms'/></span> +2</li> <li><span data-tooltip='Polearm Mastery (2nd Job)'><img src='/class-icons/heroes/aran/polearm-mastery.png' alt='Skill Polearm Mastery'/></span> +1</li>"
             },
             {
                 "name": "Weapon Mastery",
@@ -52,47 +43,47 @@
             },
             {
                 "name": "Attack",
-                "stat": "+5%(40%) +180(205)",
-                "detail": "<ul><li><span data-tooltip='Regained Memory (1st Job)'><img src='/class-icons/heroes/aran/regained-memory.png' alt='Skill Regained Memory'/></span> +5%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Maha&#39;s Fury (5th Job)'><img src='/class-icons/heroes/aran/mahas-fury.png' alt='Skill Maha&#39;s Fury'/></span> +35%</li></ul> <ul><li><span data-tooltip='Maha Blessing (4th Job)'><img src='/class-icons/heroes/aran/maha-blessing.png' alt='Skill Maha Blessing'/></span> +30</li> <li><span data-tooltip='Might (3rd Job)'><img src='/class-icons/heroes/aran/might.png' alt='Skill Might'/></span> +40</li> <li><span data-tooltip='High Mastery (4th Job)'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> +30</li> <li><span data-tooltip='Advanced Final Attack (4th Job)'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +30</li> <li class='bs-long-text'><div><span data-tooltip='Combo Ability (1st Job)'><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/></span></div> <div>+2 per 50 Combo<br/>(Max. +20)</div></li> <li class='bs-long-text'><div><span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span></div> <div>+10 & +2 per 10 Combo<br/>(Max. +20 from stacks)</div></li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud&#39;s Wisdom'/></span> +25</li></ul>"
+                "stat": "+5% +180(205)",
+                "detail": "<ul><li><span data-tooltip='Regained Memory (1st Job)'><img src='/class-icons/heroes/aran/regained-memory.png' alt='Skill Regained Memory'/></span> +5%</li></ul> <ul><li><span data-tooltip='Ol&#39; Reliable (1st Job)'><img src='/class-icons/heroes/aran/ol-reliable.png' alt='Skill Ol&#39; Reliable'/></span> +20</li> <li><span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span> +30</li> <li><span data-tooltip='Maha Blessing (4th Job)'><img src='/class-icons/heroes/aran/maha-blessing.png' alt='Skill Maha Blessing'/></span> +30</li> <li><span data-tooltip='Might (3rd Job)'><img src='/class-icons/heroes/aran/might.png' alt='Skill Might'/></span> +40</li> <li><span data-tooltip='High Mastery (4th Job)'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> +30</li> <li><span data-tooltip='Advanced Final Attack (4th Job)'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud&#39;s Wisdom'/></span> +25</li></ul>"
             },
             {
                 "name": "Crit Rate",
                 "stat": "+55%",
-                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li class='bs-long-text'><div><span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span></div> <div>+20% & +3% per 50 Combo<br/>(Max. +30% from stacks)</div></li></ul>"
+                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Ol&#39; Reliable (1st Job)'><img src='/class-icons/heroes/aran/ol-reliable.png' alt='Skill Ol&#39; Reliable'/></span> +10%</li> <li><span data-tooltip='Combo Ability (2nd Job)'><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/></span> +20%</li> <li><span data-tooltip='Might (3rd Job)'><img src='/class-icons/heroes/aran/might.png' alt='Skill Might'/></span> +20%</li></ul>"
             },
             {
                 "name": "Crit Damage",
-                "stat": "+18%",
-                "detail": "<ul><li><span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span> +10%</li> <li><span data-tooltip='High Mastery (4th Job)'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> +8%</li>"
+                "stat": "+20%",
+                "detail": "<ul><li><span data-tooltip='Advanced Combo Ability (3rd Job)'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span> +10%</li> <li><span data-tooltip='High Mastery (4th Job)'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> +10%</li>"
             },
             {
                 "name": "Damage",
-                "stat": "+50%(110%)",
-                "detail": "<ul><li><span data-tooltip='Cleaving Blows (3rd Job)'><img src='/class-icons/heroes/aran/cleaving-blows.png' alt='Skill Cleaving Blows'/></span> +30%</li> <li><span data-tooltip='Snow Charge (2nd Job)'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span> +10% & +10% to slowed</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/aran/heroic-memories.png' alt='Skill Heroic Memories'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li> <li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul>"
+                "stat": "+60%(120%)",
+                "detail": "<ul><li><span data-tooltip='Cleaving Attack (3rd Job)'><img src='/class-icons/heroes/aran/cleaving-attack.png' alt='Skill Cleaving Attack'/></span> +35%</li> <li><span data-tooltip='Snow Charge (2nd Job)'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span> +15% & +10% to slowed</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/aran/heroic-memories.png' alt='Skill Heroic Memories'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li> <li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul>"
             },
             {
                 "name": "Boss Damage",
-                "stat": "(25%)",
-                "detail": "<ul class='bs-opt-val'><li><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud&#39;s Wisdom'/></span> +25%</li></ul>"
+                "stat": "+15%(25%)",
+                "detail": "<ul><li><span data-tooltip='Might (3rd Job)'><img src='/class-icons/heroes/aran/might.png' alt='Skill Might'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud&#39;s Wisdom'/></span> +25%</li></ul>"
             },
             {
                 "name": "Final Damage",
-                "stat": "+24.2%(31.65%)",
-                "detail": "<ul><li><span data-tooltip='Polearm Mastery (2nd Job)'><img src='/class-icons/heroes/aran/polearm-mastery.png' alt='Skill Polearm Mastery'/></span> +8%</li></ul> × <ul><li><span data-tooltip='High Mastery (4th Job)'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> +15%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul>"
+                "stat": "+33.1%(41.09%)",
+                "detail": "<ul><li><span data-tooltip='Polearm Mastery (2nd Job)'><img src='/class-icons/heroes/aran/polearm-mastery.png' alt='Skill Polearm Mastery'/></span> +10%</li></ul> × <ul><li><span data-tooltip='High Mastery (4th Job)'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> +21%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+40%(49.6%)",
-                "detail": "<ul><li><span data-tooltip='Cleaving Blows (4th Job)'><img src='/class-icons/heroes/aran/cleaving-blows.png' alt='Skill Cleaving Blows'/></span> +40%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%</li></ul>"
+                "detail": "<ul><li><span data-tooltip='Cleaving Attack (4th Job)'><img src='/class-icons/heroes/aran/cleaving-attack.png' alt='Skill Cleaving Attack'/></span> +40%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%</li></ul>"
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Maha Blessing (3rd Job)'><img src='/class-icons/heroes/aran/maha-blessing.png' alt='Skill Maha Blessing'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><span data-tooltip='Adrenaline Rush Activate (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt='Skill Adrenaline Rush Activate'/></span>(Special)</div>",
-            "toggles": "<span data-tooltip='Body Pressure (1st Job)'><img src='/class-icons/heroes/aran/body-pressure.png' alt='Skill Body Pressure'/></span> <span data-tooltip='Drain (2nd Job)'><img src='/class-icons/heroes/aran/drain.png' alt='Skill Drain'/></span> <span data-tooltip='Snow Charge (2nd Job)'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span>",
-            "summons": "<div><span data-tooltip='Maha&#39;s Domain (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-domain.png' alt='Skill Maha's Domain'/></span>[8s](90s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Adrenaline Burst (Hyper Skill)'><img src='/class-icons/heroes/aran/adrenaline-burst.png' alt='Skill Adrenaline Burst'/></span>(180s cd)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/aran/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maha&#39;s Fury (5th Job)'><img src='/class-icons/heroes/aran/mahas-fury.png' alt='Skill Maha&#39;s Fury'/></span>[40s](90s cd)</div> <div><span data-tooltip='Blizzard Tempest (5th Job)'><img src='/class-icons/heroes/aran/blizzard-tempest.png' alt='Skill Blizzard Tempest'/></span>[20s / 10s Bind](180s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Blizzard Tempest (5th Job)'><img src='/class-icons/heroes/aran/blizzard-tempest.png' alt='Skill Blizzard Tempest'/></span>[10s](180s cd)</div> <div><span data-tooltip='Adrenaline Surge (6th Job)'><img src='/class-icons/heroes/aran/adrenaline-surge-1.png' alt='Skill Adrenaline Surge'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Finisher - Hunter&#39;s Prey (4th Job)'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter's Prey'/></span>(Adrenaline Mode)</div> <div><span data-tooltip='Maha&#39;s Domain (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-domain.png' alt='Skill Maha&#39;s Domain'/></span>[2s](90s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div> <div><span data-tooltip='Adrenaline Surge (6th Job)'><img src='/class-icons/heroes/aran/adrenaline-surge-1.png' alt='Skill Adrenaline Surge'/></span>(360s cd)</div>"
+            "active": "<div><span data-tooltip='Maha Blessing (3rd Job)'><img src='/class-icons/heroes/aran/maha-blessing.png' alt='Skill Maha Blessing'/></span>[200s]</div> <div><span data-tooltip='Adrenaline Rush Activate (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt='Skill Adrenaline Rush Activate'/></span>(Special)</div>",
+            "toggles": "<span data-tooltip='Drain (2nd Job)'><img src='/class-icons/heroes/aran/drain.png' alt='Skill Drain'/></span> <span data-tooltip='Snow Charge (2nd Job)'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span>",
+            "summons": "<div><span data-tooltip='Permafrost (3rd Job)'><img src='/class-icons/heroes/aran/permafrost.png' alt='Skill Permafrost'/></span>[60s](30s cd)</div> <div><span data-tooltip='Finisher - Adrenaline Surge (5th Job)'><img src='/class-icons/heroes/aran/adrenaline-surge.png' alt='Skill Finisher - Adrenaline Surge'/></span>[6s](Adrenaline only, 30s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Maha&#39;s Blessing (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-blessing.png' alt='Skill Maha&#39;s Blessing'/></span>[2s](60s cd)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/aran/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Blizzard Tempest (5th Job)'><img src='/class-icons/heroes/aran/blizzard-tempest.png' alt='Skill Blizzard Tempest'/></span>[30s](90s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
+            "binds": "<div><span data-tooltip='Glacial Prison (4th Job)'><img src='/class-icons/heroes/aran/glacial-prison.png' alt='Skill Glacial Prison'/></span>[10s](180s cd)</div> <div><span data-tooltip='Endgame (6th Job)'><img src='/class-icons/heroes/aran/endgame.png' alt='Skill Endgame'/></span>[10s](360s cd)</div>",
+            "iFrame": "<div><span data-tooltip='Maha&#39;s Blessing (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-blessing.png' alt='Skill Maha&#39;s Blessing'/></span>[2s](60s cd)</div> <div><span data-tooltip='Finisher - Hunter&#39;s Prey (4th Job)'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter's Prey'/></span>[Up to 8s](Adrenaline only, 30s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div> <div><span data-tooltip='Endgame (6th Job)'><img src='/class-icons/heroes/aran/endgame.png' alt='Skill Endgame'/></span>(360s cd)</div>"
         },
         "linkSkill": {
                 "id":80000370,
@@ -101,10 +92,10 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<span data-tooltip='Body Pressure'><img src='/class-icons/heroes/aran/body-pressure.png' alt='Skill Body Pressure'/></span> -> <span data-tooltip='Agile Polearms'><img src='/class-icons/heroes/aran/agile-polearms.png' alt='Skill Agile Polearms'/></span> -> <span data-tooltip='Combo Ability'><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/></span> -> <span data-tooltip='Smash Swing'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> -> <span data-tooltip='Smash Wave'><img src='/class-icons/heroes/aran/smash-wave.png' alt='Skill Smash Wave'/></span>"],
-                ["2nd Job", "<span data-tooltip='Swing Studies I'><img src='/class-icons/heroes/aran/swing-studies-i.png' alt='Skill Swing Studies I'/></span> -> <span data-tooltip='Command Mastery I'><img src='/class-icons/heroes/aran/command-mastery-i.png' alt='Skill Command Mastery I'/></span> -> <span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Polearm Mastery'><img src='/class-icons/heroes/aran/polearm-mastery.png' alt='Skill Polearm Mastery'/></span> -> <span data-tooltip='Snow Charge'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span> -> <span data-tooltip='Drain'><img src='/class-icons/heroes/aran/drain.png' alt='Skill Drain'/></span> -> <span data-tooltip='Final Attack'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> -> <span data-tooltip='Rolling Spin'><img src='/class-icons/heroes/aran/rolling-spin.png' alt='Skill Rolling Spin'/></span> -> <span data-tooltip='Final Charge'><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/></span> -> <span data-tooltip='Final Toss'><img src='/class-icons/heroes/aran/final-toss.png' alt='Skill Final Toss'/></span>"],
-                ["3rd Job", "<span data-tooltip='Advanced Combo Ability'><img src='/class-icons/heroes/aran/advanced-combo-ability.png' alt='Skill Advanced Combo Ability'/></span> -> <span data-tooltip='Cleaving Blows'><img src='/class-icons/heroes/aran/cleaving-blows.png' alt='Skill Cleaving Blows'/></span> -> <span data-tooltip='Might'><img src='/class-icons/heroes/aran/might.png' alt='Skill Might'/></span> -> <span data-tooltip='Maha Blessing'><img src='/class-icons/heroes/aran/maha-blessing.png' alt='Skill Maha Blessing'/></span> -> <span data-tooltip='Aero Swing'><img src='/class-icons/heroes/aran/aero-swing.png' alt='Skill Aero Swing'/></span> -> <span data-tooltip='Adrenaline Rush'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> -> <span data-tooltip='Final Blow'><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/></span> -> <span data-tooltip='Judgment Draw'><img src='/class-icons/heroes/aran/judgment-draw.png' alt='Skill Judgment Draw'/></span> -> <span data-tooltip='Gathering Hook'><img src='/class-icons/heroes/aran/gathering-hook.png' alt='Skill Gathering Hook'/></span>"],
-                ["4th Job", "<span data-tooltip='Swing Studies II'><img src='/class-icons/heroes/aran/swing-studies-ii.png' alt='Skill Swing Studies II'/></span> -> <span data-tooltip='Command Mastery II'><img src='/class-icons/heroes/aran/command-mastery-ii.png' alt='Skill Command Mastery II'/></span> -> <span data-tooltip='High Defense'><img src='/class-icons/heroes/aran/high-defense.png' alt='Skill High Defense'/></span> -> <span data-tooltip='High Mastery'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> -> <span data-tooltip='Advanced Final Attack'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> -> <span data-tooltip='Sudden Strike'><img src='/class-icons/heroes/aran/sudden-strike.png' alt='Skill Sudden Strike'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Beyond Blade'><img src='/class-icons/heroes/aran/beyond-blade.png' alt='Skill Beyond Blade'/></span> -> <span data-tooltip='Finisher - Hunter&#39;s Prey'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter&#39;s Prey'/></span> -> <span data-tooltip='Finisher - Storm of Fear'><img src='/class-icons/heroes/aran/storm-of-fear.png' alt='Skill Finisher - Storm of Fear'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
+                ["1st Job", "<span data-tooltip='Ol&#39; Reliable'><img src='/class-icons/heroes/aran/ol-reliable.png' alt='Skill Ol&#39; Reliable'/></span> -> <span data-tooltip='Agile Polearms'><img src='/class-icons/heroes/aran/agile-polearms.png' alt='Skill Agile Polearms'/></span> -> <span data-tooltip='Smash Swing'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> ->  <span data-tooltip='Final Charge'><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/></span> -> <span data-tooltip='Final Toss'><img src='/class-icons/heroes/aran/final-toss.png' alt='Skill Final Toss'/></span>"],
+                ["2nd Job", "<span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Polearm Mastery'><img src='/class-icons/heroes/aran/polearm-mastery.png' alt='Skill Polearm Mastery'/></span> -> <span data-tooltip='Combo Ability'><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/></span> -> <span data-tooltip='Snow Charge'><img src='/class-icons/heroes/aran/snow-charge.png' alt='Skill Snow Charge'/></span> -> <span data-tooltip='Drain'><img src='/class-icons/heroes/aran/drain.png' alt='Skill Drain'/></span> -> <span data-tooltip='Final Attack'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> -> <span data-tooltip='Beyond Blade'><img src='/class-icons/heroes/aran/beyond-blade.png' alt='Skill Beyond Blade'/></span>"],
+                ["3rd Job", "<span data-tooltip='High Defense'><img src='/class-icons/heroes/aran/high-defense.png' alt='Skill High Defense'/></span> -> <span data-tooltip='Might'><img src='/class-icons/heroes/aran/might.png' alt='Skill Might'/></span> -> <span data-tooltip='Beyond Blade Mastery I'><img src='/class-icons/heroes/aran/beyond-blade-mastery-i.png' alt='Skill Beyond Blade Mastery I'/></span> -> <span data-tooltip='Maha Blessing'><img src='/class-icons/heroes/aran/maha-blessing.png' alt='Skill Maha Blessing'/></span> -> <span data-tooltip='Adrenaline Rush'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> -> <span data-tooltip='Judgment Draw'><img src='/class-icons/heroes/aran/judgment-draw.png' alt='Skill Judgment Draw'/></span> -> <span data-tooltip='Permafrost'><img src='/class-icons/heroes/aran/permafrost.png' alt='Skill Permafrost'/></span>"],
+                ["4th Job", "<span data-tooltip='Cleaving Attack'><img src='/class-icons/heroes/aran/cleaving-attack.png' alt='Skill Cleaving Attack'/></span> -> <span data-tooltip='High Mastery'><img src='/class-icons/heroes/aran/high-mastery.png' alt='Skill High Mastery'/></span> -> <span data-tooltip='Sudden Strike'><img src='/class-icons/heroes/aran/sudden-strike.png' alt='Skill Sudden Strike'/></span> -> <span data-tooltip='Adrenaline Overload'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Advanced Final Attack'><img src='/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> -> <span data-tooltip='Beyond Blade Mastery II'><img src='/class-icons/heroes/aran/beyond-blade-mastery-ii.png' alt='Skill Beyond Blade Mastery II'/></span> -> <span data-tooltip='Finisher - Hunter&#39;s Prey'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter&#39;s Prey'/></span> -> <span data-tooltip='Glacial Prison'><img src='/class-icons/heroes/aran/glacial-prison.png' alt='Skill Glacial Prison'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
             ],
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -113,24 +104,26 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/heroes/aran/merciless-hunt.png' alt='Skill Merciless Hunt'/> Merciless Hunt</li><li><img src='/class-icons/heroes/aran/surging-adrenaline.png' alt='Skill Surging Adrenaline'/> Surging Adrenaline</li><li><img src='/class-icons/heroes/aran/beyonder-blade.png' alt='Skill Beyond-er Blade'/> <img src='/class-icons/heroes/aran/beyond-blade-barrage.png' alt='Skill Beyond Blade Barrage'/> <img src='/class-icons/heroes/aran/piercing-beyond-blade.png' alt='Skill Piercing Beyond Blade'/> Beyond-er Blade, Beyond Blade Barrage and Piercing Beyond Blade</li></ul>"
+            "recommended": "<ul><li><img src='/class-icons/heroes/aran/finisher-reinforce.png' alt='Skill Finisher - Reinforce'/> Finisher - Reinforce</li><li><img src='/class-icons/heroes/aran/surging-adrenaline.png' alt='Skill Surging Adrenaline'/> Surging Adrenaline</li><li><img src='/class-icons/heroes/aran/beyonder-blade.png' alt='Skill Beyond-er Blade'/> <img src='/class-icons/heroes/aran/beyond-blade-barrage.png' alt='Skill Beyond Blade Barrage'/> <img src='/class-icons/heroes/aran/piercing-beyond-blade.png' alt='Skill Piercing Beyond Blade'/> Beyond-er Blade, Beyond Blade Barrage and Piercing Beyond Blade</li></ul>"
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Final Blow (3rd Job)'><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/></span> <span data-tooltip='Beyond Blade (4th Job)'><img src='/class-icons/heroes/aran/beyond-blade.png' alt='Skill Beyond Blade'/></span> <span data-tooltip='Finisher - Hunter&#39;s Prey (4th Job)'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter&#39;s Prey'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Smash Swing (1st Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> <span data-tooltip='Maha&#39;s Domain (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-domain.png' alt='Skill Maha&#39;s Domain'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Smash Wave (1st Job)'><img src='/class-icons/heroes/aran/smash-wave.png' alt='Skill Smash Wave'/></span> <span data-tooltip='Smash Swing (1st Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> <span data-tooltip='Final Charge (2nd Job)'><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Final Toss (2nd Job)'><img src='/class-icons/heroes/aran/final-toss.png' alt='Skill Final Toss'/></span> <span data-tooltip='Rolling Spin (2nd Job)'><img src='/class-icons/heroes/aran/rolling-spin.png' alt='Skill Rolling Spin'/></span> <span data-tooltip='Judgment Draw (3rd Job)'><img src='/class-icons/heroes/aran/judgment-draw.png' alt='Skill Judgment Draw'/></span> <span data-tooltip='Gathering Hook (3rd Job)'><img src='/class-icons/heroes/aran/gathering-hook.png' alt='Skill Gathering Hook'/></span> <span data-tooltip='Final Blow (3rd Job)'><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/></span> <span data-tooltip='Beyond Blade (4th Job)'><img src='/class-icons/heroes/aran/beyond-blade.png' alt='Skill Beyond Blade'/></span> <span data-tooltip='Finisher - Storm of Fear (4th Job)'><img src='/class-icons/heroes/aran/storm-of-fear.png' alt='Skill Finisher - Storm of Fear'/></span> <span data-tooltip='Finisher - Hunter&#39;s Prey (4th Job)'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter's Prey'/></span> <span data-tooltip='Maha&#39;s Domain (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-domain.png' alt='Skill Maha's Domain'/></span>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Beyond Blade (2nd Job)'><img src='/class-icons/heroes/aran/beyond-blade-3.png' alt='Skill Beyond Blade'/></span> <span data-tooltip='Hyper Finisher - Last Stand (Hyper Skill)'><img src='/class-icons/heroes/aran/last-stand.png' alt='Skill Hyper Finisher - Last Stand'/></span> <span data-tooltip='Finisher - Hunter&#39;s Prey (4th Job)'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter&#39;s Prey'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Smash Swing / Permafrost (1st Job / 3rd Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Adrenaline Rush / Adrenaline Overload (3rd Job / 4th Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
+            "possible": "<span data-tooltip='Smash Swing / Permafrost (1st Job / 3rd Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> <span data-tooltip='Final Charge (1st Job)'><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/></span> <span data-tooltip='Final Attack (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Final Toss (1st Job)'><img src='/class-icons/heroes/aran/final-toss.png' alt='Skill Final Toss'/></span> <span data-tooltip='Judgment Draw (3rd Job)'><img src='/class-icons/heroes/aran/judgment-draw.png' alt='Skill Judgment Draw'/></span> <span data-tooltip='Adrenaline Rush / Adrenaline Overload (3rd Job / 4th Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> <span data-tooltip='Beyond Blade (2nd Job)'><img src='/class-icons/heroes/aran/beyond-blade-3.png' alt='Skill Beyond Blade'/></span> <span data-tooltip='Glacial Prison (4th Job)'><img src='/class-icons/heroes/aran/glacial-prison.png' alt='Skill Glacial Prison'/></span> <span data-tooltip='Finisher - Hunter&#39;s Prey (4th Job)'><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter's Prey'/></span> <span data-tooltip='Hyper Finisher - Last Stand (Hyper Skill)'><img src='/class-icons/heroes/aran/last-stand.png' alt='Skill Hyper Finisher - Last Stand'/></span>"
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Aran"},
-            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%95%84%EB%9E%80(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"}
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%95%84%EB%9E%80(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/WpJ4VDta8V"}
         ],
+        "specialThanks": "Special thanks to the Aran Discord for their help in making this overview!",
+        "discord": "https://discord.gg/WpJ4VDta8V",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
-            ["Boost Nodes Build + Inner Ability","Maple Central"],
-            ["5th Job Skills Animations", "KyoWantsCute"]
+            ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Aran Discord"]
         ],
         "extraContent": {
-            "title": "Combo System",
-            "content": "<p><img src='/class-icons/heroes/aran/combo-count.png'/><img src='/class-icons/heroes/aran/combo-adrenaline.png'/></p><p>Aran has a special Combo mechanic where each hit that Aran lands, increases your Combo count. As your Combo count increases, you gain bonus stats like Attack, DEF, and %Crit Rate</p> <p><img class='extra-content-image' src='https://media0.giphy.com/media/l8eubWVB69lPOIAjoP/giphy.gif' alt='Skill Adrenaline Rush'/></p> <p>Additionally in 3rd Job, every time you hit 1000 Combo, you gain access to <img src='/class-icons/heroes/aran/adrenaline-rush.png' alt=''/> Adrenaline Mode by using <img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt='Skill Adrenaline Rush Activate'/> Adrenaline Rush Activate to temporarily enter a berserk state where your attacks gain special abilities</p><p>Several of Aran's skills can be activated by pressing buttons in combination to activate them. Alternatively, Aran's skills can also be assigned a Key Slots to manually activate them. The following skills can be activated in such ways:</p><ul><li><img src='/class-icons/heroes/aran/combat-step.png' alt='Skill Combat Step'/> Combat Step (Beginner) <strong>→ + → / Jump + Jump</strong></li><li><img src='/class-icons/heroes/aran/smash-wave.png' alt='Skill Smash Wave'/> Smash Wave (1st Job) <strong>↓ + → + Attack</strong></li><li><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/> Final Charge (2nd Job) <strong>← + ↓ + → + Attack</strong></li><li><img src='/class-icons/heroes/aran/final-toss.png' alt='Skill Final Toss'/> Final Toss (2nd Job) <strong>↑ + Attack</strong></li><li><img src='/class-icons/heroes/aran/rolling-spin.png' alt='Skill Rolling Spin'/> Rolling Spin (2nd Job) <strong>↓ + ↑ + Attack</strong></li><li><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/> Final Blow (3rd Job) <strong>↓ + Attack</strong></li><li><img src='/class-icons/heroes/aran/judgment-draw.png' alt='Skill Judgment Draw'/> Judgment Draw (3rd Job) <strong>↓ + ↑ + Attack / ↑ + → + Attack</strong></li><li><img src='/class-icons/heroes/aran/gathering-hook.png' alt='Skill Gathering Hook'/> Gathering Hook (3rd Job) <strong>↑ + ↑ + Attack</strong></li><li><img src='/class-icons/heroes/aran/mahas-carnage.png' alt='Skill Maha&#39;s Carnage'/> Maha&#39;s Carnage (5th Job) <strong>↓ + ↓ + Attack</strong></li></ul><p>The following skills can only be activated during Adrenaline Rush (once per activation)</p><ul><li><img src='/class-icons/heroes/aran/storm-of-fear.png' alt='Skill Finisher - Storm of Fear'/> Finisher - Storm of Fear (4th Job) <strong>↓ + ← + → + Attack (Hold)</strong></li><li><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter&#39;s Prey'/> Finisher - Hunter&#39;s Prey (4th Job) <strong>↓ + → + ↓ + Attack (Hold)</strong></li></ul><p>Command skills listed above can be locked to prevent accidentally activating them with Key Inputs by right-clicking the skill</p>"
+            "title": "Combo Count System",
+            "content": "<p><img src='/class-icons/heroes/aran/combo-count.gif'/></p><p>In 2nd Job, Aran unlocks a resource called Combo count from <img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> Combo Ability that is gained automatically and upon successful direct attack skills</p><p>In 3rd Job, upon reaching 1000 Combo, using <img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt=''/> Adrenaline Rush Activate will temporarily enter <img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/> Adrenaline Rush Mode that creates a continously damaging zone around the character</p><p>In 4th Job, Finisher-type skills are unlocked like <img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter&#39;s Prey'/> Finsher - Hunter&#39;s Prey that can be used during Adrenaline Rush. As well, a new mode can be activated during Adrenaline Rush by also using <img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt='Adrenaline Rush Activate'/> called <img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/> Adrenal Awakening that grants access to the Hyper Finisher skill called <img src='/class-icons/heroes/aran/last-stand.png' alt='Skill Hyper Finisher - Last Stand'/> Last Stand</p><p>Certain skills can be activated through Key Inputs or assigned to a Key Slot. The following skills can be activated using Key Inputs:</p><ul><li><img src='/class-icons/heroes/aran/combat-step.png' alt='Skill Combat Step'/> Combat Step (Beginner) <strong>→ + → / Jump + Jump</strong></li><li><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/> Final Charge (1st Job) <strong>↓ + → + Attack / ↓ + ← + Attack</strong></li><li><img src='/class-icons/heroes/aran/final-toss.png' alt='Skill Final Toss'/> Final Toss (1st Job) <strong>↑ + Attack</strong></li><li><img src='/class-icons/heroes/aran/permafrost.png' alt='Skill Permafrost'/> Permafrost (3rd Job) <strong>↓ + Attack</strong></li><li><img src='/class-icons/heroes/aran/judgment-draw.png' alt='Skill Judgment Draw'/> Judgment Draw (3rd Job) <strong>↑ + → + Attack / ↑ + ← + Attack</strong></li><li><img src='/class-icons/heroes/aran/glacial-prison.png' alt='Skill Glacial Prison'/> Glacial Prison (4th Job) <strong>↑ + ↓ + Attack</strong></li><li><img src='/class-icons/heroes/aran/mahas-carnage.png' alt='Skill Maha&#39;s Carnage'/> Maha&#39;s Carnage (5th Job) <strong>↓ + ↓ + Attack</strong></li></ul><p>The following skills can only be activated during Adrenaline Rush / Adrenal Awakening (once per activation)</p><ul><li><img src='/class-icons/heroes/aran/hunters-prey.png' alt='Skill Finisher - Hunter&#39;s Prey'/> Finisher - Hunter&#39;s Prey (4th Job) <strong>↓ + (→ or ←) + ↓ + Attack (Hold)</strong></li><li><img src='/class-icons/heroes/aran/adrenaline-surge.png' alt='Skill Finisher - Adrenaline Surge'/> Finisher - Adrenaline Surge (5th Job) <strong>↑ + ↑ + Attack</strong></li></ul><p>Key Input activation can be disabled for the skills above by right-clicking the skill</p>"
         }
     },
     "skill": {
@@ -141,7 +134,7 @@
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
                     "icons": ["/class-icons/explorers/three-snails.png"],
-                    "animations": ["https://media.giphy.com/media/ecVOJcpUnUvSW58yaT/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWRobmUxZjQ3NHV4Ymc4dDBtYXU1dnE2dmNub3BkMnJhcWdkMDVoNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VJowFBedBTLrEk9EZy/giphy.gif"],
                     "type": "Attack",
                     "desc": "Throws a snail shell forward that deals fixed amount of damage"
                 },
@@ -150,20 +143,20 @@
                     "shortDesc": "MP Cost: 15, Recover 72 HP over 30 sec",
                     "maxLevel": 3,
                     "icons": ["/class-icons/explorers/recovery.png"],
-                    "animations": ["https://media.giphy.com/media/Lh50gVRzJzHDeFvCUf/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbms1NGVmOHZ1dW01NnNrMnMxczVxemZjN2IwZ3c0MHR2c3BoNm9kaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dyvxz7Ioedhdnl4wwH/giphy.gif"],
                     "type": "Buff"
                 },
                 {
-                    "name": "Nimble Feet",
+                    "name": "Agile Body",
                     "shortDesc": "MP Cost: 10, Duration 12, Movement Speed: 20",
                     "maxLevel": 3,
                     "icons": ["/class-icons/explorers/nimble-feet.png"],
-                    "animations": ["https://media.giphy.com/media/D7N0xX4L7jx52yS9pj/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3QzOTVyd3BvZzBqd29jMWIwbG9jdDE4d3d6bmNua2RsNHZnNTdhbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eZqqf0m58byVVpmpzA/giphy.gif"],
                     "type": "Buff"
                 },  
                 {
                     "name": "Regained Memory",
-                    "shortDesc": "Permanently increase Attack Power: +5%, DEF: +300, Speed: +10",
+                    "shortDesc": "Permanently increase Attack Power: +5%, DEF: +300",
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/aran/regained-memory.png"],
                     "type": "Passive",
@@ -174,10 +167,10 @@
                 },
                 {
                     "name": "Combat Step",
-                    "shortDesc": "MP Cost: 5, travel a short distance\\nMovement Speed +15, Max Movement Speed +20",
+                    "shortDesc": "MP Cost: 5, travel a short distance\\nMovement Speed +25, Max Movement Speed +20",
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/aran/combat-step.png"],
-                    "animations": ["https://media.giphy.com/media/RJbu2XQsnEuWrjNF9e/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWE0ZmdhMGJzdDRsdHQzcXE2cWt0YWR2N242ZWw4MXl4eG0xMzg3OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c7Yk0Qc7DFY8GgPrsO/giphy.gif"],
                     "type": "Active",
                     "desc": "Double jump and dash skill",
                     "details": [
@@ -190,56 +183,75 @@
                 },
                 {
                     "name": "Return to Rien",
-                    "shortDesc": "MP Cost: 100.\\nCooldown: 600 sec",
+                    "shortDesc": "MP Cost: 100, return to Rien.\\nCooldown: 600 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/aran/return-to-rien.png"],
+                    "animations": [
+                        "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWczem1kdGk2aDg1aGQ0eXQ2a3U1aWNnMm1yd3Znb2FxbTltY3l4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xyJ7uO17WFTv45Z7vP/giphy.gif"
+                    ],
                     "type": "Active",
                     "desc": "Teleports to Rien, Aran's hometown"
                 },
                 {
                     "name": "Echo of Hero",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/common/echo-of-hero.png"],
-                    "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZwbHR5MWRmZzRmdWNicnkzdzkybHQyZHNmYTh0dzI1anFoM3JpMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/R9AVCNfc8SZWpCMseJ/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/6/Weapon_Acknowledges_Its_Owner' target='_blank' rel='noopener noreferrer'>'Weapon Acknowledges Its Owner'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
             [
                 "1st Job", [{
-                        "name": "Combo Ability",
-                        "shortDesc": "Knockback Resistance +50%, For every 50 Combo Counts, ATT: +2, DEF: +20, Speed: +3, Max Stacks: 10",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/heroes/aran/combo-ability.png"],
-                        "type": "Passive"
+                    "name": "Smash Swing",
+                    "shortDesc": "MP Cost: 5, Max Enemies Hit: 6, Damage: 150%, Number of Attacks: 2",
+                    "maxLevel": 15,
+                    "icons": ["/class-icons/heroes/aran/smash-swing.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWZoODZydGJxa3lybzJrNG4ydzkyOG4xajdxOHN1eTRtc3ZjMnBsaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QCC4pYng6GLt0WBF29/giphy.gif", "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExemIya21xYzJ3a3N2czcwa3JvMWRob2h2ZW9jb245YnhkcmswNHNnZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xv3Q3OtMQhcBq9NCGt/giphy.gif"],
+                    "type": "Basic Attack Modifier",
+                    "desc": "Swing forward consecutively up to three times",
+                    "details": [
+                        "Prevents falling when used while jumping"
+                    ]
                     },
                     {
-                        "name": "Smash Swing",
-                        "shortDesc": "MP Cost: 5, Damage: 150%, Attacks Per Swing: 2, Max Enemies Hit: 6",
+                        "name": "Final Charge",
+                        "shortDesc": "MP Cost: 20, Damage: 200%, Max Enemies Hit: 6\\nWhile using Beyond Blade, Cooldown: 3 sec.",
                         "maxLevel": 10,
-                        "icons": ["/class-icons/heroes/aran/smash-swing.png"],
-                        "animations": ["https://media.giphy.com/media/XEgFwTDPrOXAfKbusH/giphy.gif"],
-                        "type": "Basic Attack Modifier",
-                        "desc": "Swings your polearm up to three times consecutively"
-                    },
-                    {
-                        "name": "Smash Wave",
-                        "shortDesc": "MP Cost: 15, Damage: 500%, Max Enemies Hit: 6, Number of Attacks: 1\\nCooldown: 3 sec",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/heroes/aran/smash-wave.png"],
-                        "animations": ["https://media.giphy.com/media/gdfVSJEaf2yoFHE3Ia/giphy.gif"],
+                        "icons": ["/class-icons/heroes/aran/final-charge.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnU3c2p2MHZydGF4bW40YTNsYXVvejB2NGdrNmsxbzF6d3NxZTE3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0Hd8jTRrlfFLhFXvyu/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a burst of energy forward that pierces through enemies",
+                        "desc": "Dash forward and push enemies back",
                         "details": [
-                            "<strong><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> [Command]:</strong> ↓ + → + Attack<ul><li><strong>[Note]: </strong>Combo Attacks can be locked (right-clicking a skill) to prevent the Skill from activating with Key Inputs</li></ul>"
+                            "Can be used while casting <span data-tooltip='Beyond Blade (2nd Job)'><img src='/class-icons/heroes/aran/beyond-blade-3.png' alt='Skill Beyond Blade II'/></span> but has a cooldown",
+                            "<strong>[Command]</strong> ↓ + → + Attack / ↓ + ← + Attack"
                         ]
+                    },
+                    {
+                        "name": "Final Toss",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 6, Damage: 200% while lifting enemies into the air",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/aran/final-toss.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNiZTE2bHE5c3kwbW93eDVlYnV2cTNwZTNwbWowc2tla2doaXh2MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1bqaE1vYL1WRYZnHGT/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Leap into the air while lifting enemies",
+                        "details": [
+                            "<strong>[Command]</strong> ↑ + Attack<ul><li>Command version increases jump height</li></ul>",
+                            "Can be used twice"
+                        ]
+                    },
+                    {
+                        "name": "Ol' Reliable",
+                        "shortDesc": "Defense: +200, Attack Power: +20, Critical Rate: +10%",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/aran/ol-reliable.png"],
+                        "type": "Passive"
                     },
                     {
                         "name": "Agile Polearms",
@@ -247,103 +259,62 @@
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/aran/agile-polearms.png"],
                         "type": "Passive"
-                    },
-                    {
-                        "name": "Body Pressure",
-                        "shortDesc": "Damage Reflected: 500%",
-                        "maxLevel": 5,
-                        "icons": ["/class-icons/heroes/aran/body-pressure.png"],
-                        "animations": ["https://media0.giphy.com/media/79AfLL65IEKwdSU3TE/giphy.gif"],
-                        "type": "Toggle Buff",
-                        "desc": "While active, reflect back damage taken"
                     }]
                 ],
                 [
                     "2nd Job", [{
-                        "name": "Final Charge",
-                        "shortDesc": "MP Cost: 32, Damage: 300%, Max Monsters Hit: 10, Use command to stun enemies for 10 sec",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/heroes/aran/final-charge.png"],
-                        "animations": ["https://media.giphy.com/media/efsGUg6BkRVghBs0eH/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Dashes forward while also pushing back enemies",
+                        "name": "Combo Ability",
+                        "shortDesc": "Increase your Combo Count by the number of direct skill attacks you land. When your combo is at least 1, you'll obtain 20 combos every 5 seconds. Your Attack Power increases by 2 and your Movement Speed increases by 3 for every 50 combo stacks.\\nThe Attack Power and Movement Speed increase effect can stack up to 10 times.\\n[Passive Effect: Critical Rate: +20%, Knockback Resistance: +50%]",
+                        "maxLevel": 19,
+                        "icons": ["/class-icons/heroes/aran/combo-ability.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWFuZnltenNhdmF3ZjZnb2c2ZTIzMHdubHNlY3AxZHB1bmRlbGRhNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VnYKAjVbIv07jpW3yz/giphy.gif"],
+                        "type": "Passive",
+                        "desc": "Combo stacks increase automatically over time and from successful direct attack skills",
                         "details": [
-                            "<strong><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> [Command]:</strong> ← + ↓ + → + Attack<ul><li>Command version will stun enemies</li></ul>"
+                            "<strong>[Passive]</strong>: Permanently increases %Crit Rate and %Knockback Resistance",
+                            "Increases Attack and Movement Speed based on the number of Combo stacks currently active"
                         ]
                     },
                     {
-                        "name": "Final Toss",
-                        "shortDesc": "MP Cost: 30, Damage: 550%, Max Enemies Hit: 10, Damage to Airborne Enemies: +100% points",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/heroes/aran/final-toss.png"],
-                        "animations": ["https://media0.giphy.com/media/XetTkW9zBDWsNyXepl/giphy.gif"],
+                        "name": "Beyond Blade",
+                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 6, Number of Attacks: 5, Damage: 115%\\nCritical Hit Rate: +30%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/aran/beyond-blade.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExazBra2FwZHpkMDd1YWFzYnZraDc1Mnk3aWxzdTR6dmJmNzRmbGY1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8rT4avsMftTt383My5/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Lifts multiple enemies in front of you into the air",
+                        "desc": "Swing a tortoise spirit forward",
                         "details": [
-                            "<strong><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> [Command]:</strong> ↑ + Attack<ul><li>Command version increases jump height</li></ul>",
-                            "Can be used twice",
-                            "Deals additional %p Damage to airborne enemies"
-                        ]
-                    },
-                    {
-                        "name": "Rolling Spin",
-                        "shortDesc": "MP Cost: 37, Damage: 555%, Number of Attacks: 3, Max Monsters Hit: 10, Use command to stun enemies for 5 sec",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/heroes/aran/rolling-spin.png"],
-                        "animations": ["https://media.giphy.com/media/h53K1Arrd0e0b492Zq/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Spin your polearm while standing in place",
-                        "details": [
-                            "<strong><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> [Command]:</strong> ↓ + ↑ + Attack<ul><li>Command version stuns enemies hit</li></ul>",
-                            "Lifts enemies up into the air"
+                            "Attack has increased %Crit Rate"
                         ]
                     },
                     {
                         "name": "Drain",
-                        "shortDesc": "Recovers 1% of your Max HP when attacking enemies. Permanently increases Max HP by 10%.",
+                        "shortDesc": "MP Cost: 20, recovers 1% of Max HP when landing direct skill attacks.\\n[Passive Effect: Max HP +10%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/aran/drain.png"],
-                        "animations": ["https://media0.giphy.com/media/xXPnoBw16q0FA4zLmR/giphy.gif"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2V2enA0cmVodDMwbDU3c2RlNmV5OHo4NGxiZHZmbmdnd294N3JnNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eoE5o2ZpQ5I0yed0tD/giphy.gif"],
                         "type": "Toggle Buff"
                     },
                     {
                         "name": "Snow Charge",
-                        "shortDesc": "MP Cost: 33, Enemy Speed: -40 for 20 sec, Damage: +10% when attacking enemies that have had their speed reduced. When used against bosses, the Speed reduction's duration is cut in half.\\n[Passive Effects - Damage: +10%]",
+                        "shortDesc": "MP Cost: 20, Enemy Speed: -40 for 20 sec, Damage: +10% when landing direct skill attacks on enemies that have had their speed reduced. When used against bosses, the speed reduction effect and duration is cut in half.\\n[Passive Effects - Damage: +15%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/aran/snow-charge.png"],
-                        "animations": ["https://media3.giphy.com/media/vNQlFJ7WlMvoeO8Qef/giphy.gif"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjJsMHVpbGoxeTcwNjNwb3ZrYm1hamdqa3AxNjVheGM0bTlwMzF4ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rFOqY0YlNVQlhiJcaQ/giphy.gif"],
                         "type": "Toggle Buff",
                         "desc": "Attacks slow enemy movement speed",
                         "details": [
                             "<strong>[Passive]</strong>: Permanently increases %Damage",
-                            "Attacking enemies with slowed movement will deal increased %Damage<ul><li>Can be used on bosses but slow duration is reduced</li></ul>"
+                            "Successful direct attack skills against slowed enemies deal increased %Damage",
+                            "Bosses receive half the effect and duration of the slow"
                         ]
                     },
                     {
                         "name": "Polearm Mastery",
-                        "shortDesc": "Polearm Mastery: +50%, Attack Speed +1, Final Damage: +8%",
+                        "shortDesc": "Polearm Mastery: +50%, Attack Speed +1, Final Damage: +10%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/aran/polearm-mastery.png"],
                         "type": "Passive"
-                    },
-                    {
-                        "name": "Command Mastery I",
-                        "shortDesc": "Skill damage increases by 5% points when the skill is triggered with a command.",
-                        "maxLevel": 5,
-                        "icons": ["/class-icons/heroes/aran/command-mastery-i.png"],
-                        "type": "Passive"
-                    },
-                    {
-                        "name": "Swing Studies I",
-                        "shortDesc": "Smash Swing Damage: +200% points\\n[Final Attack Skills] Creates an afterimage that attacks up to 4 enemies with 100% damage 2 times when you use other direct attack skills after Smash Swing. Increases Speed during swings.",
-                        "maxLevel": 4,
-                        "icons": ["/class-icons/heroes/aran/swing-studies-i.png"],
-                        "animations": ["https://media2.giphy.com/media/l3CIKsOE8V2cjr5830/giphy.gif"],
-                        "type": "Final Attack Passive",
-                        "desc": "Increases %p Damage of <span data-tooltip='Smash Swing (1st Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> and increases Movement Speed during swings",
-                        "details": [
-                            "<strong>[Final Attack]</strong>: Creates an additional attack whenever you use other skills after <span data-tooltip='Smash Swing (1st Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span>"
-                        ]
                     },
                     {
                         "name": "Physical Training",
@@ -354,98 +325,49 @@
                     },
                     {
                         "name": "Final Attack",
-                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal Final Attack damage of 150%.",
+                        "shortDesc": "[Final Attack Skills] Has a 40% chance to deal 150% additional damage",
                         "maxLevel": 20,
                         "icons": ["/class-icons/common/final-attack.png"],
                         "type": "Final Attack Passive",
-                        "desc": "Grants your attacks a chance to deal an additional hit"
+                        "desc": "Successful direct attack skills have a chance to deal an additional hit"
                     }]
                 ],
                 [
                     "3rd Job", [{
                         "name": "Advanced Combo Ability",
-                        "shortDesc": "Knockback Resistance: +50%, Attack Power: +10, Abnormal Status Resistance: +40, Critical Rate: +20%, Critical Damage: +10%, Critical Rate (per 50 combos): +3%, Attack Power (per 10 combos): +2, Max Stacks: 10",
-                        "maxLevel": 10,
+                        "shortDesc": "The Combo Ability effect is always applied at its maximum value\\nAttack Power: +10, Status Resistance: +40, Critical Damage: +10%",
+                        "maxLevel": 1,
                         "icons": ["/class-icons/heroes/aran/advanced-combo-ability.png", "/class-icons/heroes/aran/combo-ability.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases %Knockback Resistance provided",
-                            "Now increases %Crit Rate for every 50 combo and grants flat Attack for every 10 combo (up to 10 stacks)",
-                            "Now grants flat Attack and increases Abnormal Status Resistance, %Elemental Resistance, %Crit Rate, and %Crit Damage"
+                            "Permanently applies the maximum stack effects from <span data-tooltip='Combo Ability (2nd Job)'><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/></span>",
+                            "Now grants flat Attack and increases Abnormal Status Resistance, and %Crit Damage"
                         ]
                     },
                     {
-                        "name": "Aero Swing",
-                        "shortDesc": "Can use Smash Swing while airborne, damage increases by 100% points",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/heroes/aran/aero-swing.png"],
-                        "animations": ["https://media3.giphy.com/media/yOsg57wXlj8GTN2jZ9/giphy.gif"],
-                        "type": "Passive"
-                    },
-                    {
-                        "name": "Adrenaline Rush Active",
-                        "shortDesc": "Usable for 300 seconds after reaching 1,000 combos. If Adrenaline Rush is not activated during that time, your Adrenaline will begin to diminish, and your combo count will be reduced to 800.",
-                        "maxLevel": 1,
-                        "icons": ["/class-icons/heroes/aran/adrenaline-rush-activate.png"],
-                        "type": "Active",
-                        "desc": "At 1000 Combos, using this skill will activate Adrenaline state",
-                        "details": [
-                            "If Adrenaline state is not activated within the timeframe, your combo count will be reduced to 800"
-                        ]
-                    },
-                    {
-                        "name": "Adrenaline Rush",
-                        "shortDesc": "After reaching 1,000 Combos, enter by using Adrenaline Rush Activate within a certain period of time: For 15 sec, Aran's skill damage increases by 150% points, excluding Finisher/summoning/additional attack skills. Further, Aran's attack count will increase by 2, and the maximum monsters hit will increase by 5.\\nSkill damage permanently increases by 100% points",
+                        "name": "Permafrost",
+                        "shortDesc": "MP Cost: 35, Duration: 60 sec\\nPeriodically deals 250% damage 4 times to up to 6 enemies.\\nCooldown: 30 sec",
                         "maxLevel": 20,
-                        "icons": ["/class-icons/heroes/aran/adrenaline-rush.png"],
-                        "animations": ["https://media0.giphy.com/media/l8eubWVB69lPOIAjoP/giphy.gif"],
-                        "type": "Passive",
-                        "desc": "At 1000 Combos, you may enter an Adrenaline state where your skills are enhanced and gain increased %p Damage",
+                        "icons": ["/class-icons/heroes/aran/permafrost.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXA2bGdwdGFiOXM3YXY1NjljNW5ia3M0azlnMXZ0dzkyOHFxbWYwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NJIsY2ufK9B3C4FQPC/giphy-downsized-large.gif"],
+                        "type": "Summon",
+                        "desc": "Summon a stationary polearm that damages nearby enemies",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases your %p Damage of skills",
-                            "Additionally attacks have increased hits per attack and maximum number of enemies hit",
-                            "<span data-tooltip='Smash Wave (1st Job)'><img src='/class-icons/heroes/aran/smash-wave.png' alt='Smash Wave'/></span> will shoot out three projectiles",
-                            "<span data-tooltip='Final Charge (2nd Job)'><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/></span> will leave an ice trail that freezes enemies",
-                            "<span data-tooltip='Final Blow (3rd Job)'><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/></span> will shoot out a shockwave in front of you"
-                        ]
-                    },
-                    {
-                        "name": "Final Blow",
-                        "shortDesc": "MP Cost: 30, Max Enemies Hit: 6, Damage: 285%, Number of Attacks: 5, Ignored Monster DEF: 15%\\nShoots 1 shockwaves that attack up to 6 enemies with 350% damage 4 times during Adrenaline Rush.",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/heroes/aran/final-blow.png"],
-                        "animations": ["https://media.giphy.com/media/d9Yp8ZC6CbMa3ZcFtt/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Swings your polearm to create a swiping attack",
-                        "details": [
-                            "<strong><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> [Command]:</strong> ↓ + Attack<ul><li>Command version prevents you from being knocked back at all (Super Knockback Resistance)</li></ul>",
-                            "The third swing from <span data-tooltip='Smash Swing (1st Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> will automatically be a Final Blow",
-                            "Attack has increased %Ignore DEF"
+                            "<strong>[Command]</strong> ↓ + Attack",
+                            "Unaffected by Damage Reflect"
                         ]
                     },
                     {
                         "name": "Judgment Draw",
-                        "shortDesc": "MP Cost: 30, Damage: 380%, Attack Count: 4, Max Enemies Hit: 10, Freeze Duration: 10 sec, Damage Over Time: 200% damage every 1 sec for 6 sec.",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/heroes/aran/judgment-draw.png"],
-                        "animations": ["https://media.giphy.com/media/jpWZpz9OyEkx3g1WdI/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Slams your polearm into the ground damaging nearby enemies",
-                        "details": [
-                            "<strong><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> [Command]:</strong> ↓ + ↑ + Attack / ↑ + → + Attack<ul><li>Command version will freeze enemies</li><li>Using the ↑ + → + Attack version will instead attack diagonally<ul><li>Allows you to snap onto ledges and acts as a short-ranged teleport</li></ul></li></ul>"
-                        ]
-                    },
-                    {
-                        "name": "Gathering Hook",
-                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 10, Damage: 170%, Number of Attacks: 2\\nCooldown: 5 sec",
+                        "shortDesc": "MP Cost: 27, Max Enemies Hit: 6, Damage: 200%, Number of Attacks: 4",
                         "maxLevel": 14,
-                        "icons": ["/class-icons/heroes/aran/gathering-hook.png"],
-                        "animations": ["https://media.giphy.com/media/RIwJRabEmxu5w7VmH5/giphy.gif"],
+                        "icons": ["/class-icons/heroes/aran/judgment-draw.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXgwcWQwMWxoZjNkczRqaXgwamt3a3oxY2x0YTBnZWhobGp2MDU0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TZ7wLwB0ns2XbBwvFi/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Gathers nearby enemies to in front of you",
+                        "desc": "Slam forward launching enemies in the air",
                         "details": [
-                            "<strong><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> [Command]:</strong> ↑ + ↑ + Attack<ul><li>Command version can be used to animation cancel</li></ul>"
+                            "<strong>[Command]</strong> ↑ + → + Attack / ↑ + ← + Attack"
                         ]
                     },
                     {
@@ -453,71 +375,148 @@
                         "shortDesc": "MP Cost: 13, Attack Power: +30, Magic ATT: +30, Duration: 200 sec",
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/aran/maha-blessing.png"],
-                        "animations": ["https://media1.giphy.com/media/Qa2W8Hhqp8GYwiM9T5/giphy.gif"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWp1bGNuMXFsajJqaDZlaTlib29xdnlndWw3aWw5end4dzMxOGV6MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b60M8LxIFN2dSApnBp/giphy.gif"],
                         "type": "Party Buff"
                     },
                     {
+                        "name": "Adrenaline Rush",
+                        "shortDesc": "After reaching 1,000 Combos, use Adrenaline Rush Activate to enter Adrenaline Rush for 15 seconds.\\n Iceflow: Activates during Adrenaline Rush, attacks up to 7 enemies with 350% damage 2 times.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/aran/adrenaline-rush.png", "/class-icons/heroes/aran/iceflow.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJtb3NoaTRkOG85bGdybTJjcjRrN2ljMGx5NGp5anJiZTFnbnV6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LzHQP8XznqbcYyuTMX/giphy-downsized-large.gif"],
+                        "type": "Passive",
+                        "desc": "At 1000 Combo stack, use <span data-tooltip='Adrenaline Rush Activate (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt='Skill Adrenaline Rush Active'/></span> to enter Adrenaline Rush that grants <img src='/class-icons/heroes/aran/iceflow.png' alt='Skill Iceflow'/> Iceflow that continously damages enemies around the character",
+                        "details": [
+                            "Unaffected by %Buff Duration"
+                        ]
+                    },
+                    {
+                        "name": "Adrenaline Rush Activate",
+                        "shortDesc": "Available upon reaching 1,000 combos.\\nOnce Adrenaline Rush ends, you'll earn back combos based on the number of direct skill attacks landed while Adrenaline Rush was active.\\nEarn back 30%, 60%, or 100% of 500 combos for every 8 attacks landed\\nCooldown: 90 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/aran/adrenaline-rush-activate.png"],
+                        "type": "Active",
+                        "desc": "At 1000 Combo stack, using this skill will activate Adrenaline state",
+                        "details": [
+                            "Shares Skill Points (SP) with <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span>",
+                            "After Adrenaline Rush ends, Combo stacks are reset but can be refunded based on the number of successful direct attack skills while Adrenaline Rush was active",
+                            "In 4th Job, pressing the Skill Key again during Adrenaline Rush after 10 successful attacks will activate <span data-tooltip='Adrenaline Overload'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span> Adrenal Awakening<ul><li>When activating <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> Adrenaline Rush, if the Down Arrow Key and Skill Key is pressed together, once the requirement to activate <span data-tooltip='Adrenaline Overload'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span> Adrenal Awakening is met, it will automatically activate</li><li>Right-clicking the skill will also toggle ON/OFF the function to automatically activate <span data-tooltip='Adrenaline Overload'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span> Adrenal Awakening once the requirement is met</li></ul>"
+                        ]
+                    },
+                    {
+                        "name": "Beyond Blade Mastery I",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 6\\nPress the skill key to attack consecutively up to two more times.\\nBeyond Blade - Black Tortoise: Deal 205% damage 5 times.\\nBeyond Blade - Vermillion Bird: Deal 205% damage 5 times.\\nCritical Rate: +60%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/aran/beyond-blade-mastery-i.png", "/class-icons/heroes/aran/beyond-blade-2.png", "/class-icons/heroes/aran/beyond-blade.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnIxdXV6N3VmbTVhN3Mwd2w5ZDIzeTV5djB2a3NxY3VwMWRodjA3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GRVKgsqK1mvmddzoGQ/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Adds an additional attack by pressing the Skill Key two times",
+                            "Attack now grants knockback immunity while casting (Super Knockback Resistance)",
+                            "Increases %Damage and %Crit Rate of attack"
+                        ]
+                    },
+                    {
                         "name": "Might",
-                        "shortDesc": "Attack Power: +40, DEF: +215, Damage required to knock back a monster decreased to 10%.",
-                        "maxLevel": 10,
+                        "shortDesc": "Attack Power: +40, DEF: +215, Critical Rate: +20%, Boss Damage: +15%\\nDamage required to knock back a monster decreased to 10%.",
+                        "maxLevel": 20,
                         "icons": ["/class-icons/heroes/aran/might.png"],
                         "type": "Passive"
                     },
                     {
-                        "name": "Cleaving Blows",
-                        "shortDesc": "Monster DEF Ignored: 40%, Damage: +30%",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/heroes/aran/cleaving-blows.png"],
+                        "name": "High Defense",
+                        "shortDesc": "Damage Taken: -40%\\nHP: +20%, DEF: +300, Knockback Resistance: +50%",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/aran/high-defense.png"],
                         "type": "Passive"
                     }]
                 ],
                 [
                     "4th Job", [{
-                        "name": "Beyond Blade",
-                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 6, Damage: 295%, Number of Attacks: 5. Deals up to 3 additional hits with consecutive key presses.\\n2 Hits: Attack 5 times for 311% damage\\n3 Hits: Attack 5 times for 326% damage.\\nBonus Critical Rate: 100%, Ignore Monster DEF: 30%, Damage Against Normal Enemies: +8%\\nDamage: +20%p when used by linking with Final Blow.\\nFires a shockwave that hits up to 6 enemies for 400% damage 5 times if in Adrenaline Rush state.",
+                        "name": "Adrenaline Overload",
+                        "shortDesc": "Activate Adrenaline Awakening by landing 10 attacks while Adrenaline Rush is active.\\nAdrenaline Awakening: lasts 5 seconds, enables Hyper Finisher skills, activates Golden Burst every 1.2 seconds when using direct skill attacks.\\nGolden Burst: Deals 650% damage 10 times to up to 12 enemies.\\nCooldown: 180 seconds, Adrenal Awakening cooldown displays via the border of Adrenaline Rush Activate\\n[Passive Effect: Damage dealt by Iceflow: +320%p]",
                         "maxLevel": 30,
-                        "icons": ["/class-icons/heroes/aran/beyond-blade.png"],
-                        "animations": ["https://media.giphy.com/media/L1WHFDUsN8ZobX9Bu9/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Performs 3 separate attacks consecutively, dealing increased %Damage the fewer enemies hit",
+                        "icons": ["/class-icons/heroes/aran/adrenaline-overload.png", "/class-icons/heroes/aran/adrenaline-rush.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJtazZoMWJtNW43dTVqcGF6ZXdqNWUwN3RucTluODl5aHlkcWg1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WTafEscZAKD1H6cK02/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "During <span data-tooltip='Adrenaline Rush (3rd Job'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span>, grants Adrenal Awakening after 10 successful direct attack skills by pressing <span data-tooltip='Adrenaline Rush Activate'><img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt='Adrenaline Rush Activate'/></span>",
                         "details": [
-                            "Deals increased %p Damage if <span data-tooltip='Final Blow (3rd Job)'><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/></span> is used first and linked together",
-                            "Attack has additional %Ignore DEF, is a guaranteed Critical Hit, and deals increased %Damage to regular monsters",
-                            "While casting, prevents you from being knocked back at all (Super Knockback Resistance)",
-                            "During <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span>, shockwaves will be shot both in front and behind you"
-                        ]
-                    },
-                    {
-                        "name": "Finisher - Storm of Fear",
-                        "shortDesc": "MP Cost: 200, Max Enemies Hit: 12, Damage: 650%, Number of Attacks: 1, Max Duration: 10 sec\\nOnly one finisher can be triggered per Adrenaline Rush.",
-                        "maxLevel": 30,
-                        "icons": ["/class-icons/heroes/aran/storm-of-fear.png"],
-                        "animations": ["https://media4.giphy.com/media/JVPf2T3tjFuFCUi1Mq/giphy.gif"],
-                        "type": "Key-down Attack",
-                        "desc": "Creates a whirlwind around you that pulls in nearby enemies",
-                        "details": [
-                            "Can only be used in <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> and only one finisher can be used per rush",
-                            "<img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> <strong>[Command]:</strong> ↓ + ← + → + Attack (Hold)"
+                            "During Adrenal Awakening, grants the use of 'Hyper Finisher' skills and Golden Burst that activates to deal damage when using direct attack skills",
+                            "Cooldown of Adrenal Awakening is displayed through a border outline on <span data-tooltip='Adrenaline Rush Activate (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush-activate.png' alt='Skill Adrenaline Rush Activate'/></span>",
+                            "Also permanently increases the %Damage of <span data-tooltip='Adrenaline Rush - Iceflow (3rd Job)'><img src='/class-icons/heroes/aran/iceflow.png' alt='Skill Iceflow'/></span> by a flat amount",
+                            "Unaffected by %Buff Duration"
                         ]
                     },
                     {
                         "name": "Finisher - Hunter's Prey",
-                        "shortDesc": "MP Cost: 200. Hold key down to charge and use arrow keys to change direction once activated. A Chase Cut that strikes 15 times, dealing 1070% to 1 monsters, is activated 7 time(s). Invincible while charging. Damage increases by 100% for every 1 sec spent charging, up to 500%. Can charge for up to 5 sec.\\nOnly one finisher can be triggered per Adrenaline Rush.",
+                        "shortDesc": "MP Cost: 200, can hold down the key for up to 6 seconds, become invincible for 2 seconds after releasing the key.\\nDamage: 790%, Number of Attacks: 15, Chase Cut Activation Count: 10, Max Enemies Hit: 10\\nCooldown: 30 sec",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/aran/hunters-prey.png"],
-                        "animations": ["https://media3.giphy.com/media/crCUwG8CPqzLaAurpc/giphy.gif"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHB3eWxocGFvZzhlNXdsaXJyYnBteTZpbTJqN2IzYWx5MWY1MWd0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/edNzWcs8amncsFiIS0/giphy.gif"],
                         "type": "Key-down Attack",
-                        "desc": "Charges forward to strike a powerful blow that targets the enemy or boss with the highest Max HP in the direction you are facing",
+                        "desc": "Charge forward for a powerful blow",
                         "details": [
-                            "The longer you charge, the more damage dealt<ul><li>You are invincible while charging</li></ul>",
-                            "While charging, you may change directions<ul><li>If there are no enemies in the direction you are facing, attack will target the nearest enemy</li><li>If no enemies within range, you will dash towards the direction you are facing</li></ul>",
-                            "Can only be used in <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> and only one finisher can be used per rush",
-                            "<img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> <strong>[Command]:</strong> ↓ + → + ↓ + Attack (Hold)"
+                            "While held, become invincible while charging and shortly after releasing",
+                            "While held, the direction of the attack can be changed by pressing the Left or Right Arrow Keys",
+                            "Can only be used one-time after activating <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> or <span data-tooltip='Adrenaline Overload (4th Job)'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span>",
+                            "<strong>[Command]</strong> ↓ + (→ or ←) + ↓ + Attack (Hold)"
+                        ]
+                    },
+                    {
+                        "name": "Glacial Prison",
+                        "shortDesc": "MP Cost: 110, Max Enemies Hit 12, Damage: 480%, Number of Attacks: 8\\nStun Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Glacial Prison.\\nCooldown: 180 sec.",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/aran/glacial-prison.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Ryd25uYTc5cjFmOWVxc2gxeDI5anM0cGVlZm9mZzdnazRqbjd4OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Zhqi9aAlGa2gDZYzZL/giphy.gif"],
+                        "type": "Bind Attack",
+                        "desc": "Bind nearby surrounding enemies",
+                        "details": [
+                            "<strong>[Command]</strong> ↑ + ↓ + Attack"
+                        ]
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnloMms2bDJ4bzVub2hnOHpobW9pd2JiNnd2M2YxcmVtcnY5YmFzZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8m9r5WVRXj8YpL0Tde/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/common/heros-will.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTgyODdoY2lqcGtpb3Q1NnM4aG1haWQxbjAzbXdzbjQ1Yzl1Y2xzZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rpb6zP9q1Uhu8BwJx4/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Beyond Blade Mastery II",
+                        "shortDesc": "MP Cost: 40, Max Enemies Hit: 6\\nPress the skill key to attack consecutively up to three more times.\\nBeyond Blade - Black Tortoise: Deal 410% damage 5 times.\\nBeyond Blade - Vermillion Bird: Deal 410% damage 5 times.\\n\\nBeyond Blade - Azure Dragon: Deal 410%  damage 5 times.\\nCritical Rate: +100%, Ignore Defense: 30%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/aran/beyond-blade-mastery-ii.png", "/class-icons/heroes/aran/beyond-blade-3.png", "/class-icons/heroes/aran/beyond-blade-2.png"],
+                        "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWV2bGJkc3JwdjNkOTcxZGJrcHBhNjdkYXNlM2RpN3NtcmJxaThjYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TyFY8VAwf2tqAwG95p/giphy.gif"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Adds an additional attack by pressing the Skill Key three times",
+                            "Attack now is a guaranteed Critical Hit and has increase %Ignore DEF",
+                            "Attack grants knockback immunity while casting (Super Knockback Resistance)",
+                            "Increases %Damage of attack"
                         ]
                     },
                     {
                         "name": "High Mastery",
-                        "shortDesc": "Polearm Mastery: +70%. Attack Power: +30, Critical Damage: +8%, Final Damage: +15%",
+                        "shortDesc": "Polearm Mastery: +70%\\nAttack Power: +30, Critical Damage: +10%, Final Damage: +21%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/aran/high-mastery.png", "/class-icons/heroes/aran/polearm-mastery.png"],
                         "type": "Upgraded Passive",
@@ -528,66 +527,23 @@
                         ]
                     },
                     {
-                        "name": "High Defense",
-                        "shortDesc": "Damage Taken: -40%, HP: +20%, DEF: +300",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/heroes/aran/high-defense.png"],
+                        "name": "Sudden Strike",
+                        "shortDesc": "Damage dealt by Final Charge, Final Toss, and Judgment Draw: +140%p\\nDamage dealt by Permafrost: +250%p\\nDamage dealt by Smash Swing: +600%p",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/heroes/aran/sudden-strike.png"],
+                        "type": "Passive",
+                        "desc": "Increases %Damage by a flat amount for <span data-tooltip='Smash Swing (1st Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span> <span data-tooltip='Final Charge (1st Job)'><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/></span> <span data-tooltip='Final Toss (1st Job)'><img src='/class-icons/heroes/aran/final-toss.png' alt='Skill Final Toss'/></span> <span data-tooltip='Permafrost (3rd Job)'><img src='/class-icons/heroes/aran/permafrost.png' alt='Skill Permafrost'/></span> <span data-tooltip='Judgment Draw (3rd Job)'><img src='/class-icons/heroes/aran/judgment-draw.png' alt='Skill Judgment Draw'/></span>"
+                    },
+                    {
+                        "name": "Cleaving Attack",
+                        "shortDesc": "Ignore Defense: 40%, Damage: +35%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/aran/cleaving-attack.png"],
                         "type": "Passive"
                     },
                     {
-                        "name": "Maple Warrior",
-                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
-                        "maxLevel": 30,
-                        "icons": ["/class-icons/common/maple-warrior.png"],
-                        "animations": ["https://media.giphy.com/media/VshCkm1NTUoMxrJHlJ/giphy.gif"],
-                        "type": "Party Buff"
-                    },
-                    {
-                        "name": "Hero's Will",
-                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
-                        "maxLevel": 5,
-                        "icons": ["/class-icons/common/heros-will.png"],
-                        "animations": ["https://media.giphy.com/media/adTOoShPyVuIa4WTGK/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
-                        "details": [
-                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
-                        ]
-                    },
-                    {
-                        "name": "Sudden Strike",
-                        "shortDesc": "Damage dealt by Smash Wave, Final Charge, Final Toss, Rolling Spin, Judgment Draw, and Final Blow: +60% points",
-                        "maxLevel": 30,
-                        "icons": ["/class-icons/heroes/aran/sudden-strike.png"],
-                        "type": "Passive",
-                        "desc": "Increases %p Damage of <span data-tooltip='Smash Wave (1st Job)'><img src='/class-icons/heroes/aran/smash-wave.png' alt='Skill Smash Wave'/></span>, <span data-tooltip='Final Charge (2nd Job)'><img src='/class-icons/heroes/aran/final-charge.png' alt='Skill Final Charge'/></span>, <span data-tooltip='Final Toss (2nd Job)'><img src='/class-icons/heroes/aran/final-toss.png' alt='Skill Final Toss'/></span>, <span data-tooltip='Rolling Spin (2nd Job)'><img src='/class-icons/heroes/aran/rolling-spin.png' alt='Skill Rolling Spin'/></span>, <span data-tooltip='Final Blow (3rd Job)'><img src='/class-icons/heroes/aran/final-blow.png' alt='Skill Final Blow'/></span>, and <span data-tooltip='Judgment Draw (3rd Job)'><img src='/class-icons/heroes/aran/judgment-draw.png' alt='Skill Judgment Draw'/></span>"
-                    },
-                    {
-                        "name": "Command Mastery II",
-                        "shortDesc": "Skill damage increases by 20% points when the skill is triggered with a command.",
-                        "maxLevel": 15,
-                        "icons": ["/class-icons/heroes/aran/command-mastery-ii.png", "/class-icons/heroes/aran/command-mastery-i.png"],
-                        "type": "Upgraded Passive",
-                        "desc": "",
-                        "details": [
-                            "Increases %p Damage bonus provided for command triggered skills"
-                        ]
-                    },
-                    {
-                        "name": "Swing Studies II",
-                        "shortDesc": "Smash Swing Damage: +250% points\\n[Final Attack Skills] Creates an afterimage that attacks up to 6 enemies with 280% damage 5 times when you use other direct attack skills after Smash Swing. Increases Speed during swings.",
-                        "maxLevel": 5,
-                        "icons": ["/class-icons/heroes/aran/swing-studies-ii.png", "/class-icons/heroes/aran/swing-studies-i.png"],
-                        "type": "Upgraded Passive",
-                        "desc": "",
-                        "details": [
-                            "Increases %p Damage for <span data-tooltip='Smash Swing (1st Job)'><img src='/class-icons/heroes/aran/smash-swing.png' alt='Skill Smash Swing'/></span>",
-                            "Increases %Damage and number of hits of afterimage Final Attack"
-                        ]
-                    },
-                    {
                         "name": "Advanced Final Attack",
-                        "shortDesc": "Attack Power: +30 permanently.\\n[Final Attack Skills] Final Attack Chance: 60%, Damage: 85%, Times Activated: 3.",
+                        "shortDesc": "Attack Power: +30 permanently.\\n[Final Attack Skills] 60% chance to deal an additional 180% damage 3 times.",
                         "maxLevel": 30,
                         "icons": ["/class-icons/common/advanced-final-attack.png", "/class-icons/common/final-attack.png"],
                         "type": "Upgraded Passive",
@@ -602,47 +558,51 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "name": "Heavy Swing",
+                    "name": "Permafrost - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/heroes/aran/heavy-swing.png"],
+                    "icons": ["/class-icons/heroes/aran/permafrost-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 140
                 },
                 {
-                    "name": "Swing - Boss Rush",
-                    "shortDesc": "Boss Damage: +20%",
+                    "name": "Permafrost - Spread",
+                    "shortDesc": "Max Enemies Hit: +2",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/heroes/aran/swing-boss-rush.png"],
+                    "icons": ["/class-icons/heroes/aran/permafrost-spread.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
-                    "name": "Rebounding Swing",
-                    "shortDesc": "Damage: +20%",
+                    "name": "Permafrost - Persist",
+                    "shortDesc": "Duration: +10 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/heroes/aran/rebounding-swing.png"],
+                    "icons": ["/class-icons/heroes/aran/permafrost-persist.png"],
                     "type": "Passive",
-                    "desc": "",
-                    "details": [
-                        "Increases the %Damage of the additional attacks from <span data-tooltip='Swing Studies I (2nd Job)'><img src='/class-icons/heroes/aran/swing-studies-i.png' alt='Skill Swing Studies I'/></span>"
-                    ],
                     "reqLev": 180
                 },
                 {
-                    "name": "Storming Terror",
-                    "shortDesc": "Max Enemies Hit: +3",
+                    "name": "Finisher - Reinforce",
+                    "shortDesc": "Damage: +30%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/heroes/aran/storming-terror.png"],
+                    "icons": ["/class-icons/heroes/aran/finisher-reinforce.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to both Finisher and Hyper Finisher skills"
+                    ],
                     "reqLev": 140
                 },
                 {
-                    "name": "Merciless Hunt",
-                    "shortDesc": "Damage: +30%",
+                    "name": "Finisher - Guardbreak",
+                    "shortDesc": "Enemy DEF Ignored: +20%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/heroes/aran/merciless-hunt.png"],
+                    "icons": ["/class-icons/heroes/aran/finisher-guardbreak.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to both Finisher and Hyper Finisher skills"
+                    ],
                     "reqLev": 165
                 },
                 {
@@ -659,6 +619,10 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/aran/beyonder-blade.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <span data-tooltip='Beyond Blade (2nd Job)'><img src='/class-icons/heroes/aran/beyond-blade-3.png' alt='Skill Beyond Blade'/></span> and <span data-tooltip='Final Beyond Blade - White Tiger (5th Job)'><img src='/class-icons/heroes/aran/final-beyond-blade-white-tiger.png' alt='Skill Final Beyond Blade - White Tiger'/></span>"
+                    ],
                     "reqLev": 150
                 },
                 {
@@ -667,6 +631,10 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/aran/beyond-blade-barrage.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <span data-tooltip='Beyond Blade (2nd Job)'><img src='/class-icons/heroes/aran/beyond-blade-3.png' alt='Skill Beyond Blade'/></span> and <span data-tooltip='Final Beyond Blade - White Tiger (5th Job)'><img src='/class-icons/heroes/aran/final-beyond-blade-white-tiger.png' alt='Skill Final Beyond Blade - White Tiger'/></span>"
+                    ],
                     "reqLev": 165
                 },
                 {
@@ -675,42 +643,43 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/aran/piercing-beyond-blade.png"],
                     "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Applies to <span data-tooltip='Beyond Blade (2nd Job)'><img src='/class-icons/heroes/aran/beyond-blade-3.png' alt='Skill Beyond Blade'/></span> and <span data-tooltip='Final Beyond Blade - White Tiger (5th Job)'><img src='/class-icons/heroes/aran/final-beyond-blade-white-tiger.png' alt='Skill Final Beyond Blade - White Tiger'/></span>"
+                    ],
                     "reqLev": 190
                 }
             ],
             "hyperActive": [
                 {
-                    "name": "Adrenaline Burst",
-                    "shortDesc": "MP Cost: 500, Cooldown: 180 sec",
+                    "name": "Maha's Blessing",
+                    "shortDesc": "MP Cost: 100, Invincibility Duration: 2 sec\\nCooldown: 60 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/heroes/aran/adrenaline-burst.png"],
+                    "icons": ["/class-icons/heroes/aran/mahas-blessing.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHl4ZmFqaTFhenk2dzk0NWYwc2VvNmh1MGY0YzB6NHgwaG8zNmhrYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WqVE7ylIELe5HEp4PW/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Instantly activates <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span>",
-                    "details": [
-                        "Unaffected by cooldown resets"
-                    ],
                     "reqLev": 140
                 },
                 {
-                    "name": "Maha's Domain",
-                    "shortDesc": "MP Cost: 500, Invincibility Duration: 2 sec., Max Enemies Hit: 15, Damage: 800%, Number of Attacks: 5. Deals 3 attacks of 500% damage each to enemies in range for 8 sec. Removes some Abnormal Statuses from party members and restores HP/MP by 20% every second\\nCooldown: 90 sec",
+                    "name": "Hyper Finisher - Last Stand",
+                    "shortDesc": "MP Cost: 500, attack up to 3 times by tapping the skill key\\nHit 1 - Max Enemies Hit: 12, Damage: 1600%, Number of Attacks: 10, Chase Cuts: 5\\nHit 2 - Max Enemies Hit: 12, Damage: 1600%, Number of Attacks: 10, Chase Cuts: 5\\nHit 3 - Max Enemies Hit: 15, Damage: 2800%, Number of Attacks: 13, Chase Cuts: 7\\nCooldown: 30 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/heroes/aran/mahas-domain.png"],
-                    "animations": ["https://media1.giphy.com/media/SuwtmEp1VkjbMG2OBP/giphy.gif"],
-                    "type": "Attack / Buff Zone",
-                    "desc": "Summons a giant polearm create a zone which restores %Max HP/MP and remove debuffs of party members every second",
+                    "icons": ["/class-icons/heroes/aran/last-stand.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXRxOGs5YzFqMm01OTBsamhubjFnM21kZGRia3l2dmxxam0xMHo5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hqnMtk7LJPAMmUriqc/giphy.gif"],
+                    "type": "Attack",
+                    "desc": "Swing forward dealing a devastating attack",
                     "details": [
-                        "Enemies within the zone are also periodically damaged",
-                        "Upon use, you are briefly invincible"
+                        "Can be used three times in a row",
+                        "Can only be used one-time after activating <span data-tooltip='Adrenaline Overload (4th Job)'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span>"
                     ],
                     "reqLev": 160
                 },
                 {
                     "name": "Heroic Memories",
-                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to hero classes in the party\\nCooldown: 120 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/aran/heroic-memories.png"],
-                    "animations": ["https://media3.giphy.com/media/k2zTy2N3AYAhLYR7ZO/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXhzeDU3MndpZWI2czVtNTBmaTk5NDZreW8xbmgzem1seW1zYTFvbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3dgTwITwNh07colZFb/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
                 }
@@ -720,56 +689,59 @@
             "fifthCommon": ["freudsWisdom","goddessBlessing", "weaponAura", "impenetrableSkin"],
             "fifthMain": [
                 {
-                    "name": "Maha's Fury",
-                    "shortDesc": "MP Cost: 1000, instantly increases combo to 160, Maha empowers you for 40 sec, Attack Power: +35%\\nBlizzard Damage: 990% every 3 sec, Max Enemies Hit: 10, Number of Attacks: 5\\nCooldown: 90 sec ",
-                    "icons": ["/class-icons/heroes/aran/mahas-fury.png"],
-                    "animations": ["https://media3.giphy.com/media/OW0uXIKlOqOeLyltwM/giphy.gif"],
-                    "type": "Buff Attack",
-                    "desc": "Equips Maha which will instantly increase combo to 160 and grants %Attack Power",
+                    "name": "Finisher - Adrenaline Surge",
+                    "shortDesc": "MP Cost: 1000, giant blizzard lasts 6 seconds\\nAdrenaline Rush State: Max Enemies Hit: 12, Damage: 1320%, Number of Continous Attacks: 14\\nAdrenal Awakening State: Max Enemies Hit: 12, Damage: 1430%, Number of Continous Attacks: 14\\nCooldown: 30 sec\\n[Passive Effect: Adrenal Awakening duration: +5 seconds]",
+                    "icons": ["/class-icons/heroes/aran/adrenaline-surge.png", "/class-icons/heroes/aran/adrenaline-surge-2.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHFueDNpZDcxOTFyOXU5bHM5YWsyY2Q0ZmphdG1wOXJjODg0M3lzbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yU6IwfGrzgEaLYptl2/giphy.gif", "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzY5NDMxbDVvdWphaGcwYjlxbXdqejR6MWZlcmlyNXNjOXJiZjhtdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VPthBfBDhh05PXqoKk/giphy.gif"],
+                    "type": "Summon",
+                    "desc": "Summon a polearm that continously damages enemies within the zone",
                     "details": [
-                        "While active, periocially, a blizzard appears around you damaging nearby enemies"
+                        "<strong>[Command]</strong> ↑ + ↑ + Attack",
+                        "<strong>[Passive]</strong>: Permanently increases the duration of <span data-tooltip='Adrenaline Overload (4th Job)'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span>",
+                        "Can only be used one-time after activating <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> or <span data-tooltip='Adrenaline Overload (4th Job)'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span><ul><li>Attack deals increased damage when used during <span data-tooltip='Adrenaline Overload (4th Job)'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span></li></ul>",
+                        "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Maha's Carnage",
-                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 1320%, Number of Attacks: 15, Chase Cut Activation Count: 2, Boss Damage: +20%\\nCooldown: 20 sec, reduced by 50% when Maha's Fury is activated.",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 1210%, Number of Attacks: 12, Chase Cut Activation Count: 4, Boss Damage: +20%\\nCooldown: 20 sec\\nCooldown reduced by 50% when Adrenaline Rush and Adrenal Awakening are not active.",
                     "icons": ["/class-icons/heroes/aran/mahas-carnage.png"],
-                    "animations": ["https://media3.giphy.com/media/YBrs9Aw1wOJr4HByWo/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGplNXduYzI5bTc1OXN1NmhkeHpvcHAwN2trbnhvaHdwNjVuNmkweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pQcLPgiKQPuvjOGbCx/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Swing Maha and slam it into the ground leaving a trail of destruction",
+                    "desc": "Smash Maha into the ground",
                     "details": [
-                        "<strong><img src='/class-icons/heroes/aran/combo-ability.png' alt='Skill Combo Ability'/> [Command]:</strong> Down, Down + Attack Key<ul><li>Command version prevents knockback</li></ul>",
-                        "Has increased %Boss Damage",
-                        "Cooldown is reduced by half if <span data-tooltip='Maha&#39;s Fury (Hyper Skill)'><img src='/class-icons/heroes/aran/mahas-fury.png' alt='Skill Maha's Fury'/></span> is active",
+                        "<strong>[Command]</strong> ↓ + ↓ + Attack",
+                        "Attack has increased %Boss Damage and grants knockback immunity (Super Knockback Resistance)",
+                        "Cooldown is reduced by half when <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span> or <span data-tooltip='Adrenaline Overload (4th Job)'><img src='/class-icons/heroes/aran/adrenaline-overload.png' alt='Skill Adrenaline Overload'/></span> is not active",
                         "Unaffected by Damage Reduction and Damage Reflect"
                     ]
                 },
                 {
-                    "name": "Fenrir Crash",
-                    "shortDesc": "MP Cost: 200, Damage: 735%, Number of Attacks: 6, Max Enemies Hit: 10\\nBonus Critical Rate: 100%, Additional Ignore Defense: 50%\\nWhile Adrenaline Rush is active, Max Enemies Hit: 10, Number of Attacks: 6, Iceberg Damage: 650%\\nCan be used after Beyond Blade 3rd Hit.",
-                    "icons": ["/class-icons/heroes/aran/fenrir-crash.png"],
-                    "animations": ["https://media0.giphy.com/media/WXvpblIhTQ9bAtIsbj/giphy.gif"],
-                    "type": "Passive Attack",
-                    "desc": "After the 3rd attack of <span data-tooltip='Beyond Blade (4th Job)'><img src='/class-icons/heroes/aran/beyond-blade.png' alt='Skill Beyond Blade'/></span>, Fenrir crashes down on the ground, damaging nearby enemies",
+                    "name": "Final Beyond Blade - White Tiger",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 10, Damage: 815%, Number of Attacks: 7\\nCritical Rate: +100%, Ignore Defense: +50%",
+                    "icons": ["/class-icons/heroes/aran/final-beyond-blade-white-tiger.png", "/class-icons/heroes/aran/beyond-blade-3.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJqNWVlYjVjNXJleTNiYnlpNjR5YTZsZjN4Y2VzMXE4Njc2YThseCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QdUCErpaIEtvlpBjki/giphy.gif"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
                     "details": [
-                        "Used automatically after <span data-tooltip='Beyond Blade (4th Job)'><img src='/class-icons/heroes/aran/beyond-blade.png' alt='Skill Beyond Blade'/></span> 3rd hit",
-                        "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
-                        "While casting, prevents you from being knocked back at all (Super Knockback Resistance)",
-                        "During <span data-tooltip='Adrenaline Rush (3rd Job)'><img src='/class-icons/heroes/aran/adrenaline-rush.png' alt='Skill Adrenaline Rush'/></span>, an iceberg will appear dealing damage to nearby enemies"
+                        "Adds an additional attack by pressing the Skill Key four times",
+                        "Attack is a guaranteed Critical Hit and has increase %Ignore DEF",
+                        "Attack grants knockback immunity while casting (Super Knockback Resistance)"
                     ]
                 },
                 {
                     "name": "Blizzard Tempest",
-                    "shortDesc": "MP Cost: 1200, Max Enemies Hit: 12, Damage: 1760%, Number of Attacks: 8, Stun Duration: 10. \\nStun Duration can increase up to 100% depending on the damage dealt with this attack. For 20 sec afterwards, activates an aura that periodically casts the Dire Wolf's curse on up to 10 enemies. Using the skill again, while its effect is active, will cancel that effect.\\nDire Wolf's Curse: Duration: 10 sec, Upon a successful hit, attacks up to 15 enemies under the curse with ice chunks, dealing 1045% damage 4 time(s). The curse can stack up to 6 time(s), and the ice chunks increase by 1 in proportion to the accumulated curse.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1200, using the skill increases combos to 200 and afflicts up to 10 enemies. Activates an aura for 30 sec after the attack, which periodically afflicts up to 5 enemies with the Dire Wolf's Curse.\\nReusing the skill ends the it immediately\\nDire Wolf's Curse: lasts 15 seconds, hitting afflicted enemies with direct skill attacks increases the duration up to 30 seconds, and ice shards appear for additional attacks. The curse can be stacked up to 6 times, increasing the ice shard attack count proportionally 1 times.\\nIce Chunks: Max Enemies Hit: 15, Damage: 1320%, Number of Attacks: 4, Cooldown: 0.4 sec\\nCooldown: 90 sec",
                     "icons": ["/class-icons/heroes/aran/blizzard-tempest.png"],
-                    "animations": ["https://media1.giphy.com/media/621p2OYc7RzrUNjvjX/giphy.gif"],
-                    "type": "Bind Attack",
-                    "desc": "Creates a blizzard that binds nearby enemies and debuffs them",
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGl5ODU4cjdzb251a2ViN3JhdTBvb2Jka3VxY2Fmenp4ejNsdW8xMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HpcrzHbF9l2UoRZQtO/giphy.gif"],
+                    "type": "Buff Attack",
+                    "desc": "When used, grants 200 Combo stacks and an aura that debuffs enemies with Dire Wolf's Curse",
                     "details": [
-                        "After casting, you gain an aura that inflicts the same debuff<ul><li>Pressing the Skill Key again will cancel the aura</li></ul>",
-                        "When hit by any attack except <span data-tooltip='Finisher - Storm of Fear (4th Job)'><img src='/class-icons/heroes/aran/storm-of-fear.png' alt='Skill Finisher - Storm of Fear'/></span>, an icicle strikes down on that enemy and damages nearby enemy<ul><li>For each attack, the debuff stacks (up to 6 times) which will increase the number of icicles created</li><li>Icicles ignore by Damage Reflect</li></ul>",
+                        "<strong>[Dire Wolf's Curse]</strong>: Successful direct attack skills deal an additional strike that damages nearby enemy<ul><li>Successful attacks also increase the duration of the debuff and grants a stack (up to 6 times) that increases the number of ice shards created",
+                        "Aura debuff prioritizes enemies with the highest Max HP first",
+                        "Pressing the Skill Key again will end the skill early",
                         "Right-clicking the skill will toggle ON/OFF the ice chunk effect",
-                        "Pressing the Attack Key and right-clicking the skill will toggle ON/OFF the bind effect"
+                        "Ignores Damage Reflect"
                     ]
                 }
             ]
@@ -780,7 +752,7 @@
                     "name": "1st Mastery Node",
                     "shortDesc": "",
                     "icons": ["/class-icons/heroes/aran/hexa-beyond-blade.png"],
-                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmNhMHgzZjY5aHNqNmtwc2g1NGRkZnNmemw5YnF5c2R6ZGNkNXduaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bmnypb276O6QfEo0Kc/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2hubzJyazBkcXRvMmZ3cHFxNjk0MzVrenEyY2lscGFucG1xMDI4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j1RQnnWPOWJKuHn7Zi/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
@@ -789,8 +761,8 @@
                 },
                 {
                     "name": "HEXA Beyond Blade",
-                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 7, Damage: 525%, Number of Attacks: 5\\nDeals up to 3 additional hits with consecutive key presses.\\n2 Hits: Attack 5 times for 540% damage\\n3 Hits: Attack 5 times for 555% damage.\\nBonus Critical Rate: 100%, Ignore Monster DEF: 30%, Damage Against Normal Enemies: +8%\\nDamage: +35%p when used by linking with Final Blow.\\nMaha appears every 4 sec to deal 600% damage up to 3 enemies 6 times\\nMaha's attack cooldown decreases to 2 sec while Adrenaline Rush is active.",
-                    "icons": ["/class-icons/heroes/aran/hexa-beyond-blade.png", "/class-icons/heroes/aran/beyond-blade.png"],
+                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 7\\nPress the skill key to attack consecutively up to three more times.\\nBeyond Blade - Black Tortoise: Deal 675% damage 5 times.\\nBeyond Blade - Vermillion Bird: Deal 675% damage 5 times.\\nBeyond Blade - Azure Dragon: Deal 675% damage 5 times.\\nCritical Rate: +100%, Ignore Defense: 30%\\nMaha appears every 4 seconds to deal an additional 630% damage 6 times to a maximum of 3 enemies.",
+                    "icons": ["/class-icons/heroes/aran/hexa-beyond-blade.png", "/class-icons/heroes/aran/beyond-blade-3.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -801,7 +773,7 @@
                     "name": "2nd Mastery Node",
                     "shortDesc": "",
                     "icons": ["/class-icons/heroes/aran/hexa-hunters-prey.png"],
-                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlsbHVkdnZieDBnNDM3dDc5N2hiNTlsMGhobG5vdndsMHludjlldiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Bxz61HkxsRv6DHdmcg/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXZ3OXliMWIxb2MyYTJvcWRrcm1saGFlMHM4Zm5qNzE4cHBrMHZmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PqZOfiqCJvLOGH9zir/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
@@ -810,7 +782,7 @@
                 },
                 {
                     "name": "HEXA Finisher - Hunter's Prey",
-                    "shortDesc": "MP Cost: 230, Polearm Shockwave Damage: 1250%, Max Enemies Hit: 12, Number of Attacks: 15, Shockwaves: 6\\nMax Skill Holding Duration: 3.5 sec, Max Enemies Hit: 12, Damage: 580%, Number of Attacks: 10, Max Number of Skill Holding Attacks: 20\\nInvincibility Duration After Release: 2 sec\\nCombo for Polearm Attack during Adrenaline Surge: x3\\n[Passive Effect: HEXA Beyond Blade Damage: +135%p]",
+                    "shortDesc": "MP Cost: 250, can hold down the key for up to 6 seconds, and become invincible for 2 seconds after releasing the key.\\nDamage: 1530%, Number of Attacks: 15, Chase Cut Activation Count: 10, Max Enemies Hit: 10\\nCooldown: 30 sec\\n[Passive Effect: HEXA Beyond Blade Damage: +135%p]",
                     "icons": ["/class-icons/heroes/aran/hexa-hunters-prey.png", "/class-icons/heroes/aran/hunters-prey.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -821,10 +793,10 @@
             ],
             "originSkill": [
                 {
-                    "name": "Adrenaline Surge",
-                    "shortDesc": "MP Cost: 1500, Awakened Adrenaline State Duration: 20 sec, Cooldown: 360 sec\\nHowling Swing: MP Cost: 35, Max enemies Hit: 10, Number of Attacks: 10\\n1st hit - Damage: 1200%\\n2nd hit - Damage: 1320%\\n3rd hit - Damage: 1440%\\n4th hit - Damage: 1680%\\nWhen in Adrenaline Surge, activate a shockwave that deals 600% damage up to 8 enemies 10 times, shockwave activates Swing Studies afterimage.\\nUsing the skill again ends awakened Adrenaline and activates 29 final blows that deal 2057% damage to up to 15 enemies 14 times. During Adrenaline Surge, Number of Final Blows: 1 per 50 accumulated combos. Invincible and ignores status effects during casting of final blow.",
-                    "icons": ["/class-icons/heroes/aran/adrenaline-surge-1.png"],
-                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2x3a3cwd2QyeWtpMmJlY3h3MzcxOXp1cmlpNWp6cHR4dmppdzFvNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hERhoSOOyb9G79POJ9/giphy.gif"],
+                    "name": "Endgame",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nUnleash all of Maha's power, Max Enemies Hit: 15, Damage: 1500%, Number of Attacks: 14, Shockwaves: 50\\nAfterwards, Max Enemies Hit: 15, Damage: 1620%, Number of Attacks: 15, Chase Cuts: 30.\\nActivates Adrenal Awakening for 15 seconds upon using the skill, or Adrenaline Rush if Adrenal Awakening is on cooldown.\\nAdrenal Awakening and Adrenaline Rush duration increases b y1 seconds for every 100 combos accumulated before using Endgame.\\nThe duration of Adrenaline Rush and Adrenal Awakening changes to 5 seconds if Endgame is used while Adrenaline Rush or Adrenal Awakening are active.\\nCooldown: 360 sec",
+                    "icons": ["/class-icons/heroes/aran/endgame.png"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanR4emRza3Q5cWp0bHk4ZWVudDVtc3l4ZzdwZ2JxenprdHlvYXUwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1hWzNRr6dvHPiV1DuR/giphy.gif"],
                     "type": "Bind Attack",
                     "desc": ""
                 }
@@ -834,49 +806,49 @@
             {
                 "name": "Smash Swing - 1st Job",
                 "icons": ["/class-icons/heroes/aran/smash-swing.png"],
-                "animations": ["https://media.giphy.com/media/XEgFwTDPrOXAfKbusH/giphy.gif"]
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWZoODZydGJxa3lybzJrNG4ydzkyOG4xajdxOHN1eTRtc3ZjMnBsaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QCC4pYng6GLt0WBF29/giphy.gif"]
             },
             {
-                "name": "Adrenaline Rush - 3rd Job",
-                "icons": ["/class-icons/heroes/aran/adrenaline-rush.png"],
-                "animations": ["https://media0.giphy.com/media/l8eubWVB69lPOIAjoP/giphy.gif"]
-            },
-            {
-                "name": "Beyond Blade - 4th Job",
-                "icons": ["/class-icons/heroes/aran/beyond-blade.png"],
-                "animations": ["https://media.giphy.com/media/L1WHFDUsN8ZobX9Bu9/giphy.gif"]
-            },
-            {
-                "name": "Finisher - Storm of Fear - 4th Job",
-                "icons": ["/class-icons/heroes/aran/storm-of-fear.png"],
-                "animations": ["https://media4.giphy.com/media/JVPf2T3tjFuFCUi1Mq/giphy.gif"]
+                "name": "Beyond Blade Mastery II - 4th Job",
+                "icons": ["/class-icons/heroes/aran/beyond-blade-3.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWV2bGJkc3JwdjNkOTcxZGJrcHBhNjdkYXNlM2RpN3NtcmJxaThjYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TyFY8VAwf2tqAwG95p/giphy.gif"]
             },
             {
                 "name": "Finisher - Hunter's Prey - 4th Job",
                 "icons": ["/class-icons/heroes/aran/hunters-prey.png"],
-                "animations": ["https://media3.giphy.com/media/crCUwG8CPqzLaAurpc/giphy.gif"]
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHB3eWxocGFvZzhlNXdsaXJyYnBteTZpbTJqN2IzYWx5MWY1MWd0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/edNzWcs8amncsFiIS0/giphy.gif"]
             },
             {
-                "name": "Maha's Domain - Hyper Skill",
-                "icons": ["/class-icons/heroes/aran/mahas-domain.png"],
-                "animations": ["https://media1.giphy.com/media/SuwtmEp1VkjbMG2OBP/giphy.gif"]
+                "name": "Hyper Finisher - Last Stand - Hyper Skill",
+                "icons": ["/class-icons/heroes/aran/last-stand.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXRxOGs5YzFqMm01OTBsamhubjFnM21kZGRia3l2dmxxam0xMHo5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hqnMtk7LJPAMmUriqc/giphy.gif"]
+            },
+            {
+                "name": "Finisher - Adrenaline Surge - 5th Job",
+                "icons": ["/class-icons/heroes/aran/adrenaline-surge.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHFueDNpZDcxOTFyOXU5bHM5YWsyY2Q0ZmphdG1wOXJjODg0M3lzbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yU6IwfGrzgEaLYptl2/giphy.gif"]
             },
             {
                 "name": "Maha's Carnage - 5th Job",
                 "icons": ["/class-icons/heroes/aran/mahas-carnage.png"],
-                "animations": ["https://media3.giphy.com/media/YBrs9Aw1wOJr4HByWo/giphy.gif"]
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGplNXduYzI5bTc1OXN1NmhkeHpvcHAwN2trbnhvaHdwNjVuNmkweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pQcLPgiKQPuvjOGbCx/giphy.gif"]
+            },
+            {
+                "name": "Blizzard Tempest - 5th Job",
+                "icons": ["/class-icons/heroes/aran/blizzard-tempest.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGl5ODU4cjdzb251a2ViN3JhdTBvb2Jka3VxY2Fmenp4ejNsdW8xMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HpcrzHbF9l2UoRZQtO/giphy.gif"]
             },
             {
                 "name": "HEXA Beyond Blade - 6th Job",
                 "icons": ["/class-icons/heroes/aran/hexa-beyond-blade.png"],
-                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmNhMHgzZjY5aHNqNmtwc2g1NGRkZnNmemw5YnF5c2R6ZGNkNXduaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bmnypb276O6QfEo0Kc/giphy.gif"]
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2hubzJyazBkcXRvMmZ3cHFxNjk0MzVrenEyY2lscGFucG1xMDI4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j1RQnnWPOWJKuHn7Zi/giphy.gif"]
             },
             {
-                "name": "Adrenaline Surge - 6th Job",
-                "icons": ["/class-icons/heroes/aran/adrenaline-surge-1.png"],
-                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2x3a3cwd2QyeWtpMmJlY3h3MzcxOXp1cmlpNWp6cHR4dmppdzFvNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hERhoSOOyb9G79POJ9/giphy.gif"]
+                "name": "Endgame - 6th Job",
+                "icons": ["/class-icons/heroes/aran/endgame.png"],
+                "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanR4emRza3Q5cWp0bHk4ZWVudDVtc3l4ZzdwZ2JxenprdHlvYXUwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1hWzNRr6dvHPiV1DuR/giphy.gif"]
             }
         ]
     },
-    "meta": "Aran is a STR warrior class part of the Heroes class group. Aran is a swift heavy attacker that utilizes a special Combo mechanic. Upon reaching max combo, Aran will go into an Adrenaline Rush where you gain incredible powers. The class naturally deals heavy damage and is suitable for beginners"
+    "meta": "Aran is STR warrior class part of the Heroes class group. Aran utilize Polearms as their primary weapons. For their secondary weapon, Aran can equip Masses"
 }
