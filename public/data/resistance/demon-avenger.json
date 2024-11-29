@@ -16,19 +16,6 @@
                 "abilities": ["Attack Speed +1", "Chance to Skip Cooldown +10%", "Boss Damage +10%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
-            [
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Demonic Voracity (1st Job)'><img src='/class-icons/resistance/demon-avenger/demonic-veracity.png' alt='Skill Demonic Veracity'/></span> +15%] [<span data-tooltip='Abyssal Connection (2nd Job)'><img src='/class-icons/resistance/demon-avenger/abyssal-connection.png' alt='Skill Abyssal Connection'/></span> +20%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Advanced Desperado Mastery (4th Job)'><img src='/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png' alt='Skill Advanced Desperado Mastery'/></span> +8%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Overwhelming Power (4th Job)'><img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/></span> +30%] [<span data-tooltip='Wild Rage (Link Skill)'><img src='/class-icons/link-skills/wild-rage.png' alt='Skill Wild Rage'/></span> up to +15%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Overload Release (1st Job)'><img src='/class-icons/resistance/demon-avenger/overload-release.png' alt='Skill Overload Release'/></span> +25%] [<span data-tooltip='Overwhelming Power (4th Job)'><img src='/class-icons/resistance/demon-avenger/overwhelming-power.png' alt='Skill Overwhelming Power'/></span> +15%] [<span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span> up to +20%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Demonic Blood (Beginner Skill)'><img src='/class-icons/resistance/demonic-blood.png' alt='Skill Demonic Blood'/></span> +100%]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 7",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Defense Expertise (4th Job)'><img src='/class-icons/resistance/demon-avenger/defense-expertise.png' alt='Skill Defense Expertise'/></span> +30%] [<span data-tooltip='Nether Slice (4th Job)'><img src='/class-icons/resistance/demon-avenger/nether-slice.png' alt='Skill Nether Slice'/></span> +30% from debuff]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Ward Evil (3rd Job)'><img src='/class-icons/resistance/demon-avenger/ward-evil.png' alt='Skill Ward Evil'/></span> 50]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -86,13 +73,13 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Overload Release (1st Job)'><img src='/class-icons/resistance/demon-avenger/overload-release.png' alt='Skill Overload Release'/></span>[90s]</div> <div><span data-tooltip='Ward Evil (3rd Job)'><img src='/class-icons/resistance/demon-avenger/ward-evil.png' alt='Skill Ward Evil'/></span>[180s]</div> <div><span data-tooltip='Diabolic Recovery (3rd Job)'><img src='/class-icons/resistance/demon-avenger/diabolic-recovery.png' alt='Skill Diabolic Recovery'/></span>[180s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/resistance/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Overload Release (1st Job)'><img src='/class-icons/resistance/demon-avenger/overload-release.png' alt='Skill Overload Release'/></span>[90s]</div> <div><span data-tooltip='Ward Evil (3rd Job)'><img src='/class-icons/resistance/demon-avenger/ward-evil.png' alt='Skill Ward Evil'/></span>[180s]</div> <div><span data-tooltip='Diabolic Recovery (3rd Job)'><img src='/class-icons/resistance/demon-avenger/diabolic-recovery.png' alt='Skill Diabolic Recovery'/></span>[180s]</div>",
             "toggles": "<span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span>",
             "summons": "<div><span data-tooltip='Bat Swarm (2nd Job)'><img src='/class-icons/resistance/demon-avenger/bat-swarm.png' alt='Skill Bat Swarm'/></span>[40 Attacks / Distance Based]</div> <div><span data-tooltip='Nether Shield (4th Job)'><img src='/class-icons/resistance/demon-avenger/nether-shield.png' alt='Skill Nether Shield'/></span>[8 Attacks](6s cd)</div> <div><span data-tooltip='Dimensional Sword (5th Job)'><img src='/class-icons/resistance/demon-avenger/dimensional-sword.png' alt='Skill Dimensional Sword'/></span>[40s, 1/5 duration if reactivated](120s cd)</div> <div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[48s](120s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Forbidden Contract (Hyper Skill)'><img src='/class-icons/resistance/demon-avenger/forbidden-contract.png' alt='Skill Forbidden Contract'/></span>[30s](75s cd)</div> <div><span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span>[60s](120s cd)</div> <div><span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>[15s](120s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess's Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Forbidden Contract (Hyper Skill)'><img src='/class-icons/resistance/demon-avenger/forbidden-contract.png' alt='Skill Forbidden Contract'/></span>[30s](75s cd)</div> <div><span data-tooltip='Demonic Fortitude (Hyper Skill)'><img src='/class-icons/resistance/demonic-fortitude.png' alt='Skill Demonic Fortitude'/></span>[60s](120s cd)</div> <div><span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>[15s](120s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Blood Prison (4th Job)'><img src='/class-icons/resistance/demon-avenger/blood-prison.png' alt='Skill Blood Prison'/></span>[10s](120s cd)</div> <div><span data-tooltip='Requiem (6th Job)'><img src='/class-icons/resistance/demon-avenger/requiem.png' alt='Skill Requiem'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Revenant (5th Job)'><img src='/class-icons/resistance/demon-avenger/revenant.png' alt='Skill Revenant'/></span>[15s](120s cd, HP cannot go below 1)</div> <div><span data-tooltip='Requiem (6th Job)'><img src='/class-icons/resistance/demon-avenger/requiem.png' alt='Skill Requiem'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span>[While active](-30% | 1s cd)</div> <div><span data-tooltip='Demonic Blast (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-blast.png' alt='Skill Demonic Blast'/></span>[While casting](-30% | 12s cd)</div> <div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[6s](-25% | 120s cd)</div> <div><span data-tooltip='Other World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>[40s, triggers once](-75% | 120s cd)</div>"
+            "damageReduce": "<div><span data-tooltip='Demonic Frenzy (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-frenzy.png' alt='Skill Demonic Frenzy'/></span>[While active](-30% | 1s cd)</div> <div><span data-tooltip='Demonic Blast (5th Job)'><img src='/class-icons/resistance/demon-avenger/demonic-blast.png' alt='Skill Demonic Blast'/></span>[While casting](-30% | 12s cd)</div> <div><span data-tooltip='Defender of the Demon (5th Job)'><img src='/class-icons/5th-job/defender-of-the-demon.png' alt='Skill Defender of the Demon'/></span>[6s](-25% | 120s cd)</div> <div><span data-tooltip='Otherworld Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/otherworld-goddess-blessing.png' alt='Skill Otherworld Goddess&#39;s Blessing'/></span>[40s, triggers once](-75% | 120s cd)</div>"
         },
         "linkSkill": {
             "id": 80000050,
@@ -219,17 +206,16 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "Increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/16/Love_Lost,_but_not_Forgotten' target='_blank' rel='noopener noreferrer'>'Love Lost, but not Forgotten'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -450,11 +436,15 @@
                 },
                 {
                     "name": "Maple Warrior",
-                    "shortDesc": "HP Cost: 1000, Duration: 900 sec, All Stats assigned APs: +15%\\n[Passive - Max HP: +15%]",
+                    "shortDesc": "HP Cost: 1000, Goddess of Tynerum appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%, Max HP: +15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/maple-warrior.png"],
                     "animations": ["https://media3.giphy.com/media/K9RIwd9SI6DugjHTd9/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "The Demon's Will",

@@ -73,7 +73,7 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Ancient Warding (4th Job)'><img src='/class-icons/heroes/mercedes/ancient-warding.png' alt='Skill Ancient Warding'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><span data-tooltip='Elvish Blessing (Hyper Skill)'><img src='/class-icons/heroes/mercedes/elvish-blessing.png' alt='Skill Elvish Blessing'/></span>[120s]</div>",
+            "active": "<div><span data-tooltip='Ancient Warding (4th Job)'><img src='/class-icons/heroes/mercedes/ancient-warding.png' alt='Skill Ancient Warding'/></span>[200s]</div> <div><span data-tooltip='Elvish Blessing (Hyper Skill)'><img src='/class-icons/heroes/mercedes/elvish-blessing.png' alt='Skill Elvish Blessing'/></span>[120s]</div>",
             "summons": "<div><span data-tooltip='Elemental Knights (3rd Job)'><img src='/class-icons/heroes/mercedes/elemental-knights.png' alt='Skill Elemental Knights'/></span>[210s](Toggle | 120s cd)</div> <div><span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)</div>",
             "buffCd": "<div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/mercedes/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Spirit of Elluel (5th Job)'><img src='/class-icons/heroes/mercedes/spirit-of-elluel.png' alt='Skill Spirit of Elluel'/></span>[90s](180s cd)</div> <div><span data-tooltip='Royal Knights (5th Job)'><img src='/class-icons/heroes/mercedes/royal-knights.png' alt='Skill Royal Knights'/></span>[30s](180s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div> <div><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>[30s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Unfading Glory (6th Job)'><img src='/class-icons/heroes/mercedes/unfading-glory.png' alt='Skill Unfading Glory'/></span>[10s](360s cd)</div>",
@@ -161,17 +161,16 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/8/The_Unfinished_Battle' target='_blank' rel='noopener noreferrer'>'The Unfinished Battle'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -325,7 +324,6 @@
                         "desc": "Sends out a rampage of unicorns that dash forward and debuffs enemies",
                         "details": [
                             "<strong>[Debuff]</strong>: Enemy takes increased %Damage",
-                            "Can be used while in the air",
                             "Using link skills (combos) will reduce the cooldown by 1 sec"
                         ]
                     },
@@ -525,11 +523,15 @@
                     },
                     {
                         "name": "Maple Warrior",
-                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/common/maple-warrior.png"],
                         "animations": ["https://media.giphy.com/media/xsgZjA1nWjldc5VcWJ/giphy.gif"],
-                        "type": "Party Buff"
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
                     },
                     {
                         "name": "Hero's Will",

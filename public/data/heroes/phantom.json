@@ -73,7 +73,7 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><strong>[Note]</strong>: Explorer buffs can also be stolen and used</div>",
+            "active": "None <div><strong>[Note]</strong>: Explorer buffs can also be stolen and used</div>",
             "buffCd": "<div><span data-tooltip='Final Feint (4th Job)'><img src='/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span>(1800s cd upon revive)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/phantom/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div>",
             "binds": "<div><span data-tooltip='Defying Fate (6th Job)'><img src='/class-icons/heroes/phantom/defying-fate.png' alt='Skill Defying Fate'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Final Feint (3rd Job)'><img src='/class-icons/heroes/phantom/final-feint.png' alt='Skill Final Feint'/></span>[4s](1800s cd revive)</div> <div><span data-tooltip='Vol D&#39;Ame (4th Job)'><img src='/class-icons/heroes/phantom/vol-dame.png' alt='Skill Vol D&#39;Ame'/></span>(120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s](240s cd)</div> <div><span data-tooltip='Luck of the Draw (5th Job)'><img src='/class-icons/heroes/phantom/luck-of-the-draw.png' alt='Skill Luck of the Draw'/></span>(180s cd)</div> <div><span data-tooltip='Phantom&#39;s Mark (5th Job)'><img src='/class-icons/heroes/phantom/phantoms-mark.png' alt='Skill Phantom's Mark'/></span>[2s](30s cd)</div> <div><span data-tooltip='Defying Fate (6th Job)'><img src='/class-icons/heroes/phantom/defying-fate.png' alt='Skill Defying Fate'/></span>(360s cd)</div> <div><strong>[Note]</strong>: Can steal Explorer iFrames</div>",
@@ -194,18 +194,17 @@
                     "desc": "When this skill is on Auto, <span data-tooltip='Judgment Draw (Beginner Skill)'><img src='/class-icons/heroes/phantom/judgment-draw.png' alt='Skill Judgment Draw'/><img src='/class-icons/heroes/phantom/judgment-draw-2.png' alt='Skill Judgment Draw (2)'/></span> will automatically be used when your Card Gauge is filled"
                 },
                 {
-                    "name": "Echo of Hero",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/9/The_Truth_About_Skaia' target='_blank' rel='noopener noreferrer'>'The Truth About Skaia'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -488,11 +487,15 @@
                     },
                     {
                         "name": "Maple Warrior",
-                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/common/maple-warrior.png"],
                         "animations": ["https://media.giphy.com/media/3Ys6wR497mKuFgsdJf/giphy.gif"],
-                        "type": "Party Buff"
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
                     },
                     {
                         "name": "Hero's Will",

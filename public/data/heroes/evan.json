@@ -83,7 +83,7 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/heroes/evan/elemental-decrease.png' alt='Skill Elemental Decrease'/></span>[180s]</div> <div><span data-tooltip='Blessing of the Onyx (4th Job)'><img src='/class-icons/heroes/evan/blessing-of-the-onyx.png' alt='Skill Blessing of the Onyx'/></span>[180s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><strong>[<span data-tooltip='Return! (2nd Job)'><img src='/class-icons/heroes/evan/return.png' alt='Skill Return!'/></span> Return]</strong> <span data-tooltip='Return Dive (3rd Job)'><img src='/class-icons/heroes/evan/return-dive.png'/></span>[60s]",
+            "active": "<div><span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/heroes/evan/elemental-decrease.png' alt='Skill Elemental Decrease'/></span>[180s]</div> <div><span data-tooltip='Blessing of the Onyx (4th Job)'><img src='/class-icons/heroes/evan/blessing-of-the-onyx.png' alt='Skill Blessing of the Onyx'/></span>[180s]</div> <div><strong>[<span data-tooltip='Return! (2nd Job)'><img src='/class-icons/heroes/evan/return.png' alt='Skill Return!'/></span> Return]</strong> <span data-tooltip='Return Dive (3rd Job)'><img src='/class-icons/heroes/evan/return-dive.png'/></span>[60s]",
             "toggles": "<span data-tooltip='Magic Guard (1st Job)'><img src='/class-icons/heroes/evan/magic-guard.png' alt='Skill Magic Guard'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
             "summons": "<div><img src='/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/>(Mir Fusion Skills)</div> <div><span data-tooltip='Summon Onyx Dragon (Hyper Skill)'><img src='/class-icons/heroes/evan/summon-onyx-dragon.png' alt='Skill Summon Onyx Dragon'/></span>[40s](80s cd)</div> <div><span data-tooltip='Elemental Radiance (5th Job)'><img src='/class-icons/heroes/evan/elemental-radiance.png' alt='Skill Elemental Radiance'/></span>[17s](180s cd)</div> <div><span data-tooltip='Spiral of Mana (5th Job)'><img src='/class-icons/heroes/evan/spiral-of-mana.png' alt='Skill Spiral of Mana'/></span>[7s](3.5s cd)</div>",
             "buffCd": "<div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/evan/heroic-memories.png' alt='Skill Heroic Memories'/></span>[60s](120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div>",
@@ -188,17 +188,16 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/7/Hero%27s_Succession' target='_blank' rel='noopener noreferrer'>'Hero's Succession'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -627,11 +626,15 @@
                     },
                     {
                         "name": "Maple Warrior",
-                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/common/maple-warrior.png"],
                         "animations": ["https://media.giphy.com/media/rGkfrBYDUAjjh78IpH/giphy.gif"],
-                        "type": "Party Buff"
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
                     },
                     {
                         "name": "Hero's Will",
@@ -879,7 +882,7 @@
                     "icons": ["/class-icons/heroes/evan/spiral-of-mana.png"],
                     "animations": ["https://media.giphy.com/media/Zc5KInBOXqB7w2hEHs/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Summon a magic circle that continously fires a barrage of magic forward",
+                    "desc": "Summon a magic circle that continuously fires a barrage of magic forward",
                     "details": [
                         "<strong>[Passive]</strong>: Grants flat Magic Attack",
                         "Upon using <span data-tooltip='Mana Burst I (1st Job)'><img src='/class-icons/heroes/evan/mana-burst-i.png' alt='Skill Mana Burst I'/></span> or <span data-tooltip='HEXA Mana Burst (6th Job)'><img src='/class-icons/heroes/evan/hexa-mana-burst.png' alt='Skill HEXA Mana Burst'/></span> while this skill is active, the number of hits per attack of the summon is briefly reduced",

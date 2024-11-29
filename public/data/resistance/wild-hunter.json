@@ -17,20 +17,6 @@
                 "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Chance to Skip Cooldown +10%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/resistance/wild-hunter/flurry.png' alt='Skill Flurry'/> Flurry buff, and buffs with long cooldowns",
-            [
-                "<strong>Attack</strong>: [<span data-tooltip='Call of the Wild (2nd Job)'><img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/></span> +10%] [<span data-tooltip='Feline Berserk (3rd Job)'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span> +20%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Nature&#39;s Wrath (1st Job)'><img src='/class-icons/resistance/wild-hunter/natures-wrath.png' alt='Skill Natures Wrath'/></span> +25%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +20%] [<span data-tooltip='Jaguar Link (3rd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/></span> up to +18%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> +8%] [<span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%] [<span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/resistance/wild-hunter/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +20%] [<span data-tooltip='Jaguar Link (3rd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-link.png' alt='Skill Jaguar Link'/></span> up to +12%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Crossbow Mastery (2nd Job)'><img src='/class-icons/resistance/wild-hunter/crossbow-mastery.png' alt='Skill Crossbow Mastery'/></span> +10%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Feline Berserk (3rd Job)'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span> +10%] [<span data-tooltip='Extended Magazine (4th Job)'><img src='/class-icons/resistance/wild-hunter/extended-magazine.png' alt='Skill Extended Magazine'/></span> +20%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Jaguar Mastery (2nd Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-mastery.png' alt='Skill Jaguar Mastery'/></span> +50%] [<span data-tooltip='Natural Force (4th Job)'><img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/></span> +50%] [<span data-tooltip='Jaguar Rider (1st Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/></span> +50% while mounted]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 7",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Wild Instinct (4th Job)'><img src='/class-icons/resistance/wild-hunter/wild-instinct.png' alt='Skill Wild Instinct'/></span> +30%]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Natural Force (4th Job)'><img src='/class-icons/resistance/wild-hunter/natural-force.png' alt='Skill Natural Force'/></span> 15] [<span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span> 30 while unmounted]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -88,10 +74,10 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Jaguar Rider (1st Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/></span>(Mount)</div> <div><span data-tooltip='Call of the Wild (2nd Job)'><img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/></span>[300s]</div> <div><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span>[300s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Jaguar Rider (1st Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-rider.png' alt='Skill Jaguar Rider'/></span>(Mount)</div> <div><span data-tooltip='Call of the Wild (2nd Job)'><img src='/class-icons/resistance/wild-hunter/call-of-the-wild.png' alt='Skill Call of the Wild'/></span>[300s]</div> <div><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span>[300s]</div>",
             "toggles": "<span data-tooltip='Backstep (3rd Job)'><img src='/class-icons/resistance/wild-hunter/backstep.png' alt='Skill Backstep'/></span>",
             "summons": "<div><span data-tooltip='Summon Jaguar (1st Job)'><img src='/class-icons/resistance/wild-hunter/summon-jaguar.png' alt='Skill Summon Jaguar'/></span>(Unmounted)</div> <div><span data-tooltip='Hunting Assistant Unit (3rd Job)'><img src='/class-icons/resistance/wild-hunter/hunting-assistant-unit.png' alt='Skill Hunting Assistant Unit'/></span>[60s](8s cd)</div> <div><span data-tooltip='Drill Salvo (4th Job)'><img src='/class-icons/resistance/wild-hunter/drill-salvo.png' alt='Skill Drill Salvo'/></span>[30s](30s cd)</div> <div><span data-tooltip='Jaguar Storm (5th Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-storm.png' alt='Skill Jaguar Storm'/></span>[40s](120s cd)</div> <div><span data-tooltip='Resistance Infantry (5th Job)'><img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/></span>[10s](25s cd)</div> <div><span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)</div>",
-            "buffCd": "<div><span data-tooltip='Silent Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/silent-rampage.png' alt='Skill Silent Rampage'/></span>[40s](120s cd)</div> <div><span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div> <div><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>[30s](120s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Silent Rampage (Hyper Skill)'><img src='/class-icons/resistance/wild-hunter/silent-rampage.png' alt='Skill Silent Rampage'/></span>[40s](120s cd)</div> <div><span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div> <div><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>[30s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Jaguar Soul (4th Job)'><img src='/class-icons/resistance/wild-hunter/jaguar-soul.png' alt='Skill Jaguar Soul'/></span>[10s](120s cd)</div> <div><span data-tooltip='Nature&#39;s Truth (6th Job)'><img src='/class-icons/resistance/wild-hunter/natures-truth.png' alt='Skill Nature&#39;s Truth'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Feline Berserk (3rd Job)'><img src='/class-icons/resistance/wild-hunter/feline-berserk.png' alt='Skill Feline Berserk'/></span>[2s](70s cd)</div> <div><span data-tooltip='Primal Fury (5th Job)'><img src='/class-icons/resistance/wild-hunter/primal-fury.png' alt='Skill Primal Fury'/></span>[11s](120s cd)</div> <div><span data-tooltip='Nature&#39;s Truth (6th Job)'><img src='/class-icons/resistance/wild-hunter/natures-truth.png' alt='Skill Nature&#39;s Truth'/></span>(360s cd)</div>"
         },
@@ -201,17 +187,16 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/16/End_of_Special_Training' target='_blank' rel='noopener noreferrer'>'End of Special Training'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -620,11 +605,15 @@
                 },
                 {
                     "name": "Maple Warrior",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/maple-warrior.png"],
                     "animations": ["https://media.giphy.com/media/cBd0HC3vvyCP37ZFQK/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Hero's Will",

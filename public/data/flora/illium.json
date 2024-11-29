@@ -21,21 +21,6 @@
                 "abilities": ["Crit Rate +20%", "Boss Damage +10%", "Damage to Abnormal Status +8%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
-            [
-                "<strong>Magic Attack</strong>: [<span data-tooltip='Tenacity (3rd Job)'><img src='/class-icons/flora/illium/tenacity.png' alt='Skill Tenacity'/></span> +10%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Lucent Gauntlet Mastery (1st Job)'><img src='/class-icons/flora/illium/lucent-gauntlet-mastery.png' alt='Skill Lucent Gauntlet Mastery'/></span> +20%] [<span data-tooltip='Endless Research (3rd Job)'><img src='/class-icons/flora/illium/endless-research.png' alt='Skill Endless Research'/></span> +20%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Endless Research (3rd Job)'><img src='/class-icons/flora/illium/endless-research.png' alt='Skill Endless Research'/></span> +30%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Lucent Brand (1st Job)'><img src='/class-icons/flora/illium/lucent-brand.png' alt='Skill Lucent Brand'/></span> +10%] [<span data-tooltip='Might of the Flora (3rd Job)'><img src='/class-icons/flora/illium/might-of-the-flora.png' alt='Skill Might of the Flora'/></span> +10%] [<span data-tooltip='Umbral Brand (2nd Job)'><img src='/class-icons/flora/illium/umbral-brand.png' alt='Skill Umbral Brand'/></span> +20% from debuff] [<span data-tooltip='Tide of Battle (Link Skill)'><img src='/class-icons/link-skills/tide-of-battle.png' alt='Skill Tide of Battle'/></span> up to +12%]",
-                "<strong>Boss Damage</strong>: [<span data-tooltip='Wisdom of the Crystal (4th Job)'><img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/></span> +30%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Wisdom of the Crystal (4th Job)'><img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/></span> +45%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Might of the Flora (3rd Job)'><img src='/class-icons/flora/illium/might-of-the-flora.png' alt='Skill Might of the Flora'/></span> +40%] [<span data-tooltip='Wisdom of the Crystal (4th Job)'><img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/></span> +60%]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 7",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Wisdom of the Crystal (4th Job)'><img src='/class-icons/flora/illium/wisdom-of-the-crystal.png' alt='Skill Wisdom of the Crystal'/></span> +25%] [<span data-tooltip='Umbral Brand (2nd Job)'><img src='/class-icons/flora/illium/umbral-brand.png' alt='Skill Umbral Brand'/></span> up to +20% from debuff]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Crystal Skill - Resonance (3rd Job)'><img src='/class-icons/flora/illium/crystal-skill-resonance.png' alt='Skill Crystal Skill Resonance'/></span> 30]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -54,7 +39,7 @@
             {
                 "name": "INT",
                 "stat": "+15% +40(130 w/ 6th Job Lv. 30)",
-                "detail": "<ul><li><span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/illium/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span> +15%</li> <li><span data-tooltip='Tenacity (3rd Job)'><img src='/class-icons/flora/illium/tenacity.png' alt='Skill Tenacity'/></span> +40</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Crystalline Spirit Boost (6th Job)'><img src='/class-icons/flora/illium/crystalline-spirit.png' alt='Skill Crystalline Spirit'/></span> +90 - 6th Job Lv. 30</li></ul>"
+                "detail": "<ul><li><span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/illium/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span> +15%</li> <li><span data-tooltip='Tenacity (3rd Job)'><img src='/class-icons/flora/illium/tenacity.png' alt='Skill Tenacity'/></span> +40</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Crystalline Spirit Boost - Passive (6th Job)'><img src='/class-icons/flora/illium/crystalline-spirit.png' alt='Skill Crystalline Spirit'/></span> +90 - 6th Job Lv. 30</li></ul>"
             },
             {
                 "name": "Magic Attack",
@@ -93,10 +78,10 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Gauntlet Frenzy (2nd Job)'><img src='/class-icons/flora/illium/gauntlet-frenzy.png' alt='Skill Gauntlet Frenzy'/></span>[300s]</div> <div><span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/illium/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Gauntlet Frenzy (2nd Job)'><img src='/class-icons/flora/illium/gauntlet-frenzy.png' alt='Skill Gauntlet Frenzy'/></span>[300s]</div>",
             "toggles": "<span data-tooltip='Crystalline Wings - Boost (3rd Job)'><img src='/class-icons/flora/illium/crystalline-wings-boost.png' alt='Skill Crystalline Wings - Boost'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
             "summons": "<div><span data-tooltip='Ex (1st Job)'><img src='/class-icons/flora/illium/ex.png' alt='Skill Ex'/></span>[180s]</div> <div><span data-tooltip='Deploy Crystal (2nd Job)'><img src='/class-icons/flora/illium/deploy-crystal.png' alt='Skill Deploy Crystal'/></span></div> <div><span data-tooltip='Machina (2nd Job)'><img src='/class-icons/flora/illium/machina.png' alt='Skill Machina'/></span>[180s]</div> <div><span data-tooltip='Crystal Skill - Deus (4th Job)'><img src='/class-icons/flora/illium/crystal-skill-deus.png' alt='Skill Crystal Skill - Deus'/></span>[30s](90 Charges)</div> <div><span data-tooltip='Templar Knight (5th Job)'><img src='/class-icons/flora/illium/templar-knight.png' alt='Skill Templar Knight'/></span>[40s](180s cd)</div> <span data-tooltip='Crystalline Spirit (5th Job)'><img src='/class-icons/flora/illium/crystalline-spirit.png' alt='Skill Crystalline Spirit'/></span>[30s](2.5s cd, 20s recharge)</div> <div><span data-tooltip='Crystal Gate (5th Job)'><img src='/class-icons/flora/illium/crystal-gate.png' alt='Skill Crystal Gate'/></span>[160s](180 - 90s cd based on remaining duration)</div>",
-            "buffCd": "<div><span data-tooltip='Crystal Skill - Wings of Glory (3rd Job)'><img src='/class-icons/flora/illium/crystal-skill-wings-of-glory.png' alt='Skill Crystal Skill - Wings of Glory'/></span>[20s](150 Charges)</div> <div><span data-tooltip='Flash Crystal Battery (4th Job)'><img src='/class-icons/flora/illium/flash-crystal-battery.png' alt='Skill Flash Crystal Battery'/></span>(180s cd)</div> <div><span data-tooltip='Crystalline Bulwark (Hyper Skill)'><img src='/class-icons/flora/illium/crystalline-bulwark.png' alt='Skill Crystalline Bulwark'/></span>[4-10s based on Lucent Brand stacks](180s cd)</div> <div><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/illium/divine-wrath.png' alt='Skill Divine Wrath'/></span>[60s](120s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](120s cd, 180s recharge - max 2 charges)</div>",
+            "buffCd": "<div><span data-tooltip='Crystal Skill - Wings of Glory (3rd Job)'><img src='/class-icons/flora/illium/crystal-skill-wings-of-glory.png' alt='Skill Crystal Skill - Wings of Glory'/></span>[20s](150 Charges)</div> <div><span data-tooltip='Flash Crystal Battery (4th Job)'><img src='/class-icons/flora/illium/flash-crystal-battery.png' alt='Skill Flash Crystal Battery'/></span>(180s cd)</div> <div><span data-tooltip='Crystalline Bulwark (Hyper Skill)'><img src='/class-icons/flora/illium/crystalline-bulwark.png' alt='Skill Crystalline Bulwark'/></span>[4-10s based on Lucent Brand stacks](180s cd)</div> <div><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/illium/divine-wrath.png' alt='Skill Divine Wrath'/></span>[60s](120s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Mytocrystal Expanse (6th Job)'><img src='/class-icons/flora/illium/mytocrystal-expanse.png' alt='Skill Mytocrystal Expanse'/>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Crystalline Bulwark (Hyper Skill)'><img src='/class-icons/flora/illium/crystalline-bulwark.png' alt='Skill Crystalline Bulwark'/></span>[4-10s based on Lucent Brand stacks](180s cd)</div> <span data-tooltip='Longinus Zone (Hyper Skill)'><img src='/class-icons/flora/illium/longinus-zone.png' alt='Skill Longinus Zone'/></span>(120s cd) <div><span data-tooltip='Mytocrystal Expanse (6th Job)'><img src='/class-icons/flora/illium/mytocrystal-expanse.png' alt='Skill Mytocrystal Expanse'/>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div>"
@@ -164,7 +149,7 @@
                 },
                 {
                     "name": "Exclusive Spell",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/flora/illium/exclusive-spell.png"],
                     "animations": ["https://media1.giphy.com/media/QoWk1BQlvp7LLxIP7Q/giphy.gif"],
@@ -173,8 +158,7 @@
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/215/Exclusive_Spell' target='_blank' rel='noopener noreferrer'>'Exclusive Spell'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -572,11 +556,15 @@
                 },
                 {
                     "name": "Hero of the Flora",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, creates a Flora emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/flora/illium/hero-of-the-flora.png"],
                     "animations": ["https://media0.giphy.com/media/4YdIGXeYJYG0BVSC0o/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Floran Hero's Will",
@@ -737,7 +725,7 @@
                 },
                 {
                     "name": "Divine Wrath",
-                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Flora class in the party.",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Flora class in the party\\nCooldown: 120 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/flora/illium/divine-wrath.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTBob25lZ2N4bDM5dGd2cXl1b2RpeGI5MHNocHd2MzczZTllNDZlaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PHx4bFSaJI9NEvoaLs/giphy.gif"],

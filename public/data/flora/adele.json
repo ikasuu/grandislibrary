@@ -16,21 +16,6 @@
                 "abilities": ["Chance to Skip Cooldown +20%", "Crit Rate +20%", "Boss Damage +10%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
-            [
-                "<strong>Attack</strong>: [<span data-tooltip='Recalling Greatness (Beginner Skill)'><img src='/class-icons/flora/adele/recalling-greatness.png' alt='Skill Recalling Greatness'/></span> +10%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Ascent (3rd Job)'><img src='/class-icons/flora/adele/ascent.png' alt='Skill Ascent'/></span> +20%] [<span data-tooltip='Strive (4th Job)'><img src='/class-icons/flora/adele/strive.png' alt='Skill Strive'/></span> +20%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Recalling Greatness (Beginner Skill)'><img src='/class-icons/flora/adele/recalling-greatness.png' alt='Skill Recalling Greatness'/></span> +10%] [<span data-tooltip='Bladecaster Control (2nd Job)'><img src='/class-icons/flora/adele/bladecaster-control.png' alt='Skill Bladecaster Control'/></span> +6%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Ascent (3rd Job)'><img src='/class-icons/flora/adele/ascent.png' alt='Skill Ascent'/></span> +16%] [<span data-tooltip='Ruination (4th Job)'><img src='/class-icons/flora/adele/ruination.png' alt='Skill Ruination'/></span> +30%] [<span data-tooltip='Resonance Rush (2nd Job)'><img src='/class-icons/flora/adele/resonance-rush.png' alt='Skill Resonance Rush'/></span> up to +10%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Noble Fire (Link Skill)'><img src='/class-icons/link-skills/noble-fire.png' alt='Skill Noble Fire'/></span> up to +8%] [<span data-tooltip='Grave Proclamation (4th Job)'><img src='/class-icons/flora/adele/grave-proclamation.png' alt='Skill Grave Proclamation'/></span> +20% from debuff]",
-                "<strong>Boss Damage</strong>: [<span data-tooltip='Strive (4th Job)'><img src='/class-icons/flora/adele/strive.png' alt='Skill Strive'/></span> +10%] [<span data-tooltip='Noble Fire (Link Skill)'><img src='/class-icons/link-skills/noble-fire.png' alt='Skill Noble Fire'/></span> up to +4%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Martial Discipline (1st Job)'><img src='/class-icons/flora/adele/martial-discipline.png' alt='Skill Martial Discipline'/></span> +60%] [<span data-tooltip='Tolerance (3rd Job)'><img src='/class-icons/flora/adele/tolerance.png' alt='Skill Tolerance'/></span> +40%]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 8",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Ruination (4th Job)'><img src='/class-icons/flora/adele/ruination.png' alt='Skill Ruination'/></span> +20%] [<span data-tooltip='Resonance Rush (2nd Job)'><img src='/class-icons/flora/adele/resonance-rush.png' alt='Skill Resonance Rush'/></span> up to +10%] [<span data-tooltip='Noble Summons (3rd Job)'><img src='/class-icons/flora/adele/noble-summons.png' alt='Skill Noble Summons'/></span> +10% from debuff] [<span data-tooltip='Grave Proclamation (4th Job)'><img src='/class-icons/flora/adele/grave-proclamation.png' alt='Skill Grave Proclamation'/></span> +10% from debuff]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Tolerance (3rd Job)'><img src='/class-icons/flora/adele/tolerance.png' alt='Skill Tolerance'/></span> 30]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -88,10 +73,10 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Weave Infusion (2nd Job)'><img src='/class-icons/flora/adele/weave-infusion.png' alt='Skill Weave Infusion'/></span>[200s]</div> <div><span data-tooltip='Hero of the Flora (4th Job)'><img src='/class-icons/flora/adele/hero-of-the-flora.png' alt='Skill Hero of the Flora'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Weave Infusion (2nd Job)'><img src='/class-icons/flora/adele/weave-infusion.png' alt='Skill Weave Infusion'/></span>[200s]</div>",
             "toggles": "<span data-tooltip='Aether Forge (2nd Job)'><img src='/class-icons/flora/adele/aether-forge.png' alt='Skill Aether Forge'/></span> <span data-tooltip='Aetherial Arms (2nd Job)'><img src='/class-icons/flora/adele/aetherial-arms.png' alt='Skill Aetherial Arms'/></span>",
             "summons": "<div><span data-tooltip='Hunting Decree (3rd Job)'><img src='/class-icons/flora/adele/hunting-decree.png' alt='Skill Hunting Decree'/></span>[40s]</div> <div><span data-tooltip='Reign of Destruction (3rd Job)'><img src='/class-icons/flora/adele/reign-of-destruction.png' alt='Skill Reign of Destruction'/></span>[7s](30s cd)</div> <div><span data-tooltip='True Nobility (3rd Job)'><img src='/class-icons/flora/adele/true-nobility.png' alt='Skill True Nobility'/></span>[20s](180s cd)</div> <div><span data-tooltip='Infinity Blade (5th Job)'><img src='/class-icons/flora/adele/infinity-blade.png' alt='Skill Infinity Blade'/></span>[30s](180s cd)</div> <div><span data-tooltip='Storm (5th Job)'><img src='/class-icons/flora/adele/storm.png' alt='Skill Storm'/></span>[14s](90s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/adele/divine-wrath.png' alt='Skill Divine Wrath'/></span>[60s](120s cd)</div> <div><span data-tooltip='Legacy Restoration (5th Job)'><img src='/class-icons/flora/adele/legacy-restoration.png' alt='Skill Legacy Restoration'/></span>[30s](180s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](240s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](120s cd, 180s recharge - max 2 charges)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Divine Wrath (Hyper Skill)'><img src='/class-icons/flora/adele/divine-wrath.png' alt='Skill Divine Wrath'/></span>[60s](120s cd)</div> <div><span data-tooltip='Legacy Restoration (5th Job)'><img src='/class-icons/flora/adele/legacy-restoration.png' alt='Skill Legacy Restoration'/></span>[30s](180s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Conversion Overdrive (5th Job)'><img src='/class-icons/5th-job/conversion-overdrive.png' alt='Skill Conversion Overdrive'/></span>[60s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Blade Torrent (Hyper Skill)'><img src='/class-icons/flora/adele/blade-torrent.png' alt='Skill Blade Torrent'/>[10s](180s cd)</div> <div><span data-tooltip='Maestro (6th Job)'><img src='/class-icons/flora/adele/maestro.png' alt='Skill Maestro'/>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Infinity Blade (5th Job)'><img src='/class-icons/flora/adele/infinity-blade.png' alt='Skill Infinity Blade'/></span>(180s cd)</span> <div><span data-tooltip='Maestro (6th Job)'><img src='/class-icons/flora/adele/maestro.png' alt='Skill Maestro'/>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Aether Guard (4th Job)'><img src='/class-icons/flora/adele/aether-guard.png' alt='Skill Aether Guard'/></span>[Up to 8s](-40% when held / -55% when held if parried attack | 60 - 35.5s cd based on remaining duration)</div>"
@@ -166,7 +151,7 @@
                 },
                 {
                     "name": "Exclusive Spell",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/flora/adele/exclusive-spell.png"],
                     "animations": ["https://media0.giphy.com/media/wIeX9ADXDixIsaZYuA/giphy.gif"],
@@ -175,8 +160,7 @@
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete Adele's storyline and the quest <a href='https://maplestorywiki.net/w/Quests/235/Final_Sword%27s_Calling_3' target='_blank' rel='noopener noreferrer'>'Final Sword's Calling 3'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -531,11 +515,15 @@
                 },
                 {
                     "name": "Hero of the Flora",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, creates a Flora emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/flora/adele/hero-of-the-flora.png"],
                     "animations": ["https://media1.giphy.com/media/KkPrlAtPfT6W4njPcf/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Floran Hero's Will",
@@ -705,7 +693,7 @@
                 },
                 {
                     "name": "Divine Wrath",
-                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Flora class in the party.",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nApplies to any Flora class in the party\\nCooldown: 120 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/flora/adele/divine-wrath.png"],
                     "animations": ["https://media0.giphy.com/media/gp7a45r7WcS6ztfvCM/giphy.gif"],

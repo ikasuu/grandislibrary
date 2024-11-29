@@ -16,20 +16,6 @@
                 "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Attack +21"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
-            [
-                "<strong>Attack</strong>: [<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Gains (2nd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/gains.png' alt='Skill Gains'/></span> +15%] [<span data-tooltip='Ironclad (3rd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/ironclad.png' alt='Skill Ironclad'/></span> +10%] [<span data-tooltip='Thunder God (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/thunder-god.png' alt='Skill Thunder God'/></span> +10%]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Gains (2nd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/gains.png' alt='Skill Gains'/></span> +5%] [<span data-tooltip='Lightning Lord (3rd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-lord.png' alt='Skill Lightning Lord'/></span> +10%] [<span data-tooltip='Knuckle Expert (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png' alt='Skill Knuckle Expert'/></span> +15%] [<span data-tooltip='Thunder God (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/thunder-god.png' alt='Skill Thunder God'/></span> +15%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Ironclad (3rd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/ironclad.png' alt='Skill Ironclad'/></span> +5%] [<span data-tooltip='Lightning Elemental (1st Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png' alt='Skill Lightning Elemental'/></span> up to +15%] [<span data-tooltip='Typhoon (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/typhoon.png' alt='Skill Typhoon'/></span> up to +15%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Knuckle Mastery (2nd Job)'><img src='/class-icons/common/knuckle-mastery.png' alt='Skill Knuckle Mastery'/></span> +5%] [<span data-tooltip='Knuckle Expert (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png' alt='Skill Knuckle Expert'/></span> +15%] [<span data-tooltip='Link Mastery (3rd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/link-mastery.png' alt='Skill Link Mastery'/></span> up to +18%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Ironclad (3rd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/ironclad.png' alt='Skill Ironclad'/></span> +40%] [<span data-tooltip='Electrify (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/electrify.png' alt='Skill Electrify'/></span> +60%]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 8",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Lightning Elemental (1st Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png' alt='Skill Lightning Elemental'/></span> up to +45%]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Seawall (3rd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/seawall.png' alt='Skill Seawall'/></span> 30] [<span data-tooltip='Cygnus Blessing (Link Skill)'><img src='/class-icons/link-skills/cygnus-blessing.png' alt='Skill Cygnus Blessing'/></span> up to 15]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -87,13 +73,13 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Speed Infusion (4th Job)'><img src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/></span>[300s]</div> <div><span data-tooltip='Call of Cygnus (4th Job)'><img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Speed Infusion (4th Job)'><img src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/></span>[300s]</div>",
             "toggles": "<span data-tooltip='Lightning Elemental (1st Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-elemental.png' alt='Skill Lightning Elemental'/></span> <span data-tooltip='Arc Charger (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/arc-charger.png' alt='Skill Arc Charger'/></span>",
             "summons": "<div><span data-tooltip='Sea Wave (2nd Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/sea-wave.png' alt='Skill Sea Wave'/></span>[24 Attacks or 2700 Distance](12s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Typhoon (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/typhoon.png' alt='Skill Typhoon'/></span>[90s](12s cd)</div> <div><span data-tooltip='Primal Bolt (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png' alt='Skill Primal Bolt'/></span>[30s](120s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Lightning Cascade (5th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png' alt='Skill Lightning Cascade'/></span>[52s](120s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](240s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
+            "buffCd": "<div><span data-tooltip='Typhoon (4th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/typhoon.png' alt='Skill Typhoon'/></span>[90s](12s cd)</div> <div><span data-tooltip='Primal Bolt (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/primal-bolt.png' alt='Skill Primal Bolt'/></span>[30s](120s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Lightning Cascade (5th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/lightning-cascade.png' alt='Skill Lightning Cascade'/></span>[52s](120s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](120s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
             "binds": "<div><span data-tooltip='Thunder Wall Sea Wave (6th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png' alt='Skill Thunder Wall Sea Wave'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Deep Rising (Hyper Skill)'><img src='/class-icons/cygnus-knights/thunder-breaker/deep-rising.png' alt='Skill Deep Rising'/></span>(45s cd)</div> <div><span data-tooltip='Thunder Wall Sea Wave (6th Job)'><img src='/class-icons/cygnus-knights/thunder-breaker/thunder-wall-sea-wave.png' alt='Skill Thunder Wall Sea Wave'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 240s cd)</div>"
+            "damageReduce": "<div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 120s cd)</div>"
         },
         "linkSkill": {
                 "id": 80000055,
@@ -207,16 +193,15 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -436,11 +421,15 @@
                 [
                 "4th Job", [{
                     "name": "Call of Cygnus",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/call-of-cygnus.png"],
                     "animations": ["https://media.giphy.com/media/TBfo3VfE68xaywLTqO/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Cygnus Knights' Will",

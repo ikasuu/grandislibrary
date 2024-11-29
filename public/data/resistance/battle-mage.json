@@ -16,20 +16,6 @@
                 "abilities": ["Boss Damage +20% or Meso Obtained +20% (For Farming)", "Crit Rate +20%", "Damage to Abnormal Status +8%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
-            [
-                "<strong>Magic Attack</strong>: [<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +15%] [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Staff Artist (1st Job)'><img src='/class-icons/resistance/battle-mage/staff-artist.png' alt='Skill Staff Artist'/></span> +15%] [<span data-tooltip='Staff Mastery (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-mastery.png' alt='Skill Staff Mastery'/></span> +20%] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +20% while active]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +15%] [<span data-tooltip='Staff Expert (4th Job)'><img src='/class-icons/resistance/battle-mage/staff-expert.png' alt='Skill Staff Expert'/></span> +20%] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +10% while active]",
-                "<strong>Damage</strong>: [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +10%] [<span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> +10% while active] [<span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> +25% while active]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Battle Mastery (3rd Job)'><img src='/class-icons/resistance/battle-mage/battle-mastery.png' alt='Skill Battle Mastery'/></span> +25%] [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +5%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Power Stance (3rd Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +100%]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 8 [<span data-tooltip='Hasty Aura (1st Job)'><img src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/></span> +1 while active, does not bypass Soft Cap]",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Spell Boost (4th Job)'><img src='/class-icons/resistance/battle-mage/spell-boost.png' alt='Skill Spell Boost'/></span> +30%] [<span data-tooltip='Weakening Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/></span> +20% from debuff]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Blue Aura (3rd Job)'><img src='/class-icons/resistance/battle-mage/blue-aura.png' alt='Skill Blue Aura'/></span> 30 & 20 while active]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -92,10 +78,10 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Staff Boost (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-boost.png' alt='Skill Staff Boost'/></span>[200s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Staff Boost (2nd Job)'><img src='/class-icons/resistance/battle-mage/staff-boost.png' alt='Skill Staff Boost'/></span>[200s]</div>",
             "toggles": "<span data-tooltip='Condemnation (1st Job)'><img src='/class-icons/resistance/battle-mage/condemnation.png' alt='Skill Condemnation'/></span></span> <span data-tooltip='Dark Shock (3rd Job)'><img src='/class-icons/resistance/battle-mage/dark-shock.png' alt='Skill Dark Shock'/></span> <span data-tooltip='Battle Rage (4th Job)'><img src='/class-icons/resistance/battle-mage/battle-rage.png' alt='Skill Battle Rage'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd) | <strong>Auras</strong> [ <span data-tooltip='Hasty Aura (1st Job)'><img src='/class-icons/resistance/battle-mage/hasty-aura.png' alt='Skill Hasty Aura'/></span> / <span data-tooltip='Draining Aura (2nd Job)'><img src='/class-icons/resistance/battle-mage/draining-aura.png' alt='Skill Draining Aura'/></span> / <span data-tooltip='Blue Aura (3rd Job)'><img src='/class-icons/resistance/battle-mage/blue-aura.png' alt='Skill Blue Aura'/></span> / <span data-tooltip='Dark Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/dark-aura.png' alt='Skill Dark Aura'/></span> / <span data-tooltip='Weakening Aura (4th Job)'><img src='/class-icons/resistance/battle-mage/weakening-aura.png' alt='Skill Weakening Aura'/></span> ]",
             "summons": "<div><span data-tooltip='Altar of Annihilation (5th Job)'><img src='/class-icons/resistance/battle-mage/altar-of-annihilation.png' alt='Skill Altar of Annihilation'/></span>[40s](0.5s cd, 23s recharge)</div> <div><span data-tooltip='Grim Harvest (5th Job)'><img src='/class-icons/resistance/battle-mage/grim-harvest.png' alt='Skill Grim Harvest'/></span>[30s](90s cd)</div> <div><span data-tooltip='Resistance Infantry (5th Job)'><img src='/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/></span>[10s](25s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Master of Death (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/master-of-death.png' alt='Skill Master of Death'/></span>[30s](180s cd)</div> <div><span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>[60s](120s cd)</div> <div><span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span>[40s](90s cd)</div> <div><span data-tooltip='Abyssal Lightning (5th Job)'><img src='/class-icons/resistance/battle-mage/abyssal-lightning.png' alt='Skill Abyssal Lightning'/></span>[40s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Master of Death (Hyper Skill)'><img src='/class-icons/resistance/battle-mage/master-of-death.png' alt='Skill Master of Death'/></span>[30s](180s cd)</div> <div><span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span>[60s](120s cd)</div> <div><span data-tooltip='Aura Scythe (5th Job)'><img src='/class-icons/resistance/battle-mage/aura-scythe.png' alt='Skill Aura Scythe'/></span>[40s](90s cd)</div> <div><span data-tooltip='Abyssal Lightning (5th Job)'><img src='/class-icons/resistance/battle-mage/abyssal-lightning.png' alt='Skill Abyssal Lightning'/></span>[40s](180s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Crimson Pact (6th Job)'><img src='/class-icons/resistance/battle-mage/crimson-pact.png' alt='Skill Crimson Pact'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Abyssal Lightning (5th Job)'><img src='/class-icons/resistance/battle-mage/abyssal-lightning.png' alt='Skill Abyssal Lightning'/></span>(180s cd)</div> <div><span data-tooltip='Crimson Pact (6th Job)'><img src='/class-icons/resistance/battle-mage/crimson-pact.png' alt='Skill Crimson Pact'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Party Shield (4th Job)'><img src='/class-icons/resistance/battle-mage/party-shield.png' alt='Skill Party Shield'/></span>[40s](-10% | 180s cd)</div> <div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div>"
@@ -187,17 +173,16 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/16/End_of_Special_Training' target='_blank' rel='noopener noreferrer'>'End of Special Training'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -513,11 +498,15 @@
                 },
                 {
                     "name": "Maple Warrior",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/maple-warrior.png"],
                     "animations": ["https://media0.giphy.com/media/X4Fqk6I4IYLS91Vt1N/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Hero's Will",

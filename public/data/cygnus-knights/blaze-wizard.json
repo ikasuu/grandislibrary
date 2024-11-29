@@ -16,20 +16,6 @@
                 "abilities": ["+1 Passive Skills (Preferred) / Boss Damage +20%", "Buff Duration +38%", "Crit Rate +20%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, and buffs with long cooldowns",
-            [
-                "<strong>Attack</strong>: [<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Word of Fire (2nd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png' alt='Skill Word of Fire'/></span> +5%] [<span data-tooltip='Burning Focus (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/></span> +30%] [<span data-tooltip='Natural Talent (1st Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/natural-talent.png' alt='Skill Natural Talent'/></span> +5% when wand is equipped]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Burning Focus (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-focus.png' alt='skill Burning Focus'/></span> +20%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Liberated Magic (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/liberated-magic.png' alt='Skill Liberated Magic'/></span> +25%] [<span data-tooltip='Pure Magic (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/pure-magic.png' alt='Skill Pure Magic'/></span> +50%]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 7",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Fires of Creation (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span> +30%]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Brilliant Enlightenment (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/brilliant-enlightenment.png' alt='Skill Brilliant Enlightenment'/></span> +40%] [<span data-tooltip='Wild Blaze (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/></span> +60%]",
-                "<strong>Ignore Elemental Resistance</strong>: [<span data-tooltip='Final Orbital Flame - Fox Mode (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/final-orbital-flame-3.png' alt='Skill Final Orbital Flame'/> +10% from debuff]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Wild Blaze (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/wild-blaze.png' alt='Skill Wild Blaze'/></span> 30] [<span data-tooltip='Cygnus Blessing (Link Skill)'><img src='/class-icons/link-skills/cygnus-blessing.png' alt='Skill Cygnus Blessing'/></span> up to 15]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -87,13 +73,13 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Call of Cygnus (4th Job)'><img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/></span>[900s]</div> <div><span data-tooltip='Fires of Creation (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span>[300s]</div>",
+            "active": "<div><span data-tooltip='Fires of Creation (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png' alt='Skill Fires of Creation'/></span>[300s]</div>",
             "toggles": "<span data-tooltip='Orbital Explosion (2nd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-explosion.png' alt='Skill Orbital Explosion'/></span> <span data-tooltip='Orbital Flame - Range (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/orbital-flame-range.png' alt='Skill Orbital Flame - Range'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
             "summons": "<div><span data-tooltip='Blazing Extinction (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png' alt='Skill Blazing Extinction'/></span>[10s](5s cd)</div> <div><span data-tooltip='Burning Conduit (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/></span>[30s](45 - 30s cd based on remaining duration)</div> <div><span data-tooltip='Salamander Mischief (5th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/salamander-mischief.png' alt='Skill Salamander Mischief'/></span>[60s / 30s Buff](90s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Phoenix Run (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/></span>[1800s](1800s cd)</div> <div><span data-tooltip='Burning Conduit (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/></span>[30s](45-30s cd)</div> <div><span data-tooltip='Flame Barrier (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png' alt='Skill Flame Barrier'/></span>[15s / 10 Critical Abnormal Statuses](180s cd)</div> <div><span data-tooltip='Phoenix Drive (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png' alt='Skill Phoenix Drive'/></span>[15s](90s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/></span>[45s](240s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Phoenix Run (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/></span>[1800s](1800s cd)</div> <div><span data-tooltip='Burning Conduit (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/burning-conduit.png' alt='Skill Burning Conduit'/></span>[30s](45-30s cd)</div> <div><span data-tooltip='Flame Barrier (4th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/flame-barrier.png' alt='Skill Flame Barrier'/></span>[15s / 10 Critical Abnormal Statuses](180s cd)</div> <div><span data-tooltip='Phoenix Drive (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png' alt='Skill Phoenix Drive'/></span>[15s](90s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Cinder Maelstrom (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/cinder-maelstrom.png' alt='Skill Cinder Maelstrom'/></span>[10s](180s cd)</div> <div><span data-tooltip='Eternity (6th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/eternity.png' alt='Skill Eternity'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Phoenix Run (3rd Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/phoenix-run.png' alt='Skill Phoenix Run'/></span>[3s / 1800s Buff](1800s cd revive)</div> <div><span data-tooltip='Cataclysm (Hyper Skill)'><img src='/class-icons/cygnus-knights/blaze-wizard/cataclysm.png' alt='Skill Cataclysm'/></span>(100s cd)</div> <div><span data-tooltip='Eternity (6th Job)'><img src='/class-icons/cygnus-knights/blaze-wizard/eternity.png' alt='Skill Eternity'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div> <div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 240s cd)</div>"
+            "damageReduce": "<div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div> <div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 120s cd)</div>"
         },
         "linkSkill": {
                 "id": 80000055,
@@ -203,16 +189,15 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -438,11 +423,15 @@
                 [
                 "4th Job", [{
                     "name": "Call of Cygnus",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/call-of-cygnus.png"],
                     "animations": ["https://media.giphy.com/media/7u07zWXt86hC2wD4Na/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Cygnus Knights' Will",

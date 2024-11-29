@@ -78,7 +78,7 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Photic Meditation (3rd Job)'><img src='/class-icons/heroes/luminous/photic-meditation.png' alt='Skill Photic Meditation'/></span>[180s]</div> <div><span data-tooltip='Arcane Pitch (4th Job)'><img src='/class-icons/heroes/luminous/arcane-pitch.png' alt='Skill Arcane Pitch'/></span>[180s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div> <div><span data-tooltip='Equilibrium Liberation (3rd Job)'><img src='/class-icons/heroes/luminous/equilibrium-liberation.png' alt='Skill Equilibrium Liberation'/></span>(Special)</div>",
+            "active": "<div><span data-tooltip='Photic Meditation (3rd Job)'><img src='/class-icons/heroes/luminous/photic-meditation.png' alt='Skill Photic Meditation'/></span>[180s]</div> <div><span data-tooltip='Arcane Pitch (4th Job)'><img src='/class-icons/heroes/luminous/arcane-pitch.png' alt='Skill Arcane Pitch'/></span>[180s]</div> <div><span data-tooltip='Equilibrium Liberation (3rd Job)'><img src='/class-icons/heroes/luminous/equilibrium-liberation.png' alt='Skill Equilibrium Liberation'/></span>(Special)</div>",
             "toggles": "<span data-tooltip='Light Speed Boost (3rd Job)'><img src='/class-icons/heroes/luminous/light-speed-boost.png' alt='Skill Light Speed Boost'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
             "summons": "<div><span data-tooltip='Morning Star (4th Job)'><img src='/class-icons/heroes/luminous/morning-star.png' alt='Skill Morning Star'/></span>(5s cd)</div> <div><span data-tooltip='Gate of Light (5th Job)'><img src='/class-icons/heroes/luminous/gate-of-light.png' alt='Skill Gate of Light'/></span>[40s](Usable only in Equilibrium)</div> <div><span data-tooltip='Aether Conduit (5th Job)'><img src='/class-icons/heroes/luminous/aether-conduit.png' alt='Skill Aether Conduit'/></span>[6s](30s cd)</div> <div><span data-tooltip='Liberation Orb (5th Job)'><img src='/class-icons/heroes/luminous/liberation-orb.png' alt='Skill Liberation Orb'/></span>[45s](180s cd)</div>",
             "buffCd": "<div><span data-tooltip='Shadow Shell (3rd Job)'><img src='/class-icons/heroes/luminous/shadow-shell.png' alt='Skill Shadow Shell'/></span>[7 Critical Abnormal Statuses](240s cd)</div> <div><span data-tooltip='Equalize (Hyper Skill)'><img src='/class-icons/heroes/luminous/equalize.png' alt='Skill Equalize'/></span>(150s cd)</div> <div><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/luminous/heroic-memories.png' alt='Skill Heroic Memories (Luminous)'/></span>[60s](120s cd)</div> <div><span data-tooltip='Freud&#39;s Wisdom (5th Job)'><img src='/class-icons/5th-job/freuds-wisdom.png' alt='Skill Freud's Wisdom'/></span>[30s per stack](240s cd, 25s cd between each stack)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[45s](180s cd)</div>",
@@ -178,17 +178,16 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/12/Lania%27s_Distress' target='_blank' rel='noopener noreferrer'>'Lania's Distress'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -525,11 +524,15 @@
                     },
                     {
                         "name": "Maple Warrior",
-                        "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/common/maple-warrior.png"],
                         "animations": ["https://media.giphy.com/media/3GNbc7FaL6VoudaYbK/giphy.gif"],
-                        "type": "Party Buff"
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
                     },
                     {
                         "name": "Hero's Will",

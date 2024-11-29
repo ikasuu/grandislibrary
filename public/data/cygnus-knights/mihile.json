@@ -16,20 +16,6 @@
                 "abilities": ["Boss Damage +20%", "Damage to Abnormal Status +8%", "Buff Duration +38%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
-            [
-                "<strong>Attack</strong>: [<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Loyal Oath (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/loyal-oath.png' alt='Skill Loyal Oath'/></span> +20%] [<span data-tooltip='Expert Sword Mastery (4th Job)'><img src='/class-icons/cygnus-knights/mihile/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/></span> +15%] [<span data-tooltip='Advanced Righteous Indignation (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png' alt='Skill Advanced Righteous Indignation'/></span> +20% to debuffed* (refer to skill)]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Expert Sword Mastery (4th Job)'><img src='/class-icons/cygnus-knights/mihile/expert-sword-mastery.png' alt='Skill Expert Sword Mastery'/></span> +20%] [<span data-tooltip='Roiling Soul (4th Job)'><img src='/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span> +10% while active]",
-                "<strong>Damage</strong>: [<span data-tooltip='Soul Link (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/soul-link.png' alt='Skill Soul Link'/></span> +5% for each party member up to +30%]",
-                "<strong>Final Damage</strong>: <span data-tooltip='Sword Mastery (2nd Job)'>[<img src='/class-icons/common/weapon-mastery-sword.png' alt='Skill Weapon Mastery'/></span> +15%] [<span data-tooltip='Loyal Oath (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/loyal-oath.png' alt='Skill Loyal Oath'/></span> +25%] [<span data-tooltip='Roiling Soul (4th Job)'><img src='/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span> +25% while active] [<span data-tooltip='Advanced Righteous Indignation (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/advanced-righteous-indignation.png' alt='Skill Advanced Righteous Indignation'/> +25% to debuffed* (refer to skill)]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Soul Shield (1st Job)'><img src='/class-icons/cygnus-knights/mihile/soul-shield.png' alt='Skill Soul Shield'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 8",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Combat Mastery (4th Job)'><img src='/class-icons/cygnus-knights/mihile/combat-mastery.png' alt='Skill Combat Mastery'/></span> +40%]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Advanced Royal Guard (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/advanced-royal-guard.png' alt='Skill Advanced Royal Guard'/></span> 60]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -87,13 +73,13 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Encourage (2nd Job)'><img src='/class-icons/cygnus-knights/mihile/encourage.png' alt='Skill Encourage'/></span>[180s]</div> <div><span data-tooltip='Call of Cygnus (4th Job)'><img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Encourage (2nd Job)'><img src='/class-icons/cygnus-knights/mihile/encourage.png' alt='Skill Encourage'/></span>[180s]</div>",
             "toggles": "<span data-tooltip='Soul Link (3rd Job)'><img src='/class-icons/cygnus-knights/mihile/soul-link.png' alt='Skill Soul Link'/></span> <span data-tooltip='Roiling Soul (4th Job)'><img src='/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span>",
             "summons": "<div><span data-tooltip='Install Shield (4th Job)'><img src='/class-icons/cygnus-knights/mihile/install-shield.png' alt='Skill Install Shield'/></span>[60s](30s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Knight&#39;s Watch (Link Skill)'><img src='/class-icons/link-skills/knights-watch.png' alt='Skill Knight&#39;s Watch'/></span>[45s](180s cd)</div> <div><span data-tooltip='Soul Majesty (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/soul-majesty.png' alt='Skill Soul Majesty'/></span>[25s](180s cd)</div> <div><span data-tooltip='Queen of Tomorrow (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png' alt='Skill Queen of Tomorrow'/></span>[60s](120s cd)</div> <div><span data-tooltip='Shield of Light (5th Job)'><img src='/class-icons/cygnus-knights/mihile/shield-of-light.png' alt='Skill Shield of Light'/></span>[99s / 25s barrier](180s cd)</div> <div><span data-tooltip='Radiant Soul (5th Job)'><img src='/class-icons/cygnus-knights/mihile/radiant-soul.png' alt='Skill Radiant Soul'/></span>[35s](180s cd)</div> <div><span data-tooltip='Light of Courage (5th Job)'><img src='/class-icons/cygnus-knights/mihile/light-of-courage.png' alt='Skill Light of Courage'/></span>[25s / 12s barrier](90s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus's Blessing'/>[45s](240s cd)</span></div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Knight&#39;s Watch (Link Skill)'><img src='/class-icons/link-skills/knights-watch.png' alt='Skill Knight&#39;s Watch'/></span>[45s](180s cd)</div> <div><span data-tooltip='Soul Majesty (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/soul-majesty.png' alt='Skill Soul Majesty'/></span>[25s](180s cd)</div> <div><span data-tooltip='Queen of Tomorrow (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png' alt='Skill Queen of Tomorrow'/></span>[60s](120s cd)</div> <div><span data-tooltip='Shield of Light (5th Job)'><img src='/class-icons/cygnus-knights/mihile/shield-of-light.png' alt='Skill Shield of Light'/></span>[99s / 25s barrier](180s cd)</div> <div><span data-tooltip='Radiant Soul (5th Job)'><img src='/class-icons/cygnus-knights/mihile/radiant-soul.png' alt='Skill Radiant Soul'/></span>[35s](180s cd)</div> <div><span data-tooltip='Light of Courage (5th Job)'><img src='/class-icons/cygnus-knights/mihile/light-of-courage.png' alt='Skill Light of Courage'/></span>[25s / 12s barrier](90s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds" : "<div><span data-tooltip='Durendal (6th Job)'><img src='/class-icons/cygnus-knights/mihile/durendal.png' alt='Skill Durendal'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Royal Guard (1st Job)'><img src='/class-icons/cygnus-knights/mihile/royal-guard.png' alt='Skill Royal Guard'/></span>[4s](6s cd)</div> <div><span data-tooltip='Durendal (6th Job)'><img src='/class-icons/cygnus-knights/mihile/durendal.png' alt='Skill Durendal'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Knight&#39;s Watch (Link Skill)'><img src='/class-icons/link-skills/knights-watch.png' alt='Skill Knight&#39;s Watch'/></span>[45s / 9 Attacks](-30% | 180s cd)</div> <div><span data-tooltip='Soul Asylum (4th Job)'><img src='/class-icons/cygnus-knights/mihile/soul-asylum.png' alt='Skill Soul Asylum'/></span>[15s](-5%) - <em>Additional -5% if <span data-tooltip='Soul Majesty (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/soul-majesty.png' alt='Skill Soul Majesty'/></span> is active [25s Buff](180s cd)</em></div> <div><span data-tooltip='Shield of Light (5th Job)'><img src='/class-icons/cygnus-knights/mihile/shield-of-light.png' alt='Skill Shield of Light'/></span>[25s / 35 Attacks](-83% | 180s cd)</div> <div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 240s cd)</div>"
+            "damageReduce": "<div><span data-tooltip='Knight&#39;s Watch (Link Skill)'><img src='/class-icons/link-skills/knights-watch.png' alt='Skill Knight&#39;s Watch'/></span>[45s / 9 Attacks](-30% | 180s cd)</div> <div><span data-tooltip='Soul Asylum (4th Job)'><img src='/class-icons/cygnus-knights/mihile/soul-asylum.png' alt='Skill Soul Asylum'/></span>[15s](-5%) - <em>Additional -5% if <span data-tooltip='Soul Majesty (Hyper Skill)'><img src='/class-icons/cygnus-knights/mihile/soul-majesty.png' alt='Skill Soul Majesty'/></span> is active [25s Buff](180s cd)</em></div> <div><span data-tooltip='Shield of Light (5th Job)'><img src='/class-icons/cygnus-knights/mihile/shield-of-light.png' alt='Skill Shield of Light'/></span>[25s / 35 Attacks](-83% | 180s cd)</div> <div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 120s cd)</div>"
         },
         "linkSkill": {
                 "id": 80001140,
@@ -234,15 +220,16 @@
                     "reqLev": "Req. 100",
                     "details": [
                         "Gained from completing the quest <a href='https://maplestorywiki.net/w/Quests/13/The_Gift_for_the_Empress' target='_blank' rel='noreferrer noopener'>'The Gift for the Empress'</a> at Lv. 100",
-                        "Affects all nearby players and effect remains active even after KO",
+                        "Affects all nearby players",
+                        "While active, ignores damage penalty from monster level difference",
                         "Has a cooldown (1 day), unaffected by cooldown resets and buff duration increase"
                     ]
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZxOHNseG42MnV0NDdqdDhvazA0bGI1bG9keDZhdzdydGZlczA1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/M0FJa7IR4zkW5UkfVO/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
@@ -250,8 +237,7 @@
                     "details": [
                         "Gained from completing the quest <a href='https://maplestorywiki.net/w/Quests/13/Will_of_Light' target='_blank' rel='noreferrer noopener'>'Will of Light'<a/> at Lv. 200",
                         "Cannot be applied while <span data-tooltip='Empress&#39;s Prayer (Beginner Skill)'><img src='/class-icons/cygnus-knights/mihile/empress-prayer.png' alt='Skill Empress Prayer'/></span> is active",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -490,11 +476,15 @@
                 [
                 "4th Job", [{
                     "name": "Call of Cygnus",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/call-of-cygnus.png"],
                     "animations": ["https://media.giphy.com/media/MeUeEQJBfKf0KWHCEN/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Cygnus Knights' Will",

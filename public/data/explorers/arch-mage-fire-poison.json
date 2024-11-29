@@ -16,21 +16,6 @@
                 "abilities": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10% / Damage to Abnormal Status +8%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, Link Skills, and buffs with long cooldowns",
-            [
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/fire-poison/spell-mastery.png' alt='Skill Spell Mastery'/></span> +5%] [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +30%] [<span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +5% when wand is equipped]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +13%]",
-                "<strong>Damage</strong>: [<span data-tooltip='Element Amplification (3rd Job)'><img src='/class-icons/explorers/fire-poison/element-amplification.png' alt='Skill Element Amplification'/></span> +50%] [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/></span> up to +40%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Elemental Drain (2nd Job)'><img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/></span> up to +25%] [<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +40%] [<span data-tooltip='Burning Magic (3rd Job)'><img src='/class-icons/explorers/fire-poison/burning-magic.png' alt='Skill Burning Magic'/></span> +20% to damage over time, stun, freeze, darkness, paralysis]",
-                "<strong>Attack Speed (Weapon)</strong>: Stage 7",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> +40%] [<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> +60%]",
-                "<strong>Buff Duration</strong>: [<span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%]",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/></span> +20%]",
-                "<strong>Ignore Elemental Resistance</strong>: [<span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +10%]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Elemental Adaptation (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation'/></span> 20]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -98,10 +83,10 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Meditation (2nd Job)'><img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/></span>[240s]</div> <div><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span>[900s]</div>",
+            "active": "<div><span data-tooltip='Meditation (2nd Job)'><img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/></span>[240s]</div>",
             "toggles": "<span data-tooltip='Magic Guard (1st Job)'><img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard'/></span> <span data-tooltip='Ignite (2nd Job)'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span> <span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> <span data-tooltip='Teleport Boost (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-boost.png' alt='Skill Teleport Boost'/></span> <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
             "summons": "<div><span data-tooltip='Creeping Toxin (3rd Job)'><img src='/class-icons/explorers/fire-poison/creeping-toxin.png' alt='Skill Creeping Toxin'/></span>[60s](30s cd)</div> <div><span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span>[260s]</div> <div><span data-tooltip='Elemental Fury (5th Job)'><img src='/class-icons/explorers/fire-poison/elemental-fury.png' alt='Skill Elemental Fury'/></span>[3-6s based on Fervent Drain stacks](75s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Elemental Adaptation (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation (Fire, Poison)'/></span>[10 Critical Abnormal Statuses](240s cd)</div> <div><span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/></span>[40s](180s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](180s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Elemental Adaptation (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation (Fire, Poison)'/></span>[10 Critical Abnormal Statuses](240s cd)</div> <div><span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/></span>[40s](180s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Inferno Venom (6th Job)'><img src='/class-icons/explorers/fire-poison/infernal-venom.png' alt='Skill Infernal Venom'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Inferno Venom (6th Job)'><img src='/class-icons/explorers/fire-poison/infernal-venom.png' alt='Skill Infernal Venom'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div>"
@@ -202,18 +187,17 @@
                     "type": "Active"
                 },
                 {
-                    "name": "Echo of Hero",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: +4%, Duration: 40 min",
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
                         "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' target='_blank' rel='noreferrer noopener'>'An Arrangement from the Goddess'</a>",
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -243,7 +227,7 @@
                     },
                     {
                         "name": "Teleport",
-                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 190, and up and down with 295",
+                        "shortDesc": "MP Cost: 20, Teleport to the left and right with 190, and up and down with 295\\n[Passive Effects: Speed: +22, Max Speed: +20]",
                         "maxLevel": 5,
                         "icons": ["/class-icons/explorers/mage/teleport.png"],
                         "animations": ["https://media.giphy.com/media/w2NDK6o6Dknms7d2iK/giphy.gif"],
@@ -412,7 +396,7 @@
                     },
                     {
                         "name": "Teleport Mastery",
-                        "shortDesc": "Additional MP Cost: 20, Max Monsters Hit: 6, Damage: 272%, Stun Chance: 80%, Stun Duration: 4 sec. For 4 sec., inflicts 98% damage at every 2 sec.\\n[Passive Effect: Knockback Resistance: +40%]",
+                        "shortDesc": "Additional MP Cost: 20, Max Monsters Hit: 6, Damage: 272%, Stun Chance: 80%, Stun Duration: 4 sec. For 20 sec., inflicts 98% damage at every 2 sec.\\n[Passive Effect: Knockback Resistance: +40%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/fire-poison/teleport-mastery.png"],
                         "animations": ["https://media.giphy.com/media/53RJiAP3M1yC3ZkSQx/giphy.gif"],
@@ -558,11 +542,15 @@
                 },
                 {
                     "name": "Maple Warrior",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/maple-warrior.png"],
                     "animations": ["https://media.giphy.com/media/FfzsyFZY2KlxoV0w5v/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Hero's Will",
@@ -823,7 +811,7 @@
                 },
                 {
                     "name": "HEXA Flame Haze",
-                    "shortDesc": "MP Cost: 83, Damage: 335, Number of Attacks: 15\\nInflicts 325% continuous damage at 100% chance for 10 sec. Maintains untouchable status and slows enemy by -51%\\nUpon hitting an enemy, the Poison Mist forms on enemy location. If no enemy is hit, the Poison Mist forms on your location\\nCooldown: 10 sec",
+                    "shortDesc": "MP Cost: 83, Damage: 335%, Number of Attacks: 15\\nInflicts 325% continuous damage at 100% chance for 10 sec. Maintains untouchable status and slows enemy by -51%\\nUpon hitting an enemy, the Poison Mist forms on enemy location. If no enemy is hit, the Poison Mist forms on your location\\nCooldown: 10 sec[Passive Effect: Permanently increases the continuous damage of Poison Mist created by Flame Haze to 476^, but no Poison Mist used directly.]",
                     "icons": ["/class-icons/explorers/fire-poison/hexa-flame-haze.png", "/class-icons/explorers/fire-poison/flame-haze.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

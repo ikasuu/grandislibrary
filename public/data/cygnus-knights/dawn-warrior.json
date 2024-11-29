@@ -16,20 +16,6 @@
                 "abilities": ["Boss Damage +20% / Meso Obtained +20% (For Farming)", "Damage to Abnormal Status +8%", "Crit Rate +20%"]
             }
         ],
-        "baseStats": [
-            "Excludes attack specfic bonuses, Hyper Skill passives, <img src='/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/> Falling Moon's %Final Damage decrease, and buffs with long cooldowns",
-            [
-                "<strong>Attack</strong>: [<span data-tooltip='Elemental Expert (Beginner Skill)'><img src='/class-icons/cygnus-knights/elemental-expert.png' alt='Skill Elemental Expert'/></span> +10%]",
-                "<strong>Crit Rate</strong>: [Base +5%] [<span data-tooltip='Soul Pledge (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png' alt='Skill Soul Pledge'/></span> +10%] [<span data-tooltip='Falling Moon (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/></span> +35% while active]",
-                "<strong>Crit Damage</strong>: [<span data-tooltip='Student of the Blade (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png' alt='Skill Student of the Blade'/></span> +12%]",
-                "<strong>Boss Damage</strong>: [<span data-tooltip='Unpredictable (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/unpredictable.png' alt='Skill Unpredictable'/></span> +15%]",
-                "<strong>Final Damage</strong>: [<span data-tooltip='Soul Blessing III (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-blessing-iii.png' alt='Skill Soul Blessing III'/></span> +10%] [<span data-tooltip='Rising Sun (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/></span> +25% while active] [<span data-tooltip='True Sight (3rd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/true-sight.png' alt='Skill True Sight'/></span> +5% from debuff]",
-                "<strong>Knockback Resistance</strong>: [<span data-tooltip='Soul of the Guardian (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-of-the-guardian.png' alt='Skill Soul of the Guardian'/></span> +40%] [<span data-tooltip='Soul Pledge (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-pledge.png' alt='Skill Soul Pledge'/></span> +60%]",
-                "<strong>Attack Speed (Weapon)</strong>: [1H] Stage 7, [2H] Stage 6 [<span data-tooltip='Rising Sun (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/></span> +2 while active, bypasses Soft Cap]",
-                "<strong>Ignore DEF</strong>: [<span data-tooltip='Soul Element (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-element.png' alt='Skill Soul Element'/></span> +10%] [<span data-tooltip='Unpredictable (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/unpredictable.png' alt='Skill Unpredictable'/></span> +30%] [<span data-tooltip='True Sight (3rd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/true-sight.png' alt='Skill True Sight'/></span> +10% from debuff]",
-                "<strong>Abnormal Status Resistance</strong>: [<span data-tooltip='Will of Steel (3rd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/will-of-steel.png' alt='Skill Will of Steel'/></span> 30] [<span data-tooltip='Cygnus Blessing (Link Skill)'><img src='/class-icons/link-skills/cygnus-blessing.png' alt='Skill Cygnus Blessing'/></span> up to 15]"
-            ]
-        ],
         "attackStats": [
             {
                 "name": "Weapon Multiplier",
@@ -92,13 +78,13 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Call of Cygnus (4th Job)'><img src='/class-icons/common/call-of-cygnus.png' alt='Skill Call of Cygnus'/></span>[900s]</div>",
+            "active": "None",
             "toggles": "<span data-tooltip='Soul Element (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-element.png' alt='Skill Soul Element'/></span> [ <span data-tooltip='Rising Sun (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/></span> / <span data-tooltip='Falling Moon (1st Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/></span> / <span data-tooltip='Equinox Cycle (2nd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png' alt='Skill Equinox Cycle'/></span> ]",
             "summons": "<div><span data-tooltip='Cosmic Shower (3rd Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png' alt='Skill Cosmic Shower'/></span>[45-75s](30s cd)</div> <div><span data-tooltip='Cosmos (5th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/cosmos.png' alt='Skill Cosmos'/></span>[15s](90s cd)</div> <div><span data-tooltip='Soul Eclipse (5th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png' alt='Skill Soul Eclipse'/></span>[40s](180s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</span>",
-            "buffCd": "<div><span data-tooltip='Cosmic Forge (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/cosmic-forge.png' alt='Skill Cosmic Forge'/></span>[60s](180s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Rift of Damnation (5th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/></span>[40s](180s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](240s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
+            "buffCd": "<div><span data-tooltip='Cosmic Forge (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/cosmic-forge.png' alt='Skill Cosmic Forge'/></span>[60s](180s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Rift of Damnation (5th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/></span>[40s](180s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Impaling Rays (4th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/impaling-rays.png' alt='Skill Impaling Rays'/></span>[10s](180s cd)</div> <div><span data-tooltip='Astral Blitz (6th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/astral-blitz.png' alt='Skill Astral Blitz'/></span>[10s](360s cd)</div>",
             "iFrame": "<div>[ <span data-tooltip='Blazing Assault (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png' alt='Skill Blazing Assault'/></span> / <span data-tooltip='Luster Charge (Hyper Skill)'><img src='/class-icons/cygnus-knights/dawn-warrior/luster-charge.png' alt='Skill Luster Charge'/></span> ][1.8s each](45s cd)</div> <div><span data-tooltip='Soul Eclipse (5th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png' alt='Skill Soul Eclipse'/></span>(180s cd)</div> <div><span data-tooltip='Astral Blitz (6th Job)'><img src='/class-icons/cygnus-knights/dawn-warrior/astral-blitz.png' alt='Skill Astral Blitz'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[15s](-5% | 240s cd)</div>"
+            "damageReduce": "<div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 120s cd)</div>"
         },
         "linkSkill": {
                 "id": 80000055,
@@ -213,16 +199,15 @@
                 },
                 {
                     "name": "Hero's Echo",
-                    "shortDesc": "MP Cost: 30, Attack Power and Magic ATT: + 4%, Duration: 40 min ",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/common/echo-of-hero.png"],
+                    "icons": ["/class-icons/common/heros-echo.png"],
                     "animations": ["https://media.giphy.com/media/bBqBUNwiIXrqQwfwLr/giphy.gif"],
                     "type": "Buff",
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "Affects all nearby players",
-                        "Has a cooldown (2 hrs)"
+                        "Affects all nearby players"
                     ]
                 }]
             ],
@@ -357,7 +342,8 @@
                         "type": "Toggle Buff",
                         "desc": "While toggled, automatically change stances every time a Solar/Luna attack is used",
                         "details": [
-                            "Additionally, increases the amount of bonus stats provided by each stance"
+                            "Additionally, increases the amount of bonus stats provided by each stance",
+                            "Right-clicking the skill will toggle the visual effect ON/OFF"
                         ]
                     },
                     {
@@ -506,11 +492,15 @@
                 [
                 "4th Job", [{
                     "name": "Call of Cygnus",
-                    "shortDesc": "MP Cost: 70, Increases all stats assigned APs by 15% for 900 sec",
+                    "shortDesc": "MP Cost: 70, awakened Empress appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/common/call-of-cygnus.png"],
                     "animations": ["https://media.giphy.com/media/Z0hYdCiataNqD5q7Po/giphy.gif"],
-                    "type": "Party Buff"
+                    "type": "Passive / Active",
+                    "desc": "",
+                    "details": [
+                        "Skill is a passive, the active effect does nothing except displays an animation"
+                    ]
                 },
                 {
                     "name": "Cygnus Knights' Will",
@@ -776,7 +766,7 @@
                     "icons": ["/class-icons/cygnus-knights/dawn-warrior/cosmos.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFtZHp2eGI3MGVybDR2aHNwcDF0eXZpcDNoOTlydjBqd3l4YXgwYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/05W8zwCjNa1mUOHtLu/giphy-downsized-large.gif"],
                     "type": "Cosmic Attack",
-                    "desc": "Surround yourself in a swirling galaxy that continously damages enemies within it",
+                    "desc": "Surround yourself in a swirling galaxy that continuously damages enemies within it",
                     "details": [
                         "Consumes all Cosmic Orbs to reduce the time between each attack per each orb consumed<ul><li>Requires at least 1 Cosmic Orb to use</li></ul>",
                         "Unaffected by Damage Reflect"
