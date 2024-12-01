@@ -50,8 +50,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+25%(45%)",
-                "detail": "<ul><li><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%</li> <li><span data-tooltip='Ancient Bow Expertise (4th Job)'><img src='/class-icons/explorers/pathfinder/ancient-bow-expertise.png' alt='Skill Ancient Bow Expertise'/></span> +10%</li></ul> <ul class='bs-debuff-val'><li class='bs-long-text'><div><span data-tooltip='Curseweaver (4th Job)'><img src='/class-icons/explorers/pathfinder/curseweaver.png' alt='Skill Curseweaver'/></span></div> <div>+4% per sucessful Cardinal attack<br/>(Max. +20% to Ancient Bow skills)</div></li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span> +50% of Crit Rate</li></ul>"
+                "stat": "+15%(25%)",
+                "detail": "<ul><li><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%</li></ul> <ul class='bs-debuff-val'><li class='bs-long-text'><div><span data-tooltip='Curseweaver (4th Job)'><img src='/class-icons/explorers/pathfinder/curseweaver.png' alt='Skill Curseweaver'/></span></div> <div>+2% per sucessful Cardinal attack<br/>(Max. +10% to Ancient Bow skills)</div></li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span> +50% of Crit Rate</li></ul>"
             },
             {
                 "name": "Damage",
@@ -65,8 +65,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+20%(29.6%) (42.56 for AF/EF Skills)",
-                "detail": "<ul><li><span data-tooltip='Guidance of the Ancients (3rd Job)'><img src='/class-icons/explorers/pathfinder/guidance-of-the-ancients.png' alt='Skill Guidance of the Ancients'/></span> +20%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Guidance of the Ancients (3rd Job)'><img src='/class-icons/explorers/pathfinder/guidance-of-the-ancients.png' alt='Skill Guidance of the Ancients'/></span> +8% after 500 Relic Gauge charged</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Ancient Archery (4th Job)'><img src='/class-icons/explorers/pathfinder/ancient-archery.png' alt='Skill Ancient Archery'/></span> +10% to Ancient & Enhance Force Skills</li></ul>"
+                "stat": "+32%(42.56%) (56.82% for AF/EF Skills)",
+                "detail": "<ul><li><span data-tooltip='Guidance of the Ancients (3rd Job)'><img src='/class-icons/explorers/pathfinder/guidance-of-the-ancients.png' alt='Skill Guidance of the Ancients'/></span> +20%</li></ul> × <ul><li><span data-tooltip='Ancient Bow Expertise (4th Job)'><img src='/class-icons/explorers/pathfinder/ancient-bow-expertise.png' alt='Skill Ancient Bow Expertise'/></span> +10%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Guidance of the Ancients (3rd Job)'><img src='/class-icons/explorers/pathfinder/guidance-of-the-ancients.png' alt='Skill Guidance of the Ancients'/></span> +8% after 500 Relic Gauge charged</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Ancient Archery (4th Job)'><img src='/class-icons/explorers/pathfinder/ancient-archery.png' alt='Skill Ancient Archery'/></span> +10% to Ancient & Enhance Force Skills</li></ul>"
             },
             {
                 "name": "Ignore DEF",
@@ -488,11 +488,11 @@
                     },
                     {
                         "name": "Curseweaver",
-                        "shortDesc": "Using certain skills will inflict enemies with the Ancient Curse debuff, which lasts for 30 sec and can be stacked up to 5 times.\\nSkills that utilize the Ancient Bow deal an increased 4% Critical Damage to enemies for each stack of the curse debuff currently afflicting them.",
+                        "shortDesc": "Certain skills inflict Ancient Curse, which lasts for 30 sec and can be stacked up to 5 times.\\nSkills that use the Ancient Bow deal an additional 2% Critical Damage to enemies for each stack of the curse currently affecting them.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/pathfinder/curseweaver.png"],
                         "type": "Passive",
-                        "desc": "Certain skills will inflict enemies with a stacking debuff",
+                        "desc": "Certain skills inflict enemies with a stacking debuff",
                         "details": [
                             "<strong>[Debuff]</strong>: Ancient Bow skills deal increased %Crit Damage for each stack",
                             "<span data-tooltip='Shadow Raven (3rd Job)'><img src='/class-icons/explorers/pathfinder/shadow-raven.png' alt='Skill Shadow Raven'/></span> will also target enemies that have the debuff"
@@ -605,7 +605,7 @@
                     },
                     {
                         "name": "Ancient Bow Expertise",
-                        "shortDesc": "Ancient Bow Mastery: +70%. Attack Power: +60, Critical Damage: +10%",
+                        "shortDesc": "Ancient Bow Mastery: +70%. Attack Power: +60, Final Damage: +10%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/pathfinder/ancient-bow-expertise.png", "/class-icons/explorers/pathfinder/ancient-bow-mastery.png"],
                         "type": "Upgraded Passive",
@@ -837,7 +837,7 @@
                 },
                 {
                     "name": "Obsidian Barrier",
-                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal fixed percent of damage by -20%.\\nThe shield will deal 760% damage 4 times to up to 8 enemies within its radius.\\nCooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal fixed percent of damage by -20%.\\nThe shield will deal 760% damage 5 times to up to 8 enemies within its radius.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "type": "Enchant Force Attack/Buff Zone",
                     "desc": "Creates a protective barrier for your and your party members that have different effects based on the emblem displayed on your Relic Gauge and damages enemies within it (except for Deluge)"
@@ -856,7 +856,7 @@
                 },
                 {
                     "name": "Obsidian Barrier [Burst]",
-                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%\\nThe shield will deal 1040% damage 4 times to up to 15 enemies within its radius.\\nCooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%\\nThe shield will deal 1040% damage 5 times to up to 15 enemies within its radius.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-burst.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/XO2wqf3jltl5YWG5Bi/giphy.gif"],
                     "type": "Enchant Force Attack/Buff Zone",
@@ -870,7 +870,7 @@
                 },
                 {
                     "name": "Obsidian Barrier [Torrent]",
-                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%.\\nThe shield will deal 1040% damage 4 times to up to 10 enemies within its radius.\\nRedeployment Cooldown: 2 sec, Cooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%.\\nThe shield will deal 1040% damage 5 times to up to 10 enemies within its radius.\\nRedeployment Cooldown: 2 sec, Cooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-torrent.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/RYRC7BQrkl3gNJttj6/giphy.gif"],
                     "type": "Enchant Force Attack/Buff Zone",
@@ -884,7 +884,7 @@
                 },
                 {
                     "name": "Relic Unbound",
-                    "shortDesc": "Relic Gauge Cost: 250\\nDeluge Enhancement: rapidly shoot arrows that periodically deal 1100% damage for 22 sec\\nBurst Enhancement: shoot arrows that explode 4 times periodically dealing 1375% damage up to 10 enemies 8 times for 10 sec, can shoot up to 4 arrows\\nTorrent Enhancement: sets up to 3 Relics that periodically attacks up to 6 enemies with 1540% damage 5 times for 40 sec\\nCooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 250\\nDeluge Enhancement: rapidly shoot arrows that periodically deal 1650% damage for 22 sec\\nBurst Enhancement: shoot arrows that explode 6 times periodically dealing 1400% damage up to 10 enemies 8 times for 10 sec, can shoot up to 4 arrows\\nTorrent Enhancement: sets up to 3 Relics that periodically attacks up to 6 enemies with 1650% damage 7 times for 40 sec\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/relic-unbound.png"],
                     "animations": ["https://media0.giphy.com/media/r6Va6RN6wAkIV0mc2G/giphy.gif"],
                     "type": "Enchant Force Summon",

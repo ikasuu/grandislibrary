@@ -264,7 +264,7 @@
                 },
                 {
                     "name": "Bullet Time",
-                    "shortDesc": "Max Movement Speed: +20, Jump: +10",
+                    "shortDesc": "Speed: +22, Jump: +10, Max Speed: +20",
                     "maxLevel": 5,
                     "icons": ["/class-icons/explorers/pirate/bullet-time.png"],
                     "type": "Passive"
@@ -544,7 +544,7 @@
                     },
                     {
                         "name": "Raging Serpent Assault",
-                        "shortDesc": "Continuously attacks enemies for up to 5 sec, dealing 240% damage 4 times to up to 6 enemies. Disappears after 15 attacks.\\n[Passive Effects] Serpent Assault Damage: +100%",
+                        "shortDesc": "MP Cost: 50, continuously attacks enemies for up to 5 sec, dealing 420% damage 4 times to up to 6 enemies. Disappears after 15 attacks.\\n[Passive Effects] Serpent Assault Damage: +100%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/buccaneer/raging-serpent-assault.png"],
                         "animations": ["https://media.giphy.com/media/msdg30Mx80OWgyCzb4/giphy.gif"],
@@ -786,7 +786,7 @@
             "fifthMain": [
                 {
                     "name": "Lightning Form",
-                    "shortDesc": "MP Cost: 1000\\nDuration: 80 sec, Final Damage: +26%.\\nCan use up to 3 energy orbs\\nEnergy orb will periodically deal 780% damage 10 times on up to 10 enemies, 1 orb can attack a single enemy up to 14 times\\nCritical Rate: +50%, Ignore Defense: +50%\\nCooldown: 180 sec.",
+                    "shortDesc": "MP Cost: 1000\\nDuration: 80 sec, Final Damage: +26%.\\nCan use up to 3 energy orbs\\nEnergy orb will periodically deal 1150% damage 10 times on up to 10 enemies, 1 orb can attack a single enemy up to 14 times\\nCritical Rate: +50%, Ignore Defense: +50%\\nCooldown: 180 sec.",
                     "icons": ["/class-icons/explorers/buccaneer/lightning-form.png"],
                     "animations": ["https://media.giphy.com/media/loGknU0C6bEvPEyerd/giphy-downsized-large.gif"],
                     "type": "Transform + Attack",
@@ -819,7 +819,8 @@
                     "desc": "Dashes towards a chosen direction while damaging enemies in your path",
                     "details": [
                         "Uses a special resource called 'Ocean Force' which is gained every 8 secs (up to 6 charges)",
-                        "Deals increased %Damage to bosses"
+                        "Deals increased %Damage to bosses",
+                        "Right-clicking the skill will toggle a function ON/OFF to consume all available 'Ocean Force' when skill is used to trigger all attacks in one attack"
                     ]
                 },
                 {

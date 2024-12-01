@@ -264,7 +264,7 @@
                 },
                 {
                     "name": "Bullet Time",
-                    "shortDesc": "Max Movement Speed: +20, Jump: +10",
+                    "shortDesc": "Speed: +22, Jump: +10, Max Speed: +20",
                     "maxLevel": 5,
                     "icons": ["/class-icons/explorers/pirate/bullet-time.png"],
                     "type": "Passive"
@@ -449,20 +449,20 @@
                 [
                     "4th Job", [{
                         "name": "Rapid Fire",
-                        "shortDesc": "MP Cost per attack: 9, Damage: 375% per shot, Speed: locked at 120 while active",
+                        "shortDesc": "MP Cost per attack: 9, Damage: 417% per shot, Speed: locked at 120 while active",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/corsair/rapid-fire.png"],
                         "animations": ["https://media.giphy.com/media/XtYwmU2z98HArNzMk7/giphy.gif"],
                         "type": "Key-down Attack",
-                        "desc": "Fires a flurry of bullets in front of you",
+                        "desc": "While held, fire a continuous stream of bullets forward",
                         "details": [
-                            "You can move while casting",
+                            "You can move and jump while casting",
                             "Not affected by Attack Speed"
                         ]
                     },
                     {
                         "name": "Brain Scrambler",
-                        "shortDesc": "MP Cost: 30, Damage: 880%, Number of Attacks: 13, Enemy DEF Ignored: 60%, Bonus Critical Chance: 100%\\nCooldown: 5 sec",
+                        "shortDesc": "MP Cost: 30, Damage: 984%, Number of Attacks: 13, Enemy DEF Ignored: 60%, Bonus Critical Chance: 100%\\nCooldown: 5 sec",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/corsair/brain-scrambler.png"],
                         "animations": ["https://media.giphy.com/media/MTxcXMzrT3uJFXKq8R/giphy.gif"],
@@ -510,14 +510,15 @@
                     },
                     {
                         "name": "Firing Orders",
-                        "shortDesc": "MP Cost: 40, Firing Orders Duration: 60 sec\\nOne set of Firing Orders can be active at any time.",
+                        "shortDesc": "MP Cost: 40, Duration: 60 sec\\nOne set of Firing Orders can be active at any time.\\nBroadside automatically bombards nearby enemies, and the bombardment prioritizes enemies affected by Parrotargetting. If there are no Parrotargetting enemies, it first attacks the boss monster.",
                         "maxLevel": 15,
                         "icons": ["/class-icons/explorers/corsair/firing-orders.png"],
                         "animations": ["https://media.giphy.com/media/Sh7AXigDZPcgG1liyy/giphy-downsized-large.gif"],
                         "type": "Active",
                         "desc": "Marks your location causing <span data-tooltip='Broadside (4th Job)'><img src='/class-icons/explorers/corsair/broadside.png' alt='Skill Broadside'/></span> to fire focused shots at the targeted location",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Ahoy Mateys (4th Job)'><img src='/class-icons/explorers/corsair/ahoy-mateys.png' alt='Skill Ahoy Mateys'/></span> Ahoy Mateys",
+                            "Shares Skill Points (SP) with <span data-tooltip='Broadside (4th Job)'><img src='/class-icons/explorers/corsair/broadside.png' alt='Skill Broadside'/></span>",
+                            "Prioritizes enemies marked with <span data-tooltip='Parrotargetting (4th Job)'><img src='/class-icons/explorers/corsair/parrotargetting.png' alt='Skill Parrotargetting'/></span> then bosses",
                             "Right-clicking the skill will toggle Auto Use ON/OFF causing <span data-tooltip='Parrotargetting (4th Job)'><img src='/class-icons/explorers/corsair/parrotargetting.png' alt='Skill Parrotargetting'/></span> to mark the location of the targeted enemy"
                         ]
                     },
@@ -531,7 +532,8 @@
                         "desc": "Fires a shot that debuffs an enemy and causes all attacks to target this enemy",
                         "details": [
                             "<strong>[Debuff]</strong>: Attacks against this enemy deal increased %Final Damage",
-                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage"
+                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage",
+                            "Prioritizes bosses within range"
                         ]
                     },
                     {
@@ -751,7 +753,7 @@
             "fifthMain": [
                 {
                     "name": "Bullet Barrage",
-                    "shortDesc": "MP Cost: 500 per second, Duration: 6, periodically deals 660% damage 7 times on up to 15 enemies.\\nCan move and jump while using the skill. This skill will be immediately canceled if you use it again.\\nCooldown: 75 sec",
+                    "shortDesc": "MP Cost: 500, Duration: 4 sec. Periodically deal 1435% damage 7 times on up to 15 enemies.\\nCan move and jump while using the skill. This skill will be immediately canceled if you use it again.\\nCooldown: 90 sec.",
                     "icons": ["/class-icons/explorers/corsair/bullet-barrage.png"],
                     "animations": ["https://media.giphy.com/media/lrmTrKzmPkoDZjV3bc/giphy.gif"],
                     "type": "Attack",
@@ -778,7 +780,7 @@
                 },
                 {
                     "name": "Nautilus Assault",
-                    "shortDesc": "MP Cost: 1500, Max Enemies Hit: 15, Invincible while casting\\nShip Attack: The ship attacks at set intervals. Damage: 1320%, Number of Attacks: 6, Ship Attack Activation Count: 7\\nVolley: Fires a volley at set intervals. Damage: 660%, Number of Attacks: 12, Volley Activation Count: 36\\nCooldown: 180 sec\\nWhen either Nautilus Strike or Nautilus Assault is used, a cooldown of 8 sec is applied, but it won't be applied if another cooldown longer than that time is already applied.",
+                    "shortDesc": "MP Cost: 1500, Max Enemies Hit: 15, Invincible while casting\\nShip Attack: The ship attacks at set intervals. Damage: 1980%, Number of Attacks: 6, Ship Attack Activation Count: 7\\nVolley: Fires a volley at set intervals. Damage: 990%, Number of Attacks: 12, Volley Activation Count: 36\\nCooldown: 180 sec\\nWhen either Nautilus Strike or Nautilus Assault is used, a cooldown of 8 sec is applied, but it won't be applied if another cooldown longer than that time is already applied.",
                     "icons": ["/class-icons/explorers/corsair/nautilus-assault.png"],
                     "animations": ["https://media.giphy.com/media/Db4nJ3waDY2WdafivA/giphy.gif"],
                     "type": "Attack",
@@ -791,7 +793,7 @@
                 },
                 {
                     "name": "Death Trigger",
-                    "shortDesc": "MP Cost: 750. Fires up to 7 shots, which attack up to 7 enemies with 715% damage 7 time(s).\\nCooldown: 45 sec. Cooldown decreases by 0.5 sec. for each remaining ricochet.",
+                    "shortDesc": "MP Cost: 750. Fires up to 7 shots, which attack up to 7 enemies with 780% damage 7 time(s).\\nCooldown: 45 sec. Cooldown decreases by 0.5 sec. for each remaining ricochet.",
                     "icons": ["/class-icons/explorers/corsair/death-trigger.png"],
                     "animations": ["https://media.giphy.com/media/NlVM3UQszpJsQhdbfr/giphy.gif"],
                     "type": "Attack",
@@ -820,7 +822,7 @@
                 },
                 {
                     "name": "HEXA Rapid Fire",
-                    "shortDesc": "MP Cost per attack: 19, Damage: 555% per shot. When 5 attacks land, reloads 1 clip. When 10 clips reload, changes to shootout mode. Speed locked at 120 while active.\\n[Passive Effect - Majestic Presence Damage: +145% points]\\n------Shootout Mode HEXA Rapid Fire------\\nMP Cost per attack: 19, consumes 1 clip every 0.6 sec\\nMax Enemies Hit: 6, Damage: 270%, Number of Consecutive Attacks: 4",
+                    "shortDesc": "MP Cost per attack: 19, Damage: 610% per shot. When 5 attacks land, reloads 1 clip. When 10 clips reload, changes to shootout mode. Speed locked at 120 while active.\\n[Passive Effect - Majestic Presence Damage: +145% points]\\n------Shootout Mode HEXA Rapid Fire------\\nMP Cost per attack: 19, consumes 1 clip every 0.6 sec\\nMax Enemies Hit: 6, Damage: 297%, Number of Consecutive Attacks: 4",
                     "icons": ["/class-icons/explorers/corsair/hexa-rapid-fire-1.png", "/class-icons/explorers/corsair/hexa-rapid-fire-2.png", "/class-icons/explorers/corsair/rapid-fire.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

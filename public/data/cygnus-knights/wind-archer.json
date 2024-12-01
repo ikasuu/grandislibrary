@@ -64,8 +64,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+48.5%",
-                "detail": "<ul><li><span data-tooltip='Bow Mastery (2nd Job)'><img src='/class-icons/cygnus-knights/wind-archer/bow-mastery.png' alt='Skill Bow Mastery'/></span> +10%</li></ul> × <ul><li><span data-tooltip='Bow Expert (4th Job)'><img src='/class-icons/cygnus-knights/wind-archer/bow-expert.png' alt='Skill Bow Expert'/></span> +35%</li></ul>"
+                "stat": "+61.87%",
+                "detail": "<ul><li><span data-tooltip='Bow Mastery (2nd Job)'><img src='/class-icons/cygnus-knights/wind-archer/bow-mastery.png' alt='Skill Bow Mastery'/></span> +10%</li></ul> × <ul><li><span data-tooltip='Eagle Eye (3rd Job)'><img src='/class-icons/cygnus-knights/wind-archer/eagle-eye.png' alt='Skill Eagle Eye'/></span> +9%</li></ul> × <ul><li><span data-tooltip='Bow Expert (4th Job)'><img src='/class-icons/cygnus-knights/wind-archer/bow-expert.png' alt='Skill Bow Expert'/></span> +35%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
@@ -357,7 +357,7 @@
                     },
                     {
                         "name": "Eagle Eye",
-                        "shortDesc": "Attack Power: +20, Max HP: +1500, Critical Rate: +10%, Attack Speed: +1",
+                        "shortDesc": "Attack Power: +20, Final Damage: 9%, Max HP: +1500, Critical Rate: +10%, Attack Speed: +1",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/wind-archer/eagle-eye.png"],
                         "type": "Passive"
@@ -432,14 +432,14 @@
                 },
                 {
                     "name": "Song of Heaven",
-                    "shortDesc": "MP Cost per attack: 8, Max Enemies Hit: 4, Damage: 390%",
+                    "shortDesc": "MP Cost per attack: 8, Max Enemies Hit: 4, Damage: 470%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/song-of-heaven.png"],
                     "animations": ["https://media.giphy.com/media/Jq0YVdCAMActr6F36N/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "While held, fires a hurricane of arrows",
                     "details": [
-                        "You cannot move while using this skill"
+                        "You can move while casting"
                     ]
                 },
                 {
@@ -455,7 +455,7 @@
                 },
                 {
                     "name": "Storm Bringer",
-                    "shortDesc": "MP Cost: 70, Duration: 200 sec., Chance to summon a large arrow on attack: 30%, Additional Damage from Arrow: 380%",
+                    "shortDesc": "MP Cost: 70, Duration: 200 sec., Chance to summon a large arrow on attack: 45%, Additional Damage from Arrow: 620%",
                     "maxLevel": 15,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/storm-bringer.png"],
                     "animations": ["https://media.giphy.com/media/VK7lUToMuv06Aksmgl/giphy.gif"],
@@ -658,7 +658,7 @@
                 },
                 {
                     "name": "Merciless Winds",
-                    "shortDesc": "MP Cost: 500, Duration: 8 sec. Creates 10 enemy-seeking Spirit Arrows that deal 1210% damage 3 times.\\nIf more than one Spirit Arrow strikes the same enemy, the Final Damage of each additional arrow is reduced by 15%.\\nEnemies hit by Spirit Arrows take 1100% damage every 1 sec for 9 sec\\nCooldown: 10 sec",
+                    "shortDesc": "MP Cost: 500, Duration: 8 sec. Creates 10 enemy-seeking Spirit Arrows that deal 925% damage 5 times.\\nIf more than one Spirit Arrow strikes the same enemy, the Final Damage of each additional arrow is reduced by 15%.\\nEnemies hit by Spirit Arrows take 1100% damage every 1 sec for 9 sec\\nCooldown: 10 sec",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/merciless-winds.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJ5cWpmNnFybHlnbGFjeXhzdmVpeGlieTdtY2d4bjN5MzJ0MTZhYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/46ALCfLORlc5i7WUmN/giphy.gif"],
                     "type": "Attack",
@@ -684,7 +684,7 @@
                 },
                 {
                     "name": "Vortex Sphere",
-                    "shortDesc": "MP Cost: 750. Creates a Vortex Sphere, which moves on a collision course with the enemy. The sphere periodically attacks up to 10 enemies, for 880% damage, 6 times.\\nDecreases Vortex Sphere's speed by 50% for 1 sec if a Boss Monster is attacked.\\nCollision occurs up to 20 times for each enemy.\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 750. Creates a Vortex Sphere, which moves on a collision course with the enemy. The sphere periodically attacks up to 10 enemies, for 960% damage, 6 times.\\nDecreases Vortex Sphere's speed by 50% for 1 sec if a Boss Monster is attacked.\\nCollision occurs up to 20 times for each enemy.\\nCooldown: 30 sec",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/vortex-sphere.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWlzNXF1NjB3ZXI1cDlyaWhuZWtheng4ZXoyMXdjYmlsdnlodWxncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lTkYFwGCdUDQg5AWUN/giphy.gif"],
                     "type": "Attack",
@@ -712,7 +712,7 @@
                 },
                 {
                     "name": "HEXA Song of Heaven",
-                    "shortDesc": "MP Cost per attack: 11, Max Enemies Hit: 4, Damage: 960%",
+                    "shortDesc": "MP Cost per attack: 11, Max Enemies Hit: 4, Damage: 1155%",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-song-of-heaven.png", "/class-icons/cygnus-knights/wind-archer/song-of-heaven.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

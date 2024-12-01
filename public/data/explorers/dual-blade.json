@@ -68,8 +68,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+68%(206.16%)",
-                "detail": "<ul><li><span data-tooltip='Katara Expert (4th Job)'><img src='/class-icons/explorers/dual-blade/katara-expert.png' alt='Skill Katara Expert'/></span> +20%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Final Cut (4th Job)'><img src='/class-icons/explorers/dual-blade/final-cut.png' alt='Skill Final Cut'/></span> +40%</li></ul> × <ul class='bs-temp-opt'><li><span data-tooltip='Advanced Dark Sight (3rd Job)'><img src='/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'/></span> +20% while in Dark Sight (<span data-tooltip='Shadow Walker (5th Job)'><img src='/class-icons/5th-job/shadow-walker.png' alt='Skill Shadow Walk'/></span> extra +14% while active)</li></ul> × <ul class='bs-opt-val'><li class='bs-long-text'><div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span></div> <div>+13% in Stage 1<br/>+36% in Stage 2</div></li></ul>"
+                "stat": "+38.65%(238.13%)",
+                "detail": "<ul><li><span data-tooltip='Venom (2nd Job+)'><img src='/class-icons/explorers/dual-blade/venom.png' alt='Skill Venom'/></span> +9%</li></ul> × <ul><li><span data-tooltip='Shadow Meld (3rd Job)'><img src='/class-icons/explorers/dual-blade/shadow-meld.png' alt='Skill Shadow Meld'/></span> +6%</li></ul> × <ul><li><span data-tooltip='Katara Expert (4th Job)'><img src='/class-icons/explorers/dual-blade/katara-expert.png' alt='Skill Katara Expert'/></span> +20%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Final Cut (4th Job)'><img src='/class-icons/explorers/dual-blade/final-cut.png' alt='Skill Final Cut'/></span> +40%</li></ul> × <ul class='bs-temp-opt'><li><span data-tooltip='Advanced Dark Sight (3rd Job)'><img src='/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'/></span> +20% while in Dark Sight (<span data-tooltip='Shadow Walker (5th Job)'><img src='/class-icons/5th-job/shadow-walker.png' alt='Skill Shadow Walk'/></span> extra +14% while active)</li></ul> × <ul class='bs-opt-val'><li class='bs-long-text'><div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span></div> <div>+13% in Stage 1<br/>+30% in Stage 2</div></li></ul>"
             },
             {
                 "name": "Ignore DEF",
@@ -220,8 +220,8 @@
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice",
-                            "Can be used twice in a row"
+                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
+                            "Horizontal jump can be used twice in a row"
                         ]
                     },
                     {
@@ -354,11 +354,11 @@
                         },
                         {
                             "name": "Venom",
-                            "shortDesc": "Status Chance: 30%, Damage Over Time: 90% damage every 1 sec for 6 sec",
+                            "shortDesc": "Status Chance: 30%, Damage Over Time: 90% damage every 1 sec for 6 sec\\nFinal Damage: +9%",
                             "maxLevel": 20,
                             "icons": ["/class-icons/explorers/dual-blade/venom.png"],
                             "type": "Passive",
-                            "desc": "Grants a chance for your attacks to apply a poisoning debuff"
+                            "desc": "Permanently increases %Final Damage and grants a chance for attacks to apply a poison debuff"
                         },
                         {
                             "name": "Slash Storm Boost",
@@ -394,10 +394,11 @@
                         "icons": ["/class-icons/explorers/dual-blade/blade-ascension.png"],
                         "animations": ["https://media.giphy.com/media/UjNgHKA7IScapuXYnf/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Slashes upward launching yourself into the air",
+                        "desc": "Slashes upward launching up into the air",
                         "details": [
                             "Pressing the Up Arrow Key and Skill Key together will boost you up higher",
-                            "Can be linked with <span data-tooltip='Flying Assualter (2nd Job+)'><img src='/class-icons/explorers/dual-blade/flying-assaulter.png' alt='Skill Flying Assaulter'/></span>"
+                            "Can be linked with <span data-tooltip='Flying Assualter (2nd Job+)'><img src='/class-icons/explorers/dual-blade/flying-assaulter.png' alt='Skill Flying Assaulter'/></span>",
+                            "The following limitations are applied to this skill:<ul><li>Can only be used one-time when used after an <span data-tooltip='Flash Jump (1st Job)'><img src='/class-icons/explorers/thief/flash-jump.png' alt='Skill Flash Jump'/></span> upward double jump</li><li>When casting this skill first, <span data-tooltip='Flash Jump (1st Job)'><img src='/class-icons/explorers/thief/flash-jump.png' alt='Skill Flash Jump'/></span> upward double jump cannot be used</li></ul>"
                         ]
                     },
                     {
@@ -455,7 +456,7 @@
                     },
                     {
                         "name": "Shadow Meld",
-                        "shortDesc": "Dodge Chance: 30%, Upon successful dodge, Attack Power +15 and all attacks performed afterwards will be Critical Hits for 7 sec. Cooldown upon successful dodge: 5 sec.",
+                        "shortDesc": "Dodge Chance: 30%, Upon successful dodge, Attack Power +15 and all attacks performed afterwards will be Critical Hits for 7 sec. Cooldown upon successful dodge: 5 sec.\\nFinal Damage: +6%.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/dual-blade/shadow-meld.png"],
                         "type": "Passive",
@@ -688,7 +689,7 @@
                 },
                 {
                     "name": "Asura's Anger",
-                    "shortDesc": "MP Cost: 300, Duration: 5 sec, Enemies Hit: 10, Damage: 693%, Number of Attacks: 5, Ignore Defense 100%. Can move and jump while using the skill. Immediately canceled if you use it again.\\nCooldown: 60 sec.",
+                    "shortDesc": "MP Cost: 300, Duration: 3 sec, Enemies Hit: 10, Damage: 560%, Number of Attacks: 6, Ignore Defense 100%. Can move and jump while using the skill. Immediately canceled if you use it again.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/dual-blade/asuras-anger.png"],
                     "animations": ["https://media.giphy.com/media/ekxSfhXGSMiWxQv7PM/giphy.gif"],
@@ -719,11 +720,11 @@
             "fifthMain": [
                 {
                     "name": "Blade Storm",
-                    "shortDesc": "MP Cost: 20 per attack. Attack up to 10 enemies, with 1270% damage, 7 times, then deals 960% damage, 5 times, on up to 10 enemies in front of you for 5 sec, ignoring 100% additional Enemy DEF.\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 20 per attack. Attack up to 10 enemies, with 1270% damage, 7 times, then deals 640% damage, 7 times, on up to 10 enemies in front of you for 4 sec, ignoring 100% additional Enemy DEF.\\nCooldown: 90 sec",
                     "icons": ["/class-icons/explorers/dual-blade/blade-storm.png"],
                     "animations": ["https://media2.giphy.com/media/jQElPxklrTLfYHBWQP/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Unleashes a barrage of slashes in front of you",
+                    "desc": "While held, unleash a barrage of slashes forward",
                     "details": [
                         "Attack has 100% Ignore DEF",
                         "You can move while attacking"
@@ -804,7 +805,7 @@
                 },
                 {
                     "name": "HEXA Asura's Anger",
-                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 4, Damage: 530%, Number of Attacks: 6, Ignore Defense: 40%",
+                    "shortDesc": "MP Cost: 330, Duration: Up to 3 sec, Max Enemies Hit: 10, Damage: 1110%, Number of Attacks: 6\\nMonster DEF Ignored: 100%\\nCan move and jump while using the skill. Immediately canceled if you use it again.\\nCooldown: 60 sec\\n[Passive Effect: HEXA Phantom Blow Damage: +106%p]",
                     "icons": ["/class-icons/explorers/dual-blade/hexa-asuras-anger.png", "/class-icons/explorers/dual-blade/asuras-anger.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -816,7 +817,7 @@
             "originSkill": [
                 {
                     "name": "Karma Blade",
-                    "shortDesc": "MP Cost: 1200, invincible during casting\\nThe God of Hellfire descends, Max Enemies Hit: 15, Damage: 960%, Number of Attacks: 5, Chase Cuts: 6. Afterwards, Damage: 900%, Number of Attacks: 7, Chase Cuts: 20\\nWhen attack hits for 20 sec, 1 Karma Blade use is consumed for an additional attack, Max Enemies Hit: 3, Damage: 857%, Number of Attacks: 7, Cooldown: 0.1 sec\\nKarma Blade Uses: 50\\nThe God of Hellfire manifests when the Karma Blade is completely consumed or its duration ends, Enemies Hit: 15, Damage: 1100%, Number of Attacks: 7, Chase Cuts: 30\\nWhen the God of Hellfire manifests, invincible and ignores status effects for 1 sec.\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nThe God of Hellfire descends, Max Enemies Hit: 15, Damage: 960%, Number of Attacks: 5, Chase Cuts: 6. Afterwards, Damage: 900%, Number of Attacks: 7, Chase Cuts: 20\\nWhen attack hits for 20 sec, 1 Karma Blade use is consumed for an additional attack, Max Enemies Hit: 3, Damage: 1071%, Number of Attacks: 8, Cooldown: 0.1 sec\\nKarma Blade Uses: 35\\nThe God of Hellfire manifests when the Karma Blade is completely consumed or its duration ends, Enemies Hit: 15, Damage: 1100%, Number of Attacks: 7, Chase Cuts: 30\\nWhen the God of Hellfire manifests, invincible and ignores status effects for 1 sec.\\nCooldown: 360 sec",
                     "icons": ["/class-icons/explorers/dual-blade/karma-blade.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHU0MTE0dHZhb3FhbzFxMmNlc2t1dm9paHVtemg3aDlrOXpyODYyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/twgvrGlycJsOAzE6yD/giphy.gif"],
                     "type": "Bind Attack",
