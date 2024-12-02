@@ -53,8 +53,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+30%(60%)",
-                "detail": "<ul><li><span data-tooltip='Priere D&#39;Aria (3rd Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39Aria'/></span> +30%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/phantom/heroic-memories.png' alt='Skill Heroic Memories'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
+                "stat": "+45%(75%)",
+                "detail": "<ul><li><span data-tooltip='Priere D&#39;Aria (3rd Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39Aria'/></span> +45%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Heroic Memories (Hyper Skill)'><img src='/class-icons/heroes/phantom/heroic-memories.png' alt='Skill Heroic Memories'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
             },
             {
                 "name": "Boss Damage",
@@ -63,13 +63,13 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+71.6%(147.38%)",
+                "stat": "+71.6%(132.88%)",
                 "detail": "<ul><li><span data-tooltip='Piercing Vision (3rd Job)'><img src='/class-icons/heroes/phantom/piercing-vision.png' alt='Skill Piercing Vision'/></span> +30%</li></ul> × <ul><li><span data-tooltip='Cane Expert (4th Job)'><img src='/class-icons/heroes/phantom/cane-expert.png' alt='Skill Cane Expert'/></span> +32%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Luck of the Draw (5th Job)'><img src='/class-icons/heroes/phantom/luck-of-the-draw.png' alt='Skill Luck of the Draw'/></span><span data-tooltip='Luck of the Draw - Three Swords (5th Job)'><img src='/class-icons/heroes/phantom/luck-of-the-draw-blue.png' alt='Skill Luck of the Draw - Three Swords'/></span> +6%</li></ul> × <ul class='bs-opt-val'><li class='bs-long-text'><div><span data-tooltip='Last Resort (5th Job)'><img src='/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span></div> <div>+13% in Stage 1<br/>+30% in Stage 2</div></li></ul>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+44%",
-                "detail": "<ul><li><span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Penombre (4th Job)'><img src='/class-icons/heroes/phantom/penombre.png' alt='Skill Penombre'/></span> +20%</li></ul>"
+                "detail": "<ul><li><span data-tooltip='Priere D&#39;Aria (4th Job)'><img src='/class-icons/heroes/phantom/priere-daria.png' alt='Skill Priere D&#39;Aria'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Tempest (4th Job)'><img src='/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> +20%</li></ul>"
             }
         ],
         "buffInfo": {
@@ -410,13 +410,14 @@
                     },
                     {
                         "name": "Tempest",
-                        "shortDesc": "MP Cost per attack: 20, Can hold key down for up to 5 sec, Max Enemies Hit: 8, Damage: 455%, Number of Attacks: 3\\nCooldown: 18 sec",
+                        "shortDesc": "MP Cost per attack: 20, Can hold key down for up to 5 sec, Max Enemies Hit: 8, Damage: 455%, Number of Attacks: 3\\nEnemy DEF Ignored: 20% for 60\\nCooldown: 18 sec",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/phantom/tempest.png"],
                         "animations": ["https://media.giphy.com/media/Lm6UVRo6Yvd9DnAilg/giphy.gif  "],
                         "type": "Key-down Attack",
-                        "desc": "While held, releases an expanding tornado of cards that deals damage to enemies within it",
+                        "desc": "While held, release a storm of cards that damages enemies within and applies a debuff",
                         "details": [
+                            "<strong>[Debuff]</strong>: Enemy takes increased %Ignore DEF",
                             "All attacks from Tempest are critical hits",
                             "You may move while casting"
                         ]
@@ -451,7 +452,7 @@
                     },
                     {
                         "name": "Priere D'Aria",
-                        "shortDesc": "MP Cost: 120, Aria's image appears.\\n[Passive Effects - Damage: +30%, Ignore Defense: 30%, Knockback Resistance: +60%]",
+                        "shortDesc": "MP Cost: 120, Aria's image appears.\\n[Passive Effects - Damage: +45%, Ignore Defense: 30%, Knockback Resistance: +60%]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/phantom/priere-daria.png"],
                         "animations": ["https://media3.giphy.com/media/kM7XSZHNvYjz9Fb8LN/giphy.gif"],
@@ -625,7 +626,7 @@
             "fifthMain": [
                 {
                     "name": "Luck of the Draw",
-                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 7 sec. Attack by periodically throwing multiple cards forward. Damage: 770%, Number of Attacks: 1, Damage Taken during skill: -15%.\\nWhen finished, draws a card to buff all party members for 30 sec.\\nPriest - Increases Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -8%, Abnormal Status Resistance: +25\\nHourglass - Active Cooldowns shortened by 32% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +6%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 5 sec. Attack by periodically throwing multiple cards forward. Damage: 820%, Number of Attacks: 1, Damage Taken during skill: -15%.\\nWhen finished, draws a card to buff all party members for 30 sec.\\nPriest - Increases Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -8%, Abnormal Status Resistance: +25\\nHourglass - Active Cooldowns shortened by 32% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +6%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 180 sec",
                     "icons": ["/class-icons/heroes/phantom/luck-of-the-draw.png"],
                     "animations": ["https://media3.giphy.com/media/z6sDesJ5bVpSzyhmni/giphy.gif"],
                     "type": "Key-down Attack",
@@ -638,7 +639,7 @@
                 },
                 {
                     "name": "Ace in the Hole",
-                    "shortDesc": "MP Cost: 800, 3 of cards ricochet 6 times, dealing 1320% damage, before releasing the energy stored inside to strike up to 12 enemies for 1760% damage 6 times.\\nLiberated Card: activates its offensive power 3 time(s). Max Enemies Hit: 10, Damage: 1540%, Number of Attacks: 1. Attacks are activated up to 21 time(s) in proportion to the number the ricocheted cards' remaining attacks.\\nCooldown: 15 sec.",
+                    "shortDesc": "MP Cost: 800, 3 of cards ricochet 6 times, dealing 1430% damage, before releasing the energy stored inside to strike up to 12 enemies for 1925% damage 6 times.\\nLiberated Card: activates its offensive power 3 time(s). Max Enemies Hit: 10, Damage: 1540%, Number of Attacks: 1. Attacks are activated up to 21 time(s) in proportion to the number the ricocheted cards' remaining attacks.\\nCooldown: 15 sec.",
                     "icons": ["/class-icons/heroes/phantom/ace-in-the-hole.png"],
                     "animations": ["https://media0.giphy.com/media/kW29e07w4a3CHWerXZ/giphy.gif", "https://media.giphy.com/media/5OHxZzpfuOcCoWqj1i/giphy.gif"],
                     "type": "Attack",
@@ -667,7 +668,7 @@
                 },
                 {
                     "name": "Rift Break",
-                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 10, Damage: 880%, Number of Attacks: 7, Max Chase Cut or Teleport: 7\\nCooldown: 30 sec, cooldown is reduced by 3.5 sec per remaining teleports",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 10, Damage: 990%, Number of Attacks: 7, Max Chase Cut or Teleport: 7\\nCooldown: 30 sec, cooldown is reduced by 3.5 sec per remaining teleports",
                     "icons": ["/class-icons/heroes/phantom/rift-break.png"],
                     "animations": ["https://media2.giphy.com/media/gyZW0xYCyfmnrWLg3O/giphy.gif"],
                     "type": "Attack",
@@ -695,7 +696,7 @@
                 },
                 {
                     "name": "HEXA Tempest",
-                    "shortDesc": "MP Cost per attack: 25, Can hold key down for up to 3 sec, Max Enemies Hit: 8, Damage: 840%, Number of Attacks: 4\\nCooldown: 18 sec",
+                    "shortDesc": "MP Cost per attack: 25, Can hold key down for up to 3 sec, Max Enemies Hit: 8, Damage: 850%, Number of Attacks: 4\\nEnemy DEF Ignored: 20% for 60\\nCooldown: 18 sec",
                     "icons": ["/class-icons/heroes/phantom/hexa-tempest.png", "/class-icons/heroes/phantom/tempest.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -716,7 +717,7 @@
                 },
                 {
                     "name": "HEXA Mille Aiguilles",
-                    "shortDesc": "MP Cost per Attack: 17, Damage: 450%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.\\n------HEXA Mille Aiguilles: Fortune------\\nMP Cost: 75, Max Enemies Hit: 7, Damage: 670%, Number of Attacks: 6",
+                    "shortDesc": "MP Cost per Attack: 17, Damage: 485%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.\\n------HEXA Mille Aiguilles: Fortune------\\nMP Cost: 75, Max Enemies Hit: 7, Damage: 670%, Number of Attacks: 6",
                     "icons": ["/class-icons/heroes/phantom/hexa-mille-aiguilles.png", "/class-icons/heroes/phantom/hexa-mille-aiguilles-fortune.png", "/class-icons/heroes/phantom/mille-aiguilles.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
