@@ -18,7 +18,7 @@
             },
             {
                 "name": "2nd & 3rd Line Options",
-                "abilities": ["Boss Damage +10%", "Damage to Abnormal Status +8%", "Crit Rate +20%", "Chance to Skip Cooldown +10%", "Meso Obtained +10% (For Training if +1 Passive Skills is 1st Line)"]
+                "abilities": ["Boss Damage +10%", "Damage to Abnormal Status +8%", "Crit Rate +20%", "Chance to Skip Cooldown +10%", "Meso Obtained +15% (For Training if +1 Passive Skills is 1st Line)"]
             }
         ],
         "attackStats": [
@@ -249,7 +249,7 @@
                     },
                     {
                         "name": "Response",
-                        "shortDesc": "Speed: +20, Max Speed: +15, Jump: +20, Max HP: +20%, Defense: +100, Damage Taken: -15%",
+                        "shortDesc": "Speed: +22, Max Speed: +20, Jump: +20, Max HP: +20%, Defense: +100, Damage Taken: -15%",
                         "maxLevel": 14,
                         "icons": ["/class-icons/anima/lara/response.png"],
                         "type": "Passive"
@@ -419,14 +419,14 @@
                     },
                     {
                         "name": "Dragon Vein Traces",
-                        "shortDesc": "MP Cost: 65. Uses 1 Earthly Energy. Max Enemies Hit: 5, Damage: 500%, Number of Attacks: 2\\n1 Earthly Energy is recharged every 6 sec., and you can hold up to 3 at a time.\\nCooldown: 1 sec.",
+                        "shortDesc": "MP Cost: 65. Uses 1 Earthly Energy. Max Enemies Hit: 5, Damage: 500%, Number of Attacks: 2\\n1 Earthly Energy is recharged every 6 sec., and you can hold up to 4 at a time.\\nCooldown: 1 sec.",
                         "maxLevel": 5,
                         "icons": ["/class-icons/anima/lara/dragon-vein-traces.png"],
                         "animations": ["https://media.giphy.com/media/tV9botTZ3s5ZoNk0zH/giphy-downsized-large.gif"],
                         "type": "Attack",
                         "desc": "Teleports to a nearby Dragon Vein and damages nearby enemies around it",
                         "details": [
-                            "Uses a special resource called Earthly Energy<ul><li>You gain one Earthly Energy every 6 secs (up to 3 at a time)</li></ul>",
+                            "Uses a special resource called Earthly Energy<ul><li>You gain one Earthly Energy every 6 secs (up to 4 at a time)</li></ul>",
                             "Prioritizes unactivated Dragon Veins"
                         ]
                     },
@@ -787,7 +787,7 @@
             "fifthMain": [
                 {
                     "name": "Big Stretch",
-                    "shortDesc": "MP Cost: 500. Awaken 5 Dragon Vein(s) within a certain range around another Dragon Vein.\\nEach awakened Dragon Vein creates 7 intangible force(s). Intangible Force Damage: 1320%, Number of Attacks: 5\\nIf several intangible forces hit a single enemy, Final Damage for the second force and onwards: -30%\\nCooldown: 60 sec. Cooldown if awakened Dragon Vein count is less than the max number that can be awakened: -12 sec for each Dragon Vein that could be awakened",
+                    "shortDesc": "MP Cost: 500. Awaken 4 Dragon Vein(s) within a certain range around another Dragon Vein.\\nEach awakened Dragon Vein creates 7 intangible force(s). Intangible Force Damage: 2420%, Number of Attacks: 5\\nIf several intangible forces hit a single enemy, Final Damage for the second force and onwards: -30%\\nCooldown: 60 sec. Cooldown if awakened Dragon Vein count is less than the max number that can be awakened: -12 sec for each Dragon Vein that could be awakened",
                     "icons": ["/class-icons/anima/lara/big-stretch.png"],
                     "animations": ["https://media.giphy.com/media/xLg0yzMUiLfqcowuFc/giphy.gif"],
                     "type": "Attack",
@@ -795,14 +795,14 @@
                     "details": [
                         "Enemies hit by multiple missiles take reduced %Final Damage after the first missile",
                         "Prioritizes bosses with the highest HP first",
-                        "While casting, you gain 100% Knockback Resistance",
+                        "While casting, gain 100% Knockback Resistance",
                         "Cooldown is reduced for each Dragon Vein remaining if less than the max number is consumed",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Land's Connection",
-                    "shortDesc": "MP Cost: 1200, Land spirits appear in the order of Mountain, River, Wind, and Sunlight, shocking enemies with 1850% Damage 3 time(s). Number of Attacks: 10, Max Enemies Hit: 10. Afterwards, activates explosion with 2245% Damage 15 time(s), Number of Attacks: 7, Max Enemies Hit: 10.\\nCooldown: 180 sec.",
+                    "shortDesc": "MP Cost: 1200, Land spirits appear in the order of Mountain, River, Wind, and Sunlight, shocking enemies with 2310% Damage 3 time(s). Number of Attacks: 10, Max Enemies Hit: 10. Afterwards, activates explosion with 3080% Damage 15 time(s), Number of Attacks: 7, Max Enemies Hit: 10.\\nCooldown: 180 sec.",
                     "icons": ["/class-icons/anima/lara/lands-connection.png"],
                     "animations": ["https://media.giphy.com/media/g2omWH4l6ma91bEAes/giphy-downsized-large.gif"],
                     "type": "Attack",
@@ -813,7 +813,7 @@
                 },
                 {
                     "name": "Surging Essence",
-                    "shortDesc": "MP Cost: 80, Shock enemies with 1500% Damage 6 time(s), Number of Attacks: 8, Max Enemies Hit: 10\\nCooldown: 20 sec.",
+                    "shortDesc": "MP Cost: 80, Shock enemies with 1870% Damage 6 time(s), Number of Attacks: 8, Max Enemies Hit: 10\\nCooldown: 20 sec.",
                     "icons": ["/class-icons/anima/lara/surging-essence.png"],
                     "animations": ["https://media.giphy.com/media/glwPRsSJ87bhEeTwJJ/giphy.gif"],
                     "type": "Attack",
@@ -821,7 +821,7 @@
                 },
                 {
                     "name": "Winding Mountain Ridge",
-                    "shortDesc": "MP Cost: 500. Summons 3 group(s) of Mountain Spirits within a certain range. Once summoned, they periodically run at enemies to attack. Group Summon Duration: 30 sec. Max Enemies Hit: 6, Damage: 660%, Number of Attacks: 4. Running into enemies decreases running speed. Max Number of Attacks: 20 per group\\nCooldown: 60 sec.",
+                    "shortDesc": "MP Cost: 500. Summons 3 group(s) of Mountain Spirits within a certain range. Once summoned, they periodically run at enemies to attack. Group Summon Duration: 30 sec. Max Enemies Hit: 6, Damage: 1100%, Number of Attacks: 4. Running into enemies decreases running speed. Max Number of Attacks: 20 per group\\nCooldown: 60 sec.",
                     "icons": ["/class-icons/anima/lara/winding-mountain-ridge.png"],
                     "animations": ["https://media.giphy.com/media/HcG7R8OWVRD6ILfcOf/giphy-downsized-large.gif"],
                     "type": "Summon",
@@ -870,8 +870,8 @@
                     ]
                 },
                 {
-                    "name": "HEXA Essence Sprinkle",
-                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 7, Damage: 840%, Number of Attacks: 4\\n[Passive Effects - Mountain Kid and Mountain Seeds Damage: +660% points]",
+                    "name": "HEXA Dragon Vein Eruption",
+                    "shortDesc": "MP Cost: 60, Activates an Eruption skill that matches the Dragon Vein's attribute.\\nIncreases Damage by 1% per 2% increase in Summons Duration.\\nCooldown: 0.3 sec.\\n[Passive Effect: Absorption Skill Final Damage: +21%]",
                     "icons": ["/class-icons/anima/lara/hexa-dragon-vein-eruption.png", "/class-icons/anima/lara/dragon-vein-eruption.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -881,7 +881,7 @@
                 },
                 {
                     "name": "HEXA Eruption: Heaving River",
-                    "shortDesc": "River Spirit Duration: 18 sec\\nSurge Max Enemies Hit: 8, Damage: 1050%, Number of Attacks: 5, Large Surge Max Enemies Hit: 10, Damage: 1220%, Number of Attacks: 8\\nRegular and Large Surges Triggered: 9",
+                    "shortDesc": "River Spirit Duration: 18 sec\\nSurge Max Enemies Hit: 8, Damage: 1110%, Number of Attacks: 5, Large Surge Max Enemies Hit: 10, Damage: 1320%, Number of Attacks: 8\\nRegular and Large Surges Triggered: 9",
                     "icons": ["/class-icons/anima/lara/hexa-eruption-heaving-river.png", "/class-icons/anima/lara/eruption-heaving-river.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -891,7 +891,7 @@
                 },
                 {
                     "name": "HEXA Eruption: Whirlwind",
-                    "shortDesc": "Wind Spirit Duration: 18 sec\\nWhirlwind Max Enemies Hit: 10, Damage: 628%, Number of Consecutive Attacks: 5, Max Whirlwinds: 5",
+                    "shortDesc": "Wind Spirit Duration: 18 sec\\nWhirlwind Max Enemies Hit: 10, Damage: 690%, Number of Consecutive Attacks: 5, Max Whirlwinds: 5",
                     "icons": ["/class-icons/anima/lara/hexa-eruption-whirlwind.png", "/class-icons/anima/lara/eruption-whirlwind.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -901,7 +901,7 @@
                 },
                 {
                     "name": "HEXA Eruption: Sunrise Well",
-                    "shortDesc": "Giant Max Enemies Hit: 10, Damage: 1048%, Number of Attacks: 6\\nAfter attack, Lava Area Duration: 18 sec\\nDamage: 570% per 1 sec, Number of Attacks: 1, Max Enemies Hit: 10\\nPeriodically creates 5 volcanic bomb(s), Volcanic Bomb Damage: 668%, Number of Attacks: 3\\nMax Volcanic Bombs: 5, If several volcanic bombs hit a single enemy, Final Damage for the second volcanic bomb and onwards: -10%.\\nDamage Over Time for enemies hit by volcanic bombs: 195% damage for 8 sec.",
+                    "shortDesc": "Giant Max Enemies Hit: 10, Damage: 1060%, Number of Attacks: 6\\nAfter attack, Lava Area Duration: 18 sec\\nDamage: 600% per 1 sec, Number of Attacks: 1, Max Enemies Hit: 10\\nPeriodically creates 5 volcanic bomb(s), Volcanic Bomb Damage: 675%, Number of Attacks: 3\\nMax Volcanic Bombs: 5, If several volcanic bombs hit a single enemy, Final Damage for the second volcanic bomb and onwards: -10%.\\nDamage Over Time for enemies hit by volcanic bombs: 195% damage for 8 sec.",
                     "icons": ["/class-icons/anima/lara/hexa-eruption-sunrise-well.png", "/class-icons/anima/lara/eruption-sunrise-well.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

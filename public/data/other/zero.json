@@ -180,24 +180,27 @@
                     "shortDesc": "Time Force Cost: 5, while jumping, use the jump key to jump certain distance\\nCan be linked with Burst Step",
                     "maxLevel": 1,
                     "icons": ["/class-icons/other/zero/burst-jump.png"],
-                    "animations": ["https://media.giphy.com/media/S5VziRkqsdIYoAYMBG/giphy.gif"],
+                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmdnd3N2NWo3b3h5c2N2eTU4NnA2Zjl5azZ5d2hrOGx6MnkwaWE1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e9GCjS4tjyCMJFuuMQ/giphy.gif"],
                     "type": "Active",
                     "desc": "Double jump skill",
                     "details": [
-                        "Can be assigned a Key Slot or activated by pressing jump twice"
+                        "Can be assigned a Key Slot or activated by pressing jump twice",
+                        "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump",
+                        "Upon using vertical jump, <span data-tooltip='Burst Step (Transcendent)'><img src='/class-icons/other/zero/burst-step.png' alt='Skill Burst Step'/></span> vertical dash cannot be used before landing"
                     ]
                 },
                 {
                     "name": "Burst Step",
-                    "shortDesc": "Time Force Cost: 5, press arrow keys UP, DOWN, LEFT, RIGHT and then use the skill to move in the corresponding direction\\nDouble-tap UP UP, DOWN DOWN, LEFT LEFT, RIGHT RIGHT to move in that direction\\nCan be used on a ladder or rope. Can be linked with Burst Jump",
+                    "shortDesc": "Time Force Cost: 5, press arrow key and then use the skill to move in the corresponding direction\\nDouble-tap an arrow key to move in that direction\\nUpward Burst Step can't be used immediately after using upward Burst Jump.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/other/zero/burst-step.png"],
                     "animations": ["https://media.giphy.com/media/RJJQfT8eXvJ31kH18e/giphy.gif"],
                     "type": "Active",
                     "desc": "Pressing any directional Arrow Key twice will dash towards that direction",
                     "details": [
-                        "Can be used on ladders as well and links with <span data-tooltip='Burst Jump (Transcendent)'><img src='/class-icons/other/zero/burst-jump.png' alt='Skill Burst Jump'/></span>",
                         "Can be assigned a Key Slot, pressing the Skill Key plus an Arrow Key will activate Burst Step",
+                        "Can be used on ladders and links with <span data-tooltip='Burst Jump (Transcendent)'><img src='/class-icons/other/zero/burst-jump.png' alt='Skill Burst Jump'/></span> except the vertical jump",
+                        "Upon using, <span data-tooltip='Burst Jump (Transcendent)'><img src='/class-icons/other/zero/burst-jump.png' alt='Skill Burst Jump'/></span> vertical jump cannot be used before landing",
                         "Right-clicking the skill will toggle a lock to prevent it from activating with the Arrow Keys"
                     ]
                 },
@@ -897,7 +900,7 @@
             "originSkill": [
                 {
                     "name": "End Time",
-                    "shortDesc": "Time Force Cost: 40, invincible during casting\\nThe mirror of illusion shatters, causing 17 Chase Cuts that attack 15 enemies with 1400% damage 6 times\\nAwakens the power of the transcendent, causing 22 time distortion(s) that attack up to 15 enemies with 1400% damage 8 time(s)\\nAfter that, a final blow that attacks up to 15 enemies with 1430% damage 14 times erupts 32 times.\\nCooldown: 360 sec",
+                    "shortDesc": "Time Force Cost: 40, invincible during casting\\nGrants the Detect and Strength effects at max stack\\nThe mirror of illusion shatters, causing 17 Chase Cuts that attack 15 enemies with 1400% damage 6 times\\nAwakens the power of the transcendent, causing 22 time distortion(s) that attack up to 15 enemies with 1400% damage 8 time(s)\\nAfter that, a final blow that attacks up to 15 enemies with 1430% damage 14 times erupts 32 times.\\nCooldown: 360 sec",
                     "icons": ["/class-icons/other/zero/end-time.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDQxczd2a3FhaG1mZjVlM2pienZqem5ucGhwZ2Q3MXY0MTIza21xcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2kb4p9OazR0rad1UY/giphy-downsized-large.gif"],
                     "type": "Bind Attack",
