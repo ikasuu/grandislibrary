@@ -206,7 +206,7 @@
                     },
                     {
                         "name": "Shadow Swiftness",
-                        "shortDesc": "Movement Speed +25, Jump +20",
+                        "shortDesc": "Speed +25, Jump +20, Max Speed: +20",
                         "maxLevel": 10,
                         "icons": ["/class-icons/resistance/demon-slayer/shadow-swiftness.png"],
                         "type": "Passive"
@@ -444,15 +444,14 @@
                 },
                 {
                     "name": "Demon Cry",
-                    "shortDesc": "HP Cost: 400, Fury Cost: 30, Number of Attacks: 7, Damage: 515%, Max Monsters Hit: 15. Duration: 60 sec, Enemy ATT and DEF: -15%, Accuracy -20%, EXP and Item Drop Rate: +20%.\\nCooldown: 14 sec, reduced for 7 sec while Boundless Rage is in use",
+                    "shortDesc": "HP Cost: 400, Fury Cost: 30, Number of Attacks: 7, Damage: 515%, Max Monsters Hit: 15\\nFor 60 sec, Enemy Attack and Defense: -15%, Accuracy -20%, EXP and Item Drop Rate: +20%.\\nCooldown: 6 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/demon-slayer/demon-cry.png"],
                     "animations": ["https://media1.giphy.com/media/fUMCSC894TxZMR4epj/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Launches into the air and creates a large shockwave that damages and debuffs enemies",
+                    "desc": "Release a large shockwave that damages and debuffs enemies",
                     "details": [
-                        "<strong>[Debuff]</strong>: Enemy has decreased %Attack, %DEF, and %Accuracy. Enemy will grant increased %EXP and Item Drop Rate while defeated<ul><li>Reduction to %DEF can be considered as %Ignore DEF</li></ul>",
-                        "Cooldown is reduced when <span data-tooltip='Boundless Rage (4th Job)'><img src='/class-icons/resistance/demon-slayer/boundless-rage.png' alt='Skill Boundless Rage'/></span> is active"
+                        "<strong>[Debuff]</strong>: Enemy has decreased %Attack, %DEF, and %Accuracy. Enemy also will grant increased %EXP and Item Drop Rate when defeated<ul><li>Reduction to %DEF can be considered as %Ignore DEF</li></ul>"
                     ]
                 },
                 {

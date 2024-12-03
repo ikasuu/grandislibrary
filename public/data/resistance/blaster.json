@@ -48,18 +48,18 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+20%",
-                "detail": "<ul><li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +20%</li></ul>"
+                "stat": "+15%",
+                "detail": "<ul><li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +15%</li></ul>"
             },
             {
                 "name": "Damage",
-                "stat": "+20%(80%)",
+                "stat": "+15%(75%)",
                 "detail": "<ul><li><span data-tooltip='Charge Mastery (2nd Job)'><img src='/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/></span> +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='For Liberty (Hyper Skill)'><img src='/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li> <li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul> "
             },
             {
                 "name": "Boss Damage",
-                "stat": "+20%",
-                "detail": "<ul><li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +20%</li></ul>"
+                "stat": "+15%",
+                "detail": "<ul><li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +15%</li></ul>"
             },
             {
                 "name": "Final Damage",
@@ -271,14 +271,13 @@
                     },
                     {
                         "name": "Revolving Cannon Mastery",
-                        "shortDesc": "[Final Attack Type Skill] When the Dynamo Gauge has at least 1 stock, direct attacks from the Arm Cannon will trigger additional attacks which deal 75% 1 times. For each charged Dynamo Gauge stock, the damage of the additional hits increase by 10%.\\nPermanently increases Movement Speed by 30, Jump Power by 15, and Max Movement Speed by 20.",
+                        "shortDesc": "[Final Attack Type Skill] Direct attacks from the Arm Cannon trigger additional attacks which deal 120% on up to 6 enemies 1 times.\\nPermanently increases Movement Speed by 30, Jump Power by 15, and Max Movement Speed by 20.",
                         "maxLevel": 5,
                         "icons": ["/class-icons/resistance/blaster/revolving-cannon-mastery.png"],
                         "type": "Final Attack Passive",
-                        "desc": "Whenever you have at least 1 Dynamo Gauge bar, when you attack with your Arm Cannon, you will deal an additional attack",
+                        "desc": "Successful Arm Cannon skill attacks trigger an additional attack",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed",
-                            "The damage of the attack increases depending on your Dynamo Gauge"
+                            "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed"
                         ]
                     }]
                 ],
@@ -340,7 +339,7 @@
                     },
                     {
                         "name": "Charge Mastery",
-                        "shortDesc": "Decreases the charge time for all charge skills by 15%. Using a charge skill reloads 1 Ammo immediately but will not reload while in midair or interrupt an auto-reload.\\nAt the start of charged Bobbing, Weaving, or Hammer Smash, all damage taken is briefly reduced by 20%, including attacks that deal damage based on your Max HP.\\nPermanently increases damage by 20%.",
+                        "shortDesc": "Decreases the charge time for all charge skills by 15%. Using a charge skill reloads 1 Ammo immediately but will not reload while in midair or interrupt an auto-reload.\\nAt the start of charged Bobbing, Weaving, or Hammer Smash, all damage taken is briefly reduced by 20%, including attacks that deal damage based on your Max HP.\\nPermanently increases damage by 15%.",
                         "maxLevel": 14,
                         "icons": ["/class-icons/resistance/blaster/charge-mastery.png"],
                         "type": "Passive",
@@ -353,7 +352,7 @@
                     },
                     {
                         "name": "Revolving Cannon Plus",
-                        "shortDesc": "Bunker Buster Explosion damage +20% points, Shockwave 1 damage +40% points\\nAdditional attack damage due to overheating +20% points, Revolving Cannon damage during Magnum Punch +40% points\\nMaximum Dynamo Gauge capacity expanded to 4 bars, maximum number of Ammo increased to 4.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 4 bars or higher increases damage by 40% points and will generate Shockwave 2, which attacks up to 10 enemies for 100% damage 6 times.",
+                        "shortDesc": "Bunker Buster Explosion damage +20% points, Shockwave 1 damage +40% points\\nAdditional attack damage due to overheating +32% points, Revolving Cannon damage during Magnum Punch +40% points\\nMaximum Dynamo Gauge capacity expanded to 4 bars, maximum number of Ammo increased to 4.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 4 bars or higher increases damage by 40% points and will generate Shockwave 2, which attacks up to 10 enemies for 100% damage 6 times.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/blaster/revolving-cannon-plus.png"],
                         "animations": ["https://media1.giphy.com/media/XCR3lWGgVJLF0bvRqa/giphy.gif"],
@@ -424,7 +423,7 @@
                     },
                     {
                         "name": "Revolving Cannon Plus II",
-                        "shortDesc": "Bunker Buster Explosion damage +60% points, Shockwave 1 damage +80% points, and Shockwave 2 damage +40% points\\nAdditional attack damage due to overheating +60% points, Revolving Cannon damage during Magnum Punch +60% points, Revolving Cannon damage during Double Blast +20% points\\nMaximum Dynamo Gauge capacity expanded to 5 slots, maximum number of Bullets increased to 5.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 5 slots or higher increases its damage by 80% points and will generate Shockwave 3, which attacks up to 10 enemies for 180% damage 6 times.",
+                        "shortDesc": "Bunker Buster Explosion damage +60% points, Shockwave 1 damage +80% points, and Shockwave 2 damage +40% points\\nAdditional attack damage due to overheating +96% points, Revolving Cannon damage during Magnum Punch +60% points, Revolving Cannon damage during Double Blast +20% points\\nMaximum Dynamo Gauge capacity expanded to 5 slots, maximum number of Bullets increased to 5.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 5 slots or higher increases its damage by 80% points and will generate Shockwave 3, which attacks up to 10 enemies for 180% damage 6 times.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/blaster/revolving-cannon-plus-ii.png", "/class-icons/resistance/blaster/revolving-cannon-plus.png"],
                         "animations": ["https://media2.giphy.com/media/4aqPxsWY0qRzvKvVEL/giphy.gif"],
@@ -558,7 +557,7 @@
                 },
                 {
                     "name": "Revolving Cannon Plus III",
-                    "shortDesc": "Bunker Buster Explosion damage +160% points, Shockwave 1 damage +225% points, Shockwave 2 damage +185% points, and Shockwave 3 damage +155% points.\\nAdditional attack damage due to overheating +140% points\\nRevolving Cannon damage during Magnum Punch +210% points, Revolving Cannon damage during Double Blast +170% points.\\nMaximum Dynamo Gauge capacity expanded to 6 slots, maximum number of Bullets increased to 6.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 6 slots or higher increases its damage by 200% points and will generate Shockwave 4, which attacks up to 10 enemies for 400% damage 6 times.",
+                    "shortDesc": "Bunker Buster Explosion damage +160% points, Shockwave 1 damage +225% points, Shockwave 2 damage +185% points, and Shockwave 3 damage +155% points.\\nAdditional attack damage due to overheating +224% points\\nRevolving Cannon damage during Magnum Punch +210% points, Revolving Cannon damage during Double Blast +170% points.\\nMaximum Dynamo Gauge capacity expanded to 6 slots, maximum number of Bullets increased to 6.\\nUsing Bunker Buster Explosion while the Dynamo Gauge is at 6 slots or higher increases its damage by 200% points and will generate Shockwave 4, which attacks up to 10 enemies for 400% damage 6 times.",
                     "maxLevel": 20,
                     "icons": ["/class-icons/resistance/blaster/revolving-cannon-plus-iii.png", "/class-icons/resistance/blaster/revolving-cannon-plus.png"],
                     "animations": ["https://media3.giphy.com/media/zwG3eFSpYT20Q3nN1L/giphy.gif"],
@@ -585,7 +584,7 @@
                 },
                 {
                     "name": "Gauntlet Expert",
-                    "shortDesc": "Mastery: +70%, Critical Damage: +20%, Boss Damage: +20%",
+                    "shortDesc": "Mastery: +70%, Critical Damage: +15%, Boss Damage: +15%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/blaster/gauntlet-expert.png", "/class-icons/resistance/blaster/arm-cannon-mastery.png"],
                     "type": "Upgraded Passive",
