@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Badge, Card, Image, Modal } from 'react-bootstrap';
+import { Badge, Card, Image, Modal, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { Parser } from 'expr-eval';
-import DOMPurify from 'dompurify';
-import parse from 'html-react-parser';
 import styled from 'styled-components';
+import reactStringReplace from 'react-string-replace';
 
 /*
     Skill component that creates a component to hold and render our skill info like name, desc, and properties 
@@ -47,6 +46,70 @@ const SkillDetails = styled.div`
     margin-top: -0.5rem;
 `;
 
+//Formatting helper functions
+//Bold text (of all things within [...] square brackets)
+function formatBoldText(content){
+    return reactStringReplace(content, /(?=\[)(.*?)(?<=\])/g, (text, i) => (<strong key={i}>{text}</strong>));
+}
+
+//Skill icons w/ tooltips
+//Format: <img src={...} tooltip={...}> 
+function formatSkillTooltip(content){
+    return reactStringReplace(content, /(?=<img)(.*?)(?<=>)/g, (text, i) => {
+        let image = text.match(/(?<=src={)(.*?)(?=})/g);
+        let tooltip = text.match(/(?<=tooltip={)(.*?)(?=})/g);
+        return(
+            <OverlayTrigger key={i} placement="top" overlay={
+                <Tooltip style={{zIndex: '1'}}>
+                    {tooltip}
+                </Tooltip>
+            }><img src={image} alt={`Skill ${tooltip}`}/></OverlayTrigger>
+        );
+    });
+}
+
+//Links
+//Format: <link href={...} title={...}> 
+function formatLinkText(content){
+    return reactStringReplace(content, /(?=<link)(.*?)(?<=>)/g, (text, i) => {
+        let url = text.match(/(?<=href={)(.*?)(?=})/g);
+        let title = text.match(/(?<=title={)(.*?)(?=})/g);
+        return(<a key={i} href={url} target="_blank" rel="noreferrer noopener">{title}</a>);
+    });
+}
+
+function formatBulletPoint(content){
+    //Bullet points
+    //Format: <bp_..._..._>, separated by '_'
+    return reactStringReplace(content, /(?=<bp)(.*?)(?<=_>)/g, (text, i) => {
+        let points = text.split("_");
+        //Remove first and last element from array (<bp & >)
+        points.pop();
+        points.shift();
+        return(
+            <ul key={i}>
+                {points.map((item, j) => {
+                    let formatText = formatBoldText(item);
+                    formatText = formatSkillTooltip(formatText);
+                    formatText = formatLinkText(formatText);
+                    return(<li key={j}>{formatText}</li>)
+                })}
+            </ul>
+        );
+    });
+}
+
+// Stylizes the given text using the mark up within the text
+function formatSkillText(content){
+    let returnString;
+    returnString = formatBulletPoint(content);
+    returnString = formatBoldText(returnString);
+    returnString = formatSkillTooltip(returnString);
+    returnString = formatLinkText(returnString);
+
+    return returnString;
+};
+
 function SkillInfo({skillData, name, shortDesc, properties, maxLevel, animationSetting }) {
         //Get the proper values using the properties and calculating with maxLevel
         const valProperties = getValsFromProperties(properties, maxLevel);
@@ -77,8 +140,8 @@ function SkillInfo({skillData, name, shortDesc, properties, maxLevel, animationS
                         {skillData.reqLev && <SkillBadge variant="secondary">Lv. {skillData.reqLev}</SkillBadge>}
                     </Card.Title>
                     <MasterLevel><em>Master Level: {maxLevel}</em></MasterLevel>
-                    {skillData.desc && <Card.Text>{parse(DOMPurify.sanitize(skillData.desc))}</Card.Text>}
-                    {skillData.details && <SkillDetails><ul>{skillData.details.map((detail, index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}</ul></SkillDetails>}
+                    {skillData.desc && <Card.Text>{formatSkillText(skillData.desc)}</Card.Text>}
+                    {skillData.details && <SkillDetails><ul>{skillData.details.map((detail, index) => <li key={index}>{formatSkillText(detail)}</li>)}</ul></SkillDetails>}
                     {/* Uses regex to replace temp values in string with the proper values from valProperties. As well, does string formatting like we did with desc*/}
                     {/* Lastly, we split the string into multiple parts where new lines are needed */}
                     <div>{
