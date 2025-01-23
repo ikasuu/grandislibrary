@@ -220,7 +220,7 @@
                         "type": "Active",
                         "desc": "Dash through enemies without taking any touch damage",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed",
+                            "[Passive]: Permanently increases Movement Speed, Jump and Max Movement Speed",
                             "Can be used in the air"
                         ]
                     },
@@ -233,7 +233,7 @@
                         "type": "Passive",
                         "desc": "",
                         "details": [
-                            "Modifies the appearance of <span data-tooltip='Elemental Shift (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-shift.png' alt='Skill Elemental Shift'/></span>"
+                            "Modifies the appearance of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-shift.png} tooltip={Elemental Shift (Beginner Skill)}>"
                         ]
                     },
                     {
@@ -341,7 +341,7 @@
                         "type": "Attack",
                         "desc": "Fires two arrows towards one enemy and debuffs them",
                         "details": [
-                            "<strong>[Debuff]</strong>: Enemy receives increased %Damage and %Ignore DEF"
+                            "[Debuff]: Enemy receives increased %Damage and %Ignore DEF"
                         ]
                     },
                     {
@@ -427,7 +427,7 @@
                     "type": "Attack",
                     "desc": "Sweeps enemies knocking them back",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Sentient Arrow (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/sentient-arrow.png' alt='Skill Sentient Arrow'/></span>"
+                        "[Passive]: Permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/sentient-arrow.png} tooltip={Sentient Arrow (3rd Job)}> by a flat amount"
                     ]
                 },
                 {
@@ -511,7 +511,7 @@
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "Effects below are added additively to <span data-tooltip='Eagle Eye (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/eagle-eye.png' alt='Skill Eagle Eye'/></span>",
+                        "Effects below are added additively to <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/eagle-eye.png} tooltip={Eagle Eye (3rd Job)}>",
                         "Increases Attack and %Crit Rate provided and increases Attack Speed (by 2 stages)",
                         "Now increases %Damage, %Ignore DEF, Abnormal Status Resistance, and %Elemental Resistance"
                     ]
@@ -645,12 +645,12 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/howling-gale.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q3cGNldW9hdmRkcjhsMDN5aHl2dXV0djRzN2JraGJxM2VjNnQ5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J6o5azRRKSVMm4ij6q/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemo2emR2emVram0ycnYxMWVha29vb2FhZTdmZXl2N3F2YXoxbWlscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cu8QzRb4A1ZUXO6wKr/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons a giant vortex that moves forward and pushes enemies back. This skill costs a special resource called 'Wind Energy'",
+                    "desc": "Summons a giant vortex that moves forward and pushes enemies back",
                     "details": [
-                        "Gain 1 Wind Energy every 20 secs (up to 3)",
-                        "<strong>[Consume 1 Wind Energy]</strong>: Creates a smaller vortex that is quicker but deals less damage",
-                        "<strong>[Consume 2 Wind Energy]</strong>: Pressing the Down Arrow Key and Skill Key together creates a giant vortex that is slower but deals more damage",
-                        "<strong>[Consume 3 Wind Energy]</strong>: Pressing the Up Arrow Key and Skill Key together creates two giant vortexes, one deals more damage than the other",
+                        "This skill uses a special resource called 'Wind Energy' where 1 Wind Energy every 20 secs (up to 3)",
+                        "[Consume 1 Wind Energy]: Creates a smaller vortex that is quicker but deals less damage",
+                        "[Consume 2 Wind Energy]: Pressing the Down Arrow Key and Skill Key together creates a giant vortex that is slower but deals more damage",
+                        "[Consume 3 Wind Energy]: Pressing the Up Arrow Key and Skill Key together creates two giant vortexes, one deals more damage than the other",
                         "Right-clicking the skill will toggle Speed Reduction Mode ON/OFF causing the gale to slow down when it collides with an enemy",
                         "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
@@ -662,9 +662,8 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/merciless-winds.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJ5cWpmNnFybHlnbGFjeXhzdmVpeGlieTdtY2d4bjN5MzJ0MTZhYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/46ALCfLORlc5i7WUmN/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Create homing arrows that seek out nearby enemies",
+                    "desc": "Create homing arrows that seek out nearby enemies damaging and applying a damage over time debuff",
                     "details": [
-                        "Enemies hit gain a damaging debuff",
                         "Enemies hit by multiple arrows will take reduced %Final Damage after the first",
                         "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
@@ -676,9 +675,11 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/gale-barrier.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXFxbjhxNGg5YmhhbG0xZ3UyNGtoN2Z4eGw0OG14eGgyMW5yZXh2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CZK7HrIOFMtSknyPQS/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Create a wind barrier that protects you from enemy attacks. Additionally, periodically when you attack, you create whirlwinds that seek and attack nearby enemies",
+                    "desc": "Create a barrier that protects you from enemy attacks and periodically upon attacking, create whirlwinds that seek and attack nearby enemies",
                     "details": [
-                        "The barrier has a special resource called 'Elemental'. 1 Elemental is consumed per each 1% Max HP taken as damage while also blocking the attack. Once the barrier reaches 0 Elemental, you will no longer block attacks but the buff will still be active<ul><li>The amount of Elemental that Gale Barrier increases with Skill Level</li></ul>",
+                        "The barrier uses a special resource called 'Elemental' where 1 Elemental is consumed per each 1% Max HP taken as damage while also blocking the attack",
+                        "When the barrier consumes all Elemental, it will no longer block attacks but the buff will remain active",
+                        "The amount of Elemental that barrier has increases with Skill Level",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -707,7 +708,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Song of Heaven (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/song-of-heaven.png' alt='Skill Song of Heaven'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/song-of-heaven.png} tooltip={Song of Heaven (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -728,7 +729,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Trifling Wind and Storm Whim (2nd Job / Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png' alt='Skill Trifling Wind I'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png} tooltip={Trifling Wind and Storm Whim (2nd Job / Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

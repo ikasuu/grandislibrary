@@ -222,7 +222,7 @@
                         "type": "Toggle Buff",
                         "desc": "While toggled, increases %Final Damage and Attack Speed (by 1 stage)",
                         "details": [
-                            "Cannot be used at the same time as <span data-tooltip='Falling Moon (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/></span>",
+                            "Cannot be used at the same time as <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tooltip={Falling Moon (1st Job)}>",
                             "Right-clicking the skill will toggle ON/OFF the character visual stance for both Solar and Luna stance"
                         ]
                     },
@@ -235,8 +235,8 @@
                         "type": "Toggle Buff",
                         "desc": "While toggled, increases %Crit Rate and doubles the number of attacks for your skills, however reduces your %Final Damage",
                         "details": [
-                            "Cannot be used at the same time as <span data-tooltip='Rising Sun (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/></span>",
-                            "Shares the same Skill Points (SP) with <span data-tooltip='Rising Sun (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/></span>",
+                            "Cannot be used at the same time as <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tooltip={Rising Sun (1st Job)}>",
+                            "Shares the same Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tooltip={Rising Sun (1st Job)}>",
                             "Number of attacks cannot exceed 15 hits"
                         ]
                     },
@@ -249,7 +249,7 @@
                         "type": "Solar Attack",
                         "desc": "Cleave forward at multiple enemies",
                         "details": [
-                            "Solar attacks can only be used during <span data-tooltip='Rising Sun (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/></span> Solar Stance"
+                            "Solar attacks can only be used during <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tooltip={Rising Sun (1st Job)}> Solar Stance"
                         ]
                     },
                     {
@@ -261,8 +261,8 @@
                         "type": "Luna Attack",
                         "desc": "Fires homing projectiles at nearby enemies",
                         "details": [
-                            "Luna attacks can only be used during <span data-tooltip='Falling Moon (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/></span> Luna Stance",
-                            "Shares the same Skill Points (SP) and Key Slot as <span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span>"
+                            "Luna attacks can only be used during <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tooltip={Falling Moon (1st Job)}> Luna Stance",
+                            "Shares the same Skill Points (SP) and Key Slot as <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}>"
                         ]
                     },
                     {
@@ -274,9 +274,9 @@
                         "type": "Toggle Buff",
                         "desc": "While toggled, successfully landing an Solar/Luna attack opposite stance of the previously successful attack has a chance to grant a 'Cosmic Orb'",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Ignore DEF",
+                            "[Passive]: Permanently increases %Ignore DEF",
                             "Cosmic Orbs are used to empower 'Cosmic' skills",
-                            "Upon creating a Cosmic Orb, grants a flat Attack buff<ul><li>The duration of the buff and all active Cosmic Orbs are refreshed when a Cosmic Orb is created</li></ul>"
+                            "Upon creating a Cosmic Orb, grants a flat Attack buff<bp_The duration of the buff and all active Cosmic Orbs are refreshed when a Cosmic Orb is created_>"
                         ]
                     },
                     {
@@ -302,7 +302,7 @@
                         "type": "Passive",
                         "desc": "",
                         "details": [
-                            "Modifies the appearance of <span data-tooltip='Elemental Shift (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-shift.png' alt='Skill Elemental Shift'/></span>"
+                            "Modifies the appearance of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/elemental-shift.png} tooltip={Elemental Shift (Beginner Skill)}>"
                         ]
                     }]
                 ],
@@ -317,8 +317,8 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "<strong>[<span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span>]: </strong>Increases Max Enemies Hit and Number of Attacks",
-                            "<strong>[<span data-tooltip='Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png' alt='Skill Luna Divide'/></span>]: </strong>Increases Max Enemies Hit and Number of Attacks, but damage per missile is reduced"
+                            "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}>: Increases Max Enemies Hit and Number of Attacks",
+                            "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tooltip={Luna Divide (1st Job)}>: Increases Max Enemies Hit and Number of Attacks, but damage per missile is reduced"
                         ]
                     },
                     {
@@ -330,7 +330,7 @@
                         "type": "Cosmic Attack",
                         "desc": "Launches an orb forward that damages enemies that it passes through before exploding",
                         "details": [
-                            "Consumes all Cosmic Orbs to increase %p Damage of attack per each orb consumed<ul><li>Requires at least 1 Cosmic Orb to use</li></ul>"
+                            "Consumes all Cosmic Orbs to increase %p Damage of attack per each orb consumed<bp_Requires at least 1 Cosmic Orb to use_>"
                         ]
                     },
                     {
@@ -398,8 +398,8 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "<strong>[<span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span>]: </strong>Increases %Damage and Number of Attacks",
-                            "<strong>[<span data-tooltip='Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png' alt='Skill Luna Divide'/></span>]: </strong>Increases Number of Attacks, but damage per missile is reduced"
+                            "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}>: Increases %Damage and Number of Attacks",
+                            "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tooltip={Luna Divide (1st Job)}>: Increases Number of Attacks, but damage per missile is reduced"
                         ]
                     },
                     {
@@ -411,8 +411,8 @@
                         "type": "Cosmic Attack",
                         "desc": "Creates a zone that damages enemies within it",
                         "details": [
-                            "Consumes all Cosmic Orbs to increase duration of zone per each orb consumed<ul><li>Requires at least 1 Cosmic Orb to use</li></ul>",
-                            "Cast animation is removed when used during <span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span>, <span data-tooltip='Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png' alt='Skill Luna Divide'/></span>, and <span data-tooltip='Rift of Damnation (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/></span> (Styx Crossing)",
+                            "Consumes all Cosmic Orbs to increase duration of zone per each orb consumed<bp_Requires at least 1 Cosmic Orb to use_>",
+                            "Cast animation is removed when used during <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tooltip={Luna Divide (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tooltip={Rift of Damnation - Styx Crossing (5th Job)}>",
                             "Deals increased %Damage to regular monsters",
                             "Unaffected by %Summon Duration"
                         ]
@@ -435,7 +435,7 @@
                         "type": "Luna Attack",
                         "desc": "Dash forward pushing and damaging enemies in your path",
                         "details": [
-                            "Shares the same Skill Points (SP) and Key Slot as <span data-tooltip='Bluster (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/bluster.png' alt='Skill Bluster'/></span>"
+                            "Shares the same Skill Points (SP) and Key Slot as <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/bluster.png} tooltip={Bluster (3rd Job)}>"
                         ]
                     },
                     {
@@ -469,8 +469,8 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-mastery.png", "http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png"],
                         "type": "Upgraded Passive",
                         "details": [
-                            "<strong>[<span data-tooltip='Rising Sun (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/></span>]</strong>: Increases %Final Damage provided",
-                            "<strong>[<span data-tooltip='Falling Moon (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/></span>]</strong>: Increases %Crit Rate provided and reduces %Final Damage reduction amount</li></ul>"
+                            "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tooltip={Rising Sun (1st Job)}>: Increases %Final Damage provided",
+                            "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tooltip={Falling Moon (1st Job)}>: Increases %Crit Rate provided and reduces %Final Damage reduction amount"
                             
                         ]
                     },
@@ -523,8 +523,8 @@
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "<strong>[<span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span>]: </strong>Increases %Damage, Max Enemies Hit, and Number of Attacks",
-                        "<strong>[<span data-tooltip='Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png' alt='Skill Luna Divide'/></span>]: </strong>Increases %Damage, Max Enemies Hit, and Number of Attacks"
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}>: Increases %Damage, Max Enemies Hit, and Number of Attacks",
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tooltip={Luna Divide (1st Job)}>: Increases %Damage, Max Enemies Hit, and Number of Attacks"
                     ]
                 },
                 {
@@ -536,11 +536,11 @@
                     "type": "Cosmic Attack",
                     "desc": "Releases all active Cosmic Orbs to seek out and damage nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Cosmic Shower (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png' alt='Skill Cosmic Shower'/></span>",
-                        "Consumes all Cosmic Orbs to reduce cooldown per each orb consumed<ul><li>Requires at least 1 Cosmic Orb to use</li></ul>",
+                        "[Passive]: Permanently increases %p Damage of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tooltip={Cosmic Shower (3rd Job)}>",
+                        "Consumes all Cosmic Orbs to reduce cooldown per each orb consumed<bp_Requires at least 1 Cosmic Orb to use_>",
                         "Enemies hit by multiple orbs take reduced %Final Damage after the first orb",
-                        "Cast animation is removed when used during <span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span>, <span data-tooltip='Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png' alt='Skill Luna Divide'/></span>, and <span data-tooltip='Rift of Damnation (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/></span> (Styx Crossing)",
-                        "Right-clicking the skill will toggle Auto Use ON/OFF allowing <span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span>, <span data-tooltip='Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png' alt='Skill Luna Divide'/></span>, and <span data-tooltip='Rift of Damnation (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/></span> (Styx Crossing) to activate the skill when it is off cooldown and at max Cosmic Orb stacks",
+                        "Cast animation is removed when used during <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tooltip={Luna Divide (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tooltip={Rift of Damnation - Styx Crossing (5th Job)}>",
+                        "Right-clicking the skill will toggle Auto Use ON/OFF allowing <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tooltip={Luna Divide (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tooltip={Rift of Damnation - Styx Crossing (5th Job)}> to activate the skill when it is off cooldown and at max Cosmic Orb stacks",
                         "Prioritize bosses with the highest HP first",
                         "Unaffected by Damage Reflect, cooldown resets, and cooldown reduction"
                     ]
@@ -554,7 +554,7 @@
                     "type": "Equinox Attack",
                     "desc": "Instantly dashes forward while damaging enemies in your path",
                     "details": [
-                        "Can only be used while <span data-tooltip='Equinox Cycle (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png' alt='Skill Equinox Cycle'/></span> is active",
+                        "Can only be used while <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tooltip={Equinox Cycle (2nd Job)}> is active",
                         "Can be activated while using other skills"
                     ]
                 },
@@ -618,9 +618,9 @@
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "Bonus effects from both stances are now applied at the same time while <span data-tooltip='Equinox Cycle (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png' alt='Skill Equinox Cycle'/></span> is active",
-                        "<strong>[<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png' alt='Skill Rising Sun'/>]</strong>: Increases %Final Damage and now increases Attack Speed by 2",
-                        "<strong>[<img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/falling-moon.png' alt='Skill Falling Moon'/>]</strong>: Increases %Crit Rate provided and reduces %Final Damage reduction amount</ul>"
+                        "Bonus effects from both stances are now applied at the same time while <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tooltip={Equinox Cycle (2nd Job)}> is active",
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tooltip={Rising Sun (1st Job)}>: Increases %Final Damage and now increases Attack Speed by 2",
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tooltip={Falling Moon (1st Job)}>: Increases %Crit Rate provided and reduces %Final Damage reduction amount"
                     ]
                 }]
             ]
@@ -725,7 +725,7 @@
                     "desc": "Dash forward damaging enemies in your path",
                     "details": [
                         "Upon casting, you are briefly invincible",
-                        "After casting, you can briefly use <span data-tooltip='Luster Charge (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luster-charge.png' alt='Skill Luster Charge'/></span> once regardless of your stance",
+                        "After casting, you can briefly use <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luster-charge.png} tooltip={Luster Charge (Hyper Skill)}> once regardless of your stance",
                         "Unaffected by cooldown reduction"
                     ],
                     "reqLev": 160
@@ -740,8 +740,8 @@
                     "desc": "Dash forward damaging enemies in your path",
                     "details": [
                         "Upon casting, you are briefly invincible",
-                        "After casting, you can briefly use <span data-tooltip='Blazing Assault (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png' alt='Skill Blazing Assault'/></span> once regardless of your stance",
-                        "Shares the same Skill Points (SP), Key Slot, and cooldown as <span data-tooltip='Blazing Assault (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png' alt='Skill Blazing Assault'/></span>",
+                        "After casting, you can briefly use <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png} tooltip={Blazing Assault (Hyper Skill)}> once regardless of your stance",
+                        "Shares the same Skill Points (SP), Key Slot, and cooldown as <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png} tooltip={Blazing Assault (Hyper Skill)}>",
                         "Unaffected by cooldown reduction"
                     ],
                     "reqLev": 160
@@ -768,7 +768,7 @@
                     "type": "Cosmic Attack",
                     "desc": "Surround yourself in a swirling galaxy that continuously damages enemies within it",
                     "details": [
-                        "Consumes all Cosmic Orbs to reduce the time between each attack per each orb consumed<ul><li>Requires at least 1 Cosmic Orb to use</li></ul>",
+                        "Consumes all Cosmic Orbs to reduce the time between each attack per each orb consumed<bp_Requires at least 1 Cosmic Orb to use_>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -780,9 +780,9 @@
                     "type": "Buff Attack",
                     "desc": "Upon casting, grants max stacks of Cosmic Orbs and allows the usage of 'Styx Crossing' attack",
                     "details": [
-                        "Styx Crossing can be used by pressing <span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span> / <span data-tooltip='Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png' alt='Skill Luna Divide'/></span><ul><li>Right-clicking the skill will toggle a function ON/OFF allowing Styx Crossing to activate by using the Attack Key instead</li></ul>",
-                        "Upon using Styx Crossing, grants max stacks of Cosmic Orbs and your stance will automatically switch during <span data-tooltip='Equinox Cycle (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png' alt='Skill Equinox Cycle'/></span>",
-                        "Continuously attacking the same area with Styx Crossing will cause a rift to grow and eventually explode dealing damage<ul><li>Up to 2 rifts can be created</li><li>Has a cooldown (5 secs) after shattering before another rift can be created</li><li>All existing rifts will explode when the duration of the skill ends, however deals reduced damage</li></ul>",
+                        "Styx Crossing can be used by pressing <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}> / <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tooltip={Luna Divide (1st Job)}><bp_Right-clicking the skill will toggle a function ON/OFF allowing Styx Crossing to activate by using the Attack Key instead_>",
+                        "Upon using Styx Crossing, grants max stacks of Cosmic Orbs and your stance will automatically switch during <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tooltip={Equinox Cycle (2nd Job)}>",
+                        "Continuously attacking the same area with Styx Crossing will cause a rift to grow and eventually explode dealing damage<bp_Up to 2 rifts can be created_Has a cooldown (5 secs) after shattering before another rift can be created_All existing rifts will explode when the duration of the skill ends, however deals reduced damage_>",
                         "Styx Crossing has increased %Ignore DEF and ignores Damage Reflect"
                     ]
                 },
@@ -795,7 +795,7 @@
                     "desc": "Causes an eclipse to occur that deals damage to enemies on the map",
                     "details": [
                         "You are initially invincible during casting",
-                        "Pressing the Skill Key again will cause the eclipse to disappear and cause a massive explode damaging nearby enemies<ul><li>You can invincible during this attack</li><li>Can be activated while using <span data-tooltip='Solar Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span>, <span data-tooltip='Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png' alt='Skill Luna Divide'/></span>, and <span data-tooltip='Rift of Damnation (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/></span> (Styx Crossing)</li></ul>",
+                        "Pressing the Skill Key again will cause the eclipse to disappear and cause a massive explode damaging nearby enemies<bp_You can invincible during this attack_Can be activated while using <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/luna-divide.png} tooltip={Luna Divide (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tooltip={Rift of Damnation - Styx Crossing (5th Job)}>_>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -807,8 +807,8 @@
                     "type": "Passive Attack",
                     "desc": "Periodically release an explosive attack upon successful attacks while Solar/Luna stance is active",
                     "details": [
-                        "Whenever your stance changes during <span data-tooltip='Equinox Cycle (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png' alt='Skill Equinox Cycle'/></span>, the cooldown is reduced",
-                        "When <span data-tooltip='Rift of Damnation (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png' alt='Skill Rift of Damnation'/></span> (Styx Crossing) damages an enemy, the cooldown is reduced even further",
+                        "Whenever your stance changes during <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tooltip={Equinox Cycle (2nd Job)}>, the cooldown is reduced",
+                        "When <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tooltip={Rift of Damnation - Styx Crossing (5th Job)}> damages an enemy, the cooldown is reduced even further",
                         "Unaffected by Damage Reflect and cooldown reduction"
                     ]
                 }
@@ -824,7 +824,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Solar Slash and Luna Divide (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png' alt='Skill Solar Slash'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/solar-slash.png} tooltip={Solar Slash and Luna Divide (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -855,7 +855,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Cosmic Shower (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png' alt='Skill Solar Slash'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tooltip={Cosmic Shower (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

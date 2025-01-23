@@ -196,7 +196,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -269,7 +269,7 @@
                         "type": "Attack / Utility",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be activated using the Skill Key or by pressing the Up Arrow Key and Jump Key while in the air<ul><li>Can be used up to two times in a row</li></ul>"
+                            "Can be activated using the Skill Key or by pressing the Up Arrow Key and Jump Key while in the air<bp_Can be used up to two times in a row_>"
                         ]
                     }]
                 ],
@@ -352,7 +352,7 @@
                         "desc": "Launches an explosion above you that damages multiple enemies",
                         "details": [
                             "Gain 1 Monkey Mortar charge every 4 sec (up to 5 mortars)",
-                            "Right-clicking the skill will toggle Auto Use ON/OFF causing Monkey Motar to activate and drop a mortar at the enemy's location when <span data-tooltip='Cannon Bazooka (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/cannon-bazooka.png' alt='Skill Cannon Bazooka'/></span> or <span data-tooltip='Cannon Barrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/cannon-barrage.png' alt='Skill Cannon Barrage'/></span> hits an enemy"
+                            "Right-clicking the skill will toggle Auto Use ON/OFF causing Monkey Motar to activate and drop a mortar at the enemy's location when <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/cannon-bazooka.png} tooltip={Cannon Bazooka (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/cannon-barrage.png} tooltip={Cannon Barrage (4th Job)}> hits an enemy"
                         ]
                     },
                     {
@@ -364,7 +364,7 @@
                         "type": "Summon",
                         "desc": "Launches a bomb that bounces around damages enemies and debuffs them",
                         "details": [
-                            "<strong>[Debuff]</strong>: Enemy takes increased %Damage and takes damage periodically",
+                            "[Debuff]: Enemy takes increased %Damage and takes damage periodically",
                             "Cooldown is reduced if no enemies are hit"
                         ]
                     },
@@ -377,7 +377,7 @@
                         "type": "Buff",
                         "desc": "Grants a random buff",
                         "details":[
-                            "<strong>[Passive]</strong>: Permanently icreases %Final Damage, %Crit Damage, and %Crit Rate",
+                            "[Passive]: Permanently increases %Final Damage, %Crit Damage, and %Crit Rate",
                             "Skill is prepared every 15 sec (up to 4 charges)"
                         ]
                     },
@@ -390,12 +390,12 @@
                         "type": "Buff",
                         "desc": "Grants a buff based on the number rolled",
                         "details": [
-                            "<strong>[One]</strong>: Reduces cooldown of <span data-tooltip='Roll of the Dice (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span> by 50%",
-                            "<strong>[Two]</strong>: Increases %DEF",
-                            "<strong>[Three]</strong>: Increases %Max HP/MP",
-                            "<strong>[Four]</strong>: Increases %Crit Rate",
-                            "<strong>[Five]</strong>: Increases %Damage",
-                            "<strong>[Six]</strong>: Increases %EXP Rate"
+                            "[One]: Reduces cooldown of <img src={http://localhost:3000/grandislibrary/class-icons/common/roll-of-the-dice.png} tooltip={Roll of the Dice (3rd Job)}> by 50%",
+                            "[Two]: Increases %DEF",
+                            "[Three]: Increases %Max HP/MP",
+                            "[Four]: Increases %Crit Rate",
+                            "[Five]: Increases %Damage",
+                            "[Six]: Increases %EXP Rate"
                         ]
                     },
                     {
@@ -450,7 +450,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/anchors-aweigh.png"],
                         "animations": ["https://media.giphy.com/media/mgOE7OxBwvNWbxyLiH/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons an anchor that periodically damages and pulls in nearby enemies towards",
+                        "desc": "Place an anchor that periodically damages and pulls in nearby enemies towards",
                         "details": [
                             "When the duration runs out, the anchor will explode that is a guaranteed Critical Hit",
                             "Unaffected by Damage Reflect"
@@ -633,7 +633,7 @@
                     "type": "Toggle Buff",
                     "desc": "Increases Attack Speed (by 1 stage) and triples the number of attacks for your skills but reduces %Final Damage",
                     "details": [
-                        "Does not apply to <span data-tooltip='Anchors Aweigh (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/anchors-aweigh.png' alt='Skill Anchors Aweigh'/></span> <span data-tooltip='Monkey Militia (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/monkey-militia.png' alt='Skill Monkey Militia'/></span> <span data-tooltip='Rolling Rainbow (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/rolling-rainbow.png' alt='Skill Rolling Rainbow'/></span>",
+                        "Does not apply to <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/anchors-aweigh.png} tooltip={Anchors Aweigh (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/monkey-militia.png} tooltip={Monkey Militia (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/rolling-rainbow.png} tooltip={Rolling Rainbow (Hyper Skill)}>",
                         "Number of attacks cannot exceed 15 lines/hits"
                     ],
                     "reqLev": 140
@@ -688,7 +688,7 @@
                     "type": "Key-down Attack",
                     "desc": "Aims your cannon and fires a missile in a chosen direction that explodes and creates a lingering damaging field",
                     "details": [
-                        "Hold to aim the cannon and angle it by using the Up or Down Arrow Keys<ul><li>You have up to 5 secs to aim or the Skill will cancel if you fail to fire within this time</li></ul>",
+                        "Hold to aim the cannon and angle it by using the Up or Down Arrow Keys<bp_You have up to 5 secs to aim or the Skill will cancel if you fail to fire within this time_>",
                         "While aiming, you will not be knocked back at all (Super Knockback Resistance)",
                         "During the initial cast and after the skill ends, you are briefly invincible"
                     ]
@@ -712,7 +712,7 @@
                     "type": "Attack",
                     "desc": "Launches a barrage of missiles that slowly rain down onto enemies",
                     "details": [
-                        "Additionally while the skill is active, a Supply Crate will drop that restores some %Max HP/MP and grants a %Damage buff<ul><li>Party members can also activate the Supply Crate and gain its effects</li><li>To activate the Supply Crate, press the Up Arrow Key on it</li><li>Up to 2 Supply Crates can be present on a map at one time</li></ul>",
+                        "Additionally while the skill is active, a Supply Crate will drop that restores some %Max HP/MP and grants a %Damage buff<bp_Party members can also activate the Supply Crate and gain its effects_To activate the Supply Crate, press the Up Arrow Key on it_Up to 2 Supply Crates can be present on a map at one time_>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -728,7 +728,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Cannon Barrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/cannon-barrage.png' alt='Skill Cannon Barrage'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/cannon-barrage.png} tooltip={Cannon Barrage (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -749,7 +749,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Cannon Bazooka (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/cannon-bazooka.png' alt='Skill Cannon Bazooka'/></span> <span data-tooltip='Monkey Fury/Monkey Mortar (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/monkey-fury.png' alt='Skill Monkey Fury'/></span> <span data-tooltip='Anchor&#39;s Aweigh (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/anchors-aweigh.png' alt='Skill Anchor&#39;s Aweigh'/></span> <span data-tooltip='Nautilus Strike (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/nautilus-strike.png' alt='Skill Nautilus Strike'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/cannon-bazooka.png} tooltip={Cannon Bazooka (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/monkey-fury.png} tooltip={Monkey Fury/Monkey Mortar (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/anchors-aweigh.png} tooltip={Anchor's Aweigh (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/cannoneer/nautilus-strike.png} tooltip={Nautilus Strike (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

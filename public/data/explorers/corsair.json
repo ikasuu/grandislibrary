@@ -200,7 +200,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -403,12 +403,12 @@
                         "type": "Buff",
                         "desc": "Grants a buff based on the number rolled",
                         "details": [
-                            "<strong>[One]</strong>: Reduces cooldown of <span data-tooltip='Roll of the Dice (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span> by 50%",
-                            "<strong>[Two]</strong>: Increases %DEF",
-                            "<strong>[Three]</strong>: Increases %Max HP/MP",
-                            "<strong>[Four]</strong>: Increases %Crit Rate",
-                            "<strong>[Five]</strong>: Increases %Damage",
-                            "<strong>[Six]</strong>: Increases %EXP Rate"
+                            "[One]: Reduces cooldown of <img src={http://localhost:3000/grandislibrary/class-icons/common/roll-of-the-dice.png} tooltip={Roll of the Dice (3rd Job)}> by 50%",
+                            "[Two]: Increases %DEF",
+                            "[Three]: Increases %Max HP/MP",
+                            "[Four]: Increases %Crit Rate",
+                            "[Five]: Increases %Damage",
+                            "[Six]: Increases %EXP Rate"
                         ]
                     },
                     {
@@ -439,7 +439,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/corsair/all-aboard.png", "http://localhost:3000/grandislibrary/class-icons/explorers/corsair/scurvy-summons.png"],
                         "animations": ["https://media.giphy.com/media/bwTGT9m5RhjZrHF8xE/giphy.gif"],
                         "type": "Upgraded Passive",
-                        "desc": "Increases the %p Damage of <span data-tooltip='Scurvy Summons (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/scurvy-summons.png' alt='Skill Scurvy Summons'/></span> and allows you to summon two crew members at once",
+                        "desc": "Increases the %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/scurvy-summons.png} tooltip={Scurvy Summons (2nd Job)}> by a flat amount and allows you to summon two crew members at once",
                         "details": [
                             "Crew members can also block an Abnormal Status per each summon",
                             "Additionally, adds a new crew member who throws bombs"
@@ -481,7 +481,7 @@
                         "type": "Attack",
                         "desc": "Fires a barrage of bullets forward",
                         "details": [
-                            "<strong>[Passive]</strong>: Increases %p Damage of <span data-tooltip='Nautilus Strike (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/nautilus-strike.png' alt='Skill Nautilus Strike'/>",
+                            "[Passive]: Increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/nautilus-strike.png} tooltip={Nautilus Strike (4th Job)}> by a flat amount",
                             "If used while pressing the Down Arrow Key, the attack range will be reduced, but you will be immune to knockbacks (Super Knockback Resistance)"
                         ]
                     },
@@ -491,7 +491,7 @@
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/corsair/quickdraw.png"],
                         "type": "Passive",
-                        "desc": "Your attacks have a chance to grant increased %Final Damage to your next <span data-tooltip='Brain Scrambler (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/brain-scrambler.png' alt='Skill Brain Scrambler'/></span>, <span data-tooltip='Nautilus Strike (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/nautilus-strike.png' alt='Skill Nautilus Strike'/></span>, <span data-tooltip='Ugly Bomb (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/ugly-bomb.png' alt='Skill Ugly Bomb'/></span>, or <span data-tooltip='Target Lock (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/target-lock.png' alt='Skill Target Lock'/></span>"
+                        "desc": "Your attacks have a chance to grant increased %Final Damage for the next use of the following skills: <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/brain-scrambler.png} tooltip={Brain Scrambler (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/nautilus-strike.png} tooltip={Nautilus Strike (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/ugly-bomb.png} tooltip={Ugly Bomb (Hyper Skill)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/target-lock.png} tooltip={Target Lock (5th Job)}>"
                     },
                     {
                         "name": "Broadside",
@@ -502,8 +502,8 @@
                         "type": "Summon",
                         "desc": "Summons a battleship that fires bombs at nearby enemies",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Ahoy Mateys (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/ahoy-mateys.png' alt='Skill Ahoy Mateys'/></span>",
-                            "Broadside will fire focused shots on a targeted location marked by <span data-tooltip='Firing Orders (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/firing-orders.png' alt='Skill Firing Orders'/></span>",
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/ahoy-mateys.png} tooltip={Ahoy Mateys (4th Job)}>",
+                            "Broadside will fire focused shots on a targeted location marked by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/firing-orders.png} tooltip={Firing Orders (4th Job)}>",
                             "Up to 2 battleships can be summoned at a time",
                             "Unaffected by Damage Reflect"
                         ]
@@ -515,11 +515,11 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/corsair/firing-orders.png"],
                         "animations": ["https://media.giphy.com/media/Sh7AXigDZPcgG1liyy/giphy-downsized-large.gif"],
                         "type": "Active",
-                        "desc": "Marks your location causing <span data-tooltip='Broadside (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/broadside.png' alt='Skill Broadside'/></span> to fire focused shots at the targeted location",
+                        "desc": "Marks your location causing <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/broadside.png} tooltip={Broadside (4th Job)}> to fire focused shots at the targeted location",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Broadside (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/broadside.png' alt='Skill Broadside'/></span>",
-                            "Prioritizes enemies marked with <span data-tooltip='Parrotargetting (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/parrotargetting.png' alt='Skill Parrotargetting'/></span> then bosses",
-                            "Right-clicking the skill will toggle Auto Use ON/OFF causing <span data-tooltip='Parrotargetting (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/parrotargetting.png' alt='Skill Parrotargetting'/></span> to mark the location of the targeted enemy"
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/broadside.png} tooltip={Broadside (4th Job)}>",
+                            "Prioritizes enemies marked with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/parrotargetting.png} tooltip={Parrotargetting (4th Job)}> then bosses",
+                            "Right-clicking the skill will toggle Auto Use ON/OFF causing <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/parrotargetting.png} tooltip={Parrotargetting (4th Job)}> to mark the location of the targeted enemy"
                         ]
                     },
                     {
@@ -531,8 +531,8 @@
                         "type": "Attack",
                         "desc": "Fires a shot that debuffs an enemy and causes all attacks to target this enemy",
                         "details": [
-                            "<strong>[Debuff]</strong>: Attacks against this enemy deal increased %Final Damage",
-                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage",
+                            "[Debuff]: Attacks against this enemy deal increased %Final Damage",
+                            "[Passive]: Permanently increases %Crit Damage",
                             "Prioritizes bosses within range"
                         ]
                     },
@@ -545,7 +545,7 @@
                         "type": "Attack",
                         "desc": "Launches a massive attack that damages a large area",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Final Damage of <span data-tooltip='Majestic Presence (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/majestic-presence.png' alt='Skill Majestic Presence'/></span>",
+                            "[Passive]: Permanently increases %Final Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/majestic-presence.png} tooltip={Majestic Presence (4th Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -570,7 +570,7 @@
                         "type": "Buff",
                         "desc": "",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance"
+                            "[Passive]: Permanently increases %Knockback Resistance"
                         ]
                     },
                     {
@@ -614,10 +614,10 @@
                         "maxLevel": 15,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/corsair/ahoy-mateys.png", "http://localhost:3000/grandislibrary/class-icons/explorers/corsair/scurvy-summons.png"],
                         "type": "Upgraded Passive",
-                        "desc": "Increases the %Final Damage of <span data-tooltip='Scurvy Summons (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/scurvy-summons.png' alt='Skill Scurvy Summons'/></span> and grants a buff while crewmates are summoned",
+                        "desc": "Increases the %Final Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/scurvy-summons.png} tooltip={Scurvy Summons (2nd Job)}> and grants a buff while crewmates are summoned",
                         "details": [
-                            "<strong>[Buff]</strong>: Grants flat Attack and increases %Crit Damage, %Crit Rate, Speed, and %Damage Reduction",
-                            "<strong>[Passive]</strong>: Permanently increases %Crit Damage and grants flat Max HP"
+                            "[Buff]: Grants flat Attack and increases %Crit Damage, %Crit Rate, Speed, and %Damage Reduction",
+                            "[Passive]: Permanently increases %Crit Damage and grants flat Max HP"
                         ]
                     },
                     {
@@ -759,7 +759,7 @@
                     "type": "Attack",
                     "desc": "Wildy fires bullets in all directions",
                     "details": [
-                        "While casting, you can move and use <span data-tooltip='Pirate Leap (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/pirate/pirate-leap.png' alt='Skill Pirate'/></span>",
+                        "While casting, you can move and use <img src={http://localhost:3000/grandislibrary/class-icons/explorers/pirate/pirate-leap.png} tooltip={Pirate Leap (1st Job)}>",
                         "While casting, you will not be knocked back at all (Super Knockback Resistance)",
                         "Pressing the Skill Key again will cancel the attack early"
                     ]
@@ -773,8 +773,8 @@
                     "desc": "Fires devastating shots at marked targets",
                     "details": [
                         "While Target Lock is not on cooldown, targets in range are randomly marked for the attack while prioritizing bosses with the highest Max HP first",
-                        "The target will blink 3 times before selecting a new target<ul><li>If you activate Target Lock while on the last blink, it will deal extra damage</li></ul>",
-                        "You are invincible while casting<ul><li>Depending on the number of blinks, the invincibility time will increase</li></ul>",
+                        "The target will blink 3 times before selecting a new target<bp_If you activate Target Lock while on the last blink, it will deal extra damage_>",
+                        "You are invincible while casting<bp_Depending on the number of blinks, the invincibility time will increase_>",
                         "Attack is a guaranteed Critical Hit"
                     ]
                 },
@@ -787,7 +787,7 @@
                     "desc": "Summons the Nautilus to launch an assault",
                     "details": [
                         "The ship and assault both deal damage",
-                        "If either <span data-tooltip='Nautilus Strike (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/nautilus-strike.png' alt='Skill Nautilus Strike'/></span> or <span data-tooltip='Nautilus Assault (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/nautilus-assault.png' alt='Skill Nautilus Assault'/></span> are used, there is a short cooldown (8 secs) before either can activated unless they are already on cooldown",
+                        "If either <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/nautilus-strike.png} tooltip={Nautilus Strike (4th Job)}> or <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/nautilus-assault.png} tooltip={Nautilus Assault (5th Job)}> are used, there is a short cooldown (8 secs) before either can activated unless they are already on cooldown",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -799,7 +799,7 @@
                     "type": "Attack",
                     "desc": "Fires several bullets that ricochets to multiple enemies",
                     "details": [
-                        "If there is an enemy affected by the <span data-tooltip='Parrotargetting (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/parrotargetting.png' alt='Skill Parrotargetting'/></span> debuff, all bullets will target that enemy",
+                        "If there is an enemy affected by the <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/parrotargetting.png} tooltip={Parrotargetting (4th Job)}> debuff, all bullets will target that enemy",
                         "Cooldown decreases depending on the number of remaining ricochets",
                         "Can be used in the air",
                         "Unaffected by Damage Reflect"
@@ -817,7 +817,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Rapid Fire (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/rapid-fire.png' alt='Skill Rapid Fire'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/rapid-fire.png} tooltip={Rapid Fire (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -838,7 +838,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Broadside (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/corsair/broadside.png' alt='Skill Broadside'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/corsair/broadside.png} tooltip={Broadside (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

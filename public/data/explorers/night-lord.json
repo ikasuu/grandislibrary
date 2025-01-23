@@ -189,7 +189,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -237,7 +237,7 @@
                         "desc": "While active, you cannot hit or be hit by enemies",
                         "details": [
                             "While active, pressing the Skill Key again or using an attack will cancel Dark Sight",
-                            "You can use <span data-tooltip='Flash Jump (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png' alt='Skill Flash Jump'/></span> while in Dark Sight",
+                            "You can use <img src={http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png} tooltip={Flash Jump (1st Job)}> while in Dark Sight",
                             "Has a cooldown (3 secs, stacks up to 5 times) per attack dodged"
                         ]
                     },
@@ -302,10 +302,10 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/shadow-surge.png"],
                         "animations": ["https://media.giphy.com/media/wJIon9ShkAGKgJAft5/giphy.gif"],
                         "type": "Active",
-                        "desc": "Dashes forward",
+                        "desc": "Dash forward",
                         "details": [
-                            "After dashing, briefly grants you the effects of <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>",
-                            "Triggering <span data-tooltip='Assassin&#39;s Mark (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/assassins-mark.png' alt='Skill Assassin&#39;s Mark'/></span> will reduce the cooldown of Shadow Surge",
+                            "After dashing, briefly grants the effects of <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>",
+                            "Triggering <img src={http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/assassins-mark.png} tooltip={Assassin's Mark (2nd Job)}> will reduce the cooldown of Shadow Surge",
                             "Can be used while casting other skills"
                         ]
                     },
@@ -460,10 +460,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/showdown.png"],
                     "animations": ["https://media.giphy.com/media/IpN2YmR67yeGp3xYnO/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Hurl a giant exploding dagger forward that debuffs enemies",
+                    "desc": "Hurl an exploding dagger forward that debuffs enemies",
                     "details": [
-                        "<strong>[Debuff]: </strong>Increases %EXP and Item Drop Rate against this enemy and the enemy cannot deal touch damage to you<ul><li>Effects are halved for bosses</li></ul>",
-                        "Periodically, the attack will create homing shurikens<ul><li>Deals increased %Damage to regular monsters</li><li>Enemies hit by multiple shurikens take reduced %Final Damage after the first shuriken</li><li>Unaffected by Damage Reflect</li></ul>"
+                        "[Debuff]: Increases %EXP and Item Drop Rate against this enemy and the enemy cannot deal touch damage to you<bp_Effects are halved for bosses_>",
+                        "Periodically, the attack will create homing shurikens<bp_Deals increased %Damage to regular monsters_Enemies hit by multiple shurikens take reduced %Final Damage after the first shuriken_Unaffected by Damage Reflect_>"
                     ]
                 },
                 {
@@ -498,8 +498,8 @@
                     "type": "Debuff Zone",
                     "desc": "Creates a debuff zone that reduces enemy %Attack, %DEF, and Movement Speed",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Boss Damage",
-                        "Does not apply to bosses (unless you have Hyper Skill passive <img src='http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/frailty-curse-boss-rush.png' alt='Skill Frailty Curse Boss Rush'/> Frailty Curse - Boss Rush)",
+                        "[Passive]: Permanently increases %Boss Damage",
+                        "Does not apply to bosses (unless you have Hyper Skill passive <img src={http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/frailty-curse-boss-rush.png} tooltip={Frailty Curse - Boss Rush (Hyper Skill)}>)",
                         "Reduction to %DEF can be considered as %Ignore DEF"
                     ]
                 },
@@ -674,7 +674,7 @@
                     "type": "Attack",
                     "desc": "Creates a giant shuriken that damages nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases the %Damage of <span data-tooltip='Night Lord&#39;s Mark (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/night-lords-mark.png' alt='Skill Night Lord&#39;s Mark'/></span> by a flat amount"
+                        "[Passive]: Permanently increases the %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/night-lords-mark.png} tooltip={Night Lord's Mark (4th Job)}> by a flat amount"
                     ],
                     "reqLev": 160
                 },
@@ -698,9 +698,9 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/throwing-star-barrage.png"],
                     "animations": ["https://media.giphy.com/media/cUkc0zgM769dfFoL9i/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, <span data-tooltip='Triple Throw (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/triple-throw.png' alt='Skill Triple Throw'/></span>, and <span data-tooltip='Quad Star (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/quad-star.png' alt='Skill Quad Star'/></span> throw a spread of throwing stars in multiple directions",
+                    "desc": "While active, using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/triple-throw.png} tooltip={Triple Throw (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/quad-star.png} tooltip={Quad Star (4th Job)}> will throw additional throwing stars in a spread",
                     "details": [
-                        "Does not apply to <span data-tooltip='Shadow Partner (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/shadow-partner.png' alt='Skill Shadow Partner'/></span>"
+                        "Does not apply to <img src={http://localhost:3000/grandislibrary/class-icons/common/shadow-partner.png} tooltip={Shadow Partner (3rd Job)}>"
                     ]
                 },
                 {
@@ -711,8 +711,8 @@
                     "type": "Attack",
                     "desc": "Throw forward a giant shuriken that continuously spins in place before disappearing",
                     "details": [
-                        "Has a reduced chance to trigger <span data-tooltip='Assassin&#39;s Mark (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/assassins-mark.png' alt='Skill Assassin&#39;s Mark'/></span>",
                         "Pressing the Skill Key again while the shuriken is active will stop it immediately at its current location",
+                        "Has a reduced chance to trigger <img src={http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/assassins-mark.png} tooltip={Assassin's Mark (2nd Job)}>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -724,8 +724,8 @@
                     "type": "Summon",
                     "desc": "Creates a giant orb that periodically launches out throwing stars",
                     "details": [
-                        "Attack has increased %Boss Damage",
                         "At the end of the Skill, the orb explodes dealing damage to nearby enemies",
+                        "Attack has increased %Boss Damage",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -737,8 +737,8 @@
                     "type": "Buff Attack",
                     "desc": "Throwing Star attacks gain Explosive Talismans that explode and damage nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Prepares 1 Explosive Talisman for use every 10 seconds",
-                        "When Active Effect is used, gain multiple Explosive Talismans for the duration of the buff<ul><li>Each attack can consume a min. of 2 and max. of 4 Explosive Talismans</li></ul>",
+                        "[Passive]: Prepares 1 Explosive Talisman for use every 10 seconds",
+                        "When Active Effect is used, gain multiple Explosive Talismans for the duration of the buff<bp_Each attack can consume a min. of 2 and max. of 4 Explosive Talismans_>",
                         "Passive and Active Effect cannot be active at the same time",
                         "Unaffected by Damage Reflect"
                     ]
@@ -755,7 +755,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Quad Star (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/quad-star.png' alt='Skill Cardinal Burst'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/quad-star.png} tooltip={Quad Star (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -776,7 +776,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Assassin&#39;s Mark (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/assassins-mark.png' alt='Skill Cardinal Burst'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/night-lord/assassins-mark.png} tooltip={Assassin's Mark (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

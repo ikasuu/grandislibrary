@@ -190,7 +190,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -207,7 +207,7 @@
                         "desc": "While active, you cannot hit or be hit by enemies",
                         "details": [
                             "While active, pressing the Skill Key again or using an attack will cancel Dark Sight",
-                            "You can use <span data-tooltip='Flash Jump (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png' alt='Skill Flash Jump'/></span> while in Dark Sight",
+                            "You can use <img src={http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png} tooltip={Flash Jump (1st Job)}> while in Dark Sight",
                             "Has a cooldown (3s, stacks up to 5 times) per attack dodged"
                         ]
                     },
@@ -220,7 +220,7 @@
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump_>",
                             "Horizontal jump can be used twice in a row"
                         ]
                     },
@@ -264,7 +264,7 @@
                             "type": "Attack",
                             "desc": "Dash forward while pushing enemies back",
                             "details": [
-                                "Can be linked to <span data-tooltip='Blade Ascension (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/blade-ascension.png' alt='Skill Blade Ascension'/></span>"
+                                "Can be linked to <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/blade-ascension.png} tooltip={Blade Ascension (3rd Job)}>"
                             ]
                         },
                         {
@@ -337,7 +337,7 @@
                             "details": [
                                 "Attack has a chance to stun enemies",
                                 "Can only be used in the air",
-                                "Can be linked with <span data-tooltip='Tornado Spin (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/tornado-spin.png' alt='Skill Tornado Spin'/></span> and <span data-tooltip='Bloody Storm (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/bloody-storm.png' alt='Skill Bloody Storm'/></span>"
+                                "Can be linked with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/tornado-spin.png} tooltip={Tornado Spin (2nd Job)}> and <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/bloody-storm.png} tooltip={Bloody Storm (3rd Job)}>"
                             ]
                         },
                         {
@@ -349,7 +349,7 @@
                             "type": "Attack",
                             "desc": "Throws a flashbang forward that debuffs enemies hit",
                             "details": [
-                                "<strong>[Debuff]</strong>: Reduces %Accuracy and enemy takes increased %Damage"
+                                "[Debuff]: Reduces %Accuracy and enemy takes increased %Damage"
                             ]
                         },
                         {
@@ -383,8 +383,8 @@
                         "type": "Attack",
                         "desc": "Slash furiously around you",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases the %Damage of <span data-tooltip='Tornado Spin (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/tornado-spin.png' alt='Skill Tornado Spin'/></span> and <span data-tooltip='Flying Assualter (2nd Job+)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/flying-assaulter.png' alt='Skill Flying Assaulter'/></span>",
-                            "Can be linked with <span data-tooltip='Tornado Spin (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/tornado-spin.png' alt='Skill Tornado Spin'/></span> and <span data-tooltip='Flying Assualter (2nd Job+)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/flying-assaulter.png' alt='Skill Flying Assaulter'/></span>"
+                            "[Passive]: Permanently increases the %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/tornado-spin.png} tooltip={Tornado Spin (2nd Job)}> and <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/flying-assaulter.png} tooltip={Flying Assualter (2nd Job+)}>",
+                            "Can be linked with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/tornado-spin.png} tooltip={Tornado Spin (2nd Job)}> and <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/flying-assaulter.png} tooltip={Flying Assualter (2nd Job+)}>"
                         ]
                     },
                     {
@@ -397,8 +397,8 @@
                         "desc": "Slashes upward launching up into the air",
                         "details": [
                             "Pressing the Up Arrow Key and Skill Key together will boost you up higher",
-                            "Can be linked with <span data-tooltip='Flying Assualter (2nd Job+)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/flying-assaulter.png' alt='Skill Flying Assaulter'/></span>",
-                            "The following limitations are applied to this skill:<ul><li>Can only be used one-time when used after an <span data-tooltip='Flash Jump (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png' alt='Skill Flash Jump'/></span> upward double jump</li><li>When casting this skill first, <span data-tooltip='Flash Jump (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png' alt='Skill Flash Jump'/></span> upward double jump cannot be used</li></ul>"
+                            "Can be linked with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/flying-assaulter.png} tooltip={Flying Assualter (2nd Job+)}>",
+                            "The following limitations are applied to this skill:<bp_Can only be used one-time when used after an <img src={http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png} tooltip={Flash Jump (1st Job)}> upward double jump_When casting this skill first, <img src={http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png} tooltip={Flash Jump (1st Job)}> upward double jump cannot be used_>"
                         ]
                     },
                     {
@@ -425,7 +425,7 @@
                         "desc": "Creates a clone that mimics your attacks, increasing the number of hits you deal per attack",
                         "details": [
                             "The clone's attack deals reduced %Final Damage",
-                            "Does not mimic <span data-tooltip='Flashbang (2nd Job+)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/flashbang.png' alt='Skill Flashbang'/></span>, summoning skills, and 5th Job Common Skills"
+                            "Does not mimic <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/flashbang.png} tooltip={Flashbang (2nd Job+)}>, summoning skills, and 5th Job Common Skills"
                         ]
                     },
                     {
@@ -434,10 +434,10 @@
                         "maxLevel": 5,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/common/advanced-dark-sight.png"],
                         "type": "Passive",
-                        "desc": "During <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>, using attacks has a chance to not deactivate the buff. Additionally, when you are hit, there is a chance to automatically activate <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>",
+                        "desc": "During <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>, using attacks has a chance to not deactivate the buff. Additionally, when you are hit, there is a chance to automatically activate <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>",
                         "details": [
-                            "While in the automatic <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>, if you dodge an attack that deals %Max HP, the duration is reduced slightly and the cooldown will not apply",
-                            "Additionally, you gain increased %Final Damage while in <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>"
+                            "While in the automatic <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>, if you dodge an attack that deals %Max HP, the duration is reduced slightly and the cooldown will not apply",
+                            "Additionally, you gain increased %Final Damage while in <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>"
                         ]
                     },
                     {
@@ -462,7 +462,7 @@
                         "type": "Passive",
                         "desc": "Grants a chance to dodge incoming attacks and gain a buff on successful dodges",
                         "details": [
-                            "<strong>[Buff]</strong>: All your attacks are guaranteed Critical Hits and grants flat Attack"
+                            "[Buff]: All your attacks are guaranteed Critical Hits and grants flat Attack"
                         ]
                     }]
                 ],
@@ -500,7 +500,7 @@
                     "type": "Key-down Attack",
                     "desc": "Stab forward dealing devastating damage and provides a buff",
                     "details": [
-                        "<strong>[Buff]</strong>: Increases %Final Damage",
+                        "[Buff]: Increases %Final Damage",
                         "Holding the Skill Key will increase the %Damage of the attack",
                         "You are briefly invincible after using Final Cut"
                     ]
@@ -514,7 +514,7 @@
                     "type": "Attack",
                     "desc": "Unleashes a devastating large attack that applies a damaging debuff",
                     "details": [
-                        "When used, reduces remaining cooldown of <span data-tooltip='Final Cut (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/final-cut.png' alt='Skill Final Cut'/></span>",
+                        "When used, reduces remaining cooldown of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/final-cut.png} tooltip={Final Cut (4th Job)}>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -551,9 +551,9 @@
                     "type": "Summon",
                     "desc": "Creates a dummy that draws in enemy aggression",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Avoidability and %DEF",
-                        "Can only be used while <span data-tooltip='Mirror Image (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/mirror-image.png' alt='Skill Mirror Image'/></span> is active",
-                        "When the dummy is attacked, <span data-tooltip='Shadow Meld (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/shadow-meld.png' alt='Skill Shadow Meld'/></span> will be triggered",
+                        "[Passive]: Permanently increases %Avoidability and %DEF",
+                        "Can only be used while <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/mirror-image.png} tooltip={Mirror Image (3rd Job)}> is active",
+                        "When the dummy is attacked, <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/shadow-meld.png} tooltip={Shadow Meld (3rd Job)}> will be triggered",
                         "While summoned, damage taken is reduced (excludes %Max HP attacks)",
                         "Dummy has a fixed amount of HP"
                     ]
@@ -759,10 +759,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/haunted-edge.png"],
                     "animations": ["https://media4.giphy.com/media/J6HLpBWTus9GdmFFJ7/giphy.gif"],
                     "type": "Passive Attack",
-                    "desc": "Periodically, when using <span data-tooltip='Blade Fury (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/blade-fury.png' alt='Skill Blade Fury'/></span> or <span data-tooltip='Phantom Blow (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/phantom-blow.png' alt='Skill Phantom Blow'/></span>, an additional attack will trigger",
+                    "desc": "Periodically, when using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/blade-fury.png} tooltip={Blade Fury (4th Job)}> or <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/phantom-blow.png} tooltip={Phantom Blow (4th Job)}>, an additional attack will trigger",
                     "details": [
-                        "<span data-tooltip='Blade Fury (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/blade-fury.png' alt='Skill Blade Fury'/></span> <strong>[Sura]: </strong>Slashes around you and creates homing blade winds<ul><li>Blade winds are unaffected by <span data-tooltip='Mirror Image (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/mirror-image.png' alt='Skill Mirror Image'/></span></li><li>Enemies hit by multiple Sword Winds, each additional Sword Wind deals reduced %Final Damage</li></ul>",
-                        "<span data-tooltip='Phantom Blow (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/phantom-blow.png' alt='Skill Phantom Blow'/></span> <strong>[Yaksa]: </strong>Slashes violently forward",
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/blade-fury.png} tooltip={Blade Fury (4th Job)}> [Sura]:Slashes around you and creates homing blade winds<bp_Blade winds are unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/mirror-image.png} tooltip={Mirror Image (3rd Job)}>_Enemies hit by multiple Sword Winds, each additional Sword Wind deals reduced %Final Damage_>",
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/phantom-blow.png} tooltip={Phantom Blow (4th Job)}> [Yaksa]: Slashes violently forward",
                         "Attacks has increased %Ignore DEF",
                         "Unaffected by Damage Reflect"
                     ]
@@ -779,7 +779,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Phantom Blow (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/phantom-blow.png' alt='Skill Phantom Blow'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/phantom-blow.png} tooltip={Phantom Blow (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -800,7 +800,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Asura&#39;s Anger (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/asuras-anger.png' alt='Skill Phantom Blow'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/dual-blade/asuras-anger.png} tooltip={Asura's Anger (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

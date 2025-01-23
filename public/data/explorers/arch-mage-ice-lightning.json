@@ -196,7 +196,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -247,7 +247,7 @@
                         "desc": "Up jump skill",
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
-                            "After using Mana Wave, holding the Jump Key will allow you to slowly float down<ul><li>You can move while floating</li></ul>"
+                            "After using, holding the Jump Key will allow you to slowly float down<bp_You can move while floating_>"
                         ]
                     },
                     {
@@ -288,7 +288,7 @@
                         "type": "Passive",
                         "desc": "Attacking enemies with Ice-Attribute attacks will provide a stacking debuff",
                         "details": [
-                            "<strong>[Debuff]</strong>: For each stack, receives increased %Crit Damage and additional %Damage for Lightning-Attribute attacks",
+                            "[Debuff]: For each stack, receives increased %Crit Damage and additional %Damage for Lightning-Attribute attacks",
                             "Using Lightning-Attribute attacks will consume a stack"
                         ]
                     },
@@ -308,9 +308,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/chilling-step.png"],
                         "animations": ["https://media.giphy.com/media/bUvzBAxVIqMz4E1aFH/giphy.gif"],
                         "type": "Toggle",
-                        "desc": "While toggled, using <span data-tooltip='Teleport (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> will have a chance to freeze the ground",
+                        "desc": "While toggled, using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png} tooltip={Teleport (1st Job)}> will have a chance to freeze the ground",
                         "details": [
-                            "Frozen ground will slow enemies and apply stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span>",
+                            "Frozen ground will slow enemies and apply stacks of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png} tooltip={Freezing Crush (2nd Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -375,7 +375,7 @@
                         "desc": "Creates a barrier that blocks one Critical Abnormal Status effect",
                         "details": [
                             "Upon blocking an Abnormal Status, gain a barrier that blocks an additional Critical Abnormal Status and the skill will go on cooldown",
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
                         ]
                     },
                     {
@@ -399,9 +399,9 @@
                         "type": "Summon",
                         "desc": "Summons an orb that strikes nearby enemies and follows you around",
                         "details": [
-                            "While active, pressing the Down Arrow Key and Skill Key together will fix the orb's position and attack in a wider range<ul><li>Right-clicking the skill will toggle ON/OFF the ability to fix the position by pressing the Skill Key without the Down Arrow Key</li></ul>",
+                            "While active, pressing the Down Arrow Key and Skill Key together will fix the orb's position and attack in a wider range<bp_Right-clicking the skill will toggle ON/OFF the ability to fix the position by pressing the Skill Key without the Down Arrow Key_>",
                             "Deals increased %p Damage to regular monsters",
-                            "Does not consume <span data-tooltip='Freezing Crush (2nd Job'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span> freezing stacks"
+                            "Does not consume <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png} tooltip={Freezing Crush (2nd Job}> freezing stacks"
                         ]
                     },
                     {
@@ -411,9 +411,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/teleport-mastery.png"],
                         "animations": ["https://media.giphy.com/media/UZS4IQSaM371c0pUxT/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "While toggled, using <span data-tooltip='Teleport (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> will damage nearby enemies",
+                        "desc": "While toggled, using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png} tooltip={Teleport (1st Job)}> will damage nearby enemies",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance",
+                            "[Passive]: Permanently increases %Knockback Resistance",
                             "Has a chance to stun enemies"
                         ]
                     },
@@ -423,9 +423,9 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/teleport-boost.png"],
                         "type": "Toggle Buff",
-                        "desc": "While toggled, increases the teleport distance of <span data-tooltip='Teleport (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span>",
+                        "desc": "While toggled, increases the teleport distance of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png} tooltip={Teleport (1st Job)}>",
                         "details": [
-                            "Cannot be used at the same time as <span data-tooltip='Teleport Mastery - Range'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/teleport-mastery-range.png' alt='Skill Teleport Mastery - Range'/></span>"
+                            "Cannot be used at the same time as <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/teleport-mastery-range.png} tooltip={Teleport Mastery - Range (Hyper Skill)}>"
                         ]
                     },
                     {
@@ -499,7 +499,7 @@
                     "type": "Attack / Final Attack",
                     "desc": "Creates a shower of icicles",
                     "details": [
-                        "<strong>[Final Attack]</strong>: Your attacks have a chance to create an icicle that strikes a single enemy"
+                        "[Final Attack]: Your attacks have a chance to create an icicle that strikes a single enemy"
                     ]
                 },
                 {
@@ -538,7 +538,7 @@
                     "type": "Summon",
                     "desc": "Summons an ice golem that attacks nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Weapon Mastery",
+                        "[Passive]: Permanently increases %Weapon Mastery",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -687,7 +687,7 @@
                     "type": "Party Toggle Buff",
                     "desc": "While toggled, increases Status Resistance and %Damage Reduction",
                     "details": [
-                        "Pressing the Down Arrow Key and Skill Key together will create a party zone that applies the active effect<ul><li>Enemies within the zone will gain stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span></li></ul>"
+                        "Pressing the Down Arrow Key and Skill Key together will create a party zone that applies the active effect<bp_Enemies within the zone will gain stacks of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png} tooltip={Freezing Crush (2nd Job)}>_>"
                     ],
                     "reqLev": 140
                 },
@@ -728,7 +728,7 @@
                     "desc": "Creates a massive icy explosion that covers the map in ice",
                     "details": [
                         "Unaffected by Damage Reflect",
-                        "The lingering ice field while periodically damaging and grant stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span>"
+                        "The lingering ice field while periodically damaging and grant stacks of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png} tooltip={Freezing Crush (2nd Job)}>"
                     ]
                 },
                 {
@@ -749,7 +749,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/spirit-of-snow.png"],
                     "animations": ["https://media.giphy.com/media/KFi2458O0ZRxQXH3AL/giphy-downsized-large.gif"],
                     "type": "Summon",
-                    "desc": "Summons a spirit of snow to attack nearby enemies and applies stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span>",
+                    "desc": "Summons a spirit of snow to attack nearby enemies and applies stacks of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png} tooltip={Freezing Crush (2nd Job)}>",
                     "details": [
                         "When attacking a single enemy, applies 3 stacks instead",
                         "Unaffected by Damage Reflect"
@@ -765,7 +765,7 @@
                     "details": [
                         "The orb will continue to travel again if the current target is defeated",
                         "The orb has a fixed number of shocks it can deal before it disappears",
-                        "Reduces <span data-tooltip='Freezing Crush (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span> stacks each time an enemy is shocked 5 times by the orb",
+                        "Reduces <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/freezing-crush.png} tooltip={Freezing Crush (2nd Job)}> stacks each time an enemy is shocked 5 times by the orb",
                         "Enemies hit by the attack receive increased %Final Damage from Lightning-attribute attacks except Jupiter Thunder",
                         "Unaffected by Damage Reflect",
                         "Cooldown is reduced based on how many shocks remain"
@@ -783,7 +783,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Chain Lightning (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/chain-lightning.png' alt='Skill Chain Lightning'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/chain-lightning.png} tooltip={Chain Lightning (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -804,7 +804,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Frozen Orb (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/frozen-orb.png' alt='Skill Frozen Orb'/></span> <span data-tooltip='Blizzard (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/blizzard.png' alt='Skill Blizzard'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/frozen-orb.png} tooltip={Frozen Orb (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/ice-lightning/blizzard.png} tooltip={Blizzard (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

@@ -138,7 +138,7 @@
                     "type": "Active",
                     "desc": "Allows you to teleport using the directional keys up to 3 times",
                     "details": [
-                        "Cooldown increases based on the number of times you teleported (by 1.5 secs each)"
+                        "Cooldown increases based on the number of times teleported (1.5 secs each)"
                     ]
                 },
                 {
@@ -155,10 +155,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/skill-swipe.png"],
                     "animations": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/skill-swipe-preview.jpg"],
                     "type": "Special Active",
-                    "desc": "Activates a special UI where you can select and steal skills from nearby Explorer characters",
+                    "desc": "Activates a special mode for selecting and stealing skills from nearby Explorer characters",
                     "details": [
                         "Passive effects of stolen skills will not be applied",
-                        "Skill duration and cooldowns will be the same for Phantom<ul><li>Certain skills may not be stolen and Bishop's <span data-tooltip='Heal (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/heal.png' alt='Skill Heal'/></span> cooldown, if stolen will be longer</li></ul>"
+                        "Skill duration and cooldowns are the same for Phantom<bp_Certain skills may not be stolen and Bishop's <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/heal.png} tooltip={Heal (2nd Job)}> cooldown will be longer_>"
                     ]
                 },
                 {
@@ -167,9 +167,9 @@
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/loadout.png"],
                     "type": "Special Active",
-                    "desc": "Allows you to manage all the skills you have stolen",
+                    "desc": "Opens UI to manage all stolen skills",
                     "details": [
-                        "After equipping a stolen skill, there is a short cooldown (30 secs) before you can use it"
+                        "After equipping a stolen skill, there is a cooldown (30 secs) before it can be used"
                     ]
                 },
                 {
@@ -179,10 +179,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-2.png"],
                     "animations": ["https://media.giphy.com/media/XCxZpbcYcQauPvUQe5/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Releases all the cards in your Card Gauge which seek out and attack one enemy",
+                    "desc": "Releases all cards stored in the Card Gauge that seek out and attack one enemy",
                     "details": [
-                        "Phantom has a special gauge that is charged by attacking enemies<ul><li>Once it is full you may use this skill to reset your gauge</li></ul>",
-                        "You also gain a buff after this skill has been activated:<ul><li><strong>[Destin]</strong>: Increases %Crit Rate</li><li><strong>[Malheur]: </strong>Increases %Item Drop Rate</li><li><strong>[Endurance]:</strong> Increases Abnormal Status Resistance and %Elemental Resistance</li><li><strong>[Drain]: </strong>Restore some %Max HP when attacking</li></ul>"
+                        "Phantom has a special gauge that is charged by attacking enemies<bp_Once it is full using this skill resets the gauge_>",
+                        "Upon activating, gain one of the following buffs:<bp_[Destin]: Increases %Crit Rate_[Malheur]: Increases %Item Drop Rate_[Endurance]: Increases Abnormal Status Resistance and %Elemental Resistance_[Drain]: Restore some %Max HP when attacking_>"
                     ]
                 },
                 {
@@ -191,7 +191,7 @@
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-auto.png", "http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-manual.png"],
                     "type": "Toggle",
-                    "desc": "When this skill is on Auto, <span data-tooltip='Judgment Draw (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw.png' alt='Skill Judgment Draw'/><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-2.png' alt='Skill Judgment Draw (2)'/></span> will automatically be used when your Card Gauge is filled"
+                    "desc": "When this skill is on Auto, <img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw.png} tooltip={Judgment Draw (Beginner Skill)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/judgment-draw-2.png} tooltip={Judgment Draw (Beginner Skill)}> will automatically be used when your Card Gauge is filled"
                 },
                 {
                     "name": "Hero's Echo",

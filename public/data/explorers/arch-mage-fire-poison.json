@@ -196,7 +196,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -247,7 +247,7 @@
                         "desc": "Up jump skill",
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
-                            "After using Mana Wave, holding the Jump Key will allow you to slowly float down<ul><li>You can move while floating</li></ul>"
+                            "After using, holding the Jump Key will allow you to slowly float down<bp_You can move while floating_>"
                         ]
                     },
                     {
@@ -319,7 +319,7 @@
                         "type": "Toggle",
                         "desc": "While toggled, successfully striking an enemy with a Fire-Attribute attacks has a chance to create a damaging wall of fire",
                         "details": [
-                            "<span data-tooltip='Inferno Aura (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span> does not trigger Ignite",
+                            "<img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/inferno-aura.png} tooltip={Inferno Aura (Hyper Skill)}> does not trigger Ignite",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -379,7 +379,7 @@
                         "details": [
                             "Enemies within the pool will receive a damaging debuff",
                             "Deals increased %Damage to regular monsters",
-                            "Using a Fire-Attribute attack will cause the pool to explode<ul><li>The explosion will detonate nearby pools</li><li>Enemies will take reduced %Final Damage for all explosions after the first</li></ul>"
+                            "Using a Fire-Attribute attack will cause the pool to explode<bp_The explosion will detonate nearby pools_Enemies will take reduced %Final Damage for all explosions after the first_>"
                         ]
                     },
                     {
@@ -391,7 +391,7 @@
                         "type": "Buff",
                         "desc": "Creates a barrier that blocks up to 10 Critical Abnormal Statuses",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
                         ]
                     },
                     {
@@ -401,9 +401,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/teleport-mastery.png"],
                         "animations": ["https://media.giphy.com/media/53RJiAP3M1yC3ZkSQx/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "While toggled, using <span data-tooltip='Teleport (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> will damage nearby enemies",
+                        "desc": "While toggled, using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png} tooltip={Teleport (1st Job)}> will damage nearby enemies",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance",
+                            "[Passive]: Permanently increases %Knockback Resistance",
                             "Has a chance to stun enemies and apply a damaging debuff"
                         ]
                     },
@@ -413,7 +413,7 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/teleport-boost.png"],
                         "type": "Toggle Buff",
-                        "desc": "While toggled, increases the teleport distance of <span data-tooltip='Teleport (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span>"
+                        "desc": "While toggled, increases the teleport distance of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png} tooltip={Teleport (1st Job)}>"
                     },
                     {
                         "name": "Elemental Decrease",
@@ -430,7 +430,7 @@
                         "type": "Passive",
                         "desc": "",
                         "details": [
-                            "Does not apply to <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span>"
+                            "Does not apply to <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/inferno-aura.png} tooltip={Inferno Aura (Hyper Skill)}>"
                         ]
                     },
                     {
@@ -468,13 +468,13 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/mist-eruption.png"],
                     "animations": ["https://media.giphy.com/media/o8E0DcJ5v9M18Xow4g/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Causes nearby <span data-tooltip='Poison Mist (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> to explode damaging nearby enemies",
+                    "desc": "Causes nearby <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/poison-mist.png} tooltip={Poison Mist (3rd Job)}> to explode damaging nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Poison Mist (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> DoT",
+                        "[Passive]: Permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/poison-mist.png} tooltip={Poison Mist (3rd Job)}> DoT",
                         "The explosion gains increased %Final Damage based on how many DoT debuffs an enemy has active",
                         "Explosion has increased %Ignore DEF",
-                        "If the explosion hits an enemy, the cooldown of <span data-tooltip='Flame Haze (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> is reset",
-                        "Not affected by cooldown resets<ul><li>Cooldown is slightly reduced if an enemy hit has 5 or more DoT debuffs</li></ul>"
+                        "If the explosion hits an enemy, the cooldown of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/flame-haze.png} tooltip={Flame Haze (4th Job)}> is reset",
+                        "Not affected by cooldown resets<bp_Cooldown is slightly reduced if an enemy hit has 5 or more DoT debuffs_>"
                     ]
                 },
                 {
@@ -497,7 +497,7 @@
                     "type": "Attack / Final Attack",
                     "desc": "Creates a shower of meteors that rain down from the sky",
                     "details": [
-                        "<strong>[Final Attack]</strong>: Your attacks have a chance for a meteor to strike a single enemy"
+                        "[Final Attack]: Your attacks have a chance for a meteor to strike a single enemy"
                     ]
                 },
                 {
@@ -510,7 +510,7 @@
                     "desc": "Launches a fireball forward at a single enemy that applies a damaging burning debuff",
                     "details": [
                         "Enemies with the debuff are slowed and cannot deal touch damage",
-                        "<span data-tooltip='Poison Mist (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> will form where an enemy was hit or around you if no enemy are struck"
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/poison-mist.png} tooltip={Poison Mist (3rd Job)}> will form where an enemy was hit or around you if no enemy are struck"
                     ]
                 },
                 {
@@ -536,7 +536,7 @@
                     "type": "Summon",
                     "desc": "Summons a fire golem that attacks nearby enemies that applies a damaging burn debuff",
                     "details": [
-                        "<strong>[Passive]</strong>: Increases %Weapon Mastery",
+                        "[Passive]: Increases %Weapon Mastery",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -730,7 +730,7 @@
                     "type": "Attack",
                     "desc": "Releases multiple flame orbs that seek out enemies and applies a damaging burning debuff",
                     "details": [
-                        "Summons additional orbs for every DoT debuff on enemies in range<ul><li>Only up to a maximum of 25 Flame Orbs will be created</li></ul>",
+                        "Summons additional orbs for every DoT debuff on enemies in range<bp_Only up to a maximum of 25 Flame Orbs will be created_>",
                         "If multiple orbs hit a single target, their %Final Damage is reduced"
                     ]
                 },
@@ -742,7 +742,7 @@
                     "type": "Attack",
                     "desc": "Releases multiple poison orbs that spread out in all directions, poisoning any enemies it collides with",
                     "details": [
-                        "After several seconds, you can detonate the orbs to explode with <span data-tooltip='Mist Eruption (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> dealing massive damage<ul><li>The orbs will change colors when they are ready to detonate</li></ul>",
+                        "After several seconds, you can detonate the orbs to explode with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/mist-eruption.png} tooltip={Mist Eruption (4th Job)}> dealing massive damage<bp_The orbs will change colors when they are ready to detonate_>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -754,8 +754,8 @@
                     "type": "Summon",
                     "desc": "Summons a spirit of fire to attack nearby enemies",
                     "details": [
-                        "Duration is increased for each stack of <span data-tooltip='Fervent Drain (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/></span>",
-                        "Can only be used when <span data-tooltip='Ifrit (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> is active",
+                        "Duration is increased for each stack of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/elemental-drain.png} tooltip={Fervent Drain (4th Job)}>",
+                        "Can only be used when <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/ifrit.png} tooltip={Ifrit (4th Job)}> is active",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -768,9 +768,9 @@
                     "desc": "Casts a stacking poisonous debuff onto two enemies that spreads to nearby enemies",
                     "details": [
                         "If no enemies nearby, a crystal is created that will infect the next enemy in range and disappears",
-                        "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<ul><li>Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion</li></ul>",
-                        "Each enemy can only explode up to 9 times, and a total of 17 times across all affected enemies<ul><li>If you reach maximum explosions, when the skill ends, all enemies will explode for a final explosion</li></ul>",
-                        "Does not trigger Damage Reflect or <span data-tooltip='Fervent Drain (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/></span>"
+                        "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<bp_Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion_>",
+                        "Each enemy can only explode up to 9 times, and a total of 17 times across all affected enemies<bp_If you reach maximum explosions, when the skill ends, all enemies will explode for a final explosion_>",
+                        "Does not trigger Damage Reflect or <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/elemental-drain.png} tooltip={Fervent Drain (4th Job)}>"
                     ]
                 }
             ]
@@ -785,7 +785,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Flame Sweep (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/flame-sweep.png} tooltip={Flame Sweep (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -806,7 +806,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Flame Haze (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> <span data-tooltip='Mist Eruption (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/flame-haze.png} tooltip={Flame Haze (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/fire-poison/mist-eruption.png} tooltip={Mist Eruption (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

@@ -190,7 +190,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -238,7 +238,7 @@
                         "desc": "While active, you cannot hit or be hit by enemies",
                         "details": [
                             "While active, pressing the Skill Key again or using an attack will cancel Dark Sight",
-                            "You can use <span data-tooltip='Flash Jump (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png' alt='Skill Flash Jump'/></span> while in Dark Sight",
+                            "You can use <img src={http://localhost:3000/grandislibrary/class-icons/explorers/thief/flash-jump.png} tooltip={Flash Jump (1st Job)}> while in Dark Sight",
                             "Has a cooldown (3 secs, stacks up to 5 times) per attack dodged"
                         ]
                     },
@@ -367,7 +367,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png"],
                         "animations": ["https://media.giphy.com/media/fZLn8ERItz6ePNtPzs/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Causes Mesos dropped by <span data-tooltip='Pick Pocket (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/pick-pocket.png' alt='Skill Pick Pocket'/></span> to seek out and damage nearby enemies"
+                        "desc": "Causes Mesos dropped by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/pick-pocket.png} tooltip={Pick Pocket (3rd Job)}> to seek out and damage nearby enemies"
                     },
                     {
                         "name": "Dark Flare",
@@ -388,10 +388,10 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/shadower/pick-pocket.png"],
                         "animations": ["https://media.giphy.com/media/H5qOYrEX1R01JF8Y0N/giphy.gif"],
                         "type": "Toggle",
-                        "desc": "While toggled, your attacks have a chance to drop Mesos which are used by <span data-tooltip='Meso Explosion (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png' alt='Skill Meso Explosion'/></span>",
+                        "desc": "While toggled, attacks have a chance to drop Mesos which are used by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png} tooltip={Meso Explosion (3rd Job)}>",
                         "details": [
-                            "Mesos do not drop from summoning skills, 5th Job Common Skills, damage over time, and <span data-tooltip='Meso Explosion (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png' alt='Skill Meso Explosion'/></span>",
-                            "Cannot be used at the same time as <span data-tooltip='Blood Money (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/blood-money.png' alt='Skill Blood Money'/></span>"
+                            "Mesos do not drop from summoning skills, 5th Job Common Skills, damage over time, and <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png} tooltip={Meso Explosion (3rd Job)}>",
+                            "Cannot be used at the same time as <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/blood-money.png} tooltip={Blood Money (4th Job)}>"
                         ]
                     },
                     {
@@ -404,7 +404,7 @@
                         "desc": "Creates a clone that mimics your attacks, increasing the number of hits you deal per attack",
                         "details": [
                             "The clone's attack deals reduced %Final Damage",
-                            "Does not mimic <span data-tooltip='Meso Explosion (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png' alt='Skill Meso Explosion'/></span>, summoning skills, and 5th Job Common Skills"
+                            "Does not mimic <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png} tooltip={Meso Explosion (3rd Job)}>, summoning skills, and 5th Job Common Skills"
                         ]
                     },
                     {
@@ -413,10 +413,10 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/common/advanced-dark-sight.png"],
                         "type": "Passive",
-                        "desc": "During <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>, using attacks has a chance to not deactivate the buff. Additionally, when you are hit, there is a chance to automatically activate <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>",
+                        "desc": "During <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>, using attacks has a chance to not deactivate the buff. Additionally, when you are hit, there is a chance to automatically activate <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>",
                         "details": [
-                            "While in the automatic <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>, if you dodge an attack that deals %Max HP, the duration is reduced slightly and the cooldown will not apply",
-                            "Additionally, you gain increased %Final Damage while in <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>"
+                            "While in the automatic <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>, if you dodge an attack that deals %Max HP, the duration is reduced slightly and the cooldown will not apply",
+                            "Additionally, you gain increased %Final Damage while in <img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>"
                         ]
                     },
                     {
@@ -426,9 +426,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/shadower/into-darkness.png"],
                         "animations": ["https://media.giphy.com/media/xdJtoFZNe6jCkIyiVJ/giphy.gif"],
                         "type": "Active",
-                        "desc": "Teleport to an enemy within range and activates <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>",
+                        "desc": "Teleport to an enemy within range and activates <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>",
                         "details": [
-                            "Shares cooldown with <span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span>"
+                            "Shares cooldown with <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}>"
                         ]
                     },
                     {
@@ -466,7 +466,7 @@
                     "details": [
                         "Assassinate has two attacks, the initial strike and pressing the Skill Key again will activate the final blow",
                         "While casting, you are immune to being knocked back at all (Super Knockback Resistance)",
-                        "Final blow deals increased %Final Damage when <span data-tooltip='Blood Money (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/blood-money.png' alt='Skill Blood Money'/></span> Murderous Intent is active and consumes the buff"
+                        "Final blow deals increased %Final Damage when <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/blood-money.png} tooltip={Blood Money (4th Job)}> Murderous Intent is active and consumes the buff"
                     ]
                 },
                 {
@@ -478,8 +478,8 @@
                     "type": "Attack",
                     "desc": "Stab forward",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Final Damage",
-                        "Has a reduced chance to drop Mesos from <span data-tooltip='Pick Pocket (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/pick-pocket.png' alt='Skill Pick Pocket'/></span>"
+                        "[Passive]: Permanently increases %Final Damage",
+                        "Has a reduced chance to drop Mesos from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/pick-pocket.png} tooltip={Pick Pocket (3rd Job)}>"
                     ]
                 },
                 {
@@ -489,12 +489,12 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/shadower/blood-money.png"],
                     "animations": ["https://media.giphy.com/media/Pi34jaePxOEEZ9hZPA/giphy.gif", "https://media.giphy.com/media/W75bGTvkZoUcmL4YgD/giphy.gif"],
                     "type": "Toggle",
-                    "desc": "While toggled, your attacks have a chance to drop red coins which are used by <span data-tooltip='Meso Explosion (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png' alt='Skill Meso Explosion'/></span>",
+                    "desc": "While toggled, your attacks have a chance to drop red coins which are used by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png} tooltip={Meso Explosion (3rd Job)}>",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Crit Damage and grants flat LUK",
-                        "While active, <span data-tooltip='Meso Explosion (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png' alt='Skill Meso Explosion'/></span> grants the Murderous Intent buff and deals increased %Boss Damage<ul><li>Targets bosses first with the highest HP</li></ul>",
-                        "Coins do not drop from summoning skills, 5th Job Common Skills, damage over time, and <span data-tooltip='Meso Explosion (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png' alt='Skill Meso Explosion'/></span>",
-                        "Cannot be used at the same time as <span data-tooltip='Pick Pocket (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/pick-pocket.png' alt='Skill Pick Pocket'/></span>",
+                        "[Passive]: Permanently increases %Crit Damage and grants flat LUK",
+                        "While active, <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png} tooltip={Meso Explosion (3rd Job)}> grants the Murderous Intent buff and deals increased %Boss Damage<bp_Targets bosses first with the highest HP_>",
+                        "Coins do not drop from summoning skills, 5th Job Common Skills, damage over time, and <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png} tooltip={Meso Explosion (3rd Job)}>",
+                        "Cannot be used at the same time as <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/pick-pocket.png} tooltip={Pick Pocket (3rd Job)}>",
                         "Right-clicking the skill will toggle the visual effect ON/OFF",
                         "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
@@ -532,9 +532,9 @@
                     "type": "Buff Zone",
                     "desc": "Creates a smokescreen where party members cannot be hit by enemy attacks",
                     "details": [
-                        "<span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span> will not deactivate while attacking within the smokescreen",
-                        "Increased chance for <span data-tooltip='Advanced Dark Sight (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'/></span> to activate while within the smokescreen",
-                        "For attacks that deal %Max HP damage, the damage will be reduced<ul><li>Smokescreen can also block certain key boss attacks such as Lotus' lightning floor & purple orbs and Will's screen crack</li></ul>",
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}> will not deactivate while attacking within the smokescreen",
+                        "Increased chance for <img src={http://localhost:3000/grandislibrary/class-icons/common/advanced-dark-sight.png} tooltip={Advanced Dark Sight (3rd Job)}> to activate while within the smokescreen",
+                        "For attacks that deal %Max HP damage, the damage will be reduced<bp_Smokescreen can also block certain key boss attacks such as Lotus' lightning floor & purple orbs and Will's screen crack_>",
                         "Enemies within the smokescreen take increased %Crit Damage",
                         "While casting, you are immune to being knocked back at all (Super Knockback Resistance)"
                     ]
@@ -687,8 +687,8 @@
                     "type": "Summon",
                     "desc": "Creates a large damaging field of slashing blades",
                     "details": [
-                        "<span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/></span> will not deactivate while attacking within the veil",
-                        "Increased chance for <span data-tooltip='Advanced Dark Sight (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/advanced-dark-sight.png' alt='Skill Advanced Dark Sight'/></span> to activate while within the veil"
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight (1st Job)}> will not deactivate while attacking within the veil",
+                        "Increased chance for <img src={http://localhost:3000/grandislibrary/class-icons/common/advanced-dark-sight.png} tooltip={Advanced Dark Sight (3rd Job)}> to activate while within the veil"
                     ],
                     "reqLev": 160
                 },
@@ -716,7 +716,7 @@
                     "details": [
                         "Attack has increased %Crit Rate and 100% Ignore DEF",
                         "Pressing the desired Arrow Keys along with the Skill Key will dash towards that direction, including diagonal directions",
-                        "Can be used up to 4 times and the cooldown starts after the initial cast<ul><li>If the skill is off cooldown and is casted again before all the charges are used, you regain maximum charges and the cooldown is applied again</li></ul>"
+                        "Can be used up to 4 times and the cooldown starts after the initial cast<bp_If the skill is off cooldown and is casted again before all the charges are used, you regain maximum charges and the cooldown is applied again_>"
                     ]
                 },
                 {
@@ -727,8 +727,8 @@
                     "type": "Attack",
                     "desc": "Slashes nearby enemies several times",
                     "details": [
-                        "<strong>[Passive]:</strong> Enemies hit by the final attack of <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/assassinate.png' alt='Skill Assassinate'/> or <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/sonic-blow.png' alt='Skill Sonic Blow'/> receive a stacking debuff (up to 3 times) that is consumed by Trick Blade<ul><li>Only 1 enemy can receive the debuff at a time</li></ul>",
-                        "If an enemy has the debuff at max stack, you can link <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/assassinate.png' alt='Skill Assassinate'/> or <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/sonic-blow.png' alt='Skill Sonic Blow'/> together with Trick Blade to dash behind that enemy and deal a devastating attack<ul><li>The attack instead deals heavy damage to that one target and gains 100% Crit Rate and 100% Ignore DEF</li><li>You are also briefly invincible after the attack however the skill has a longer cooldown</li><li>Unaffected by Attack Ignore and Damage Reflect</li></ul>"
+                        "[Passive]: Enemies hit by the final attack of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/assassinate.png} tooltip={Assassinate (4th Job)}> or <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/sonic-blow.png} tooltip={Sonic Blow (5th Job)}> receive a stacking debuff (up to 3 times) that is consumed by Trick Blade<bp_Only 1 enemy can receive the debuff at a time_>",
+                        "If an enemy has the debuff at max stack, you can link <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/assassinate.png} tooltip={Assassinate (4th Job)}> or <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/sonic-blow.png} tooltip={Sonic Blow (5th Job)}> together with Trick Blade to dash behind that enemy and deal a devastating attack<bp_The attack instead deals heavy damage to that one target and gains 100% Crit Rate and 100% Ignore DEF_You are also briefly invincible after the attack however the skill has a longer cooldown_Unaffected by Attack Ignore and Damage Reflect_>"
                     ]
                 },
                 {
@@ -739,8 +739,8 @@
                     "type": "Attack",
                     "desc": "Unleashes a barrage of slashes in front of you",
                     "details": [
-                        "Attack has 100% Ignore DEF and applies wound debuff from <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/trickblade.png' alt='Skill Trickblade'/> to the enemy with the highest Max HP",
-                        "Attack can be cancelled by using <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/shadow-assault.png' alt='Skill Shadow Assault'/> or <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/trickblade.png' alt='Skill Trickblade'/><ul><li>Cooldown will be reduced based on how many number of attacks remain</li></ul>",
+                        "Attack has 100% Ignore DEF and applies wound debuff from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/trickblade.png} tooltip={Skill Trickblade (5th Job)}> to the enemy with the highest Max HP",
+                        "Attack can be cancelled by using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/shadow-assault.png} tooltip={Shadow Assault (5th Job)}> or <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/trickblade.png} tooltip={Trickblade (5th Job)}><bp_Cooldown will be reduced based on how many number of attacks remain_>",
                         "While casting, you are immune to being knocked back at all (Super Knockback Resistance)"
                     ]
                 },
@@ -753,9 +753,9 @@
                     "desc": "Over a few seconds, shadows appear and slashes through enemies around you before dealing a devastating final blow",
                     "details": [
                         "Attack has 100% Ignore DEF",
-                        "When used with <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/assassinate.png' alt='Skill Assassinate'/> or <img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/cruel-stab.png' alt='Skill Cruel Stab'/>, there is no casting animation and can be used at the same time",
+                        "When used with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/assassinate.png} tooltip={Assassinate (4th Job)}> or <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/cruel-stab.png} tooltip={Cruel Stab (4th Job)}>, there is no casting animation and can be used at the same time",
                         "While active, pressing the Skill Key again will end the attack early and deal the devastating final blow",
-                        "Unaffected by Damage Reflect and <img src='http://localhost:3000/grandislibrary/class-icons/common/shadow-partner.png' alt='Skill Shadow Partner'/>"
+                        "Unaffected by Damage Reflect and <img src={http://localhost:3000/grandislibrary/class-icons/common/shadow-partner.png} tooltip={Shadow Partner (3rd Job)}>"
                     ]
                 }
             ]
@@ -770,7 +770,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Assassinate (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/assassinate.png' alt='Skill Assassinate'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/assassinate.png} tooltip={Assassinate (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -801,7 +801,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Meso Explosion (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png' alt='Skill Meso Explosion'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/shadower/meso-explosion.png} tooltip={Meso Explosion (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

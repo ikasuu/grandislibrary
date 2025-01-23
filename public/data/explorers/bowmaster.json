@@ -184,7 +184,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -315,7 +315,7 @@
                         "desc": "Fires a stream of arrows at a chosen angle",
                         "details": [
                             "While casting, pressing the Up and Down Arrow Keys changes the angle of firing",
-                            "While casting, pressing the 'Interact / Harvest' key will set up an Arrow Blaster at your location<ul><li>You can change the key to the Attack Key instead by right-clicking the skill</li><li>Unaffected by Damage Reflect</li></ul>"
+                            "While casting, pressing the 'Interact / Harvest' key will set up an Arrow Blaster at your location<bp_You can change the key to the Attack Key instead by right-clicking the skill_Unaffected by Damage Reflect_>"
                         ]
                     },
                     {
@@ -327,9 +327,8 @@
                         "type": "Toggle Attack",
                         "desc": "After successfully landing 12 arrow-based attacks, afterimages are created that fire piercing arrows towards an enemy",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases the range and %p Damage of <span data-tooltip='Wind Arrow (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/wind-arrow.png' alt='Skill Wind Arrow'/></span>",
-                            "The arrow damages enemies they pass through",
-                            "Every 7 hits from the following attacks count as 1 successful arrow-based attack, <span data-tooltip='Arrow Blaster (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png' alt='Skill Arrow Blaster'/></span> <span data-tooltip='Hurricane (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/hurricane.png' alt='Skill Hurricane'/></span> <span data-tooltip='Silhouette Mirage (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/silhouette-mirage.png' alt='Skill Silhouette Mirage'/></span> <span data-tooltip='Inhuman Speed (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/inhuman-speed.png' alt='Skill Inhuman Speed'/></span> <span data-tooltip='Quiver Barrage (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-barrage.png' alt='Skill Quiver Barrage'/></span> <span data-tooltip='Storm of Arrows (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/storm-of-arrows.png' alt='Skill Storm of Arrows'/></span><ul><li>Stationary attacks from <span data-tooltip='Arrow Blaster (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png' alt='Skill Arrow Blaster'/></span> don't count towards the successful strikes</li></ul>"
+                            "[Passive]: Permanently increases the range and %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/wind-arrow.png} tooltip={Wind Arrow (2nd Job)}> by a flat amount",
+                            "Every 7 hits from the following attacks count as 1 successful arrow-based attack, <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png} tooltip={Arrow Blaster (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/hurricane.png} tooltip={Hurricane (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/silhouette-mirage.png} tooltip={Silhouette Mirage (5th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/inhuman-speed.png} tooltip={Inhuman Speed (5th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-barrage.png} tooltip={Quiver Barrage (5th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/storm-of-arrows.png} tooltip={Storm of Arrows (5th Job)}><bp_Stationary attacks from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png} tooltip={Arrow Blaster (3rd Job)}> don't count towards the successful strikes_>"
                             
                         ]
                     },
@@ -342,7 +341,7 @@
                         "type": "Summon",
                         "desc": "Summons a Phoenix that fights alongside you",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %DEF",
+                            "[Passive]: Permanently increases %DEF",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -382,7 +381,7 @@
                         "type": "Passive",
                         "desc": "While attacking, you periodically gain Abnormal Status Resistance",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
                             "Resets when an Abnormal Status is received"
                         ]
                     },
@@ -416,7 +415,7 @@
                         "type": "Key-down Attack",
                         "desc": "While held, fires a continuous flurry of arrows at a single enemy",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %p damage of <img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-stream.png' alt='Skill Arrow Stream'/> Arrow Stream",
+                            "[Passive]: Permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-stream.png} tooltip={Arrow Stream (4th Job)}> by a flat amount",
                             "You can move and jump while firing",
                             "Prioritizes the target with the highest HP first"
                         ]
@@ -451,7 +450,7 @@
                         "desc": "",
                         "details": [
                             "Increases the %Damage and activation chance of the homing arrows",
-                            "Adds a new arrow type, Blood Arrows, that have a chance to recover %Max HP<ul><li>Swap between arrow types by pressing <span data-tooltip='Quiver Cartridge (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-cartridge.png' alt='Skill Quiver Cartridge'/></span></li></ul>",
+                            "Adds a new arrow type, Blood Arrows, that have a chance to recover %Max HP<bp_Swap between arrow types by pressing <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-cartridge.png} tooltip={Quiver Cartridge (2nd Job)}>_>",
                             "Also permanently increases your %Final Damage"
                         ]
                     },
@@ -497,7 +496,7 @@
                         "details": [
                             "Increases %Weapon Mastery provided",
                             "Now grants flat Attack and increases %Crit Damage",
-                            "Allows you to deploy <span data-tooltip='Arrow Blaster (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png' alt='Skill Arrow Blaster'/></span> at the highest and lowest angle by holding the Down / Up Arrow Key while deploying"
+                            "Allows you to deploy <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png} tooltip={Arrow Blaster (3rd Job)}> at the highest and lowest angle by holding the Down / Up Arrow Key while deploying"
                         ]
                     },
                     {
@@ -587,7 +586,7 @@
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases %Damage of <span data-tooltip='Arrow Blaster (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png' alt='Skill Arrow Blaster'/></span> and <span data-tooltip='Hurricane (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/hurricane.png' alt='Skill Hurricane'/></span>"
+                        "Increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png} tooltip={Arrow Blaster (3rd Job)}> and <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/hurricane.png} tooltip={Hurricane (4th Job)}>"
                     ],
                     "reqLev": 150
                 },
@@ -627,7 +626,7 @@
                     "type": "Attack",
                     "desc": "Releases a burst of wind that damages and slows enemies hits",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %p Damage of <span data-tooltip='Arrow Blaster (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png' alt='Skill Arrow Blaster'/></span>"
+                        "[Passive]: Permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png} tooltip={Arrow Blaster (3rd Job)}> by a flat amount"
                     ],
                     "reqLev": 160
                 },
@@ -654,7 +653,7 @@
                     "desc": "While active, increases %Damage and arrows periodically rain from the sky on to enemies",
                     "details": [
                         "If attacking more than one enemy, the arrows gain increased number of attacks for each additional enemy",
-                        "Magic Arrows from <img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-cartridge.png' alt='Skill Quiver Cartridge'/> have an increased chance to activate where arrows rain down",
+                        "Magic Arrows from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-cartridge.png} tooltip={Quiver Cartridge (2nd Job)}> have an increased chance to activate where arrows rain down",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -676,7 +675,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-barrage.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExejNnZXNhb2tib3hhdHF2eXhyMHBpNXRuemZ2ZWV2cmw4NW43emNuciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2SPSfQ1L09oepVUSY6/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, increases %Attack and uses every <img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-cartridge.png' alt='Skill Quiver Cartridge'/> arrow type at once",
+                    "desc": "While active, increases %Attack and uses every <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/quiver-cartridge.png} tooltip={Quiver Cartridge (2nd Job)}> arrow type at once",
                     "details": [
                         "While active, temporarily adds a new arrow type, Flaming Arrows that explode, damaging nearby enemies",
                         "There is a limited amount of Flaming Arrows that can be fired",
@@ -693,7 +692,7 @@
                     "desc": "When toggled, when you take damage equal to 50% of your max HP or higher or if the attack is fatal, a mirage (if available) will be consumed and the damage taken will be reduced",
                     "details": [
                         "If you have a mirage active, your attacks fire an additional attack periodically",
-                        "You gain 1 mirage every 50 secs (up to 2 max)<ul><li>Affected by Buff Freezers however the regeneration time is not counted while dead</li></ul>",
+                        "You gain 1 mirage every 50 secs (up to 2 max)",
                         "Right-clicking the skill will turn the mirage visual effect on/off",
                         "Unaffected by Damage Reflect"
                     ]
@@ -710,7 +709,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Hurricane (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/hurricane.png' alt='Skill Hurricane'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/hurricane.png} tooltip={Hurricane (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -731,7 +730,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Arrow Stream (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-stream.png' alt='Skill Arrow Stream'/></span> <span data-tooltip='Arrow Blaster/Speed Mirage (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png' alt='Skill Arrow Blaster'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-stream.png} tooltip={Arrow Stream (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bowmaster/arrow-blaster.png} tooltip={Arrow Blaster/Speed Mirage (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

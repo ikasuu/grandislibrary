@@ -177,7 +177,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -296,9 +296,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/marksman/empowered-arrows.png"],
                         "animations": ["https://media.giphy.com/media/vKi397hzZ1cPS0QuI6/giphy.gif"],
                         "type": "Passive Attack",
-                        "desc": "After striking enemies with <span data-tooltip='Piercing Arrow (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> a set number of times, your next <span data-tooltip='Piercing Arrow (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> will be empowered",
+                        "desc": "After striking enemies with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png} tooltip={Piercing Arrow (2nd Job)}> a set number of times, the next <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png} tooltip={Piercing Arrow (2nd Job)}> will be empowered",
                         "details": [
-                            "Also permanently increases %p Damage of <span data-tooltip='Piercing Arrow (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span>"
+                            "Also permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png} tooltip={Piercing Arrow (2nd Job)}> by a flat amount"
                         ]
                     },
                     {
@@ -310,7 +310,7 @@
                         "type": "Summon",
                         "desc": "Summons a Frostprey that fights alongside you",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %DEF",
+                            "[Passive]: Permanently increases %DEF",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -345,7 +345,7 @@
                         "type": "Buff",
                         "desc": "Clears all Abnormal Statuses and become immune to them briefly",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
                         ]
                     },
                     {
@@ -416,7 +416,7 @@
                         "type": "Attack",
                         "desc": "Fires a powerful arrow at one enemy and marks them",
                         "details": [
-                            "Marked enemies hit by an <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> Empowered Snipe are dealt an additional attack",
+                            "Marked enemies hit by an <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/greater-empowered-arrows.png} tooltip={Greater Empowered Arrows (4th Job)}> Empowered Snipe are dealt an additional attack",
                             "Attack is a guaranteed Critical Hit and has increased %Ignore DEF",
                             "Prioritizes enemy with highest max HP within range first"
                         ]
@@ -432,8 +432,8 @@
                         "details": [
                             "Increases %Damage, Max Enemies Pierced, and Number of Attacks of empowered attack",
                             "Empowered attack now explodes at the end, damaging nearby enemies",
-                            "<span data-tooltip='Snipe (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> will now also be empowered by using <span data-tooltip='Snipe (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png' alt='Skill Piercing Arrow'/></span> a set number of times<ul><li>Enemies hit with empowered <span data-tooltip='Snipe (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> are dealt an additional attack",
-                            "All Empowered attacks grant a buff upon successful attacks<ul><li><strong>[Buff]</strong>: Increases %Final Damage and %Ignore DEF</li></ul>",
+                            "<img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png} tooltip={Snipe (4th Job)}> will now also be empowered by using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png} tooltip={Snipe (4th Job)}> a set number of times<bp_Enemies hit with empowered <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png} tooltip={Snipe (4th Job)}> are dealt an additional attack_>",
+                            "All Empowered attacks grant a buff upon successful attacks<bp_[Buff]: Increases %Final Damage and %Ignore DEF_>",
                             "Also permanently increases your %Final Damage and %Ignore DEF"
                         ]
                     },
@@ -444,9 +444,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/marksman/arrow-illusion.png"],
                         "animations": ["https://media.giphy.com/media/pwHqrlYWIXXyRcFznn/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons an arrow that pulls in and damages nearby enemies",
+                        "desc": "Place an arrow that pulls in and damages nearby enemies",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Ignore DEF",
+                            "[Passive]: Permanently increases %Ignore DEF",
                             "Enemies hit have a chance to be stunned",
                             "When the Arrow Illusion is hit, it will deal a counterattack",
                             "Unaffected by Damage Reflect"
@@ -649,7 +649,7 @@
                         "Damage is based on the enemy's proximity to the center of your sights",
                         "Use the Left Mouse Button to attack and Right Mouse Button to cancel the Skill",
                         "You are invincible while in casting and briefly after the skill ends",
-                        "Provides the buff from <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> on successful attacks",
+                        "Provides the buff from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/greater-empowered-arrows.png} tooltip={Greater Empowered Arrows (4th Job)}> on successful attacks",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -659,7 +659,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/marksman/split-shot.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW9iNWtwcXB5ampma29udmtmcHdobnlpNG12NTk0Z2FuZG4xbW5yNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CicYcmyNPYbTuOOF6r/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, successful attacks from <span data-tooltip='Piercing Arrow (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> <span data-tooltip='Snipe (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> <span data-tooltip='Repeating Crossbow Cartridge (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/repeating-crossbow-cartridge.png' alt='Skill Repeating Crossbow Cartridge'/></span> <span data-tooltip='Ultimate Snipe (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/hexa-snipe-3.png' alt='Skill HEXA Ultimate Snipe'/></span> <span data-tooltip='Ultimate Piercing Arrow (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/hexa-piercing-arrow-3.png' alt='Skill HEXA Ultimate Piercing Arrow'/></span> releases a burst of arrows forward",
+                    "desc": "While active, successful attacks from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png} tooltip={Piercing Arrow (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png} tooltip={Snipe (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/repeating-crossbow-cartridge.png} tooltip={Repeating Crossbow Cartridge (5th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/hexa-snipe-3.png} tooltip={Ultimate Snipe (6th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/hexa-piercing-arrow-3.png} tooltip={Ultimate Piercing Arrow (6th Job)}/> releases a burst of arrows forward",
                     "details": [
                         "Attack deals increased %Ignore DEF"
                     ]
@@ -672,10 +672,10 @@
                     "type": "Key-down Attack",
                     "desc": "Charges up a powerful arrow that is shot fired when released",
                     "details": [
-                        "Holding the Skill Key will charge the Skill<ul><li>You can charge and activate while using <img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/>, <img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/>, <img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/high-speed-shot.png' alt='Skill High Speed Shot'/>, and <img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/repeating-crossbow-cartridge.png' alt='Skill Repeating Crossbow Cartridge'/> Repeating Crossbow Cartridge (5th Job)</li><li>Once fully charged, the attack deals increased %Damage</li></ul>",
+                        "Holding the Skill Key will charge the Skill<bp_You can charge and activate while using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png} tooltip={Piercing Arrow (2nd Job}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png} tooltip={Snipe (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/high-speed-shot.png} tooltip={High Speed Shot (Hyper Skill)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/repeating-crossbow-cartridge.png} tooltip={Repeating Crossbow Cartridge (5th Job)}>_Once fully charged, the attack deals increased %Damage_>",
                         "Attack is a guaranteed Critical Hit and has increased %Ignore DEF",
-                        "Provides the buff from <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> if the attack lands",
-                        "Attack will not activate <img src='http://localhost:3000/grandislibrary/class-icons/common/final-attack.png' alt='Skill Final Attack'/>"
+                        "Provides the buff from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/greater-empowered-arrows.png} tooltip={Greater Empowered Arrows (4th Job)}> if the attack lands",
+                        "Attack will not activate <img src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tooltip={Final Attack (2nd Job)}>"
                     ]
                 },
                 {
@@ -689,7 +689,7 @@
                         "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
                         "There is a limited amount of arrows that can be fired",
                         "Prioritizes bosses with the highest HP first",
-                        "Provides the buff from <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> on successful attacks"
+                        "Provides the buff from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/greater-empowered-arrows.png} tooltip={Greater Empowered Arrows (4th Job)}> on successful attacks"
                     ]
                 }
             ]
@@ -704,7 +704,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Snipe/Empowered Snipe (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/snipe.png} tooltip={Snipe/Empowered Snipe (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -725,7 +725,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Piercing Arrow (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Snipe'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/marksman/piercing-arrow.png} tooltip={Piercing Arrow (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

@@ -196,7 +196,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <link href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' title='\"An Arrangement from the Goddess\"'>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -247,7 +247,7 @@
                         "desc": "Up jump skill",
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
-                            "After using Mana Wave, holding the Jump Key will allow you to slowly float down<ul><li>You can move while floating</li></ul>"
+                            "After using, holding the Jump Key will allow you to slowly float down<bp_You can move while floating_>"
                         ]
                     },
                     {
@@ -312,7 +312,7 @@
                         "type": "Vengeance Attack",
                         "desc": "Calls an angel to strike forward and debuff enemies hit",
                         "details": [
-                            "<strong>[Debuff]</strong>: Reduces %Defense"
+                            "[Debuff]: Reduces %Defense"
                         ]
                     },
                     {
@@ -407,8 +407,8 @@
                         "type": "Buff",
                         "desc": "Creates a barrier that blocks up to 5 Critical Abnormal Statuses",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
-                            "Cooldown is reduced for each party member cured by <span data-tooltip='Dispel (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/dispel.png' alt='Skill Dispel'/></span>"
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance",
+                            "Cooldown is reduced for each party member cured by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/dispel.png} tooltip={Dispel (3rd Job)}>"
                         ]
                     },
                     {
@@ -432,7 +432,7 @@
                         "type": "Benevolence Party Active",
                         "desc": "Cures party members of Abnormal Statuses",
                         "details": [
-                            "If a party member is cured, the cooldown of Dispel and <span data-tooltip='Divine Protection (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/divine-protection.png' alt='Skill Divine Protection'/></span> are reduced",
+                            "If a party member is cured, the cooldown of Dispel and <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/divine-protection.png} tooltip={Divine Protection (3rd Job)}> are reduced",
                             "Right-clicking the skill will toggle ON/OFF skill effect transparency to party members' debuffs"
                         ]
                     },
@@ -464,9 +464,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/bishop/teleport-mastery.png"],
                         "animations": ["https://media.giphy.com/media/mNLdILBMkBCa4PeCnA/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "While toggled, using <span data-tooltip='Teleport (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> will damage nearby enemies",
+                        "desc": "While toggled, using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png} tooltip={Teleport (1st Job)}> will damage nearby enemies",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance",
+                            "[Passive]: Permanently increases %Knockback Resistance",
                             "Has a chance to stun enemies"
                         ]
                     },
@@ -476,7 +476,7 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/bishop/teleport-boost.png"],
                         "type": "Toggle Buff",
-                        "desc": "While toggled, increases the teleport distance of <span data-tooltip='Teleport (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span>"
+                        "desc": "While toggled, increases the teleport distance of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/mage/teleport.png} tooltip={Teleport (1st Job)}>"
                     },
                     {
                         "name": "Holy Magic Shell",
@@ -485,9 +485,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/bishop/holy-magic-shell.png"],
                         "animations": ["https://media.giphy.com/media/DoYoKdcU5cYndmeHW2/giphy.gif"],
                         "type": "Party Buff",
-                        "desc": "Restores 50% of Max HP to nearby party members and grants them a shield",
+                        "desc": "Restores %Max HP to nearby party members and grants them a shield",
                         "details": [
-                            "The shield will absorb a set number of attacks before disappearing<ul><li>If the attack was a %Max HP attack, you will take reduced damage instead</li></ul>",
+                            "The shield will absorb a set number of attacks before disappearing<bp_If the attack was a %Max HP attack, you will take reduced damage instead_>",
                             "After receiving a Holy Magic Shell, you may not receive another one for a short amount of time"
                         ]
                     },
@@ -564,8 +564,8 @@
                     "type": "Benevolence Summon Heal",
                     "desc": "",
                     "details": [
-                        "<strong>[Passive]</strong>: Successfully landing <span data-tooltip='Angel Ray (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/angel-ray.png' alt='Skill Angel Ray'/></span> 7 times will generate 1 Holy Water (up to 5)",
-                        "<strong>[Active]</strong>: Consumes all Holy Water to summon chalices you and your party members can consume to heal<ul><li>Press the Up Arrow Key while standing on top of a chalice to heal</li><li>The duration and amount healed per chalice is increased (additively) based on your INT stat, +5 sec & +5% recovery for every 2500 INT</li><li>If the active ends early, up to 50% of Holy Water is returned</li></ul>"
+                        "[Passive]: Successfully landing <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/angel-ray.png} tooltip={Angel Ray (4th Job}> 7 times will generate 1 Holy Water (up to 5)",
+                        "[Active]: Consumes all Holy Water to summon chalices you and your party members can consume to heal<bp_Press the Up Arrow Key while standing on top of a chalice to heal_The duration and amount healed per chalice is increased (additively) based on your INT stat, +5 sec & +5% recovery for every 2500 INT_If the active ends early, up to 50% of Holy Water is returned_>"
                     ]
                 },
                 {
@@ -578,7 +578,7 @@
                     "desc": "Increases %Final Damage however, increases %Damage Taken and reduces HP recovery (excluding healing items)",
                     "details": [
                         "While active, pressing the Skill Key will cancel the buff",
-                        "Increases amount of %Final Damage provided (additively) based on your INT stat, +1% for every 5000 INT (up to +15%)<ul><li>Scaling unaffected by Special Skill Rings</li></ul>"
+                        "Increases amount of %Final Damage provided (additively) based on your INT stat, +1% for every 5000 INT (up to +15%)<bp_Scaling unaffected by Special Skill Rings_>"
                     ]
                 },
                 {
@@ -590,8 +590,8 @@
                     "type": "Party Revive",
                     "desc": "Revives all party members within range",
                     "details": [
-                        "Revived party members are briefly invincible and gain increased %Damage<ul><li>Increases amount of %Damage provided based on your INT stat, +1% for every 2500 INT (up to +25%)</li></ul>",
-                        "Consumes a Death Count for bosses but buffs are kept",
+                        "Revived party members are briefly invincible and gain increased %Damage<bp_Increases amount of %Damage provided based on your INT stat, +1% for every 2500 INT (up to +25%)_>",
+                        "Consumes a Death Count for bosses",
                         "Unaffected by cooldown resets"
                     ]
                 },
@@ -630,7 +630,7 @@
                     "type": "Party Buff",
                     "desc": "",
                     "details": [
-                        "Does not stack with <span data-tooltip='Bless (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/bless.png' alt='Skill Bless'/></span>"
+                        "Does not stack with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/bless.png} tooltip={Bless (2nd Job)}>"
                     ]
                 },
                 {
@@ -767,7 +767,7 @@
                     "type": "Toggle Active",
                     "desc": "Switches between Benevolence skills and Vengeance skills",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Final Damage, %Ignore DEF, %Elemental Resistance, and grants Magic Attack"
+                        "[Passive]: Permanently increases %Final Damage, %Ignore DEF, %Elemental Resistance, and grants Magic Attack"
                     ],
                     "reqLev": 140
                 },
@@ -780,7 +780,7 @@
                     "type": "Party Buff / Attack",
                     "desc": "Damages nearby enemies while granting a buff to nearby party members",
                     "details": [
-                        "<strong>[Buff]: </strong>Protects allies from one KO",
+                        "[Buff]: Protects allies from one KO",
                         "After receiving a Heaven's Door's buff, you may not receive another one for a short amount of time"
                     ],
                     "reqLev": 160
@@ -807,10 +807,10 @@
                     "type": "Buff Zone",
                     "desc": "Creates an aura around your character that increases %Final Damage for all party members within and grants a buff",
                     "details": [
-                        "<strong>[Buff]:</strong> Party members other than yourself gain Attack Speed while periodically restoring %Max HP/MP and clearing certain Abnormal Statuses",
+                        "[Buff]: Party members other than yourself gain Attack Speed while periodically restoring %Max HP/MP and clearing certain Abnormal Statuses",
                         "The amount of %Final Damage provided is divided among nearby party members",
-                        "While active, pressing the Skill Key again within 5 sec will reduce the duration and cooldown for a shorter version<ul><li>Right-clicking this skill will toggle ON/OFF automatically triggering this effect upon use</li></ul>",
-                        "Effects scale off of your INT stat: <ul> <li><strong>[Final Damage]: </strong>+1% for every 3000 INT (up to +33%, divided between party members)</li><li><strong>[HP/MP Recovery]: </strong>+1% for every 2000 INT (up to +10%)</li><li><strong>[Attack Speed]: </strong>+1% for every 10000 INT (up to +3)</li><li>Scaling unaffected by Special Skill Rings</li></ul>"
+                        "While active, pressing the Skill Key again within 5 sec will reduce the duration and cooldown for a shorter version<bp_Right-clicking this skill will toggle ON/OFF automatically triggering this effect upon use_>",
+                        "Effects scale off of your INT stat:<bp_[Final Damage]: +1% for every 3000 INT (up to +33%, divided between party members)_[HP/MP Recovery]: +1% for every 2000 INT (up to +10%)_[Attack Speed]: +1% for every 10000 INT (up to +3)_Scaling unaffected by Special Skill Rings_>"
                     ]
                 },
                 {
@@ -821,10 +821,10 @@
                     "type": "Summon",
                     "desc": "Summons two angels that attack nearby enemies and buff party members",
                     "details": [
-                        "<strong>[Angel of Vengeance]</strong>: Grants a buff to nearby party members that periodically restores %Max HP and increases their %Damage<ul><li>Damage increase scales off of your INT stat, +1% for every 1250 INT (up to +100% & up to +40% for party members)</li><li>Scaling unaffected by Special Skill Rings</li></ul>",
-                        "<strong>[Avenging Angel]</strong>: Attacks nearby enemies and applies a debuff where Holy-attribute attacks deal increased %Final Damage and consume the debuff",
-                        "Upon summoning, <span data-tooltip='Bahamut (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/bahamut.png' alt='Skill Bahamut'/></span> Bahamut will despawn and then respawn once the summon expires",
-                        "While active, pressing the Skill Key within 5 sec will reduce the duration and cooldown for a shorter version<ul><li>Right-clicking this skill will toggle ON/OFF automatically triggering this effect upon use</li></ul>",
+                        "[Angel of Vengeance]: Grants a buff to nearby party members that periodically restores %Max HP and increases their %Damage<bp_Damage increase scales off of your INT stat, +1% for every 1250 INT (up to +100% & up to +40% for party members)_Scaling unaffected by Special Skill Rings_>",
+                        "[Avenging Angel]: Attacks nearby enemies and applies a debuff where Holy-attribute attacks deal increased %Final Damage and consume the debuff",
+                        "Upon summoning, <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/bahamut.png} tooltip={Bahamut (4th Job)}> Bahamut will despawn and then respawn once the summon expires",
+                        "While active, pressing the Skill Key within 5 sec will reduce the duration and cooldown for a shorter version<bp_Right-clicking this skill will toggle ON/OFF automatically triggering this effect upon use_>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -836,7 +836,7 @@
                     "type": "Attack / Heal",
                     "desc": "Sends an angel forward that damages enemies and heals party members it passes through",
                     "details": [
-                        "At the end of its range or when the Skill Key is pressed again, the angel expands dealing damage and buffing party members<ul><li><strong>[Buff]</strong>: Increases %Damage</li></ul>",
+                        "At the end of its range or when the Skill Key is pressed again, the angel expands dealing damage and buffing party members<bp_[Buff]: Increases %Damage_>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -848,7 +848,7 @@
                     "type": "Key-down Attack",
                     "desc": "While held, rains down angelic arrows from above",
                     "details": [
-                        "This skill has a special resource called Holy Light which are prepared every 11 seconds (Max. 5)<ul><li>Costs 1 Holy Light per second to cast</li></ul>"
+                        "This skill has a special resource called Holy Light which are prepared every 11 seconds (Max. 5)<bp_Costs 1 Holy Light per second to cast_>"
                     ]
                 }
             ]
@@ -863,7 +863,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Angel Ray (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/angel-ray.png' alt='Skill Angel Ray'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/angel-ray.png} tooltip={Angel Ray (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -884,7 +884,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Big Bang (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/big-bang.png' alt='Skill Big Bang'/></span> <span data-tooltip='Genesis/Triumph Feather (4th/3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/bishop/genesis.png' alt='Skill Genesis'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/big-bang.png} tooltip={Big Bang (4th Job)}/> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/bishop/genesis.png} tooltip={Genesis/Triumph Feather (4th/3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
