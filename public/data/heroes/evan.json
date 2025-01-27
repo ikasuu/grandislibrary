@@ -196,7 +196,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/7/Hero%27s_Succession' target='_blank' rel='noopener noreferrer'>'Hero's Succession'</a>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/7/Hero%27s_Succession} title={\"Hero's Succession\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -229,11 +229,7 @@
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/evan/magic-guard.png"],
                         "animations": ["https://media4.giphy.com/media/5oBdex1TizRtSxKWg0/giphy.gif"],
-                        "type": "Toggle Buff",
-                        "desc":"",
-                        "details": [
-                            "Additionally increases %Damage Reduction while active"
-                        ]
+                        "type": "Toggle Buff"
                     },
                     {
                         "name": "Dragon Soul",
@@ -305,7 +301,7 @@
                         "type": "Fusion Skill",
                         "desc": "Mir creates blades of wind that seek and attack nearby enemies",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/></span>",
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png} tooltip={Dragon Flash (2nd Job)}>",
                             "Deals increased %Damage to Regular Monsters by a flat amount",
                             "Unaffected by Damage Reflect"
                         ]
@@ -319,8 +315,8 @@
                         "type": "Fusion Skill",
                         "desc": "Debuffs nearby enemies",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/></span>",
-                            "<strong>[Debuff]</strong>: Enemy takes increased %Final Damage from magic attacks"
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png} tooltip={Dragon Flash (2nd Job)}>",
+                            "[Debuff]: Enemy takes increased %Final Damage from magic attacks"
                         ]
                     },
                     {
@@ -351,7 +347,7 @@
                         "desc": "Jumps upwards",
                         "details": [
                             "Can be activated by pressing the Up Arrow Key and Jump Key while in the air",
-                            "After using the skill, you can cast <span data-tooltip='Teleport (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/teleport.png' alt='Skill Teleport'/></span> once before landing"
+                            "After using the skill, you can cast <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/teleport.png} tooltip={Teleport (1st Job)}> once before landing"
                         ]
                     },
                     {
@@ -418,7 +414,7 @@
                         "type": "Mir Attack",
                         "desc": "Mir dives to the ground and creates a shockwave around themselves",
                         "details": [
-                            "<strong>[Passive]</strong>: Increases %p Damage of <span data-tooltip='Wind Cirlce (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-circle.png' alt='Skill Wind Circle'/></span>, <span data-tooltip='Dragon Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/></span>, <span data-tooltip='Wind Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-flash.png' alt='Skill Wind Flash'/></span>, and <span data-tooltip='Thunder Flash (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-flash.png' alt='Skill Thunder Flash'/></span>",
+                            "[Passive]: Increases %Damage by a flat amount for the following skills: <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-circle.png} tooltip={Wind Cirlce (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png} tooltip={Dragon Flash (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-flash.png} tooltip={Wind Flash (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-flash.png} tooltip={Thunder Flash (3rd Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -431,7 +427,7 @@
                         "type": "Fusion Skill",
                         "desc": "Dragon Dive now instead creates orbs of lightning that damages enemies",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Dive (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-dive.png' alt='Skill Dragon Dive'/></span>",
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-dive.png} tooltip={Dragon Dive (3rd Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -444,7 +440,7 @@
                         "type": "Fusion Skill",
                         "desc": "Grants nearby party members increased Attack Speed (by 1 stage)",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Dive (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-dive.png' alt='Skill Dragon Dive'/></span>"
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-dive.png} tooltip={Dragon Dive (3rd Job)}>"
                         ]
                     },
                     {
@@ -456,7 +452,7 @@
                         "type": "Fusion Skill",
                         "desc": "Mir dashes multiple times in the shape of a star",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/></span>",
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png} tooltip={Dragon Flash (2nd Job)}>",
                             "Enemies attacked repeatedly take reduced %Final Damage from the attack",
                             "Unaffected by Damage Reflect"
                         ]
@@ -543,7 +539,7 @@
                         "desc": "Mir releases a breath of fire forward",
                         "details": [
                             "Unaffected by Damage Reflect",
-                            "Increases %p Damage of <span data-tooltip='Wind Circle (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-circle.png' alt='Skill Wind Circle'/></span>, <span data-tooltip='Dragon Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/></span>, <span data-tooltip='Wind Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-flash.png' alt='Skill Wind Flash'/></span>, <span data-tooltip='Thunder Flash (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-flash.png' alt='Skill Thunder Flash'/></span>, <span data-tooltip='Thunder Circle (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-circle.png' alt='Skill Thunder Circle'/></span>, <span data-tooltip='Dragon Dive (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-dive.png' alt='Skill Dragon Dive'/></span>, <span data-tooltip='Thunder Dive (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-dive.png' alt='Skill Thunder Dive'/></span>, and <span data-tooltip='Earth Dive (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/earth-dive.png' alt='Skill Earth Dive'/></span>"
+                            "Increases %Damage by a flat amount for the following skills: <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-circle.png} tooltip={Wind Circle (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png} tooltip={Dragon Flash (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-flash.png} tooltip={Wind Flash (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-flash.png} tooltip={Thunder Flash (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-circle.png} tooltip={Thunder Circle (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-dive.png} tooltip={Dragon Dive (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-dive.png} tooltip={Thunder Dive (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/earth-dive.png} tooltip={Earth Dive (4th Job)}>"
                         ]
                     },
                     {
@@ -555,7 +551,7 @@
                         "type": "Fusion Skill",
                         "desc": "Mir's breath becomes even stronger and deals additional %p Damage to enemies with less HP",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Breath (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-breath.png' alt='Skill Dragon Breath'/></span>",
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-breath.png} tooltip={Dragon Breath (4th Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -568,7 +564,7 @@
                         "type": "Fusion Skill",
                         "desc": "Mir creates beams of fire that tethers onto enemies and damages them ",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Breath (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-breath.png' alt='Skill Dragon Breath'/></span>",
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-breath.png} tooltip={Dragon Breath (4th Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -581,7 +577,7 @@
                         "type": "Fusion Skill",
                         "desc": "Scorches the ground below you damaging enemies that step in it",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Breath (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-breath.png' alt='Skill Dragon Breath'/></span>",
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-breath.png} tooltip={Dragon Breath (4th Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -594,7 +590,7 @@
                         "type": "Fusion Skill",
                         "desc": "Mir crashes into pieces of earth that shatter",
                         "details": [
-                            "Shares Skill Points (SP) with <span data-tooltip='Dragon Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/></span>",
+                            "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png} tooltip={Dragon Flash (2nd Job)}>",
                             "Enemies attacked repeatedly take reduced %Final Damage from the attack",
                             "Unaffected by Damage Reflect"
                         ]
@@ -609,7 +605,7 @@
                         "desc": "Dark clouds strike thunder down on enemies around you",
                         "details": [
                             "Attack has increased %Crit Rate",
-                            "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Magic Debris (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/magic-debris.png' alt='Skill Magic Debris'/></span>"
+                            "[Passive]: Permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/magic-debris.png} tooltip={Magic Debris (3rd Job)}>"
                         ]
                     },
                     {
@@ -621,7 +617,7 @@
                         "type": "Buff",
                         "desc": "",
                         "details": [
-                            "Does not stack with Luminous' <span data-tooltip='Photic Meditation (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/photic-meditation.png' alt='Skill Photic Meditation'/></span>"
+                            "Does not stack with Luminous' <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/photic-meditation.png} tooltip={Photic Meditation (3rd Job)}>"
                         ]
                     },
                     {
@@ -794,7 +790,7 @@
                     "type": "Mount Attack",
                     "desc": "Mounts onto Mir and allows you to freely fly around and unleash a breath of fire",
                     "details": [
-                        "Holding the Skill Key will blast a breath of fire forward<ul><li>Releasing the Skill Key will immediately dismount Mir and end the skill</li></ul>",
+                        "Holding the Skill Key will blast a breath of fire forward<bp_Releasing the Skill Key will immediately dismount Mir and end the skill_>",
                         "For each remaining 1 sec key-down time, the skill cooldown is reduced by 18 sec (up to 160 sec)",
                         "You are invincible while mounted and briefly after the skill ends"
                     ],
@@ -823,7 +819,7 @@
                     "desc": "Unleash an elemental attack in front of you",
                     "details": [
                         "For each successful element attack (4 elements), gain a stacking %Final Damage buff",
-                        "While Mir is casting <span data-tooltip='Dragon Slam (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-slam.png' alt='Skill Dragon Slam'/></span>, pressing the Down Arrow Key and Skill Key together will cast the Fusion Skill with increased MP cost without activating this attack",
+                        "While Mir is casting <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-slam.png} tooltip={Dragon Slam (5th Job)}>, pressing the Down Arrow Key and Skill Key together will cast the Fusion Skill with increased MP cost without activating this attack",
                         "Attack is a guaranteed Critical Hit",
                         "Unaffected by Damage Reflect"
                     ]
@@ -847,7 +843,7 @@
                     "type": "Fusion Skill",
                     "desc": "Mir unleashes a powerful blast of elemental energy",
                     "details": [
-                        "Shares Skill Points (SP) with <span data-tooltip='Dragon Slam (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-slam.png' alt='Skill Dragon Slam'/></span> and you get both skills together",
+                        "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-slam.png} tooltip={Dragon Slam (5th Job)}> and you get both skills together",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -859,7 +855,7 @@
                     "type": "Fusion Skill",
                     "desc": "Creates a damaging vortex at your location",
                     "details": [
-                        "Shares Skill Points (SP) with <span data-tooltip='Dragon Slam (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-slam.png' alt='Skill Wyrmking's Breath'/></span> and you get both skills together",
+                        "Shares Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-slam.png} tooltip={Dragon Slam (5th Job)}> and you get both skills together",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -869,9 +865,9 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/evan/elemental-radiance.png"],
                     "animations": ["https://media.giphy.com/media/eZL40dxgLTHChyW07t/giphy-downsized-large.gif"],
                     "type": "Summon",
-                    "desc": "Creates a magical pentacle that charges up as you attack enemies",
+                    "desc": "Create a magical pentacle that charges up as you attack enemies",
                     "details": [
-                        "Successful attacks will charge the pentacle (max 25)<ul><li>Skills with an attribute grant 3 charges but can only charge once per pentacle cast</li><li>Skills with no attribute grant 1 charge</li></ul>",
+                        "Successful attacks will charge the pentacle (max 25)<bp_Skills with an attribute grant 3 charges but can only charge once per pentacle cast_Skills with no attribute grant 1 charge_>",
                         "Upon reaching max charges, release a blast of elemental energy",
                         "Attack has increased %Ignore DEF"
                     ]
@@ -881,11 +877,11 @@
                     "shortDesc": "MP Cost: 240, Duration: 7 sec, Max Enemies Hit: 6, Damage: 220%, Number of Attacks: 6, Max Number of Attacks: 16\\n[Passive Effect: Magic ATT: +35]",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/evan/spiral-of-mana.png"],
                     "animations": ["https://media.giphy.com/media/Zc5KInBOXqB7w2hEHs/giphy.gif"],
-                    "type": "Attack",
+                    "type": "Summon",
                     "desc": "Summon a magic circle that continuously fires a barrage of magic forward",
                     "details": [
-                        "<strong>[Passive]</strong>: Grants flat Magic Attack",
-                        "Right-clicking the skill will toggle ON/OFF a function to activate the skill by pressing Down Arrow Key and <span data-tooltip='Mana Burst I (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/mana-burst-i.png' alt='Skill Mana Burst I'/></span> together only if it hits an enemy",
+                        "[Passive]: Grants flat Magic Attack",
+                        "Right-clicking the skill will toggle ON/OFF a function to activate the skill by pressing Down Arrow Key and <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/mana-burst-i.png} tooltip={Mana Burst I (1st Job)}> together only if it hits an enemy",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -901,7 +897,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Mana Burst (1st - 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/mana-burst-i.png' alt='Skill Mana Burst I'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/mana-burst-i.png} tooltip={Mana Burst (1st - 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -922,7 +918,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Dragon Flash (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png' alt='Skill Dragon Flash'/></span> <span data-tooltip='Wind Circle, Wind Flash, and Wind Breath (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-circle.png' alt='Skill Wind Circle'/></span> <span data-tooltip='Thunder Circle, Thunder Flash, and Thunder Dive (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-circle.png' alt='Skill Thunder Circle'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/dragon-flash.png} tooltip={Dragon Flash (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/wind-circle.png} tooltip={Wind Circle, Wind Flash, and Wind Breath (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/heroes/evan/thunder-circle.png} tooltip={Thunder Circle, Thunder Flash, and Thunder Dive (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

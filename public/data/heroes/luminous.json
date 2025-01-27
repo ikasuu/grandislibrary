@@ -155,7 +155,7 @@
                     "type": "Passive",
                     "desc": "While in Equilibrium mode, you take only 1 HP damage from enemy attacks and gain 100% Knockback Resistance",
                     "details": [
-                        "Additionally, you gain both the effects of <span data-tooltip='Sunfire (Beginner)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sunfire.png' alt='Skill Sunfire'/></span> and <span data-tooltip='Eclipse (Beginner)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/eclipse.png' alt='Skill Eclipse'/></span><ul><li>Equilibrium skills also deal additional hits per attack</li></ul>"
+                        "Additionally, gain both the effects of <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sunfire.png} tooltip={Sunfire (Beginner Skill)}> and <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/eclipse.png} tooltip={Eclipse (Beginner Skill)}><bp_Equilibrium skills also deal additional hits per attack_>"
                     ]
                 },
                 {
@@ -173,7 +173,7 @@
                     "type": "Active",
                     "desc": "Teleports to a random location on the map",
                     "details": [
-                        "If there is an enemy nearby, you will teleport to the nearest enemy"
+                        "If there is an enemy nearby, teleport to the nearest enemy"
                     ]
                 },
                 {
@@ -186,7 +186,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/12/Lania%27s_Distress' target='_blank' rel='noopener noreferrer'>'Lania's Distress'</a>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/12/Lania%27s_Distress} title={\"Lania's Distress\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -199,7 +199,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/flash-shower.png"],
                         "animations": ["https://media2.giphy.com/media/Q7v5rUthVnh6g9ipgb/giphy.gif"],
                         "type": "Light Attack",
-                        "desc": "Shoots out a projectile forward that passes through enemies"
+                        "desc": "Cast a piercing projectile forward"
                     },
                     {
                         "name": "Abyssal Drop",
@@ -208,7 +208,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/abyssal-drop.png"],
                         "animations": ["https://media1.giphy.com/media/lRYO2jpGdodihUKtwq/giphy.gif"],
                         "type": "Dark Attack",
-                        "desc": "Summons several crystals that drop in front of you"
+                        "desc": "Cast crystals that drop in front of you"
                     },
                     {
                         "name": "Light Speed",
@@ -217,10 +217,10 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/light-speed.png"],
                         "animations": ["https://media2.giphy.com/media/Q7X0aJa40GBMJ84KvY/giphy.gif"],
                         "type": "Active",
-                        "desc": "Teleports you in the direction you are moving in with your Arrow Keys",
+                        "desc": "Teleport in the direction you are moving with your Arrow Keys",
                         "details": [
-                            "<strong>[Passive]</strong>: Increases Movement Speed and Jump",
-                            "Pressing the Up Arrow Key and Jump Key together in the air will perform an Up Jump<ul><li>Light Speed can be used without a platform once before landing</li></ul>",
+                            "[Passive]: Increases Movement Speed and Jump",
+                            "Pressing the Up Arrow Key and Jump Key together in the air will perform an Up Jump<bp_This skill can be used without a platform once before landing_>",
                             "You are briefly immune to touch damage after teleporting",
                             "Can be used in the air and on ladders"
                         ]
@@ -270,7 +270,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sylvan-lance.png"],
                         "animations": ["https://media0.giphy.com/media/gfleBGkbBLtf6PtszN/giphy.gif"],
                         "type": "Light Attack",
-                        "desc": "Fires several homing spears forward"
+                        "desc": "Fire several homing projectiles forward"
                     },
                     {
                         "name": "Blinding Pillar",
@@ -279,7 +279,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/blinding-pillar.png"],
                         "animations": ["https://media2.giphy.com/media/Qsa01Q7EEWyhM43TG6/giphy.gif"],
                         "type": "Light Active",
-                        "desc": "Creates pillars of light around you that pushes enemies back and has a chance to stun"
+                        "desc": "Create a pillars of light around you that pushes enemies back and has a chance to stun"
                     },
                     {
                         "name": "Pressure Void",
@@ -330,7 +330,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/spectral-light.png"],
                         "animations": ["https://media2.giphy.com/media/Vh2w21nbnKEnTUGTSZ/giphy.gif"],
                         "type": "Key-down Light Attack",
-                        "desc": "Fires a controllable beam of light",
+                        "desc": "Fire a controllable beam of light",
                         "details": [
                             "Can be directed by pressing the Up or Down Arrow Keys",
                             "Pressing Left or Right will change the direction you fire"
@@ -343,7 +343,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/ray-of-redemption.png"],
                         "animations": ["https://media2.giphy.com/media/UWWFIHo24QnP7X4IoD/giphy.gif"],
                         "type": "Light Attack / Heal",
-                        "desc": "Shines a beam of light in front of you that damages enemies and heals nearby party members "
+                        "desc": "Shine a beam of light in front of you that damages enemies and heals nearby party members"
                     },
                     {
                         "name": "Moonlight Spear",
@@ -352,7 +352,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/moonlight-spear.png"],
                         "animations": ["https://media3.giphy.com/media/WQ0woueuBbLT8MVmAB/giphy.gif"],
                         "type": "Dark Attack",
-                        "desc": "Launches spears beneath nearby enemies"
+                        "desc": "Launch spears beneath nearby enemies"
                     },
                     {
                         "name": "Death Scythe",
@@ -363,7 +363,7 @@
                         "type": "Equilibrium Attack",
                         "desc": "Summons two reapers from opposite sides that dash towards each other",
                         "details": [
-                            "During <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/> Equilibrium mode, skill has no cooldown"
+                            "During <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}> Equilibrium mode, skill has no cooldown"
                         ]
                     },
                     {
@@ -375,7 +375,7 @@
                         "type": "Buff",
                         "desc": "Creates a shell that blocks up to 7 Critical Abnormal Statuses",
                         "details": [
-                            "<strong>[Passive]</strong>: Increases Abnormal Status Resistance, %Elemental Resistance, and Knockback Resistance"
+                            "[Passive]: Increases Abnormal Status Resistance, %Elemental Resistance, and Knockback Resistance"
                         ]
                     },
                     {
@@ -411,7 +411,7 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/light-speed-boost.png"],
                         "type": "Toggle Buff",
-                        "desc": "While toggled, increases the horizontal teleport distance of <span data-tooltip='Light Speed (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/light-speed.png' alt='Skill Light Speed'/></span>"
+                        "desc": "While toggled, increases the horizontal teleport distance of <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/light-speed.png} tooltip={Light Speed (1st Job)}>"
                     },
                     {
                         "name": "Equilibrium Liberation",
@@ -419,10 +419,10 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium-liberation.png"],
                         "type": "Active",
-                        "desc": "Activates Equilibrium state when light/dark gauge is full",
+                        "desc": "Activate Equilibrium state when light/dark gauge is full",
                         "details": [
                             "Permanently allows light/dark skill attacks that do not hit any enemies to also charge the light/dark gauge",
-                            "Right-clicking the skill will toggle a function ON/OFF to automatically activate Equilibrium state when your light/dark gauge is full upon using an Equilibrium attack, <span data-tooltip='Gate of Light (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/gate-of-light.png' alt='Skill Gate of Light'/></span>, <span data-tooltip='Aether Conduit (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/aether-conduit.png' alt='Skill Aether Conduit'/></span>, or <span data-tooltip='Baptism of Light and Darkness (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/baptism-of-light-and-darkness.png' alt='Skill Baptism of Light and Darkness'/></span>"
+                            "Right-clicking the skill will toggle a function ON/OFF to automatically activate Equilibrium state when your light/dark gauge is full upon using an Equilibrium attack, <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/gate-of-light.png} tooltip={Gate of Light (5th Job)}>, <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/aether-conduit.png} tooltip={Aether Conduit (5th Job)}>, or <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/baptism-of-light-and-darkness.png} tooltip={Baptism of Light and Darkness (5th Job)}>"
                         ]
                     }]
                 ],
@@ -433,7 +433,7 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/the-crossroads-of-destiny.png"],
                         "type": "Light Attack",
-                        "desc": "Allows you to swap between <span data-tooltip='Light Affinity (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/light-affinity.png' alt='Skill Light Affinity'/></span> and <span data-tooltip='Dark Affinity (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/dark-affinity.png' alt='Skill Dark Affinity'/></span>"
+                        "desc": "Allows you to swap between <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/light-affinity.png} tooltip={Light Affinity (1st Job)}> and <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/dark-affinity.png} tooltip={Dark Affinity (1st Job)}>"
                     },
                     {
                         "name": "Reflection",
@@ -442,7 +442,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/reflection.png"],
                         "animations": ["https://media2.giphy.com/media/fX2ByunZXtlJpm0ObT/giphy.gif"],
                         "type": "Light Attack",
-                        "desc": "Emits a beam of light that bounces to nearby enemies",
+                        "desc": "Emit a beam of light that bounces to nearby enemies",
                         "details": [
                             "Damage is reduced per each bounce of the beam"
                         ]
@@ -454,10 +454,10 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/morning-star.png"],
                         "animations": ["https://media.giphy.com/media/Tz9LqkqWT4pgjbPgiw/giphy.gif"],
                         "type": "Dark Attack",
-                        "desc": "Summons a meteor that pushes enemies back",
+                        "desc": "Cast a meteor that pushes enemies back",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Final Damage and %Boss Damage",
-                            "During <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/> Equilibrium mode, skill has no cooldown",
+                            "[Passive]: Permanently increases %Final Damage and %Boss Damage",
+                            "During <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}> Equilibrium mode, skill has no cooldown",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -480,7 +480,7 @@
                         "desc": "Deals a devastating attack to up to 2 enemies",
                         "details": [
                             "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
-                            "During <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/> Equilibrium mode, skill has no cooldown"
+                            "During <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}> Equilibrium mode, skill has no cooldown"
                         ]
                     },
                     {
@@ -489,7 +489,7 @@
                         "maxLevel": 30,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/dark-crescendo.png"],
                         "type": "Passive",
-                        "desc": "When your attacks hit an enemy, there is a chance to gain a stacking %Damage buff"
+                        "desc": "Successful direct skill attacks have a chance to grant a stacking %Damage buff"
                     },
                     {
                         "name": "Arcane Pitch",
@@ -517,10 +517,10 @@
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/darkness-mastery.png"],
                         "type": "Passive",
-                        "desc": "Increases the duration of <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/> Equilibrium mode and decreases amount of skills required to reach <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sunfire.png' alt='Skill Sunfire'/> Light mode and <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/eclipse.png' alt='Skill Eclipse'/> Dark mode",
+                        "desc": "Increases the duration of <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}> Equilibrium mode and decreases amount of skills required to reach <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sunfire.png} tooltip={Sunfire (Beginner Skill)}/> Light mode and <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/eclipse.png} tooltip={Eclipse (Beginner Skill}> Dark mode",
                         "details": [
-                            "During <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/> Equilibrium mode, you can use <span data-tooltip='Light Speed (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/light-speed.png' alt='Skill Light Speed'/></span> up to 2 times in the air",
-                            "Additionally increases %Damage of <span data-tooltip='Death Scythe (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/death-scythe.png' alt='Skill Death Scythe'/></span>"
+                            "During <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}> Equilibrium mode, you can use <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/light-speed.png} tooltip={Light Speed (1st Job)}> up to 2 times in the air",
+                            "Additionally increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/death-scythe.png} tooltip={Death Scythe (3rd Job)}>"
                         ]
                     },
                     {
@@ -632,7 +632,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equalize.png"],
                     "animations": ["https://media4.giphy.com/media/R4r75RlgdS9Xv84RfE/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Instantly enter into <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/> Equilibrium mode",
+                    "desc": "Instantly enter into <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}> Equilibrium mode",
                     "reqLev": 140
                 },
                 {
@@ -668,7 +668,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/gate-of-light.png"],
                     "animations": ["https://media4.giphy.com/media/vMERZQoDqTZ2YCTRGR/giphy.gif"],
                     "type": "Equilibrium Summon",
-                    "desc": "Summons a gate that damages nearby enemies",
+                    "desc": "Summon a gate that damages nearby enemies",
                     "details": [
                         "Can only be used only once while in Equilibrium mode",
                         "Unaffected by Damage Reflect"
@@ -680,7 +680,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/aether-conduit.png"],
                     "animations": ["https://media3.giphy.com/media/KvP3ewqwDi6Ugsepyz/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons a magic symbol that fires a stream of magic arrows",
+                    "desc": "Summon a magic symbol that fires a stream of magic arrows",
                     "details": [
                         "The attack differs depending on the state you are currently in",
                         "Attack has increased %Crit Rate",
@@ -693,10 +693,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/luminous/baptism-of-light-and-darkness.png"],
                     "animations": ["https://media3.giphy.com/media/vZ4MRQ3vlyQ5LIFrMa/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Creates several swords that strike down on one enemy",
+                    "desc": "Create several swords that strike down on one enemy",
                     "details": [
-                        "During <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/> Equilibrium mode, upon successful Equilbrium attacks, the cooldown of this skill is reduced",
-                        "Upon entering <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/> Equilibrium mode, the cooldown of this skill is reset",
+                        "During <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}> Equilibrium mode, successful Equilbrium attacks reduce the cooldown of this skill",
+                        "Upon entering <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}> Equilibrium mode, the cooldown of this skill is reset",
                         "Attack has increased %100 Ignore DEF and is a guaranteed Critical Hit",
                         "Unaffected by Damage Reflect"
                     ]
@@ -709,8 +709,8 @@
                     "type": "Passive Attack / Summon",
                     "desc": "",
                     "details": [
-                        "<strong>[Passive]</strong>: When using an attack that matches the current mode you are in, there is a chance for a special attack to trigger<ul><li><strong>[<img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sunfire.png' alt='Skill Sunfire'/>]:</strong> Using a Light attack has a chance to create a burst of light near you that damages enemies</li><li><strong>[<img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/eclipse.png' alt='Skill Eclipse'/>]: </strong>Using a Dark attack has a chance to create a projectile that bounces to multiple enemies</li><li>Each triggered attack will accumulate 1 'Magic Power' which is used for the Active effect<ul><li>Magic Power accumulated in <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sunfire.png' alt='Skill Sunfire'/> are separate from those obtained in <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/eclipse.png' alt='Skill Eclipse'/></li><li>Up to 4 Magic Power can be accumulated for both states</li></li><li>They also do not disappear until the Active effect is used</li><li>Magic Power cannot be accumulated in <img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png' alt='Skill Equilibrium'/></li></ul></ul>",
-                        "<strong>[Active]</strong>: Summons a magic orb that launches homing orbs at a single enemy each time you attack<ul><li>Based on the Magic Power accumulated, if the amount on both sides are equal, the attack will deal increased %Damage and is considered <strong>Balanced</strong>, else it is <strong>Unbalanced</strong></li><li>For each Magic Power accumulated, the %Damage of the orbs will be increased</li><li>Attack will target bosses and enemies with the highest Max HP</li></ul>",
+                        "[Passive]: When using an attack that matches the current mode you are in, there is a chance for a special attack to trigger<bp_<img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sunfire.png} tooltip={Sunfire (Beginner Skill)}>: Using a Light attack has a chance to create a burst of light near you that damages enemies_<img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/eclipse.png} tooltip={Eclipse (Beginner Skill)}>: Using a Dark attack has a chance to create a projectile that bounces to multiple enemies_Each triggered attack will accumulate 1 \"Magic Power\" which is used for the Active effect_Magic Power accumulated in <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/sunfire.png} tooltip={Sunfire (Beginner Skill)}> are separate from those obtained in <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/eclipse.png} tooltip={Eclipse (Beginner Skill)}>_Up to 4 Magic Power can be accumulated for both states that do not disappear until the Active effect is used_Magic Power cannot be accumulated during <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/equilibrium.png} tooltip={Equilibrium (Beginner Skill)}>_>",
+                        "[Active]: Summons a magic orb that fires homing orbs at a single enemy each time you attack<bp_Based on the Magic Power accumulated, if the amount on both sides are equal, the attack will deal increased %Damage and is considered [Balanced], else it is [Unbalanced]_For each Magic Power accumulated, the %Damage of the orbs will be increased_Attack will target bosses and enemies with the highest Max HP_>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -726,7 +726,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Ender (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/ender.png' alt='Skill Ender'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/ender.png} tooltip={Ender (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -747,7 +747,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Reflection (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/luminous/reflection.png' alt='Skill Reflection'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/heroes/luminous/reflection.png} tooltip={Reflection (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

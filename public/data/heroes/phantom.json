@@ -216,7 +216,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/double-entendre.png"],
                         "animations": ["https://media.giphy.com/media/YTEtXAhdxGjXEDgglK/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Strikes forward twice"
+                        "desc": "Strike forward twice"
                     },
                     {
                         "name": "Impeccable Memory I",
@@ -236,8 +236,8 @@
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Movement Speed, Jump and Max Movement Speed",
-                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
+                            "[Passive]: Permanently increases Movement Speed, Jump and Max Movement Speed",
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump_>",
                             "Horizontal jump can be used twice in a row"
                         ]
                     },
@@ -284,7 +284,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/carte-blanche.png"],
                         "animations": ["https://media.giphy.com/media/S85DLjUuvQtzD2zywZ/giphy.gif"],
                         "type": "Passive",
-                        "desc": "When you land a critical hit, there is a chance to create a card that seek and attack a nearby enemy"
+                        "desc": "Upon landing a critical hit, there is a chance to create a card that seek and attack a nearby enemy"
                     },
                     {
                         "name": "Cane Mastery",
@@ -337,7 +337,7 @@
                         "type": "Buff Revive",
                         "desc": "When hit by a fatal attack, you will not die but instead heal back a percentage of your HP back",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently grants flat LUK",
+                            "[Passive]: Permanently grants flat LUK",
                             "You are briefly invincible after reviving",
                             "Unaffected by cooldown resets"
                         ]
@@ -374,8 +374,8 @@
                         "type": "Attack",
                         "desc": "Dashes forward and then strikes forward",
                         "details": [
-                            "<strong>[Passive]</strong>: Increases %Damage of <span data-tooltip='Mille Cartes (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span>",
-                            "Can be linked with <span data-tooltip='Mille Cartes (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png' alt='Skill Mille Cartes'/></span> to reduce post-attack delay"
+                            "[Passive]: Increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png} tooltip={Mille Cartes (2nd Job)}>",
+                            "Can be linked with <img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-cartes.png} tooltip={Mille Cartes (2nd Job)}> to reduce post-attack delay"
                         ]
                     },
                     {
@@ -394,7 +394,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png"],
                         "animations": ["https://media.giphy.com/media/duo8SPcWHyySBy6q1s/giphy.gif"],
                         "type": "Key-down Attack",
-                        "desc": "Strikes forward with a flurry of attacks",
+                        "desc": "While held, strike forward with a flurry of attacks",
                         "details": [
                             "You can move while casting"
                         ]
@@ -417,22 +417,21 @@
                         "type": "Key-down Attack",
                         "desc": "While held, release a storm of cards that damages enemies within and applies a debuff",
                         "details": [
-                            "<strong>[Debuff]</strong>: Enemy takes increased %Ignore DEF",
+                            "[Debuff]: Enemy takes increased %Ignore DEF",
                             "All attacks from Tempest are critical hits",
-                            "You may move while casting"
+                            "You can move while casting"
                         ]
                     },
                     {
                         "name": "Penombre",
-                        "shortDesc": "MP Cost: 50, Damage: 450%, Max Enemies Hit: 10, Number of Attacks: 3\\nFor enemy attacked, Ignore Defense: 20% for 60 sec.\\n[Passive Effects - Rapier Wit Damage: +50%]",
+                        "shortDesc": "MP Cost: 50, Damage: 450%, Max Enemies Hit: 10, Number of Attacks: 3\\n[Passive Effects - Rapier Wit Damage: +50%]",
                         "maxLevel": 30,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/penombre.png"],
                         "animations": ["https://media.giphy.com/media/MBBdaIQ63EZ0TidfgS/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Leap backwards while throwing cards that explode and debuffs enemies hit",
+                        "desc": "Leap backwards while throwing cards that explode",
                         "details": [
-                            "<strong>[Debuff]</strong>: Attacks towards this enemy have increased %Ignore DEF",
-                            "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Rapier Wit (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rapier-wit.png' alt='Skill Rapier Wit'/></span>"
+                            "[Passive]: Permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rapier-wit.png} tooltip={Rapier Wit (3rd Job)}>"
                         ]
                     },
                     {
@@ -483,7 +482,7 @@
                         "type": "Active",
                         "desc": "Steals the buffs of nearby enemies, if more than one is stolen, the most powerful is applied",
                         "details": [
-                            "If the buff stolen was:<ul><li><strong>[Attack Increasing]: </strong>You gain increased Attack</li><li><strong>[Damage Ignoring]:</strong> You gain increased %Damage Reduction</li><li><strong>[Damage Reflecting]: </strong>You reflect back a portion of damage received</li><li><strong>[Invincibility]: </strong>You become temporarily invincible</li>"
+                            "If the buff stolen was:<bp_[Attack Increasing]: Gain flat Attack_[Damage Ignoring]: Gain increased %Damage Reduction_[Damage Reflecting]: Reflect back a portion of damage received_[Invincibility]: Become temporarily invincible_>"
                         ]
                     },
                     {
@@ -634,7 +633,7 @@
                     "details": [
                         "While casting, damage taken is reduced (including %Max HP attacks) and you are immune to stun status effects",
                         "Prioritizes bosses with the highest Max HP first",
-                        "At the end of the skill, you will draw a card that buffs all party members:<ul><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-red.png' alt='Priest'/> [Priest]: </strong>Recovers %HP/MP over time</li><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-green.png' alt='Tree of Life'/> [Tree of Life]: </strong>Increases %Damage Reduction (including %Max HP attacks) and Abnormal Status Resistance</li><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-yellow.png' alt='Hourglass'/> [Hourglass]: </strong>Reduces active cooldowns by 20% (except 5th Job skills & skills that ignore cooldown resets)</li><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-blue.png' alt='Sharp Sword'/> [Three Swords]: </strong>Increases %Final Damage</li><li><strong><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-black.png' alt='Joker'/> [Crescent Moon]: </strong>Gain all buffs simultaneously</li><li>You are invincible while drawing the card</li></ul>"
+                        "At the end of the skill, you will draw a card that buffs all party members:<bp_<img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-red.png} tooltip={Luck of the Draw - Priest (5th Job)}> [Priest]: Recovers %HP/MP over time_<img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-green.png} tooltip={Luck of the Draw - Tree of Life (5th Job)}> [Tree of Life]: Increases %Damage Reduction (including %Max HP attacks) and Abnormal Status Resistance_<img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-yellow.png} tooltip={Luck of the Draw - Hourglass (5th Job)}> [Hourglass]: Reduces active cooldowns by 20% (except 5th Job skills & skills that ignore cooldown resets)_<img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-blue.png} tooltip={Luck of the Draw - Sharp Sword (5th Job)}> [Three Swords]: Increases %Final Damage_<img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/luck-of-the-draw-black.png} tooltip={Luck of the Draw (5th Job)}> [Luck of the Draw]: Gain all buffs simultaneously_You are invincible while drawing the card_>"
                     ]
                 },
                 {
@@ -643,9 +642,9 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/ace-in-the-hole.png"],
                     "animations": ["https://media0.giphy.com/media/kW29e07w4a3CHWerXZ/giphy.gif", "https://media.giphy.com/media/5OHxZzpfuOcCoWqj1i/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Throws out several cards that bounces around before unleashing a final attack",
+                    "desc": "Throw several cards that bounces around before unleashing a final attack",
                     "details": [
-                        "Pressing the Down Arrow Key and the Skill Key together will instead activate a special final attack in a large area<ul><li>The number of attacks increase based on how many bounces remain for the cards</li></ul>",
+                        "Pressing the Down Arrow Key and the Skill Key together will instead activate a special final attack in a large area<bp_The number of attacks increase based on how many bounces remain for the cards_>",
                         "Pressing the Skill Key while the skill is active will cause the cards to gather towards the enemy with the highest Max HP and deal the final attack",
                         "If there are no enemies nearby, the final attack will activate instantly when the attack ends",
                         "Unaffected by Damage Reflect"
@@ -657,13 +656,13 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/phantoms-mark.png"],
                     "animations": ["https://media0.giphy.com/media/rQTYVjZjosjYjJAE90/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Cane skill attacks mark enemies with 'Phantom Thief's Mark' and grant stacks of 'Master Thief Mark'. When used, teleport behind the target with the most stacks",
+                    "desc": "Cane skill attacks mark enemies with \"Phantom Thief's Mark\" and grant stacks of \"Master Thief Mark\". When used, teleport behind the target with the most stacks",
                     "details": [
-                        "Both 'Phantom Thief's Mark' and 'Master Thief Mark' accumulate up to 7 stacks<ul><li>The attack will target the enemy with the most 'Phantom Thief's Mark'</li><li>Upon reaching 7 stacks of 'Master Thief Mark' and no enemies are marked, the enemy with the highest max HP will be targeted</li></ul>",
+                        "Both \"Phantom Thief's Mark\" and \"Master Thief Mark\" accumulate up to 7 stacks<bp_The attack will target the enemy with the most \"Phantom Thief's Mark\"_Upon reaching 7 stacks of \"Master Thief Mark\" and no enemies are marked, the enemy with the highest max HP will be targeted_>",
                         "When used, grants invinciblity briefly after teleporting", 
                         "Attack is a guaranteed Critical Hit",
-                        "<span data-tooltip='Mille Aiguilles (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> and <span data-tooltip='Tempest (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> must hit an enemy 7 times to gain a stack of Master Thief Marks",
-                        "Immpeccable Memory attacks must hit an enemy 5 times to gain a stack of Master Thief Marks"
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png} tooltip={Mille Aiguilles (4th Job)}> and <img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png} tooltip={Tempest (4th Job)}> must hit an enemy 7 times to gain a stack of \"Master Thief Marks\"",
+                        "Immpeccable Memory attacks must hit an enemy 5 times to gain a stack of \"Master Thief Marks\""
                     ]
                 },
                 {
@@ -672,10 +671,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/heroes/phantom/rift-break.png"],
                     "animations": ["https://media2.giphy.com/media/gyZW0xYCyfmnrWLg3O/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Instantly teleports to enemies and damages surrounding enemies at that location",
+                    "desc": "Upon pressing the Skill Key, teleport up to 7 times to enemies, damaging surrounding enemies at that location",
                     "details": [
-                        "Up to 7 teleports will be activated<ul><li>Pressing the Skill Key early will stop the attack and reduce the cooldown based on how many teleports remain</li></ul>",
-                        "You can direct where the teleport will go by using the Arrow Keys<ul><li>Pressing the Down Arrow Key will teleport you to the furthest enemy in range</li></ul>",
+                        "Pressing the Skill Key will end the attack early and reduce the cooldown based on how many teleports remain",
+                        "The teleport location can be directed by using the Arrow Keys<bp_Pressing the Down Arrow Key will teleport you to the furthest enemy in range_>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -691,7 +690,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Tempest (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png' alt='Skill Tempest'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/tempest.png} tooltip={Tempest (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -712,7 +711,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Mille Aiguilles (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png' alt='Skill Mille Aiguilles'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/heroes/phantom/mille-aiguilles.png} tooltip={Mille Aiguilles (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
