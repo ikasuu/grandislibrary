@@ -54,7 +54,7 @@
             {
                 "name": "Damage",
                 "stat": "+40%(90%)",
-                "detail": "<ul><li><span data-tooltip='Multilateral VI (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +40%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span> +10%</li> <li><span data-tooltip='Hypogram Field: Fusion (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-fusion.png' alt='Skill Hypogram Field: Fusion'/></span> +20% within field</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
+                "detail": "<ul><li><span data-tooltip='Multilateral VI (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-iv.png' alt='Skill Multilateral IV'/></span> +40%</li></ul> <ul class='bs-temp-val'><li><img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png} tooltip={Orbital Cataclysm (Hyper Skill)}> +10%</li> <li><span data-tooltip='Hypogram Field: Fusion (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-fusion.png' alt='Skill Hypogram Field: Fusion'/></span> +20% within field</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
             },
             {
                 "name": "Boss Damage",
@@ -69,16 +69,16 @@
             {
                 "name": "Ignore DEF",
                 "stat": "+30%(51%)",
-                "detail": "<ul><li><span data-tooltip='Offensive Matrix (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span> +30%</li></ul>"
+                "detail": "<ul><li><span data-tooltip='Offensive Matrix (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/offensive-matrix.png' alt='Skill Offensive Matrix'/></span> +30%</li></ul> × <ul class='bs-debuff-val'><li><img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png} tooltip={Orbital Cataclysm (Hyper Skill)}> +30%</li></ul>"
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Circuit Surge (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/circuit-surge.png' alt='Skill Circuit Surge'/></span>[240s](3 Energy)</div> <div><span data-tooltip='Manifest Projector (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/manifest-projector.png' alt='Skill Manifest Projector'/></span>[Disappears after 1000% Max HP damage taken]</div>",
-            "toggles": "<span data-tooltip='Pinpoint Salvo (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png' alt='Skill Pinpoint Salvo'/></span> <span data-tooltip='Aegis System (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png' alt='Skill Aegis System'/></span>",
+            "active": "<div><span data-tooltip='Circuit Surge (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/circuit-surge.png' alt='Skill Circuit Surge'/></span>[240s](3 Energy)</div> <div><img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/manifest-projector.png} tooltip={Manifest Projector (3rd Job)}>[Disappears after 1000% Max HP damage taken]</div>",
+            "toggles": "<img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png} tooltip={Pinpoint Salvo (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png} tooltip={Aegis System (3rd Job)}>",
             "summons": "<div>[ <span data-tooltip='Hypogram Field: Penetrate (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-penetrate.png' alt='Skill Hypogram Field Penetrate'/></span>/<span data-tooltip='Hypogram Field: Force Field (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-force-field.png' alt='Skill Hypogram Field Force Field'/></span>/<span data-tooltip='Hypogram Field: Support (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-support.png' alt='Skill Hypogram Field Support'/></span> ][60s](30s cd)</div> <div><span data-tooltip='Hypogram Field: Fusion (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-fusion.png' alt='Skill Hypogram Field Fusion'/></span>[30s](90s cd)</div> <div><span data-tooltip='Photon Ray (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/photon-ray.png' alt='Skill Photon Ray'/></span>[Up to 20s](30s cd)</div> <div><span data-tooltip='Resistance Infantry (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/resistance-infantry.png' alt='Skill Resistance Infantry'/></span>[10s](25s cd)</div>",
-            "buffCd": "<div><span data-tooltip='OOPArts Code (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/></span>[60s](20 Energy)</div> <div><span data-tooltip='Amaranth Generator (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/amaranth-generator.png' alt='Skill Amaranth Generator'/></span>[10s](90s cd)</div> <div><span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span>[25s](50s cd)</div> <div><span data-tooltip='Core Overload (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/core-overload.png' alt='Skill Core Overload'/></span>[70s](180s cd)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
+            "buffCd": "<div><span data-tooltip='OOPArts Code (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/ooparts-code.png' alt='Skill OOPArts Code'/></span>[60s](20 Energy)</div> <div><span data-tooltip='Amaranth Generator (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/amaranth-generator.png' alt='Skill Amaranth Generator'/></span>[10s](90s cd)</div> <div><img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png} tooltip={Orbital Cataclysm (Hyper Skill)}>[25s](50s cd)</div> <div><span data-tooltip='Core Overload (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/core-overload.png' alt='Skill Core Overload'/></span>[70s](180s cd)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)(180s cd <span data-tooltip='Roll of the Dice (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>)</div>",
             "binds": "<div><span data-tooltip='Entangling Lash (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/entangling-lash.png' alt='Skill Entangling Lash'/></span>[10s](180s cd)</div> <div><span data-tooltip='Artificial Evolution (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/artificial-evolution.png' alt='Skill Artificial Evolution'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span>(50s cd)</div> <div><span data-tooltip='Omega Blaster (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/omega-blaster.png' alt='Skill Omega Blaster'/></span>[Up to 12s](165s cd)</div> <div><span data-tooltip='Artificial Evolution (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/artificial-evolution.png' alt='Skill Artificial Evolution'/></span>(360s cd)</div>"
+            "iFrame": "<div><img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png} tooltip={Orbital Cataclysm (Hyper Skill)}>(50s cd)</div> <div><img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/omega-blaster.png} tooltip={Omega Blaster (5th Job)}>[Up to 12s](165s cd)</div> <div><span data-tooltip='Artificial Evolution (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/artificial-evolution.png' alt='Skill Artificial Evolution'/></span>(360s cd)</div>"
         },
         "linkSkill": {
             "id": 80000047,
@@ -111,8 +111,8 @@
             "recommended": "<ul><li><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-dance-reinforce.png' alt='Skill Beam Dance - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-dance-blur.png' alt='Skill Beam Dance - Blur'/>Beam Dance - Reinforce and Blur</li><li><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-reinforce.png' alt='Skill Mecha Purge - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-guard-break.png' alt='Skill Mecha Purge - Guardbreak'/> Mecha Purge - Reinforce and Guardbreak</li><li><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-persist.png' alt='Skill Hypogram Field - Persist'/> Hypogram Field - Persist</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='All Mecha Purge (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png' alt='Skill Mecha Purge: Snipe'/></span> <span data-tooltip='All Hypogram Field (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-penetrate.png' alt='Skill Hypogram Field: Penetrate'/></span> <span data-tooltip='Beam Dance (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-dance.png' alt='Skill Beam Dance'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Pinpoint Salvo (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png' alt='Skill Pintpoint Salvo'/></span> <span data-tooltip='Triangulation (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/triangulation.png' alt='Skill Triangulation'/></span> <span data-tooltip='Aegis System (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png' alt='Skill Aegis System'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Beam Spline (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-spline.png' alt='Skill Beam Spline'/></span> <span data-tooltip='Pinpoint Salvo (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png' alt='Skill Pinpoint Salvo'/></span> <span data-tooltip='All Quicksilver (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/quicksilver-flash.png' alt='Skill Quicksilver Flash'/></span> <span data-tooltip='Ion Thrust (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/ion-thrust.png' alt='Skill Ion Thrust'/></span> <span data-tooltip='All Combat Switch (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/combat-switch-explosion.png' alt='Skill Combat Switch Explosion'/></span> <span data-tooltip='Diagonal Chase (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/diagonal-chase.png' alt='Skill Diagonal Chase'/></span> <span data-tooltip='Gravity Pillar (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/gravity-pillar.png' alt='Skill Gravity Pillar'/></span> <span data-tooltip='Aegis System (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png' alt='Skill Aegis System'/></span> <span data-tooltip='Triangulation (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/triangulation.png' alt='Skill Triangulation'/></span> <span data-tooltip='Beam Dance (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-dance.png' alt='Skill Beam Dance'/></span> <span data-tooltip='All Mecha Purge (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png' alt='Skill Mecha Purge Snipe'/></span> <span data-tooltip='All Hypogram Field (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-penetrate.png' alt='Skill Hypogram Field Penetrate'/></span> <span data-tooltip='Entangling Lash (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/entangling-lash.png' alt='Skill Entangling Lash'/></span> <span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span>"
+            "recommended": "<h6>Primary Trio</h6><div><img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png} tooltip={All Mecha Purge (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-penetrate.png} tooltip={All Hypogram Field (4th Job)}> <span data-tooltip='Beam Dance (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-dance.png' alt='Skill Beam Dance'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Pinpoint Salvo (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png' alt='Skill Pintpoint Salvo'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/triangulation.png} tooltip={Triangulation (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png} tooltip={Aegis System (3rd Job)}></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
+            "possible": "<span data-tooltip='Beam Spline (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-spline.png' alt='Skill Beam Spline'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png} tooltip={Pinpoint Salvo (1st Job)}> <span data-tooltip='All Quicksilver (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/quicksilver-flash.png' alt='Skill Quicksilver Flash'/></span> <span data-tooltip='Ion Thrust (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/ion-thrust.png' alt='Skill Ion Thrust'/></span> <span data-tooltip='All Combat Switch (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/combat-switch-explosion.png' alt='Skill Combat Switch Explosion'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/diagonal-chase.png} tooltip={Diagonal Chase (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/gravity-pillar.png} tooltip={Gravity Pillar (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png} tooltip={Aegis System (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/triangulation.png} tooltip={Triangulation (3rd Job)}> <span data-tooltip='Beam Dance (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-dance.png' alt='Skill Beam Dance'/></span> <span data-tooltip='All Mecha Purge (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png' alt='Skill Mecha Purge Snipe'/></span> <span data-tooltip='All Hypogram Field (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-penetrate.png' alt='Skill Hypogram Field Penetrate'/></span> <span data-tooltip='Entangling Lash (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/entangling-lash.png' alt='Skill Entangling Lash'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png} tooltip={Orbital Cataclysm (Hyper Skill)}>"
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Xenon"},
@@ -146,7 +146,7 @@
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-i.png"],
                     "type": "Passive",
-                    "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                    "desc": "Grants special bonuses upon reaching a certain amount of stats"
                 },
                 {
                     "name": "Promessa Escape",
@@ -208,7 +208,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/65/A_Warm(er)_Welcome' target='_blank' rel='noopener noreferrer'>'A Warm(er) Welcome'</a>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/65/A_Warm(er)_Welcome} title={\"A Warm(er) Welcome\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -222,7 +222,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-spline.png"],
                         "animations": ["https://media2.giphy.com/media/1qzUlrFxEBtjBV3jHV/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Swing your whip blade forward twice"
+                        "desc": "Swing your Whip Blade forward twice"
                     },
                     {
                         "name": "Propulsion Burst",
@@ -235,7 +235,7 @@
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing jump twice",
                             "Can be used twice in a row",
-                            "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump<ul><li>Upon use, the following skills can only be used one-time while in the air <span data-tooltip='Quicksilver: Takeoff (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/quicksilver-takeoff.png' alt='Skill Quicksilver: Takeoff'/></span> <span data-tooltip='Diagonal Chase (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/diagonal-chase.png' alt='Skill Diagonal Chase'/></span></li></ul>"
+                            "While in the air, pressing the Up Arrow and Jump Key will perform a vertical jump<bp_Upon use, the following skills can only be used one-time while in the air <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/quicksilver-takeoff.png} tooltip={Quicksilver: Takeoff (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/diagonal-chase.png} tooltip={Diagonal Chase (3rd Job)}>_>"
                         ]
                     },
                     {
@@ -259,7 +259,7 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-ii.png", "http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-i.png"],
                         "type": "Upgraded Passive",
-                        "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                        "desc": "Grants special bonuses upon reaching a certain amount of stats"
                     },
                     {
                         "name": "Pinpoint Salvo",
@@ -268,7 +268,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png"],
                         "animations": ["https://media2.giphy.com/media/bwjIehUv5LQBKgLeek/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "When toggled, whenever you attack, you will fire missiles at nearby enemies",
+                        "desc": "When toggled, attacking will fire missiles at nearby enemies",
                         "details": [
                             "Deals increased %Damage to regular monsters by a flat amount",
                             "Unaffected by Damage Reflect"
@@ -284,7 +284,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/quicksilver-flash.png"],
                         "animations": ["https://media3.giphy.com/media/JBLNnvloo65PazTB0r/giphy.gif"],
                         "type": "Modal Attack",
-                        "desc": "Slashes your whip blade several times in front of you"
+                        "desc": "Slash your Whip Blade several times in front of you"
                     },
                     {
                         "name": "Quicksilver: Concentrate",
@@ -293,7 +293,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/quicksilver-concentrate.png"],
                         "animations": ["https://media0.giphy.com/media/gCLxmURQUTNH6SY1Es/giphy.gif"],
                         "type": "Modal Attack",
-                        "desc": "Swings you whip blade forward",
+                        "desc": "Swing your Whip Blade forward",
                         "details": [
                             "Attack has increased %Crit Rate"
                         ]
@@ -305,19 +305,19 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/quicksilver-takeoff.png"],
                         "animations": ["https://media4.giphy.com/media/JT4uSYFHDs1BeIoXfW/giphy.gif"],
                         "type": "Modal Attack",
-                        "desc": "Lashes your whip blade while boosting you up into the air",
+                        "desc": "Lash your Whip Blade while boosting you up into the air",
                         "details": [
-                            "After casting, <span data-tooltip='Propulsion Burst (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/propulsion-burst.png' alt='Skill Propulsion Burst'/></span> vertical jump cannot be used before landing"
+                            "After casting, <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/propulsion-burst.png} tooltip={Propulsion Burst (1st Job)}> vertical jump cannot be used before landing"
                         ]
                     },
                     {
                         "name": "Ion Thrust",
-                        "shortDesc": "[Supply ]\\nEnergy Cost: 3, MP Cost per attack: 6, Max Enemies: 6 Damage: 60%, Knocks back enemies. Duration: 8. Energy is consumed only when the Ion Thrust is summoned.",
+                        "shortDesc": "[Supply]\\nEnergy Cost: 3, MP Cost per attack: 6, Max Enemies: 6 Damage: 60%, Knocks back enemies. Duration: 8. Energy is consumed only when the Ion Thrust is summoned.",
                         "maxLevel": 15,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/ion-thrust.png"],
                         "animations": ["https://media1.giphy.com/media/vM0zRRRUwZvq9Ev0Sh/giphy.gif"],
                         "type": "Key-down Supply Attack",
-                        "desc": "Hop onto an Ion Thruster which will damage and push enemies back "
+                        "desc": "Hop onto an Ion Thruster that damages and pushes enemies back"
                     },
                     {
                         "name": "Efficiency Streamline",
@@ -360,7 +360,7 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-iii.png", "http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-i.png"],
                         "type": "Upgraded Passive",
-                        "desc": "Grants special bonuses once you've reached a certain amount of stats "
+                        "desc": "Grants special bonuses upon reaching a certain amount of stats "
                     },
                     {
                         "name": "Pinpoint Salvo Redesign A",
@@ -370,7 +370,7 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases %p Damage of attack"
+                            "Increases %Damage of the attack by a flat amount"
                         ]
                     }]
                 ],
@@ -382,7 +382,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/combat-switch-explosion.png"],
                         "animations": ["https://media1.giphy.com/media/EpO3pUoOsjEeslVPc1/giphy.gif"],
                         "type": "Modal Attack",
-                        "desc": "Thrusts your whip nlade forward which will then explode"
+                        "desc": "Thrust your Whip Blade forward which will then explode"
                     },
                     {
                         "name": "Combat Switch: Air Whip",
@@ -391,7 +391,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/combat-switch-air-whip.png"],
                         "animations": ["https://media0.giphy.com/media/knsjNxmK8uLrssoage/giphy.gif"],
                         "type": "Modal Attack",
-                        "desc": "Swings your whip blade forward",
+                        "desc": "Swing your Whip Blade forward",
                         "details": [
                             "Deals increased %Damage to enemies in the air"
                         ]
@@ -403,11 +403,11 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/combat-switch-fission.png"],
                         "animations": ["https://media2.giphy.com/media/QsLoswZdRrtG1lUl5H/giphy.gif"],
                         "type": "Modal Attack",
-                        "desc": "Splits your whip blade to damage enemies below you",
+                        "desc": "Split your Whip Blade to damage enemies below you",
                         "details": [
                             "Can only be used in the air",
-                            "Can be combined with <span data-tooltip='Diagonal Chase (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/diagonal-chase.png' alt='Skill Diagonal Chase'/></span>",
-                            "After casting, <span data-tooltip='Propulsion Burst (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/propulsion-burst.png' alt='Skill Propulsion Burst'/></span> vertical jump cannot be used before landing"
+                            "Can be combined with <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/diagonal-chase.png} tooltip={Diagonal Chase (3rd Job)}>",
+                            "After casting, <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/propulsion-burst.png} tooltip={Propulsion Burst (1st Job)}> vertical jump cannot be used before landing"
                         ]
                     },
                     {
@@ -417,9 +417,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/diagonal-chase.png"],
                         "animations": ["https://media1.giphy.com/media/m3WHDo2iuNJhnusWdY/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Dashes diagonally while pushing back enemies",
+                        "desc": "Dash diagonally while pushing back enemies",
                         "details": [
-                            "Can be used during <span data-tooltip='Gravity Pillar (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/gravity-pillar.png' alt='Skill Gravity Pillar'/></span>"
+                            "Can be used during <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/gravity-pillar.png} tooltip={Gravity Pillar (3rd Job)}>"
                         ]
                     },
                     {
@@ -429,7 +429,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/gravity-pillar.png"],
                         "animations": ["https://media2.giphy.com/media/9i8XfARrhPwRvdk7Ov/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Creates a zone from below that lifts enemies into the air"
+                        "desc": "Create a zone from below that lifts enemies into the air"
                     },
                     {
                         "name": "Hybrid Defenses",
@@ -445,7 +445,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png"],
                         "animations": ["https://media1.giphy.com/media/nK6Um6v0H92WZHbi7h/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "Whenever you are hit or evade an attack, you have a chance to fire defensive missiles",
+                        "desc": "Upon taking damage or evading an attack, there is a chance to fire missiles",
                         "details": [
                             "Ignores Attack Ignore and Damage Reflect"
                         ]
@@ -457,7 +457,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/triangulation.png"],
                         "animations": ["https://media1.giphy.com/media/ScXcBcCDZnwVvGnrqg/giphy.gif"],
                         "type": "Passive",
-                        "desc": "While attacking, you have a chance to attach 'Airframes'. Once 3 Airframes are attached to an enemy, the stacks will be consumed and will deal damage to that enemy",
+                        "desc": "Attacks have a chance to attach \"Airframes\". Once 3 \"Airframes\" are attached to an enemy, the stacks are consumed and will deal damage to the enemy",
                         "details": [
                             "Enemy has decreased %Accuracy and %Avoidability for each Airframe",
                             "Unaffected by Damage Reflect"
@@ -470,11 +470,11 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/manifest-projector.png"],
                         "animations": ["https://media2.giphy.com/media/VTFVgWLmkqWjTzSVrU/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Creates a clone hologram that mimics your attacks, increasing the number of hits you deal per attack",
+                        "desc": "Create a clone that mimics your attacks, increasing the number of hits you deal per attack",
                         "details": [
                             "The clone only disappears after losing a proportion of your %Max HP",
                             "Clone's attacks deal reduced %Final Damage",
-                            "Does not mimic <span data-tooltip='Pinpoint Salvo (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png' alt='Skill Pinpoint Salvo'/></span>, <span data-tooltip='Aegis System (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png' alt='Skill Aegis System'/></span>, summoning skills and 5th Job Common Skills"
+                            "Does not mimic <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/pinpoint-salvo.png} tooltip={Pinpoint Salvo (1st Job)}>, <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png} tooltip={Aegis System (3rd Job)}>, summoning skills, and 5th Job Common Skills"
                         ]
                     },
                     {
@@ -483,7 +483,7 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-iv.png", "http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-i.png"],
                         "type": "Upgraded Passive",
-                        "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                        "desc": "Grants special bonuses upon reaching a certain amount of stats"
                     },
                     {
                         "name": "Emergency Resupply",
@@ -514,7 +514,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/beam-dance.png"],
                     "animations": ["https://media1.giphy.com/media/KpwElMxhQvlJmwmxCb/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Violently swings your Whip Blade around yourself",
+                    "desc": "Violently swing your Whip Blade around yourself",
                     "details": [
                         "You can move and jump while attacking"
                     ]
@@ -526,7 +526,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png"],
                     "animations": ["https://media1.giphy.com/media/uPco9wNhZXCRKJhnkG/giphy.gif"],
                     "type": "Modal Attack",
-                    "desc": "Deals a focused attack towards a single enemy with the highest HP",
+                    "desc": "Deal a focused attack towards a single enemy with the highest HP",
                     "details": [
                         "Attack has increased %Ignore DEF",
                         "Prioritizes bosses with the highest HP first"
@@ -539,7 +539,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-bombard.png"],
                     "animations": ["https://media2.giphy.com/media/b50j4TpHd72JyS6lky/giphy.gif"],
                     "type": "Modal Attack",
-                    "desc": "Blasts a laser forward damaging multiple enemies"
+                    "desc": "Blast a laser forward damaging multiple enemies"
                 },
                 {
                     "name": "Mecha Purge: Bombardment",
@@ -548,7 +548,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-bombardment.png"],
                     "animations": ["https://media1.giphy.com/media/91ONXKoYSUWOJ9OZxy/giphy.gif"],
                     "type": "Modal Attack",
-                    "desc": "Bombards enemies from the air with missiles and lasers"
+                    "desc": "Bombard enemies from the air with missiles and lasers"
                 },
                 {
                     "name": "Hypogram Field: Penetrate",
@@ -557,7 +557,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-penetrate.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm8yd2JmcjYyYmZodDB2d3l0ZGdxYTI0cXdrZmxxZmhqbmRtZGFuNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e2omYOnOcJitevQVFI/giphy.gif"],
                     "type": "Modal Summon",
-                    "desc": "Creates a zone where a bouncing orb will damage any enemy it comes in contact with",
+                    "desc": "Create a zone where a bouncing orb damages enemies it comes in contact with",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ]
@@ -569,7 +569,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-force-field.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajA1aDNhbnJ1d2xtN2RjeTlnMWM3ZDlpbDNhaG13djBrZHpwZGt1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7c33vjaG52MteTq81u/giphy.gif"],
                     "type": "Modal Summon",
-                    "desc": "Creates a zone where enemies are damaged each time a bouncing orb touches the force field",
+                    "desc": "Create a zone where enemies are damaged each time a bouncing orb touches the force field",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ]
@@ -581,9 +581,9 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-support.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGpjNjlqYzM1a2V1eHBjbHkwMGp2YmYybDEyb2Vpa3hmNG5xc3k1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZLbzkqZFWfCm50PcdQ/giphy.gif"],
                     "type": "Modal Buff Zone",
-                    "desc": "Creates a zone where any party members within it will have increased %Max HP, %Avoidability",
+                    "desc": "Create a zone where party members within will gain increased %Max HP, %Avoidability",
                     "details": [
-                        "Whenever party members dodge an attack, you will gain 1 Energy"
+                        "Whenever party members dodge an attack, gain 1 Energy"
                     ]
                 },
                 {
@@ -601,7 +601,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/instant-shock.png"],
                     "animations": ["https://media2.giphy.com/media/TveJdvxaoXP9wsxJ9K/giphy.gif"],
                     "type": "Passive",
-                    "desc": "Grants a dodge chance and enhances the %Damage of <span data-tooltip='Aegis System (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png' alt='Skill Aegis System'/></span>"
+                    "desc": "Grants a dodge chance and enhances the %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png} tooltip={Aegis System (3rd Job)}>"
                 },
                 {
                     "name": "Xenon Expert",
@@ -622,7 +622,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/temporal-pod.png"],
                     "animations": ["https://media0.giphy.com/media/U21DgcXSXxToYEiHJc/giphy.gif"],
                     "type": "Active",
-                    "desc": "When activated, you reduce the skill cooldowns of nearby party members",
+                    "desc": "When activated, reduce the skill cooldowns of nearby party members",
                     "details": [
                         "The pod is destroyed when you are hit",
                         "Has no effect on skills that are not affected by cooldown resets"
@@ -665,7 +665,7 @@
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-v.png", "http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-i.png"],
                     "type": "Upgraded Passive",
-                    "desc": "Grants special bonuses once you've reached a certain amount of stats"
+                    "desc": "Grants special bonuses upon reaching a certain amount of stats"
                 },
                 {
                     "name": "Pinpoint Salvo Perfect Design",
@@ -685,7 +685,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-vi.png", "http://localhost:3000/grandislibrary/class-icons/resistance/xenon/multilateral-i.png"],
                     "type": "Upgraded Passive",
                     "reqLev": "Req. 200",
-                    "desc": "Grants special bonuses once you've reached a certain amount of stats",
+                    "desc": "Grants special bonuses upon reaching a certain amount of stats",
                     "details": [
                         "Now also increases %Final Damage"
                     ]
@@ -740,7 +740,7 @@
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-spread.png"],
                     "type": "Passive",
-                    "desc": "Increases the maximum number of enemies hit by <span data-tooltip='Mecha Purge: Bombard (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-bombard.png' alt='Skill Mecha Purge Bombard'/></span>",
+                    "desc": "Increases the maximum number of enemies hit by <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-bombard.png} tooltip={Mecha Purge: Bombard (4th Job)}>",
                     "reqLev": 180
                 },
                 {
@@ -776,7 +776,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/amaranth-generator.png"],
                     "animations": ["https://media4.giphy.com/media/3e76FdX97GHJRVIRRF/giphy.gif"],
                     "type": "Buff",
-                    "desc": "While active, skills that will not consume your <span data-tooltip='Supply Surplus (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/supply-surplus.png' alt='Skill Supply Surplus'/></span> Supply Surplus and your gauge will gain max charge",
+                    "desc": "While active, skills will not consume the <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/supply-surplus.png} tooltip={Supply Surplus (Beginner Skill)}> Supply Surplus and the gauge will gain max charge",
                     "reqLev": 140
                 },
                 {
@@ -786,7 +786,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/entangling-lash.png"],
                     "animations": ["https://media3.giphy.com/media/3ZLfHvmwCMh5iHLckp/giphy.gif"],
                     "type": "Bind Attack",
-                    "desc": "Lashes your Whip Blade forward, binding enemies hit",
+                    "desc": "Lash your Whip Blade forward, binding enemies hit",
                     "reqLev": 160
                 },
                 {
@@ -796,7 +796,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png"],
                     "animations": ["https://media0.giphy.com/media/yEd2I5HDyqRFEmjJHB/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Fires a powerful laser cannon that reduces enemy %DEF and grants a %Damage buff",
+                    "desc": "Fire a powerful laser cannon that reduces enemy %DEF and grants a %Damage buff",
                     "details": [
                         "Reduction to %DEF can be considered as %Ignore DEF",
                         "Invincible while casting",
@@ -815,7 +815,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/omega-blaster.png"],
                     "animations": ["https://media1.giphy.com/media/zzImSpAUXqpHCR2rsp/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Charges and releases a powerful laser beam",
+                    "desc": "Charge and release a powerful laser beam",
                     "details": [
                         "Holding down the Skill Key before releasing will increase the duration of the skill",
                         "Pressing the Skill Key again while firing will cancel the attack early",
@@ -828,7 +828,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/core-overload.png"],
                     "animations": ["https://media2.giphy.com/media/STPGuLhO2weanpUJnb/giphy.gif"],
                     "type": "Buff",
-                    "desc": "When used, increases your <span data-tooltip='Supply Surplus (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/supply-surplus.png' alt='Skill Supply Surplus'/> maximum storage capacity",
+                    "desc": "When used, increases your <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/supply-surplus.png} tooltip={Supply Surplus (Beginner Skill)}> maximum storage capacity",
                     "details": [
                         "While active, gain increased %Final Damage for each Energy unit and Energy charging time is reduced to 1 sec",
                         "While active, periodically release plasma that damages nearby enemies",
@@ -842,10 +842,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-fusion.png"],
                     "animations": ["https://media3.giphy.com/media/Z5AvJ3ez7Hpl8Gs5mV/giphy.gif"],
                     "type": "Summon / Buff Zone",
-                    "desc": "Creates a force field that has the combined effects of all 3 Hypogram Fields",
+                    "desc": "Create a force field that has the combined effects of all 3 Hypogram Fields",
                     "details": [
-                        "You also fire extra <span data-tooltip='Aegis System (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png' alt='Skill Aegis System'/></span> missiles while inside the force field",
-                        "Increases %Damage of party members inside the field<ul><li>Recharges 1 Energy whenever a party member attacks within the field evades an attack</li></ul>",
+                        "You also fire extra <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/aegis-system.png} tooltip={Aegis System (3rd Job)}> missiles while inside the force field",
+                        "Increases %Damage of party members inside the field<bp_Recharges 1 Energy whenever a party member attacks within the field evades an attack_>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -855,13 +855,13 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/resistance/xenon/photon-ray.png"],
                     "animations": ["https://media3.giphy.com/media/uBUcPQuftygoRS3fu2/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons a photon cannon that slowly aims and targets enemies before releasing homing missiles at targeted enemies",
+                    "desc": "Summon a photon cannon that slowly aims and targets enemies before releasing homing missiles at targeted enemies",
                     "details": [
-                        "On initial cast, enemies one by one will be aimed at before becoming a target<ul><li>Moving too far away from enemies that are being aimed at will cancel the targetting</li><li>Targetting begins fast and eventually slows down</li><li>Attacking enemies that are being aimed at will complete the targetting faster</ul>",
-                        "Pressing the Skill Key again will fire the photon cannon<ul><li>If it is not pressed before the aiming phase ends, the photon cannon will not fire</li></ul>",
+                        "On initial cast, enemies one by one will be aimed at before becoming a target<bp_Moving too far away from enemies that are being aimed at will cancel the targetting_Targetting begins fast and eventually slows down_Attacking enemies that are being aimed at will complete the targetting faster_>",
+                        "Pressing the Skill Key again will fire the photon cannon<bp_If it is not pressed before the aiming phase ends, the photon cannon will not fire_>",
                         "Photon cannon will prioritize bosses with the highest max HP",
-                        "Can be used during <span data-tooltip='Mecha Purge: Snipe (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png' alt='Skill Mecha Purge Snipe'/></span>, <span data-tooltip='Orbital Cataclysm (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png' alt='Skill Orbital Cataclysm'/></span>, and <span data-tooltip='Omega Blaster (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/omega-blaster.png' alt='Skill Omega Blaster'/></span> without any casting delay",
-                        "Unaffected by Damage Reflect and <span data-tooltip='Manifest Projector (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/manifest-projector.png' alt='Skill Manifest Projector'/></span>"
+                        "Can be used at the same time while casting <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png} tooltip={Mecha Purge: Snipe (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/orbital-cataclysm.png} tooltip={Orbital Cataclysm (Hyper Skill)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/omega-blaster.png} tooltip={Omega Blaster (5th Job)}>",
+                        "Unaffected by Damage Reflect and <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/manifest-projector.png} tooltip={Manifest Projector (3rd Job)}>"
                     ]
                 }
             ]
@@ -876,7 +876,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='All Mecha Purge (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png' alt='Skill Mecha Purge: Snipe'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/mecha-purge-snipe.png} tooltip={All Mecha Purge (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -907,7 +907,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Triangulation (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/triangulation.png' alt='Skill Triangulation'/></span> <span data-tooltip='All Hypogram Field (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-penetrate.png' alt='Skill Hypogram Field: Penetrate'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/triangulation.png} tooltip={Triangulation (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/resistance/xenon/hypogram-field-penetrate.png} tooltip={All Hypogram Field (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
