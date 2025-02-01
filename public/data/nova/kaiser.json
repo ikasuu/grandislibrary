@@ -63,8 +63,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+32%(60.91%)(101.14% during <span data-tooltip='Final Form (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>) - Excl. <span data-tooltip='Dragon Link (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span>",
-                "detail": "<ul><li><span data-tooltip='Catalyze (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/></span> +32%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Final Form (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span> +15% while transformed</li></ul> × <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Cursebite (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/></span></div> <div>+15% to enemies with Abnormal Statuses<br/>(+25% instead, when transformed)</div></li></ul> × <ul class='bs-temp-toggle'><li><span data-tooltip='Dragon Link (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span> +15% when using Attack Commands (<span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign: Attacker Mode'/></span> extra +5%)</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul>"
+                "stat": "+32%(60.91%)(101.14% during <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png} tooltip={Final Form (3rd Job)}>) - Excl. <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}>",
+                "detail": "<ul><li><span data-tooltip='Catalyze (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/catalyze.png' alt='Skill Catalyze'/></span> +32%</li></ul> × <ul class='bs-temp-val'><li><img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png} tooltip={Final Form (3rd Job)}> +15% while transformed</li></ul> × <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Cursebite (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/></span></div> <div>+15% to enemies with Abnormal Statuses<br/>(+25% instead, when transformed)</div></li></ul> × <ul class='bs-temp-toggle'><li><img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}> +15% when using Attack Commands (<span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign: Attacker Mode'/></span> extra +5%)</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul>"
             },
             {
                 "name": "Ignore DEF",
@@ -74,9 +74,9 @@
         ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Blaze On (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blaze-on.png' alt='Skill Blaze On'/></span>[240s]</div> <div><span data-tooltip='Cursebite (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/cursebite.png' alt='Skill Cursebite'/></span>[240s]</div>",
-            "toggles": "[ <span data-tooltip='Realign: Defender Mode (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png' alt='Skill Realign Defender Mode'/></span> / <span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/></span> ] <span data-tooltip='Tempest Blades (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span>",
+            "toggles": "[ <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png} tooltip={Realign: Defender Mode (Beginner Skill)}> / <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png} tooltip={Realign: Attacker Mode (Beginner Skill)}> ] <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png} tooltip={Tempest Blades (2nd Job)}>",
             "summons": "<div><span data-tooltip='Stone Dragon (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/></span>[60s]</div> <div><span data-tooltip='Nova Guardians (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-guardians.png' alt='Skill Nova Guardians'/></span>[45s](120s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Final Form (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>[60s](Transform, Full Morph Gauge)</div> <div><span data-tooltip='Grand Armor (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor'/></span>[15s](120s cd)</div> <div><span data-tooltip='Kaiser&#39;s Majesty (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/kaisers-majesty.png' alt='Skill Kaiser&#39;s Majesty'/></span>[30s](90s cd)</div> <div><span data-tooltip='Final Trance (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-trance.png' alt='Skill Final Trance'/></span>(240s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>[960s](1200s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
+            "buffCd": "<div><img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png} tooltip={Final Form (3rd Job)}>[60s](Transform, Full Morph Gauge)</div> <div><span data-tooltip='Grand Armor (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor'/></span>[15s](120s cd)</div> <div><span data-tooltip='Kaiser&#39;s Majesty (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/kaisers-majesty.png' alt='Skill Kaiser&#39;s Majesty'/></span>[30s](90s cd)</div> <div><span data-tooltip='Final Trance (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-trance.png' alt='Skill Final Trance'/></span>(240s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>[960s](1200s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
             "binds": "<div><span data-tooltip='Nova Triumphant (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-triumphant.png' alt='Skill Nova Triumphant'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Ancestral Prominence (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png' alt='Skill Ancestral Prominence'/></span>(60s cd)</div> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>[960s Buff](1200s cd blocks 1 death)</div> <div><span data-tooltip='Nova Triumphant (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-triumphant.png' alt='Skill Nova Triumphant'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Grand Armor (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/grand-armor.png' alt='Skill Grand Armor'/></span>[15s](-12% | 120s cd)</div> <div><span data-tooltip='Defender Mode III (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/defender-mode-iii.png' alt='Skill Defender Mode III'/></span>(-5% | Transform)</div>"
@@ -103,8 +103,8 @@
             "recommended": "<ul><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave-reinforce.png' alt='Skill Gigas Wave - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave-bonus-attack.png' alt='Skill Gigas Wave - Bonus Attack'/> Gigas Wave - Reinforce and Bonus Attack</li><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-reinforce.png' alt='Skill Wing Beat - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-pummel.png' alt='Skill Wing Beat - Pummel'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat-extra-attack.png' alt='Skill Wing Beat - Extra Attack'/> Wing Beat - Reinforce, Pummel, and Extra Attack</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Gigas Wave and Draco Surge (4th Job / 5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/></span> <span data-tooltip='Tempest Blades (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span> <span data-tooltip='Wing Beat (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png' alt='Skill Wing Beat'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Blade Burst (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png' alt='Skill Blade Burst'/></span> <span data-tooltip='Inferno Breath (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png' alt='Skill Inferno Breath'/></span> <span data-tooltip='Ancestral Prominence (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png' alt='Skill Ancestral Prominence'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Dragon Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash'/></span> <span data-tooltip='Flame Surge (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/flame-surge.png' alt='Skill Flame Surge'/></span> <span data-tooltip='Impact Wave (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/impact-wave.png' alt='Skill Impact Wave'/></span> <span data-tooltip='Piercing Blaze (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/piercing-blaze.png' alt='Skill Piercing Blaze'/></span> <span data-tooltip='Tempest Blades (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span> <span data-tooltip='Wing Beat (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png' alt='Skill Wing Beat'/></span> <span data-tooltip='Pressure Chain (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/pressure-chain.png' alt='Skill Pressure Chain'/></span> <span data-tooltip='Stone Dragon (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/></span> <span data-tooltip='Gigas Wave and Draco Surge (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/></span> <span data-tooltip='Dragon Barrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-barrage.png' alt='Skill Dragon Barrage'/></span> <span data-tooltip='Blade Burst (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png' alt='Skill Blade Burst'/></span> <span data-tooltip='Inferno Breath (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png' alt='Skill Inferno Breath'/></span> <span data-tooltip='Ancestral Prominence (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png' alt='Skill Ancestral Prominence'/></span>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Gigas Wave and Draco Surge (4th Job / 5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png} tooltip={Tempest Blades (2nd Job)}> <span data-tooltip='Wing Beat (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png' alt='Skill Wing Beat'/></span></div><h6>Secondary Trio</h6><div><img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png} tooltip={Blade Burst (4th Job)}> <span data-tooltip='Inferno Breath (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png' alt='Skill Inferno Breath'/></span> <span data-tooltip='Ancestral Prominence (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png' alt='Skill Ancestral Prominence'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
+            "possible": "<span data-tooltip='Dragon Slash (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png' alt='Skill Dragon Slash'/></span> <span data-tooltip='Flame Surge (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/flame-surge.png' alt='Skill Flame Surge'/></span> <span data-tooltip='Impact Wave (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/impact-wave.png' alt='Skill Impact Wave'/></span> <span data-tooltip='Piercing Blaze (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/piercing-blaze.png' alt='Skill Piercing Blaze'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png} tooltip={Tempest Blades (2nd Job)}> <span data-tooltip='Wing Beat (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png' alt='Skill Wing Beat'/></span> <span data-tooltip='Pressure Chain (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/pressure-chain.png' alt='Skill Pressure Chain'/></span> <span data-tooltip='Stone Dragon (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png' alt='Skill Stone Dragon'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png} tooltip={Gigas Wave and Draco Surge (4th Job)}> <span data-tooltip='Dragon Barrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-barrage.png' alt='Skill Dragon Barrage'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png} tooltip={Blade Burst (4th Job)}> <span data-tooltip='Inferno Breath (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png' alt='Skill Inferno Breath'/></span> <span data-tooltip='Ancestral Prominence (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png' alt='Skill Ancestral Prominence'/></span>"
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Kaiser"},
@@ -143,7 +143,7 @@
                     "type": "Toggle Buff",
                     "desc": "",
                     "details": [
-                        "Cannot be combined with <span data-tooltip='Realign: Attacker Mode (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png' alt='Skill Realign Attacker Mode'/></span>"
+                        "Cannot be combined with <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-attacker-mode.png} tooltip={Realign: Attacker Mode (Beginner Skill)}>"
                     ]
                 },
                 {
@@ -154,7 +154,7 @@
                     "type": "Toggle Buff",
                     "desc": "",
                     "details": [
-                        "Cannot be combined with <span data-tooltip='Realign: Defender Mode (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png' alt='Skill Realign Defender Mode'/></span>"
+                        "Cannot be combined with <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/realign-defender-mode.png} tooltip={Realign: Defender Mode (Beginner Skill)}>"
                     ]
                 },
                 {
@@ -163,7 +163,7 @@
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/vertical-grapple.png"],
                     "animations": ["https://media4.giphy.com/media/43UIrafIm5vfJUptKK/giphy.gif"],
-                    "desc": "Grapples onto a platform above and launches you up",
+                    "desc": "Grapple onto a platform above and launch towards it",
                     "details": [
                         "Pressing the Jump Key while launching up will cancel the grapple early"
                     ],
@@ -197,7 +197,7 @@
                     "desc": "",
                     "reqLev": "Req 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/22/Grand_Kaiser' target='_blank' rel='noopener noreferrer'>'Grand Kaiser'</a>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/22/Grand_Kaiser} title={\"Grand Kaiser\"}>",
                         "Affects all nearby players"
                     ]
                 },
@@ -220,7 +220,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-slash.png"],
                         "animations": ["https://media.giphy.com/media/SsHs6FaASxUfjk2Jta/giphy.gif"],
                         "type": "Basic Attack Modifier",
-                        "desc": "Attacks in front of you consecutively up to 3 times"
+                        "desc": "Attack forward consecutively up to 3 times"
                     },
                     {
                         "name": "Flame Surge",
@@ -229,9 +229,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/flame-surge.png"],
                         "animations": ["https://media.giphy.com/media/ZEr8nWXKfiaMKZJGAc/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Launches fireballs forward towards nearby enemies",
+                        "desc": "Launch fireballs forward towards nearby enemies",
                         "details": [
-                            "<strong>[Combo]:</strong> Attack (then) -> <span data-tooltip='Dragon Link (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span>"
+                            "[Combo]: Attack (then) -> <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}>"
                         ]
                     },
                     {
@@ -243,7 +243,7 @@
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>"
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump_>"
                         ]
                     },
                     {
@@ -276,7 +276,7 @@
                         "type": "Attack",
                         "desc": "Send out a shockwave in front of you",
                         "details": [
-                            "<strong>[Combo]:</strong> Attack -> Up Arrow (together) + <span data-tooltip='Dragon Link (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span>"
+                            "[Combo]: Attack -> Up Arrow (together) + <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}>"
                         ]
                     },
                     {
@@ -300,8 +300,8 @@
                         "type": "Toggle Summon",
                         "desc": "While toggled, periodically summons swords that hover above your head",
                         "details": [
-                            "Activate the swords to strike nearby enemies by using <span data-tooltip='Tempest Blades: Charge (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades-charge.png' alt='Skill Tempest Blades: Charge'/></span>",
-                            "During <span data-tooltip='Final Form (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>, swords will gain 1 additional number of attacks",
+                            "Activate the swords to strike nearby enemies by using <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades-charge.png} tooltip={Tempest Blades: Charge (2nd Job)}>",
+                            "During <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png} tooltip={Final Form (3rd Job)}>, swords will gain 1 additional number of attacks",
                             "Prioritizes enemies with the highest Max HP first"
                         ]
                     },
@@ -311,7 +311,7 @@
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades-charge.png"],
                         "type": "Active",
-                        "desc": "Activate swords summoned by <span data-tooltip='Tempest Blades (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span> to seek out nearby enemies"
+                        "desc": "Activate swords summoned by <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png} tooltip={Tempest Blades (2nd Job)}> to seek out nearby enemies"
                     },
                     {
                         "name": "Blaze On",
@@ -378,9 +378,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/wing-beat.png"],
                         "animations": ["https://media.giphy.com/media/JNxvdTpydxnjeRRzK3/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Creates a whirlwind that damages enemies it collides with",
+                        "desc": "Create a moving whirlwind that damages enemies it collides with",
                         "details": [
-                            "<strong>[Combo]:</strong> Attack -> Jump + <span data-tooltip='Dragon Link (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span>",
+                            "[Combo]: Attack -> Jump + <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}>",
                             "Up to 2 whirlwinds can be active at once",
                             "The whirlwind will disappear after a set distance or when the duration expires",
                             "Unaffected by Damage Reflect"
@@ -393,7 +393,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/pressure-chain.png"],
                         "animations": ["https://media.giphy.com/media/Teymdfasnw9rTJWvng/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Launches your sword forward while pulling in enemies with a chance to stun"
+                        "desc": "Launch your sword forward while pulling in enemies with a chance to stun"
                     },
                     {
                         "name": "Final Form",
@@ -402,9 +402,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png"],
                         "animations": ["https://media.giphy.com/media/YRV9WjMrXTvI6Xjhko/giphy.gif"],
                         "type": "Active Transform",
-                        "desc": "Transforms you into your true form",
+                        "desc": "Transform into your true form",
                         "details": [
-                            "Attacks are enhanced and you gain increased %Final Damage and 100% Knockback Resistance<ul><li>In 4th Job, the %Final Damage bonus is increased</li></ul>",
+                            "Attacks are enhanced and you gain increased %Final Damage and 100% Knockback Resistance<bp_In 4th Job, the %Final Damage bonus is increased_>",
                             "While transformed, attacks ignore Attack Ignore and Damage Reflect",
                             "You can teleport a short distance by the Skill Key and an Arrow Key for the direction you want to go together"
                         ]
@@ -416,7 +416,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/stone-dragon.png"],
                         "animations": ["https://media.giphy.com/media/WPv39R4DsuzoKmsurS/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons a dragon statue that attacks and pulls in nearby enemies",
+                        "desc": "Summon a dragon statue that attacks and pulls in nearby enemies",
                         "details": [
                             "Also has a chance to slow enemies hit",
                             "Unaffected by Damage Reflect"
@@ -464,7 +464,7 @@
                         "desc": "",
                         "details": [
                             "Increases DEF provided",
-                            "Now when toggled, attacks activated using <span data-tooltip='Dragon Link (Beginner)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span> will restore some %Max HP"
+                            "Now when toggled, attacks activated using <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}> will restore some %Max HP"
                         ]
                     },
                     {
@@ -476,7 +476,7 @@
                         "desc": "",
                         "details": [
                             "Increases Attack, %Crit Rate, and %Boss Damage provided",
-                            "Now when toggled, attacks activated using <span data-tooltip='Dragon Link (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span> gain increased %Final Damage"
+                            "Now when toggled, attacks activated using <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}> gain increased %Final Damage"
                         ]
                     }]
                 ],
@@ -499,9 +499,9 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png"],
                     "animations": ["https://media.giphy.com/media/cP5XFUcr3vkzW0e8m8/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Unleashes a flurry of attacks on a single enemy",
+                    "desc": "Unleash a flurry of attacks on a single enemy",
                     "details": [
-                        "<strong>[Combo]:</strong> Attack -> <span data-tooltip='Gigas Wave (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/></span>",
+                        "[Combo]: Attack -> <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png} tooltip={Gigas Wave (4th Job)}>",
                         "Enemies hit are slowed"
                     ]
                 },
@@ -514,7 +514,7 @@
                     "type": "Attack",
                     "desc": "Dash forward leaving an exploding trail behind you",
                     "details": [
-                        "<strong>[Combo]:</strong> Attack -> Left Arrow/Right Arrow + <span data-tooltip='Dragon Link (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span><ul><li>Arrow Key you press is the opposite of the direction you are facing</li></ul>"
+                        "[Combo]: Attack -> Left Arrow/Right Arrow + <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}><bp_Arrow Key you press is the opposite of the direction you are facing_>"
                     ]
                 },
                 {
@@ -526,7 +526,7 @@
                     "type": "Attack",
                     "desc": "Swords strike down on enemies",
                     "details": [
-                        "<strong>[Combo]:</strong> Attack -> Down Arrow + <span data-tooltip='Dragon Link (Beginner Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png' alt='Skill Dragon Link'/></span>"
+                        "[Combo]: Attack -> Down Arrow + <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/dragon-link.png} tooltip={Dragon Link (Beginner Skill)}>"
                     ]
                 },
                 {
@@ -536,7 +536,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/inferno-breath.png"],
                     "animations": ["https://media.giphy.com/media/JsL3JFTPTGBlqyeRBb/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Summons a dragon that breaths fire on enemies. The attack leaves a trail of fire that damages enemies",
+                    "desc": "Summon a dragon that breaths fire on enemies and leaves a lingering trail of fire that damages enemies",
                     "details": [
                         "Ignores Damage Reflect"
                     ]
@@ -562,7 +562,7 @@
                     "type": "Buff",
                     "desc": "Increases %Damage Reduction including %Max HP attacks",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Damage Reduction (Regular Monsters) and %Knockback Resistance"
+                        "[Passive]: Permanently increases %Damage Reduction (Regular Monsters) and %Knockback Resistance"
                     ]
                 },
                 {
@@ -617,7 +617,7 @@
                     "desc": "",
                     "details": [
                         "Increases DEF provided",
-                        "Now when toggled, During <span data-tooltip='Final Form (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>, gain increased %Damage Reduction (including %Max HP attacks)"
+                        "Now when toggled during <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png} tooltip={Final Form (3rd Job)}>, gain increased %Damage Reduction (including %Max HP attacks)"
                     ]
                 },
                 {
@@ -629,7 +629,7 @@
                     "desc": "",
                     "details": [
                         "Increases Attack, %Crit Rate, and %Boss Damage provided",
-                        "Now when toggled, when in <span data-tooltip='Final Form (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>, gain increased %Boss Damage"
+                        "Now when toggled during <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png} tooltip={Final Form (3rd Job)}>, gain increased %Boss Damage"
                     ]
                 }]
             ]
@@ -731,7 +731,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/ancestral-prominence.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHhybDU0YnZ3NXZtaGFzbzF3MzdreW9lY2RkaHQ3em95N25pMnV2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q6J6iaNpYmRYQpGhc9/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Unleashes a powerful explosion that blows up enemies on screen",
+                    "desc": "Unleash an explosion damages in a wide area",
                     "details": [
                         "Invincible while casting",
                         "Unaffected by cooldown reduction"
@@ -745,7 +745,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-trance.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJ0ZGF6dTJqdGtsdWQxbmQybGphZ2Zlank3dXEwN2xkY3JiaWJmbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F1RPVjWDYKC8vXSUgs/giphy.gif"],
                     "type": "Buff / Transform",
-                    "desc": "Immediately transforms you into <span data-tooltip='Final Form (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png' alt='Skill Final Form'/></span>",
+                    "desc": "Immediately transforms you into <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/final-form.png} tooltip={Final Form (3rd Job)}>",
                     "reqLev": 190
                 }
             ]
@@ -759,7 +759,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/nova-guardians.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHc0MzI5dGVhbjM0eWZ2MXczNmJlN3RrcHJiOG8xbHBzNGl2amhrbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P11iZbeOihr3pl3GlX/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons previous Kaiser knights to fight by your side",
+                    "desc": "Summon previous Kaiser knights to fight by your side",
                     "details": [
                         "While active, pressing the Skill Key will move them to your location",
                         "Unaffected by Damage Reflect"
@@ -771,11 +771,11 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/bladefall.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmhubTFqYzZ3NTJiejdxN2tlY2liNDRmeGExc3d1dmJiNWx0NGU4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ODlFYYsBvAMJ0QQz07/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Your <span data-tooltip='Tempest Blades (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span> Tempest Blades seek out enemies and slam into the ground at their location",
+                    "desc": "When used, <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png} tooltip={Tempest Blades (2nd Job)}> Tempest Blades seek out enemies and slam into the ground at their location",
                     "details": [
-                        "<span data-tooltip='Tempest Blades (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span> must be active in order to use skill",
-                        "Pressing the skill key again will release the swords causing an explosion<ul><li>The explosion will deal more damage the longer it stays in the ground</li></ul>",
-                        "Resets <span data-tooltip='Draco Surge (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/draco-surge.png' alt='Skill Draco Surge'/></span> cooldown (up to 3 times)",
+                        "<img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png} tooltip={Tempest Blades (2nd Job)}> must be active in order to use skill",
+                        "Pressing the skill key again will release the swords causing an explosion<bp_The explosion will deal more damage the longer it stays in the ground_>",
+                        "Resets <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/draco-surge.png} tooltip={Draco Surge (5th Job)}> cooldown (up to 3 times)",
                         "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
                     ]
@@ -786,7 +786,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kaiser/draco-surge.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Ryb2IwNXAxcjZyajUyYXN3YjF4OGVlMGUydjBhc3hhZ2ZzeTJ4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1HkJzLikIIL24dYNYO/giphy.gif"],
                     "type": "Passive Attack",
-                    "desc": "Periodically enhances <span data-tooltip='Gigas Wave (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/></span> into Draco Surge that launches an additional attack",
+                    "desc": "Periodically enhances <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png} tooltip={Gigas Wave (4th Job)}> that launches an additional attack",
                     "details": [
                         "Has increased %Ignore DEF and is a guaranteed Critical Hit",
                         "Unaffected by Damage Reflect"
@@ -800,8 +800,8 @@
                     "type": "Attack",
                     "desc": "Flames surround you that damages enemies caught in it",
                     "details": [
-                        "<strong>[Passive]</strong>: While skill is not active, successful attacks create homing fireballs</span><ul><li>Right-clicking the skill will turn the fireballs ON/OFF</li></ul>",
-                        "While active, a haze is left at places you pass through<ul><li>Attacks in these haze cause it to explode, damaging nearby enemies</li></ul>",
+                        "[Passive]: While skill is not active, successful attacks create homing fireballs<bp_Right-clicking the skill will turn the fireballs ON/OFF_>",
+                        "While active, a haze is left at places you pass through<bp_Attacks in these haze cause it to explode, damaging nearby enemies_>",
                         "Pressing the Skill Key again will cancel the skill",
                         "Unaffected by Damage Reflect"
                     ]
@@ -818,7 +818,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Gigas Wave and Draco Surge (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png' alt='Skill Gigas Wave'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/gigas-wave.png} tooltip={Gigas Wave and Draco Surge (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -839,7 +839,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Blade Burst (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png' alt='Skill Blade Burst'/></span> <span data-tooltip='Tempest Blades (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png' alt='Skill Tempest Blades'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/blade-burst.png} tooltip={Blade Burst (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/kaiser/tempest-blades.png} tooltip={Tempest Blades (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

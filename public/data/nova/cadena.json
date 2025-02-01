@@ -69,14 +69,14 @@
             {
                 "name": "Ignore DEF",
                 "stat": "+44%",
-                "detail": "<ul><li><span data-tooltip='Keen Eye (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/keen-eye.png' alt='Skill Keen Eye'/></span> +20%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Summon Daggers (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/></span> +30%</li></ul>"
+                "detail": "<ul><li><span data-tooltip='Keen Eye (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/keen-eye.png' alt='Skill Keen Eye'/></span> +20%</li></ul> × <ul class='bs-debuff-val'><li><img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png} tooltip={Summon Daggers (3rd Job)}> +30%</li></ul>"
             }
         ],
         "buffInfo": {
             "active": "<div><span data-tooltip='Weapon Booster (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/weapon-booster.png' alt='Skill Weapon Booster'/></span>[200s]</div>",
-            "summons": "<div><span data-tooltip='Summon Shuriken (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shuriken.png' alt='Skill Summon Shuriken'/></span>[7s](10s cd)</div> <div><span data-tooltip='Apocalypse Cannon (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/apocalypse-cannon.png' alt='Skill Apocalypse Cannon'/></span>[10s](25s cd)</div> <div><span data-tooltip='Chain Arts: Maelstrom (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-maelstrom.png' alt='Skill Chain Arts Maelstrom'/></span>[8s]</div>",
+            "summons": "<div><img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shuriken.png} tooltip={Summon Shuriken (2nd Job)}>[7s](10s cd)</div> <div><span data-tooltip='Apocalypse Cannon (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/apocalypse-cannon.png' alt='Skill Apocalypse Cannon'/></span>[10s](25s cd)</div> <div><span data-tooltip='Chain Arts: Maelstrom (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-maelstrom.png' alt='Skill Chain Arts Maelstrom'/></span>[8s]</div>",
             "buffCd": "<div><span data-tooltip='Shadowdealer&#39;s Elixir (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/shadowdealers-elixir.png' alt='Skill Shadowdealer&#39;s Elixir'/></span>[60s](120s cd)</div> <div><span data-tooltip='Veteran Shadowdealer (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/veteran-shadowdealer.png' alt='Skill Veteran Shadowdealer'/></span>[30s](180s cd)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Grandis Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png' alt='Skill Grandis Goddess&#39;s Blessing'/></span>[40s](120s cd)</div> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>[960s](1200s cd)</div>",
-            "binds": "<div><span data-tooltip='Chain Arts: Beatdown (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/></span>[10s](120s cd)</div> <div><span data-tooltip='Chain Arts: Grand Arsenal (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-grand-arsenal.png' alt='Skill Chain Arts Grand Arsenal'/></span>[10s](360s cd)</div>",
+            "binds": "<div><img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png} tooltip={Chain Arts: Beatdown (4th Job)}>[10s](120s cd)</div> <div><span data-tooltip='Chain Arts: Grand Arsenal (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-grand-arsenal.png' alt='Skill Chain Arts Grand Arsenal'/></span>[10s](360s cd)</div>",
             "iFrame": "<div><span data-tooltip='Chain Arts: Reign of Chains (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts: Reign of Chains'/></span>[2s](45s cd)</div> <div><span data-tooltip='Might of the Nova (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/might-of-the-nova.png' alt='Skill Might of the Nova'/></span>[960s Buff](1200s cd blocks 1 death)</div> <div><span data-tooltip='Chain Arts: Grand Arsenal (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-grand-arsenal.png' alt='Skill Chain Arts Grand Arsenal'/></span>(360s cd)</div>",
             "damageReduce": "<div><span data-tooltip='Muscle Memory III (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory-iii.png' alt='Skill Muscle Memory III'/></span>[~3 sec](Up to 25% HP | Barrier)</div>"
         },
@@ -93,7 +93,7 @@
             "build": [
                 ["1st Job", "<span data-tooltip='Shadowstep'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/shadowstep.png' alt='Skill Shadowstep'/></span> -> <span data-tooltip='Uncanny Luck'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/uncanny-luck.png' alt='Skill Uncanny Luck'/></span> -> <span data-tooltip='The Way of Shadows'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/the-way-of-shadows.png' alt='Skill The Way of Shadows'/></span> -> <span data-tooltip='Chain Arts: Thrash'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash.png' alt='Skill Chain Arts Thrash'/></span> -> <span data-tooltip='Summon Scimitar'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span> -> <span data-tooltip='Chain Arts: Pursuit'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-pursuit.png' alt='Skill Chain Arts Pursuit'/></span>"],
                 ["2nd Job", "<span data-tooltip='Physical Training'><img src='http://localhost:3000/grandislibrary/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Weapon Mastery'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/weapon-mastery.png' alt='Skill Weapon Mastery'/></span> -> <span data-tooltip='Weapon Booster'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/weapon-booster.png' alt='Skill Weapon Booster'/></span> -> <span data-tooltip='Muscle Memory'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/></span> -> <span data-tooltip='Chain Arts: Thrash II'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash-ii.png' alt='Skill Chain Arts Thrash II'/></span> -> <span data-tooltip='Wisdom of Shadows'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/wisdom-of-shadows.png' alt='Skill Wisdom of Shadows'/></span> -> <span data-tooltip='Summon Claw'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-claw.png' alt='Skill Summon Claw'/></span> -> <span data-tooltip='Summon Shuriken'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shuriken.png' alt='Skill Summon Shuriken'/></span>"],
-                ["3rd Job", "<span data-tooltip='Muscle Memory II'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory-ii.png' alt='Skill Muscle Memory II'/></span> -> <span data-tooltip='Chain Arts: Thrash III'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash-iii.png' alt='Skill Chain Arts Thrash III'/></span> -> <span data-tooltip='Determination'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/determination.png' alt='Skill Determination'/></span> ->  <span data-tooltip='Cheap Shot'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/cheap-shot.png' alt='Skill Cheap Shot'/></span> -> <span data-tooltip='Keen Eye'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/keen-eye.png' alt='Skill Keen Eye'/></span> -> <span data-tooltip='Summon Decoy Bomb'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-decoy-bomb.png' alt='Skill Summon Decoy Bomb'/></span> -> <span data-tooltip='Summon Daggers'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/></span> -> <span data-tooltip='Summon Shotgun'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png' alt='Skill Summon Shotgun'/></span>"],
+                ["3rd Job", "<span data-tooltip='Muscle Memory II'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory-ii.png' alt='Skill Muscle Memory II'/></span> -> <span data-tooltip='Chain Arts: Thrash III'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash-iii.png' alt='Skill Chain Arts Thrash III'/></span> -> <span data-tooltip='Determination'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/determination.png' alt='Skill Determination'/></span> ->  <span data-tooltip='Cheap Shot'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/cheap-shot.png' alt='Skill Cheap Shot'/></span> -> <span data-tooltip='Keen Eye'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/keen-eye.png' alt='Skill Keen Eye'/></span> -> <span data-tooltip='Summon Decoy Bomb'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-decoy-bomb.png' alt='Skill Summon Decoy Bomb'/></span> -> <span data-tooltip='Summon Daggers'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/></span> -> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png} tooltip={Summon Shotgun (3rd Job)}>"],
                 ["4th Job", "<span data-tooltip='Muscle Memory III'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory-iii.png' alt='Skill Muscle Memory III'/></span> -> <span data-tooltip='Chain Arts: Thrash IV'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash-iv.png' alt='Skill Chain Arts Thrash IV'/></span> -> <span data-tooltip='Weapons Expert'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/weapons-expert.png' alt='Skill Weapons Expert'/></span> -> <span data-tooltip='Cheap Shot II'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/cheap-shot-ii.png' alt='Skill Cheap Shot II'/></span> -> <span data-tooltip='Wisdom of Shadows II'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/wisdom-of-shadows-ii.png' alt='Skill Wisdom of Shadows II'/></span> -> <span data-tooltip='Nova Warrior'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/nova-warrior.png' alt='Skill Nova Warrior'/></span> -> <span data-tooltip='Summon Spiked Bat'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-spiked-bat.png' alt='Skill Summon Spiked Bat'/></span> -> <span data-tooltip='Summon Brick'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-brick.png' alt='Skill Summon Brick'/></span> -> <span data-tooltip='Chain Arts: Beatdown'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/></span> -> <span data-tooltip='Chain Arts: Reign of Chains'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts Reign of Chains'/></span> -> <span data-tooltip='Nova Temperance'><img src='http://localhost:3000/grandislibrary/class-icons/nova/nova-temperance.png' alt='Skill Nova Temperance'/></span>"]
             ],
             "details": [
@@ -106,8 +106,8 @@
             "recommended": "<p>For Earlygame:</p><ul><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash-reinforce.png' alt='Skill Chain Arts Thrash - Reinforce'/> Chain Arts: Thrash - Reinforce</li><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-less-arts-critical-chance.png' alt='Skill Chain-less Arts - Critical Chance'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-less-arts-boss-rush.png' alt='Skill Chain-less Arts - Boss Rush'/> Chain-less Arts - Critical Chance and Boss Rush</li><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown-reinforce.png' alt='Skill Chain Arts Beatdown - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown-cooldown-cutter.png' alt='Skill Chain Arts Beatdown - Cooldown Cutter'/> Chain Arts: Beatdown - Shockwave Reinforce and Cooldown Cutter</li></ul><p>For Midgame/Endgame:</p><p><em>Chain Arts: Beatdown has limited use midgame/endgame especially in parties such as Lucid or Will. The skill is mainly used to gain max stacks of Muscle Memory</em></p><ul><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-less-arts-reinforce.png' alt='Skill Chain-less Arts - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-less-arts-boss-rush.png' alt='Skill Chain-less Arts - Boss Rush'/> Chain-less Arts - Reinforce and Boss Rush</li><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash-reinforce.png' alt='Skill Chain Arts: Thrash - Reinforce'/> <img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash-linked-attack-reinforce.png' alt='Skill Chain Arts Thrash - Linked Attack Reinforce'/> Chain Arts: Thrash - Reinforce and Linked Attack Reinforce</li><li><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown-cooldown-cutter.png' alt='Skill Chain Arts: Beatdown - Cooldown Cutter'/> Chain Arts: Beatdown - Cooldown Cutter</li></ul>" 
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Summon Brick (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-brick.png' alt='Skill Summon Brick'/></span> <span data-tooltip='Summon Spiked Bat (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-spiked-bat.png' alt='Skill Summon Spiked Bat'/></span> <span data-tooltip='Summon Daggers and Summon Shuriken (3rd Job / 2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Summon Shotgun and Summon Decoy Bomb (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png' alt='Skill Summon Shotgun'/></span> <span data-tooltip='Summon Scimitar and Summon Claw (1st Job / 2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span> <span data-tooltip='Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts Reign of Chains'/></span></div><h6>Tertiary Trio</h6><div><span data-tooltip='Chain Arts: Beatdown (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/></span> <span data-tooltip='Crush and Veteran Shadowdealer (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/veteran-shadowdealer.png' alt='Skill Veteran Shadowdealer'/></span> *</div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first and so on</li><li>The last skill from the Tertiary Trio can be any skill as Cadena only has 8 skills to boost</li><li>6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts Reign of Chains'/></span> <span data-tooltip='Summon Scimitar and Summon Claw (1st Job / 2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span> <span data-tooltip='Summon Daggers and Summon Shuriken (3rd Job / 2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/></span> <span data-tooltip='Summon Shotgun and Summon Decoy Bomb (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png' alt='Skill Summon Shotgun'/></span> <span data-tooltip='Summon Brick (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-brick.png' alt='Skill Summon Brick'/></span> <span data-tooltip='Chain Arts: Beatdown (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/></span> <span data-tooltip='Summon Spiked Bat (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-spiked-bat.png' alt='Skill Summon Spiked Bat'/></span> <span data-tooltip='Crush and Veteran Shadowdealer (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/veteran-shadowdealer.png' alt='Skill Veteran Shadowdealer'/></span>"
+            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Summon Brick (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-brick.png' alt='Skill Summon Brick'/></span> <span data-tooltip='Summon Spiked Bat (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-spiked-bat.png' alt='Skill Summon Spiked Bat'/></span> <span data-tooltip='Summon Daggers and Summon Shuriken (3rd Job / 2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Summon Shotgun and Summon Decoy Bomb (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png' alt='Skill Summon Shotgun'/></span> <span data-tooltip='Summon Scimitar and Summon Claw (1st Job / 2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span> <span data-tooltip='Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts Reign of Chains'/></span></div><h6>Tertiary Trio</h6><div><img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png} tooltip={Chain Arts: Beatdown (4th Job)}> <span data-tooltip='Crush and Veteran Shadowdealer (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/veteran-shadowdealer.png' alt='Skill Veteran Shadowdealer'/></span> *</div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first and so on</li><li>The last skill from the Tertiary Trio can be any skill as Cadena only has 8 skills to boost</li><li>6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
+            "possible": "<span data-tooltip='Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts Reign of Chains'/></span> <span data-tooltip='Summon Scimitar and Summon Claw (1st Job / 2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span> <span data-tooltip='Summon Daggers and Summon Shuriken (3rd Job / 2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/></span> <span data-tooltip='Summon Shotgun and Summon Decoy Bomb (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png' alt='Skill Summon Shotgun'/></span> <span data-tooltip='Summon Brick (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-brick.png' alt='Skill Summon Brick'/></span> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png} tooltip={Chain Arts: Beatdown (4th Job)}> <span data-tooltip='Summon Spiked Bat (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-spiked-bat.png' alt='Skill Summon Spiked Bat'/></span> <span data-tooltip='Crush and Veteran Shadowdealer (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/veteran-shadowdealer.png' alt='Skill Veteran Shadowdealer'/></span>"
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Cadena"},
@@ -136,7 +136,7 @@
                     "type": "Passive",
                     "desc": "Items are shops are discounted",
                     "details": [
-                        "When stacked with Guild Skill <img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/merchandising.png' alt='Skill Merchandising'/> Merchandising, the higher discount will be applied first"
+                        "When stacked with Guild Skill <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/merchandising.png} tooltip={Merchandising (Guild Skill)}> Merchandising, the higher discount will be applied first"
                     ]
                 },
                 {
@@ -157,7 +157,7 @@
                     "desc": "",
                     "reqLev": "Req 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/214/Pioneer_of_Destiny' target='_blank' rel='noopener noreferrer'>'Pioneer of Destiny'</a>", 
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/214/Pioneer_of_Destiny} title={\"Pioneer of Destiny\"}>", 
                         "Affects all nearby players"
                     ]
                 }]
@@ -171,10 +171,10 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-pursuit.png"],
                         "animations": ["https://media.giphy.com/media/BNwW4KXYVOhAdfQV5Q/giphy.gif"],
                         "type": "Attack / Utility",
-                        "desc": "Fires a grapple that can attach to both enemies and terrain",
+                        "desc": "Fire a grapple that can attach to enemies or terrain",
                         "details": [
-                            "Pressing an Arrow Key and Skill Key together allows you to direct the chain at a 45° angle upwards/downwards or a straight shot if no Arrow Key is pressed",
-                            "Initially when used, the chain will attach to the target and apply a slow debuff if it is an enemy<ul><li>Pressing again will move you towards the target</li><li>While moving, you temporarily enter a <img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight state and cannot be hit</li><li>While in the <img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight state, if you dodge an attack that deals %Max HP, the duration is reduced slightly</li></ul>",
+                            "Pressing an Arrow Key and Skill Key together allows you to direct the chain at a 45° angle upwards/downwards or straight if no Arrow Key is pressed",
+                            "Upon use, the chain will attach to the target and apply a slow debuff if it is an enemy<bp_Pressing again will move you towards the target_While moving, you temporarily enter a <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight}> Dark Sight state and cannot be hit_While in the <img src={http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png} tooltip={Dark Sight}> Dark Sight state, if you dodge an attack that deals %Max HP, the duration is reduced slightly_>",
                             "Based on how long the Skill Key is held, the grapple distance will increase",
                             "Unaffected by cooldown resets"
                         ]
@@ -186,10 +186,10 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-thrash.png"],
                         "animations": ["https://media.giphy.com/media/DncVgjv7flzKuKOpeP/giphy.gif"],
                         "type": "Basic Attack Modifier",
-                        "desc": "Lashes your whip forward that applies a slow debuff to enemies hit",
+                        "desc": "Lash your whip forward that applies a slow debuff to enemies hit",
                         "details": [
                             "The attack consists of two parts, the initial lash and the returning lash",
-                            "Other skills can be used between the initial lash and returning lash<ul><li>Skills used immediately after the initial lash will deal increased %Final Damage (excluding returning lash)</li></ul>",
+                            "Other skills can be used between the initial lash and returning lash<bp_Skills used immediately after the initial lash will deal increased %Final Damage (excluding returning lash)_>",
                             "The returning lash will push back enemies"
                         ]
                     },
@@ -214,7 +214,7 @@
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice<ul><li>While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump</li></ul>",
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump_>",
                             "Horizontal jump can be used twice in a row"
                         ]
                     },
@@ -267,7 +267,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shuriken.png"],
                         "animations": ["https://media.giphy.com/media/IdVcewaXvgU4Tiy3uD/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Creates a spinning shuriken that pushes enemies while it moves",
+                        "desc": "Create a moving shuriken that pushes enemies while it moves",
                         "details": [
                             "After a short period or pressing the Skill Key again, the shuriken will explode damaging nearby enemies",
                             "Unaffected by Damage Reflect"
@@ -289,10 +289,10 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png"],
                         "animations": ["https://media.giphy.com/media/bLpUBIdHNSRK3TgWJa/giphy.gif"],
                         "type": "Passive",
-                        "desc": "Whenever a new Summon weapon skill is used, a chain attack will activate damaging nearby enemies",
+                        "desc": "Whenever a new Summon weapon skill is used, an additional attack will activate damaging nearby enemies",
                         "details": [
-                            "For each unique Summon weapon skill used, gain a stacking %Final Damage buff<ul><li>Each Muscle Memory activation refreshes the buff duration</li></ul>",
-                            "Additionally, permanently increases %p Damage of <span data-tooltip='Summon Scimitar (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span>",
+                            "For each unique Summon weapon skill used, gain a stacking %Final Damage buff<bp_Each activation will refresh the buff duration_>",
+                            "Additionally, permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png} tooltip={Summon Scimitar (1st Job)}> by a flat amount",
                             "Unaffected by %Buff Duration and cooldown resets"
                         ]
                     },
@@ -340,9 +340,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png"],
                         "animations": ["https://media.giphy.com/media/W2hGcuRmHfi9RtlGwc/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a shotgun in front of you damaging enemies and recoiling you backwards",
+                        "desc": "Fire a shotgun forward damaging enemies and recoiling you backwards",
                         "details": [
-                            "The closer enemies are to the initial cast, the more damage they will receive",
+                            "The damage of the attack will vary based on the distance the enemy is to the attack",
                             "While casting, you cannot be knocked back at all (Super Knockback Resistance)"
                         ]
                     },
@@ -353,9 +353,9 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png"],
                         "animations": ["https://media.giphy.com/media/LhpYBy45Nxu7vWhjo0/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Slashes upwards to deal damage vertically while inflicting a debuff",
+                        "desc": "Slashe upwards to deal damage vertically while inflicting a debuff",
                         "details": [
-                            "<strong>[Debuff]</strong>: Reduces %DEF<ul><li>Reduction to %DEF can be considered as %Ignore DEF</li></ul>"
+                            "[Debuff]: Reduces %DEF<bp_Reduction to %DEF can be considered as %Ignore DEF_>"
                         ]
                     },
                     {
@@ -365,7 +365,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-decoy-bomb.png"],
                         "animations": ["https://media.giphy.com/media/yFMfZD22K9vGfxMNKO/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Leap backwards while throwing bombs at your current location",
+                        "desc": "Leap backwards and throw bombs at your current location",
                         "details": [
                             "While casting, you cannot be knocked back at all (Super Knockback Resistance)",
                             "Bombs explode after a short delay",
@@ -383,7 +383,7 @@
                         "details": [
                             "Increases %Final Damage provided per stack",
                             "Increases %Damage, number of hits, and max enemies hit",
-                            "Additionally, permanently increases the %p Damage of <span data-tooltip='Summon Scimitar (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span>, <span data-tooltip='Summon Claw (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-claw.png' alt='Skill Summon Claw'/></span>, and <span data-tooltip='Summon Shuriken (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shuriken.png' alt='Skill Summon Shuriken'/></span>"
+                            "Additionally, permanently increases the %Damage by a flat amount for the following skills: <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png} tooltip={Summon Scimitar (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-claw.png} tooltip={Summon Claw (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shuriken.png} tooltip={Summon Shuriken (2nd Job)}>"
                         ]
                     },
                     {
@@ -434,7 +434,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-brick.png"],
                     "animations": ["https://media.giphy.com/media/D3YHtyOyDfJZS6eK83/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Launches a huge brick while jumping forward",
+                    "desc": "Launch a huge brick while jumping forward",
                     "details": [
                         "Pressing the Up Arrow Key and Skill Key together allows you to jump higher",
                         "While casting, you cannot be knocked back at all (Super Knockback Resistance)"
@@ -447,10 +447,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-spiked-bat.png"],
                     "animations": ["https://media.giphy.com/media/wx06aYncVQJCuvuYlj/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Slams your bat multiple times in front of you that inflicts a debuff",
+                    "desc": "Slam your bat consecutively forward that inflicts a debuff",
                     "details": [
-                        "<strong>[Debuff]</strong>: Reduces %Attack",
-                        "Repeatedly pressing the Skill Key will slam the bat up to 3 times dealing increased damage each strike",
+                        "[Debuff]: Reduces %Attack",
+                        "Can be used up to 3 times dealing increased damage each strike",
                         "If another skill is used before the final hit, the skill will go on cooldown and you cannot utilize the remaining hits"
                     ]
                 },
@@ -463,7 +463,7 @@
                     "type": "Key-down Attack",
                     "desc": "While held, violently swing your chain to pull enemies in",
                     "details": [
-                        "Attack refreshes the <span data-tooltip='Muscle Memory (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/></span> Muscle Memory buff but does not count as a stack",
+                        "Attack refreshes the <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png} tooltip={Muscle Memory (2nd Job)}> Muscle Memory buff but does not count as a stack",
                         "Upon casting, you are briefly invincible",
                         "You can move while casting",
                         "Unaffected by cooldown resets"
@@ -476,10 +476,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png"],
                     "animations": ["https://media.giphy.com/media/uVtmb3AGZXL6CnqeHe/giphy-downsized-large.gif"],
                     "type": "Bind Attack",
-                    "desc": "Binds nearby enemy and releases a powerful attack",
+                    "desc": "Bind nearby enemy and release a powerful attack",
                     "details": [
-                        "Based on the number of times <span data-tooltip='Muscle Memory (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/></span> is activated, the strength of the attack increases",
-                        "This skill will not count towards <span data-tooltip='Muscle Memory (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/></span> Muscle Memory buff but will grant full stacks when used",
+                        "Based on the number of times <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png} tooltip={Muscle Memory (2nd Job)}> is activated, the strength of the attack increases",
+                        "This skill will not count towards <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png} tooltip={Muscle Memory (2nd Job)}> Muscle Memory buff but will grant full stacks when used",
                         "Attack has increased %Ignore DEF",
                         "Unaffected by cooldown resets"
                     ]
@@ -520,7 +520,7 @@
                         "Increases %Final Damage provided per stack",
                         "Increases %Damage, number of hits, and max enemies hit",
                         "Upon activating the additional chain attack, now enters <img src='http://localhost:3000/grandislibrary/class-icons/common/dark-sight.png' alt='Skill Dark Sight'/> Dark Sight state and grants a stacking %Max HP barrier that decays over time",
-                        "Additionally, permanently increases the %p Damage of <span data-tooltip='Summon Scimitar (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png' alt='Skill Summon Scimitar'/></span>, <span data-tooltip='Summon Claw (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-claw.png' alt='Skill Summon Claw'/></span>, <span data-tooltip='Summon Shuriken (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shuriken.png' alt='Skill Summon Shuriken'/></span>, <span data-tooltip='Summon Shotgun'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png' alt='Skill Summon Shotgun'/></span>, <span data-tooltip='Summon Daggers (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png' alt='Skill Summon Daggers'/></span>, and <span data-tooltip='Summon Decoy Bombs (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-decoy-bomb.png' alt='Skill Summon Decoy Bomb'/></span>"
+                        "Additionally, permanently increases the %Damage by a flat amount for the following skills: <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-scimitar.png} tooltip={Summon Scimitar (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-claw.png} tooltip={Summon Claw (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shuriken.png} tooltip={Summon Shuriken (2nd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-shotgun.png} tooltip={Summon Shotgun (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-daggers.png} tooltip={Summon Daggers (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/summon-decoy-bomb.png} tooltip={Summon Decoy Bombs (3rd Job)}>"
                     ]
                 },
                 {
@@ -657,7 +657,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/veteran-shadowdealer.png"],
                     "animations": ["https://media.giphy.com/media/qaFWUBn9rBuz9eN0Aq/giphy.gif"],
                     "type": "Buff",
-                    "desc": "Doubles the effects of <span data-tooltip='Muscle Memory (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/></span> Muscle Memory buff and creates an additional attack whenever you summon a weapon or land a hit on an enemy",
+                    "desc": "Doubles the effects of <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png} tooltip={Muscle Memory (2nd Job)}> Muscle Memory buff and creates an additional attack whenever you summon a weapon or land a hit on an enemy",
                     "reqLev": 140
                 },
                 {
@@ -669,7 +669,7 @@
                     "type": "Attack",
                     "desc": "Chains crash down from the sky, damaging nearby enemies",
                     "details": [
-                        "Upon successful hit, grants max stacks of <span data-tooltip='Muscle Memory (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/></span> Muscle Memory buff that lasts a shorter duration"
+                        "Upon successful hit, grants max stacks of <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png} tooltip={Muscle Memory (2nd Job)}> Muscle Memory buff that lasts a shorter duration"
                     ],
                     "reqLev": 160
                 },
@@ -693,7 +693,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-void-strike.png"],
                     "animations": ["https://media4.giphy.com/media/pTl3FxiFuuNJqzR4mA/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Chains lash across the map damaging enemies in its path",
+                    "desc": "While active, chains lash across the map damaging enemies in its path",
                     "details": [
                         "Right-clicking the skill toggles the visual gray background ON/OFF",
                         "Unaffected by Damage Ignore and Damage Reflect"
@@ -705,7 +705,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/apocalypse-cannon.png"],
                     "animations": ["https://media2.giphy.com/media/DCXsifIZ3kU3FCJUbJ/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons a cannon that periodically deals damage while charging up to fire an energy ball",
+                    "desc": "Summon a cannon that deals damage while charging up to fire an energy ball",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ]
@@ -716,7 +716,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-maelstrom.png"],
                     "animations": ["https://media2.giphy.com/media/KBHyQcLmOYWAFRfpLJ/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Creates (at max 1) a maelstrom of chains that continuously deals damage that applies a slow debuff",
+                    "desc": "Create (at max 1) a maelstrom of chains that continuously deals damage and applies a slow debuff",
                     "details": [
                         "Maelstrom gradually reduces attack speed until it disappears",
                         "Can only be used as a combo after using 2 Thrash hits or by pressing Down Arrow Key and Attack Key"
@@ -728,10 +728,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory-finale.png"],
                     "animations": ["https://media0.giphy.com/media/NR2j3BMUiqnwj6i0xh/giphy.gif"],
                     "type": "Passive Attack",
-                    "desc": "Every 4 times <span data-tooltip='Muscle Memory (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png' alt='Skill Muscle Memory'/></span> activates, powerful chains will strike down onto enemies",
+                    "desc": "Every 4 times <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/muscle-memory.png} tooltip={Muscle Memory (2nd Job)}> activates, chains will strike down onto enemies",
                     "details": [
                         "Does not have a cooldown, instead stores charges (up to 3) and periodically prepares a charge",
-                        "Using <span data-tooltip='Chain Arts: Reign of Chains (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts Reign of Chains'/></span>, <span data-tooltip='Chain Arts: Beatdown (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png' alt='Skill Chain Arts Beatdown'/></span>, <span data-tooltip='Chain Arts: Crush (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-crush.png' alt='Skill Chain Arts Crush'/></span>, or <span data-tooltip='Chain Arts: Void Strike (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-void-strike.png' alt='Skill Chain Arts Void Strike'/></span> will decrease the charge time",
+                        "Using the following skills will decrease the charge time: <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tooltip={Chain Arts: Reign of Chains (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-beatdown.png} tooltip={Chain Arts: Beatdown (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-crush.png} tooltip={Chain Arts: Crush (Hyper Skill)}> <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-void-strike.png} tooltip={Chain Arts: Void Strike (5th Job)}>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -747,7 +747,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts: Reign of Chains'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tooltip={Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -768,7 +768,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png' alt='Skill Chain Arts: Reign of Chains'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tooltip={Thrash, Muscle Memory, and Reign of Chains (1st Job / 2nd Job / 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

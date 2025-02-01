@@ -103,8 +103,8 @@ function formatBulletPoint(content){
 function formatSkillText(content){
     let returnString;
     returnString = formatBulletPoint(content);
-    returnString = formatBoldText(returnString);
     returnString = formatSkillTooltip(returnString);
+    returnString = formatBoldText(returnString);
     returnString = formatLinkText(returnString);
 
     return returnString;
