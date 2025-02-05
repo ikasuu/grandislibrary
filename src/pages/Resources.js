@@ -99,7 +99,7 @@ function Resources() {
                             <Table borderless>
                                 <tbody>
                                     {data.links.map((link, index) => 
-                                        <tr key={index}><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
+                                        <tr key={index}><td><tt src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
                                     )}
                                 </tbody>
                             </Table>
@@ -111,7 +111,7 @@ function Resources() {
                             <Table borderless>
                                 <tbody>
                                     {data.creators.map((link, index) => 
-                                        <tr key={index}><td><img src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
+                                        <tr key={index}><td><tt src={link.icon} alt="icon" style={{width: '32px', height: '32px'}}/></td><td>{link.title}</td><td><TabLink url={link.url}>{link.url}</TabLink></td></tr>
                                     )}
                                 </tbody>
                             </Table>

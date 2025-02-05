@@ -105,13 +105,13 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Combat Orders (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/></span>[200s]</div> <div><span data-tooltip='Divine Blessing (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-blessing.png' alt='Skill Divine Blessing'/></span>[200s]</div>",
-            "toggles": "<span data-tooltip='Parashock Guard (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/parashock-guard.png' alt='Skill Parashock Guard'/></span>",
-            "buffCd": "</div><span data-tooltip='Sacrosanctity (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/sacrosanctity.png' alt='Skill Sacrosanctity'/></span>[30s](300 - 75s cd based on remaining duration)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Divine Echo (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-echo.png' alt='Skill Divine Echo'/></span>[45s](90s cd) <div><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[Up to 5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Smite Shield (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/smite-shield.png' alt='Skill Smite Shield'/></span>[10s](120s cd)</div> <div><span data-tooltip='Sacred Bastion (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/sacred-bastion.png' alt='Skill Sacred Bastion'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Sacrosanctity (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/sacrosanctity.png' alt='Skill Sacrosanctity'/></span>[30s](300 - 75s cd based on remaining duration)</div> <div><span data-tooltip='Sacred Bastion (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/sacred-bastion.png' alt='Skill Sacred Bastion'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Vessel of Light (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/vessel-of-light.png' alt='Skill Vessel of Light'/></span>[While active](-10%)</div> <div><span data-tooltip='Divine Shield (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-shield.png' alt='Skill Divine Shield'/></span>[90s/10 hits](-25% | 30s cd)</div> <div><span data-tooltip='Grand Guardian (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/grand-guardian.png' alt='Skill Grand Guardian'/></span>[Up to 4s](-50% | 180s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[Up to 5s](21% HP Barrier | 15s cd)</div>",
-            "knockback": "<div><span data-tooltip='Rush (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/rush.png' alt='Skill Rush'/></span></div> <div><span data-tooltip='Heaven&#39;s Hammer (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/heavens-hammer.png' alt='Skill Heaven&#39;s Hammer'/></span>(15s cd)</div> <div><span data-tooltip='Grand Guardian (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/grand-guardian.png' alt='Skill Grand Guardian'/></span>(180s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>"
+            "active": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Combat Orders (3rd Job)} duration={[200s]}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-blessing.png} tooltip={Divine Blessing (4th Job)} duration={[200s]}>",
+            "toggles": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/parashock-guard.png} tooltip={Parashock Guard (3rd Job)}>",
+            "buffCd": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/sacrosanctity.png} tooltip={Sacrosanctity (Hyper Skill)} duration={[30s](300 - 75s cd based on remaining duration)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/epic-adventure.png} tooltip={Epic Adventure (Hyper Skill)} duration={[60s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-echo.png} tooltip={Divine Echo (5th Job)} duration={[45s](90s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png} tooltip={Weapon Aura (5th Job)} duration={[140s](180s recharge, up to 2 charges)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png} tooltip={Maple World Goddess's Blessing (5th Job)} duration={[60s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png} tooltip={Blitz Shield (5th Job)} duration={[Up to 5s](15s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tooltip={Impenetrable Skin (5th Job)} duration={[18s](120s cd)}>",
+            "binds": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/smite-shield.png} tooltip={Smite Shield (Hyper Skill)} duration={[10s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/sacred-bastion.png} tooltip={Sacred Bastion (6th Job)} duration={[10s](360s cd)}>",
+            "iFrame": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/sacrosanctity.png} tooltip={Sacrosanctity (Hyper Skill)} duration={[30s](300 - 75s cd based on remaining duration)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/sacred-bastion.png} tooltip={Sacred Bastion (6th Job)} duration={(360s cd)}>",
+            "damageReduce": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/vessel-of-light.png} tooltip={Vessel of Light (2nd Job)} duration={[While active](-10%)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-shield.png} tooltip={Divine Shield (3rd Job)} duration={[90s/10 hits](-25% | 30s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/grand-guardian.png} tooltip={Grand Guardian (5th Job)} duration={[Up to 4s](-50% | 180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png} tooltip={Blitz Shield (5th Job)} duration={[Up to 5s](21% HP Barrier | 15s cd)}>",
+            "knockback": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/rush.png} tooltip={Rush (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/heavens-hammer.png} tooltip={Heaven's Hammer (4th Job)} duration={(15s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/grand-guardian.png} tooltip={Grand Guardian (5th Job)} duration={(180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tooltip={Impenetrable Skin (5th Job)} duration={[18s](120s cd)}>"
         },
         "linkSkill": {
             "id": 80002758,
@@ -458,10 +458,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-mark.png"],
                     "animations": ["https://media.giphy.com/media/sEzVUqEwC8BAFGz6c2/giphy.gif", "https://media.giphy.com/media/jFSUOzBUJgfxIJ2CmN/giphy.gif"],
                     "type": "Holy Power Passive",
-                    "desc": "Periodically enhances the next <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}> to trigger a special attack that explodes shortly after",
+                    "desc": "Periodically enhances the next <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}> to trigger a special attack that explodes shortly after",
                     "details": [
-                        "[Passive]: Permanently increases %p Damage and range of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}>",
-                        "Party members affected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-echo.png} tooltip={Divine Echo (5th Job)}> can trigger the special attack however it will not explode",
+                        "[Passive]: Permanently increases %p Damage and range of <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}>",
+                        "Party members affected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-echo.png} tooltip={Divine Echo (5th Job)}> can trigger the special attack however it will not explode",
                         "Explosion deals increased %Damage to regular monsters",
                         "Enemies hit are silenced"
                     ]
@@ -481,9 +481,9 @@
                     "maxLevel": 30,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png"],
                     "type": "Passive",
-                    "desc": "Enemies hit with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tooltip={Blast (4th Job)}> receive a stacking debuff (up to 5 times)",
+                    "desc": "Enemies hit with <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tooltip={Blast (4th Job)}> receive a stacking debuff (up to 5 times)",
                     "details": [
-                        "Party members affected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-echo.png} tooltip={Divine Echo (5th Job)}> will not grant additional stacks",
+                        "Party members affected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-echo.png} tooltip={Divine Echo (5th Job)}> will not grant additional stacks",
                         "Upon reaching 5 stacks, the debuff is consumed and deals damage to the enemy",
                         "The attack has increased %Ignore DEF"
                     ]
@@ -498,7 +498,7 @@
                     "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs",
                     "details": [
                         "Enemies affected by Magic Crash cannot be affected again for a short period",
-                        "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -543,7 +543,7 @@
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
-                        "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -578,7 +578,7 @@
                     "desc": "",
                     "details": [
                         "Increases %Damage and HP Recovery and Attack provided from each stack of Light Charge",
-                        "Additionally, permanently increases the max number of enemies hit by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}> and the number of attacks of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}> and <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tooltip={Blast (4th Job)}>"
+                        "Additionally, permanently increases the max number of enemies hit by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}> and the number of attacks of <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}> and <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tooltip={Blast (4th Job)}>"
                     ]
                 }]
             ]
@@ -705,7 +705,7 @@
                     "desc": "Targets a party member in range who will duplicate any attack skills and certain buffs you use",
                     "details": [
                         "Increases %Final Damage while buff is active",
-                        "Buffs gained from Divine Echo on party member have a shorter duration<bp_The duration is based on a fixed amount + 1% for every 1000 STR up to 100%_Echo party members receive a smaller %Final Damage buff from <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-blessing.png} tooltip={Divine Blessing (4th Job)}>_>",
+                        "Buffs gained from Divine Echo on party member have a shorter duration<bp_The duration is based on a fixed amount + 1% for every 1000 STR up to 100%_Echo party members receive a smaller %Final Damage buff from <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-blessing.png} tooltip={Divine Blessing (4th Job)}>_>",
                         "Pressing the Down Arrow Key along with the Skill Key while the skill is active, you can select a party member to echo by pressing the corresponding number key (with regard to the party UI)"
                     ]
                 },
@@ -719,7 +719,7 @@
                     "details": [
                         "[Active]: Causes the hammers to grow and damage enemies around you and will gain attack speed based on the number of hammers active",
                         "While active, pressing the Skill Key again will end the attack early",
-                        "Duration of the hammers is shared with <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/vessel-of-light.png} tooltip={Vessel of Light (2nd Job)}>",
+                        "Duration of the hammers is shared with <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/vessel-of-light.png} tooltip={Vessel of Light (2nd Job)}>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -763,7 +763,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tooltip={Blast (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tooltip={Divine Judgment / Divine Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tooltip={Blast (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tooltip={Divine Judgment / Divine Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -794,7 +794,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tooltip={Divine Judgment / Divine Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tooltip={Divine Charge (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tooltip={Divine Judgment / Divine Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

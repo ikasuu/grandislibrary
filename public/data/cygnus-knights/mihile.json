@@ -73,14 +73,14 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Encourage (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/encourage.png' alt='Skill Encourage'/></span>[180s]</div>",
-            "toggles": "<span data-tooltip='Soul Link (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-link.png' alt='Skill Soul Link'/></span> <span data-tooltip='Roiling Soul (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/roiling-soul.png' alt='Skill Roiling Soul'/></span>",
-            "summons": "<div><span data-tooltip='Install Shield (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/install-shield.png' alt='Skill Install Shield'/></span>[60s](10s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Knight&#39;s Watch (Link Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/link-skills/knights-watch.png' alt='Skill Knight&#39;s Watch'/></span>[45s](180s cd)</div> <div><span data-tooltip='Soul Majesty (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-majesty.png' alt='Skill Soul Majesty'/></span>[25s](180s cd)</div> <div><span data-tooltip='Queen of Tomorrow (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png' alt='Skill Queen of Tomorrow'/></span>[60s](120s cd)</div> <div><span data-tooltip='Shield of Light (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/shield-of-light.png' alt='Skill Shield of Light'/></span>[99s / 25s barrier](180s cd)</div> <div><span data-tooltip='Radiant Soul (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-soul.png' alt='Skill Radiant Soul'/></span>[35s](180s cd)</div> <div><span data-tooltip='Light of Courage (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/light-of-courage.png' alt='Skill Light of Courage'/></span>[25s / 12s barrier](90s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
-            "binds" : "<div><span data-tooltip='Durendal (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/durendal.png' alt='Skill Durendal'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Royal Guard (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png' alt='Skill Royal Guard'/></span>[4s](6s cd)</div> <div><span data-tooltip='Durendal (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/durendal.png' alt='Skill Durendal'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Knight&#39;s Watch (Link Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/link-skills/knights-watch.png' alt='Skill Knight&#39;s Watch'/></span>[45s / 9 Attacks](-30% | 180s cd)</div> <div><span data-tooltip='Soul Asylum (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-asylum.png' alt='Skill Soul Asylum'/></span>[15s](-5%) - <em>Additional -5% if <span data-tooltip='Soul Majesty (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-majesty.png' alt='Skill Soul Majesty'/></span> is active [25s Buff](180s cd)</em></div> <div><span data-tooltip='Shield of Light (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/shield-of-light.png' alt='Skill Shield of Light'/></span>[25s / 35 Attacks](-83% | 180s cd)</div> <div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 120s cd)</div>"
-        },
+            "active": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/encourage.png} tooltip={Encourage (2nd Job)} duration={[180s]}>",
+            "toggles": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-link.png} tooltip={Soul Link (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/roiling-soul.png} tooltip={Roiling Soul (4th Job)}>",
+            "summons": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/install-shield.png} tooltip={Install Shield (4th Job)} duration={[60s](10s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/phalanx-charge.png} tooltip={Phalanx Charge (5th Job)} duration={[70 Attacks](30s cd)}>",
+            "buffCd": "<tt src={http://localhost:3000/grandislibrary/class-icons/link-skills/knights-watch.png} tooltip={Knight's Watch (Link Skill)} duration={[45s](180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-majesty.png} tooltip={Soul Majesty (Hyper Skill)} duration={[25s](180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png} tooltip={Queen of Tomorrow (Hyper Skill)} duration={[60s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/shield-of-light.png} tooltip={Shield of Light (5th Job)} duration={[99s / 25s barrier](180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-soul.png} tooltip={Radiant Soul (5th Job)} duration={[35s](180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/light-of-courage.png} tooltip={Light of Courage (5th Job)} duration={[25s / 12s barrier](90s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png} tooltip={Weapon Aura (5th Job)} duration={[140s](180s recharge, up to 2 charges)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/empress-cygnuss-blessing.png} tooltip={Empress Cygnus's Blessing (5th Job)} duration={[45s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tooltip={Impenetrable Skin (5th Job)} duration={[18s](120s cd)}>",
+            "binds": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/durendal.png} tooltip={Durendal (6th Job)} duration={[10s](360s cd)}>",
+            "iFrame": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)} duration={[4s](6s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/durendal.png} tooltip={Durendal (6th Job)} duration={[360s cd]}>",
+            "damageReduce": "<tt src={http://localhost:3000/grandislibrary/class-icons/link-skills/knights-watch.png} tooltip={Knight's Watch (Link Skill)} duration={[45s / 9 Attacks](-30% | 180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-asylum.png} tooltip={Soul Asylum (4th Job)}>[15s](-5%) - Additional -5% if <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-majesty.png} tooltip={Soul Majesty (Hyper Skill)}> is active [25s Buff](180s cd) <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/shield-of-light.png} tooltip={Shield of Light (5th Job)} duration={[25s / 35 Attacks](-83% | 180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/transcendent-cygnuss-blessing.png} tooltip={Transcendent Cygnus's Blessing (5th Job)} duration={[45s](-5% | 120s cd)}>"
+        },        
         "linkSkill": {
                 "id": 80001140,
                 "icons": ["http://localhost:3000/grandislibrary/class-icons/link-skills/knights-watch.png"],
@@ -194,7 +194,7 @@
                     "desc": "Increases %Damage and creates a barrier that blocks a fixed number of attacks",
                     "details": [
                         "For %Max HP attacks, reduces the amount of damage taken",
-                        "Skill can be found within the <img src={http://localhost:3000/grandislibrary/class-icons/link-skills/link-manager.png} tooltip={Link Manager (Beginner Skill)}> Link Manager<bp_Skill is only applicable to Mihile, when linked, characters receive an Abnormal Status Resistance buff instead_>"
+                        "Skill can be found within the <tt src={http://localhost:3000/grandislibrary/class-icons/link-skills/link-manager.png} tooltip={Link Manager (Beginner Skill)}> Link Manager<bp_Skill is only applicable to Mihile, when linked, characters receive an Abnormal Status Resistance buff instead_>"
                     ]
                 },
                 {
@@ -236,7 +236,7 @@
                     "reqLev": "Req. 200",
                     "details": [
                         "Gained from completing the quest <link href={https://maplestorywiki.net/w/Quests/13/Will_of_Light} title={\"Will of Light\"}> at Lv. 200",
-                        "Cannot be applied while <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/empress-prayer.png} tooltip={Empress's Prayer (Beginner Skill)}> is active",
+                        "Cannot be applied while <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/empress-prayer.png} tooltip={Empress's Prayer (Beginner Skill)}> is active",
                         "Affects all nearby players"
                     ]
                 }]
@@ -334,8 +334,8 @@
                         "type": "Attack",
                         "desc": "Charge upwards while pushing enemies back",
                         "details": [
-                            "Can also be activated by pressing the Up Arrow Key and <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-driver.png} tooltip={Radiant Driver (2nd Job)}> Skill Key together",
-                            "Shares the same Skill Points (SP) with <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-driver.png} tooltip={Radiant Driver (2nd Job)}>"
+                            "Can also be activated by pressing the Up Arrow Key and <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-driver.png} tooltip={Radiant Driver (2nd Job)}> Skill Key together",
+                            "Shares the same Skill Points (SP) with <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-driver.png} tooltip={Radiant Driver (2nd Job)}>"
                         ]
                     },
                     {
@@ -347,7 +347,7 @@
                         "type": "Party Buff",
                         "desc": "",
                         "details": [
-                            "[Passive]: Permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> counterattack (1 - 3 stacks) by a flat amount"
+                            "[Passive]: Permanently increases %Damage of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> counterattack (1 - 3 stacks) by a flat amount"
                         ]
                     },
                     {
@@ -403,7 +403,7 @@
                         "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs",
                         "details": [
                             "Enemies affected by Magic Crash cannot be affected again for a short period",
-                            "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                            "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                         ]
                     },
                     {
@@ -416,8 +416,8 @@
                         "desc": "While active, increases your %Damage for every party member within range",
                         "details": [
                             "If you are not in a party, you will be considered a 1-person party",
-                            "[Party Member]: Upon successful <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> counterattacks, party members gain a shield based on a percentage of their Max HP",
-                            "[Party Member]: Periodically party members within range will receive an Attack/Magic Attack buff equal to 50% of the Attack buff from <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> and 20% of Status Resistance and 30% of %DEF from <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/advanced-royal-guard.png} tooltip={Advanced Royal Guard (3rd Job)}>"
+                            "[Party Member]: Upon successful <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> counterattacks, party members gain a shield based on a percentage of their Max HP",
+                            "[Party Member]: Periodically party members within range will receive an Attack/Magic Attack buff equal to 50% of the Attack buff from <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> and 20% of Status Resistance and 30% of %DEF from <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/advanced-royal-guard.png} tooltip={Advanced Royal Guard (3rd Job)}>"
                         ]
                     },
                     {
@@ -455,7 +455,7 @@
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
-                            "Increases effects to also apply to attacking enemies with Blind, Stun, <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png} tooltip={Offensive Defense (3rd Job)}> debuff, or <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/charging-light.png} tooltip={Charging Light (Hyper Skill)}> debuff",
+                            "Increases effects to also apply to attacking enemies with Blind, Stun, <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png} tooltip={Offensive Defense (3rd Job)}> debuff, or <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/charging-light.png} tooltip={Charging Light (Hyper Skill)}> debuff",
                             "Increases %Final Damage and %Crit Rate provided (additively)"
                         ]
                     },
@@ -466,7 +466,7 @@
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png"],
                         "animations": ["https://media.giphy.com/media/ZQqhn6yTpj1x1iLmxC/giphy.gif"],
                         "type": "Passive",
-                        "desc": "Enemies hit by <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> counterattack receive an 'Offensive Defense' debuff",
+                        "desc": "Enemies hit by <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> counterattack receive an 'Offensive Defense' debuff",
                         "details": [
                             "[Offensive Defense]: Radiant Soul skills consume the debuff to deal a shockwave attack to nearby enemies",
                             "Shockwave will be centered on the boss with the highest Max HP or the closest enemy among those hit if there are no bosses nearby"
@@ -495,7 +495,7 @@
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
-                        "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -508,7 +508,7 @@
                     "desc": "Slash forward creating a small shockwave with a chance to apply Blind debuff",
                     "details": [
                         "[Blind]: Reduces enemy %Accuracy",
-                        "While <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/roiling-soul.png} tooltip={Roiling Soul (4th Job)}> is active, this skill is enhanced to <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-cross-assault.png} tooltip={Radiant Cross - Assault (4th Job)}> Radiant Cross - Assault, the 2nd animation"
+                        "While <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/roiling-soul.png} tooltip={Roiling Soul (4th Job)}> is active, this skill is enhanced to <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-cross-assault.png} tooltip={Radiant Cross - Assault (4th Job)}> Radiant Cross - Assault, the 2nd animation"
                     ]
                 },
                 {
@@ -544,8 +544,8 @@
                     "type": "Passive",
                     "desc": "",
                     "details": [
-                        "Increases the %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png} tooltip={Offensive Defense (3rd Job)}> shockwave and <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> counterattack (all stacks) by a flat amount",
-                        "Reduces cooldown of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png} tooltip={Offensive Defense (3rd Job)}> shockwave"
+                        "Increases the %Damage of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png} tooltip={Offensive Defense (3rd Job)}> shockwave and <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> counterattack (all stacks) by a flat amount",
+                        "Reduces cooldown of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png} tooltip={Offensive Defense (3rd Job)}> shockwave"
                     ]
                 },
                 {
@@ -554,7 +554,7 @@
                     "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-asylum.png"],
                     "type": "Passive",
-                    "desc": "When <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> is successful, gain a %Damage Reduction buff against %Max HP attacks",
+                    "desc": "When <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> is successful, gain a %Damage Reduction buff against %Max HP attacks",
                     "details": [
                         "Additionally, permanently increases %Damage Reduction and %Max HP"
                     ]
@@ -682,9 +682,9 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-majesty.png"],
                     "animations": ["https://media.giphy.com/media/KyCzpxfEX0GT2hzGgF/giphy.gif"],
                     "type": "Buff",
-                    "desc": "While active, increases %Damage and the %Damage Reduction provided from <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-asylum.png} tooltip={Soul Asylum (4th Job)}>",
+                    "desc": "While active, increases %Damage and the %Damage Reduction provided from <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/soul-asylum.png} tooltip={Soul Asylum (4th Job)}>",
                     "details": [
-                        "During this time, the <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png} tooltip={Offensive Defense (3rd Job)}> shockwave will also trigger an additional wave attack and <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/install-shield.png} tooltip={Install Shield (4th Job)}> can apply the debuff"
+                        "During this time, the <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/offensive-defense.png} tooltip={Offensive Defense (3rd Job)}> shockwave will also trigger an additional wave attack and <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/install-shield.png} tooltip={Install Shield (4th Job)}> can apply the debuff"
                     ],
                     "reqLev": 140
                 },
@@ -736,8 +736,8 @@
                     "desc": "Shines a ray of light that damages and applies Blind debuff to nearby enemies",
                     "details": [
                         "[Blind]: Reduces enemy %Accuracy",
-                        "The size and damage of the attack becomes stronger based on how stacks of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> are active",
-                        "Additionally, when Sword of Light is used, the duration of the Attack buff from <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> is increased but cannot exceed the max duration",
+                        "The size and damage of the attack becomes stronger based on how stacks of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> are active",
+                        "Additionally, when Sword of Light is used, the duration of the Attack buff from <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> is increased but cannot exceed the max duration",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -749,9 +749,9 @@
                     "type": "Buff Attack",
                     "desc": "While active, increases %Final Damage, %Crit Rate, and %Ignore DEF and nearby enemies are periodically damaged",
                     "details": [
-                        "Upon use, grants full stacks of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> and while the buff is active, the activation period is increased to 0.5 secs",
+                        "Upon use, grants full stacks of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard (1st Job)}> and while the buff is active, the activation period is increased to 0.5 secs",
                         "While active, the following 'Radiant Soul' attacks can be triggered:<bp_Pressing the Attack Key performs a slash attack_Pressing the Skill Key releases a one-time blast of light_>",
-                        "Right-clicking the skill will toggle a function ON/OFF while Radiant Soul is active to perform the slash attack using either the Attack Key or <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-cross.png} tooltip={Radiant Cross (4th Job)}>",
+                        "Right-clicking the skill will toggle a function ON/OFF while Radiant Soul is active to perform the slash attack using either the Attack Key or <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-cross.png} tooltip={Radiant Cross (4th Job)}>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -778,7 +778,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-cross.png} tooltip={Radiant Cross (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/radiant-cross.png} tooltip={Radiant Cross (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -799,7 +799,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard and Offensive Defense (1st Job / 3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/mihile/royal-guard.png} tooltip={Royal Guard and Offensive Defense (1st Job / 3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

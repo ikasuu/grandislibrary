@@ -74,14 +74,14 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Dark Servant (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-servant.png' alt='Skill Dark Servant'/></span>[180s]</div>",
-            "toggles": "<span data-tooltip='Dark Elemental (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png' alt='Skill Dark Elemental'/></span> [<span data-tooltip='Shadow Bat (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png' alt='Skill Shadow Bat'/></span> / <span data-tooltip='Ravenous Bat (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png' alt='Skill Ravenous Bat'/></span>] <span data-tooltip='Darkness Ascending (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/darkness-ascending.png' alt='Skill Darkness Ascending'/></span>",
-            "summons": "<div><span data-tooltip='Dark Omen (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-omen.png' alt='Skill Dark Omen'/></span>[5s](20s cd)</div> <div><span data-tooltip='Greater Dark Servant (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/greater-dark-servant.png' alt='Skill Greater Dark Servant'/></span>[45s](60s cd)</div> <div><span data-tooltip='Phalanx Charge (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/phalanx-charge.png' alt='Skill Phalanx Charge'/></span>[70 Attacks](30s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Shadow Illusion (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-illusion.png' alt='Skill Shadow Illusion'/></span>[30s](180s cd)</div> <div><span data-tooltip='Dominion (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dominion.png' alt='Skill Dominion'/></span>[30s](180s cd)</div> <div><span data-tooltip='Glory of the Guardians (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png' alt='Skill Glory of the Guardians'/></span>[60s](120s cd)</div> <div><span data-tooltip='Shadow Spear (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-spear.png' alt='Skill Shadow Spear'/></span>[87s](177s cd)</div> <div><span data-tooltip='Last Resort (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/last-resort.png' alt='Skill Last Resort'/></span>[30s](75s cd)</div> <div><span data-tooltip='Empress Cygnus&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/empress-cygnuss-blessing.png' alt='Skill Empress Cygnus&#39;s Blessing'/></span>[45s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Shadow Stitch (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-stitch.png' alt='Skill Shadow Stitch'/></span>[10-12s](180s cd)</div> <div><span data-tooltip='Silence (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/silence.png' alt='Skill Silence'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Dark Sight (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png' alt='Skill Dark Sight'/></span>[200s](Special)</div> <div><span data-tooltip='Darkness Ascending (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/darkness-ascending.png' alt='Skill Darkness Ascending'/></span>[4s](1800s cd revive)</div> <div><span data-tooltip='Dominion (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dominion.png' alt='Skill Dominion'/></span>(180s cd)</div> <div><span data-tooltip='Silence (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/silence.png' alt='Skill Silence'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Vitality Siphon (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/vitality-siphon.png' alt='Skill Vitality Siphon'/></span>[15s](10% HP | Barrier)</div> <div><span data-tooltip='Transcendent Cygnus&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/transcendent-cygnuss-blessing.png' alt='Skill Transcendent Cygnus&#39;s Blessing'/></span>[45s](-5% | 120s cd)</div>"
-        },
+            "active": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-servant.png} tooltip={Dark Servant (3rd Job)} duration={[180s]}>",
+            "toggles": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> [ <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> / <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}> ] <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tooltip={Darkness Ascending (3rd Job)}>",
+            "summons": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-omen.png} tooltip={Dark Omen (4th Job)} duration={[5s](20s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tooltip={Greater Dark Servant (5th Job)} duration={[45s](60s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/phalanx-charge.png} tooltip={Phalanx Charge (5th Job)} duration={[70 Attacks](30s cd)}>",
+            "buffCd": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tooltip={Shadow Illusion (Hyper Skill)} duration={[30s](180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dominion.png} tooltip={Dominion (Hyper Skill)} duration={[30s](180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png} tooltip={Glory of the Guardians (Hyper Skill)} duration={[60s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-spear.png} tooltip={Shadow Spear (5th Job)} duration={[87s](177s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/last-resort.png} tooltip={Last Resort (5th Job)} duration={[30s](75s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/empress-cygnuss-blessing.png} tooltip={Empress Cygnus's Blessing (5th Job)} duration={[45s](120s cd)}>",
+            "binds": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-stitch.png} tooltip={Shadow Stitch (4th Job)} duration={[10-12s](180s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/silence.png} tooltip={Silence (6th Job)} duration={[10s](360s cd)}>",
+            "iFrame": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)} duration={[200s](Special)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tooltip={Darkness Ascending (3rd Job)} duration={[4s](1800s cd revive)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dominion.png} tooltip={Dominion (Hyper Skill)} duration={[180s](360s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/silence.png} tooltip={Silence (6th Job)} duration={[360s](360s cd)}>",
+            "damageReduce": "<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/vitality-siphon.png} tooltip={Vitality Siphon (4th Job)} duration={[15s](10% HP | Barrier)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/transcendent-cygnuss-blessing.png} tooltip={Transcendent Cygnus's Blessing (5th Job)} duration={[45s](-5% | 120s cd)}>"
+        },        
         "linkSkill": {
                 "id": 80000055,
                 "icons": ["http://localhost:3000/grandislibrary/class-icons/link-skills/cygnus-blessing.png"],
@@ -245,8 +245,8 @@
                         "type": "Toggle Attack",
                         "desc": "While toggled, every 3 successful Throwing Star attacks, a Shadow Bat is summoned that has a chance to attack nearby enemies upon successful Throwing Star attacks",
                         "details": [
-                            "Enemies marked with <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> have a guaranteed chance to trigger the bats to attack<bp_Additional bats will be created based on the number of stacks_>",
-                            "Can not be used at the same time as <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
+                            "Enemies marked with <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> have a guaranteed chance to trigger the bats to attack<bp_Additional bats will be created based on the number of stacks_>",
+                            "Can not be used at the same time as <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
                             "Bats can bounce off to damage multiple enemies",
                             "Initial hit will restore some %Max HP",
                             "Deals increased %Damage to regular monsters",
@@ -262,8 +262,8 @@
                         "type": "Active",
                         "desc": "Double jump skill, can be used twice in a row",
                         "details": [
-                            "Can be assigned a Key Slot using <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-jump.png} tooltip={Shadow Jump (1st Job)}> or activated by pressing jump twice<bp_While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump_>",
-                            "If the skill is used during a Throw-type attack, the final attack will be cancelled and you will briefly enter <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}><bp_While in the triggered <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}>, if you dodge an attack that deals %Max HP, the duration is reduced slightly_>",
+                            "Can be assigned a Key Slot using <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-jump.png} tooltip={Shadow Jump (1st Job)}> or activated by pressing jump twice<bp_While in the air, if you combine this with the Up Arrow Key, you will perform a vertical jump_>",
+                            "If the skill is used during a Throw-type attack, the final attack will be cancelled and you will briefly enter <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}><bp_While in the triggered <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}>, if you dodge an attack that deals %Max HP, the duration is reduced slightly_>",
                             "Right-clicking the skill will toggle a function ON/OFF that allows you to jump in place unless you press the Left / Right Arrow Key while jumping"
                         ]
                     },
@@ -277,7 +277,7 @@
                         "desc": "While active, you cannot attack or be hit by enemies",
                         "details": [
                             "While active, pressing the Skill Key again or using an attack will cancel Dark Sight",
-                            "You can use <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-jump.png} tooltip={Shadow Jump (1st Job)}> while in Dark Sight",
+                            "You can use <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-jump.png} tooltip={Shadow Jump (1st Job)}> while in Dark Sight",
                             "Has a cooldown (3 secs, stacks up to 5 times) per attack dodged"
                         ]
                     },
@@ -291,7 +291,7 @@
                         "desc": "Dash backwards",
                         "details": [
                             "Can be used while casting other skills and while in the air",
-                            "If the skill is used during a Throw-type attack, the final attack will be cancelled and you will briefly enter <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}><bp_While in the triggered <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}>, if you dodge an attack that deals %Max HP, the duration is reduced slightly_>",
+                            "If the skill is used during a Throw-type attack, the final attack will be cancelled and you will briefly enter <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}><bp_While in the triggered <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}>, if you dodge an attack that deals %Max HP, the duration is reduced slightly_>",
                             "While dashing, you will not be knocked back at all (Super Knockback Resistance)"
                         ]
                     },
@@ -394,7 +394,7 @@
                         "type": "Throw Attack",
                         "desc": "Throw 4 stars at a single enemy",
                         "details": [
-                            "[Passive]: Permanently increases %Damage of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-spark.png} tooltip={Shadow Spark (2nd Job)}> by a flat amount",
+                            "[Passive]: Permanently increases %Damage of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-spark.png} tooltip={Shadow Spark (2nd Job)}> by a flat amount",
                             "The last star will deal increased damage",
                             "Prioritizes bosses with the highest HP first"
                         ]
@@ -408,7 +408,7 @@
                         "type": "Buff",
                         "desc": "Summon a clone that follows your movements and copies your attacks after a short delay",
                         "details": [
-                            "Clone's attacks are all dark-attribute and can activate the following skills with reduced %Final Damage: <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
+                            "Clone's attacks are all dark-attribute and can activate the following skills with reduced %Final Damage: <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
                             "Attacks are limited to Throwing Star skills and Movement skills",
                             "Unaffected by Damage Reflect"
                         ]
@@ -422,7 +422,7 @@
                         "type": "Toggle Buff Revive",
                         "desc": "While toggled, when hit by a fatal attack, you will not die and instead continuously heal back a percentage of your HP",
                         "details": [
-                            "If there are <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}> bats summoned, they are consumed to recover extra HP",
+                            "If there are <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}> bats summoned, they are consumed to recover extra HP",
                             "Briefly invincible during recovery and at the end of the skill",
                             "Unaffected by cooldown resets"
                         ]
@@ -523,7 +523,7 @@
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
-                        "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -549,7 +549,7 @@
                     "desc": "Summons a stationary pack of bats that damages enemies within it",
                     "details": [
                         "Unaffected by Damage Reflect and you cannot be pushed back at all when casting this skill (Super Knockback Resistance)",
-                        "Cooldown is reduced when an enemy is hit by a Dark-attribute attack except for <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-omen.png} tooltip={Dark Omen (4th Job)}>"
+                        "Cooldown is reduced when an enemy is hit by a Dark-attribute attack except for <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-omen.png} tooltip={Dark Omen (4th Job)}>"
                     ]
                 },
                 {
@@ -575,8 +575,8 @@
                     "type": "Toggle Attack",
                     "desc": "While toggled, every 3 successful Throwing Star attacks, a Ravenous Bat is summoned that strikes a nearby enemy upon successful Throwing Star attacks",
                     "details": [
-                        "Additional bats are summoned based on the number of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> stacks are on an enemy",
-                        "Can not be used at the same time as <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}>",
+                        "Additional bats are summoned based on the number of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> stacks are on an enemy",
+                        "Can not be used at the same time as <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}>",
                         "Attack will restore some %Max HP",
                         "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
@@ -607,7 +607,7 @@
                         "Increases chance to apply debuff",
                         "Increases max stacks of debuff up to 5",
                         "Increases %Ignore DEF provided per stack and damage dealt over time per stack",
-                        "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -628,10 +628,10 @@
                     "maxLevel": 15,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/vitality-siphon.png"],
                     "type": "Passive",
-                    "desc": "Applying stacks of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> will grant stacks of 'Life Force' used to gain a shield",
+                    "desc": "Applying stacks of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> will grant stacks of 'Life Force' used to gain a shield",
                     "details": [
                         "At 30 stacks of Life Force, gain a shield that absorbs damage",
-                        "Life Force stacks disappear if more stacks are not gained<bp_Stack duration refreshes upon applying stacks of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}>_>",
+                        "Life Force stacks disappear if more stacks are not gained<bp_Stack duration refreshes upon applying stacks of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}>_>",
                         "Unaffected by %Buff Duration"
                     ]
                 },
@@ -734,10 +734,10 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-illusion.png"],
                     "animations": ["https://media.giphy.com/media/EApexanlXY52hF61RN/giphy-downsized-large.gif"],
                     "type": "Buff",
-                    "desc": "Summons 3 clones that function like <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-servant.png} tooltip={Dark Servant (3rd Job)}>",
+                    "desc": "Summons 3 clones that function like <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-servant.png} tooltip={Dark Servant (3rd Job)}>",
                     "details": [
                         "Each clone deals a reduced amount of %Final Damage",
-                        "Clone's attacks are all dark-attribute and can activate the following skills with reduced %Final Damage: <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
+                        "Clone's attacks are all dark-attribute and can activate the following skills with reduced %Final Damage: <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
                         "Attacks are limited to Throwing Star skills and Movement skills",
                         "Unaffected by Damage Reflect"
                     ],
@@ -753,8 +753,8 @@
                     "desc": "Unleash a dark attack that leaves the map in a stasis",
                     "details": [
                         "Grants invincibility during initial skill cast",
-                        "While active, increases %Final Damage and %Crit Rate and increases summon limit of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
-                        "While active, using Throwing Star skills will continuously summon bats and cause enemies to gain max stacks of <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}>",
+                        "While active, increases %Final Damage and %Crit Rate and increases summon limit of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
+                        "While active, using Throwing Star skills will continuously summon bats and cause enemies to gain max stacks of <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}>",
                         "Right-clicking the skill will toggle the gray background ON/OFF while the attack is active"
                     ],
                     "reqLev": 160
@@ -795,7 +795,7 @@
                     "type": "Summon",
                     "desc": "Summons a stationary clone that faces in the direction of the enemy with the highest Max HP and copies your Throwing Star attacks",
                     "details": [
-                        "Clone's attacks are all dark-attribute and can activate the following skills with reduced %Final Damage: <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
+                        "Clone's attacks are all dark-attribute and can activate the following skills with reduced %Final Damage: <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-elemental.png} tooltip={Dark Elemental (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}>",
                         "Pressing the Skill Key allows you to swap places with the clone (up to 3 times)<bp_Cannot be done while in the air_>",
                         "Pressing the Down Arrow Key and Skill Key together re-summons the clone at your position",
                         "Unaffected by Damage Reflect"
@@ -807,7 +807,7 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bite.png"],
                     "animations": ["https://media.giphy.com/media/fjmlO6PjjPKvvnYnPf/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Bats attack nearby enemies and summons <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}>/<img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}> at their location",
+                    "desc": "Bats attack nearby enemies and summons <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat (1st Job)}>/<tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tooltip={Ravenous Bat (4th Job)}> at their location",
                     "details": [
                         "Enemies defeated by the attack grant a stacking %Final Damage buff<bp_If the enemy hit was a boss, grants more %Final Damage_>",
                         "Deals increased damage to bosses"
@@ -823,8 +823,8 @@
                     "details": [
                         "Continuously pressing the Skill Key will extend the duration of the consecutive attack",
                         "Each throwing star is only considered at most once as a successful Throwing Star attack",
-                        "Attacking during <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}> will not deactivate while casting",
-                        "When <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-spear.png} tooltip={Shadow Spear (5th Job)}> is active, it cannot form dark energy but, increases %p Damage of the consecutive attack",
+                        "Attacking during <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/dark-sight.png} tooltip={Dark Sight (1st Job)}> will not deactivate while casting",
+                        "When <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-spear.png} tooltip={Shadow Spear (5th Job)}> is active, it cannot form dark energy but, increases %p Damage of the consecutive attack",
                         "When used in the air, you will remain in the air until the attack ends"
                     ]
                 }
@@ -840,7 +840,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/quintuple-star.png} tooltip={Quintuple Star (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/quintuple-star.png} tooltip={Quintuple Star (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -861,7 +861,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat and Ravenous Bat (1st Job / 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/cygnus-knights/night-walker/shadow-bat.png} tooltip={Shadow Bat and Ravenous Bat (1st Job / 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

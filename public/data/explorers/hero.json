@@ -44,7 +44,7 @@
             {
                 "name": "Attack",
                 "stat": "+80(154)",
-                "detail": "<ul><li><span data-tooltip='Spirit Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> +30</li> <li><span data-tooltip='Advanced Final Attack (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +30</li> <li class='bs-long-text'><div><span data-tooltip='Combo Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span></div> <div>+2 per Combo Orb<br/>(Max. +20)</div></li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +50</li> <li><span data-tooltip='Instinctual Combo (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> 20% of Combo Orbs (Max. +4)</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Advanced Final Attack - Ferocity (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-final-attack-ferocity.png' alt='Skill Advanced Final Attack Ferocity'/></span> +20</li></ul>"
+                "detail": "<ul><li><tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png} tooltip={Spirit Blade (2nd Job)}> +30</li> <li><span data-tooltip='Advanced Final Attack (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/advanced-final-attack.png' alt='Skill Advanced Final Attack'/></span> +30</li> <li class='bs-long-text'><div><span data-tooltip='Combo Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span></div> <div>+2 per Combo Orb<br/>(Max. +20)</div></li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span> +50</li> <li><span data-tooltip='Instinctual Combo (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span> 20% of Combo Orbs (Max. +4)</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Advanced Final Attack - Ferocity (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/advanced-final-attack-ferocity.png' alt='Skill Advanced Final Attack Ferocity'/></span> +20</li></ul>"
             },
             {
                 "name": "Crit Rate",
@@ -96,7 +96,7 @@
             {
                 "name": "Damage Reduction (Non-Max HP)",
                 "stat": "-40%",
-                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> -10%] [<span data-tooltip='Spirit Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span> -30%]"
+                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> -10%] [<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png} tooltip={Spirit Blade (2nd Job)}> -30%]"
             }
         ],
         "movementStats": [
@@ -138,13 +138,13 @@
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Spirit Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png' alt='Skill Spirit Blade'/></span>[200s]</div> <div><span data-tooltip='Scarring Sword (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/scarring-sword.png' alt='Skill Scarring Sword'/></span>[200s]</div>",
-            "toggles": "<span data-tooltip='Combo Attack (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png' alt='Skill Combo Attack'/></span> <span data-tooltip='Enrage (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png' alt='Skill Enrage'/></span>",
-            "summons": "<div><span data-tooltip='Burning Soul Blade (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/burning-soul-blade-1.png' alt='Skill Burning Soul Blade'/></span>[75s](120s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>[30s](120s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Instinctual Blade (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png' alt='Skill Instinctual Combo'/></span>[20s](120s cd)</div> <div><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span>[140s](180s recharge, up to 2 charges)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[Up to 5s](15s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Spirit Calibur (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-calibur.png' alt='Skill Spirit Calibur'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Worldreaver (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/worldreaver.png' alt='Skill Worldreaver'/></span>[1.6s](25s cd)</div> <div><span data-tooltip='Spirit Calibur (6th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-calibur.png' alt='Skill Spirit Calibur'/></span>(360s cd)</div> <div><span data-tooltip='Blitz Shield (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png' alt='Skill Blitz Shield'/></span>[Up to 5s](21% HP Barrier | 15s cd)</div>",
-            "knockback": "<div><span data-tooltip='Flash Blade (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/flash-blade.png' alt='Skill Flash Blade'/></span>(4s cd)</div> <div><span data-tooltip='Rush (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/rush.png' alt='Skill Rush'/></span></div> </div> <div><span data-tooltip='Cry Valhalla (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png' alt='Skill Cry Valhalla'/></span>[30s](120s cd)</div> <div><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span>[18s](120s cd)</div>"
+            "active": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-blade.png} tooltip={Spirit Blade (2nd Job)} duration={[200s]}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/scarring-sword.png} tooltip={Scarring Sword (3rd Job)} duration={[200s]}>",
+            "toggles": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png} tooltip={Combo Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png} tooltip={Enrage (4th Job)}>",
+            "summons": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/burning-soul-blade-1.png} tooltip={Burning Soul Blade (5th Job)} duration={[75s](120s cd)}>",
+            "buffCd": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png} tooltip={Cry Valhalla (Hyper Skill)} duration={[30s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/epic-adventure.png} tooltip={Epic Adventure (Hyper Skill)} duration={[60s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png} tooltip={Instinctual Blade (5th Job)} duration={[20s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png} tooltip={Weapon Aura (5th Job)} duration={[140s](180s recharge, up to 2 charges)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png} tooltip={Maple World Goddess's Blessing (5th Job)} duration={[60s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png} tooltip={Blitz Shield (5th Job)} duration={[Up to 5s](15s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tooltip={Impenetrable Skin (5th Job)} duration={[18s](120s cd)}>",
+            "binds": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-calibur.png} tooltip={Spirit Calibur (6th Job)} duration={[10s](360s cd)}>",
+            "iFrame": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/worldreaver.png} tooltip={Worldreaver (5th Job)} duration={[1.6s](25s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/spirit-calibur.png} tooltip={Spirit Calibur (6th Job)} duration={(360s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/blitz-shield.png} tooltip={Blitz Shield (5th Job)} duration={[Up to 5s](21% HP Barrier | 15s cd)}>",
+            "knockback": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/flash-blade.png} tooltip={Flash Blade (2nd Job)} duration={(4s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/rush.png} tooltip={Rush (3rd Job)} duration={[]}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/cry-valhalla.png} tooltip={Cry Valhalla (Hyper Skill)} duration={[30s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tooltip={Impenetrable Skin (5th Job)} duration={[18s](120s cd)}>"
         },
         "linkSkill": {
                 "id": 80002758,
@@ -488,7 +488,7 @@
                     "details": [
                         "The final blow is a guaranteed Critical Hit",
                         "When Combo is fully charged, attack deals increased %Damage and the last 2 final blows are guaranteed Critical Hits",
-                        "[Passive]: Permanently increases %p Damage of <img src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/beam-blade.png} tooltip={Beam Blade (3rd Job)}>"
+                        "[Passive]: Permanently increases %p Damage of <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/beam-blade.png} tooltip={Beam Blade (3rd Job)}>"
                     ]
                 },
                 {
@@ -514,7 +514,7 @@
                     "desc": "Removes buffs on nearby enemies and prevents them from casting new buffs",
                     "details": [
                         "Enemies affected by Magic Crash cannot be affected again for a short period",
-                        "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -547,7 +547,7 @@
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
-                        "Unaffected by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tooltip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -717,7 +717,7 @@
                     "desc": "When used, fully charges your Combo and summons a sword that attacks whenever you attack",
                     "details": [
                         "Pressing the Skill Key again will make it stationary and attack nearby enemies<bp_Pressing the Down Arrow Key and Skill Key together when first summoning will deploy the sword in the stationary state_Right-clicking the skill will toggle ON/OFF a function to always summon in stationary state on cast_>",
-                        "Deals increased damage while <img src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png} tooltip={Enrage (4th Job)}> Enraged",
+                        "Deals increased damage while <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/enrage.png} tooltip={Enrage (4th Job)}> Enraged",
                         "The sword's attacks have increased %Crit Rate",
                         "Unaffected by Damage Reflect"
                     ]
@@ -740,9 +740,9 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/explorers/hero/instinctual-combo.png"],
                     "animations": ["https://media.giphy.com/media/3ZBgUWHGOrYdECsEEQ/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, using <img src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png} tooltip={Raging Blow (4th Job)}> will to create a 'Tear in Space'",
+                    "desc": "While active, using <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png} tooltip={Raging Blow (4th Job)}> will to create a 'Tear in Space'",
                     "details": [
-                        "Increases <img src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png} tooltip={Combo Attack (2nd Job)}> stat bonuses of %Final Damage, %Boss Damage, and Attack",
+                        "Increases <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png} tooltip={Combo Attack (2nd Job)}> stat bonuses of %Final Damage, %Boss Damage, and Attack",
                         "Decreases chance of obtaining Combo Orbs by 50%"
                     ]
                 },
@@ -754,7 +754,7 @@
                     "type": "Attack",
                     "desc": "Slashes forward several times and creates an explosion",
                     "details": [
-                        "Upon use, briefly increases amount of %Final Damage provided by <img src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png} tooltip={Combo Attack (2nd Job)}>",
+                        "Upon use, briefly increases amount of %Final Damage provided by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/combo-attack.png} tooltip={Combo Attack (2nd Job)}>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -770,7 +770,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png} tooltip={Raging Blow (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/raging-blow.png} tooltip={Raging Blow (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -791,7 +791,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <img src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/rising-rage.png} tooltip={Rising Rage (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/hero/rising-rage.png} tooltip={Rising Rage (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
