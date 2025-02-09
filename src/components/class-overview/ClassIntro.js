@@ -417,7 +417,7 @@ function AbilityPreset({name, set, notes}){
             <Card.Body>
                 <Card.Title>
                     {name}
-                    {notes ? <InfoButton tooltip={notes}/> : <></>}
+                    {notes ? <InfoButton tip={notes}/> : <></>}
                 </Card.Title>
                 <ul>
                     {

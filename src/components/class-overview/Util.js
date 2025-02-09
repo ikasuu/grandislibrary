@@ -11,11 +11,11 @@ export function formatBoldText(content){
 }
 
 //Skill icons w/ tooltips
-//Format: <tt src={...} tooltip={...}> 
+//Format: <tt src={...} tip={...}> 
 export function formatSkillTooltip(content){
     return reactStringReplace(content, /(?=<tt)(.*?)(?<=>)/g, (text, i) => {
         let image = text.match(/(?<=src={)(.*?)(?=})/g);
-        let tooltip = text.match(/(?<=tooltip={)(.*?)(?=})/g);
+        let tooltip = text.match(/(?<=tip={)(.*?)(?=})/g);
         return(
             <OverlayTrigger key={i} placement="top" overlay={
                 <Tooltip style={{zIndex: '1'}}>
@@ -27,30 +27,23 @@ export function formatSkillTooltip(content){
 }
 
 //Skill icons w/ tooltips
-//Format: <tt src={...} tooltip={...}> 
+//Format: <tt src={...} tip={...}> 
 export function formatActivesTooltip(content){
     return reactStringReplace(content, /(?=<tt)(.*?)(?<=>)/g, (text, i) => {
         let image = text.match(/(?<=src={)(.*?)(?=})/g);
-        let tooltip = text.match(/(?<=tooltip={)(.*?)(?=})/g);
-        let duration = text.match(/(?<=duration={)(.*?)(?=})/g);
+        let tooltip = text.match(/(?<=tip={)(.*?)(?=})/g);
+        let duration = text.match(/(?<=dur={)(.*?)(?=})/g);
 
-        return(duration ?
-            <div>
-                <OverlayTrigger key={i} placement="top" overlay={
-                    <Tooltip style={{zIndex: '1'}}>
-                        {tooltip}
-                    </Tooltip>
-                }><img src={image} alt={tooltip}/></OverlayTrigger>
-                {duration}
-            </div>
-            :
-            <span>
-                <OverlayTrigger key={i} placement="top" overlay={
-                    <Tooltip style={{zIndex: '1'}}>
-                        {tooltip}
-                    </Tooltip>
-                }><img src={image} alt={tooltip}/></OverlayTrigger>
-            </span>
+        const overlay = <Tooltip style={{ zIndex: '1' }}>{tooltip}</Tooltip>;
+        const Wrapper = duration ? "div" : "span"; //Special case for toggles to display on same line
+
+        return (
+            <Wrapper key={i}>
+                <OverlayTrigger placement="top" overlay={overlay}>
+                    <img src={image} alt={tooltip} />
+                </OverlayTrigger>
+                {duration && duration}
+            </Wrapper>
         );
     });
 }
