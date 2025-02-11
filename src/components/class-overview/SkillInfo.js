@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Badge, Card, Image, Modal } from 'react-bootstrap';
 import { Parser } from 'expr-eval';
 import styled from 'styled-components';
-import formatSkillText from './Util';
+import formatSkillText from './ClassFormat';
 
 /*
     Skill component that creates a component to hold and render our skill info like name, desc, and properties 

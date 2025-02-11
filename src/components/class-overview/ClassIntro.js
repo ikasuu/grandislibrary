@@ -10,7 +10,7 @@ import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
 import { Accordion, AccordionDetails, AccordionSummary, Chip } from '@material-ui/core';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { formatActivesTooltip, formatSkillTooltip } from './Util';
+import { formatActivesTooltip, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -321,7 +321,7 @@ function ClassDetail({content}) {
                             <tr key={index}>
                                 <StatTableData width='18%'><strong>{parse(DOMPurify.sanitize(stat.name))}</strong></StatTableData>
                                 <StatTableData width='18%'>{parse(DOMPurify.sanitize(stat.stat))}</StatTableData>
-                                <StatTableData className='bs-data-vals'>{parse(DOMPurify.sanitize(stat.detail))}</StatTableData>
+                                <StatTableData>{formatSkillBadge(stat.detail)}</StatTableData>
                             </tr>
                         )}
                     </tbody>

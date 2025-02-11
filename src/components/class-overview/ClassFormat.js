@@ -1,8 +1,9 @@
 import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import reactStringReplace from 'react-string-replace';
+import styled from 'styled-components';
 
-//Formatting helper functions
+//Formatting helper functions for class overviews
 //Created by Ikasuu Spring 2025
 
 //Bold text (of all things within [...] square brackets)
@@ -83,9 +84,76 @@ export function formatImage(content){
     return reactStringReplace(content, /(?=<img)(.*?)(?<=>)/g, (text, i) => {
         let image = text.match(/(?<=src={)(.*?)(?=})/g);
         let altText = text.match(/(?<=alt={)(.*?)(?=})/g);
-        let optVal = text.match(/(?<=alt={)(.*?)(?=})/g);
         return(
             <img src={image} alt={altText}/>
+        );
+    });
+}
+
+//Component from the skill blocks that are used in the base stats section
+const SkillBlock = styled.span`
+    /* Adjust the background from the properties */
+    background-image: ${props => props.color};
+    line-height: ${props => props.lineHeight};
+
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    border-radius: .25rem;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #fff;
+    white-space: nowrap;
+`
+
+//Helper function to convert skill type to corresponding color
+function skillBlockTypeToColor(color){
+    switch(color){
+        case "debuff":
+            return "#5C9A3A";
+        case "toggle":
+            return "#C65895";
+        case "temp":
+            return "#2E94B6";
+        case "opt":
+            return "#CC6A2A";
+        case "alpha":
+            return "#176BCB";
+        case "beta":
+            return "#D53F3F";
+        default:
+            return "#6C757D";
+    };
+};
+
+//Helper function to format given colors into use in SkillBlock
+function skillBlockColor(colorOne, colorTwo){
+    return `linear-gradient(120deg, ${colorOne} 50%, ${colorTwo} 50%)`;
+};
+
+//Skill Blocks
+//Format: <link type={...} subType={...} src={...} tip={...} val={...}>
+//type and subType are optional for color coding a skill block, default: gray
+//src and tip is optional for displaying a skill icon
+//val is the text description
+export function formatSkillBadge(content){
+    return reactStringReplace(content, /(?=<bg)(.*?)(?<=>)/g, (badge, i) => {
+        let type = badge.match(/(?<=type={)(.*?)(?=})/g);
+        let subType = badge.match(/(?<=sub={)(.*?)(?=})/g);
+        let image = badge.match(/(?<=src={)(.*?)(?=})/g);
+        let tooltip = badge.match(/(?<=tip={)(.*?)(?=})/g);
+        let text = badge.match(/(?<=val={)(.*?)(?=})/g);
+
+        const overlay = <Tooltip style={{ zIndex: '1' }}>{tooltip}</Tooltip>;
+        const height = image ? "1rem" : "2rem";
+
+        let colorOne = skillBlockTypeToColor(type ? type[0] : "default");
+        let colorTwo = skillBlockTypeToColor(subType ? subType[0] : "default");
+        let gradient = skillBlockColor(colorOne, subType ? colorTwo : colorOne);
+        return (
+            <SkillBlock color={gradient} key={i} lineHeight={height}>
+                {image ? <OverlayTrigger placement="top" overlay={overlay}><img src={image} alt={tooltip}/></OverlayTrigger> : <></>} <div style={{display: 'inline-block'}}>{text.map((item, index) => <div key={index}>{item}</div>)}</div>
+            </SkillBlock>
         );
     });
 }
