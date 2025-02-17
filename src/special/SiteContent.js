@@ -32,7 +32,7 @@ export const events = {
         ["maple-relay", "Maple Relay", "Maple Relay is an event where you receive rewards for simply staying online. Obtain gifts daily and at each milestone"],
         ["maplehood-watch", "Maplehood Watch", "An event where players can earn free cash items. The event lasts for two weeks and each week has 3 special days with free gifts"]
         // ["synergy-ring", "Synergy Ring", "An event ring that gains increased stats depending on how many characters you have the ring equipped on the same world"],
-        // ["chaos-ring", "Chaos Ring", "An event ring that has allows you to reroll the ring’s stats and potential for free a fixed number of times each week"]
+        // ["chaos-ring", "Chaos Ring", "An event ring that has allows you to reroll the ring's stats and potential for free a fixed number of times each week"]
     ],
     update: [
         ["update-timeline-overview", "Update Timeline Overview", "Looking to catch up? Take a look at an overview of every update so far from Big Bang to the current update"]

@@ -139,7 +139,7 @@ function BossMatchmaking() {
           <div><Link smooth to="#top" scroll={el => scrollWidthOffset(el)}>Go to top</Link></div>
           <h2 id="omnicln"><img src="https://vignette.wikia.nocookie.net/maplestory/images/c/c1/MapIcon_OmegaSector.png/revision/latest?cb=20100619153514" alt="MapIcon OmegaSector" width="38" height="38"/> OMNI-CLN</h2>
           <p><strong>[Normal Lv. 180+]</strong></p>
-          <p>You must complete the Omega Sector Theme Dungeon to gain access to OMNI-CLN. To start the Theme Dungeon, accept the quest from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Quests/38/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim’s Call</a>” at Lv. 165</p>
+          <p>You must complete the Omega Sector Theme Dungeon to gain access to OMNI-CLN. To start the Theme Dungeon, accept the quest from the Lightbulb icon called “<a href="https://maplestorywiki.net/w/Quests/38/(Omega_Sector)_Dr._Kim%27s_Call" target="_blank" rel="noreferrer noopener">[Omega Sector] Dr. Kim's Call</a>” at Lv. 165</p>
           <ul>
             <li>
                 <strong>Main Rewards: </strong>[Elixir], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/a/ac/Use_Rebirth_Flame_Lv._110.png/revision/latest?cb=20180414202217" alt="Use Rebirth Flame Lv. 110" width="27" height="33"/> [Lv. 110 Rebirth Flame], <img  src="https://vignette.wikia.nocookie.net/maplestory/images/0/07/Etc_OMNI-CLN_Component.png/revision/latest?cb=20170702164939" alt="Etc OMNI-CLN Component" width="30" height="29"/>

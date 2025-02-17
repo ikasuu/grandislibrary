@@ -18,7 +18,7 @@ function MapleRelay() {
                     </ul>
                 </li>
             </ul>
-            <p>Once you meet 1 of the following requirements, you can accept the quest <strong>‘[Maple Relay] Play with Popoh and Get Login Rewards!’</strong> quest from the Maple Relay icon within the star event notifier on the left side of the screen. Upon accepting the quest, Maple Relay UI will pop up and login time will start to accumulate</p>
+            <p>Once you meet 1 of the following requirements, you can accept the quest <strong>'[Maple Relay] Play with Popoh and Get Login Rewards!'</strong> quest from the Maple Relay icon within the star event notifier on the left side of the screen. Upon accepting the quest, Maple Relay UI will pop up and login time will start to accumulate</p>
             <p>During the event, once you've accepted the quest on one character, you do not need to accept the quest again on another character. As well, there is no level requirement, all you need to do is stay logged on</p>
             <p>There is also a Keyboard Shortcut to open the Maple Relay UI that you can assign. Another way to open the UI is by accessing it from the star event notifier on the left side of the screen</p>
             <h2>Rewards</h2>

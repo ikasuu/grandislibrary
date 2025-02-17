@@ -14,7 +14,7 @@ function MaplehoodWatch() {
             <p><strong>[Note]</strong>: The coupons do not work after the day has ended and once the event is over</p>
             <ul>
                 <li><strong>This can be completed 3 times per character per day</strong>.</li>
-                <li>Accept the quest <strong>‘[Maplehood Watch] Beautification Bonanza'</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
+                <li>Accept the quest <strong>'[Maplehood Watch] Beautification Bonanza'</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
                 <li>
                     <strong>Hunt monsters within your level range</strong> (20 levels below and 20 levels above) and collect <img src="https://maplestory.io/api/GMS/219/item/4034907/icon" alt=""/> [Maplehood Watch Coupon Fragments] to
                     receive rewards!
@@ -33,7 +33,7 @@ function MaplehoodWatch() {
             <h2>Enhancement Day</h2>
             <ul>
                 <li>
-                    <strong>This can be completed 2 times per character per day.</strong> Log in and accept the quest <strong>‘[Maplehood Watch] New and Enhanced'</strong> in the <strong>Star (Events)</strong> <strong>tab</strong> on the left side of
+                    <strong>This can be completed 2 times per character per day.</strong> Log in and accept the quest <strong>'[Maplehood Watch] New and Enhanced'</strong> in the <strong>Star (Events)</strong> <strong>tab</strong> on the left side of
                     your screen
                 </li>
                 <li><strong>Hunt 200 monsters within your level range</strong> (20 levels below and 20 levels above) to receive rewards!</li>
@@ -43,7 +43,7 @@ function MaplehoodWatch() {
             <p><img src="https://i.imgur.com/s4FQSL6.png" width="32" height="32" alt=""/> Receive one <img src="https://maplestory.io/api/GMS/219/item/2432268/icon" alt=""/> [Red Cube] and one <img src="https://maplestory.io/api/GMS/219/item/2434770/icon" alt=""/> [Miracle Circulator] (on Reboot world only)</p>
             <h2>Gachapon Day</h2>
             <ul>
-                <li><strong>This can be completed 3 times per character per day</strong>. Log in and accept the quest <strong>‘[Maplehood Watch] Gachapon Giveaway’</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
+                <li><strong>This can be completed 3 times per character per day</strong>. Log in and accept the quest <strong>'[Maplehood Watch] Gachapon Giveaway'</strong> in the <strong>Star (Events) tab</strong> on the left side of your screen</li>
                 <li><strong>Hunt 200 monsters within your level range</strong> (20 levels below and 20 levels above) to receive rewards!</li>
             </ul>
             <p>Upon completion, receive 5 <img src="https://maplestory.io/api/GMS/219/item/2028348/icon" alt=""/> [Maplehood Watch Gachapon Coupons] and 3 <img src="https://maplestory.io/api/GMS/219/item/5222165/icon" alt=""/> [Maplehood Watch Avatar Boxes]</p>

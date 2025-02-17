@@ -24,52 +24,52 @@
             {
                 "name": "Attack Speed",
                 "stat": "7(8)",
-                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Arm Cannon Boost (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/arm-cannon-booster.png' alt='Skill Arm Cannon Boost'/></span> +2</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Combo Training (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> +1 at 6 stacks</li></ul>"
+                "detail": "<bg val={Stage 5}> <bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/arm-cannon-booster.png} tip={Arm Cannon Boost (2nd Job)} val={+2}> <bg type={temp} src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training.png} tip={Combo Training (3rd Job)} val={+1 at 6 stacks}>"
             },
             {
                 "name": "Weapon Mastery",
                 "stat": "90%",
-                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +70%</li></ul>"
-            },
-            {
+                "detail": "<bg val={Base +20%}> <bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+70%}>"
+              },
+              {
                 "name": "STR",
                 "stat": "+15%(415%) +30(60)",
-                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='Physical Training (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +30</li></ul>"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={http://localhost:3000/grandislibrary/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}>"
             },
             {
                 "name": "Attack",
                 "stat": "+15% +60",
-                "detail": "<ul><li><span data-tooltip='Combo Training (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training.png' alt='Skill Combo Training'/></span> +15%</li> <li><span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +20</li> <li><span data-tooltip='Combo Training II (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span> +40</li></ul>"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training.png} tip={Combo Training (3rd Job)} val={+15%}> <bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/arm-cannon-mastery.png} tip={Arm Cannon Mastery (2nd Job)} val={+20}> <bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II (4th Job)} val={+40}>"
             },
             {
                 "name": "Crit Rate",
                 "stat": "+35%(65%)",
-                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +30%</li></ul> <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Combo Training II (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span></div> <div>3% per linked skill<br/>(Max. +30%)</div></li></ul>"
+                "detail": "<bg val={Base +5%}> <bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/arm-cannon-mastery.png} tip={Arm Cannon Mastery (2nd Job)} val={+30%}> <bg type={temp} src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II (4th Job)} val={3% per linked skill} val={(Max. +30%)}>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+15%",
-                "detail": "<ul><li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +15%</li></ul>"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+15%}>"
             },
             {
                 "name": "Damage",
                 "stat": "+15%(75%)",
-                "detail": "<ul><li><span data-tooltip='Charge Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/charge-mastery.png' alt='Skill Charge Mastery'/></span> +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='For Liberty (Hyper Skill)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/for-liberty.png' alt='Skill For Liberty'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li> <li><span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +6% when hit up to +30%</li></ul> "
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/charge-mastery.png} tip={Charge Mastery (2nd Job)} val={+20%}> <bg type={temp} src={http://localhost:3000/grandislibrary/class-icons/resistance/for-liberty.png} tip={For Liberty (Hyper Skill)} val={+10%}> <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +30%}>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "+15%",
-                "detail": "<ul><li><span data-tooltip='Gauntlet Expert (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/gauntlet-expert.png' alt='Skill Gauntlet Expert'/></span> +15%</li></ul>"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+15%}>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+15.5%(95.89%)",
-                "detail": "<ul><li><span data-tooltip='Arm Cannon Mastery (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/arm-cannon-mastery.png' alt='Skill Arm Cannon Mastery'/></span> +5%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Hammer Smash (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/hammer-smash.png' alt='Skill Hammer Smash'/></span> +10%</li></ul> × <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Combo Training II (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training-ii.png' alt='Skill Combo Training II'/></span></div> <div>+6% per linked skill<br/>(Max. +60%)</div></li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +6%</li></ul>"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/arm-cannon-mastery.png} tip={Arm Cannon Mastery (2nd Job)} val={+5%}> × <bg type={debuff} src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)} val={+10%}> × <bg type={temp} src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II (4th Job)} val={+6% per linked skill} val={(Max. +60%)}> × <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+35%(45.4%)",
-                "detail": "<ul><li><span data-tooltip='Advanced Charge Mastery (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/resistance/blaster/advanced-charge-mastery.png' alt='Skill Advanced Charge Mastery'/></span> +35%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Weapon Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png' alt='Skill Weapon Aura'/></span> +16%</li></ul>"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/resistance/blaster/advanced-charge-mastery.png} tip={Advanced Charge Mastery (4th Job)} val={+35%}> × <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
             }
         ],
         "buffInfo": {
