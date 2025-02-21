@@ -10,7 +10,7 @@ import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
 import { Accordion, AccordionDetails, AccordionSummary, Chip } from '@material-ui/core';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { formatActivesTooltip, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
+import formatSkillText, { formatActivesTooltip, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -319,8 +319,8 @@ function ClassDetail({content}) {
                     <tbody>
                         {content.attackStats.map((stat, index) => 
                             <tr key={index}>
-                                <StatTableData width='18%'><strong>{parse(DOMPurify.sanitize(stat.name))}</strong></StatTableData>
-                                <StatTableData width='18%'>{parse(DOMPurify.sanitize(stat.stat))}</StatTableData>
+                                <StatTableData width='18%'><strong>{stat.name}</strong></StatTableData>
+                                <StatTableData width='18%'>{formatSkillText(stat.stat)}</StatTableData>
                                 <StatTableData>{formatSkillBadge(stat.detail)}</StatTableData>
                             </tr>
                         )}
@@ -341,11 +341,24 @@ function ClassDetail({content}) {
                 {content.buildPath.details.map((detail,index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}
             </ul>
             <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive>
-            {formatSkillTooltip(content.hyperBuild.recommended)}
+            {formatSkillText(content.hyperBuild.recommended)}
             <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
-            <Container>{formatSkillTooltip(content.nodeInfo.recommended)}</Container>
+            {content.nodeInfo.recommended.nodes.map((nodes, index) => 
+                <span key={index}>
+                    <h6>{nodes[0]}</h6>
+                    <Container>{formatSkillTooltip(nodes[1])}</Container>
+                </span>
+            )}
+            <ul>
+                {content.nodeInfo.recommended.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
+            </ul>
             <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
-            <Container>{formatSkillTooltip(content.nodeInfo.possible)}</Container>
+            <Container>{formatSkillTooltip(content.nodeInfo.possible.nodes)}</Container>
+            { content.nodeInfo.possible.notes ? 
+                <ul>
+                    {content.nodeInfo.possible.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
+                </ul> : <></>
+            }
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
             <CardDeck>
                 {

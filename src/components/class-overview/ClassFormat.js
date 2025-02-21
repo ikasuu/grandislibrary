@@ -6,6 +6,17 @@ import styled from 'styled-components';
 //Formatting helper functions for class overviews
 //Created by Ikasuu Spring 2025
 
+//Component for a skill icon with a hoverable tooltip
+function SkillTooltip({image, tooltip}){
+    const overlay = <Tooltip style={{ zIndex: '1' }}>{tooltip}</Tooltip>;
+
+    return(
+        <OverlayTrigger placement="top" overlay={overlay}>
+            <img src={image} alt={tooltip}/>
+        </OverlayTrigger>
+    );
+}
+
 //Bold text (of all things within [...] square brackets)
 export function formatBoldText(content){
     return reactStringReplace(content, /(?=\[)(.*?)(?<=\])/g, (text, i) => (<strong key={i}>{text}</strong>));
@@ -15,14 +26,10 @@ export function formatBoldText(content){
 //Format: <tt src={...} tip={...}> 
 export function formatSkillTooltip(content){
     return reactStringReplace(content, /(?=<tt)(.*?)(?<=>)/g, (text, i) => {
-        let image = text.match(/(?<=src={)(.*?)(?=})/g);
-        let tooltip = text.match(/(?<=tip={)(.*?)(?=})/g);
+        let img = text.match(/(?<=src={)(.*?)(?=})/g);
+        let tip = text.match(/(?<=tip={)(.*?)(?=})/g);
         return(
-            <OverlayTrigger key={i} placement="top" overlay={
-                <Tooltip style={{zIndex: '1'}}>
-                    {tooltip}
-                </Tooltip>
-            }><img src={image} alt={tooltip}/></OverlayTrigger>
+            <SkillTooltip key={i} image={img} tooltip={tip}/>
         );
     });
 }
@@ -31,18 +38,15 @@ export function formatSkillTooltip(content){
 //Format: <tt src={...} tip={...}> 
 export function formatActivesTooltip(content){
     return reactStringReplace(content, /(?=<tt)(.*?)(?<=>)/g, (text, i) => {
-        let image = text.match(/(?<=src={)(.*?)(?=})/g);
-        let tooltip = text.match(/(?<=tip={)(.*?)(?=})/g);
+        let img = text.match(/(?<=src={)(.*?)(?=})/g);
+        let tip = text.match(/(?<=tip={)(.*?)(?=})/g);
         let duration = text.match(/(?<=dur={)(.*?)(?=})/g);
 
-        const overlay = <Tooltip style={{ zIndex: '1' }}>{tooltip}</Tooltip>;
         const Wrapper = duration ? "div" : "span"; //Special case for toggles to display on same line
 
         return (
             <Wrapper key={i}>
-                <OverlayTrigger placement="top" overlay={overlay}>
-                    <img src={image} alt={tooltip} />
-                </OverlayTrigger>
+                <SkillTooltip image={img} tooltip={tip}/>
                 {duration && duration}
             </Wrapper>
         );
@@ -140,22 +144,32 @@ export function formatSkillBadge(content){
     return reactStringReplace(content, /(?=<bg)(.*?)(?<=>)/g, (badge, i) => {
         let type = badge.match(/(?<=type={)(.*?)(?=})/g);
         let subType = badge.match(/(?<=sub={)(.*?)(?=})/g);
-        let image = badge.match(/(?<=src={)(.*?)(?=})/g);
-        let tooltip = badge.match(/(?<=tip={)(.*?)(?=})/g);
+        let img = badge.match(/(?<=src={)(.*?)(?=})/g);
+        let tip = badge.match(/(?<=tip={)(.*?)(?=})/g);
         let text = badge.match(/(?<=val={)(.*?)(?=})/g);
 
-        const overlay = <Tooltip style={{ zIndex: '1' }}>{tooltip}</Tooltip>;
-        const height = image ? "1rem" : "2rem";
+        const height = img ? "1rem" : "2rem";
 
         let colorOne = skillBlockTypeToColor(type ? type[0] : "default");
         let colorTwo = skillBlockTypeToColor(subType ? subType[0] : "default");
         let gradient = skillBlockColor(colorOne, subType ? colorTwo : colorOne);
+
         return (
             <SkillBlock color={gradient} key={i} lineHeight={height}>
-                {image ? <OverlayTrigger placement="top" overlay={overlay}><img src={image} alt={tooltip}/></OverlayTrigger> : <></>} <div style={{display: 'inline-block'}}>{text.map((item, index) => <div key={index}>{item}</div>)}</div>
+                {img ? img.map((item, index) => <SkillTooltip key={index} image={item} tooltip={tip[index]}/>) : <></>} <div style={{display: 'inline-block'}}>{text.map((item, index) => <div key={index}>{item}</div>)}</div> {subType ? <SubBadge content={badge}/> : <></>}
             </SkillBlock>
         );
     });
+}
+
+function SubBadge({content}){
+    let img = content.match(/(?<=subSrc={)(.*?)(?=})/g);
+    let tip = content.match(/(?<=subTip={)(.*?)(?=})/g);
+    let text = content.match(/(?<=subVal={)(.*?)(?=})/g);
+
+    return(
+        img ? <span><SkillTooltip image={img} tooltip={tip}/> ({text})</span> : <></>
+    );
 }
 
 // Stylizes the given text using the mark up within the text
