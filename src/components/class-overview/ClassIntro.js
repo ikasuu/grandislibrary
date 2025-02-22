@@ -340,7 +340,9 @@ function ClassDetail({content}) {
             <ul>
                 {content.buildPath.details.map((detail,index) => <li key={index}>{parse(DOMPurify.sanitize(detail))}</li>)}
             </ul>
-            <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive>
+            {
+                content.hyperBuild.recommended ? <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive> : <></>
+            }
             {formatSkillText(content.hyperBuild.recommended)}
             <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
             {content.nodeInfo.recommended.nodes.map((nodes, index) => 
