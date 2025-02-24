@@ -76,22 +76,22 @@
             {
                 "name": "Abnormal Status Resistance",
                 "stat": "+50(~130)",
-                "detail": "[<span data-tooltip='Vessel of Light (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/vessel-of-light.png' alt='Skill Vessel of Light'/></span> +2 per stack up to +10] [<span data-tooltip='Shield Mastery (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/shield-mastery.png' alt='Skill Shield Mastery'/></span> +40] (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +80)"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)} val={+2 per stack up to +10}> <bg src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/shield-mastery.png} tip={Shield Mastery (3rd Job) val={+40}> <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+80}>"
             },
             {
                 "name": "Knockback Resistance",
                 "stat": "+100%",
-                "detail": "[<span data-tooltip='Warrior Mastery (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/warrior-mastery.png} tip={Warrior Mastery (1st Job)} val={+40%}> <bg src={http://localhost:3000/grandislibrary/class-icons/common/power-stance.png tip={Power Stance (4th Job)} val={+60%}>"
             },
             {
                 "name": "Defense",
                 "stat": "+250% +620",
-                "detail": "[<span data-tooltip='Shield Mastery (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/shield-mastery.png' alt='Skill Shield Mastery'/></span> +250%] [<span data-tooltip='Iron Body (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> +200] [<span data-tooltip='Shield Mastery (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/high-paladin.png' alt='Skill High Paladin'/></span> +420]"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/shield-mastery.png} tip={Shield Mastery (3rd Job)} val={+250%}> <bg src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png} tip={Iron Body (1st Job)} val={+200}> <bg src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/high-paladin.png} val={Shield Mastery (3rd Job)} val={+420}>"
             },
             {
                 "name": "Damage Reduction (Non-Max HP)",
                 "stat": "-50%(~100%)",
-                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> -10%] [<span data-tooltip='Vessel of Light (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/vessel-of-light.png' alt='Skill Vessel of Light'/></span> -2% per stack up to -10%] [<span data-tooltip='Achilles (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/achilles.png' alt='Skill Achilles'/></span> -30%] {<span data-tooltip='Grand Guardian (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/grand-guardian.png' alt='Skill Grand Guardian'/></span> -50%}"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png} tip={Iron Body (1st Job)} val={-10%}> <bg src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)} val={-2% per stack up to -10%}> <bg src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/achilles.png} tip={Achilles (3rd Job) val={-30%}> <bg type={temp} src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/grand-guardian.png} tip={Grand Guardian (5th Job)} val={-50%}>"
             }
         ],
         "movementStats": [
@@ -101,7 +101,7 @@
         "utilityStats": [
             {
                 "name": "Buff Disable & Cancel",
-                "detail": "{<span data-tooltip='Magic Crash (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/paladin/magic-crash.png' alt='Skill Magic Crash'/></span> Limits monster buff effects for 22 secs}"
+                "detail": "<bg type={temp} src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/magic-crash.png} tip={Magic Crash (4th Job)} val={Limits monster buff effects for 22 secs}>"
             }
         ],
         "buffInfo": {

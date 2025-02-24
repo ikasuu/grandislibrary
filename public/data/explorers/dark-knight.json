@@ -81,22 +81,22 @@
             {
                 "name": "Abnormal Status Resistance",
                 "stat": "+20(100)",
-                "detail": "[<span data-tooltip='Endure (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/endure.png' alt='Skill Endure'/></span> +20] (<span data-tooltip='Impenetrable Skin (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png' alt='Skill Impenetrable Skin'/></span> +80)"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/endure.png} tip={Endure (3rd Job) val={+20}> <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+80}>"
             },
             {
                 "name": "Knockback Resistance",
                 "stat": "+100%",
-                "detail": "[<span data-tooltip='Warrior Mastery (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/warrior-mastery.png' alt='Skill Warrior Mastery'/></span> +40%] [<span data-tooltip='Power Stance (4th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/common/power-stance.png' alt='Skill Power Stance'/></span> +60%]"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/warrior-mastery.png} tip={Warrior Mastery (1st Job)} val={+40%}> <bg src={http://localhost:3000/grandislibrary/class-icons/common/power-stance.png tip={Power Stance (4th Job)} val={+60%}>"
             },
             {
                 "name": "Defense",
                 "stat": "+970",
-                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> +200] [<span data-tooltip='Iron Will (2nd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/iron-will.png' alt='Skill Iron Will'/></span> +270] [<span data-tooltip='Hex of the Evil Eye (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png' alt='Skill Hex of the Evil Eye'/></span> +500]"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png} tip={Iron Body (1st Job)} val={+200}> <bg src={http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/iron-will.png} tip={Iron Will (2nd Job) val={+270}> <bg src={http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/hex-of-the-evil-eye.png} tip={Hex of the Evil Eye (3rd Job)} val={+500}>"
             },
             {
                 "name": "Damage Reduction (Non-Max HP)",
                 "stat": "-10%(30%) -8% of missing HP (max 4000)",
-                "detail": "[<span data-tooltip='Iron Body (1st Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png' alt='Skill Iron Body'/></span> -10%] [<span data-tooltip='Cross Surge (3rd Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/cross-surge.png' alt='Skill Cross Surge'/></span> -8% of missing HP (max 4000)] {<span data-tooltip='Spear of Darkness (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/spear-of-darkness.png' alt='Skill Spear of Darkness'/></span> -10% while casting} {<span data-tooltip='Darkness Aura (5th Job)'><img src='http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/darkness-aura.png' alt='Skill Darkness Aura'/></span> -10%}"
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/iron-body.png} tip={Iron Body (1st Job)} val={-10%}> <bg src='http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/cross-surge.png} tip={Cross Surge (3rd Job)} val={-8% of missing HP (max 4000)> <bg type={temp} src={http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/spear-of-darkness.png} tip={Spear of Darkness (5th Job) val={-10% while casting}> <bg type={temp} src={http://localhost:3000/grandislibrary/class-icons/explorers/dark-knight/darkness-aura.png} tip={Darkness Aura (5th Job)} val={-10%}>}"
             }
         ],
         "movementStats": [
