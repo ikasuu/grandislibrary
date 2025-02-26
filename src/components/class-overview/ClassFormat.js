@@ -7,20 +7,34 @@ import styled from 'styled-components';
 //Created by Ikasuu Spring 2025
 
 //Component for a skill icon with a hoverable tooltip
+const StyledTooltip = styled(Tooltip)`
+    transition: none;
+    font-size: 1.05rem;
+`;
+
 function SkillTooltip({image, tooltip}){
-    const overlay = <Tooltip style={{ zIndex: '1' }}>{tooltip}</Tooltip>;
+    const overlay = <StyledTooltip style={{ zIndex: '1' }}>{tooltip}</StyledTooltip>;
 
     return(
-        <OverlayTrigger placement="top" overlay={overlay}>
+        <OverlayTrigger delay={0} placement="top" overlay={overlay}>
             <img src={image} alt={tooltip}/>
         </OverlayTrigger>
     );
-}
+};
 
 //Bold text (of all things within [...] square brackets)
 export function formatBoldText(content){
     return reactStringReplace(content, /(?=\[)(.*?)(?<=\])/g, (text, i) => (<strong key={i}>{text}</strong>));
-}
+};
+
+function formatActiveBoldText(content){
+    return reactStringReplace(content, /(?=<bold)(.*?)(?<=>)/g, (item, i) => {
+        let text = item.match(/(?<=text={)(.*?)(?=})/g);
+        return(
+            <strong key={i}>{text}</strong>
+        );
+    });
+};
 
 //Skill icons w/ tooltips
 //Format: <tt src={...} tip={...}> 
@@ -32,7 +46,7 @@ export function formatSkillTooltip(content){
             <SkillTooltip key={i} image={img} tooltip={tip}/>
         );
     });
-}
+};
 
 //Skill icons w/ tooltips
 //Format: <tt src={...} tip={...}> 
@@ -51,6 +65,10 @@ export function formatActivesTooltip(content){
             </Wrapper>
         );
     });
+};
+
+export function formatTextBreak(content){
+    return reactStringReplace(content, /(?=<br)(.*?)(?<=>)/g, (item, i) => <br key={i}/>);
 }
 
 //Links
@@ -61,7 +79,7 @@ export function formatLinkText(content){
         let title = text.match(/(?<=title={)(.*?)(?=})/g);
         return(<a key={i} href={url} target="_blank" rel="noreferrer noopener">{title}</a>);
     });
-}
+};
 
 export function formatBulletPoint(content){
     //Bullet points
@@ -82,17 +100,30 @@ export function formatBulletPoint(content){
             </ul>
         );
     });
-}
+};
 
-export function formatImage(content){
+export function formatEmText(content){
+    return reactStringReplace(content, /(?=<em)(.*?)(?<=>)/g, (item, i) => {
+        let text = item.match(/(?<=text={)(.*?)(?=})/g);
+        let breakFlag = item.match(/(?<=brFlag={)(.*?)(?=})/g);
+
+        const Wrapper = breakFlag == "true" ? "div" : "span";
+
+        return(
+            <Wrapper><em key={i}>{text}</em></Wrapper>
+        );
+    });
+};
+
+export function formatOverviewImage(content){
     return reactStringReplace(content, /(?=<img)(.*?)(?<=>)/g, (text, i) => {
         let image = text.match(/(?<=src={)(.*?)(?=})/g);
         let altText = text.match(/(?<=alt={)(.*?)(?=})/g);
         return(
-            <img src={image} alt={altText}/>
+            <img key={i} className="extra-content-image" src={image} alt={altText}/>
         );
     });
-}
+};
 
 //Component from the skill blocks that are used in the base stats section
 const SkillBlock = styled.span`
@@ -101,6 +132,7 @@ const SkillBlock = styled.span`
     line-height: ${props => props.lineHeight};
 
     padding: .25em .4em;
+    margin: .25rem 0;
     font-size: 75%;
     font-weight: 700;
     border-radius: .25rem;
@@ -108,7 +140,7 @@ const SkillBlock = styled.span`
     vertical-align: bottom;
     color: #fff;
     white-space: nowrap;
-`
+`;
 
 //Helper function to convert skill type to corresponding color
 function skillBlockTypeToColor(color){
@@ -160,7 +192,7 @@ export function formatSkillBadge(content){
             </SkillBlock>
         );
     });
-}
+};
 
 function SubBadge({content}){
     let img = content.match(/(?<=subSrc={)(.*?)(?=})/g);
@@ -170,13 +202,45 @@ function SubBadge({content}){
     return(
         img ? <span><SkillTooltip image={img} tooltip={tip}/> ({text})</span> : <></>
     );
-}
+};
+
+export function formatExtraContentText(content){
+    let returnString;
+    returnString = formatBulletPoint(content);
+    returnString = formatSkillTooltip(returnString);
+    returnString = formatOverviewImage(returnString);
+    returnString = formatBoldText(returnString);
+    returnString = formatEmText(returnString);
+    returnString = formatLinkText(returnString);
+
+    return returnString;
+};
+
+export function formatActivesSection(content){
+    let returnString;
+
+    returnString = formatActivesTooltip(content);
+    returnString = formatEmText(returnString);
+    returnString = formatActiveBoldText(returnString)
+
+    return returnString;
+};
+
+export function formatBuildSection(content){
+    let returnString;
+    returnString = formatSkillTooltip(content);
+    returnString = formatBoldText(returnString);
+    returnString = formatTextBreak(returnString);
+
+    return returnString;
+};
 
 // Stylizes the given text using the mark up within the text
 export default function formatSkillText(content){
     let returnString;
     returnString = formatBulletPoint(content);
     returnString = formatSkillTooltip(returnString);
+    returnString = formatEmText(returnString);
     returnString = formatBoldText(returnString);
     returnString = formatLinkText(returnString);
 

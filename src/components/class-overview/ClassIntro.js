@@ -10,7 +10,7 @@ import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
 import { Accordion, AccordionDetails, AccordionSummary, Chip } from '@material-ui/core';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import formatSkillText, { formatActivesTooltip, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
+import formatSkillText, { formatActivesSection, formatBuildSection, formatExtraContentText, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -272,13 +272,13 @@ function ClassBuffs({content}) {
             <StyledHeaderTwo>All Actives<InfoButton tooltip="Skills are not listed in any particular order. Durations and cooldowns are based on their base value at Max Level. Does not include 6th Job."/></StyledHeaderTwo>
             <Table size="sm">
             <tbody>
-                <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{formatActivesTooltip(content.buffInfo.active)}</StatTableData></tr>
-                {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{formatActivesTooltip(content.buffInfo.toggles)}</StatTableData></tr>:<></>}
-                {content.buffInfo.summons ? <tr><th><strong>Summons &amp; Placables</strong>:</th><StatTableData>{formatActivesTooltip(content.buffInfo.summons)}</StatTableData></tr>:<tr><th><strong>Summons &amp; Placables</strong>:</th><td>None</td></tr>}
-                <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{formatActivesTooltip(content.buffInfo.buffCd)}</StatTableData></tr>
-                {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{formatActivesTooltip(content.buffInfo.binds)}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
-                {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{formatActivesTooltip(content.buffInfo.iFrame)}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
-                {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{formatActivesTooltip(content.buffInfo.damageReduce)}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
+                <tr><th><strong>Active Buffs</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.active)}</StatTableData></tr>
+                {content.buffInfo.toggles ? <tr><th><strong>Toggles</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.toggles)}</StatTableData></tr>:<></>}
+                {content.buffInfo.summons ? <tr><th><strong>Summons &amp; Placables</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.summons)}</StatTableData></tr>:<tr><th><strong>Summons &amp; Placables</strong>:</th><td>None</td></tr>}
+                <tr><th><strong>Buffs with Cooldowns</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.buffCd)}</StatTableData></tr>
+                {content.buffInfo.binds ? <tr><th><strong>Binds</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.binds)}</StatTableData></tr>:<tr><th><strong>Binds</strong>:</th><td>None</td></tr>}
+                {content.buffInfo.iFrame ? <tr><th><strong>iFrames</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.iFrame)}</StatTableData></tr>:<tr><th><strong>iFrames</strong>:</th><td>None</td></tr>}
+                {content.buffInfo.damageReduce ? <tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><StatTableData>{formatActivesSection(content.buffInfo.damageReduce)}</StatTableData></tr>:<tr><th><strong>Damage Reduction (%Max HP)</strong>:</th><td>None</td></tr>}
             </tbody>
             </Table>
         </BuffAndActivesWrapper>
@@ -333,7 +333,7 @@ function ClassDetail({content}) {
                 {content.buildPath.build.map((build,index) => 
                 <tr key={index}>
                     <th>{build[0]}:</th>
-                    <StatTableData>{formatSkillTooltip(build[1])}</StatTableData>
+                    <StatTableData>{formatBuildSection(build[1])}</StatTableData>
                 </tr>)}
             </tbody>
             </Table>
