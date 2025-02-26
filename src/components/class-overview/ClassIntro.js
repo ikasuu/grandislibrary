@@ -10,7 +10,7 @@ import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
 import { Accordion, AccordionDetails, AccordionSummary, Chip } from '@material-ui/core';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import formatSkillText, { formatActivesSection, formatBuildSection, formatExtraContentText, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
+import formatSkillText, { formatActivesSection, formatBuildSection, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
 
 /*
 This file contains the intro contents of a Class Overview
