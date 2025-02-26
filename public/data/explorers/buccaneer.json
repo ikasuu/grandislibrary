@@ -24,63 +24,63 @@
             {
                 "name": "Attack Speed",
                 "stat": "Stage 8",
-                "detail": "<ul><li class='bs-no-icon'>Stage 5</li> <li><span data-tooltip='Agile Knuckles (2nd Job)'><img src='/class-icons/explorers/buccaneer/agile-knuckles.png' alt='Skill Agile Knuckles'/></span> +2</li> <li><span data-tooltip='Speed Infusion (4th Job)'><img src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/></span> +2, does not break soft cap</li></ul>"
+                "detail": "<bg val={Stage 5}> <bg src={/class-icons/explorers/buccaneer/agile-knuckles.png} tip={Agile Knuckles (2nd Job)} val={+2}> <bg src={/class-icons/common/speed-infusion.png} tip={Speed Infusion (4th Job)} val={+2, does not break soft cap}>"
             },
             {
                 "name": "Weapon Mastery",
                 "stat": "90%",
-                "detail": "<ul><li class='bs-no-icon'>Base +20%</li> <li><span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> +70%</li></ul>"
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones (4th Job)} val={+70%}>"
             },
             {
                 "name": "STR",
                 "stat": "+15%(440%) +120",
-                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li> <li><span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span> +25% within zone</li></ul> <ul><li><span data-tooltip='Pirate Blessing (Link Skill)'><img src='/class-icons/link-skills/pirate-blessing.png' alt='Skill Pirate Blessing'/></span> +70</li> <li><span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30</li> <li><span data-tooltip='Agile Knuckles (2nd Job)'><img src='/class-icons/explorers/buccaneer/agile-knuckles.png' alt='Skill Agile Knuckles'/></span> +20</li></ul>"
+                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% within zone}> <bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+70}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/buccaneer/agile-knuckles.png} tip={Agile Knuckles (2nd Job)} val={+20}>"
             },
             {
                 "name": "Attack",
                 "stat": "+19% +90(130)",
-                "detail": "<ul><li><span data-tooltip='Hero's Echo (Beginner Skill)'><img src='/class-icons/common/heros-echo.png' alt='Skill Hero's Echo'/></span> +4%</li> <li><span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> +15%</li> <li><span data-tooltip='Dark Clarity (2nd Job)'><img src='/class-icons/explorers/buccaneer/dark-clarity.png' alt='Skill Dark Clarity'/></span> +30</li> <li><span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +30</li> <li><span data-tooltip='Typhoon Crush (4th Job)'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> +30</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span> +40</li> <li class='bs-long-text'><div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span></div> <div>+80% of base weapon attack power<br/>-15% of base weapon power while on cooldown</div></li></ul>"
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones (4th Job)} val={+15%}> <bg src={/class-icons/explorers/buccaneer/dark-clarity.png} tip={Dark Clarity (2nd Job)} val={+30}> <bg src={/class-icons/explorers/buccaneer/precision-strikes.png} tip={Precision Strikes (3rd Job)} val={+30}> <bg src={/class-icons/explorers/buccaneer/typhoon-crush.png} tip={Typhoon Crush (4th Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
             },
             {
                 "name": "Crit Rate",
                 "stat": "+40% (60% for bosses) (100% for debuffed)",
-                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Shadow Heart (1st Job)'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Shadow Heart'/></span> +20%</li> <li><span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +15% & +20% against bosses</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Groggy Mastery (3rd Job)'><img src='/class-icons/explorers/buccaneer/groggy-mastery.png' alt='Skill Groggy Mastery'/></span> +60% to debuffed</li></ul>"
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart (1st Job)} val={+20%}> <bg src={/class-icons/explorers/buccaneer/precision-strikes.png} tip={Precision Strikes (3rd Job)} val={+15% & +20% against bosses}> <bg type={temp} src={/class-icons/explorers/buccaneer/groggy-mastery.png} tip={Groggy Mastery (3rd Job)} val={+60% to debuffed}>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+30%(45%)",
-                "detail": "<ul><li><span data-tooltip='Shadow Heart (1st Job)'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Critical Fire'/></span> +5%</li> <li><span data-tooltip='Precision Strikes (3rd Job)'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> +10%</li> <li class='bs-long-text'><div><span data-tooltip='Serpent Spirit (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/serpent-spirit.png' alt='Skill Serpent Spirit'/></span></div> <div>+5% per attack to enemy with Serpent Mark<br/>(Max. +15%)</div></li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Groggy Mastery (3rd Job)'><img src='/class-icons/explorers/buccaneer/groggy-mastery.png' alt='Skill Groggy Mastery'/></span> +15% to debuffed</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart (1st Job)} val={+5%}> <bg src={/class-icons/explorers/buccaneer/precision-strikes.png} tip={Precision Strikes (3rd Job)} val={+10%}> <bg src={/class-icons/explorers/buccaneer/serpent-spirit.png} tip={Serpent Spirit (Hyper Skill)} val={+5% per attack to enemy with Serpent Mark} val={(Max. +15%)}> <bg type={temp} src={/class-icons/explorers/buccaneer/groggy-mastery.png} tip={Groggy Mastery (3rd Job)} val={+15% to debuffed}>"
             },
             {
                 "name": "Damage",
                 "stat": "+25%(75%)",
-                "detail": "<ul><li><span data-tooltip='Aggressive Stance (4th Job)'><img src='/class-icons/explorers/buccaneer/aggressive-stance.png' alt='Skill Aggressive Stance'/></span> +25%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Stimulating Conversation (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/stimulating-conversation.png' alt='Skill Stimulating Conversation'/></span> +20%</li> <li><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/pirate/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/buccaneer/aggressive-stance.png} tip={Aggressive Stance (4th Job)} val={+25%}> <bg type={temp} src={/class-icons/explorers/buccaneer/stimulating-conversation.png} tip={Stimulating Conversation (Hyper Skill)} val={+20%}> <bg type={temp} src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
                 "stat": "+20%",
-                "detail": "<ul><li><span data-tooltip='Stimulating Conversation - Passive (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/stimulating-conversation.png' alt='Skill Stimulating Conversation'/></span> +20%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/buccaneer/stimulating-conversation.png} tip={Stimulating Conversation - Passive (Hyper Skill)} val={+20%}>"
             },
             {
                 "name": "Final Damage",
                 "stat": "+24.3%(87.94%)",
-                "detail": "<ul><li><span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> +13%</li></ul> × <ul><li><span data-tooltip='Typhoon Crush (4th Job)'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> +10%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Sea Serpent&#39;s Rage (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpent&#39;s Rage'/></span> +20%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Lightning Form (5th Job)'><img src='/class-icons/explorers/buccaneer/lightning-form.png' alt='Skill Lightning Form'/></span> +26%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones (4th Job)} val={+13%}> × <bg src={/class-icons/explorers/buccaneer/typhoon-crush.png} tip={Typhoon Crush (4th Job)} val={+10%}> × <bg type={debuff} src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)} val={+20%}> × <bg type={temp} src={/class-icons/explorers/buccaneer/lightning-form.png} tip={Lightning Form (5th Job)} val={+26%}>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+40%(55%)",
-                "detail": "<ul><li><span data-tooltip='Typhoon Crush (4th Job)'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> +40%</li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span> +25% within zone</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/buccaneer/typhoon-crush.png} tip={Typhoon Crush (4th Job)} val={+40%}> × <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% within zone}>"
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Crossbones (4th Job)'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span>[180s]</div> <div><span data-tooltip='Speed Infusion (4th Job)'><img src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/></span>[180s]</div> <div><span data-tooltip='Serpent Spirit (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/serpent-spirit.png' alt='Skill Serpent Spirit'/>[90s]</span></div>",
-            "toggles": "<span data-tooltip='Sea Serpent (2nd Job)'><img src='/class-icons/explorers/buccaneer/sea-serpent.png' alt='Skill Sea Serpent'/></span>",
-            "summons": "<div><span data-tooltip='Pirate&#39;s Banner (5th Job)'><img src='/class-icons/5th-job/pirates-banner.png' alt='Skill Pirate&#39;s Banner'/></span>[30s](30s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Roll of the Dice (3rd Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span>[180s](180s cd / 90s cd if 1)</div> <div><span data-tooltip='Stimulating Conversation (Hyper Skill)'><img src='/class-icons/explorers/buccaneer/stimulating-conversation.png' alt='Skill Stimulating Conversation'/></span>[90s](180s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/pirate/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Lightning Form (5th Job)'><img src='/class-icons/explorers/buccaneer/lightning-form.png' alt='Skill Lightning Form'/></span>[80s](180s cd)</div> <div><span data-tooltip='Overdrive (5th Job)'><img src='/class-icons/5th-job/overdrive.png' alt='Skill Overdrive'/></span>[28s](60s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div> <div><span data-tooltip='Loaded Dice (5th Job)'><img src='/class-icons/5th-job/loaded-dice.png' alt='Skill Loaded Dice'/></span>(10s cd)</div>",
-            "binds": "<div><span data-tooltip='Unleash Neptunus (6th Job)'><img src='/class-icons/explorers/buccaneer/unleash-neptunus.png' alt='Skill Unleash Neptunus'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Sommersault Kick (1st Job)'><img src='/class-icons/explorers/pirate/sommersault-kick.png' alt='Skill Sommersault Kick'/></span>(Touch Damage iFrame)</div> <div><span data-tooltip='Lightning Form (5th Job)'><img src='/class-icons/explorers/buccaneer/lightning-form.png' alt='Skill Lightning Form'/></span>[Up to 3.6s](180s cd, during Energy Orb cast)</div> <div><span data-tooltip='Howling Fist (5th Job)'><img src='/class-icons/explorers/buccaneer/howling-fist.png' alt='Skill Howling Fist'/></span>(90s cd)</div> <div><span data-tooltip='Unleash Neptunus (6th Job)'><img src='/class-icons/explorers/buccaneer/unleash-neptunus.png' alt='Skill Unleash Neptunus'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Defensive Stance (4th Job)'><img src='/class-icons/explorers/buccaneer/defensive-stance.png' alt='Skill Defensive Stance'/></span>[4s](-25% | 4s cd)</div>"
-        },
+            "active": "<tt src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones (4th Job)} dur={[180s]}> <tt src={/class-icons/common/speed-infusion.png} tip={Speed Infusion (4th Job)} dur={[180s]}> <tt src={/class-icons/explorers/buccaneer/serpent-spirit.png} tip={Serpent Spirit (Hyper Skill)} dur={[90s]}>",
+            "toggles": "<tt src={/class-icons/explorers/buccaneer/sea-serpent.png} tip={Sea Serpent (2nd Job)} dur={(Toggle)}>",
+            "summons": "<tt src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} dur={[30s](30s cd)}>",
+            "buffCd": "<tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)} dur={[180s](180s cd / 90s cd if 1)}> <tt src={/class-icons/explorers/buccaneer/stimulating-conversation.png} tip={Stimulating Conversation (Hyper Skill)} dur={[90s](180s cd)}> <tt src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/buccaneer/lightning-form.png} tip={Lightning Form (5th Job)} dur={[80s](180s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} dur={(10s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/buccaneer/unleash-neptunus.png} tip={Unleash Neptunus (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/pirate/sommersault-kick.png} tip={Sommersault Kick (1st Job)} dur={(Touch Damage iFrame)}> <tt src={/class-icons/explorers/buccaneer/lightning-form.png} tip={Lightning Form (5th Job)} dur={[Up to 3.6s](180s cd, during Energy Orb cast)}> <tt src={/class-icons/explorers/buccaneer/howling-fist.png} tip={Howling Fist (5th Job)} dur={(90s cd)}> <tt src={/class-icons/explorers/buccaneer/unleash-neptunus.png} tip={Unleash Neptunus (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/explorers/buccaneer/defensive-stance.png} tip={Defensive Stance (4th Job)} dur={[4s](-25% | 4s cd)}>"
+        },        
         "linkSkill": {
                 "id":80002774,
                 "icons": ["/class-icons/link-skills/pirate-blessing.png"],
@@ -89,7 +89,7 @@
                 "details": [
                     "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
                     "The stats are affected by %Stat bonuses",
-                    "<strong>[Note]</strong>: Link Skill has a togglable effect where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<ul><li>Double-click the Link Skill to turn this effect ON/OFF</li><li>The effect only applies to the original Link Skill, not the transferred version</li><li>Excludes Primary and Secondary Weapon, Totems, and Symbols</li></ul>"
+                    "[Note]: Link Skill has a togglable effect where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Double-click the Link Skill to turn this effect ON/OFF_The effect only applies to the original Link Skill, not the transferred version_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
                 ]
         },
         "howToCreate": {
@@ -105,11 +105,11 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<span data-tooltip='Pirate Leap'><img src='/class-icons/explorers/pirate/pirate-leap.png' alt='Skill Pirate Leap'/></span> -> <span data-tooltip='Bullet Time'><img src='/class-icons/explorers/pirate/bullet-time.png' alt='Skill Bullet Time'/></span> -> <span data-tooltip='Dash'><img src='/class-icons/explorers/pirate/dash.png' alt='Skill Dash'/></span> -> <span data-tooltip='Shadow Heart'><img src='/class-icons/explorers/pirate/shadow-heart.png' alt='Skill Shadow Heart.png'/></span> -> <span data-tooltip='Sommersault Kick'><img src='/class-icons/explorers/pirate/sommersault-kick.png' alt='Skill Sommersault Kick'/></span> -> <span data-tooltip='Double Shot'><img src='/class-icons/explorers/pirate/double-shot.png' alt='Skill Double Shot'/></span>"],
-                ["2nd Job", "<span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Perseverance'><img src='/class-icons/explorers/buccaneer/perseverance.png' alt='Skill Perseverance'/></span> -> <span data-tooltip='HP Boost'><img src='/class-icons/explorers/buccaneer/hp-boost.png' alt='Skill HP Boost'/></span> -> <span data-tooltip='Knuckle Mastery'><img src='/class-icons/common/knuckle-mastery.png' alt='Skill Knuckle Mastery'/></span> -> <span data-tooltip='Agile Knuckles'><img src='/class-icons/explorers/buccaneer/agile-knuckles.png' alt='Skill Agile Knuckles'/></span> -> <span data-tooltip='Dark Clarity'><img src='/class-icons/explorers/buccaneer/dark-clarity.png' alt='Skill Dark Clarity'/></span> -> <span data-tooltip='Static Thumper'><img src='/class-icons/explorers/buccaneer/static-thumper.png' alt='Skill Static Thumper'/></span> -> <span data-tooltip='Sea Serpent'><img src='/class-icons/explorers/buccaneer/sea-serpent.png' alt='Skill Sea Serpent'/></span>"],
-                ["3rd Job", "<span data-tooltip='Admiral&#39;s Wings'><img src='/class-icons/explorers/buccaneer/admirals-wings.png' alt='Skill Admiral&#39;s Wings'/></span> -> <span data-tooltip='Precision Strikes'><img src='/class-icons/explorers/buccaneer/precision-strikes.png' alt='Skill Precision Strikes'/></span> -> <span data-tooltip='Groggy Mastery'><img src='/class-icons/explorers/buccaneer/groggy-mastery.png' alt='Skill Groggy Mastery'/></span> -> <span data-tooltip='Greater Sea Serpent I'><img src='/class-icons/explorers/buccaneer/greater-sea-serpent-i.png' alt='Skill Greater Sea Serpent I'/></span> -> <span data-tooltip='Roll of the Dice'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span> -> <span data-tooltip='Turning Kick'><img src='/class-icons/explorers/buccaneer/turning-kick.png' alt='Skill Turning Kick'/></span> -> <span data-tooltip='Serpent Scale'><img src='/class-icons/explorers/buccaneer/serpent-scale.png' alt='Skill Serpent Scale'/></span> -> <span data-tooltip='Corkscrew Blow'><img src='/class-icons/explorers/buccaneer/corkscrew-blow.png' alt='Skill Corkscrew Blow'/></span>"],
-                ["4th Job", "<span data-tooltip='Double Down'><img src='/class-icons/common/double-down.png' alt='Skill Double Down'/></span> -> <span data-tooltip='Aggressive Stance'><img src='/class-icons/explorers/buccaneer/aggressive-stance.png' alt='Skill Aggressive Stance'/></span> -> <span data-tooltip='Defensive Stance'><img src='/class-icons/explorers/buccaneer/defensive-stance.png' alt='Skill Defensive Stance'/></span> -> <span data-tooltip='Greater Sea Serpent II'><img src='/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png' alt='Skill Greater Sea Serpent II'/></span> -> <span data-tooltip='Raging Serpent Assault'><img src='/class-icons/explorers/buccaneer/raging-serpent-assault.png' alt='Skill Raging Serpent Assault'/></span> -> <span data-tooltip='Typhoon Crush'><img src='/class-icons/explorers/buccaneer/typhoon-crush.png' alt='Skill Typhoon Crush'/></span> -> <span data-tooltip='Hook Bomber'><img src='/class-icons/explorers/buccaneer/hook-bomber.png' alt='Skill Hook Bomber'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Speed Infusion'><img src='/class-icons/common/speed-infusion.png' alt='Skill Speed Infusion'/></span> -> <span data-tooltip='Crossbones'><img src='/class-icons/explorers/buccaneer/crossbones.png' alt='Skill Crossbones'/></span> -> <span data-tooltip='Nautilus Strike'><img src='/class-icons/explorers/buccaneer/nautilus-strike.png' alt='Skill Nautilus Strike'/></span> -> <span data-tooltip='Octopunch'><img src='/class-icons/explorers/buccaneer/octopunch.png' alt='Skill Octopunch'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span> -> <span data-tooltip='Time Leap'><img src='/class-icons/explorers/buccaneer/time-leap.png' alt='Skill Time Leap'/></span>"]
-            ],
+                ["1st Job", "<tt src={/class-icons/explorers/pirate/pirate-leap.png} tip={Pirate Leap}> -> <tt src={/class-icons/explorers/pirate/bullet-time.png} tip={Bullet Time}> -> <tt src={/class-icons/explorers/pirate/dash.png} tip={Dash}> -> <tt src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart}> -> <tt src={/class-icons/explorers/pirate/sommersault-kick.png} tip={Sommersault Kick}> -> <tt src={/class-icons/explorers/pirate/double-shot.png} tip={Double Shot}>"],
+                ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/buccaneer/perseverance.png} tip={Perseverance}> -> <tt src={/class-icons/explorers/buccaneer/hp-boost.png} tip={HP Boost}> -> <tt src={/class-icons/common/knuckle-mastery.png} tip={Knuckle Mastery}> -> <tt src={/class-icons/explorers/buccaneer/agile-knuckles.png} tip={Agile Knuckles}> -> <tt src={/class-icons/explorers/buccaneer/dark-clarity.png} tip={Dark Clarity}> -> <tt src={/class-icons/explorers/buccaneer/static-thumper.png} tip={Static Thumper}> -> <tt src={/class-icons/explorers/buccaneer/sea-serpent.png} tip={Sea Serpent}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/buccaneer/admirals-wings.png} tip={Admiral's Wings}> -> <tt src={/class-icons/explorers/buccaneer/precision-strikes.png} tip={Precision Strikes}> -> <tt src={/class-icons/explorers/buccaneer/groggy-mastery.png} tip={Groggy Mastery}> -> <tt src={/class-icons/explorers/buccaneer/greater-sea-serpent-i.png} tip={Greater Sea Serpent I}> -> <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> -> <tt src={/class-icons/explorers/buccaneer/turning-kick.png} tip={Turning Kick}> -> <tt src={/class-icons/explorers/buccaneer/serpent-scale.png} tip={Serpent Scale}> -> <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow}>"],
+                ["4th Job", "<tt src={/class-icons/common/double-down.png} tip={Double Down}> -> <tt src={/class-icons/explorers/buccaneer/aggressive-stance.png} tip={Aggressive Stance}> -> <tt src={/class-icons/explorers/buccaneer/defensive-stance.png} tip={Defensive Stance}> -> <tt src={/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png} tip={Greater Sea Serpent II}> -> <tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault}> -> <tt src={/class-icons/explorers/buccaneer/typhoon-crush.png} tip={Typhoon Crush}> -> <tt src={/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/common/speed-infusion.png} tip={Speed Infusion}> -> <tt src={/class-icons/explorers/buccaneer/crossbones.png} tip={Crossbones}> -> <tt src={/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike}> -> <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}> -> <tt src={/class-icons/explorers/buccaneer/time-leap.png} tip={Time Leap}>"]
+            ],              
             "details": [
                 "All 1st to 4th Job skills can be maxed",
                 "Put one SP into each skill first and then max each skill in this order",
@@ -117,11 +117,22 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<h6>Bossing</h6><ul><li><img src='/class-icons/explorers/buccaneer/double-down-saving-grace.png' alt='Skill Double Down - Saving Grace'/> <img src='/class-icons/explorers/buccaneer/double-down-enhance.png' alt='Skill Double Down - Enhance'/> Double Down - Saving Grace and Enhance</li><li><img src='/class-icons/explorers/buccaneer/octopunch-reinforce.png' alt='Skill Octopunch - Reinforce'/> <img src='/class-icons/explorers/buccaneer/octopunch-boss-rush.png' alt='Skill Octopunch - Boss Rush'/> <img src='/class-icons/explorers/buccaneer/octopunch-extra-strike.png' alt='Skill Octopunch - Extra Strike'/> Octopunch - Reinforce, Boss Rush, and Extra Strike</li></ul><h6>Mobbing</h6><ul><li><img src='/class-icons/explorers/buccaneer/double-down-saving-grace.png' alt='Skill Double Down - Saving Grace'/> <img src='/class-icons/explorers/buccaneer/double-down-enhance.png' alt='Skill Double Down - Enhance'/> Double Down - Saving Grace and Enhance</li><li><img src='/class-icons/explorers/buccaneer/hook-bomber-reinforce.png' alt='Skill Hook Bomber - Reinforce'/> <img src='/class-icons/explorers/buccaneer/hook-bomber-spread.png' alt='Skill Hook Bomber - Spread'/> <img src='/class-icons/explorers/buccaneer/hook-bomber-extra-strike.png' alt='Skill Hook Bomber - Extra Strike'/> Hook Bomber - Reinforce, Spread, and Extra Strike</li></ul>"
+            "recommended": "[Bossing]<bp_<tt src={/class-icons/explorers/buccaneer/double-down-saving-grace.png} tip={Double Down - Saving Grace}> <tt src={/class-icons/explorers/buccaneer/double-down-enhance.png} tip={Double Down - Enhance}> Double Down - Saving Grace and Enhance_<tt src={/class-icons/explorers/buccaneer/octopunch-reinforce.png} tip={Octopunch - Reinforce}> <tt src={/class-icons/explorers/buccaneer/octopunch-boss-rush.png} tip={Octopunch - Boss Rush}> <tt src={/class-icons/explorers/buccaneer/octopunch-extra-strike.png} tip={Octopunch - Extra Strike}> Octopunch - Reinforce, Boss Rush, and Extra Strike_>[Mobbing]<bp_<tt src={/class-icons/explorers/buccaneer/double-down-saving-grace.png} tip={Double Down - Saving Grace}> <tt src={/class-icons/explorers/buccaneer/double-down-enhance.png} tip={Double Down - Enhance}> Double Down - Saving Grace and Enhance_<tt src={/class-icons/explorers/buccaneer/hook-bomber-reinforce.png} tip={Hook Bomber - Reinforce}> <tt src={/class-icons/explorers/buccaneer/hook-bomber-spread.png} tip={Hook Bomber - Spread}> <tt src={/class-icons/explorers/buccaneer/hook-bomber-extra-strike.png} tip={Hook Bomber - Extra Strike}> Hook Bomber - Reinforce, Spread, and Extra Strike_>"
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Octopunch (4th Job)'><img src='/class-icons/explorers/buccaneer/octopunch.png' alt='Skill Octopunch'/></span> <span data-tooltip='Sea Serpent&#39;s Rage/Raging Serpent Assault (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpent&#39;s Rage'/></span> <span data-tooltip='Nautilus Strike (4th Job)'><img src='/class-icons/explorers/buccaneer/nautilus-strike.png' alt='Skill Nautilus Strike'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Hook Bomber (4th Job)'><img src='/class-icons/explorers/buccaneer/hook-bomber.png' alt='Skill Hook Bomber'/></span> <span data-tooltip='Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)'><img src='/class-icons/explorers/buccaneer/sea-serpent-burst.png' alt='Skill Sea Serpent Burst'/></span> <span data-tooltip='Corkscrew Blow (3rd Job)'><img src='/class-icons/explorers/buccaneer/corkscrew-blow.png' alt='Skill Corkscrew Blow'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)'><img src='/class-icons/explorers/buccaneer/sea-serpent-burst.png' alt='Skill Sea Serpent Burst'/></span> <span data-tooltip='Static Thumper (2nd Job)'><img src='/class-icons/explorers/buccaneer/static-thumper.png' alt='Skill Static Thumper'/></span> <span data-tooltip='Corkscrew Blow (3rd Job)'><img src='/class-icons/explorers/buccaneer/corkscrew-blow.png' alt='Skill Corkscrew Blow'/></span> <span data-tooltip='Turning Kick (3rd Job)'><img src='/class-icons/explorers/buccaneer/turning-kick.png' alt='Skill Turning Kick'/></span> <span data-tooltip='Octopunch (4th Job)'><img src='/class-icons/explorers/buccaneer/octopunch.png' alt='Skill Octopunch'/></span> <span data-tooltip='Hook Bomber (4th Job)'><img src='/class-icons/explorers/buccaneer/hook-bomber.png' alt='Skill Hook Bomber'/></span> <span data-tooltip='Nautilus Strike (4th Job)'><img src='/class-icons/explorers/buccaneer/nautilus-strike.png' alt='Skill Nautilus Strike'/></span> <span data-tooltip='Sea Serpent&#39;s Rage/Raging Serpent Assault (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpent&#39;s Rage'/></span>"
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage/Raging Serpent Assault (4th Job)}> <tt src={/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)}> <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "possible": {
+                "nodes": "<tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)}> <tt src={/class-icons/explorers/buccaneer/static-thumper.png} tip={Static Thumper (2nd Job)}> <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}> <tt src={/class-icons/explorers/buccaneer/turning-kick.png} tip={Turning Kick (3rd Job)}> <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> <tt src={/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}> <tt src={/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage/Raging Serpent Assault (4th Job)}>"
+            }
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Buccaneer"},
@@ -200,7 +211,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' target='_blank' rel='noreferrer noopener'>'An Arrangement from the Goddess'</a>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -287,10 +298,10 @@
                         "icons": ["/class-icons/explorers/buccaneer/advanced-dash.png", "/class-icons/explorers/pirate/dash.png"],
                         "animations": ["https://media.giphy.com/media/o9zj9IXC09hOnLBins/giphy.gif"],
                         "type": "Upgraded Passive / Active",
-                        "desc": "Using <span data-tooltip='Dash (1st Job)'><img src='/class-icons/explorers/pirate/dash.png' alt='Skill Dash'/></span> now propels you forward",
+                        "desc": "Using <tt src={/class-icons/explorers/pirate/dash.png} tip={Dash (1st Job)}> now propels you forward",
                         "details": [
-                            "Additionally increases the effects of <span data-tooltip='Dash (1st Job)'><img src='/class-icons/explorers/pirate/dash.png' alt='Skill Dash'/></span>",
-                            "<span data-tooltip='Advanced Dash (2nd Job)'><img src='/class-icons/explorers/buccaneer/advanced-dash.png' alt='Skill Advanced Dash'/></span> can be assigned a Key Slot to perform the dash and propel"
+                            "Additionally increases the effects of <tt src={/class-icons/explorers/pirate/dash.png} tip={Dash (1st Job)}>",
+                            "Can be assigned a Key Slot to perform the dash and propel"
                         ]
                     },
                     {
@@ -361,7 +372,7 @@
                         "type": "Sea Serpent Attack",
                         "desc": "A Sea Serpent appears forward damaging enemies in its path",
                         "details": [
-                            "Shares the same Skill Points (SP) with <span data-tooltip='Sea Serpent (2nd Job)'><img src='/class-icons/explorers/buccaneer/sea-serpent.png' alt='Skill Sea Serpent'/></span>",
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/explorers/buccaneer/sea-serpent.png} tip={Sea Serpent (2nd Job)}>",
                             "Unaffected by cooldown resets"
                         ]
                     },
@@ -383,8 +394,8 @@
                         "type": "Attack",
                         "desc": "Dashes forward while pushing back enemies",
                         "details": [
-                            "Can be linked with other attacks however the skill will go on cooldown<ul><li>Using the skill on its own will not put it on cooldown</li></ul>",
-                            "When this skill is used first and is linked into <span data-tooltip='Octopunch (4th Job)'><img src='/class-icons/explorers/buccaneer/octopunch.png' alt='Skill Octopunch'/></span>, you will teleport forward to the nearest enemy, if any, and the skill will not go on cooldown"
+                            "Can be linked with other attacks however the skill will go on cooldown<bp_Using the skill on its own will not put it on cooldown_>",
+                            "When this skill is used first and is linked into <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>, you will teleport forward to the nearest enemy, if any, and the skill will not go on cooldown"
                         ]
                     },
                     {
@@ -420,12 +431,12 @@
                         "type": "Buff",
                         "desc": "Grants a buff depending on the number rolled",
                         "details": [
-                            "<strong>[One]:</strong> Reduces cooldown of <span data-tooltip='Roll of the Dice (3rd Job)'><img src='/class-icons/common/roll-of-the-dice.png' alt='Skill Roll of the Dice'/></span> by 50%",
-                            "<strong>[Two]</strong>: Increases %DEF",
-                            "<strong>[Three]</strong>: Increases %Max HP/MP",
-                            "<strong>[Four]</strong>: Increases %Crit Rate",
-                            "<strong>[Five]</strong>: Increases %Damage",
-                            "<strong>[Six]</strong>: Increases %EXP Rate"
+                            "[One]: Reduces cooldown of <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)}> by 50%",
+                            "[Two]: Increases %DEF",
+                            "[Three]: Increases %Max HP/MP",
+                            "[Four]: Increases %Crit Rate",
+                            "[Five]: Increases %Damage",
+                            "[Six]: Increases %EXP Rate"
                         ]
                     },
                     {
@@ -438,7 +449,7 @@
                         "desc": "Consumes 5 Serpent Scales to enter Assault Mode",
                         "details": [
                             "Serpent Scales are gained upon using a Sea Serpent Skill (up to 5 scales)",
-                            "In Assault Mode, Fighting skills will trigger Assault skills instead of Sea Serpent skills<ul><li>Upon activating one Assault skill, Assault Mode will end</li></ul>",
+                            "In Assault Mode, Fighting skills will trigger Assault skills instead of Sea Serpent skills<bp_Upon activating one Assault skill, Assault Mode will end_>",
                             "Right-clicking the skill will toggle Auto Use ON/OFF automatically activating Assault Mode upon collecting 5 Serpent Scales"
                         ]
                     },
@@ -451,7 +462,7 @@
                         "type": "Assault Attack",
                         "desc": "A Sea Serpent erupts from the ground damaging enemies in a large area",
                         "details": [
-                            "Shares the same Skill Points (SP) with <span data-tooltip='Serpent Scale (3rd Job)'><img src='/class-icons/explorers/buccaneer/serpent-scale.png' alt='Skill Serpent Scale'/></span>",
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/explorers/buccaneer/serpent-scale.png} tip={Serpent Scale (3rd Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -491,7 +502,7 @@
                         "type": "Fighting Attack",
                         "desc": "Unleashes a barrage of punches forward",
                         "details": [
-                            "Can only trigger <span data-tooltip='Sea Serpent&#39;s Rage (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpents Rage'/></span> and <span data-tooltip='Raging Serpent Assault (4th Job)'><img src='/class-icons/explorers/buccaneer/raging-serpent-assault.png' alt='Skill Raging Serpent Assault'/></span>"
+                            "Can only trigger <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> and <tt src={/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)}>"
                         ]
                     },
                     {
@@ -509,7 +520,7 @@
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png", "/class-icons/explorers/buccaneer/sea-serpent-burst.png"],
                         "type": "Upgraded Passive",
-                        "desc": "Enhances <span data-tooltip='Sea Serpent Burst (2nd Job)'><img src='/class-icons/explorers/buccaneer/sea-serpent-burst.png' alt='Skill Sea Serpent Burst'/></span> further and unlocks <span data-tooltip='Sea Serpent&#39;s Rage (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpents Rage'/></span>",
+                        "desc": "Enhances <tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> further and unlocks <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}>",
                         "details": [
                             "Grants both skills Skill Points (SP)"
                         ]
@@ -536,9 +547,9 @@
                         "type": "Sea Serpent Attack",
                         "desc": "A Sea Serpent appears and releases a bite forward that debuffs enemies hit",
                         "details": [
-                            "<strong>[Debuff - Serpent's Mark]</strong>: Enemy takes increased %Final Damage",
-                            "Shares the same Skill Points (SP) with <span data-tooltip='Greater Sea Serpent II (4th Job)'><img src='/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png' alt='Skill Greater Sea Serpent II'/></span>",
-                            "Triggers only when using <span data-tooltip='Octopunch (4th Job)'><img src='/class-icons/explorers/buccaneer/octopunch.png' alt='Skill Octopunch'/></span>",
+                            "[Debuff - Serpent's Mark]: Enemy takes increased %Final Damage",
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/explorers/buccaneer/greater-sea-serpent-ii.png} tip={Greater Sea Serpent II (4th Job)}>",
+                            "Triggers only when using <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>",
                             "Unaffected by cooldown resets"
                         ]
                     },
@@ -551,8 +562,8 @@
                         "type": "Assault Attack",
                         "desc": "A Sea Serpent continuously attacks an area for a few seconds",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases the %Damage of <span data-tooltip='Serpent Assault (3rd Job)'><img src='/class-icons/explorers/buccaneer/serpent-assault.png' alt='Skill Serpent Assault'/></span>",
-                            "Triggers only when using <span data-tooltip='Octopunch (4th Job)'><img src='/class-icons/explorers/buccaneer/octopunch.png' alt='Skill Octopunch'/></span>"
+                            "[Passive]: Permanently increases the %Damage of <tt src={/class-icons/explorers/buccaneer/serpent-assault.png} tip={Serpent Assault (3rd Job)}>",
+                            "Triggers only when using <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>"
                         ]
                     },
                     {
@@ -564,7 +575,7 @@
                         "type": "Attack",
                         "desc": "Launches a massive attack that damages a large area",
                         "details": [
-                            "<strong>[Passive Final Attack]</strong>: Permanently when using <span data-tooltip='Sommersault Kick (1st Job)'><img src='/class-icons/explorers/pirate/sommersault-kick.png' alt='Skill Sommersault Kick'/></span> <span data-tooltip='Corkscrew Bolt (3rd Job)'><img src='/class-icons/explorers/buccaneer/corkscrew-blow.png' alt='Skill Spiral Assault'/></span> <span data-tooltip='Octopunch (4th Job)'><img src='/class-icons/explorers/buccaneer/octopunch.png' alt='Skill Octopunch'/></span> <span data-tooltip='Serpent Vortex (5th Job)'><img src='/class-icons/explorers/buccaneer/serpent-vortex.png' alt='Skill Serpent Vortex'/></span> <span data-tooltip='Howling Fist (5th Job)'><img src='/class-icons/explorers/buccaneer/howling-fist.png' alt='Skill Howling Fist'/></span> <span data-tooltip='Unleash Neptunus (6th Job)'><img src='/class-icons/explorers/buccaneer/unleash-neptunus.png' alt='Skill Unleash Neptunus'/></span> (does not trigger Neptunus Enrage) will deal an additional attack",
+                            "[Final Attack]: Permanently when using <tt src={/class-icons/explorers/pirate/sommersault-kick.png} tip={Sommersault Kick (1st Job)}> <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Bolt (3rd Job)}> <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> <tt src={/class-icons/explorers/buccaneer/serpent-vortex.png} tip={Serpent Vortex (5th Job)}> <tt src={/class-icons/explorers/buccaneer/howling-fist.png} tip={Howling Fist (5th Job)}> <tt src={/class-icons/explorers/buccaneer/unleash-neptunus.png} tip={Unleash Neptunus (6th Job)}> (does not trigger Neptunus Enrage) will deal an additional attack",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -577,7 +588,7 @@
                         "type": "Buff",
                         "desc": "",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Weapon Mastery, %Final Damage, Abnormal Status Resistance, and %Elemental Resistance"
+                            "[Passive]: Permanently increases %Weapon Mastery, %Final Damage, Abnormal Status Resistance, and %Elemental Resistance"
                         ]
                     },
                     {
@@ -624,7 +635,7 @@
                         "type": "Buff",
                         "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                         "details": [
-                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                         ]
                     },
                     {
@@ -655,7 +666,7 @@
                         "type": "Passive",
                         "desc": "Successfully landing attacks grant a %Damage buff",
                         "details": [
-                            "Also permanently increases %Damage of <span data-tooltip='Corkscrew Blow (3rd Job)'><img src='/class-icons/explorers/buccaneer/corkscrew-blow.png' alt='Skill Corkscew Blow'/></span>"
+                            "Also permanently increases %Damage of <tt src={/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}>"
                         ]
                     },
                     {
@@ -754,9 +765,9 @@
                     "icons": ["/class-icons/explorers/buccaneer/stimulating-conversation.png"],
                     "animations": ["https://media.giphy.com/media/mbEzsszh0brnHcvtgw/giphy.gif"],
                     "type": "Buff",
-                    "desc": "While active, increases %Damage and reduces the cooldown of the following skills by half, <span data-tooltip='Sea Serpent Burst (2nd Job)'><img src='/class-icons/explorers/buccaneer/sea-serpent-burst.png' alt='Skill Sea Serpent Burst'/></span> <span data-tooltip='Sea Serpent&#39;s Rage (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpent&#39;s Rage'/></span> and <span data-tooltip='Lord of the Deep (5th Job)'><img src='/class-icons/explorers/buccaneer/lord-of-the-deep.png' alt='Skill Lord of the Deep'/></span>",
+                    "desc": "While active, increases %Damage and reduces the cooldown of the following skills by half: <tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> <tt src={/class-icons/explorers/buccaneer/lord-of-the-deep.png} tip={Lord of the Deep (5th Job)}>",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Boss Damage"
+                        "[Passive]: Permanently increases %Boss Damage"
                     ],
                     "reqLev": 140
                 },
@@ -767,7 +778,7 @@
                     "icons": ["/class-icons/explorers/buccaneer/serpent-spirit.png"],
                     "animations": ["https://media.giphy.com/media/PIlc4wyjY4klhNOyjl/giphy.gif"],
                     "type": "Buff",
-                    "desc": "While active, attacking enemies debuffed by <span data-tooltip='Sea Serpent&#39;s Rage (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpent&#39;s Rage'/></span> grant a stacking %Crit Damage buff",
+                    "desc": "While active, attacking enemies debuffed by <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> grants a stacking %Crit Damage buff",
                     "reqLev": 160
                 },
                 {
@@ -792,7 +803,7 @@
                     "type": "Transform + Attack",
                     "desc": "Transforms into a special form where you gain increased %Final Damage",
                     "details": [
-                        "While transformed, press the Skill Key to release an energy orb (up to 3 orbs)<ul><li>Energy orb has increased %Crit Rate and %Ignore DEF</li><li>Energy orb is unaffected by Damage Reflect</li><li>Each orb can only attack a single enemy up to 14 times</li><li>While casting, you are invincible</li></ul>",
+                        "While transformed, press the Skill Key to release an energy orb (up to 3 orbs)<bp_Energy orb has increased %Crit Rate and %Ignore DEF_Energy orb is unaffected by Damage Reflect_Each orb can only attack a single enemy up to 14 times_While casting, you are invincible_>",
                         "While transformed, tapping an Arrow Key twice will teleport you in that direction"
                     ]
                 },
@@ -804,7 +815,7 @@
                     "type": "Toggle Attack",
                     "desc": "Creates a rotating Sea Serpent around you that damages enemies it touches",
                     "details": [
-                        "The attack can only hit 100 times before disappearing<ul><li>Attacking a boss 3 times counts as 1 attack towards this</li></ul>",
+                        "The attack can only hit 100 times before disappearing<bp_Attacking a boss 3 times counts as 1 attack towards this_>",
                         "The cooldown is reduced for every 40 enemies you defeat",
                         "The cooldown is reduced for every 10 attacks that remain when the skill ends",
                         "Unaffected by Damage Reflect"
@@ -847,7 +858,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Octopunch (4th Job)'><img src='/class-icons/explorers/buccaneer/octopunch.png' alt='Skill Octopunch'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -868,7 +879,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)'><img src='/class-icons/explorers/buccaneer/sea-serpent-burst.png' alt='Skill Sea Serpent Burst'/></span> <span data-tooltip='Sea Serpent&#39;s Rage/Raging Serpent Assault (4th Job)'><img src='/class-icons/explorers/buccaneer/sea-serpents-rage.png' alt='Skill Sea Serpent&#39;s Rage'/></span> <span data-tooltip='Nautilus Strike (4th Job)'><img src='/class-icons/explorers/buccaneer/nautilus-strike.png' alt='Skill Nautilus Strike'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)}> <tt src={/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage/Raging Serpent Assault (4th Job)}> <tt src={/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

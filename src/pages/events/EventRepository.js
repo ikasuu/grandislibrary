@@ -153,7 +153,7 @@ export class EventRepository extends Component {
                     <div>
                         <Helmet>
                             <title>Chaos Ring | Grandis Library</title>
-                            <meta content={"An event ring that has allows you to reroll the ring’s stats and potential for free a fixed number of times each week"} name="description"/>
+                            <meta content={"An event ring that has allows you to reroll the ring's stats and potential for free a fixed number of times each week"} name="description"/>
                         </Helmet>
                         <ContentTitle>Chaos Ring</ContentTitle>
                         <ChaosRing/>

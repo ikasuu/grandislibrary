@@ -25,37 +25,37 @@
             {
                 "name": "Attack Speed",
                 "stat": "Stage 7",
-                "detail": "<ul><li class='bs-no-icon'>Stage 4</li> <li><span data-tooltip='Archery Mastery (1st Job)'><img src='/class-icons/explorers/archer/archery-mastery.png' alt='Skill Archery Mastery'/></span> +1</li> <li><span data-tooltip='Agile Crossbows (2nd Job)'><img src='/class-icons/explorers/marksman/agile-crossbows.png' alt='Skill Agile Crossbows'/></span> +2</li>"
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/explorers/archer/archery-mastery.png} tip={Archery Mastery (1st Job)} val={+1}> <bg src={/class-icons/explorers/marksman/agile-crossbows.png} tip={Agile Crossbows (2nd Job)} val={+2}>"
             },
             {
                 "name": "Weapon Mastery",
                 "stat": "85%",
-                "detail": "<ul><li class='bs-no-icon'>Base +15%</li> <li><span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/explorers/marksman/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +70%</li></ul>"
+                "detail": "<bg val={Base +15%}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+70%}>"
             },
             {
                 "name": "DEX",
                 "stat": "+15%(415%) +130",
-                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='Agile Crossbows (2nd Job)'><img src='/class-icons/explorers/marksman/agile-crossbows.png' alt='Skill Agile Crossbows'/></span> +20</li> <li><span data-tooltip='Physical Training (2nd Job)'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> +30</li> <li><span data-tooltip='Illusion Step (4th Job)'><img src='/class-icons/explorers/marksman/illusion-step.png' alt='Skill Illusion Step'/></span> +80</li></ul>"
+                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={/class-icons/explorers/marksman/agile-crossbows.png} tip={Agile Crossbows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}>"
             },
             {
                 "name": "Attack",
                 "stat": "+60",
-                "detail": "<ul><li><span data-tooltip='Soul Arrow: Crossbow (2nd Job)'><img src='/class-icons/explorers/marksman/soul-arrow.png' alt='Skill Soul Arrow: Crossbow'/></span> +30</li> <li><span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/explorers/marksman/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +30</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/marksman/soul-arrow.png} tip={Soul Arrow: Crossbow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+30}>"
             },
             {
                 "name": "Crit Rate",
-                "stat": "+75%(95% excl. <span data-tooltip='Evasion Boost (3rd Job)'><img src='/class-icons/explorers/pathfinder/evasion-boost.png' alt='Skill Evasion Boost'/></span>)",
-                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Adventurer&#39;s Curiosity (Link Skill)'><img src='/class-icons/link-skills/adventurers-curiosity.png' alt='Skill Adventurer&#39;s Curiosity'/></span> +10%</li> <li><span data-tooltip='Critical Shot (1st Job)'><img src='/class-icons/explorers/archer/critical-shot.png' alt='Skill Critical Shot'/></span> +40%</li> <li><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +20%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Bullseye Shot (Hyper Skill)'><img src='/class-icons/explorers/marksman/bullseye-shot.png' alt='Skill Bullseye Shot'/></span> +20%</li> <li><span data-tooltip='Evasion Boost (3rd Job)'><img src='/class-icons/explorers/marksman/evasion-boost.png' alt='Skill Evasion Boost'/></span> +100% upon activating</li></ul>"
+                "stat": "+75%(95% excl. <tt src={/class-icons/explorers/pathfinder/evasion-boost.png} tip={Evasion Boost (3rd Job)}>)",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/link-skills/adventurers-curiosity.png} tip={Adventurer's Curiosity (Link Skill)} val={+10%}> <bg src={/class-icons/explorers/archer/critical-shot.png} tip={Critical Shot (1st Job)} val={+40%}> <bg src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} val={+20%}> <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+20%}> <bg type={temp} src={/class-icons/explorers/marksman/evasion-boost.png} tip={Evasion Boost (3rd Job)} val={+100% upon activating}>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+50%(60%)",
-                "detail": "<ul><li><span data-tooltip='Reckless Hunt: Crossbow (3rd Job)'><img src='/class-icons/explorers/marksman/reckless-hunt.png' alt='Skill Reckless Hunt: Crossbow'/></span> +20%</li> <li><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> +15%</li> <li><span data-tooltip='Crossbow Expert (4th Job)'><img src='/class-icons/explorers/marksman/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> +15%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Bullseye Shot (Hyper Skill)'><img src='/class-icons/explorers/marksman/bullseye-shot.png' alt='Skill Bullseye Shot'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span> +50% of Crit Rate</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/marksman/reckless-hunt.png} tip={Reckless Hunt: Crossbow (3rd Job)} val={+20%}> <bg src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} val={+15%}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+15%}> <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} val={+50% of Crit Rate}>"
             },
             {
                 "name": "Damage",
                 "stat": "+15%(85%)",
-                "detail": "<ul><li><span data-tooltip='Marksmanship (3rd Job)'><img src='/class-icons/explorers/marksman/marksmanship.png' alt='Skill Marksmanship'/></span> +15%</li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Bullseye Shot (Hyper Skill)'><img src='/class-icons/explorers/marksman/bullseye-shot.png' alt='Skill Bullseye Shot'/></span> +20%</li> <li><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/archer/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%</li> <li><span data-tooltip='Mortal Blow (3rd Job)'><img src='/class-icons/explorers/marksman/mortal-blow.png' alt='Skill Mortal Blow'/></span> +20% with 10% chance</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship (3rd Job)} val={+15%}> <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+20%}> <bg type={temp} src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/marksman/mortal-blow.png} tip={Mortal Blow (3rd Job)} val={+20% with 10% chance}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -65,21 +65,21 @@
             {
                 "name": "Final Damage",
                 "stat": "+63.94%(70.5%)",
-                "detail": "<ul><li><span data-tooltip='Crossbow Mastery (2nd Job)'><img src='/class-icons/explorers/marksman/crossbow-mastery.png' alt='Skill Crossbow Mastery'/></span> +20%</li></ul> × <ul><li><span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> +8%</li></ul> × <ul><li><span data-tooltip='Bolt Surplus (4th Job)'><img src='/class-icons/explorers/marksman/bolt-surplus.png' alt='Skill Bolt Surplus'/></span> +15%</li></ul> × <ul><li><span data-tooltip='Last Man Standing (4th Job)'><img src='/class-icons/explorers/marksman/last-man-standing.png' alt='Skill Last Man Standing'/></span> +10%</ul></li> × <ul class='bs-temp-val'><li><span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> +4% from buff</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/marksman/crossbow-mastery.png} tip={Crossbow Mastery (2nd Job)} val={+20%}> × <bg src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+8%}> × <bg src={/class-icons/explorers/marksman/bolt-surplus.png} tip={Bolt Surplus (4th Job)} val={+15%}> × <bg src={/class-icons/explorers/marksman/last-man-standing.png} tip={Last Man Standing (4th Job)} val={+10%}> × <bg type={temp} src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+4% from buff}>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+58%(70.77%)",
-                "detail": "<ul><li><span data-tooltip='Marksmanship (3rd Job)'><img src='/class-icons/explorers/marksman/marksmanship.png' alt='Skill Marksmanship'/></span> +25%</li></ul> × <ul><li><span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> +20%</li></ul> × <ul><li><span data-tooltip='Arrow Illusion (4th Job)'><img src='/class-icons/explorers/marksman/arrow-illusion.png' alt='Skill Arrow Illusion'/></span> +30%</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> +13% from buff</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Bullseye Shot (Hyper Skill)'><img src='/class-icons/explorers/marksman/bullseye-shot.png' alt='Skill Bulleyes Shot'/></span> +20%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship (3rd Job)} val={+25%}> × <bg src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+20%}> × <bg src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion (4th Job)} val={+30%}> × <bg type={temp} src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+13% from buff}> × <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+20%}>"
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Sharp Eyes (4th Job)'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span>[300s]</div>",
-            "summons": "<div><span data-tooltip='Frostprey (3rd Job)'><img src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/></span>[220s]</div> <div><span data-tooltip='Blink Bolt (3rd Job)'><img src='/class-icons/explorers/marksman/blink-bolt.png' alt='Skill Blink Bolt'/></span>[120s]</div> <div><span data-tooltip='Arrow Illusion (4th Job)'><img src='/class-icons/explorers/marksman/arrow-illusion.png' alt='Skill Arrow Illusion'/></span>[30s]</div> <div><span data-tooltip='Fury of the Wild (5th Job)'><img src='/class-icons/5th-job/fury-of-the-wild.png' alt='Skill Fury of the Wild'/></span>[40s](105s cd)</div> <div><span data-tooltip='Guided Arrow (5th Job)'><img src='/class-icons/5th-job/guided-arrow.png' alt='Skill Guided Arrow'/></span>(Toggle)</div>",
-            "buffCd": "<div><span data-tooltip='Bullseye Shot (Hyper Skill)'><img src='/class-icons/explorers/marksman/bullseye-shot.png' alt='Skill Bullseye Shot'/></span>[40s](120s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/archer/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div> <div><span data-tooltip='Vicious Shot (5th Job)'><img src='/class-icons/5th-job/vicious-shot.png' alt='Skill Vicious Shot'/></span>[30s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Final Aim (6th Job)'><img src='/class-icons/explorers/marksman/final-aim.png' alt='Skill Final Aim'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Perfect Shot (5th Job)'><img src='/class-icons/explorers/marksman/perfect-shot.png' alt='Skill Perfect Shot'/></span>[Up to 2s while casting & 1s after casting](60s cd)</div> <div><span data-tooltip='Final Aim (6th Job)'><img src='/class-icons/explorers/marksman/final-aim.png' alt='Skill Final Aim'/></span>(360s cd)</div>"
-        },
+            "active": "<tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
+            "summons": "<tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/marksman/blink-bolt.png} tip={Blink Bolt (3rd Job)} dur={[120s]}> <tt src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion (4th Job)} dur={[30s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "buffCd": "<tt src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/marksman/final-aim.png} tip={Final Aim (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/marksman/perfect-shot.png} tip={Perfect Shot (5th Job)} dur={[Up to 2s while casting & 1s after casting](60s cd)}> <tt src={/class-icons/explorers/marksman/final-aim.png} tip={Final Aim (6th Job)} dur={[360s cd]}>"
+        },    
         "linkSkill": {
                 "id":80002766,
                 "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
@@ -100,11 +100,11 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<span data-tooltip='Double Jump'><img src='/class-icons/explorers/archer/double-jump-1.png' alt='Skill Double Jump'/></span> -> <span data-tooltip='Archery Mastery'><img src='/class-icons/explorers/archer/archery-mastery.png' alt='Skill Archery Mastery.png'/></span> -> <span data-tooltip='Critical Shot'><img src='/class-icons/explorers/archer/critical-shot.png' alt='Skill Critical Shot'/></span> -> <span data-tooltip='Arrow Blow'><img src='/class-icons/explorers/archer/arrow-blow.png' alt='Skill Arrow Blow'/></span>"],
-                ["2nd Job", "<span data-tooltip='Crossbow Mastery'><img src='/class-icons/explorers/marksman/crossbow-mastery.png' alt='Skill Crossbow Mastery'/></span> -> <span data-tooltip='Physical Training'><img src='/class-icons/common/physical-training.png' alt='Skill Physical Training'/></span> -> <span data-tooltip='Agile Crossbows'><img src='/class-icons/explorers/marksman/agile-crossbows.png' alt='Skill Agile Crossbows'/></span> -> <span data-tooltip='Soul Arrow'><img src='/class-icons/explorers/marksman/soul-arrow.png' alt='Skill Soul Arrow'/></span> -> <span data-tooltip='Final Attack'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> -> <span data-tooltip='Piercing Arrow'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> -> <span data-tooltip='Covering Fire'><img src='/class-icons/explorers/marksman/covering-fire.png' alt='Skill Covering Fire'/></span>"],
-                ["3rd Job", "<span data-tooltip='Reckless Hunt: Crossbow'><img src='/class-icons/explorers/marksman/reckless-hunt.png' alt='Skill Reckless Hunt: Crossbow'/></span> -> <span data-tooltip='Frostprey'><img src='/class-icons/explorers/marksman/frostprey.png' alt='Skill Frostprey'/></span> -> <span data-tooltip='Evasion Boost'><img src='/class-icons/explorers/marksman/evasion-boost.png' alt='Skill Evasion Boost'/></span> -> <span data-tooltip='Marksmanship'><img src='/class-icons/explorers/marksman/marksmanship.png' alt='Skill Marksmanship'/></span> -> <span data-tooltip='Aggressive Resistance'><img src='/class-icons/explorers/marksman/aggressive-resistance.png' alt='Skill Aggressive Resistance'/></span> -> <span data-tooltip='Blink Bolt'><img src='/class-icons/explorers/marksman/blink-bolt.png' alt='Skill Blink Bolt'/></span> -> <span data-tooltip='Empowered Arrows'><img src='/class-icons/explorers/marksman/empowered-arrows.png' alt='Skill Empowered Arrows'/></span> -> <span data-tooltip='Bolt Burst'><img src='/class-icons/explorers/marksman/bolt-burst.png' alt='Skill Bolt Burst'/></span> -> <span data-tooltip='Mortal Blow'><img src='/class-icons/explorers/marksman/mortal-blow.png' alt='Skill Mortal Blow'/></span> -> <span data-tooltip='Pain Killer'><img src='/class-icons/explorers/marksman/pain-killer.png' alt='Skill Pain Killer'/></span>"],
-                ["4th Job", "<span data-tooltip='Bolt Surplus'><img src='/class-icons/explorers/marksman/bolt-surplus.png' alt='Skill Bolt Surplus'/></span> -> <span data-tooltip='Last Man Standing'><img src='/class-icons/explorers/marksman/last-man-standing.png' alt='Skill Last Man Standing'/></span> -> <span data-tooltip='Crossbow Expert'><img src='/class-icons/explorers/marksman/crossbow-expert.png' alt='Skill Crossbow Expert'/></span> -> <span data-tooltip='Piercing Arrow II'><img src='/class-icons/explorers/marksman/piercing-arrow-ii.png' alt='Skill Piercing Arrow II'/></span> -> <span data-tooltip='Greater Empowered Arrows'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Sharp Eyes'><img src='/class-icons/common/sharp-eyes.png' alt='Skill Sharp Eyes'/></span> -> <span data-tooltip='Illusion Step'><img src='/class-icons/explorers/marksman/illusion-step.png' alt='Skill Illusion Step'/></span> -> <span data-tooltip='Arrow Illusion'><img src='/class-icons/explorers/marksman/arrow-illusion.png' alt='Skill Arrow Illusion'/></span> -> <span data-tooltip='Snipe'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
-            ],
+                ["1st Job", "<tt src={/class-icons/explorers/archer/double-jump-1.png} tip={Double Jump}> -> <tt src={/class-icons/explorers/archer/archery-mastery.png} tip={Archery Mastery}> -> <tt src={/class-icons/explorers/archer/critical-shot.png} tip={Critical Shot}> -> <tt src={/class-icons/explorers/archer/arrow-blow.png} tip={Arrow Blow}>"],
+                ["2nd Job", "<tt src={/class-icons/explorers/marksman/crossbow-mastery.png} tip={Crossbow Mastery}> -> <tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/marksman/agile-crossbows.png} tip={Agile Crossbows}> -> <tt src={/class-icons/explorers/marksman/soul-arrow.png} tip={Soul Arrow}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack}> -> <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow}> -> <tt src={/class-icons/explorers/marksman/covering-fire.png} tip={Covering Fire}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/marksman/reckless-hunt.png} tip={Reckless Hunt: Crossbow}> -> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey}> -> <tt src={/class-icons/explorers/marksman/evasion-boost.png} tip={Evasion Boost}> -> <tt src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship}> -> <tt src={/class-icons/explorers/marksman/aggressive-resistance.png} tip={Aggressive Resistance}> -> <tt src={/class-icons/explorers/marksman/blink-bolt.png} tip={Blink Bolt}> -> <tt src={/class-icons/explorers/marksman/empowered-arrows.png} tip={Empowered Arrows}> -> <tt src={/class-icons/explorers/marksman/bolt-burst.png} tip={Bolt Burst}> -> <tt src={/class-icons/explorers/marksman/mortal-blow.png} tip={Mortal Blow}> -> <tt src={/class-icons/explorers/marksman/pain-killer.png} tip={Pain Killer}>"],
+                ["4th Job", "<tt src={/class-icons/explorers/marksman/bolt-surplus.png} tip={Bolt Surplus}> -> <tt src={/class-icons/explorers/marksman/last-man-standing.png} tip={Last Man Standing}> -> <tt src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert}> -> <tt src={/class-icons/explorers/marksman/piercing-arrow-ii.png} tip={Piercing Arrow II}> -> <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes}> -> <tt src={/class-icons/explorers/marksman/illusion-step.png} tip={Illusion Step}> -> <tt src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion}> -> <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
             "details": [
                 "All 1st to 4th Job skills can be maxed",
                 "Put one SP into each skill first and then max each skill in this order",
@@ -112,11 +112,21 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/explorers/marksman/piercing-arrow-spread.png' alt='Skill Piercing Arrow - Spread'/> Piercing Arrow - Spread</li><li><img src='/class-icons/explorers/marksman/snipe-extra-strike.png' alt='Skill Snipe - Extra Strike'/> <img src='/class-icons/explorers/marksman/snipe-reinforce.png' alt='Skill Snipe - Reinforce'/> <img src='/class-icons/explorers/marksman/snipe-boss-rush.png' alt='Skill Snipe - Boss Rush'/> Snipe - Extra Strike, Reinforce, and Boss Rush</li><li><img src='/class-icons/explorers/marksman/sharp-eyes-critical-chance.png' alt='Skill Sharp Eyes - Critical Chance'/> / <img src='/class-icons/explorers/marksman/piercing-arrow-extra-strike.png' alt='Skill Piercing Arrow - Extra Strike'/> Sharp Eyes - Critical Chance OR Piercing Arrow - Extra Strike</li></ul>"
+            "recommended": "<bp_<tt src={/class-icons/explorers/marksman/piercing-arrow-spread.png} tip={Piercing Arrow - Spread}> Piercing Arrow - Spread_<tt src={/class-icons/explorers/marksman/snipe-extra-strike.png} tip={Snipe - Extra Strike}> <tt src={/class-icons/explorers/marksman/snipe-reinforce.png} tip={Snipe - Reinforce}> <tt src={/class-icons/explorers/marksman/snipe-boss-rush.png} tip={Snipe - Boss Rush}> Snipe - Extra Strike, Reinforce, and Boss Rush_<tt src={/class-icons/explorers/marksman/sharp-eyes-critical-chance.png} tip={Sharp Eyes - Critical Chance}> / <tt src={/class-icons/explorers/marksman/piercing-arrow-extra-strike.png} tip={Piercing Arrow - Extra Strike}> Sharp Eyes - Critical Chance OR Piercing Arrow - Extra Strike_>"
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Snipe/Empowered Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> <span data-tooltip='Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> <span data-tooltip='Bolt Burst/Frostprey (3rd Job)'><img src='/class-icons/explorers/marksman/bolt-burst.png' alt='Skill Bolt Burst'/></span></div><ul><li>Any combination of these skills are good</li><li>2 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Arrow Blow (1st Job)'><img src='/class-icons/explorers/archer/arrow-blow.png' alt='Skill Arrow Blow'/></span> <span data-tooltip='Final Attack: Crossbow (2nd Job)'><img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/></span> <span data-tooltip='Piercing Arrow/Empowered Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> <span data-tooltip='Covering Fire (2nd Job)'><img src='/class-icons/explorers/marksman/covering-fire.png' alt='Skill Covering Fire'/></span> <span data-tooltip='Bolt Burst/Frostprey (3rd Job)'><img src='/class-icons/explorers/marksman/bolt-burst.png' alt='Skill Bolt Burst'/></span> <span data-tooltip='Snipe/Empowered Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> <span data-tooltip='High Speed Shot / Arrow Illusion (Hyper Skill / 3rd Job)'><img src='/class-icons/explorers/marksman/high-speed-shot.png' alt='Skill High Speed Shot'/></span>"
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe/Empowered Snipe (4th Job)}> <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow/Empowered Piercing Arrow (2nd Job)}> <tt src={/class-icons/explorers/marksman/bolt-burst.png} tip={Bolt Burst/Frostprey (3rd Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good",
+                    "2 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "possible": {
+                "nodes": "<tt src={/class-icons/explorers/archer/arrow-blow.png} tip={Arrow Blow (1st Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack: Crossbow (2nd Job)}> <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow/Empowered Piercing Arrow (2nd Job)}> <tt src={/class-icons/explorers/marksman/covering-fire.png} tip={Covering Fire (2nd Job)}> <tt src={/class-icons/explorers/marksman/bolt-burst.png} tip={Bolt Burst/Frostprey (3rd Job)}> <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe/Empowered Snipe (4th Job)}> <tt src={/class-icons/explorers/marksman/high-speed-shot.png} tip={High Speed Shot / Arrow Illusion (Hyper Skill / 3rd Job)}>"
+            }
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Marksman"},
@@ -177,7 +187,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' target='_blank' rel='noreferrer noopener'>'An Arrangement from the Goddess'</a>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -296,9 +306,9 @@
                         "icons": ["/class-icons/explorers/marksman/empowered-arrows.png"],
                         "animations": ["https://media.giphy.com/media/vKi397hzZ1cPS0QuI6/giphy.gif"],
                         "type": "Passive Attack",
-                        "desc": "After striking enemies with <span data-tooltip='Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> a set number of times, your next <span data-tooltip='Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> will be empowered",
+                        "desc": "After striking enemies with <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> a set number of times, the next <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> will be empowered",
                         "details": [
-                            "Also permanently increases %p Damage of <span data-tooltip='Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span>"
+                            "Also permanently increases %Damage of <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> by a flat amount"
                         ]
                     },
                     {
@@ -310,7 +320,7 @@
                         "type": "Summon",
                         "desc": "Summons a Frostprey that fights alongside you",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %DEF",
+                            "[Passive]: Permanently increases %DEF",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -345,7 +355,7 @@
                         "type": "Buff",
                         "desc": "Clears all Abnormal Statuses and become immune to them briefly",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
                         ]
                     },
                     {
@@ -416,7 +426,7 @@
                         "type": "Attack",
                         "desc": "Fires a powerful arrow at one enemy and marks them",
                         "details": [
-                            "Marked enemies hit by an <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> Empowered Snipe are dealt an additional attack",
+                            "Marked enemies hit by an <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)}> Empowered Snipe are dealt an additional attack",
                             "Attack is a guaranteed Critical Hit and has increased %Ignore DEF",
                             "Prioritizes enemy with highest max HP within range first"
                         ]
@@ -432,8 +442,8 @@
                         "details": [
                             "Increases %Damage, Max Enemies Pierced, and Number of Attacks of empowered attack",
                             "Empowered attack now explodes at the end, damaging nearby enemies",
-                            "<span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> will now also be empowered by using <span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Piercing Arrow'/></span> a set number of times<ul><li>Enemies hit with empowered <span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> are dealt an additional attack",
-                            "All Empowered attacks grant a buff upon successful attacks<ul><li><strong>[Buff]</strong>: Increases %Final Damage and %Ignore DEF</li></ul>",
+                            "<tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> will now also be empowered by using <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> a set number of times<bp_Enemies hit with empowered <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> are dealt an additional attack_>",
+                            "All Empowered attacks grant a buff upon successful attacks<bp_[Buff]: Increases %Final Damage and %Ignore DEF_>",
                             "Also permanently increases your %Final Damage and %Ignore DEF"
                         ]
                     },
@@ -444,9 +454,9 @@
                         "icons": ["/class-icons/explorers/marksman/arrow-illusion.png"],
                         "animations": ["https://media.giphy.com/media/pwHqrlYWIXXyRcFznn/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons an arrow that pulls in and damages nearby enemies",
+                        "desc": "Place an arrow that pulls in and damages nearby enemies",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Ignore DEF",
+                            "[Passive]: Permanently increases %Ignore DEF",
                             "Enemies hit have a chance to be stunned",
                             "When the Arrow Illusion is hit, it will deal a counterattack",
                             "Unaffected by Damage Reflect"
@@ -469,7 +479,7 @@
                         "type": "Buff",
                         "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                         "details": [
-                            "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                            "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                         ]
                     },
                     {
@@ -649,7 +659,7 @@
                         "Damage is based on the enemy's proximity to the center of your sights",
                         "Use the Left Mouse Button to attack and Right Mouse Button to cancel the Skill",
                         "You are invincible while in casting and briefly after the skill ends",
-                        "Provides the buff from <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> on successful attacks",
+                        "Provides the buff from <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)}> on successful attacks",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -659,7 +669,7 @@
                     "icons": ["/class-icons/explorers/marksman/split-shot.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW9iNWtwcXB5ampma29udmtmcHdobnlpNG12NTk0Z2FuZG4xbW5yNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CicYcmyNPYbTuOOF6r/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, successful attacks from <span data-tooltip='Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/></span> <span data-tooltip='Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> <span data-tooltip='Repeating Crossbow Cartridge (5th Job)'><img src='/class-icons/explorers/marksman/repeating-crossbow-cartridge.png' alt='Skill Repeating Crossbow Cartridge'/></span> <span data-tooltip='Ultimate Snipe (6th Job)'><img src='/class-icons/explorers/marksman/hexa-snipe-3.png' alt='Skill HEXA Ultimate Snipe'/></span> <span data-tooltip='Ultimate Piercing Arrow (6th Job)'><img src='/class-icons/explorers/marksman/hexa-piercing-arrow-3.png' alt='Skill HEXA Ultimate Piercing Arrow'/></span> releases a burst of arrows forward",
+                    "desc": "While active, successful attacks from <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> <tt src={/class-icons/explorers/marksman/repeating-crossbow-cartridge.png} tip={Repeating Crossbow Cartridge (5th Job)}> <tt src={/class-icons/explorers/marksman/hexa-snipe-3.png} tip={Ultimate Snipe (6th Job)}> <tt src={/class-icons/explorers/marksman/hexa-piercing-arrow-3.png} tip={Ultimate Piercing Arrow (6th Job)}/> releases a burst of arrows forward",
                     "details": [
                         "Attack deals increased %Ignore DEF"
                     ]
@@ -672,10 +682,10 @@
                     "type": "Key-down Attack",
                     "desc": "Charges up a powerful arrow that is shot fired when released",
                     "details": [
-                        "Holding the Skill Key will charge the Skill<ul><li>You can charge and activate while using <img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Piercing Arrow'/>, <img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/>, <img src='/class-icons/explorers/marksman/high-speed-shot.png' alt='Skill High Speed Shot'/>, and <img src='/class-icons/explorers/marksman/repeating-crossbow-cartridge.png' alt='Skill Repeating Crossbow Cartridge'/> Repeating Crossbow Cartridge (5th Job)</li><li>Once fully charged, the attack deals increased %Damage</li></ul>",
+                        "Holding the Skill Key will charge the Skill<bp_You can charge and activate while using <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job}> <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe (4th Job)}> <tt src={/class-icons/explorers/marksman/high-speed-shot.png} tip={High Speed Shot (Hyper Skill)}> <tt src={/class-icons/explorers/marksman/repeating-crossbow-cartridge.png} tip={Repeating Crossbow Cartridge (5th Job)}>_Once fully charged, the attack deals increased %Damage_>",
                         "Attack is a guaranteed Critical Hit and has increased %Ignore DEF",
-                        "Provides the buff from <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> if the attack lands",
-                        "Attack will not activate <img src='/class-icons/common/final-attack.png' alt='Skill Final Attack'/>"
+                        "Provides the buff from <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)}> if the attack lands",
+                        "Attack will not activate <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}>"
                     ]
                 },
                 {
@@ -689,7 +699,7 @@
                         "Attack has increased %Ignore DEF and is a guaranteed Critical Hit",
                         "There is a limited amount of arrows that can be fired",
                         "Prioritizes bosses with the highest HP first",
-                        "Provides the buff from <span data-tooltip='Greater Empowered Arrows (4th Job)'><img src='/class-icons/explorers/marksman/greater-empowered-arrows.png' alt='Skill Greater Empowered Arrows'/></span> on successful attacks"
+                        "Provides the buff from <tt src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)}> on successful attacks"
                     ]
                 }
             ]
@@ -704,7 +714,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Snipe/Empowered Snipe (4th Job)'><img src='/class-icons/explorers/marksman/snipe.png' alt='Skill Snipe'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={/class-icons/explorers/marksman/snipe.png} tip={Snipe/Empowered Snipe (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -725,7 +735,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Piercing Arrow (2nd Job)'><img src='/class-icons/explorers/marksman/piercing-arrow.png' alt='Skill Snipe'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={/class-icons/explorers/marksman/piercing-arrow.png} tip={Piercing Arrow (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

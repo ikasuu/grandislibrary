@@ -24,37 +24,37 @@
             {
                 "name": "Attack Speed",
                 "stat": "Stage 7",
-                "detail": "<ul><li class='bs-no-icon'>Stage 4</li> <li><span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +1</li> <li><span data-tooltip='Agile Magic (2nd Job)'><img src='/class-icons/explorers/fire-poison/agile-magic.png' alt='Skill Agile Magic'/></span> +2</li></ul>"
-            },
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost (1st Job)} val={+1}> <bg src={/class-icons/explorers/fire-poison/agile-magic.png} tip={Agile Magic (2nd Job)} val={+2}>"
+                },
             {
                 "name": "Weapon Mastery",
                 "stat": "95%",
-                "detail": "<ul><li class='bs-no-icon'>Base +25%</li> <li><span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> +70%</li></ul>"
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)} val={+70%}>"
             },
             {
                 "name": "INT",
                 "stat": "+15%(415%) +60(90)",
-                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='Agile Magic (2nd Job)'><img src='/class-icons/explorers/fire-poison/agile-magic.png' alt='Skill Agile Magic'/></span> +20</li> <li><span data-tooltip='High Wisdom (2nd Job)'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> +40</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Unreliable Magic - Passive (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Magic'/></span> +30</li></ul>"
+                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={/class-icons/explorers/fire-poison/agile-magic.png} tip={Agile Magic (2nd Job)} val={+20}> <bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/unreliable-memory.png} tip={Unreliable Magic - Passive (5th Job)} val={+30}>"
             },
             {
                 "name": "Magic Attack",
                 "stat": "+70",
-                "detail": "<ul><li><span data-tooltip='Meditation (2nd Job)'><img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/></span> +30</li> <li><span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/fire-poison/spell-mastery.png' alt='Skill Spell Mastery'/></span> +10</li> <li><span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> +30</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/fire-poison/meditation.png} tip={Meditation (2nd Job)} val={+30}> <bg src={/class-icons/explorers/fire-poison/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+10}> <bg src={/class-icons/explorers/fire-poison/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+30}>"
             },
             {
                 "name": "Crit Rate",
                 "stat": "+40%(45%)",
-                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/fire-poison/spell-mastery.png' alt='Skill Spell Mastery'/></span> +5%</li> <li><span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +30%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +5% if Wand is equipped</li></ul>"
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/fire-poison/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+5%}> <bg src={/class-icons/explorers/fire-poison/arcane-overdrive.png} tip={Arcane Overdrive (3rd Job)} val={+30%}> <bg type={opt} src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost (1st Job)} val={+5% if Wand is equipped}>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+13%",
-                "detail": "<ul><li><span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +13%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/fire-poison/arcane-overdrive.png} tip={Arcane Overdrive (3rd Job)} val={+13%}>"
             },
             {
                 "name": "Damage",
                 "stat": "+90%(129%)",
-                "detail": "<ul><li><span data-tooltip='Element Amplification (3rd Job)'><img src='/class-icons/explorers/fire-poison/element-amplification.png' alt='Skill Element Amplification'/></span> +50%</li> <li class='bs-long-text'><div><span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/></span></div> <div>+8% per successful attack<br/>(Max. +40%)</div></li></ul> <ul class='bs-debuff-val'><li class='bs-long-text'><div><span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span></div> <div>+3% per stack<br/>(Max. +9%)</div></li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/fire-poison/element-amplification.png} tip={Element Amplification (3rd Job)} val={+50%}> <bg src={/class-icons/explorers/fire-poison/arcane-aim.png} tip={Arcane Aim (4th Job)} val={+8% per successful attack} val={(Max. +40%)}> <bg type={debuff} src={/class-icons/link-skills/empirical-knowledge.png} tip={Empirical Knowledge (Link Skill)} val={+3% per stack} val={(Max. +9%)}> <bg type={temp} src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -64,40 +64,40 @@
             {
                 "name": "Final Damage",
                 "stat": "+75%(485.14%)",
-                "detail": "<ul><li><span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +40%</li></ul> × <ul class='bs-temp-cross'><li class='bs-long-text'><div><span data-tooltip='Fervent Drain (4th Job)'><img src='/class-icons/explorers/fire-poison/fervent-drain.png' alt='Skill Fervent Drain'/></span></div> <div>+5% per active DoT</br/>(Max. +25%)</div> (<span data-tooltip='Infernal Venom (6th Job)'><img src='/class-icons/explorers/fire-poison/infernal-venom.png' alt='Skill Infernal Venom'/></span> when used, up to 50% instead)</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/></span> up to +115%</li></ul> × <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Burning Magic (3rd Job)'><img src='/class-icons/explorers/fire-poison/burning-magic.png' alt='Skill Burning Magic'/></span></div> <div>+20% to enemies with:<br/>DoT, stun, freeze, darkness, paralysis</div></li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8% while toggled</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/fire-poison/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+40%}> × <bg type={def} sub={temp} src={/class-icons/explorers/fire-poison/fervent-drain.png} tip={Fervent Drain (4th Job)} val={+5% per active DoT} val={(Max. +25%)} subSrc={/class-icons/explorers/fire-poison/infernal-venom.png} subTip={Infernal Venom (6th Job)} subVal={when used, up to 50% instead}> × <bg type={temp} src={/class-icons/explorers/fire-poison/infinity.png} tip={Infinity (4th Job)} val={up to +115%}> × <bg type={temp} src={/class-icons/explorers/fire-poison/burning-magic.png} tip={Burning Magic (3rd Job)} val={+20% to enemies with:} val={DoT, stun, freeze, darkness, paralysis}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+20%(27.2%)",
-                "detail": "<ul><li><span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/></span> +20%</li></ul> × <ul class='bs-debuff-val'><li class='bs-long-text'><div><span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span></div> <div>+3% per stack<br/>(Max. +9%)</div></li></ul>"
+                "detail": "<bg src={/class-icons/explorers/fire-poison/arcane-aim.png} tip={Arcane Aim (4th Job)} val={+20%}> × <bg type={debuff} src={/class-icons/link-skills/empirical-knowledge.png} tip={Empirical Knowledge (Link Skill)} val={+3% per stack} val={(Max. +9%)}>"
             },
             {
                 "name": "Ignore Elemental Resistance",
                 "stat": "+10%",
-                "detail": "<ul><li><span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +10%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/fire-poison/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+10%}>"
             },
             {
                 "name": "Buff Duration",
                 "stat": "+50%",
-                "detail": "<ul><li><span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/fire-poison/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+50%}>"
             }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Meditation (2nd Job)'><img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/></span>[240s]</div>",
-            "toggles": "<span data-tooltip='Magic Guard (1st Job)'><img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard'/></span> <span data-tooltip='Ignite (2nd Job)'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span> <span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> <span data-tooltip='Teleport Boost (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-boost.png' alt='Skill Teleport Boost'/></span> <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
-            "summons": "<div><span data-tooltip='Creeping Toxin (3rd Job)'><img src='/class-icons/explorers/fire-poison/creeping-toxin.png' alt='Skill Creeping Toxin'/></span>[60s](30s cd)</div> <div><span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span>[260s]</div> <div><span data-tooltip='Elemental Fury (5th Job)'><img src='/class-icons/explorers/fire-poison/elemental-fury.png' alt='Skill Elemental Fury'/></span>[3-6s based on Fervent Drain stacks](75s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Elemental Adaptation (3rd Job)'><img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation (Fire, Poison)'/></span>[10 Critical Abnormal Statuses](240s cd)</div> <div><span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/></span>[40s](180s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Inferno Venom (6th Job)'><img src='/class-icons/explorers/fire-poison/infernal-venom.png' alt='Skill Infernal Venom'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Inferno Venom (6th Job)'><img src='/class-icons/explorers/fire-poison/infernal-venom.png' alt='Skill Infernal Venom'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div>"
+            "active": "<tt src={/class-icons/explorers/fire-poison/meditation.png} tip={Meditation (2nd Job)} dur={[240s]}>",
+            "toggles": "<tt src={/class-icons/explorers/mage/magic-guard.png} tip={Magic Guard (1st Job)}> <tt src={/class-icons/explorers/fire-poison/ignite.png} tip={Ignite (2nd Job)}> <tt src={/class-icons/explorers/fire-poison/teleport-mastery.png} tip={Teleport Mastery (3rd Job)}> <tt src={/class-icons/explorers/fire-poison/teleport-boost.png} tip={Teleport Boost (3rd Job)}> <tt src={/class-icons/explorers/fire-poison/inferno-aura.png} tip={Inferno Aura (Hyper Skill)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} dur={[30s cd]}>",
+            "summons": "<tt src={/class-icons/explorers/fire-poison/creeping-toxin.png} tip={Creeping Toxin (3rd Job)} dur={[60s](30s cd)}> <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)} dur={[260s]}> <tt src={/class-icons/explorers/fire-poison/elemental-fury.png} tip={Elemental Fury (5th Job)} dur={[3-6s based on Fervent Drain stacks](75s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/fire-poison/elemental-adaptation.png} tip={Elemental Adaptation (3rd Job)} dur={[10 Critical Abnormal Statuses](240s cd)}> <tt src={/class-icons/explorers/fire-poison/infinity.png} tip={Infinity (4th Job)} dur={[40s](180s cd)}> <tt src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} dur={[360s cd]}>",
+            "damageReduce": "<tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](-MP | 60s cd)}>"
         },
         "linkSkill": {
             "id": 80002762,
             "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
             "type": "Passive",
-            "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
+            "desc": "Successful attacks have a chance to debuff against the enemy with the highest Max HP",
             "details": [
-                "<strong>[Debuff]: </strong>Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
+                "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacks up to 3 times)",
                 "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level"
             ]
         },
@@ -114,11 +114,11 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<span data-tooltip='Mana Wave'><img src='/class-icons/explorers/mage/mana-wave.png' alt='Skill Mana Wave'/></span> -> <span data-tooltip='Teleport'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> -> <span data-tooltip='Magic Guard'><img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard'/></span> -> <span data-tooltip='MP Boost'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> -> <span data-tooltip='Magic Armor'><img src='/class-icons/explorers/mage/magic-armor.png' alt='Skill Magic Armor.png'/></span> -> <span data-tooltip='Energy Bolt'><img src='/class-icons/explorers/mage/energy-bolt.png' alt='Skill Energy Bolt.png'/></span>"],
-                ["2nd Job", "<span data-tooltip='Spell Mastery'><img src='/class-icons/explorers/fire-poison/spell-mastery.png' alt='Skill Spell Mastery'/></span> -> <span data-tooltip='High Wisdom'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> -> <span data-tooltip='Agile Magic'><img src='/class-icons/explorers/fire-poison/agile-magic.png' alt='Skill Agile Magic'/></span> -> <span data-tooltip='Ignite'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span> -> <span data-tooltip='MP Eater'><img src='/class-icons/explorers/fire-poison/mp-eater.png' alt='Skill MP Eater'/></span> -> <span data-tooltip='Meditation'><img src='/class-icons/explorers/fire-poison/meditation.png' alt='Skill Meditation'/></span> -> <span data-tooltip='Flame Orb'><img src='/class-icons/explorers/fire-poison/flame-orb.png' alt='Skill Flame Orb'/></span> -> <span data-tooltip='Poison Breath'><img src='/class-icons/explorers/fire-poison/poison-breath.png' alt='Skill Poison Breath'/></span>"],
-                ["3rd Job", "<span data-tooltip='Teleport Boost'><img src='/class-icons/explorers/fire-poison/teleport-boost.png' alt='Skill Teleport Boost'/></span> -> <span data-tooltip='Burning Magic'><img src='/class-icons/explorers/fire-poison/burning-magic.png' alt='Skill Burning Magic'/></span> -> <span data-tooltip='Element Amplification'><img src='/class-icons/explorers/fire-poison/element-amplification.png' alt='Skill Element Amplification'/></span> -> <span data-tooltip='Arcane Overdrive'><img src='/class-icons/explorers/fire-poison/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> -> <span data-tooltip='Elemental Decrease'><img src='/class-icons/explorers/fire-poison/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> -> <span data-tooltip='Teleport Mastery'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> -> <span data-tooltip='Creeping Toxin'><img src='/class-icons/explorers/fire-poison/creeping-toxin.png' alt='Skill Creeping Toxin'/></span> -> <span data-tooltip='Explosion'><img src='/class-icons/explorers/fire-poison/explosion.png' alt='Skill Explosion'/></span> -> <span data-tooltip='Poison Mist'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> -> <span data-tooltip='Elemental Adaptation'><img src='/class-icons/explorers/fire-poison/elemental-adaptation.png' alt='Skill Elemental Adaptation (Fire, Poison)'/></span>"],
-                ["4th Job", "<span data-tooltip='Buff Mastery'><img src='/class-icons/explorers/fire-poison/buff-mastery.png' alt='Skill Buff Mastery'/></span> -> <span data-tooltip='Flame Sweep'><img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/></span> -> <span data-tooltip='Ifrit'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> -> <span data-tooltip='Arcane Aim'><img src='/class-icons/explorers/fire-poison/arcane-aim.png' alt='Skill Arcane Aim'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Infinity'><img src='/class-icons/explorers/fire-poison/infinity.png' alt='Skill Infinity'/></span> -> <span data-tooltip='Meteor Shower'><img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/></span> -> <span data-tooltip='Mist Eruption'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> -> <span data-tooltip='Flame Haze'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
-            ],
+                ["1st Job", "<tt src={/class-icons/explorers/mage/mana-wave.png} tip={Mana Wave}> -> <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport}> -> <tt src={/class-icons/explorers/mage/magic-guard.png} tip={Magic Guard}> -> <tt src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost}> -> <tt src={/class-icons/explorers/mage/magic-armor.png} tip={Magic Armor}> -> <tt src={/class-icons/explorers/mage/energy-bolt.png} tip={Energy Bolt}>"],
+                ["2nd Job", "<tt src={/class-icons/explorers/fire-poison/spell-mastery.png} tip={Spell Mastery}> -> <tt src={/class-icons/common/high-wisdom.png} tip={High Wisdom}> -> <tt src={/class-icons/explorers/fire-poison/agile-magic.png} tip={Agile Magic}> -> <tt src={/class-icons/explorers/fire-poison/ignite.png} tip={Ignite}> -> <tt src={/class-icons/explorers/fire-poison/mp-eater.png} tip={MP Eater}> -> <tt src={/class-icons/explorers/fire-poison/meditation.png} tip={Meditation}> -> <tt src={/class-icons/explorers/fire-poison/flame-orb.png} tip={Flame Orb}> -> <tt src={/class-icons/explorers/fire-poison/poison-breath.png} tip={Poison Breath}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/fire-poison/teleport-boost.png} tip={Teleport Boost}> -> <tt src={/class-icons/explorers/fire-poison/burning-magic.png} tip={Burning Magic}> -> <tt src={/class-icons/explorers/fire-poison/element-amplification.png} tip={Element Amplification}> -> <tt src={/class-icons/explorers/fire-poison/arcane-overdrive.png} tip={Arcane Overdrive}> -> <tt src={/class-icons/explorers/fire-poison/elemental-decrease.png} tip={Elemental Decrease}> -> <tt src={/class-icons/explorers/fire-poison/teleport-mastery.png} tip={Teleport Mastery}> -> <tt src={/class-icons/explorers/fire-poison/creeping-toxin.png} tip={Creeping Toxin}> -> <tt src={/class-icons/explorers/fire-poison/explosion.png} tip={Explosion}> -> <tt src={/class-icons/explorers/fire-poison/poison-mist.png} tip={Poison Mist}> -> <tt src={/class-icons/explorers/fire-poison/elemental-adaptation.png} tip={Elemental Adaptation (Fire, Poison)}>"],
+                ["4th Job", "<tt src={/class-icons/explorers/fire-poison/buff-mastery.png} tip={Buff Mastery}> -> <tt src={/class-icons/explorers/fire-poison/flame-sweep.png} tip={Flame Sweep}> -> <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit}> -> <tt src={/class-icons/explorers/fire-poison/arcane-aim.png} tip={Arcane Aim}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/fire-poison/infinity.png} tip={Infinity}> -> <tt src={/class-icons/explorers/fire-poison/meteor-shower.png} tip={Meteor Shower}> -> <tt src={/class-icons/explorers/fire-poison/mist-eruption.png} tip={Mist Eruption}> -> <tt src={/class-icons/explorers/fire-poison/flame-haze.png} tip={Flame Haze}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
             "details": [
                 "All 1st to 4th Job skills can be maxed",
                 "Put one SP into each skill first and then max each skill in this order",
@@ -126,11 +126,23 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/explorers/fire-poison/flame-sweep-reinforce.png' alt='Skill Flame Sweep - Reinforce'/> <img src='/class-icons/explorers/fire-poison/flame-sweep-extra-strike.png' alt='Skill Flame Sweep - Extra Strike'/> Flame Sweep - Reinforce and Extra Strike</li><li><img src='/class-icons/explorers/fire-poison/mist-eruption-reinforce.png' alt='Skill Mist Eruption - Reinforce'/> <img src='/class-icons/explorers/fire-poison/mist-eruption-guardbreaker.png' alt='Skill Mist Eruption - Guardbreaker'/> <img src='/class-icons/explorers/fire-poison/mist-eruption-cooldown-cutter.png' alt='Skill Mist Eruption - Cooldown Cutter'/> Mist Eruption - Reinforce, Guardbreaker, and Cooldown Cutter</li></ul>" 
+            "recommended": "<bp_<tt src={/class-icons/explorers/fire-poison/flame-sweep-reinforce.png} tip={Flame Sweep - Reinforce}> <tt src={/class-icons/explorers/fire-poison/flame-sweep-extra-strike.png} tip={Flame Sweep - Extra Strike}> Flame Sweep - Reinforce and Extra Strike_<tt src={/class-icons/explorers/fire-poison/mist-eruption-reinforce.png} tip={Mist Eruption - Reinforce}> <tt src={/class-icons/explorers/fire-poison/mist-eruption-guardbreaker.png} tip={Mist Eruption - Guardbreaker}> <tt src={/class-icons/explorers/fire-poison/mist-eruption-cooldown-cutter.png} tip={Mist Eruption - Cooldown Cutter}> Mist Eruption - Reinforce, Guardbreaker, and Cooldown Cutter_>" 
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Flame Sweep (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/></span> <span data-tooltip='Ignite (2nd Job)'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span> <span data-tooltip='Teleport Mastery/Creeping Toxin (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Flame Haze (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> <span data-tooltip='Mist Eruption (4th Job)'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> <span data-tooltip='Meteor Shower (4th Job)'><img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/></span></div><h6>Tertiary Trio</h6><div><span data-tooltip='Megiddo Flame (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/megiddo-flame.png' alt='Skill Megiddo Flame'/></span> <span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first and so on</li><li>6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Flame Orb (1st Job)'><img src='/class-icons/explorers/fire-poison/flame-orb.png' alt='Skill Flame Orb'/></span> <span data-tooltip='Poison Breath (2nd Job)'><img src='/class-icons/explorers/fire-poison/poison-breath.png' alt='Skill Poison Breath'/></span> <span data-tooltip='Ignite (2nd Job)'><img src='/class-icons/explorers/fire-poison/ignite.png' alt='Skill Ignite'/></span> <span data-tooltip='Explosion (3rd Job)'><img src='/class-icons/explorers/fire-poison/explosion.png' alt='Skill Explosion'/></span> <span data-tooltip='Poison Mist (3rd Job)'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> <span data-tooltip='Teleport Mastery/Creeping Toxin (3rd Job)'><img src='/class-icons/explorers/fire-poison/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> <span data-tooltip='Flame Haze (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> <span data-tooltip='Mist Eruption (4th Job)'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> <span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> <span data-tooltip='Flame Sweep (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/></span> <span data-tooltip='Meteor Shower (4th Job)'><img src='/class-icons/explorers/fire-poison/meteor-shower.png' alt='Skill Meteor Shower'/></span> <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span> <span data-tooltip='Megiddo Flame (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/megiddo-flame.png' alt='Skill Megiddo Flame'/></span>"
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/fire-poison/flame-sweep.png} tip={Flame Sweep (4th Job)}> <tt src={/class-icons/explorers/fire-poison/ignite.png} tip={Ignite (2nd Job)}> <tt src={/class-icons/explorers/fire-poison/teleport-mastery.png} tip={Teleport Mastery/Creeping Toxin (3rd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/fire-poison/flame-haze.png} tip={Flame Haze (4th Job)}> <tt src={/class-icons/explorers/fire-poison/mist-eruption.png} tip={Mist Eruption (4th Job)}> <tt src={/class-icons/explorers/fire-poison/meteor-shower.png} tip={Meteor Shower (4th Job)}>"],
+                    ["Tertiary Trio", "<tt src={/class-icons/explorers/fire-poison/megiddo-flame.png} tip={Megiddo Flame (Hyper Skill)}> <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)}> <tt src={/class-icons/explorers/fire-poison/inferno-aura.png} tip={Inferno Aura (Hyper Skill)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "possible": {
+                "nodes": "<tt src={/class-icons/explorers/fire-poison/flame-orb.png} tip={Flame Orb (1st Job)}> <tt src={/class-icons/explorers/fire-poison/poison-breath.png} tip={Poison Breath (2nd Job)}> <tt src={/class-icons/explorers/fire-poison/ignite.png} tip={Ignite (2nd Job)}> <tt src={/class-icons/explorers/fire-poison/explosion.png} tip={Explosion (3rd Job)}> <tt src={/class-icons/explorers/fire-poison/poison-mist.png} tip={Poison Mist (3rd Job)}> <tt src={/class-icons/explorers/fire-poison/teleport-mastery.png} tip={Teleport Mastery/Creeping Toxin (3rd Job)}> <tt src={/class-icons/explorers/fire-poison/flame-haze.png} tip={Flame Haze (4th Job)}> <tt src={/class-icons/explorers/fire-poison/mist-eruption.png} tip={Mist Eruption (4th Job)}> <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)}> <tt src={/class-icons/explorers/fire-poison/flame-sweep.png} tip={Flame Sweep (4th Job)}> <tt src={/class-icons/explorers/fire-poison/meteor-shower.png} tip={Meteor Shower (4th Job)}> <tt src={/class-icons/explorers/fire-poison/inferno-aura.png} tip={Inferno Aura (Hyper Skill)}> <tt src={/class-icons/explorers/fire-poison/megiddo-flame.png} tip={Megiddo Flame (Hyper Skill)}>"
+            }
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Magician_(Fire,_Poison)"},
@@ -196,7 +208,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' target='_blank' rel='noreferrer noopener'>'An Arrangement from the Goddess'</a>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -247,7 +259,7 @@
                         "desc": "Up jump skill",
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
-                            "After using Mana Wave, holding the Jump Key will allow you to slowly float down<ul><li>You can move while floating</li></ul>"
+                            "After using, holding the Jump Key will allow you to slowly float down<bp_You can move while floating_>"
                         ]
                     },
                     {
@@ -319,7 +331,7 @@
                         "type": "Toggle",
                         "desc": "While toggled, successfully striking an enemy with a Fire-Attribute attacks has a chance to create a damaging wall of fire",
                         "details": [
-                            "<span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span> does not trigger Ignite",
+                            "<tt src={/class-icons/explorers/fire-poison/inferno-aura.png} tip={Inferno Aura (Hyper Skill)}> does not trigger Ignite",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -379,7 +391,7 @@
                         "details": [
                             "Enemies within the pool will receive a damaging debuff",
                             "Deals increased %Damage to regular monsters",
-                            "Using a Fire-Attribute attack will cause the pool to explode<ul><li>The explosion will detonate nearby pools</li><li>Enemies will take reduced %Final Damage for all explosions after the first</li></ul>"
+                            "Using a Fire-Attribute attack will cause the pool to explode<bp_The explosion will detonate nearby pools_Enemies will take reduced %Final Damage for all explosions after the first_>"
                         ]
                     },
                     {
@@ -391,7 +403,7 @@
                         "type": "Buff",
                         "desc": "Creates a barrier that blocks up to 10 Critical Abnormal Statuses",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
                         ]
                     },
                     {
@@ -401,9 +413,9 @@
                         "icons": ["/class-icons/explorers/fire-poison/teleport-mastery.png"],
                         "animations": ["https://media.giphy.com/media/53RJiAP3M1yC3ZkSQx/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "While toggled, using <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> will damage nearby enemies",
+                        "desc": "While toggled, using <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}> will damage nearby enemies",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance",
+                            "[Passive]: Permanently increases %Knockback Resistance",
                             "Has a chance to stun enemies and apply a damaging debuff"
                         ]
                     },
@@ -413,7 +425,7 @@
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/fire-poison/teleport-boost.png"],
                         "type": "Toggle Buff",
-                        "desc": "While toggled, increases the teleport distance of <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span>"
+                        "desc": "While toggled, increases the teleport distance of <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}>"
                     },
                     {
                         "name": "Elemental Decrease",
@@ -430,7 +442,7 @@
                         "type": "Passive",
                         "desc": "",
                         "details": [
-                            "Does not apply to <span data-tooltip='Inferno Aura (Hyper Skill)'><img src='/class-icons/explorers/fire-poison/inferno-aura.png' alt='Skill Inferno Aura'/></span>"
+                            "Does not apply to <tt src={/class-icons/explorers/fire-poison/inferno-aura.png} tip={Inferno Aura (Hyper Skill)}>"
                         ]
                     },
                     {
@@ -468,13 +480,13 @@
                     "icons": ["/class-icons/explorers/fire-poison/mist-eruption.png"],
                     "animations": ["https://media.giphy.com/media/o8E0DcJ5v9M18Xow4g/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Causes nearby <span data-tooltip='Poison Mist (3rd Job)'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> to explode damaging nearby enemies",
+                    "desc": "Causes nearby <tt src={/class-icons/explorers/fire-poison/poison-mist.png} tip={Poison Mist (3rd Job)}> to explode damaging nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Damage of <span data-tooltip='Poison Mist (3rd Job)'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> DoT",
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/explorers/fire-poison/poison-mist.png} tip={Poison Mist (3rd Job)}> DoT",
                         "The explosion gains increased %Final Damage based on how many DoT debuffs an enemy has active",
                         "Explosion has increased %Ignore DEF",
-                        "If the explosion hits an enemy, the cooldown of <span data-tooltip='Flame Haze (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> is reset",
-                        "Not affected by cooldown resets<ul><li>Cooldown is slightly reduced if an enemy hit has 5 or more DoT debuffs</li></ul>"
+                        "If the explosion hits an enemy, the cooldown of <tt src={/class-icons/explorers/fire-poison/flame-haze.png} tip={Flame Haze (4th Job)}> is reset",
+                        "Not affected by cooldown resets<bp_Cooldown is slightly reduced if an enemy hit has 5 or more DoT debuffs_>"
                     ]
                 },
                 {
@@ -497,7 +509,7 @@
                     "type": "Attack / Final Attack",
                     "desc": "Creates a shower of meteors that rain down from the sky",
                     "details": [
-                        "<strong>[Final Attack]</strong>: Your attacks have a chance for a meteor to strike a single enemy"
+                        "[Final Attack]: Your attacks have a chance for a meteor to strike a single enemy"
                     ]
                 },
                 {
@@ -510,7 +522,7 @@
                     "desc": "Launches a fireball forward at a single enemy that applies a damaging burning debuff",
                     "details": [
                         "Enemies with the debuff are slowed and cannot deal touch damage",
-                        "<span data-tooltip='Poison Mist (3rd Job)'><img src='/class-icons/explorers/fire-poison/poison-mist.png' alt='Skill Poison Mist'/></span> will form where an enemy was hit or around you if no enemy are struck"
+                        "<tt src={/class-icons/explorers/fire-poison/poison-mist.png} tip={Poison Mist (3rd Job)}> will form where an enemy was hit or around you if no enemy are struck"
                     ]
                 },
                 {
@@ -536,7 +548,7 @@
                     "type": "Summon",
                     "desc": "Summons a fire golem that attacks nearby enemies that applies a damaging burn debuff",
                     "details": [
-                        "<strong>[Passive]</strong>: Increases %Weapon Mastery",
+                        "[Passive]: Increases %Weapon Mastery",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -561,7 +573,7 @@
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
-                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -730,7 +742,7 @@
                     "type": "Attack",
                     "desc": "Releases multiple flame orbs that seek out enemies and applies a damaging burning debuff",
                     "details": [
-                        "Summons additional orbs for every DoT debuff on enemies in range<ul><li>Only up to a maximum of 25 Flame Orbs will be created</li></ul>",
+                        "Summons additional orbs for every DoT debuff on enemies in range<bp_Only up to a maximum of 25 Flame Orbs will be created_>",
                         "If multiple orbs hit a single target, their %Final Damage is reduced"
                     ]
                 },
@@ -742,7 +754,7 @@
                     "type": "Attack",
                     "desc": "Releases multiple poison orbs that spread out in all directions, poisoning any enemies it collides with",
                     "details": [
-                        "After several seconds, you can detonate the orbs to explode with <span data-tooltip='Mist Eruption (4th Job)'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> dealing massive damage<ul><li>The orbs will change colors when they are ready to detonate</li></ul>",
+                        "After several seconds, you can detonate the orbs to explode with <tt src={/class-icons/explorers/fire-poison/mist-eruption.png} tip={Mist Eruption (4th Job)}> dealing massive damage<bp_The orbs will change colors when they are ready to detonate_>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -754,8 +766,8 @@
                     "type": "Summon",
                     "desc": "Summons a spirit of fire to attack nearby enemies",
                     "details": [
-                        "Duration is increased for each stack of <span data-tooltip='Fervent Drain (4th Job)'><img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/></span>",
-                        "Can only be used when <span data-tooltip='Ifrit (4th Job)'><img src='/class-icons/explorers/fire-poison/ifrit.png' alt='Skill Ifrit'/></span> is active",
+                        "Duration is increased for each stack of <tt src={/class-icons/explorers/fire-poison/elemental-drain.png} tip={Fervent Drain (4th Job)}>",
+                        "Can only be used when <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)}> is active",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -768,9 +780,9 @@
                     "desc": "Casts a stacking poisonous debuff onto two enemies that spreads to nearby enemies",
                     "details": [
                         "If no enemies nearby, a crystal is created that will infect the next enemy in range and disappears",
-                        "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<ul><li>Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion</li></ul>",
-                        "Each enemy can only explode up to 9 times, and a total of 17 times across all affected enemies<ul><li>If you reach maximum explosions, when the skill ends, all enemies will explode for a final explosion</li></ul>",
-                        "Does not trigger Damage Reflect or <span data-tooltip='Fervent Drain (4th Job)'><img src='/class-icons/explorers/fire-poison/elemental-drain.png' alt='Skill Elemental Drain'/></span>"
+                        "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<bp_Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion_>",
+                        "Each enemy can only explode up to 9 times, and a total of 17 times across all affected enemies<bp_If you reach maximum explosions, when the skill ends, all enemies will explode for a final explosion_>",
+                        "Does not trigger Damage Reflect or <tt src={/class-icons/explorers/fire-poison/elemental-drain.png} tip={Fervent Drain (4th Job)}>"
                     ]
                 }
             ]
@@ -785,7 +797,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Flame Sweep (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-sweep.png' alt='Skill Flame Sweep'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={/class-icons/explorers/fire-poison/flame-sweep.png} tip={Flame Sweep (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -806,7 +818,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Flame Haze (4th Job)'><img src='/class-icons/explorers/fire-poison/flame-haze.png' alt='Skill Flame Haze'/></span> <span data-tooltip='Mist Eruption (4th Job)'><img src='/class-icons/explorers/fire-poison/mist-eruption.png' alt='Skill Mist Eruption'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={/class-icons/explorers/fire-poison/flame-haze.png} tip={Flame Haze (4th Job)}> <tt src={/class-icons/explorers/fire-poison/mist-eruption.png} tip={Mist Eruption (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

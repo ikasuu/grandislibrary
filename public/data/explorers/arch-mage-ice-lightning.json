@@ -24,37 +24,37 @@
             {
                 "name": "Attack Speed",
                 "stat": "Stage 7",
-                "detail": "<ul><li class='bs-no-icon'>Stage 4</li> <li><span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +1</li> <li><span data-tooltip='Agile Magic (2nd Job)'><img src='/class-icons/explorers/ice-lightning/agile-magic.png' alt='Skill Agile Magic'/></span> +2</li></ul>"
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost (1st Job)} val={+1}> <bg src={/class-icons/explorers/ice-lightning/agile-magic.png} tip={Agile Magic (2nd Job)} val={+2}>"
             },
             {
                 "name": "Weapon Mastery",
                 "stat": "95%",
-                "detail": "<ul><li class='bs-no-icon'>Base +25%</li> <li><span data-tooltip='Elquines (4th Job)'><img src='/class-icons/explorers/ice-lightning/elquines.png' alt='Skill Elquines'/></span> +70%</li></ul>"
+                "detail": "<bg val={Base +25%}> <bg src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)} val={+70%}>"
             },
             {
                 "name": "INT",
                 "stat": "+15%(415%) +60(90)",
-                "detail": "<ul><li><span data-tooltip='Maple Warrior (4th Job)'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> +15%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +400%</li></ul> <ul><li><span data-tooltip='Agile Magic (2nd Job)'><img src='/class-icons/explorers/ice-lightning/agile-magic.png' alt='Skill Agile Magic'/></span> +20</li> <li><span data-tooltip='High Wisdom (2nd Job)'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> +40</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Unreliable Magic - Passive (5th Job)'><img src='/class-icons/5th-job/unreliable-memory.png' alt='Skill Unreliable Magic'/></span> +30</li></ul>"
+                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={/class-icons/explorers/ice-lightning/agile-magic.png} tip={Agile Magic (2nd Job)} val={+20}> <bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/unreliable-memory.png} tip={Unreliable Magic - Passive (5th Job)} val={+30}>"
             },
             {
                 "name": "Magic Attack",
                 "stat": "+70",
-                "detail": "<ul><li><span data-tooltip='Meditation (2nd Job)'><img src='/class-icons/explorers/ice-lightning/meditation.png' alt='Skill Meditation'/></span> +30</li> <li><span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/ice-lightning/spell-mastery.png' alt='Skill Spell Mastery'/></span> +10</li> <li><span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/ice-lightning/buff-mastery.png' alt='Skill Buff Mastery'/></span> +30</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation (2nd Job)} val={+30}> <bg src={/class-icons/explorers/ice-lightning/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+10}> <bg src={/class-icons/explorers/ice-lightning/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+30}>"
             },
             {
                 "name": "Crit Rate",
                 "stat": "+40%(45%)",
-                "detail": "<ul><li class='bs-no-icon'>Base +5%</li> <li><span data-tooltip='Spell Mastery (2nd Job)'><img src='/class-icons/explorers/ice-lightning/spell-mastery.png' alt='Skill Spell Mastery'/></span> +5%</li> <li><span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +30%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='MP Boost (1st Job)'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> +5% if Wand is equipped</li></ul>"
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/explorers/ice-lightning/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+5%}> <bg src={/class-icons/explorers/ice-lightning/arcane-overdrive.png} tip={Arcane Overdrive (3rd Job)} val={+30%}> <bg type={opt} src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost (1st Job)} val={+5% if Wand is equipped}>"
             },
             {
                 "name": "Crit Damage",
                 "stat": "+13%(28%)",
-                "detail": "<ul><li><span data-tooltip='Arcane Overdrive (3rd Job)'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> +13%</li></ul> <ul class='bs-debuff-val'><li class='bs-long-text'><div><span data-tooltip='Frost Clutch (4th Job)'><img src='/class-icons/explorers/ice-lightning/frost-clutch.png' alt='Skill Frost Clutch'/></span></div> <div>+3% per successful Ice-attribute attack</br>(Max. +15% to Lightning-attribute attacks)</div></li></ul>"
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/arcane-overdrive.png} tip={Arcane Overdrive (3rd Job)} val={+13%}> <bg type={debuff} src={/class-icons/explorers/ice-lightning/frost-clutch.png} tip={Frost Clutch (4th Job)} val={+3% per successful Ice-attribute attack} val={(Max. +15% to Lightning-attribute attacks)}>"
             },
             {
                 "name": "Damage",
                 "stat": "+90%(189%)",
-                "detail": "<ul><li><span data-tooltip='Element Amplification (3rd Job)'><img src='/class-icons/explorers/ice-lightning/element-amplification.png' alt='Skill Element Amplification'/></span> +50%</li> <li class='bs-long-text'><div><span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/ice-lightning/arcane-aim.png' alt='Skill Arcane Aim'/></span></div> <div>+8% per successful attack<br/>(Max. +40%)</div></li></ul> <ul class='bs-debuff-val'><li class='bs-long-text'><div><span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span></div> <div>+3% per stack<br/>(Max. +9%)</div></li> <li class='bs-long-text'><div><span data-tooltip='Frost Clutch (4th Job)'><img src='/class-icons/explorers/ice-lightning/frost-clutch.png' alt='Skill Frost Clutch'/></span></div> <div>+12% per successful Ice-attribute attack</br>(Max. +60% to Lightning-attribute attacks)</div></li></ul> <ul class='bs-temp-val'><li><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span> +10%</li></ul> <ul class='bs-opt-val'><li><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span> +20%</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/element-amplification.png} tip={Element Amplification (3rd Job)} val={+50%}> <bg src={/class-icons/explorers/ice-lightning/arcane-aim.png} tip={Arcane Aim (4th Job)} val={+8% per successful attack} val={(Max. +40%)}> <bg type={debuff} src={/class-icons/link-skills/empirical-knowledge.png} tip={Empirical Knowledge (Link Skill)} val={+3% per stack} val={(Max. +9%)}> <bg type={debuff} src={/class-icons/explorers/ice-lightning/frost-clutch.png} tip={Frost Clutch (4th Job)} val={+12% per successful Ice-attribute attack} val={(Max. +60% to Lightning-attribute attacks)}> <bg type={temp} src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -64,40 +64,40 @@
             {
                 "name": "Final Damage",
                 "stat": "+40%(336.91%)",
-                "detail": "<ul><li><span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +40%</li></ul> × <ul class='bs-debuff-val'><li><span data-tooltip='Jupiter Thunder (5th Job)'><img src='/class-icons/explorers/ice-lightning/jupiter-thunder.png' alt='Skill Jupiter Thunder'/></span> +12% to Lightning-attribute attacks</li></ul> × <ul class='bs-temp-val'><li><span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/ice-lightning/infinity.png' alt='Skill Infinity'/></span> up to +115%</li></ul> × <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Storm Magic (3rd Job)'><img src='/class-icons/explorers/ice-lightning/storm-magic.png' alt='Skill Storm Magic'/></span></div> <div>+20% to enemies with:<br/>DoT, stun, freeze, darkness, paralysis</div></li></ul> × <ul class='bs-opt-val'><li><span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span> +8% while toggled</li></ul>"
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+40%}> × <bg type={debuff} src={/class-icons/explorers/ice-lightning/jupiter-thunder.png} tip={Jupiter Thunder (5th Job)} val={+12% to Lightning-attribute attacks}> × <bg type={temp} src={/class-icons/explorers/ice-lightning/infinity.png} tip={Infinity (4th Job)} val={up to +115%}> × <bg type={temp} src={/class-icons/explorers/ice-lightning/storm-magic.png} tip={Storm Magic (3rd Job)} val={+20% to enemies with:} val={DoT, stun, freeze, darkness, paralysis}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
             },
             {
                 "name": "Ignore DEF",
                 "stat": "+20%(54.14%)",
-                "detail": "<ul><li><span data-tooltip='Arcane Aim (4th Job)'><img src='/class-icons/explorers/ice-lightning/arcane-aim.png' alt='Skill Arcane Aim'/></span> +20%</li></ul> × <ul class='bs-debuff-val'><li class='bs-long-text'><div><span data-tooltip='Empirical Knowledge (Link Skill)'><img src='/class-icons/link-skills/empirical-knowledge.png' alt='Skill Empirical Knowledge'/></span></div> <div>+3% per stack<br/>(Max. +9%)</div></li></ul> × <ul class='bs-debuff-val'><li class='bs-long-text'><div><span data-tooltip='Freezing Breath (4th Job)'><img src='/class-icons/explorers/ice-lightning/freezing-breath.png' alt='Skill Freezing Breath'/></span></div> <div>+30% MDR<br/>+15% PDR</div></li></ul> × <ul class='bs-temp-val'><li class='bs-long-text'><div><span data-tooltip='Shatter (3rd Job)'><img src='/class-icons/explorers/ice-lightning/shatter.png' alt='Skill Shatter'/></span></div> <div>+2% per Frost Clutch stack</br>(Max. +10% to frozen enemies)</div></li></ul>"
-            },
-            {
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/arcane-aim.png} tip={Arcane Aim (4th Job)} val={+20%}> × <bg type={debuff} src={/class-icons/link-skills/empirical-knowledge.png} tip={Empirical Knowledge (Link Skill)} val={+3% per stack} val={(Max. +9%)}> × <bg type={debuff} src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath (4th Job)} val={+30% MDR} val={+15% PDR}> × <bg type={temp} src={/class-icons/explorers/ice-lightning/shatter.png} tip={Shatter (3rd Job)} val={+2% per Frost Clutch stack} val={(Max. +10% to frozen enemies)}>"
+              },
+              {
                 "name": "Ignore Elemental Resistance",
                 "stat": "+10%",
-                "detail": "<ul><li><span data-tooltip='Elemental Decrease (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> +10%</li></ul>"
-            },
-            {
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+10%}>"
+              },
+              {
                 "name": "Buff Duration",
                 "stat": "+50%",
-                "detail": "<ul><li><span data-tooltip='Buff Mastery (4th Job)'><img src='/class-icons/explorers/ice-lightning/buff-mastery.png' alt='Skill Buff Mastery'/></span> +50%</li></ul>"
-            }
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+50%}>"
+              }
         ],
         "buffInfo": {
-            "active": "<div><span data-tooltip='Meditation (2nd Job)'><img src='/class-icons/explorers/ice-lightning/meditation.png' alt='Skill Meditation'/></span>[240s]</div>",
-            "toggles": "<span data-tooltip='Magic Guard (1st Job)'><img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard'/></span> <span data-tooltip='Chilling Step (2nd Job)'><img src='/class-icons/explorers/ice-lightning/chilling-step.png' alt='Skill Chilling Step'/></span> <span data-tooltip='Teleport Mastery (3rd Job)'><img src='/class-icons/explorers/ice-lightning/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> <span data-tooltip='Teleport Boost (3rd Job)'><img src='/class-icons/explorers/ice-lightning/teleport-boost.png' alt='Skill Teleport Boost'/></span> <span data-tooltip='Absolute Zero Aura (Hyper Skill)'><img src='/class-icons/explorers/ice-lightning/absolute-zero-aura.png' alt='Skill Absolute Zero Aura'/></span> <span data-tooltip='Mana Overload (5th Job)'><img src='/class-icons/5th-job/mana-overload.png' alt='Skill Mana Overload'/></span>(30s cd)",
-            "summons": "<div><span data-tooltip='Thunder Sphere (3rd Job)'><img src='/class-icons/explorers/ice-lightning/thunder-sphere.png' alt='Skill Thunder Sphere'/></span>[120s/60s](0s / 30s cd)</div> <div><span data-tooltip='Elquines (4th Job)'><img src='/class-icons/explorers/ice-lightning/elquines.png' alt='Skill Elquines'/></span>[260s]</div> <div><span data-tooltip='Spirit of Snow (5th Job)'><img src='/class-icons/explorers/ice-lightning/spirit-of-snow.png' alt='Skill Spirit of Snow'/></span>[30s](120s cd)</div>",
-            "buffCd": "<div><span data-tooltip='Elemental Adaptation (3rd Job)'><img src='/class-icons/explorers/ice-lightning/elemental-adaptation.png' alt='Skill Elemental Adaptation (Ice, Lightning)'/></span>[1 Critical Abnormal Status & 30s / 1 Additional CAS](240s cd)</div> <div><span data-tooltip='Infinity (4th Job)'><img src='/class-icons/explorers/ice-lightning/infinity.png' alt='Skill Infinity'/></span>[40s](180s cd)</div> <div><span data-tooltip='Epic Adventure (Hyper Skill)'><img src='/class-icons/explorers/mage/epic-adventure.png' alt='Skill Epic Adventure'/></span>[60s](120s cd)</div> <div><span data-tooltip='Maple World Goddess&#39;s Blessing (5th Job)'><img src='/class-icons/5th-job/maple-world-goddess-blessing.png' alt='Skill Maple World Goddess&#39;s Blessing'/></span>[60s](120s cd)</div>",
-            "binds": "<div><span data-tooltip='Freezing Breath (4th Job)'><img src='/class-icons/explorers/ice-lightning/freezing-breath.png' alt='Skill Freezing Breath'/></span>[13s](120s cd)</div> <div><span data-tooltip='Frozen Lightning (6th Job)'><img src='/class-icons/explorers/ice-lightning/frozen-lightning.png' alt='Skill Frozen Lightning'/></span>[10s](360s cd)</div>",
-            "iFrame": "<div><span data-tooltip='Freezing Breath (4th Job)'><img src='/class-icons/explorers/ice-lightning/freezing-breath.png' alt='Skill Freezing Breath'/></span>[Up to 10s](120s cd)</div> <div><span data-tooltip='Frozen Lightning (6th Job)'><img src='/class-icons/explorers/ice-lightning/frozen-lightning.png' alt='Skill Frozen Lightning'/></span>(360s cd)</div>",
-            "damageReduce": "<div><span data-tooltip='Ethereal Form (5th Job)'><img src='/class-icons/5th-job/ethereal-form.png' alt='Skill Ethereal Form'/></span>[3s](-MP | 60s cd)</div>"
+            "active": "<tt src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation (2nd Job)} dur={[240s]}>",
+            "toggles": "<tt src={/class-icons/explorers/mage/magic-guard.png} tip={Magic Guard (1st Job)}> <tt src={/class-icons/explorers/ice-lightning/chilling-step.png} tip={Chilling Step (2nd Job)}> <tt src={/class-icons/explorers/ice-lightning/teleport-mastery.png} tip={Teleport Mastery (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/teleport-boost.png} tip={Teleport Boost (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/absolute-zero-aura.png} tip={Absolute Zero Aura (Hyper Skill)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} dur={[30s cd)}>",
+            "summons": "<tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)} dur={[120s/60s](0s / 30s cd)}> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)} dur={[260s]}> <tt src={/class-icons/explorers/ice-lightning/spirit-of-snow.png} tip={Spirit of Snow (5th Job)} dur={[30s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/ice-lightning/elemental-adaptation.png} tip={Elemental Adaptation (3rd Job)} dur={[Critical Abnormal Status & 30s / Additional CAS](240s cd)}> <tt src={/class-icons/explorers/ice-lightning/infinity.png} tip={Infinity (4th Job)} dur={[40s](180s cd)}> <tt src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}>",
+            "binds": "<tt src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath (4th Job)} dur={[13s](120s cd)}> <tt src={/class-icons/explorers/ice-lightning/frozen-lightning.png} tip={Frozen Lightning (6th Job)} dur={[10s](360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath (4th Job)} dur={[Up to 10s](120s cd)}> <tt src={/class-icons/explorers/ice-lightning/frozen-lightning.png} tip={Frozen Lightning (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](-MP | 60s cd)}>"
         },
         "linkSkill": {
             "id": 80002762,
             "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
             "type": "Passive",
-            "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
+            "desc": "Successful attacks have a chance to debuff against the enemy with the highest Max HP",
             "details": [
-                "<strong>[Debuff]: </strong>Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
+                "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacks up to 3 times)",
                 "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level"
             ]
         },
@@ -114,11 +114,11 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<span data-tooltip='Mana Wave'><img src='/class-icons/explorers/mage/mana-wave.png' alt='Skill Mana Wave'/></span> -> <span data-tooltip='Teleport'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> -> <span data-tooltip='Magic Guard'><img src='/class-icons/explorers/mage/magic-guard.png' alt='Skill Magic Guard'/></span> -> <span data-tooltip='MP Boost'><img src='/class-icons/explorers/mage/mp-boost.png' alt='Skill MP Boost'/></span> -> <span data-tooltip='Magic Armor'><img src='/class-icons/explorers/mage/magic-armor.png' alt='Skill Magic Armor.png'/></span> -> <span data-tooltip='Energy Bolt'><img src='/class-icons/explorers/mage/energy-bolt.png' alt='Skill Energy Bolt.png'/></span>"],
-                ["2nd Job", "<span data-tooltip='Spell Mastery'><img src='/class-icons/explorers/ice-lightning/spell-mastery.png' alt='Skill Spell Mastery'/></span> -> <span data-tooltip='High Wisdom'><img src='/class-icons/common/high-wisdom.png' alt='Skill High Wisdom'/></span> -> <span data-tooltip='Agile Magic'><img src='/class-icons/explorers/ice-lightning/agile-magic.png' alt='Skill Agile Magic'/></span> -> <span data-tooltip='Chilling Step'><img src='/class-icons/explorers/ice-lightning/chilling-step.png' alt='Skill Chilling Step'/></span> -> <span data-tooltip='MP Eater'><img src='/class-icons/explorers/ice-lightning/mp-eater.png' alt='Skill MP Eater'/></span> -> <span data-tooltip='Meditation'><img src='/class-icons/explorers/ice-lightning/meditation.png' alt='Skill Meditation'/></span> -> <span data-tooltip='Thunder Bolt'><img src='/class-icons/explorers/ice-lightning/thunder-bolt.png' alt='Skill Thunder Bolt'/></span> -> <span data-tooltip='Cold Beam'><img src='/class-icons/explorers/ice-lightning/cold-beam.png' alt='Skill Cold Beam'/></span>"],
-                ["3rd Job", "<span data-tooltip='Teleport Boost'><img src='/class-icons/explorers/ice-lightning/teleport-boost.png' alt='Skill Teleport Boost'/></span> -> <span data-tooltip='Shatter'><img src='/class-icons/explorers/ice-lightning/shatter.png' alt='Skill Shatter'/></span> -> <span data-tooltip='Element Amplification'><img src='/class-icons/explorers/ice-lightning/element-amplification.png' alt='Skill Element Amplification'/></span> -> <span data-tooltip='Storm Magic'><img src='/class-icons/explorers/ice-lightning/storm-magic.png' alt='Skill Storm Magic'/></span> -> <span data-tooltip='Arcane Overdrive'><img src='/class-icons/explorers/ice-lightning/arcane-overdrive.png' alt='Skill Arcane Overdrive'/></span> -> <span data-tooltip='Elemental Decrease'><img src='/class-icons/explorers/ice-lightning/elemental-decrease.png' alt='Skill Elemental Decrease'/></span> -> <span data-tooltip='Teleport Mastery'><img src='/class-icons/explorers/ice-lightning/teleport-mastery.png' alt='Skill Teleport Mastery'/></span> -> <span data-tooltip='Thunder Sphere'><img src='/class-icons/explorers/ice-lightning/thunder-sphere.png' alt='Skill Thunder Sphere'/></span> -> <span data-tooltip='Ice Strike'><img src='/class-icons/explorers/ice-lightning/ice-strike.png' alt='Skill Ice Strike'/></span> -> <span data-tooltip='Frost Ward'><img src='/class-icons/explorers/ice-lightning/frost-ward.png' alt='Skill Frost Ward'/></span> -> <span data-tooltip='Elemental Adaptation'><img src='/class-icons/explorers/ice-lightning/elemental-adaptation.png' alt='Skill Elemental Adaptation (Ice, Lightning)'/></span>"],
-                ["4th Job", "<span data-tooltip='Buff Mastery'><img src='/class-icons/explorers/ice-lightning/buff-mastery.png' alt='Skill Buff Mastery'/></span> -> <span data-tooltip='Chain Lightning'><img src='/class-icons/explorers/ice-lightning/chain-lightning.png' alt='Skill Chain Lightning'/></span> -> <span data-tooltip='Elquines'><img src='/class-icons/explorers/ice-lightning/elquines.png' alt='Skill Elquines'/></span> -> <span data-tooltip='Arcane Aim'><img src='/class-icons/explorers/ice-lightning/arcane-aim.png' alt='Skill Arcane Aim'/></span> -> <span data-tooltip='Maple Warrior'><img src='/class-icons/common/maple-warrior.png' alt='Skill Maple Warrior'/></span> -> <span data-tooltip='Infinity'><img src='/class-icons/explorers/ice-lightning/infinity.png' alt='Skill Infinity'/></span> -> <span data-tooltip='Blizzard'><img src='/class-icons/explorers/ice-lightning/blizzard.png' alt='Skill Blizzard'/></span> -> <span data-tooltip='Frozen Orb'><img src='/class-icons/explorers/ice-lightning/frozen-orb.png' alt='Skill Frozen Orb'/></span> -> <span data-tooltip='Freezing Breath'><img src='/class-icons/explorers/ice-lightning/freezing-breath.png' alt='Skill Freezing Breath'/></span> -> <span data-tooltip='Hero&#39;s Will'><img src='/class-icons/common/heros-will.png' alt='Skill Hero&#39;s Will'/></span>"]
-            ],
+                ["1st Job", "<tt src={/class-icons/explorers/mage/mana-wave.png} tip={Mana Wave}> -> <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport}> -> <tt src={/class-icons/explorers/mage/magic-guard.png} tip={Magic Guard}> -> <tt src={/class-icons/explorers/mage/mp-boost.png} tip={MP Boost}> -> <tt src={/class-icons/explorers/mage/magic-armor.png} tip={Magic Armor}> -> <tt src={/class-icons/explorers/mage/energy-bolt.png} tip={Energy Bolt}>"],  
+                ["2nd Job", "<tt src={/class-icons/explorers/ice-lightning/spell-mastery.png} tip={Spell Mastery}> -> <tt src={/class-icons/common/high-wisdom.png} tip={High Wisdom}> -> <tt src={/class-icons/explorers/ice-lightning/agile-magic.png} tip={Agile Magic}> -> <tt src={/class-icons/explorers/ice-lightning/chilling-step.png} tip={Chilling Step}> -> <tt src={/class-icons/explorers/ice-lightning/mp-eater.png} tip={MP Eater}> -> <tt src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation}> -> <tt src={/class-icons/explorers/ice-lightning/thunder-bolt.png} tip={Thunder Bolt}> -> <tt src={/class-icons/explorers/ice-lightning/cold-beam.png} tip={Cold Beam}>"],  
+                ["3rd Job", "<tt src={/class-icons/explorers/ice-lightning/teleport-boost.png} tip={Teleport Boost}> -> <tt src={/class-icons/explorers/ice-lightning/shatter.png} tip={Shatter}> -> <tt src={/class-icons/explorers/ice-lightning/element-amplification.png} tip={Element Amplification}> -> <tt src={/class-icons/explorers/ice-lightning/storm-magic.png} tip={Storm Magic}> -> <tt src={/class-icons/explorers/ice-lightning/arcane-overdrive.png} tip={Arcane Overdrive}> -> <tt src={/class-icons/explorers/ice-lightning/elemental-decrease.png} tip={Elemental Decrease}> -> <tt src={/class-icons/explorers/ice-lightning/teleport-mastery.png} tip={Teleport Mastery}> -> <tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere}> -> <tt src={/class-icons/explorers/ice-lightning/ice-strike.png} tip={Ice Strike}> -> <tt src={/class-icons/explorers/ice-lightning/frost-ward.png} tip={Frost Ward}> -> <tt src={/class-icons/explorers/ice-lightning/elemental-adaptation.png} tip={Elemental Adaptation (Ice, Lightning)}>"],  
+                ["4th Job", "<tt src={/class-icons/explorers/ice-lightning/buff-mastery.png} tip={Buff Mastery}> -> <tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning}> -> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines}> -> <tt src={/class-icons/explorers/ice-lightning/arcane-aim.png} tip={Arcane Aim}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/ice-lightning/infinity.png} tip={Infinity}> -> <tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard}> -> <tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb}> -> <tt src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+            ],              
             "details": [
                 "All 1st to 4th Job skills can be maxed",
                 "Put one SP into each skill first and then max each skill in this order",
@@ -126,11 +126,22 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<ul><li><img src='/class-icons/explorers/ice-lightning/teleport-mastery-range.png' alt='Skill Teleport Mastery - Range'/> Teleport Mastery - Range</li><li><img src='/class-icons/explorers/ice-lightning/chain-lightning-reinforce.png' alt='Skill Chain Lightning - Reinforce'/> <img src='/class-icons/explorers/ice-lightning/chain-lightning-spread.png' alt='Skill Chain Lightning - Spread'/> <img src='/class-icons/explorers/ice-lightning/chain-lightning-extra-strike.png' alt='Skill Chain Lightning - Extra Strike'/> Chain Lightning - Reinforce, Spread and Extra Strike</li><li><img src='/class-icons/explorers/ice-lightning/frozen-orb-reinforce.png' alt='Skill Frozen Orb - Reinforce'/> Frozen Orb - Reinforce</li></ul>" 
+            "recommended": "<bp_<tt src={/class-icons/explorers/ice-lightning/teleport-mastery-range.png} tip={Teleport Mastery - Range}> Teleport Mastery - Range_<tt src={/class-icons/explorers/ice-lightning/chain-lightning-reinforce.png} tip={Chain Lightning - Reinforce}> <tt src={/class-icons/explorers/ice-lightning/chain-lightning-spread.png} tip={Chain Lightning - Spread}> <tt src={/class-icons/explorers/ice-lightning/chain-lightning-extra-strike.png} tip={Chain Lightning - Extra Strike}> Chain Lightning - Reinforce, Spread and Extra Strike_<tt src={/class-icons/explorers/ice-lightning/frozen-orb-reinforce.png} tip={Frozen Orb - Reinforce}> Frozen Orb - Reinforce_>" 
         },
         "nodeInfo": {
-            "recommended": "<h6>Primary Trio</h6><div><span data-tooltip='Chain Lightning (4th Job)'><img src='/class-icons/explorers/ice-lightning/chain-lightning.png' alt='Skill Chain Lightning'/></span> <span data-tooltip='Thunder Sphere (3rd Job)'><img src='/class-icons/explorers/ice-lightning/thunder-sphere.png' alt='Skill Thunder Sphere'/></span> <span data-tooltip='Lightning Orb (Hyper Skill)'><img src='/class-icons/explorers/ice-lightning/lightning-orb.png' alt='Skill Lightning Orb'/></span></div><h6>Secondary Trio</h6><div><span data-tooltip='Frozen Orb (4th Job)'><img src='/class-icons/explorers/ice-lightning/frozen-orb.png' alt='Skill Frozen Orb'/></span> <span data-tooltip='Blizzard (4th Job)'><img src='/class-icons/explorers/ice-lightning/blizzard.png' alt='Skill Blizzard'/></span> <span data-tooltip='Elquines (4th Job)'><img src='/class-icons/explorers/ice-lightning/elquines.png' alt='Skill Elquines'/></span></div><ul><li>Any combination of these skills are good but preferred from same category as you want to max primary first</li><li>4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<ul><li>Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time</li></ul></li></ul>",
-            "possible": "<span data-tooltip='Thunder Bolt (2nd Job)'><img src='/class-icons/explorers/ice-lightning/thunder-bolt.png' alt='Skill Thunder Bolt'/></span> <span data-tooltip='Cold Beam (2nd Job)'><img src='/class-icons/explorers/ice-lightning/cold-beam.png' alt='Skill Cold Beam'/></span> <span data-tooltip='Chilling Step (2nd Job)'><img src='/class-icons/explorers/ice-lightning/chilling-step.png' alt='Skill Chilling Step'/></span> <span data-tooltip='Ice Strike (3rd Job)'><img src='/class-icons/explorers/ice-lightning/ice-strike.png' alt='Skill Ice Strike'/></span> <span data-tooltip='Frost Ward (3rd Job)'><img src='/class-icons/explorers/ice-lightning/frost-ward.png' alt='Skill Frost Ward'/></span> <span data-tooltip='Thunder Sphere (3rd Job)'><img src='/class-icons/explorers/ice-lightning/thunder-sphere.png' alt='Skill Thunder Sphere'/></span> <span data-tooltip='Elquines (4th Job)'><img src='/class-icons/explorers/ice-lightning/elquines.png' alt='Skill Elquines'/></span> <span data-tooltip='Chain Lightning (4th Job)'><img src='/class-icons/explorers/ice-lightning/chain-lightning.png' alt='Skill Chain Lightning'/></span> <span data-tooltip='Blizzard (4th Job)'><img src='/class-icons/explorers/ice-lightning/blizzard.png' alt='Skill Blizzard'/></span> <span data-tooltip='Frozen Orb (4th Job)'><img src='/class-icons/explorers/ice-lightning/frozen-orb.png' alt='Skill Frozen Orb'/></span> <span data-tooltip='Lightning Orb (Hyper Skill)'><img src='/class-icons/explorers/ice-lightning/lightning-orb.png' alt='Skill Lightning Orb'/></span>"
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/lightning-orb.png} tip={Lightning Orb (Hyper Skill)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "possible": {
+                "nodes": "<tt src={/class-icons/explorers/ice-lightning/thunder-bolt.png} tip={Thunder Bolt (2nd Job)}> <tt src={/class-icons/explorers/ice-lightning/cold-beam.png} tip={Cold Beam (2nd Job)}> <tt src={/class-icons/explorers/ice-lightning/chilling-step.png} tip={Chilling Step (2nd Job)}> <tt src={/class-icons/explorers/ice-lightning/ice-strike.png} tip={Ice Strike (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/frost-ward.png} tip={Frost Ward (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/lightning-orb.png} tip={Lightning Orb (Hyper Skill)}>"
+            }
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Magician_(Ice,_Lightning)"},
@@ -196,7 +207,7 @@
                     "desc": "",
                     "reqLev": "Req. 200",
                     "details": [
-                        "To obtain this skill, complete the quest <a href='https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E' target='_blank' rel='noreferrer noopener'>'An Arrangement from the Goddess'</a>",
+                        "To obtain this skill, complete the quest <link href={https://maplestorywiki.net/w/Quests/77/An_Arrangement_from_the_Goddess%2E} title={\"An Arrangement from the Goddess\"}>",
                         "Affects all nearby players"
                     ]
                 }]
@@ -247,7 +258,7 @@
                         "desc": "Up jump skill",
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
-                            "After using Mana Wave, holding the Jump Key will allow you to slowly float down<ul><li>You can move while floating</li></ul>"
+                            "After using, holding the Jump Key will allow you to slowly float down<bp_You can move while floating_>"
                         ]
                     },
                     {
@@ -288,7 +299,7 @@
                         "type": "Passive",
                         "desc": "Attacking enemies with Ice-Attribute attacks will provide a stacking debuff",
                         "details": [
-                            "<strong>[Debuff]</strong>: For each stack, receives increased %Crit Damage and additional %Damage for Lightning-Attribute attacks",
+                            "[Debuff]: For each stack, receives increased %Crit Damage and additional %Damage for Lightning-Attribute attacks",
                             "Using Lightning-Attribute attacks will consume a stack"
                         ]
                     },
@@ -308,9 +319,9 @@
                         "icons": ["/class-icons/explorers/ice-lightning/chilling-step.png"],
                         "animations": ["https://media.giphy.com/media/bUvzBAxVIqMz4E1aFH/giphy.gif"],
                         "type": "Toggle",
-                        "desc": "While toggled, using <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> will have a chance to freeze the ground",
+                        "desc": "While toggled, using <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}> will have a chance to freeze the ground",
                         "details": [
-                            "Frozen ground will slow enemies and apply stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span>",
+                            "Frozen ground will slow enemies and apply stacks of <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}>",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -375,7 +386,7 @@
                         "desc": "Creates a barrier that blocks one Critical Abnormal Status effect",
                         "details": [
                             "Upon blocking an Abnormal Status, gain a barrier that blocks an additional Critical Abnormal Status and the skill will go on cooldown",
-                            "<strong>[Passive]</strong>: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
+                            "[Passive]: Permanently increases Abnormal Status Resistance and %Elemental Resistance"
                         ]
                     },
                     {
@@ -399,9 +410,9 @@
                         "type": "Summon",
                         "desc": "Summons an orb that strikes nearby enemies and follows you around",
                         "details": [
-                            "While active, pressing the Down Arrow Key and Skill Key together will fix the orb's position and attack in a wider range<ul><li>Right-clicking the skill will toggle ON/OFF the ability to fix the position by pressing the Skill Key without the Down Arrow Key</li></ul>",
+                            "While active, pressing the Down Arrow Key and Skill Key together will fix the orb's position and attack in a wider range<bp_Right-clicking the skill will toggle ON/OFF the ability to fix the position by pressing the Skill Key without the Down Arrow Key_>",
                             "Deals increased %p Damage to regular monsters",
-                            "Does not consume <span data-tooltip='Freezing Crush (2nd Job'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span> freezing stacks"
+                            "Does not consume <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job}> freezing stacks"
                         ]
                     },
                     {
@@ -411,9 +422,9 @@
                         "icons": ["/class-icons/explorers/ice-lightning/teleport-mastery.png"],
                         "animations": ["https://media.giphy.com/media/UZS4IQSaM371c0pUxT/giphy.gif"],
                         "type": "Toggle Attack",
-                        "desc": "While toggled, using <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span> will damage nearby enemies",
+                        "desc": "While toggled, using <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}> will damage nearby enemies",
                         "details": [
-                            "<strong>[Passive]</strong>: Permanently increases %Knockback Resistance",
+                            "[Passive]: Permanently increases %Knockback Resistance",
                             "Has a chance to stun enemies"
                         ]
                     },
@@ -423,9 +434,9 @@
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/ice-lightning/teleport-boost.png"],
                         "type": "Toggle Buff",
-                        "desc": "While toggled, increases the teleport distance of <span data-tooltip='Teleport (1st Job)'><img src='/class-icons/explorers/mage/teleport.png' alt='Skill Teleport'/></span>",
+                        "desc": "While toggled, increases the teleport distance of <tt src={/class-icons/explorers/mage/teleport.png} tip={Teleport (1st Job)}>",
                         "details": [
-                            "Cannot be used at the same time as <span data-tooltip='Teleport Mastery - Range'><img src='/class-icons/explorers/ice-lightning/teleport-mastery-range.png' alt='Skill Teleport Mastery - Range'/></span>"
+                            "Cannot be used at the same time as <tt src={/class-icons/explorers/ice-lightning/teleport-mastery-range.png} tip={Teleport Mastery - Range (Hyper Skill)}>"
                         ]
                     },
                     {
@@ -499,7 +510,7 @@
                     "type": "Attack / Final Attack",
                     "desc": "Creates a shower of icicles",
                     "details": [
-                        "<strong>[Final Attack]</strong>: Your attacks have a chance to create an icicle that strikes a single enemy"
+                        "[Final Attack]: Your attacks have a chance to create an icicle that strikes a single enemy"
                     ]
                 },
                 {
@@ -538,7 +549,7 @@
                     "type": "Summon",
                     "desc": "Summons an ice golem that attacks nearby enemies",
                     "details": [
-                        "<strong>[Passive]</strong>: Permanently increases %Weapon Mastery",
+                        "[Passive]: Permanently increases %Weapon Mastery",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -563,7 +574,7 @@
                     "type": "Buff",
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
-                        "Unaffected by <img src='/class-icons/explorers/paladin/combat-orders.png' alt='Skill Combat Orders'/> Combat Orders"
+                        "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
                 },
                 {
@@ -687,7 +698,7 @@
                     "type": "Party Toggle Buff",
                     "desc": "While toggled, increases Status Resistance and %Damage Reduction",
                     "details": [
-                        "Pressing the Down Arrow Key and Skill Key together will create a party zone that applies the active effect<ul><li>Enemies within the zone will gain stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span></li></ul>"
+                        "Pressing the Down Arrow Key and Skill Key together will create a party zone that applies the active effect<bp_Enemies within the zone will gain stacks of <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}>_>"
                     ],
                     "reqLev": 140
                 },
@@ -728,7 +739,7 @@
                     "desc": "Creates a massive icy explosion that covers the map in ice",
                     "details": [
                         "Unaffected by Damage Reflect",
-                        "The lingering ice field while periodically damaging and grant stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span>"
+                        "The lingering ice field while periodically damaging and grant stacks of <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}>"
                     ]
                 },
                 {
@@ -749,7 +760,7 @@
                     "icons": ["/class-icons/explorers/ice-lightning/spirit-of-snow.png"],
                     "animations": ["https://media.giphy.com/media/KFi2458O0ZRxQXH3AL/giphy-downsized-large.gif"],
                     "type": "Summon",
-                    "desc": "Summons a spirit of snow to attack nearby enemies and applies stacks of <span data-tooltip='Freezing Crush (2nd Job)'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span>",
+                    "desc": "Summons a spirit of snow to attack nearby enemies and applies stacks of <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}>",
                     "details": [
                         "When attacking a single enemy, applies 3 stacks instead",
                         "Unaffected by Damage Reflect"
@@ -765,7 +776,7 @@
                     "details": [
                         "The orb will continue to travel again if the current target is defeated",
                         "The orb has a fixed number of shocks it can deal before it disappears",
-                        "Reduces <span data-tooltip='Freezing Crush (2nd Job)'><img src='/class-icons/explorers/ice-lightning/freezing-crush.png' alt='Skill Freezing Crush'/></span> stacks each time an enemy is shocked 5 times by the orb",
+                        "Reduces <tt src={/class-icons/explorers/ice-lightning/freezing-crush.png} tip={Freezing Crush (2nd Job)}> stacks each time an enemy is shocked 5 times by the orb",
                         "Enemies hit by the attack receive increased %Final Damage from Lightning-attribute attacks except Jupiter Thunder",
                         "Unaffected by Damage Reflect",
                         "Cooldown is reduced based on how many shocks remain"
@@ -783,7 +794,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Chain Lightning (4th Job)'><img src='/class-icons/explorers/ice-lightning/chain-lightning.png' alt='Skill Chain Lightning'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={/class-icons/explorers/ice-lightning/chain-lightning.png} tip={Chain Lightning (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -804,7 +815,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <span data-tooltip='Frozen Orb (4th Job)'><img src='/class-icons/explorers/ice-lightning/frozen-orb.png' alt='Skill Frozen Orb'/></span> <span data-tooltip='Blizzard (4th Job)'><img src='/class-icons/explorers/ice-lightning/blizzard.png' alt='Skill Blizzard'/></span> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={/class-icons/explorers/ice-lightning/frozen-orb.png} tip={Frozen Orb (4th Job)}> <tt src={/class-icons/explorers/ice-lightning/blizzard.png} tip={Blizzard (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
