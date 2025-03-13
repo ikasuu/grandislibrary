@@ -57,11 +57,14 @@ export function SkillTab({primary, fifth, sixth, hyper, slug}) {
             {createSkillTabs(primary, settings)}
             <Tab eventKey="fifth" title="5th Job">
               <LazyLoad height={2000} offset={100}>
-              <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
+                <StyledHeaderThree>Class Specific V Skills</StyledHeaderThree>
                 <VSkillContainer skillData={fifth.fifthMain} settings={settings}/>
                 <a href="#skill"><span className="jump-button-tabs"/></a>
                 <StyledHeaderThree>Common V Skills</StyledHeaderThree>
                 <VSkillContainer skillData={convertCommonVToArray(fifth)} settings={settings}/>
+                <a href="#skill"><span className="jump-button-tabs"/></a>
+                <StyledHeaderThree>Boost Node Skills</StyledHeaderThree>
+                <VSkillContainer skillData={fifth.fifthBoost} settings={settings}/>
                 <a href="#skill"><span className="jump-button-tabs"/></a>
               </LazyLoad>
             </Tab>

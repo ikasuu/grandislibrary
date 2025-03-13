@@ -117,7 +117,7 @@
         "nodeInfo": {
             "recommended": {
                 "nodes": [
-                    ["Primary Trio", "<tt src={/class-icons/anima/lara/essence-sprinkle.png} tip={Essence Sprinkle (1st Job)}> <tt src={/class-icons/anima/lara/dragon-vein-eruption.png} tip={Dragon Vein Eruption (2nd Job)}> <tt src={/class-icons/anima/lara/dragon-vein-absorption.png} tip={Dragon Vein Absorption (4th Job)}>"],
+                    ["Primary Trio", "<tt src={/class-icons/anima/lara/essence-sprinkle-boost.png} tip={Essence Sprinkle (1st Job)}> <tt src={/class-icons/anima/lara/dragon-vein-eruption.png} tip={Dragon Vein Eruption (2nd Job)}> <tt src={/class-icons/anima/lara/dragon-vein-absorption.png} tip={Dragon Vein Absorption (4th Job)}>"],
                     ["Secondary Trio", "<tt src={/class-icons/anima/lara/mountain-seeds.png} tip={Mountain Seeds (2nd Job)}> <tt src={/class-icons/anima/lara/mountain-kid.png} tip={Mountain Kid (1st Job)}> [ <tt src={/class-icons/anima/lara/wakeup-call.png} tip={Wakeup Call (3rd Job)}> / <tt src={/class-icons/anima/lara/dragon-vein-traces.png} tip={Dragon Vein Traces (3rd Job)}> ]"]
                 ],
                 "notes": [
@@ -127,7 +127,7 @@
                 ]
             },
             "possible": {
-                "nodes": "<tt src={/class-icons/anima/lara/essence-sprinkle.png} tip={Essence Sprinkle (1st Job)}> <tt src={/class-icons/anima/lara/mountain-kid.png} tip={Mountain Kid (1st Job)}> <tt src={/class-icons/anima/lara/mountain-seeds.png} tip={Mountain Seeds (2nd Job)}> <tt src={/class-icons/anima/lara/dragon-vein-eruption.png} tip={Dragon Vein Eruption (2nd Job)}> <tt src={/class-icons/anima/lara/wakeup-call.png} tip={Wakeup Call (3rd Job)}> <tt src={/class-icons/anima/lara/dragon-vein-traces.png} tip={Dragon Vein Traces (3rd Job)}> <tt src={/class-icons/anima/lara/dragon-vein-absorption.png} tip={Dragon Vein Absorption (4th Job)}> <tt src={/class-icons/anima/lara/vine-coil.png} tip={Vine Coil (Hyper Skill)}>"
+                "nodes": "<tt src={/class-icons/anima/lara/essence-sprinkle-boost.png} tip={Essence Sprinkle (1st Job)}> <tt src={/class-icons/anima/lara/mountain-kid.png} tip={Mountain Kid (1st Job)}> <tt src={/class-icons/anima/lara/mountain-seeds.png} tip={Mountain Seeds (2nd Job)}> <tt src={/class-icons/anima/lara/dragon-vein-eruption.png} tip={Dragon Vein Eruption (2nd Job)}> <tt src={/class-icons/anima/lara/wakeup-call.png} tip={Wakeup Call (3rd Job)}> <tt src={/class-icons/anima/lara/dragon-vein-traces.png} tip={Dragon Vein Traces (3rd Job)}> <tt src={/class-icons/anima/lara/dragon-vein-absorption.png} tip={Dragon Vein Absorption (4th Job)}> <tt src={/class-icons/anima/lara/vine-coil.png} tip={Vine Coil (Hyper Skill)}>"
             }
         },
         "moreInfo": [
@@ -843,6 +843,85 @@
                         "Can only be summoned if there is a platform nearby",
                         "The Earth Spirit slows down if it collides with an enemy",
                         "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Essence Sprinkle Boost",
+                    "shortDesc": "Essence Sprinkle Final Damage: +120%",
+                    "icons": ["/class-icons/anima/lara/essence-sprinkle-boost.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Wakeup Call Boost",
+                    "shortDesc": "Wakeup Call Final Damage: +120%",
+                    "icons": ["/class-icons/anima/lara/wakeup-call.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Mountain Kid Boost",
+                    "shortDesc": "Mountain Kid Final Damage: +120%",
+                    "icons": ["/class-icons/anima/lara/mountain-kid.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Mountain Seeds Boost",
+                    "shortDesc": "Mountain Seeds Final Damage: +120%",
+                    "icons": ["/class-icons/anima/lara/mountain-seeds.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Vein Eruption Boost",
+                    "shortDesc": "Dragon Vein Eruption Final Damage: +120%",
+                    "icons": ["/class-icons/anima/lara/dragon-vein-eruption.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dragon Vein Absorption Boost",
+                    "shortDesc": "Dragon Vein Absorption Final Damage: +120%",
+                    "icons": ["/class-icons/anima/lara/dragon-vein-absorption.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Vine Coil Boost",
+                    "shortDesc": "Vine Coil Final Damage: +120%",
+                    "icons": ["/class-icons/anima/lara/vine-coil.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 }
             ]

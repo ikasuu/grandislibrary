@@ -114,7 +114,7 @@
             "recommended": {
                 "nodes": [
                     ["Primary Trio", "<tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={All Mecha Purge (4th Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-penetrate.png} tip={All Hypogram Field (4th Job)}> <tt src={/class-icons/resistance/xenon/beam-dance.png} tip={Beam Dance (4th Job)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/resistance/xenon/pinpoint-salvo.png} tip={Pinpoint Salvo (1st Job)}> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}> <tt src={/class-icons/resistance/xenon/aegis-system.png} tip={Aegis System (3rd Job)}>"]
+                    ["Secondary Trio", "<tt src={/class-icons/resistance/xenon/pinpoint-salvo.png} tip={Pinpoint Salvo (1st Job)}> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}> <tt src={/class-icons/resistance/xenon/aegis-system-boost.png} tip={Aegis System (3rd Job)}>"]
                 ],
                 "notes": [
                     "Any combination of these skills are good but preferred from same category as you want to max primary first",
@@ -122,7 +122,7 @@
                 ]
             },
             "possible": {
-                "nodes": "<tt src={/class-icons/resistance/xenon/beam-spline.png} tip={Beam Spline (1st Job)}> <tt src={/class-icons/resistance/xenon/pinpoint-salvo.png} tip={Pinpoint Salvo (1st Job)}> <tt src={/class-icons/resistance/xenon/quicksilver-flash.png} tip={All Quicksilver (2nd Job)}> <tt src={/class-icons/resistance/xenon/ion-thrust.png} tip={Ion Thrust (2nd Job)}> <tt src={/class-icons/resistance/xenon/combat-switch-explosion.png} tip={All Combat Switch (3rd Job)}> <tt src={/class-icons/resistance/xenon/diagonal-chase.png} tip={Diagonal Chase (3rd Job)}> <tt src={/class-icons/resistance/xenon/gravity-pillar.png} tip={Gravity Pillar (3rd Job)}> <tt src={/class-icons/resistance/xenon/aegis-system.png} tip={Aegis System (3rd Job)}> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}> <tt src={/class-icons/resistance/xenon/beam-dance.png} tip={Beam Dance (4th Job)}> <tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={All Mecha Purge (4th Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-penetrate.png} tip={All Hypogram Field (4th Job)}> <tt src={/class-icons/resistance/xenon/entangling-lash.png} tip={Entangling Lash (Hyper Skill)}> <tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)}>"
+                "nodes": "<tt src={/class-icons/resistance/xenon/beam-spline.png} tip={Beam Spline (1st Job)}> <tt src={/class-icons/resistance/xenon/pinpoint-salvo.png} tip={Pinpoint Salvo (1st Job)}> <tt src={/class-icons/resistance/xenon/quicksilver-flash.png} tip={All Quicksilver (2nd Job)}> <tt src={/class-icons/resistance/xenon/ion-thrust.png} tip={Ion Thrust (2nd Job)}> <tt src={/class-icons/resistance/xenon/combat-switch-explosion.png} tip={All Combat Switch (3rd Job)}> <tt src={/class-icons/resistance/xenon/diagonal-chase.png} tip={Diagonal Chase (3rd Job)}> <tt src={/class-icons/resistance/xenon/gravity-pillar.png} tip={Gravity Pillar (3rd Job)}> <tt src={/class-icons/resistance/xenon/aegis-system-boost.png} tip={Aegis System (3rd Job)}> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}> <tt src={/class-icons/resistance/xenon/beam-dance.png} tip={Beam Dance (4th Job)}> <tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={All Mecha Purge (4th Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-penetrate.png} tip={All Hypogram Field (4th Job)}> <tt src={/class-icons/resistance/xenon/entangling-lash.png} tip={Entangling Lash (Hyper Skill)}> <tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)}>"
             }
         },
         "moreInfo": [
@@ -873,6 +873,162 @@
                         "Photon cannon will prioritize bosses with the highest max HP",
                         "Can be used at the same time while casting <tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={Mecha Purge: Snipe (4th Job)}> <tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)}> <tt src={/class-icons/resistance/xenon/omega-blaster.png} tip={Omega Blaster (5th Job)}>",
                         "Unaffected by Damage Reflect and <tt src={/class-icons/resistance/xenon/manifest-projector.png} tip={Manifest Projector (3rd Job)}>"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Beam Spline Boost",
+                    "shortDesc": "Beam Spline Final Damage: +420%",
+                    "icons": ["/class-icons/resistance/xenon/beam-spline.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Pinpoint Salvo Boost",
+                    "shortDesc": "Pinpoint Salvo Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/xenon/pinpoint-salvo.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Quicksilver Boost",
+                    "shortDesc": "Quicksilver All Modes Final Damage: +300%",
+                    "icons": ["/class-icons/resistance/xenon/quicksilver-flash.png", "/class-icons/resistance/xenon/quicksilver-concentrate.png", "/class-icons/resistance/xenon/quicksilver-takeoff.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ion Thrust Boost",
+                    "shortDesc": "Ion Thrust Final Damage: +300%",
+                    "icons": ["/class-icons/resistance/xenon/ion-thrust.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Combat Switch Boost",
+                    "shortDesc": "Combat Switch All Modes Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/xenon/combat-switch-explosion.png", "/class-icons/resistance/xenon/combat-switch-air-whip.png", "/class-icons/resistance/xenon/combat-switch-fission.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Diagonal Chase Boost",
+                    "shortDesc": "Diagonal Chase Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/xenon/diagonal-chase.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Gravity Pillar Boost",
+                    "shortDesc": "Gravity Pillar Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/xenon/gravity-pillar.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Aegis System Boost",
+                    "shortDesc": "Aegis System Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/xenon/aegis-system-boost.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Triangulation Boost",
+                    "shortDesc": "Triangulation Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/xenon/triangulation.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Beam Dance Boost",
+                    "shortDesc": "Beam Dance Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/xenon/beam-dance.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Mecha Purge Boost",
+                    "shortDesc": "Mecha Purge All Modes Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/xenon/mecha-purge-snipe.png", "/class-icons/resistance/xenon/mecha-purge-bombard.png", "/class-icons/resistance/xenon/mecha-purge-bombardment.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hypogram Field Boost",
+                    "shortDesc": "Hypogram Field All Modes Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/xenon/hypogram-field-penetrate.png", "/class-icons/resistance/xenon/hypogram-field-force-field.png", "/class-icons/resistance/xenon/hypogram-field-support.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Entangling Lash Boost",
+                    "shortDesc": "Entangling Lash Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/xenon/entangling-lash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Orbital Cataclysm Boost",
+                    "shortDesc": "Orbital Cataclysm Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/xenon/orbital-cataclysm.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 }
             ]

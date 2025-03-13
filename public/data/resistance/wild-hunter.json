@@ -128,7 +128,7 @@
                 ]
             },
             "possible": {
-                "nodes": "<tt src={/class-icons/resistance/wild-hunter/double-shot.png} tip={Double Shot, Triple Shot, and Enduring Fire (1st Job / 2nd Job / 3rd Job)}> <tt src={/class-icons/resistance/wild-hunter/summon-jaguar.png} tip={Summon Jaguar and Another Bite (1st Job)}> <tt src={/class-icons/resistance/wild-hunter/swipe.png} tip={Swipe (1st Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/resistance/wild-hunter/dash-n-slash.png} tip={Dash 'n Slash and White Heat Rush (2nd Job / 3rd Job)}> <tt src={/class-icons/resistance/wild-hunter/hunting-assistant-unit.png} tip={Hunting Assistant Unit (3rd Job)}> <tt src={/class-icons/resistance/wild-hunter/sonic-roar.png} tip={Sonic Roar and Jaguar Soul (3rd Job / 4th Job)}> <tt src={/class-icons/resistance/wild-hunter/wild-arrow-blast.png} tip={Wild Arrow Blast and Wild Arrow Blast Type P (4th Job)}> <tt src={/class-icons/resistance/wild-hunter/drill-salvo.png} tip={Drill Salvo (4th Job)}> <tt src={/class-icons/resistance/wild-hunter/exploding-arrows.png} tip={Exploding Arrows and Jaguar Rampage (Hyper Skill)}>"
+                "nodes": "<tt src={/class-icons/resistance/wild-hunter/double-shot.png} tip={Double Shot/Triple Shot/Enduring Fire (1st Job / 2nd Job / 3rd Job)}> <tt src={/class-icons/resistance/wild-hunter/summon-jaguar.png} tip={Summon Jaguar and Another Bite (1st Job)}> <tt src={/class-icons/resistance/wild-hunter/swipe.png} tip={Swipe (1st Job)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/resistance/wild-hunter/dash-n-slash.png} tip={Dash 'n Slash and White Heat Rush (2nd Job / 3rd Job)}> <tt src={/class-icons/resistance/wild-hunter/hunting-assistant-unit.png} tip={Hunting Assistant Unit (3rd Job)}> <tt src={/class-icons/resistance/wild-hunter/sonic-roar.png} tip={Sonic Roar and Jaguar Soul (3rd Job / 4th Job)}> <tt src={/class-icons/resistance/wild-hunter/wild-arrow-blast.png} tip={Wild Arrow Blast and Wild Arrow Blast Type P (4th Job)}> <tt src={/class-icons/resistance/wild-hunter/drill-salvo.png} tip={Drill Salvo (4th Job)}> <tt src={/class-icons/resistance/wild-hunter/exploding-arrows.png} tip={Exploding Arrows and Jaguar Rampage (Hyper Skill)}>"
             }
         },
         "moreInfo": [
@@ -877,6 +877,118 @@
                     "details": [
                         "You can move while casting",
                         "Attack has increased %Ignore DEF"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Double Shot/Triple Shot/Enduring Fire Boost",
+                    "shortDesc": "Double Shot, Triple Shot, and Enduring Fire Final Damage: +300%",
+                    "icons": ["/class-icons/resistance/wild-hunter/double-shot.png", "/class-icons/resistance/wild-hunter/triple-shot.png", "/class-icons/resistance/wild-hunter/enduring-fire.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Summon Jaguar Boost",
+                    "shortDesc": "Summon Jaguar and Another Bite Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/wild-hunter/summon-jaguar.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Swipe Boost",
+                    "shortDesc": "Swipe Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/wild-hunter/swipe.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Final Attack Boost",
+                    "shortDesc": "Final Attack Final Damage: +120%",
+                    "icons": ["/class-icons/common/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Dash 'n Slash/White Heat Rush Boost",
+                    "shortDesc": "White Heat Rush and Dash 'n Slash Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/wild-hunter/dash-n-slash.png", "/class-icons/resistance/wild-hunter/white-heat-rush.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hunting Assistant Unit Boost",
+                    "shortDesc": "Hunting Assistant Unit Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/wild-hunter/hunting-assistant-unit.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sonic Roar/Jaguar Soul Boost",
+                    "shortDesc": "Sonic Roar and Jaguar Soul Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/wild-hunter/sonic-roar.png", "/class-icons/resistance/wild-hunter/jaguar-soul.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Wild Arrow Blast/Wild Arrow Blast Type P Boost",
+                    "shortDesc": "Wild Arrow Blast/Wild Arrow Blast Type P Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/wild-hunter/wild-arrow-blast.png", "/class-icons/resistance/wild-hunter/wild-arrow-blast-type-p.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Drill Salvo Boost",
+                    "shortDesc": "Drill Salvo Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/wild-hunter/drill-salvo.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Exploding Arrows, Jaguar Rampage Boost",
+                    "shortDesc": "Exploding Arrows and Jaguar Rampage Final Damage: +120%",
+                    "icons": ["/class-icons/resistance/wild-hunter/exploding-arrows.png", "/class-icons/resistance/wild-hunter/jaguar-rampage.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 }
             ]

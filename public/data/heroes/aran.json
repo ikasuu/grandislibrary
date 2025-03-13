@@ -448,9 +448,9 @@
                         "name": "Adrenaline Overload",
                         "shortDesc": "Activate Adrenaline Awakening by landing 10 attacks while Adrenaline Rush is active.\\nAdrenaline Awakening: lasts 5 seconds, enables Hyper Finisher skills, activates Golden Burst every 1.2 seconds when using direct skill attacks.\\nGolden Burst: Deals 650% damage 10 times to up to 12 enemies.\\nCooldown: 180 seconds, Adrenal Awakening cooldown displays via the border of Adrenaline Rush Activate\\n[Passive Effect: Damage dealt by Iceflow: +320%p]",
                         "maxLevel": 30,
-                        "icons": ["/class-icons/heroes/aran/adrenaline-overload.png", "/class-icons/heroes/aran/adrenaline-rush.png"],
+                        "icons": ["/class-icons/heroes/aran/adrenaline-overload.png"],
                         "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJtazZoMWJtNW43dTVqcGF6ZXdqNWUwN3RucTluODl5aHlkcWg1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WTafEscZAKD1H6cK02/giphy.gif"],
-                        "type": "Upgraded Passive",
+                        "type": "Passive",
                         "desc": "During <tt src={/class-icons/heroes/aran/adrenaline-rush.png} tip={Adrenaline Rush (3rd Job)}>, grants Adrenal Awakening after 10 successful direct attack skills by pressing <tt src={/class-icons/heroes/aran/adrenaline-rush-activate.png} tip={Adrenaline Rush Activate (3rd Job)}>",
                         "details": [
                             "During Adrenal Awakening, grants the use of 'Hyper Finisher' skills and Golden Burst that activates to deal damage when using direct attack skills",
@@ -753,6 +753,118 @@
                         "Pressing the Skill Key again will end the skill early",
                         "Right-clicking the skill will toggle ON/OFF the ice chunk effect",
                         "Ignores Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Smash Swing and Permafrost Boost",
+                    "shortDesc": "Smash Swing and Permafrost Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/smash-swing.png", "/class-icons/heroes/aran/permafrost.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Final Charge Boost",
+                    "shortDesc": "Final Charge Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/final-charge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Final Attack Boost",
+                    "shortDesc": "Final Attack Final Damage: +120%",
+                    "icons": ["/class-icons/common/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Final Toss Boost",
+                    "shortDesc": "Final Toss Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/final-toss.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Judgment Draw Boost",
+                    "shortDesc": "Judgment Draw Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/judgment-draw.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Adrenaline Rush and Adrenaline Overload Boost",
+                    "shortDesc": "Adrenaline Rush - Iceflow and Adrenaline Overload - Golden Burst Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/adrenaline-rush.png", "/class-icons/heroes/aran/adrenaline-overload.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Beyond Blade Boost",
+                    "shortDesc": "Beyond Blade and Final Beyond Blade - White Tiger Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/beyond-blade-3.png", "/class-icons/heroes/aran/final-beyond-blade-white-tiger.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Glacial Prison Boost",
+                    "shortDesc": "Glacial Prison Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/glacial-prison.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Finisher - Hunter's Prey Boost",
+                    "shortDesc": "Finisher - Hunter's Prey Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/hunters-prey.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Hyper Finisher - Last Stand Boost",
+                    "shortDesc": "Hyper Finisher - Last Stand Final Damage: +120%",
+                    "icons": ["/class-icons/heroes/aran/last-stand.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 }
             ]

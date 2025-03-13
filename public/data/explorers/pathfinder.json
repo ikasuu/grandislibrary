@@ -120,7 +120,7 @@
                 "nodes": [
                     ["Bossing Trio", "<tt src={/class-icons/explorers/pathfinder/cardinal-deluge.png} tip={Cardinal Deluge and Bountiful Deluge (1st Job / 2nd Job)}> <tt src={/class-icons/explorers/pathfinder/cardinal-burst.png} tip={Cardinal Burst and Bountiful Burst (2nd Job / 3rd Job)}> <tt src={/class-icons/explorers/pathfinder/glyph-of-impalement.png} tip={Glyph of Impalement (4th Job)}>"],
                     ["Mobbing Trio", "<tt src={/class-icons/explorers/pathfinder/cardinal-torrent.png} tip={Cardinal Torrent (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/swarm-shot.png} tip={Swarm Shot (2nd Job)}> <tt src={/class-icons/explorers/pathfinder/combo-assault.png} tip={Combo Assault (4th Job)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/triple-impact.png} tip={Triple Impact (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/ancient-astra.png} tip={Ancient Astra (Hyper Skill)}>"]
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/triple-impact.png} tip={Triple Impact (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/ancient-astra-boost.png} tip={Ancient Astra (Hyper Skill)}>"]
                 ],
                 "notes": [
                     "Either categories can be maxed first based on if you prioritize bossing or mobbing",
@@ -129,7 +129,7 @@
                 ]
             },
             "possible": {
-                "nodes": "<tt src={/class-icons/explorers/pathfinder/cardinal-deluge.png} tip={Cardinal Deluge and Bountiful Deluge (1st Job / 2nd Job)}> <tt src={/class-icons/explorers/pathfinder/cardinal-burst.png} tip={Cardinal Burst and Bountiful Burst (2nd Job / 3rd Job)}> <tt src={/class-icons/explorers/pathfinder/cardinal-torrent.png} tip={Cardinal Torrent (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/swarm-shot.png} tip={Swarm Shot (2nd Job)}> <tt src={/class-icons/explorers/pathfinder/triple-impact.png} tip={Triple Impact (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/glyph-of-impalement.png} tip={Glyph of Impalement (4th Job)}> <tt src={/class-icons/explorers/pathfinder/combo-assault.png} tip={Combo Assault (4th Job)}> <tt src={/class-icons/explorers/pathfinder/ancient-astra.png} tip={Ancient Astra (Hyper Skill)}>"
+                "nodes": "<tt src={/class-icons/explorers/pathfinder/cardinal-deluge.png} tip={Cardinal Deluge and Bountiful Deluge (1st Job / 2nd Job)}> <tt src={/class-icons/explorers/pathfinder/cardinal-burst.png} tip={Cardinal Burst and Bountiful Burst (2nd Job / 3rd Job)}> <tt src={/class-icons/explorers/pathfinder/cardinal-torrent.png} tip={Cardinal Torrent (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/swarm-shot.png} tip={Swarm Shot (2nd Job)}> <tt src={/class-icons/explorers/pathfinder/triple-impact.png} tip={Triple Impact (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/glyph-of-impalement.png} tip={Glyph of Impalement (4th Job)}> <tt src={/class-icons/explorers/pathfinder/combo-assault.png} tip={Combo Assault (4th Job)}> <tt src={/class-icons/explorers/pathfinder/ancient-astra-boost.png} tip={Ancient Astra (Hyper Skill)}>"
             }
         },
         "moreInfo": [
@@ -907,6 +907,107 @@
                         "<tt src={/class-icons/explorers/pathfinder/relic-unbound-burst.png} tip={Relic Unbound (Blast)}> [Burst]: Fires a focused arrow that explodes<bp_Up to 4 arrows can be fired at a time_>",
                         "<tt src={/class-icons/explorers/pathfinder/relic-unbound-torrent.png} tip={Relic Unbound (Transition)}> [Torrent]: Fires an arrow in a triangular zone",
                         "Unaffected by Damage Reflect"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Cardinal Deluge and Bountiful Deluge Boost",
+                    "shortDesc": "Cardinal Deluge and Bountiful Deluge Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/pathfinder/cardinal-deluge.png", "/class-icons/explorers/pathfinder/bountiful-deluge.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Critical Rate: +5%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Cardinal Burst and Bountiful Burst Boost",
+                    "shortDesc": "Cardinal Burst and Bountiful Burst Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/pathfinder/cardinal-burst.png", "/class-icons/explorers/pathfinder/bountiful-burst.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Cardinal Torrent Boost",
+                    "shortDesc": "Cardinal Torrent Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/pathfinder/cardinal-torrent.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Shadow Raven Boost",
+                    "shortDesc": "Shadow Raven Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/pathfinder/shadow-raven.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Swarm Shot Boost",
+                    "shortDesc": "Swarm Shot Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/pathfinder/swarm-shot.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Triple Impact Boost",
+                    "shortDesc": "Triple Impact Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/pathfinder/triple-impact.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Glyph of Impalement Boost",
+                    "shortDesc": "Glyph of Impalement Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/pathfinder/glyph-of-impalement.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Combo Assault Boost",
+                    "shortDesc": "Combo Assault Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/pathfinder/combo-assault.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Ancient Astra Boost",
+                    "shortDesc": "Ancient Astra Final Damage: +120%",
+                    "icons": ["/class-icons/explorers/pathfinder/ancient-astra-boost.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 }
             ]

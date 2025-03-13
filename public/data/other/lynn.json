@@ -110,7 +110,7 @@
         "nodeInfo": {
             "recommended": {
                 "nodes": [
-                    ["Primary Trio", "<tt src={/class-icons/other/lynn/strike-1.png} tip={Strike (1st Job)}> <tt src={/class-icons/other/lynn/peck-1.png} tip={Peck (2nd Job)}> <tt src={/class-icons/other/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}>"],
+                    ["Primary Trio", "<tt src={/class-icons/other/lynn/strike-4.png} tip={Strike (1st Job)}> <tt src={/class-icons/other/lynn/peck-3.png} tip={Peck (2nd Job)}> <tt src={/class-icons/other/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}>"],
                     ["Secondary Trio", "<tt src={/class-icons/other/lynn/earth-pulverization.png} tip={Earth Pulverization and Roar (3rd Job / 4th Job)}> <tt src={/class-icons/other/lynn/sweep.png} tip={Sweep and Whirlwind (2nd Job / 4th Job)}> <tt src={/class-icons/other/lynn/predators-blow.png} tip={Predator's Blow and Raid (4th Job / Hyper Skill)}>"]
                 ],
                 "notes": [
@@ -119,7 +119,7 @@
                 ]
             },
             "possible": {
-                "nodes": "<tt src={/class-icons/other/lynn/strike-1.png} tip={Strike (1st Job)}> <tt src={/class-icons/other/lynn/peck-1.png} tip={Peck (2nd Job)}> <tt src={/class-icons/other/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}> <tt src={/class-icons/other/lynn/earth-pulverization.png} tip={Earth Pulverization and Roar (3rd Job / 4th Job)}> <tt src={/class-icons/other/lynn/sweep.png} tip={Sweep and Whirlwind (2nd Job / 4th Job)}> <tt src={/class-icons/other/lynn/predators-blow.png} tip={Predator's Blow and Raid (4th Job / Hyper Skill)}>"
+                "nodes": "<tt src={/class-icons/other/lynn/strike-4.png} tip={Strike (1st Job)}> <tt src={/class-icons/other/lynn/peck-3.png} tip={Peck (2nd Job)}> <tt src={/class-icons/other/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}> <tt src={/class-icons/other/lynn/earth-pulverization.png} tip={Earth Pulverization and Roar (3rd Job / 4th Job)}> <tt src={/class-icons/other/lynn/sweep.png} tip={Sweep and Whirlwind (2nd Job / 4th Job)}> <tt src={/class-icons/other/lynn/predators-blow.png} tip={Predator's Blow and Raid (4th Job / Hyper Skill)}>"
             }
         },
         "moreInfo": [
@@ -760,6 +760,74 @@
                     "desc": "When used, restores %Max HP and grants all party members the buff 'Excess Healing'",
                     "details": [
                         "[Excess Healing]: Healing from caster that exceeds Max HP becomes a shield"
+                    ]
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Strike Boost",
+                    "shortDesc": "Strike Final Damage: +120%",
+                    "icons": ["/class-icons/other/lynn/strike-4.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Peck Boost",
+                    "shortDesc": "Peck Final Damage: +120%",
+                    "icons": ["/class-icons/other/lynn/peck-3.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sneak Boost",
+                    "shortDesc": "Sneak Final Damage: +120%",
+                    "icons": ["/class-icons/other/lynn/sneak-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Earth Pulverization and Roar Boost",
+                    "shortDesc": "Earth Pulverization and Roar Final Damage: +120%",
+                    "icons": ["/class-icons/other/lynn/earth-pulverization.png", "/class-icons/other/lynn/roar.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Sweep and Whirlwind Boost",
+                    "shortDesc": "Sweep and Whirlwind Final Damage: +120%",
+                    "icons": ["/class-icons/other/lynn/sweep.png", "/class-icons/other/lynn/whirlwind.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Predator's Blow and Raid Boost",
+                    "shortDesc": "Predator's Blow and Raid Final Damage: +120%",
+                    "icons": ["/class-icons/other/lynn/predators-blow.png", "/class-icons/other/lynn/raid.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 }
             ]
