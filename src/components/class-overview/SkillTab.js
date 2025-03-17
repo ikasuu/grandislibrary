@@ -95,6 +95,9 @@ function SixthJobTab({sixth, settings}){
         <StyledHeaderThree>Origin Skills</StyledHeaderThree>
         <HexaSkillContainer skillData={sixth.originSkill} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
+        <StyledHeaderThree>Boost Core Skills</StyledHeaderThree>
+        <HexaSkillContainer skillData={sixth.boostCore} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
       </LazyLoad>
     </div>
   )
