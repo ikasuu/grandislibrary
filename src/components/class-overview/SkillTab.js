@@ -26,7 +26,9 @@ function createSkillTabs(primary, settings){
 //Retrieves the common 5th job skills defined in our Values.js and returns it as an array
 function convertCommonVToArray(fifth){
   const skills = [];
+  const sharedVSkills = ["dAdvancedBlessing", "dSpeedInfusion", "dHolySymbol", "dSharpEyes", "dCombatOrders", "blink", "ropeLift", "erdaNova", "willOfErda", "erdaShower", "trueArachnidReflection", "solarCrest", "dHolyFountain", "dMysticDoor", "dHyperBody"];
   fifth.fifthCommon.forEach( it => skills.push(commonFifth[it]));
+  sharedVSkills.forEach( it => skills.push(commonFifth[it]));
   return skills;
 }
 

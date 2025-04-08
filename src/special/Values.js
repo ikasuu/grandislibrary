@@ -567,7 +567,6 @@ export const commonFifth = {
     viciousShot: {
         "name": "Vicious Shot",
         "shortDesc": "MP Cost: 500, Duration: 30 sec, Allows Critical Rate to exceed 100% and Critical Damage to increase by 45% of Critical Rate.\\nThe attack's additional Critical Rate is not applied.\\nCooldown: 120 sec",
-        "id": 400031023,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/90/Skill_Vicious_Shot.png/revision/latest?cb=20171203075957"],
         "animations": ["https://media0.giphy.com/media/gLaAUn0lGqbwsnsPyl/giphy.gif"],
         "type": "Buff",
@@ -576,7 +575,6 @@ export const commonFifth = {
     venomBurst: {
         "name": "Venom Burst",
         "shortDesc": "MP Cost: 300, Consumes all active Damage-over-Time stacks on up to 12 poisoned enemies in range and instantly inflicts 100% of their remaining damage plus an additional 1000% damage 6 times Additional damage is +15% per remaining second of consumed DoT stacks up to 5\\nAfterwards, spreads the original DoT damage to up to 10 nearby enemies\\nCooldown: 8 sec\\n[Passive Effects - Bonus DoT Chance: 50% to deal 310% damage every 1 sec for 8 sec]",
-        "id": 400041000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Venom_Burst.png/revision/latest?cb=20161204065741"],
         "animations": ["https://media3.giphy.com/media/hk99simjA0L918EjM0/giphy.gif"],
         "type": "Attack",
@@ -589,7 +587,6 @@ export const commonFifth = {
     lastResort: {
         "name": "Last Resort",
         "shortDesc": "HP Cost: 10% of Max HP, reduces Avoidability (including Bonus Evasion) and increases Final Damage for 30 sec, Hit Damage increased if attacked within a certain percentage of your max HP. Enters 2nd Stage with remaining duration being reduced to 50% when skill is used again during 1st Stage, skill ends when used again during 2nd Stage.\\n1st Stage - Avoidability: -20%, Hit Damage: +10%, Final Damage: +12%\\n2nd Stage - Avoidability: -90%, Hit Damage: +40%, Final Damage: +35%\\nCooldown: 78 sec\\n[Passive Effect - ATT Power: +25]",
-        "id": 400041032,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/3/3f/Skill_Last_Resort.png/revision/latest?cb=20171203090611"],
         "animations": ["https://media1.giphy.com/media/H9sLPP1J2vVhs6Cmcl/giphy.gif"],
         "type": "Buff",
@@ -602,7 +599,6 @@ export const commonFifth = {
     loadedDice: {
         "name": "Loaded Dice",
         "shortDesc": "MP Cost: 1000, select your desired die roll. If a job that has Double Down gets the same number on 2 dice, the chance for the last die to have the same number is decreased by 50%.\\nCooldown: 10 Sec.\\n[Passive Effect: Attack Power: +35]",
-        "id": 400051000,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4a/Skill_Loaded_Dice.png/revision/latest?cb=20161204065741"],
         "animations": ["https://media0.giphy.com/media/3o34vbKGyVYywzT5tB/giphy.gif"],
         "type": "Buff",
@@ -615,11 +611,174 @@ export const commonFifth = {
     overdrive: {
         "name": "Overdrive",
         "shortDesc": "HP Cost: 1750, Duration: 30 sec, Attack Power: +70% of base weapon attack power, Attack Power during cooldown: -15% of base weapon attack power\\nCooldown: 65 sec",
-        "id": 400051033,
         "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/a7/Skill_Overdrive.png/revision/latest?cb=20171203090813"],
         "animations": ["https://media2.giphy.com/media/rgc0CfIUzypN6jyNrL/giphy.gif"],
         "type": "Buff",
         "desc": "Increases your %Attack but after the effect ends and the skill is on cooldown, you have reduced %Attack"
+    },
+    ropeLift: {
+        "name": "Rope Lift",
+        "shortDesc": "Press the skill key while you're climbing to cancel.\\nCooldown: 3 sec\\n[Passive Effect - All Stats: +30]",
+        "icons": ["/class-icons/5th-job/rope-lift.png"],
+        "type": "Active",
+        "desc": "Grapple onto a platform above and launch towards it",
+        "details": [
+            "[Passive]: Permanently grants flat All Stats",
+            "Pressing the Jump Key while launching up will cancel the grapple early"
+        ]
+    },
+    dMysticDoor: {
+        "name": "Decent Mystic Door",
+        "shortDesc": "HP Cost: 5% of Max HP, Portal Duration: 80 sec\\nCooldown: 130 sec\\n[Passive Effect - All Stats: +6]",
+        "icons": ["/class-icons/explorers/bishop/mystic-door.png"],
+        "type": "Summon",
+        "desc": "Create a portal that leads to the nearest town",
+        "details": [
+            "[Passive]: Permanently grants flat All Stats",
+            "To use, press the Up Arrow Key"
+        ],
+    },
+    dSharpEyes: {
+        "name": "Decent Sharp Eyes",
+        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, Critical Rate: +10%, Critical Damage: +8%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
+        "icons": ["/class-icons/common/sharp-eyes.png"],
+        "type": "Buff",
+        "desc": "",
+        "details": [
+            "[Passive]: Permanently grants flat All Stats",
+        ]
+    },
+    dHyperBody: {
+        "name": "Decent Hyper Body",
+        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, Max HP: +40%, Max MP: +40%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
+        "icons": ["/class-icons/explorers/dark-knight/hyper-body.png"],
+        "type": "Buff",
+        "desc": "",
+        "details": [
+            "[Passive]: Permanently grants flat All Stats",
+        ]
+    },
+    dCombatOrders: {
+        "name": "Decent Combat Orders",
+        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, All Skills: +1\\nCooldown: 180 sec\\n[Passive Effect - Abnormal Status Resistance: +6]",
+        "icons": ["/class-icons/explorers/paladin/combat-orders.png"],
+        "type": "Buff",
+        "desc": "Temporarily grants bonus skill levels to skills",
+        "details": [
+            "[Passive]: Permanently grants flat Abnormal Status Resistance",
+            "4th Job Skills can be raised past their Master Level",
+            "[Exception]: Beginner skills, Combat Orders, Hyper Skills, 5th Job, and 6th Job Skills"
+        ]
+    },
+    dAdvancedBlessing: {
+        "name": "Decent Advanced Blessing",
+        "shortDesc": "Attack Power: +20, Magic ATT: +20, Defense: +425, Max HP: +475, Max MP: +475\\n[Passive Effect - All Stats: +6]",
+        "icons": ["/class-icons/5th-job/decent-advanced-blessing.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "[Passive]: Permanently grants flat All Stats",
+            "Does not stack with <tt src={/class-icons/explorers/bishop/bless.png} tip={Bless (Bishop, 2nd Job)}> or <tt src={/class-icons/explorers/bishop/advanced-blessing.png} tip={Advanced Blessing (Bishop, 4th Job)}>"
+        ]
+    },
+    dSpeedInfusion: {
+        "name": "Decent Advanced Blessing",
+        "shortDesc": "Attack Speed +1 Level\\n[Passive Effect - All Stats: +6]",
+        "icons": ["/class-icons/5th-job/decent-speed-infusion.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "[Passive]: Permanently grants flat All Stats",
+            "Does not stack with <tt src={/class-icons/common/speed-infusion.png} tip={Speed Infusion (Pirate, 4th Job)}>"
+        ]
+    },
+    blink: {
+        "name": "Blink",
+        "shortDesc": "HP Cost: 3% of Max HP. Teleport to a random location on the map.\\nFloat for up to 5.0 sec. if you hold the key in the air\\nCooldown: 20 sec.\\n[Passive Effect - Attack Power & Magic ATT: +30]",
+        "icons": ["/class-icons/5th-job/blink.png"],
+        "type": "Active",
+        "desc": "When used, teleport to a random location on the map",
+        "details": [
+            "[Passive]: Permanently grants flat Attack",
+            "Holding the Skill Key while in the air allows you to float briefly"
+        ]
+    },
+    erdaNova: {
+        "name": "Erda Nova",
+        "shortDesc": "HP Cost: 15% of Max HP, Damage: 330%, Max Enemies Hit: 10, Number of Attacks: 5, Bind Duration: 10 sec.\\nBind Duration increases by up to 100% based on damage inflicted with Erda Nova.\\nCooldown: 100 sec.",
+        "icons": ["/class-icons/5th-job/erda-nova.png"],
+        "type": "Bind Attack",
+        "desc": "Bind enemies in a surrounding area",
+        "details": [
+            "Ignores Damage Ignore and Damage Reflect"
+        ]
+    },
+    willOfErda: {
+        "name": "Will of Erda",
+        "shortDesc": "HP Cost: 5% of Max HP, Cooldown: 330 sec",
+        "icons": ["/class-icons/5th-job/will-of-erda.png"],
+        "type": "Buff",
+        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs"
+    },
+    dHolySymbol: {
+        "name": "Decent Holy Symbol",
+        "shortDesc": "HP Cost: 3400, Duration: 270 sec, EXP: +35%, Drop Rate: +24%\\nCooldown: 180 sec",
+        "icons": ["/class-icons/explorers/bishop/holy-symbol.png"],
+        "type": "Buff",
+        "desc": "Increases the amount of EXP gained from enemies",
+        "details": [
+            "Does not stack with <tt src={/class-icons/explorers/bishop/holy-symbol.png} tip={Holy Symbol (Bishop, 4th Job)}>"
+        ]
+    },
+    dHolyFountain: {
+        "name": "Decent Holy Fountain",
+        "shortDesc": "HP Cost: 5% of max HP, Duration: 60 sec, restores 35% HP when used, able to use 20 times total.\\nIf it disappears before duration is up, Vestige of Divinity is created in the remaining time.\\nCooldown: 60 sec\\n[Passive Effect - All Stats +6]",
+        "icons": ["/class-icons/explorers/bishop/holy-fountain.png"],
+        "type": "Summon Heal",
+        "desc": "Create a fountain which pressing the Up Arrow Key restores some %Max HP",
+        "details": [
+            "[Passive]: Permanently grants flat All Stats",
+            "Has a fixed number of uses before the fountain disappears",
+            "If the fountain disappears early, a Vestige of Divinity is created for the remaining duration that prevents another fountain from being summoned",
+            "Does not stack with <tt src={/class-icons/explorers/bishop/holy-fountain.png} tip={Holy Fountain (Bishop, 4th Job)}>"
+        ]
+    },
+    erdaShower: {
+        "name": "Erda Shower",
+        "shortDesc": "HP Cost: 3000\\nErdas Shower\\nMax Enemies Hit: 15, Damage: 900%, Number of Attacks: 6, Cooldown reduced by 2 sec per attacked enemy\\nCooldown: 40 sec\\nErda Founutain\\nObject Summon Duration: 60 sec. Every time enemies in a map with the summoned object are defeated, the Erda released from the enemies condenses around the object.\\nDefeating 12 or more will release the gathered Erda, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 4\\nCooldown: 60 sec\\nCooldown shared with Erdas Shower and Erda Fountain.",
+        "icons": ["/class-icons/5th-job/erda-shower-2.png", "/class-icons/5th-job/erda-shower.png", "/class-icons/5th-job/erda-fountain.png"],
+        "type": "Attack/Summon",
+        "desc": "The attack has two modes depending on the keys pressed",
+        "details": [
+            "<tt src={/class-icons/5th-job/erda-fountain.png} tip={Erda Fountain (5th Job)}> [Erda Shower] - Releases a surrounding area attack<bp_Can be activated by pressing the Skill Key_The cooldown is slightly reduced upon defeating an enemy_>",
+            "<tt src={/class-icons/5th-job/erda-shower.png} tip={Erda Shower (5th Job)}> [Erda Fountain] - Places down a stationary summon that attacks whenever a fixed amount of enemies are defeated<bp_Can be activated by pressing the Down Arrow Key and Skill Key together_>",
+            "Both skills share the same cooldown",
+            "Right-clicking the skill will toggle a function ON/OFF that swaps the activation command for <tt src={/class-icons/5th-job/erda-fountain.png} tip={Erda Fountain (5th Job)}> and <tt src={/class-icons/5th-job/erda-shower.png} tip={Erda Shower (5th Job)}>"
+        ]
+    },
+    trueArachnidReflection: {
+        "name": "True Arachnid Reflection",
+        "shortDesc": "HP Cost: 15% of Max HP\\nSpatial Collapse - Max Enemies Hit: 15, Damage: 1008%, Number of Attacks: 15, Once complete, summons True Arachnid Reflection.\\nTrue Arachnid Reflection - Duration: 50 sec, Goes into attack mode at set intervals. During attack mode, uses spider legs 10 times to deal 392% damage 8 times. If the spider legs attack one target 5 consecutive times, attack mode will end immediately. 3 sec cooldown after attack mode ends.\\nCooldown: 250 sec",
+        "icons": ["/class-icons/5th-job/true-arachnid-reflection.png"],
+        "type": "Summon",
+        "desc": "Release a large attack and place down a stationary summon that periodically attacks enemies",
+        "details": [
+            "Summon stops attacking early when striking a single enemy consecutively",
+            "Skill is obtained from <tt src={/images/items/mirror-world-nodestone.png} tip={Mirror World Nodestone}> that is rewarded from completing the Esfera storyline and as a drop from Hard Will",
+            "Unaffected by Damage Reflect"
+        ]
+    },
+    solarCrest: {
+        "name": "Solar Crest",
+        "shortDesc": "HP Cost: 15% of Max HP\\nMitra's Fire: summons a Flame Emblem after dealing 1650% damage up to 15 enemeis 12 times.\\nFlame Emblem: deals 440% damage to up to 2 enemies 6 times every 2.1 sec for 51 sec. Deals 605% damage if striking a single enemy.\\nCooldown: 250 sec",
+        "icons": ["/class-icons/5th-job/solar-crest.png"],
+        "type": "Summon",
+        "desc": "Release a large attack and summons an emblem that periodically attacks enemies",
+        "details": [
+            "Summon deals increased damage when striking a single enemy",
+            "Skill is obtained from <tt src={/images/items/mitras-nodestone.png} tip={Mitra's Nodestone}> that is dropped from Hard/Extreme Seren",
+            "Unaffected by Damage Reflect"
+        ]
     }
 };
 
