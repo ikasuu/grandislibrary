@@ -5,7 +5,7 @@ import LazyLoad, { forceCheck } from 'react-lazyload';
 import storage from 'local-storage-fallback';
 
 import { HexaSkillContainer, SkillContainer, VSkillContainer } from './SkillContainer';
-import { commonFifth } from '../../special/Values';
+import { commonFifth, commonSixth } from '../../special/Values';
 import { QuickJump } from '../UtilityButtons';
 
 /*
@@ -29,6 +29,14 @@ function convertCommonVToArray(fifth){
   const sharedVSkills = ["dAdvancedBlessing", "dSpeedInfusion", "dHolySymbol", "dSharpEyes", "dCombatOrders", "blink", "ropeLift", "erdaNova", "willOfErda", "erdaShower", "trueArachnidReflection", "solarCrest", "dHolyFountain", "dMysticDoor", "dHyperBody"];
   fifth.fifthCommon.forEach( it => skills.push(commonFifth[it]));
   sharedVSkills.forEach( it => skills.push(commonFifth[it]));
+  return skills;
+}
+
+//Converts common 6th job skills data from Values.js and returns it as an array
+function convertCommonHEXAToArray(){
+  const skills = [];
+  const sharedHEXASkills = ["solJanus", "solJanusDusk", "solJanusDawn"];
+  sharedHEXASkills.forEach( it => skills.push(commonSixth[it]));
   return skills;
 }
 
@@ -99,6 +107,9 @@ function SixthJobTab({sixth, settings}){
         <a href="#skill"><span className="jump-button-tabs"/></a>
         <StyledHeaderThree>Boost Core Skills</StyledHeaderThree>
         <HexaSkillContainer skillData={sixth.boostCore} settings={settings}/>
+        <a href="#skill"><span className="jump-button-tabs"/></a>
+        <StyledHeaderThree>Common Skills</StyledHeaderThree>
+        <HexaSkillContainer skillData={convertCommonHEXAToArray()} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
       </LazyLoad>
     </div>
