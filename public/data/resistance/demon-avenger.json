@@ -33,13 +33,13 @@
             },
             {
                 "name": "HP",
-                "stat": "+40% +1000(2500)",
-                "detail": "<bg src={/class-icons/resistance/demon-avenger/diabolic-recovery.png} tip={Diabolic Recovery (3rd Job)} val={+25%}> <bg src={/class-icons/resistance/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg src={/class-icons/resistance/demon-avenger/agile-demon.png} tip={Agile Demon (2nd Job)} val={+400}> <bg src={/class-icons/resistance/demon-avenger/rage-within.png} tip={Rage Within (2nd Job)} val={+600}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+1500}>"
+                "stat": "+40% +1000(2500) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/resistance/demon-avenger/diabolic-recovery.png} tip={Diabolic Recovery (3rd Job)} val={+25%}> <bg src={/class-icons/resistance/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg src={/class-icons/resistance/demon-avenger/agile-demon.png} tip={Agile Demon (2nd Job)} val={+400}> <bg src={/class-icons/resistance/demon-avenger/rage-within.png} tip={Rage Within (2nd Job)} val={+600}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+1500}> <bg src={/class-icons/resistance/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP}>"
             },
             {
                 "name": "Attack",
-                "stat": "+90",
-                "detail": "<bg src={/class-icons/resistance/demon-avenger/abyssal-connection.png} tip={Abyssal Connection (2nd Job)} val={+40}> <bg src={/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png} tip={Advanced Desperado Mastery (4th Job)} val={+50}>"
+                "stat": "+4% +90",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/demon-avenger/abyssal-connection.png} tip={Abyssal Connection (2nd Job)} val={+40}> <bg src={/class-icons/resistance/demon-avenger/advanced-desperado-mastery.png} tip={Advanced Desperado Mastery (4th Job)} val={+50}>"
             },
             {
                 "name": "Crit Rate",
@@ -76,7 +76,7 @@
             "active": "<tt src={/class-icons/resistance/demon-avenger/overload-release.png} tip={Overload Release (1st Job)} dur={[90s]}> <tt src={/class-icons/resistance/demon-avenger/ward-evil.png} tip={Ward Evil (3rd Job)} dur={[180s]}> <tt src={/class-icons/resistance/demon-avenger/diabolic-recovery.png} tip={Diabolic Recovery (3rd Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)}>",
             "summons": "<tt src={/class-icons/resistance/demon-avenger/bat-swarm.png} tip={Bat Swarm (2nd Job)} dur={[40 Attacks / Distance Based]}> <tt src={/class-icons/resistance/demon-avenger/nether-shield.png} tip={Nether Shield (4th Job)} dur={[8 Attacks](6s cd)}> <tt src={/class-icons/resistance/demon-avenger/dimensional-sword.png} tip={Dimensional Sword (5th Job)} dur={[40s, 1/5 duration if reactivated](120s cd)}> <tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[48s](120s cd)}>",
-            "buffCd": "<tt src={/class-icons/resistance/demon-avenger/limits-surpassed.png} tip={Limits Surpassed (4th Job)} dur={[30s](75s cd)}> <tt src={/class-icons/resistance/demon-avenger/forbidden-contract.png} tip={Forbidden Contract (Hyper Skill)} dur={[30s](75s cd)}> <tt src={/class-icons/resistance/demonic-fortitude.png} tip={Demonic Fortitude (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/demon-avenger/revenant.png} tip={Revenant (5th Job)} dur={[15s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/resistance/demon-avenger/limits-surpassed.png} tip={Limits Surpassed (4th Job)} dur={[30s](75s cd)}> <tt src={/class-icons/resistance/demon-avenger/forbidden-contract.png} tip={Forbidden Contract (Hyper Skill)} dur={[30s](75s cd)}> <tt src={/class-icons/resistance/demonic-fortitude.png} tip={Demonic Fortitude (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/demon-avenger/revenant.png} tip={Revenant (5th Job)} dur={[15s](120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/resistance/demon-avenger/blood-prison.png} tip={Blood Prison (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/resistance/demon-avenger/requiem.png} tip={Requiem (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/resistance/demon-avenger/revenant.png} tip={Revenant (5th Job)} dur={[15s](120s cd, HP cannot go below 1)}> <tt src={/class-icons/resistance/demon-avenger/requiem.png} tip={Requiem (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)} dur={[While active](-30% | 1s cd)}> <tt src={/class-icons/resistance/demon-avenger/demonic-blast.png} tip={Demonic Blast (5th Job)} dur={[While casting](-30% | 12s cd)}> <tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[6s](-25% | 120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s, triggers once](-75% | 120s cd)}>"
@@ -128,7 +128,7 @@
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Demon_Avenger"},
-            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%8D%B0%EB%AA%AC%EC%96%B4%EB%B2%A4%EC%A0%B8"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%8D%B0%EB%AA%AC%20%EC%96%B4%EB%B2%A4%EC%A0%B8"},
             {"title": "Class Discord", "link": "https://discord.gg/aTByagnDjd"}
         ],
         "specialThanks": "Special thanks to Kerkerseele and the members of the Demon Avenger Discord for their help in making this overview!",

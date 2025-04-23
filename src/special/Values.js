@@ -36,7 +36,7 @@ export const classes = {
     nova: [["angelic-buster", "Angelic Buster"], ["kaiser", "Kaiser"], ["cadena", "Cadena"], ["kain", "Kain"]],
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
-    other: [["kinesis", "Kinesis"], ["zero", "Zero"], ["lynn", "Lynn"]],
+    other: [["kinesis", "Kinesis"], ["zero", "Zero"], ["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]]
 }
 
@@ -77,7 +77,8 @@ export const weapons = {
     ritualFan: [`https://maplestory.io/api/GMS/${version}/item/1292036/icon`, "Ritual Fan"],
     bladecaster: [`https://maplestory.io/api/GMS/${version}/item/1213026/icon`, "Bladecaster"],
     whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"],
-    chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"]
+    chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"],
+    warFist: [`http://localhost:3000/grandislibrary/images/equipment/war-fist.png`, "War Fist"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -130,7 +131,8 @@ export const secondaryWeapons = {
     bladebinder: [`https://maplestory.io/api/GMS/${version}/item/1354003/icon`, "Bladebinder"],
     weaponBelt: [`https://i.imgur.com/yKfIH8l.png`, "Weapon Belt"],
     ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"],
-    hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"]
+    hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"],
+    fistRing: [`http://localhost:3000/grandislibrary/images/equipment/fist-ring.png`, "Fist Ring"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name

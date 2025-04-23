@@ -33,13 +33,13 @@
             },
             {
                 "name": "INT",
-                "stat": "+15%(415%) +60(90)",
-                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={/class-icons/explorers/ice-lightning/agile-magic.png} tip={Agile Magic (2nd Job)} val={+20}> <bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/unreliable-memory.png} tip={Unreliable Magic - Passive (5th Job)} val={+30}>"
+                "stat": "+60(90) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/ice-lightning/agile-magic.png} tip={Agile Magic (2nd Job)} val={+20}> <bg src={/class-icons/common/high-wisdom.png} tip={High Wisdom (2nd Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/unreliable-memory.png} tip={Unreliable Magic - Passive (5th Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
             },
             {
                 "name": "Magic Attack",
-                "stat": "+70",
-                "detail": "<bg src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation (2nd Job)} val={+30}> <bg src={/class-icons/explorers/ice-lightning/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+10}> <bg src={/class-icons/explorers/ice-lightning/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+30}>"
+                "stat": "+4% +70",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation (2nd Job)} val={+30}> <bg src={/class-icons/explorers/ice-lightning/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+10}> <bg src={/class-icons/explorers/ice-lightning/buff-mastery.png} tip={Buff Mastery (4th Job)} val={+30}>"
             },
             {
                 "name": "Crit Rate",
@@ -86,7 +86,7 @@
             "active": "<tt src={/class-icons/explorers/ice-lightning/meditation.png} tip={Meditation (2nd Job)} dur={[240s]}>",
             "toggles": "<tt src={/class-icons/explorers/mage/magic-guard.png} tip={Magic Guard (1st Job)}> <tt src={/class-icons/explorers/ice-lightning/chilling-step.png} tip={Chilling Step (2nd Job)}> <tt src={/class-icons/explorers/ice-lightning/teleport-mastery.png} tip={Teleport Mastery (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/teleport-boost.png} tip={Teleport Boost (3rd Job)}> <tt src={/class-icons/explorers/ice-lightning/absolute-zero-aura.png} tip={Absolute Zero Aura (Hyper Skill)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} dur={[30s cd)}>",
             "summons": "<tt src={/class-icons/explorers/ice-lightning/thunder-sphere.png} tip={Thunder Sphere (3rd Job)} dur={[120s/60s](0s / 30s cd)}> <tt src={/class-icons/explorers/ice-lightning/elquines.png} tip={Elquines (4th Job)} dur={[260s]}> <tt src={/class-icons/explorers/ice-lightning/spirit-of-snow.png} tip={Spirit of Snow (5th Job)} dur={[30s](120s cd)}>",
-            "buffCd": "<tt src={/class-icons/explorers/ice-lightning/elemental-adaptation.png} tip={Elemental Adaptation (3rd Job)} dur={[Critical Abnormal Status & 30s / Additional CAS](240s cd)}> <tt src={/class-icons/explorers/ice-lightning/infinity.png} tip={Infinity (4th Job)} dur={[40s](180s cd)}> <tt src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/ice-lightning/elemental-adaptation.png} tip={Elemental Adaptation (3rd Job)} dur={[Critical Abnormal Status & 30s / Additional CAS](240s cd)}> <tt src={/class-icons/explorers/ice-lightning/infinity.png} tip={Infinity (4th Job)} dur={[40s](180s cd)}> <tt src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath (4th Job)} dur={[13s](120s cd)}> <tt src={/class-icons/explorers/ice-lightning/frozen-lightning.png} tip={Frozen Lightning (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/ice-lightning/freezing-breath.png} tip={Freezing Breath (4th Job)} dur={[Up to 10s](120s cd)}> <tt src={/class-icons/explorers/ice-lightning/frozen-lightning.png} tip={Frozen Lightning (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](-MP | 60s cd)}>"

@@ -35,13 +35,13 @@
             },
             {
                 "name": "DEX",
-                "stat": "+15%(415%) +130",
-                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={/class-icons/explorers/pathfinder/agile-ancient-bows.png} tip={Agile Ancient Bows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/pathfinder/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}>"
+                "stat": "+130 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/pathfinder/agile-ancient-bows.png} tip={Agile Ancient Bows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/pathfinder/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
             },
             {
                 "name": "Attack",
-                "stat": "+20% +90",
-                "detail": "<bg src={/class-icons/explorers/pathfinder/bountiful-torrent.png} tip={Bountiful Torrent (4th Job)} val={+20%}> <bg src={/class-icons/explorers/pathfinder/ancient-bow-mastery.png} tip={Ancient Bow Mastery (2nd Job)} val={+30}> <bg src={/class-icons/explorers/pathfinder/ancient-bow-expertise.png} tip={Ancient Bow Expertise (4th Job)} val={+60}>"
+                "stat": "+24% +90",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/pathfinder/bountiful-torrent.png} tip={Bountiful Torrent (4th Job)} val={+20%}> <bg src={/class-icons/explorers/pathfinder/ancient-bow-mastery.png} tip={Ancient Bow Mastery (2nd Job)} val={+30}> <bg src={/class-icons/explorers/pathfinder/ancient-bow-expertise.png} tip={Ancient Bow Expertise (4th Job)} val={+60}>"
             },
             {
                 "name": "Crit Rate",
@@ -78,7 +78,7 @@
             "active": "<tt src={/class-icons/explorers/pathfinder/cursebound-endurance.png} tip={Cursebound Endurance (3rd Job)} dur={[300s]}> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
             "toggles": "<tt src={/class-icons/explorers/pathfinder/curse-enchant-force.png} tip={Curse Enchant Force (4th Job)} dur={(Special)}>",
             "summons": "<tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/pathfinder/raven-tempest.png} tip={Raven Tempest (5th Job)} dur={[27s/10s](120s cd)}> <tt src={/class-icons/explorers/pathfinder/obsidian-barrier.png} tip={Obsidian Barrier (5th Job)} dur={[12s](120s cd)}> <tt src={/class-icons/explorers/pathfinder/relic-unbound.png} tip={Relic Unbound (5th Job)} dur={[22s/10s/40s](120s cd)}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
-            "buffCd": "<tt src={/class-icons/explorers/pathfinder/awakened-relic.png} tip={Awakened Relic (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/pathfinder/awakened-relic.png} tip={Awakened Relic (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/pathfinder/forsaken-relic.png} tip={Forsaken Relic (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/pathfinder/nova-blast.png} tip={Nova Blast (5th Job)} dur={(120s cd)}> <tt src={/class-icons/explorers/pathfinder/forsaken-relic.png} tip={Forsaken Relic (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/explorers/pathfinder/ancient-astra.png} tip={Ancient Astra (Hyper Skill)} dur={[-60% | 60s cd]}> <tt src={/class-icons/explorers/pathfinder/obsidian-barrier.png} tip={Obsidian Barrier (5th Job)} dur={[12s](-40% | 120s cd)}>"
@@ -254,8 +254,7 @@
                         "desc": "Double jump skill",
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing jump twice",
-                            "While in the air, double-tapping the Up Arrow Key activates a vertical jump",
-                            "Double-tapping the Down Arrow Key will allow you to descend quickly"
+                            "While in the air, double-tapping the Up/Down Arrow Key will perform an Up Jump or Down Jump<bp_Right-clicking the skill will toggle a function ON/OFF to perform the jump by pressing Up/Down Arrow Key + Jump Key instead_>"
                         ]
                     },
                     {

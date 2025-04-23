@@ -33,13 +33,13 @@
             },
             {
                 "name": "LUK",
-                "stat": "+15%(415%) +140(195)",
-                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={/class-icons/heroes/phantom/cane-acceleration.png} tip={Cane Acceleration (2nd Job)} val={+20}> <bg src={/class-icons/heroes/phantom/devils-luck.png} tip={Devil's Luck (2nd Job)} val={+60}> <bg src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint - Passive (3rd Job)} val={+60}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+55}>"
+                "stat": "+140(195) & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/heroes/phantom/cane-acceleration.png} tip={Cane Acceleration (2nd Job)} val={+20}> <bg src={/class-icons/heroes/phantom/devils-luck.png} tip={Devil's Luck (2nd Job)} val={+60}> <bg src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint - Passive (3rd Job)} val={+60}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+55}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+55}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
             },
             {
                 "name": "Attack",
-                "stat": "+80(135)",
-                "detail": "<bg src={/class-icons/heroes/phantom/lune.png} tip={Lune (3rd Job)} val={+40}> <bg src={/class-icons/heroes/phantom/cane-expert.png} tip={Cane Expert (4th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25}>"
+                "stat": "+4% +80(135)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/heroes/phantom/lune.png} tip={Lune (3rd Job)} val={+40}> <bg src={/class-icons/heroes/phantom/cane-expert.png} tip={Cane Expert (4th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} val={+25}>"
             },
             {
                 "name": "Crit Rate",
@@ -74,7 +74,7 @@
         ],
         "buffInfo": {
             "active": "None <em brFlag={true}> <bold text={[Note]}>: Explorer buffs can also be stolen and used",
-            "buffCd": "<tt src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint (4th Job)} dur={(1800s cd upon revive)}> <tt src={/class-icons/heroes/phantom/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s per stack](240s cd, 25s cd between each stack)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](75s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[45s](180s cd)}>",
+            "buffCd": "<tt src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint (4th Job)} dur={(1800s cd upon revive)}> <tt src={/class-icons/heroes/phantom/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s per stack](240s cd, 25s cd between each stack)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[45s](180s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](75s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/heroes/phantom/defying-fate.png} tip={Defying Fate (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint (3rd Job)} dur={[4s](1800s cd revive)}> <tt src={/class-icons/heroes/phantom/vol-dame.png} tip={Vol D'Ame (4th Job)} dur={(120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s](240s cd)}> <tt src={/class-icons/heroes/phantom/luck-of-the-draw.png} tip={Luck of the Draw (5th Job)} dur={(180s cd)}> <tt src={/class-icons/heroes/phantom/phantoms-mark.png} tip={Phantom's Mark (5th Job)} dur={[2s](30s cd)}> <tt src={/class-icons/heroes/phantom/defying-fate.png} tip={Defying Fate (6th Job)} dur={(360s cd)}> <bold text={[Note]}>: Can steal Explorer iFrames",
             "damageReduce": "<tt src={/class-icons/heroes/phantom/luck-of-the-draw.png} tip={Luck of the Draw (5th Job)}> <tt src={/class-icons/heroes/phantom/luck-of-the-draw-green.png} tip={Luck of the Draw - Tree of Life (5th Job)}>[30s Buff](-15% while casting / -8% Buff | 180s cd)"

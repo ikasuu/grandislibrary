@@ -33,13 +33,13 @@
             },
             {
                 "name": "DEX",
-                "stat": "+15% +60",
-                "detail": "<bg src={/class-icons/nova/kain/nova-warrior.png} tip={Nova Warrior (4th Job)} val={+15%}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+60}>"
+                "stat": "+60 & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+60}> <bg src={/class-icons/nova/kain/nova-warrior.png} tip={Nova Warrior (4th Job)} val={+15% to assigned AP}>"
             },
             {
                 "name": "Attack",
-                "stat": "(+15%) +180",
-                "detail": "<bg type={temp} src={/class-icons/nova/kain/incarnation.png} tip={Incarnation (Hyper Skill)} val={+15%}> <bg src={/class-icons/nova/kain/assassin.png} tip={Assassin (1st Job)} val={+40}> <bg src={/class-icons/nova/kain/whispershot-mastery-1.png} tip={Whispershot Mastery (2nd Job)} val={+40}> <bg src={/class-icons/nova/kain/natural-born-instinct.png} tip={Natural Born Instinct (3rd Job)} val={+40}> <bg src={/class-icons/nova/kain/grinding-ii.png} tip={Grinding II (4th Job)} val={+30}> <bg src={/class-icons/nova/kain/whispershot-mastery-2.png} tip={Whispershot Expert (4th Job)} val={+30}>"
+                "stat": "+4%(+19%) +180",
+                "detail": "<bg src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg type={temp} src={/class-icons/nova/kain/incarnation.png} tip={Incarnation (Hyper Skill)} val={+15%}> <bg src={/class-icons/nova/kain/assassin.png} tip={Assassin (1st Job)} val={+40}> <bg src={/class-icons/nova/kain/whispershot-mastery-1.png} tip={Whispershot Mastery (2nd Job)} val={+40}> <bg src={/class-icons/nova/kain/natural-born-instinct.png} tip={Natural Born Instinct (3rd Job)} val={+40}> <bg src={/class-icons/nova/kain/grinding-ii.png} tip={Grinding II (4th Job)} val={+30}> <bg src={/class-icons/nova/kain/whispershot-mastery-2.png} tip={Whispershot Expert (4th Job)} val={+30}>"
             },
             {
                 "name": "Crit Rate",
@@ -75,7 +75,7 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/nova/kain/whispershot-booster.png} tip={Whispershot Booster (2nd Job)} dur={[200s]}>",
             "summons": "<tt src={/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang (2nd Job)} dur={[40s](Toggle)}> <tt src={/class-icons/nova/kain/lasting-grudge.png} tip={Lasting Grudge (3rd Job)} dur={(Toggle)}> <tt src={/class-icons/nova/kain/grip-of-agony.png} tip={Grip of Agony (5th Job)} dur={[5-10s](90s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
-            "buffCd": "<tt src={/class-icons/nova/kain/incarnation.png} tip={Incarnation (Hyper Skill)} dur={[40s](180s cd)}> <tt src={/class-icons/nova/kain/thanatos-descent.png} tip={Thanatos Descent (5th Job)} dur={[35s](180s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}>",
+            "buffCd": "<tt src={/class-icons/nova/kain/incarnation.png} tip={Incarnation (Hyper Skill)} dur={[40s](180s cd)}> <tt src={/class-icons/nova/kain/thanatos-descent.png} tip={Thanatos Descent (5th Job)} dur={[35s](180s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/nova/kain/total-annihilation.png} tip={Total Annihilation (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/nova/kain/dragon-scale.png} tip={Dragon Scale (4th Job)} dur={[Up to 3.4s](40s cd)}> <tt src={/class-icons/nova/kain/thanatos-descent.png} tip={Thanatos Descent (5th Job)} dur={(180s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s Buff](1200s cd blocks 1 death)}> <tt src={/class-icons/nova/kain/total-annihilation.png} tip={Total Annihilation (6th Job)} dur={(360s cd)}>"
         },        

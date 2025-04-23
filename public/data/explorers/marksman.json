@@ -34,13 +34,13 @@
             },
             {
                 "name": "DEX",
-                "stat": "+15%(415%) +130",
-                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={/class-icons/explorers/marksman/agile-crossbows.png} tip={Agile Crossbows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}>"
+                "stat": "+130 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/explorers/marksman/agile-crossbows.png} tip={Agile Crossbows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
             },
             {
                 "name": "Attack",
-                "stat": "+60",
-                "detail": "<bg src={/class-icons/explorers/marksman/soul-arrow.png} tip={Soul Arrow: Crossbow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+30}>"
+                "stat": "+4% +60",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/marksman/soul-arrow.png} tip={Soul Arrow: Crossbow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+30}>"
             },
             {
                 "name": "Crit Rate",
@@ -76,7 +76,7 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
             "summons": "<tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/marksman/blink-bolt.png} tip={Blink Bolt (3rd Job)} dur={[120s]}> <tt src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion (4th Job)} dur={[30s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
-            "buffCd": "<tt src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/marksman/final-aim.png} tip={Final Aim (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/marksman/perfect-shot.png} tip={Perfect Shot (5th Job)} dur={[Up to 2s while casting & 1s after casting](60s cd)}> <tt src={/class-icons/explorers/marksman/final-aim.png} tip={Final Aim (6th Job)} dur={[360s cd]}>"
         },    
@@ -214,8 +214,7 @@
                         "desc": "Double jump skill",
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing jump twice",
-                            "While in the air, double-tapping the Up Arrow Key activates a vertical jump",
-                            "Double-tapping the Down Arrow Key will allow you to descend quickly"
+                            "While in the air, double-tapping the Up/Down Arrow Key will perform an Up Jump or Down Jump<bp_Right-clicking the skill will toggle a function ON/OFF to perform the jump by pressing Up/Down Arrow Key + Jump Key instead_>"
                         ]
                     },
                     {

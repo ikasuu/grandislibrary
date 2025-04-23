@@ -38,13 +38,13 @@
             },
             {
                 "name": "INT",
-                "stat": "+15% +40",
-                "detail": "<bg src={/class-icons/anima/lara/anima-warrior.png} tip={Anima Warrior (4th Job)} val={+15%}> <bg src={/class-icons/common/physical-training.png} tip={Fortune Fitness (2nd Job)} val={+40}>"
+                "stat": "+40 & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/common/physical-training.png} tip={Fortune Fitness (2nd Job)} val={+40}> <bg src={/class-icons/anima/lara/anima-warrior.png} tip={Anima Warrior (4th Job)} val={+15% to assigned AP}>"
             },
             {
                 "name": "Magic Attack",
-                "stat": "+135",
-                "detail": "<bg src={/class-icons/anima/lara/wand-mastery.png} tip={Wand Mastery (2nd Job)} val={+35}> <bg src={/class-icons/anima/lara/advanced-wand-mastery.png} tip={Advanced Wand Mastery (4th Job)} val={+50}> <bg src={/class-icons/anima/lara/relaxation.png} tip={Relaxation (4th Job)} val={+50}>"
+                "stat": "+4% +135",
+                "detail": "<bg src={/class-icons/anima/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg src={/class-icons/anima/lara/wand-mastery.png} tip={Wand Mastery (2nd Job)} val={+35}> <bg src={/class-icons/anima/lara/advanced-wand-mastery.png} tip={Advanced Wand Mastery (4th Job)} val={+50}> <bg src={/class-icons/anima/lara/relaxation.png} tip={Relaxation (4th Job)} val={+50}>"
             },
             {
                 "name": "Crit Rate",
@@ -86,7 +86,7 @@
             "active": "<tt src={/class-icons/anima/lara/wand-booster.png} tip={Wand Booster (2nd Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/anima/lara/peerless-mountain.png} tip={Peerless Mountain (1st Job)}> <tt src={/class-icons/anima/lara/dragon-vein-reading.png} tip={Dragon Vein Reading (2nd Job)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
             "summons": "<tt src={/class-icons/anima/lara/eruption-heaving-river.png} tip={Eruption: Heaving River (2nd Job)} dur={[18s]}> <tt src={/class-icons/anima/lara/eruption-whirlwind.png} tip={Eruption: Whirlwind (2nd Job)} dur={[18s]}> <tt src={/class-icons/anima/lara/eruption-sunrise-well.png} tip={Eruption: Sunrise Well (2nd Job)} dur={[18s]}> <tt src={/class-icons/anima/lara/mountain-seeds.png} tip={Mountain Seeds (2nd Job)} dur={[10s]}> <tt src={/class-icons/anima/lara/manifestation-where-the-river-courses.png} tip={Manifestation: Where the River Courses (3rd Job)} dur={[90s](60s cd)}> <tt src={/class-icons/anima/lara/manifestation-wind-swing.png} tip={Manifestation: Wind Swing (3rd Job)} dur={[30s](60s cd)}> <tt src={/class-icons/anima/lara/manifestation-sunlight-filled-ground.png} tip={Manifestation: Sunlight-Filled Ground (3rd Job)} dur={[20s](60s cd)}> <tt src={/class-icons/anima/lara/arbor-away.png} tip={Arbor Away (Hyper Skill)} dur={[30s](180s cd)}> <tt src={/class-icons/anima/lara/winding-mountain-ridge.png} tip={Winding Mountain Ridge (5th Job)} dur={[30s](60s cd)}>",
-            "buffCd": "<tt src={/class-icons/anima/lara/absorption-river-puddle-douse.png} tip={Absorption: River Puddle Douse (4th Job)} dur={[90s](2.5s cd)}> <tt src={/class-icons/anima/lara/absorption-fierce-wind.png} tip={Absorption: Fierce Wind (4th Job)} dur={[90s](2.5s cd)}> <tt src={/class-icons/anima/lara/absorption-sunlit-grain.png} tip={Absorption: Sunlit Grain (4th Job)} dur={[90s](2.5s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[1800s](400s cd | 1400s cd on revive)}>",
+            "buffCd": "<tt src={/class-icons/anima/lara/absorption-river-puddle-douse.png} tip={Absorption: River Puddle Douse (4th Job)} dur={[90s](2.5s cd)}> <tt src={/class-icons/anima/lara/absorption-fierce-wind.png} tip={Absorption: Fierce Wind (4th Job)} dur={[90s](2.5s cd)}> <tt src={/class-icons/anima/lara/absorption-sunlit-grain.png} tip={Absorption: Sunlit Grain (4th Job)} dur={[90s](2.5s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[1800s](400s cd | 1400s cd on revive)}> <tt src={/class-icons/anima/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/anima/lara/vine-coil.png} tip={Vine Coil (Hyper Skill)} dur={[10s](180s cd)}> <tt src={/class-icons/anima/lara/universe-in-bloom.png} tip={Universe in Bloom (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[3.5s iFrame | 1800s Buff](400s cd | 1400s cd on revive)}> <tt src={/class-icons/anima/lara/universe-in-bloom.png} tip={Universe in Bloom (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/anima/lara/mountain-embrace.png} tip={Mountain Embrace (4th Job)} dur={[Up to 8s](-55% | 60 - 35.5s cd based on remaining duration)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](-MP | 60s cd)}>"

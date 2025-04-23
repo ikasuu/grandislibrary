@@ -38,13 +38,13 @@
             },
             {
                 "name": "STR",
-                "stat": "+15% +55(85)",
-                "detail": "<bg src={/class-icons/sengoku/akatsuki-warrior.png} tip={Akatsuki Warrior (4th Job)} val={+15%}> <bg src={/class-icons/link-skills/keen-edge.png} tip={Keen Edge (Link Skill)} val={+25}> <bg src={/class-icons/sengoku/hayato/center-ki.png} tip={Center Ki (1st Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}>"
+                "stat": "+55(85) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/link-skills/keen-edge.png} tip={Keen Edge (Link Skill)} val={+25}> <bg src={/class-icons/sengoku/hayato/center-ki.png} tip={Center Ki (1st Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg src={/class-icons/sengoku/akatsuki-warrior.png} tip={Akatsuki Warrior (4th Job)} val={+15% to assigned AP}>"
             },
             {
                 "name": "Attack",
-                "stat": "(+8%) +30",
-                "detail": "<bg type={toggle} src={/class-icons/sengoku/hayato/normal-stance.png} tip={Normal Stance (Beginner Skill)} val={up to +8%}> <bg src={/class-icons/link-skills/keen-edge.png} tip={Keen Edge (Link Skill)} val={+15}> <bg src={/class-icons/sengoku/hayato/military-might.png} tip={Military Might (2nd Job)} val={+15}>"
+                "stat": "+4%(+12%) +30",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg type={toggle} src={/class-icons/sengoku/hayato/normal-stance.png} tip={Normal Stance (Beginner Skill)} val={up to +8%}> <bg src={/class-icons/link-skills/keen-edge.png} tip={Keen Edge (Link Skill)} val={+15}> <bg src={/class-icons/sengoku/hayato/military-might.png} tip={Military Might (2nd Job)} val={+15}>"
             },
             {
                 "name": "Crit Rate",
@@ -81,7 +81,7 @@
             "active": "<tt src={/class-icons/sengoku/hayato/katana-booster.png} tip={Katana Booster (2nd Job)} dur={[200s]}> <tt src={/class-icons/sengoku/hayato/iaijutsu-phantom-blade.png} tip={Iaijutsu Phantom Blade (5th Job)} dur={[33s](200 Sword Energy)}>",
             "toggles": "[ <tt src={/class-icons/sengoku/hayato/normal-stance.png} tip={Normal Stance (Beginner Skill)}> / <tt src={/class-icons/sengoku/hayato/quick-draw.png} tip={Quick Draw (Beginner Skill)}> ](Stance Switch) <tt src={/class-icons/sengoku/hayato/eye-for-an-eye.png} tip={Eye for an Eye (4th Job)}>",
             "summons": "<tt src={/class-icons/sengoku/hayato/battoujutsu-ultimate-will-god-of-blades.png} tip={Battoujutsu Ultimate Will (5th Job)} dur={[30s](120s cd, 150 Sword Energy)}> <tt src={/class-icons/5th-job/sengoku-force-assemble.png} tip={Sengoku Force, Assemble! (5th Job)} dur={[45s](120s cd)}>",
-            "buffCd": "[ <tt src={/class-icons/sengoku/hayato/summer-rain.png} tip={Summer Rain (4th Job)}> / <tt src={/class-icons/sengoku/hayato/hitokiri-hundred-strike.png} tip={Hitokiri Hundred Strike (4th Job)}> ][120s](120s) <tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)} dur={[40s](90s cd)}> <tt src={/class-icons/sengoku/hayato/god-of-blades.png} tip={God of Blades (Hyper Skill)} dur={[30s](90s cd)}> <tt src={/class-icons/sengoku/princesss-vow.png} tip={Princess's Vow (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}>",
+            "buffCd": "[ <tt src={/class-icons/sengoku/hayato/summer-rain.png} tip={Summer Rain (4th Job)}> / <tt src={/class-icons/sengoku/hayato/hitokiri-hundred-strike.png} tip={Hitokiri Hundred Strike (4th Job)}> ][120s](120s) <tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)} dur={[40s](90s cd)}> <tt src={/class-icons/sengoku/hayato/god-of-blades.png} tip={God of Blades (Hyper Skill)} dur={[30s](90s cd)}> <tt src={/class-icons/sengoku/princesss-vow.png} tip={Princess's Vow (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/sengoku/hayato/jin-quick-draw.png} tip={Jin Quick Draw (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)} dur={[3s](90s cd)}> <tt src={/class-icons/sengoku/hayato/battoujutsu-zankou.png} tip={Battoujutsu Zankou (5th Job)} dur={(90s cd)}> <tt src={/class-icons/sengoku/hayato/jin-quick-draw.png} tip={Jin Quick Draw (6th Job)} dur={(360s cd)}>"
         },        

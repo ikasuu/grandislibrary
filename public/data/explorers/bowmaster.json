@@ -39,13 +39,13 @@
             },
             {
                 "name": "DEX",
-                "stat": "+15%(415%) +130",
-                "detail": "<bg src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+400%}> <bg src={/class-icons/common/agile-bows.png} tip={Agile Bows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/bowmaster/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}>"
+                "stat": "+130 & +15%(415%) to assigned AP",
+                "detail": "<bg src={/class-icons/common/agile-bows.png} tip={Agile Bows (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/bowmaster/illusion-step.png} tip={Illusion Step (4th Job)} val={+80}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
             },
             {
                 "name": "Attack",
-                "stat": "+25%(45%) +150(200)",
-                "detail": "<bg src={/class-icons/explorers/bowmaster/marksmanship.png} tip={Marksmanship (3rd Job)} val={+25%}> <bg type={temp} src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} val={+20%}> <bg src={/class-icons/explorers/bowmaster/soul-arrow.png} tip={Soul Arrow: Bow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow (3rd Job)} val={+40}> <bg src={/class-icons/explorers/bowmaster/bow-expert.png} tip={Bow Expert (4th Job)} val={+60}> <bg src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack (4th Job)} val={+20}> <bg type={temp} src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} val={+50}>"
+                "stat": "+29%(49%) +150(200)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/bowmaster/marksmanship.png} tip={Marksmanship (3rd Job)} val={+25%}> <bg type={temp} src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} val={+20%}> <bg src={/class-icons/explorers/bowmaster/soul-arrow.png} tip={Soul Arrow: Bow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow (3rd Job)} val={+40}> <bg src={/class-icons/explorers/bowmaster/bow-expert.png} tip={Bow Expert (4th Job)} val={+60}> <bg src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack (4th Job)} val={+20}> <bg type={temp} src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} val={+50}>"
             },
             {
                 "name": "Crit Rate",
@@ -82,7 +82,7 @@
             "active": "<tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
             "toggles": "<tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)} dur={(Special)}> <tt src={/class-icons/explorers/bowmaster/speed-mirage.png} tip={Speed Mirage (3rd Job)}> <tt src={/class-icons/explorers/bowmaster/silhouette-mirage.png} tip={Silhouette Mirage (5th Job)}>",
             "summons": "<tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)} dur={[60s](5s cd)}> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/bowmaster/blink-shot.png} tip={Blink Shot (3rd Job)} dur={[120s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
-            "buffCd": "<tt src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/storm-of-arrows.png} tip={Storm of Arrows (5th Job)} dur={[70s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/inhuman-speed.png} tip={Inhuman Speed (5th Job)} dur={[3-30s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/storm-of-arrows.png} tip={Storm of Arrows (5th Job)} dur={[70s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/inhuman-speed.png} tip={Inhuman Speed (5th Job)} dur={[3-30s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/explorers/bowmaster/silhouette-mirage.png} tip={Silhouette Mirage (5th Job)} dur={(-90% | 50s recharge (max 2), 7.5s cd on block)}>[<em text={Only blocks attacks that deal more than 50% Max HP}>]"
@@ -119,7 +119,7 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak}> Sharp Eyes - Guardbreak_<tt src={/class-icons/explorers/bowmaster/arrow-stream-extra-strike.png} tip={Arrow Stream - Extra Strike}> Arrow Stream - Extra Strike_<tt src={/class-icons/explorers/bowmaster/hurricane-reinforce.png} tip={Hurricane - Reinforce}> <tt src={/class-icons/explorers/bowmaster/hurricane-boss-rush.png} tip={Hurricane - Boss Rush}> <tt src={/class-icons/explorers/bowmaster/hurricane-split-attack.png} tip={Hurricane - Split Attack}> Hurricane - Reinforce, Boss Rush, and Split Attack_>"
+            "recommended": "<bp_<tt src={/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak}> <tt src={/class-icons/explorers/bowmaster/sharp-eyes-critical-chance.png} tip={Sharp Eyes - Critical Chance}> Sharp Eyes - Guardbreak and Critical Chance_<tt src={/class-icons/explorers/bowmaster/hurricane-reinforce.png} tip={Hurricane - Reinforce}> <tt src={/class-icons/explorers/bowmaster/hurricane-boss-rush.png} tip={Hurricane - Boss Rush}> <tt src={/class-icons/explorers/bowmaster/hurricane-split-attack.png} tip={Hurricane - Split Attack}> Hurricane - Reinforce, Boss Rush, and Split Attack_>"
         },
         "nodeInfo": {
             "recommended": {
@@ -138,12 +138,15 @@
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Bowmaster"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%B3%B4%EC%9A%B0%EB%A7%88%EC%8A%A4%ED%84%B0"},
+            {"title": "Class Discord", "link": "https://discord.gg/YJqyRYxWV3"},
             {"title": "Class Doc", "link": "https://docs.google.com/document/d/14Ob3MKysPnv7aQ31uLm0SkBLpKZSSjKRuwh_2nn28HE"},
             {"title": "Sky's Guide", "link": "https://dexless.com/guides/bowmaster-in-depth-job-guide.137/"}
         ],
+        "specialThanks": "Special thanks to Mouse and the members of the Bowmaster Discord for their help in making this overview!",
+        "discord": "https://discord.gg/YJqyRYxWV3",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
-            ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Sky"],
+            ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Bowmaster Discord"],
             ["5th Job Skill Animations", "KyoWantsCute"],
             ["Quiver Barrage + Silhouette Mirage Animation", "Owltakuu"]
         ]
@@ -220,8 +223,7 @@
                         "desc": "Double jump skill",
                         "details": [
                             "Can be assigned a Key Slot or activated by pressing jump twice",
-                            "While in the air, double-tapping the Up Arrow Key activates a vertical jump",
-                            "Double-tapping the Down Arrow Key will allow you to descend quickly"
+                            "While in the air, double-tapping the Up/Down Arrow Key will perform an Up Jump or Down Jump<bp_Right-clicking the skill will toggle a function ON/OFF to perform the jump by pressing Up/Down Arrow Key + Jump Key instead_>"
                         ]
                     },
                     {

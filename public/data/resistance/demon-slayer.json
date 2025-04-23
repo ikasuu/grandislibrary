@@ -33,13 +33,13 @@
             },
             {
                 "name": "STR",
-                "stat": "+15% +50(80)",
-                "detail": "<bg src={/class-icons/resistance/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15%}> <bg src={/class-icons/resistance/demon-slayer/agile-demon.png} tip={Agile Demon (1st Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}>"
+                "stat": "+50(80) & +15% to assigned AP",
+                "detail": "<bg src={/class-icons/resistance/demon-slayer/agile-demon.png} tip={Agile Demon (1st Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+30}> <bg src={/class-icons/resistance/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP}>"
             },
             {
                 "name": "Attack",
-                "stat": "+100",
-                "detail": "<bg src={/class-icons/resistance/demon-slayer/outrage.png} tip={Outrage (2nd Job)} val={+50}> <bg src={/class-icons/resistance/demon-slayer/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+50}>"
+                "stat": "+4% +100",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/demon-slayer/outrage.png} tip={Outrage (2nd Job)} val={+50}> <bg src={/class-icons/resistance/demon-slayer/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+50}>"
             },
             {
                 "name": "Crit Rate",
@@ -76,7 +76,7 @@
             "active": "<tt src={/class-icons/resistance/demon-slayer/vengeance.png} tip={Vengeance (2nd Job)} dur={[180s]}> <tt src={/class-icons/resistance/demon-slayer/leech-aura.png} tip={Leech Aura (4th Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/resistance/demon-slayer/blue-blood.png} tip={Blue Blood (Hyper Skill)}>",
             "summons": "<tt src={/class-icons/resistance/demon-slayer/spirit-of-rage.png} tip={Spirit of Rage (5th Job)} dur={[16s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/orthrus.png} tip={Orthrus (5th Job)} dur={[55s](120s cd)}> <tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[48s](120s cd)}>",
-            "buffCd": "<tt src={/class-icons/resistance/demon-slayer/dark-metamorphosis.png} tip={Dark Metamorphosis (4th Job)} dur={[180s](90s cd)}> <tt src={/class-icons/resistance/demon-slayer/boundless-rage.png} tip={Boundless Rage (4th Job)} dur={[35s](120s cd)}> <tt src={/class-icons/resistance/demonic-fortitude.png} tip={Demonic Fortitude (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/demon-awakening.png} tip={Demon Awakening (5th Job)} dur={[65s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/resistance/demon-slayer/dark-metamorphosis.png} tip={Dark Metamorphosis (4th Job)} dur={[180s](90s cd)}> <tt src={/class-icons/resistance/demon-slayer/boundless-rage.png} tip={Boundless Rage (4th Job)} dur={[35s](120s cd)}> <tt src={/class-icons/resistance/demonic-fortitude.png} tip={Demonic Fortitude (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/demon-awakening.png} tip={Demon Awakening (5th Job)} dur={[65s](120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/resistance/demon-slayer/binding-darkness.png} tip={Binding Darkness (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/nightmare.png} tip={Nightmare (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/resistance/demon-slayer/raven-storm.png} tip={Raven Storm (3rd Job)} dur={(30s cd)}> <tt src={/class-icons/resistance/demon-slayer/dark-metamorphosis.png} tip={Dark Metamorphosis (4th Job)} dur={(90s cd)}> <tt src={/class-icons/resistance/demon-slayer/demon-bane.png} tip={Demon Bane (5th Job)} dur={[6s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/nightmare.png} tip={Nightmare (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[6s](-25% | 120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s, triggers once](-75% | 120s cd)}>"
@@ -128,7 +128,7 @@
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Demon_Slayer"},
-            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%8D%B0%EB%AA%AC%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%8D%B0%EB%AA%AC%20%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
             {"title": "Ellucidate's Guide", "link": "https://dexless.com/guides/ellucidates-guide-to-demon-slayer.183/"}
         ],
         "credits": [
