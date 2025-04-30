@@ -48,8 +48,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+25%(58-60%)(63-65% w/ 6th Job Lv. 30)",
-                "detail": "<bg src={/class-icons/jianghu/mo-xuan/xuanshan-spirit.png} tip={Xuanshan Spirit (Beginner Skill)} val={+10%}> <bg src={/class-icons/jianghu/mo-xuan/qi-within.png} tip={Qi Within (3rd Job)} val={+10%}> <bg src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples - Passive (4th Job)} val={+5%}> <bg type={temp} src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples (4th Job)} val={+8%} val={(extra +2% at max Divine Power)}> <bg type={temp} src={/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png} tip={Soul Art: The Opened Gate (5th Job)} val={+25%} val={(+30% instead w/ 6th Job Lv. 30)}>"
+                "stat": "+25%(50%)(55% w/ 6th Job Lv. 30)",
+                "detail": "<bg src={/class-icons/jianghu/mo-xuan/xuanshan-spirit.png} tip={Xuanshan Spirit (Beginner Skill)} val={+10%}> <bg src={/class-icons/jianghu/mo-xuan/qi-within.png} tip={Qi Within (3rd Job)} val={+10%}> <bg src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples - Passive (4th Job)} val={+5%}> <bg type={temp} src={/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png} tip={Soul Art: The Opened Gate (5th Job)} val={+25%} val={(+30% instead w/ 6th Job Lv. 30)}>"
             },
             {
                 "name": "Damage",
@@ -76,7 +76,7 @@
             "active": "None",
             "toggles": "<tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection (3rd Job)}>",
             "summons": "",
-            "buffCd": "<tt src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples (4th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/jianghu/mo-xuan/secret-art-strength-within.png} tip={Secret Art: Strength Within (Hyper Skill)} dur={(120s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-the-conquered-self.png} tip={Soul Art: The Conquered Self (5th Job)} dur={[30s](180s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png} tip={Soul Art: The Opened Gate (5th Job)} dur={[30s](180s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>(10s cd)(180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/jianghu/mo-xuan/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}> [<tt src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)}> <bold text={Power of Destiny}>: <tt src={/class-icons/5th-job/power-of-destiny-might.png} tip={Power of Destiny: Might (5th Job)} dur={[45s](90s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-perceive.png} tip={Power of Destiny: Perceive (5th Job)} dur={[60s](180s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny: Boon (5th Job)} dur={[60s](90s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-journey.png} tip={Power of Destiny: Journey (5th Job)} dur={[300s](600s cd)}> <em text={(One effect can be chosen at a time, resets at 12:00 AM UTC)}>]",
+            "buffCd": "<tt src={/class-icons/jianghu/mo-xuan/secret-art-strength-within.png} tip={Secret Art: Strength Within (Hyper Skill)} dur={(120s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-the-conquered-self.png} tip={Soul Art: The Conquered Self (5th Job)} dur={[30s](180s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-the-opened-gate.png} tip={Soul Art: The Opened Gate (5th Job)} dur={[30s](180s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>(10s cd)(180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/jianghu/mo-xuan/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}> <tt src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples (4th Job)} dur={[60s, Party Members only](120s cd)}> [<tt src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)}> <bold text={Power of Destiny}>: <tt src={/class-icons/5th-job/power-of-destiny-might.png} tip={Power of Destiny: Might (5th Job)} dur={[45s](90s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-perceive.png} tip={Power of Destiny: Perceive (5th Job)} dur={[60s](180s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-boon.png} tip={Power of Destiny: Boon (5th Job)} dur={[60s](90s cd)}> <tt src={/class-icons/5th-job/power-of-destiny-journey.png} tip={Power of Destiny: Journey (5th Job)} dur={[300s](600s cd)}> <em text={(One effect can be chosen at a time, resets at 12:00 AM UTC)}>]",
             "binds": "<tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder (3rd Job)} dur={[3s](45s cd)}> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png} tip={Secret Art: Qi Disruption (4th Job)} dur={[10s](180s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-jianghu-dragon.png} tip={Soul Art: Jianghu Dragon (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png} tip={Secret Art: Qi Disruption (4th Job)} dur={[1.1s](180s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-black-wind.png} tip={Soul Art: Black Wind (Hyper Skill)} dur={[1.2s](60s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-beneath-heaven.png} tip={Soul Art: Beneath Heaven (5th Job)} dur={[4s](180s cd)}> <tt src={/class-icons/jianghu/mo-xuan/soul-art-jianghu-dragon.png} tip={Soul Art: Jianghu Dragon (6th Job)} dur={[7.3s](360s cd)}>",
             "damageReduce": "<tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-shield.png} tip={Secret Art: Qi Shield (4th Job)} dur={[20s](-100% to -20%, each hit taken reduces amount by 15%/10% | 180s cd)}>"
@@ -93,8 +93,8 @@
         },
         "buildPath": {
             "build": [
-                ["1st Job", "<tt src={/class-icons/jianghu/mo-xuan/secret-art-air-weaving.png} tip={Secret Art: Air Weaving}> -> <tt src={/class-icons/jianghu/mo-xuan/awaken.png} tip={Awaken}> -> <tt src={/class-icons/jianghu/mo-xuan/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-tian.png} tip={Xuanshan Strike [Tian]}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame}>"],
-                ["2nd Job", "<tt src={/class-icons/jianghu/mo-xuan/high-intensity-training.png} tip={High-Intensity Training}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-fists-of-fury.png} tip={Secret Art: Fists of Fury}> -> <tt src={/class-icons/jianghu/mo-xuan/agility-training.png} tip={Agility Training}> -> <tt src={/class-icons/jianghu/mo-xuan/martial-mastery.png} tip={Martial Mastery}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-di.png} tip={Xuanshan Strike [Di]}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-arrow-flight.png} tip={Secret Art: Arrow Flight}>"],
+                ["1st Job", "<tt src={/class-icons/jianghu/mo-xuan/secret-art-dancing-leap.png} tip={Secret Art: Dancing Leap}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-air-weaving.png} tip={Secret Art: Air Weaving}> -> <tt src={/class-icons/jianghu/mo-xuan/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-tian.png} tip={Xuanshan Strike [Tian]}> -> <tt src={/class-icons/jianghu/mo-xuan/awaken.png} tip={Awaken}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-erupting-flame.png} tip={Divine Art: Erupting Flame}>"],
+                ["2nd Job", "<tt src={/class-icons/jianghu/mo-xuan/martial-mastery.png} tip={Martial Mastery}> -> <tt src={/class-icons/jianghu/mo-xuan/high-intensity-training.png} tip={High-Intensity Training}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-fists-of-fury.png} tip={Secret Art: Fists of Fury}> -> <tt src={/class-icons/jianghu/mo-xuan/agility-training.png} tip={Agility Training}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-strike-di.png} tip={Xuanshan Strike [Di]}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-tearing-wind.png} tip={Divine Art: Tearing Wind}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-arrow-flight.png} tip={Secret Art: Arrow Flight}>"],
                 ["3rd Job", "<tt src={/class-icons/jianghu/mo-xuan/qi-within.png} tip={Qi Within}> -> <tt src={/class-icons/jianghu/mo-xuan/martial-discipline.png} tip={Martial Discipline}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-training-i.png} tip={Divine Art Training I}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-projection.png} tip={Secret Art: Qi Projection}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-swirling-tide.png} tip={Divine Art: Swirling Tide}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-righteous-thunder.png} tip={Divine Art: Righteous Thunder}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-flash-step.png} tip={Secret Art: Flash Step}>"],
                 ["4th Job", "<tt src={/class-icons/jianghu/mo-xuan/boundless.png} tip={Boundless}> -> <tt src={/class-icons/jianghu/mo-xuan/aura.png} tip={Aura}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-cross-tian.png} tip={Xuanshan Cross [Tian]}> -> <tt src={/class-icons/jianghu/mo-xuan/xuanshan-cross-di.png} tip={Xuanshan Cross [Di]}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-training-ii.png} tip={Divine Art Training II}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png} tip={Secret Art: Divine Fist Disciples}> -> <tt src={/class-icons/jianghu/mo-xuan/divine-art-howling-storm.png} tip={Divine Art: Howling Storm}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-shield.png} tip={Secret Art: Qi Shield}> -> <tt src={/class-icons/jianghu/mo-xuan/secret-art-qi-disruption.png} tip={Secret Art: Qi Disruption}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
             ],              
@@ -226,6 +226,7 @@
                         "type": "[Tian] Attack",
                         "desc": "Punch forward releasing a blast of energy",
                         "details": [
+                            "To obtain this skill, complete the Mo Xuan storyline",
                             "After 3rd Job, deals increased %Final Damage when used after <tt src={/class-icons/jianghu/mo-xuan/xuanshan-arts-tian.png} tip={Xuanshan Arts [Tian] (1st Job)}> [Strike]"
                         ]
                     },
@@ -259,15 +260,17 @@
                         "maxLevel": 10,
                         "icons": ["/class-icons/jianghu/mo-xuan/awaken.png"],
                         "type": "Passive",
-                        "desc": ""
+                        "desc": "",
+                        "details": [
+                            "To obtain this skill, complete the Mo Xuan storyline"
+                        ]
                     },
                     {
                         "name": "Physical Training",
                         "shortDesc": "DEX: +30, Attack Power: +20",
                         "maxLevel": 9,
                         "icons": ["/class-icons/jianghu/mo-xuan/physical-training.png"],
-                        "type": "Passive",
-                        "desc": ""
+                        "type": "Passive"
                     }]
                 ],
                 [
@@ -313,32 +316,28 @@
                         "shortDesc": "Attack Speed: +2, DEX: +20",
                         "maxLevel": 10,
                         "icons": ["/class-icons/jianghu/mo-xuan/secret-art-fists-of-fury.png"],
-                        "type": "Passive",
-                        "desc": ""
+                        "type": "Passive"
                     },
                     {
                         "name": "Agility Training",
                         "shortDesc": "Speed: +50, Jump: +20, Max Speed: +20",
                         "maxLevel": 10,
                         "icons": ["/class-icons/jianghu/mo-xuan/agility-training.png"],
-                        "type": "Passive",
-                        "desc": ""
+                        "type": "Passive"
                     },
                     {
                         "name": "High-Intensity Training",
                         "shortDesc": "DEX: +30, Defense: +300, Max HP: +20%\\nDamage Taken: -10%, Knockback Resistance: +40%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/jianghu/mo-xuan/high-intensity-training.png"],
-                        "type": "Passive",
-                        "desc": ""
+                        "type": "Passive"
                     },
                     {
                         "name": "Martial Mastery",
                         "shortDesc": "Martial Brace Mastery: +50%\\nAttack Power: +30",
                         "maxLevel": 20,
                         "icons": ["/class-icons/jianghu/mo-xuan/martial-mastery.png"],
-                        "type": "Passive",
-                        "desc": ""
+                        "type": "Passive"
                     },
                     {
                         "name": "Secret Art: Arrow Flight",
@@ -528,10 +527,11 @@
                         "icons": ["/class-icons/jianghu/mo-xuan/secret-art-divine-fist-disciples.png"],
                         "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnN3d3ZlbmVocmRvY3JmYzl4aTJlZ2l4eXNibDh1bHR6cmNlNHh1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FO4Cc3KjKKtwG1rfgn/giphy.gif"],
                         "type": "Party Buff",
-                        "desc": "When used, grants increased %Crit Damage",
+                        "desc": "When used, grants party members increased %Crit Damage (excluding Mo Xuan)",
                         "details": [
                             "[Passive]: Permanently increases %Crit Damage",
-                            "While [Divine Fist] is at max stacks, the %Crit Damage provided is increased"
+                            "While [Divine Fist] is at max stacks, the %Crit Damage provided is increased",
+                            "Mo Xuan cannot receive the active effect"
                         ]
                     },
                     {
@@ -574,8 +574,7 @@
                         "shortDesc": "Boss Damage: +20%, Ignore Defense: +30%, Knockback Resistance: +60%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/jianghu/mo-xuan/aura.png"],
-                        "type": "Passive",
-                        "desc": ""
+                        "type": "Passive"
                     },
                     {
                         "name": "Boundless",
@@ -936,8 +935,7 @@
                     "shortDesc": "MP Cost: 1200, Max Enemies Hit: 15, Damage: 4980%, Number of Attacks: 8, Chase Cuts: 8. Afterwards, Damage: 5880%, Number of Attacks: 10, Finishing Blows: 16\\nAfter the finishing blow, Divine Fist does not decrease for 120 sec\\nCooldown: 360 sec",
                     "icons": ["/class-icons/jianghu/mo-xuan/soul-art-jianghu-dragon.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjBpdHkzdG5sZmY0czh5bGlscXcwdjFlZjZuZzBscHBrdjJhbDFkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TFVe8Q8p39SiflyZ0B/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtnc2J6ejV3emtodzAzeHkzcDZvMzN0MDJldmZ6MW9xcnZwZGVsciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bRYOna0RRJKC9hJjQS/giphy.gif"],
-                    "type": "Bind Attack",
-                    "desc": ""
+                    "type": "Bind Attack"
                 }
             ],
             "boostCore": [
