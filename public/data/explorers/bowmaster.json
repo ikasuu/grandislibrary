@@ -14,12 +14,12 @@
         ],
         "innerAbility": [
             {
-                "name": "1st Line Options",
-                "abilities": ["Boss Damage +20%", "Meso Obtained +20% (For Farming)", "Item Drop Rate +20% (For Farming)"]
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to Abnormal Status +8%"]
             },
             {
-                "name": "2nd & 3rd Line Options",
-                "abilities": ["Crit Rate +20%", "Damage to Abnormal Status +8%", "Meso Obtained +15% (If not 1st Line)", "Item Drop Rate +15% (If not 1st Line)"]
+                "name": "For Training",
+                "abilities": ["Item Drop Rate +20%", "Meso Obtained +20% (Alternative 1st line)", "Meso Obtained +15% (if not 1st line)", "Item Drop Rate +15% (If not 1st line)", "Damage to Regular Monsters +8%"]
             }
         ],
         "attackStats": [
@@ -119,7 +119,7 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak}> <tt src={/class-icons/explorers/bowmaster/sharp-eyes-critical-chance.png} tip={Sharp Eyes - Critical Chance}> Sharp Eyes - Guardbreak and Critical Chance_<tt src={/class-icons/explorers/bowmaster/hurricane-reinforce.png} tip={Hurricane - Reinforce}> <tt src={/class-icons/explorers/bowmaster/hurricane-boss-rush.png} tip={Hurricane - Boss Rush}> <tt src={/class-icons/explorers/bowmaster/hurricane-split-attack.png} tip={Hurricane - Split Attack}> Hurricane - Reinforce, Boss Rush, and Split Attack_>"
+            "recommended": "<bp_<tt src={/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak}> <tt src={/class-icons/explorers/bowmaster/sharp-eyes-critical-chance.png} tip={Sharp Eyes - Critical Chance}> Sharp Eyes - Guardbreak and Critical Chance_<tt src={/class-icons/explorers/bowmaster/hurricane-reinforce.png} tip={Hurricane - Reinforce}> <tt src={/class-icons/explorers/bowmaster/hurricane-boss-rush.png} tip={Hurricane - Boss Rush}> <tt src={/class-icons/explorers/bowmaster/hurricane-split-attack.png} tip={Hurricane - Split Attack}> Hurricane - Reinforce, Boss Rush, and Split Attack_<tt src={/class-icons/explorers/bowmaster/arrow-stream-reinforce.png} tip={Arrow Stream - Reinforce}> <tt src={/class-icons/explorers/bowmaster/arrow-stream-extra-strike.png} tip={Arrow Stream - Extra Strike}> Arrow Stream - Reinforce and Extra Strike can be used when training with <tt src={/class-icons/explorers/bowmaster/arrow-stream.png} tip={Arrow Stream (4th Job)}> instead of <tt src={/class-icons/explorers/bowmaster/sharp-eyes-guardbreak.png} tip={Sharp Eyes - Guardbreak}> <tt src={/class-icons/explorers/bowmaster/sharp-eyes-critical-chance.png} tip={Sharp Eyes - Critical Chance}>_>"
         },
         "nodeInfo": {
             "recommended": {
@@ -636,7 +636,7 @@
                     "icons": ["/class-icons/explorers/bowmaster/gritty-gust.png"],
                     "animations": ["https://media.giphy.com/media/aqfejdKAytT9yngvXi/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Releases a burst of wind that damages and slows enemies hits",
+                    "desc": "Release a gust of wind that damages and applies a slowing debuff",
                     "details": [
                         "[Passive]: Permanently increases %Damage of <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)}> by a flat amount"
                     ],
@@ -674,11 +674,11 @@
                     "shortDesc": "MP Cost: 800, Max Duration: 30 sec. Fires arrows at set intervals dealing 880% 3 times to enemies within range of your afterimages, for 3 sec., during the buff.\\nWhen the attack hits, Afterimage Attack Duration: +3 sec every 1 sec.\\nWhen the attack duration ends, afterimages stop attacking.\\nCooldown: 120 sec\\n[Passive Effect: Every 10 attacks performed while this skill is on cooldown, an afterimage is created that lasts 1 sec and periodically attacks enemies within its range for 880% damage 3 times.]\\nActive and Passive Effects cannot trigger simultaneously.",
                     "icons": ["/class-icons/explorers/bowmaster/inhuman-speed.png"],
                     "animations": ["https://media1.giphy.com/media/ehJirtl72c2PSkPWQU/giphy.gif"],
-                    "type": "Passive / Attack",
-                    "desc": "Fires a barrage of arrows at enemies within range",
+                    "type": "Passive / Buff Attack",
+                    "desc": "While active, afterimages fire arrows at nearby enemies",
                     "details": [
-                        "While attacking, if you land successful attacks for 1 sec, the duration of the attack increases by 3 sec (up to 30 sec)",
-                        "While Inhuman Speed is not active, every few attacks, you create brief afterimages that attacks alongside you"
+                        "While active, if you land successful attacks for 1 sec, the duration of the attack increases by 3 sec (up to 30 sec)",
+                        "While the skill is not active, every few attacks will activate a brief afterimage to fire arrows"
                     ]
                 },
                 {
@@ -689,7 +689,7 @@
                     "type": "Buff Attack",
                     "desc": "While active, increases %Attack and uses every <tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)}> arrow type at once",
                     "details": [
-                        "While active, temporarily adds a new arrow type, Flaming Arrows that explode, damaging nearby enemies",
+                        "While active, temporarily adds a new arrow type, Flaming Arrows that explodes damaging nearby enemies",
                         "There is a limited amount of Flaming Arrows that can be fired",
                         "Flaming Arrows prioritize bosses with the highest HP",
                         "Unaffected by Damage Reflect"
@@ -701,10 +701,10 @@
                     "icons": ["/class-icons/explorers/bowmaster/silhouette-mirage.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzd5Y3BjYmEya2ZzY3Z0dWFjemd4YjRrdDJicjFnbHVuN3pwbmtqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U081PunG277toLWLn8/giphy.gif"],
                     "type": "Toggle Buff",
-                    "desc": "When toggled, when you take damage equal to 50% of your max HP or higher or if the attack is fatal, a mirage (if available) will be consumed and the damage taken will be reduced",
+                    "desc": "When toggled, upon taking damage greater than or equal to 50% of your Max HP, a mirage (if available) will be consumed and the damage taken will be reduced",
                     "details": [
-                        "If you have a mirage active, your attacks fire an additional attack periodically",
-                        "You gain 1 mirage every 50 secs (up to 2 max)",
+                        "If you have a mirage active, successful attacks periodically trigger an additional attack",
+                        "Gain 1 mirage every 50 secs (up to 2 max)",
                         "Right-clicking the skill will turn the mirage visual effect on/off",
                         "Unaffected by Damage Reflect"
                     ]
