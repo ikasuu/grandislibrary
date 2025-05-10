@@ -10,7 +10,7 @@ import { ContentTitle } from '../../components/Page';
 import InfoButton from '../UtilityButtons';
 import { Accordion, AccordionDetails, AccordionSummary, Chip } from '@material-ui/core';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import formatSkillText, { formatActivesSection, formatBuildSection, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
+import formatSkillText, { formatActivesSection, formatBuildSection, formatExtraContent, formatSkillBadge, formatSkillTooltip } from './ClassFormat';
 
 /*
 This file contains the intro contents of a Class Overview
@@ -500,7 +500,11 @@ export function ClassExtraContent({title, content}){
         <Container>
             <StyledHeaderTwo>{title}</StyledHeaderTwo>
             <ExtraContentCard>
-                <Card.Body>{parse(DOMPurify.sanitize(content, { ADD_ATTR: ['target'] }))}</Card.Body>
+                <Card.Body>
+                    {content.map((text, i) => 
+                        <p key={i}>{formatExtraContent(text)}</p>
+                    )}
+                </Card.Body>
             </ExtraContentCard>
         </Container>
     );

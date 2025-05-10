@@ -146,7 +146,13 @@
         ],
         "extraContent": {
             "title": "Relic Gauge",
-            "content": "<p><img src='/class-icons/explorers/pathfinder/relic-gauge.png'/></p><p>Pathfinders have a special gauge called the Relic Gauge that is used to cast certain Skills. Attacking enemies will charge up your Relic Gauge. At the center of the gauge, there is also a special emblem that changes depending on which the skills you use. Some skills will change depending on what the emblem is</p><p><img src='/class-icons/explorers/pathfinder/deluge-gauge.png'/><img src='/class-icons/explorers/pathfinder/burst-gauge.png'/><img src='/class-icons/explorers/pathfinder/torrent-gauge.png'/></p><p>There are three types of emblems (from left to right): Deluge, Burst and Torrent</p><p>Additionally, in 2nd Job you will have unlocked your 2 main attacks, <img src='/class-icons/explorers/pathfinder/cardinal-deluge.png' alt='Skill Cardinal Deluge'/> Cardinal Deluge (1st Job) and <img src='/class-icons/explorers/pathfinder/cardinal-burst.png' alt='Skill Cardinal Burst'/> Cardinal Burst (2nd Job). These two skills can be placed in a skill macro to be used together where Cardinal Burst is placed first and Cardinal Deluge is placed second. Skill macros can be found by pressing a button on the bottom right of the Skill UI</p>"
+            "content": [
+                "<img src={/class-icons/explorers/pathfinder/relic-gauge.png} alt={Relic Gauge}>",
+                "Pathfinders have a special gauge called the Relic Gauge that is used to cast certain Skills. Attacking enemies will charge up your Relic Gauge. At the center of the gauge, there is also a special emblem that changes depending on which the skills you use. Some skills will change depending on what the emblem is",
+                "<img src={/class-icons/explorers/pathfinder/deluge-gauge.png} alt={Deluge Gauge}> <img src={/class-icons/explorers/pathfinder/burst-gauge.png} alt={Burst Gauge}> <img src={/class-icons/explorers/pathfinder/torrent-gauge.png} tip={Torrent Gauge}>",
+                "There are three types of emblems (from left to right): Deluge, Burst and Torrent",
+                "Additionally, in 2nd Job you will have unlocked your 2 main attacks, <tt src={/class-icons/explorers/pathfinder/cardinal-deluge.png} tip={Cardinal Deluge (1st Job)}> Cardinal Deluge (1st Job) and <tt src={/class-icons/explorers/pathfinder/cardinal-burst.png} tip={Cardinal Burst (2nd Job)}> Cardinal Burst (2nd Job). These two skills can be placed in a skill macro to be used together where Cardinal Burst is placed first and Cardinal Deluge is placed second. Skill macros can be found by pressing a button on the bottom right of the Skill UI"
+            ]
         }
     },
     "skill": {
