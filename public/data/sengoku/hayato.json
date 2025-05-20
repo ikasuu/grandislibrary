@@ -43,8 +43,8 @@
             },
             {
                 "name": "Attack",
-                "stat": "+4%(+12%) +30",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg type={toggle} src={/class-icons/sengoku/hayato/normal-stance.png} tip={Normal Stance (Beginner Skill)} val={up to +8%}> <bg src={/class-icons/link-skills/keen-edge.png} tip={Keen Edge (Link Skill)} val={+15}> <bg src={/class-icons/sengoku/hayato/military-might.png} tip={Military Might (2nd Job)} val={+15}>"
+                "stat": "+4%(+42%) +30",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg type={toggle} src={/class-icons/sengoku/hayato/normal-stance.png} tip={Normal Stance (Beginner Skill)} val={up to +8%}> <bg type={temp} src={/class-icons/sengoku/hayato/willow-dodge.png} tip={Willow Dodge (3rd Job)} val={up to 30%}> <bg src={/class-icons/link-skills/keen-edge.png} tip={Keen Edge (Link Skill)} val={+15}> <bg src={/class-icons/sengoku/hayato/military-might.png} tip={Military Might (2nd Job)} val={+15}>"
             },
             {
                 "name": "Crit Rate",
@@ -58,8 +58,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+99%(200%)",
-                "detail": "<bg src={/class-icons/sengoku/hayato/cleaver.png} tip={Cleaver (4th Job)} val={+30%}> <bg src={/class-icons/sengoku/hayato/shimada-heart.png} tip={Shimada Heart (Beginner Skill)} val={up to +49%}> <bg type={debuff} src={/class-icons/sengoku/hayato/sudden-strike.png} tip={Sudden Strike (4th Job)} val={+20%}> <bg type={temp} src={/class-icons/sengoku/hayato/battoujutsu-advance.png} tip={Battoujutsu Advance (1st Job)} val={up to 16%}> <bg type={temp} src={/class-icons/sengoku/hayato/willow-dodge.png} tip={Willow Dodge (3rd Job)} val={up to 30%}> <bg type={temp} src={/class-icons/sengoku/hayato/summer-rain.png} tip={Summer Rain (4th Job)} src={/class-icons/sengoku/hayato/hitokiri-hundred-strike.png} tip={Hitokiri Hundred Strike (4th Job)} val={+15%}> <bg type={temp} src={/class-icons/sengoku/princesss-vow.png} tip={Princess's Vow (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +30%}>"
+                "stat": "+99%(170%)",
+                "detail": "<bg src={/class-icons/sengoku/hayato/cleaver.png} tip={Cleaver (4th Job)} val={+30%}> <bg src={/class-icons/sengoku/hayato/shimada-heart.png} tip={Shimada Heart (Beginner Skill)} val={up to +49%}> <bg type={debuff} src={/class-icons/sengoku/hayato/sudden-strike.png} tip={Sudden Strike (4th Job)} val={+20%}> <bg type={temp} src={/class-icons/sengoku/hayato/battoujutsu-advance.png} tip={Battoujutsu Advance (1st Job)} val={up to 16%}> <bg type={temp} src={/class-icons/sengoku/hayato/summer-rain.png} tip={Summer Rain (4th Job)} src={/class-icons/sengoku/hayato/hitokiri-hundred-strike.png} tip={Hitokiri Hundred Strike (4th Job)} val={+15%}> <bg type={temp} src={/class-icons/sengoku/princesss-vow.png} tip={Princess's Vow (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +30%}>"
             },
             {
                 "name": "Boss Damage",
@@ -490,7 +490,10 @@
                         "maxLevel": 15,
                         "icons": ["/class-icons/sengoku/hayato/willow-dodge.png"],
                         "type": "Passive",
-                        "desc": "Upon dodging an attack, there is a chance to gain a stacking %Damage buff"
+                        "desc": "Upon dodging an attack, there is a chance to gain a stacking %Attack buff",
+                        "details": [
+                            "[Note]: Tooltip mentions %Damage but, it is %Attack"
+                        ]
                     },
                     {
                         "name": "Merciless Blade",
