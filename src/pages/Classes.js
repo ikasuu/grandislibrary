@@ -40,6 +40,8 @@ function Classes() {
                 <ClassGroupContainer classes={classes.anima} classGroup="anima"/>
                 <Page.Subtitle>Jianghu</Page.Subtitle>
                 <ClassGroupContainer classes={classes.jianghu} classGroup="jianghu"/>
+                <Page.Subtitle>Star Guardian</Page.Subtitle>
+                <ClassGroupContainer classes={classes.starGuardian} classGroup="star-guardian"/>
                 <Page.Subtitle>Other</Page.Subtitle>
                 <Page.Caption>Classes here only share Cash Shop Inventories with their own class - they do not share with each other</Page.Caption>
                 <ClassGroupContainer classes={classes.other} classGroup="other"/>

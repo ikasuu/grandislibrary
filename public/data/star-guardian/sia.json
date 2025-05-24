@@ -1,0 +1,871 @@
+{
+    "class": "Sia",
+    "content": {
+        "classGroup": "Star Guardian",
+        "jobGroup": "Magician",
+        "mainStat": "INT",
+        "secondaryStat": "LUK",
+        "legion": "To be updated in July",
+        "legionValue": "",
+        "equipment": [
+            {"weapon": ["celestialLight"]},
+            {"secondary": ["compass"]}
+        ],
+        "innerAbility": [
+            {
+                "abilities": ["To be updated in July"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "?"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "?",
+                "detail": "<bg val={Stage 4}> <bg src={/class-icons/star-guardian/sia/oort-wave.png} tip={Oort Wave (2nd Job)} val={Stacking buff,} val={upon activating Constellation Skill}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "?",
+                "detail": "<bg val={Base +25%}>"
+            },
+            {
+                "name": "INT",
+                "stat": "? & +15%(415%) to assigned AP",
+                "detail": "<bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}>"
+            },
+            {
+                "name": "Magic Attack",
+                "stat": "+4% ?",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/star-guardian/sia/star-force-enhancement.png} tip={Star Force Enhancement (Beginner Skill)} val={}> <bg src={/class-icons/star-guardian/sia/astral-force.png} tip={Astral Force (2nd Job)} val={}> <bg src={/class-icons/star-guardian/sia/astral-elements.png} tip={Astral Elements (3rd Job)} val={}> <bg src={/class-icons/star-guardian/sia/stellar-equalize.png} tip={Stellar Equalize (4th Job)} val={}> <bg src={/class-icons/star-guardian/sia/astral-infinity.png} tip={Astral Infinity (4th Job)} val={}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "?",
+                "detail": "<bg val={Base +5%}> <bg src={/class-icons/star-guardian/sia/astral-force.png} tip={Astral Force (2nd Job)} val={}> <bg src={/class-icons/star-guardian/sia/astral-elements.png} tip={Astral Elements (3rd Job)} val={}> <bg src={/class-icons/star-guardian/sia/astral-assimilation.png} tip={Astral Assimilation (4th Job)} val={}> <bg src={/class-icons/star-guardian/sia/stellar-x-capella.png} tip={Stellar X - Capella (Hyper Skill)} val={}> <bg src={/class-icons/star-guardian/sia/stellar-xii-sadalsuud.png} tip={Stellar XII - Sadalsuud (5th Job)} val={}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "?",
+                "detail": "<bg src={/class-icons/star-guardian/sia/astral-energy.png} tip={Astral Energy (2nd Job)} val={}> <bg src={/class-icons/star-guardian/sia/astral-assimilation.png} tip={Astral Assimilation (4th Job)} val={}> <bg src={/class-icons/star-guardian/sia/stellar-x-capella.png} tip={Stellar X - Capella (Hyper Skill)} val={}> <bg type={temp} src={/class-icons/star-guardian/sia/observe.png} tip={Observe (Hyper Skill)} val={}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "?",
+                "detail": "<bg src={/class-icons/star-guardian/sia/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix (3rd Job)} val={+30%}> <bg src={/class-icons/star-guardian/sia/astral-infinity.png} tip={Astral Infinity (4th Job)} val={}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "?",
+                "detail": "<bg src={/class-icons/star-guardian/sia/astral-infinity.png} tip={Astral Infinity (4th Job)} val={}> <bg src={/class-icons/star-guardian/sia/stellar-xii-sadalsuud.png} tip={Stellar XII - Sadalsuud (5th Job)} val={}>"
+            },
+            {
+                "name": "Final Damage",
+                "stat": "?",
+                "detail": "<bg src={/class-icons/star-guardian/sia/stellar-xi-sirius.png} tip={Stellar XI - Sirius (5th Job)} val={}> × <bg type={def} sub={temp} src={/class-icons/link-skills/tree-of-stars.png} tip={Tree of Stars (Link Skill)} val={+2% & +10% from buff}> × <bg type={temp} src={/class-icons/star-guardian/sia/shine.png} tip={Shine (5th Job)} val={}> × <bg type={temp} src={/class-icons/star-guardian/sia/saviors-circle.png} tip={Savior's Circle} val={}> × <bg type={temp} sub={opt} src={/class-icons/star-guardian/sia/appear.png} tip={Appear (4th Job)} val={} subSrc={/class-icons/star-guardian/sia/appear-enhance.png} subTip={Appear - Enhance (Hyper Skill)} subVal={extra +10%}> × <bg type={opt} src={/class-icons/star-guardian/sia/stellar-marking-reinforce-duration.png} tip={Stellar Marking - Reinforce Duration (Hyper Skill)} val={+10%}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "?",
+                "detail": ""
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={/class-icons/star-guardian/sia/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix (3rd Job)} dur={(60s)}> <bold text={[Party Buffs]}> <tt src={/class-icons/star-guardian/sia/celestial-alignment.png} tip={Celestial Alignment (2nd Job)} dur={(60s)}> <tt src={/class-icons/star-guardian/sia/stellar-x-capella.png} tip={Stellaar X - Capella (Hyper Skill)} dur={(90s)}> <tt src={/class-icons/star-guardian/sia/stellar-xi-sirius.png} tip={Stellar XI - Sirius (5th Job)} dur={(8s)}> <tt src={/class-icons/star-guardian/sia/stellar-xii-sadalsuud.png} tip={Stellar XII - Sadalsuud (5th Job)} dur={(120s)}>",
+            "toggles": "<tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
+            "summons": "<tt src={/class-icons/star-guardian/sia/stellar-i-antares.png} tip={Stellar I - Antares (1st Job)} dur={(5s)}> <tt src={/class-icons/star-guardian/sia/stellar-ii-algol.png} tip={Stellar II - Algol (2nd Job)} dur={(15s)}> <tt src={/class-icons/star-guardian/sia/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut (3rd Job)} dur={(60s)}> <tt src={/class-icons/star-guardian/sia/stellar-vii-vega.png} tip={Stellar VII - Vega (4th Job)} dur={(90s)}> <tt src={/class-icons/star-guardian/sia/stellar-ix-canopus.png} tip={Stellar IX - Canopus (Hyper Skill)} dur={(5s)}> <tt src={/class-icons/star-guardian/sia/stellar-xi-sirius.png} tip={Stellar XI - Sirius (5th Job)} dur={(8s)}> <tt src={/class-icons/star-guardian/sia/stellar-xii-sadalsuud.png} tip={Stellar XII - Sadalsuud (5th Job)} dur={(120s, -60s per revive)}>",
+            "buffCd": "<tt src={/class-icons/star-guardian/sia/stellar-equalize.png} tip={Stellar Equalize (4th Job)} dur={(Special - Uses saved constellation)}> <tt src={/class-icons/star-guardian/sia/link.png} tip={Link (4th Job)} dur={(5s)[15s cd]}> <tt src={/class-icons/star-guardian/sia/appear.png} tip={Appear (4th Job)} dur={(20s)[120s cd]}> <tt src={/class-icons/star-guardian/sia/observe.png} tip={Observe (Hyper Skill)} dur={(80s)[120s cd]}> <tt src={/class-icons/star-guardian/sia/saviors-circle.png} tip={Savior's Circle (5th Job)} dur={(40s)[120s cd]}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <bold text={[Party Buffs]}> <tt src={/class-icons/star-guardian/sia/stellar-iii-alchiba.png} tip={Stellar III - Alchiba (3rd Job)} dur={(5s)[135s cd - Cannot reapply]}> <tt src={/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={(3s/15s)[135s - Cannot reapply]}> <tt src={/class-icons/star-guardian/sia/shine.png} tip={Shine (5th Job)} dur={(30s)[120s cd]}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/star-guardian/sia/timebinder.png} tip={Timebinder (5th Job)} dur={(10s)[90s cd]}> <tt src={/class-icons/star-guardian/sia/primal-asterism.png} tip={Primal Asterism (6th Job)} dur={(10s)[360s cd]}>",
+            "iFrame": "<tt src={/class-icons/star-guardian/sia/stellar-iii-alchiba.png} tip={Stellar III - Alchiba (3rd Job)} dur={(5s)[135s cd - Cannot reapply]}> <tt src={/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={(3s)[135s cd - Cannot reapply]}> <tt src={/class-icons/star-guardian/sia/stellar-xii-sadalsuud.png} tip={Stellar XII - Sadalsuud (5th Job)} dur={(Revive Skill)}> <tt src={/class-icons/star-guardian/sia/primal-asterism.png} tip={Primal Asterism (6th Job)} dur={[360s cd]}>",
+            "damageReduce": "<tt src={/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={(15s)[135s cd - Cannot reapply]}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](-MP | 60s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 170010241,
+            "offline": true,
+            "name": "Tree of Stars",
+            "shortDesc": "Final Damage: +2%. Increases Final Damage by 10% during buff\\nDuration: 10 sec\\nCooldown: 60 sec",
+            "icons": ["/class-icons/link-skills/tree-of-stars.png"],
+            "maxLevel": 2,
+            "type": "Passive",
+            "desc": "Increases %Final Damage and successful attacks periodically grant a %Final Attack buff",
+            "details": [
+                "[Note]: Unconfirmed, subject to change. Based on Maple M Link Skill"
+            ]
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={/class-icons/star-guardian/sia/starry-flow.png} tip={Starry Flow}> -> <tt src={/class-icons/star-guardian/sia/starry-leap.png} tip={Starry Leap}> -> <tt src={/class-icons/star-guardian/sia/starlight.png} tip={Starlight}> -> <tt src={/class-icons/star-guardian/sia/ray.png} tip={Ray}> -> <tt src={/class-icons/star-guardian/sia/stellar-i-antares.png} tip={Stellar I - Antares}> -> <tt src={/class-icons/star-guardian/sia/astral-movement.png} tip={Astral Movement}>"],
+                ["2nd Job", "<tt src={/class-icons/star-guardian/sia/celestial-alignment.png} tip={Celestial Alignment}> -> <tt src={/class-icons/star-guardian/sia/astral-force.png} tip={Astral Force}> -> <tt src={/class-icons/star-guardian/sia/astral-energy.png} tip={Astral Energy}> -> <tt src={/class-icons/star-guardian/sia/starlight-enhancement-i.png} tip={Starlight Enhancement I}> -> <tt src={/class-icons/star-guardian/sia/astral-magic-guard.png} tip={Astral Magic Guard}> -> <tt src={/class-icons/star-guardian/sia/oort-wave.png} tip={Oort Wave}> -> <tt src={/class-icons/star-guardian/sia/boom.png} tip={Boom}> -> <tt src={/class-icons/star-guardian/sia/stellar-ii-algol.png} tip={Stellar II - Algol}>"],
+                ["3rd Job", "<tt src={/class-icons/star-guardian/sia/astral-elements.png} tip={Astral Elements}> -> <tt src={/class-icons/star-guardian/sia/astral-invincibility.png} tip={Astral Invincibility}> -> <tt src={/class-icons/star-guardian/sia/starlight-enhancement-ii.png} tip={Starlight Enhancement II}> -> <tt src={/class-icons/star-guardian/sia/stellar-enhancement-i.png} tip={Stellar Enhancement I}> -> <tt src={/class-icons/star-guardian/sia/pole.png} tip={Pole}> -> <tt src={/class-icons/star-guardian/sia/stellar-iv-bellatrix.png} tip={Stellar IV - Bellatrix}> -> <tt src={/class-icons/star-guardian/sia/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut}> -> <tt src={/class-icons/star-guardian/sia/stellar-iii-alchiba.png} tip={Stellar III - Alchiba}>"],
+                ["4th Job", "<tt src={/class-icons/star-guardian/sia/astral-assimilation.png } tip={Astral Assimilation}> -> <tt src={/class-icons/star-guardian/sia/astral-infinity.png} tip={Astral Infinity}> -> <tt src={/class-icons/star-guardian/sia/empowered-ray.png} tip={Empowered Ray}> -> <tt src={/class-icons/star-guardian/sia/enhanced-boom.png} tip={Enhanced Boom}> -> <tt src={/class-icons/star-guardian/sia/starlight-enhancement-iii.png} tip={Starlight Enhancement III}> -> <tt src={/class-icons/star-guardian/sia/stellar-enhancement-ii.png} tip={Stellar Enhancement II}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/star-guardian/sia/appear.png} tip={Appear}> -> <tt src={/class-icons/star-guardian/sia/link.png} tip={Link}> -> <tt src={/class-icons/star-guardian/sia/stellar-vii-vega.png} tip={Stellar VII - Vega}> -> <tt src={/class-icons/star-guardian/sia/stellar-vi-izar.png} tip={Stellar VI - Izar}> -> <tt src={/class-icons/star-guardian/sia/stellar-equalize.png} tip={Stellar Equalize}> -> <tt src={/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik}> -> <tt src={/class-icons/star-guardian/sia/pulsing.png} tip={Pulsing}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={/class-icons/star-guardian/sia/stellar-marking-enhance.png} tip={Stellar Marking - Enhance}> <tt src={/class-icons/star-guardian/sia/stellar-marking-reinforce-duration.png} tip={Stellar Marking - Reinforce Duration}> Stellar Marking - Enhance and Reinforce Duration_<tt src={/class-icons/star-guardian/sia/appear-enhance.png} tip={Appear - Enhance}> <tt src={/class-icons/star-guardian/sia/appear-persist.png} tip={Appear - Persist}> <tt src={/class-icons/star-guardian/sia/appear-cooldown-cutter.png} tip={Appear - Cooldown Cutter}> Appear - Enhance, Persist and Cooldown Cutter_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={/class-icons/star-guardian/sia/stellar-i-antares.png} tip={Stellar I - Antares and Ray (1st Job)}> <tt src={/class-icons/star-guardian/sia/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut and Pole (3rd Job)}> <tt src={/class-icons/star-guardian/sia/stellar-vi-izar.png} tip={Stellar VI - Izar, Stellar VII - Vega, and Link (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/star-guardian/sia/stellar-ix-canopus.png} tip={Stellar IX - Canopus (Hyper Skill)}> <tt src={/class-icons/star-guardian/sia/stellar-ii-algol.png} tip={Stellar II - Algol and Boom (2nd Job)}> <tt src={/class-icons/star-guardian/sia/starlight.png} tip={Starlight (1st Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "possible": {
+                "nodes": "<tt src={/class-icons/star-guardian/sia/starlight.png} tip={Starlight (1st Job)}> <tt src={/class-icons/star-guardian/sia/stellar-i-antares.png} tip={Stellar I - Antares and Ray (1st Job)}> <tt src={/class-icons/star-guardian/sia/stellar-ii-algol.png} tip={Stellar II - Algol and Boom (2nd Job)}> <tt src={/class-icons/star-guardian/sia/stellar-v-fomalhaut.png} tip={Stellar V - Fomalhaut and Pole (3rd Job)}> <tt src={/class-icons/star-guardian/sia/stellar-vi-izar.png} tip={Stellar VI - Izar, Stellar VII - Vega, and Link (4th Job)}> <tt src={/class-icons/star-guardian/sia/stellar-ix-canopus.png} tip={Stellar IX - Canopus (Hyper Skill)}>"
+            }
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Sia_Astelle"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%8B%9C%EC%95%84%20%EC%95%84%EC%8A%A4%ED%85%94"}
+        ],
+        "credits": [
+            ["Skill Icons + Animations", "MapleStory M JP & Kamigame"],
+            ["Hyper Passive Build + Boost Nodes Build", "Ikasuu"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [{
+                    "name": "DISCLAIMER",
+                    "maxLevel": "N/A",
+                    "icons": [""],
+                    "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                },
+                {
+                    "name": "Return to Oort",
+                    "shortDesc": "Returns you to Oort.\\nCooldown: 600 sec.",
+                    "maxLevel": "-",
+                    "icons": ["/class-icons/star-guardian/sia/return-to-oort.png"],
+                    "type": "Active"
+                },
+                {
+                    "name": "Star Force Enhancement",
+                    "shortDesc": "Increases Magic ATT based on equipped Star Force value.",
+                    "maxLevel": "-",
+                    "icons": ["/class-icons/star-guardian/sia/star-force-enhancement.png"],
+                    "type": "Passive"
+                },
+                {
+                    "name": "Hero's Echo",
+                    "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power & Magic ATT: +4%\\nCooldown: 300 sec",
+                    "maxLevel": "-",
+                    "icons": ["/class-icons/common/heros-echo.png"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "Affects all nearby players"
+                    ]
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "DISCLAIMER",
+                        "maxLevel": "N/A",
+                        "icons": [""],
+                        "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                    },
+                    {
+                        "name": "Ray",
+                        "shortDesc": "[Marking Skill] Fires a ray of starlight to deal damage to multiple enemies.\\n[Stellagram Reset] If you press the skill key along with the down arrow key, the current Stellagram record is immediately reset. The Stellagram Reset feature cannot be used midair.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/ray.png"],
+                        "type": "Attack",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Starry Flow",
+                        "shortDesc": "Teleports a certain distance forward",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/starry-flow.png"],
+                        "type": "Active",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar I - Antares",
+                        "shortDesc": "[Stellagram Fusion] Ray - Ray - Ray - Ray\\n[Constellation Skill] Complete the Antares fusion to summon a rabbit hole in front of you for a set duration, dealing immediate damage and pulling in enemies at that location for continuous damage.\\nYou can summon up to 4 rabbit holes at the same time.\\nUnaffected by Damage Reflect.",
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHg2cWNwaWxyZHg4MzVkc2piZzVkYTFrM3ZyYnV3YnY1aHV5NjdtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZvjOFOjSgH92zx7n23/giphy.gif"],
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-i-antares.png"],
+                        "type": "Summon",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar Marking",
+                        "shortDesc": "Activates Stellar Marking to record Skill Marks on the Stellagram and fuse a constellation skill.\\n[Marking Skill] When a Marking Skill is cast, the Skill Mark will be recorded on the Stellagram.\\n[Stellagram] The Stellagram activates when the first Skill Mark is recorded. It can record up to 4 Skill Marks.\\n[Constellation Skill Activation] When the fourth Skill Mark is recorded, the recorded skills fuse to create a completed constellation. If the fusion doesn't match a constellation, the Stellagram will reset without casting a constellation skill. Constellation fusion is based on the type and number of Skill Marks recorded, and is not affected by the order of the recorded Skill Marks.\\n[Stellagram Reset] If you press the Ray skill along with the down arrow, the current Stellagram record immediately resets. The Stellagram cannot be reset midair.\\n[Constellation Skill Fusion] Constellation fusion requirements are listed in the descriptions of each constellation skill.\\n[Additional Functionality: Effect] Displays a Stellagram effect above you while the additional functionality is active. (The Stellagram UI at the top-left will always display.)",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-marking.png"],
+                        "type": "Passive",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Starlight",
+                        "shortDesc": "Casts Starlight Link at your location when the attack key is pressed or whenever a constellation skill activates.\\n[Starlight Link] Releases rays of starlight to deal damage to a single target, and additionally shifts the rays to enemies near the target to chain damage. The rays will disappear after shifting a certain number of times.\\n[Cannot Shift to Same Target] The rays will disappear if there are no additional enemies near the target.\\n[Additional Damage if only the Target is Hit] If the rays disappear without shifting to other targets, they deal additional damage to the target.\\nIf you press the attack key to trigger Starlight Link, the shift count will decrease, and the effect of additional damage will not be applied to a single target. If constellation fusion fails to activate a constellation skill, only Starlight Link will be activated.\\nIf constellation fusion fails to activate a constellation skill, only Starlight Link will be activated.\\nUnaffected by Damage Reflect.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/starlight.png"],
+                        "type": "Basic Attack Modifier"
+                    },
+                    {
+                        "name": "Starry Leap",
+                        "shortDesc": "Tap Jump again while jumping to Double Jump.\\nWhile jumping, tap the up arrow and Jump at the same time to jump up.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/starry-leap.png"],
+                        "type": "Passive",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Starry Wave",
+                        "shortDesc": "Hold jump to glide and slow descent speed while moving horizontally. Release and re-hold jump to glide again after a cooldown.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/starry-wave.png"],
+                        "type": "Passive",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Astral Movement",
+                        "shortDesc": "Increases Movement Speed, Jump, and Knockback Resistance",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/astral-movement.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "DISCLAIMER",
+                        "maxLevel": "N/A",
+                        "icons": [""],
+                        "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                    },
+                    {
+                        "name": "Boom",
+                        "shortDesc": "[Marking Skill] Explodes starlight to deal damage to surrounding enemies and records Boom on the Stellagram.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/boom.png"],
+                        "type": "Attack",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar II - Algol",
+                        "shortDesc": "[Stellagram Fusion] Boom - Boom - Boom - Boom\\n[Constellation Skill] When the Algol fusion is complete, he will be summoned to your location as a lizard for a set duration, seeking out a nearby enemy to deal continuous damage.\\nIf the Algol fusion is completed while a lizard is summoned, the Algol duration will not reset. Instead, the buff time will accumulate and increase. However the duration can't exceed a total of 120 seconds, and the buff will end if you move to another area.\\n[Boss Monster DMG Reduction] When Algol deals damage to a boss monster, only 5% of the Final Damage will be dealt (full damage is applied only when dealing damage to normal monsters).\\nUnaffected by Damage Reflect",
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNW41ajFxbXZxeWRxbHB5dzQxam5mc2pwZTUyMTE3ZzdlZDlreXFybyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gH1J7Yf0RlX7fyhoQ1/giphy.gif"],
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-ii-algol.png"],
+                        "type": "Summon",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Celestial Alignment",
+                        "shortDesc": "Temporarily increase %Crit Damage for you and your party members.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/celestial-alignment.png"],
+                        "type": "Party Buff",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Oort Wave",
+                        "shortDesc": "Increases Attack Speed of all active skills, excluding 1st Job Adv. Skills. Additionally grants the Oort Wave buff every time a constellation skill activates.\\n[Oort Wave] Increases marking skill Attack Speed while the buff is active. Can be stacked up to 3 times, and additionally increases Attack Speed with each stack.\\nAdditionally increases Magic ATT",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/oort-wave.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Starlight Enhancement I",
+                        "shortDesc": "Increases Starlight Skill Damage. (Applies to Starlight Link effect activated by Bellatrix.)",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/starlight-enhancement-i.png", "/class-icons/star-guardian/sia/starlight.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "name": "Astral Magic Guard",
+                        "shortDesc": "Decreases damage received proportionally to normal attacks and HP-Scaled Attack damage when hit, and consumes an equal of MP instead.\\nNo more than 20% of Max MP can be consumed.\\nAlso reduces damage taken.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/astral-magic-guard.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Astral Energy",
+                        "shortDesc": "Increases %Damage, %Max MP, and MP Recovery",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/astral-energy.png"],
+                        "type": "Passive",
+                        "desc": ""
+                    },
+                                    {
+                        "name": "Astral Force",
+                        "shortDesc": "Increases Magic ATT and %Crit Rate",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/astral-force.png"],
+                        "type": "Passive",
+                        "desc": ""
+                    }]
+            ],
+            [
+                "3rd Job", [
+                    {
+                        "name": "DISCLAIMER",
+                        "maxLevel": "N/A",
+                        "icons": [""],
+                        "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                    },
+                    {
+                        "name": "Pole",
+                        "shortDesc": "[Marking Skill] Summons starlight in front of you for a short time. The starlight deals continuous damage to nearby enemies.\\n[Single Mark Fusion] If Pole is recorded as the first Skill Mark, Alchiba will be completed as a single mark fusion. If Pole is recorded as the second mark or beyond, the Skill Marks won't be completed as a single fusion, but will be retained to fuse into other constellation skills.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/pole.png"],
+                        "type": "Attack",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar III - Alchiba",
+                        "shortDesc": "[Stellagram Fusion] Pole\\n[Constellation Skill] The Alchiba fusion grants the Witch's Protection buff to you, your party members, or ally targets, which temporarily nullifies damage from all attacks when complete. The buff disappears immediately upon nullifying damage.\\nCharacters who have received the Witch's Protection buff cannot receive the same buff for a short time.",
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXRpb3IydnRxZmpvaGI2OGlxeHg0cXQxM3p6enJ3cXJhbDEzMnNhdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1VlqdZ3NrGYm3E1RZY/giphy.gif"],
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-iii-alchiba.png"],
+                        "type": "Party Buff",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar IV - Bellatrix",
+                        "shortDesc": "[Stellagram Fusion] Ray - Ray - Boom - Pole\\n[Constellation Skill] Bellatrix fusion temporarily grants you a Bellatrix buff. While the buff is active, your %Damage will increase, and Starlight Link will activate at your location at set intervals.\\n[Additional Buff Duration Increase] If you cast Pole while the Bellatrix buff is active, the buff duration will increase. However, it cannot increase beyond the max buff duration.",
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenZrOW13OGd6dWVjcnExaDJydnl5MDMzNzFsbWg3NG95eHptMHlpNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L9D9nRkNgY8J6HQuaP/giphy.gif"],
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-iv-bellatrix.png"],
+                        "type": "Buff",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar V - Fomalhaut",
+                        "shortDesc": "[Stellagram Fusion] Boom - Boom - Boom - Pole\\n[Constellation Skill] Fomalhaut fusion temporarily grants you a Fomalhaut buff. While the buff is active, a Horned Conch is summoned that spins around you, dealing continuous damage to nearby enemies. You will summon 1 Horned Conch at first, but you can summon up to 4 depending on the number of stacked Oort Wave buffs.\\n[Additional Buff Duration Increase] If you cast Pole while the Fomalhaut buff is active, the buff duration will increase. However, it cannot increase beyond the max buff duration.\\nUnaffected by Damage Reflect.",
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3hhNDI1dDhreWtuMzVpbzhpaXhmaHl1MmtibGJjdjJuZWJidGJ6MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bVeFwQkb7CSp1nPFvT/giphy.gif"],
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-v-fomalhaut.png"],
+                        "type": "Summon",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar Enhancement I",
+                        "shortDesc": "Additionally increases %Damage of Antares and Algol",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-enhancement-i.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Starlight Enhancement II",
+                        "shortDesc": "Further increases %Damage of Starlight. (Applies to the Starlight Link effect activated by Bellatrix.)",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/starlight-enhancement-ii.png", "/class-icons/star-guardian/sia/starlight.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "name": "Astral Elements",
+                        "shortDesc": "Increases Magic ATT, %Crit Rate, and DEF",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/astral-elements.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Astral Invincibility",
+                        "shortDesc": "Increases Abnormal Status Resistance and reduces damage taken",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/astral-invincibility.png"],
+                        "type": "Passive",
+                        "desc": ""
+                    }]
+            ],
+            [
+                "4th Job", [
+                    {
+                        "name": "DISCLAIMER",
+                        "maxLevel": "N/A",
+                        "icons": [""],
+                        "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                    },
+                    {
+                        "name": "Link",
+                        "shortDesc": "[Marking Skill] Lights up the sky with refractive starlight that restores HP for you and your party members and grants you a buff that temporarily adds additional damage to Ray and Boom. Also records Link on the Stellagram.\\n[Single Mark Fusion] If Link is recorded as the first Skill Mark, Sadalmelik will be completed as a single mark fusion. If Link is recorded as the second mark or beyond, the Skill Marks won't be completed as a single fusion, but will be retained to fuse into other constellation skills.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/link.png"],
+                        "type": "Attack",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar Equalize",
+                        "shortDesc": "[Stellar Equalize Skill] Assign a constellation skill to Stellar Equalize by tapping the Stellar Equalize button in the skill UI. Only one constellation skill can be assigned at a time, and previously-assigned constellation skills will be disabled.\\nConstellation skills have different cooldowns based on skill level. Alchiba and Sadalmelik have separate cooldowns applied as exclusions.\\n[1st/2nd Job Adv. Skill] 10s\\n[3rd/4th Job Adv./Hyper Skill] 30s\\n[Alchiba/Sadalmelik] 90s\\n[V Skill] 60s\\n[Immediate Constellation Activation] Tapping the Stellar Equalize skill bypasses Stellagram fusion and activates the assigned constellation skill immediately. When a constellation skill is activated with Stellar Equalize, the Stellagram resets.\\nStellar Equalize is not affected by cooldown reduction effects.\\n[Passive] Increases Magic ATT.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-equalize.png"],
+                        "type": "Active",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar VI - Izar",
+                        "shortDesc": "[Stellagram Fusion] Boom - Boom - Pole - Link\\n[Constellation Skill] When the Izar fusion is complete, he deals damage to enemies in a large area and summons 3 flying blades that track enemies for a period of time. The blades search for nearby enemies within a certain range to deal damage, then look for another enemy or attack the same enemy again. The blades will disappear when they reach their maximum attack count.\\n[Blade Boss Monster DMG Reduction] When the blades deal damage to a boss monster, only 5% of the Final DMG will be dealt (full damage is applied only when dealing damage to normal monsters).\\nUnaffected by Damage Reflect.",
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnVhbXM2bGRuZTVpeG45bG8xbXJzYnpjN2xob3cycTkyNmsxc3k5cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UyN7ehOGhYgeX4YAMB/giphy.gif"],
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-vi-izar.png"],
+                        "type": "Attack",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Stellar VII - Vega",
+                        "shortDesc": "[Stellagram Fusion] Ray - Ray - Ray - Link\\n[Constellation Skill] When the Vega fusion is complete, a Starlit Gust will be unleashed to deal damage to enemies in a large area and grants you a Starlight Wings buff for a period of time, dealing continuous damage to nearby enemies.\\nUnaffected by Damage Reflect",
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzFobjgzZTBtZG16OWhvMDl3YzVpa253cGV2NjllZm45M2xmeGU5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/krIJpLo13FhvqnYJQK/giphy.gif"],
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-vii-vega.png"],
+                        "type": "Summon",
+                        "desc": ""
+                    },
+                                        {
+                        "name": "Stellar VIII - Sadalmelik",
+                        "shortDesc": "[Stellagram Fusion] Link\\n[Constellation Skill] When the Sadalmelik fusion is complete, you, your party member, or a target ally will receive a buff that grants Invincibility against all attacks for a short time.\\nAn additional buff is granted to you and your party members for a short time, decreasing damage received from HP-Scaled Attack DMG while the buff is active.\\nCharacters who received the Sadalmelik buff can't receive it again for a set duration.",
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmhrMXdvbXF6YXVscjg3YTd2amZreXlibXdoZ2Y4NGk1NmhyNnMwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/khNO4n6iJeSlVQxgyQ/giphy.gif"],
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png"],
+                        "type": "Party Buff",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Appear",
+                        "shortDesc": "Temporarily increases %Final Damage and enhance Ray, Boom, Pole, and Link.\\n[Enhanced Ray] Increased target count, hit range, and hit count.\\n[Enhanced Boom] Increased target count, hit range, and hit count.\\n[Enhanced Pole] Increased target count, hit range, and hit count.\\n[Enhanced Link] Increased effect range and HP recovered.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/appear.png"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Maple Warrior",
+                        "shortDesc": "MP Cost: 70, Goddess of Maple World appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/common/maple-warrior.png"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Pulsing",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/pulsing.png"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs"
+                    },
+                    {
+                        "name": "Stellar Enhancement II",
+                        "shortDesc": "Further increases %Damage of Antares and Algol. Increases %Damage of Fomalhaut.",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/stellar-enhancement-ii.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Starlight Enhancement III",
+                        "shortDesc": "Further increaes %Damage of Starlight. (Applies to the Starlight Link effect activated by Bellatrix.)",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/starlight-enhancement-iii.png", "/class-icons/star-guardian/sia/starlight.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "name": "Empowered Ray",
+                        "shortDesc": "Enhances Ray to Empowered Ray to increase target range, target count, hit count, and %Damage",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/empowered-ray.png", "/class-icons/star-guardian/sia/ray.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "name": "Enhanced Boom",
+                        "shortDesc": "Enhances Boom to Enhanced Boom to increase target range, target count, hit count, and %Damage",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/enhanced-boom.png", "/class-icons/star-guardian/sia/boom.png"],
+                        "type": "Upgraded Passive",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Astral Assimilation",
+                        "shortDesc": "Increases %Crit Damage and %Crit Rate",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/astral-assimilation.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Astral Infinity",
+                        "shortDesc": "Increases Magic ATT, %Damage, and %Boss Damage",
+                        "maxLevel": "-",
+                        "icons": ["/class-icons/star-guardian/sia/astral-infinity.png"],
+                        "type": "Passive",
+                        "desc": ""
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "DISCLAIMER",
+                    "maxLevel": "N/A",
+                    "icons": [""],
+                    "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                },
+                {
+                    "name": "Marking - Reinforce",
+                    "shortDesc": "Increases the %Final Damage of the additional damage triggered by Ray, Boom, Pole, and Link.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/marking-reinforce.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Marking - Extra Strike",
+                    "shortDesc": "Increases the hit count of the additional damage triggered by Ray, Boom, Pole, and Link.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/marking-extra-strike.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Marking - Persist",
+                    "shortDesc": "Changes Link's additional damage buff duration.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/marking-persist.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Stellar Marking - Enhance",
+                    "shortDesc": "When a constellation skill is activated, an additional Starlight Link is activated.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/stellar-marking-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Stellar Marking - Reinforce Duration",
+                    "shortDesc": "When a constellation skill is activated, the %Final Damage is increased for 15 seconds.\\nEach time a buff is granted, the buff time will not reset, but instead accumulate and increase. However, it cannot accumulate more than 45 seconds of time.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/stellar-marking-reinforce-duration.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Stellar Marking - Reduce Damage",
+                    "shortDesc": "When a constellation skill is activated, the HP-Scaled Attack Damage is decreased for 15 seconds.\\nEach time a buff is granted, the buff time will not reset, but instead accumulate and increase. However, it cannot accumulate more than 45 seconds of time.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/stellar-marking-reduce-damage.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Appear - Enhance",
+                    "shortDesc": "Further increases Appear's %Final Damage.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/appear-enhance.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Appear - Persist",
+                    "shortDesc": "Changes the Appear buff duration.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/appear-persist.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Appear - Cooldown Cutter",
+                    "shortDesc": "Changes Appear's cooldown.",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/appear-cooldown-cutter.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "DISCLAIMER",
+                    "maxLevel": "N/A",
+                    "icons": [""],
+                    "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                },
+                {
+                    "name": "Stellar IX - Canopus",
+                    "shortDesc": "[Stellagram Fusion] Ray - Ray - Pole - Link\\n[Constellation Skill] Completing the Canopus fusion deals damage to enemies in a large area and summons Canopus as an anchor in front of you for a short time, dealing continuous damage to nearby enemies.\\nWhen the Oort Wave buff has maximum stacks, Canopus's first-time attack hit count is tripled.\\nYou can summon another Canopus anchor when one is already summoned, but only as many as 2 can be active at one time.\\nUnaffected by Damage Reflect.",
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBjMnFzanl4YndmbTRlbmh0N2JkemZhaHA0dmFqOGZkdzI1bHdjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HsMDyoMUE8SjBaYOn0/giphy.gif"],
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/stellar-ix-canopus.png"],
+                    "type": "Summon",
+                    "desc": "",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Stellar X - Capella",
+                    "shortDesc": "[Stellagram Fusion] Ray - Ray - Boom - Link\\n[Constellation Skill] When the Capella fusion is complete, you will receive the Light of Capella buff for a period of time, which creates an aura that increases %Crit Damage and %Crit Rate for you and your party members.\\n[Star Reversion] The duration of the Light of Capella buff resets every time you cast Izar, Vega, Canopus, and Sadalmelik.",
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjNrcjlxMHo4MzBibW9lb29ydWV1dnNkY3J1YWc5N3VrYTdobGxhdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hilp3XJewIl5dkfjnM/giphy.gif"],
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/stellar-x-capella.png"],
+                    "type": "Party Buff",
+                    "desc": "",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Observe",
+                    "shortDesc": "Temporarily increases %Crit Damage",
+                    "maxLevel": 1,
+                    "icons": ["/class-icons/star-guardian/sia/observe.png"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["goddessBlessing", "manaOverload", "etherealForm"],
+            "fifthMain": [
+                {
+                    "name": "DISCLAIMER",
+                    "maxLevel": "N/A",
+                    "icons": [""],
+                    "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                },
+                {
+                    "name": "Shine",
+                    "shortDesc": "[Marking Skill] Emits starlight that spreads with intensity for a short time, increasing %Final Damage for you and your party members. Also grants the Oort Wave buff only to yourself up to the maximum stacking limit. Additionally, records Shine in the Stellagram\\n[V Skill: Additional Effect every 5 levels] When skill level 5 is reached, cooldown is reduced, and it will further reduce every 5 levels.",
+                    "icons": ["/class-icons/star-guardian/sia/shine.png"],
+                    "type": "Attack / Party Buff",
+                    "desc": ""
+                },
+                {
+                    "name": "Stellar XI - Sirius",
+                    "shortDesc": "[Stellagram Fusion] Ray - Boom - Pole - Shine\\n[Constellation Skill] When the Sirius fusion is complete, he will be summoned to your location as a wolf, dealing continuous damage to nearby enemies for a short time.\\nWhen the fusion duration expires, Sirius will let out a howl that increases %Final Damage for you and your party members for a short time.\\nUnaffected by Damage Reflect.\\nYou can summon up to 2 wolves and their howls at the same time.\\n[V Skill: Additional Effect every 5 levels] When skill level 5 is reached, the wolf and its howl will last for a longer time, and the duration will further increase every 5 levels.",
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTNocXN6OG15czRmNGJtMnpxNnNieXZkNzJlN2puamN2YjNiNXloZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GlfPmof3r0TcyL2aMQ/giphy.gif"],
+                    "icons": ["/class-icons/star-guardian/sia/stellar-xi-sirius.png"],
+                    "type": "Summon / Party Buff",
+                    "desc": ""
+                },
+                {
+                    "name": "Stellar XII - Sadalsuud",
+                    "shortDesc": "[Stellagram Fusion] Shine\\n[Constellation Skill] When the Sadalsuud fusion is complete, you will be granted with the Star's Blessing, increasing %Boss Damage and %Crit Rate, as well as having the hourglass summoned to your location. While the hourglass is summoned, you and your party are granted a Death and Rebirth buff.\\n[Death and Rebirth] While the Death and Rebirth buff is active, you will revive if you receive a fatal attack, but the hourglass's remaining duration will decrease. The revive effect will be applied even if the hourglass has less than the decreasing value, and the hourglass will disappear when its remaining duration reaches 0 seconds.\\n[Hourglass Disappearance] Only one hourglass can be active in a party at one time. If you and another party member summon an hourglass as Sia, the hourglass that was summoned first will disappear. When the hourglass disappears, a cooldown of 30 sec will be applied to Shine. However, if the cooldown time is more than 30 sec, it will not be applied.\\n[Shine Cooldown Reset] When the Sadalsuud fusion is complete while the hourglass has not been summoned, Shine's cooldown will be reset.",
+                    "icons": ["/class-icons/star-guardian/sia/stellar-xii-sadalsuud.png"],
+                    "type": "Party Buff",
+                    "desc": ""
+                },
+                                {
+                    "name": "Timebinder",
+                    "shortDesc": "[Time Retrograde] Enemies within the affected range are temporarily immobilized, and will be immune to immobilization statuses for a period of time. Immobilization from Sadalsuud also applies to boss monsters.\\n[Skills Acquired Simultaneously] When learning Stellar XII - Sadalsuud",
+                    "icons": ["/class-icons/star-guardian/sia/timebinder.png"],
+                    "type": "Bind",
+                    "desc": ""
+                },
+                {
+                    "name": "Savior's Circle",
+                    "shortDesc": "Grants a buff that changes the flow of constellations to increase %Final Damage and gain an additional effect for a period of time.\\n[Activate All Constellation Enhancement Effects] All constellation enhancement effects are activated while the buff is active, applying both selected and unselected effects simultaneously. As for certain enhancement effects, they're also applied to Constellation Skills that were active before the buff was applied, and those effects will disappear at the same time when the buff expires.\\n[Exploding Starlight] Further increases the hit count of Antares, Algol, and Sirius while the buff is active.",
+                    "icons": ["/class-icons/star-guardian/sia/saviors-circle.png"],
+                    "type": "Buff",
+                    "desc": ""
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "DISCLAIMER",
+                    "maxLevel": "N/A",
+                    "icons": [""],
+                    "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                },
+                {
+                    "name": "Starlight Boost",
+                    "shortDesc": "Starlight Final Damage: +120%",
+                    "icons": ["/class-icons/star-guardian/sia/starlight.png"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                },
+                {
+                    "name": "Stellar I - Antares and Ray Boost",
+                    "shortDesc": "Stellar I - Antares and Ray Final Damage: +120%",
+                    "icons": ["/class-icons/star-guardian/sia/stellar-i-antares.png", "/class-icons/star-guardian/sia/ray.png"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                },
+                {
+                    "name": "Stellar II - Algol and Boom Boost",
+                    "shortDesc": "Stellar II - Algol and Boom Final Damage: +120%",
+                    "icons": ["/class-icons/star-guardian/sia/stellar-ii-algol.png", "/class-icons/star-guardian/sia/boom.png"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                },
+                {
+                    "name": "Stellar V - Fomalhaut and Pole Boost",
+                    "shortDesc": "Stellar V - Fomalhaut and Pole Final Damage: +120%",
+                    "icons": ["/class-icons/star-guardian/sia/stellar-v-fomalhaut.png", "/class-icons/star-guardian/sia/pole.png"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                },
+                {
+                    "name": "Stellar VI - Izar, Stellar VII - Vega, and Link Boost",
+                    "shortDesc": "Stellar VI - Izar, Stellar VII - Vega, and Link Final Damage: +120%",
+                    "icons": ["/class-icons/star-guardian/sia/stellar-vi-izar.png", "/class-icons/star-guardian/sia/stellar-vii-vega.png", "/class-icons/star-guardian/sia/link.png"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                },
+                {
+                    "name": "Stellar IX - Canopus Boost",
+                    "shortDesc": "Stellar IX - Canopus Final Damage: +120%",
+                    "icons": ["/class-icons/star-guardian/sia/stellar-ix-canopus.png"],
+                    "type": "Upgraded Passive",
+                    "desc": ""
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "DISCLAIMER",
+                    "maxLevel": "N/A",
+                    "icons": [""],
+                    "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!",
+                    "details": [
+                        "Maplestory M currently only has Mastery Node 1"
+                    ]
+                },
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/star-guardian/sia/hexa-ray-altares.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWExcG5yNWh3M2N1ZjNwaTV0Y3Z6Z21kcGMwc3picGQxanJ0bnN5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/80J4RVGOdCTGPt0F1M/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnc2eHh6cTA3ZDViMGJqN3BvbnZ1cWRrbXl6NmxyMXBuOWoyMmhyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A2YXWhFIO6daL2vI51/giphy.gif"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/star-guardian/sia/stellar-i-antares.png} tip={Stellar I - Altares and Ray (1st Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Ray",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/star-guardian/sia/hexa-ray.png", "/class-icons/star-guardian/sia/ray.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Stellar I - Altares",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/star-guardian/sia/hexa-altares.png", "/class-icons/star-guardian/sia/stellar-i-antares.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                }
+            ],
+            "originSkill": [
+                {
+                    "name": "DISCLAIMER",
+                    "maxLevel": "N/A",
+                    "icons": [""],
+                    "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                },
+                {
+                    "name": "Primal Asterism",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/star-guardian/sia/primal-asterism.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWJvbzR2NTMwejMyeXJjbDFhaHEzZms1NTRzOXc1ZGc5eDN4ZGthaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ruMcRU0s7Lg4fkWJDG/giphy.gif"],
+                    "type": "Bind Attack"
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "DISCLAIMER",
+                    "maxLevel": "N/A",
+                    "icons": [""],
+                    "desc": "Skill info is unconfirmed and subject to change. Skill info are referenced and modified from MapleStory M. Info will be updated in July, currently on hiatus!"
+                },
+                {
+                    "name": "Shine Boost",
+                    "shortDesc": "Shine Final Damage: +60%",
+                    "icons": ["/class-icons/star-guardian/sia/shine.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Stellar XI - Sirius Boost",
+                    "shortDesc": "Stellar XI - Sirius Final Damage: +60%",
+                    "icons": ["/class-icons/star-guardian/sia/stellar-xi-sirius.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Stellar XII - Sadalsuud Boost",
+                    "shortDesc": "Stellar XII - Sadalsuud Final Damage: +60%",
+                    "icons": ["/class-icons/star-guardian/sia/stellar-xii-sadalsuud.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Savior's Circle Boost",
+                    "shortDesc": "Duration Increase -",
+                    "icons": ["/class-icons/star-guardian/sia/saviors-circle.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Stellar I - Antares - 1st Job",
+                "icons": ["/class-icons/star-guardian/sia/stellar-i-antares.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHg2cWNwaWxyZHg4MzVkc2piZzVkYTFrM3ZyYnV3YnY1aHV5NjdtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZvjOFOjSgH92zx7n23/giphy.gif"]
+            },
+            {
+                "name": "Stellar II - Algol - 2nd Job",
+                "icons": ["/class-icons/star-guardian/sia/stellar-ii-algol.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNW41ajFxbXZxeWRxbHB5dzQxam5mc2pwZTUyMTE3ZzdlZDlreXFybyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gH1J7Yf0RlX7fyhoQ1/giphy.gif"]
+            },
+            {
+                "name": "Stellar III - Alchiba - 3rd Job",
+                "icons": ["/class-icons/star-guardian/sia/stellar-iii-alchiba.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXRpb3IydnRxZmpvaGI2OGlxeHg0cXQxM3p6enJ3cXJhbDEzMnNhdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1VlqdZ3NrGYm3E1RZY/giphy.gif"]
+            },
+            {
+                "name": "Stellar VI - Izar - 4th Job",
+                "icons": ["/class-icons/star-guardian/sia/stellar-vi-izar.png"],
+                "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnVhbXM2bGRuZTVpeG45bG8xbXJzYnpjN2xob3cycTkyNmsxc3k5cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UyN7ehOGhYgeX4YAMB/giphy.gif"]
+            },
+            {
+                "name": "Stellar VII - Vega - 4th Job",
+                "icons": ["/class-icons/star-guardian/sia/stellar-vii-vega.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzFobjgzZTBtZG16OWhvMDl3YzVpa253cGV2NjllZm45M2xmeGU5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/krIJpLo13FhvqnYJQK/giphy.gif"]
+            },
+            {
+                "name": "Stellar IX - Canopus - Hyper Skill",
+                "icons": ["/class-icons/star-guardian/sia/stellar-ix-canopus.png"],
+                "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBjMnFzanl4YndmbTRlbmh0N2JkemZhaHA0dmFqOGZkdzI1bHdjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HsMDyoMUE8SjBaYOn0/giphy.gif"]
+            },
+            {
+                "name": "Stellar XI - Sirius - 5th Job",
+                "icons": ["/class-icons/star-guardian/sia/stellar-xi-sirius.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTNocXN6OG15czRmNGJtMnpxNnNieXZkNzJlN2puamN2YjNiNXloZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GlfPmof3r0TcyL2aMQ/giphy.gif"]
+            },
+                        {
+                "name": "HEXA Ray - 6th Job",
+                "icons": ["/class-icons/star-guardian/sia/hexa-ray.png"],
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWExcG5yNWh3M2N1ZjNwaTV0Y3Z6Z21kcGMwc3picGQxanJ0bnN5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/80J4RVGOdCTGPt0F1M/giphy.gif"]
+            },
+            {
+                "name": "Primal Asterism - 6th Job ",
+                "icons": ["/class-icons/star-guardian/sia/primal-asterism.png"],
+                "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWJvbzR2NTMwejMyeXJjbDFhaHEzZms1NTRzOXc1ZGc5eDN4ZGthaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ruMcRU0s7Lg4fkWJDG/giphy.gif"]
+            }
+        ]
+    },
+    "meta": "Sia is an INT mage class part of the Star Guardian. Sia utilize Celestial Light as their primary weapons. For their secondary weapon, Sia can equip Compasses"
+}
