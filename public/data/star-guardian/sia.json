@@ -79,7 +79,7 @@
             "buffCd": "<tt src={/class-icons/star-guardian/sia/stellar-equalize.png} tip={Stellar Equalize (4th Job)} dur={(Special - Uses saved constellation)}> <tt src={/class-icons/star-guardian/sia/link.png} tip={Link (4th Job)} dur={(5s)[15s cd]}> <tt src={/class-icons/star-guardian/sia/appear.png} tip={Appear (4th Job)} dur={(20s)[120s cd]}> <tt src={/class-icons/star-guardian/sia/observe.png} tip={Observe (Hyper Skill)} dur={(80s)[120s cd]}> <tt src={/class-icons/star-guardian/sia/saviors-circle.png} tip={Savior's Circle (5th Job)} dur={(40s)[120s cd]}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <bold text={[Party Buffs]}> <tt src={/class-icons/star-guardian/sia/stellar-iii-alchiba.png} tip={Stellar III - Alchiba (3rd Job)} dur={(5s)[135s cd - Cannot reapply]}> <tt src={/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={(3s/15s)[135s - Cannot reapply]}> <tt src={/class-icons/star-guardian/sia/shine.png} tip={Shine (5th Job)} dur={(30s)[120s cd]}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/star-guardian/sia/timebinder.png} tip={Timebinder (5th Job)} dur={(10s)[90s cd]}> <tt src={/class-icons/star-guardian/sia/primal-asterism.png} tip={Primal Asterism (6th Job)} dur={(10s)[360s cd]}>",
             "iFrame": "<tt src={/class-icons/star-guardian/sia/stellar-iii-alchiba.png} tip={Stellar III - Alchiba (3rd Job)} dur={(5s)[135s cd - Cannot reapply]}> <tt src={/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={(3s)[135s cd - Cannot reapply]}> <tt src={/class-icons/star-guardian/sia/stellar-xii-sadalsuud.png} tip={Stellar XII - Sadalsuud (5th Job)} dur={(Revive Skill)}> <tt src={/class-icons/star-guardian/sia/primal-asterism.png} tip={Primal Asterism (6th Job)} dur={[360s cd]}>",
-            "damageReduce": "<tt src={/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={(15s)[135s cd - Cannot reapply]}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](-MP | 60s cd)}>"
+            "damageReduce": "<tt src={/class-icons/star-guardian/sia/stellar-viii-sadalmelik.png} tip={Stellar VIII - Sadalmelik (4th Job)} dur={(15s)[-20% | 135s cd - Cannot reapply]}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](-MP | 60s cd)}>"
         },        
         "linkSkill": {
             "id": 170010241,
@@ -291,7 +291,7 @@
                     },
                     {
                         "name": "Astral Magic Guard",
-                        "shortDesc": "Decreases damage received proportionally to normal attacks and HP-Scaled Attack damage when hit, and consumes an equal of MP instead.\\nNo more than 20% of Max MP can be consumed.\\nAlso reduces damage taken.",
+                        "shortDesc": "Decreases damage received when hit and consumes an equal of MP instead.\\nNo more than 20% of Max MP can be consumed.\\nAlso reduces damage taken.",
                         "maxLevel": "-",
                         "icons": ["/class-icons/star-guardian/sia/astral-magic-guard.png"],
                         "type": "Passive"
