@@ -493,7 +493,7 @@
                 [
                     "4th Job", [{
                         "name": "Relic Charge II",
-                        "shortDesc": "The Relic Gauge is charged by 20 when attacking an enemy with a Cardinal Force skill, and by 10 per hit from Cardinal Deluge's guided arrows.\\nThe Shadow Raven will charge the Relic Gauge by 10 for each enemy hit by its attacks. When you use another Cardinal Force skill, all Ancient Force and Enchant Force skills will have their cooldowns reduced by 1 sec, except for 5th Job Advancement skills.",
+                        "shortDesc": "The Relic Gauge is charged by 20 when attacking an enemy with a Cardinal Force skill, and by 10 per hit from Cardinal Deluge's guided arrows.\\nThe Shadow Raven will charge the Relic Gauge by 30 for each enemy hit by its attacks. When you use another Cardinal Force skill, all Ancient Force and Enchant Force skills will have their cooldowns reduced by 1 sec, except for 5th Job Advancement skills.",
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/pathfinder/relic-charge-ii.png", "/class-icons/explorers/pathfinder/relic-charge-i.png"],
                         "type": "Upgraded Passive",
@@ -501,7 +501,7 @@
                         "details": [
                             "If the next skill is a different [Cardinal Force] skill than the one currently used, the cooldown for all [Ancient Force] and [Enchant Force] skills are reduced (except 5th Job Skills)<bp_[Ancient Force] and [Enhance Force] skills both consume the Relic Gauge to activate_>",
                             "[Enchant Force] skills have a different effect based on the emblem displayed on the Relic Gauge<bp_The emblem resets upon using an [Enchant Force] skill_>",
-                            "Attacks from <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> will also charge the Relic Gauge"
+                            "Attacks from <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> also charges the Relic Gauge"
                         ]
                     },
                     {
@@ -767,8 +767,8 @@
                     "reqLev": 160
                 },
                 {
-                    "name": "Ancient Astra [Deluge]",
-                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 7 enemies, for 400% damage, 6 times. Has a 30% chance to create 2 magical arrows that attack 2 times, dealing 240% damage.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
+                    "name": "Ancient Astra (Deluge)",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 7 enemies, for 400% damage, 6 times. Has a 30% chance to create 2 magical arrows that attack 2 times, dealing 240% damage.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra-deluge.png", "/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "animations": ["https://media.giphy.com/media/u6ADg3REuVHpwCzHHQ/giphy.gif"],
@@ -782,23 +782,23 @@
                     "reqLev": 160
                 },
                 {
-                    "name": "Ancient Astra [Burst]",
-                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to intermittenly fire arrows at the designated angle. The arrows' explosion deals 1440% damage, 10 times, to up to 12 enemies. The fire arrow fired with this skill cannot be angled and is fired straight ahead.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
+                    "name": "Ancient Astra (Burst)",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to intermittenly fire arrows at the designated angle. The arrows' explosion deals 1440% damage, 10 times, to up to 12 enemies.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra-burst.png", "/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "animations": ["https://media.giphy.com/media/W6MDqdTvNuCeR6MxTd/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "",
                     "details": [
-                        "Fires explosive arrows that can be aimed using the Up and Down Arrow Keys<bp_The first arrow fired cannot be angled and will be fired straight ahead_>",
+                        "Fires explosive arrows that can be aimed using the Up and Down Arrow Keys",
                         "While casting, reduces damage taken including %Max HP attacks",
                         "Attack ends early if the Relic Gauge is depleted"
                     ],
                     "reqLev": 160
                 },
                 {
-                    "name": "Ancient Astra [Torrent]",
-                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 4 enemies, for 360% damage, 6 times.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nThis skill will end early if the Relic gauge doesn't have enough points.\\nCooldown: 60 sec.",
+                    "name": "Ancient Astra (Torrent)",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 4 enemies, for 360% damage, 6 times.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra-torrent.png", "/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "animations": ["https://media.giphy.com/media/oHNV4HVUh3wsvsPfoJ/giphy.gif"],
@@ -861,7 +861,7 @@
                     "desc": "Creates a protective barrier for your and your party members that have different effects based on the emblem displayed on your Relic Gauge and damages enemies within it (except for Deluge)"
                 },
                 {
-                    "name": "Obsidian Barrier [Deluge]",
+                    "name": "Obsidian Barrier (Deluge)",
                     "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, Hit damage -40% (including attacks that deal a fixed percent of damage)\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-deluge.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/UUTGXzKkcbVupXfbDj/giphy.gif"],
@@ -873,7 +873,7 @@
                     ]
                 },
                 {
-                    "name": "Obsidian Barrier [Burst]",
+                    "name": "Obsidian Barrier (Burst)",
                     "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%\\nThe shield will deal 1040% damage 5 times to up to 15 enemies within its radius.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-burst.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/XO2wqf3jltl5YWG5Bi/giphy.gif"],
@@ -887,7 +887,7 @@
                     ]
                 },
                 {
-                    "name": "Obsidian Barrier [Torrent]",
+                    "name": "Obsidian Barrier (Torrent)",
                     "shortDesc": "Relic Gauge Cost: 300, Duration: 12 sec, decreases damage taken from attacks that deal a fixed percent of damage by -40%.\\nThe shield will deal 1040% damage 5 times to up to 10 enemies within its radius.\\nRedeployment Cooldown: 2 sec, Cooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/obsidian-barrier-torrent.png", "/class-icons/explorers/pathfinder/obsidian-barrier.png"],
                     "animations": ["https://media0.giphy.com/media/RYRC7BQrkl3gNJttj6/giphy.gif"],

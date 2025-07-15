@@ -70,13 +70,13 @@
             {
                 "name": "Ignore DEF",
                 "stat": "+44.75%",
-                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/dark-blessing.png} tip={Dark Blessing (4th Job)} val={+15%}> × <bg src={/class-icons/cygnus-knights/night-walker/adaptive-darkness-iii.png} tip={Adaptive Darkness III (4th Job)} val={+7% per stack} val={(Max. +35%)}>"
+                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/dark-blessing.png} tip={Dark Blessing (4th Job)} val={+15%}> × <bg type={debuff} src={/class-icons/cygnus-knights/night-walker/adaptive-darkness-iii.png} tip={Adaptive Darkness III (4th Job)} val={+7% per stack} val={(Max. +35%)}>"
             }
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> [ <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> / <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> ] <tt src={/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tip={Darkness Ascending (3rd Job)}>",
-            "summons": "<tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)} dur={[5s](20s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)} dur={[45s](60s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[70 Attacks](30s cd)}>",
+            "summons": "<tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)} dur={[7s/60s](60s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)} dur={[45s](60s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[70 Attacks](30s cd)}>",
             "buffCd": "<tt src={/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tip={Shadow Illusion (Hyper Skill)} dur={[30s](180s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)} dur={[30s](180s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)} dur={[87s](177s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](75s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/cygnus-knights/night-walker/shadow-stitch.png} tip={Shadow Stitch (4th Job)} dur={[10-12s](180s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/silence.png} tip={Silence (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)} dur={[200s](Special)}> <tt src={/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tip={Darkness Ascending (3rd Job)} dur={[4s](1800s cd revive)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)} dur={[180s](360s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/silence.png} tip={Silence (6th Job)} dur={[360s](360s cd)}>",
@@ -113,17 +113,16 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/cygnus-knights/night-walker/quintuple-star-reinforce.png} tip={Quintuple Star - Reinforce}> <tt src={/class-icons/cygnus-knights/night-walker/quintuple-star-boss-rush.png} tip={Quintuple Star - Boss Rush}> Quintuple Star - Reinforce and Boss Rush_<tt src={/class-icons/cygnus-knights/night-walker/dark-omen-cooldown-cutter.png} tip={Dark Omen - Cooldown Cutter}> Dark Omen - Cooldown Cutter_<tt src={/class-icons/cygnus-knights/night-walker/vitality-siphon-reinforce.png} tip={Vitality Siphon - Reinforce}> Vitality Siphon - Reinforce_<tt src={/class-icons/cygnus-knights/night-walker/dark-omen-reinforce.png} tip={Dark Omen - Reinforce}> Dark Omen - Reinforce (Training) OR <tt src={/class-icons/cygnus-knights/night-walker/vitality-siphon-extra-point.png} tip={Vitality Siphon - Extra Point}> Vitality Siphon - Extra Point (Bossing)_>" 
+            "recommended": "<bp_<tt src={/class-icons/cygnus-knights/night-walker/quintuple-star-reinforce.png} tip={Quintuple Star - Reinforce}> <tt src={/class-icons/cygnus-knights/night-walker/quintuple-star-boss-rush.png} tip={Quintuple Star - Boss Rush}> Quintuple Star - Reinforce and Boss Rush_<tt src={/class-icons/cygnus-knights/night-walker/dark-omen-cooldown-cutter.png} tip={Dark Omen - Cooldown Cutter}> <tt src={/class-icons/cygnus-knights/night-walker/dark-omen-reinforce.png} tip={Dark Omen - Reinforce}> Dark Omen - Cooldown Cutter and Reinforce_<tt src={/class-icons/cygnus-knights/night-walker/vitality-siphon-reinforce.png} tip={Vitality Siphon - Reinforce}> Vitality Siphon - Reinforce_>" 
         },
         "nodeInfo": {
             "recommended": {
                 "nodes": [
-                    ["Primary Trio", "<tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat and Ravenous Bat (1st Job / 4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/quintuple-star.png} tip={Quintuple Star (4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/cygnus-knights/night-walker/shadow-spark.png} tip={Shadow Spark (2nd Job)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-stitch.png} tip={Shadow Stitch (4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)}>"]
+                    ["Skills To Boost", "<tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat and Ravenous Bat (1st Job / 4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/quintuple-star.png} tip={Quintuple Star (4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)}>"]
                 ],
                 "notes": [
                     "Any combination of these skills are good",
-                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                    "3 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
                 ]
             },
             "possible": {
@@ -151,7 +150,7 @@
         "extraContent": {
             "title": "Dark Attribute & Throwing Star Skills + Dark Sight",
             "content": [
-                "All of Night Walker's attacks are dark-attribute including <tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tip={Shadow Illusion (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)}> clones, <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> bats, and <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)}> shadow spears. In 4th Job, successful dark-attribute attacks (excluding bats) reduce the cooldown of <tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)}> Dark Omen. In 5th Job, successful dark-attribute attacks allows <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)}> Shadow Spear to gather dark energy until a spear appears that strikes enemies",
+                "All of Night Walker's attacks are dark-attribute including <tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tip={Shadow Illusion (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)}> clones, <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> bats, and <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)}> shadow spears. In 5th Job, successful dark-attribute attacks allows <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)}> Shadow Spear to gather dark energy until a spear appears that strikes enemies",
                 "[Throwing Star Skills]",
                 "Throwing Star skills refer to skills that consume Throwing Stars to use. The skills below have interaction with Throwing Star skills:",
                 "<bp_<tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> Dark Elemental (1st Job)_<tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> Shadow Bat (1st Job)_<tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)}> Dark Servant (3rd Job)_<tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> Ravenous Bat (4th Job)_<tt src={/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tip={Shadow Illusion (Hyper Skill)}> Shadow Illusion (Hyper Skill)_<tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)}> Greater Dark Servant (5th Job)_>",
@@ -251,7 +250,7 @@
                     },
                     {
                         "name": "Dark Elemental",
-                        "shortDesc": "Hit enemies with Throwing Stars Skill for a 20% chance to create a Mark of Darkness that stacks 2 times. Marked enemies will take 80% damage over time per stack every second for 5 seconds, and if Night Walkers attack these enemies, they'll ignore 4% defense per stacked Mark of Darkness.",
+                        "shortDesc": "Hit enemies with Throwing Stars Skill for a 20% chance to create a Mark of Darkness that stacks 2 times. Marked enemies will take 80% damage over time per stack every second for 15 seconds, and if Night Walkers attack these enemies, they'll ignore 4% defense per stacked Mark of Darkness.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/cygnus-knights/night-walker/dark-elemental.png"],
                         "animations": ["https://media.giphy.com/media/MhAofYn6p8jw4Xa5QJ/giphy.gif", "https://media.giphy.com/media/kwP8dDCLhvo8BbTP09/giphy.gif"],
@@ -566,15 +565,15 @@
                 },
                 {
                     "name": "Dark Omen",
-                    "shortDesc": "MP Cost: 110, Duration: 5, Max Enemies Hit every 0.3 sec: 6, Damage: 500%\\nSummon 1 Shadow Bat and Ravenous Bat per 3 enemies hit. Max number of bats: 2.\\nCooldown decreased by 0.5 sec per dark-attribute attack success, except Shadow Bat, Ravenous Bat, and Dark Omen.\\nCooldown: 20 sec",
+                    "shortDesc": "MP Cost: 110, Bat Pack Duration: 7, Max Enemies Hit every 0.3 sec.: 6, Damage: 370%, Number of Attacks: 6\\n[When Shadow Bat is Active] Weakened Bat Pack Duration: 60, Max Enemies Hit every 1.5 sec.: Damage: 300%, Number of Attacks: 2\\nSummon 1 Shadow Bat and Ravenous Bat per 3 enemies  hit.\\nMax Bats: 1.\\nCooldonw: 60 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/night-walker/dark-omen.png"],
                     "animations": ["https://media.giphy.com/media/i0rTV0cm4JHx6tOMRO/giphy-downsized-large.gif"],
                     "type": "Summon",
-                    "desc": "Summons a stationary pack of bats that damages enemies within it",
+                    "desc": "Summon a stationary pack of bats that damages enemies within it",
                     "details": [
-                        "Unaffected by Damage Reflect and you cannot be pushed back at all when casting this skill (Super Knockback Resistance)",
-                        "Cooldown is reduced when an enemy is hit by a Dark-attribute attack except for <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> <tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)}>"
+                        "While <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> is toggled, a weaker but longer version is summoned instead",
+                        "Unaffected by Damage Reflect and you cannot be pushed back at all when casting this skill (Super Knockback Resistance)"
                     ]
                 },
                 {

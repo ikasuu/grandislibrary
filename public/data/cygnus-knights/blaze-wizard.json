@@ -484,7 +484,7 @@
                     "desc": "Only usable when <tt src={/class-icons/cygnus-knights/blaze-wizard/fires-of-creation.png} tip={Fires of Creation (4th Job)}> is active. The attack will differ depending on which animal was summoned",
                     "details": [
                         "[Blazing Lion]: Launches a fireball that slowly moves and attacks nearby enemies",
-                        "[Flame Fox]: Releases a continuous blast of flames forward",
+                        "[Flame Fox]: Releases a continuous blast of flames forward<bp_Right-clicking the skill will toggle a lock ON/OFF to prevent the Down Arrow Key activation of the opposite mode_>",
                         "Both attacks trigger cooldowns for both skills and Flame Fox version is unaffected by cooldown resets"
                     ]
                 },
@@ -499,7 +499,7 @@
                     "details": [
                         "[Blazing Lion]: Releases a blast of fire at your location that deals increased %Damage and Number of Attacks",
                         "[Flame Fox]: Fires a fireball that deals reduced %Damage and Number of Attacks, however deals a devastating additional attack to enemies with 5 stacks of Fox Mischief<bp_Successful direct attack skills reduce the cooldown of this skill by 0.6 sec_>",
-                        "Pressing the Down Arrow Key and Skill Key together will activate the attack of the opposite form"
+                        "Pressing the Down Arrow Key and Skill Key together will activate the attack of the opposite form<bp_Right-clicking the skill will toggle a lock ON/OFF to prevent this activation_>"
                     ]
                 },
                 {
@@ -513,7 +513,8 @@
                     "details": [
                         "Pressing the Skill Key will summon a Blazing Lion",
                         "Pressing the Down Arrow Key and Skill Key together summons a Flame Fox",
-                        "<tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png} tip={Orbital Flame (1st Job)}> and <tt src={/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png} tip={Towering Inferno (4th Job)}> will have different effects based on the spirit summoned"
+                        "<tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png} tip={Orbital Flame (1st Job)}> and <tt src={/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png} tip={Towering Inferno (4th Job)}> will have different effects based on the spirit summoned",
+                        "Right-clicking the skill will toggle a function ON/OFF to swap the summon commands"
                     ]
                 },
                 {
@@ -711,20 +712,20 @@
                         "Striking an enemy with a direct attack skill 1 time or a boss 25 times grants 1 Flame Charge (up to 6)",
                         "[Lion Attack]: Launches forward dealing massive damage and increases %Final Damage depending on remaining Flame Charges<bp_Minimum of 2 Flame Charges is required to cast_The attack leaves a flame zone that damages enemies within it (up to 5 times per enemy)_>",
                         "[Fox Attack]: Creates fireballs that attack nearby enemies. The fireballs will regenerate and attack again depending on how many Flame Charges were used to cast<bp_Attack prioritizes bosses with highest Max HP first_>",
-                        "Pressing the Down Arrow Key and Skill Key together will activate the attack of the opposite form"
+                        "Pressing the Down Arrow Key and Skill Key together will activate the attack of the opposite form<bp_Right-clicking the skill will toggle a lock ON/OFF to prevent this activation_>"
                     ]
                 },
                 {
                     "name": "Inferno Sphere",
-                    "shortDesc": "MP Cost: 75 per sec., consumes 1 Phoenix Feather\\nMax Enemies Hit: 12, Damage: 1210%, Number of Attacks: 8, Additional Critical Rate: +50%, Additional Monster DEF Ignored: +50%\\n1 Phoenix Feather will be prepared every 12 sec. You can have up to 10 feathers.\\nCooldown: 2.5 sec",
+                    "shortDesc": "MP Cost: 75 per sec., consumes 1 Phoenix Feather\\nMax Enemies Hit: 12, Damage: 1210%, Number of Attacks: 8, Additional Critical Rate: +50%, Additional Monster DEF Ignored: +50%\\n1 Phoenix Feather will be prepared every 12 sec. You can have up to 10 feathers.\\nIf used while Flame Fox is summoned, the Phoenix Feathers cost per second is increased by 2 times and Skill Final Damage increases by 100%\\nCooldown: 2.5 sec",
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/inferno-sphere.png"],
                     "animations": ["https://media3.giphy.com/media/S40986yvx4fkh3CRT0/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "While held, creates a flame circle that damages enemies within",
+                    "desc": "While held, create a flame circle that damages enemies within",
                     "details": [
                         "Attack has increased %Crit Rate and %Ignore Def",
                         "Attacks uses a special resource called 'Phoenix Feathers' gained every 12 seconds (up to 10 feathers)",
-                        "Costs 1 feather every second to cast"
+                        "Costs 1 feather every second to cast<bp_While [Flame Fox] is active, feather cost is increased but deals increased %Final Damage_>"
                     ]
                 },
                 {

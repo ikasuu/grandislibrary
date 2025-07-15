@@ -34,7 +34,7 @@ function Routes() {
             <Route path="/classes/flora/:id" render={(props) => <ClassOverview {...props} classGroup="flora"/> }/>
             <Route path="/classes/anima/:id" render={(props) => <ClassOverview {...props} classGroup="anima"/> }/>
             <Route path="/classes/jianghu/:id" render={(props) => <ClassOverview {...props} classGroup="jianghu"/> }/>
-            <Route path="/classes/star-guardian/:id" render={(props) => <ClassOverview {...props} classGroup="star-guardian"/> }/>
+            <Route path="/classes/shine/:id" render={(props) => <ClassOverview {...props} classGroup="shine"/> }/>
             <Route path="/classes/other/:id" render={(props) => <ClassOverview {...props} classGroup="other"/> }/>
             <Route path="/classes" component={Classes}/>
             <Route path="/events/:id" component={EventRepository}/>

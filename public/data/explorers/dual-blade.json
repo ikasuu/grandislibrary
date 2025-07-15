@@ -80,7 +80,7 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/explorers/dual-blade/mirror-image.png} tip={Mirror Image (3rd Job)} dur={[200s]}> <tt src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)} dur={[90s]}>",
             "summons": "<tt src={/class-icons/explorers/dual-blade/mirrored-target.png} tip={Mirrored Target (4th Job)} dur={[90s]}>",
-            "buffCd": "<tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)} dur={[60s](90s cd)}> <tt src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](75s cd)}> <tt src={/class-icons/5th-job/shadow-walker.png} tip={Shadow Walker (5th Job)} dur={[30s](180s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)} dur={[60s](63s cd)}> <tt src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](75s cd)}> <tt src={/class-icons/5th-job/shadow-walker.png} tip={Shadow Walker (5th Job)} dur={[30s](180s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/dual-blade/karma-blade.png} tip={Karma Blade (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/common/dark-sight.png} tip={Dark Sight (1st Job)} dur={[200s](Special, 0 - 15s cd)}> <tt src={/class-icons/explorers/dual-blade/chains-of-hell.png} tip={Chains of Hell (3rd Job)} dur={[1.5s](45s cd)}> <tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)} dur={[3s](90s cd)}> <tt src={/class-icons/explorers/dual-blade/karma-blade.png} tip={Karma Blade (6th Job)} dur={[360s cd]}>"
         },
@@ -358,12 +358,12 @@
                         },
                         {
                             "name": "Flashbang",
-                            "shortDesc": "MP Cost: 65, Max Enemies Hit: 6, Damage: 250%, 100% chance for Accuracy decrease: -20%, Duration: 60 sec, damage of all your skills increased by 10% against select enemies. Cooldown: 30 sec",
+                            "shortDesc": "MP Cost: 65, Max Enemies Hit: 6, Damage: 250%, 100% chance for Accuracy decrease: -20%, Duration: 60 sec, damage of all your skills increased by 10% against affected enemies.\\nCooldown: 30 sec",
                             "maxLevel": 5,
                             "icons": ["/class-icons/explorers/dual-blade/flashbang.png"],
                             "animations": ["https://media.giphy.com/media/bM3DEEZz7Gw1QxkuFO/giphy.gif"],
                             "type": "Attack",
-                            "desc": "Throws a flashbang forward that debuffs enemies hit",
+                            "desc": "Throw a flashbang forward that debuffs enemies hit",
                             "details": [
                                 "[Debuff]: Reduces %Accuracy and enemy takes increased %Damage"
                             ]
@@ -509,7 +509,7 @@
                 },
                 {
                     "name": "Final Cut",
-                    "shortDesc": "MP Cost: 400, consumes 10% of Max HP, Damage: 2000%, Max Enemies Hit: 8. Skill damage will be reduced if the charge time is too short\\nFinal Damage: +40%, Duration: 60 sec., 3 sec. invincibility after usage. Cooldown: 90 sec.",
+                    "shortDesc": "MP Cost: 400, consumes 10% of Max HP, Damage: 2000%, Max Enemies Hit: 8. Skill damage will be reduced if the charge time is too short\\nFinal Damage: +40%, Duration: 60 sec., 3 sec. invincibility after usage. Cooldown: 63 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/dual-blade/final-cut.png"],
                     "animations": ["https://media.giphy.com/media/5m6EfyEEg9ByN39Std/giphy.gif"],
@@ -523,14 +523,13 @@
                 },
                 {
                     "name": "Sudden Raid",
-                    "shortDesc": "MP Cost: 290, Damage: 494%, Max Enemies Hit: 15, Number of Attacks: 7, Damage Over Time: 210% damage every 1 sec for 10 sec\\nFinal Cut's Remaining Cooldown: -20%\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 290, Damage: 494%, Max Enemies Hit: 15, Number of Attacks: 7, Damage Over Time: 210% damage every 1 sec for 10 sec\\nCooldown: 30 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/dual-blade/sudden-raid.png"],
                     "animations": ["https://media.giphy.com/media/erom77ZOlEOdjDywf1/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Unleashes a devastating large attack that applies a damaging debuff",
+                    "desc": "Unleash a devastating large attack that applies a damaging debuff",
                     "details": [
-                        "When used, reduces remaining cooldown of <tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)}>",
                         "Unaffected by Damage Reflect"
                     ]
                 },

@@ -100,7 +100,7 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/nova/kaiser/gigas-wave-reinforce.png} tip={Gigas Wave - Reinforce}> <tt src={/class-icons/nova/kaiser/gigas-wave-bonus-attack.png} tip={Gigas Wave - Bonus Attack}> Gigas Wave - Reinforce and Bonus Attack_<tt src={/class-icons/nova/kaiser/wing-beat-reinforce.png} tip={Wing Beat - Reinforce}> <tt src={/class-icons/nova/kaiser/wing-beat-pummel.png} tip={Wing Beat - Pummel}> <tt src={/class-icons/nova/kaiser/wing-beat-extra-attack.png} tip={Wing Beat - Extra Attack}> Wing Beat - Reinforce, Pummel, and Extra Attack_>" 
+            "recommended": "<bp_<tt src={/class-icons/nova/kaiser/gigas-wave-reinforce.png} tip={Gigas Wave - Reinforce}> <tt src={/class-icons/nova/kaiser/gigas-wave-bonus-attack.png} tip={Gigas Wave - Bonus Attack}> Gigas Wave - Reinforce and Bonus Attack_<tt src={/class-icons/nova/kaiser/inferno-breath-reinforce.png} tip={Inferno Breath - Reinforce}> <tt src={/class-icons/nova/kaiser/inferno-breath-boss-rush.png} tip={Inferno Breath - Boss Rush}> Inferno Breath - Reinforce and Boss Rush_<tt src={/class-icons/nova/kaiser/wing-beat-reinforce.png} tip={Wing Beat - Reinforce}> Wing Beat - Reinforce_>" 
         },
         "nodeInfo": {
             "recommended": {
@@ -427,14 +427,15 @@
                     },
                     {
                         "name": "Stone Dragon",
-                        "shortDesc": "MP Cost: 35, Summon Duration: 60 sec, Enemies Hit: 8, Damage: 400%, Slow Chance: 75%, Slow Duration: 3 sec",
+                        "shortDesc": "MP Cost: 35, Duration: 60 sec, Max Enemies Hit: 8, Damage: 400%\\nSummons a dragon statue that attacks 3 times\\nwith a 75% chance to Slow enemies, excluding Boss Monsters, for 3 sec\\nDamage increases 50% when attacking normal enemies",
                         "maxLevel": 15,
                         "icons": ["/class-icons/nova/kaiser/stone-dragon.png"],
                         "animations": ["https://media.giphy.com/media/WPv39R4DsuzoKmsurS/giphy.gif"],
                         "type": "Summon",
                         "desc": "Summon a dragon statue that attacks and pulls in nearby enemies",
                         "details": [
-                            "Also has a chance to slow enemies hit",
+                            "Also has a chance to slow enemies hit (excluding boss monsters)",
+                            "Deals increased %Damage to regular monsters",
                             "Unaffected by Damage Reflect"
                         ]
                     },
@@ -547,7 +548,7 @@
                 },
                 {
                     "name": "Inferno Breath",
-                    "shortDesc": "MP Cost: 70, Damage: 300%, Number of Attacks: 8, Max Enemies Hit: 15. Creates several fire trails afterwards.\\nFire trail periodically inflicts 200% damage up to 6 enemies for 20 sec.\\nCooldown: 20 sec",
+                    "shortDesc": "MP Cost: 70, Damage: 970%, Number of Attacks: 14, Max Enemies Hit: 15. Creates several fire trails afterwards.\\nFire trail periodically inflicts 240% damage up to 6 enemies for 20 sec.\\nCooldown: 20 sec",
                     "maxLevel": 20,
                     "icons": ["/class-icons/nova/kaiser/inferno-breath.png"],
                     "animations": ["https://media.giphy.com/media/JsL3JFTPTGBlqyeRBb/giphy.gif"],
@@ -686,18 +687,18 @@
                     "reqLev": 140
                 },
                 {
-                    "name": "Inferno Breath - Burn",
-                    "shortDesc": "Flame duration +10 sec",
+                    "name": "Inferno Breath - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/nova/kaiser/inferno-breath-burn.png"],
+                    "icons": ["/class-icons/nova/kaiser/inferno-breath-guardbreak.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
-                    "name": "Inferno Breath - Blaze",
-                    "shortDesc": "Flame Damage +20%",
+                    "name": "Inferno Breath - Boss Rush",
+                    "shortDesc": "Boss Damage +10%",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/nova/kaiser/inferno-breath-blaze.png"],
+                    "icons": ["/class-icons/nova/kaiser/inferno-breath-boss-rush.png"],
                     "type": "Passive",
                     "reqLev": 180
                 },

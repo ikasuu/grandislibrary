@@ -48,8 +48,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+15%",
-                "detail": "<bg src={/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+15%}>"
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+20%}>"
             },
             {
                 "name": "Damage",
@@ -58,13 +58,13 @@
             },
             {
                 "name": "Boss Damage",
-                "stat": "+15%",
-                "detail": "<bg src={/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+15%}>"
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/resistance/blaster/gauntlet-expert.png} tip={Gauntlet Expert (4th Job)} val={+20%}>"
             },
             {
                 "name": "Final Damage",
-                "stat": "+15.5%(95.89%)",
-                "detail": "<bg src={/class-icons/resistance/blaster/arm-cannon-mastery.png} tip={Arm Cannon Mastery (2nd Job)} val={+5%}> × <bg type={debuff} src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)} val={+10%}> × <bg type={temp} src={/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II (4th Job)} val={+6% per linked skill} val={(Max. +60%)}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+                "stat": "+10%(86.56%)",
+                "detail": "<bg type={debuff} src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)} val={+10%}> × <bg type={temp} src={/class-icons/resistance/blaster/combo-training-ii.png} tip={Combo Training II (4th Job)} val={+6% per linked skill} val={(Max. +60%)}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
             },
             {
                 "name": "Ignore DEF",
@@ -112,7 +112,7 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/resistance/blaster/aftershock-punch.png} tip={Aftershock Punch}> <tt src={/class-icons/resistance/blaster/power-punch.png} tip={Power Punch}> <tt src={/class-icons/resistance/blaster/piercing-punch.png} tip={Piercing Punch}> Aftershock Punch, Power Punch, Piercing Punch_<tt src={/class-icons/resistance/blaster/improved-bunker-explosion.png} tip={Improved Bunker Explosion}> Improved Bunker Explosion_<tt src={/class-icons/resistance/blaster/bunker-buster-explosion-guard-bonus.png} tip={Bunker Buster Explosion Guard Bonus}> Bunker Buster Explosion - Guard Bonus OR <tt src={/class-icons/resistance/blaster/speedy-vitality-shield.png} tip={Speedy Vitality Shield}> Speedy Vitality Shield_>" 
+            "recommended": "<bp_<tt src={/class-icons/resistance/blaster/punching-extra-strike.png} tip={Punching Extra Strike}> <tt src={/class-icons/resistance/blaster/power-punch.png} tip={Power Punch}> <tt src={/class-icons/resistance/blaster/piercing-punch.png} tip={Piercing Punch}> Punching Extra Strike, Power Punch, Piercing Punch_<tt src={/class-icons/resistance/blaster/improved-bunker-explosion.png} tip={Improved Bunker Explosion}> Improved Bunker Explosion_<tt src={/class-icons/resistance/blaster/bunker-buster-explosion-guard-bonus.png} tip={Bunker Buster Explosion Guard Bonus}> Bunker Buster Explosion - Guard Bonus OR <tt src={/class-icons/resistance/blaster/speedy-vitality-shield.png} tip={Speedy Vitality Shield}> Speedy Vitality Shield_>" 
         },
         "nodeInfo": {
             "recommended": {
@@ -131,8 +131,7 @@
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Blaster"},
-            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%B8%94%EB%9E%98%EC%8A%A4%ED%84%B0(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
-            {"title": "Yis' Guide", "link": "https://www.youtube.com/watch?v=NSyr9Xdylik"}
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%B8%94%EB%9E%98%EC%8A%A4%ED%84%B0(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"}
         ],
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
@@ -347,7 +346,7 @@
                     },
                     {
                         "name": "Arm Cannon Mastery",
-                        "shortDesc": "Mastery +50%, Critical Rate +30%, Attack Power +20, Final Damage: +5%",
+                        "shortDesc": "Mastery +50%, Critical Rate +30%, Attack Power +20",
                         "maxLevel": 10,
                         "icons": ["/class-icons/resistance/blaster/arm-cannon-mastery.png"],
                         "type": "Passive"
@@ -388,17 +387,16 @@
                 [
                 "3rd Job", [{
                         "name": "Hammer Smash",
-                        "shortDesc": "MP Cost: 25, Max Number of Enemies: 8, Damage: 200%. Attacks 6 times. Applies Debuff on Hit: for 30 seconds, Final Damage taken from Blaster's attack +10%.\\nWhen releasing charge, creates a shockwave that lasts for 5 sec and hits up to 8 enemies for 150% damage 2 times. Enemies struck by the shockwave will be afflicted by the Final Damage debuff.\\nDouble Blast Damage +130% points.",
+                        "shortDesc": "MP Cost: 25, Max Enemies Hit: 8, Damage: 150%, Number of Attacks: 6\\nAffected enemies have their weakness exposed for 60 sec and increase the final damage taken from Blaster's attack by 10%\\n[Passive Effect - Double Blast Damage: +130%p]",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/blaster/hammer-smash.png"],
                         "animations": ["https://media4.giphy.com/media/GnTJGxiAgvJH5fSDmN/giphy.gif"],
                         "type": "Charge Attack",
-                        "desc": "Strikes the ground creating a damaging shockwave around you that debuffs enemies",
+                        "desc": "Strike the ground damaging and debuffing nearby enemies",
                         "details": [
                             "[Debuff]: Enemies take increased %Final Damage from Blaster",
                             "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> by a flat amount",
                             "While charging, enemy attacks will not knock you back",
-                            "Shockwave is not affected by Damage Reflect",
                             "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/magnum-punch.png} tip={Magnum Punch (1st Job)}> Magnum Punch (1st Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
                         ]
                     },
@@ -484,15 +482,15 @@
                 [
                 "4th Job", [{
                     "name": "Shotgun Punch",
-                    "shortDesc": "MP cost: 70, Max Number of Enemies: 6, Damage: 265%, Number of Attacks: 6, Damage Against Normal Enemies: +85%, then generates a shockwave\\nShockwave: attacks up to 6 enemies for 140% damage 4 times, Damage Against Normal Enemies: +350%p\\nIncreases Double Blast damage by 180% points.",
+                    "shortDesc": "MP Cost: 70, Damage: 180%, Number of Attacks: 6, Max Enemies Hit: 6\\nNormal Enemy Damage: +210%\\n[Passive Effect - Double Blast Damage: +180%p]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/blaster/shotgun-punch.png"],
                     "animations": ["https://media3.giphy.com/media/a7jT1jL4Q1DHFSy1zp/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Punches forward creating a powerful blast that creates a shockwave",
+                    "desc": "Punch forward creating a blast",
                     "details": [
                         "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/double-blast.png} tip={Double Blast (2nd Job)}> by a flat amount",
-                        "Deals increased %Damage to regular monsters<bp_The shockwave attack will only deal increased %Damage by a flat amount_>",
+                        "Deals increased %Damage to regular monsters",
                         "Attack can be linked with:<bp_<tt src={/class-icons/resistance/blaster/bobbing.png} tip={Bobbing (2nd Job)}> Bobbing (2nd Job)_<tt src={/class-icons/resistance/blaster/weaving.png} tip={Weaving (3rd Job)}> Weaving (3rd Job)_<tt src={/class-icons/resistance/blaster/bullet-blast.png} tip={Bullet Blast (5th Job)}> Bullet Blast (5th Job)_>"
                     ]
                 },
@@ -513,12 +511,12 @@
                 },
                 {
                     "name": "Ballistic Hurricane",
-                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 12, Damage: 1250%, Number of Attacks: 5\\nCombo Training is at max stacks when attack succeeds, Duration: 12 sec\\nCooldown: 15 sec\\n[Passive Effect - Hammer Smash Damage (aside from Shock Wave): +195% points]",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 12, Damage: 1250%, Number of Attacks: 5\\nCombo Training is at max stacks when attack succeeds, Duration: 12 sec\\nCooldown: 15 sec\\n[Passive Effect - Hammer Smash Damage: +150% points]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/blaster/ballistic-hurricane.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTB5bTFqZGh6b2V3Yjl5YWFwcW52dXZpdGJ3NW55eWxiYTdwMjFqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gfoBdB7O7Adji8tIl0/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Releases a cyclone wave forward",
+                    "desc": "Release a cyclone forward",
                     "details": [
                         "[Passive]: Permanently increases %Damage of <tt src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)}> by a flat amount",
                         "Upon successful hit, grants max stacks of <tt src={/class-icons/resistance/blaster/combo-training.png} tip={Combo Training (3rd Job)}>"
@@ -606,7 +604,7 @@
                 },
                 {
                     "name": "Gauntlet Expert",
-                    "shortDesc": "Mastery: +70%, Critical Damage: +15%, Boss Damage: +15%",
+                    "shortDesc": "Mastery: +70%, Critical Damage: +20%, Boss Damage: +20%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/blaster/gauntlet-expert.png", "/class-icons/resistance/blaster/arm-cannon-mastery.png"],
                     "type": "Upgraded Passive",
@@ -647,12 +645,11 @@
         "hyper":{
             "hyperPassive": [
                 {
-                    "name": "Aftershock Punch",
+                    "name": "Punching Extra Strike",
                     "shortDesc": "Number of Attacks: +2",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/resistance/blaster/aftershock-punch.png"],
+                    "icons": ["/class-icons/resistance/blaster/punching-extra-strike.png"],
                     "type": "Passive",
-                    "desc": "Increases the number of hits from the shockwaves created from <tt src={/class-icons/resistance/blaster/hammer-smash.png} tip={Hammer Smash (3rd Job)}> <tt src={/class-icons/resistance/blaster/shotgun-punch.png} tip={Shotgun Punch (4th Job)}>",
                     "reqLev": 140
                 },
                 {
@@ -769,7 +766,7 @@
             "fifthMain": [
                 {
                     "name": "Rocket Punch",
-                    "shortDesc": "MP Cost: 1000, Duration: 45 sec. Using your arm cannon while active triggers Revolving Cannon Boost, which uses special ammunition. Does not apply to 5th Job Advancement skills.\\nMax Enemies Hit: 10, Damage: 440%, Number of Attacks: 8, Enemy DEF Ignored: 100%\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000, Duration: 45 sec. Using your arm cannon while active triggers Revolving Cannon Boost, which uses special ammunition. Does not apply to 5th Job Advancement skills.\\nMax Enemies Hit: 10, Damage: 550%, Number of Attacks: 8, Enemy DEF Ignored: 100%\\nCooldown: 120 sec",
                     "icons": ["/class-icons/resistance/blaster/rocket-punch.png"],
                     "animations": ["https://media1.giphy.com/media/tDK50VF7W0AZU5Uogl/giphy.gif"],
                     "type": "Buff Attack",
@@ -782,7 +779,7 @@
                 },
                 {
                     "name": "Gatling Punch",
-                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 10, Damage: 1100%, Number of Attacks: 12. Deals 935% damage 8 times consecutively for up to 4 sec while the key is held.\\nGrants the Enhanced Guard effects of Charge Mastery and Combo Training with max stacks.\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 60, Max Enemies Hit: 10, Damage: 1320%, Number of Attacks: 12. Deals 1100% damage 8 times consecutively for up to 4 sec while the key is held.\\nGrants the Enhanced Guard effects of Charge Mastery and Combo Training with max stacks.\\nCooldown: 60 sec",
                     "icons": ["/class-icons/resistance/blaster/gatling-punch.png"],
                     "animations": ["https://media1.giphy.com/media/S5czQiBmZtK8XMumZR/giphy.gif"],
                     "type": "Key-down Attack",

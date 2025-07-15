@@ -367,14 +367,14 @@
                     },
                     {
                         "name": "Monkey Fury",
-                        "shortDesc": "MP Cost: 62, Damage: 180%, Max Enemies Hit: 10, Number of Attacks: 3, Damage per second: 200% for 30 sec with a 100% chance. Damage: +40% to pertinent enemy, Cooldown: 10 sec",
+                        "shortDesc": "MP Cost: 62, Max Enemies Hit: 10, Damage: 180%, Number of Attacks: 3, Chance: 100%, Damage per second: 200% for 60 every 1 sec, Damage: +40% to pertinent enemy\\nImmediately explodes when the skill is used again, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 6\\nCooldown: 10 sec. If no enemy is hit, Cooldown: -5 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/cannoneer/monkey-fury.png"],
                         "animations": ["https://media.giphy.com/media/DXDT6igk8ekCysm49h/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Launches a bomb that bounces around damages enemies and debuffs them",
+                        "desc": "Launch a bouncing bomb that damages and debuffs enemies",
                         "details": [
-                            "[Debuff]: Enemy takes increased %Damage and takes damage periodically",
+                            "[Debuff]: Enemy takes increased %Damage and is periodically damaged",
                             "Cooldown is reduced if no enemies are hit"
                         ]
                     },
@@ -485,7 +485,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/nautilus-strike.png"],
                         "animations": ["https://media.giphy.com/media/A5DqwbovwwvTkanalg/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Launches a massive attack that damages a large area",
+                        "desc": "Launch a massive attack that damages a large area",
                         "details": [
                             "Unaffected by Damage Reflect"
                         ]
@@ -650,12 +650,12 @@
                 },
                 {
                     "name": "Rolling Rainbow",
-                    "shortDesc": "Installation skill. MP Cost: 300, Damage: 800% to 10 enemies within a range, Number of attacks: 3, Duration: 12 sec.\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 300, Cannon Ball Set-up Duration: 12 sec\\nMax Enemies Hit: 10, Damage: 800%, Number of Attacks: 3\\nCooldown: 90 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/cannoneer/rolling-rainbow.png"],
                     "animations": ["https://media.giphy.com/media/Z2vVVjXLjEhXQxRJcY/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons several cannons that fire a continuous wave of lasers",
+                    "desc": "Place down stationary cannons that fire forward lasers",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ],

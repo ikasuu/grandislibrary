@@ -78,7 +78,7 @@
             }
         ],
         "buffInfo": {
-            "active": "<tt src={/class-icons/sengoku/hayato/katana-booster.png} tip={Katana Booster (2nd Job)} dur={[200s]}> <tt src={/class-icons/sengoku/hayato/iaijutsu-phantom-blade.png} tip={Iaijutsu Phantom Blade (5th Job)} dur={[33s](200 Sword Energy)}>",
+            "active": "<tt src={/class-icons/sengoku/hayato/katana-booster.png} tip={Katana Booster (2nd Job)} dur={[200s]}> <tt src={/class-icons/sengoku/hayato/iaijutsu-phantom-blade.png} tip={Iaijutsu Phantom Blade (5th Job)} dur={[40s](200 Sword Energy)}>",
             "toggles": "[ <tt src={/class-icons/sengoku/hayato/normal-stance.png} tip={Normal Stance (Beginner Skill)}> / <tt src={/class-icons/sengoku/hayato/quick-draw.png} tip={Quick Draw (Beginner Skill)}> ](Stance Switch) <tt src={/class-icons/sengoku/hayato/eye-for-an-eye.png} tip={Eye for an Eye (4th Job)}>",
             "summons": "<tt src={/class-icons/sengoku/hayato/battoujutsu-ultimate-will-god-of-blades.png} tip={Battoujutsu Ultimate Will (5th Job)} dur={[30s](120s cd, 150 Sword Energy)}> <tt src={/class-icons/5th-job/sengoku-force-assemble.png} tip={Sengoku Force, Assemble! (5th Job)} dur={[45s](120s cd)}>",
             "buffCd": "[ <tt src={/class-icons/sengoku/hayato/summer-rain.png} tip={Summer Rain (4th Job)}> / <tt src={/class-icons/sengoku/hayato/hitokiri-hundred-strike.png} tip={Hitokiri Hundred Strike (4th Job)}> ][120s](120s) <tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)} dur={[40s](90s cd)}> <tt src={/class-icons/sengoku/hayato/god-of-blades.png} tip={God of Blades (Hyper Skill)} dur={[30s](90s cd)}> <tt src={/class-icons/sengoku/princesss-vow.png} tip={Princess's Vow (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
@@ -680,14 +680,14 @@
                 },
                 {
                     "name": "Sudden Strike",
-                    "shortDesc": "MP Cost: 56, Max Enemies Hit: 10, Damage: 405%, Number of Attacks: 6, Additional Debuff Damage from Party: +20%, Duration: 30 sec. Debuff applies to Boss monsters.\\nCooldown: 3 sec.",
+                    "shortDesc": "MP Cost: 56, Max Enemies Hit: 10, Damage: 405%, Number of Attacks: 6, Additional Debuff Damage from Party: +20%, Duration: 60 sec. Debuff applies to Boss monsters.\\nCooldown: 3 sec.",
                     "maxLevel": 20,
                     "icons": ["/class-icons/sengoku/hayato/sudden-strike.png"],
                     "animations": ["https://media.giphy.com/media/kBT4K1Ru4qeS5K6SY1/giphy.gif"],
                     "type": "Attack",
                     "desc": "Slash in place dealing damage and debuffing enemies",
                     "details": [
-                        "[Debuff]: Increases %Damage dealt to enemy by your party<bp_Can be applied to Boss monsters_>",
+                        "[Debuff]: Enemy takes increased %Damage<bp_Can be applied to Boss monsters_>",
                         "While casting, prevents you from being knocked back at all (Super Knockback Resistance)"
                     ]
                 },
@@ -828,7 +828,7 @@
                 },
                 {
                     "name": "Iaijutsu Phantom Blade",
-                    "shortDesc": "Sword Energy Cost: 200, Successful hits grant a buff giving +23% Final Damage per stack for 33 sec.\\n1st Hit: Deals 330% damage to up to 15 enemies 15 times\\n2nd Hit: Deals 360% damage to up to 15 enemies 15 times\\n3rd Hit: Deals 390% damage to up to 15 enemies 15 times\\n4th Hit: Deals 410% damage to up to 15 enemies 15 times\\n5th Hit: Deals 450% damage to up to 15 enemies 15 times",
+                    "shortDesc": "Sword Energy Cost: 200, Successful hits grant a buff giving +23% Final Damage per stack for 40 sec.\\n1st Hit: Deals 330% damage to up to 15 enemies 15 times\\n2nd Hit: Deals 360% damage to up to 15 enemies 15 times\\n3rd Hit: Deals 390% damage to up to 15 enemies 15 times\\n4th Hit: Deals 410% damage to up to 15 enemies 15 times\\n5th Hit: Deals 450% damage to up to 15 enemies 15 times",
                     "icons": ["/class-icons/sengoku/hayato/iaijutsu-phantom-blade.png"],
                     "animations": ["https://media1.giphy.com/media/myDWicyRzUcxXxtHe3/giphy.gif"],
                     "type": "Attack",
