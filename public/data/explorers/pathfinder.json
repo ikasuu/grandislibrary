@@ -13,9 +13,12 @@
         ],
         "innerAbility": [
             {
-                "name": "Ideal Preset",
-                "abilities": ["Boss Damage +20% (Ideal) / Meso Obtained +20% (For Farming)", "Crit Rate +20%", "Damage to Abnormal Status +8%"],
-                "notes": "Meso Obtained on 1st Line can be kept until ready to roll for Boss Damage unless priority is farming. If 3rd Line is rolled into Boss Damage +5-10%, it can be kept until you are ready to roll Boss Damage on 1st Line"
+                "name": "For Bossing",
+                "abilities": ["Chance to Skip Cooldown +20%", "Crit Rate +20%", "Boss Damage +10%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
             }
         ],
         "attackStats": [
@@ -119,8 +122,8 @@
             "recommended": {
                 "nodes": [
                     ["Bossing Trio", "<tt src={/class-icons/explorers/pathfinder/cardinal-deluge.png} tip={Cardinal Deluge and Bountiful Deluge (1st Job / 2nd Job)}> <tt src={/class-icons/explorers/pathfinder/cardinal-burst.png} tip={Cardinal Burst and Bountiful Burst (2nd Job / 3rd Job)}> <tt src={/class-icons/explorers/pathfinder/glyph-of-impalement.png} tip={Glyph of Impalement (4th Job)}>"],
-                    ["Mobbing Trio", "<tt src={/class-icons/explorers/pathfinder/cardinal-torrent.png} tip={Cardinal Torrent (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/triple-impact.png} tip={Triple Impact (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/ancient-astra-boost.png} tip={Ancient Astra (Hyper Skill)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/explorers/pathfinder/swarm-shot.png} tip={Swarm Shot (2nd Job)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/combo-assault.png} tip={Combo Assault (4th Job)}>"]
+                    ["Mobbing Trio", "<tt src={/class-icons/explorers/pathfinder/cardinal-torrent.png} tip={Cardinal Torrent (3rd Job)}>  <tt src={/class-icons/explorers/pathfinder/combo-assault.png} tip={Combo Assault (4th Job)}> <tt src={/class-icons/explorers/pathfinder/swarm-shot.png} tip={Swarm Shot (2nd Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/pathfinder/ancient-astra-boost.png} tip={Ancient Astra (Hyper Skill)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> <tt src={/class-icons/explorers/pathfinder/triple-impact.png} tip={Triple Impact (3rd Job)}>"]
                 ],
                 "notes": [
                     "Either categories can be maxed first based on if you prioritize bossing or mobbing",
@@ -142,7 +145,7 @@
         "discord": "https://discord.gg/4PgsVs8gNZ",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
-            ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Pathfinder Discord"]
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
         ],
         "extraContent": {
             "title": "Relic Gauge",
@@ -823,7 +826,7 @@
             ]
         },
         "fifth": {
-            "fifthCommon": ["expPBowman","goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthCommon": ["expPBowman", "goddessBlessing", "guidedArrow", "viciousShot"],
             "fifthMain": [
                 {
                     "name": "Nova Blast",

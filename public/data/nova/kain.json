@@ -13,7 +13,17 @@
         ],
         "innerAbility": [
             {
-                "abilities": ["Boss Damage +20% / +1 Passive Skills", "Crit Rate +20%", "Damage to Abnormal Status +8%"]
+                "name": "For Bossing",
+                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to Abnormal Status +8% OR Attack +21"]
+            },
+            {
+                "name": "For Bossing (Alternative)",
+                "abilities": ["Passive Skills +1", "Crit Rate +20%", "Attack +21 OR Boss Damage +10%"],
+                "notes": "Can be used if currently have high %Boss Damage"
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
             }
         ],
         "attackStats": [
@@ -103,7 +113,7 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/nova/kain/whispershot-guardbreak.png} tip={Whispershot - Guardbreak}> <tt src={/class-icons/nova/kain/whispershot-reinforce.png} tip={Whispershot - Reinforce}> Whispershot - Guardbreak and Reinforce_<tt src={/class-icons/nova/kain/execute-reinforce.png} tip={Execute - Reinforce}> <tt src={/class-icons/nova/kain/execute-enhance.png} tip={Execute - Enhance}> Execute - Reinforce and Enhance_<tt src={/class-icons/nova/kain/lasting-grudge-reinforce.png} tip={Lasting Grudge - Reinforce}> Lasting Grudge - Reinforce_>" 
+            "recommended": "<bp_<tt src={/class-icons/nova/kain/whispershot-guardbreak.png} tip={Whispershot - Guardbreak}> <tt src={/class-icons/nova/kain/whispershot-reinforce.png} tip={Whispershot - Reinforce}> <tt src={/class-icons/nova/kain/whispershot-boss-rush.png} tip={Whispershot - Boss Rush}> Whispershot - Guardbreak, Reinforce, and Boss Rush_<tt src={/class-icons/nova/kain/execute-reinforce.png} tip={Execute - Reinforce}> Execute - Reinforce_<tt src={/class-icons/nova/kain/lasting-grudge-reinforce.png} tip={Lasting Grudge - Reinforce}> Lasting Grudge - Reinforce_>" 
         },
         "nodeInfo": {
             "recommended": {
@@ -125,10 +135,13 @@
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Kain"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%B9%B4%EC%9D%B8(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/Udtx9E9QYr"},
             {"title": "Class Doc", "link": "https://docs.google.com/document/d/1Vl-G1C_bWzDio13cSnROD3RA1EoeR4mMjv28g_UY4dY"}
         ],
+        "discord": "https://discord.gg/Udtx9E9QYr",
         "credits": [
-            ["Skill Icons + Animations", "Ikasuu"]
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Skill Passives + Boost Nodes Build", "Class Doc"]
         ],
         "extraContent": {
             "title": "Possess and Execute Skills & Dark Sight",

@@ -13,7 +13,12 @@
         ],
         "innerAbility": [
             {
-                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Damage to Abnormal Status +8%"]
+                "name": "For Bossing",
+                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Chance to Skip Cooldown +10%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
             }
         ],
         "attackStats": [
@@ -106,12 +111,11 @@
         "nodeInfo": {
             "recommended": {
                 "nodes": [
-                    ["Primary Trio", "<tt src={/class-icons/flora/illium/radiant-javelin-ii.png} tip={Radiant Javelin and Winged Javelin (1st Job / 3rd Job)}> <tt src={/class-icons/flora/illium/longinus-spear.png} tip={Longinus Spear (4th Job)}> <tt src={/class-icons/flora/illium/crystal-skill-deus.png} tip={Deus and Ex (4th Job / 1st Job)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/flora/illium/machina.png} tip={Machina and Reaction - Domination II (2nd Job / 3rd Job)}> <tt src={/class-icons/flora/illium/umbral-brand-iii.png} tip={Umbral Brand III (4th Job)}> <tt src={/class-icons/flora/illium/reaction-destruction-ii.png} tip={Reaction - Destruction II (3rd Job)}>"]
+                    ["Skills To Boost", "<tt src={/class-icons/flora/illium/radiant-javelin-ii.png} tip={Radiant Javelin and Winged Javelin (1st Job / 3rd Job)}> <tt src={/class-icons/flora/illium/reaction-destruction-ii.png} tip={Reaction - Destruction II (3rd Job)}> <tt src={/class-icons/flora/illium/machina.png} tip={Machina and Reaction - Domination II (2nd Job / 3rd Job)}> <tt src={/class-icons/flora/illium/crystal-skill-deus.png} tip={Deus and Ex (4th Job / 1st Job)}> <tt src={/class-icons/flora/illium/umbral-brand-iii.png} tip={Umbral Brand III (4th Job)}> <tt src={/class-icons/flora/illium/vortex-wings.png} tip={Vortex Wings and Crystal Skill - Vortex of Light (3rd Job)}> <tt src={/class-icons/flora/illium/longinus-zone.png} tip={Longinus Zone (Hyper Skill)}> <tt src={/class-icons/flora/illium/longinus-spear.png} tip={Longinus Spear (4th Job)}>"]
                 ],
                 "notes": [
                     "Any combination of these skills are good but preferred from same category as you want to max primary first",
-                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                    "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_Each skill above should appear in 2 nodes_>"
                 ]
             },
             "possible": {
@@ -121,11 +125,13 @@
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Illium"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%9D%BC%EB%A6%AC%EC%9B%80"},
-            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1BnkDIHr02taWGmr19C6y-pNUc1UgblK21-9RKmGZxXc"}
+            {"title": "Class Discord", "link": "https://discord.gg/KxJ3DGuBsf"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1yRtTynFk6jNthJlBwCSTeM4rcV3taEnwx9DOJ9MzBds"}
         ],
+        "discord": "https://discord.gg/KxJ3DGuBsf",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
-            ["Boost Nodes Build + Hyper Passive Build + Inner Ability","Class Doc"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {

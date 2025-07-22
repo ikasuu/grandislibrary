@@ -13,7 +13,16 @@
         ],
         "innerAbility": [
             {
-                "abilities": ["Boss Damage: +20%", "Buff Duration +38%", "Attack +21"]
+                "name": "1st Line Options",
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage: +20%"]
+            },
+            {
+                "name": "2nd/3rd Line Options",
+                "abilities": ["Boss Damage: +10% (if not 1st line)", "Chance to Skip Cooldown +10% (if not 1st line)", "Damage to Abnormal Status +8%", "Buff Duration +38%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
             }
         ],
         "attackStats": [
@@ -118,12 +127,13 @@
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Phantom"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%ED%8C%AC%ED%85%80(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/225H7sw"},
             {"title": "Class Doc", "link": "https://docs.google.com/document/d/1rrl6haeeYpeYaCuDhqbK_qL_IMBbRPbF60D-hq0vgSg"}
         ],
+        "discord": "https://discord.gg/225H7sw",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
-            ["Hyper Passive Build", "Masterobert"],
-            ["Boost Nodes Build + Inner Ability","Maple Central"],
+            ["Hyper Passive Build + Inner Ability + Boost Nodes Build", "Class Doc"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -642,7 +652,7 @@
             ]
         },
         "fifth": {
-            "fifthCommon": ["freudsWisdom","goddessBlessing", "venomBurst", "lastResort"],
+            "fifthCommon": ["freudsWisdom", "goddessBlessing", "venomBurst", "lastResort"],
             "fifthMain": [
                 {
                     "name": "Luck of the Draw",

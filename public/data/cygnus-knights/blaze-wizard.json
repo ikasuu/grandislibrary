@@ -13,7 +13,12 @@
         ],
         "innerAbility": [
             {
-                "abilities": ["+1 Passive Skills (Preferred) / Boss Damage +20%", "Buff Duration +38%", "Damage to Abnormal Status +8%"]
+                "name": "For Bossing",
+                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Damage to Abnormal Status +8%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
             }
         ],
         "attackStats": [
@@ -112,13 +117,13 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame-range.png} tip={Orbital Flame - Range}> <tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame-guardbreak.png} tip={Orbital Flame - Guardbreak}> <tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame-split-attack.png} tip={Orbital Flame - Split Attack}> Orbital Flame - Range, Guard Break and Split Attack_<tt src={/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-add-attack.png} tip={Blazing Extinction - Add Attack}> Blazing Extinction - Add Attack_<tt src={/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-reinforce.png} tip={Blazing Extinction - Reinforce}> Blazing Extinction - Reinforce OR <tt src={/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-spread.png} tip={Blazing Extinction - Spread}> Blazing Extinction - Spread_>" 
+            "recommended": "<bp_<tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame-range.png} tip={Orbital Flame - Range}> <tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame-guardbreak.png} tip={Orbital Flame - Guardbreak}> <tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame-split-attack.png} tip={Orbital Flame - Split Attack}> Orbital Flame - Range, Guard Break and Split Attack_<tt src={/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-reinforce.png} tip={Blazing Extinction - Reinforce}> <tt src={/class-icons/cygnus-knights/blaze-wizard/blazing-extinction-add-attack.png} tip={Blazing Extinction - Add Attack}> Blazing Extinction - Reinforce and Add Attack_>"
         },
         "nodeInfo": {
             "recommended": {
                 "nodes": [
                     ["Primary Trio", "<tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-flame.png} tip={Orbital Flame (1st Job)}> <tt src={/class-icons/cygnus-knights/blaze-wizard/phoenix-drive.png} tip={Phoenix Drive (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/blaze-wizard/blazing-extinction.png} tip={Blazing Extinction (4th Job)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/cygnus-knights/blaze-wizard/cataclysm.png} tip={Cataclysm (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png} tip={Towering Inferno (4th Job)}> <tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-explosion.png} tip={Orbital Explosion (2nd Job)}>"]
+                    ["Secondary Trio", "<tt src={/class-icons/cygnus-knights/blaze-wizard/towering-inferno.png} tip={Towering Inferno (4th Job)}> <tt src={/class-icons/cygnus-knights/blaze-wizard/orbital-explosion.png} tip={Orbital Explosion (2nd Job)}> [<tt src={/class-icons/cygnus-knights/blaze-wizard/cataclysm.png} tip={Cataclysm (Hyper Skill)}> OR <tt src={/class-icons/cygnus-knights/blaze-wizard/flame-tempest.png} tip={Flame Tempest (3rd Job)}>]"]
                 ],
                 "notes": [
                     "Any combination of these skills are good but preferred from same category as you want to max primary first",
@@ -132,13 +137,15 @@
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Blaze_Wizard"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%ED%94%8C%EB%A0%88%EC%9E%84%EC%9C%84%EC%9E%90%EB%93%9C"},
+            {"title": "Class Discord", "link": "https://discord.gg/gTuaWGrcvV"},
             {"title": "Class Doc", "link": "https://docs.google.com/document/d/1YB3rBntxbUngJ5BnCTG19SqW1LfoPos6pfS-r5gaU1s"},
             {"title": "TajMaJon's Guide", "link": "https://www.youtube.com/watch?v=5sBhhpDQX8E"}
         ],
+        "discord": "https://discord.gg/gTuaWGrcvV",
         "specialThanks": "Special thanks to TajMaJon for their help in making this overview!",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu, TajMaJon"],
-            ["Boost Nodes Build + Hyper Passive Build + Inner Ability","Maple Central"]
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
         ]
     },
     "skill": {

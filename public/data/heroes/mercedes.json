@@ -13,7 +13,12 @@
         ],
         "innerAbility": [
             {
+                "name": "For Bossing",
                 "abilities": ["Boss Damage +20%", "Damage to Abnormal Status +8%", "Crit Rate +20%"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
             }
         ],
         "attackStats": [
@@ -104,9 +109,9 @@
         "nodeInfo": {
             "recommended": {
                 "nodes": [
-                    ["For Bossing", "<tt src={/class-icons/heroes/mercedes/ishtars-ring.png} tip={Ishtar's Ring (4th Job)}> <tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes and Final Attack (2nd Job / 3rd Job)}> <tt src={/class-icons/heroes/mercedes/elemental-knights.png} tip={Elemental Knights (3rd Job)}>"],
-                    ["For Training", "<tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado and Gust Dive (3rd Job)}> <tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> <tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush, Parting Shot, Aerial Barrage, and Rolling Moonsault (2nd/3rd/4th Job)}>"],
-                    ["For Both", "<tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}> <tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> <tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}>"]
+                    ["For Bossing", "<tt src={/class-icons/heroes/mercedes/unicorn-spike.png} tip={Unicorn Spike (3rd Job)}> <tt src={/class-icons/heroes/mercedes/ishtars-ring.png} tip={Ishtar's Ring (4th Job)}> <tt src={/class-icons/heroes/mercedes/stunning-strikes.png} tip={Stunning Strikes and Final Attack (2nd Job / 3rd Job)}>"],
+                    ["For Training", "<tt src={/class-icons/heroes/mercedes/leap-tornado.png} tip={Leap Tornado and Gust Dive (3rd Job)}> <tt src={/class-icons/heroes/mercedes/spikes-royale.png} tip={Spikes Royale (4th Job)}> <tt src={/class-icons/heroes/mercedes/wrath-of-enlil.png} tip={Wrath of Enlil (Hyper Skill)}>"],
+                    ["For Both", "<tt src={/class-icons/heroes/mercedes/rising-rush.png} tip={Rising Rush, Parting Shot, Aerial Barrage, and Rolling Moonsault (2nd/3rd/4th Job)}> <tt src={/class-icons/heroes/mercedes/lightning-edge.png} tip={Lightning Edge (4th Job)}> <tt src={/class-icons/heroes/mercedes/elemental-knights.png} tip={Elemental Knights (3rd Job)}>"]
                 ],
                 "notes": [
                     "Any combination of these skills are good but preferred from same category to match bossing and training priorities",
@@ -120,12 +125,14 @@
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Mercedes"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "https://discord.gg/tJWfMrdFBJ"},
             {"title": "Class Doc", "link": "https://docs.google.com/document/d/1Sz5rdODR3cgaw3WcfjjVN_OBQV2298vc_kVyFOfdh_8"}
         ],
         "specialThanks": "merc best class",
+        "discord": "https://discord.gg/tJWfMrdFBJ",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
-            ["Inner Ability","Maple Central"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"],
             ["5th Job Skills Animations", "KyoWantsCute"]
         ],
         "extraContent": {
@@ -675,7 +682,7 @@
             ]
         },
         "fifth": {
-            "fifthCommon": ["freudsWisdom","goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthCommon": ["freudsWisdom", "goddessBlessing", "guidedArrow", "viciousShot"],
             "fifthMain": [
                 {
                     "name": "Spirit of Elluel",

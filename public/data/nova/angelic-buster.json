@@ -13,9 +13,17 @@
         ],
         "innerAbility": [
             {
-                "name": "Ideal Preset",
+                "name": "For Bossing",
                 "abilities": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%"],
-                "notes": "%Buff Duration replaces %Dmg to Abnormal Status as Link Skill benefits more from Buff Duration IA. For Training, +15% Meso Obtained and +15% Item Drop Rate can be used for 2nd & 3rd Line"
+                "notes": "%Buff Duration replaces %Dmg to Abnormal Status as Link Skill benefits more from Buff Duration IA"
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Chance to Skip Cooldown +10%"]
+            },
+            {
+                "name": "For Training (Alternative)",
+                "abilities": ["Attack Speed +1", "Item Drop Rate +15%", "Meso Obtained +15%"]
             }
         ],
         "attackStats": [
@@ -111,8 +119,8 @@
         "nodeInfo": {
             "recommended": {
                 "nodes": [
-                    ["Bossing Trio", "<tt src={/class-icons/nova/angelic-buster/trinity.png} tip={Trinity and Trinity Fusion (4th Job / 5th Job)}> <tt src={/class-icons/nova/angelic-buster/supreme-supernova.png} tip={Supreme Supernova (Hyper Skill)}> <tt src={/class-icons/nova/angelic-buster/soul-seeker.png} tip={Soul Seeker and Soul Seeker Expert (3rd Job / 4th Job)}>"],
-                    ["Mobbing Trio", "<tt src={/class-icons/nova/angelic-buster/celestial-roar.png} tip={Celestial Roar (4th Job)}> <tt src={/class-icons/nova/angelic-buster/soul-resonance.png} tip={Soul Resonance (4th Job)}> <tt src={/class-icons/nova/angelic-buster/finale-ribbon.png} tip={Finale Ribbon (4th Job)}>"]
+                    ["Primary Trio", "<tt src={/class-icons/nova/angelic-buster/trinity.png} tip={Trinity and Trinity Fusion (4th Job / 5th Job)}> <tt src={/class-icons/nova/angelic-buster/celestial-roar.png} tip={Celestial Roar (4th Job)}> <tt src={/class-icons/nova/angelic-buster/soul-seeker.png} tip={Soul Seeker and Soul Seeker Expert (3rd Job / 4th Job)}>"],
+                    ["Secondary Trio", "<tt src={/class-icons/nova/angelic-buster/supreme-supernova.png} tip={Supreme Supernova (Hyper Skill)}> <tt src={/class-icons/nova/angelic-buster/soul-resonance.png} tip={Soul Resonance (4th Job)}> <tt src={/class-icons/nova/angelic-buster/finale-ribbon.png} tip={Finale Ribbon (4th Job)}>"]
                 ],
                 "notes": [
                     "Either categories can be maxed first based on if you prioritize bossing or mobbing",
@@ -146,7 +154,7 @@
             ["Skill Icons + Animations", "Ikasuu"],
             ["Infographic", "TQ"],
             ["6th Job Infographic", "Rai, Aux, and Boosty"],
-            ["Boost Nodes Build + Inner Ability + Hyper Passive Build","Angelic Buster Discord"]
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Class Doc"]
         ]
     },
     "skill": {
