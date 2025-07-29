@@ -123,7 +123,7 @@
             "recommended": {
                 "nodes": [
                     ["Primary Trio", "<tt src={/class-icons/cygnus-knights/thunder-breaker/thunderbolt.png} tip={Thunderbolt (4th Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/annihilate.png} tip={Annihilate (4th Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/gale.png} tip={Gale and Typhoon (3rd Job / 4th Job)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/cygnus-knights/thunder-breaker/ascension.png} tip={Ascension (3rd Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/deep-rising.png} tip={Deep Rising (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash and Sea Wave (2nd Job)}> "]
+                    ["Secondary Trio", "<tt src={/class-icons/cygnus-knights/thunder-breaker/ascension.png} tip={Ascension (3rd Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/deep-rising.png} tip={Deep Rising (Hyper Skill)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash and Sea Wave (2nd Job)}>"]
                 ],
                 "notes": [
                     "Any combination of these skills are good but preferred from same category as you want to max primary first",
@@ -886,7 +886,7 @@
                     "name": "Thunder Bolt",
                     "shortDesc": "When attacking Lightning Brand marked enemies with a direct attack skill (excluding HEXA Annihilate and Tidal Crash), Lightning Strike hits the enemy. Damage: 380%, Number of Attacks: 3\\nCreate a massive thunderbolt instead when using linked skills (excluding Sea Wave, Lightning Spear Multistrike's linked attack, and Thunder Wall Sea Wave). Damage: 340%, Number of Attacks: 5\\nBoss Damage: +40%, Ignore Defense: +20%",
                     "icons": ["/class-icons/cygnus-knights/thunder-breaker/thunder-bolt.png"],
-                    "type": "Passive",
+                    "type": "Passive Attack",
                     "desc": "",
                     "details": [
                         "Unlocked with 1st Mastery Node"
@@ -911,6 +911,66 @@
                     "desc": "",
                     "details": [
                         "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-typhoon-deep-rising.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/thunder-breaker/gale.png} tip={Gale and Typhoon (3rd Job / 4th Job)}> <tt src={/class-icons/cygnus-knights/thunder-breaker/deep-rising.png} tip={Deep Rising (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Typhoon",
+                    "shortDesc": "MP Cost: 59, Can be used when Lightning Charge stack is 2\\nUses all Lightning Charge stacks, Max Enemies Hit: 8, Damage: 831%, Number of Attacks: 5. When used at max Lightning Charge stacks, Damage: +250% points\\nDamage: +3% per Lightning Charge used, Buff Duration: 95 sec\\nHowever, this skill doesn't generate Lightning Charges.\\ncooldown: 12 sec.",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-typhoon.png", "/class-icons/cygnus-knights/thunder-breaker/typhoon.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Deep Rising",
+                    "shortDesc": "MP Cost: 410, Max Enemies Hit: 15, Damage: 1380%, Number of Attacks: 7, Invincible during casting\\nCooldown: 45 sec.",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-deep-rising.png", "/class-icons/cygnus-knights/thunder-breaker/deep-rising.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-sea-wave-deep-reinforcement.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/cygnus-knights/thunder-breaker/tidal-crash.png} tip={Tidal Crash and Sea Wave (2nd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Sea Wave",
+                    "shortDesc": "MP Cost: 95, created when linking skill and not under cooldown\\nFlows in a fixed direction, Max Enemies Hit: 5, Damage: 1010%, Number of Attacks: 5\\nDisappears when moving a distance of 2700 or the number of enemies attacked is 24\\nMax Attack on Single Enemy: 1\\nCooldown: 12 sec.\\n[Passive Effect: HEXA Annihilate Damage: +47% points]",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/hexa-sea-wave.png", "/class-icons/cygnus-knights/thunder-breaker/sea-wave.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+{
+                    "name": "Deep Reinforcement",
+                    "shortDesc": "Creates a shield that blocks up to 4% of Max HP for 2 sec. upon landing linked skill.\\nThe shield stacks up to 15% of Max HP and dissipates by 25% + 50 every second",
+                    "icons": ["/class-icons/cygnus-knights/thunder-breaker/deep-reinforcement.png"],
+                    "type": "Passive Buff",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
                     ]
                 }
             ],

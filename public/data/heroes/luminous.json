@@ -14,11 +14,11 @@
         "innerAbility": [
             {
                 "name": "For Bossing",
-                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Boss Damage +10%"]
+                "abilities": ["Attack Speed +1", "Buff Duration +38%", "Chance to Skip Cooldown +10% OR Boss Damage +10%"]
             },
             {
                 "name": "For Training",
-                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
+                "abilities": ["Number of enemies hit by multi-target skill +1", "Meso Obtained +15%", "Item Drop Rate +15%"]
             }
         ],
         "attackStats": [
@@ -923,10 +923,62 @@
                     "name": "Endless Darkness",
                     "shortDesc": "MP Cost: 80, Max Enemies Hit: 6, Damage: 1580%, Number of Attacks: 5\\nCooldown: 2 sec\\n[Passive Effect: HEXA Ender Damage: +130%p]",
                     "icons": ["/class-icons/heroes/luminous/endless-darkness.png"],
-                    "type": "Passive",
+                    "type": "Passive Attack",
                     "desc": "Successful Dark or Equilibrium attacks while in Dark or Equilibrium mode periodically triggers an additional attack",
                     "details": [
-                        "Unlocked with 2nd Mastery Node"
+                        "Unlocked with 2nd Mastery Node",
+                        "Shares a cooldown with <tt src={/class-icons/heroes/luminous/eternal-light.png} tip={Eternal Light (6th Job)}>"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/luminous/hexa-apocalypse-eternal-light.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/luminous/apocalypse.png} tip={Apocalypse (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Apocalypse",
+                    "shortDesc": "MP Cost: 118, Max Enemies Hit: 8, Damage: 768%, Number of Attacks: 7",
+                    "icons": ["/class-icons/heroes/luminous/hexa-apocalypse.png", "/class-icons/heroes/luminous/apocalypse.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Eternal Light",
+                    "shortDesc": "MP Cost: 80, Max Enemies Hit: 6, Damage: 1355%, Number of Attacks: 7\\nCooldown: 2 sec",
+                    "icons": ["/class-icons/heroes/luminous/eternal-light.png"],
+                    "type": "Passive Attack",
+                    "desc": "Successful Light or Equilibrium attacks while in Light or Equilibrium mode periodically triggers an additional attack",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node",
+                        "Shares a cooldown with <tt src={/class-icons/heroes/luminous/endless-darkness.png} tip={Endless Darkness (6th Job)}>"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/heroes/luminous/hexa-twilight-nova.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/heroes/luminous/twilight-nova-1.png} tip={Twilight Nova (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Twilight Nova",
+                    "shortDesc": "MP Cost: 91, Max Enemies Hit: 8\\nSunfire - Damage: 1630%, Number of Attacks: 7, Number of Explosions: 3\\nEclipse - Damage: 1630%, Number of Attacks: 7, Number of Explosions: 3\\nEquilibrium - Damage: 1125%, Number of Attacks: 7, Number of Explosions: 4\\nCooldown: 15 sec",
+                    "icons": ["/class-icons/heroes/luminous/hexa-twilight-nova.png", "/class-icons/heroes/luminous/hexa-twilight-nova-2.png", "/class-icons/heroes/luminous/hexa-twilight-nova-3.png", "/class-icons/heroes/luminous/twilight-nova-1.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
                     ]
                 }
             ],

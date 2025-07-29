@@ -184,7 +184,7 @@
             "recommended": {
                 "nodes": [
                     ["Primary Trio", "<tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow (4th Job)}> <tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)}> <tt src={/class-icons/explorers/hero/rising-rage.png} tip={Rising Rage (Hyper Skill)}> <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (4th Job)}>"]
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)}> <tt src={/class-icons/explorers/hero/rising-rage.png} tip={Rising Rage (Hyper Skill)}> <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (3rd Job)}>"]
                 ],
                 "notes": [
                     "Any combination of these skills are good but preferred from same category as you want to max primary first",
@@ -933,6 +933,76 @@
                     "desc": "",
                     "details": [
                         "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/hero/hexa-beam-blade-rending-edge.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Beam Blade",
+                    "shortDesc": "MP Cost: 32. Launches blades that deal 462% damage 5 times to up to 8 enemies.\\nHEXA Beam Blade Normal Enemy Damage: +290% points\\nPrepares 1 Beam Blade every 4 sec. Up to 2 can be charged\\nAttack again within 2 sec. to use Final Blade for the next attack\\nFinal Blade: Max Enemies Hit: 8, Damage: 693%, Number of Attacks: 5",
+                    "icons": ["/class-icons/explorers/hero/hexa-beam-blade-1.png", "/class-icons/explorers/hero/hexa-beam-blade-2.png", "/class-icons/explorers/hero/beam-blade.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "Rending Edge",
+                    "shortDesc": "Creates a sword scar when landing directly attacking skills 5 times\\nSword Scar, Max Enemies Hit: 8, Damage: 277%, Number of Attacks: 3\\nCry Valhalla, Instinctual Combo, and Spirit Calibur are counted as 1 attack upon landing 2 times\\nSword scars disappear after 4 attacks, Up to 5 can be created\\nCreates up to 10 during Instinctual Combo",
+                    "icons": ["/class-icons/explorers/hero/rending-edge.png"],
+                    "type": "Passive Attack",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["/class-icons/explorers/hero/hexa-cry-valhalla.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)}> <tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Final Attack",
+                    "shortDesc": "[Final Attack Skill] Has a 61% chance to deal 266% with a Final Attack that attacks 3 times.",
+                    "icons": ["/class-icons/explorers/hero/hexa-final-attack.png", "/class-icons/common/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Puncture",
+                    "shortDesc": "MP Cost: 42, Max Enemies Hit: 8, Damage: 640%, Number of Attacks: 4, Normal Enemy Damage: +50%\\nAttacked enemies have a 100% chance to take 266% damage every 2 sec., for 60 sec. Critical Hits deal 26% more damage to afflicted enemies.\\nWhen a party member attacks, this increases by 11%.",
+                    "icons": ["/class-icons/explorers/hero/hexa-puncture.png", "/class-icons/explorers/hero/puncture.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Cry Valhalla",
+                    "shortDesc": "MP Cost: 360, Knockdown Immunity Duration: 30 sec., combo fully charged\\nWhile the buff is active, Attack Power: +50, Critical Rate: +30%, Status Resistance: +100, Elemental Resistance: +100%\\n3 sword strikes periodically occur, dealing 1010% damage to up to 6 enemies 2 times. Sword strikes occur up to 12 times, with no more occuring afterwards.\\nCooldown: 120 sec.",
+                    "icons": ["/class-icons/explorers/hero/hexa-cry-valhalla.png", "/class-icons/explorers/hero/cry-valhalla.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
                     ]
                 }
             ],
