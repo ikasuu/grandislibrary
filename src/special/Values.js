@@ -37,7 +37,7 @@ export const classes = {
     sengoku: [["kanna", "Kanna"], ["hayato", "Hayato"]],
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
     other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
-    anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"]],
+    anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"], ["len", "Len"]],
     jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
     shine: [["sia-astelle", "Sia Astelle"]]
 }
@@ -81,7 +81,8 @@ export const weapons = {
     whispershot: [`https://maplestory.io/api/GMS/${version}/item/1214007/icon`, "Whispershot"],
     chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"],
     martialBrace: [`http://localhost:3000/grandislibrary/images/equipment/martial-brace.png`, "Martial Brace"],
-    celestialLight: [`http://localhost:3000/grandislibrary/images/equipment/celestial-light.png`, "Celestial Light"]
+    celestialLight: [`http://localhost:3000/grandislibrary/images/equipment/celestial-light.png`, "Celestial Light"],
+    lenLongSword: [`http://localhost:3000/grandislibrary/images/equipment/long-sword.png`, "Long Sword"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -136,7 +137,8 @@ export const secondaryWeapons = {
     ornament: [`https://maplestory.io/api/GMS/${version}/item/1354023/icon`,"Ornament"],
     hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"],
     braceBand: [`http://localhost:3000/grandislibrary/images/equipment/brace-band.png`, "Brace Band"],
-    compass: [`http://localhost:3000/grandislibrary/images/equipment/compass.png`, "Compass"]
+    compass: [`http://localhost:3000/grandislibrary/images/equipment/compass.png`, "Compass"],
+    wishGrantingJewel: [`http://localhost:3000/grandislibrary/images/equipment/wish-granting-jewel.png`, "Wish-Granting Jewel"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name

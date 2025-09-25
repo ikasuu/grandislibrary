@@ -1,0 +1,909 @@
+{
+    "class": "Len",
+    "content": {
+        "classGroup": "Anima",
+        "jobGroup": "Warrior",
+        "mainStat": "STR",
+        "secondaryStat": "DEX",
+        "legion": "Grants Speed and Max Speed",
+        "legionValue": "2/4/6/8/10",
+        "equipment": [
+            {"weapon": ["lenLongSword"]},
+            {"secondary": ["wishGrantingJewel"]}
+        ],
+        "innerAbility": [
+            {
+                "name": "1st Line Options",
+                "abilities": ["Boss Damage +20%", "Damage to Abnormal Status +8%", "Buff Duration +38% / Attack +21"]
+            },
+            {
+                "name": "For Training",
+                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
+            }
+        ],
+        "attackStats": [
+            {
+                "name": "Weapon Multiplier",
+                "stat": "1.3x"
+            },
+            {
+                "name": "Attack Speed",
+                "stat": "8",
+                "detail": "<bg val={Stage 6}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/attack-speed.png} tip={Attack Speed (2nd Job)} val={+2}>"
+            },
+            {
+                "name": "Weapon Mastery",
+                "stat": "95%",
+                "detail": "<bg val={Base +20%}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/advanced-longsword-mastery.png} tip={Advanced Longsword Mastery (4th Job)} val={+70%}>"
+            },
+            {
+                "name": "STR",
+                "stat": "+40 & +15% to assigned AP",
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+60}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/anima-warrior.png} tip={Anima Warrior (4th Job)} val={+15% to assigned AP}>"
+            },
+            {
+                "name": "Attack",
+                "stat": "+4% +135",
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} val={+4%}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive.png} tip={Damage Passive (1st Job)} val={+30}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/mastery.png} tip={Mastery (2nd Job)} val={+30}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/advanced-longsword-mastery.png} tip={Advanced Longsword Mastery (4th Job)} val={+30}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive-3.png} tip={Damage Passive 3 (4th Job)} val={+57}>"
+            },
+            {
+                "name": "Crit Rate",
+                "stat": "+45%",
+                "detail": "<bg val={Base +5%}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive.png} tip={Damage Passive (1st Job)} val={+15%}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/crit-damage.png} tip={Crit Damage (2nd Job)} val={+20%}> <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive-2.png} tip={Crit Damage 2 (3rd Job)} val={+10%}>"
+            },
+            {
+                "name": "Crit Damage",
+                "stat": "+20%(30%)",
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/true-eye.png} tip={True Eye (4th Job)} val={+10%}>"
+            },
+            {
+                "name": "Damage",
+                "stat": "+25%(90%)",
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/true-eye.png} tip={True Eye (4th Job)} val={+10%}> <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+40%}> <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +30%}>"
+            },
+            {
+                "name": "Boss Damage",
+                "stat": "+0%",
+                "detail": ""
+            },
+            {
+                "name": "Final Damage",
+                "stat": "+97.93%(125.97%)",
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive.png} tip={Damage Passive (1st Job)} val={+5%}> × <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/crit-damage.png} tip={Crit Damage (2nd Job)} val={+10%}> × <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive-2.png} tip={Crit Damage 2 (3rd Job)} val={+10%}> × <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/advanced-longsword-mastery.png} tip={Advanced Longsword Mastery (4th Job)} val={+6%}> × <bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive-3.png} tip={Damage Passive 3 (4th Job)} val={+20%}> × <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+            },
+            {
+                "name": "Ignore DEF",
+                "stat": "+40%(49%)",
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/anima/len/true-eye.png} tip={True Eye (4th Job)} val={+40%}> × <bg type={opt} src={http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+            },
+            {
+                "name": "Summon Duration",
+                "stat": "+10%",
+                "detail": "<bg src={http://localhost:3000/grandislibrary/class-icons/common/spirit-affinity.png} tip={Spirit Affinity (Beginner)} val={+10%}>"
+            }
+        ],
+        "buffInfo": {
+            "active": "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/attack-speed.png} tip={Attack Speed (2nd Job)}} dur={[200s]}>",
+            "toggles": "",
+            "summons": "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/apricot-tree.png} tip={Apricot Tree (5th Job)} dur={[20s](120s cd)}>",
+            "buffCd": "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/elevation.png} tip={Elevation (Hyper Skill)} dur={[30s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[1800s](400s cd | 1400s cd on revive)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/binding-branch.png} tip={Binding Branch (Hyper Skill)} dur={[10s](120s cd)}>",
+            "iFrame": "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/zero-blade.png} tip={Zero Blade (4th Job)} dur={[3s](70s cd)}> <tt src={http://localhost:3000/grandislibrary/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[3.5s iFrame | 1800s Buff](400s cd | 1400s cd on revive)}>",
+            "damageReduce": "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/dance-of-annihilation.png} tip={Dance of Annihilation (5th Job)} dur={[Up to 5s](-50% | 120s cd)}>"
+        },        
+        "linkSkill": {
+            "id": 160020001,
+            "offline": true,
+            "name": "Rigid Body",
+            "shortDesc": "Reduces damage taken by 4%, including attacks at a certain ratio of maximum HP",
+            "icons": ["http://localhost:3000/grandislibrary/class-icons/link-skills/rigid-body.png"],
+            "maxLevel": 2,
+            "type": "Passive"
+        },
+        "buildPath": {
+            "build": [
+                ["1st Job", "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/leap-up.png} tip={Leap Up}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/jump-for-joy.png} tip={Jump For Joy!}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/peerless-mountain.png} tip={Peerless Mountain}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/response.png} tip={Response}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/mountain-kid.png} tip={Mountain Kid}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/essence-sprinkle.png} tip={Essence Sprinkle}>"],
+                ["2nd Job", "<tt src={http://localhost:3000/grandislibrary/class-icons/common/physical-training.png} tip={Fortune Fitness}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/wand-mastery.png} tip={Wand Mastery}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/wand-booster.png} tip={Wand Booster}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/mountain-seeds.png} tip={Mountain Seeds}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/eruption-heaving-river.png} tip={Eruption: Heaving River}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/eruption-whirlwind.png} tip={Eruption: Whirlwind}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/eruption-sunrise-well.png} tip={Eruption: Sunrise Well}>"],
+                ["3rd Job", "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/geomancy.png} tip={Geomancy}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/dragon-vein-traces.png} tip={Dragon Vein Traces}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/dragon-vein-echo.png} tip={Dragon Vein Echo}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/immaculate-thought.png} tip={Immaculate Thought}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/wakeup-call.png} tip={Wakeup Call}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/manifestation-sunlight-filled-ground.png} tip={Manifestation: Sunlight-Filled Ground}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/manifestation-wind-swing.png} tip={Manifestation: Wind Swing}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/manifestation-where-the-river-courses.png} tip={Manifestation: Where the River Courses}>"],
+                ["4th Job", "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/nature-master.png} tip={Nature Master}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/best-friend.png} tip={Best Friend}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/in-depth-geomancy.png} tip={In-depth Geomancy}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/insight.png} tip={Insight}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/advanced-wand-mastery.png} tip={Advanced Wand Mastery}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/relaxation.png} tip={Relaxation}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/anima-warrior.png} tip={Anima Warrior}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/absorption-sunlit-grain.png} tip={Absorption: Sunlit Grain}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/absorption-fierce-wind.png} tip={Absorption: Fierce Wind}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/absorption-river-puddle-douse.png} tip={Absorption: River Puddle Douse}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/anima-heros-will.png} tip={Anima Hero's Will}> -> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/mountain-embrace.png} tip={Mountain Embrace}>"]
+            ],              
+            "details": [
+                "All 1st to 4th Job skills can be maxed",
+                "Put one SP into each skill first and then max each skill in this order",
+                "For any skills that have prerequisites, follow them first before following build path"
+            ]
+        },
+        "hyperBuild": {
+            "recommended": "<bp_<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/soul-strike-reinforce.png} tip={Lost Soul Sword Fundamental: Soul Strike – Reinforce}> Lost Soul Sword Fundamental: Soul Strike – Reinforce_<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash-reinforce.png} tip={Plum Blossom Sword Fundamental: Relentless Slash – Reinforce}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash-boss-slayer.png} tip={Plum Blossom Sword Fundamental: Relentless Slash – Boss Killer}> Plum Blossom Sword Fundamental: Relentless Slash - Reinforce and Boss Rush_<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/lost-soul-advent-reinforce.png} tip={Lost Soul Advent – Reinforce}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/lost-soul-advent-guardbreak.png} tip={Lost Soul Advent – Ignore Guard}> Lost Soul Advent - Reinforce and Guardbreak_>" 
+        },
+        "nodeInfo": {
+            "recommended": {
+                "nodes": [
+                    ["Primary Trio", "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/final-attack.png} tip={Lost Soul Sword Fundamental: Soul Strike (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/petal-attack.png} tip={Plum Blossom Sword 2nd Form: Scattering Plums (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash.png} tip={Plum Blossom Sword Fundamental: Relentless Slash (4th Job)}>"],
+                    ["Secondary Trio", "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/season-attack-1.png} tip={Lost Soul Sword Ultimate: Splitting Ground / Void Fang / Infinite Blades (3rd Job / 4th Job / Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/keen-blade-1.png} tip={Plum Blossom Sword 3rd Form: Keen Blade (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/actual-final-attack.png} tip={Lost Soul Sword 2nd Form: Connected Slash / Plum Blossom Sword 4th Form: Zero Blade (4th Job)}>"]
+                ],
+                "notes": [
+                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
+                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
+                ]
+            },
+            "possible": {
+                "nodes": "<tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/aw-slash.png} tip={Plum Blossom Sword Fundamental: Slash (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/aw-stab.png} tip={Plum Blossom Sword Fundamental: Stab (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/final-attack.png} tip={Lost Soul Sword Fundamental: Soul Strike (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/aw-gash.png} tip={Plum Blossom Sword Fundamental: Pierce (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/petal-attack.png} tip={Plum Blossom Sword 2nd Form: Scattering Plums (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/season-attack-1.png} tip={Lost Soul Sword Ultimate: Splitting Ground / Void Fang / Infinite Blades (3rd Job / 4th Job / Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash.png} tip={Plum Blossom Sword Fundamental: Relentless Slash (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/keen-blade-1.png} tip={Plum Blossom Sword 3rd Form: Keen Blade (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/actual-final-attack.png} tip={Lost Soul Sword 2nd Form: Connected Slash / Plum Blossom Sword 4th Form: Zero Blade (4th Job)}>"
+            }
+        },
+        "moreInfo": [
+            {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Len"},
+            {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%A0%8C(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
+            {"title": "Class Discord", "link": "http://discord.gg/52rC3geGqC"}
+        ],
+        "specialThanks": "Special thanks to the members of the Len Discord for their help in making this overview!",
+        "discord": "http://discord.gg/52rC3geGqC",
+        "credits": [
+            ["Skill Icons + Animations", "Ikasuu"],
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Len Discord"]
+        ]
+    },
+    "skill": {
+        "primary":[
+            [
+                "Beginner", [
+                {
+                    "name": "Return",
+                    "shortDesc": "Consumes 5 MP. Teleport to the Serpent’s Lake.\\nCooldown: 600 sec",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/return.png"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "This skill is obtained from the Len storyline"
+                    ]
+                },
+                {
+                    "name": "Shapeshift",
+                    "shortDesc": "When used, hide your ears and equip your hair accessory. When used again, hide both your ears and hair accessory.\\nCooldown: 2 seconds.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/shapeshift.png"],
+                    "type": "Active",
+                    "desc": "",
+                    "details": [
+                        "This skill is obtained from the Len storyline"
+                    ]
+                },
+                {
+                    "name": "Exclusive Spell",
+                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/exclusive-spell.png"],
+                    "type": "Buff",
+                    "desc": "",
+                    "reqLev": "Req. 200",
+                    "details": [
+                        "To obtain this skill, complete Len's storyline",
+                        "Affects all nearby players"
+                    ]
+                },
+                {
+                    "name": "Spirit Affinity",
+                    "shortDesc": "Minion Duration +10%",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/common/spirit-affinity.png"],
+                    "type": "Passive"
+                }]
+            ],
+            [
+                "1st Job", [
+                    {
+                        "name": "Plum Blossom Sword Fundamental: Slash",
+                        "shortDesc": "Consumes 10 MP. Deals 210% damage 2 times on up to 5 enemies.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/aw-slash.png"],
+                        "type": "Attack",
+                        "desc": "Slash forward"
+                    },
+                    {
+                        "name": "Clear Breeze Step",
+                        "shortDesc": "Consumes 5 MP. Jump a certain distance.",
+                        "maxLevel": 5,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/jump.png"],
+                        "type": "Active",
+                        "desc": "Double jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing jump twice"
+                        ]
+                    },
+                    {
+                        "name": "Plum Blossom Secret",
+                        "shortDesc": "Consumes 10 MP. Jump a certain distance.\\nIf you hold the skill key down after using it, you can float for 1 second. If you float, there is a 5 second cooldown.\\n[Passive Effect: 40% stance]",
+                        "maxLevel": 10,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/up-jump.png"],
+                        "type": "Active",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Can be assigned a Key Slot or activated by pressing the Up Arrow Key and Jump Key while in the air",
+                            "After using, holding the Jump Key will allow you to slowly float down<bp_You can move while floating_>"
+                        ]
+                    },
+                    {
+                        "name": "Clear Breeze Mindfulness",
+                        "shortDesc": "20 movement speed, 20 maximum movement speed, 20 jump.",
+                        "maxLevel": 10,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/speed-passive.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Clear and Pure Mind",
+                        "shortDesc": "30 attack, 15% critical rate, 5% final damage.\\n20% damage reduction.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "2nd Job", [
+                    {
+                        "name": "Plum Blossom Sword Fundamental: Stab",
+                        "shortDesc": "Consumes 20 MP. Deals 263% damage 3 times on up to 5 enemies.",
+                        "maxLevel": 1,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/aw-stab.png"],
+                        "type": "Attack",
+                        "desc": "Stab forward"
+                    },
+                    {
+                        "name": "Plum Blossom Sword 1st Form: Gentle Dash",
+                        "shortDesc": "Consumes 20 MP. Draw your sword and teleport forwards. After drawing your sword, you can re-input the skill to sheathe it. If you sheathe the sword, you can teleport backwards.\\n[Passive Effect: 10% max HP]",
+                        "maxLevel": 1,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/aw-teleport-1.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/aw-teleport-2.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/aw-teleport-3.png"],
+                        "type": "Active",
+                        "desc": "Dash forward",
+                        "details": [
+                            "Pressing the Skill Key again will perform a dash again"
+                        ]
+                    },
+                    {
+                        "name": "Longsword Booster",
+                        "shortDesc": "Consumes 10 MP. For 200 seconds, increases the Longsword’s attack speed by 2 stages.",
+                        "maxLevel": 10,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/attack-speed.png"],
+                        "type": "Buff"
+                    },
+                    {
+                        "name": "Lost Soul Sword Fundamental: Soul Strike",
+                        "shortDesc": "When Plum Blossom Sword Fundamental or Dance of Annihilation hits an enemy, there is a 35% chance to activate at the hit enemy’s location. If the hit enemy is already defeated, it will activate at the character’s location.\\nDeals 300% damage 4 times on up to 8 enemies.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/final-attack.png"],
+                        "type": "Passive Attack",
+                        "desc": "Successful attacks have a chance to deal a slashing attack"
+                    },
+                    {
+                        "name": "Longsword Mastery",
+                        "shortDesc": "50% Longsword mastery, 30 attack.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/mastery.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Physical Training",
+                        "shortDesc": "Increase Strength by 60",
+                        "maxLevel": 10,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/common/physical-training.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Clear and Pure Mind II",
+                        "shortDesc": "20% critical rate, 10% final damage.",
+                        "maxLevel": 9,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/crit-damage.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "3rd Job", [
+                    {
+                        "name": "Plum Blossom Sword Fundamental: Pierce",
+                        "shortDesc": "Consumes 30 MP. Deals 408% damage 4 times on up to 6 enemies.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/aw-gash.png"],
+                        "type": "Attack",
+                        "desc": "Brandish forward"
+                    },
+                    {
+                        "name": "Plum Blossom Sword 2nd Form: Scattering Plums",
+                        "shortDesc": "When your directly attacking skills hit an enemy, there is a 35% activation chance.\\nCreate 5 plum blossom petals that deal 120% damage 3 times. When attacking normal monsters, damage is increased by 120%p.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/petal-attack.png"],
+                        "type": "Passive Attack"
+                    },
+                    {
+                        "name": "Lost Soul Sword Fundamental: Soul Strike II",
+                        "shortDesc": "When Plum Blossom Sword Fundamental or Dance of Annihilation hits an enemy, there is a 35% chance to activate at the hit enemy’s location. If the hit enemy is already defeated, it will activate at the character’s location.\\nDeals 450% damage 4 times on up to 8 enemies.",
+                        "maxLevel": 10,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/final-attack-2.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "name": "Lost Soul Sword 1st Form: Vital Energy",
+                        "shortDesc": "When your attack hits an enemy, there is a 35% activation chance to recover 2.2% max HP and activate the buff.\\nThe buff has a 4 second duration. During the buff, increases status resistance by 100.\\nReactivation cooldown: 6 seconds.",
+                        "maxLevel": 14,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/recovery-buff.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Lost Soul Advent",
+                        "shortDesc": "For each Ultimate, for 15 seconds you can input the skill key to use the Lost Soul Sword Ultimates you have learned.\\nThe Ultimates will be used in the order of Splitting Ground, Void Fang, Infinite Blades, and Soul Blade.\\nReactivation cooldown: 20 seconds.",
+                        "maxLevel": 1,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/season-buff.png"],
+                        "type": "Key-down Attack"
+                    },
+                    {
+                        "name": "Lost Soul Sword Ultimate: Splitting Ground",
+                        "shortDesc": "Consumes 40 MP.\\nSlash forwards, dealing 550% damage 5 times on up to 10 enemies. Afterwards, a sword slash splits the ground, dealing 689% damage 7 times on up to 10 enemies.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/season-attack-1.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Clear and Pure Mind III",
+                        "shortDesc": "20% max HP, 10% critical rate, 10% final damage.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive-2.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Strong Body",
+                        "shortDesc": "200 defense, 30 status resistance, 60% stance.\\n20% damage reduction, 30% elemental resistance.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/strong-spirit.png"],
+                        "type": "Passive"
+                    }]
+                ],
+                [
+                "4th Job", [
+                    {
+                        "name": "Plum Blossom Sword Fundamental: Relentless Slash",
+                        "shortDesc": "Consumes 9 MP. Continuously deals 168% damage 5 times on up to 8 enemies.",
+                        "maxLevel": 30,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash.png"],
+                        "type": "Key-down Attack",
+                        "desc": "While held, slash forward"
+                    },
+                    {
+                        "name": "오도",
+                        "shortDesc": "MP 120 consumption\\nInput the direction key to convert some of the herbors of the plum sword into a German martial arts.\\n3 seconds meal : 3 seconds meals: conversion to a striking teeth\\n1 second cooldown",
+                        "maxLevel": 1,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/ohdo.png"],
+                        "type": "Active"
+                    },
+                    {
+                        "name": "Plum Blossom Sword 3rd Form: Keen Blade",
+                        "shortDesc": "Consumes 80 MP. Continuously deals 590% damage 4 times on up to 6 enemies.\\nOnly 1 sword slash can exist on the map. It can be created up to 28 times, including the first cast. A single enemy can only be hit up to 3 times.\\nYou will prepare 1 sword slash every 10 seconds, and you can hold up to 2.\\nIf you switch between Keen Blade and Single Strike Keen Blade, you cannot use the skill during Single Strike Keen Blade’s cooldown, and all of Keen Blade’s prepared sword slashes will be reset.\\n--------Single Strike Keen Blade--------\\nConsumes 80 MP. Continuously deals 210% damage 7 times on up to 6 enemies. A single enemy can only be hit up to 20 times.\\nCooldown: 30 seconds.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/keen-blade-1.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/keen-blade-2.png"],
+                        "type": "Attack"
+                    },
+                    {
+                        "name": "Plum Blossom Sword 4th Form: Zero Blade",
+                        "shortDesc": "Consumes 100 MP. For 3 seconds, you are invincible.\\nDeals 395% damage 6 times on up to 8 enemies.\\nCooldown: 70 seconds.",
+                        "maxLevel": 10,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/zero-blade.png"],
+                        "type": "Attack"
+                    },
+                    {
+                        "name": "Lost Soul Sword Fundamental: Soul Strike III",
+                        "shortDesc": "When Plum Blossom Sword Fundamental or Dance of Annihilation hits an enemy, there is a 35% chance to activate at the hit enemy’s location. If the hit enemy is already defeated, it will activate at the character’s location.\\nDeals 743% damage 4 times on up to 8 enemies.",
+                        "maxLevel": 30,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/final-attack-3.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "name": "Lost Soul Sword 2nd Form: Connected Slash",
+                        "shortDesc": "[Final Attack Type Skill] 60% chance to deal 209% damage 2 times.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/actual-final-attack.png"],
+                        "animations": ["https://media.giphy.com/media/YpkkYQHk60gMTYC3x6/giphy.gif"],
+                        "type": "Final Attack Passive"
+                    },
+                    {
+                        "name": "Lost Soul Sword Ultimate: Void Fang",
+                        "shortDesc": "Consumes 40 MP. Deals 1251% damage 9 times on up to 10 enemies.",
+                        "maxLevel": 30,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/void-fang.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Anima Warrior",
+                        "shortDesc": "MP Cost: 70, Grandis Goddess appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                        "maxLevel": 30,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/anima-warrior.png"],
+                        "animations": ["https://media.giphy.com/media/dxKHUb2pJZ0KtUUN76/giphy.gif"],
+                        "type": "Passive / Active",
+                        "desc": "",
+                        "details": [
+                            "Skill is a passive, the active effect does nothing except displays an animation"
+                        ]
+                    },
+                    {
+                        "name": "Anima Hero's Will",
+                        "shortDesc": "MP Cost: 30, Cooldown: 300 sec",
+                        "maxLevel": 5,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/anima-heros-will.png"],
+                        "animations": ["https://media.giphy.com/media/pMycAFAcwkRSv6CCV5/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
+                        "details": [
+                            "Unaffected by <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Advanced Longsword Mastery",
+                        "shortDesc": "70% Longsword mastery, 30 attack, 6% final damage.",
+                        "maxLevel": 30,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/advanced-longsword-mastery.png"],
+                        "type": "Upgraded Passive"
+                    },
+                    {
+                        "name": "Clear and Pure Mind IV",
+                        "shortDesc": "57 attack, 20% final damage.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/damage-passive-3.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "True Eye",
+                        "shortDesc": "10% damage, 10% critical damage, 40% defense ignore.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/true-eye.png"],
+                        "type": "Passive"
+                    }]
+            ]
+        ],
+        "hyper":{
+            "hyperPassive": [
+                {
+                    "name": "Lost Soul Sword Fundamental: Soul Strike – Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/soul-strike-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Lost Soul Sword Fundamental: Soul Strike – Guardbreak",
+                    "shortDesc": "Ignore DEF: +10%",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/soul-strike-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Lost Soul Sword Fundamental: Soul Strike – Extra Target",
+                    "shortDesc": "+1 number of monsters hit.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/soul-strike-extra-target.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Plum Blossom Sword Fundamental: Relentless Slash – Reinforce",
+                    "shortDesc": "Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Plum Blossom Sword Fundamental: Relentless Slash – Ignore Guard",
+                    "shortDesc": "Ignore DEF: +20%",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Plum Blossom Sword Fundamental: Relentless Slash – Boss Killer",
+                    "shortDesc": "Boss Damage: +20%",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash-boss-slayer.png"],
+                    "type": "Passive",
+                    "reqLev": 180
+                },
+                {
+                    "name": "Lost Soul Advent – Reinforce",
+                    "shortDesc": "20% damage.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/lost-soul-advent-reinforce.png"],
+                    "type": "Passive",
+                    "reqLev": 150
+                },
+                {
+                    "name": "Lost Soul Advent – Ignore Guard",
+                    "shortDesc": "20% defense ignore.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/lost-soul-advent-guardbreak.png"],
+                    "type": "Passive",
+                    "reqLev": 165
+                },
+                {
+                    "name": "Lost Soul Advent – Critical Rate",
+                    "shortDesc": "20% critical rate.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/lost-soul-advent-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 190
+                }
+            ],
+            "hyperActive": [
+                {
+                    "name": "Plum Blossom Sword 5th Form: Thousand Binding Plum Branches",
+                    "shortDesc": "Consumes 150 MP. Deals 720% damage 12 times on up to 15 enemies.\\nEnemies hit are bound for 10 seconds. The bind duration is increased by up to 100% based on the damage that Thousand Binding Plum Branches deals.\\nCooldown: 120 seconds.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/binding-branch.png"],
+                    "type": "Bind Attack",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Elevation",
+                    "shortDesc": "30 second duration.\\nWhen used, Lost Soul Advent’s cooldown and the Lost Soul Sword Ultimate stage progress are instantly reset.\\nDuring the buff, Lost Soul Advent can be used 3 times during Lost Soul Advent’s cooldown.\\nCooldown: 120 seconds.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/elevation.png"],
+                    "type": "Buff",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Lost Soul Sword Ultimate: Infinite Blades",
+                    "shortDesc": "Consumes 60 MP.\\nActivate 8 strikes that deal 380% damage 7 times on up to 12 enemies.\\nEnemies hit are engulfed in flames ignited by the inner energy, dealing 250% damage 3 times continuously for 5 seconds.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/infinite-blades.png"],
+                    "type": "Attack",
+                    "reqLev": 190
+                }
+            ]
+        },
+        "fifth": {
+            "fifthCommon": ["lotusFlower", "grandisGoddessBlessingLARA", "weaponAura", "impenetrableSkin"],
+            "fifthMain": [
+                {
+                    "name": "Plum Blossom Sword Ultimate: Plum Tree Aroma",
+                    "shortDesc": "Consumes 1000 MP. 20 second duration.\\nDuring the buff, when your directly attacking skills hit an enemy, activate Plum Slash.\\nPlum Slash: Deals 280% damage 3 times on up to 12 enemies. The Plum Blossom Tree will bloom based on the number of Plum Slash activations.\\nWhen Relentless Slash, Relentless Slash VI, Dance of Annihilation, Keen Blade, Keen Blade VI, Single Strike Keen Blade, or Single Strike Keen Blade are activated 3 times, it will be considered as 1 activation.\\nBloom: When Plum Slash is activated 30, 70, and 125 times, the tree will bloom and create 20, 40, and 65 Plum Blossom Flowers respectively.\\nPlum Blossom Flower: Deals 500% damage 3 times\nCooldown: 120 seconds.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/apricot-tree.png"],
+                    "type": "Summon"
+                },
+                {
+                    "name": "Lost Soul Awakening",
+                    "shortDesc": "When your directly attacking skills hit an enemy, activate Heavenly Fang. When Heavenly Fang is activated 90 times, Heavenly Punishment will be activated.\\nWhen Relentless Slash, Relentless Slash VI, Dance of Annihilation, Keen Blade, Keen Blade VI, Single Strike Keen Blade, or Single Strike Keen Blade are activated 3 times, it will be considered as 1 activation.\\nHeavenly Fang: Deals 600% damage 2 times on up to 12 enemies\nHeavenly Punishment: Activate 9 strikes that deal 1950% damage 12 times on up to 15 enemies\\nCooldown: 120 seconds.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/awakening-of-the-fallen-dragon.png"],
+                    "type": "Attack"
+                },
+                {
+                    "name": "Plum Blossom Sword Ultimate: Dance of Annihilation",
+                    "shortDesc": "Consumes 500 MP. 5 second keydown.\\nContinuously deals 1050% damage 6 times on up to 15 enemies.\\nDuring the keydown, you will take 50% decreased damage (including % HP attacks).\\nCooldown: 120 seconds.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/dance-of-annihilation.png"],
+                    "type": "Key-down Attack"
+                },
+                {
+                    "name": "Lost Soul Sword Ultimate: Soul Blade",
+                    "shortDesc": "Consumes 120 MP. Deals 1200% damage 10 times on up to 15 enemies.\\nFire 12 sword slashes that deal 1500% damage 3 times.\\nAdditional 20% defense ignored.\\nCooldown: 1 second.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/spirit-blade.png"],
+                    "type": "Passive"
+                }
+            ],
+            "fifthBoost": [
+                {
+                    "name": "Plum Blossom Sword Fundamental: Slash Boost",
+                    "shortDesc": "Plum Blossom Sword Fundamental: Slash Final Damage: +420%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/aw-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Plum Blossom Sword Fundamental: Stab Boost",
+                    "shortDesc": "Plum Blossom Sword Fundamental: Stab Final Damage: +300%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/aw-stab.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Lost Soul Sword Fundamental: Soul Strike Boost",
+                    "shortDesc": "Lost Soul Sword Fundamental: Soul Strike Final Damage: +120%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Plum Blossom Sword Fundamental: Pierce Boost",
+                    "shortDesc": "Plum Blossom Sword Fundamental: Pierce Final Damage: +180%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/aw-gash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Plum Blossom Sword 2nd Form: Scattering Plums Boost",
+                    "shortDesc": "Plum Blossom Sword 2nd Form: Scattering Plums Final Damage: +180%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/petal-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Lost Soul Sword Ultimate: Splitting Ground Boost",
+                    "shortDesc": "Lost Soul Sword Ultimate: Splitting Ground, Lost Soul Sword Ultimate: Void Fang, and Lost Soul Sword Ultimate: Infinite Blades Final Damage: +120%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/season-attack-1.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/void-fang.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/infinite-blades.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Plum Blossom Sword Fundamental: Relentless Slash Boost",
+                    "shortDesc": "Plum Blossom Sword Fundamental: Relentless Slash Final Damage: +120%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Max Targets: +1",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Plum Blossom Sword 3rd Form: Keen Blade Boost",
+                    "shortDesc": "Plum Blossom Sword 3rd Form: Keen Blade Final Damage: +120%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/keen-blade-1.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                },
+                {
+                    "name": "Lost Soul Sword 2nd Form: Connected Slash Boost",
+                    "shortDesc": "Lost Soul Sword 2nd Form: Connected Slash and Plum Blossom Sword 4th Form: Zero Blade Final Damage: +120%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/actual-final-attack.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/zero-blade.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "[Lv. 20]: Damage Against Normal Enemies: +10%",
+                        "[Lv. 40]: Ignore DEF: +20%"
+                    ]
+                }
+            ]
+        },
+        "sixth": {
+            "masteryCore": [
+                {
+                    "name": "1st Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-relentless-slash.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash.png} tip={Plum Blossom Sword Fundamental: Relentless Slash (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Plum Blossom Sword Fundamental: Relentless Slash",
+                    "shortDesc": "Consumes 11 MP. Continuously deals 289% damage 5 times on up to 8 enemies.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-relentless-slash.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/relentless-slash.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 1st Mastery Node"
+                    ]
+                },
+                {
+                    "name": "2nd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-soul-strike-connected-slash.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/final-attack.png} tip={Lost Soul Sword Fundamental: Soul Strike (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/actual-final-attack.png} tip={Lost Soul Sword 2nd Form: Connected Slash / Plum Blossom Sword 4th Form: Zero Blade (4th Job) (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Lost Soul Sword Fundamental: Soul Strike",
+                    "shortDesc": "When Plum Blossom Sword Fundamental or Dance of Annihilation hits an enemy, there is a 35% chance to activate at the hit enemy’s location. If the hit enemy is already defeated, it will activate at the character’s location.\\nDeals 1210% damage 4 times on up to 8 enemies.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-soul-strike.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Lost Soul Sword 2nd Form: Connected Slash",
+                    "shortDesc": "[Final Attack Type Skill] 62% chance to deal 325% damage 2 times.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-connected-slash.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/actual-final-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 2nd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "3rd Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-advent-splitting-void-infinite.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/season-attack-1.png} tip={Lost Soul Sword Ultimate: Splitting Ground / Void Fang / Infinite Blades (3rd Job / 4th Job / Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Lost Soul Advent",
+                    "shortDesc": "When Lost Soul Sword Ultimate skills hit enemies 8 times, activate 2 sword slashes that deal 1380% damage 5 times on up to 8 enemies. Each sword slash can only hit a single enemy 1 time.\\nAdditional 20% defense ignored.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-lost-soul-advent.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/season-buff.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Lost Soul Sword Ultimate: Splitting Ground",
+                    "shortDesc": "Consumes 50 MP.\\nSlash forwards, dealing 1150% damage 5 times on up to 10 enemies. Afterwards, a sword slash splits the ground, dealing 1350% damage 7 times on up to 10 enemies.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-splitting-ground.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/season-attack-1.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Lost Soul Sword Ultimate: Void Fang",
+                    "shortDesc": "Consumes 50 MP. Deals 2250% damage 9 times on up to 10 enemies.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-void-fang.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/void-fang.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Lost Soul Sword Ultimate: Infinite Blades",
+                    "shortDesc": "Consumes 70 MP.\\nActivate 8 strikes that deal 610% damage 7 times on up to 12 enemies.\\nEnemies hit are engulfed in flames ignited by the inner energy, dealing 160% damage 3 times continuously for 5 seconds.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-infinite-blades.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/infinite-blades.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 3rd Mastery Node"
+                    ]
+                },
+                {
+                    "name": "4th Mastery Node",
+                    "shortDesc": "",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-scattering-plums-keen-blade.png"],
+                    "type": "",
+                    "desc": "",
+                    "details": [
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/petal-attack.png} tip={Plum Blossom Sword 2nd Form: Scattering Plums (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/anima/len/keen-blade-1.png} tip={Plum Blossom Sword 3rd Form: Keen Blade (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                    ]
+                },
+                {
+                    "name": "HEXA Plum Blossom Sword 2nd Form: Scattering Plums",
+                    "shortDesc": "When your directly attacking skills hit an enemy, there is a 35% activation chance.\\nCreate 5 plum blossom petals that deal 180% damage 3 times. When attacking normal monsters, damage is increased by 270%p.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-scattering-plums.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/petal-attack.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                },
+                {
+                    "name": "HEXA Plum Blossom Sword 3rd Form: Keen Blade",
+                    "shortDesc": "Consumes 90 MP. Continuously deals 1020% damage 4 times on up to 6 enemies.\\nOnly 1 sword slash can exist on the map. It can be created up to 28 times, including the first cast. A single enemy can only be hit up to 3 times.\\nYou will prepare 1 sword slash every 10 seconds, and you can hold up to 2.If you switch between Keen Blade VI and Single Strike Keen Blade VI, you cannot use the skill during Single Strike Keen Blade VI’s cooldown, and all of Keen Blade VI’s prepared sword slashes will be reset.\\n--------HEXA Single Strike Keen Blade--------\\nConsumes 90 MP. Continuously deals 366% damage 7 times on up to 6 enemies. A single enemy can only be hit up to 20 times.\\nCooldown: 30 seconds.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-keen-blade-1.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/hexa-keen-blade-2.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/keen-blade-1.png", "http://localhost:3000/grandislibrary/class-icons/anima/len/keen-blade-2.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Unlocked with 4th Mastery Node"
+                    ]
+                }
+            ],
+            "originSkill": [
+                {
+                    "name": "Sky Splitting Azure Dragon Sword: Ascension",
+                    "shortDesc": "Consumes 1500 MP. You are invincible during the cast action.\\nLen and the Imugi’s energies ascend into the Azure Dragon’s energy, activating 58 shockwaves that deal 1500% damage 12 times.\\nThe sword that contains the power of the Azure Dragon that split the world in a single blow activates 27 strikes that deal 2100% damage 15 times on up to 15 enemies.\\nCooldown: 360 seconds.",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/ascension.png"],
+                    "type": "Bind Attack",
+                    "desc": ""
+                }
+            ],
+            "boostCore": [
+                {
+                    "name": "Plum Blossom Sword Ultimate: Plum Tree Aroma Boost",
+                    "shortDesc": "Plum Blossom Sword Ultimate: Plum Tree Aroma Final Damage: +60%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/apricot-tree.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Lost Soul Awakening Boost",
+                    "shortDesc": "Lost Soul Awakening Final Damage: +60%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/awakening-of-the-fallen-dragon.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Plum Blossom Sword Ultimate: Dance of Annihilation Boost",
+                    "shortDesc": "Plum Blossom Sword Ultimate: Dance of Annihilation Final Damage: +60%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/dance-of-annihilation.png"],
+                    "type": "Upgraded Passive"
+                },
+                {
+                    "name": "Lost Soul Sword Ultimate: Soul Blade Boost",
+                    "shortDesc": "Lost Soul Sword Ultimate: Soul Blade Final Damage: +60%",
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/len/spirit-blade.png"],
+                    "type": "Upgraded Passive"
+                }
+            ]
+        },
+        "notable": [
+            {
+                "name": "Essence Sprinkle - 1st Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/essence-sprinkle.png"],
+                "animations": ["https://media.giphy.com/media/oHkDk8Y4lVhnhxfdsN/giphy.gif"]
+            },
+            {
+                "name": "Eruption: Heaving River - 2nd Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/eruption-heaving-river.png"],
+                "animations": ["https://media.giphy.com/media/8NDzSyLTnI5qfI4MH4/giphy.gif"]
+            }, 
+            {
+                "name": "Eruption: Whirlwind - 2nd Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/eruption-whirlwind.png"],
+                "animations": ["https://media.giphy.com/media/RC0w1H5XTOHNue4Nu1/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Eruption: Sunrise Well - 2nd Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/eruption-sunrise-well.png"],
+                "animations": ["https://media.giphy.com/media/iz5zCJlWqZLj6fivgR/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Land's Connection - 5th Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/lands-connection.png"],
+                "animations": ["https://media.giphy.com/media/g2omWH4l6ma91bEAes/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "Surging Essence - 5th Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/surging-essence.png"],
+                "animations": ["https://media.giphy.com/media/glwPRsSJ87bhEeTwJJ/giphy.gif"]
+            },
+            {
+                "name": "Winding Mountain Ridge - 5th Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/winding-mountain-ridge.png"],
+                "animations": ["https://media.giphy.com/media/HcG7R8OWVRD6ILfcOf/giphy-downsized-large.gif"]
+            },
+            {
+                "name": "HEXA Essence Sprinkle - 6th Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/hexa-essence-sprinkle.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjB2MWx0MThucDllM2h5ZTNoOGw1eDQyaXd2MWs5YzZrYzJiZm5pNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UG0mE0Hw51TDVGtF19/giphy.gif"]
+            },
+            {
+                "name": "Universe in Bloom - 6th Job",
+                "icons": ["http://localhost:3000/grandislibrary/class-icons/anima/lara/universe-in-bloom.png"],
+                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2xob21jd3B4cXVjbzR2YWQ0cG55dnR3c2ViYzV0MmhmdTlvZ2h4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JpbXiP0sG5J4TCnGBe/giphy-downsized-large.gif"]
+            }
+        ]
+    },
+    "meta": "Lara is an INT mage class part of the Anima class group. Lara uses Dragon Veins that periodically spawn in your surroundings that can be interacted with using your skills. Each Dragon Vein will have a special attribute of either River, Wind, or Sun with different effects when activated"
+}
