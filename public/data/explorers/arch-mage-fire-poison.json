@@ -63,8 +63,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+75%(485.14%)",
-                "detail": "<bg src={/class-icons/explorers/fire-poison/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+40%}> × <bg type={def} sub={temp} src={/class-icons/explorers/fire-poison/fervent-drain.png} tip={Fervent Drain (4th Job)} val={+5% per active DoT} val={(Max. +25%)} subSrc={/class-icons/explorers/fire-poison/infernal-venom.png} subTip={Infernal Venom (6th Job)} subVal={when used, up to 50% instead}> × <bg type={temp} src={/class-icons/explorers/fire-poison/infinity.png} tip={Infinity (4th Job)} val={up to +115%}> × <bg type={temp} src={/class-icons/explorers/fire-poison/burning-magic.png} tip={Burning Magic (3rd Job)} val={+20% to enemies with:} val={DoT, stun, freeze, darkness, paralysis}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
+                "stat": "+75%(451.01%)",
+                "detail": "<bg src={/class-icons/explorers/fire-poison/elemental-decrease.png} tip={Elemental Decrease (3rd Job)} val={+40%}> × <bg type={def} sub={temp} src={/class-icons/explorers/fire-poison/fervent-drain.png} tip={Fervent Drain (4th Job)} val={+5% per active DoT} val={(Max. +25%)} subSrc={/class-icons/explorers/fire-poison/infernal-venom.png} subTip={Infernal Venom (6th Job)} subVal={when used, up to 50% instead}> × <bg type={temp} src={/class-icons/explorers/fire-poison/infinity.png} tip={Infinity (4th Job)} val={up to +115%}> × <bg type={temp} src={/class-icons/explorers/fire-poison/burning-magic.png} tip={Burning Magic (3rd Job)} val={+13% to enemies with:} val={DoT, stun, freeze, darkness, paralysis}> × <bg type={opt} src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} val={+8% while toggled}>"
             },
             {
                 "name": "Ignore DEF",
@@ -85,11 +85,10 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/explorers/fire-poison/meditation.png} tip={Meditation (2nd Job)} dur={[240s]}>",
             "toggles": "<tt src={/class-icons/explorers/mage/magic-guard.png} tip={Magic Guard (1st Job)}> <tt src={/class-icons/explorers/fire-poison/ignite.png} tip={Ignite (2nd Job)}> <tt src={/class-icons/explorers/fire-poison/teleport-mastery.png} tip={Teleport Mastery (3rd Job)}> <tt src={/class-icons/explorers/fire-poison/teleport-boost.png} tip={Teleport Boost (3rd Job)}> <tt src={/class-icons/explorers/fire-poison/inferno-aura.png} tip={Inferno Aura (Hyper Skill)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)} dur={[30s cd]}>",
-            "summons": "<tt src={/class-icons/explorers/fire-poison/creeping-toxin.png} tip={Creeping Toxin (3rd Job)} dur={[60s](30s cd)}> <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)} dur={[260s]}> <tt src={/class-icons/explorers/fire-poison/elemental-fury.png} tip={Elemental Fury (5th Job)} dur={[3-6s based on Fervent Drain stacks](75s cd)}>",
+            "summons": "<tt src={/class-icons/explorers/fire-poison/creeping-toxin.png} tip={Creeping Toxin (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)} dur={[260s]}> <tt src={/class-icons/explorers/fire-poison/elemental-fury.png} tip={Elemental Fury (5th Job)} dur={[3-6s based on Fervent Drain stacks](60s cd)}>",
             "buffCd": "<tt src={/class-icons/explorers/fire-poison/elemental-adaptation.png} tip={Elemental Adaptation (3rd Job)} dur={[10 Critical Abnormal Statuses](240s cd)}> <tt src={/class-icons/explorers/fire-poison/infinity.png} tip={Infinity (4th Job)} dur={[40s](180s cd)}> <tt src={/class-icons/explorers/mage/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} dur={[360s cd]}>",
-            "damageReduce": "<tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](-MP | 60s cd)}>"
+            "iFrame": "<tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/explorers/fire-poison/infernal-venom.png} tip={Infernal Venom (6th Job)} dur={[360s cd]}>"
         },
         "linkSkill": {
             "id": 80002762,
@@ -300,7 +299,7 @@
                     },
                     {
                         "name": "Poison Breath",
-                        "shortDesc": "MP Cost: 17, Damage: 180%, Enemies Hit: 6, Number of Attacks: 6\\nDamage Over Time: 60% damage every 1 sec for 10 sec",
+                        "shortDesc": "MP Cost: 17, Damage: 180%, Enemies Hit: 6, Number of Attacks: 6\\nDamage Over Time: 60% damage every 1 sec for 10 se.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/fire-poison/poison-breath.png"],
                         "animations": ["https://media.giphy.com/media/IcdBjFHk9UO4SKDWvJ/giphy.gif"],
@@ -327,7 +326,7 @@
                     },
                     {
                         "name": "Ignite",
-                        "shortDesc": "When casting Fire magic, 50% chance to create a wall of fire that attacks at a certain interval with the following effects - [Max Enemies Hit: 8. Damage: 40%, Attack Count: 3, Duration: 6]",
+                        "shortDesc": "When casting Fire magic, 50% chance to create a wall of fire that lasts 6 sec. and attacks at a certain interval with the following effects: [Max Enemies Hit: 8. Damage: 40%, Attack Count: 3, Duration: 6 sec.]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/fire-poison/ignite.png"],
                         "animations": ["https://media.giphy.com/media/8W6151CxFuhyp6Qh2G/giphy.gif"],
@@ -385,7 +384,7 @@
                     },
                     {
                         "name": "Creeping Toxin",
-                        "shortDesc": "MP Cost: 54, Totem Duration: 60\\nSummons a totem that transforms the surrounding area into a toxic pool which deals 204% every 1 sec for 10 sec to enemies within that pool.\\nCreeping Toxin Explosion: MP Cost 60. Chain explosions initiated by Creeping Toxin Explosion do not consume MP. Toxin pools can be detonated for 1.5 sec after they appear, dealing 205% damage 4 times to up to 10 enemies. That explosion will detonate any other nearby toxic pools.\\nAn enemy damaged by chain explosions, taking place within 0.4 sec. of one another, takes 50% less Final Damage from all explosions after the first.\\nDamage Against Normal Enemies: +30%\\nCooldown: 30 sec.",
+                        "shortDesc": "MP Cost: 54, Totem Duration: 60\\nSummons a totem that transforms the surrounding area into a toxic pool which deals 204% every 1 sec. for 10 sec. to enemies within that pool.\\nCreeping Toxin Explosion: MP Cost 60. Chain explosions initiated by Creeping Toxin Explosion do not consume MP. Toxin pools can be detonated for 1.5 sec after they appear, dealing 200% damage 4 times to up to 10 enemies. That explosion will detonate any other nearby toxic pools.\\nAn enemy damaged by chain explosions, taking place within 0.4 sec. of one another, takes 50% less Final Damage from all explosions after the first.\\nDamage Against Normal Enemies: +50%",
                         "maxLevel": 14,
                         "icons": ["/class-icons/explorers/fire-poison/creeping-toxin.png"],
                         "animations": ["https://media.giphy.com/media/q9xKE4GpG8SpGiaMPx/giphy.gif"],
@@ -432,7 +431,7 @@
                     },
                     {
                         "name": "Elemental Decrease",
-                        "shortDesc": "Enemy Elemental Resistance: -10%, Final damage +40%",
+                        "shortDesc": "Enemy Elemental Resistance: -10%, Final Damage +40%",
                         "maxLevel": 9,
                         "icons": ["/class-icons/explorers/fire-poison/elemental-decrease.png"],
                         "type": "Passive"
@@ -457,7 +456,7 @@
                     },
                     {
                         "name": "Burning Magic",
-                        "shortDesc": "Increases damage over time durations by 100%, increases final damage by 20% when attacking enemies affected by damage over time, stun, freeze, darkness, or paralysis effects.",
+                        "shortDesc": "Increases damage over time durations by 100%, increases final damage by 13% when attacking enemies affected by damage over time, stun, freeze, darkness, or paralysis effects.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/fire-poison/burning-magic.png"],
                         "type": "Passive"
@@ -544,14 +543,14 @@
                 },
                 {
                     "name": "Ifrit",
-                    "shortDesc": "MP Cost: 120, Duration: 260 sec.\\nDamage: 150%, Max Enemies Hit: 3, Number of Attacks: 3, Damage Over Time: 140% damage every 1 sec. for 2 sec.\\n[Passive Effect: Permanently increases Mastery by 70%]",
+                    "shortDesc": "MP Cost: 120, Ifrit Summon Duration: 260 sec.\\nDamage: 150%, Max Enemies Hit: 3, Number of Attacks: 3, Damage Over Time: 140% damage every 1 sec. for 2 sec.\\n[Passive Effect: Permanently increases Mastery by 70%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/fire-poison/ifrit.png"],
                     "animations": ["https://media.giphy.com/media/bUheFXCeFza6wysgRi/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons a fire golem that attacks nearby enemies that applies a damaging burn debuff",
+                    "desc": "Summon Ifrit that attacks nearby enemies that applies a damaging burn debuff",
                     "details": [
-                        "[Passive]: Increases %Weapon Mastery",
+                        "[Passive]: Permanently increases %Weapon Mastery",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -694,12 +693,12 @@
             "hyperActive": [
                 {
                     "name": "Inferno Aura",
-                    "shortDesc": "MP Cost: 100 per second, Damage per 3 second(s): 400%, Number of Attacks: 2.\\nAttacked enemies receive 500% damage every 1 sec. for 30 sec.",
+                    "shortDesc": "MP Cost: 100 per second, Duration: 3 sec, Max enemies Hit: 10, Damage: 400%, Number of Attacks: 2\\nAttacked enemies receive 500% damage every 1 sec. for 30 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/fire-poison/inferno-aura.png"],
                     "animations": ["https://media.giphy.com/media/UX5N4IXOiESOqOvagR/giphy.gif"],
                     "type": "Toggle Buff",
-                    "desc": "When toggled, creates an aura that periodically explodes damaging nearby enemies",
+                    "desc": "When toggled, create an aura around you that damages nearby enemies",
                     "details": [
                         "Applies a damaging debuff to enemies hit",
                         "Ignores Attack Ignore and Damage Reflect"
@@ -739,7 +738,7 @@
             "fifthMain": [
                 {
                     "name": "DoT Punisher",
-                    "shortDesc": "MP Cost: 500, Flame Orbs Created: 15, Damage Per Orb: 850%, Number of Attacks: 5, Duration: 20 sec\\nFlame Orb Damage: 290% damage every 1 sec for 8 sec\\nSummons 1 additional orb for every 1 of your damage over time stack(s) on enemies in range. Up to 25 Flame Orbs can be summoned in total.\\nWhen multiple orbs hit a single target, their damage is reduced by 35%, starting with the second orb.\\nCooldown: 25 sec.",
+                    "shortDesc": "MP Cost: 500, Flame Orbs Created: 15, Damage Per Orb: 850%, Number of Attacks: 5, Duration: 20 sec\\nFlame Orb Damage: 290% damage every 1 sec for 8 sec\\nSummons 1 additional orb for every 1 of your damage over time stack(s) on enemies in range. Up to 25 Flame Orbs can be summoned in total.\\nWhen multiple orbs hit a single target, their damage is reduced by 45%, starting with the second orb.\\nCooldown: 25 sec.",
                     "icons": ["/class-icons/explorers/fire-poison/dot-punisher.png"],
                     "animations": ["https://media.giphy.com/media/IjSS2VZfDSVTRR6Tj2/giphy-downsized-large.gif"],
                     "type": "Attack",
@@ -751,7 +750,7 @@
                 },
                 {
                     "name": "Poison Nova",
-                    "shortDesc": "MP Cost: 500, Creates a number of poisonous clouds that deal 550% damage 12 times, and inflict an additional 660% damage every 1 sec for 10 sec. Enemies can only be struck by one poisonous cloud.\\n2 sec or more after poisonous clouds are created, you can use Mist Eruption to detonate them, hitting up to 12 enemies dealing 495% damage 12 times. Explosion damage from poisonous clouds may stack, but if more than 3 are applied to a single enemy, the Final Damage for the additional explosions is decreased by 50%.\\nCooldown: 25 sec",
+                    "shortDesc": "MP Cost: 500, Creates a number of poisonous clouds that deal 550% damage 12 times, and inflict an additional 660% damage every 1 sec for 10 sec.\\nEnemies can only be struck by one poisonous cloud.\\n1 sec or more after poisonous clouds are created, you can use Mist Eruption to detonate them, hitting up to 12 enemies dealing 1485% damage 12 times. Explosion damage from poisonous clouds can apply up to 3 times for each enemy.\\nCooldown: 25 sec",
                     "icons": ["/class-icons/explorers/fire-poison/poison-nova.png"],
                     "animations": ["https://media.giphy.com/media/r5QrdYzyoe0PKDBpuT/giphy.gif"],
                     "type": "Attack",
@@ -763,11 +762,11 @@
                 },
                 {
                     "name": "Elemental Fury",
-                    "shortDesc": "MP Cost: 1000, Damage: 440%, Max Enemies Hit: 12, Number of Attacks: 6, Attack Duration: 3 sec\\nDuration increases 0.6 sec per 1 active Fervent Drain\\nCooldown: 75 sec",
+                    "shortDesc": "MP Cost: 1000, Damage: 440%, Max Enemies Hit: 12, Number of Attacks: 6, Attack Duration: 3 sec\\nDuration increases 0.6 sec per 1 active Fervent Drain\\nCooldown: 60 sec",
                     "icons": ["/class-icons/explorers/fire-poison/elemental-fury.png"],
                     "animations": ["https://media.giphy.com/media/j69DBcM5XgLZKTEilc/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons a spirit of fire to attack nearby enemies",
+                    "desc": "Summon a spirit of fire to attack nearby enemies",
                     "details": [
                         "Duration is increased for each stack of <tt src={/class-icons/explorers/fire-poison/elemental-drain.png} tip={Fervent Drain (4th Job)}>",
                         "Can only be used when <tt src={/class-icons/explorers/fire-poison/ifrit.png} tip={Ifrit (4th Job)}> is active",
@@ -776,11 +775,11 @@
                 },
                 {
                     "name": "Poison Chain",
-                    "shortDesc": "MP Cost: 1000, Enemies Hit: 2, Damage: 550%, Number of Attacks: 4, Poison Duration: 20 sec. Explosion from poisoned enemy attacks 5 times with 330% damage periodically, and spreads to 3 enemies nearby that aren't poisoned.\\nIf there are no enemies nearby, this skill creates a poison crystal for 5 sec. The poison crystal spreads to 1 enemy nearby and disappears or naturally disappears, without spreading, when the duration ends.\\nPoison accumulates up to 5 times. Explosion damage increases 60%p each in proportion to the accumulated poison.\\nExplosion can occur up to 9 times on 1 enemy and up to 17 times on all enemies in total.\\nIf it ended because the available explosions were used up, every poison is removed and there is an additional explosion.\\nCooldown: 25 sec",
+                    "shortDesc": "MP Cost: 1000, Enemies Hit: 2, Damage: 550%, Number of Attacks: 4, Poison Duration: 20 sec. Explosion from poisoned enemy attacks 5 times with 330% damage periodically, and spreads to 3 enemies nearby that aren't poisoned.\\nIf there are no enemies nearby, this skill creates a poison crystal for 5 sec. The poison crystal spreads to 1 enemy nearby and disappears or naturally disappears, without spreading, when the duration ends.\\nPoison accumulates up to 5 times. Explosion damage increases 60% points each in proportion to the accumulated poison.\\nExplosion can occur up to 9 times on 1 enemy and up to 17 times on all enemies in total.\\nIf the skill ended because the available explosions were used up, all poison is removed and followed by an additional explosion.\\nCooldown: 25 sec.",
                     "icons": ["/class-icons/explorers/fire-poison/poison-chain.png"],
                     "animations": ["https://media.giphy.com/media/93YvH6nNgdHoxjyv2u/giphy-downsized-large.gif"],
                     "type": "Attack",
-                    "desc": "Casts a stacking poisonous debuff onto two enemies that spreads to nearby enemies",
+                    "desc": "Cast a stacking poisonous debuff onto two enemies that spreads to nearby enemies",
                     "details": [
                         "If no enemies nearby, a crystal is created that will infect the next enemy in range and disappears",
                         "Debuffed enemies will periodically create a poisonous explosion that spreads the debuff<bp_Debuff can stack up to 5 times, each time increases the %Damage of the poison explosion_>",
@@ -971,7 +970,7 @@
                 },
                 {
                     "name": "HEXA Flame Haze",
-                    "shortDesc": "MP Cost: 83, Damage: 335%, Number of Attacks: 15\\nInflicts 325% continuous damage at 100% chance for 10 sec. Maintains untouchable status and slows enemy by -51%\\nUpon hitting an enemy, the Poison Mist forms on enemy location. If no enemy is hit, the Poison Mist forms on your location\\nCooldown: 10 sec[Passive Effect: Permanently increases the continuous damage of Poison Mist created by Flame Haze to 476^, but no Poison Mist used directly.]",
+                    "shortDesc": "MP Cost: 83, Damage: 335%, Number of Attacks: 15\\n100% chance to deal 325% continuous damage for 10 sec. Maintains untouchable status and slows enemy by -51%\\nUpon hitting an enemy, the Poison Mist forms on enemy location. If no enemy is hit, the Poison Mist forms on your location\\nCooldown: 10 sec\\n[Passive Effect: Permanently increases the continuous damage of Poison Mist created by Flame Haze to 476%, but no Poison Mist used directly.]",
                     "icons": ["/class-icons/explorers/fire-poison/hexa-flame-haze.png", "/class-icons/explorers/fire-poison/flame-haze.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1001,7 +1000,7 @@
                 },
                 {
                     "name": "HEXA Ignite",
-                    "shortDesc": "When casting Fire magic, 50% chance to create a wall of fire that lands 4 sec. and attacks at a certain interval with the following effects:\\n[Max Enemies Hit: 8. Damage: 75%, Attack Count: 3, Duration: 4 sec., Max Number of Attacks on a Single Enemy: 3]",
+                    "shortDesc": "When casting Fire magic, 50% chance to create a wall of fire that lasts 4 sec. and attacks at a certain interval with the following effects:\\n[Max Enemies Hit: 8. Damage: 75%, Attack Count: 3, Duration: 4 sec., Max Number of Attacks on a Single Enemy: 3]",
                     "icons": ["/class-icons/explorers/fire-poison/hexa-ignite.png", "/class-icons/explorers/fire-poison/ignite.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1021,7 +1020,7 @@
                 },
                 {
                     "name": "HEXA Inferno Aura",
-                    "shortDesc": "MP Cost: 110 per second, Duration: 3 ssec., Max Enemies Hit: 10, Damage: 800%, Number of Attacks: 2.\\nAttacked enemies receive 500% damage every 1 sec. for 30 sec.",
+                    "shortDesc": "MP Cost: 110 per second, Duration: 3 sec., Max Enemies Hit: 10, Damage: 800%, Number of Attacks: 2.\\nAttacked enemies receive 500% damage every 1 sec. for 30 sec.",
                     "icons": ["/class-icons/explorers/fire-poison/hexa-inferno-aura.png", "/class-icons/explorers/fire-poison/inferno-aura.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1041,7 +1040,7 @@
                 },
                 {
                     "name": "HEXA Creeping Toxin",
-                    "shortDesc": "MP Cost: 60, Totem Duration: 60\\nSummons a totem that transform the surrounding area into a toxic pool which deals 307% every 1 sec. for 10 sec. to enemies within that pool.\\nCreeping Toxin Explosion: MP Cost: 66. Chain explosions initiated by Creeping Toxin Explosion do not consume MP. Toxic pools can be detonated for 1.5 sec. after they appear, dealing 340% damage 4 times to up to 10 enemies. That explosion will detonate any other nearby toxic pools.\\nAn enemy damaged by chain explosions, taking place within 0.4 sec. of one another, takes 60% less Final Damage from all explosions after the first.\\nNormal Enemy Damage: +50%\\nCooldown: 30 sec.",
+                    "shortDesc": "MP Cost: 60, Totem Duration: 60\\nSummons a totem that transform the surrounding area into a toxic pool which deals 307% every 1 sec. for 10 sec. to enemies within that pool.\\nCreeping Toxin Explosion: MP Cost: 66. Chain explosions initiated by Creeping Toxin Explosion do not consume MP. Toxic pools can be detonated for 1.5 sec. after they appear, dealing 340% damage 4 times to up to 10 enemies. That explosion will detonate any other nearby toxic pools.\\nAn enemy damaged by chain explosions, taking place within 0.4 sec. of one another, takes 60% less Final Damage from all explosions after the first.\\nNormal Enemy Damage: +50%",
                     "icons": ["/class-icons/explorers/fire-poison/hexa-creeping-toxin.png", "/class-icons/explorers/fire-poison/creeping-toxin.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

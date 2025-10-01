@@ -43,8 +43,8 @@
             },
             {
                 "name": "Attack",
-                "stat": "+4% +110",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/paladin/shield-mastery.png} tip={Shield Mastery (3rd Job)} val={+10}> <bg src={/class-icons/explorers/paladin/divine-shield.png} tip={Divine Shield (3rd Job)} val={+20}> <bg src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light (4th Job)} val={+12 per Holy Power skill used} val={(Max. +60)}> <bg type={toggle} src={/class-icons/explorers/paladin/parashock-guard.png} tip={Parashock Guard (3rd Job)} val={+20}>"
+                "stat": "+4% +120",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/paladin/shield-mastery.png} tip={Shield Mastery (3rd Job)} val={+20}> <bg src={/class-icons/explorers/paladin/divine-shield.png} tip={Divine Shield (3rd Job)} val={+20}> <bg src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light (4th Job)} val={+12 per Holy Power skill used} val={(Max. +60)}> <bg type={toggle} src={/class-icons/explorers/paladin/parashock-guard.png} tip={Parashock Guard (3rd Job)} val={+20}>"
             },
             {
                 "name": "Crit Rate",
@@ -59,7 +59,7 @@
             {
                 "name": "Damage",
                 "stat": "+25%(85%)",
-                "detail": "<bg src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light (4th Job)} val={+5% per Holy Power skill used} val={(Max. +25%)}> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +30%}>"
+                "detail": "<bg src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light (4th Job)} val={+5% per Holy Power skill used} val={(Max. +25%)}> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +36%}>"
             },
             {
                 "name": "Final Damage",
@@ -107,11 +107,11 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Combat Orders (3rd Job)} dur={[200s]}> <tt src={/class-icons/explorers/paladin/divine-blessing.png} tip={Divine Blessing (4th Job)} dur={[200s]}>",
             "toggles": "<tt src={/class-icons/explorers/paladin/parashock-guard.png} tip={Parashock Guard (3rd Job)}>",
-            "buffCd": "<tt src={/class-icons/explorers/paladin/sacrosanctity.png} tip={Sacrosanctity (Hyper Skill)} dur={[30s](300 - 75s cd based on remaining duration)}> <tt src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/paladin/divine-echo.png} tip={Divine Echo (5th Job)} dur={[45s](90s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](15s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/paladin/sacrosanctity.png} tip={Sacrosanctity (Hyper Skill)} dur={[30s](300 - 75s cd based on remaining duration)}> <tt src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/paladin/divine-echo.png} tip={Divine Echo (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](15s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/paladin/smite-shield.png} tip={Smite Shield (Hyper Skill)} dur={[10s](120s cd)}> <tt src={/class-icons/explorers/paladin/sacred-bastion.png} tip={Sacred Bastion (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/explorers/paladin/sacrosanctity.png} tip={Sacrosanctity (Hyper Skill)} dur={[30s](300 - 75s cd based on remaining duration)}> <tt src={/class-icons/explorers/paladin/sacred-bastion.png} tip={Sacred Bastion (6th Job)} dur={(360s cd)}>",
-            "damageReduce": "<tt src={/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)} dur={[While active](-10%)}> <tt src={/class-icons/explorers/paladin/divine-shield.png} tip={Divine Shield (3rd Job)} dur={[90s/10 hits](-25% | 30s cd)}> <tt src={/class-icons/explorers/paladin/grand-guardian.png} tip={Grand Guardian (5th Job)} dur={[Up to 4s](-50% | 180s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](21% HP Barrier | 15s cd)}>",
-            "knockback": "<tt src={/class-icons/explorers/paladin/rush.png} tip={Rush (3rd Job)}> <tt src={/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)} dur={(15s cd)}> <tt src={/class-icons/explorers/paladin/grand-guardian.png} tip={Grand Guardian (5th Job)} dur={(180s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}>"
+            "iFrame": "<tt src={/class-icons/explorers/paladin/guardian.png} tip={Guardian (4th Job)} dur={[10s upon reviving party member](600s cd)}> <tt src={/class-icons/explorers/paladin/sacrosanctity.png} tip={Sacrosanctity (Hyper Skill)} dur={[30s](300 - 75s cd based on remaining duration)}> <tt src={/class-icons/explorers/paladin/sacred-bastion.png} tip={Sacred Bastion (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/explorers/paladin/vessel-of-light.png} tip={Vessel of Light (2nd Job)} dur={[While active](-10%)}> <tt src={/class-icons/explorers/paladin/divine-shield.png} tip={Divine Shield (3rd Job)} dur={[90s/10 hits](-25% | 30s cd)}> <tt src={/class-icons/explorers/paladin/grand-guardian.png} tip={Grand Guardian (5th Job)} dur={[Up to 4s](-50% | 120s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](21% HP Barrier | 15s cd)}>",
+            "knockback": "<tt src={/class-icons/explorers/paladin/rush.png} tip={Rush (3rd Job)}> <tt src={/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)} dur={(15s cd)}> <tt src={/class-icons/explorers/paladin/grand-guardian.png} tip={Grand Guardian (5th Job)} dur={(120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}>"
         },
         "linkSkill": {
             "id": 80002758,
@@ -328,7 +328,7 @@
                         "icons": ["/class-icons/explorers/paladin/close-combat.png"],
                         "animations": ["https://media.giphy.com/media/N2eiRRuozdnFxhdCcu/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Pulls in enemies from both sides of you with a chance to stun and slow enemies"
+                        "desc": "Pulls in enemies from both left and right with a chance to stun and slow enemies"
                     },
                     {
                         "name": "Agile Arms",
@@ -386,7 +386,7 @@
                         "type": "Active Heal",
                         "desc": "",
                         "details": [
-                            "Recovers less HP when used repeatedly"
+                            "When used repeatedly within a short period, each cast will recover less HP (min. 10%)"
                         ]
                     },
                     {
@@ -420,7 +420,7 @@
                         "icons": ["/class-icons/explorers/paladin/parashock-guard.png"],
                         "animations": ["https://media.giphy.com/media/ANByjAmEc6cKPrJtGL/giphy.gif"],
                         "type": "Toggle Buff",
-                        "desc": "While active, grants flat Attack for self and a buff to nearby party members when they are hit (except yourself)",
+                        "desc": "While toggled, grants flat Attack for self and a buff to nearby party members when they are hit (except yourself)",
                         "details": [
                             "[Buff]: Party members gain increased %Damage Reduction (against regular monsters) and a chance to guard themselves"
                         ]
@@ -440,7 +440,7 @@
                     },
                     {
                         "name": "Shield Mastery",
-                        "shortDesc": "When shield or rosary is equipped - Abnormal Status Resistance: +40, Elemental Resistance: +40%, Defense: +250%, Attack Power: +10, Guard Chance: 40%, Stun Chance on Guard: 60%",
+                        "shortDesc": "When shield or rosary is equipped - Abnormal Status Resistance: +40, Elemental Resistance: +40%, Defense: +250%, Attack Power: +20, Guard Chance: 40%, Stun Chance on Guard: 60%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/paladin/shield-mastery.png"],
                         "type": "Passive"
@@ -458,7 +458,7 @@
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/paladin/divine-shield.png"],
                         "type": "Passive",
-                        "desc": "Creates a shield when hit that absorbs attacks and increases your Attack",
+                        "desc": "When hit, create a shield that blocks attacks and grants flat Attack",
                         "details": [
                             "For attacks that deal %Max HP damage, reduces amount taken by a percentage",
                             "Right-clicking the skill will toggle the visual effect on/off"
@@ -468,17 +468,17 @@
                 [
                 "4th Job", [{
                     "name": "Divine Mark",
-                    "shortDesc": "Divine Mark MP Cost: 55. Cooldown: 7 sec. Max Enemies Hit: 10. Damage: 420%. Number of Attacks: 7. Leaves behind a divine brand of light at the target location, which explodes after a set duration, with a 100% chance to silence enemies for 10 sec.\\nDivine Mark Explosion: Deals 290% damage 5 times to up to 10 enemies. Deals 30% additional damage to normal enemies.\\n[Passive Effects: Divine Charge +100%p, Increases Range]",
+                    "shortDesc": "Divine Mark MP Cost: 55. Cooldown: 7 sec. Max Enemies Hit: 10. Damage: 420%. Number of Attacks: 7. Leaves behind a divine brand of light at the target location, which explodes after a set duration, with a 100% chance to silence enemies for 10 sec.\\nDivine Mark Explosion: Deals 290% damage 5 times to up to 10 enemies. Deals 30% additional damage to normal enemies.\\n[Passive Effects: Divine Charge +100% points, Increases Range]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/paladin/divine-mark.png"],
                     "animations": ["https://media.giphy.com/media/sEzVUqEwC8BAFGz6c2/giphy.gif", "https://media.giphy.com/media/jFSUOzBUJgfxIJ2CmN/giphy.gif"],
                     "type": "Holy Power Passive",
                     "desc": "Periodically enhances the next <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> to trigger a special attack that explodes shortly after",
                     "details": [
-                        "[Passive]: Permanently increases %p Damage and range of <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}>",
+                        "[Passive]: Permanently increases %Damage by a flat amount and range of <tt src={/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}>",
                         "Party members affected by <tt src={/class-icons/explorers/paladin/divine-echo.png} tip={Divine Echo (5th Job)}> can trigger the special attack however it will not explode",
                         "Explosion deals increased %Damage to regular monsters",
-                        "Enemies hit are silenced"
+                        "Enemies hit are silence debuffed"
                     ]
                 },
                 {
@@ -523,7 +523,7 @@
                     "icons": ["/class-icons/explorers/paladin/heavens-hammer.png"],
                     "animations": ["https://media.giphy.com/media/ycBc2nKhR3EEx1XshM/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Slams a hammer damaging nearby enemies in a large area",
+                    "desc": "Slam a hammer that damages enemies in a large area",
                     "details": [
                         "While casting, you will not be knocked back at all (Super Knockback Resistance)",
                         "Deals increased %Damage towards bosses"
@@ -713,7 +713,7 @@
             "fifthMain": [
                 {
                     "name": "Divine Echo",
-                    "shortDesc": "MP Cost: MP 1000, Duration: 45 sec., Final Damage: +75%\\nEchoing Party Member - Upon using an offensive skill, the affected party member mimics you for 40% of Final Damage. Buff Duration on Party Member: 65% + 1% for every 1000 Strength (up to 100%)\\nFinal Damage increases by 15% when Divine Blessing is used on a party member that is echoing.\\nCooldown: 90 sec.",
+                    "shortDesc": "MP Cost: MP 1000, Duration: 30 sec., Final Damage: +75%\\nEchoing Party Member - Upon using an offensive skill, the affected party member mimics you for 40% of Final Damage. Buff Duration on Party Member: 65% + 1% for every 1000 Strength (up to 100%)\\nFinal Damage increases by 15% when Divine Blessing is used on a party member that is echoing.\\nCooldown: 60 sec.",
                     "icons": ["/class-icons/explorers/paladin/divine-echo.png"],
                     "animations": ["https://media0.giphy.com/media/XI03PVFtwCXH1KDwoE/giphy.gif"],
                     "type": "Buff Attack",
@@ -740,14 +740,14 @@
                 },
                 {
                     "name": "Grand Guardian",
-                    "shortDesc": "Consumes 2% of max HP per sec. Deals 770% damage 12 times consecutively on up to 12 enemies while holding the key down.\\nAfter some time passes, the cross gets bigger, which will increase attack speed and deal 1550% damage.\\nMax Key-down Time: 4 sec, Additional Critical Rate: +100%, Additional Monster DEF Ignored: +100%\\nDamage Reduction During Key-down: 50% (including Percentage HP attacks)\\nCooldown: 180 sec.",
+                    "shortDesc": "Consumes 2% of max HP per sec. Deals 515% damage 12 times consecutively on up to 12 enemies while holding the key down.\\nAfter some time passes, the cross gets bigger, which will increase attack speed and deal 1040% damage.\\nMax Key-down Time: 4 sec, Additional Critical Rate: +100%, Additional Monster DEF Ignored: +100%\\nDamage Reduction During Key-down: 50% (including Percentage HP attacks)\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/explorers/paladin/grand-guardian.png"],
                     "animations": ["https://media.giphy.com/media/YmSRdgNe8g6GKZ3ASL/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "While held, consumes %Max HP to create a cross that deals damage and slowly expands and will increase in attack speed and damage",
+                    "desc": "While held, consumes %Max HP to create a cross that deals damage and slowly expands and increases in attack speed and damage",
                     "details": [
                         "While casting, increases %Damage Reduction (including %Max HP attacks)",
-                        "You can move while casting and will not be knocked back or stunned by enemies",
+                        "You can move while casting and will not be knocked back at all (Super Knockback Resistance) and prevents Critical Abnormal Statuses",
                         "Attack has 100% Ignore DEF and is a guaranteed Critical Hit"
                     ]
                 },
@@ -760,9 +760,9 @@
                     "desc": "Throws a mighty hammer that travels towards enemies while targeting the enemy with the highest Max HP",
                     "details": [
                         "The hammer has increased %Crit Chance and creates a shockwave when it hits a target that damages nearby enemies",
-                        "You can control the direction of where the hammer is thrown by pressing the Skill Key and any Arrow Key",
-                        "Pressing the Attack Key and Skill Key together will throw all available hammers",
-                        "You gain 1 hammer every 12 secs (up to 3 at a time)",
+                        "The direction of where the hammer is thrown can be controlled by pressing the Skill Key and any Arrow Key",
+                        "Pressing the Attack Key and Skill Key together will throw all available hammers<bp_Right-clicking the skill will toggle a function ON/OFF that automatically throws all available hammers using only the Skill Key_>",
+                        "Gain 1 hammer every 12 secs (up to 3 at a time)",
                         "Unaffected by Damage Reflect"
                     ]
                 }

@@ -40,7 +40,7 @@
             {
                 "name": "DEX",
                 "stat": "+120 & +15%(440%) to assigned AP",
-                "detail": "<bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+70}> <bg src={/class-icons/explorers/corsair/agile-guns.png} tip={Agile Guns (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% (AP) within zone}>"
+                "detail": "<bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+70}> <bg src={/class-icons/explorers/corsair/agile-guns.png} tip={Agile Guns (2nd Job)} val={+20}> <bg src={/class-icons/common/physical-training.png} tip={Physical Training (2nd Job)} val={+30}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% (AP)}>"
             },
             {
                 "name": "Attack",
@@ -80,10 +80,11 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/explorers/corsair/jolly-roger.png} tip={Jolly Roger (4th Job)} dur={[180s]}>",
-            "summons": "<tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)} dur={[120s](45s cd)}> <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)} dur={[60s]}> <tt src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} dur={[30s](30s cd)}>",
-            "buffCd": "<tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)} dur={[180s](60s cd / 30s cd if 1)}> <tt src={/class-icons/explorers/corsair/whalers-potion.png} tip={Whaler's Potion (Hyper Skill)} dur={[20s](90s cd)}> <tt src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "summons": "<tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons (2nd Job)} dur={[120s](45s cd)}> <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)} dur={[60s]}> <tt src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} dur={[30s]}>",
+            "buffCd": "<tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)} dur={[180s](60s cd / 30s cd if 1)}> <tt src={/class-icons/explorers/corsair/whalers-potion.png} tip={Whaler's Potion (Hyper Skill)} dur={[20s](60s cd)}> <tt src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/corsair/the-dreadnought.png} tip={The Dreadnought (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/explorers/corsair/target-lock.png} tip={Target Lock (5th Job)} dur={(30s cd)}> <tt src={/class-icons/explorers/corsair/nautilus-assault.png} tip={Nautilus Assault (5th Job)} dur={(180s cd)}> <tt src={/class-icons/explorers/corsair/the-dreadnought.png} tip={The Dreadnought (6th Job)} dur={(360s cd)}>"
+            "iFrame": "<tt src={/class-icons/explorers/corsair/target-lock.png} tip={Target Lock (5th Job)} dur={(30s cd)}> <tt src={/class-icons/explorers/corsair/nautilus-assault.png} tip={Nautilus Assault (5th Job)} dur={(120s cd)}> <tt src={/class-icons/explorers/corsair/the-dreadnought.png} tip={The Dreadnought (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/explorers/corsair/bullet-barrage.png} tip={Bullet Barrage (5th Job)} dur={[Up to 3s](-50% | 60s cd)}>"
         },        
         "linkSkill": {
                 "id":80002774,
@@ -111,8 +112,8 @@
             "build": [
                 ["1st Job", "<tt src={/class-icons/explorers/pirate/pirate-leap.png} tip={Pirate Leap}> -> <tt src={/class-icons/explorers/pirate/bullet-time.png} tip={Bullet Time}> -> <tt src={/class-icons/explorers/pirate/dash.png} tip={Dash}> -> <tt src={/class-icons/explorers/pirate/shadow-heart.png} tip={Shadow Heart}> -> <tt src={/class-icons/explorers/pirate/sommersault-kick.png} tip={Sommersault Kick}> -> <tt src={/class-icons/explorers/pirate/double-shot.png} tip={Double Shot}>"],
                 ["2nd Job", "<tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/corsair/infinity-blast.png} tip={Infinity Blast}> -> <tt src={/class-icons/explorers/corsair/wings.png} tip={Wings}> -> <tt src={/class-icons/explorers/corsair/gun-mastery.png} tip={Gun Mastery}> -> <tt src={/class-icons/explorers/corsair/agile-guns.png} tip={Agile Guns}> -> <tt src={/class-icons/explorers/corsair/scurvy-summons.png} tip={Scurvy Summons}> -> <tt src={/class-icons/explorers/corsair/rapid-blast.png} tip={Rapid Blast}> -> <tt src={/class-icons/explorers/corsair/swift-fire.png} tip={Swift Fire}> -> <tt src={/class-icons/explorers/corsair/recoil-shot.png} tip={Recoil Shot}>"],
-                ["3rd Job", "<tt src={/class-icons/explorers/corsair/outlaws-code.png} tip={Outlaw's Code}> -> <tt src={/class-icons/explorers/corsair/all-aboard.png} tip={All Aboard}> -> <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber}> -> <tt src={/class-icons/explorers/corsair/fullmetal-jacket.png} tip={Fullmetal Jacket}> -> <tt src={/class-icons/explorers/corsair/cross-cut-blast.png} tip={Cross Cut Blast}> -> <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> -> <tt src={/class-icons/explorers/corsair/blunderbuster.png} tip={Blunderbuster}> -> <tt src={/class-icons/explorers/corsair/blackboot-bill.png} tip={Blackboot Bill}>"],
-                ["4th Job", "<tt src={/class-icons/common/double-down.png} tip={Double Down}> -> <tt src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys}> -> <tt src={/class-icons/explorers/corsair/aggressive-stance.png} tip={Aggressive Stance}> -> <tt src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence}> -> <tt src={/class-icons/explorers/corsair/eight-legs-easton.png} tip={Eight-Legs Easton}> -> <tt src={/class-icons/explorers/corsair/quickdraw.png} tip={Quickdraw}> -> <tt src={/class-icons/explorers/corsair/jolly-roger.png} tip={Jolly Roger}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting}> -> <tt src={/class-icons/explorers/corsair/rapid-fire.png} tip={Rapid Fire}> -> <tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler}> -> <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+                ["3rd Job", "<tt src={/class-icons/explorers/corsair/outlaws-code.png} tip={Outlaw's Code}> -> <tt src={/class-icons/explorers/corsair/all-aboard.png} tip={All Aboard}> -> <tt src={/class-icons/explorers/corsair/siege-bomber.png} tip={Siege Bomber}> -> <tt src={/class-icons/explorers/corsair/fullmetal-jacket.png} tip={Fullmetal Jacket}> -> <tt src={/class-icons/explorers/corsair/cross-cut-blast.png} tip={Cross Cut Blast}> -> <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> -> <tt src={/class-icons/explorers/corsair/blunderbuster.png} tip={Blunderbuster}> -> <tt src={/class-icons/explorers/corsair/blackboot-bill.png} tip={Blackboot Bill}> -> <tt src={/class-icons/explorers/corsair/escape-shot.png} tip={Escape Shot}>"],
+                ["4th Job", "<tt src={/class-icons/common/double-down.png} tip={Double Down}> -> <tt src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys}> -> <tt src={/class-icons/explorers/corsair/aggressive-stance.png} tip={Aggressive Stance}> -> <tt src={/class-icons/explorers/corsair/majestic-presence.png} tip={Majestic Presence}> -> <tt src={/class-icons/explorers/corsair/eight-legs-easton.png} tip={Eight-Legs Easton}> -> <tt src={/class-icons/explorers/corsair/jolly-roger.png} tip={Jolly Roger}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting}> -> <tt src={/class-icons/explorers/corsair/rapid-fire.png} tip={Rapid Fire}> -> <tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler}> -> <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
             ],              
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -290,7 +291,7 @@
                         "icons": ["/class-icons/explorers/corsair/rapid-blast.png"],
                         "animations": ["https://media.giphy.com/media/62dBVXOJx8NFCG71Ap/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Rapidly fires several shots at multiple enemies"
+                        "desc": "Rapidly fire at multiple enemies"
                     },
                     {
                         "name": "Swift Fire",
@@ -299,7 +300,7 @@
                         "icons": ["/class-icons/explorers/corsair/swift-fire.png"],
                         "animations": ["https://media.giphy.com/media/hVWKoM4oSaC8fNtW3e/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires three shots consecutively at a single enemy"
+                        "desc": "Fire consecutively at a single enemy"
                     },
                     {
                         "name": "Scurvy Summons",
@@ -308,7 +309,7 @@
                         "icons": ["/class-icons/explorers/corsair/scurvy-summons.png"],
                         "animations": ["https://media.giphy.com/media/A0BTNjfaYuaLbTfnzW/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons a crewmate to fight alongside you",
+                        "desc": "Summon a crewmate to fight alongside you",
                         "details": [
                             "Prioritizes enemy with the highest max HP within range first",
                             "Unaffected by Damage Reflect"
@@ -321,7 +322,7 @@
                         "icons": ["/class-icons/explorers/corsair/recoil-shot.png"],
                         "animations": ["https://media.giphy.com/media/C52Ry6nFtc5gfDRsqI/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a shot that pushes you backward"
+                        "desc": "Fire a shot that pushes you backward"
                     },
                     {
                         "name": "Wings",
@@ -330,7 +331,7 @@
                         "icons": ["/class-icons/explorers/corsair/wings.png"],
                         "animations": ["https://media.giphy.com/media/eTFZmhJbxKIzq4rpPD/giphy.gif"],
                         "type": "Active Utility",
-                        "desc": "Launches you up into the air",
+                        "desc": "Launch up into the air",
                         "details": [
                             "Holding the Skill Key will allow you to glide after using the skill",
                             "Can be used in the air"
@@ -382,16 +383,25 @@
                         "icons": ["/class-icons/explorers/corsair/blunderbuster.png"],
                         "animations": ["https://media.giphy.com/media/2jE8gvuMQsTC9TOK48/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a blast of bullets forward"
+                        "desc": "Fire a blast of bullets forward"
                     },
                     {
                         "name": "Blackboot Bill",
                         "shortDesc": "MP Cost: 35, Bullets Consumed: 1, Max Enemies Hit: 6, Damage: 734%, Knockback Range: 400",
-                        "maxLevel": 20,
+                        "maxLevel": 15,
                         "icons": ["/class-icons/explorers/corsair/blackboot-bill.png"],
                         "animations": ["https://media.giphy.com/media/GoRPcus4cfaNbMCLFe/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a giant bullet that pushes enemies back"
+                        "desc": "Fire a giant bullet that pushes enemies back"
+                    },
+                    {
+                        "name": "Escape Shot",
+                        "shortDesc": "MP Cost: 10, Damage: 420%, Max Enemies Pushed: 6",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/corsair/escape-shot.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3BuMWIybzExcXF2empnNjVtMnh1d2FjZ2ZzcGpzbjJ5ZzA2dXl3MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTOQsHsU3GmEtoMdt6/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies"
                     },
                     {
                         "name": "Siege Bomber",
@@ -400,7 +410,7 @@
                         "icons": ["/class-icons/explorers/corsair/siege-bomber.png"],
                         "animations": ["https://media.giphy.com/media/fQ4OFXuziR5T4J91c2/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons a stationary cannon that attacks nearby enemies",
+                        "desc": "Summon a stationary cannon that attacks nearby enemies",
                         "details": [
                             "Prioritizes enemy with the highest max HP within range first",
                             "Unaffected by Damage Reflect"
@@ -408,7 +418,7 @@
                     },
                     {
                         "name": "Roll of the Dice",
-                        "shortDesc": "MP Cost: 60, Buff Duration: 180\\nCooldown: 60 sec",
+                        "shortDesc": "MP Cost: 60, Buff Duration: 180, Cooldown: 60 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/common/roll-of-the-dice.png"],
                         "animations": ["https://media.giphy.com/media/b1ePRu8X0Lcx38doUl/giphy.gif"],
@@ -466,7 +476,7 @@
                         "icons": ["/class-icons/explorers/corsair/rapid-fire.png"],
                         "animations": ["https://media.giphy.com/media/XtYwmU2z98HArNzMk7/giphy.gif"],
                         "type": "Key-down Attack",
-                        "desc": "While held, fire a continuous stream of bullets forward",
+                        "desc": "While held, fire a stream of bullets forward",
                         "details": [
                             "You can move and jump while casting",
                             "Not affected by Attack Speed"
@@ -474,24 +484,24 @@
                     },
                     {
                         "name": "Brain Scrambler",
-                        "shortDesc": "MP Cost: 30, Damage: 984%, Number of Attacks: 13, Enemy DEF Ignored: 60%, Bonus Critical Chance: 100%\\nCooldown: 5 sec",
+                        "shortDesc": "MP Cost: 30, Damage: 984%, Number of Attacks: 13\\nEnemy DEF Ignored: 60%, Bonus Critical Chance: 100%\\nCooldown: 5 sec",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/corsair/brain-scrambler.png"],
                         "animations": ["https://media.giphy.com/media/MTxcXMzrT3uJFXKq8R/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a powerful shot at a single enemy",
+                        "desc": "Fire a powerful shot at a single enemy",
                         "details": [
                             "Attack has increased %Ignore DEF and is a guaranteed Critical Hit"
                         ]
                     },
                     {
                         "name": "Eight-Legs Easton",
-                        "shortDesc": "MP Cost: 55, Bullets Consumed: 4, Damage: 649%, Max Enemies Attacked: 8, Number of Attacks: 4.\\n[Passive Effect : Battleship Nautilus's skill damage +130% points.]",
+                        "shortDesc": "MP Cost: 55, Bullets Consumed: 4, Damage: 649%, Max Enemies Attacked: 8, Number of Attacks: 4.\\n[Passive Effect : Battleship Nautilus's skill damage +130% (additive)]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/corsair/eight-legs-easton.png"],
                         "animations": ["https://media.giphy.com/media/bECek0vrP6NCeumgVZ/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a barrage of bullets forward",
+                        "desc": "Fire a barrage of bullets forward",
                         "details": [
                             "[Passive]: Increases %Damage of <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> by a flat amount",
                             "If used while pressing the Down Arrow Key, the attack range will be reduced, but you will be immune to knockbacks (Super Knockback Resistance)"
@@ -503,7 +513,7 @@
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/corsair/quickdraw.png"],
                         "type": "Passive",
-                        "desc": "Your attacks have a chance to grant increased %Final Damage for the next use of the following skills: <tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler (4th Job)}> <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> <tt src={/class-icons/explorers/corsair/ugly-bomb.png} tip={Ugly Bomb (Hyper Skill)}> <tt src={/class-icons/explorers/corsair/target-lock.png} tip={Target Lock (5th Job)}>"
+                        "desc": "Successful attacks have a chance to grant increased %Final Damage for the next use of the following skills: <tt src={/class-icons/explorers/corsair/brain-scrambler.png} tip={Brain Scrambler (4th Job)}> <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> <tt src={/class-icons/explorers/corsair/ugly-bomb.png} tip={Ugly Bomb (Hyper Skill)}> <tt src={/class-icons/explorers/corsair/target-lock.png} tip={Target Lock (5th Job)}>"
                     },
                     {
                         "name": "Broadside",
@@ -512,7 +522,7 @@
                         "icons": ["/class-icons/explorers/corsair/broadside.png"],
                         "animations": ["https://media.giphy.com/media/UinsGEydFTUT829ctZ/giphy-downsized-large.gif"],
                         "type": "Summon",
-                        "desc": "Summons a battleship that fires bombs at nearby enemies",
+                        "desc": "Summon a stationary battleship that attacks at nearby enemies",
                         "details": [
                             "Shares Skill Points (SP) with <tt src={/class-icons/explorers/corsair/ahoy-mateys.png} tip={Ahoy Mateys (4th Job)}>",
                             "Broadside will fire focused shots on a targeted location marked by <tt src={/class-icons/explorers/corsair/firing-orders.png} tip={Firing Orders (4th Job)}>",
@@ -522,12 +532,12 @@
                     },
                     {
                         "name": "Firing Orders",
-                        "shortDesc": "MP Cost: 40, Duration: 60 sec\\nOne set of Firing Orders can be active at any time.\\nBroadside automatically bombards nearby enemies, and the bombardment prioritizes enemies affected by Parrotargetting. If there are no Parrotargetting enemies, it first attacks the boss monster.",
+                        "shortDesc": "MP Cost: 40, Duration: 60 sec, One set of Firing Orders can be active at any time.\\nBroadside automatically bombards nearby enemies, and the bombardment prioritizes enemies affected by Parrotargetting. If there are no Parrotargetting enemies, it first attacks the boss monster.",
                         "maxLevel": 15,
                         "icons": ["/class-icons/explorers/corsair/firing-orders.png"],
                         "animations": ["https://media.giphy.com/media/Sh7AXigDZPcgG1liyy/giphy-downsized-large.gif"],
                         "type": "Active",
-                        "desc": "Marks your location causing <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)}> to fire focused shots at the targeted location",
+                        "desc": "Marks your location for <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)}> to fire focused shots at the targeted location",
                         "details": [
                             "Shares Skill Points (SP) with <tt src={/class-icons/explorers/corsair/broadside.png} tip={Broadside (4th Job)}>",
                             "Prioritizes enemies marked with <tt src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting (4th Job)}> then bosses",
@@ -579,11 +589,7 @@
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/corsair/jolly-roger.png"],
                         "animations": ["https://media.giphy.com/media/xFrbV4Dc7D76JYlhA0/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "",
-                        "details": [
-                            "[Passive]: Permanently increases %Knockback Resistance"
-                        ]
+                        "type": "Buff"
                     },
                     {
                         "name": "Hero's Will",
@@ -603,7 +609,7 @@
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/corsair/aggressive-stance.png"],
                         "type": "Passive",
-                        "desc": "Successfully landing attacks grant a %Damage buff",
+                        "desc": "Successfull attacks grant a %Damage buff",
                         "details": [
                             "Also permanently increases %Damage Reduction"
                         ]
@@ -638,7 +644,7 @@
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/corsair/majestic-presence.png"],
                         "type": "Final Attack Passive",
-                        "desc": "Successfully landing shot-firing attacks deal an additional attack",
+                        "desc": "Successful shot-firing attacks deal an additional attack",
                         "details": [
                             "Additionally increases %Gun Mastery, %Final Damage, and grants flat Attack"
                         ]
@@ -727,7 +733,7 @@
             "hyperActive": [
                 {
                     "name": "Whaler's Potion",
-                    "shortDesc": "MP Cost: 300, HP Recovered: 99% of max HP, Damage Taken: -15% for 20 sec\\nSummon Final Damage: +50%\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 300, HP Recovered: 99% of max HP, Damage Taken: -15% for 20 sec\\nSummon Final Damage: +50%\\nCooldown: 60 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/corsair/whalers-potion.png"],
                     "animations": ["https://media.giphy.com/media/727Jr5gNW6psIA8nRs/giphy.gif"],
@@ -765,14 +771,15 @@
             "fifthMain": [
                 {
                     "name": "Bullet Barrage",
-                    "shortDesc": "MP Cost: 500, Duration: 4 sec. Periodically deal 1435% damage 7 times on up to 15 enemies.\\nCan move and jump while using the skill. This skill will be immediately canceled if you use it again.\\nCooldown: 90 sec.",
+                    "shortDesc": "MP Cost: 500, Duration: 3 sec. Periodically deal 1675% damage, 7 times, on up to 15 enemies.\\nCan only attack up to 20 times on single enemy.\\nCan move and jump while using the skill. Damage taken while attacking, including attacks that deal damage in proportion to Max HP: -50%. This skill will be immediately canceled if you use it again.\\nCooldown: 60 sec.",
                     "icons": ["/class-icons/explorers/corsair/bullet-barrage.png"],
                     "animations": ["https://media.giphy.com/media/lrmTrKzmPkoDZjV3bc/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Wildy fires bullets in all directions",
+                    "desc": "Wildy fire bullets in all directions",
                     "details": [
                         "While casting, you can move and use <tt src={/class-icons/explorers/pirate/pirate-leap.png} tip={Pirate Leap (1st Job)}>",
-                        "While casting, you will not be knocked back at all (Super Knockback Resistance)",
+                        "While casting, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
+                        "Each enemy can only be hit a maximum of 20 times",
                         "Pressing the Skill Key again will cancel the attack early"
                     ]
                 },
@@ -782,7 +789,7 @@
                     "icons": ["/class-icons/explorers/corsair/target-lock.png"],
                     "animations": ["https://media.giphy.com/media/P1YP9HcuaQntSNPapt/giphy-downsized-large.gif"],
                     "type": "Attack",
-                    "desc": "Fires devastating shots at marked targets",
+                    "desc": "Fire devastating shots at marked targets",
                     "details": [
                         "While Target Lock is not on cooldown, targets in range are randomly marked for the attack while prioritizing bosses with the highest Max HP first",
                         "The target will blink 3 times before selecting a new target<bp_If you activate Target Lock while on the last blink, it will deal extra damage_>",
@@ -792,11 +799,11 @@
                 },
                 {
                     "name": "Nautilus Assault",
-                    "shortDesc": "MP Cost: 1500, Max Enemies Hit: 15, Invincible while casting\\nShip Attack: The ship attacks at set intervals. Damage: 1980%, Number of Attacks: 6, Ship Attack Activation Count: 7\\nVolley: Fires a volley at set intervals. Damage: 990%, Number of Attacks: 12, Volley Activation Count: 36\\nCooldown: 180 sec\\nWhen either Nautilus Strike or Nautilus Assault is used, a cooldown of 8 sec is applied, but it won't be applied if another cooldown longer than that time is already applied.",
+                    "shortDesc": "MP Cost: 1500, Max Enemies Hit: 15, Invincible while casting\\nShip Attack: The ship attacks at set intervals. Damage: 1630%, Number of Attacks: 6, Ship Attack Activation Count: 7\\nVolley: Fires a volley at set intervals. Damage: 600%, Number of Attacks: 12, Volley Activation Count: 36\\nCooldown: 120 sec\\nWhen either Nautilus Strike or Nautilus Assault is used, a cooldown of 8 sec is applied, but it won't be applied if another cooldown longer than that time is already applied.",
                     "icons": ["/class-icons/explorers/corsair/nautilus-assault.png"],
                     "animations": ["https://media.giphy.com/media/Db4nJ3waDY2WdafivA/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Summons the Nautilus to launch an assault",
+                    "desc": "Summon the Nautilus to launch an assault",
                     "details": [
                         "The ship and assault both deal damage",
                         "If either <tt src={/class-icons/explorers/corsair/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> or <tt src={/class-icons/explorers/corsair/nautilus-assault.png} tip={Nautilus Assault (5th Job)}> are used, there is a short cooldown (8 secs) before either can activated unless they are already on cooldown",
@@ -805,11 +812,11 @@
                 },
                 {
                     "name": "Death Trigger",
-                    "shortDesc": "MP Cost: 750. Fires up to 7 shots, which attack up to 7 enemies with 780% damage 7 time(s).\\nCooldown: 45 sec. Cooldown decreases by 0.5 sec. for each remaining ricochet.",
+                    "shortDesc": "MP Cost: 750. Fires up to 7 shots, which attack up to 7 enemies with 580% damage 7 time(s).\\nCooldown: 30 sec. Cooldown decreases by 0.5 sec. for each remaining ricochet.",
                     "icons": ["/class-icons/explorers/corsair/death-trigger.png"],
                     "animations": ["https://media.giphy.com/media/NlVM3UQszpJsQhdbfr/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Fires several bullets that ricochets to multiple enemies",
+                    "desc": "Fire bullets that ricochets to multiple enemies",
                     "details": [
                         "If there is an enemy affected by the <tt src={/class-icons/explorers/corsair/parrotargetting.png} tip={Parrotargetting (4th Job)}> debuff, all bullets will target that enemy",
                         "Cooldown decreases depending on the number of remaining ricochets",

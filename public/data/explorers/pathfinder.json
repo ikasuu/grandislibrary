@@ -83,8 +83,8 @@
             "summons": "<tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/pathfinder/raven-tempest.png} tip={Raven Tempest (5th Job)} dur={[27s/10s](120s cd)}> <tt src={/class-icons/explorers/pathfinder/obsidian-barrier.png} tip={Obsidian Barrier (5th Job)} dur={[12s](120s cd)}> <tt src={/class-icons/explorers/pathfinder/relic-unbound.png} tip={Relic Unbound (5th Job)} dur={[22s/10s/40s](120s cd)}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
             "buffCd": "<tt src={/class-icons/explorers/pathfinder/awakened-relic.png} tip={Awakened Relic (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/pathfinder/forsaken-relic.png} tip={Forsaken Relic (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/explorers/pathfinder/nova-blast.png} tip={Nova Blast (5th Job)} dur={(120s cd)}> <tt src={/class-icons/explorers/pathfinder/forsaken-relic.png} tip={Forsaken Relic (6th Job)} dur={(360s cd)}>",
-            "damageReduce": "<tt src={/class-icons/explorers/pathfinder/ancient-astra.png} tip={Ancient Astra (Hyper Skill)} dur={[-60% | 60s cd]}> <tt src={/class-icons/explorers/pathfinder/obsidian-barrier.png} tip={Obsidian Barrier (5th Job)} dur={[12s](-40% | 120s cd)}>"
+            "iFrame": "<tt src={/class-icons/explorers/pathfinder/ancient-astra-burst.png} tip={Ancient Astra - Burst (Hyper Skill)} dur={[2s](90s cd)}> <tt src={/class-icons/explorers/pathfinder/nova-blast.png} tip={Nova Blast (5th Job)} dur={(120s cd)}> <tt src={/class-icons/explorers/pathfinder/forsaken-relic.png} tip={Forsaken Relic (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/explorers/pathfinder/ancient-astra-deluge.png} tip={Ancient Astra - Deluge (Hyper Skill)}> / <tt src={/class-icons/explorers/pathfinder/ancient-astra-torrent.png} tip={Ancient Astra - Torrent (Hyper Skill)}>(While casting)[-60% | 60s cd] <tt src={/class-icons/explorers/pathfinder/obsidian-barrier.png} tip={Obsidian Barrier (5th Job)} dur={[12s](-40% | 120s cd)}>"
         },              
         "linkSkill": {
                 "id":80002766,
@@ -233,7 +233,7 @@
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/pathfinder/curse-dampening-i.png"],
                         "type": "Passive",
-                        "desc": "When attacking with a [Cardinal Force] attack, gain a stacking %Crit Rate buff",
+                        "desc": "Successful [Cardinal Force] attacks grant a stacking %Crit Rate buff",
                         "details": [
                             "Only active when your %Crit Rate is affected by <tt src={/class-icons/explorers/ancient-curse.png} tip={Ancient Curse (Beginner)}>"
                         ]
@@ -299,21 +299,21 @@
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/pathfinder/curse-dampening-ii.png"],
                         "type": "Passive",
-                        "desc": "When attacking with a [Cardinal Force] attack, gain a stacking %DEF buff",
+                        "desc": "Successful [Cardinal Force] attacks grant a stacking %DEF buff",
                         "details": [
                             "Only active when your %DEF is affected by <tt src={/class-icons/explorers/ancient-curse.png} tip={Ancient Curse (Beginner)}>"
                         ]
                     },
                     {
                         "name": "Cardinal Deluge Amplification",
-                        "shortDesc": "MP Cost: 15. Fires an arrow that deals 200% damage to up to 5 enemies 4 times. If a boss monster is within the attack's range, fires 1 additional arrows.",
+                        "shortDesc": "MP Cost: 15. Fires an arrow that deals 200% damage to up to 5 enemies 4 times.\\nIf a boss monster is within the attack's range, fires 1 additional arrows.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/pathfinder/cardinal-deluge-amplification.png", "/class-icons/explorers/pathfinder/cardinal-deluge.png"],
                         "type": "Upgraded Passive",
                         "desc": "",
                         "details": [
                             "Increases %Damage and Max Enemies Hit of attack",
-                            "If a boss monster is within your attack range, you will fire 1 additional arrow"
+                            "If a boss monster is within your attack range, an additional arrow is fired"
                         ]
                     },
                     {
@@ -326,7 +326,7 @@
                         "desc": "Fire an arrow that explodes upon contact with an enemy or maximum range is reached",
                         "details": [
                             "Changes the emblem at the center of the gauge to 'Burst'",
-                            "[Tip]: Place <tt src={/class-icons/explorers/pathfinder/cardinal-burst.png} tip={Cardinal Burst (2nd)}> first and <tt src={/class-icons/explorers/pathfinder/cardinal-deluge.png} tip={Cardinal Deluge (1st Job)}> second into a skill macro for ease of use<bp_Skill macros is located on a button in the Skill UI on the bottom right_>"
+                            "[Tip]: Place <tt src={/class-icons/explorers/pathfinder/cardinal-burst.png} tip={Cardinal Burst (2nd)}> first and <tt src={/class-icons/explorers/pathfinder/cardinal-deluge.png} tip={Cardinal Deluge (1st Job)}> second into a skill macro for ease of use<bp_Skill macros is located on a button in the Skill UI on the bottom right_Right-clicking the skill will toggle a function ON/OFF that provides a similar behavior_>"
                         ]
                     },
                     {
@@ -379,7 +379,7 @@
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/pathfinder/curse-dampening-iii.png"],
                         "type": "Passive",
-                        "desc": "When attacking with a [Cardinal Force] attack, gain a stacking Abnormal Status Resistance buff",
+                        "desc": "Successful [Cardinal Force] attacks grant a stacking Abnormal Status Resistance buff",
                         "details": [
                             "Only active when your Abnormal Status Resistance is affected by <tt src={/class-icons/explorers/ancient-curse.png} tip={Ancient Curse (Beginner)}>"
                         ]
@@ -417,7 +417,7 @@
                         "icons": ["/class-icons/explorers/pathfinder/triple-impact.png"],
                         "animations": ["https://media.giphy.com/media/VIPY8sbgRYgXlAYWCp/giphy.gif"],
                         "type": "Ancient Force Attack",
-                        "desc": "Leap up into the air and fire 3 exploding arrows downwards",
+                        "desc": "Leap into the air and fire 3 exploding arrows downwards",
                         "details": [
                             "[Passive]: Permanently increases %Damage to regular monsters of <tt src={/class-icons/explorers/pathfinder/swarm-shot.png} tip={Swarm Shot (2nd Job)}> by a flat amount",
                             "If you are already airborne, the arrows will be fired immediately",
@@ -426,12 +426,12 @@
                     },
                     {
                         "name": "Shadow Raven",
-                        "shortDesc": "MP Cost: 70, summon a Raven for 220 sec. Deals 390% damage to up to 4 enemies at once.\\n[Passive Effect: Increases your Defense by 30%]",
+                        "shortDesc": "MP Cost: 70, summon a Raven for 220 sec.\\nDeals 390% damage to up to 4 enemies at once.\\n[Passive Effect: Increases your Defense by 30%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/pathfinder/shadow-raven.png"],
                         "animations": ["https://media.giphy.com/media/ibYZywtvXeyW2TjJy8/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons a raven that fights alongside you",
+                        "desc": "Summon a raven that fights alongside you",
                         "details": [
                             "[Passive]: Permanently increases %DEF",
                             "Unaffected by Damage Reflect"
@@ -530,7 +530,7 @@
                     },
                     {
                         "name": "Advanced Cardinal Force",
-                        "shortDesc": "When using Cardinal Force skills, MP Cost: 30\\nCardinal Deluge\\nFires an arrow that deals 300% damage to up to 6 enemies 5 times. Fires 1 additional arrow if a boss monster is within range.\\nBountiful Deluge Normal Enemy Damage: +100%\\nCardinal Burst\\nAn exploding arrow deals 600% damage to up to 7 enemies 5 times.\\nBountiful Burst Normal Enemy Damage: +100%\\nCardinal Torrent\\nConsumes 1 Swiftstrike Charge. Deals 540% damage 5 times to up to 7 nearby enemies. You gain 1 Swiftstrike Charge every 7 sec up to a maximum of 5. You cannot be pushed back while casting, and each enemy hit will receive 1 stack of the Ancient Curse debuff.",
+                        "shortDesc": "When using Cardinal Force skills, MP Cost: 30\\nCardinal Deluge\\nFires an arrow that deals 300% damage to up to 6 enemies 5 times. Fires 1 additional arrow if a boss monster is within range. The additional arrow targets the boss with the highest HP first\\nBountiful Deluge Normal Enemy Damage: +100%\\nCardinal Burst\\nAn exploding arrow deals 600% damage to up to 7 enemies 5 times.\\nBountiful Burst Normal Enemy Damage: +100%\\nCardinal Torrent\\nConsumes 1 Swiftstrike Charge. Deals 540% damage 5 times to up to 7 nearby enemies.\\nYou gain 1 Swiftstrike Charge every 7 sec up to a maximum of 5.\\nYou cannot be pushed back while casting, and each enemy hit will receive 1 stack of the Ancient Curse debuff.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/pathfinder/advanced-cardinal-force.png", "/class-icons/explorers/pathfinder/cardinal-deluge.png", "/class-icons/explorers/pathfinder/cardinal-burst.png", "/class-icons/explorers/pathfinder/cardinal-torrent.png"],
                         "animations": ["https://media.giphy.com/media/H422SodZD7TNa5l5nP/giphy.gif", "https://media.giphy.com/media/WsvBfbCd5AHSW2X8OT/giphy.gif"],
@@ -558,12 +558,12 @@
                     },
                     {
                         "name": "Combo Assault",
-                        "shortDesc": "Relic Gauge Cost: 100. Bow attack deals 500% damage to up to 4 enemies 7 times, inflicting 1 stack(s) of the Ancient Curse debuff.\\nArrow attack deals 550% damage to up to 10 enemies 5 times.\\nCooldown: 20 sec",
+                        "shortDesc": "Relic Gauge Cost: 100.\\nBow attack deals 500% damage to up to 4 enemies 7 times, inflicting 1 stack(s) of the Ancient Curse debuff.\\nArrow attack deals 550% damage to up to 10 enemies 5 times.\\nCooldown: 20 sec\\n-------Deluge-------\\nRelic Gauge Cost: 100.\\nBow attack deals 600% damagae to up to 5 enemies 7 times, inflicting 1 stack(s) of the Ancient Curse debuff.\\nArrow aattaack deaals 650% damage up to 12 enemies 5 times.\\nCooldown: 20 sec\\n-------Burst-------\\nRelic Gauge Cost: 100.\\nBow attack deals 600% damage up to 1 enemies 8 times, inflicting 1 stack(s) of the Ancient Curse debuff.\\nArrow attack deals 600% damage up to 10 enemies 5 times.\\nCooldown: 20 sec\\n-------Torrent-------\\nRelic Gauge Cost: 100.\\nBow attack deals 600% damage up to 4 enemies 7 times, inflicting 5 stack(s) of the Ancient Curse debuff.\\nArrow attack deals 650% damage up to 10 enemies 5 times.\\nCooldown: 20 sec",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/pathfinder/combo-assault.png"],
                         "animations": ["https://media.giphy.com/media/eKTtbptGr7YJy01VU9/giphy.gif"],
                         "type": "Enchant Force Attack",
-                        "desc": "Releases a flurry of arrows with different effects based on the emblem that is displayed on the Relic Gauge",
+                        "desc": "Release a flurry of arrows with different effects based on the emblem that is displayed on the Relic Gauge",
                         "details": [
                             "<tt src={/class-icons/explorers/pathfinder/combo-assault-deluge.png} tip={Combo Assault (Deluge)}> [Deluge]: Increases the range of the attack",
                             "<tt src={/class-icons/explorers/pathfinder/combo-assault-burst.png} tip={Combo Assault (Burst)}> [Burst]: Attack hits only one enemy but deals increased damage",
@@ -604,18 +604,18 @@
                     },
                     {
                         "name": "Bountiful Torrent",
-                        "shortDesc": "When using Cardinal Deluge or Cardinal Burst while the relic displays the Torrent emblem, your next 6 attacks within the following 7 sec have a 40% chance to apply 1 stack of the Ancient Curse debuff.\\nPermanently increases your Attack Power by 20%.",
+                        "shortDesc": "When using Cardinal Force and Enchant Force skills with the Deluge or Burst emblems, your attack has a 40% chance to apply 1 stack of the Ancient Curse debuff.\\nPermanently increases your Attack Power by 20%.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/pathfinder/bountiful-torrent.png"],
                         "type": "Passive",
-                        "desc": "When using <tt src={/class-icons/explorers/pathfinder/cardinal-deluge.png} tip={Cardinal Deluge (1st Job)}> <tt src={/class-icons/explorers/pathfinder/cardinal-burst.png} tip={Cardinal Burst (2nd Job)}> while the Relic Gauge is displaying the 'Torrent' emblem, there is a chance inflict <tt src={/class-icons/explorers/pathfinder/curseweaver.png} tip={Curseweaver (4th Job)}> debuff",
+                        "desc": "Successful [Cardinal Force] and [Enchant Force] skills while the Relic Gauge is displaying the \"Deluge\" or \"Burst\" emblem, there is a chance to inflict <tt src={/class-icons/explorers/pathfinder/curseweaver.png} tip={Curseweaver (4th Job)}> debuff",
                         "details": [
                             "Additionally permanently increases %Attack"
                         ]
                     },
                     {
                         "name": "Ancient Archery",
-                        "shortDesc": "Bountiful Deluge Damage: +65%p, Bountiful Burst Damage: +70%p\\nSwarm Shot First Arrow Damage: +350%p, Additional Magical Arrows' Damage: +200%p\\nFinal Damage of Ancient Force and Enchant Force Skills: +10%, Boss Damage: +50%",
+                        "shortDesc": "Bountiful Deluge Damage: +65% points, Bountiful Burst Damage: +70% points\\nSwarm Shot First Arrow Damage: +350% points, Additional Magical Arrows' Damage: +200% points\\nFinal Damage of Ancient Force and Enchant Force Skills: +10%, Boss Damage: +50%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/pathfinder/ancient-archery.png"],
                         "type": "Passive",
@@ -762,53 +762,53 @@
                 },
                 {
                     "name": "Ancient Astra",
-                    "shortDesc": "",
+                    "shortDesc": "Relic Gauge Cost: 65 per 1 sec. Max Enemies Hit: 7, Damage: 320%, Number of Consecutive Attacks: 6 times\\nCooldown: 60 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "type": "Key-down Attack",
-                    "desc": "Fires a barrage of arrows based on the emblem that is displayed on your Relic Gauge as listed below",
+                    "desc": "Fire a barrage of arrows based on the emblem that is displayed on your Relic Gauge as listed below",
                     "reqLev": 160
                 },
                 {
                     "name": "Ancient Astra (Deluge)",
-                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 7 enemies, for 400% damage, 6 times. Has a 30% chance to create 2 magical arrows that attack 2 times, dealing 240% damage.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Max Enemies Hit: 7, Damage 400%, Number of Attacks: 6.\\nHas a 30% chance to create 2 magical arrows that attack 2 times, dealing 240% damage.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra-deluge.png", "/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "animations": ["https://media.giphy.com/media/u6ADg3REuVHpwCzHHQ/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "",
+                    "desc": "Fire a barrage of arrows that have a chance to create homing arrows on successful hits",
                     "details": [
-                        "Fires a barrage of arrows that have a chance to create additional homing arrows when an enemy is hit<bp>You cannot move while casting_Arrows prioritize bosses with the highest HP first_>",
+                        "You cannot move while casting",
                         "While casting, reduces damage taken including %Max HP attacks",
+                        "Magic arrows prioritize bosses with the highest HP first",
                         "Attack ends early if the Relic Gauge is depleted"
                     ],
                     "reqLev": 160
                 },
                 {
                     "name": "Ancient Astra (Burst)",
-                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to intermittenly fire arrows at the designated angle. The arrows' explosion deals 1440% damage, 10 times, to up to 12 enemies.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Can shoot arrows in designated directions.\\nExplosions deal 1440% damage 10 times to up to 12 enemies.\\nMakes you invincible for 2 sec.\\nCooldown: 90 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra-burst.png", "/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "animations": ["https://media.giphy.com/media/W6MDqdTvNuCeR6MxTd/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "",
+                    "desc": "Fire explosive arrows that can be aimed using the Up and Down Arrow Keys",
                     "details": [
-                        "Fires explosive arrows that can be aimed using the Up and Down Arrow Keys",
-                        "While casting, reduces damage taken including %Max HP attacks",
+                        "While casting, you are invincible",
                         "Attack ends early if the Relic Gauge is depleted"
                     ],
                     "reqLev": 160
                 },
                 {
                     "name": "Ancient Astra (Torrent)",
-                    "shortDesc": "Relic Gauge Cost: 65 per sec. Hold down the key to continuously attack up to 4 enemies, for 360% damage, 6 times.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
+                    "shortDesc": "Relic Gauge Cost: 65 per sec. Max Enemies Hit: 4, Damage: 360%, Number of Attacks 6\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/pathfinder/ancient-astra-torrent.png", "/class-icons/explorers/pathfinder/ancient-astra.png"],
                     "animations": ["https://media.giphy.com/media/oHNV4HVUh3wsvsPfoJ/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "",
+                    "desc": "Fire a barrage of arrows forward",
                     "details": [
-                        "Fires a barrage of arrows forward<bp_You can move forward and backward while casting_>",
+                        "You can move forward and backward while casting",
                         "While casting, reduces damage taken including %Max HP attacks",
                         "Attack ends early if the Relic Gauge is depleted"
                     ],
@@ -905,7 +905,7 @@
                 },
                 {
                     "name": "Relic Unbound",
-                    "shortDesc": "Relic Gauge Cost: 250\\nDeluge Enhancement: rapidly shoot arrows that periodically deal 1650% damage for 22 sec\\nBurst Enhancement: shoot arrows that explode 6 times periodically dealing 1400% damage up to 10 enemies 8 times for 10 sec, can shoot up to 4 arrows\\nTorrent Enhancement: sets up to 3 Relics that periodically attacks up to 6 enemies with 1650% damage 7 times for 40 sec\\nCooldown: 120 sec",
+                    "shortDesc": "Relic Gauge Cost: 250\\nDeluge Enhancement: rapidly shoot arrows that periodically deal 1650% damage for 22 sec\\nBurst Enhancement: shoot arrows that explode 6 times periodically dealing 1375% damage up to 10 enemies 8 times for 10 sec, can shoot up to 4 arrows\\nTorrent Enhancement: sets up to 3 Relics that periodically attacks up to 6 enemies with 1650% damage 7 times for 40 sec\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/pathfinder/relic-unbound.png"],
                     "animations": ["https://media0.giphy.com/media/r6Va6RN6wAkIV0mc2G/giphy.gif"],
                     "type": "Enchant Force Summon",
@@ -1035,7 +1035,7 @@
                 },
                 {
                     "name": "HEXA Cardinal Burst",
-                    "shortDesc": "MP Cost: 45, Max Enemies Hit: 8, Damage: 990%, Attack Count: 5, when the arrow explodes.",
+                    "shortDesc": "MP Cost: 45, Max Enemies: 8, Damage: 870%, Attack Count: 5, when the arrow explodes.",
                     "icons": ["/class-icons/explorers/pathfinder/hexa-cardinal-burst.png", "/class-icons/explorers/pathfinder/cardinal-burst.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1066,7 +1066,7 @@
                 },
                 {
                     "name": "HEXA Cardinal Burst",
-                    "shortDesc": "MP Cost: 50, Max Enemies Hit: 7. Fire an arrow that deals 475% 5 times.",
+                    "shortDesc": "MP Cost: 50, Max Enemies Hit: 7. Fire an arrow that deals 417% 5 times.",
                     "icons": ["/class-icons/explorers/pathfinder/hexa-cardinal-deluge.png", "/class-icons/explorers/pathfinder/cardinal-deluge.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1136,7 +1136,7 @@
                 },
                 {
                     "name": "HEXA Ancient Astra (Burst)",
-                    "shortDesc": "Relic Gauge Cost: 65 per 1 sec. Hold down the key to intermittenly fire arrows at the designated angle.\\nThe arrows' explosions deal 2160% damage, 10 times, to up to 12 enemies.\\nWhile channeling this skill, damage taken from enemy attacks (including attacks that deal a fixed percentage of damage) is reduced by 60%.\\nCooldown: 60 sec.",
+                    "shortDesc": "Relic Gauge Cost: 65. Can shoot arrows in designated directions.\\nExplosions deal 2160% damage 10 times to up to 12 enemies.\\nMakes you invincible for 2 sec.\\nCooldown: 90 sec.",
                     "icons": ["/class-icons/explorers/pathfinder/hexa-ancient-astra-burst.png", "/class-icons/explorers/pathfinder/ancient-astra-burst.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

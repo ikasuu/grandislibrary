@@ -53,13 +53,13 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "(+20%)",
-                "detail": "<bg type={toggle} src={/class-icons/explorers/hero/enrage.png} tip={Enrage (4th Job)} val={+20%}>"
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/explorers/hero/enrage.png} tip={Enrage (4th Job)} val={+20%}>"
             },
             {
                 "name": "Damage",
                 "stat": "(+90%)",
-                "detail": "<bg type={debuff} src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)} val={+25% to critical hits}> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+5% if Axe is equipped}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +30%}>"
+                "detail": "<bg type={debuff} src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)} val={+25% to critical hits}> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+5% if Axe is equipped}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +36%}>"
             },
             {
                 "name": "Boss Damage",
@@ -68,8 +68,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+142%(559.66%)",
-                "detail": "<bg src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+10%}> × <bg type={def} sub={temp} src={/class-icons/explorers/hero/advanced-combo.png} tip={Advanced Combo (4th Job)} src={/class-icons/explorers/hero/advanced-combo-attack-reinforce.png} tip={Advanced Combo Attack - Reinforce (Hyper Skill)} val={+12% per Combo Orb} val={(Max. +120%)} subSrc={/class-icons/explorers/hero/sword-illusion.png} subTip={Sword Illusion (5th Job)} subVal={Increase of 6 Combo Orbs when used (+72%)}> × <bg type={toggle} src={/class-icons/explorers/hero/enrage.png} tip={Enrage (4th Job)} val={+25%}> × <bg type={temp} src={/class-icons/explorers/hero/chance-attack.png} tip={Chance Attack (3rd Job)} val={+25% to pierced, incapacitated}> × <bg type={temp} src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Combo (5th Job)} val={20% of Combo Orbs (Max. +24%)}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+                "stat": "+202.5%(559.66%)",
+                "detail": "<bg src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+10%}> × <bg src={/class-icons/explorers/hero/enrage.png} tip={Enrage (4th Job)} val={+25%}> × <bg type={def} sub={temp} src={/class-icons/explorers/hero/advanced-combo.png} tip={Advanced Combo (4th Job)} src={/class-icons/explorers/hero/advanced-combo-attack-reinforce.png} tip={Advanced Combo Attack - Reinforce (Hyper Skill)} val={+12% per Combo Orb} val={(Max. +120%)} subSrc={/class-icons/explorers/hero/sword-illusion.png} subTip={Sword Illusion (5th Job)} subVal={Increase of 6 Combo Orbs when used (+72%)}> × <bg type={temp} src={/class-icons/explorers/hero/chance-attack.png} tip={Chance Attack (3rd Job)} val={+25% to pierced, incapacitated}> × <bg type={temp} src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Combo (5th Job)} val={20% of Combo Orbs (Max. +24%)}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
             },
             {
                 "name": "Ignore DEF",
@@ -139,9 +139,9 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/explorers/hero/spirit-blade.png} tip={Spirit Blade (2nd Job)} dur={[200s]}> <tt src={/class-icons/explorers/hero/scarring-sword.png} tip={Scarring Sword (3rd Job)} dur={[200s]}>",
-            "toggles": "<tt src={/class-icons/explorers/hero/combo-attack.png} tip={Combo Attack (2nd Job)}> <tt src={/class-icons/explorers/hero/enrage.png} tip={Enrage (4th Job)}>",
-            "summons": "<tt src={/class-icons/explorers/hero/burning-soul-blade-1.png} tip={Burning Soul Blade (5th Job)} dur={[75s](120s cd)}>",
-            "buffCd": "<tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Blade (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[140s](180s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](15s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "toggles": "<tt src={/class-icons/explorers/hero/combo-attack.png} tip={Combo Attack (2nd Job)}>",
+            "summons": "<tt src={/class-icons/explorers/hero/burning-soul-blade-1.png} tip={Burning Soul Blade (5th Job)} dur={[20s/120s](120s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Blade (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](15s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/hero/spirit-calibur.png} tip={Spirit Calibur (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/hero/worldreaver.png} tip={Worldreaver (5th Job)} dur={[1.6s](25s cd)}> <tt src={/class-icons/explorers/hero/spirit-calibur.png} tip={Spirit Calibur (6th Job)} dur={(360s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](21% HP Barrier | 15s cd)}>",
             "knockback": "<tt src={/class-icons/explorers/hero/flash-blade.png} tip={Flash Blade (2nd Job)} dur={(4s cd)}> <tt src={/class-icons/explorers/hero/rush.png} tip={Rush (3rd Job)} dur={[]}> <tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}>"
@@ -346,10 +346,9 @@
                         "icons": ["/class-icons/explorers/hero/flash-blade.png"],
                         "animations": ["https://media.giphy.com/media/hNhhdh4xPBGLLo9FDa/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Dash towards enemies in a given direction",
+                        "desc": "Dash towards a given direction, up to 2 times consecutively",
                         "details": [
-                            "Can only be used when enemies are nearby",
-                            "If no Arrow Key is pressed, you will dash towards the direction you are facing",
+                            "If no Arrow Key is pressed, dash towards the direction you are facing",
                             "While dashing, prevents you from being knocked back at all (Super Knockback Resistance)"
                         ]
                     },
@@ -360,7 +359,7 @@
                         "icons": ["/class-icons/explorers/hero/combo-attack.png"],
                         "animations": ["https://media.giphy.com/media/8IYyO1LGF85d3t23MM/giphy.gif"],
                         "type": "Toggle Buff",
-                        "desc": "While toggled, there is a chance to gain a Combo Orb (up to 5) when attacking",
+                        "desc": "While toggled, successful attacks have a chance to grant a Combo Orb (up to 5)",
                         "details": [
                             "Grants bonus Attack for each Combo Orb",
                             "Right-clicking the skill will toggle the visual effect on/off"
@@ -373,9 +372,9 @@
                         "icons": ["/class-icons/explorers/hero/spirit-blade.png"],
                         "animations": ["https://media.giphy.com/media/NVxhkK7pKQb0xy9Xie/giphy.gif"],
                         "type": "Party Buff",
-                        "desc": "Grants you and your party flat Attack and increases %Damage Reduction for yourself",
+                        "desc": "Grants party members (including self) flat Attack and increases %Damage Reduction for yourself",
                         "details": [
-                            "Additionally while active, when you take damage, you deal some back"
+                            "Additionally while active, taking damage will return some damage back to the enemy"
                         ]
                     },
                     {
@@ -442,7 +441,7 @@
                         "icons": ["/class-icons/explorers/hero/scarring-sword.png"],
                         "animations": ["https://media.giphy.com/media/MengmHh3cF6jZXUj3J/giphy.gif"],
                         "type": "Buff",
-                        "desc": "While active, your attacks inflict a debuff on enemies",
+                        "desc": "While active, successful attacks inflict a debuff on enemies",
                         "details": [
                             "[Debuff]: Reduces %Attack and %Accuracy"
                         ]
@@ -483,7 +482,7 @@
                     },
                     {
                         "name": "Beam Blade",
-                        "shortDesc": "MP Cost: 55. Launches a blade that deal 180% damage 5 times to up to 8 enemies.\\nBeam Blade Damage Against Normal Monsters: +180%p\\nCooldown: 7 sec.",
+                        "shortDesc": "MP Cost: 55. Launches a blade that deal 180% damage 5 times to up to 8 enemies.\\nBeam Blade Damage Against Normal Monsters: +180% points\\nCooldown: 7 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/hero/beam-blade.png"],
                         "animations": ["https://media.giphy.com/media/GJh1jQT8JFCGtMV61m/giphy.gif"],
@@ -491,14 +490,14 @@
                         "desc": "Launches a blade that pierces enemies in a given direction",
                         "details": [
                             "If no Arrow Key is pressed, a blade is launched towards the direction you are facing",
-                            "Deals increased %Damage to regular monsters"
+                            "Deals increased %Damage to regular monsters by a flat amount"
                         ]
                     }]
                 ],
                 [
                 "4th Job", [{
                     "name": "Raging Blow",
-                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 4, Final attack is critical\\nEnhanced Raging Blow - Attack: 4 times, Damage: 344%, and the final two attacks are criticals.\\n[Passive Effects: Beam Blade Damage +70%p]",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 8, Damage: 320%, Number of Attacks: 4, Final attack is critical\\nEnhanced Raging Blow - Attack: 4 times, Damage: 344%, and the final two attacks are criticals.\\n[Passive Effects: Beam Blade Damage +70% points]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/hero/raging-blow.png"],
                     "animations": ["https://media.giphy.com/media/87xLc1lUKMOMo1hX5e/giphy.gif", "https://media.giphy.com/media/dT7AsZBHPXbOvCcP2F/giphy.gif"],
@@ -507,7 +506,7 @@
                     "details": [
                         "The final blow is a guaranteed Critical Hit",
                         "When Combo is fully charged, attack deals increased %Damage and the last 2 final blows are guaranteed Critical Hits",
-                        "[Passive]: Permanently increases %p Damage of <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (3rd Job)}>"
+                        "[Passive]: Permanently increases %Damage of <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (3rd Job)}> by a flat amount"
                     ]
                 },
                 {
@@ -517,7 +516,7 @@
                     "icons": ["/class-icons/explorers/hero/puncture.png"],
                     "animations": ["https://media.giphy.com/media/L6k5XL4nPpTUE3k7aw/giphy.gif"],
                     "type": "Swordsmanship Attack",
-                    "desc": "Strikes forward while applying a debuff to enemies hit",
+                    "desc": "Strike forward while applying a debuff to enemies hit",
                     "details": [
                         "[Debuff]: Critical Hits against enemy deals increased %Damage and enemy is damaged over time<bp_%Damage increase is reduced for party member Critical Hits_>",
                         "Deals increased %Damage to regular monsters"
@@ -535,15 +534,6 @@
                         "Enemies affected by Magic Crash cannot be affected again for a short period",
                         "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
                     ]
-                },
-                {
-                    "name": "Enrage",
-                    "shortDesc": "MP Cost 50:\\nFinal Damage: +25%, Critical Damage: +20%\\nReduces the Max Enemies Hit for all skills (except some summons) by 1/3. For skills that target multiple enemies, Max Enemies Hit won't be reduced below 3.",
-                    "maxLevel": 30,
-                    "icons": ["/class-icons/explorers/hero/enrage.png"],
-                    "animations": ["https://media.giphy.com/media/JmDjNR3zalRxAq9NDU/giphy.gif"],
-                    "type": "Toggle Buff",
-                    "desc": "While toggled, gain increased %Final Damage and %Crit Damage but reduces the Max Enemies Hit for all skills (except some summons)"
                 },
                 {
                     "name": "Maple Warrior",
@@ -609,6 +599,13 @@
                         "Increases activation chance, %Damage, and number of hits",
                         "Now grants flat Attack"
                     ]
+                },
+                {
+                    "name": "Enrage",
+                    "shortDesc": "Final Damage: +25%, Critical Damage: +20%",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/explorers/hero/enrage.png"],
+                    "type": "Passive"
                 }]
             ]
         ],
@@ -729,14 +726,16 @@
             "fifthMain": [
                 {
                     "name": "Burning Soul Blade",
-                    "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summon Duration: 75 sec. Press the skill key again to have the blade stay put (it will respawn if you stray too far).\\nWhen you use an offensive skill, attacks up to 8 enemies 6 times every 1 sec with 50% bonus Critical Rate.\\nNormal - Damage: 680% (While enraged: 770%)\\nStationary - Damage: 620% (While enraged: 675%)\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summons a Soul Blade near you. Use the skill key with down arrow key to have the blade remain stationary. Use the skill key again while the blade is stationary to return it to you.\\nPeriodically attacks enemies when you use offensive skills. Bonus Critical Rate: +50%\\nDuration: 20 sec., Max Enemies Hit: 8, Damage: 1490%, Number of Attacks: 6\\nDuration: 120 sec., Max Enemies Hit: 8, Damage: 400%, Number of Attacks: 2\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
-                    "animations": ["https://media1.giphy.com/media/RGGyqEcRKlFU49DhcL/giphy.gif?cid=790b7611420c152aab6633a04745253a8516f456b0b73095"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2I3bzl6NzhxcDBmajYxYmV4NWIwanZtM3IzcDA2YmxsdXh6ajBveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o3EcD3Raou45RPhkZF/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXhwMjU5NDZ4eXN2d293NW04djJlYmtvenRlYXRmY2tqaGs4bXoxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g6729xhe9lYtJcb0Az/giphy.gif"],
                     "type": "Summon",
-                    "desc": "When used, fully charges your Combo and summons a sword that attacks whenever you attack",
+                    "desc": "When used, fully charges your Combo and summons a sword that has two different attacks based on which keys are pressed",
                     "details": [
-                        "Pressing the Skill Key again will make it stationary and attack nearby enemies<bp_Pressing the Down Arrow Key and Skill Key together when first summoning will deploy the sword in the stationary state_Right-clicking the skill will toggle ON/OFF a function to always summon in stationary state on cast_>",
-                        "Deals increased damage while <tt src={/class-icons/explorers/hero/enrage.png} tip={Enrage (4th Job)}> Enraged",
+                        "[Skill Key]: Summons a sword that follows you and attacks upon attacking an enemy successfully",
+                        "[Down Arrow + Skill Key]: Summons a stationary sword that attacks nearby enemies<bp_While summoned, pressing the Skill Key will move the sword to your position_>",
+                        "Right-clicking the skill will toggle ON/OFF a function to summon the stationary sword by pressing the Skill Key and normal sword using the Down Arrow + Skill Key",
+                        "The sword's duration is different based on the normal or stationary state",
                         "The sword's attacks have increased %Crit Rate",
                         "Unaffected by Damage Reflect"
                     ]
@@ -747,7 +746,7 @@
                     "icons": ["/class-icons/explorers/hero/worldreaver.png"],
                     "animations": ["https://media.giphy.com/media/jQiKV8C5OYNzD2wmtd/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Slices nearby enemies in half dealing tremendous damage",
+                    "desc": "Slice nearby enemies in a wide area",
                     "details": [
                         "While casting, you are invulnerable",
                         "Unaffected by Damage Reflect"
@@ -755,14 +754,15 @@
                 },
                 {
                     "name": "Instinctual Combo",
-                    "shortDesc": "Can be used if you have at least 1 Combo Orb. MP Cost: 1000, Duration: 20 sec\\nThe Combo Orb increases Final Damage, damage to bosses, and Attack Power by 20%.\\nDecreases the chance of charging Combo Orbs by 50%\\nTear in Space: Periodically activates a rift 3 time(s). Damage: 400%, Max Enemies Hit: 6, Number of Attacks: 6. Cannot charge the Combo Orb with the Tear in Space.\\nCooldown: 120 sec",
+                    "shortDesc": "Can be used if you have at least 1 Combo Orb. MP Cost: 1000, Duration: 20 sec.\\nThe Combo Orb increases Final Damage, Boss Damage, and Attack Power by 20%.\\nDecreases the chance of charging Combo Orbs by 50%\\nTear in Space: Periodically activates a rift 3 times. Damage: 400%, Max Enemies Hit: 6, Number of Attacks: 6.\\nSoul Trace: Attacks all enemies hit by Spirit Calibur. Damage: 87%\\nCannot charge the Combo Orb with the Tear in Space.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/explorers/hero/instinctual-combo.png"],
                     "animations": ["https://media.giphy.com/media/3ZBgUWHGOrYdECsEEQ/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, using <tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow (4th Job)}> will to create a 'Tear in Space'",
+                    "desc": "While active, using <tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow (4th Job)}> creates a \"Tear in Space\"",
                     "details": [
                         "Increases <tt src={/class-icons/explorers/hero/combo-attack.png} tip={Combo Attack (2nd Job)}> stat bonuses of %Final Damage, %Boss Damage, and Attack",
-                        "Decreases chance of obtaining Combo Orbs by 50%"
+                        "Decreases chance of obtaining Combo Orbs by 50%",
+                        "While active, using <tt src={/class-icons/explorers/hero/spirit-calibur.png} tip={Spirit Calibur (6th Job)}>, the attacks and final blow will create \"Soul Traces\" that deals an additional hit"
                     ]
                 },
                 {
@@ -771,7 +771,7 @@
                     "icons": ["/class-icons/explorers/hero/sword-illusion.png"],
                     "animations": ["https://media.giphy.com/media/gLbIeSNjXVWii2e9ul/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Slashes forward several times and creates an explosion",
+                    "desc": "Slash forward several times and release an explosion",
                     "details": [
                         "Upon use, briefly increases amount of %Final Damage provided by <tt src={/class-icons/explorers/hero/combo-attack.png} tip={Combo Attack (2nd Job)}>",
                         "Unaffected by Damage Reflect"
@@ -906,7 +906,7 @@
                 },
                 {
                     "name": "HEXA Raging Blow",
-                    "shortDesc": "MP Cost: 51, Max Enemies Hit: 8, Damage: 530%, Number of Attacks: 4, Final attack is always a critical hit, attack range of Burning Soul Blade normal state is increased\\nEnhanced Raging Blow - Attack: 4 times, Damage: 590%, and the final two attacks are criticals, attack range of Instinctual Combo and Burning Soul Blade is increased",
+                    "shortDesc": "MP Cost: 51, Max Enemies Hit: 8, Damage: 530%, Number of Attacks: 4, Final attack is always a critical hit, attack range of Burning Soul Blade normal state is increased\\nEnhanced Raging Blow - Attack: 4 times, Damage: 700%, and the final two attacks are criticals, attack range of Instinctual Combo and Burning Soul Blade is increased",
                     "icons": ["/class-icons/explorers/hero/hexa-raging-blow.png", "/class-icons/explorers/hero/raging-blow.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -927,7 +927,7 @@
                 },
                 {
                     "name": "HEXA Rising Rage",
-                    "shortDesc": "MP Cost: 230\\nDamage: 270%, Max Enemies Hit: 10, Number of Attacks: 8, Chase Cuts: 4\\nCooldown: 10 sec\\n[Passive Effect: HEXA Raging Blow Damage: +148%p]",
+                    "shortDesc": "MP Cost: 230\\nDamage: 297%, Max Enemies Hit: 10, Number of Attacks: 8, Chase Cuts: 4\\nCooldown: 10 sec\\n[Passive Effect: HEXA Raging Blow Damage: +148% points]",
                     "icons": ["/class-icons/explorers/hero/hexa-rising-rage.png", "/class-icons/explorers/hero/rising-rage.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -947,7 +947,7 @@
                 },
                 {
                     "name": "HEXA Beam Blade",
-                    "shortDesc": "MP Cost: 32. Launches blades that deal 462% damage 5 times to up to 8 enemies.\\nHEXA Beam Blade Normal Enemy Damage: +290% points\\nPrepares 1 Beam Blade every 4 sec. Up to 2 can be charged\\nAttack again within 2 sec. to use Final Blade for the next attack\\nFinal Blade: Max Enemies Hit: 8, Damage: 693%, Number of Attacks: 5",
+                    "shortDesc": "MP Cost: 32. Launches blades that deal 508% damage 5 times to up to 8 enemies.\\nHEXA Beam Blade Normal Enemy Damage: +290% points\\nPrepares 1 Beam Blade every 4 sec. Up to 2 can be charged\\nAttack again within 2 sec. to use Final Blade for the next attack\\nFinal Blade: Max Enemies Hit: 8, Damage: 762%, Number of Attacks: 5",
                     "icons": ["/class-icons/explorers/hero/hexa-beam-blade-1.png", "/class-icons/explorers/hero/hexa-beam-blade-2.png", "/class-icons/explorers/hero/beam-blade.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -957,7 +957,7 @@
                 },
                 {
                     "name": "Rending Edge",
-                    "shortDesc": "Creates a sword scar when landing directly attacking skills 5 times\\nSword Scar, Max Enemies Hit: 8, Damage: 277%, Number of Attacks: 3\\nCry Valhalla, Instinctual Combo, and Spirit Calibur are counted as 1 attack upon landing 2 times\\nSword scars disappear after 4 attacks, Up to 5 can be created\\nCreates up to 10 during Instinctual Combo",
+                    "shortDesc": "Creates a sword scar when landing directly attacking skills 5 times\\nCry Valhalla, Tear in Space, and Spirit Calibur are counted as 1 attack upon landing 2 times\\nSword Scar, Duration: 1.5 sec., Max Enemies Hit: 8, Damage: 277%, Number of Attacks: 3\\nSword scars disappear after 32 attacks, Can only attack up to 4 times on single enemy.\\nUp to 5 can be created, and up to 10 during Instinctual Combo",
                     "icons": ["/class-icons/explorers/hero/rending-edge.png"],
                     "type": "Passive Attack",
                     "desc": "",
@@ -1067,7 +1067,7 @@
             {
                 "name": "Burning Soul Blade - 5th Job",
                 "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
-                "animations": ["https://media1.giphy.com/media/RGGyqEcRKlFU49DhcL/giphy.gif?cid=790b7611420c152aab6633a04745253a8516f456b0b73095"]
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2I3bzl6NzhxcDBmajYxYmV4NWIwanZtM3IzcDA2YmxsdXh6ajBveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o3EcD3Raou45RPhkZF/giphy.gif"]
             },
             {
                 "name": "Worldreaver - 5th Job",

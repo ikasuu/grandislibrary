@@ -68,8 +68,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+82%(136.6%)",
-                "detail": "<bg src={/class-icons/flora/khali/intuition.png} tip={Intuition (3rd Job)} val={+30%}> × <bg src={/class-icons/flora/khali/redemption.png} tip={Redemption (4th Job)} val={+40%}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+13% in Stage 1} val={+30% in Stage 2}>"
+                "stat": "+82%(125.68%)",
+                "detail": "<bg src={/class-icons/flora/khali/intuition.png} tip={Intuition (3rd Job)} val={+30%}> × <bg src={/class-icons/flora/khali/redemption.png} tip={Redemption (4th Job)} val={+40%}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
             },
             {
                 "name": "Ignore DEF",
@@ -81,7 +81,7 @@
             "active": "<tt src={/class-icons/flora/khali/chakram-booster.png} tip={Chakram Booster (2nd Job)} dur={[200s]}>",
             "toggles": "<tt src={/class-icons/flora/khali/void-enhance.png} tip={Void Enhance (3rd Job)}>",
             "summons": "<tt src={/class-icons/flora/khali/summon-chakri.png} tip={Summon Chakri (3rd Job)} dur={[30s, Max 6 Chakri](Toggle)}> <tt src={/class-icons/flora/khali/death-blossom.png} tip={Death Blossom (Hyper Skill)} dur={[30s](90s cd)}> <tt src={/class-icons/flora/khali/hex-pandemonium.png} tip={Hex: Pandemonium (5th Job)} dur={[3s](30s cd)}>",
-            "buffCd": "<tt src={/class-icons/flora/khali/desert-veil.png} tip={Desert Veil (4th Job)} dur={[3s](75s cd)}> <tt src={/class-icons/flora/khali/oblivion.png} tip={Oblivion (Hyper Skill)} dur={[30s](180s cd)}> <tt src={/class-icons/flora/khali/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/khali/resonate-ultimatum.png} tip={Resonate: Ultimatum (5th Job)} dur={[30s](180s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](75s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/khali/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "buffCd": "<tt src={/class-icons/flora/khali/desert-veil.png} tip={Desert Veil (4th Job)} dur={[3s](75s cd)}> <tt src={/class-icons/flora/khali/oblivion.png} tip={Oblivion (Hyper Skill)} dur={[30s](180s cd)}> <tt src={/class-icons/flora/khali/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/khali/resonate-ultimatum.png} tip={Resonate: Ultimatum (5th Job)} dur={[30s](180s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/khali/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/flora/khali/hex-sandstorm.png} tip={Hex: Sandstorm (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/flora/khali/desert-veil.png} tip={Desert Veil (4th Job)} dur={[3s](75s cd)}> <tt src={/class-icons/flora/khali/void-burst.png} tip={Void Burst (5th Job)} dur={[4.3s during skill, 3.5s after skill](180s cd)}> <tt src={/class-icons/flora/khali/hex-sandstorm.png} tip={Hex: Sandstorm (6th Job)} dur={(360s cd)}>"
         },        
@@ -497,7 +497,7 @@
                     "type": "Buff",
                     "desc": "When used, briefly become invincible",
                     "details": [
-                        "While active, no skills except for <tt src={/class-icons/flora/khali/spark.png} tip={Spark (1st Job)}> and <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}> can be used",
+                        "While active, only the following skills can be used: <tt src={/class-icons/flora/khali/spark.png} tip={Spark (1st Job)}> <tt src={/class-icons/flora/khali/void-rush.png} tip={Void Rush (1st Job)}>",
                         "Pressing the Skill Key again will end the buff early",
                         "Unaffected by cooldown resets"
                     ]

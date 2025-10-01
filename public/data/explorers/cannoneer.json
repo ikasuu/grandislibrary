@@ -39,7 +39,7 @@
             {
                 "name": "STR",
                 "stat": "+180 & +15%(440%) to assigned AP",
-                "detail": "<bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+70}> <bg src={/class-icons/explorers/cannoneer/agile-cannons.png} tip={Agile Cannons (2nd Job)} val={+20}> <bg src={/class-icons/explorers/cannoneer/pirate-training.png} tip={Pirate Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/cannoneer/mega-monkey-magic.png} tip={Mega Monkey Magic (4th Job)} val={+60}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% (AP) within zone}>"
+                "detail": "<bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+70}> <bg src={/class-icons/explorers/cannoneer/agile-cannons.png} tip={Agile Cannons (2nd Job)} val={+20}> <bg src={/class-icons/explorers/cannoneer/pirate-training.png} tip={Pirate Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/cannoneer/mega-monkey-magic.png} tip={Mega Monkey Magic (4th Job)} val={+60}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% (AP)}>"
             },
             {
                 "name": "Attack",
@@ -59,12 +59,12 @@
             {
                 "name": "Damage",
                 "stat": "(100%)",
-                "detail": "<bg type={debuff} src={/class-icons/explorers/cannoneer/monkey-fury.png} tip={Monkey Fury (3rd Job)} val={+40%}> <bg type={temp} src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/cannoneer/poolmaker.png} tip={Poolmaker (5th Job)} val={+30% from supplies}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "detail": "<bg type={debuff} src={/class-icons/explorers/cannoneer/monkey-fury.png} tip={Monkey Fury (3rd Job)} val={+40%}> <bg type={temp} src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/cannoneer/poolmaker.png} tip={Poolmaker (5th Job)} val={+30%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
-                "stat": "+40%",
-                "detail": "<bg src={/class-icons/explorers/cannoneer/pirates-spirit.png} tip={Pirate's Spirit (4th Job)} val={+40%}>"
+                "stat": "+29%",
+                "detail": "<bg src={/class-icons/explorers/cannoneer/pirates-spirit.png} tip={Pirate's Spirit (4th Job)} val={+29%}>"
             },
             {
                 "name": "Final Damage",
@@ -80,7 +80,7 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/explorers/cannoneer/monkey-magic.png} tip={Monkey Magic (2nd Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/explorers/cannoneer/buckshot.png} tip={Buckshot (Hyper Skill)}>",
-            "summons": "<tt src={/class-icons/explorers/cannoneer/anchors-aweigh.png} tip={Anchors Aweigh (4th Job)} dur={[60s]}> <tt src={/class-icons/explorers/cannoneer/monkey-militia.png} tip={Monkey Militia (4th Job)} dur={[60s](10s cd)}> <tt src={/class-icons/explorers/cannoneer/rolling-rainbow.png} tip={Rolling Rainbow (Hyper Skill)} dur={[12s](90s cd)}> <tt src={/class-icons/explorers/cannoneer/monkey-business.png} tip={Monkey Business (5th Job)} dur={[35s](90s cd)}> <tt src={/class-icons/explorers/cannoneer/poolmaker.png} tip={Poolmaker (5th Job)} dur={[Attack - 20 Barrages / Supply Buff - 20s](60s cd)}> <tt src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} dur={[30s](30s cd)}>",
+            "summons": "<tt src={/class-icons/explorers/cannoneer/anchors-aweigh.png} tip={Anchors Aweigh (4th Job)} dur={[60s]}> <tt src={/class-icons/explorers/cannoneer/monkey-militia.png} tip={Monkey Militia (4th Job)} dur={[60s]}> <tt src={/class-icons/explorers/cannoneer/rolling-rainbow.png} tip={Rolling Rainbow (Hyper Skill)} dur={[12s](60s cd)}> <tt src={/class-icons/explorers/cannoneer/cannon-of-mass-destruction.png} tip={Cannon of Mass Destruction (5th Job)} dur={(0.5s cd, 30s cd recharge - max. 2)}> <tt src={/class-icons/explorers/cannoneer/monkey-business.png} tip={Monkey Business (5th Job)} dur={[25s](60s cd)}> <tt src={/class-icons/explorers/cannoneer/poolmaker.png} tip={Poolmaker (5th Job)} dur={[60s](60s cd)}> <tt src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} dur={[30s]}>",
             "buffCd": "<tt src={/class-icons/explorers/cannoneer/barrel-roulette.png} tip={Barrel Roulette (3rd Job)} dur={[220s](30s cd / 60s cd if Ice)}> <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)} dur={[180s](60s cd / 30s cd if 1)}> <tt src={/class-icons/explorers/pirate/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/cannoneer/super-cannon-explosion.png} tip={Super Cannon Explosion (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/cannoneer/the-nuclear-option.png} tip={The Nuclear Option (5th Job)} dur={(30s cd)}> <tt src={/class-icons/explorers/cannoneer/super-cannon-explosion.png} tip={Super Cannon Explosion (6th Job)} dur={(360s cd)}>"
@@ -108,7 +108,7 @@
         "buildPath": {
             "build": [
                 ["1st Job", "<tt src={/class-icons/explorers/cannoneer/cannon-leap.png} tip={Cannon Leap}> -> <tt src={/class-icons/explorers/cannoneer/cannon-jump.png} tip={Cannon Jump}> -> <tt src={/class-icons/explorers/cannoneer/cannon-boost.png} tip={Cannon Boost}> -> <tt src={/class-icons/explorers/cannoneer/cannon-blaster.png} tip={Cannon Blaster}> -> <tt src={/class-icons/explorers/cannoneer/cannon-strike.png} tip={Cannon Strike}> -> <tt src={/class-icons/explorers/cannoneer/blast-back.png} tip={Blast Back}>"],
-                ["2nd Job", "<tt src={/class-icons/explorers/cannoneer/pirate-training.png} tip={Pirate Training}> -> <tt src={/class-icons/explorers/cannoneer/cannon-mastery.png} tip={Cannon Mastery}> -> <tt src={/class-icons/explorers/cannoneer/agile-cannons.png} tip={Cannon Booster}> -> <tt src={/class-icons/explorers/cannoneer/critical-fire.png} tip={Critical Fire}> -> <tt src={/class-icons/explorers/cannoneer/monkey-magic.png} tip={Monkey Magic}> -> <tt src={/class-icons/explorers/cannoneer/scatter-shot.png} tip={Scatter Shot}> -> <tt src={/class-icons/explorers/cannoneer/barrel-bomb.png} tip={Barrel Bomb}>"],
+                ["2nd Job", "<tt src={/class-icons/explorers/cannoneer/pirate-training.png} tip={Pirate Training}> -> <tt src={/class-icons/explorers/cannoneer/cannon-mastery.png} tip={Cannon Mastery}> -> <tt src={/class-icons/explorers/cannoneer/agile-cannons.png} tip={Cannon Booster}> -> <tt src={/class-icons/explorers/cannoneer/critical-fire.png} tip={Critical Fire}> -> <tt src={/class-icons/explorers/cannoneer/monkey-magic.png} tip={Monkey Magic}> -> <tt src={/class-icons/explorers/cannoneer/scatter-shot.png} tip={Scatter Shot}> -> <tt src={/class-icons/explorers/cannoneer/barrel-bomb.png} tip={Barrel Bomb}> -> <tt src={/class-icons/explorers/cannoneer/cannon-crash.png} tip={Cannon Crash}>"],
                 ["3rd Job", "<tt src={/class-icons/explorers/cannoneer/pirate-rush.png} tip={Pirate Rush}> -> <tt src={/class-icons/explorers/cannoneer/reinforced-cannon.png} tip={Reinforced Cannon}> -> <tt src={/class-icons/explorers/cannoneer/barrel-roulette.png} tip={Barrel Roulette}> -> <tt src={/class-icons/explorers/cannoneer/counter-crush.png} tip={Counter Crush}> -> <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice}> -> <tt src={/class-icons/explorers/cannoneer/cannon-spike.png} tip={Cannon Spike}> -> <tt src={/class-icons/explorers/cannoneer/monkey-mortar.png} tip={Monkey Mortar}> -> <tt src={/class-icons/explorers/cannoneer/monkey-fury.png} tip={Monkey Fury}>"],
                 ["4th Job", "<tt src={/class-icons/common/double-down.png} tip={Double Down}> -> <tt src={/class-icons/explorers/cannoneer/cannon-overload.png} tip={Cannon Overload}> -> <tt src={/class-icons/explorers/cannoneer/cannon-bazooka.png} tip={Cannon Bazooka}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/cannoneer/pirates-spirit.png} tip={Pirate's Spirit}> -> <tt src={/class-icons/explorers/cannoneer/mega-monkey-magic.png} tip={Mega Monkey Magic}> -> <tt src={/class-icons/explorers/cannoneer/nautilus-strike.png} tip={Nautilus Strike}> -> <tt src={/class-icons/explorers/cannoneer/monkey-militia.png} tip={Monkey Militia}> -> <tt src={/class-icons/explorers/cannoneer/anchors-aweigh.png} tip={Anchors Aweigh}> -> <tt src={/class-icons/explorers/cannoneer/cannon-barrage.png} tip={Cannon Barrage}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
             ],              
@@ -224,7 +224,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/cannon-blaster.png"],
                         "animations": ["https://media.giphy.com/media/5A98NZTxj7wjNaR2Zv/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a cannonball forward at several enemies"
+                        "desc": "Fire a cannonball forward at several enemies"
                     },
                     {
                         "name": "Cannon Strike",
@@ -233,7 +233,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/cannon-strike.png"],
                         "animations": ["https://media.giphy.com/media/MCHY1sK4rivTwxzfr2/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Launches a strike forward at one enemy"
+                        "desc": "Launch a strike forward at one enemy"
                     },
                     {
                         "name": "Blast Back",
@@ -242,7 +242,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/blast-back.png"],
                         "animations": ["https://media.giphy.com/media/KyZk9j4i1Z5BZnKwrT/giphy.gif"],
                         "type": "Attack / Utility",
-                        "desc": "Fires your cannon and recoiling you backward",
+                        "desc": "Fire a shot that pushes you backwards",
                         "details": [
                             "The attack has a chance to slow enemies"
                         ]
@@ -256,13 +256,14 @@
                     },
                     {
                         "name": "Cannon Leap",
-                        "shortDesc": "MP Cost: 10, Additional Jump distance[Passive Effects - Movement Speed +22, Max Movement Speed +20]",
+                        "shortDesc": "MP Cost: 10, Additional Jump distance\\n[Passive Effects - Movement Speed +22, Max Movement Speed +20]",
                         "maxLevel": 5,
                         "icons": ["/class-icons/explorers/cannoneer/cannon-leap.png"],
                         "animations": ["https://media.giphy.com/media/q3zBHGaxvglKKLujm4/giphy.gif"],
                         "type": "Active",
-                        "desc": "Fires your cannon, launching you up into the air",
+                        "desc": "Double jump skill",
                         "details": [
+                            "[Passive]: Permanently increases Movement Speed and Max Movement Speed",
                             "Can be assigned a Key Slot or activated by pressing jump twice"
                         ]
                     },
@@ -282,7 +283,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/cannon-jump.png"],
                         "animations": ["https://media.giphy.com/media/Ymw5gfZ5IbjFXGgtzd/giphy.gif"],
                         "type": "Attack / Utility",
-                        "desc": "Double jump skill",
+                        "desc": "Up jump skill",
                         "details": [
                             "Can be activated using the Skill Key or by pressing the Up Arrow Key and Jump Key while in the air<bp_Can be used up to two times in a row_>"
                         ]
@@ -296,7 +297,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/scatter-shot.png"],
                         "animations": ["https://media.giphy.com/media/wgd2ltGsEY8F0RlyTh/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a blast of cannonballs forward"
+                        "desc": "Fire a blast of cannonballs forward"
                     },
                     {
                         "name": "Barrel Bomb",
@@ -305,10 +306,19 @@
                         "icons": ["/class-icons/explorers/cannoneer/barrel-bomb.png"],
                         "animations": ["https://media.giphy.com/media/uSgNvodtRbZGVL8Eun/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a rolling barrel that travels a short distance before exploding",
+                        "desc": "Fire a rolling barrel that travels a short distance before exploding",
                         "details": [
                             "Attack pushes enemies back"
                         ]
+                    },
+                    {
+                        "name": "Cannon Crash",
+                        "shortDesc": "MP Cost: 10, Max Enemies Hit: 4, Damage: 32%, Number of Attacks: 3 while moving",
+                        "maxLevel": 5,
+                        "icons": ["/class-icons/explorers/cannoneer/cannon-crash.png"],
+                        "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHFya3NsZzkxaWY0ejAzZ3VlaHVwaGQ4NHcwd240bmRubzVzazJqaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qkdttrBaOusSO8OwvO/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies"
                     },
                     {
                         "name": "Monkey Magic",
@@ -321,7 +331,7 @@
                     {
                         "name": "Critical Fire",
                         "shortDesc": "Critical Rate: +20%, Critical Damage: +5%",
-                        "maxLevel": 9,
+                        "maxLevel": 5,
                         "icons": ["/class-icons/explorers/cannoneer/critical-fire.png"],
                         "type": "Passive"
                     },
@@ -350,12 +360,12 @@
                 [
                     "3rd Job", [{
                         "name": "Cannon Spike",
-                        "shortDesc": "MP Cost: 36, Damage: 240%, Max Enemies Hit: 6, Number of Attacks: 4",
+                        "shortDesc": "MP Cost: 36, Damage: 240%, Number of Attacks: 4, Max Enemies Hit: 6",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/cannoneer/cannon-spike.png"],
                         "animations": ["https://media.giphy.com/media/ZnTEk6ZB5BDypFxPcq/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a spike that pierces through enemies"
+                        "desc": "Fire a spike that pierces through enemies"
                     },
                     {
                         "name": "Monkey Mortar",
@@ -364,7 +374,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/monkey-mortar.png"],
                         "animations": ["https://media.giphy.com/media/nqRsqBtnR7n5NO6IAT/giphy.gif", "https://media.giphy.com/media/K9gbtXuv3ERfOjb2k5/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Launches an explosion above you that damages multiple enemies",
+                        "desc": "Launch an explosive above you that damages multiple enemies",
                         "details": [
                             "Gain 1 Monkey Mortar charge every 4 sec (up to 5 mortars)",
                             "Right-clicking the skill will toggle Auto Use ON/OFF causing Monkey Motar to activate and drop a mortar at the enemy's location when <tt src={/class-icons/explorers/cannoneer/cannon-bazooka.png} tip={Cannon Bazooka (4th Job)}> <tt src={/class-icons/explorers/cannoneer/cannon-barrage.png} tip={Cannon Barrage (4th Job)}> hits an enemy"
@@ -372,11 +382,11 @@
                     },
                     {
                         "name": "Monkey Fury",
-                        "shortDesc": "MP Cost: 62, Max Enemies Hit: 10, Damage: 180%, Number of Attacks: 3, Chance: 100%, Damage per second: 200% for 60 every 1 sec, Damage: +40% to pertinent enemy\\nImmediately explodes when the skill is used again, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 6\\nCooldown: 10 sec. If no enemy is hit, Cooldown: -5 sec",
+                        "shortDesc": "MP Cost: 62, Max Enemies Hit: 10, Damage: 180%, Number of Attacks: 3, Chance: 100%, Damage per second: 200% for 60 every 1 sec, Damage: +40% to pertinent enemy\\nImmediately explodes when the skill is used again, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 6",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/cannoneer/monkey-fury.png"],
                         "animations": ["https://media.giphy.com/media/DXDT6igk8ekCysm49h/giphy.gif"],
-                        "type": "Summon",
+                        "type": "Attack",
                         "desc": "Launch a bouncing bomb that damages and debuffs enemies",
                         "details": [
                             "[Debuff]: Enemy takes increased %Damage and is periodically damaged",
@@ -398,7 +408,7 @@
                     },
                     {
                         "name": "Roll of the Dice",
-                        "shortDesc": "MP Cost: 60, Buff Duration: 180\\nCooldown: 60 sec",
+                        "shortDesc": "MP Cost: 60, Buff Duration: 180 sec\\nCooldown: 60 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/common/roll-of-the-dice.png"],
                         "animations": ["https://media.giphy.com/media/JYBBZNrzQCima0kcQs/giphy.gif"],
@@ -443,7 +453,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/cannon-bazooka.png"],
                         "animations": ["https://media.giphy.com/media/zBlPRvutVpYWEWuhbE/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a large explosive blast forward"
+                        "desc": "Fire a large blast forward"
                     },
                     {
                         "name": "Cannon Barrage",
@@ -452,7 +462,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/cannon-barrage.png"],
                         "animations": ["https://media.giphy.com/media/NAF2uZ2tRAQYm4AwGk/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Launches a barrage of cannonballs at one enemy",
+                        "desc": "Launch a barrage of cannonballs at one enemy",
                         "details": [
                             "Attack has increased %Crit Rate and %Ignore DEF",
                             "Prioritizes enemy with the highest max HP within range first"
@@ -465,7 +475,7 @@
                         "icons": ["/class-icons/explorers/cannoneer/anchors-aweigh.png"],
                         "animations": ["https://media.giphy.com/media/mgOE7OxBwvNWbxyLiH/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Place an anchor that periodically damages and pulls in nearby enemies towards",
+                        "desc": "Place down an anchor that periodically damages and pulls in nearby enemies",
                         "details": [
                             "When the duration runs out, the anchor will explode that is a guaranteed Critical Hit",
                             "Unaffected by Damage Reflect"
@@ -473,12 +483,12 @@
                     },
                     {
                         "name": "Monkey Militia",
-                        "shortDesc": "MP Cost: 70, Summon Duration: 60 sec, Damage: 295%\\nCooldown: 10 sec",
+                        "shortDesc": "MP Cost: 70, Artillerymen Summon Duration: 60 sec, Damage: 295%",
                         "maxLevel": 15,
                         "icons": ["/class-icons/explorers/cannoneer/monkey-militia.png"],
                         "animations": ["https://media.giphy.com/media/ekXrIlnYQxndGvLONk/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Summons two stationary monkies that attack nearby enemies",
+                        "desc": "Summon two stationary monkeys that attack nearby enemies",
                         "details": [
                             "Unaffected by Damage Reflect"
                         ]
@@ -521,7 +531,7 @@
                     },
                     {
                         "name": "Cannon Overload",
-                        "shortDesc": "Permanent Final Damage: +30%, Attack Speed: +1, Mastery: +70%. Enemy DEF ignored by 20%.",
+                        "shortDesc": "Permanent Final Damage: +30%, Attack Speed: +1, Mastery: +70%, Ignore Defense: +20%.",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/cannoneer/cannon-overload.png", "/class-icons/explorers/cannoneer/cannon-mastery.png"],
                         "type": "Upgraded Passive",
@@ -556,7 +566,7 @@
                     },
                     {
                         "name": "Pirate's Spirit",
-                        "shortDesc": "Permanently gain Knockback Resistance: +80%, Counterattack Rate: +15%, and Boss Damage: +40%",
+                        "shortDesc": "Permanently gain Knockback Resistance: +80%, Counterattack Rate: +15%, and Boss Damage: +29%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/cannoneer/pirates-spirit.png"],
                         "type": "Passive"
@@ -646,7 +656,7 @@
                     "icons": ["/class-icons/explorers/cannoneer/buckshot.png"],
                     "animations": ["https://media.giphy.com/media/13jbgD7YSPRZIryuEM/giphy.gif"],
                     "type": "Toggle Buff",
-                    "desc": "Increases Attack Speed (by 1 stage) and triples the number of attacks for your skills but reduces %Final Damage",
+                    "desc": "While toggled, increases Attack Speed (by 1 stage) and triples the number of attacks for your skills but reduces %Final Damage",
                     "details": [
                         "Does not apply to <tt src={/class-icons/explorers/cannoneer/anchors-aweigh.png} tip={Anchors Aweigh (4th Job)}> <tt src={/class-icons/explorers/cannoneer/monkey-militia.png} tip={Monkey Militia (4th Job)}> <tt src={/class-icons/explorers/cannoneer/rolling-rainbow.png} tip={Rolling Rainbow (Hyper Skill)}>",
                         "Number of attacks cannot exceed 15 lines/hits"
@@ -655,12 +665,12 @@
                 },
                 {
                     "name": "Rolling Rainbow",
-                    "shortDesc": "MP Cost: 300, Cannon Ball Set-up Duration: 12 sec\\nMax Enemies Hit: 10, Damage: 800%, Number of Attacks: 3\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 300, Cannon Ball Set-up Duration: 12 sec\\nMax Enemies Hit: 10, Damage: 800%, Number of Attacks: 3\\nCooldown: 60 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/explorers/cannoneer/rolling-rainbow.png"],
                     "animations": ["https://media.giphy.com/media/Z2vVVjXLjEhXQxRJcY/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Place down stationary cannons that fire forward lasers",
+                    "desc": "Place down stationary cannons that fire lasers forward",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ],
@@ -682,14 +692,14 @@
             "fifthMain": [
                 {
                     "name": "Cannon of Mass Destruction",
-                    "shortDesc": "MP Cost: 500, periodically fires a giant rocket, Max Enemies Hit: 15, Damage: 900%, Number of Attacks: 4.\\nOnly up to 40 hits can occur against a single enemy.\\nYou can prepare a rocket once every 25 seconds, and can hold up to 3 at a time.\\nCooldown: 0.5 Sec.",
+                    "shortDesc": "MP Cost: 500, periodically fires a giant rocket, Max Enemies Hit: 15, Damage: 2100%, Number of Attacks: 5.\\nOnly up to 25 hits can occur against a single enemy.\\nYou can prepare a rocket once every 30 seconds, and can hold up to 2 at a time.\\nThe giant rocket can benefit from cooldown reduction effects\\nCooldown: 0.5 sec.",
                     "icons": ["/class-icons/explorers/cannoneer/cannon-of-mass-destruction.png"],
                     "animations": ["https://media1.giphy.com/media/iJzD8EVwWaQ74kKN5S/giphy.gif"],
-                    "type": "Attack",
-                    "desc": "Fires a rocket forward that damages enemies it passes through",
+                    "type": "Summon",
+                    "desc": "Fire a rocket forward that damages enemies it passes through",
                     "details": [
-                        "Gain 1 Rocket every 25 secs (up to 3 Rockets)",
-                        "Each enemy can only be hit up to 40 times by a rocket",
+                        "Gain 1 Rocket every 30 secs (up to 2 Rockets)",
+                        "Each enemy can only be hit up to 25 times by a rocket",
                         "Pressing the Down Arrow Key and the Skill Key together will fire all rockets at once",
                         "Right-clicking the skill will toggle Speed Reduction Mode ON/OFF causing the rockets to slow down when it collides with an enemy",
                         "Unaffected by Damage Reflect"
@@ -697,11 +707,11 @@
                 },
                 {
                     "name": "The Nuclear Option",
-                    "shortDesc": "MP Cost: 1000, You have up to 5 sec to aim your shot. The skill is canceled if you fail to fire within this time. When the missile touches the platform. an explosion that periodically inflicts 1760% damage 5 times to up to 15 enemies for 1 sec occurs.\\nCreates a patch of Polluted Area lasting for 15 sec on the lowest platform within attack range which inflicts 1100% damage to up to 10 enemies.\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 1000, You have up to 5 sec to aim your shot. The skill is canceled if you fail to fire within this time. When the missile touches the platform, an explosion that periodically inflicts 1760% damage 5 times to up to 15 enemies for 1 sec occurs.\\nCreates a patch of Polluted Area lasting for 15 sec on the lowest platform within attack range which inflicts 1100% damage to up to 10 enemies.\\nCooldown: 30 sec",
                     "icons": ["/class-icons/explorers/cannoneer/the-nuclear-option.png"],
                     "animations": ["https://media1.giphy.com/media/QTfvVSp1Xu6dbW7hKY/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Aims your cannon and fires a missile in a chosen direction that explodes and creates a lingering damaging field",
+                    "desc": "Aim a missile in a chosen direction that explodes and creates a lingering damaging field",
                     "details": [
                         "Hold to aim the cannon and angle it by using the Up or Down Arrow Keys<bp_You have up to 5 secs to aim or the Skill will cancel if you fail to fire within this time_>",
                         "While aiming, you will not be knocked back at all (Super Knockback Resistance)",
@@ -710,24 +720,24 @@
                 },
                 {
                     "name": "Monkey Business",
-                    "shortDesc": "MP Cost: 1000, Summon the Champion Monkey Platoon that fires Monkey Bombs and Monkey Cannons for 35 sec\\n Monkey Cannon: Max Enemies Hit: 3, Damage: 660%, Attack Count: 4\\nMonkey Bomb: Max Enemies Hit: 12, Damage: 990%, Attack Count: 7, Additional Monster DEF Ignored: 100%\\nBasic Roy: Uses Monkey Cannon every 1 sec, and Monkey Bomb every 6 sec.\\nSpeedy Maxi: Uses Monkey Cannon every 0.7 sec, and Monkey Bomb every 30 sec.\\nExplosive Khakkee: Uses Monkey Cannon every 2.5 sec, and Monkey Bomb every 3 sec.\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 1000, Summon the Champion Monkey Platoon that fires Monkey Bombs and Monkey Cannons for 25 sec\\n Monkey Cannon: Max Enemies Hit: 3, Damage: 660%, Attack Count: 4\\nMonkey Bomb: Max Enemies Hit: 12, Damage: 990%, Attack Count: 7, Additional Monster DEF Ignored: 100%\\nBasic Roy: Uses Monkey Cannon every 1 sec, and Monkey Bomb every 6 sec.\\nSpeedy Maxi: Uses Monkey Cannon every 0.7 sec, and Monkey Bomb every 20 sec.\\nExplosive Khakkee: Uses Monkey Cannon every 2.5 sec, and Monkey Bomb every 3 sec.\\nCooldown: 60 sec",
                     "icons": ["/class-icons/explorers/cannoneer/monkey-business.png"],
                     "animations": ["https://media0.giphy.com/media/jpiU94GqZhdLKbkAgO/giphy.gif", "https://media3.giphy.com/media/KBVJYBf2AuJs3aZmIb/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons several monkeys to fight alongside you",
+                    "desc": "Summon monkeys to fight alongside you",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Poolmaker",
-                    "shortDesc": "MP Cost: 1000. Strikes that attack up to 8 enemies for 1540% damage, 3 time(s), occur 20 time(s) each.\\nSupply: Duration: 20 sec. When used, you'll gain a +30% damage increase buff, with a duration of 20 sec after recovering 20% of max HP. Only up to 2 supplies can exist on the map at a time.\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 1000, Damage +30% for 60 sec.\\nStrikes that attack up to 8 enemies for 1540% damage, 3 time(s), occur 20 time(s) each.\\nSupply: Duration: 40 sec. Number of Supplies: 2. When used, you'll gain a +30% damage increase buff, with a duration of 20 sec. after recovering 20% of max HP. If a Cannoneer with the buff uses the supply, only the HP recovery will be applied.\\nCooldown: 60 sec.",
                     "icons": ["/class-icons/explorers/cannoneer/poolmaker.png"],
                     "animations": ["https://media1.giphy.com/media/imkTUMhENgwTTWWXqD/giphy.gif"],
-                    "type": "Attack",
-                    "desc": "Launches a barrage of missiles that slowly rain down onto enemies",
+                    "type": "Buff Attack",
+                    "desc": "When used, grants a %Damage buff and launches missiles that rain down onto enemies",
                     "details": [
-                        "Additionally while the skill is active, a Supply Crate will drop that restores some %Max HP/MP and grants a %Damage buff<bp_Party members can also activate the Supply Crate and gain its effects_To activate the Supply Crate, press the Up Arrow Key on it_Up to 2 Supply Crates can be present on a map at one time_>",
+                        "Upon the first missile strike, up to 2 Supply Crates will drop that restores %Max HP/MP and grants a %Damage buff<bp_Party members can activate the Supply Crate and gain its effects_To activate the Supply Crate, press the Up Arrow Key on it_Cannoneer will only receive the HP recovery and not the %Damage buff_>",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -986,13 +996,13 @@
                 },
                 {
                     "name": "HEXA Rolling Rainbow",
-                    "shortDesc": "MP Cost: 330, Cannon Ball Summon Duration: 10 sec.\\nCannon Ball periodically attacks up to 10 enemies with 1800% damage 5 times\\nMax Cannon Rainbow - MP Cost: 330, Duration: 10 sec.\\nCannon Ball periodically attacks up to 10 enemies with 2000% damage 5 times\\nCommunication network increases by 1 every 90 sec. You can have up to 2.\\n[Passive Effect - HEXA Cannon Barrage Damage: +120% points]",
+                    "shortDesc": "MP Cost: 330, Cannon Ball Summon Duration: 10 sec.\\nCannon Ball periodically attacks up to 10 enemies with 1800% damage 5 times\\nMax Cannon Rainbow - MP Cost: 330, Duration: 10 sec.\\nCannon Ball periodically attacks up to 10 enemies with 2000% damage 5 times\\nCommunication network increases by 1 every 60 sec. You can have up to 2.\\nThe communication network prepartion time can be affected by cooldown reduction effects.\\n[Passive Effect - HEXA Cannon Barrage Damage: +120% (additive)]",
                     "icons": ["/class-icons/explorers/cannoneer/hexa-rolling-rainbow.png", "/class-icons/explorers/cannoneer/hexa-rolling-rainbow-2.png", "/class-icons/explorers/cannoneer/rolling-rainbow.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
                         "Unlocked with 3rd Mastery Node",
-                        "Skill now uses a charge system called [communication network] (1 every 90 sec, max. 2)<bp_When 2 [communication network] are available, pressing the Down Arrow Key and Skill Key together summons an empowered version_Right-clicking the skill toggles a function ON/OFF to summon empowered version using only the Skill Key when it is available_>"
+                        "Skill now uses a charge system called [communication network] (1 every 60 sec, max. 2)<bp_When 2 [communication network] are available, pressing the Down Arrow Key and Skill Key together summons an empowered version_Right-clicking the skill toggles a function ON/OFF to summon empowered version using only the Skill Key when it is available_>"
                     ]
                 },
                 {
@@ -1007,7 +1017,7 @@
                 },
                 {
                     "name": "HEXA Monkey Militia",
-                    "shortDesc": "MP Cost: 80, Artillerymen Summon Duration: 62 sec, Damage: 1090%\\nCooldown: 10 sec",
+                    "shortDesc": "MP Cost: 80, Artillerymen Summon Duration: 62 sec, Damage: 1090%",
                     "icons": ["/class-icons/explorers/cannoneer/hexa-monkey-militia.png", "/class-icons/explorers/cannoneer/monkey-militia.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1017,7 +1027,7 @@
                 },
                 {
                     "name": "HEXA Monkey Fury",
-                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 10, Damage: 314%, Number of Attacks: 3\\nChance: 100%, Damage per second: 336% for 60 sec every 1 sec, Damage: +55% to pertinent enemy\\nImmediately explodes when the skill is used again, Max Enemies Hit: 10, Damage: 314%, Number of Attacks: 3\\nCooldown: 10 sec. If no enemy is hit, Cooldown: -5 sec",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 10, Damage: 314%, Number of Attacks: 3\\nChance: 100%, Damage per second: 336% for 60 sec every 1 sec, Damage: +55% to pertinent enemy\\nImmediately explodes when the skill is used again, Max Enemies Hit: 10, Damage: 314%, Number of Attacks: 3",
                     "icons": ["/class-icons/explorers/cannoneer/hexa-monkey-fury.png", "/class-icons/explorers/cannoneer/monkey-fury.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
