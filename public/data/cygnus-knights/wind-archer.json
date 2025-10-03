@@ -81,8 +81,8 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/cygnus-knights/wind-archer/storm-bringer.png} tip={Storm Bringer (4th Job)} dur={[200s]}> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
             "toggles": "<tt src={/class-icons/cygnus-knights/wind-archer/storm-elemental.png} tip={Storm Elemental (1st Job)}> <tt src={/class-icons/cygnus-knights/wind-archer/trifling-wind-i.png} tip={Trifling Wind I (2nd Job)}>",
-            "summons": "<tt src={/class-icons/cygnus-knights/wind-archer/emerald-flower.png} tip={Emerald Flower (3rd Job)} dur={[60s]}> <tt src={/class-icons/cygnus-knights/wind-archer/howling-gale.png} tip={Howling Gale (5th Job)} dur={[10s](20-60s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/vortex-sphere.png} tip={Vortex Sphere (5th Job)} dur={(30s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[70 Attacks](30s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
-            "buffCd": "<tt src={/class-icons/cygnus-knights/wind-archer/storm-whim.png} tip={Storm Whim (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/gale-barrier.png} tip={Gale Barrier (5th Job)} dur={[45s](90s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "summons": "<tt src={/class-icons/cygnus-knights/wind-archer/emerald-flower.png} tip={Emerald Flower (3rd Job)} dur={[60s]}> <tt src={/class-icons/cygnus-knights/wind-archer/howling-gale.png} tip={Howling Gale (5th Job)} dur={[10s](20-60s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/vortex-sphere.png} tip={Vortex Sphere (5th Job)} dur={(30s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[22.5s / 70 Attacks](30s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "buffCd": "<tt src={/class-icons/cygnus-knights/wind-archer/storm-whim.png} tip={Storm Whim (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/wind-archer/gale-barrier.png} tip={Gale Barrier (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/cygnus-knights/wind-archer/mistral-spring.png} tip={Mistral Spring (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/cygnus-knights/wind-archer/mistral-spring.png} tip={Mistral Spring (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/cygnus-knights/wind-archer/gale-barrier.png} tip={Gale Barrier (5th Job)} dur={[45s](Special Barrier | 90s cd)}> <tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"
@@ -227,7 +227,7 @@
                         "icons": ["/class-icons/cygnus-knights/wind-archer/breeze-arrow.png"],
                         "animations": ["https://media.giphy.com/media/yCqMxxTqa7sYXTLDKa/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires a shot of arrows forward"
+                        "desc": "Fire arrows forward"
                     },
                     {
                         "name": "Wind Walk",
@@ -279,7 +279,7 @@
                         "icons": ["/class-icons/cygnus-knights/wind-archer/gust-shot.png"],
                         "animations": ["https://media.giphy.com/media/P07jFks2L7hb96CiM2/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires an arrow, if there are multiple enemies, you will fire multiple arrows",
+                        "desc": "Fire arrows at several enemies",
                         "details": [
                             "Each arrow hits only one enemy"
                         ]
@@ -291,7 +291,7 @@
                         "icons": ["/class-icons/cygnus-knights/wind-archer/spiraling-vortex.png"],
                         "animations": ["https://media.giphy.com/media/5qIv67BDdOLJyKK4wW/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires an arrow that pushes enemies back"
+                        "desc": "Fire an arrow that pushes enemies back"
                     },
                     {
                         "name": "Trifling Wind I",
@@ -348,7 +348,7 @@
                         "icons": ["/class-icons/cygnus-knights/wind-archer/sentient-arrow.png"],
                         "animations": ["https://media.giphy.com/media/xKNKcxzqojpW4wSA0G/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Release a burst of gust around your character damaging enemies caught within"
+                        "desc": "Release a burst of gust around you that damaging enemies caught within"
                     },
                     {
                         "name": "Pinpoint Pierce",
@@ -357,7 +357,7 @@
                         "icons": ["/class-icons/cygnus-knights/wind-archer/pinpoint-pierce.png"],
                         "animations": ["https://media.giphy.com/media/edksth1CpZa35yjxba/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Fires two arrows towards one enemy and debuffs them",
+                        "desc": "Fire two arrows towards one enemy and debuffs them",
                         "details": [
                             "[Debuff]: Enemy receives increased %Damage and %Ignore DEF"
                         ]
@@ -382,12 +382,12 @@
                     },
                     {
                         "name": "Emerald Flower",
-                        "shortDesc": "MP Cost: 60, Duration: 60 sec. Crystal Flower HP: 20000 Slows affected enemies.",
+                        "shortDesc": "MP Cost: 60, Duration: 60 sec. Crystal Flower HP: 20000, apply Seduce and Slow Abnormal Status to nearby enemies.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/cygnus-knights/wind-archer/emerald-flower.png"],
                         "animations": ["https://media.giphy.com/media/8mdrBm8qIgQJFhaMKP/giphy.gif"],
                         "type": "Summon",
-                        "desc": "Creates a green crystal that attracts nearby enemies and takes aggression",
+                        "desc": "Place down a green crystal that attracts nearby enemies and takes aggression",
                         "details": [
                             "Enemies nearby are also slowed"
                         ]
@@ -443,7 +443,7 @@
                     "icons": ["/class-icons/cygnus-knights/wind-archer/fairy-spiral.png"],
                     "animations": ["https://media.giphy.com/media/hzNhyRDgrymBvonYyK/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Sweeps enemies knocking them back",
+                    "desc": "Sweep enemies knocking them back",
                     "details": [
                         "[Passive]: Permanently increases %Damage of <tt src={/class-icons/cygnus-knights/wind-archer/sentient-arrow.png} tip={Sentient Arrow (3rd Job)}> by a flat amount"
                     ]
@@ -455,7 +455,7 @@
                     "icons": ["/class-icons/cygnus-knights/wind-archer/song-of-heaven.png"],
                     "animations": ["https://media.giphy.com/media/Jq0YVdCAMActr6F36N/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "While held, fires a hurricane of arrows",
+                    "desc": "Fire a stream of arrows forward",
                     "details": [
                         "You can move while casting"
                     ]
@@ -556,7 +556,7 @@
                 },
                 {
                     "name": "Trifling Wind - Double Chance",
-                    "shortDesc": "Spirit Aura occurs twice and can hit a target twice",
+                    "shortDesc": "Soul energy fires twice and can hit a target twice",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/trifling-wind-double-chance.png"],
                     "type": "Passive",
@@ -619,7 +619,7 @@
             "hyperActive": [
                 {
                     "name": "Storm Whim",
-                    "shortDesc": "MP Cost: 200, Duration: 30, Strong Spirit Arrow Chance: 30%, Damage: 560%\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 200, Duration: 30 sec., Strong Spirit Arrow Chance: 30%, Damage: 560%\\nCooldown: 120 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/storm-whim.png"],
                     "animations": ["https://media.giphy.com/media/b4sduPQQz03tCGPO1b/giphy.gif"],
@@ -632,14 +632,14 @@
                 },
                 {
                     "name": "Monsoon",
-                    "shortDesc": "MP Cost: 350, Enemies Hit: 15, Damage: 430%, Number of Attacks: 12. Debuff Damage: 200% every 1 sec for 30 sec.\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 350, Damage: 430%, Max Enemies Hit: 15, Number of Attacks: 12. Damage Over Time: 200% every 1 sec for 30 sec.\\nCooldown: 30 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/wind-archer/monsoon.png"],
                     "animations": ["https://media.giphy.com/media/lAjnUyjkEUY5AJ6Ler/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Creates a giant monsoon that damages enemies in a large area",
+                    "desc": "Release a giant monsoon that damages enemies in a large area",
                     "details": [
-                        "Surviving enemies gain a damaging debuff"
+                        "Enemies hit receive a damaging debuff"
                     ],
                     "reqLev": 160
                 },
@@ -659,17 +659,18 @@
             "fifthMain": [
                 {
                     "name": "Howling Gale",
-                    "shortDesc": "MP Cost: 500, consumes wind energy to summon a gust for 10 sec\\nThe power of the summoned gust varies based on the amount of wind energy\\n1 - Max Enemies Hit: 10, Damage: 715%, Number of Attacks: 3, Gust Summoned: 1\\n2 - Max Enemies Hit: 15, Damage: 1715%, Number of Attacks: 3, Gust Summoned: 1\\n3 - Max Enemies Hit: 15, Gust Damage: 1715%, Number of Attacks: 3, Gust Summoned: 1. Max Enemies Hit: 15, Gust Damage: 945%, Number of Attacks: 3, Gust Summoned: 1\\nWind energy increases by 1 every 20 sec and you can hold up to 3.",
+                    "shortDesc": "MP Cost: 500, consumes wind energy to summon a gust for 10 sec\\nThe power of the summoned gust varies based on the amount of wind energy\\n1 - Max Enemies Hit: 10, Damage: 640%, Number of Attacks: 3, Gust Summoned: 1\\n2 - Max Enemies Hit: 15, Damage: 1715%, Number of Attacks: 3, Gust Summoned: 1\\n3 - Max Enemies Hit: 15, Gust Damage: 1715%, Number of Attacks: 3, Gust Summoned: 1. Max Enemies Hit: 15, Gust Damage: 945%, Number of Attacks: 3, Gust Summoned: 1\\nWind energy increases by 1 every 20 sec and you can hold up to 3.\\nCooldown reduction effects are applied while the wind energy is being prepared.\\nGust Resummon Cooldown: 0.3 sec.",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/howling-gale.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q3cGNldW9hdmRkcjhsMDN5aHl2dXV0djRzN2JraGJxM2VjNnQ5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J6o5azRRKSVMm4ij6q/giphy.gif", "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemo2emR2emVram0ycnYxMWVha29vb2FhZTdmZXl2N3F2YXoxbWlscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cu8QzRb4A1ZUXO6wKr/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summons a giant vortex that moves forward and pushes enemies back",
+                    "desc": "Summon a giant vortex that moves forward and pushes enemies back",
                     "details": [
-                        "This skill uses a special resource called 'Wind Energy' where 1 Wind Energy every 20 secs (up to 3)",
+                        "This skill uses a special resource called 'Wind Energy' where 1 Wind Energy every 20 secs (up to 3)<bp_Affected by cooldown reduction_>",
                         "[Consume 1 Wind Energy]: Creates a smaller vortex that is quicker but deals less damage",
                         "[Consume 2 Wind Energy]: Pressing the Down Arrow Key and Skill Key together creates a giant vortex that is slower but deals more damage",
                         "[Consume 3 Wind Energy]: Pressing the Up Arrow Key and Skill Key together creates two giant vortexes, one deals more damage than the other",
                         "Right-clicking the skill will toggle Speed Reduction Mode ON/OFF causing the gale to slow down when it collides with an enemy",
+                        "While summoned, pressing the Skill Key will resummon the vortex to your location",
                         "Prioritizes bosses with the highest HP first",
                         "Unaffected by Damage Reflect"
                     ]
@@ -689,7 +690,7 @@
                 },
                 {
                     "name": "Gale Barrier",
-                    "shortDesc": "MP Cost: 1000, Duration: 45 sec, creates a wind barrier with the 300 Elemental\\nDamage is nullified when the 1 Elemental is used for damage equal to 1% of max HP when hit. Also applies to attacks that deal damage proportional to the max HP.\\nLaunches 3 whirlwind(s) that deal(s) 1210% damage every 2 sec upon attack. Decreases the Final Damage of the whirlwind by 50% if multiple whirlwinds attack 1 enemy.\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec, creates a wind barrier with the 300 Elemental\\nDamage is nullified when the 1 Elemental is used for damage equal to 1% of max HP when hit. Also applies to attacks that deal damage proportional to the max HP.\\nLaunches 3 whirlwind(s) that deal(s) 1210% damage every 2 sec upon attack. Decreases the Final Damage of the whirlwind by 50% if multiple whirlwinds attack 1 enemy.\\nCooldown: 60 sec",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/gale-barrier.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXFxbjhxNGg5YmhhbG0xZ3UyNGtoN2Z4eGw0OG14eGgyMW5yZXh2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CZK7HrIOFMtSknyPQS/giphy.gif"],
                     "type": "Buff",
@@ -703,14 +704,14 @@
                 },
                 {
                     "name": "Vortex Sphere",
-                    "shortDesc": "MP Cost: 750. Creates a Vortex Sphere, which moves on a collision course with the enemy. The sphere periodically attacks up to 10 enemies, for 960% damage, 6 times.\\nDecreases Vortex Sphere's speed by 50% for 1 sec if a Boss Monster is attacked.\\nCollision occurs up to 20 times for each enemy.\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 750. Creates a Vortex Sphere, which moves on a collision course with the enemy. The sphere periodically attacks up to 10 enemies, for 960% damage, 8 times.\\nDecreases Vortex Sphere's speed by 50% for 1 sec if a Boss Monster is attacked.\\nCollision occurs up to 15 times for each enemy.\\nCooldown: 30 sec.",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/vortex-sphere.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWlzNXF1NjB3ZXI1cDlyaWhuZWtheng4ZXoyMXdjYmlsdnlodWxncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lTkYFwGCdUDQg5AWUN/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Fires a damaging orb that slowly travels forward while pulling in enemies",
+                    "desc": "Fire a damaging orb that slowly travels forward while pulling in enemies",
                     "details": [
                         "Attack slows down if it damages a boss",
-                        "Each enemy can only be hit up to 20 times by the orb",
+                        "Each enemy can only be hit up to 15 times by the orb",
                         "Unaffected by Damage Reflect"
                     ]
                 }
@@ -864,7 +865,7 @@
                 },
                 {
                     "name": "HEXA Trifling Wind",
-                    "shortDesc": "Max soul energy created: 5, Chance to create energy: 50%, Random enemies damaged: 525%\\nChance to create enhanced soul energy: 20%, Damage of enhanced soul energy: 750%",
+                    "shortDesc": "Max soul energy created: 5, Chance to create energy: 50%, Random enemies damaged: 525%\\nChance to create enhanced soul energy: 20%, Damage of enhanced soul energy: 675%",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-trifling-wind.png", "/class-icons/cygnus-knights/wind-archer/trifling-wind-iii.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -894,7 +895,7 @@
                 },
                 {
                     "name": "HEXA Storm Bringer",
-                    "shortDesc": "MP Cost: 80, Duration: 200 sec., Chance to summon large arrow on attack: 45%, Additional Arrow Damage: 1210%",
+                    "shortDesc": "MP Cost: 80, Duration: 200 sec., Chance to summon large arrow on attack: 45%, Additional Arrow Damage: 968%",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/hexa-storm-bringer.png", "/class-icons/cygnus-knights/wind-archer/storm-bringer.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -970,7 +971,7 @@
                 },
                 {
                     "name": "Gale Barrier Boost",
-                    "shortDesc": "Gale Barrier Final Damage: +60%, Number of Elementals: 400, Duration: increased to 60 sec",
+                    "shortDesc": "Gale Barrier Final Damage: +60%, Number of Elementals: 400, Duration: increased to 40 sec",
                     "icons": ["/class-icons/cygnus-knights/wind-archer/gale-barrier.png"],
                     "type": "Upgraded Passive"
                 },
