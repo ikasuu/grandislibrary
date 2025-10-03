@@ -57,8 +57,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+15%",
-                "detail": "<bg src={/class-icons/heroes/phantom/cane-expert.png} tip={Cane Expert (4th Job)} val={+15%}>"
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/heroes/phantom/cane-expert.png} tip={Cane Expert (4th Job)} val={+20%}>"
             },
             {
                 "name": "Damage",
@@ -82,11 +82,11 @@
             }
         ],
         "buffInfo": {
-            "active": "None <em brFlag={true}> <bold text={[Note]}>: Explorer buffs can also be stolen and used",
-            "buffCd": "<tt src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint (4th Job)} dur={(1800s cd upon revive)}> <tt src={/class-icons/heroes/phantom/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s per stack](240s cd, 25s cd between each stack)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[45s](180s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "active": "None",
+            "buffCd": "<tt src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint (4th Job)} dur={(1800s cd upon revive)}> <tt src={/class-icons/heroes/phantom/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s per stack](240s cd, 25s cd between each stack)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/heroes/phantom/defying-fate.png} tip={Defying Fate (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint (3rd Job)} dur={[4s](1800s cd revive)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s](240s cd)}> <tt src={/class-icons/heroes/phantom/luck-of-the-draw.png} tip={Luck of the Draw (5th Job)} dur={(180s cd)}> <tt src={/class-icons/heroes/phantom/phantoms-mark.png} tip={Phantom's Mark (5th Job)} dur={[2s](30s cd)}> <tt src={/class-icons/heroes/phantom/defying-fate.png} tip={Defying Fate (6th Job)} dur={(360s cd)}> <bold text={[Note]}>: Can steal Explorer iFrames",
-            "damageReduce": "<tt src={/class-icons/heroes/phantom/luck-of-the-draw.png} tip={Luck of the Draw (5th Job)}> <tt src={/class-icons/heroes/phantom/luck-of-the-draw-green.png} tip={Luck of the Draw - Tree of Life (5th Job)}>[30s Buff](-15% while casting / -8% Buff | 180s cd)"
+            "iFrame": "<tt src={/class-icons/heroes/phantom/final-feint.png} tip={Final Feint (3rd Job)} dur={[4s](1800s cd revive)}> <tt src={/class-icons/heroes/phantom/phantoms-mark.png} tip={Phantom's Mark (5th Job)} dur={[2s](30s cd)}> <tt src={/class-icons/5th-job/freuds-wisdom.png} tip={Freud's Wisdom (5th Job)} dur={[30s](240s cd)}> <tt src={/class-icons/heroes/phantom/defying-fate.png} tip={Defying Fate (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/heroes/phantom/luck-of-the-draw.png} tip={Luck of the Draw (5th Job)}> <tt src={/class-icons/heroes/phantom/luck-of-the-draw-green.png} tip={Luck of the Draw - Tree of Life (5th Job)}>[Up to 5s / 30s Buff](-50% / -8% Buff | 180s cd)"
         },        
         "linkSkill": {
                 "id":80000002,
@@ -210,7 +210,7 @@
                     "icons": ["/class-icons/heroes/phantom/judgment-draw.png", "/class-icons/heroes/phantom/judgment-draw-2.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzd3NTNleDV5MGJqdXU5cHRlMTI3djh5NnB2MGN2bng5N3J3ZWdmYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yBiwfLXZyKCB3t5MPX/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Releases all cards stored in the Card Gauge that seek out and attack one enemy",
+                    "desc": "Release all cards stored in the Card Gauge that seek out and attack one enemy",
                     "details": [
                         "Phantom has a special gauge that is charged by attacking enemies<bp_Once it is full using this skill resets the gauge_>",
                         "Upon activating, gain one of the following buffs:<bp_[Destin]: Increases %Crit Rate_[Malheur]: Increases %Item Drop Rate_[Endurance]: Increases Abnormal Status Resistance and %Elemental Resistance_[Drain]: Restore some %Max HP when attacking_>"
@@ -288,7 +288,7 @@
                         "icons": ["/class-icons/heroes/phantom/calling-card.png"],
                         "animations": ["https://media.giphy.com/media/j6x1TU8KaRfg4A4iIa/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Sends out cards that strike forward"
+                        "desc": "Launch cards that strike forward"
                     },
                     {
                         "name": "Impeccable Memory II",
@@ -306,7 +306,7 @@
                         "icons": ["/class-icons/heroes/phantom/mille-cartes.png"],
                         "animations": ["https://media.giphy.com/media/eNA3AbdliV4SeB4KA8/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Launches a blast of cards that pushes enemies back"
+                        "desc": "Launch a blast of cards that pushes enemies back"
                     },
                     {
                         "name": "Carte Blanche",
@@ -325,19 +325,19 @@
                         "type": "Passive"
                     },
                     {
+                        "name": "Devil's Luck",
+                        "shortDesc": "Permanently increases LUK by 60",
+                        "maxLevel": 9,
+                        "icons": ["/class-icons/heroes/phantom/devils-luck.png"],
+                        "type": "Passive"
+                    },
+                    {
                         "name": "Cane Acceleration",
                         "shortDesc": "Attack Speed +2, Luck: +20",
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/phantom/cane-acceleration.png"],
                         "type": "Pasive",
                         "desc": "Increases Attack Speed (by 2 stages) and grants flat LUK"
-                    },
-                    {
-                        "name": "Devil's Luck",
-                        "shortDesc": "Permanently increases LUK by 60",
-                        "maxLevel": 9,
-                        "icons": ["/class-icons/heroes/phantom/devils-luck.png"],
-                        "type": "Passive"
                     }]
                 ],
                 [
@@ -348,7 +348,20 @@
                         "icons": ["/class-icons/heroes/phantom/blason.png"],
                         "animations": ["https://media.giphy.com/media/jPHadI5ltslrpbcHgt/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Slices up enemies in front of you"
+                        "desc": "Slice enemies in front of you"
+                    },
+                    {
+                        "name": "Rapier Wit",
+                        "shortDesc": "MP Cost: 40, While moving - Damage: 270%, Max Enemies Hit: 10, Number of Attacks: 2, After moving - Attacks 3 times with 270% damage\\n[Passive Effects - Carte Mille Damage: +50%]",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/phantom/rapier-wit.png"],
+                        "animations": ["https://media.giphy.com/media/JTJCCdSF7JWo1ha1sE/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward and then strike enemies",
+                        "details": [
+                            "[Passive]: Increases %Damage of <tt src={/class-icons/heroes/phantom/mille-cartes.png} tip={Mille Cartes (2nd Job)}>",
+                            "Can be linked with <tt src={/class-icons/heroes/phantom/mille-cartes.png} tip={Mille Cartes (2nd Job)}> to reduce post-attack delay"
+                        ]
                     },
                     {
                         "name": "Impeccable Memory III",
@@ -397,19 +410,6 @@
                         "desc": "Grants a chance to dodge attacks"
                     },
                     {
-                        "name": "Rapier Wit",
-                        "shortDesc": "MP Cost: 40, While moving - Damage: 270%, Max Enemies Hit: 10, Number of Attacks: 2, After moving - Attacks 3 times with 270% damage\\n[Passive Effects - Carte Mille Damage: +50%]",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/heroes/phantom/rapier-wit.png"],
-                        "animations": ["https://media.giphy.com/media/JTJCCdSF7JWo1ha1sE/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Dashes forward and then strikes forward",
-                        "details": [
-                            "[Passive]: Increases %Damage of <tt src={/class-icons/heroes/phantom/mille-cartes.png} tip={Mille Cartes (2nd Job)}>",
-                            "Can be linked with <tt src={/class-icons/heroes/phantom/mille-cartes.png} tip={Mille Cartes (2nd Job)}> to reduce post-attack delay"
-                        ]
-                    },
-                    {
                         "name": "Piercing Vision",
                         "shortDesc": "Permanently increases Critical Rate by 35% and Final Damage by 30%.",
                         "maxLevel": 14,
@@ -427,7 +427,7 @@
                         "type": "Key-down Attack",
                         "desc": "While held, strike forward with a flurry of attacks",
                         "details": [
-                            "You can move while casting"
+                            "You can jump and move while casting"
                         ]
                     },
                     {
@@ -450,12 +450,12 @@
                         "details": [
                             "[Debuff]: Enemy takes increased %Ignore DEF",
                             "All attacks from Tempest are critical hits",
-                            "You can move while casting"
+                            "You can jump and move while casting"
                         ]
                     },
                     {
                         "name": "Penombre",
-                        "shortDesc": "MP Cost: 50, Damage: 450%, Max Enemies Hit: 10, Number of Attacks: 3\\n[Passive Effects - Rapier Wit Damage: +50%]",
+                        "shortDesc": "MP Cost: 50, Damage: 450%, Max Enemies Hit while Moving Back: 10, Number of Attacks: 3\\n[Passive Effects - Rapier Wit Damage: +50%]",
                         "maxLevel": 30,
                         "icons": ["/class-icons/heroes/phantom/penombre.png"],
                         "animations": ["https://media.giphy.com/media/MBBdaIQ63EZ0TidfgS/giphy.gif"],
@@ -467,7 +467,7 @@
                     },
                     {
                         "name": "Carte Noir",
-                        "shortDesc": "Upon a successful critical attack, a card has a 100% chance to appear. Damage: 270%, Deck +1\\nSwerve Card: attacks up to 4 enemies for 900% of damage. Cooldown increases by 5 sec.\\nBonus Avoidability: 20%.\\nDamage Against Normal Monsters: +150%",
+                        "shortDesc": "Upon a successful critical attack, there's a 100% of a card that attacks with 270% damage being created. Deck +1\\nSwerve Card: Creates up to 4 cards that attack with 900% damage,\\nCooldown: 5 sec.\\nDamage Against Normal Monsters With Card: +150%\\n[Passive Effect: Avoidability +20%]",
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/phantom/carte-noir.png", "/class-icons/heroes/phantom/carte-blanche.png"],
                         "animations": ["https://media.giphy.com/media/S85DLjUuvQtzD2zywZ/giphy.gif"],
@@ -481,6 +481,19 @@
                         ]
                     },
                     {
+                        "name": "Vol D'Ame",
+                        "shortDesc": "MP Cost: 60, Max Enemies: 12, Buffs applied:\\nAttack: Attack +40\\nDamage Ignored: Damage Received -40%\\nDamage Reflect: Reflects 600% of Damage Received\\nCancels Physical/Magic Attacks, Obsidian Skin: Temporary Invincibility except against some attacks\\nCooldown: 120 sec",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/heroes/phantom/vol-dame.png"],
+                        "animations": ["https://media.giphy.com/media/elc0m7nnoLw6gLHhee/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Steal buffs of nearby enemies",
+                        "details": [
+                            "If more than one is stolen, the most powerful is applied",
+                            "If the buff stolen was:<bp_[Attack Increasing]: Gain flat Attack_[Damage Ignoring]: Gain increased %Damage Reduction_[Damage Reflecting]: Reflect back a portion of damage received_[Invincibility]: Become temporarily invincible_>"
+                        ]
+                    },
+                    {
                         "name": "Priere D'Aria",
                         "shortDesc": "MP Cost: 120, Aria's image appears.\\n[Passive Effects - Damage: +45%, Ignore Defense: 30%, Knockback Resistance: +60%]",
                         "maxLevel": 30,
@@ -490,30 +503,6 @@
                         "desc": "",
                         "details": [
                             "Skill is a passive, the active effect does nothing except displays an animation"
-                        ]
-                    },
-                    {
-                        "name": "Cane Expert",
-                        "shortDesc": "Cane Mastery: +70%, Attack Power: +40, Critical Damage: +15%, Final Damage: +32%",
-                        "maxLevel": 30,
-                        "icons": ["/class-icons/heroes/phantom/cane-expert.png", "/class-icons/heroes/phantom/cane-mastery.png"],
-                        "type": "Upgraded Passive",
-                        "desc": "",
-                        "details": [
-                            "Increases %Weapon Mastery provided",
-                            "Now grants flat Attack and increases %Crit Damage and %Final Damage"
-                        ]
-                    },
-                    {
-                        "name": "Vol D'Ame",
-                        "shortDesc": "MP Cost: 60, Max Enemies: 12, Buffs applied:\\nAttack: Attack +40\\nDamage Ignored: Damage Received -40%\\nDamage Reflect: Reflects 600% of Damage Received\\nCancels Physical/Magic Attacks, Obsidian Skin: Temporary Invincibility except against some attacks\\nCooldown: 120 sec",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/heroes/phantom/vol-dame.png"],
-                        "animations": ["https://media.giphy.com/media/elc0m7nnoLw6gLHhee/giphy.gif"],
-                        "type": "Active",
-                        "desc": "Steals the buffs of nearby enemies, if more than one is stolen, the most powerful is applied",
-                        "details": [
-                            "If the buff stolen was:<bp_[Attack Increasing]: Gain flat Attack_[Damage Ignoring]: Gain increased %Damage Reduction_[Damage Reflecting]: Reflect back a portion of damage received_[Invincibility]: Become temporarily invincible_>"
                         ]
                     },
                     {
@@ -538,6 +527,18 @@
                         "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                         "details": [
                             "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                        ]
+                    },
+                    {
+                        "name": "Cane Expert",
+                        "shortDesc": "Cane Mastery: +70%, Attack Power: +40, Critical Damage: +20%, Final Damage: +32%",
+                        "maxLevel": 30,
+                        "icons": ["/class-icons/heroes/phantom/cane-expert.png", "/class-icons/heroes/phantom/cane-mastery.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Weapon Mastery provided",
+                            "Now grants flat Attack and increases %Crit Damage and %Final Damage"
                         ]
                     }]
             ]
@@ -632,17 +633,17 @@
                 },
                 {
                     "name": "Rose Carte Finale",
-                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 700%, Number of Attacks: 6, Deals 200% damage to 6 enemies near the card 2 times.\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 700%, Number of Attacks: 6\\nAfter, a card stuck in the ground that attacks in intervals has Damage: 200%, Max Enemies Hit: 6, Number of Attacks: 2\\nCooldown: 30 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/phantom/rose-carte-finale.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjU2ejBhdjgzaW1mdTdieHJucnlreXFmZzYzMmVmamNrcXhlbnZ0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QENwiN0XD94OafbVuf/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Cards rain from above leaving a damaging field of cards",
+                    "desc": "Cards rain from above that leaves a damaging field",
                     "reqLev": 160
                 },
                 {
                     "name": "Heroic Memories",
-                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Applies to any Hero class in the party",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to hero classes within the party\\nCooldown: 120 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/phantom/heroic-memories.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZ0OWZ3ejJkdXhuMmwya3U5YTJ2dmYyMmZhY2N2ZTdya216Z2xyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DbTXeRfWevYnKTNG4C/giphy.gif"],
@@ -656,20 +657,20 @@
             "fifthMain": [
                 {
                     "name": "Luck of the Draw",
-                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 5 sec. Attack by periodically throwing multiple cards forward. Damage: 820%, Number of Attacks: 1, Damage Taken during skill: -15%.\\nWhen finished, draws a card to buff all party members for 30 sec.\\nPriest - Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -8%, Abnormal Status Resistance: +25\\nHourglass - Active Cooldowns shortened by 32% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +6%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 5 sec. Attack by periodically throwing multiple cards forward. Damage: 820%, Number of Attacks: 1. Damage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nWhen finished, draws a card to buff all party members for 30 sec.\\nPriest - Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -8%, Abnormal Status Resistance: +25\\nHourglass - Active Cooldowns shortened by 32% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +6%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/heroes/phantom/luck-of-the-draw.png"],
                     "animations": ["https://media3.giphy.com/media/z6sDesJ5bVpSzyhmni/giphy.gif"],
                     "type": "Key-down Attack",
                     "desc": "While held, throw a flurry of cards towards a single enemy",
                     "details": [
-                        "While casting, damage taken is reduced (including %Max HP attacks) and you are immune to stun status effects",
+                        "While casting, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
                         "Prioritizes bosses with the highest Max HP first",
                         "At the end of the skill, you will draw a card that buffs all party members:<bp_<tt src={/class-icons/heroes/phantom/luck-of-the-draw-red.png} tip={Luck of the Draw - Priest (5th Job)}> [Priest]: Recovers %HP/MP over time_<tt src={/class-icons/heroes/phantom/luck-of-the-draw-green.png} tip={Luck of the Draw - Tree of Life (5th Job)}> [Tree of Life]: Increases %Damage Reduction (including %Max HP attacks) and Abnormal Status Resistance_<tt src={/class-icons/heroes/phantom/luck-of-the-draw-yellow.png} tip={Luck of the Draw - Hourglass (5th Job)}> [Hourglass]: Reduces active cooldowns by 20% (except 5th Job skills & skills that ignore cooldown resets)_<tt src={/class-icons/heroes/phantom/luck-of-the-draw-blue.png} tip={Luck of the Draw - Sharp Sword (5th Job)}> [Three Swords]: Increases %Final Damage_<tt src={/class-icons/heroes/phantom/luck-of-the-draw-black.png} tip={Luck of the Draw (5th Job)}> [Luck of the Draw]: Gain all buffs simultaneously_You are invincible while drawing the card_>"
                     ]
                 },
                 {
                     "name": "Ace in the Hole",
-                    "shortDesc": "MP Cost: 800, 3 of cards ricochet 6 times, dealing 1430% damage, before releasing the energy stored inside to strike up to 12 enemies for 1925% damage 6 times.\\nLiberated Card: activates its offensive power 3 time(s). Max Enemies Hit: 10, Damage: 1540%, Number of Attacks: 1. Attacks are activated up to 21 time(s) in proportion to the number the ricocheted cards' remaining attacks.\\nCooldown: 15 sec.",
+                    "shortDesc": "MP Cost: 800, 3 of cards ricochet 6 times, dealing 1375% damage, before releasing the energy stored inside to strike up to 12 enemies for 1815% damage 6 times.\\nLiberated Card: activates its offensive power 3 time(s). Max Enemies Hit: 10, Damage: 1430%, Number of Attacks: 1. Attacks are activated up to 21 time(s) in proportion to the number the ricocheted cards' remaining attacks.\\nCooldown: 15 sec.",
                     "icons": ["/class-icons/heroes/phantom/ace-in-the-hole.png"],
                     "animations": ["https://media0.giphy.com/media/kW29e07w4a3CHWerXZ/giphy.gif", "https://media.giphy.com/media/5OHxZzpfuOcCoWqj1i/giphy.gif"],
                     "type": "Attack",
@@ -683,22 +684,22 @@
                 },
                 {
                     "name": "Phantom's Mark",
-                    "shortDesc": "MP Cost: 1000. Requires 7 Master Thief Marks, if there is no enemy already marked as a target. Uses all Master Thief Marks upon skill activation.\\nInvincible for 2 sec after moving.\\nActivates a trajectory 7 time(s) dealing 660% damage 6 time(s) and complete the Master Thief Mark, activating 2 times and dealing 1055% damage 15 time(s). For all attacks, Max Enemies Hit: 10, Additional Critical Rate: +100%\\nEnemies hit with a Cane skill or Tempest get a debuff for 30 sec. Targets the enemy with 7 stacks.\\nMille Aiguilles, Tempest, and Rift Break must hit targets 7 times more than other skills to mark an enemy or earn Master Thief Marks.\\nAttack skills that utilize Impeccable Memory must hit 5 times.\\n Cooldown: 30 sec",
+                    "shortDesc": "MP Cost: 1000. Requires 7 Master Thief Marks, if there is no enemy already marked as a target. Uses all Master Thief Marks upon skill activation.\\nInvincible for 2 sec after moving.\\nActivates a trajectory 7 time(s) dealing 935% damage 6 time(s) and complete the Master Thief Mark, activating 2 times and dealing 1430% damage 15 time(s). For all attacks, Max Enemies Hit: 10, Additional Critical Rate: +100%\\nEnemies hit with a Cane skill or Tempest get a debuff for 30 sec. Targets the enemy with 7 stacks.\\nMille Aiguilles, Tempest, and Rift Break must hit targets 7 times more than other skills to mark an enemy or earn Master Thief Marks.\\nAttack skills that utilize Impeccable Memory must hit 5 times.\\n Cooldown: 30 sec.",
                     "icons": ["/class-icons/heroes/phantom/phantoms-mark.png"],
                     "animations": ["https://media0.giphy.com/media/rQTYVjZjosjYjJAE90/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Cane skill attacks mark enemies with \"Phantom Thief's Mark\" and grant stacks of \"Master Thief Mark\". When used, teleport behind the target with the most stacks",
+                    "desc": "Cane skill attacks mark enemies with [Phantom Thief's Mark] and grant stacks of [Master Thief Mark]. When used, teleport behind the target with the most stacks",
                     "details": [
-                        "Both \"Phantom Thief's Mark\" and \"Master Thief Mark\" accumulate up to 7 stacks<bp_The attack will target the enemy with the most \"Phantom Thief's Mark\"_Upon reaching 7 stacks of \"Master Thief Mark\" and no enemies are marked, the enemy with the highest max HP will be targeted_>",
+                        "Both [Phantom Thief's Mark] and [Master Thief Mark] accumulate up to 7 stacks<bp_The attack will target the enemy with the most [Phantom Thief's Mark]_Upon reaching 7 stacks of [Master Thief Mark] and no enemies are marked, the enemy with the highest max HP will be targeted_>",
                         "When used, grants invinciblity briefly after teleporting", 
                         "Attack is a guaranteed Critical Hit",
-                        "<tt src={/class-icons/heroes/phantom/mille-aiguilles.png} tip={Mille Aiguilles (4th Job)}> and <tt src={/class-icons/heroes/phantom/tempest.png} tip={Tempest (4th Job)}> must hit an enemy 7 times to gain a stack of \"Master Thief Marks\"",
-                        "Immpeccable Memory attacks must hit an enemy 5 times to gain a stack of \"Master Thief Marks\""
+                        "<tt src={/class-icons/heroes/phantom/mille-aiguilles.png} tip={Mille Aiguilles (4th Job)}> and <tt src={/class-icons/heroes/phantom/tempest.png} tip={Tempest (4th Job)}> must hit an enemy 7 times to gain a stack of [Master Thief Marks]",
+                        "Immpeccable Memory attacks must hit an enemy 5 times to gain a stack of [Master Thief Marks]"
                     ]
                 },
                 {
                     "name": "Rift Break",
-                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 10, Damage: 990%, Number of Attacks: 7, Max Chase Cut or Teleport: 7\\nCooldown: 30 sec, cooldown is reduced by 3.5 sec per remaining teleports",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 10, Damage: 1430%, Number of Attacks: 7, Max Chase Cut or Teleport: 7\\nCooldown: 30 sec, cooldown is reduced by 3.5 sec per remaining teleports",
                     "icons": ["/class-icons/heroes/phantom/rift-break.png"],
                     "animations": ["https://media2.giphy.com/media/gyZW0xYCyfmnrWLg3O/giphy.gif"],
                     "type": "Attack",
@@ -965,7 +966,7 @@
                 },
                 {
                     "name": "La Mort Carte",
-                    "shortDesc": "MP Cost: 300, 80 La Mort Carte charged for 40 sec.\\nLa Mort Carte Damage: 1350%\\nWhen used while Luck of the Draw key is held, or during Luck of the Draw buff, 160 La Mort Carte is charged and damage increases by 450% points\\nCooldown: 60 sec.\\n[Passive Effect: HEXA Carte Noir - Damage: +30% points]",
+                    "shortDesc": "MP Cost: 300, 80 La Mort Carte charged for 40 sec.\\nLa Mort Carte Damage: 1350%\\nWhen used while Luck of the Draw key is held, or during Luck of the Draw buff, 160 La Mort Carte are charged. When using the Luck of the Draw during La Mort Carte, 80 additional La Mort Carte are charged and damage increases by 450% (additive)\\nCooldown: 60 sec.\\n[Passive Effect: HEXA Carte Noir - Damage: +30% (additive)]",
                     "icons": ["/class-icons/heroes/phantom/la-mort-carte.png"],
                     "type": "Buff Attack",
                     "desc": "",
