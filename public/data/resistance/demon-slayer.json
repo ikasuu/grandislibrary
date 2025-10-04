@@ -43,8 +43,8 @@
             },
             {
                 "name": "Attack",
-                "stat": "+4% +100",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/demon-slayer/outrage.png} tip={Outrage (2nd Job)} val={+50}> <bg src={/class-icons/resistance/demon-slayer/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+50}>"
+                "stat": "+4% +50",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/demon-slayer/outrage.png} tip={Outrage (2nd Job)} val={+20}> <bg src={/class-icons/resistance/demon-slayer/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+30}>"
             },
             {
                 "name": "Crit Rate",
@@ -53,8 +53,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+15%",
-                "detail": "<bg src={/class-icons/resistance/demon-slayer/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+15%}>"
+                "stat": "+12%",
+                "detail": "<bg src={/class-icons/resistance/demon-slayer/barricade-mastery.png} tip={Barricade Mastery (4th Job)} val={+12%}>"
             },
             {
                 "name": "Damage",
@@ -78,13 +78,13 @@
             }
         ],
         "buffInfo": {
-            "active": "<tt src={/class-icons/resistance/demon-slayer/vengeance.png} tip={Vengeance (2nd Job)} dur={[180s]}> <tt src={/class-icons/resistance/demon-slayer/leech-aura.png} tip={Leech Aura (4th Job)} dur={[180s]}>",
+            "active": "<tt src={/class-icons/resistance/demon-slayer/leech-aura.png} tip={Leech Aura (4th Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/resistance/demon-slayer/blue-blood.png} tip={Blue Blood (Hyper Skill)}>",
             "summons": "<tt src={/class-icons/resistance/demon-slayer/spirit-of-rage.png} tip={Spirit of Rage (5th Job)} dur={[16s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/orthrus.png} tip={Orthrus (5th Job)} dur={[55s](120s cd)}> <tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[48s](120s cd)}>",
-            "buffCd": "<tt src={/class-icons/resistance/demon-slayer/dark-metamorphosis.png} tip={Dark Metamorphosis (4th Job)} dur={[180s](90s cd)}> <tt src={/class-icons/resistance/demon-slayer/boundless-rage.png} tip={Boundless Rage (4th Job)} dur={[35s](120s cd)}> <tt src={/class-icons/resistance/demonic-fortitude.png} tip={Demonic Fortitude (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/demon-awakening.png} tip={Demon Awakening (5th Job)} dur={[65s](120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "buffCd": "<tt src={/class-icons/resistance/demon-slayer/dark-metamorphosis.png} tip={Dark Metamorphosis (4th Job)} dur={[180s](90s cd)}> <tt src={/class-icons/resistance/demon-slayer/boundless-rage.png} tip={Boundless Rage (4th Job)} dur={[35s](120s cd)}> <tt src={/class-icons/resistance/demonic-fortitude.png} tip={Demonic Fortitude (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/demon-awakening.png} tip={Demon Awakening (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/resistance/demon-slayer/binding-darkness.png} tip={Binding Darkness (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/nightmare.png} tip={Nightmare (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/resistance/demon-slayer/raven-storm.png} tip={Raven Storm (3rd Job)} dur={(30s cd)}> <tt src={/class-icons/resistance/demon-slayer/dark-metamorphosis.png} tip={Dark Metamorphosis (4th Job)} dur={(90s cd)}> <tt src={/class-icons/resistance/demon-slayer/demon-bane.png} tip={Demon Bane (5th Job)} dur={[6s](120s cd)}> <tt src={/class-icons/resistance/demon-slayer/nightmare.png} tip={Nightmare (6th Job)} dur={(360s cd)}>",
-            "damageReduce": "<tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[6s](-25% | 120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s, triggers once](-75% | 120s cd)}>"
+            "damageReduce": "<tt src={/class-icons/resistance/demon-slayer/vengeance.png} tip={Vengeance (2nd Job)} dur={[10s](-20% | 120s cd)}> <tt src={/class-icons/5th-job/defender-of-the-demon.png} tip={Defender of the Demon (5th Job)} dur={[6s, 2 attacks](-25% | 10s cd buff, 120s cd summon)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s, triggers once](-75% | 120s cd)}>"
         },        
         "linkSkill": {
             "id": 80000001,
@@ -146,7 +146,7 @@
             "title": "Demon Fury",
             "content": [
                 "<img src={/class-icons/resistance/demon-slayer/ds-fury.png} alt={Fury Resource}>",
-                "Demon Slayers do not use MP and instead use Demon Fury (DF) for their skills. DF regenerates on its own and upon successfuly attacking an enemy with <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> Demon Lash. Your max DF increases every Job Advancement (excluding 5th Job & 6th Job)"
+                "Demon Slayers do not use MP and instead use Fury for their skills. Fury regenerates on its own and upon successfuly attacking an enemy with <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> Demon Lash. Your max Fury increases every Job Advancement (excluding 5th Job & 6th Job)"
             ]
         }
     },
@@ -205,7 +205,7 @@
                         "type": "Basic Attack Modifier",
                         "desc": "Lash forward with 4 consecutive strikes",
                         "details": [
-                            "When the attack hits, you gain some DF"
+                            "Successful attacks recover Fury"
                         ]
                     },
                     {
@@ -215,7 +215,7 @@
                         "icons": ["/class-icons/resistance/demon-slayer/grim-scythe.png"],
                         "animations": ["https://media0.giphy.com/media/fuKnoASmmhJv2U8L98/giphy.gif"],
                         "type": "Key-down Attack",
-                        "desc": "While held, release a spinning scythe in front of you"
+                        "desc": "While held, release a spinning scythe forward"
                     },
                     {
                         "name": "Agile Demon",
@@ -243,7 +243,7 @@
                 "2nd Job", [
                     {
                         "name": "Barbed Lash",
-                        "shortDesc": "Demon Lash Damage: +80%p",
+                        "shortDesc": "Demon Lash Damage: +80% points",
                         "maxLevel": 1,
                         "icons": ["/class-icons/resistance/demon-slayer/barbed-lash.png", "/class-icons/resistance/demon-slayer/demon-lash.png"],
                         "animations": ["https://media1.giphy.com/media/L2ZLMzo9jZ035cT3cB/giphy.gif"],
@@ -278,22 +278,23 @@
                         "icons": ["/class-icons/resistance/demon-slayer/chaos-lock.png"],
                         "animations": ["https://media2.giphy.com/media/U4G9eFiL9aoY3tKTWE/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Teleport to a nearby enemy and damages them",
+                        "desc": "Teleport to a nearby enemy for an attack",
                         "details": [
                             "Attack has a chance to stun",
-                            "Chaos Lock can also be used as a teleport by pressing the Skill Key along with a Directional Arrow Key<bp_Can be used in the air_>"
+                            "After teleporting, Fury cannot be absorb for a brief period",
+                            "Skill can also be used as a teleport by pressing the Skill Key along with a Directional Arrow Key<bp_Can be used in the air_>"
                         ]
                     },
                     {
                         "name": "Vengeance",
-                        "shortDesc": "HP Cost: 150, Returns 400% of damage received back to the enemy for 180 sec, Paralysis Chance: 90%, Paralysis Duration: 5 sec",
+                        "shortDesc": "HP Cost: 150, Duration: 10 sec. Damage taken, including attacks that deal damage in proportion to Max HP, is reduced by 20%.\\nCooldown: 120 sec.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/resistance/demon-slayer/vengeance.png"],
-                        "animations": ["https://media2.giphy.com/media/JaMKIAlt3WiVFH2l71/giphy.gif"],
+                        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2lnYjJwd2lweG5veWV2emZzZmR5MmZ6aDh4eWlpaGZkNzMxZmd5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XeP5LRxMWLDFRvTdGS/giphy.gif"],
                         "type": "Buff",
-                        "desc": "While active, reflect back damage taken",
+                        "desc": "While active, reduces damage taken including %Max HP attacks",
                         "details": [
-                            "Attack has a chance to stun"
+                            "Unaffected by cooldown resets and %Buff Duration"
                         ]
                     },
                     {
@@ -312,7 +313,7 @@
                     },
                     {
                         "name": "Outrage",
-                        "shortDesc": "ATT: +50, Critical Rate: +20%",
+                        "shortDesc": "ATT: +20, Critical Rate: +20%",
                         "maxLevel": 18,
                         "icons": ["/class-icons/resistance/demon-slayer/outrage.png"],
                         "type": "Passive"
@@ -350,7 +351,7 @@
                         "icons": ["/class-icons/resistance/demon-slayer/vortex-of-doom.png"],
                         "animations": ["https://media3.giphy.com/media/SX0vXd40EfsACHnhBi/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Create a vortex on both sides that pulls in enemies",
+                        "desc": "Launch a vortex on both sides that pulls in enemies",
                         "details": [
                             "Attack has a chance to stun"
                         ]
@@ -362,9 +363,9 @@
                         "icons": ["/class-icons/resistance/demon-slayer/raven-storm.png"],
                         "animations": ["https://media1.giphy.com/media/LqUuQKYk3KSRUhTGQm/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Send out a flock of ravens forward",
+                        "desc": "Release a flock of ravens forward",
                         "details": [
-                            "When the attack hits an enemy, you restore some %Max HP",
+                            "When the attack hits an enemy, restore some %Max HP",
                             "You are invincible while casting"
                         ]
                     },
@@ -375,10 +376,7 @@
                         "icons": ["/class-icons/resistance/demon-slayer/carrion-breath.png"],
                         "animations": ["https://media0.giphy.com/media/JSozKO7VM91qfg80SW/giphy.gif"],
                         "type": "Key-down Attack",
-                        "desc": "When held, releases a poison breath upon enemies",
-                        "details": [
-                            "Enemies hit also receive a damaging poison debuff"
-                        ]
+                        "desc": "When held, releases a poison breath upon enemies that damages and applies a damaging debuff"
                     },
                     {
                         "name": "Black-Hearted Strength",
@@ -409,18 +407,18 @@
                         "type": "Passive",
                         "desc": "Grants a chance to guard an incoming attack",
                         "details": [
-                            "When guarding is successful, you restore some %Max HP and DF"
+                            "When guarding is successful, you restore some %Max HP and Fury"
                         ]
                     },
                     {
                         "name": "Max Fury",
-                        "shortDesc": "When using Demon Slash, grants a 75% chance of absorbing additional Fury. Automatically recovers 10 Fury every 4 seconds.",
+                        "shortDesc": "When using Demon Lash, grants a 75% chance of absorbing additional Fury. Automatically recovers 10 Fury every 4 seconds.",
                         "maxLevel": 5,
                         "icons": ["/class-icons/resistance/demon-slayer/max-fury.png"],
                         "type": "Passive",
-                        "desc": "Gain an increased chance to restore additional DF while using <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}>",
+                        "desc": "Gain an increased chance to restore additional Fury while using <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}>",
                         "details": [
-                            "Additionally, now passively restore DF periodically"
+                            "Additionally, now passively restore Fury periodically"
                         ]
                     }]
                 ],
@@ -439,7 +437,7 @@
                 },
                 {
                     "name": "Infernal Concussion",
-                    "shortDesc": "HP Cost: 300, Fury Cost: 15, Damage: 400%, Max Monsters Hit: 10. Deals 5 critical attacks that deal 320% damage.\\nFor first attack, Damage Against Normal Enemies: +400%p",
+                    "shortDesc": "HP Cost: 300, Fury Cost: 15, Damage: 400%, Max Monsters Hit: 10.\\nDeals 5 critical attacks that deal 320% damage.\\nFor first attack, Damage Against Normal Enemies: +400% points",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/demon-slayer/infernal-concussion.png"],
                     "animations": ["https://media3.giphy.com/media/TJrUmeYyn6uFR2tKA6/giphy.gif"],
@@ -469,7 +467,7 @@
                     "icons": ["/class-icons/resistance/demon-slayer/demon-cry.png"],
                     "animations": ["https://media1.giphy.com/media/fUMCSC894TxZMR4epj/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Release a large shockwave that damages and debuffs enemies",
+                    "desc": "Release a shockwave that damages and debuffs enemies",
                     "details": [
                         "[Debuff]: Enemy has decreased %Attack, %DEF, and %Accuracy. Enemy also will grant increased %EXP and Item Drop Rate when defeated<bp_Reduction to %DEF can be considered as %Ignore DEF_>"
                     ]
@@ -488,7 +486,7 @@
                 },
                 {
                     "name": "Dark Metamorphosis",
-                    "shortDesc": "HP Cost: 300, Fury Cost: 40, invincible while casting, Damage: +35% over 180 sec. Automatically attacks nearby enemies dealing 250% damage.\\nCooldown: 90 sec\\n[Passive Effect: Max HP: +20%]",
+                    "shortDesc": "HP Cost: 300, Fury Cost: 40, invincible while casting\\nDamage: +35% over 180 sec.\\nAutomatically attacks nearby enemies dealing 250% damage.\\nCooldown: 90 sec\\n[Passive Effect: Max HP: +20%]",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/demon-slayer/dark-metamorphosis.png"],
                     "animations": ["https://media3.giphy.com/media/ejyTCFfcEbN66VzsJV/giphy.gif"],
@@ -496,6 +494,7 @@
                     "desc": "Create damaging orbs around your character and increases %Damage",
                     "details": [
                         "[Passive]: Increases %Max HP",
+                        "You are invincible while casting",
                         "Unaffected by Damage Reflect"
                     ]
                 },
@@ -509,7 +508,7 @@
                 },
                 {
                     "name": "Leech Aura",
-                    "shortDesc": "Fury Cost: 30, For 180 sec, heals your party members for 3% of the damage you inflict. Cannot recover more than 25% of Max HP. Requires 5 sec cooldown.",
+                    "shortDesc": "Fury Cost: 30, For 180 sec, heals your party members within a set area for 3% of the damage you inflict. Cannot recover more than 25% of Max HP. Requires 5 sec cooldown.",
                     "maxLevel": 9,
                     "icons": ["/class-icons/resistance/demon-slayer/leech-aura.png"],
                     "animations": ["https://media4.giphy.com/media/fz9eM7FZWjgYA9VB7f/giphy.gif"],
@@ -541,7 +540,7 @@
                 },
                 {
                     "name": "Barricade Mastery",
-                    "shortDesc": "One-Handed Blunt and Axe Mastery: +70%, Attack Power: +50, Critical Damage: +15%",
+                    "shortDesc": "One-Handed Blunt and Axe Mastery: +70%, Attack Power: +30, Critical Damage: +12%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/demon-slayer/barricade-mastery.png", "/class-icons/resistance/demon-slayer/weapon-mastery.png"],
                     "type": "Upgraded Passive",
@@ -649,7 +648,7 @@
                     "type": "Toggle Buff",
                     "desc": "While active, increases the number of hits per attack of all skills",
                     "details": [
-                        "[Passive]: Permanently reduces DF consumption on all skills",
+                        "[Passive]: Permanently reduces Fury consumption on all skills",
                         "Does not apply to summoning skills or 5th Job Common Skills",
                         "Right-clicking the skill will toggle the visual effect ON/OFF"
                     ],
@@ -665,7 +664,7 @@
                     "desc": "Unleash a demon chomp attack in front of you",
                     "details": [
                         "Attack has increased %Boss Damage and %Ignore DEF",
-                        "Grants DF when used"
+                        "Grants Fury when used"
                     ],
                     "reqLev": 160
                 },
@@ -685,14 +684,14 @@
             "fifthMain": [
                 {
                     "name": "Demon Awakening",
-                    "shortDesc": "Fury Cost: 100, Duration: 65 sec, Critical Rate: +65%\\nAutomatically triggers Cerberus every 8 sec when you use an offensive skill, enhances Demon Lash and allows you to use Chaos Lock while Demon Lash is active\\nEnhanced Demon Lash - hits up to 6 enemies 3 times, Monster DEF Ignored: +50%, Boss Damage: +50%, 1st/2nd Hit Damage: 600%, 3rd Hit Damage: 700%, 4th Hit Damage: 800%\\nCooldown: 120 sec",
+                    "shortDesc": "Fury Cost: 100, Awaken the true powers of the Demon to unleash a Demon Lash enhanced by the Demon's authority. The Demon's authority can be used up to 25 times. Using Enhanced Demon Lash 4 times uses 1 of the Demon's authority. Duration: 60 sec., Critical Rate: +65%\\nAutomatically triggers Cerberus every 8 sec. when you use a direct offensive skill, allows you to use Chaos Lock while Enhanced Demon Lash is active\\nEnhanced Demon Lash - hits up to 6 enemies 3 times, Ignore Defense: +50%, Boss Damage: +50%, 1st/2nd Hit Damage: 780%, 3rd Hit Damage: 875%, 4th Hit Damage: 1000%\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/resistance/demon-slayer/demon-awakening.png"],
                     "animations": ["https://media2.giphy.com/media/ss5lBHqDhAMbRbB0Ow/giphy.gif"],
                     "type": "Buff Attack",
                     "desc": "While active, enhances <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> and gain increased %Crit Rate",
                     "details": [
-                        "While active, you can also activate <tt src={/class-icons/resistance/demon-slayer/chaos-lock.png} tip={Chaos Lock (2nd Job)}> while using <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> and <tt src={/class-icons/resistance/demon-slayer/cerberus-chomp.png} tip={Cerberus Chomp (Hyper Skill)}> will periodically activate whenever you use an attack<bp_Unaffected by Damage Reflect_>",
-                        "Enhanced <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> has increased %Ignore DEF and %Boss Damage"
+                        "The enhanced <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> uses a resource called [Demon's authority]<bp_During this skill, 25 [Demon's authority] are given and every 4 times enhanced <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> is used, 1 [Demon's authority] is consumed_Upon consuming all [Demon's authority], <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> is no longer enhanced_Attack has increased %Ignore DEF and %Boss Damage_>",
+                        "While active, you can activate <tt src={/class-icons/resistance/demon-slayer/chaos-lock.png} tip={Chaos Lock (2nd Job)}> during <tt src={/class-icons/resistance/demon-slayer/demon-lash.png} tip={Demon Lash (1st Job)}> and <tt src={/class-icons/resistance/demon-slayer/cerberus-chomp.png} tip={Cerberus Chomp (Hyper Skill)}> will periodically activate whenever you use an attack<bp_Unaffected by Damage Reflect_>"
                     ]
                 },
                 {
@@ -701,7 +700,7 @@
                     "icons": ["/class-icons/resistance/demon-slayer/spirit-of-rage.png"],
                     "animations": ["https://media1.giphy.com/media/3kQpBZjOVNLvXWm12O/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summon a spirit that attacks nearby enemies",
+                    "desc": "Summon a stationary spirit that attacks nearby enemies",
                     "details": [
                         "Deals a final attack once the summon expires",
                         "Attack has increased %Ignore DEF and guaranteed Critical Hits",
@@ -710,7 +709,7 @@
                 },
                 {
                     "name": "Orthrus",
-                    "shortDesc": "Consumes 30 Fury\\nSummon Duration: 55 sec.\\nNemea: Attacks every 2 sec, Damage: 880%, Max Enemies Hit: 10, Max Hits: 12, Additional Fury Absorption: 8\\nGeryon: Attacks every 3 sec, Damage: 1980%, Max Enemies Hit: 10, Hits: 10, Additional Fury Absorption: 12\\nAll Orthrus hits receive Additional Critical Rate: +100% and Additional Monster DEF Ignored: +50%\\nCooldown: 120 sec",
+                    "shortDesc": "Consumes 30 Fury\\nSummon Duration: 55 sec.\\nNemea: Attacks every 2 sec, Damage: 880%, Max Enemies Hit: 10, Max Hits: 12, Additional Fury Absorption: 8\\nGeryon: Attacks every 3 sec, Damage: 1980%, Max Enemies Hit: 10, Hits: 10, Additional Fury Absorption: 12\\nAll Orthrus hits receive Additional Critical Rate: +100% and Additional Monster DEF Ignored: +50%\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/resistance/demon-slayer/orthrus.png"],
                     "animations": ["https://media1.giphy.com/media/hYCMXgoyWGoWQ1uLmV/giphy.gif"],
                     "type": "Summon",
@@ -727,12 +726,12 @@
                     "icons": ["/class-icons/resistance/demon-slayer/demon-bane.png"],
                     "animations": ["https://media4.giphy.com/media/FYnW6puGpYvGyaSkc8/giphy.gif"],
                     "type": "Key-down Attack",
-                    "desc": "Release a storm of blades that strike from below",
+                    "desc": "While held, a storm of blades strike around you",
                     "details": [
                         "Upon casting, you are invincible for a few seconds",
                         "Attack has increased %Ignore DEF and %Crit Rate",
                         "Unleashes a final attack after the Skill Key is released<bp_The duration of the attack increases based on how long the Skill Key was held_To cancel the attack early, press the Down Arrow Key and Skill Key together_>",
-                        "While <tt src={/class-icons/resistance/demon-slayer/demon-awakening.png} tip={Demon Awakening (5th Job)}> is active, Demon Bane deals increased %Final Damage"
+                        "While <tt src={/class-icons/resistance/demon-slayer/demon-awakening.png} tip={Demon Awakening (5th Job)}> is active, the attack deals increased %Final Damage"
                     ]
                 }
             ],
@@ -919,7 +918,7 @@
                 },
                 {
                     "name": "HEXA Demon Impact",
-                    "shortDesc": "Fury Cost: 8, Max Enemies Hit: 4, Damage: 690%, Number of Attacks: 6\\nCritical Rate: +100%, Ignore Defense: +40%\\nBoss Damage: +45%, Slow Duration: 3 sec\\nHEXA Demon Impact: Demon Chain Enhancement: every 15 sec\\n------HEXA Demon Impact: Demon Chain------\\nFury Cost: 8, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 6\\nWhen attack hits, recovers 50 Fury\\nDuration: 60 sec, Enemy Defense: -15%, Enemy Attack Power and Accuracy: -20%\\nThe Demon Chain debuff does not stack with the Demon Cry debuff, and the debuff with the higher value is applied.\\nCritical Rate: +100%, Ignore Defense: +40%\\nBoss Damage: +45%",
+                    "shortDesc": "Fury Cost: 8, Max Enemies Hit: 4, Damage: 690%, Number of Attacks: 6\\nCritical Rate: +100%, Ignore Defense: +40%\\nBoss Damage: +45%, Slow Duration: 3 sec\\nHEXA Demon Impact: Demon Chain Enhancement: every 15 sec\\n------HEXA Demon Impact: Demon Chain------\\nFury Cost: 8, Max Enemies Hit: 10, Damage: 1328%, Number of Attacks: 6\\nWhen attack hits, recovers 50 Fury\\nDuration: 60 sec, Enemy Defense: -15%, Enemy Attack Power and Accuracy: -20%\\nThe Demon Chain debuff does not stack with the Demon Cry debuff, and the debuff with the higher value is applied.\\nCritical Rate: +100%, Ignore Defense: +40%\\nBoss Damage: +45%",
                     "icons": ["/class-icons/resistance/demon-slayer/hexa-demon-impact-1.png", "/class-icons/resistance/demon-slayer/hexa-demon-impact-2.png", "/class-icons/resistance/demon-slayer/demon-impact.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -940,7 +939,7 @@
                 },
                 {
                     "name": "HEXA Demon Lash",
-                    "shortDesc": "1st, 2nd: Damage: 340%, Max Enemies Hit: 6, Number of Attacks: 2.\\n3rd: Damage: 325%, Max Enemies Hit: 6, Number of Attacks: 3\\n4th: Damage: 325%, Max Enemies Hit: 6, Number of Attacks: 4\\nDemonic Spear - Damage: 500%, Max Enemies Hit: 10, Number of Attacks: 6, Cooldown: 6 sec\\nDemon Awakening Demonic Spear Damage: 800%, Cooldown: 3 sec\\nDemonic Spear Normal Enemy Damage: +180%p\\n[Passive Effect: Demon Awakening's Enhanced Demon Lash Damage: +80%p]",
+                    "shortDesc": "1st, 2nd: Damage: 340%, Max Enemies Hit: 6, Number of Attacks: 2.\\n3rd: Damage: 325%, Max Enemies Hit: 6, Number of Attacks: 3\\n4th: Damage: 325%, Max Enemies Hit: 6, Number of Attacks: 4\\nDemonic Spear - Damage: 500%, Max Enemies Hit: 10, Number of Attacks: 6, Cooldown: 6 sec\\nDemon Awakening Demonic Spear Damage: 800%, Cooldown: 3 sec.\\nDemonic Spear Normal Enemy Damage: +180% points\\n[Passive Effect: Demon Awakening's Enhanced Demon Lash Damage: +80% points]",
                     "icons": ["/class-icons/resistance/demon-slayer/hexa-demon-lash.png", "/class-icons/resistance/demon-slayer/demonic-spear.png", "/class-icons/resistance/demon-slayer/demon-lash.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -950,7 +949,7 @@
                 },
                 {
                     "name": "HEXA Infernal Concussion",
-                    "shortDesc": "HP Cost: 300, Fury Cost: 15, Max Enemies Hit: 10, Damage: 585%, Number of Attacks: 5\\nCritical Rate: +60%, Normal Enemy Damage: +205%p\\n[Passive Effect: Demon Impact Damage: +70%p, Demon Chain Damage: +90%p]",
+                    "shortDesc": "HP Cost: 300, Fury Cost: 15, Max Enemies Hit: 10, Damage: 585%, Number of Attacks: 5\\nCritical Rate: +60%, Normal Enemy Damage: +205% points\\n[Passive Effect: Demon Impact Damage: +70% points, Demon Chain Damage: +90% points]",
                     "icons": ["/class-icons/resistance/demon-slayer/hexa-infernal-concussion.png", "/class-icons/resistance/demon-slayer/infernal-concussion.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1000,7 +999,7 @@
                 },
                 {
                     "name": "HEXA Cerberus Chomp",
-                    "shortDesc": "HP Cost: 300, Max Enemies Hit: 8, Damage: 756%, Number of Attacks: 6\\nBoss Damage: +50%, Additional Enemy DEF Ignored: 50%, Additional Fury Absorption: 50\\nCooldown: 5 sec\\nEnhances to HEXA Cerberus Chomp: Teeth of Tartarus every 15 sec, but doesn't enhance during Demon Awakening\\nHEXA Cerberus Chomp: Teeth of Tartarus - HP Cost: 300, Max Enemies Hit: 10, Damage: 410%, Number of Attacks: 7, Guard's Rage Trigger Count: 4",
+                    "shortDesc": "HP Cost: 300, Max Enemies Hit: 8, Damage: 756%, Number of Attacks: 6\\nBoss Damage: +50%, Additional Enemy DEF Ignored: 50%, Additional Fury Absorption: 50\\nCooldown: 5 sec\\nEnhances to HEXA Cerberus Chomp: Teeth of Tartarus every 15 sec, but doesn't enhance during Demon Awakening\\nHEXA Cerberus Chomp: Teeth of Tartarus - HP Cost: 300, Max Enemies Hit: 10, Damage: 520%, Number of Attacks: 7, Guard's Rage Trigger Count: 4",
                     "icons": ["/class-icons/resistance/demon-slayer/hexa-cerberus-chomp.png", "/class-icons/resistance/demon-slayer/hexa-cerberus-chomp-2.png", "/class-icons/resistance/demon-slayer/cerberus-chomp.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1010,7 +1009,7 @@
                 },
                 {
                     "name": "Demonic Plume",
-                    "shortDesc": "When a direct skill attack other than a common skill lands, a Demonic Roar with Max Enemies Hit: 8, Damage: 1990%, Number of Attacks: 7 activates 4 times\\nCooldown: 20 sec\\nWhen casting Nightmare cooldown is reset once, cooldown is locked at 5 sec during Nightmare",
+                    "shortDesc": "When a direct skill attack other than a common skill lands, a Demonic Roar with Max Enemies Hit: 8, Damage: 1780%, Number of Attacks: 7 activates 5 times\\nCooldown: 20 sec\\nWhen casting Nightmare cooldown is reset once, cooldown is locked at 5 sec during Nightmare",
                     "icons": ["/class-icons/resistance/demon-slayer/demonic-plume.png"],
                     "type": "Passive Attack",
                     "desc": "",
@@ -1022,7 +1021,7 @@
             "originSkill": [
                 {
                     "name": "Nightmare",
-                    "shortDesc": "Fury Cost: 50, Invincible during casting\\nRelease Fury, Shockwave Max Enemies Hit: 15, Damage: 3000%, Number of Attacks: 4, Shockwaves: 6, then manifest the Demon's territory.\\nDemon's Territory - Duration: 20 sec, max Fury limit can exceed up to 500 times. Using direct attack skills activates the Flames of the Netherworld, Max Enemies Hit: 3, Damage: 2229%, Number of Attacks: 7, Cooldown: 0.3 sec\\nWhen using the flames of the nether world activate, Bonus Fury Recovery: 10\\nUsing the skill again ends it immediately, Max Enemies Hit: 15, Damage: 1760%, Number of Attacks: 7, Netherworld Judgment Activations: 46\\nFor each 10 Fury gained by exceeding the max Fury limit, Netherworld Judgment Final Damage: +1%, invincible and ignore status effects during casting of Netherworld Judgment\\nCooldown: 360 sec",
+                    "shortDesc": "Fury Cost: 50, Invincible during casting\\nRelease Fury, Shockwave Max Enemies Hit: 15, Damage: 3000%, Number of Attacks: 4, Shockwaves: 6, then manifest the Demon's territory.\\nDemon's Territory - Duration: 20 sec, max Fury limit can exceed up to 500 times. Using direct attack skills activates the Flames of the Netherworld, Max Enemies Hit: 3, Damage: 2229%, Number of Attacks: 7, Cooldown: 0.3 sec\\nWhen using the flames of the nether world activate, Bonus Fury Recovery: 10\\nUsing the skill again ends it immediately, Max Enemies Hit: 15, Damage: 1760%, Number of Attacks: 7, Netherworld Judgment Activations: 46\\nFor each 10 Fury gained by exceeding the max Fury limit, Netherworld Judgment Final Damage: +1%, invincible and ignore status effects during casting of Netherworld Judgment\\nCooldown: 360 sec.",
                     "icons": ["/class-icons/resistance/demon-slayer/nightmare.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3gyYWQ3cTNvZzM3bDB4aGUweTVkbHd1M3NjbnU2bDlmYjg0anI1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vvnHxT7mfrmBuVcVER/giphy-downsized-large.gif"],
                     "type": "Bind Attack",
@@ -1104,5 +1103,5 @@
             }
         ]
     },
-    "meta": "Demon Slayer is a STR warrior class part of the Demons & Resistance class group. Demon Slayers do not use MP and instead use Demon Fury (DF) for their skills. You will gain more DF every time you Job Advance (excluding 5th Job)"
+    "meta": "Demon Slayer is a STR warrior class part of the Demons & Resistance class group. Demon Slayers do not use MP and instead use Fury for their skills. You will gain more Fury every time you Job Advance (excluding 5th Job)"
 }
