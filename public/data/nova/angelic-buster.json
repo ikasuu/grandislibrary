@@ -89,7 +89,7 @@
             "buffCd": "<tt src={/class-icons/link-skills/terms-and-conditions.png} tip={Terms and Conditions (Link Skill)} dur={[10s](60s cd)}> <tt src={/class-icons/nova/angelic-buster/pretty-exaltation.png} tip={Pretty Exaltation (Hyper Skill)} dur={[20s](60s cd)}> <tt src={/class-icons/nova/angelic-buster/final-contract.png} tip={Final Contract (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>(10s cd)(180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/nova/angelic-buster/grand-finale.png} tip={Grand Finale (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/nova/angelic-buster/soul-resonance.png} tip={Soul Resonance (4th Job)} dur={[2s](60s cd)}> <tt src={/class-icons/nova/angelic-buster/sparkle-burst.png} tip={Sparkle Burst (5th Job)} dur={[10s on 2nd press](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s Buff](1200s cd blocks 1 death)}> <tt src={/class-icons/nova/angelic-buster/grand-finale.png} tip={Grand Finale (6th Job)} dur={(360s cd)}>",
-            "damageReduce": "<tt src={/class-icons/nova/angelic-buster/soul-resonance.png} tip={Soul Resonance (4th Job)} dur={[Up to 8s](-35% | 60s cd)}> <tt src={/class-icons/nova/angelic-buster/mighty-mascot.png} tip={Mighty Mascot (5th Job)} dur={[Up to 1.8s](-40% | 60s cd)}> <tt src={/class-icons/nova/angelic-buster/trinity-fusion.png} tip={Trinity Fusion (5th Job)} dur={(-20% | 13s cd)}>"
+            "damageReduce": "<tt src={/class-icons/nova/angelic-buster/soul-resonance.png} tip={Soul Resonance (4th Job)} dur={[Up to 8s](-35% | 60s cd)}> <tt src={/class-icons/nova/angelic-buster/mighty-mascot.png} tip={Mighty Mascot (5th Job)} dur={[Up to 1.8s](-50% | 60s cd)}> <tt src={/class-icons/nova/angelic-buster/trinity-fusion.png} tip={Trinity Fusion (5th Job)} dur={(-20% | 13s cd)}>"
         },        
         "linkSkill": {
             "id": 80001155,
@@ -367,7 +367,7 @@
                         "icons": ["/class-icons/nova/angelic-buster/star-crash.png"],
                         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWdjYjR6bWd0bTFjcjBmZmw0ZTk2eGNocDNxYzBvcGh1NjFwNWt0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tYUzwfJBUobVrj3JkQ/giphy.gif"],
                         "type": "Attack",
-                        "desc": "Blades strike down from above onto enemies in front of you"
+                        "desc": "Release blades that strike from above onto enemies in front of you"
                     },
                     {
                         "name": "Blossoming Star",
@@ -456,7 +456,7 @@
                 },
                 {
                     "name": "Soul Resonance",
-                    "shortDesc": "MP Cost: 40, Invincibility Duration: 2 sec\\nHold down the key to continuously attack up to 10 enemies, for 145%, 5 times.\\nHold for at least 8 sec to make a final blow that deals up to 600% damage 5 times based on the time held. Boss Damage: +50%\\nWhile casting, any Max HP scaling damage taken is reduced by 35%.\\nCooldown: 60 sec.",
+                    "shortDesc": "MP Cost: 40, Invincibility Duration: 2 sec\\nHold down the key to continuously attack up to 10 enemies, for 146%, 5 times.\\nHold for at least 8 sec to make a final blow that deals up to 600% damage 5 times based on the time held. Boss Damage: +50%\\nWhile casting, any Max HP scaling damage taken is reduced by 35%.\\nCooldown: 60 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/soul-resonance.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajQxb3gzaXh0NXphOGpwdDN1MGg5cnN3M2RwZWpzbHRuZG45NTAzaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OGuGbDP7BucKG5SWgJ/giphy.gif"],
@@ -622,12 +622,12 @@
                 },
                 {
                     "name": "Supreme Supernova",
-                    "shortDesc": "MP Cost: 100, Energy Orb Duration: 12 sec\\nEnergy Orb Max Enemies Hit: 15, Damage: 600%, Number of Attacks: 3\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 100, Energy Orb Duration: 12 sec\\nPeriodically, Energy Orb Max Enemies Hit: 15, Damage: 600%, Number of Attacks: 3\\nCooldown: 60 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/angelic-buster/supreme-supernova.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWttcjdnMGNkOHVxZDcyZXFnZm0wbDI1MTU4cWFsdGYxcWw0YTRweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ii0FDV2TGWbQaN5EoL/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Create a large energy orb that damages enemies within it",
+                    "desc": "Place down a lage zone that damages enemies within it",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ],
@@ -674,7 +674,7 @@
                 },
                 {
                     "name": "Mighty Mascot",
-                    "shortDesc": "MP Cost: 450, Can be held for up to 1.8 sec\\nMax Enemies Hit: 15, Damage: 1265%, Number of Attacks: 5, Trigger 7 explosions that deals 1485% damage to up to 15 enemies 10 times after skill release.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of MAx HP will suffer a -40% damage penalty.\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 450, Can be held for up to 1.8 sec\\nMax Enemies Hit: 15, Damage: 1265%, Number of Attacks: 5, Trigger 7 explosions that deals 1485% damage to up to 15 enemies 10 times after skill release.\\nDamage taken while key is held, including attacks that deal damaage in proportion to Max HP: -50%\\nCooldown: 60 sec.",
                     "icons": ["/class-icons/nova/angelic-buster/mighty-mascot.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHptd2hyZ3pndWJ0OXA3bm5hdGRycWxqYjRvdGZ0bWh4OGpuN3J1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ot8Ro0uvVST4gp5ykj/giphy.gif"],
                     "type": "Key-down attack",
@@ -687,7 +687,7 @@
                 },
                 {
                     "name": "Trinity Fusion",
-                    "shortDesc": "MP Cost: 80, A dragon's enemy attacks 7 enemies, for 360% damage, 3 times. 9 attack(s) will occur in total.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of Max HP will suffer a -20% damage penalty.\\nCooldown: 13 sec\\n[Passive Effect: DEX +40]",
+                    "shortDesc": "MP Cost: 80, A dragon's energy attacks 7 enemies, for 360% damage, 3 times. 9 attack(s) will occur in total.\\nWhile casting this skill, any attacks that inflict damage at a certain ratio of Max HP will suffer a -20% damage penalty.\\nCooldown: 13 sec\\n[Passive Effect: DEX +40]",
                     "icons": ["/class-icons/nova/angelic-buster/trinity-fusion.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHJia3FnMXV4MmloMWkwYWtldmFramVuZGJmcnJ5cno5dGR2ZmNueSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gB2N1pykK1cpUqCG1H/giphy.gif"],
                     "type": "Attack",
@@ -838,7 +838,7 @@
                 },
                 {
                     "name": "HEXA Trinity",
-                    "shortDesc": "MP Cost: 30, Max Enemies Hit: 4, Damage: 1020%, Number of Attacks: 6\\nHEXA Trinity/Trinity Fusion Damage and Ignore Defense: +15%, Duration: 30 sec, Max Stacks: 2",
+                    "shortDesc": "MP Cost: 30, Max Enemies Hit: 4, Damage: 960%, Number of Attacks: 7\\nHEXA Trinity/Trinity Fusion Damage and Ignore Defense: +15%, Duration: 30 sec, Max Stacks: 2",
                     "icons": ["/class-icons/nova/angelic-buster/hexa-trinity.png", "/class-icons/nova/angelic-buster/trinity.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -859,7 +859,7 @@
                 },
                 {
                     "name": "HEXA Soul Seeker",
-                    "shortDesc": "MP Cost: 25, Number of Essences: 2\\nEssence Damage: 432%, Number of Attacks: 1 until the max attack count is reached or it disappears\\nChance for Essence to Respawn on Hit: 85%, Number of Attacks: 7",
+                    "shortDesc": "MP Cost: 25, Number of Essences: 2\\nEssence Damage: 432%, Number of Attacks: 1 until the max attack count is reached or it disappears\\nChance for Essence to Respawn on Hit: 85%, Number of Attacks: 7\\n[Passive Effect - HEXA Trinity Damage: +105% (additive)]",
                     "icons": ["/class-icons/nova/angelic-buster/hexa-soul-seeker.png", "/class-icons/nova/angelic-buster/soul-seeker.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -889,7 +889,7 @@
                 },
                 {
                     "name": "HEXA Supreme Supernova",
-                    "shortDesc": "MP Cost: 115, Energy Orb Duration: 30 sec.\\nPeriodically, Energy Orb Max Enemies Hit: 15, Damage: 1114%, Number of Attacks: 4. Destroyed when one enemy is attacked 18 times\\nCooldown: 60 sec.\\n[Passive Effect - HEXA Trinity Damage: +146% points]",
+                    "shortDesc": "MP Cost: 115, Energy Orb Duration: 30 sec.\\nPeriodically, Energy Orb Max Enemies Hit: 15, Damage: 1114%, Number of Attacks: 4. Destroyed when one enemy is attacked 18 times\\nCooldown: 60 sec.\\n[Passive Effect - HEXA Trinity Damage: +140% points]",
                     "icons": ["/class-icons/nova/angelic-buster/hexa-supreme-supernova.png", "/class-icons/nova/angelic-buster/supreme-supernova.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -919,7 +919,7 @@
                 },
                 {
                     "name": "Encore Ribbon",
-                    "shortDesc": "Upon landing a direct attack skill, Chance: 80%, Damage: 560%, Max Enemies hit: 6, Number of Hits: 4",
+                    "shortDesc": "Upon landing a direct attack skill, Chance: 80%, Damage: 760%, Max Enemies hit: 6, Number of Hits: 4",
                     "icons": ["/class-icons/nova/angelic-buster/encore-ribbon.png"],
                     "type": "Passive Attack",
                     "desc": "",
