@@ -34,7 +34,7 @@
             {
                 "name": "Weapon Mastery",
                 "stat": "99%",
-                "detail": "<bg val={Base +20%}> <bg src={/class-icons/sengoku/hayato/master-of-blades.png} tip={Master of Blades (Beginner Skill)} val={+80%}>"
+                "detail": "<bg val={Base +20%}> <bg src={/class-icons/sengoku/hayato/natural-talent.png} tip={Natural Talent (Beginner Skill)} val={+80%}>"
             },
             {
                 "name": "STR",
@@ -81,9 +81,9 @@
             "active": "<tt src={/class-icons/sengoku/hayato/katana-booster.png} tip={Katana Booster (2nd Job)} dur={[200s]}> <tt src={/class-icons/sengoku/hayato/iaijutsu-phantom-blade.png} tip={Iaijutsu Phantom Blade (5th Job)} dur={[40s](200 Sword Energy)}>",
             "toggles": "[ <tt src={/class-icons/sengoku/hayato/normal-stance.png} tip={Normal Stance (Beginner Skill)}> / <tt src={/class-icons/sengoku/hayato/quick-draw.png} tip={Quick Draw (Beginner Skill)}> ](Stance Switch) <tt src={/class-icons/sengoku/hayato/eye-for-an-eye.png} tip={Eye for an Eye (4th Job)}>",
             "summons": "<tt src={/class-icons/sengoku/hayato/battoujutsu-ultimate-will-god-of-blades.png} tip={Battoujutsu Ultimate Will (5th Job)} dur={[30s](120s cd, 150 Sword Energy)}> <tt src={/class-icons/5th-job/sengoku-force-assemble.png} tip={Sengoku Force, Assemble! (5th Job)} dur={[45s](120s cd)}>",
-            "buffCd": "[ <tt src={/class-icons/sengoku/hayato/summer-rain.png} tip={Summer Rain (4th Job)}> / <tt src={/class-icons/sengoku/hayato/hitokiri-hundred-strike.png} tip={Hitokiri Hundred Strike (4th Job)}> ][120s](120s) <tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)} dur={[40s](90s cd)}> <tt src={/class-icons/sengoku/hayato/god-of-blades.png} tip={God of Blades (Hyper Skill)} dur={[30s](90s cd)}> <tt src={/class-icons/sengoku/princesss-vow.png} tip={Princess's Vow (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "buffCd": "[ <tt src={/class-icons/sengoku/hayato/summer-rain.png} tip={Summer Rain (4th Job)}> / <tt src={/class-icons/sengoku/hayato/hitokiri-hundred-strike.png} tip={Hitokiri Hundred Strike (4th Job)}> ][120s](120s) <tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)} dur={[40s](60s cd)}> <tt src={/class-icons/sengoku/hayato/god-of-blades.png} tip={God of Blades (Hyper Skill)} dur={[20s](60s cd)}> <tt src={/class-icons/sengoku/princesss-vow.png} tip={Princess's Vow (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/sengoku/hayato/jin-quick-draw.png} tip={Jin Quick Draw (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)} dur={[3s](90s cd)}> <tt src={/class-icons/sengoku/hayato/battoujutsu-zankou.png} tip={Battoujutsu Zankou (5th Job)} dur={(90s cd)}> <tt src={/class-icons/sengoku/hayato/jin-quick-draw.png} tip={Jin Quick Draw (6th Job)} dur={(360s cd)}>"
+            "iFrame": "<tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)} dur={[3s](120s cd)}> <tt src={/class-icons/sengoku/hayato/battoujutsu-zankou.png} tip={Battoujutsu Zankou (5th Job)} dur={(120s cd)}> <tt src={/class-icons/sengoku/hayato/jin-quick-draw.png} tip={Jin Quick Draw (6th Job)} dur={(360s cd)}>"
         },        
         "linkSkill": {
             "id": 80000003,
@@ -150,10 +150,10 @@
         "primary":[
             [
                 "Beginner", [{
-                    "name": "Master of Blades",
+                    "name": "Natural Talent",
                     "shortDesc": "Permanent Speed Increase 20, Maximum Speed 165, Jump 10, Katana Mastery Increase: 80%, Willpower: 30",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/sengoku/hayato/master-of-blades.png"],
+                    "icons": ["/class-icons/sengoku/hayato/natural-talent.png"],
                     "type": "Passive"
                 },
                 {
@@ -205,7 +205,7 @@
                 },
                 {
                     "name": "Hitokiri Hundred Strike",
-                    "shortDesc": "Damage: 220%, Max Enemies Hit: 15, Triggers chase cut 4 times, which attacks 15 times, +15% damage for 120 sec\\nCooldown: 120 sec.",
+                    "shortDesc": "Damage: 220%, Max Enemies Hit: 15, Triggers chase cut 4 times, which attacks 15 times, +15% damage for 120 sec.\\nCooldown: 120 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/sengoku/hayato/hitokiri-hundred-strike.png"],
                     "animations": ["https://media.giphy.com/media/UVYaUsC0mxXDUSLfnC/giphy.gif"],
@@ -331,7 +331,7 @@
                     },
                     {
                         "name": "Quick Leap",
-                        "shortDesc": "MP Cost: 10, Dash left or right as desired.",
+                        "shortDesc": "MP Cost: 10. Allows you to jump a greater distance.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/sengoku/hayato/quick-leap.png"],
                         "animations": ["https://media2.giphy.com/media/fT9th1wTjXbnRpSEIE/giphy.gif"],
@@ -372,13 +372,6 @@
                             "The Attack Key will now use this skill instead of <tt src={/class-icons/sengoku/hayato/blade-flash.png} tip={Blade Flash (1st Job)}><bp_<tt src={/class-icons/sengoku/hayato/blade-flash.png} tip={Blade Flash (1st Job)}> can still be used by assigning it to a Key Slot_>",
                             "Shares Skill Points (SP) and the same Key Slot as <tt src={/class-icons/sengoku/hayato/jin-sanrenzan.png} tip={Jin Sanrenzan (2nd Job)}>"
                         ]
-                    },
-                    {
-                        "name": "Military Might",
-                        "shortDesc": "Max HP and Max MP: +20%, Physical Attack Power: +15, Speed: +20, Jump: +10",
-                        "maxLevel": 20,
-                        "icons": ["/class-icons/sengoku/hayato/military-might.png"],
-                        "type": "Passive"
                     },
                     {
                         "name": "Vapor Blade",
@@ -427,13 +420,20 @@
                         "animations": ["https://media.giphy.com/media/duXuf35Mtwvu4jevlZ/giphy.gif"],
                         "type": "Attack",
                         "desc": "Leap into the air and dive downwards"
+                    },
+                    {
+                        "name": "Military Might",
+                        "shortDesc": "Max HP/Max MP: +20%, Physical Attack: +15, Speed: +20, Jump: +10",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/sengoku/hayato/military-might.png"],
+                        "type": "Passive"
                     }]
                 ],
                 [
                 "3rd Job", [
                     {
                         "name": "Fuu Sanrenzan",
-                        "shortDesc": "MP Cost: 13, 1st Hit - Damage: 260%, Max Enemies Hit: 6, Number of Attacks: 4\\n2nd Hit - Damage: 260%, Max Enemies Hit: 6, Number of Attacks: 4\\n3rd Hit - Damage: 260%, Max Enemies Hit: 6, Number of Attacks: 4\\nRequired Skill: Jin Sanrenzan Lv. 20+",
+                        "shortDesc": "MP Cost: 13\\n1st Hit - Damage: 260%, Max Enemies Hit: 6, Number of Attacks: 4\\n2nd Hit - Damage: 260%, Max Enemies Hit: 6, Number of Attacks: 4\\n3rd Hit - Damage: 260%, Max Enemies Hit: 6, Number of Attacks: 4\\nRequired Skill: Jin Sanrenzan Lv. 20+",
                         "maxLevel": 20,
                         "icons": ["/class-icons/sengoku/hayato/fuu-sanrenzan.png"],
                         "animations": ["https://media2.giphy.com/media/zDjrXBVD3mgAa0Jr8K/giphy.gif"],
@@ -571,7 +571,7 @@
                 },
                 {
                     "name": "Shinsoku",
-                    "shortDesc": "MP Cost: 18, Damage: 1010%, Number of Attacks: 10. Cooldown: 15 sec.",
+                    "shortDesc": "MP Cost: 18, Max Enemies Hit: 3, Damage: 1010%, Number of Attacks: 10. Cooldown: 15 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/sengoku/hayato/shinsoku.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGEyejgwY3JybzN5MXZqYjV6MnJtd3ZlaW1sczBmOXRoZm1oMmVyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CMlNkji7vmjPFWqICL/giphy.gif"],
@@ -580,7 +580,7 @@
                 },
                 {
                     "name": "Hitokiri Strike",
-                    "shortDesc": "MP Cost: 142, Max Enemies Hit: 15, Damage: 500%, Number of Attacks: 8, Guaranteed Critical Attack, Critical Rate Increase: 45% for 40 sec, Invincibility: 3 sec\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 142, Max Enemies Hit: 15, Damage: 670%, Number of Attacks: 8, Guaranteed Critical Attack, Critical Rate Increase: 45% for 40 sec, Invincibility: 3 sec\\nCooldown: 120 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/sengoku/hayato/hitokiri-strike.png"],
                     "animations": ["https://media.giphy.com/media/fYlTJdPBWOoSkxYxnI/giphy.gif"],
@@ -593,7 +593,7 @@
                 },
                 {
                     "name": "Hitokiri Strike - Angle",
-                    "shortDesc": "MP Cost: 48. While moving diagonally - Damage: 500%, Max Enemies Hit: 15, Number of Critical Attacks: 8\\nCooldown: 6 sec",
+                    "shortDesc": "MP Cost: 48. While moving diagonally - Damage: 500%, Max Enemies Hit: 15, Number of Critical Attacks: 8\\nYou can adjust the attack direction by holding the Up or Down Arrow key while pressing the skill key.\\nCooldown: 6 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/sengoku/hayato/hitokiri-strike-angle.png"],
                     "animations": ["https://media.giphy.com/media/Kfw7IRifjHdOhzWsBW/giphy.gif"],
@@ -601,19 +601,17 @@
                     "desc": "Dash diagonally damaging enemies in your path",
                     "details": [
                         "Shares SP with and replaces <tt src={/class-icons/sengoku/hayato/hitokiri-strike.png} tip={Hitokiri Strike (4th Job)}> while it is on cooldown",
+                        "Pressing the Up or Down Arrow Key and Skill Key together will dash in the direction pressed",
                         "Attack is a guaranteed Critical Hit"
                     ]
                 },
                 {
                     "name": "Jinsoku",
-                    "shortDesc": "Trigger Chance: 45% after avoiding an attack, Damage Reduction: 72%, Duration: 8 sec.\\nPermanently increases Avoidability by 35%",
+                    "shortDesc": "Trigger Chance: 72% after avoiding an attack, Damage Reduction: 45%, Duration: 8 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/sengoku/hayato/jinsoku.png"],
                     "type": "Passive",
-                    "desc": "After dodging an attack, there is a chance to gain a buff that increases %Damage Reduction",
-                    "details": [
-                        "Also permanently increases your %Avoidability"
-                    ]
+                    "desc": "After dodging an attack, there is a chance to gain a buff that increases %Damage Reduction"
                 },
                 {
                     "name": "Cleaver",
@@ -668,7 +666,7 @@
                 },
                 {
                     "name": "Tornado Blade",
-                    "shortDesc": "MP Cost: 32, Max Enemies Hit: 8, Critical Damage: 280%, Number of Attacks: 7, Pulls in enemies with Stun Chance: 100%, Stun Duration: 10 sec",
+                    "shortDesc": "MP Cost: 32, Max Enemies Hit: 8, Critical Damage: 280%, Number of Attacks: 7, Pulls in enemies with Stun Chance: 100%, Stun Duration: 10 sec, Cooldown: 4 sec",
                     "maxLevel": 20,
                     "icons": ["/class-icons/sengoku/hayato/tornado-blade.png"],
                     "animations": ["https://media.giphy.com/media/QZJ004hwRCoT5AwYRz/giphy.gif"],
@@ -760,7 +758,7 @@
                 },
                 {
                     "name": "Hitokiri Strike - Cooldown Cutter",
-                    "shortDesc": "Cooldown -30%",
+                    "shortDesc": "Cooldown -50%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/sengoku/hayato/hitokiri-strike-cooldown-cutter.png"],
                     "type": "Passive",
@@ -778,7 +776,7 @@
             "hyperActive": [
                 {
                     "name": "God of Blades",
-                    "shortDesc": "MP Cost: 80, ATT +50 for 30 seconds, All abnormal status and elemental resistance increased by 100.\\nCooldown: 90 sec.",
+                    "shortDesc": "MP Cost: 80, ATT +50 for 20 seconds, All abnormal status and elemental resistance increased by 100.\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/sengoku/hayato/god-of-blades.png"],
                     "animations": ["https://media4.giphy.com/media/XBPYKyKWUeU7ACzlwz/giphy.gif"],
@@ -814,21 +812,20 @@
             "fifthMain": [
                 {
                     "name": "Battoujutsu Zankou",
-                    "shortDesc": "MP Cost: 1000, Damage: 1860%, Number of Rush Attacks: 15, Enemies Hit: 11. Able to do 2 or more rush attacks on the same enemy.\\nHayato's sword energy recovers by 700 upon use.\\nInvincible during casting.\\nCooldown: 90 sec",
+                    "shortDesc": "MP Cost: 1000, Damage: 1950%, Number of Rush Attacks: 15, Enemies Hit: 14. Able to do 2 or more rush attacks on the same enemy.\\nHayato's sword energy recovers by 1000 upon use.\\nInvincible during casting.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/sengoku/hayato/battoujutsu-zankou.png"],
                     "animations": ["https://media.giphy.com/media/dxCt7RJMiYcY9WeAh9/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Unleash a barrage of slashes to nearby enemies",
+                    "desc": "Unleash a barrage of slashes to nearby enemies and fully charges Sword Energy",
                     "details": [
                         "You are invincible while casting",
                         "If there are few enemies, the attacks can target the same enemy again",
-                        "Generates 700 Sword Energy upon use",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Iaijutsu Phantom Blade",
-                    "shortDesc": "Sword Energy Cost: 200, Successful hits grant a buff giving +23% Final Damage per stack for 40 sec.\\n1st Hit: Deals 330% damage to up to 15 enemies 15 times\\n2nd Hit: Deals 360% damage to up to 15 enemies 15 times\\n3rd Hit: Deals 390% damage to up to 15 enemies 15 times\\n4th Hit: Deals 410% damage to up to 15 enemies 15 times\\n5th Hit: Deals 450% damage to up to 15 enemies 15 times",
+                    "shortDesc": "Sword Energy Cost: 200, Successful hits grant a buff giving +23% Final Damage per stack for 40 sec.\\n1st Hit: Deals 330% damage to up to 15 enemies 15 times, activated 2 times.\\n2nd Hit: Deals 360% damage to up to 15 enemies 15 times, activated 2 times.\\n3rd Hit: Deals 390% damage to up to 15 enemies 15 times, activated 2 times.\\n4th Hit: Deals 410% damage to up to 15 enemies 15 times, activated 2 times.\\n5th Hit: Deals 450% damage to up to 15 enemies 15 times, activated 2 times.",
                     "icons": ["/class-icons/sengoku/hayato/iaijutsu-phantom-blade.png"],
                     "animations": ["https://media1.giphy.com/media/myDWicyRzUcxXxtHe3/giphy.gif"],
                     "type": "Attack",
@@ -855,7 +852,7 @@
                 },
                 {
                     "name": "Instant Slice",
-                    "shortDesc": "MP Cost: 500. Stab enemies for 1100% damage 3 time(s). Number of Attacks: 10. Max Enemies Hit: 15.\\nCooldown: 10 sec",
+                    "shortDesc": "MP Cost: 500. Stab enemies for 1100% damage 3 time(s). Number of Attacks: 10. Max Enemies Hit: 15.\\nCooldown: 10 sec.",
                     "icons": ["/class-icons/sengoku/hayato/instant-slice.png"],
                     "animations": ["https://media4.giphy.com/media/3SnGr0tffeOO1anlXW/giphy.gif"],
                     "type": "Attack",
@@ -1024,7 +1021,7 @@
                 },
                 {
                     "name": "HEXA Shinsoku",
-                    "shortDesc": "MP Cost: 24, Max Enemies Hit: 6, Damage: 2570%, Number of Attacks: 10\\nHEXA Shinsoku is prepared once every 15 sec, up to 3 total preparations",
+                    "shortDesc": "MP Cost: 24, Max Enemies Hit: 6, Damage: 1330%, Number of Attacks: 13\\nHEXA Shinsoku is prepared once every 10 sec, up to 3 total preparations",
                     "icons": ["/class-icons/sengoku/hayato/hexa-shinsoku.png", "/class-icons/sengoku/hayato/shinsoku.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1074,7 +1071,7 @@
                 },
                 {
                     "name": "HEXA Hitokiri Strike",
-                    "shortDesc": "MP Cost: 175, Max Enemies Hit: 15, Damage: 950%, Number of Attacks: 8, Guaranteed Critical Attack, Critical Rate Increase: 45% for 180 sec, Critical Damage: +15%. Invincibility: 3 sec.\\nCooldown: 90 sec.\\n------HEXA Hitokiri Strike (Angle)------\\nMP Cost: 80. While moving diagonally - Damage: 950%, Max Enemies Hit: 15, Number of Critical Attacks: 8\\nCooldown: 6 sec",
+                    "shortDesc": "MP Cost: 175, Max Enemies Hit: 15, Damage: 1270%, Number of Attacks: 8, Guaranteed Critical Attack, Critical Rate Increase: 45% for 180 sec, Critical Damage: +15%. Invincibility: 3 sec.\\nCooldown: 120 sec.\\n------HEXA Hitokiri Strike (Angle)------\\nMP Cost: 80. While moving diagonally - Damage: 950%, Max Enemies Hit: 15, Number of Critical Attacks: 8\\nCooldown: 6 sec",
                     "icons": ["/class-icons/sengoku/hayato/hexa-hitokiri-strike.png", "/class-icons/sengoku/hayato/hexa-hitokiri-strike-2.png", "/class-icons/sengoku/hayato/hitokiri-strike.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1086,7 +1083,7 @@
             "originSkill": [
                 {
                     "name": "Jin Quick Draw",
-                    "shortDesc": "MP Cost: 1200, invincible during casting\\nActivates 10 Chase Cuts that deal 2000% damage to up to 15 enemies 8 times then applies the Jin Quick Draw buff on Hayato for 10 seconds.\\n1st Strike: Activates 2 Chase Cuts that deal 1500% damage to up to 15 enemies 10 times. Recovers 100 Sword Energy upon activation.\\n2nd Strike: Activates 3 Chase Cuts that deal 1500% damage to up to 15 enemies 10 times. Recovers 150 Sword Energy upon activation.\\n3rd Strike: Activates 5 Chase Cuts that deal 1500% damage to up to 15 enemies 10 times. Recovers 200 Sword Energy upon activation.\\n(Jin Blade Flash 1st-3rd Strikes can be used while using some attack skills.)\\nFinal Strike: Activates 10 Chase Cuts that deal 4800% damage to enemies within range 15 times, invincible during casting.\\nCooldown: 360 sec.",
+                    "shortDesc": "MP Cost: 1200, invincible during casting\\nActivates 15 Chase Cuts that deal 720% damage to up to 15 enemies 15 times, then applies the Jin Quick Draw buff on Hayato for 10 seconds. Increases Hayato's Final Damage by 10% while buff is active.\\n1st/2nd/3rd Strike: Activates 5 Chase Cuts dealing 620% damage to up to 15 enemies 10 times. Recovers (100/150/200) Sword Energy when activated.\\n(Jin Blade Flash 1st-3rd Strikes can be used during some attack skills.)\\nFinal Strike: Activates 10 Chase Cuts that deal 800% damage to nearby enemies 15 times, invincible during casting.\\nCooldown: 360 sec.",
                     "icons": ["/class-icons/sengoku/hayato/jin-quick-draw.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd4a3FrbHptNWZvZWdvZjRkNDF2aXIweHk1OTZ1dDF2bGtjM3g3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0VlQlN86zo6clgZ6Qx/giphy-downsized-large.gif"],
                     "type": "Bind Attack",
