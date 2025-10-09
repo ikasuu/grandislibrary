@@ -85,9 +85,10 @@
             "active": "<tt src={/class-icons/flora/ark/knuckle-booster.png} tip={Knuckle Booster (2nd Job)} dur={[200s]}> <tt src={/class-icons/flora/ark/master-corruption.png} tip={Master Corruption (2nd Job)}>(Transform) | <bold text={[Spell Bullets]}> <tt src={/class-icons/flora/ark/basic-buff.png} tip={Basic Charge Drive (1st Job)}> <tt src={/class-icons/flora/ark/scarlet-buff.png} tip={Scarlet Charge Drive (2nd Job)}> <tt src={/class-icons/flora/ark/gust-buff.png} tip={Gust Charge Drive (3rd Job)}> <tt src={/class-icons/flora/ark/abyssal-buff.png} tip={Abyssal Charge Drive (4th Job)}> [60s each]",
             "toggles": "<tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Doom (2nd Job)}>",
             "summons": "<tt src={/class-icons/flora/ark/endlessly-starving-beast.png} tip={Endlessly Starving Beast (5th Job)} dur={(120s cd)}>",
-            "buffCd": "<tt src={/class-icons/flora/ark/contact-caravan.png} tip={Contact Caravan (Beginner Skill)} dur={[300s](600s cd)}> <tt src={/class-icons/flora/ark/charge-spell-amplifier.png} tip={Charge Spell Amplifier (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/ark/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/ark/infinity-spell.png} tip={Infinity Spell (5th Job)} dur={[50s](120s cd)}> <tt src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](240s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>(10s cd)(180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/flora/ark/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "buffCd": "<tt src={/class-icons/flora/ark/contact-caravan.png} tip={Contact Caravan (Beginner Skill)} dur={[300s](600s cd)}> <tt src={/class-icons/flora/ark/charge-spell-amplifier.png} tip={Charge Spell Amplifier (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/ark/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/flora/ark/infinity-spell.png} tip={Infinity Spell (5th Job)} dur={[50s](120s cd)}> <tt src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>(10s cd)(180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/flora/ark/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/flora/ark/blissful-restraint.png} tip={Blissful Restraint (4th Job)} dur={[9s](120s cd)}> <tt src={/class-icons/flora/ark/primordial-abyss.png} tip={Primordial Abyss (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/flora/ark/creeping-terror.png} tip={Creeping Terror (3rd Job)} dur={[Up to 5s](60s cd)}> <tt src={/class-icons/flora/ark/abyssal-recall.png} tip={Abyssal Recall (5th Job)} dur={(120s cd)}> <tt src={/class-icons/flora/ark/primordial-abyss.png} tip={Primordial Abyss (6th Job)} dur={(360s cd)}>"
+            "iFrame": "<tt src={/class-icons/flora/ark/creeping-terror.png} tip={Creeping Terror (3rd Job)} dur={[Up to 5s](60s cd)}> <tt src={/class-icons/flora/ark/abyssal-recall.png} tip={Abyssal Recall (5th Job)} dur={(120s cd)}> <tt src={/class-icons/flora/ark/primordial-abyss.png} tip={Primordial Abyss (6th Job)} dur={(360s cd)}>",
+            "damageReduce": "<tt src={/class-icons/flora/ark/endless-agony.png} tip={Endless Agony (Hyper Skill)} dur={[Up to 3s](-50% | 60s cd)}>"
         },        
         "linkSkill": {
             "id": 80000514,
@@ -171,7 +172,7 @@
                         "<tt src={/class-icons/flora/ark/contact-caravan-zippy.png} tip={Contact Caravan - Zippy (Beginner Skill)}> [Zippy]: Applies all the buffs at the same time at half strength",
                         "Right-clicking the skill will toggle ON/OFF the message pop-up when casting",
                         "Unlocked from completing Ark Storyline",
-                        "Unaffected by cooldown resets"
+                        "Unaffected by cooldown resets and %Buff Duration"
                     ]
                 },
                 {
@@ -183,7 +184,7 @@
                 },
                 {
                     "name": "Exclusive Spell",
-                    "shortDesc": "MP Cost: 30, increases Attack Power & Magic ATT by 4% for 2400 sec\\nCooldown: 300 sec",
+                    "shortDesc": "MP Cost: 30, Duration: 2400 sec, Attack Power & Magic ATT: +4%\\nCooldown: 300 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/flora/ark/exclusive-spell.png"],
                     "animations": ["https://media2.giphy.com/media/QRGLd9CCY2tVu8LHXi/giphy.gif"],
@@ -223,7 +224,7 @@
                     },
                     {
                         "name": "Ominous Dream",
-                        "shortDesc": "Damage: 120%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits\\nNo cooldown",
+                        "shortDesc": "Damage: 120%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/ark/ominous-dream.png"],
                         "animations": ["https://media3.giphy.com/media/cmYkvo2YVa3s5TQMAY/giphy.gif"],
@@ -425,7 +426,7 @@
                     },
                     {
                         "name": "Vivid Dream",
-                        "shortDesc": "Damage: 280%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits\\nNo cooldown",
+                        "shortDesc": "Damage: 280%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/ark/vivid-dream.png", "/class-icons/flora/ark/ominous-dream.png"],
                         "type": "Specter | Upgraded Passive",
@@ -437,7 +438,7 @@
                     },
                     {
                         "name": "Gust Charge Drive",
-                        "shortDesc": "MP Cost: 40, Damage: 205%, Max Enemies Hit: 6, Number of Attacks: 6\\nCooldown: 5 sec\\nGust Cast: Pulls enemies nearby and does 200% damage. Max Enemies Hit: 12, Number of Attacks: 4\\nGust Buff\\nDuration: 60 sec when Gust Cast hits, Attack Speed: +1, Avoidability: +25%",
+                        "shortDesc": "MP Cost: 40, Damage: 205%, Max Enemies Hit: 6, Number of Attacks: 6\\nCooldown: 5 sec\\nGust Cast: Pulls enemies nearby and does 200% damage. Max Enemies Hit: 12, Number of Attacks: 4\\nGust Buff: Duration: 60 sec. when Gust Cast hits, Attack Speed: +1, Avoidability: +25%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/ark/gust-charge-drive.png"],
                         "animations": ["https://media1.giphy.com/media/MFPYje0PKhfsq4dYws/giphy.gif"],
@@ -479,7 +480,7 @@
                     },
                     {
                         "name": "Vengeful Hate",
-                        "shortDesc": "20% chance to leave Abyssal Mark when Impending Death hits. Activates marks within a set range, dealing 370% damage to up to 8 enemies 6 times for every activated mark.\\nMax Mark Creation: 12, Max Duration: 20 sec\\nMax Mark Activation Limit for Auto Mode: 8\\nCooldown: 12 sec",
+                        "shortDesc": "20% chance to leave Abyssal Mark when Impending Death hits. Activates marks within a set range, dealing 370% damage to up to 8 enemies 6 times for every activated mark. Attack can activate 1 time\\nMax Mark Creation: 12, Max Duration: 20 sec\\nMax Mark Activation Limit for Auto Mode: 8\\nCooldown: 12 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/ark/vengeful-hate.png"],
                         "animations": ["https://media4.giphy.com/media/6T9Zdru5HreMK11lJM/giphy.gif"],
@@ -492,14 +493,14 @@
                     },
                     {
                         "name": "Mystic Arts Training",
-                        "shortDesc": "Basic Charge Drive Damage: +260%p, Basic Cast Damage: +160%p, Scarlet Charge Drive and Flame Damage: +100%p, Scarlet Cast Damage: +90%p",
+                        "shortDesc": "Basic Charge Drive Damage: +260% points, Basic Cast Damage: +160% points, Scarlet Charge Drive and Flame Damage: +100% points, Scarlet Cast Damage: +90% points",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/ark/mystic-arts-training.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Innate Arts Training",
-                        "shortDesc": "Grievous Wound: +160%p, Unstoppable Impulse / Tenacious Instinct Damage: +150%p, Impending Death Damage: +145%p",
+                        "shortDesc": "Grievous Wound: +160% points, Unstoppable Impulse / Tenacious Instinct Damage: +150% points, Impending Death Damage: +145% points",
                         "maxLevel": 20,
                         "icons": ["/class-icons/flora/ark/innate-arts-training.png"],
                         "type": "Passive"
@@ -527,7 +528,7 @@
                 },
                 {
                     "name": "Endless Dream",
-                    "shortDesc": "Damage: 445%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits\\nNo cooldown",
+                    "shortDesc": "Damage: 445%, Max Enemies Hit: 6, Number of Attacks: 6\\nRecovers 1% of Max HP when the attack hits",
                     "maxLevel": 30,
                     "icons": ["/class-icons/flora/ark/endless-dream.png", "/class-icons/flora/ark/ominous-dream.png"],
                     "type": "Specter | Upgraded Passive",
@@ -566,7 +567,7 @@
                 },
                 {
                     "name": "Blissful Restraint",
-                    "shortDesc": "HP Cost: 1100, Damage: 600%, Max Enemies Hit: 1, Number of Attacks: 6. Bind Duration: 10 sec, Bind duration can increase up to 100% based on the damage inflicted with this skill.\\nAfterward\\nDuration: 9 sec, Max Enemies Hit: 12, Damage: 400%, Number of Attacks: 3\\nWhen the skill ends:\\nDamage: 1000%, Max Enemies Hit: 12, Number of Attacks: 8\\nCooldown: 120 sec",
+                    "shortDesc": "HP Cost: 1100, Damage: 600%, Max Enemies Hit: 1, Number of Attacks: 6. Bind Duration: 10 sec, Bind duration can increase up to 100% based on the damage inflicted with this skill.\\nAfterward\\nDuration: 9 sec, Max Enemies Hit: 12, Damage: 400%, Number of Attacks: 3\\nWhen the skill ends:\\nDamage: 1000%, Max Enemies Hit: 12, Number of Additional Attacks: 8\\nCooldown: 120 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/flora/ark/blissful-restraint.png"],
                     "animations": ["https://media3.giphy.com/media/h3oIXOQgxmzM14fKFC/giphy.gif"],
@@ -616,14 +617,14 @@
                 },
                 {
                     "name": "Advanced Mystic Arts",
-                    "shortDesc": "Basic Charge Drive Damage: +250%p, Basic Cast Damage: +160%p, Scarlet Charge Drive and Flame Damage: +170%p, Scarlet Cast Damage: +40%p, Gust Charge Drive Damage: +195%p, Gust Cast Damage: +30%p",
+                    "shortDesc": "Basic Charge Drive Damage: +250% points, Basic Cast Damage: +160% points, Scarlet Charge Drive and Flame Damage: +170% points, Scarlet Cast Damage: +40% points, Gust Charge Drive Damage: +195% points, Gust Cast Damage: +30% points",
                     "maxLevel": 30,
                     "icons": ["/class-icons/flora/ark/advanced-mystic-arts.png"],
                     "type": "Passive"
                 },
                 {
                     "name": "Advanced Innate Arts",
-                    "shortDesc": "Grievous Wound: +180%p, Unstoppable Impulse/Tenacious Instinct Damage: +175%p, Impending Death Damage: +115%p, Insatiable Hunger Damage: +190%p, Boundless Horror Damage: +890%p, Vengeful Hate Damage: +110%p",
+                    "shortDesc": "Grievous Wound: +180% points, Unstoppable Impulse/Tenacious Instinct Damage: +175% points, Impending Death Damage: +115% points, Insatiable Hunger Damage: +190% points, Boundless Horror Damage: +890% points, Vengeful Hate Damage: +110% points",
                     "maxLevel": 30,
                     "icons": ["/class-icons/flora/ark/advanced-innate-arts.png"],
                     "type": "Passive"
@@ -765,7 +766,7 @@
                 },
                 {
                     "name": "Endless Agony",
-                    "shortDesc": "Hold the key to continue the attack. Max Enemies Hit: 5, Max Duration: 3 sec, Damage: 360%, Number of Attacks: 3. An Abyssal Guard is summoned when the key is released or when the skill ends.\\nAbyssal Guard: activates Chase Cut 5 times, dealing 420% damage 12 times to 12 enemies, HP Recovery when the attack hits: 20% of Max HP\\nCooldown: 60 sec",
+                    "shortDesc": "Hold the key for max 3 sec.\\nMax Enemies Hit: 5, Damage: 360%, Number of Attacks: 3 for set intervals. An Abyssal Guard is summoned when the key is released or when the skill ends.\\nWhile the key is held, damage taken including attacks that deal damage in proportion to Max HP: -50%\\nAbyssal Guard: Activates Chase Cut 5 times, dealing 420% damage 12 times to 12 enemies, HP Recovery when the attack hits: 20% of Max HP\\nCooldown: 60 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/flora/ark/endless-agony.png"],
                     "animations": ["https://media3.giphy.com/media/cn3rv2MxPo6xdV5L7p/giphy.gif"],
@@ -774,6 +775,7 @@
                     "details": [
                         "When used, you will be shifted into Specter Form",
                         "Final attack restores some %Max HP and ignores Attack Ignore and Damage Reflect",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
                         "Unaffected by Damage Reflect and cooldown resets"
                     ],
                     "reqLev": 160
@@ -794,13 +796,13 @@
             "fifthMain": [
                 {
                     "name": "Abyssal Recall",
-                    "shortDesc": "You link with the Abyssal Source the moment the skill is activated. You don't consume Spectra for 18 sec while in Specter State.\\nWhile the Abyssal is active, Max Enemies Hit: 10, Damage: 880%, Number of Attacks: 6, Invincible while attacking\\nWhen attack ends, Max Enemies Hit: 15, Damage: 1815%, Number of Attacks: 12, Number of Explosions: 6\\nCooldown: 120 sec",
+                    "shortDesc": "You link with the Abyssal Source the moment the skill is activated. You don't consume Spectra for 18 sec while in Specter State.\\nWhile the Abyssal is active, Max Enemies Hit: 10, Damage: 880%, Number of Attacks: 6, Invincible while attacking\\nWhen attack ends, Max Enemies Hit: 15, Damage: 1815%, Number of Attacks: 12, Number of Explosions: 6, recovers 6% of Max HP upon landing an explosion\\nCooldown: 120 sec",
                     "icons": ["/class-icons/flora/ark/abyssal-recall.png"],
                     "animations": ["https://media2.giphy.com/media/J6Dd7zwMoE6rur9I7X/giphy.gif"],
                     "type": "Attack",
                     "desc": "Shift into Specter Form and unleash a devastating attack before dealing an explosive final attack",
                     "details": [
-                        "Pressing the Skill Key again while the attack is active, cancels the attack early and activates the final attack",
+                        "Pressing the Skill Key again while the attack is active, cancels the attack early and activates the final attack<bp_Restores some %Max HP if attack hits_>",
                         "After the attack, you will not consume any Specter resource for a short period",
                         "You are invincible while the attack is active",
                         "Does not trigger <tt src={/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}>",
@@ -821,7 +823,7 @@
                 },
                 {
                     "name": "Devious Nightmare",
-                    "shortDesc": "Activates a spectral energy when Endless Nightmare is used. Max Enemies Hit: 12, Damage: 1100%, Number of Attacks: 12.\\nCooldown: 10 sec\\nWhen Charge Drive skills (with the exception of Basic Charge Drive) land successfully, the cooldown is reduced by 1 sec, an effect that is applied only once per skill.",
+                    "shortDesc": "Activates a spectral energy when Endless Nightmare is used. Max Enemies Hit: 12, Damage: 1265%, Number of Attacks: 14.\\nCooldown: 10 sec\\nWhen Charge Drive skills (with the exception of Basic Charge Drive) land successfully, the cooldown is reduced by 1 sec, an effect that is applied only once per skill.",
                     "icons": ["/class-icons/flora/ark/devious-nightmare.png"],
                     "animations": ["https://media1.giphy.com/media/QuZVHDkT9R6PotNLiV/giphy.gif"],
                     "type": "Lef | Passive Attack",
@@ -833,7 +835,7 @@
                 },
                 {
                     "name": "Devious Dream",
-                    "shortDesc": "Activates a spectral energy when Endless Dream is used. Max Enemies Hit: 12, Damage: 1320%, Number of Attacks: 12\\nCooldown: 10 sec\\nWhen Grievous Wound/Tenacious Instinct/Insatiable Hunger/Boundless Horror/Unbridled Chaos land successfully, the cooldown is reduced by 1 sec, an effect that is applied only once per skill.",
+                    "shortDesc": "Activates a spectral energy when Endless Dream is used. Max Enemies Hit: 12, Damage: 1320%, Number of Attacks: 14\\nCooldown: 10 sec\\nWhen Grievous Wound/Tenacious Instinct/Insatiable Hunger/Boundless Horror/Unbridled Chaos land successfully, the cooldown is reduced by 1 sec, an effect that is applied only once per skill.",
                     "icons": ["/class-icons/flora/ark/devious-dream.png"],
                     "animations": ["https://media2.giphy.com/media/k3vLvXlzUU0nJTjV1h/giphy.gif"],
                     "type": "Specter | Passive Attack",
@@ -963,7 +965,7 @@
                 },
                 {
                     "name": "HEXA Basic Charge Drive",
-                    "shortDesc": "MP Cost: 30, Damage: 900%, Max Enemies Hit: 7, Number of Attacks: 3\\nBasic Cast: Damage: 595%, Number of Basic Casts: 2, Number of Attacks: 1\\nBasic Buff : Speed: + 20 when Basic Cast hits, Knockback Resistance: +50% when Basic Cast hits, Duration: 60 sec",
+                    "shortDesc": "MP Cost: 30, Damage: 1205%, Max Enemies Hit: 7, Number of Attacks: 3\\nBasic Cast: Damage: 805%, Number of Basic Casts: 2, Number of Attacks: 1\\nBasic Buff : Speed: + 20 when Basic Cast hits, Knockback Resistance: +50% when Basic Cast hits, Duration: 60 sec",
                     "icons": ["/class-icons/flora/ark/hexa-basic-charge-drive.png", "/class-icons/flora/ark/basic-charge-drive.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -973,7 +975,7 @@
                 },
                 {
                     "name": "HEXA Scarlet Charge Drive",
-                    "shortDesc": "MP Cost: 45, Damage: 565%, Max Enemies Hit: 7, Number of Attacks: 3\\nGenerates flames upon charging. Damage: 565%, Max Enemies Hit: 7, Number of Attacks: 3\\nCooldown: 3 sec\\nScarlet Cast: Damage: 355% Max Enemies Hit: 8, Number of Attacks: 5\\nScarlet Buff: Attack Power: +30 and Critical Rate +20% when Scarlet Buff hits. Duration: 60 sec",
+                    "shortDesc": "MP Cost: 45, Damage: 755%, Max Enemies Hit: 7, Number of Attacks: 3\\nGenerates flames upon charging. Damage: 755%, Max Enemies Hit: 7, Number of Attacks: 3\\nCooldown: 3 sec\\nScarlet Cast: Damage: 475% Max Enemies Hit: 8, Number of Attacks: 5\\nScarlet Buff: Attack Power: +30 and Critical Rate +20% when Scarlet Buff hits. Duration: 60 sec",
                     "icons": ["/class-icons/flora/ark/hexa-scarlet-charge-drive.png", "/class-icons/flora/ark/scarlet-charge-drive.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -983,7 +985,7 @@
                 },
                 {
                     "name": "HEXA Gust Charge Drive",
-                    "shortDesc": "MP Cost: 45, Damage: 645%, Max Enemies Hit: 7, Number of Attacks: 6\\nCooldown: 5 sec\\nGust Cast: Pulls enemies nearby and does 370% damage. Max Enemies Hit: 12, Number of Attacks: 4\\nGust Buff\\nDuration: 60 sec when Gust Cast hits, Attack Speed: +1, Avoidability: +25%",
+                    "shortDesc": "MP Cost: 45, Damage: 875%, Max Enemies Hit: 7, Number of Attacks: 6\\nCooldown: 5 sec\\nGust Cast: Pulls enemies nearby and does 495% damage. Max Enemies Hit: 12, Number of Attacks: 4\\nGust Buff\\nDuration: 60 sec when Gust Cast hits, Attack Speed: +1, Avoidability: +25%",
                     "icons": ["/class-icons/flora/ark/hexa-gust-charge-drive.png", "/class-icons/flora/ark/gust-charge-drive.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -993,7 +995,7 @@
                 },
                 {
                     "name": "HEXA Abyssal Charge Drive",
-                    "shortDesc": "HP Cost: 110, MP Cost: 85\\nDamage: 550%, Max Enemies Hit: 8, Number of Attacks: 4, Abyssal Magic: 660%, Abyssal Magic Max Enemies Hit: 8, Abyssal Magic Number of Attacks: 6\\nCooldown: 9 sec\\nAbyssal Cast : Creates Abyssal Cast when used. Abyssal Cast Duration: 3 sec, Abyssal Cast Max Enemies Hit: 8, Abyssal Cast Damage: 115%, Abyssal Cast Number of Attacks: 2\\nAbyssal Buff : Activates when Abyssal Cast hits. Duration: 60 sec. Damage: 20%, Boss Damage: +35%, Ignore Defense +20%",
+                    "shortDesc": "HP Cost: 110, MP Cost: 85\\nDamage: 742%, Max Enemies Hit: 8, Number of Attacks: 4, Abyssal Magic: 891%, Abyssal Magic Max Enemies Hit: 8, Abyssal Magic Number of Attacks: 6\\nCooldown: 9 sec\\nAbyssal Cast : Creates Abyssal Cast when used. Abyssal Cast Duration: 3 sec, Abyssal Cast Max Enemies Hit: 8, Abyssal Cast Damage: 151%, Abyssal Cast Number of Attacks: 2\\nAbyssal Buff : Activates when Abyssal Cast hits. Duration: 60 sec. Damage: 20%, Boss Damage: +35%, Ignore Defense +20%",
                     "icons": ["/class-icons/flora/ark/hexa-abyssal-charge-drive.png", "/class-icons/flora/ark/abyssal-charge-drive.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1024,7 +1026,7 @@
                 },
                 {
                     "name": "HEXA Grievous Wound",
-                    "shortDesc": "Damage: 990%, Max Enemies Hit: 8, Number of Attacks: 6\\nRecovers 2% of Max HP when the attack hits\\nCooldown: 3 sec\\n[Passive Effect: Vengeful Hate Damage: +420%p]",
+                    "shortDesc": "Damage: 1340%, Max Enemies Hit: 8, Number of Attacks: 6\\nRecovers 2% of Max HP when the attack hits\\nCooldown: 3 sec\\n[Passive Effect: Vengeful Hate Damage: +480% points, HEXA Vengeful Hate Damage: +60% points]",
                     "icons": ["/class-icons/flora/ark/hexa-grievous-wound.png", "/class-icons/flora/ark/grievous-wound.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1034,7 +1036,7 @@
                 },
                 {
                     "name": "HEXA Insatiable Hunger",
-                    "shortDesc": "Damage: 980%, Max Enemies Hit: 8, Number of Attacks: 7\\nRecovers 5% of Max HP when the attack hits\\nCooldown: 5 sec\\n[Passive Effect: Unstoppable Impulse, Tenacious Instinct Damage: +250%p]",
+                    "shortDesc": "Damage: 1324%, Max Enemies Hit: 8, Number of Attacks: 7\\nRecovers 5% of Max HP when the attack hits\\nCooldown: 5 sec\\n[Passive Effect: Unstoppable Impulse, Tenacious Instinct Damage: +490% points]",
                     "icons": ["/class-icons/flora/ark/hexa-insatiable-hunger.png", "/class-icons/flora/ark/insatiable-hunger.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1044,7 +1046,7 @@
                 },
                 {
                     "name": "HEXA Unbridled Chaos",
-                    "shortDesc": "Damage: 880%, Max Enemies Hit: 12, Number of Attack: 12\\nRecovers 3% of Max HP when the attack hits\\nCooldown: 9 sec",
+                    "shortDesc": "Damage: 1185%, Max Enemies Hit: 12, Number of Attack: 12\\nRecovers 3% of Max HP when the attack hits\\nCooldown: 9 sec",
                     "icons": ["/class-icons/flora/ark/hexa-unbridled-chaos.png", "/class-icons/flora/ark/unbridled-chaos.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1084,7 +1086,7 @@
                 },
                 {
                     "name": "HEXA Endless Agony",
-                    "shortDesc": "Hold the key for max 3 sec.\\nMax Enemies Hit: 5, Damage: 576%, Number of Attacks: 3 for set intervals. An Abyssal Guard is summoned when the key is released or when the skill ends.\\nAbyssal Guard: Activates Chase Cut 10 times, dealing 336% damage 12 time to 12 enemies, HP Recovery when the attack hits: 20% of Max HP\\nCooldown: 60 sec.",
+                    "shortDesc": "Hold the key for max 3 sec.\\nMax Enemies Hit: 5, Damage: 576%, Number of Attacks: 3 for set intervals. An Abyssal Guard is summoned when the key is released or when the skill ends.\\nWhile the key is held, damage taken including attacks that deal damage in proportion to Max HP: -50%\\nAbyssal Guard: Activates Chase Cut 10 times, dealing 336% damage 12 time to 12 enemies, HP Recovery when the attack hits: 20% of Max HP\\nCooldown: 60 sec.",
                     "icons": ["/class-icons/flora/ark/hexa-endless-agony.png", "/class-icons/flora/ark/endless-agony.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1104,7 +1106,7 @@
                 },
                 {
                     "name": "HEXA Ominous Nightmare",
-                    "shortDesc": "HP Cost: 85, Damage: 710%, Number of Attacks: 7, Max Enemies Hit: 6\\nCooldown: 2 sec.\\n[Passive Effect: Impending Death Damage: +60% points]",
+                    "shortDesc": "HP Cost: 85, Damage: 955%, Number of Attacks: 7, Max Enemies Hit: 6\\nCooldown: 2 sec.\\n[Passive Effect: Impending Death Damage: +60% points]",
                     "icons": ["/class-icons/flora/ark/hexa-ominous-nightmare.png", "/class-icons/flora/ark/ominous-nightmare.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1114,7 +1116,7 @@
                 },
                 {
                     "name": "HEXA Ominous Dream",
-                    "shortDesc": "Damage: 720%, Max Enemies Hit: 6, Number of Attacks: 7\\nRecovers 1% of Max HP when attack hits",
+                    "shortDesc": "Damage: 971%, Max Enemies Hit: 6, Number of Attacks: 7\\nRecovers 1% of Max HP when attack hits",
                     "icons": ["/class-icons/flora/ark/hexa-ominous-dream.png", "/class-icons/flora/ark/ominous-dream.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1126,7 +1128,7 @@
             "originSkill": [
                 {
                     "name": "Primordial Abyss",
-                    "shortDesc": "MP Cost: 1500, invincible during casting\\nNumber of Source Erosions: 68, Max Enemies Hit: 15, Damage: 1101%, Number of Attacks: 14. Number of Abyssal Grips: 5, Max Enemies Hit: 15, Damage: 1730%, Duration: 30 sec\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1500, invincible during casting\\nNumber of Source Erosions: 68, Max Enemies Hit: 15, Damage: 1101%, Number of Attacks: 14. Number of Abyssal Grips: 15, Max Enemies Hit: 15, Damage: 1730%, Duration: 30 sec\\nCooldown: 360 sec",
                     "icons": ["/class-icons/flora/ark/primordial-abyss.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazE4ZGZrNW42ZWc0OGhlZTVqZmxtb2xmejU3eXlqcjdkdXdlanl5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/chJhTtXYADXwiFxjb6/giphy.gif"],
                     "type": "Bind Attack",
