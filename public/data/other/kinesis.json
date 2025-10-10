@@ -42,8 +42,8 @@
               },
               {
                 "name": "INT",
-                "stat": "+40 & +15%(65%) to assigned AP",
-                "detail": "<bg src={/class-icons/other/kinesis/esp-mastery.png} tip={ESP Mastery (2nd Job)} val={+40}> <bg type={def} sub={opt} src={/class-icons/other/kinesis/presidents-orders.png} tip={President's Orders (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/afterimage-of-the-otherworld.png} subTip={Afterimage of the Otherworld (5th Job)} subVal={extra +50%}>"
+                "stat": "+40 & +15%(50%) to assigned AP",
+                "detail": "<bg src={/class-icons/other/kinesis/esp-mastery.png} tip={ESP Mastery (2nd Job)} val={+40}> <bg type={def} sub={opt} src={/class-icons/other/kinesis/presidents-orders.png} tip={President's Orders (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/afterimage-of-the-otherworld.png} subTip={Afterimage of the Otherworld (5th Job)} subVal={extra +35%}>"
             },
             {
                 "name": "Magic Attack",
@@ -89,9 +89,9 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/other/kinesis/esp-booster.png} tip={ESP Booster (1st Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/other/kinesis/mental-shield.png} tip={Mental Shield (1st Job)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
-            "summons": "<tt src={/class-icons/other/kinesis/psychic-drain.png} tip={Psychic Drain (2nd Job)} dur={[30s](3s cd)}> <tt src={/class-icons/other/kinesis/mind-tremor.png} tip={Mind Tremor (3rd Job)} dur={[30s](30s cd)}> <tt src={/class-icons/other/kinesis/ultimate-trainwreck.png} tip={Ultimate - Trainwreck (3rd Job)} dur={[12s]}> <tt src={/class-icons/other/kinesis/psychic-tornado.png} tip={Psychic Tornado (5th Job)} dur={[20s](180s cd)}> <tt src={/class-icons/other/kinesis/ultimate-mind-over-matter.png} tip={Ultimate - Mind Over Matter (5th Job)} dur={[15s](60s cd)}> <tt src={/class-icons/other/kinesis/ultimate-psychic-shockwave.png} tip={Ultimate - Psychic Shockwave (5th Job)}> <tt src={/class-icons/other/kinesis/law-of-gravity.png} tip={Law of Gravity (5th Job)} dur={[22s](60s cd)}> <tt src={/class-icons/5th-job/afterimage-of-the-otherworld.png} tip={Afterimage of the Otherworld (5th Job)} dur={[50s](60s cd)}>",
-            "buffCd": "<tt src={/class-icons/other/kinesis/mental-overdrive.png} tip={Mental Overdrive (Hyper Skill)} dur={[26s](180s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
-            "binds": "<tt src={/class-icons/other/kinesis/mental-shock.png} tip={Mental Shock (Hyper Skill)} dur={[10s](180s cd)}> <tt src={/class-icons/other/kinesis/from-another-realm.png} tip={From Another Realm (6th Job)} dur={[10s](360s cd)}>",
+            "summons": "<tt src={/class-icons/other/kinesis/psychic-drain.png} tip={Psychic Drain (2nd Job)} dur={[30s]}> <tt src={/class-icons/other/kinesis/mind-tremor.png} tip={Mind Tremor (3rd Job)} dur={[30s]}> <tt src={/class-icons/other/kinesis/ultimate-trainwreck.png} tip={Ultimate - Trainwreck (3rd Job)} dur={[12s]}> <tt src={/class-icons/other/kinesis/psychic-tornado.png} tip={Psychic Tornado (5th Job)} dur={[15s](120s cd)}> <tt src={/class-icons/other/kinesis/ultimate-mind-over-matter.png} tip={Ultimate - Mind Over Matter (5th Job)} dur={[15s](60s cd)}> <tt src={/class-icons/other/kinesis/ultimate-psychic-shockwave.png} tip={Ultimate - Psychic Shockwave (5th Job)}> <tt src={/class-icons/other/kinesis/law-of-gravity.png} tip={Law of Gravity (5th Job)} dur={[22s](60s cd)}> <tt src={/class-icons/5th-job/afterimage-of-the-otherworld.png} tip={Afterimage of the Otherworld (5th Job)} dur={[50s](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/other/kinesis/mental-overdrive.png} tip={Mental Overdrive (Hyper Skill)} dur={[26s](120s cd)}> <tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "binds": "<tt src={/class-icons/other/kinesis/mental-shock.png} tip={Mental Shock (Hyper Skill)} dur={[10s](120s cd)}> <tt src={/class-icons/other/kinesis/from-another-realm.png} tip={From Another Realm (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/other/kinesis/mental-tempest.png} tip={Mental Tempest (Hyper Skill)} dur={(120s cd)}> <tt src={/class-icons/5th-job/ethereal-form.png} tip={Ethereal Form (5th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/other/kinesis/from-another-realm.png} tip={From Another Realm (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/5th-job/otherworld-goddess-blessing.png} tip={Otherworld Goddess's Blessing (5th Job)} dur={[40s, triggers once](-75% | 120s cd)}>"
         },        
@@ -103,7 +103,7 @@
         "buildPath": {
             "build": [
                 ["1st Job", "<tt src={/class-icons/other/kinesis/kinetic-step.png} tip={Kinetic Step}> -> <tt src={/class-icons/other/kinesis/mental-fortitude.png} tip={Mental Fortitude}> -> <tt src={/class-icons/other/kinesis/esp-booster.png} tip={ESP Booster}> -> <tt src={/class-icons/other/kinesis/psychic-force.png} tip={Psychic Force}> -> <tt src={/class-icons/other/kinesis/ultimate-metal-press.png} tip={Ultimate - Metal Press}> -> <tt src={/class-icons/other/kinesis/kinetic-crash.png} tip={Kinetic Crash}>"],
-                ["2nd Job", "<tt src={/class-icons/other/kinesis/mental-strength.png} tip={Mental Strength}> -> <tt src={/class-icons/other/kinesis/esp-mastery.png} tip={ESP Mastery}> -> <tt src={/class-icons/other/kinesis/pure-power.png} tip={Pure Power}> -> <tt src={/class-icons/other/kinesis/psychic-armor.png} tip={Psychic Armor}> -> <tt src={/class-icons/other/kinesis/psychic-drain.png} tip={Psychic Drain}> -> <tt src={/class-icons/other/kinesis/ultimate-deep-impact.png} tip={Ultimate - Deep Impact}> -> <tt src={/class-icons/other/kinesis/psychic-blast.png} tip={Psychic Blast}> -> <tt src={/class-icons/other/kinesis/kinetic-piledriver.png} tip={Kinetic Piledriver}>"],
+                ["2nd Job", "<tt src={/class-icons/other/kinesis/mental-strength.png} tip={Mental Strength}> -> <tt src={/class-icons/other/kinesis/esp-mastery.png} tip={ESP Mastery}> -> <tt src={/class-icons/other/kinesis/pure-power.png} tip={Pure Power}> -> <tt src={/class-icons/other/kinesis/psychic-armor.png} tip={Psychic Armor}> -> <tt src={/class-icons/other/kinesis/psychic-drain.png} tip={Psychic Drain}> -> <tt src={/class-icons/other/kinesis/ultimate-deep-impact.png} tip={Ultimate - Deep Impact}> -> <tt src={/class-icons/other/kinesis/psychic-blast.png} tip={Psychic Blast}> -> <tt src={/class-icons/other/kinesis/kinetic-piledriver.png} tip={Kinetic Piledriver}> -> <tt src={/class-icons/other/kinesis/psychic-sprint.png} tip={Psychic Sprint}>"],
                 ["3rd Job", "<tt src={/class-icons/other/kinesis/kinetic-jaunt.png} tip={Kinetic Jaunt}> -> <tt src={/class-icons/other/kinesis/mitigation.png} tip={Mitigation}> -> <tt src={/class-icons/other/kinesis/transcendence.png} tip={Transcendence}> -> <tt src={/class-icons/other/kinesis/psychic-reinforcement.png} tip={Psychic Reinforcement}> -> <tt src={/class-icons/other/kinesis/psychic-bulwark.png} tip={Psychic Bulwark}> -> <tt src={/class-icons/other/kinesis/kinetic-combo.png} tip={Kinetic Combo}> -> <tt src={/class-icons/other/kinesis/third-eye.png} tip={Third Eye}> -> <tt src={/class-icons/other/kinesis/ultimate-trainwreck.png} tip={Ultimate - Trainwreck}> -> <tt src={/class-icons/other/kinesis/mind-tremor.png} tip={Mind Tremor}> -> <tt src={/class-icons/other/kinesis/psychic-assault.png} tip={Psychic Assault}> -> <tt src={/class-icons/other/kinesis/psychic-grab.png} tip={Psychic Grab}>"],
                 ["4th Job", "<tt src={/class-icons/other/kinesis/mastery.png} tip={Mastery}> -> <tt src={/class-icons/other/kinesis/mind-scrambler.png} tip={Mind Scrambler}> -> <tt src={/class-icons/other/kinesis/supreme-concentration.png} tip={Supreme Concentration}> -> <tt src={/class-icons/other/kinesis/awakening.png} tip={Awakening}> -> <tt src={/class-icons/other/kinesis/telepath-tactics.png} tip={Telepath Tactics}> -> <tt src={/class-icons/other/kinesis/critical-rush.png} tip={Critical Rush}> -> <tt src={/class-icons/other/kinesis/presidents-orders.png} tip={President's Orders}> -> <tt src={/class-icons/other/kinesis/psychic-clutch.png} tip={Psychic Clutch}> -> <tt src={/class-icons/other/kinesis/psychic-charger.png} tip={Psychic Charger}> -> <tt src={/class-icons/other/kinesis/mind-quake.png} tip={Mind Quake}> -> <tt src={/class-icons/other/kinesis/ultimate-bpm.png} tip={Ultimate - B.P.M.}> -> <tt src={/class-icons/other/kinesis/mind-break.png} tip={Mind Break}> -> <tt src={/class-icons/other/kinesis/clear-mind.png} tip={Clear Mind}>"]
             ],              
@@ -174,7 +174,7 @@
                     "icons": ["/class-icons/other/kinesis/psychic-attack.png"],
                     "animations": ["https://media1.giphy.com/media/iT9kKzEeCIpJXxp2LA/giphy.gif"],
                     "type": "Basic Attack Modifier",
-                    "desc": "Deals a ranged attack to one enemy",
+                    "desc": "Deal a ranged attack to one enemy",
                     "details": [
                         "Charges PP when used"
                     ]
@@ -220,13 +220,6 @@
             [
                 "1st Job", [
                     {
-                        "name": "Mental Fortitude",
-                        "shortDesc": "Max HP: +30%, Magic ATT: +10, Jump: +10, Speed: +10, and Max Speed: +10",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/other/kinesis/mental-fortitude.png"],
-                        "type": "Passive"
-                    },
-                    {
                         "name": "Kinetic Crash",
                         "shortDesc": "Up to 4 enemies attacked 2 times at 140% damage\\n[Charges 1 Psychic Points when used]",
                         "maxLevel": 20,
@@ -253,7 +246,7 @@
                     },
                     {
                         "name": "Ultimate - Metal Press",
-                        "shortDesc": "Psychic Point Cost: 7. Damage: 120%, Number of Attacks: 10, Max Enemies Hit: 12, DEF on damaged enemies: -15%, DEF reduction duration: 30 sec.",
+                        "shortDesc": "Psychic Point Cost: 7. Damage: 120%, Max Enemies Hit: 12, Number of Attacks: 10, DEF on damaged enemies: -15%, DEF reduction duration: 30 sec.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/kinesis/ultimate-metal-press.png"],
                         "animations": ["https://media3.giphy.com/media/MZWgxUZ4Hib3JAXJMy/giphy.gif"],
@@ -277,8 +270,7 @@
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/kinesis/esp-booster.png"],
                         "animations": ["https://media3.giphy.com/media/P8idQroox7uHvdUrWJ/giphy.gif"],
-                        "type": "Buff",
-                        "desc": "Increases Attack Speed (by 2 stages)"
+                        "type": "Buff"
                     },
                     {
                         "name": "Kinetic Step",
@@ -293,6 +285,13 @@
                             "While in the air, you can press the Up Key and Jump Key together to perform a vertical jump",
                             "Horizontal jump can be used twice in a row"
                         ]
+                    },
+                    {
+                        "name": "Mental Fortitude",
+                        "shortDesc": "Max HP: +30%, Magic ATT: +10, Jump: +10, Speed: +10, and Max Speed: +10",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/kinesis/mental-fortitude.png"],
+                        "type": "Passive"
                     }]
                 ],
                 [
@@ -308,13 +307,6 @@
                         "details": [
                             "Charges PP when used"
                         ]
-                    },
-                    {
-                        "name": "ESP Mastery",
-                        "shortDesc": "Psy-limiter Mastery: +50%, Critical Rate: +10%, and INT: +40",
-                        "maxLevel": 10,
-                        "icons": ["/class-icons/other/kinesis/esp-mastery.png"],
-                        "type": "Passive"
                     },
                     {
                         "name": "Psychic Blast",
@@ -333,7 +325,7 @@
                     },
                     {
                         "name": "Psychic Drain",
-                        "shortDesc": "Max Enemies Hit: 5, Damage: 150%, Duration: 30 sec. Restores 1 Psychic Point on each use upon attacking normal enemies, Cooldown: 3 sec\\n[Passive Effect: 40% chance to restore 1 Psychic Points upon attacking bosses]",
+                        "shortDesc": "Max Enemies Hit: 5, Damage: 150%, Duration: 30 sec., Restores 1 Psychic Point on each use upon attacking normal enemies\\n[Passive Effect: 40% chance to restore 1 Psychic Points upon attacking bosses]",
                         "maxLevel": 9,
                         "icons": ["/class-icons/other/kinesis/psychic-drain.png"],
                         "animations": ["https://media3.giphy.com/media/ejzIitsfDK6ElG5fXO/giphy.gif"],
@@ -347,7 +339,7 @@
                     },
                     {
                         "name": "Ultimate - Deep Impact",
-                        "shortDesc": "Psychic Point 2 consumed. Damage: 170%, Max Enemies Hit: 4, Number of Attacks: 7. Removes all buffs of enemies hit\\n[Ultimate - Metal Press]s Damage: +130% points",
+                        "shortDesc": "Psychic Point Cost: 2, Damage: 170%, Max Enemies Hit: 4, Number of Attacks: 7. Removes all buffs of enemies hit\\n[Ultimate - Metal Press]s Damage: +130% points",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/kinesis/ultimate-deep-impact.png"],
                         "animations": ["https://media3.giphy.com/media/YqtpHYxl0VZq5XgeeK/giphy.gif"],
@@ -361,6 +353,15 @@
                         ]
                     },
                     {
+                        "name": "Psychic Sprint",
+                        "shortDesc": "Charge a set distance",
+                        "maxLevel": 1,
+                        "icons": ["/class-icons/other/kinesis/psychic-sprint.png"],
+                        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWtzdTB4M2h2MGwxa3lzdzI1eXJkODMxNTNmaWRoYmQyaGJ6Nzl6cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ThTOtQC7FnqcqWz7gE/giphy.gif"],
+                        "type": "Active",
+                        "desc": "Dash forward"
+                    },
+                    {
                         "name": "Psychic Armor",
                         "shortDesc": "Dodge Chance: 20%, Defense: +300",
                         "maxLevel": 10,
@@ -370,7 +371,7 @@
                     {
                         "name": "Pure Power",
                         "shortDesc": "Damage: +20%, Attack Speed: +1",
-                        "maxLevel": 15,
+                        "maxLevel": 14,
                         "icons": ["/class-icons/other/kinesis/pure-power.png"],
                         "type": "Passive"
                     },
@@ -379,6 +380,13 @@
                         "shortDesc": "Max HP: +20%, Magic ATT: +10, Jump: +10, Speed: +10, and Max Speed: +10",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/kinesis/mental-strength.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "ESP Mastery",
+                        "shortDesc": "Psy-limiter Mastery: +50%, Critical Rate: +10%, and INT: +40",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/other/kinesis/esp-mastery.png"],
                         "type": "Passive"
                     }]
                 ],
@@ -412,7 +420,7 @@
                     },
                     {
                         "name": "Mind Tremor",
-                        "shortDesc": "Reduces up to 5 enemies' speed by 25%. Ignores an additional 10% DEF and applies a debuff that increases Final Damage by 10% to Kinesis's attack.\\nDuration: 30. For enemies who leave the area of effect, the debuff lingers for a time equal to the time they spent in the area of effect.\\n[Psychic Point recovery during skill use: 1]\\nCooldown: 30 sec",
+                        "shortDesc": "Reduces up to 5 enemies' speed by 25%. Ignores an additional 10% DEF and applies a debuff that increases Final Damage by 10% to Kinesis's attack.\\nDuration: 30. For enemies who leave the area of effect, the debuff lingers for a time equal to the time they spent in the area of effect.\\n[Psychic Point recovery during skill use: 1]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/kinesis/mind-tremor.png"],
                         "animations": ["https://media2.giphy.com/media/eiLmAbvo964qTLEjmx/giphy.gif"],
@@ -426,7 +434,7 @@
                     },
                     {
                         "name": "Ultimate - Trainwreck",
-                        "shortDesc": "Psychic Points Consumption: 15, Max Enemies hit: 5, Damage: 120%, Number of Attacks: 6, Duration: 12 sec, Ultimate - Trainwreck Damage during damage duration: -5%\\n[Ultimate - Metal Press] Damage: +140%\\n[Ultimate - Deep Impact] Damage: +100%",
+                        "shortDesc": "Psychic Points Cost: 15\\nDuration: 12 sec., Max Enemies hit: 5, Damage: 120%, Number of Attacks: 6, Ultimate - Trainwreck Damage during damage duration: -5%\\n[Ultimate - Metal Press] Damage: +140% points\\n[Ultimate - Deep Impact] Damage: +100% points",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/kinesis/ultimate-trainwreck.png"],
                         "animations": ["https://media1.giphy.com/media/XZxqotJkH8L5EKZTiS/giphy.gif"],
@@ -535,12 +543,12 @@
                 },
                 {
                     "name": "Ultimate - B.P.M.",
-                    "shortDesc": "Enemies Hit: 3, Damage: 175%, Number of Attacks: 7. When activated once, consumes 1 slot(s) of Psychic Points\\nAttack stops when Psychic Points are consumed, resumes attack when recovering more than 3 Psychic Points.\\nCooldown: 0.5 sec\\n[Ultimate - Metal Press] Damage: +310%p\\n[Ultimate - Deep Impact] Damage: +270%p\\n[Ultimate - Trainwreck] Damage: +100%p",
+                    "shortDesc": "Max Enemies Hit: 3, Damage: 175%, Number of Attacks: 7.\\nWhen activated once, consumes 1 slot of Psychic Points\\nAttack stops when Psychic Points are consumed, resumes attack when recovering more than 3 Psychic Points.\\nCooldown: 0.5 sec\\n[Ultimate - Metal Press] Damage: +310% points\\n[Ultimate - Deep Impact] Damage: +270% points\\n[Ultimate - Trainwreck] Damage: +100% points",
                     "maxLevel": 20,
                     "icons": ["/class-icons/other/kinesis/ultimate-bpm.png"],
                     "animations": ["https://media1.giphy.com/media/JTDOTSXpAH20pu26AK/giphy.gif"],
                     "type": "PP Toggle Attack",
-                    "desc": "While active, continuously strike forward with a barrage of psychic punches",
+                    "desc": "While toggled, continuously strike forward with a barrage of psychic punches",
                     "details": [
                     "[Passive]: Increases %Damage by a flat amount for the following skills: <tt src={/class-icons/other/kinesis/ultimate-metal-press.png} tip={Ultimate - Metal Press (1st Job)}> <tt src={/class-icons/other/kinesis/ultimate-deep-impact.png} tip={Ultimate - Deep Impact (2nd Job)}> <tt src={/class-icons/other/kinesis/ultimate-trainwreck.png} tip={Ultimate - Trainwreck (3rd Job)}>",
                     "Consumes PP only when attack successfully hits<bp_Attack automatically stops when all PP is consumed and resumes when at least 3 PP is available_>",
@@ -550,7 +558,7 @@
                 },
                 {
                     "name": "Mind Quake",
-                    "shortDesc": "Initial hit - Max Enemies hit: 5, Damage: 1000%, Number of Attacks: 4.\\nReduces speed of enemies within the area by 30%.\\nIgnores an additional 15% DEF and applies a debuff that increases Final Damage by 15% to Kinesis's attack.\\nDuration: 30. For enemies who leave the area of effect, the debuff lingers for a time equal to the time they spent in the area of effect.\\n[Psychic Point recovery during skill use: 1]\\nCooldown: 30 sec",
+                    "shortDesc": "Initial hit - Max Enemies hit: 5, Damage: 1000%, Number of Attacks: 4.\\nReduces speed of enemies within the area by 30%.\\nIgnores an additional 15% DEF and applies a debuff that increases Final Damage by 15% to Kinesis's attack.\\nDuration: 30. For enemies who leave the area of effect, the debuff lingers for a time equal to the time they spent in the area of effect.\\n[Psychic Point recovery during skill use: 1]",
                     "maxLevel": 20,
                     "icons": ["/class-icons/other/kinesis/mind-quake.png", "/class-icons/other/kinesis/mind-tremor.png"],
                     "type": "Upgraded Passive",
@@ -560,13 +568,6 @@
                         "Increases slow and %DEF reduction effect",
                         "Increases %Final Damage from debuff"
                     ]
-                },
-                {
-                    "name": "Mind Break",
-                    "shortDesc": "Final Damage 40% increase",
-                    "maxLevel": 30,
-                    "icons": ["/class-icons/other/kinesis/mind-break.png"],
-                    "type": "Passive"
                 },
                 {
                     "name": "President's Orders",
@@ -603,6 +604,13 @@
                     "details": [
                         "[Passive]: Increases Abnormal Status Resistance"
                     ]
+                },
+                {
+                    "name": "Mind Break",
+                    "shortDesc": "Final Damage 40% increase",
+                    "maxLevel": 30,
+                    "icons": ["/class-icons/other/kinesis/mind-break.png"],
+                    "type": "Passive"
                 },
                 {
                     "name": "Telepath Tactics",
@@ -758,7 +766,7 @@
                 },
                 {
                     "name": "Mental Shock",
-                    "shortDesc": "Max Enemies Hit: 15, Damage: 1800%, Number of Attacks: 1, Stun Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Mental Shock.\\nCooldown: 180 sec",
+                    "shortDesc": "Max Enemies Hit: 15, Damage: 1200%, Number of Attacks: 1, Stun Duration: 10 sec.\\nStun Duration: +100% depending on damage inflicted with Mental Shock.\\nCooldown: 120 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/other/kinesis/mental-shock.png"],
                     "animations": ["https://media4.giphy.com/media/hzpkfQxQXjwzxRhxkN/giphy.gif"],
@@ -768,7 +776,7 @@
                 },
                 {
                     "name": "Mental Overdrive",
-                    "shortDesc": "Reduces Psychic Point consumption by half for 26 sec while increasing the Psychic Points are continuously increased.\\nCooldown: 180 sec",
+                    "shortDesc": "Reduces Psychic Point consumption by half for 26 sec while increasing the Psychic Points are continuously increased.\\nCooldown: 120 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/other/kinesis/mental-overdrive.png"],
                     "animations": ["https://media4.giphy.com/media/7PEVIRsj1XPbt91Kie/giphy.gif"],
@@ -786,7 +794,7 @@
             "fifthMain": [
                 {
                     "name": "Psychic Tornado",
-                    "shortDesc": "Psychic Point Cost: 15, Max Enemies Hit: 15, Damage: 1650%, Number of Attacks: 8, Duration: 20 sec\\nThe tornado grows and grows until the skill ends or is used again, causing the objects inside to be thrown forward.\\nThrown Object - Deals 433% damage on up to 10 enemies 4 times and explodes 6 times, dealing 975% damage up to 10 enemies 10 times. Final Damage increases up to 3 times in proportion to the object's size.\\nCooldown: 180 sec.",
+                    "shortDesc": "Psychic Point Cost: 15, Max Enemies Hit: 15, Damage: 1495%, Number of Attacks: 8, Duration: 15 sec\\nThe tornado grows and grows until the skill ends or is used again, causing the objects inside to be thrown forward.\\nThrown Object - Deals 280% damage on up to 10 enemies 4 times and explodes 6 times, dealing 650% damage up to 10 enemies 10 times. Final Damage increases up to 3 times in proportion to the object's size.\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/other/kinesis/psychic-tornado.png"],
                     "animations": ["https://media1.giphy.com/media/62tTfxlfv9bA5nBXk8/giphy.gif"],
                     "type": "PP Attack",
@@ -799,7 +807,7 @@
                 },
                 {
                     "name": "Ultimate - Mind Over Matter",
-                    "shortDesc": "Psychic Point Cost: 10, Duration: 15 sec, Max Enemies Hit: 10, Damage: 1485%, Number of Attacks: 5\\nWhile traveling towards you, object moves at 75% speed.\\nIf you use the skill again or use the down arrow key to use Psychic Force during a boss atack, you can move the matter for 3 more sec.\\nInflicts an additional 1045% damage to up to 12 enemies 12 times when the object disappears.\\nCooldown: 60 sec",
+                    "shortDesc": "Psychic Point Cost: 10, Duration: 15 sec, Max Enemies Hit: 10, Damage: 1320%, Number of Attacks: 5\\nWhile traveling towards you, object moves at 75% speed.\\nIf you use the skill again or use the down arrow key to use Psychic Force during a boss atack, you can move the matter for 3 more sec.\\nInflicts an additional 935% damage to up to 12 enemies 12 times when the object disappears.\\nCooldown: 60 sec",
                     "icons": ["/class-icons/other/kinesis/ultimate-mind-over-matter.png"],
                     "animations": ["https://media2.giphy.com/media/iY1v2KiTOJlruBG3EY/giphy.gif"],
                     "type": "PP Attack",
@@ -1002,7 +1010,7 @@
                 },
                 {
                     "name": "HEXA Ultimate - Metal Press",
-                    "shortDesc": "Psychic Point Cost: 6.\\nDamage: 1295%, Number of Attacks: 10, Max Enemies Hit: 12, DEF on damaged enemies: -15%, DEF reduction duration: 30 sec.",
+                    "shortDesc": "Psychic Point Cost: 6.\\nDamage: 1195%, Number of Attacks: 10, Max Enemies Hit: 12, DEF on damaged enemies: -15%, DEF reduction duration: 30 sec.",
                     "icons": ["/class-icons/other/kinesis/hexa-ultimate-metal-press.png", "/class-icons/other/kinesis/ultimate-metal-press.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1023,7 +1031,7 @@
                 },
                 {
                     "name": "HEXA Psychic Grab",
-                    "shortDesc": "Lift 5 enemies and control them with the powers of psychokinesis.\\n[Psychic Smash]: Enemies Hit, Including Grabbed Enemy: 8, Damage: 1034%, Number of Attacks: 5, recovers 1 Psychic Point\\nDEF of enemies hit: -15%, DEF reduction duration: 30 sec.",
+                    "shortDesc": "Lift 5 enemies and control them with the powers of psychokinesis.\\n[Psychic Smash]: Enemies Hit, Including Grabbed Enemy: 8, Damage: 1000%, Number of Attacks: 5, recovers 1 Psychic Point\\nDEF of enemies hit: -15%, DEF reduction duration: 30 sec.",
                     "icons": ["/class-icons/other/kinesis/hexa-psychic-grab.png", "/class-icons/other/kinesis/psychic-grab.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1053,7 +1061,7 @@
                 },
                 {
                     "name": "HEXA Ultimate - Trainwreck",
-                    "shortDesc": "Psychic Point Cost: 13\\nDuration: 9 sec., Max Enemies Hit: 5, Damage: 370%, Number of Attacks: 6, Ultimate - Trainwreck Damage during damage duration: -5%",
+                    "shortDesc": "Psychic Point Cost: 13\\nDuration: 9 sec., Max Enemies Hit: 5, Damage: 350%, Number of Attacks: 6, Ultimate - Trainwreck Damage during damage duration: -5%",
                     "icons": ["/class-icons/other/kinesis/hexa-ultimate-trainwreck.png", "/class-icons/other/kinesis/ultimate-trainwreck.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1063,7 +1071,7 @@
                 },
                 {
                     "name": "HEXA Ultimate - B.P.M.",
-                    "shortDesc": "Max Enemies Hit: 3, Damage: 310%, Number of Attacks: 7.\\nWhen activated once, consumes 1 slot(s) of Psychic Points\\nAttack stops when Psychic Points are consumed, resumes attack when recovering more than 3 Psychic Points.\\nCooldown: 0.5 sec.",
+                    "shortDesc": "Max Enemies Hit: 3, Damage: 280%, Number of Attacks: 7.\\nWhen activated once, consumes 1 slot(s) of Psychic Points\\nAttack stops when Psychic Points are consumed, resumes attack when recovering more than 3 Psychic Points.\\nCooldown: 0.5 sec.",
                     "icons": ["/class-icons/other/kinesis/hexa-ultimate-bpm.png", "/class-icons/other/kinesis/ultimate-bpm.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1083,7 +1091,7 @@
                 },
                 {
                     "name": "HEXA Kinetic Combo",
-                    "shortDesc": "When Attack Lands, Additional Attack Chance: 70%, Damage: 620%",
+                    "shortDesc": "When Attack Lands, Additional Attack Chance: 70%, Damage: 560%",
                     "icons": ["/class-icons/other/kinesis/hexa-kinetic-combo.png", "/class-icons/other/kinesis/kinetic-combo.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
