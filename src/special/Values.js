@@ -370,11 +370,19 @@ export const commonFifth = {
     },
     grandisGoddessBlessingLARA:{
         "name": "Grandis Goddess's Blessing",
-        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo.\\nGrandis Goddess's Blessing is ready every 240 sec, and can bless up to 2 times.",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo, Len: Plum Blossom Sword Ultimate, Lost Soul Sword Ultimate, and Sky Splitting Azure Dragon Sword Final Damage is increased by 15%.\\nCooldown: 120 sec.",
         "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
         "desc": "While active, increases %Damage and %Final Damage bonus from <tt src={http://localhost:3000/grandislibrary/class-icons/anima/lara/dragon-vein-echo.png} tip={Dragon Vein Echo (3rd Job)}>"
+    },
+    grandisGoddessBlessingLEN:{
+        "name": "Grandis Goddess's Blessing",
+        "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo, Len: Plum Blossom Sword Ultimate, Lost Soul Sword Ultimate, and Sky Splitting Azure Dragon Sword Final Damage is increased by 15%.\\nCooldown: 120 sec.",
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
+        "type": "Buff",
+        "desc": "While active, increases %Damage and grants increased %Final Damage to skills labelled with \"Plum Blossom Sword Ultimate\", \"Lost Soul Sword Ultimate\", and \"Sky Splitting Azure Dragon Sword\""
     },
     afterimageOfTheOtherworld:{
         "name": "Afterimage of the Otherworld",
