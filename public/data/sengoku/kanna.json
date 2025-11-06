@@ -79,7 +79,7 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/sengoku/kanna/radiant-peacock.png} tip={Radiant Peacock (2nd Job)} dur={[240s]}>",
-            "toggles": "<tt src={/class-icons/sengoku/kanna/shikigami-doppelganger.png} tip={Shikigami Doppelganger (4th Job)}> <tt src={/class-icons/sengoku/kanna/circle-of-supression.png} tip={Circle of Suppression (Hyper Skill)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
+            "toggles": "<tt src={/class-icons/sengoku/kanna/circle-of-supression.png} tip={Circle of Suppression (Hyper Skill)}> <tt src={/class-icons/5th-job/mana-overload.png} tip={Mana Overload (5th Job)}>(30s cd)",
             "summons": "<tt src={/class-icons/sengoku/kanna/ghost-yaksha-boss.png} tip={Ghost Yaksha Boss (4th Job)} dur={[30s](3s cd)}> <tt src={/class-icons/sengoku/kanna/haku-reborn.png} tip={Haku Reborn (2nd Job)} dur={[500s](5s cd)}> <tt src={/class-icons/sengoku/kanna/blossom-barrier.png} tip={Blossom Barrier (3rd Job)} dur={[30s](120s cd)}> <tt src={/class-icons/sengoku/kanna/kishin-shoukan.png} tip={Kishin Shoukan (3rd Job)} dur={[min. 30s](60s cd)}> <tt src={/class-icons/sengoku/kanna/bellflower-barrier.png} tip={Bellflower Barrier (4th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/sengoku/kanna/summon-yuki-musume.png} tip={Summon Yuki-musume (5th Job)} dur={[50s](55s cd)}> <tt src={/class-icons/sengoku/kanna/spirits-domain.png} tip={Spirit's Domain (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/sengoku/kanna/liberated-spirit-circle.png} tip={Liberated Spirit Circle (5th Job)} dur={(25s cd)}> <tt src={/class-icons/sengoku/kanna/ghost-yaksha-great-oni-lords-legion.png} tip={Great Yaksha: Great Oni Lord's Legion (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/sengoku-force-assemble.png} tip={Sengoku Force, Assemble! (5th Job)} dur={[45s](120s cd)}>",
             "buffCd": "<tt src={/class-icons/sengoku/kanna/nine-tailed-fury.png} tip={Nine-Tailed Fury (4th Job)} dur={[150s](120s cd)}> <tt src={/class-icons/sengoku/princesss-vow.png} tip={Princess's Vow (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/sengoku/kanna/binding-tempest.png} tip={Binding Tempest (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/sengoku/kanna/veritable-pandemonium.png} tip={Veritable Pandemonium (Hyper Skill)} dur={[15s](120s cd)}> <tt src={/class-icons/sengoku/kanna/hakumenkonmou-juubi.png} tip={Hakumenkonmou Juubi (6th Job)} dur={[10s](360s cd)}>",
@@ -503,8 +503,11 @@
                     "maxLevel": 20,
                     "icons": ["/class-icons/sengoku/kanna/shikigami-doppelganger.png"],
                     "animations": ["https://media.giphy.com/media/JUkzyWUpB3ffic53qG/giphy.gif"],
-                    "type": "Toggle Attack",
-                    "desc": "While toggled, after a certain amount of Mana has been consumed, release a burst of charms around you"
+                    "type": "Attack",
+                    "desc": "After a certain amount of Mana has been consumed, release a burst of charms around you",
+                    "details": [
+                        "Right-clicking the skill turns manual activation ON/OFF where the skill will only activate when the Skill Key is pressed"
+                    ]
                 },
                 {
                     "name": "Nine-Tailed Fury",
@@ -960,7 +963,7 @@
                     "name": "1st Mastery Node",
                     "shortDesc": "",
                     "icons": ["/class-icons/sengoku/kanna/hexa-shikigami-haunting.png"],
-                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGs1dzlpcGRkZWsyMnk3bDN5ZXc1bTc1OG1mdjQwdmc3emN1djNrNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8sGhvuwrTV4lXtd7fl/giphy.gif"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYms3Y3U0b3g4dHQ2MmtzampteHNrZHE0OHZjdWVpeXF2N3FtbW9zZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7LSPVOMLBNJT5xDcYu/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
@@ -981,7 +984,7 @@
                     "name": "2nd Mastery Node",
                     "shortDesc": "",
                     "icons": ["/class-icons/sengoku/kanna/hexa-vanquishers-charm.png"],
-                    "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjRiNWdhcDBkaDB6ZTN3Mnkzc2x3a3BjM3huZXoyaGlpbm4xcHMxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nrCSNkUBdLEk7D9rRT/giphy.gif"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3l2cDM3a3NidnNqeW1sb2xxd2Q5MjVmM2tuOG5zemZhcTFla2RzbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1Byg5K5Uh5UMf9hSgE/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
@@ -1002,6 +1005,7 @@
                     "name": "3rd Mastery Node",
                     "shortDesc": "",
                     "icons": ["/class-icons/sengoku/kanna/hexa-doppelganger-yosuzume-nine-tailed-nightghost.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3k4aDRxbTZoZTh3aGl6dzFiZjd6ZTA1Y2t4NHlqY3BvM2RkZjdzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2sp77da9uzcfLk5Cvw/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW4zcXp5bG5yc3J5d2xoZWdhbnZzeGxvNmtudXlyMnRoeDY5MnFpciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CMw1Zd4xa6IijPQSXG/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmN0OXNiY2hqdHFpdmM0ZXVxdDVuOW5kc3NzYXlvM3E0YzlqOGE1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H742dJpqMXT2vbyQV9/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
@@ -1052,6 +1056,7 @@
                     "name": "4th Mastery Node",
                     "shortDesc": "",
                     "icons": ["/class-icons/sengoku/kanna/hexa-kishin-tengu-ghost-yaksha.png"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGNmeWswZXYzNGU4aWw5MTd4YWtiMGcxamx6c2Vvejd0MmVoZ3dwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/41ZeJdnaJKrQ8zR6UV/giphy.gif", "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG4wNDI4N3RxZXVtMDZlbG1hcG54ZmU1YWkxN3JpZWYyZHg3Mjd1aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/C8vmNuemYHzECoUXeN/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2FkbXZmbnVkYXZybjQ2Z2FveGx5N2loYnJic21mZjFrZjN0NnFjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zOjicLZpYOfCTIQCcm/giphy.gif"],
                     "type": "",
                     "desc": "",
                     "details": [
@@ -1165,7 +1170,7 @@
             {
                 "name": "HEXA Shikigami Haunting - 6th Job",
                 "icons": ["/class-icons/sengoku/kanna/hexa-shikigami-haunting.png"],
-                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGs1dzlpcGRkZWsyMnk3bDN5ZXc1bTc1OG1mdjQwdmc3emN1djNrNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8sGhvuwrTV4lXtd7fl/giphy.gif"]
+                "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYms3Y3U0b3g4dHQ2MmtzampteHNrZHE0OHZjdWVpeXF2N3FtbW9zZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7LSPVOMLBNJT5xDcYu/giphy.gif"]
             },
             {
                 "name": "Hakumenkonmou Juubi - 6th Job",
