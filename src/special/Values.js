@@ -138,7 +138,7 @@ export const secondaryWeapons = {
     hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"],
     braceBand: [`http://localhost:3000/grandislibrary/images/equipment/brace-band.png`, "Brace Band"],
     compass: [`http://localhost:3000/grandislibrary/images/equipment/compass.png`, "Compass"],
-    wishGrantingJewel: [`http://localhost:3000/grandislibrary/images/equipment/wish-granting-jewel.png`, "Wish-Granting Jewel"]
+    imugiGem: [`http://localhost:3000/grandislibrary/images/equipment/imugi-gem.png`, "Imugi Gem"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
