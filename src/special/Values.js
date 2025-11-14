@@ -387,7 +387,7 @@ export const commonFifth = {
         "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
-        "desc": "While active, increases %Damage and grants increased %Final Damage to skills labelled with \"Plum Blossom Sword Ultimate\", \"Lost Soul Sword Ultimate\", and \"Sky Splitting Azure Dragon Sword\""
+        "desc": "While active, increases %Damage and grants increased %Final Damage to skills labelled with \"Final Plum Blossom Swords\", \"Final Amugi Spirit Swords\", and \"Rising Azure Dragon\""
     },
     afterimageOfTheOtherworld:{
         "name": "Afterimage of the Otherworld",
