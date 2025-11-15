@@ -87,11 +87,15 @@
             "damageReduce": "<tt src={/class-icons/explorers/pathfinder/ancient-astra-deluge.png} tip={Ancient Astra - Deluge (Hyper Skill)}> / <tt src={/class-icons/explorers/pathfinder/ancient-astra-torrent.png} tip={Ancient Astra - Torrent (Hyper Skill)}>(While casting)[-60% | 60s cd] <tt src={/class-icons/explorers/pathfinder/obsidian-barrier.png} tip={Obsidian Barrier (5th Job)} dur={[12s](-40% | 120s cd)}>"
         },              
         "linkSkill": {
-                "id":80002766,
-                "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
-                "type": "Passive",
-                "desc": "",
-                "details": ["Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"]
+            "id":80002766,
+            "offline": true,
+            "name": "Adventurer's Curiosity",
+            "maxLevel": 9,
+            "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%",
+            "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"]
         },
         "howToCreate": {
             "image": ["/class-icons/explorers/how-to-create-pathfinder.png",[499,374]],

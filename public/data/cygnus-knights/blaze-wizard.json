@@ -87,11 +87,15 @@
             "damageReduce": "<tt src={/class-icons/cygnus-knights/blaze-wizard/inferno-sphere.png} tip={Inferno Sphere (5th Job)} dur={[Up to 10s](-50% | 2.5s cd, 8s recharge - max. 10)}> <tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"
         },        
         "linkSkill": {
-                "id": 80000055,
-                "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
-                "type": "Passive",
-                "desc": "",
-                "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level"]
+            "id": 80000055,
+            "offline": true,
+            "name": "Cygnus Blessing",
+            "maxLevel": 15,
+            "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
+            "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level"]
         },
         "howToCreate": {
             "image": ["/class-icons/cygnus-knights/how-to-create.png", [499,374]],
@@ -737,7 +741,7 @@
                 },
                 {
                     "name": "Inferno Sphere",
-                    "shortDesc": "MP Cost: 75 per sec., consumes 1 Phoenix Feather\\nMax Enemies Hit: 12, Damage: 810%, Number of Attacks: 8, Additional Critical Rate: +50%, Additional Monster DEF Ignored: +50%\\n1 Phoenix Feather will be prepared every 8 sec. You can have up to 10 feathers.\\nIf used while Flame Fox is summoned, the Phoenix Feathers cost per second is increased by 2 times and Skill Final Damage increases by 100%\\nDamage taken while the key is held, incluiding attack that deal damage in proportion to Max HP: -50%\\nCooldown: 2.5 sec",
+                    "shortDesc": "MP Cost: 75 per sec., consumes 1 Phoenix Feather\\nMax Enemies Hit: 12, Damage: 950%, Number of Attacks: 8, Additional Critical Rate: +50%, Additional Monster DEF Ignored: +50%\\n1 Phoenix Feather will be prepared every 8 sec. You can have up to 10 feathers.\\nIf used while Flame Fox is summoned, the Phoenix Feathers cost per second is increased by 2 times and Skill Final Damage increases by 100%\\nDamage taken while the key is held, incluiding attack that deal damage in proportion to Max HP: -50%\\nCooldown: 2.5 sec",
                     "icons": ["/class-icons/cygnus-knights/blaze-wizard/inferno-sphere.png"],
                     "animations": ["https://media3.giphy.com/media/S40986yvx4fkh3CRT0/giphy.gif"],
                     "type": "Key-down Attack",

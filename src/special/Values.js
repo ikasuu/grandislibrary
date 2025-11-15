@@ -384,7 +384,7 @@ export const commonFifth = {
     grandisGoddessBlessingLEN:{
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
-        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
         "desc": "While active, increases %Damage and grants increased %Final Damage to skills labelled with \"Final Plum Blossom Swords\", \"Final Amugi Spirit Swords\", and \"Rising Azure Dragon\""
@@ -617,7 +617,7 @@ export const commonFifth = {
     },
     dMysticDoor: {
         "name": "Decent Mystic Door",
-        "shortDesc": "HP Cost: 5% of Max HP, Portal Duration: 80 sec\\nCooldown: 130 sec\\n[Passive Effect - All Stats: +6]",
+        "shortDesc": "Portal Duration: 80 sec\\nCooldown: 130 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/explorers/bishop/mystic-door.png"],
         "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHZlbDllNWFhNDFwdXRraDh1YWxrbGQwZjBpNW4ybG1tMzVoNGVpdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XZ5F67PgXtzcOKYbhv/giphy.gif"],
         "type": "Summon",
@@ -629,7 +629,7 @@ export const commonFifth = {
     },
     dSharpEyes: {
         "name": "Decent Sharp Eyes",
-        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, Critical Rate: +10%, Critical Damage: +8%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
+        "shortDesc": "Duration: 270 sec, Critical Rate: +10%, Critical Damage: +8%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/common/sharp-eyes.png"],
         "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXM2M3cxY3B1ZXRjdmU4cmN6MzhlOGJxMHo4c3gydmpjbm5lOGNwaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WFncgZx8n974qsSZ2X/giphy.gif"],
         "type": "Buff",
@@ -640,7 +640,7 @@ export const commonFifth = {
     },
     dHyperBody: {
         "name": "Decent Hyper Body",
-        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, Max HP: +40%, Max MP: +40%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
+        "shortDesc": "Duration: 270 sec, Max HP: +40%, Max MP: +40%\\nCooldown: 180 sec\\n[Passive Effect - All Stats: +6]",
         "icons": ["/class-icons/explorers/dark-knight/hyper-body.png"],
         "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXZzOWgwdWszdXNuZWdzNzRyczdqZWFneHF0aHAwMzhiZ213d212ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oKSKRlNwol8ikT3akU/giphy.gif"],
         "type": "Buff",
@@ -651,7 +651,7 @@ export const commonFifth = {
     },
     dCombatOrders: {
         "name": "Decent Combat Orders",
-        "shortDesc": "HP Cost: 5% of Max HP, Duration: 270 sec, All Skills: +1\\nCooldown: 180 sec\\n[Passive Effect - Abnormal Status Resistance: +6]",
+        "shortDesc": "Duration: 270 sec, All Skills: +1\\nCooldown: 180 sec\\n[Passive Effect - Abnormal Status Resistance: +6]",
         "icons": ["/class-icons/explorers/paladin/combat-orders.png"],
         "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTZybWNoejU5Zmp3c2piNXBuYmxndjZ4ZWl6bDh2NXBiMTgzZWsxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xIYJZE21cbMifrMxD5/giphy.gif"],
         "type": "Buff",
@@ -716,7 +716,7 @@ export const commonFifth = {
     },
     dHolySymbol: {
         "name": "Decent Holy Symbol",
-        "shortDesc": "HP Cost: 3400, Duration: 270 sec, EXP: +35%, Drop Rate: +24%\\nCooldown: 180 sec",
+        "shortDesc": "Duration: 270 sec, EXP: +35%, Drop Rate: +24%\\nCooldown: 180 sec",
         "icons": ["/class-icons/explorers/bishop/holy-symbol.png"],
         "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExemNqMXpneGU4NHl5dzJua3k2YWcxdGpya2h5bHFjZjh0bGxwZWF4biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sn4y8zRnXsPNz2Xwhy/giphy.gif"],
         "type": "Buff",
@@ -727,7 +727,7 @@ export const commonFifth = {
     },
     dHolyFountain: {
         "name": "Decent Holy Fountain",
-        "shortDesc": "HP Cost: 5% of max HP, Duration: 60 sec, restores 35% HP when used, able to use 20 times total.\\nIf it disappears before duration is up, Vestige of Divinity is created in the remaining time.\\nCooldown: 60 sec\\n[Passive Effect - All Stats +6]",
+        "shortDesc": "Duration: 60 sec, restores 35% HP when used, able to use 20 times total.\\nIf it disappears before duration is up, Vestige of Divinity is created in the remaining time.\\nCooldown: 60 sec\\n[Passive Effect - All Stats +6]",
         "icons": ["/class-icons/explorers/bishop/holy-fountain.png"],
         "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHg1aWJmcm9uYnV3Mnp3MDRhbzM2YW1jaHlqbTBibXJqNTFpOGVhciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DaRTnIhgQdNDpTLUbu/giphy.gif"],
         "type": "Summon Heal",
@@ -820,7 +820,11 @@ export const commonSixth = {
 export const linkSkills = {
     expWarrior: {
         "id": 80002758,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/d/dc/Skill_Invincible_Belief.png/revision/latest?cb=20191124005023"],
+        "offline": true,
+        "name": "Invincible Belief",
+        "maxLevel": 9,
+        "shortDesc": "Automatically activates when your health falls to 15% of your Max HP or below. Restores 44% of Max HP every 1 sec for 3 sec\\nCooldown: 90 sec.",
+        "icons": ["/class-icons/link-skills/invincible-belief.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -830,28 +834,41 @@ export const linkSkills = {
     },
     expMage: {
         "id": 80002762,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/1/1c/Skill_Empirical_Knowledge.png/revision/latest?cb=20191123114304"],
+        "offline": true,
+        "name": "Empirical Knowledge",
+        "maxLevel": 9,
+        "shortDesc": "When attacking, has a 31% chance to identify the weakness of the enemy with the highest Max HP among those struck, granting you the following bonuses against them:\\nDamage per Stack: +5%, Enemy DEF Ignored per Stack: +5%\\nEffect Duration: 10 sec, Stacks up to 3 times",
+        "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
         "type": "Passive",
         "desc": "When attacking, your attacks have a chance to debuff against the enemy with the highest Max HP",
         "details": [
-            "<strong>[Debuff]: </strong>Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
+            "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacking up to 3 times)",
             "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level",
             "Useful for BOSSING because of INCREASED DAMAGE and IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE"
         ]
     },
     expArcher: {
         "id":80002766,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Adventurer%27s_Curiosity.png/revision/latest?cb=20191123115130"],
+        "offline": true,
+        "name": "Adventurer's Curiosity",
+        "maxLevel": 9,
+        "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%",
+        "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level",
-            "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE<ul><li>Additionally great for adding monsters to Monster Collection!!</li></ul>"
+            "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE",
+            "Additionally useful for adding monsters to Monster Collection"
         ]
     },
     expThief: {
         "id": 80002770,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/78/Skill_Thief%27s_Cunning.png/revision/latest?cb=20191123120726"],
+        "offline": true,
+        "name": "Thief's Cunning",
+        "maxLevel": 9,
+        "shortDesc": "Upon debuffing an enemy, Damage: +18%. Duration: 10 sec\\nCooldown: 20 sec.",
+        "icons": ["/class-icons/link-skills/thiefs-cunning.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -861,48 +878,46 @@ export const linkSkills = {
     },
     expPirate: {
         "id":80002774,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e1/Skill_Pirate_Blessing.png/revision/latest?cb=20110627095502"],
+        "offline": true,
+        "name": "Pirate's Blessing",
+        "maxLevel": 9,
+        "shortDesc": "STR: +100, DEX: +100, INT: +100, LUK: +100, Max HP: +1750, Max MP: +1750, Damage Taken: -21%",
+        "icons": ["/class-icons/link-skills/pirate-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
             "The stats are affected by %Stat bonuses",
-            "<strong>[Note]: </strong>Link Skill has a togglable effect where you can swap STR + %STR into DEX + %DEX and vice versa<ul><li>Double-click the Link Skill to turn this effect on/off</li><li>The effect only applies to the original Link Skill, not the transferred version</li></ul>",
+            "[Note]: Link Skill has a togglable effect where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Double-click the Link Skill to turn this effect ON/OFF_The effect only applies to the original Link Skill, not the transferred version_Excludes Primary and Secondary Weapon, Totems, and Symbols_>",
             "Useful for INCREASING DAMAGE and TRAINING characters pre-200 because of increased SURVIVABILITY"
-        ]
-    },
-    jett: {
-        "id":80001151,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e8/Skill_Core_Aura.png/revision/latest?cb=20120619031149"],
-        "type": "Passive",
-        "desc": "Grants a random amount of STR, DEX, INT, LUK, Attack, and Magic Attack",
-        "details": [
-            "The stats change every day, there are items dropped from monsters or from the Cash Shop that help you reroll the stats. There is also an item in the Cash Shop that lock the stats preventing it from changing",
-            "NOT VERY USEFUL because requires CASH ITEMS to be good"
         ]
     },
     cygnusKnights: {
         "id": 80000055,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/f/f0/Skill_Cygnus_Blessing.png/revision/latest?cb=20130525122103"],
+        "offline": true,
+        "name": "Cygnus Blessing",
+        "maxLevel": 15,
+        "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
+        "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level",
-            "Useful for INCREASING DAMAGE and REDUCING DURATION OF DEBUFFS<ul><li>Important in bosses like Chaos Pink Bean</li></ul>"
+            "Useful for INCREASING DAMAGE and REDUCING DURATION OF DEBUFFS"
         ]
     },
     mihile: {
         "id": 80001140,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e4/Skill_Knight%27s_Watch.png/revision/latest?cb=20120322172705"],
+        "icons": ["/class-icons/link-skills/knights-watch.png"],
         "type": "Buff",
         "desc": "",
         "details": [
-            "Useful for BOSSING with CLASSES WITHOUT 100% KNOCKBACK RESISTANCE"
+            "Useful for BOSSING"
         ]
     },
     mercedes: {
         "id":80001040,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/e2/Skill_Elven_Blessing.png/revision/latest?cb=20110723104642"],
+        "icons": ["/class-icons/link-skills/elven-blessing.png"],
         "type": "Active / Passive",
         "desc": "",
         "details": [
@@ -911,7 +926,7 @@ export const linkSkills = {
     },
     aran: {
         "id":80000370,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/8/86/Skill_Combo_Kill_Blessing.png/revision/latest?cb=20160623050748"],
+        "icons": ["/class-icons/link-skills/combo-kill-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -920,7 +935,7 @@ export const linkSkills = {
     },
     phantom: {
         "id":80000002,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/e/ec/Skill_Phantom_Instinct.png/revision/latest?cb=20120129155124"],
+        "icons": ["/class-icons/link-skills/phantom-instinct.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -929,7 +944,7 @@ export const linkSkills = {
     },
     luminous: {
         "id":80000005,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/b/bc/Skill_Light_Wash.png/revision/latest?cb=20191125065228"],
+        "icons": ["/class-icons/link-skills/light-wash.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -938,16 +953,20 @@ export const linkSkills = {
     },
     evan: {
         "id":80000369,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/07/Skill_Rune_Persistence.png/revision/latest?cb=20160624211333"],
+        "icons": ["/class-icons/link-skills/rune-persistence.png"],
         "type": "Passive",
         "desc": "",
         "details": [
-            "Useful for TRAINING because of INCREASED EXP<ul><li>Runes provide a 2x EXP buff when active</li></ul>"
+            "Useful for TRAINING because of INCREASED EXP<bp_Runes provide a 2x EXP buff when active_>"
         ]
     },
     shade: {
         "id":80000169,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/0/02/Skill_Close_Call.png/revision/latest?cb=20140809015342"],
+        "offline": true,
+        "name": "Close Call",
+        "maxLevel": 3,
+        "shortDesc": "Fatal Attack Survival Chance: 15%",
+        "icons": ["/class-icons/link-skills/close-call.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -956,17 +975,21 @@ export const linkSkills = {
     },
     resistance: {
         "id": 80000329,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/9/92/Skill_Spirit_of_Freedom.png/revision/latest?cb=20160821170212"],
+        "offline": true,
+        "name": "Spirit of Freedom",
+        "maxLevel": 12,
+        "shortDesc": "Grants 12 seconds of invincibility after being revived. Removed upon moving to another map.",
+        "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
         "type": "Passive",
         "desc": "",
         "details": [
-            "Can be stacked up to 4 times, once for each unique Resistance character (Except Demons and Xenon) to reach Master Level",
+            "Can be stacked up to 4 times, once for each unique Resistance character (excluding Demons and Xenon) to reach Master Level",
             "Useful for BOSSING because of increased UTILITY"
         ]
     },
     demonAvenger: {
         "id": 80000050,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/4/4c/Skill_Wild_Rage.png/revision/latest?cb=20140623054437"],
+        "icons": ["/class-icons/link-skills/wild-rage.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -975,7 +998,7 @@ export const linkSkills = {
     },
     demonSlayer: {
         "id": 80000001,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/52/Skill_Fury_Unleashed.png/revision/latest?cb=20140808220635"],
+        "icons": ["/class-icons/link-skills/fury-unleashed.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -984,7 +1007,11 @@ export const linkSkills = {
     },
     xenon: {
         "id": 80000047,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/69/Skill_Hybrid_Logic.png/revision/latest?cb=20121223163512"],
+        "offline": true,
+        "name": "Hybrid Logic",
+        "maxLevel": 3,
+        "shortDesc": "All Stats: +15%",
+        "icons": ["/class-icons/link-skills/hybrid-logic.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -993,7 +1020,11 @@ export const linkSkills = {
     },
     angelicBuster: {
         "id": 80001155,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/6b/Skill_Terms_and_Conditions.png/revision/latest?cb=20120803105421"],
+        "offline": true,
+        "name": "Terms and Conditions",
+        "shortDesc": "Duration: 10 sec, Damage: +60%\\nCooldown: 60 sec",
+        "maxLevel": 3,
+        "icons": ["/class-icons/link-skills/terms-and-conditions.png"],
         "type": "Buff",
         "desc": "",
         "details": [
@@ -1002,26 +1033,47 @@ export const linkSkills = {
     },
     cadena: {
         "id": 80000261,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/ab/Skill_Unfair_Advantage.png/revision/latest?cb=20171205075511"],
+        "offline": true,
+        "name": "Unfair Advantage",
+        "maxLevel": 3,
+        "shortDesc": "Attacks against weaker opponents deal +9% damage. Attacks against monsters afflicted by Abnormal Statuses deal +9% damage.",
+        "icons": ["/class-icons/link-skills/unfair-advantage.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Weaker opponents refer to enemies lower level than you",
-            "Useful for TRAINING because of INCREASED DAMAGE"
+            "Useful for INCREASING DAMAGE"
         ]
     },
     kaiser: {
         "id": 80000006,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c6/Skill_Iron_Will_%28Kaiser%29.png/revision/latest?cb=20120717143209"],
+        "icons": ["/class-icons/link-skills/iron-will.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Useful for TRAINING characters pre-200 because of increased SURVIVABILITY"
         ]
     },
+    kain: {
+        "id": 60030241,
+        "offline": true,
+        "name": "Time to Prepare",
+        "maxLevel": 3,
+        "shortDesc": "By defeating 8 enemies or attacking a boss 5 times, you gain 1 stack of Time to Prepare. At 5 5stacks of Time to Prepare, your damage increases by 25% for 20 sec.\\nCooldown: 40 sec",
+        "icons": ["/class-icons/link-skills/time-to-prepare.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for INCREASING DAMAGE"
+        ]
+    },
     hayato: {
         "id": 80000003,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/5/51/Skill_Keen_Edge.png/revision/latest?cb=20180520131734"],
+        "offline": true,
+        "name": "Keen Edge",
+        "maxLevel": 3,
+        "shortDesc": "All Stats: 35, Attack Power Increase: 20, Magic Attack Power Increase: 20",
+        "icons": ["/class-icons/link-skills/keen-edge.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -1030,7 +1082,11 @@ export const linkSkills = {
     },
     kanna: {
         "id": 80000004,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/a/af/Skill_Elementalism.png/revision/latest?cb=20171223042231"],
+        "offline": true,
+        "name": "Elementalism",
+        "maxLevel": 3,
+        "shortDesc": "Damage: +15%",
+        "icons": ["/class-icons/link-skills/elementalism.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -1039,7 +1095,7 @@ export const linkSkills = {
     },
     ark: {
         "id": 80000514,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/2/2b/Skill_Solus.png/revision/latest?cb=20180815050834"],
+        "icons": ["/class-icons/link-skills/solus.png"],
         "type": "Passive",
         "desc": "While you are in combat state, you gain a stacking %Damage buff",
         "details": [
@@ -1048,7 +1104,11 @@ export const linkSkills = {
     },
     illium: {
         "id": 80000268,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/c5/Skill_Tide_of_Battle.png/revision/latest?cb=20171217081538"],
+        "offline": true,
+        "name": "Tide of Battle",
+        "maxLevel": 3,
+        "shortDesc": "Activated when moving a certain distance. Max number of stacks: 4 times, Duration: 15 sec, Damage per stack: +4%",
+        "icons": ["/class-icons/link-skills/tide-of-battle.png"],
         "type": "Passive",
         "desc": "As you move around, you gain a stacking %Damage buff",
         "details": [
@@ -1057,25 +1117,86 @@ export const linkSkills = {
     },
     adele: {
         "id": 80002857,
-        "icons": ["https://orangemushroom.files.wordpress.com/2019/12/noblesse.png?w=600"],
+        "offline": true,
+        "name": "Noble Fire",
+        "maxLevel": 3,
+        "shortDesc": "Boss Damage: +6%\\nIncreases damage by 3% up to 12% for each party member, including yourself, on the same map.\\nIf you are not in a party, you will be considered to be in your own party.",
+        "icons": ["/class-icons/link-skills/noble-fire.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Useful for BOSSING"
         ]
     },
-    beastTamer: {
+    khali: {
+        "id": 80003224,
+        "offline": true,
+        "name": "Innate Gift",
+        "maxLevel": 3,
+        "shortDesc": "Damage: +7%\\nUpon attacking, Recovery Chance: 100%, Recovery 3% of Max HP/MP per sec, Duration: 5 sec\\nCooldown: 30 sec",
+        "icons": ["/class-icons/link-skills/innate-gift.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Unaffected by cooldown resets, cooldown reduction, and buff duration increase",
+            "Useful for SURVIVABILITY"
+        ]
+    },
+    lynn: {
         "id": 80010006,
-        "icons": ["https://i.imgur.com/2G1kWET.png"],
+        "icons": ["/class-icons/link-skills/spirit-guide-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "Useful for ALL CLASSES with LOW OR LESS THAN 100% CRIT RATE and for BOSSING"
         ]
     },
+    moxuan: {
+        "id": 80010006,
+        "offline": true,
+        "name": "Qi Cultivation",
+        "shortDesc": "Boss Damage: +6%. If the target is a boss, up to 3% increase for every successful attack. Max Stacks: 6, stack activates once every 2 sec.\\nDuration: 5 sec",
+        "icons": ["/class-icons/link-skills/qi-cultivation.png"],
+        "maxLevel": 3,
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING"
+        ]
+    },
+    ren: {
+        "id": 80000609,
+        "offline": true,
+        "name": "Grounded Body",
+        "maxLevel": 3,
+        "shortDesc": "Reduces damage taken by 4%, including attacks at a certain ratio of maximum HP",
+        "icons": ["/class-icons/link-skills/grounded-body.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING because of REDUCED DAMAGE TAKEN from %MAX HP ATTACKS"
+        ]
+    },
     hoyoung: {
         "id": 80000609,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/7/7b/Skill_Bravado.png/revision/latest?cb=20191117083357"],
+        "offline": true,
+        "name": "Bravado",
+        "maxLevel": 3,
+        "shortDesc": "Enemy DEF Ignored: +15%, Damage +19% against enemies with 100% HP",
+        "icons": ["/class-icons/link-skills/bravado.png"],
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for INCREASING DAMAGE"
+        ]
+    },
+    lara: {
+        "id": 160010001,
+        "offline": true,
+        "name": "Nature's Friend",
+        "maxLevel": 3,
+        "shortDesc": "Damage: +7%\\nActivate nature's help upon defeating 20 normal monsters. Increases Damage Against Normal Monsters by 15% for 30 sec. when nature's help is active.\\nCooldown: 30 sec.",
+        "icons": ["/class-icons/link-skills/natures-friend.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -1084,7 +1205,11 @@ export const linkSkills = {
     },
     kinesis: {
         "id": 80000188,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/c/cc/Skill_Judgment_%28Kinesis%29.png/revision/latest?cb=20160610024748"],
+        "offline": true,
+        "name": "Judgment",
+        "maxLevel": 3,
+        "shortDesc": "Critical Damage: +6%",
+        "icons": ["/class-icons/link-skills/judgment.png"],
         "type": "Passive",
         "desc": "",
         "details": [
@@ -1093,14 +1218,31 @@ export const linkSkills = {
     },
     zero: {
         "id": 80000110,
-        "icons": ["https://vignette.wikia.nocookie.net/maplestory/images/6/60/Skill_Rhinne%27s_Blessing.png/revision/latest?cb=20140107015609"],
+        "offline": true,
+        "name": "Rhinne's Blessing",
+        "maxLevel": 6,
+        "shortDesc": "Incoming damage reduced: 18%, defense ignored: 12%",
+        "icons": ["/class-icons/link-skills/rhinnes-blessing.png"],
         "type": "Passive",
         "desc": "",
         "details": [
             "This skill is leveled up by completing the Zero storyline",
-            "Useful for BOSSING because IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE<ul><li>Also useful for TRAINING pre-200 because of increased SURVIVABILITY</li></ul>"
+            "Useful for BOSSING because IGNORE DEF is ESSENTIAL TO DEALING FULL DAMAGE<bp_Also useful for TRAINING pre-200 because of increased SURVIVABILITY_>"
         ]
-    }
+    },
+    siaAstelle: {
+        "id": 80010006,
+        "offline": true,
+        "name": "Tree of Stars",
+        "shortDesc": "Buff Duration: +10%, Critical Damage: +3%",
+        "icons": ["/class-icons/link-skills/tree-of-stars.png"],
+        "maxLevel": 3,
+        "type": "Passive",
+        "desc": "",
+        "details": [
+            "Useful for BOSSING because BUFF DURATION is USEFUL FOR EXTENDING ANGELIC BUSTER'S LINK SKILL and CRIT DAMAGE for INCREASED DAMAGE"
+        ]
+    },
 }
 
 export default HeaderImageUrl;

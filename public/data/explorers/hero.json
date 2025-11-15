@@ -147,11 +147,15 @@
             "knockback": "<tt src={/class-icons/explorers/hero/flash-blade.png} tip={Flash Blade (2nd Job)} dur={(4s cd)}> <tt src={/class-icons/explorers/hero/rush.png} tip={Rush (3rd Job)} dur={[]}> <tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}>"
         },
         "linkSkill": {
-                "id": 80002758,
-                "icons": ["/class-icons/link-skills/invincible-belief.png"],
-                "type": "Passive",
-                "desc": "",
-                "details": ["Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"]
+            "id": 80002758,
+            "offline": true,
+            "name": "Invincible Belief",
+            "maxLevel": 9,
+            "shortDesc": "Automatically activates when your health falls to 15% of your Max HP or below. Restores 44% of Max HP every 1 sec for 3 sec\\nCooldown: 90 sec.",
+            "icons": ["/class-icons/link-skills/invincible-belief.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"]
         },
         "howToCreate": {
             "image": ["/class-icons/explorers/how-to-create.png", [499,374]],
@@ -726,7 +730,7 @@
             "fifthMain": [
                 {
                     "name": "Burning Soul Blade",
-                    "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summons a Soul Blade near you. Use the skill key with down arrow key to have the blade remain stationary. Use the skill key again while the blade is stationary to return it to you.\\nPeriodically attacks enemies when you use offensive skills. Bonus Critical Rate: +50%\\nDuration: 20 sec., Max Enemies Hit: 8, Damage: 1490%, Number of Attacks: 6\\nDuration: 120 sec., Max Enemies Hit: 8, Damage: 400%, Number of Attacks: 2\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summons a Soul Blade near you. Use the skill key with down arrow key to have the blade remain stationary. Use the skill key again while the blade is stationary to return it to you.\\nPeriodically attacks enemies when you use offensive skills. Bonus Critical Rate: +50%\\nDuration: 20 sec., Max Enemies Hit: 8, Damage: 745%, Number of Attacks: 12\\nDuration: 120 sec., Max Enemies Hit: 8, Damage: 400%, Number of Attacks: 6\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
                     "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2I3bzl6NzhxcDBmajYxYmV4NWIwanZtM3IzcDA2YmxsdXh6ajBveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o3EcD3Raou45RPhkZF/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXhwMjU5NDZ4eXN2d293NW04djJlYmtvenRlYXRmY2tqaGs4bXoxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g6729xhe9lYtJcb0Az/giphy.gif"],
                     "type": "Summon",
@@ -997,7 +1001,7 @@
                 },
                 {
                     "name": "HEXA Cry Valhalla",
-                    "shortDesc": "MP Cost: 360, Knockdown Immunity Duration: 30 sec., combo fully charged\\nWhile the buff is active, Attack Power: +50, Critical Rate: +30%, Status Resistance: +100, Elemental Resistance: +100%\\n3 sword strikes periodically occur, dealing 1010% damage to up to 6 enemies 2 times. Sword strikes occur up to 12 times, with no more occuring afterwards.\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 360, Knockdown Immunity Duration: 30 sec., combo fully charged\\nWhile the buff is active, Attack Power: +50, Critical Rate: +30%, Status Resistance: +100, Elemental Resistance: +100%\\n3 sword strikes periodically occur, dealing 404% damage to up to 6 enemies 5 times. Sword strikes occur up to 12 times, with no more occuring afterwards.\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/explorers/hero/hexa-cry-valhalla.png", "/class-icons/explorers/hero/cry-valhalla.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

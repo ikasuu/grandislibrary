@@ -92,14 +92,18 @@
             "damageReduce": "<tt src={/class-icons/explorers/bishop/holy-magic-shell.png} tip={Holy Magic Shell (3rd Job)} dur={[15s/15 hits](-10% | 90s cd)}> <tt src={/class-icons/explorers/bishop/divine-punishment.png} tip={Divine Punishment (5th Job)} dur={[While casting](-50% | 1.5s cd, 11s recharge - up to 5 charges)}>"
         },
         "linkSkill": {
-                "id": 80002762,
-                "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
-                "type": "Passive",
-                "desc": "Successful attacks have a chance to debuff against the enemy with the highest Max HP",
-                "details": [
-                    "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacks up to 3 times)",
-                    "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level"
-                ]
+            "id": 80002762,
+            "offline": true,
+            "name": "Empirical Knowledge",
+            "maxLevel": 9,
+            "shortDesc": "When attacking, has a 31% chance to identify the weakness of the enemy with the highest Max HP among those struck, granting you the following bonuses against them:\\nDamage per Stack: +5%, Enemy DEF Ignored per Stack: +5%\\nEffect Duration: 10 sec, Stacks up to 3 times",
+            "icons": ["/class-icons/link-skills/empirical-knowledge.png"],
+            "type": "Passive",
+            "desc": "Successful attacks have a chance to debuff against the enemy with the highest Max HP",
+            "details": [
+                "[Debuff]: Increases %Damage and %Ignore DEF against this enemy (stacks up to 3 times)",
+                "Can be stacked up to 3 times, once for each unique Explorer Magician to reach Master Level"
+            ]
         },
         "howToCreate": {
             "image": ["/class-icons/explorers/how-to-create.png",[499,374]],

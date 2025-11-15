@@ -78,7 +78,7 @@
             {
                 "name": "Ignore DEF",
                 "stat": "+51%(58.84%)",
-                "detail": "<bg src={/class-icons/resistance/demon-avenger/defense-expertise.png} tip={Defense Expertise (4th Job)} val={+30%}> × <bg type={debuff} src={/class-icons/resistance/demon-avenger/nether-slice.png} tip={Nether Slice (4th Job)} val={+30%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
+                "detail": "<bg src={/class-icons/resistance/demon-avenger/overwhelming-power.png} tip={Overwhelming Power (4th Job)} val={+30%}> × <bg type={debuff} src={/class-icons/resistance/demon-avenger/nether-slice.png} tip={Nether Slice (4th Job)} val={+30%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}>"
             }
         ],
         "buffInfo": {
@@ -498,17 +498,21 @@
                 },
                 {
                     "name": "Overwhelming Power",
-                    "shortDesc": "Final Damage: +15%, Damage: +30%, Attack Speed: +1",
+                    "shortDesc": "Final Damage: +15%, Damage: +30%, Ignore Defense: +30%, Attack Speed: +1",
                     "maxLevel": 25,
                     "icons": ["/class-icons/resistance/demon-avenger/overwhelming-power.png"],
                     "type": "Passive"
                 },
                 {
                     "name": "Defense Expertise",
-                    "shortDesc": "Enemy DEF Ignored: 30%, Shield Charge and Nether Shield Damage: +20%.\\nShield Charge and Nether Shield ignore 2x DEF.",
+                    "shortDesc": "Shield Charge and Nether Shield Damage: +20%, Ignore Defense: +30%",
                     "maxLevel": 30,
-                    "icons": ["/class-icons/resistance/demon-avenger/defense-expertise.png"],
-                    "type": "Passive"
+                    "icons": ["/class-icons/resistance/demon-avenger/defense-expertise.png", "/class-icons/resistance/demon-avenger/shield-charge.png", "/class-icons/resistance/demon-avenger/nether-shield.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage and %Ignore DEF of attacks"
+                    ]
                 },
                 {
                     "name": "Advanced Desperado Mastery",

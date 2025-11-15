@@ -88,11 +88,15 @@
             "damageReduce": "<tt src={/class-icons/cygnus-knights/wind-archer/gale-barrier.png} tip={Gale Barrier (5th Job)} dur={[45s](Special Barrier | 90s cd)}> <tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"
         },        
         "linkSkill": {
-                "id": 80000055,
-                "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
-                "type": "Passive",
-                "desc": "",
-                "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level"]
+            "id": 80000055,
+            "offline": true,
+            "name": "Cygnus Blessing",
+            "maxLevel": 15,
+            "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
+            "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level"]
         },
         "howToCreate": {
             "image": ["/class-icons/cygnus-knights/how-to-create.png", [499,374]],

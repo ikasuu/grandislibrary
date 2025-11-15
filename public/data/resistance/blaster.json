@@ -87,6 +87,10 @@
         },        
         "linkSkill": {
             "id": 80000329,
+            "offline": true,
+            "name": "Spirit of Freedom",
+            "maxLevel": 12,
+            "shortDesc": "Grants 12 seconds of invincibility after being revived. Removed upon moving to another map.",
             "icons": ["/class-icons/link-skills/spirit-of-freedom.png"],
             "type": "Passive",
             "desc": "",
@@ -528,12 +532,12 @@
                 },
                 {
                     "name": "Revolving Blast",
-                    "shortDesc": "MP Cost: 200, Rushes and grabs enemies for 230% damage. Stuns. Hits 2 times. Activate Revolving Cannon to attack up to 10 more enemies up to 6 times. Each attack hits 4 time(s) for 200%, 220%, 240%, 260%, 280%, or 300% damage.\\nBonus Bunker Buster deals 350% damage 8 times and ignores additional 80% Defense Rate.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 200, Damage: 230%, Number of Attacks: 2\\nAttacked enemies are stunned for 3 sec. Using Revolving Cannon will extend the stun duration to 3 sec., and the stun can be maintained for up to 10 sec.\\nThe stun is removed after the final bunker blaster attack\\nUsing Revolving Cannon after the skill lands will attack up to 10 enemies 4 times with 200%, 220%, 240%, 260%, 280%, 300% damage each\\nFinal Buster Bunker Attack - Number of Attacks: 8, Damage: 350%, Ignore Defense: +80%\\nCooldown: 120 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/blaster/revolving-blast.png"],
                     "animations": ["https://media1.giphy.com/media/NgtimTpsJFj7ZV52EX/giphy.gif"],
                     "type": "Bind Attack",
-                    "desc": "Dash to the enemy with the highest Max HP and binds them",
+                    "desc": "Dash toward an enemy with the highest Max HP and binds them",
                     "details": [
                         "When used, fully reloads your Ammo",
                         "While enemy is binded, you are invincible but immobile",

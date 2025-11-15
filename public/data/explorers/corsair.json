@@ -87,15 +87,19 @@
             "damageReduce": "<tt src={/class-icons/explorers/corsair/bullet-barrage.png} tip={Bullet Barrage (5th Job)} dur={[Up to 3s](-50% | 60s cd)}>"
         },        
         "linkSkill": {
-                "id":80002774,
-                "icons": ["/class-icons/link-skills/pirate-blessing.png"],
-                "type": "Passive",
-                "desc": "",
-                "details": [
-                    "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
-                    "The stats are affected by %Stat bonuses",
-                    "[Note]: Link Skill has a togglable effect where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Double-click the Link Skill to turn this effect ON/OFF_The effect only applies to the original Link Skill, not the transferred version_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
-                ]
+            "id":80002774,
+            "offline": true,
+            "name": "Pirate's Blessing",
+            "maxLevel": 9,
+            "shortDesc": "STR: +100, DEX: +100, INT: +100, LUK: +100, Max HP: +1750, Max MP: +1750, Damage Taken: -21%",
+            "icons": ["/class-icons/link-skills/pirate-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+                "The stats are affected by %Stat bonuses",
+                "[Note]: Link Skill has a togglable effect where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Double-click the Link Skill to turn this effect ON/OFF_The effect only applies to the original Link Skill, not the transferred version_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
+            ]
         },
         "howToCreate": {
             "image": ["/class-icons/explorers/how-to-create.png",[499,374]],

@@ -88,11 +88,15 @@
             "damageReduce": "<tt src={/class-icons/explorers/bowmaster/silhouette-mirage.png} tip={Silhouette Mirage (5th Job)} dur={(-90% | 50s recharge (max 2), 7.5s cd on block)}>[<em text={Only blocks attacks that deal more than 50% Max HP}>]"
         },              
         "linkSkill": {
-                "id":80002766,
-                "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
-                "type": "Passive",
-                "desc": "",
-                "details": ["Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"]
+            "id":80002766,
+            "offline": true,
+            "name": "Adventurer's Curiosity",
+            "maxLevel": 9,
+            "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%",
+            "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"]
         },
         "howToCreate": {
             "image": ["/class-icons/explorers/how-to-create.png",[499,374]],

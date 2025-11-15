@@ -53,8 +53,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+22%",
-                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png} tip={Student of the Blade (4th Job)} val={+22%}>"
+                "stat": "+23%",
+                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png} tip={Student of the Blade (4th Job)} val={+23%}>"
             },
             {
                 "name": "Damage",
@@ -68,8 +68,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+48.31%(72.18%)",
-                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/soul-blessing-iii.png} tip={Soul Blessing III (4th Job)} val={+13%}> × <bg type={toggle} src={/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png} tip={Master of the Sword (4th Job)} val={+25%}> × <bg type={debuff} sub={opt} src={/class-icons/cygnus-knights/dawn-warrior/true-sight.png} tip={True Sight (3rd Job)} val={+5%} subSrc={/class-icons/cygnus-knights/dawn-warrior/true-sight-enhance.png} subTip={True Sight - Enhance (Hyper Skill)} subVal={extra +10%}}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+                "stat": "+52.25%(76.76%)",
+                "detail": "<bg src={/class-icons/cygnus-knights/dawn-warrior/soul-blessing-iii.png} tip={Soul Blessing III (4th Job)} val={+16%}> × <bg type={toggle} src={/class-icons/cygnus-knights/dawn-warrior/master-of-the-sword.png} tip={Master of the Sword (4th Job)} val={+25%}> × <bg type={debuff} sub={opt} src={/class-icons/cygnus-knights/dawn-warrior/true-sight.png} tip={True Sight (3rd Job)} val={+5%} subSrc={/class-icons/cygnus-knights/dawn-warrior/true-sight-enhance.png} subTip={True Sight - Enhance (Hyper Skill)} subVal={extra +10%}}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
             },
             {
                 "name": "Ignore DEF",
@@ -87,11 +87,15 @@
             "damageReduce": "<tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"
         },        
         "linkSkill": {
-                "id": 80000055,
-                "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
-                "type": "Passive",
-                "desc": "",
-                "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight to reach Master Level"]
+            "id": 80000055,
+            "offline": true,
+            "name": "Cygnus Blessing",
+            "maxLevel": 15,
+            "shortDesc": "Attack Power and Magic ATT: +35, Status Resistance: +22, Elemental Resistance: +22%",
+            "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+            "type": "Passive",
+            "desc": "",
+            "details": ["Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level"]
         },
         "howToCreate": {
             "image": ["/class-icons/cygnus-knights/how-to-create.png", [499,374]],
@@ -593,7 +597,7 @@
                 },
                 {
                     "name": "Soul Blessing III",
-                    "shortDesc": "Soul Element Cosmic Orb Creation Chance: 20%, Max Stacks: +1\\nWhen cosmic orb is created, Bonus Final Damage: +13%",
+                    "shortDesc": "Soul Element Cosmic Orb Creation Chance: 20%, Max Stacks: +1\\nWhen cosmic orb is created, Bonus Final Damage: +16%",
                     "maxLevel": 10,
                     "icons": ["/class-icons/cygnus-knights/dawn-warrior/soul-blessing-iii.png", "/class-icons/cygnus-knights/dawn-warrior/soul-element.png"],
                     "type": "Upgraded Passive",
@@ -614,7 +618,7 @@
                 },
                 {
                     "name": "Student of the Blade",
-                    "shortDesc": "One-Handed and Two-Handed Sword Mastery: +70%, Attack Power: +50, Critical Damage: +22%",
+                    "shortDesc": "One-Handed and Two-Handed Sword Mastery: +70%, Attack Power: +50, Critical Damage: +23%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/cygnus-knights/dawn-warrior/student-of-the-blade.png", "/class-icons/cygnus-knights/dawn-warrior/sword-mastery.png"],
                     "type": "Upgraded Passive",
