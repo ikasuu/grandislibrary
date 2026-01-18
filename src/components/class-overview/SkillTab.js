@@ -102,8 +102,8 @@ function SixthJobTab({sixth, settings}){
       <StyledHeaderThree>Mastery Core Skills</StyledHeaderThree>
         <HexaSkillContainer skillData={sixth.masteryCore} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
-        <StyledHeaderThree>Origin Skills</StyledHeaderThree>
-        <HexaSkillContainer skillData={sixth.originSkill} settings={settings}/>
+        <StyledHeaderThree>Class Specific Core Skills</StyledHeaderThree>
+        <HexaSkillContainer skillData={sixth.skillCore} settings={settings}/>
         <a href="#skill"><span className="jump-button-tabs"/></a>
         <StyledHeaderThree>Boost Core Skills</StyledHeaderThree>
         <HexaSkillContainer skillData={sixth.boostCore} settings={settings}/>
