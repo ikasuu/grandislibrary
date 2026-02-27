@@ -91,7 +91,7 @@
             "offline": true,
             "name": "Elementalism",
             "maxLevel": 3,
-            "shortDesc": "Damage: +15%",
+            "shortDesc": "Activate an attack skill 40 times to meet the conditions.\\n[Elementalism]: Damage: +20% Duration: 12 sec.",
             "icons": ["http://localhost:3000/grandislibrary/class-icons/link-skills/elementalism.png"],
             "type": "Passive"
         },
@@ -157,14 +157,14 @@
             [
                 "Beginner", [{
                     "name": "Blessing of the Five Elements",
-                    "shortDesc": "Permanently increases HP by 15%, Damage from enemies: - 20%\\nMP granted by equipment becomes HP instead\\n+1 Magic Attack for every 700 HP\\n[Magic Attack Increase: -]",
+                    "shortDesc": "Permanently increases Max HP by 15%, Max MP by 15%, and decreases Damage Taken by 30%.",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/blessing-of-the-five-elements.png"],
                     "type": "Passive"
                 },
                 {
                     "name": "Hand of Fate",
-                    "shortDesc": "Fan Weapon Mastery: +40%.",
+                    "shortDesc": "Spirit Walker Fan Mastery: +40%",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hand-of-fate.png"],
                     "type": "Passive"
@@ -179,7 +179,7 @@
                 },
                 {
                     "name": "Haku the Familiar",
-                    "shortDesc": "The mystical creature Haku follows you around everywhere. EVERYWHERE.\\Cooldown: 10 sec",
+                    "shortDesc": "The first use summons Haku as a fox. Subsequent uses transforms Haku into human form, then dismisses the summon.\\nCooldown: 3 sec.",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/haku-the-familiar.png"],
                     "type": "Toggle Active",
@@ -204,23 +204,28 @@
                 "1st Job", [
                     {
                         "name": "Soul-Shatter Talisman: Scores",
-                        "shortDesc": "[1st Hit]: Damage: 150%, Max Enemies Hit: 4, Attack Count: 2\\n[2nd Hit]: Damage: 150%, Max Enemies Hit: 4, Attack Count: 2\\n[3rd Hit]: Damage: 180%, Max Enemies Hit: 4, Attack Count: 2",
+                        "shortDesc": "MP Cost: 10\\nMax Enemies Hit: 4, Damage: 40%, Number of Attacks: 6",
                         "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
                         "animations": ["https://media.giphy.com/media/h7uVQnHqcMLLBPWxoE/giphy.gif"],
-                        "type": "Attack"
+                        "type": "Attack",
+                        "desc": "Cast forward damaging charms"
                     },
                     {
                         "name": "Commune",
-                        "shortDesc": "[1st Hit]: Damage: 150%, Max Enemies Hit: 4, Attack Count: 2\\n[2nd Hit]: Damage: 150%, Max Enemies Hit: 4, Attack Count: 2\\n[3rd Hit]: Damage: 180%, Max Enemies Hit: 4, Attack Count: 2",
-                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 20\\nEnters Commune mode.\\nCooldown: 180 sec.",
+                        "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/commune.png"],
-                        "type": "Active"
+                        "type": "Active",
+                        "desc": "When used, displays a short conversation with a chosen Shikigami",
+                        "details": [
+                            "Can only be used in town"
+                        ]
                     },
                     {
                         "name": "Leap Talisman",
-                        "shortDesc": "[Normal Teleport] Press a directional key and the skill key together to teleport a horizontal distance of 300 or a vertical distance of 400.\\n[Mana Vein Teleport] Press the skill key when a Mana Vein is discovered and you'll immediately jump to one of the discovered Mana Veins\\n[Random Teleport] Press the skill key in town to teleport to a random location. Mana Cost: 20",
-                        "maxLevel": 15,
+                        "shortDesc": "MP Cost: 20, Teleport horizontally a distance of 300, or vertically a distance of 400\\n[Passive Effects]: Speed: +22, Max Speed: +20",
+                        "maxLevel": 5,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/leap-talisman.png"],
                         "animations": ["https://media.giphy.com/media/U8TGpQWRyJ0sFiEqEF/giphy.gif"],
                         "type": "Active",
@@ -232,36 +237,36 @@
                     },
                     {
                         "name": "Summon Oni",
-                        "shortDesc": "Mana Cost: 30, Duration: 30 sec. Summons the Ghost Yaksha Shikigami.\\nWhile summoned, the Ghost Yaksha repeatedly attacks up to 6 enemies for 120% damage 4 times.\\nUse the skill again while the Ghost Yaksha is summoned to instantly dismiss it, pulling in nearby enemies to be hit for 350% damage.\\nCooldown: 3 sec",
-                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 40, Summon Duration: 55 sec.\\nCelestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 45%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down on the target location. Max Enemies Hit: 6, Damage: 100%, Number of Attacks: 6\\nCooldown:  60 sec.",
+                        "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png"],
                         "animations": ["https://media.giphy.com/media/VhLUmZC1MDeFMRWxhd/giphy.gif"],
                         "type": "Summon"
                     },
                     {
                         "name": "Crimson Covenant",
-                        "shortDesc": "Permanently increases INT by 40 and Defense by 400.",
+                        "shortDesc": "Blessing of Recovery: While Oni is summoned, restores 3% of your Max HP/MP every 3 seconds. Grants a 60% chance to recover 3% of your Max HP/MP when any Shikigami lands an attack on an enemy.",
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Clear Mind",
-                        "shortDesc": "Permanently increases INT by 40 and Defense by 400.",
-                        "maxLevel": 10,
+                        "shortDesc": "Knockback Resistance: +30%, Damage Taken: -70%",
+                        "maxLevel": 5,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/clear-mind.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Eternal Bonds",
-                        "shortDesc": "Permanently increases INT by 40 and Defense by 400.",
-                        "maxLevel": 10,
+                        "shortDesc": "Speed: +20, LUK: +30\\nMP Absorb Chance: 20%, Amount Absorbed: 5% of Max MP, Amount Absorbed: 3% of the boss's Max MP (including Shikigami attacks)",
+                        "maxLevel": 5,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/eternal-bonds.png"],
                         "type": "Passive"
                     },
                     {
                         "name": "Spiritual Enlightenment",
-                        "shortDesc": "Permanently increases INT by 40 and Defense by 400.",
+                        "shortDesc": "INT: +40, DEF: +400, Max MP: +20%, MP increases by 120 per level",
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/spiritual-enlightenment.png"],
                         "type": "Passive"
@@ -271,32 +276,35 @@
                 "2nd Job", [
                     {
                         "name": "Soul-Shatter Talisman: Icon",
-                        "shortDesc": "[1st Hit]: Damage: 170%, Max Enemies Hit: 6, Attack Count: 2\\n[2nd Hit]: Damage: 170%, Max Enemies Hit: 6, Attack Count: 2\\n[3rd Hit]: Damage: 210%, Max Enemies Hit: 6, Attack Count: 2\\n[Spirit Warding Charm]: Activation Chance: 40% (non-boss enemies only). Duration: 6 sec, Speed Reduced by 60%, Damage: 105% per sec",
+                        "shortDesc": "MP Cost: 20\\nMax Enemies Hit: 6, Damage: 75%, Number of Attacks: 6",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-icon.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-icon.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
                         "animations": ["https://media.giphy.com/media/h7uVQnHqcMLLBPWxoE/giphy.gif"],
                         "type": "Upgraded Passive",
-                        "desc": ""
+                        "desc": "",
+                        "details": [
+                            "Increases Max Enemies Hit and %Damage of attack"
+                        ]
                     },
                     {
                         "name": "Evil's End Talisman",
-                        "shortDesc": "Mana Cost: 50, Transformation Duration: 300 sec. Cooldown: 5 sec\\nHaku's Spirit Walker Skills\\n[Haku's Gift]: When Kanna's HP is below 90%, restores 50% of max HP. (Cooldown: 120 sec)\\n[Foxfire]: Summons a barrier made up of 3 wisps of foxfire for 30 sec. When Kanna is hit, the foxfire absorbs the damage instead, then attacks back by exploding for 800% damage. (Cooldown: 60 sec)\\n[Breath of the Unseen]: Kanna's final damage increased by 1% for each party member. (Always Applied)\\n[Haku's Blessing]: Increases the damage of party members by 10%.",
-                        "maxLevel": 10,
+                        "shortDesc": "MP Cost: 25\\nMax Enemies Hit: 7, Damage: 180%, Number of Attacks: 6\\nCooldown: 8 sec.",
+                        "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/evils-end-talisman.png"],
                         "animations": ["https://media.giphy.com/media/KHKnNHlFq7AdGouHuB/giphy.gif"],
-                        "type": "Summon"
+                        "type": "Attack"
                     },
                     {
                         "name": "[Order] Spinning Strike",
-                        "shortDesc": "MP Cost: 40. Summons a dark cloud. Max Enemies Hit: 15, Damage: 350%, Attack Count: 6, Duration: 3 sec. When enemies come in contact with the cloud, they receive 200% damage every 1 sec for 1 sec.\\nCooldown: 3 sec",
-                        "maxLevel": 15,
+                        "shortDesc": "MP Cost: 30\\nSpinning Strike: Take a step forward and, at the same time, spin a massive club 2 times in a row. Max Enemies Hit: 12, Damage: 170%, Number of Attacks: 8, Strike Activations: 3\\nCooldown: 12 sec.",
+                        "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-spinning-strike.png"],
                         "animations": ["https://media.giphy.com/media/VbtPJxm0lyMo2jtpMw/giphy.gif"],
                         "type": "Attack"
                     },
                     {
                         "name": "Peacock's Plumage",
-                        "shortDesc": "Increases the Attack Speed by 2 levels for 240 sec.",
+                        "shortDesc": "MP Cost: 20\\nDuration: 200 sec., Attack Speed: +2",
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/peacocks-plumage.png"],
                         "animations": ["https://media3.giphy.com/media/0z54DeqIKN9xvekXhp/giphy.gif"],
@@ -304,21 +312,23 @@
                     },
                     {
                         "name": "Crimson Covenant II",
-                        "shortDesc": "Mana Cost: 25, Max Enemies Hit: 8, Damage: 180%, Number of Attacks: 4. Creates a vortex to attack enemies and flings you back.",
-                        "maxLevel": 15,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant-ii.png"],
+                        "shortDesc": "Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 70%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 6, Damage: 130%, Number of Attacks: 6\\nCrimson Flame: While Oni is summoned, Normal Enemy Damage of All Shikigami: +60%",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant-ii.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png"],
                         "animations": ["https://media0.giphy.com/media/hp8qp41NYzlePqxUyk/giphy.gif"],
-                        "type": "Attack",
-                        "desc": "Leap upwards while damaging enemies"
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of [Celestial Strike] and [Leaping Strike]",
+                            "[Crimson Flame]: Now while Oni is summoned, increases %Damage to regular monsters for all Shikigami"
+                        ]
                     },
                     {
                         "name": "Ayanokouji Bloodline",
-                        "shortDesc": "Hits enemies within a 150-pixel range of the defeated enemy. Max Enemies Hit: 4, Damage: 120%",
-                        "maxLevel": 5,
+                        "shortDesc": "Permanently increases EXP by 10%",
+                        "maxLevel": 4,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/ayanokouji-bloodline.png"],
-                        "animations": ["https://media.giphy.com/media/SvuOh3LqtjiUoM165q/giphy.gif"],
-                        "type": "Passive",
-                        "desc": "Enemies defeated by you explode dealing damage to nearby enemies"
+                        "type": "Passive"
                     }]
                 ],
                 [
@@ -326,107 +336,114 @@
                     {
                         "name": "Soul-Shatter Talisman: Spirit",
                         "shortDesc": "[Max Barriers Simultaneously Deployable]: 3\\n[Mana Recovery Reduction Per Barrier]: 4",
-                        "maxLevel": 1,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-spirit.png"],
-                        "type": "Passive"
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-spirit.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases Max Enemies Hit and %Damage of attack"
+                        ]
                     },
                     {
                         "name": "Summon Tengu",
-                        "shortDesc": "Mana Cost: 20, Duration: 30 sec., Damage Reduction: 40%, HP Recovery: 10%, Status Resistance: +30\\nCooldown: 120 sec.",
-                        "maxLevel": 10,
+                        "shortDesc": "MP Cost: 50, Summon Duration: 25 sec.\\nKnown Skills\\nPiercing Shot: Fires an arrow in the direction of the target that penetrates enemies in its path. Max Enemies Hit: 10, Damage: 560%, Number of Attacks: 10\\nTraits\\nIntense Gaze: All of Tengu's attacks ignore 100% of the enemy's defense.\\nWhile Tengu is on the battlefield, all Shikigami attacks ignore an addtional 30% of the enemy's defense.\\nCooldown: 60 sec.",
+                        "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png"],
                         "animations": ["https://media.giphy.com/media/RMjuZHW4K1lw7VC1it/giphy.gif"],
-                        "type": "Buff Zone"
+                        "type": "Summon"
                     },
                     {
                         "name": "Shikigami Charm",
-                        "shortDesc": "[1st Hit]: Damage: 200%, Max Enemies Hit: 6, Attack Count: 4\\n[2nd Hit]: Damage: 200%, Max Enemies Hit: 6, Attack Count: 4\\n[3rd Hit]: Damage: 250%, Max Enemies Hit: 6, Attack Count: 4\\n[Spirit Warding Charm]: Activation Chance: 60% (non-boss enemies only). Duration: 6 sec, Speed Reduced by 75%, Damage: 160% per sec",
-                        "maxLevel": 20,
+                        "shortDesc": "MP Cost: 20, jump in mid-air to go farther.\\nCan use Leap Talisman once without a platform before landing",
+                        "maxLevel": 4,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/shikigami-charm.png"],
                         "animations": ["https://media.giphy.com/media/hvSOXX5indRSqhvnUW/giphy.gif"],
-                        "type": "Upgraded Passive"
+                        "type": "Active",
+                        "desc": "Up jump skill",
+                        "details": [
+                            "Pressing the Up Arrow Key and Jump Key together in the air will perform an Up Jump<bp_Teleport can be used without a platform once before landing_>"
+                        ]
                     },
                     {
                         "name": "Barrier: Curse Ward",
-                        "shortDesc": "Each successful attack by Kanna has a 100% chance to summon Shikigami Charms, depending on the number of mobs hit. Shikigami Charms fly to nearby enemies, dealing 195% damage and leaving a mark that adds 5% to damage received from Kanna's attacks for 5 sec.",
-                        "maxLevel": 15,
+                        "shortDesc": "MP Cost: 40\\nInvincibility: 3 sec.\\nCooldown: 60 sec.",
+                        "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/barrier-curse-ward.png"],
                         "animations": ["https://media.giphy.com/media/YMk53eng4hHBZ3JWZt/giphy.gif"],
-                        "type": "Passive"
+                        "type": "Buff"
                     },
                     {
                         "name": "[Order] Standby",
-                        "shortDesc": "Magic ATT: +30, Critical Rate: +40%, Critical Damage: +20%, Final Damage: +30%",
-                        "maxLevel": 10,
+                        "shortDesc": "MP Cost: 30\\nPlace all Shikigami on standby\\nCooldown: 1 sec.",
+                        "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-standby.png"],
-                        "type": "Passive"
+                        "type": "Toggle Active"
                     },
                     {
                         "name": "Crimson Covenant III",
-                        "shortDesc": "Restores 5% of Max HP for each enemy defeated. When attacking a boss enemy, restores 1% of Max HP every 4 sec.\\nPermanently increases Status Resistance by 30%.",
-                        "maxLevel": 5,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant-iii.png"],
-                        "type": "Passive"
-                    },
-                    {
-                        "name": "Obsidian Feather",
-                        "shortDesc": "Mana Cost: 20. Summons the twin Tengu.\\nThe Tengu will venture out as far as 600 to the left and right of Kanna, and attack up to 15 enemies for 400% damage 5 times.\\nCooldown: 1 sec",
+                        "shortDesc": "Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 130%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 6, Damage: 230%, Number of Attacks: 6\\nExplosive Soul: Charge the enemy with explosive power. Max Enemies Hit: 6, Damage: 230%, Number of Attacks: 6\\nBerserk: Grants 10 stacks when Oni is summoned. Oni gains +2% Final Damage per stack. 1 stack is removed every 5 seconds when on standby. Gain stacks when attacking the enemy. (Max Berserk Stacks: 10)",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/obsidian-feather.png"],
-                        "animations": ["https://media.giphy.com/media/XB4OvoJB7Zn5EwBDJp/giphy.gif"],
-                        "type": "Attack"
-                    },
-                    {
-                        "name": "Spirit Path",
-                        "shortDesc": "Mana Cost: 30, Duration: 30 sec. Summons the Ghost Yaksha Shikigami.\\nWhile summoned, the Ghost Yaksha repeatedly attacks up to 10 enemies for 200% damage 4 times.\\nUse the skill again while the Ghost Yaksha is summoned to instantly dismiss it, pulling in nearby enemies to be hit for 400% damage.\\nCooldown: 3 sec",
-                        "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/spirit-path.png"],
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant-iii.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png"],
                         "type": "Upgraded Passive"
                     },
                     {
+                        "name": "Obsidian Feather",
+                        "shortDesc": "Keen Hunter: While Tengu is summoned, all Shikigami Boss Damage increases by 30%.",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/obsidian-feather.png"],
+                        "type": "Passive"
+                    },
+                    {
+                        "name": "Spirit Path",
+                        "shortDesc": "Magic ATT: +30, Critical Rate: +40%, Critical Damage: +20%",
+                        "maxLevel": 20,
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/spirit-path.png"],
+                        "type": "Passive"
+                    },
+                    {
                         "name": "Unshakeable Faith",
-                        "shortDesc": "Uses 0% of Max HP to immediately recover 80 Mana.\\nCooldown: 15 sec",
-                        "maxLevel": 5,
+                        "shortDesc": "Status Resistance: +30, Knockback Resistance: +70%",
+                        "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/unshakeable-faith.png"],
-                        "type": "Active"
+                        "type": "Passive"
                     }]
                 ],
                 [
                 "4th Job", [
                 {
                     "name": "Soul-Shatter Talisman: Dance",
-                    "shortDesc": "MP Cost: 50, Transformation Duration: 500 sec. Cooldown: 5 sec\\nHaku's Spirit Walker Skills\\n[Haku's Gift]: When Kanna's HP is below 90%, restores 80% of max HP. (Cooldown: 120 sec)\\n[Foxfire]: Summons a barrier made up of 3 wisps of foxfire for 55 sec. When Kanna is hit, the foxfire reduces the damage by 40%, then attacks back by exploding for 1350% damage. (Cooldown: 60 sec)\\n[Breath of the Unseen]: Kanna's final damage increased by 1% for each party member. (Always Applied)\\n[Haku's Blessing]: Increases damage of your party members by 10%.",
-                    "maxLevel": 10,
+                    "shortDesc": "MP Cost: 30\\nMax Enemies Hit: 7, Damage: 120%, Number of Attacks: 6",
+                    "maxLevel": 30,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png"],
                     "type": "Upgraded Passive"
                 },
                 {
                     "name": "Barrier: Spirit Chains",
-                    "shortDesc": "Mana Cost: 20, Duration: 30 sec, Damage: +20%, Boss Damage: +5%\\nCooldown: 60 sec",
-                    "maxLevel": 20,
+                    "shortDesc": "MP Cost: 100\\nDamage: 140%, Max Enemies Hit: 1, Number of Attacks: 6. Stun Duration: 10 sec., Stun duration can increase up to 100% based on the damage inflicted by the skill.\\nAfterward\\nDuration: 10 sec., Damage: 140%, Max Enemies Hit: 8, Number of Attacks: 6\\nCooldown: 120 sec.",
+                    "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/barrier-spirit-chains.png"],
                     "animations": ["https://media.giphy.com/media/h79wpSH7g0RtrCysbz/giphy.gif"],
-                    "type": "Buff Zone"
+                    "type": "Bind Attack"
                 },
                 {
                     "name": "Heart-Wreck Talisman",
-                    "shortDesc": "[1st Hit]: Damage: 250%, Max Enemies Hit: 8, Attack Count: 4\\n[2nd Hit]: Damage: 300%, Max Enemies Hit: 8, Attack Count: 4\\n[3rd Hit]: Damage: 400%, Max Enemies Hit: 8, Attack Count: 4, Mana Restored: 20, amount needed to activate Shikigami Doppelganger additionally increased by 5.\\n[Spirit Warding Charm]: Activation Chance: 100% (non-boss enemies only). Duration: 6 sec, Speed Reduced by 90%, Damage: 240% per sec",
-                    "maxLevel": 20,
+                    "shortDesc": "MP Cost: 60\\nDuration: 3 sec., Damage: 240%, Max Enemies Hit: 12, Number of Attacks: 6 within area.\\nApplies a debuff to hit enemies that increases damage taken from Shikigami by 20% for 60 sec.\\nCooldown: 30 sec.",
+                    "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/heart-wreck-talisman.png"],
                     "animations": ["https://media.giphy.com/media/YnqIlsV6xoenJXShhM/giphy.gif"],
-                    "type": "Upgraded Passive"
-                },
-                {
-                    "name": "Summon Orochi",
-                    "shortDesc": "When activated, begins to accumulate Mana each time Kanna consumes Mana. Once charged with 260 Mana, this skill activates an attack that damages up to 8 enemies near Kanna, for 480% damage on each of 15 hits, 2 time(s).\\nCooldown: 5 sec.",
-                    "maxLevel": 20,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png"],
-                    "animations": ["https://media.giphy.com/media/JUkzyWUpB3ffic53qG/giphy.gif"],
                     "type": "Attack"
                 },
                 {
+                    "name": "Summon Orochi",
+                    "shortDesc": "MP Cost: 80, Summon Duration: 25 sec.\\nKnown Skills\\nDance of Poison: Max Enemies Hit:  6, Damage: 380%, Number of Attacks: 12. Applies Poison to hit enemies. Poison Damage: 75%, Damage Interval: 1 sec., Bonus Damage to Normal Enemies: +50% (additive)\\nShadow Cleave: Max Enemies Hit: 7, Damage: 440%, Number of Attacks: 8. Applies Poison to hit enemies.\\nTraits\\nDignity: While Orochi is summoned, decreases your damage taken from attacks by 30%, including damage baased on your Max HP ratio.\\nPoison Shift: While Orochi is summoned, poison enemies spread Poison to up to 3 other targets within range at a set interval.\\nCooldown: 120 sec.",
+                    "maxLevel": 30,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png"],
+                    "animations": ["https://media.giphy.com/media/JUkzyWUpB3ffic53qG/giphy.gif"],
+                    "type": "Summon"
+                },
+                {
                     "name": "Akatsuki Warrior",
-                    "shortDesc": "Princess Sakuno appears\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
+                    "shortDesc": "MP Cost: 70, creates a Sengoku Warrior emblem\\n[Passive Effect: All stats with a direct AP investment increase by 15%]",
                     "maxLevel": 30,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/akatsuki-warrior.png"],
                     "animations": ["https://media1.giphy.com/media/omrn6bGMjudf84b7j5/giphy.gif"],
@@ -438,7 +455,7 @@
                 },
                 {
                     "name": "Hero's Will",
-                    "shortDesc": "Mana Cost: 5, Cooldown: 360 sec",
+                    "shortDesc": "MP Cost: 30, Removes all abnormal status effects.\\nCooldown: 300 sec",
                     "maxLevel": 5,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/akatsuki-will.png"],
                     "animations": ["https://media2.giphy.com/media/pGq2DlUTJm2b1OMqdg/giphy.gif"],
@@ -447,60 +464,60 @@
                 },
                 {
                     "name": "Call of Unity",
-                    "shortDesc": "Mana Cost: 60, Max Enemies Hit: 15, Damage: 540%, Attack Count: 9, Duration: 150 sec, Damage Increase: 20%.\\nCooldown: 120 sec\\n[Passive Effect: When attacking while Nine-Tailed Fury is off cooldown, Haku attacks up to 6 enemies in front of him for 150% damage 3 times, at a 60% chance]",
+                    "shortDesc": "MP Cost: 60\\nCall of Unity Duration: 20 sec., Critical Rate: +5% per stack, Damage: +12% per stack.\\nCooldown: 60 sec.",
                     "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/call-of-unity.png"],
                     "animations": ["https://media.giphy.com/media/ln6LadUTweX5gVwBSA/giphy.gif"],
-                    "type": "Attack / Final Attack"
+                    "type": "Buff"
                 },
                 {
                     "name": "[Order] Execute",
-                    "shortDesc": "Mana Cost: 40, Duration: 30 sec. Summons the Ghost Yaksha Shikigami.\\nWhile summoned, the Ghost Yaksha repeatedly attacks up to 10 enemies for 240% damage 4 times.\\nUse the skill again while the Ghost Yaksha is summoned to instantly dismiss it, pulling in nearby enemies to be hit for 500% damage.\\nCooldown: 3 sec",
-                    "maxLevel": 20,
+                    "shortDesc": "MP Cost: 100\\nExecute: Move above the target's head and let chained scythes fall like a guillotine. Max Enemies Hit: 6, Damage: 550%, Number of Attacks: 12, Chase Cuts: 10\\nDamage to Targets with 10 Poison Stacks: +30%\\nCooldown: 30 sec.",
+                    "maxLevel": 30,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-execute.png"],
                     "animations": ["https://media.giphy.com/media/ihYsWg5J4CtvlwLfgs/giphy.gif"],
-                    "type": "Upgraded Passive"
+                    "type": "Attack"
                 },
                 {
                     "name": "[Order] Shade-Fletched Arrow",
-                    "shortDesc": "Attack Chance: 30%, Max Enemies Hit: 6, Damage: 160%, Attack Count: 1. Attacked Targets have a 30% chance to yield 30% additional EXP for 5 sec, and have an increased chance to drop equipment with potential. Also, when this effect is activated, the installed Kishin Shoukan's duration is increased by 5 sec.\\n[Passive Effect: Kishin Shoukan Damage: +200% points, Knockback Resistance: +70%]",
-                    "maxLevel": 10,
+                    "shortDesc": "MP Cost: 100\\nShade-Fletched Arrow: Aim at an enemy. While aiming, obsidian feathers gather at the arrowhead, and fly when the arrow is released. Max Enemies Hit: 12, Damage: 230%, Number of Attacks: 8, Activates 6 Black Shockwaves\\nFinal Damage To Target: +50%\\nCooldown: 30 sec.",
+                    "maxLevel": 30,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-shade-fletched-arrow.png"],
-                    "type": "Final Attack Passive"
+                    "type": "Attack"
                 },
                 {
                     "name": "Ivory Fang",
-                    "shortDesc": "Mana Cost: 50, Max Enemies hit: 15, Damage: 375%, Attack Count: 8. Hold the key down for up to approx. 4 sec to use 5 Mana per sec. Max Enemies Hit: 15, Damage: 500%, Attack Count: 8.\\nCooldown: 60 sec",
+                    "shortDesc": "Lofty View: While Orochi is summoned, Kanna enters the Lofty stance.\\nOverwhelming Force: While Orochi is summoned, the Final Damage of all Shikigami increases by 30%.",
                     "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/ivory-fang.png"],
-                    "type": "Key-down Attack"
+                    "type": "Passive"
                 },
                 {
                     "name": "Obsidian Feather II",
-                    "shortDesc": "Mana Cost: 25, Max Duration: 10 sec, Max Enemies Hit: 8, Damage: 330%, Number of Consecutive Attacks: 5\\nYou can move and jump while holding down the skill key.\\nCooldown: 50 sec",
-                    "maxLevel": 30,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/obsidian-feather-ii.png"],
-                    "type": "Key-down Attack"
+                    "shortDesc": "Piercing Shot: Fires an arrow in the direction of the target that pierces through enemies in its path. Max Enemies Hit: 10, Damage: 800%, Number of Attacks: 10\\nSteady Aim: Increases the cooldown of Tengu's skills by 5 sec., but also increases Order skill Final Damage by 100%.\\nRain of Darkness: When Tengu is summoned, she gains 1 stack of Rain of Darkness. Stacks can be consumed to immediately use Tengu's skills that are on cooldown.",
+                    "maxLevel": 20,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/obsidian-feather-ii.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png"],
+                    "type": "Upgraded Passive"
                 },
                 {
                     "name": "Crimson Covenant IV",
-                    "shortDesc": "Mana Cost: 60, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 5\\n100% of max HP recovered for yourself and nearby party members.\\nCooldown: 20 sec",
+                    "shortDesc": "Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 250%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 6, Damage: 380%, Number of Attacks: 6\\nExplosive Soul: Charge the enemy with explosive power. Max Enemies Hit: 6, Damage: 380%, Number of Attacks: 6\\nStrongarm: Decreases the cooldown of Oni's Order skills by 1 sec. each time she uses an Order skill.",
                     "maxLevel": 20,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant-iv.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant-iv.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png"],
                     "animations": ["https://media.giphy.com/media/lPG5I1KQz7Hh80hiVK/giphy.gif"],
-                    "type": "Attack / Heal"
+                    "type": "Upgraded Passive"
                 },
                 {
                     "name": "Shikigami Master",
-                    "shortDesc": "Mana Cost: 40, Max Enemies Hit: 15, Damage: 250%, Attack Count: 8, Stun Duration: 10 sec.\\nDepending on the amount of damage dealt to enemies with Binding Tempest, the Stun Duration can be increased to up to 100%\\nCooldown: 120 sec",
-                    "maxLevel": 20,
+                    "shortDesc": "When Oni activates a skill, Tengu has a chance to Resonate.\\nWhen Tengu activates a skill, Orochi has a chance to Resonate.\\nWhen Orochi activates a skill, Oni has a chance to Resonate.\\nResonance: Shikigami that Resonate will be able to use one of their Order skills, whether or not they are summoned. Order skills that are activated with the Resonance effect are treated as different skills than their default versions and don't have a cooldown.\\nEach Shikigami can have up to 2 stacks of Resonance.",
+                    "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/shikigami-master.png"],
-                    "type": "Bind Attack"
+                    "type": "Passive"
                 },
                 {
                     "name": "Kasen",
-                    "shortDesc": "Fan Mastery: 70%, Damage: +30%",
-                    "maxLevel": 30,
+                    "shortDesc": "Attack Speed: +1, Damage: +30%, Sprit Walker Fan Mastery: +70%",
+                    "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/kasen.png"],
                     "type": "Passive"
                 }]
@@ -510,7 +527,7 @@
             "hyperPassive": [
                 {
                     "name": "Pulverizing Strike - Reinforce",
-                    "shortDesc": "Number of Attacks: +2",
+                    "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/pulverizing-strike-reinforce.png"],
                     "type": "Passive",
@@ -518,39 +535,39 @@
                 },
                 {
                     "name": "Pulverizing Strike - Critical Chance",
-                    "shortDesc": "Max Enemies Hit: +2",
+                    "shortDesc": "Critical Rate: +10%",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/pulverizing-strike-critical-chance.png"],
+                    "type": "Passive",
+                    "reqLev": 140
+                },
+                {
+                    "name": "Pulverizing Strike - Guardbreak",
+                    "shortDesc": "Ignore Defense: +20%",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/pulverizing-strike-guardbreak.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
-                    "name": "Pulverizing Strike - Guardbreak",
+                    "name": "Shade-Fletched Arrow - Reinforce",
                     "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/pulverizing-strike-guardbreak.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/shade-fletched-arrow-reinforce.png"],
                     "type": "Passive",
-                    "reqLev": 180
+                    "reqLev": 150
                 },
                 {
-                    "name": "Shade-Fletched Arrow - Reinforce",
-                    "shortDesc": "Cooldown: -50%",
+                    "name": "Shade-Fletched Arrow - Critical Chance",
+                    "shortDesc": "Critical Rate: +10%",
                     "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/shade-fletched-arrow-reinforce.png"],
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/shade-fletched-arrow-critical-chance.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
-                    "name": "Shade-Fletched Arrow - Critical Chance",
-                    "shortDesc": "Boss Damage +20%",
-                    "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/shade-fletched-arrow-critical-chance.png"],
-                    "type": "Passive",
-                    "reqLev": 150
-                },
-                {
                     "name": "Shade-Fletched Arrow - Boss Rush",
-                    "shortDesc": "Cooldown: -40%",
+                    "shortDesc": "Boss Damage: +20%",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/shade-fletched-arrow-boss-rush.png"],
                     "type": "Passive",
@@ -558,54 +575,54 @@
                 },
                 {
                     "name": "Execute - Reinforce",
-                    "shortDesc": "Duration: +30 sec",
+                    "shortDesc": "Damage: +20%",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/execute-reinforce.png"],
                     "type": "Passive",
-                    "reqLev": 190
+                    "reqLev": 180
                 },
                 {
                     "name": "Execute - Critical Chance",
-                    "shortDesc": "Maximum number of Mana Veins that can be concurrently active increased by 1.",
+                    "shortDesc": "Critical Rate: +10%",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/execute-critical-chance.png"],
                     "type": "Passive",
-                    "reqLev": 140
+                    "reqLev": 180
                 },
                 {
                     "name": "Execute - Guardbreak",
-                    "shortDesc": "Duration: +5 sec",
+                    "shortDesc": "Ignore Defense: +20%",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/execute-guardbreak.png"],
                     "type": "Passive",
-                    "reqLev": 180
+                    "reqLev": 190
                 }
             ],
             "hyperActive": [
                 {
-                    "name": "[Order] Pulverizing Strike",
-                    "shortDesc": "When the skill is activated, deals 500% damage to up to 15 nearby enemies at set intervals 1 times.\\nNegates attack ignore and attack reflection effects.",
-                    "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-pulverizing-strike.png"],
-                    "animations": ["https://media4.giphy.com/media/GSdY1XkjV5TUVljXYr/giphy.gif"],
-                    "type": "Toggle Buff",
-                    "reqLev": 140
-                },
-                {
-                    "name": "Akatsuki Blessing",
-                    "shortDesc": "Mana Cost: 50, Max Enemies Hit: 15, Damage: 670%, Attack Count: 15, Stun Duration: 15 sec.\\nDepending on the amount of damage dealt to enemies with Veritable Pandemonium, Stun Duration increased to up to 100%\\nCooldown: 120 sec",
-                    "maxLevel": 1,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/akatsuki-blessing.png"],
-                    "animations": ["https://media.giphy.com/media/dCQImTctSZhxqP2Ksp/giphy.gif"],
-                    "type": "Bind Attack",
-                    "reqLev": 160
-                },
-                {
                     "name": "True Name Revelation",
-                    "shortDesc": "Mana Cost: 50, Duration: 60 sec, Damage: +10%.\\nOnly applies to Sengoku Warrior classes within the party.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 150, Duration of All Shikigami Trait Enhancements: 30 sec.\\nRakuya, Crimson Queen\\nWhile Rakuya is summoned, her traits are enhanced.\\nBlessing of Recovery: 100% chance to restore your HP/MP each time a Shikigami attack lands.\\nCrimson Flame: +20% Normal Enemy Damage\\nBerserk: +1% Final Damage per Berserk Stack\\nStrongarm: Additional 0.5 sec. Cooldown Reduction\\nHaneka, Storm Princess\\nWhile Haneka is summoned, her traits are enhanced.\\nIntense Gaze: +10% Ignore Defense for other Shikigami.\\nKeen Hunter: +10% Boss Damage for other Shikigami.\\nSteady Aim: +10% Final Damage Effect\\nBack Rain: +1 Black Rain Stack Immediately\\nYuina, Empress of Calamity\\nWhile Yuina is summoned, her traits are enhanced.\\nDignity: +5% Damage Taken Reduction\\nPoison Shift: -1 sec. Poison Shift Interval\\nLofty View: Also defends against debilitating status conditions.\\nOverwhelming Force: +5% Final Damage to all Shikigami\\nCooldown: 120 sec.",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/true-name-revelation.png"],
                     "animations": ["https://media3.giphy.com/media/nMmmfnEu0n2GqUg4OX/giphy.gif"],
+                    "type": "Buff",
+                    "reqLev": 140
+                },
+                {
+                    "name": "[Order] Pulverizing Strike",
+                    "shortDesc": "MP Cost: 300\\nPulverizing Strike: Lift the club high over the head and swing downwards with force. Max Enemies Hit: 14, Damage: 500%, Number of Attacks: 10, Strike Activations: 10\\nCooldown: 30 sec.",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-pulverizing-strike.png"],
+                    "animations": ["https://media4.giphy.com/media/GSdY1XkjV5TUVljXYr/giphy.gif"],
+                    "type": "Attack",
+                    "reqLev": 160
+                },
+                {
+                    "name": "Akatsuki Blessing",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: 10%\\nApplies to any Sengoku Warrior class in the party.\\nCooldown: 120 sec",
+                    "maxLevel": 1,
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/akatsuki-blessing.png"],
+                    "animations": ["https://media.giphy.com/media/dCQImTctSZhxqP2Ksp/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
                 }
@@ -616,31 +633,31 @@
             "fifthMain": [
                 {
                     "name": "[Spirit] Hakumenkonmou Juubi",
-                    "shortDesc": "Mana Cost: 40, Yuki-onna Duration: 50 sec. Yuki-musume assists Kanna, dealing 600% damage to 8 enemies 6-8 times. When Yuki-musume is summoned, Kanna's mana consumption is reduced by 50% and 2% HP is recovered on every attack.\\nCooldown: 55 sec",
+                    "shortDesc": "MP Cost: 1000, Haku Awakening Duration: 15 sec., Max Enemies Hit: 12, Damage: 710%, Number of Attacks: 12, Light Shockwave Max Enemies Hit: 8, Damage: 700%, Number of Attacks: 10, Finishing Blow Max Enemies Hit: 14, Damage: 830%, Number of Attacks: 14, Light Shockwaves: 32\\nCooldown: 120 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/spirit-hakumenkonmou-juubi.png"],
                     "animations": ["https://media.giphy.com/media/hXOAuek9qRCuTYifzb/giphy.gif"],
                     "type": "Summon"
                 },
                 {
                     "name": "[Spirit] Unleash the Radiant Flame",
-                    "shortDesc": "Mana Cost: 40, Spiritstone Duration: 40 sec, the Cursed Spiritstone grows more powerful with every 80 mana absorbed from the caster, and activates additional effects per stage when boosting Cursed Spiritstone (can be boosted up to 2 times)\\n[Basic Effect] Deals 540% damage to up to 15 enemies within range 9 times every 3 sec. Periodically restores 4% of Max HP/MP, Final Damage +5%, Status Resistance +26\\n[Boost Stage 1 Additional Effect] Boosts Basic Effect by 2x, party members within range gain 1 Attack Speed, caster's Boss Damage +50%, and the mana cost of the caster's skills is reduced by 50%\\n[Boost Stage 2 Additional Effect] Boosts Basic Effect by 3x, party members within range gain 2 Attack Speed, caster's Boss Damage +100%, and the mana cost of the caster's skill is reduced by 100%\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000\\nDuration: 30 sec., Oni Final Damage: +30%, Oni Order Skill Cooldown: -20%\\nCooldown: 120 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/spirit-unleash-the-radiant-flame.png"],
                     "animations": ["https://media.giphy.com/media/L32uWI8kIF7PnlNops/giphy.gif"],
-                    "type": "Summon / Buff Zone"
+                    "type": "Buff"
                 },
                 {
                     "name": "[Spirit] Unleash Black-Winged Destruction",
-                    "shortDesc": "Mana Cost: 100, invincible during casting and disarmament\\nDuration: 40 sec. Open a portal to the underworld, calling forth the Great Lord himself.\\nIf a 4th or below Ghost Yaksha is dismissed, sacrifice will be accumulated acccording to the amount of time the ghost was summoned. If the accumulated sacrifice reaches 30 sec+, the Great Lord can be summoned.\\nThe Great Lord repeatedly attacks up to 15 enemies, for 900% damage, 5 time(s).\\nUpon re-using the skill, the portal will immediately close, and the Great Lord will perform his final attack, which attacks up to 15 enemies, for 1360% damage, 15 time(s)\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000\\nBlack-Winged Destruction: Unfurl wings and aim at an enemy. While aiming, obsidian feathers gather at the arrowhead, and fly when the arrow is released. Max Enemies Hit: 12, Damage: 810%, Number of Attacks: 12, Black Shockwaves: 22\\nFinal Damage to Target: +50%\\nCooldown: 120 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/spirit-unleash-black-winged-destruction.png"],
                     "animations": ["https://media0.giphy.com/media/6ZzPa22hqvXZvq4V7c/giphy.gif"],
-                    "type": "Summon"
+                    "type": "Attack"
                 },
                 {
                     "name": "[Spirit] Unleash Soul-Searing Venom",
-                    "shortDesc": "Mana Cost: 5, periodically summons a giant magic circle, Max Enemies Hit: 15, Damage: 295%, Number of Attacks: 15.\\nThe magic circle will disappear either when it moves a certain distance or reaches the top of the map, and souls that deal 350% damage 15 times to 3 enemies will appear in up to 7 locations.\\nThe giant magic circle summons souls in up to 11 locations.\\nCooldown: 25 sec",
+                    "shortDesc": "MP Cost: 1000\\nSoul-Searing Venom: From the shadows, with scythes in each hand, Orochi leaps upon the enemy like a snake upon its prey. Max Enemies Hit: 8, Damage: 920%, Number of Attacks: 14, Slices Activated: 36\\nApplies 10 Poison stacks to the target.\\nCooldown: 120 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/spirit-unleash-soul-searing-venom.png"],
                     "animations": ["https://media.giphy.com/media/dWNuA1NZokU9HkQOVN/giphy.gif"],
-                    "type": "Passive Attack"
+                    "type": "Attack"
                 }
             ],
             "fifthBoost": [
@@ -826,7 +843,7 @@
                 },
                 {
                     "name": "HEXA Soul-Shatter Talisman: Dance",
-                    "shortDesc": "[1st Hit]: Max Enemies Hit: 8, Damage: 520%, Number of Attacks: 4\\n[2nd Hit]: Max Enemies Hit: 8, Damage: 550%, Number of Attacks: 4\\n[3rd Hit]: Max Enemies Hit: 8, Damage: 580%, Number of Attacks: 4\\nRestored: 5, amount needed to activate Shikigami Doppelganger additionally increased by 20.\\n[Spirit Warding Charm]: Activation Chance: 100% (non-boss enemies only). Duration: 6 sec, Speed: -90%, Damage: 400% per sec",
+                    "shortDesc": "MP Cost: 50\\nMax Enemies Hit: 8, Damage: 400%, Number of Attacks: 6",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-soul-shatter-talisman-dance.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -836,7 +853,7 @@
                 },
                 {
                     "name": "HEXA Heart-Wreck Talisman",
-                    "shortDesc": "[1st Hit]: Max Enemies Hit: 8, Damage: 520%, Number of Attacks: 4\\n[2nd Hit]: Max Enemies Hit: 8, Damage: 550%, Number of Attacks: 4\\n[3rd Hit]: Max Enemies Hit: 8, Damage: 580%, Number of Attacks: 4\\nRestored: 5, amount needed to activate Shikigami Doppelganger additionally increased by 20.\\n[Spirit Warding Charm]: Activation Chance: 100% (non-boss enemies only). Duration: 6 sec, Speed: -90%, Damage: 400% per sec",
+                    "shortDesc": "MP Cost: 110\\nDuration: 3 sec., Damage: 460%, Number of Attacks: 6 within area.\\nApplies a debuff to hit enemies that increases damage taken from Shikigami by 30% for 60 sec.\\nCooldown: 30 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-heart-wreck-talisman.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/heart-wreck-talisman.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -857,7 +874,7 @@
                 },
                 {
                     "name": "HEXA Summon Oni",
-                    "shortDesc": "Mana Cost: 40, Max Duration: 10 sec, Max Enemies Hit: 8, Damage: 608%, Number of Consecutive Attacks: 5\\nYou can move and jump while the skill key is held.\\nAttacking with this skill has a 50% chance of creating additional Yosuzume.\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 60, Summon Duration: 55 sec.\\nKnown Skills\\nHEXA Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 8, Damage: 380%, Number of Attacks: 6\\nHEXA Leaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 8, Damage: 900%, Number of Attacks: 6\\nHEXA Explosive Soul: Charge the enemy with explosive power. Max Enemies Hit: 8, Damage: 900%, Number of Attacks: 6\\nTraits\\nBlessing of Recovery: While Oni is summoned, restores 3% of your Max HP/MP every 3 seconds. Grants 60% chance to recover 3% of your Max HP/MP when any Shikigami lands an attack on an enemy.\\nCrimson Flame: While Oni is summoned, Normal Enemy Damage of All Shikigami: +60%\\nBerserk: Gain 10 stacks when Oni is summoned to the battlefield. Oni gains +2% Final Damage per stack, and 1 stack is removed every 5 seconds when on standby. Gain stacks when attacking the enemy. (Stacks up to 10 times.)\\nStrongarm: Decreases cooldown of all of Oni's Order skills by 1 sec. each time Oni uses an Order skill.\\nCooldown: 60 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-summon-oni.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -867,7 +884,7 @@
                 },
                 {
                     "name": "HEXA [Order] Spinning Strike",
-                    "shortDesc": "Mana Cost: 40, Max Duration: 10 sec, Max Enemies Hit: 8, Damage: 608%, Number of Consecutive Attacks: 5\\nYou can move and jump while the skill key is held.\\nAttacking with this skill has a 50% chance of creating additional Yosuzume.\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 60\\nHEXA Spinning Strike: Take a step forward and, at the same time, spin a massive club 2 times in a row. Max Enemies Hit: 12, Damage: 550%,  Number of Attacks: 8, Strike Activations: 6\\nCooldown: 12 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-order-spinning-strike.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-spinning-strike.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -877,7 +894,7 @@
                 },
                 {
                     "name": "HEXA [Order] Pulverizing Strike",
-                    "shortDesc": "Mana Cost: 40, Max Duration: 10 sec, Max Enemies Hit: 8, Damage: 608%, Number of Consecutive Attacks: 5\\nYou can move and jump while the skill key is held.\\nAttacking with this skill has a 50% chance of creating additional Yosuzume.\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 300\\nHEXA Pulverizing Strike: Lift the club high over the head and swing downwards with force. Max Enemies Hit: 14, Damage: 850%, Number of Attacks: 12, Strike Activations: 12\\nCooldown: 30 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-order-pulverizing-strike.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-pulverizing-strike.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -898,7 +915,7 @@
                 },
                 {
                     "name": "HEXA Summon Tengu",
-                    "shortDesc": "Once the skill is learned, it accumulates a portion of the Mana that Kanna consumes. Once charged with 120 Mana, the skill activates an explosion that damages up to 12 enemies near Kanna, for 560% damage on each of 8 hits, 6 times.\\nCooldown: 5 sec.",
+                    "shortDesc": "MP Cost: 80, Summon Duration: 25 sec.\\nKnown Skills\\nHEXA Piercing Shot: Fires an arrow in the direction that penetrates enemies in its path. Max Enemies Hit: 12, Damage: 1270%, Number of Attacks: 12\\nTraits\\nIntense Gaze: All of Tengu's attacks ignore 100% of the enemy's defense. While Tengu is on the battlefield, all Shikigami attacks ignore an additional 30% of the enemy's defense.\\nKeen Hunter: While Tengu is on the battle field, all Shikigami Boss Damage increases by 30%\\nSteady Aim: Increases the cooldown of all Tengu's skills by 5 sec. but increases Order skill Final Damage by 100%\\nRain of Darkness: When Tengu is summoned, she gains 1 stack of Rain of Darkness. Stack can be consumed to immediately use Tengu's Order skills that are on cooldown.\\nCooldown: 60 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-summon-tengu.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -908,7 +925,7 @@
                 },
                 {
                     "name": "HEXA [Order] Shade-Fletched Arrow",
-                    "shortDesc": "Each successful attack by Kanna summons Shikigami Charms, depending on the number of mobs hit. Shikigami Charms fly to nearby enemies, dealing 480% damage and leaving a mark that adds 5% to damage received from Kanna's attacks for 5 sec.",
+                    "shortDesc": "MP Cost: 110\\nHEXA Shade-Fletched Arrow: Aim at an enemy. While aiming, obsidian feathers gather at the arrowhead, and fly when the arrow is released. Max Enemies Hit: 12, Damage: 370%, Number of Attacks: 8, Activates 6 Black Shockwaves\\nFinal Damage to Target: +50%\\nCooldown: 30 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-order-shade-fletched-arrow.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-shade-fletched-arrow.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -929,7 +946,7 @@
                 },
                 {
                     "name": "HEXA Summon Orochi",
-                    "shortDesc": "Mana Cost: 20, Duration: 6 sec. Summons the demons Hana and Yuki. While summoned, the two demons ricochet an orb of energy between them to attack enemies caught in the crossfire. Max Enemies Hit: 10, Damage: 700%, Number of Attacks: 4.\\nCooldown: 30 sec.",
+                    "shortDesc": "MP Cost: 90, Summon Duration: 25 sec.\\nKnown Skills\\nHEXA Dance of Poison: Swing poison-coated chained scythes. Max Enemies Hit: 7, Damage: 700%, Number of Attacks: 12. Applies HEXA Poison stacks to hit enemies. HEXA Poison: Damage: 120%, Damage Interval: 1 sec., Bonus Damage to Normal Enemies: +50% (additive)\\nHEXA Shadow Cleave: Slip through shadows to appear behind an enemy, and cut them down with chained scythes. Max Enemies Hit: 8, Damage: 950%, Number of Attacks: 8. Applies Poison stacks to hit enemies.\\nTraits\\nDignity: While Orochi is summoned, dec your damage taken from attacks including damage based on your Max HP ratio, by 30%.\\nPoison Shift: While Orochi is summoned, enemies with Poison spread Poison to up to 3 other targets within range at a set interval.\\nLofty View: While Orochi is summoned, Kanna enters the Lofty stance.\\nOverwhelming Force: While Orochi is summoned, the Final Damage of all Shikigami is increased by 30%.\\nCooldown: 120 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-summon-orochi.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -939,7 +956,7 @@
                 },
                 {
                     "name": "HEXA [Order] Execute",
-                    "shortDesc": "Mana Cost: 20. Summons the twin Tengu.\\nThe Tengu will venture out as far as 600 to the left and right of Kanna, and attack up to 15 enemies for 780% damage 5 times.\\nCooldown: 1 sec",
+                    "shortDesc": "MP Cost: 110\\nHEXA Execute: Move above the target's head and let chained scythes fall like a guillotine. Max Enemies Hit: 7, Damage: 740%, Number of Attacks: 14, Chase Cuts: 12\\nFinal Damage to Targets with 10 Poison Stacks: +30%\\nCooldown: 30 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/hexa-order-execute.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-execute.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -951,7 +968,7 @@
             "skillCore": [
                 {
                     "name": "[Divine Will] Advent of Crimson",
-                    "shortDesc": "Mana Cost: 40, invincible during casting\\nHaku transforms into a legendary form, dealing 25 shockwaves that deal 720% damage to up to 15 enemies 12 times. After, grants Kanna the Hakumenkonmou Blessing buff, lasting up to 10 seconds.\\nWhen Kanna consumes mana, Haku releases 5 shockwaves, dealing 500% damage to up 15 enemies 5 times. Kanna's mana accumulation from skills increases by 50%.\\n(Final Blow): Activates 12 Chase Cuts that deal (1070 + cumulative mana)% damage to up to 15 enemies within range 15 times, invincible during casting\\n(Increases the power of final blow by using up to 500 mana.)\\nCooldown: 360 sec.",
+                    "shortDesc": "MP Cost: 1000, invincible during casting\\nQueen Rakuya is summoned to the mortal realm. Max Enemies Hit: 15, Damage: 870%, Number of Attacks: 15, Red Flame Strikes: 48\\nAfterwards, Max Enemies Hit: 15, Damage: 870%, Number of Attacks: 15, Number of Strikes: 67\\nCooldown: 360 sec.",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/divine-will-advent-of-crimson.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzlrbm80dmNmNDUyYmFrMHQyemRpZHZ6MTVncnpqZ3pteWN3N25pcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oiG0nY1cB2uj6AXA99/giphy-downsized-large.gif"],
                     "type": "Origin Skill",
@@ -959,7 +976,7 @@
                 },
                 {
                     "name": "[Divine Will] Final Rest",
-                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nRains hail upon the enemy 12 times, dealing 8470% damage to up to 15 enemies 14 times\\nAfter a delay, a massive hail squall falls on enemies 12 times, dealing 7700% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nViper Strike - Max Enemies Hit: 15, Damage: 6440%, Number of Attacks: 12, Strikes Activated: 12, Finishing Blow Max Enemies Hit: 15, Damage: 8085%, Number of Attacks: 15, Finishing Blows: 24\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/divine-will-final-rest.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGZnOGcwMDUxZ2J4ZW9uYWJkZnVqanJ2Zm43aWdiZnJ0ZGVkcDQ0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Agddx9OJ92ymBc1vnM/giphy.gif"],
                     "type": "Ascent Skill",
