@@ -147,7 +147,7 @@
             ["Hyper Passive Build + Inner Ability + Boost Nodes Build", "Class Doc"]
         ],
         "extraContent": {
-            "title": "Mana and Haku the Fox Familiar",
+            "title": "Shikigami",
             "content": [
                 ]
         }
@@ -171,7 +171,7 @@
                 },
                 {
                     "name": "Return of the Five Planets",
-                    "shortDesc": "Returns you to Momijigaoka.\\nCooldown 600 sec",
+                    "shortDesc": "Returns you to Momijigaoka\\nCooldown 600 sec",
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/return-of-the-five-planets.png"],
                     "animations": ["https://media2.giphy.com/media/Z2sA7N6SQ7rCGkz4uQ/giphy.gif"],
@@ -183,7 +183,10 @@
                     "maxLevel": 1,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/haku-the-familiar.png"],
                     "type": "Toggle Active",
-                    "desc": "Allows you to hide/show Haku visual effect"
+                    "desc": "Allows you to hide/show Haku visual effect",
+                    "details": [
+                        "Using the skill will cycle between fox form, human form, and dismissing Haku"
+                    ]
                 },
                 {
                     "name": "Hero's Echo",
@@ -241,14 +244,21 @@
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png"],
                         "animations": ["https://media.giphy.com/media/VhLUmZC1MDeFMRWxhd/giphy.gif"],
-                        "type": "Summon"
+                        "type": "Summon",
+                        "desc": "Summon Oni to attack nearby enemies using a club",
+                        "details": [
+                            "Oni will periodically use the following attacks:<bp_[Celestial Strike]: Oni swings forward_[Leaping Strike]: Oni leaps to nearby enemies and strikes downwards_>",
+                            "Unaffected by Damage Reflect, cooldown resets, and %Summon Duration",
+                            "Right-clicking the skill will toggle ON/OFF the Resonance visual effect"
+                        ]
                     },
                     {
                         "name": "Crimson Covenant",
                         "shortDesc": "Blessing of Recovery: While Oni is summoned, restores 3% of your Max HP/MP every 3 seconds. Grants a 60% chance to recover 3% of your Max HP/MP when any Shikigami lands an attack on an enemy.",
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant.png"],
-                        "type": "Passive"
+                        "type": "Passive",
+                        "desc": "While <tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni is summoned, periodically restore %Max HP/MP and successful attacks from any Shikigami will restore %Max HP/MP"
                     },
                     {
                         "name": "Clear Mind",
@@ -262,7 +272,11 @@
                         "shortDesc": "Speed: +20, LUK: +30\\nMP Absorb Chance: 20%, Amount Absorbed: 5% of Max MP, Amount Absorbed: 3% of the boss's Max MP (including Shikigami attacks)",
                         "maxLevel": 5,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/eternal-bonds.png"],
-                        "type": "Passive"
+                        "type": "Passive",
+                        "desc": "Successful attacks have a chance to steal a portion of the enemy's %Max HP",
+                        "details": [
+                            "Effectiveness is reduced for bosses"
+                        ]
                     },
                     {
                         "name": "Spiritual Enlightenment",
@@ -292,7 +306,8 @@
                         "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/evils-end-talisman.png"],
                         "animations": ["https://media.giphy.com/media/KHKnNHlFq7AdGouHuB/giphy.gif"],
-                        "type": "Attack"
+                        "type": "Attack",
+                        "desc": "Release a circle of talisman around yourself"
                     },
                     {
                         "name": "[Order] Spinning Strike",
@@ -300,7 +315,11 @@
                         "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-spinning-strike.png"],
                         "animations": ["https://media.giphy.com/media/VbtPJxm0lyMo2jtpMw/giphy.gif"],
-                        "type": "Attack"
+                        "type": "Attack",
+                        "desc": "While summoned, command <tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni to swing forward",
+                        "details": [
+                            "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you"
+                        ]
                     },
                     {
                         "name": "Peacock's Plumage",
@@ -335,7 +354,7 @@
                 "3rd Job", [
                     {
                         "name": "Soul-Shatter Talisman: Spirit",
-                        "shortDesc": "[Max Barriers Simultaneously Deployable]: 3\\n[Mana Recovery Reduction Per Barrier]: 4",
+                        "shortDesc": "MP Cost: 30\\nMax Enemies Hit: 7, Damage: 120%, Number of Attacks: 6",
                         "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-spirit.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
                         "type": "Upgraded Passive",
@@ -350,7 +369,14 @@
                         "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png"],
                         "animations": ["https://media.giphy.com/media/RMjuZHW4K1lw7VC1it/giphy.gif"],
-                        "type": "Summon"
+                        "type": "Summon",
+                        "desc": "Summon Tengu to attack nearby enemies using a bow",
+                        "details": [
+                            "Tengu will periodically use the following attack:<bp_[Piercing Shot]: Fire an arrow at a target that damages all enemies in its path_>",
+                            "While summoned, Tengu grants the following effects:<bp_[Intense Gaze]: Tengu's attacks have 100% Ignore DEF and all Shikigami attacks gain increased %Ignore DEF_>",
+                            "Unaffected by Damage Reflect, cooldown resets, and %Summon Duration",
+                            "Right-clicking the skill will toggle ON/OFF the Resonance visual effect"
+                        ]
                     },
                     {
                         "name": "Shikigami Charm",
@@ -370,28 +396,43 @@
                         "maxLevel": 10,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/barrier-curse-ward.png"],
                         "animations": ["https://media.giphy.com/media/YMk53eng4hHBZ3JWZt/giphy.gif"],
-                        "type": "Buff"
+                        "type": "Buff",
+                        "desc": "When used, briefly become invincible"
                     },
                     {
                         "name": "[Order] Standby",
                         "shortDesc": "MP Cost: 30\\nPlace all Shikigami on standby\\nCooldown: 1 sec.",
                         "maxLevel": 1,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-standby.png"],
-                        "type": "Toggle Active"
+                        "type": "Toggle Buff",
+                        "desc": "While toggled, all Shikigami enter Standby mode and will not attack",
+                        "details": [
+                            "Using an [Order] or [Spirit] Skill will turn off Standby mode",
+                            "Right-clicking the skill will toggle ON/OFF the visual effect"
+                        ]
                     },
                     {
                         "name": "Crimson Covenant III",
                         "shortDesc": "Celestial Strike: Swing a massive club to attack. Max Enemies Hit: 6, Damage: 130%, Number of Attacks: 6\\nLeaping Strike: Leap into the air and slam down at the target location. Max Enemies Hit: 6, Damage: 230%, Number of Attacks: 6\\nExplosive Soul: Charge the enemy with explosive power. Max Enemies Hit: 6, Damage: 230%, Number of Attacks: 6\\nBerserk: Grants 10 stacks when Oni is summoned. Oni gains +2% Final Damage per stack. 1 stack is removed every 5 seconds when on standby. Gain stacks when attacking the enemy. (Max Berserk Stacks: 10)",
                         "maxLevel": 20,
                         "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant-iii.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png"],
-                        "type": "Upgraded Passive"
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Increases %Damage of [Celestial Strike] and [Leaping Strike]",
+                            "Oni now gains the following skills:<bp_[Explosive Soul]: Oni periodically dash towards and attack nearby enemies_[Berserk]: Oni gains a stacking %Final Damage buff (up to 10) that slowly decreases while in Standby mode and increases on successful Oni attacks_Upon summoning, Oni gains full stacks of [Berserk]_>"
+                        ]
                     },
                     {
                         "name": "Obsidian Feather",
                         "shortDesc": "Keen Hunter: While Tengu is summoned, all Shikigami Boss Damage increases by 30%.",
                         "maxLevel": 20,
-                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/obsidian-feather.png"],
-                        "type": "Passive"
+                        "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/obsidian-feather.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png"],
+                        "type": "Upgraded Passive",
+                        "desc": "",
+                        "details": [
+                            "Tengu now gains the following skill:<bp_[Keen Hunter]: While summoned, increases %Boss Damage of all Shikigami_>"
+                        ]
                     },
                     {
                         "name": "Spirit Path",
@@ -412,10 +453,14 @@
                 "4th Job", [
                 {
                     "name": "Soul-Shatter Talisman: Dance",
-                    "shortDesc": "MP Cost: 30\\nMax Enemies Hit: 7, Damage: 120%, Number of Attacks: 6",
+                    "shortDesc": "MP Cost: 40\\nMax Enemies Hit: 8, Damage: 200%, Number of Attacks: 6",
                     "maxLevel": 30,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png"],
-                    "type": "Upgraded Passive"
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-dance.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/soul-shatter-talisman-scores.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases Max Enemies Hit and %Damage of attack"
+                    ]
                 },
                 {
                     "name": "Barrier: Spirit Chains",
@@ -423,7 +468,12 @@
                     "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/barrier-spirit-chains.png"],
                     "animations": ["https://media.giphy.com/media/h79wpSH7g0RtrCysbz/giphy.gif"],
-                    "type": "Bind Attack"
+                    "type": "Bind Summon",
+                    "desc": "Cast a bind on a single enemy and place down a talisman that damages enemies within",
+                    "details": [
+                        "Skill only activates when a target is nearby and targets the enemy with the highest Max HP",
+                        "Unaffected by cooldown resets"
+                    ]
                 },
                 {
                     "name": "Heart-Wreck Talisman",
@@ -431,7 +481,11 @@
                     "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/heart-wreck-talisman.png"],
                     "animations": ["https://media.giphy.com/media/YnqIlsV6xoenJXShhM/giphy.gif"],
-                    "type": "Attack"
+                    "type": "Attack",
+                    "desc": "Cast forward an expanding talisman that damages and debuffs enemies within it",
+                    "details": [
+                        "[Debuff]: Enemy takes increased %Damage from Shikigami"
+                    ]
                 },
                 {
                     "name": "Summon Orochi",
@@ -439,7 +493,14 @@
                     "maxLevel": 30,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png"],
                     "animations": ["https://media.giphy.com/media/JUkzyWUpB3ffic53qG/giphy.gif"],
-                    "type": "Summon"
+                    "type": "Summon",
+                    "desc": "Summon Orochi to attack nearby enemies using chained scythes that apply a stacking damaging [Poison] debuff (up to 10)",
+                    "details": [
+                        "Orochi will periodically use the following attack:<bp_[Dance of Poison]: Orochi strikes forward in a large area_[Shadow Cleave]: Orochi cleaves forward_>",
+                        "While summoned, Orochi grants the following effects:<bp_[Dignity]: Reduces damage taken including %Max HP attacks_[Poison Shift]: Enemies inflicted with [Poison] periodically spread the debuff to nearby enemies_>",
+                        "Unaffected by Damage Reflect, cooldown resets, and %Summon Duration",
+                        "Right-clicking the skill will toggle ON/OFF the Resonance visual effect"
+                    ]
                 },
                 {
                     "name": "Akatsuki Warrior",
@@ -468,7 +529,8 @@
                     "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/call-of-unity.png"],
                     "animations": ["https://media.giphy.com/media/ln6LadUTweX5gVwBSA/giphy.gif"],
-                    "type": "Buff"
+                    "type": "Buff",
+                    "desc": "While active, grants a stacking %Crit Rate and %Crit Damage buff for each summoned Shikigami (up to 3)"
                 },
                 {
                     "name": "[Order] Execute",
@@ -476,28 +538,47 @@
                     "maxLevel": 30,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-execute.png"],
                     "animations": ["https://media.giphy.com/media/ihYsWg5J4CtvlwLfgs/giphy.gif"],
-                    "type": "Attack"
+                    "type": "Attack",
+                    "desc": "While summoned, command <tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi to move toward a target and strike downwards",
+                    "details": [
+                        "Deals increased %Damage if the target has 10 stacks of [Poison]",
+                        "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you"
+                    ]
                 },
                 {
                     "name": "[Order] Shade-Fletched Arrow",
                     "shortDesc": "MP Cost: 100\\nShade-Fletched Arrow: Aim at an enemy. While aiming, obsidian feathers gather at the arrowhead, and fly when the arrow is released. Max Enemies Hit: 12, Damage: 230%, Number of Attacks: 8, Activates 6 Black Shockwaves\\nFinal Damage To Target: +50%\\nCooldown: 30 sec.",
                     "maxLevel": 30,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-shade-fletched-arrow.png"],
-                    "type": "Attack"
+                    "type": "Attack",
+                    "desc": "While summoned, command <tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu to aim and fire an arrow towards a targetted enemy that damages enemies in its path",
+                    "details": [
+                        "Deals increased %Final Damage towards targetted enemy",
+                        "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you"
+                    ]
                 },
                 {
                     "name": "Ivory Fang",
                     "shortDesc": "Lofty View: While Orochi is summoned, Kanna enters the Lofty stance.\\nOverwhelming Force: While Orochi is summoned, the Final Damage of all Shikigami increases by 30%.",
                     "maxLevel": 10,
-                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/ivory-fang.png"],
-                    "type": "Passive"
+                    "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/ivory-fang.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png"],
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Orochi now gains the following skill:<bp_[Lofty View]: While summoned, enter [Lofty] stance where you will not be knocked back at all (Super Knockback Resistance)_[Overwhelming Force]: While summoned, increases %Final Damage of all Shikigami_>"
+                    ]
                 },
                 {
                     "name": "Obsidian Feather II",
                     "shortDesc": "Piercing Shot: Fires an arrow in the direction of the target that pierces through enemies in its path. Max Enemies Hit: 10, Damage: 800%, Number of Attacks: 10\\nSteady Aim: Increases the cooldown of Tengu's skills by 5 sec., but also increases Order skill Final Damage by 100%.\\nRain of Darkness: When Tengu is summoned, she gains 1 stack of Rain of Darkness. Stacks can be consumed to immediately use Tengu's skills that are on cooldown.",
                     "maxLevel": 20,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/obsidian-feather-ii.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png"],
-                    "type": "Upgraded Passive"
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of [Piercing Shot]",
+                        "Tengu now gains the following skill:<bp_[Steady Aim]:  Increases the cooldown of Tengu's skills but also increases %Final Damage of Tengu [Order] Skills_[Rain of Darkness]: Upon summon, grants a stack of [Rain of Darkness] that can be consumed to use a Tengu [Order] skill that is on cooldown_>"
+                    ]
                 },
                 {
                     "name": "Crimson Covenant IV",
@@ -505,14 +586,24 @@
                     "maxLevel": 20,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/crimson-covenant-iv.png", "http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png"],
                     "animations": ["https://media.giphy.com/media/lPG5I1KQz7Hh80hiVK/giphy.gif"],
-                    "type": "Upgraded Passive"
+                    "type": "Upgraded Passive",
+                    "desc": "",
+                    "details": [
+                        "Increases %Damage of [Celestial Strike], [Leaping Strike], and [Explosive Soul]",
+                        "Oni now gains the following skill:<bp_[Strongarm]: Upon using an Oni [Order] Skill, decreases the cooldown of Oni [Order] Skills_>"
+                    ]
                 },
                 {
                     "name": "Shikigami Master",
                     "shortDesc": "When Oni activates a skill, Tengu has a chance to Resonate.\\nWhen Tengu activates a skill, Orochi has a chance to Resonate.\\nWhen Orochi activates a skill, Oni has a chance to Resonate.\\nResonance: Shikigami that Resonate will be able to use one of their Order skills, whether or not they are summoned. Order skills that are activated with the Resonance effect are treated as different skills than their default versions and don't have a cooldown.\\nEach Shikigami can have up to 2 stacks of Resonance.",
                     "maxLevel": 10,
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/shikigami-master.png"],
-                    "type": "Passive"
+                    "type": "Passive",
+                    "desc": "When a Shikigami activates a skill, there is a chance to grant [Resonance] to another Shikigami",
+                    "details": [
+                        "[Resonance]: Allows an [Order] Skill to be used regardless if Shikigami is summoned<bp_Using a Resonated [Order] Skill will not trigger a cooldown_Each Shikigami can have up to 2 stacks of [Resonance]_>",
+                        "The following Shikigami grant [Resonance] for the following Shikigami<bp_<tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni grants to <tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu_<tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> Tengu grants to <tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi_<tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> Orochi grants to <tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni_>"
+                    ]
                 },
                 {
                     "name": "Kasen",
@@ -606,7 +697,13 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/true-name-revelation.png"],
                     "animations": ["https://media3.giphy.com/media/nMmmfnEu0n2GqUg4OX/giphy.gif"],
                     "type": "Buff",
-                    "reqLev": 140
+                    "reqLev": 140,
+                    "desc": "While active, enhances the Traits of each Shikigami",
+                    "details": [
+                        "<tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> [Oni - Rakuya]:<bp_[Blessing of Recovery]: Guaranteed chance to restore %Max HP/MP on successful Shikigami attack_[Crimson Flame]: Increase %Damage to regular monsters provided_[Berserk]: Increases %Final Damage provided per stack_[Strongarm]: Increases cooldown reduction provided_>",
+                        "<tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-tengu.png} tip={Summon Tengu (3rd Job)}> [Haneka - Tengu]:<bp_[Intense Gaze]: Increases %Ignore DEF provided for other Shikigami_[Keen Hunter]: Increases %Boss Damage provided for other Shikigami_[Steady Aim]: Increases amount of %Final Damage provided_[Rain of Darkness]: Grants additional stack_>",
+                        "<tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-orochi.png} tip={Summon Orochi (4th Job)}> [Yuina - Orochi]:<bp_[Dignity]: Increases damage reduction provided_[Poison Shift]: Reduces the interval when [Poison] is spread_[Lofty View]: Now also blocks debilitating status conditions_[Overwhelming Force]: Increases %Final Damage provided to all Shikigami_>"
+                    ]
                 },
                 {
                     "name": "[Order] Pulverizing Strike",
@@ -615,7 +712,11 @@
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/order-pulverizing-strike.png"],
                     "animations": ["https://media4.giphy.com/media/GSdY1XkjV5TUVljXYr/giphy.gif"],
                     "type": "Attack",
-                    "reqLev": 160
+                    "reqLev": 160,
+                    "desc": "While summoned, command <tt src={http://localhost:3000/grandislibrary/class-icons/sengoku/kanna/summon-oni.png} tip={Summon Oni (1st Job)}> Oni to slam forward and damage a large area",
+                    "details": [
+                        "Pressing the Down Arrow Key and Skill Key together performs the attack in front of you"
+                    ]
                 },
                 {
                     "name": "Akatsuki Blessing",
