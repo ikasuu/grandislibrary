@@ -425,28 +425,19 @@ export const commonFifth = {
             "You are briefly invincible after reviving"
         ]
     },
-    sengokuForce:{
-        "name": "Sengoku Force, Assemble!",
-        "shortDesc": "MP Cost: 1000, Consumes HP for jobs that do not utilize MP. Summons two Sengoku warriors. Summon Duration: 45 sec, Cooldown: 120 sec.\\n[Uesugi Kenshin] Damage: 550%, Max Enemies Hit: 8, Number of Attacks: 4\\n[Tsuchimikado Haruaki] Damage: 455%, Max Enemies Hit: 8, Number of Attacks: 5\\n[Ayame] Damage: 610%, Max Enemies Hit: 8, Number of Attacks: 4, Critical Damage +10%\\n[Takeda Shingen] Damage: 305%, Max Enemies Hit: 8, Number of Hits: 8, Attack Power +20, Magic ATT +20",
-        "icons": ["/class-icons/5th-job/sengoku-force-assemble.png"],
+    twilightBloom:{
+        "name": "Twilight Bloom",
+        "shortDesc": "MP Cost: 1000\\nDuration: 40 sec., Attack Power & Magic ATT: +50, Critical Damage: +15%, Damage Reduction (including attacks that deal a fixed percentage of damage): 20%\\nCooldown: 120 sec.",
+        "icons": ["/class-icons/5th-job/twilight-bloom.png"],
         "animations": ["https://media2.giphy.com/media/hdOUEr0bUns5nRa0pR/giphy.gif"],
-        "type": "Summon / Buff",
-        "desc": "Grants a buff and summons two random heroes that attack nearby enemies",
-        "details": [
-            "[Buff]: Increases %Crit Damage and grants flat Attack and Magic Attack",
-            "[Uesugi Kenshin]: Slashes her blade at nearby enemies",
-            "[Tsuchimikado Haruaki]: Swings his fan creating a wave of magic",
-            "[Ayame]: Shoots her rifle forward",
-            "[Takeda Shingen]: Flags strike down on nearby enemies"
-        ]
+        "type": "Buff"
     },
     princessSakunoBlessing:{
         "name": "Princess Sakuno's Blessing",
-        "shortDesc": "HP Cost: 1000, Duration: 45 sec, Final Damage Increase: 30%\\nPeriodical Bonus Final Damage Increase: 4%\\nPrincess Sakuno's Blessing will increase final damage by up to 50%\\nWhile the skill is active, 1 debilitating abnormal status attack will be ignored.\\nCooldown: 120 sec",
+        "shortDesc": "MP Cost: 1000\\nDuration: 20 sec., Final Damage: +25%, Blockable Debilitating Status Conditions: 1\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/princess-sakunos-blessing.png"],
         "animations": ["https://media1.giphy.com/media/5trU6eJgfy60uoDzH2/giphy.gif"],
-        "type": "Buff",
-        "desc": "Grants a stacking %Final Damage buff (additive) and blocks 1 Critical Abnormal Status"
+        "type": "Buff"
     },
     conversionOverdrive:{
         "name": "Conversion Overdrive",
