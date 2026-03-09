@@ -67,8 +67,8 @@ export const weapons = {
     handCannon: [`https://maplestory.io/api/GMS/${version}/item/1532010/icon`, "Hand Cannon"],
     whipBlade: [`https://maplestory.io/api/GMS/${version}/item/1242010/icon`, "Whip Blade"],
     desperado: [`https://maplestory.io/api/GMS/${version}/item/1232007/icon`, "Desperado"],
-    katana: [`https://maplestory.io/api/GMS/${version}/item/1542040/icon`, "Katana"],
-    fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552015/icon`, "Fan"],
+    katana: [`http://localhost:3000/grandislibrary/images/equipment/tempered-steel-sword.png`, "Katana"],
+    fanKanna: [`http://localhost:3000/grandislibrary/images/equipment/metallic-fan.png`, "Fan"],
     memorialStaff: [`https://maplestory.io/api/GMS/${version}/item/1252000/icon`, "Memorial Staff"],
     psyLimiter: [`https://maplestory.io/api/GMS/${version}/item/1262011/icon`, "Psy-limiter"],
     armCannon: [`https://maplestory.io/api/GMS/${version}/item/1582025/icon`, "Arm Cannon"],
@@ -124,7 +124,7 @@ export const secondaryWeapons = {
     dragonEssence: [`https://maplestory.io/api/GMS/${version}/item/1352503/icon`, "Dragon Essence"],
     warpForge: [`https://maplestory.io/api/GMS/${version}/item/1353303/icon`, "Warp Forge"],
     soulRing: [`https://maplestory.io/api/GMS/${version}/item/1352604/icon`, "Soul Ring"],
-    fanKanna: [`https://maplestory.io/api/GMS/${version}/item/1552009/icon`, "Haku Fan"],
+    talisman: [`http://localhost:3000/grandislibrary/images/equipment/thousand-soul-talisman.png`, "Talisman"],
     kodachi: [`https://maplestory.io/api/GMS/${version}/item/1352803/icon`, "Kodachi"],
     leaf: [`https://maplestory.io/api/GMS/${version}/item/1352812/icon`, "Leaf"],
     chessPiece: [`https://maplestory.io/api/GMS/${version}/item/1353203/icon`, "Chess Piece"],
@@ -384,7 +384,7 @@ export const commonFifth = {
     grandisGoddessBlessingLEN:{
         "name": "Grandis Goddess's Blessing",
         "shortDesc": "HP Cost: 800, Duration: 40 sec\\nNova: Skills have a 55% chance to not have cooldown, up to 5 times\\nDamage: +35%\\nKaiser receives additional 11% damage increase for each Morph Gauge Stage.\\nFlora: Excluding your weapon, 100% of your equipment's Attack Power/Magic ATT, whichever you do not use, is converted to the one you use. This does not apply to set effects. Converted bonus cannot exceed 150% of your weapon's base Attack Power/Magic ATT, whichever one you use.\\nAttack Power and Magic ATT: +100\\nAnima: Damage: +40%\\nHoyoung: Talisman and Scroll Energy Charge: +75%, Lara: Increases Final Damage Increase to 11% upon activating Dragon Vein Echo. Ren: Final Plum Blossom Swords, Final Amugi Spirit Swords, Rising Azure Dragon Final Damage: +15%\\nCooldown: 120 sec.",
-        "icons": ["http://localhost:3000/grandislibrary/class-icons/5th-job/grandis-goddess-blessing.png"],
+        "icons": ["/class-icons/5th-job/grandis-goddess-blessing.png"],
         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFlNWU5OTU4M2EyNWViNzEzN2I0OWFjMTJmNjAxMWNkYTBiZWYyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/sBIGtjLKfdwZOLYAie/giphy.gif"],
         "type": "Buff",
         "desc": "While active, increases %Damage and grants increased %Final Damage to skills labelled with \"Final Plum Blossom Swords\", \"Final Amugi Spirit Swords\", and \"Rising Azure Dragon\""
@@ -429,14 +429,14 @@ export const commonFifth = {
         "name": "Twilight Bloom",
         "shortDesc": "MP Cost: 1000\\nDuration: 40 sec., Attack Power & Magic ATT: +50, Critical Damage: +15%, Damage Reduction (including attacks that deal a fixed percentage of damage): 20%\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/twilight-bloom.png"],
-        "animations": ["https://media2.giphy.com/media/hdOUEr0bUns5nRa0pR/giphy.gif"],
+        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2d0ZTQ0b3R4dmlwbml0eDRwNHRibnV5MG5yN3J4c2V5czIyd3V6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U4mA0Vlk2bw6msG5up/giphy.gif"],
         "type": "Buff"
     },
     princessSakunoBlessing:{
         "name": "Princess Sakuno's Blessing",
         "shortDesc": "MP Cost: 1000\\nDuration: 20 sec., Final Damage: +25%, Blockable Debilitating Status Conditions: 1\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/princess-sakunos-blessing.png"],
-        "animations": ["https://media1.giphy.com/media/5trU6eJgfy60uoDzH2/giphy.gif"],
+        "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2RwcHpoa3dyYm01ajBmdGhudGlydTV6MWZkaGZxcWg0MDcxancxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VoP4AHlOdWURZjSsiG/giphy.gif"],
         "type": "Buff"
     },
     conversionOverdrive:{
