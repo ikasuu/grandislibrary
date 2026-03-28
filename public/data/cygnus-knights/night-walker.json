@@ -15,11 +15,12 @@
         "innerAbility": [
             {
                 "name": "For Bossing",
-                "abilities": ["Boss Damage +20%", "Damage to Abnormal Status +8%", "Buff Duration +38% / Attack +21"]
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Buff Duration +38% / Attack +21"]
             },
             {
                 "name": "For Training",
-                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
             }
         ],
         "attackStats": [
@@ -60,7 +61,7 @@
             {
                 "name": "Damage",
                 "stat": "+30%(160%)",
-                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/throwing-mastery.png} tip={Throwing Mastery (2nd Job)} val={+30%}> <bg type={temp} src={/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={up to +120%}>"
+                "detail": "<bg src={/class-icons/cygnus-knights/night-walker/throwing-mastery.png} tip={Throwing Mastery (2nd Job)} val={+30%}> <bg type={temp} src={/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
             },
             {
                 "name": "Boss Damage",
@@ -81,7 +82,7 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/cygnus-knights/night-walker/dark-servant.png} tip={Dark Servant (3rd Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/cygnus-knights/night-walker/dark-elemental.png} tip={Dark Elemental (1st Job)}> [ <tt src={/class-icons/cygnus-knights/night-walker/shadow-bat.png} tip={Shadow Bat (1st Job)}> / <tt src={/class-icons/cygnus-knights/night-walker/ravenous-bat.png} tip={Ravenous Bat (4th Job)}> ] <tt src={/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tip={Darkness Ascending (3rd Job)}>",
-            "summons": "<tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)} dur={[7s/60s](60s/0s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)} dur={[45s](60s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[22.5s / 70 Attacks](30s cd)}>",
+            "summons": "<tt src={/class-icons/cygnus-knights/night-walker/dark-omen.png} tip={Dark Omen (4th Job)} dur={[7s/60s](60s/0s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/greater-dark-servant.png} tip={Greater Dark Servant (5th Job)} dur={[45s](60s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[15s / 140 Attacks](60s cd)}>",
             "buffCd": "<tt src={/class-icons/cygnus-knights/night-walker/shadow-illusion.png} tip={Shadow Illusion (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/shadow-spear.png} tip={Shadow Spear (5th Job)} dur={[58s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/cygnus-knights/night-walker/shadow-stitch.png} tip={Shadow Stitch (4th Job)} dur={[10-12s](120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/silence.png} tip={Silence (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/cygnus-knights/night-walker/dark-sight.png} tip={Dark Sight (1st Job)} dur={[200s](Special)}> <tt src={/class-icons/cygnus-knights/night-walker/darkness-ascending.png} tip={Darkness Ascending (3rd Job)} dur={[4s](1800s cd revive)}> <tt src={/class-icons/cygnus-knights/night-walker/dark-evasion.png} tip={Dark Evasion (4th Job)} dur={[3s](75s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/dominion.png} tip={Dominion (Hyper Skill)} dur={(120s cd)}> <tt src={/class-icons/cygnus-knights/night-walker/silence.png} tip={Silence (6th Job)} dur={(360s cd)}>",

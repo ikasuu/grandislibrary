@@ -14,11 +14,12 @@
         "innerAbility": [
             {
                 "name": "For Bossing",
-                "abilities": ["Boss Damage +20%", "Buff Duration +38%", "Damage to Abnormal Status +8%"]
+                "abilities": ["Boss Damage +20%", "Buff Duration +38%", "Damage to monsters inflicted with Abnormal Status +8%"]
             },
             {
                 "name": "For Training",
-                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
             }
         ],
         "attackStats": [
@@ -59,7 +60,7 @@
             {
                 "name": "Damage",
                 "stat": "(+160%)",
-                "detail": "<bg type={temp} src={/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={up to +120%}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +36%}>"
+                "detail": "<bg type={temp} src={/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
             },
             {
                 "name": "Boss Damage",
@@ -80,8 +81,8 @@
         "buffInfo": {
             "active": "None",
             "toggles": "<tt src={/class-icons/cygnus-knights/dawn-warrior/soul-element.png} tip={Soul Element (1st Job)}> [ <tt src={/class-icons/cygnus-knights/dawn-warrior/rising-sun.png} tip={Rising Sun (1st Job)}> / <tt src={/class-icons/cygnus-knights/dawn-warrior/falling-moon.png} tip={Falling Moon (1st Job)}> / <tt src={/class-icons/cygnus-knights/dawn-warrior/equinox-cycle.png} tip={Equinox Cycle (2nd Job)}> ]",
-            "summons": "<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tip={Cosmic Shower (3rd Job)} dur={[45-75s]}> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmos.png} tip={Cosmos (5th Job)} dur={[15s](60s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png} tip={Soul Eclipse (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[22.5s / 70 Attacks](30s cd)}>",
-            "buffCd": "<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-forge.png} tip={Cosmic Forge (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tip={Rift of Damnation (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "summons": "<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-shower.png} tip={Cosmic Shower (3rd Job)} dur={[45-75s]}> <tt src={/class-icons/cygnus-knights/dawn-warrior/cosmos.png} tip={Cosmos (5th Job)} dur={[15s](60s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png} tip={Soul Eclipse (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/phalanx-charge.png} tip={Phalanx Charge (5th Job)} dur={[15s / 140 Attacks](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/cygnus-knights/dawn-warrior/cosmic-forge.png} tip={Cosmic Forge (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/glory-of-the-guardians.png} tip={Glory of the Guardians (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/rift-of-damnation.png} tip={Rift of Damnation (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/empress-cygnuss-blessing.png} tip={Empress Cygnus's Blessing (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/cygnus-knights/dawn-warrior/impaling-rays.png} tip={Impaling Rays (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/astral-blitz.png} tip={Astral Blitz (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "[ <tt src={/class-icons/cygnus-knights/dawn-warrior/blazing-assault.png} tip={Blazing Assault (Hyper Skill)}> / <tt src={/class-icons/cygnus-knights/dawn-warrior/luster-charge.png} tip={Luster Charge (Hyper Skill)}}> ][1.8s each](45s cd) <tt src={/class-icons/cygnus-knights/dawn-warrior/soul-eclipse.png} tip={Soul Eclipse (5th Job)} dur={(180s cd)}> <tt src={/class-icons/cygnus-knights/dawn-warrior/astral-blitz.png} tip={Astral Blitz (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} dur={[45s](-5% | 120s cd)}>"

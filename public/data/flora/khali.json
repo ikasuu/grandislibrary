@@ -14,11 +14,12 @@
         "innerAbility": [
             {
                 "name": "For Bossing",
-                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Damage to Abnormal Status +8%"]
+                "abilities": ["Chance to Skip Cooldown +20%", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
             },
             {
                 "name": "For Training",
-                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
             }
         ],
         "attackStats": [
@@ -59,7 +60,7 @@
             {
                 "name": "Damage",
                 "stat": "+5%(60%)",
-                "detail": "<bg src={/class-icons/link-skills/innate-gift.png} tip={Innate Gift (Link Skill)} val={+5%}> <bg type={temp} src={/class-icons/flora/khali/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} val={up to +45%}>"
+                "detail": "<bg src={/class-icons/link-skills/innate-gift.png} tip={Innate Gift (Link Skill)} val={+5%}> <bg type={temp} src={/class-icons/flora/khali/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} val={+45%}>"
             },
             {
                 "name": "Boss Damage",

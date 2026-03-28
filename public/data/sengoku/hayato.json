@@ -14,11 +14,12 @@
         "innerAbility": [
             {
                 "name": "For Bossing",
-                "abilities": ["Boss Damage +20%", "Damage to Abnormal Status +8%", "Attack +21 / Buff Duration +38%"]
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Attack +21 / Buff Duration +38%"]
             },
             {
                 "name": "For Training",
-                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
             }
         ],
         "attackStats": [
@@ -59,7 +60,7 @@
             {
                 "name": "Damage",
                 "stat": "+70%(115%)",
-                "detail": "<bg src={/class-icons/sengoku/hayato/indomitable-vanguard.png} tip={Imdomitable Vanguard (2nd Job)} val={+20%}> <bg src={/class-icons/sengoku/hayato/hitokiri-hundred-strike-legacy.png} tip={Hitokiri Hundred Strike Legacy (3rd Job)} val={+20%}> <bg src={/class-icons/sengoku/hayato/cleaver.png} tip={Cleaver (4th Job)} val={+30%}> <bg type={temp} src={/class-icons/sengoku/akatsuki-blessing.png} tip={Akatsuki Blessing (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +36%}>"
+                "detail": "<bg src={/class-icons/sengoku/hayato/indomitable-vanguard.png} tip={Imdomitable Vanguard (2nd Job)} val={+20%}> <bg src={/class-icons/sengoku/hayato/hitokiri-hundred-strike-legacy.png} tip={Hitokiri Hundred Strike Legacy (3rd Job)} val={+20%}> <bg src={/class-icons/sengoku/hayato/cleaver.png} tip={Cleaver (4th Job)} val={+30%}> <bg type={temp} src={/class-icons/sengoku/akatsuki-blessing.png} tip={Akatsuki Blessing (Hyper Skill)} val={+10%}>"
             },
             {
                 "name": "Boss Damage",
@@ -79,7 +80,7 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/sengoku/hayato/mushin.png} tip={Mushin (2nd Job)} dur={[200s]}>",
-            "buffCd": "<tt src={/class-icons/sengoku/hayato/noto.png} tip={Noto (4th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/sengoku/hayato/bushido.png} tip={Bushido (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/sengoku/akatsuki-blessing.png} tip={Akatsuki Blessing (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/sengoku/hayato/shogetsu-form.png} tip={Shogetsu Form (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "buffCd": "<tt src={/class-icons/sengoku/hayato/noto.png} tip={Noto (4th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/sengoku/hayato/bushido.png} tip={Bushido (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/sengoku/akatsuki-blessing.png} tip={Akatsuki Blessing (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/sengoku/hayato/shogetsu-form.png} tip={Shogetsu Form (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/princess-sakunos-blessing.png} tip={Princess Sakuno's Blessing (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/sengoku/hayato/shin-quick-draw.png} tip={Shin Quick Draw (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/sengoku/hayato/reactive-focus.png} tip={Reactive Focus (3rd Job)} dur={[2s upon parry](30s cd)}> <tt src={/class-icons/sengoku/hayato/battou-wailing-heavens-1.png} tip={[Battou] Wailing Heavens (5th Job)} dur={[3s](120s cd)}> <tt src={/class-icons/sengoku/hayato/shin-quick-draw.png} tip={Shin Quick Draw (6th Job)} dur={(360s cd)}> <tt src={/class-icons/sengoku/hayato/fleeting-breath.png} tip={Fleeting Breath (6th Job)} dur={(240s cd | 3 uses during boss)}>",
             "damageReduce": "<tt src={/class-icons/sengoku/hayato/deflection.png} tip={Deflection (4th Job)} dur={[3s](-50% | 20% to activate when hit, 15s cd)}> <tt src={/class-icons/5th-job/twilight-bloom.png} tip={Twilight Bloom (5th Job)} dur={[40s](-20% | 120s cd)}>"

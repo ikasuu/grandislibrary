@@ -15,11 +15,12 @@
         "innerAbility": [
             {
                 "name": "For Bossing",
-                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to Abnormal Status +8%"]
+                "abilities": ["Boss Damage +20%", "Crit Rate +20%", "Damage to monsters inflicted with Abnormal Status +8%"]
             },
             {
                 "name": "For Training",
-                "abilities": ["Item Drop Rate +20%", "Meso Obtained +20% (Alternative 1st line)", "Meso Obtained +15% (if not 1st line)", "Item Drop Rate +15% (If not 1st line)", "Damage to Regular Monsters +8%"]
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
             }
         ],
         "attackStats": [
@@ -69,8 +70,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+47.45%(69.56%)",
-                "detail": "<bg src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow (3rd Job)} val={+30%}> × <bg src={/class-icons/explorers/bowmaster/enchanted-quiver.png} tip={Enchanted Quiver (4th Job)} val={+6%}> × <bg src={/class-icons/explorers/bowmaster/armor-break.png} tip={Armor Break (4th Job)} val={+7%}> × <bg type={temp} src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} val={+15%}>"
+                "stat": "+55.71%(79.07%)",
+                "detail": "<bg src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow (3rd Job)} val={+30%}> × <bg src={/class-icons/explorers/bowmaster/enchanted-quiver.png} tip={Enchanted Quiver (4th Job)} val={+6%}> × <bg src={/class-icons/explorers/bowmaster/armor-break.png} tip={Armor Break (4th Job)} val={+13%}> × <bg type={temp} src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} val={+15%}>"
             },
             {
                 "name": "Ignore DEF",
@@ -84,7 +85,7 @@
             "summons": "<tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/bowmaster/blink-shot.png} tip={Blink Shot (3rd Job)} dur={[120s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
             "buffCd": "<tt src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/storm-of-arrows.png} tip={Storm of Arrows (5th Job)} dur={[70s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/inhuman-speed.png} tip={Inhuman Speed (5th Job)} dur={[3-30s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={(360s cd)}>",
+            "iFrame": "<tt src={/class-icons/explorers/bowmaster/zephyr-shield.png} tip={Zephyr Shield (3rd Job)} dur={[3s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/explorers/bowmaster/silhouette-mirage.png} tip={Silhouette Mirage (5th Job)} dur={(-90% | 50s recharge (max 2), 7.5s cd on block)}>[<em text={Only blocks attacks that deal more than 50% Max HP}>]"
         },              
         "linkSkill": {
@@ -102,7 +103,7 @@
             "build": [
                 ["1st Job", "<tt src={/class-icons/explorers/archer/double-jump-1.png} tip={Double Jump}> -> <tt src={/class-icons/explorers/archer/archery-mastery.png} tip={Archery Mastery}> -> <tt src={/class-icons/explorers/archer/critical-shot.png} tip={Critical Shot}> -> <tt src={/class-icons/explorers/archer/arrow-blow.png} tip={Arrow Blow}>"],
                 ["2nd Job", "<tt src={/class-icons/explorers/bowmaster/bow-mastery.png} tip={Bow Mastery}> -> <tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/common/agile-bows.png} tip={Agile Bows}> -> <tt src={/class-icons/explorers/bowmaster/soul-arrow.png} tip={Soul Arrow}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack}> -> <tt src={/class-icons/explorers/bowmaster/wind-arrow.png} tip={Wind Arrow}> -> <tt src={/class-icons/explorers/bowmaster/covering-fire.png} tip={Covering Fire}> -> <tt src={/class-icons/explorers/bowmaster/swift-surge.png} tip={Swift Surge}>"],
-                ["3rd Job", "<tt src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow}> -> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix}> -> <tt src={/class-icons/explorers/bowmaster/evasion-boost.png} tip={Evasion Boost}> -> <tt src={/class-icons/explorers/bowmaster/marksmanship.png} tip={Marksmanship}> -> <tt src={/class-icons/explorers/bowmaster/blink-shot.png} tip={Blink Shot}> -> <tt src={/class-icons/explorers/bowmaster/speed-mirage.png} tip={Speed Mirage}> -> <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster}> -> <tt src={/class-icons/explorers/bowmaster/mortal-blow.png} tip={Mortal Blow}> -> <tt src={/class-icons/explorers/bowmaster/focused-fury.png} tip={Focused Fury}>"],
+                ["3rd Job", "<tt src={/class-icons/explorers/bowmaster/reckless-hunt.png} tip={Reckless Hunt: Bow}> -> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix}> -> <tt src={/class-icons/explorers/bowmaster/evasion-boost.png} tip={Evasion Boost}> -> <tt src={/class-icons/explorers/bowmaster/marksmanship.png} tip={Marksmanship}> -> <tt src={/class-icons/explorers/bowmaster/blink-shot.png} tip={Blink Shot}> -> <tt src={/class-icons/explorers/bowmaster/speed-mirage.png} tip={Speed Mirage}> -> <tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster}> -> <tt src={/class-icons/explorers/bowmaster/mortal-blow.png} tip={Mortal Blow}> -> <tt src={/class-icons/explorers/bowmaster/focused-fury.png} tip={Focused Fury}> -> <tt src={/class-icons/explorers/bowmaster/zephyr-shield.png} tip={Zephyr Shield}>"],
                 ["4th Job", "<tt src={/class-icons/explorers/bowmaster/armor-break.png} tip={Armor Break}> -> <tt src={/class-icons/explorers/bowmaster/bow-expert.png} tip={Bow Expert}> -> <tt src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack}> -> <tt src={/class-icons/explorers/bowmaster/arrow-stream.png} tip={Arrow Stream}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes}> -> <tt src={/class-icons/explorers/bowmaster/illusion-step.png} tip={Illusion Step}> -> <tt src={/class-icons/explorers/bowmaster/enchanted-quiver.png} tip={Enchanted Quiver}> -> <tt src={/class-icons/explorers/bowmaster/hurricane.png} tip={Hurricane}> -> <tt src={/class-icons/explorers/bowmaster/speed-mirage-ii.png} tip={Speed Mirage II}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
             ],              
             "details": [
@@ -228,7 +229,7 @@
                     },
                     {
                         "name": "Archery Mastery",
-                        "shortDesc": "Range +120, Movement Speed +30, Attack Speed: +1.\\nMax Movement Speed Increased to 160",
+                        "shortDesc": "Range +120, Speed +30, Attack Speed: +1.\\nMax Speed Increased to 160",
                         "maxLevel": 15,
                         "icons": ["/class-icons/explorers/archer/archery-mastery.png"],
                         "type": "Passive"
@@ -347,6 +348,18 @@
                         ]
                     },
                     {
+                        "name": "Zephyr Shield",
+                        "shortDesc": "MP Cost: 100, Invincibility Duration: 3 sec.\\nCooldown: 120 sec.",
+                        "maxLevel": 10,
+                        "icons": ["/class-icons/explorers/bowmaster/zephyr-shield.png"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmw1Nm80dW51dnB4eTd2NjQ5eHhubzZiY3A3eWhseGY5cnRpN2JmaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1Meak8EmpoOZoP9QYP/giphy.gif"],
+                        "type": "Buff",
+                        "desc": "When used, briefly become invincible",
+                        "details": [
+                            "Unaffected by cooldown resets and %Buff Duration"
+                        ]
+                    },
+                    {
                         "name": "Phoenix",
                         "shortDesc": "MP Cost: 70, summon Phoenix for 220 sec.\\nAttack up to 4 enemies with 390% damage. 95% chance to Stun\\n[Passive Effects: Defense +30%]",
                         "maxLevel": 10,
@@ -414,7 +427,7 @@
                     {
                         "name": "Marksmanship",
                         "shortDesc": "When attacking, ignores 25% of monster's Weapon DEF. Attack Power: +25%",
-                        "maxLevel": 20,
+                        "maxLevel": 10,
                         "icons": ["/class-icons/explorers/bowmaster/marksmanship.png"],
                         "type": "Passive"
                     }]
@@ -534,7 +547,7 @@
                     },
                     {
                         "name": "Armor Break",
-                        "shortDesc": "Ignore Defense: +40%, Final Damage: +7%",
+                        "shortDesc": "Ignore Defense: +40%, Final Damage: +13%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/bowmaster/armor-break.png"],
                         "type": "Passive"
@@ -911,7 +924,7 @@
                 },
                 {
                     "name": "Extra Quiver Cartridge",
-                    "shortDesc": "MP Cost: 120, uses additional special arrowheads over 30 sec, and automatically ends when all arrowheads are used\\nSpecial arrowhead - Damage: 1625%, Max Loads Per Quiver Cartridge: 50\\nIn Auto Mode, Extra Quiver Cartridges are auto triggered when the total loaded arrows in each cartridge exceeds 50\\nCooldown: 30 sec",
+                    "shortDesc": "MP Cost: 120, uses additional special arrowheads over 30 sec, and automatically ends when all arrowheads are used\\nMagic Arrows - Damage: 240%\\nBlood Arrows: 2910%\\nMax Loads Per Quiver: 50\\nIn Auto Mode, Extra Quiver Cartridges are auto triggered when the total loaded arrows in each cartridge exceeds 50\\nCooldown: 30 sec.",
                     "icons": ["/class-icons/explorers/bowmaster/extra-quiver-cartridge.png", "/class-icons/explorers/bowmaster/extra-quiver-cartridge-magic-arrows.png", "/class-icons/explorers/bowmaster/extra-quiver-cartridge-blood-arrows.png"],
                     "type": "Buff Attack",
                     "desc": "",
@@ -962,7 +975,7 @@
                 },
                 {
                     "name": "Flashpoint",
-                    "shortDesc": "After using the flashpoint arrows, using the skill again within 30 sec. will redirect them into a flashpoint explosion\\nFlashpoint Arrows - MP Cost: 500, Invincible during casting\\nFire 16 arrow storms, dealing 8087% damage to up to 15 enemies 10 times\\nFlashpoint Explosion - MP Cost: 500, Invincible during casting\\nThe fired arrows return to a single point and explode 16 times, dealing 8239% damage to up to 15 enemies 13 times. Ignore status effects while casting the flashpoint explosion.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "After using the flashpoint arrows, using the skill again within 30 sec. will redirect them into a flashpoint explosion\\nFlashpoint Arrows - MP Cost: 500, Invincible during casting\\nFire 16 arrow storms, dealing 7485% damage to up to 15 enemies 10 times\\nFlashpoint Explosion - MP Cost: 500, Invincible during casting\\nThe fired arrows return to a single point and explode 16 times, dealing 7840% damage to up to 15 enemies 13 times. Ignore status effects while casting the flashpoint explosion.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/explorers/bowmaster/flashpoint.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhrZGVnbDRtNnU5aG13azA1dDVhMXJnamlvdjMwbGpsZDgzZWk1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/27X1Mxm5SRsiYJ4oIR/giphy.gif"],
                     "type": "Ascent Skill",

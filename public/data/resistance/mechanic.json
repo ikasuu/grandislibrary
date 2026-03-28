@@ -14,16 +14,16 @@
         "innerAbility": [
             {
                 "name": "If Lv.260 or below (w/o 6th Job)",
-                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Damage to Abnormal Status +8%"]
+                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
             },
             {
                 "name": "If above Lv.260 & working on 6th job",
-                "abilities": ["Boss Damage +20%", "Attack +21 / Buff Duration +38%", "Damage to Abnormal Status +8%"],
+                "abilities": ["Boss Damage +20%", "Attack +21 / Buff Duration +38%", "Damage to monsters inflicted with Abnormal Status +8%"],
                 "notes": "6th Job Homing Beacon missiles are increased to 12 missiles and unaffected by all +1 skills"
             },
             {
                 "name": "For Farming",
-                "abilities": ["Meso Obtained +20% / Item Drop Rate +20%", "Meso Obtained +15% / Item Drop Rate +15%", "Damage to Normal Monsters +8% / Damage to Abnormal Status +8%"],
+                "abilities": ["Meso Obtained +20% / Item Drop Rate +20%", "Meso Obtained +15% / Item Drop Rate +15%", "Damage to Normal Monsters +8% / Damage to monsters inflicted with Abnormal Status +8%"],
                 "notes": "1st Line is based on preference whether 5% extra Meso/Drop is preferred - whichever is not chosen can be the 2nd/3rd Line. Damage to Normal Monster and Abnormal Status are equivalent given the debuff from Support Unit: H-EX when active"
             }
         ],
@@ -86,7 +86,7 @@
         "buffInfo": {
             "active": "[ <tt src={/class-icons/resistance/mechanic/humanoid-mech.png} tip={Humanoid Mech (1st Job)}> / <tt src={/class-icons/resistance/mechanic/tank-mech.png} tip={Tank Mech (3rd Job)}> ](Mount) <tt src={/class-icons/resistance/mechanic/mechanic-rage.png} tip={Mechanic Rage (2nd Job)} dur={[180s]}>",
             "toggles": "<tt src={/class-icons/resistance/mechanic/perfect-armor.png} tip={Perfect Armor (2nd Job)}>",
-            "summons": "<tt src={/class-icons/resistance/mechanic/open-portal-gx-9.png} tip={Open Portal: GX-9 (2nd Job)} dur={[300s]}> <tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/support-unit-h-ex.png} tip={Support Unit: H-EX (3rd Job)} dur={[80s]}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/distortion-bomb.png} tip={Distortion Bomb (Hyper Skill)} dur={[4s](8s cd)}> <tt src={/class-icons/resistance/mechanic/doomsday-device.png} tip={Doomsday Device (5th Job)} dur={[100s](120s cd)}> <tt src={/class-icons/resistance/mechanic/mecha-carrier.png} tip={Mecha Carrier (5th Job)} dur={[50s](120s cd)}> <tt src={/class-icons/5th-job/resistance-infantry.png} tip={Resistance Infantry (5th Job)} dur={[10s](25s cd)}> <tt src={/class-icons/resistance/mechanic/robo-conversion-cb-p1.png} tip={Robo Conversion: CB-P1 (6th Job)} dur={(Toggle)}>",
+            "summons": "<tt src={/class-icons/resistance/mechanic/open-portal-gx-9.png} tip={Open Portal: GX-9 (2nd Job)} dur={[300s]}> <tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/support-unit-h-ex.png} tip={Support Unit: H-EX (3rd Job)} dur={[80s]}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)} dur={[70s]}> <tt src={/class-icons/resistance/mechanic/distortion-bomb.png} tip={Distortion Bomb (Hyper Skill)} dur={[4s](8s cd)}> <tt src={/class-icons/resistance/mechanic/doomsday-device.png} tip={Doomsday Device (5th Job)} dur={[100s](120s cd)}> <tt src={/class-icons/resistance/mechanic/mecha-carrier.png} tip={Mecha Carrier (5th Job)} dur={[50s](120s cd)}> <tt src={/class-icons/5th-job/resistance-infantry.png} tip={Resistance Infantry (5th Job)} dur={[15s](60s cd)}> <tt src={/class-icons/resistance/mechanic/robo-conversion-cb-p1.png} tip={Robo Conversion: CB-P1 (6th Job)} dur={(Toggle)}>",
             "buffCd": "<tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (3rd Job)} dur={[180s](180s cd / 90s cd if 1)}> <tt src={/class-icons/resistance/mechanic/full-spread.png} tip={Full Spread (Hyper Skill)} dur={[10s](60s cd)}> <tt src={/class-icons/resistance/for-liberty.png} tip={For Liberty (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/resistance/mechanic/ground-zero.png} tip={Ground Zero (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/resistance/mechanic/giant-robot-sg-88.png} tip={Giant Robot SG-88 (4th Job)} dur={[3s](60s cd)}> <tt src={/class-icons/resistance/mechanic/full-metal-barrage.png} tip={Full Metal Barrage (5th Job)} dur={[Up to 10s](120s cd)}> <tt src={/class-icons/resistance/mechanic/ground-zero.png} tip={Ground Zero (6th Job)} dur={(360s cd)}>"
@@ -430,20 +430,12 @@
                     },
                     {
                         "name": "Roll of the Dice",
-                        "shortDesc": "MP Cost: 60, Buff Duration: 180 sec\\nCooldown: 200 sec",
+                        "shortDesc": "MP Cost: 60, Dice Buff Duration: 180.\\n1: Roll of the Dice Cooldown: -50%\\n2: Defense +30%\\n3: Attack +15\\n4: Critical Rate: +15%\\n5: Damage +20%\\n6: EXP Obtained +30%\\nCooldown: 200 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/common/roll-of-the-dice.png"],
                         "animations": ["https://media.giphy.com/media/Ly5tPg5BvJDhApDKql/giphy.gif"],
                         "type": "Buff",
-                        "desc": "Grants a buff depending on the number rolled",
-                        "details": [
-                            "[One]: Reduces cooldown of <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Die (3rd Job)}> by 50%",
-                            "[Two]: Increases %DEF",
-                            "[Three]: Increases %Max HP/MP",
-                            "[Four]: Increases %Crit Rate",
-                            "[Five]: Increases %Damage",
-                            "[Six]: Increases %EXP Rate"
-                        ]
+                        "desc": "Grants a buff depending on the number rolled"
                     },
                     {
                         "name": "Rock 'n Shock",
@@ -615,7 +607,7 @@
                 },
                 {
                     "name": "Double Down",
-                    "shortDesc": "MP Cost: 60, 50% chance of rolling a Double Down, Buff Duration: 180 sec\\nCooldown: 180 sec",
+                    "shortDesc": "MP Cost: 60, Dice Buff Duration: 180 sec.\\n50% chance of rolling a Double Down.\\nEnhances the following effects by 10 or 10% (additive) if the dice results are the same, excluding 1.\\n1: Roll of the Dice Cooldown: -50%\\n2: Defense +30%\\n3: Attack +15\\n4: Critical Rate: +15%\\n5: Damage +20%\\n6: EXP Obtained +30%\\nCooldown: 180 sec.",
                     "maxLevel": 5,
                     "icons": ["/class-icons/common/double-down.png", "/class-icons/common/roll-of-the-dice.png"],
                     "animations": ["https://media1.giphy.com/media/9mezG4kZBRtqkBxdJB/giphy.gif"],

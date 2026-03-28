@@ -14,11 +14,13 @@
         "innerAbility": [
             {
                 "name": "1st Line Options",
-                "abilities": ["Boss Damage +20%", "Chance to Skip Cooldown +20%"]
+                "abilities": ["Boss Damage +20%", "Chance to Skip Cooldown +20%"],
+                "notes": "Chance to Skip Cooldown is an option mainly in Heroic where there is more access to %Boss Damage"
             },
             {
                 "name": "2nd & 3rd Line Options",
-                "abilities": ["Buff Duration +38%", "Boss Damage: +10%", "Chance to Skip Cooldown +10%", "Meso Obtained +15% (For Farming)", "Item Drop Rate +15% (For Farming)"]
+                "abilities": ["(2nd Line) Buff Duration +38%", "(2nd Line) Attack +21", "(3rd Line) Damage to monsters inflicted with Abnormal Status +8%"],
+                "notes": "Choose Buff Duration when %Buff Duration < 100%, otherwise choose Attack"
             }
         ],
         "attackStats": [
@@ -58,8 +60,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+10%(68%)",
-                "detail": "<bg src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)} val={+10%}> <bg type={debuff} src={/class-icons/explorers/dual-blade/flashbang.png} tip={Flashbang (2nd Job+)} val={+10%}> <bg type={temp} src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/link-skills/thiefs-cunning.png} tip={Thief's Cunning (Link Skill)} val={+18% upon debuffing enemy}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "stat": "+20%(68%)",
+                "detail": "<bg src={/class-icons/explorers/dual-blade/flashbang.png} tip={Flashbang (2nd Job+)} val={+10%}> <bg src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/thief/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/link-skills/thiefs-cunning.png} tip={Thief's Cunning (Link Skill)} val={+18% upon debuffing enemy}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -115,7 +117,7 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/explorers/dual-blade/phantom-blow-reinforce.png} tip={Phantom Blow - Reinforce}> <tt src={/class-icons/explorers/dual-blade/phantom-blow-guardbreak.png} tip={Phantom Blow - Guardbreak}> <tt src={/class-icons/explorers/dual-blade/phantom-blow-extra-strike.png} tip={Phantom Blow - Extra Strike}> Phantom Blow - Reinforce, Guardbreak, and Extra Strike_<tt src={/class-icons/explorers/dual-blade/blade-fury-reinforce.png} tip={Blade Fury - Reinforce}> <tt src={/class-icons/explorers/dual-blade/blade-fury-spread.png} tip={Blade Fury - Spread}> Blade Fury - Reinforce and Spread_>" 
+            "recommended": "<bp_<tt src={/class-icons/explorers/dual-blade/phantom-blow-reinforce.png} tip={Phantom Blow - Reinforce}> <tt src={/class-icons/explorers/dual-blade/phantom-blow-guardbreak.png} tip={Phantom Blow - Guardbreak}> <tt src={/class-icons/explorers/dual-blade/phantom-blow-extra-strike.png} tip={Phantom Blow - Extra Strike}> Phantom Blow - Reinforce, Guardbreak, and Extra Strike_<tt src={/class-icons/explorers/dual-blade/blade-fury-reinforce.png} tip={Blade Fury - Reinforce}> Blade Fury - Reinforce_>[Choose 1]<bp_<tt src={/class-icons/explorers/dual-blade/blade-fury-spread.png} tip={Blade Fury - Spread}> Blade Fury - Spread_<tt src={/class-icons/explorers/dual-blade/blade-ascension-reinforce.png} tip={Blade Ascension - Reinforce}> Blade Ascension - Reinforce_>" 
         },
         "nodeInfo": {
             "recommended": {
@@ -130,20 +132,20 @@
                 ]
             },
             "possible": {
-                "nodes": "<tt src={/class-icons/explorers/dual-blade/bandit-slash.png} tip={Bandit Slash (1st Job)}> <tt src={/class-icons/explorers/dual-blade/tornado-spin.png} tip={Tornado Spin (1st Job+)}> <tt src={/class-icons/explorers/dual-blade/fatal-blow.png} tip={Fatal Blow (2nd Job)}> <tt src={/class-icons/explorers/dual-blade/slash-storm.png} tip={Slash Storm (2nd Job)}> <tt src={/class-icons/explorers/dual-blade/flashbang.png} tip={Flashbang (2nd Job+)}> <tt src={/class-icons/explorers/dual-blade/flying-assaulter.png} tip={Flying Assaulter (2nd Job+)}> <tt src={/class-icons/explorers/dual-blade/blade-ascension.png} tip={Blade Ascension (3rd Job)}> <tt src={/class-icons/explorers/dual-blade/bloody-storm.png} tip={Bloody Storm (3rd Job)}> <tt src={/class-icons/explorers/dual-blade/chains-of-hell.png} tip={Chains of Hell (3rd Job)}> <tt src={/class-icons/explorers/dual-blade/blade-fury.png} tip={Blade Fury (4th Job)}> <tt src={/class-icons/explorers/dual-blade/phantom-blow.png} tip={Phantom Blow (4th Job)}> <tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)}> <tt src={/class-icons/explorers/dual-blade/sudden-raid.png} tip={Sudden Raid (4th Job)}> <tt src={/class-icons/explorers/dual-blade/asuras-anger.png} tip={Asura's Anger (Hyper Skill)}> <tt src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)}>"
+                "nodes": "<tt src={/class-icons/explorers/dual-blade/bandit-slash.png} tip={Bandit Slash (1st Job)}> <tt src={/class-icons/explorers/dual-blade/tornado-spin.png} tip={Tornado Spin (1st Job+)}> <tt src={/class-icons/explorers/dual-blade/fatal-blow.png} tip={Fatal Blow (2nd Job)}> <tt src={/class-icons/explorers/dual-blade/slash-storm.png} tip={Slash Storm (2nd Job)}> <tt src={/class-icons/explorers/dual-blade/flying-assaulter.png} tip={Flying Assaulter (2nd Job+)}> <tt src={/class-icons/explorers/dual-blade/blade-ascension.png} tip={Blade Ascension (3rd Job)}> <tt src={/class-icons/explorers/dual-blade/bloody-storm.png} tip={Bloody Storm (3rd Job)}> <tt src={/class-icons/explorers/dual-blade/chains-of-hell.png} tip={Chains of Hell (3rd Job)}> <tt src={/class-icons/explorers/dual-blade/blade-fury.png} tip={Blade Fury (4th Job)}> <tt src={/class-icons/explorers/dual-blade/phantom-blow.png} tip={Phantom Blow (4th Job)}> <tt src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)}> <tt src={/class-icons/explorers/dual-blade/sudden-raid.png} tip={Sudden Raid (4th Job)}> <tt src={/class-icons/explorers/dual-blade/asuras-anger.png} tip={Asura's Anger (Hyper Skill)}> <tt src={/class-icons/explorers/dual-blade/blade-clone.png} tip={Blade Clone (Hyper Skill)}>"
             }
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Dual_Blade"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%93%80%EC%96%BC%EB%B8%94%EB%A0%88%EC%9D%B4%EB%93%9C"},
             {"title": "Class Discord", "link": "https://discord.gg/sv8JuUqBGQ"},
-            {"title": "IA Guide", "link": "https://docs.google.com/document/d/1yqh3PuSlyhwN1sFJ7BVDd4daErsjb2DzFaIzxuxoRks"}
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1Z4GXLiVTJOj2o6GM2tNZtzN5z6qO7-pGJ8JX82qj66s"}
         ],
         "specialThanks": "Special thanks to Dres, TMoney, and the members of the Dual Blade Discord for their help in making this overview!",
         "discord": "https://discord.gg/sv8JuUqBGQ",
         "credits": [
             ["Skill Icons + Animations", "Ikasuu"],
-            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Dual Blade Discord"]
+            ["Inner Ability + Hyper Passive Build + Boost Nodes Build", "Dual Blade Discord & Class Doc"]
         ],
         "extraContent": {
             "title": "Dark Sight",
@@ -379,15 +381,10 @@
                         },
                         {
                             "name": "Flashbang",
-                            "shortDesc": "MP Cost: 65, Max Enemies Hit: 6, Damage: 250%, 100% chance for Accuracy decrease: -20%, Duration: 60 sec, damage of all your skills increased by 10% against affected enemies.",
+                            "shortDesc": "Damage: +10%",
                             "maxLevel": 5,
                             "icons": ["/class-icons/explorers/dual-blade/flashbang.png"],
-                            "animations": ["https://media.giphy.com/media/bM3DEEZz7Gw1QxkuFO/giphy.gif"],
-                            "type": "Attack",
-                            "desc": "Throw a flashbang forward that debuffs enemies hit",
-                            "details": [
-                                "[Debuff]: Reduces %Accuracy and enemy takes increased %Damage"
-                            ]
+                            "type": "Passive"
                         },
                         {
                             "name": "Venom",
@@ -442,7 +439,7 @@
                     },
                     {
                         "name": "Mirror Image",
-                        "shortDesc": "MP Cost: 67, summons a shadow that makes an additional hit that is 70% of the final damage for all attacks (except Flashbang) for 200 sec.",
+                        "shortDesc": "MP Cost: 67, summons a shadow that makes an additional hit that is 70% of the final damage for all attacks for 200 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/dual-blade/mirror-image.png"],
                         "animations": ["https://media.giphy.com/media/wbsa8pxBrye0lc7pat/giphy.gif"],
@@ -450,7 +447,7 @@
                         "desc": "Create a clone that mimics your attacks, increasing the number of hits you deal per attack",
                         "details": [
                             "The clone's attack deals reduced %Final Damage",
-                            "Does not mimic <tt src={/class-icons/explorers/dual-blade/flashbang.png} tip={Flashbang (2nd Job+)}>, summoning skills, and 5th Job Common Skills"
+                            "Does not mimic summoning skills, and 5th Job Common Skills"
                         ]
                     },
                     {
@@ -518,7 +515,7 @@
                 },
                 {
                     "name": "Final Cut",
-                    "shortDesc": "MP Cost: 400, consumes 10% of Max HP, Damage: 2000%, Max Enemies Hit: 8.\\nSkill damage will be reduced if the charge time is too short\\nFinal Damage: +40%, Duration: 60 sec., 3 sec. invincibility after usage.\\nCooldown: 63 sec.",
+                    "shortDesc": "MP Cost: 400, Damage: 2000%, Max Enemies Hit: 8.\\nSkill damage will be reduced if the charge time is too short\\nFinal Damage: +40%, Duration: 60 sec., 3 sec. invincibility after usage.\\nCooldown: 63 sec.",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/dual-blade/final-cut.png"],
                     "animations": ["https://media.giphy.com/media/5m6EfyEEg9ByN39Std/giphy.gif"],
@@ -975,7 +972,7 @@
                 },
                 {
                     "name": "HEXA Phantom Blow",
-                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 4, Damage: 530%, Number of Attacks: 6, Ignore Defense: 40%",
+                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 4, Damage: 485%, Number of Attacks: 6, Ignore Defense: 40%",
                     "icons": ["/class-icons/explorers/dual-blade/hexa-phantom-blow.png", "/class-icons/explorers/dual-blade/phantom-blow.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -996,7 +993,7 @@
                 },
                 {
                     "name": "HEXA Asura's Anger",
-                    "shortDesc": "MP Cost: 330, Duration: 3 sec., Max Enemies Hit: 10, Damage: 1110%, Number of Attacks: 6, Max Attacks: 11. The effect ends immediately once all attacks have been made.\\nMonster DEF Ignored: 100%\\nCan move and jump while using the skill. Damage taken while attacking, including attacks t hat deal damage in proportion to Max HP: -50%\\nCooldown: 60 sec.\\n[Passive Effect: HEXA Phantom Blow Damage: +106% (additive)]",
+                    "shortDesc": "MP Cost: 330, Max Duration: 3 sec., Max Enemies Hit: 10, Damage: 1110%, Number of Attacks: 6, Max Attacks: 11. The effect ends immediately once all attacks have been made.\\nMonster DEF Ignored: 100%\\nCan move and jump while using the skill. Damage taken while attacking, including attacks that deal damage in proportion to Max HP: -50%\\nCooldown: 60 sec.\\n[Passive Effect: HEXA Phantom Blow Damage: +75% (additive)]",
                     "icons": ["/class-icons/explorers/dual-blade/hexa-asuras-anger.png", "/class-icons/explorers/dual-blade/asuras-anger.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1026,7 +1023,7 @@
                 },
                 {
                     "name": "Mortality",
-                    "shortDesc": "MP Cost: 67. When a direct skill attack other than a common skill lands 15 times, Max Enemies Hit: 8, Damage: 425%, Number of Attacks: 6, Yaksha's Slash Count: 4 times\\nCooldown: 1 sec",
+                    "shortDesc": "MP Cost: 67. When a direct skill attack other than a common skill lands 15 times, Max Enemies Hit: 8, Damage: 425%, Number of Attacks: 6, Yaksha's Slash Count: 4 times\\nDirect skill hits that count towards summoning Yaksha stack up to 60\\nCooldown: 1 sec",
                     "icons": ["/class-icons/explorers/dual-blade/mortality.png"],
                     "type": "Passive Attack",
                     "desc": "",
@@ -1076,7 +1073,7 @@
                 },
                 {
                     "name": "Yama's Decree",
-                    "shortDesc": "MP Cost: 500, Invincible during casting\\nPronounces punishment 14 times, dealing 5808% damage to up to 15 enemies 11 times\\nUsing the skill again within 30 sec. will activate Just Punishment\\nJust Punishment - MP Cost: 500, Ignore status effects while casting\\nSlashes enemies 14 times, dealing 7680% damage to 15 enemies 13 times\\nAfterwards the judgment activates 4 times, dealing 9600% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 500, Invincible during casting\\nPronounces punishment 14 times, dealing 5808% damage to up to 15 enemies 11 times\\nUsing the skill again within 30 sec. will activate Just Punishment\\nJust Punishment - MP Cost: 500, Ignore status effects while casting\\nSlashes enemies 14 times, dealing 7490% damage to 15 enemies 13 times\\nAfterwards the judgment activates 4 times, dealing 9310% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/explorers/dual-blade/yamas-decree.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnFzYnh3ZHp1cTdrc2JvbzVkdG02aDNnZTF3MzFjbDY4NHNicGYyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hOBtjCTgmlBUDs4484/giphy.gif"],
                     "type": "Ascent Skill",

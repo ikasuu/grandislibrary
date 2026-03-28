@@ -14,11 +14,11 @@
         "innerAbility": [
             {
                 "name": "For 2H Weapon",
-                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Buff Duration +38% / Damage to Abnormal Status +8%"]
+                "abilities": ["Attack Speed +1", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8% / Buff Duration +38%"]
             },
             {
                 "name": "For 1H Weapon",
-                "abilities": ["Boss Damage +20%", "Damage to Abnormal Status +8%", "Buff Duration +38%"]
+                "abilities": ["Boss Damage +20%", "Damage to monsters inflicted with Abnormal Status +8%", "Buff Duration +38%"]
             }
         ],
         "attackStats": [
@@ -44,7 +44,7 @@
             {
                 "name": "Attack",
                 "stat": "+4% +80(154)",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/hero/spirit-blade.png} tip={Spirit Blade (2nd Job)} val={+30}> <bg src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack (4th Job)} val={+30}> <bg src={/class-icons/explorers/hero/combo-attack.png} tip={Combo Attack (2nd Job)} val={+2 per Combo Orb} val={(Max. +20)}> <bg type={temp} src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} val={+50}> <bg type={temp} src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Combo (5th Job)} val={20% of Combo Orbs (Max. +4)}> <bg type={opt} src={/class-icons/explorers/hero/advanced-final-attack-ferocity.png} tip={Advanced Final Attack - Ferocity (Hyper Skill)} val={+20}>"
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/hero/spirit-blade.png} tip={Spirit Blade (2nd Job)} val={+30}> <bg src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack (4th Job)} val={+30}> <bg src={/class-icons/explorers/hero/combo-attack.png} tip={Combo Attack (2nd Job)} val={+2 per Combo Orb} val={(Max. +20)}> <bg type={temp} src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} val={+50}> <bg type={temp} src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Combo (5th Job)} val={13% of Combo Orbs (Max. +4)}> <bg type={opt} src={/class-icons/explorers/hero/advanced-final-attack-ferocity.png} tip={Advanced Final Attack - Ferocity (Hyper Skill)} val={+20}>"
             },
             {
                 "name": "Crit Rate",
@@ -58,18 +58,18 @@
             },
             {
                 "name": "Damage",
-                "stat": "(+90%)",
-                "detail": "<bg type={debuff} src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)} val={+25% to critical hits}> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+5% if Axe is equipped}> <bg type={opt} src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} val={+6% when hit up to +36%}>"
+                "stat": "(+55-60%)",
+                "detail": "<bg type={debuff} src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)} val={+25%}> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}> <bg type={opt} src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+5% if Axe is equipped}>"
             },
             {
                 "name": "Boss Damage",
-                "stat": "(+24%)",
-                "detail": "<bg type={temp} src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Combo (5th Job)} val={20% of Combo Orbs (Max. +4%)}> <bg type={opt} src={/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png} tip={Advanced Combo Attack - Boss Rush (Hyper Skill)} val={+2% per Combo Orb} val={(Max. +20%)}>"
+                "stat": "+20%(+24%)",
+                "detail": "<bg src={/class-icons/explorers/hero/advanced-combo-attack-boss-rush.png} tip={Advanced Combo Attack - Boss Rush (Hyper Skill)} val={+2% per Combo Orb} val={(Max. +20%)}> <bg type={temp} src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Combo (5th Job)} val={13% of Combo Orbs (Max. +4%)}>"
             },
             {
                 "name": "Final Damage",
-                "stat": "+202.5%(559.66%)",
-                "detail": "<bg src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+10%}> × <bg src={/class-icons/explorers/hero/enrage.png} tip={Enrage (4th Job)} val={+25%}> × <bg type={def} sub={temp} src={/class-icons/explorers/hero/advanced-combo.png} tip={Advanced Combo (4th Job)} src={/class-icons/explorers/hero/advanced-combo-attack-reinforce.png} tip={Advanced Combo Attack - Reinforce (Hyper Skill)} val={+12% per Combo Orb} val={(Max. +120%)} subSrc={/class-icons/explorers/hero/sword-illusion.png} subTip={Sword Illusion (5th Job)} subVal={Increase of 6 Combo Orbs when used (+72%)}> × <bg type={temp} src={/class-icons/explorers/hero/chance-attack.png} tip={Chance Attack (3rd Job)} val={+25% to pierced, incapacitated}> × <bg type={temp} src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Combo (5th Job)} val={20% of Combo Orbs (Max. +24%)}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
+                "stat": "+202.5%(447.46%)",
+                "detail": "<bg src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery (2nd Job)} val={+10%}> × <bg src={/class-icons/explorers/hero/enrage.png} tip={Enrage (4th Job)} val={+25%}> × <bg type={def} sub={temp} src={/class-icons/explorers/hero/advanced-combo-attack-reinforce.png} tip={Advanced Combo Attack - Reinforce (Hyper Skill)} val={+12% per Combo Orb} val={(Max. +120-135.6%)} src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Combo (5th Job)} subSrc={/class-icons/explorers/hero/sword-illusion.png} subTip={Sword Illusion (5th Job)} subVal={+72-81.36%} > × <bg type={temp} src={/class-icons/explorers/hero/chance-attack.png} tip={Chance Attack (3rd Job)} val={+25% to pierced, incapacitated}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+6%}>"
             },
             {
                 "name": "Ignore DEF",
@@ -105,10 +105,6 @@
                 "detail": "<bg src={/class-icons/explorers/warrior/war-leap-4.png} tip={War Leap (1st Job)} val={Double Jump}>"
             },
             {
-                "name": "Up Jump",
-                "detail": "<bg src='/class-icons/explorers/warrior/upward-charge-4.png} tip={Upward Charge (1st Job)}>"
-            },
-            {
                 "name": "Dash",
                 "detail": "<bg src='/class-icons/explorers/hero/flash-blade.png} tip={Flash Blade (2nd Job)} val={Dash to nearby enemy}> <bg src={/class-icons/explorers/hero/rush.png} tip={Rush (3rd Job)} val={Dash forward}>"
             },
@@ -139,9 +135,8 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/explorers/hero/spirit-blade.png} tip={Spirit Blade (2nd Job)} dur={[200s]}> <tt src={/class-icons/explorers/hero/scarring-sword.png} tip={Scarring Sword (3rd Job)} dur={[200s]}>",
-            "toggles": "<tt src={/class-icons/explorers/hero/combo-attack.png} tip={Combo Attack (2nd Job)}>",
             "summons": "<tt src={/class-icons/explorers/hero/burning-soul-blade-1.png} tip={Burning Soul Blade (5th Job)} dur={[20s/120s](120s cd)}>",
-            "buffCd": "<tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Blade (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[94s](120s recharge, up to 2 charges)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](15s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "buffCd": "<tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/hero/instinctual-combo.png} tip={Instinctual Blade (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](15s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/hero/spirit-calibur.png} tip={Spirit Calibur (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/hero/worldreaver.png} tip={Worldreaver (5th Job)} dur={[1.6s](25s cd)}> <tt src={/class-icons/explorers/hero/spirit-calibur.png} tip={Spirit Calibur (6th Job)} dur={(360s cd)}> <tt src={/class-icons/5th-job/blitz-shield.png} tip={Blitz Shield (5th Job)} dur={[Up to 5s](21% HP Barrier | 15s cd)}>",
             "knockback": "<tt src={/class-icons/explorers/hero/flash-blade.png} tip={Flash Blade (2nd Job)} dur={(4s cd)}> <tt src={/class-icons/explorers/hero/rush.png} tip={Rush (3rd Job)} dur={[]}> <tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}>"
@@ -159,7 +154,7 @@
         },
         "buildPath": {
             "build": [  
-                ["1st Job", "<tt src={/class-icons/explorers/warrior/war-leap-1.png} tip={War Leap}> -> <tt src={/class-icons/explorers/warrior/iron-body.png} tip={Iron Body}> -> <tt src={/class-icons/explorers/warrior/warrior-mastery.png} tip={Warrior Mastery}> -> <tt src={/class-icons/explorers/warrior/slash-blast.png} tip={Slash Blast}> -> <tt src={/class-icons/explorers/warrior/upward-charge-1.png} tip={Upward Charge}>"],  
+                ["1st Job", "<tt src={/class-icons/explorers/warrior/war-leap-1.png} tip={War Leap}> -> <tt src={/class-icons/explorers/warrior/iron-body.png} tip={Iron Body}> -> <tt src={/class-icons/explorers/warrior/warrior-mastery.png} tip={Warrior Mastery}> -> <tt src={/class-icons/explorers/warrior/slash-blast.png} tip={Slash Blast}>"],  
                 ["2nd Job", "<tt src={/class-icons/common/weapon-mastery-sword.png} tip={Weapon Mastery}> -> <tt src={/class-icons/common/physical-training.png} tip={Physical Training}> -> <tt src={/class-icons/explorers/hero/agile-arms.png} tip={Agile Arms}> -> <tt src={/class-icons/explorers/hero/spirit-blade.png} tip={Spirit Blade}> -> <tt src={/class-icons/common/final-attack.png} tip={Final Attack}> -> <tt src={/class-icons/explorers/hero/brandish.png} tip={Brandish}> -> <tt src={/class-icons/explorers/hero/flash-blade.png} tip={Flash Blade}>"],  
                 ["3rd Job", "<tt src={/class-icons/explorers/hero/self-recovery.png} tip={Self Recovery}> -> <tt src={/class-icons/explorers/hero/chance-attack.png} tip={Chance Attack}> -> <tt src={/class-icons/explorers/hero/combo-synergy.png} tip={Combo Synergy}> -> <tt src={/class-icons/explorers/hero/endure.png} tip={Endure}> -> <tt src={/class-icons/explorers/hero/intrepid-slash.png} tip={Intrepid Slash}> -> <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade}> -> <tt src={/class-icons/explorers/hero/rush.png} tip={Rush}> -> <tt src={/class-icons/explorers/hero/scarring-sword.png} tip={Scarring Sword}>"],  
                 ["4th Job", "<tt src={/class-icons/explorers/hero/advanced-combo.png} tip={Advanced Combo}> -> <tt src={/class-icons/common/advanced-final-attack.png} tip={Advanced Final Attack}> -> <tt src={/class-icons/common/power-stance.png} tip={Power Stance}> -> <tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow}> -> <tt src={/class-icons/explorers/hero/combat-mastery.png} tip={Combat Mastery}> -> <tt src={/class-icons/explorers/hero/magic-crash.png} tip={Magic Crash}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/explorers/hero/enrage.png} tip={Enrage}> -> <tt src={/class-icons/explorers/hero/puncture.png} tip={Puncture}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]  
@@ -177,7 +172,7 @@
             "recommended": {
                 "nodes": [
                     ["Primary Trio", "<tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow (4th Job)}> <tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)}> <tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}>"],
-                    ["Secondary Trio", "<tt src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)}> <tt src={/class-icons/explorers/hero/rising-rage.png} tip={Rising Rage (Hyper Skill)}> <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (3rd Job)}>"]
+                    ["Secondary Trio", "<tt src={/class-icons/explorers/hero/rising-rage.png} tip={Rising Rage (Hyper Skill)}> <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (3rd Job)}> <tt src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)}>"]
                 ],
                 "notes": [
                     "Any combination of these skills are good but preferred from same category as you want to max primary first",
@@ -185,7 +180,7 @@
                 ]
             },
             "possible": {
-                "nodes": "<tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/explorers/hero/brandish.png} tip={Brandish (2nd Job)}> <tt src={/class-icons/explorers/hero/flash-blade.png} tip={Flash Blade (2nd Job)}> <tt src={/class-icons/explorers/hero/intrepid-slash.png} tip={Intrepid Slash (3rd Job)}> <tt src={/class-icons/explorers/hero/rush.png} tip={Leap Attack (1st Job), Rush (3rd Job), and Upward Charge (1st Job)}> <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (3rd Job)}> <tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow (4th Job)}> <tt src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)}> <tt src={/class-icons/explorers/hero/rising-rage.png} tip={Rising Rage (Hyper Skill)}> <tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)}>"
+                "nodes": "<tt src={/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={/class-icons/explorers/hero/brandish.png} tip={Brandish (2nd Job)}> <tt src={/class-icons/explorers/hero/flash-blade.png} tip={Flash Blade (2nd Job)}> <tt src={/class-icons/explorers/hero/intrepid-slash.png} tip={Intrepid Slash (3rd Job)}> <tt src={/class-icons/explorers/hero/rush.png} tip={Leap Attack / Rush (1st Job / 3rd Job)}> <tt src={/class-icons/explorers/hero/beam-blade.png} tip={Beam Blade (3rd Job)}> <tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow (4th Job)}> <tt src={/class-icons/explorers/hero/puncture.png} tip={Puncture (4th Job)}> <tt src={/class-icons/explorers/hero/rising-rage.png} tip={Rising Rage (Hyper Skill)}> <tt src={/class-icons/explorers/hero/cry-valhalla.png} tip={Cry Valhalla (Hyper Skill)}>"
             }
         },
         "moreInfo": [
@@ -274,23 +269,11 @@
                         "shortDesc": "MP Cost: 11, allows you to jump a greater distance",
                         "maxLevel": 5,
                         "icons": ["/class-icons/explorers/warrior/war-leap-1.png", "/class-icons/explorers/warrior/war-leap-4.png"],
-                        "animations": ["https://media.giphy.com/media/XgzzR8I7ly0wJ9nk5Z/giphy.gif"],
+                        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW5nYzlucTV0ZDVxcmZ3MGRodTV3dm1tOWppcnJtMGkzMTlpODltNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sFYvcI4pvLdk4SoQTx/giphy.gif"],
                         "type": "Active",
                         "desc": "Double jump skill",
                         "details": [
-                            "Can be assigned a Key Slot or activated by pressing jump twice"
-                        ]
-                    },
-                    {
-                        "name": "Upward Charge",
-                        "shortDesc": "MP Cost: 20, Max Enemies Hit: 5, Damage: 304%.",
-                        "maxLevel": 5,
-                        "icons": ["/class-icons/explorers/warrior/upward-charge-1.png", "/class-icons/explorers/warrior/upward-charge-4.png"],
-                        "animations": ["https://media.giphy.com/media/EkYCQmz1cj3Kj2PQ3C/giphy.gif"],
-                        "type": "Attack / Utility",
-                        "desc": "Launch up into the air",
-                        "details": [
-                            "Can also be activated by pressing the Up Arrow Key and Attack Key together<bp_Right-clicking the skill will lock it, preventing input activation_>"
+                            "Can be assigned a Key Slot or activated by pressing jump twice<bp_While in the air, pressing together with the Up Arrow Key will perform a vertical jump_>"
                         ]
                     },
                     {
@@ -317,7 +300,7 @@
                     {
                         "name": "Warrior Mastery",
                         "shortDesc": "Speed: 22, Jump: 10, Max Speed: 20, Max HP Per Level: 20, Knockback Resistance: +40%",
-                        "maxLevel": 15,
+                        "maxLevel": 20,
                         "icons": ["/class-icons/explorers/warrior/warrior-mastery.png"],
                         "type": "Passive"
                     }]
@@ -347,12 +330,12 @@
                     },
                     {
                         "name": "Combo Attack",
-                        "shortDesc": "While activated, 40% chance of having the attack added to the Combo Count.\\nAttack Power for each Combo Count: +2. Max Combo Count: 5",
+                        "shortDesc": "40% chance of having the attack added to the Combo Count.\\nAttack Power for each Combo Count: +2. Max Combo Count: 5",
                         "maxLevel": 1,
                         "icons": ["/class-icons/explorers/hero/combo-attack.png"],
                         "animations": ["https://media.giphy.com/media/8IYyO1LGF85d3t23MM/giphy.gif"],
-                        "type": "Toggle Buff",
-                        "desc": "While toggled, successful attacks have a chance to grant a Combo Orb (up to 5)",
+                        "type": "Passive",
+                        "desc": "Successful attacks have a chance to grant a Combo Orb (up to 5)",
                         "details": [
                             "Grants bonus Attack for each Combo Orb",
                             "Right-clicking the skill will toggle the visual effect on/off"
@@ -504,14 +487,14 @@
                 },
                 {
                     "name": "Puncture",
-                    "shortDesc": "MP Cost: 36, Enemies Hit: 8, Damage: 400%, Number of Attacks: 4, Damage Against Normal Enemies: +50%\\nAttacked enemies have a 100% to take 165% damage every 2 sec, for 60 sec. Critical Hits deal 25% more damage to afflicted enemies. When a party member attacks, this increases by 10%",
+                    "shortDesc": "MP Cost: 36, Enemies Hit: 8, Damage: 400%, Number of Attacks: 4, Damage Against Normal Enemies: +50%\\nAttacked enemies have a 100% to take 165% damage every 2 sec, for 60 sec. Attacks deal 25% more damage to afflicted enemies. When a party member attacks, this increases by 10%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/explorers/hero/puncture.png"],
                     "animations": ["https://media.giphy.com/media/L6k5XL4nPpTUE3k7aw/giphy.gif"],
                     "type": "Swordsmanship Attack",
                     "desc": "Strike forward while applying a debuff to enemies hit",
                     "details": [
-                        "[Debuff]: Critical Hits against enemy deals increased %Damage and enemy is damaged over time<bp_%Damage increase is reduced for party member Critical Hits_>",
+                        "[Debuff]: Deal increased %Damage to enemy and enemy is damaged over time<bp_%Damage increase is reduced for party member Critical Hits_>",
                         "Deals increased %Damage to regular monsters"
                     ]
                 },
@@ -719,7 +702,7 @@
             "fifthMain": [
                 {
                     "name": "Burning Soul Blade",
-                    "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summons a Soul Blade near you. Use the skill key with down arrow key to have the blade remain stationary. Use the skill key again while the blade is stationary to return it to you.\\nPeriodically attacks enemies when you use offensive skills. Bonus Critical Rate: +50%\\nDuration: 20 sec., Max Enemies Hit: 8, Damage: 745%, Number of Attacks: 12\\nDuration: 120 sec., Max Enemies Hit: 8, Damage: 400%, Number of Attacks: 6\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 350. Fully charges combo to the max upon casting. Summons a Soul Blade near you. Use the skill key with down arrow key to have the blade remain stationary. Use the skill key again while the blade is stationary to return it to you.\\nPeriodically attacks enemies when you use offensive skills. Bonus Critical Rate: +50%\\nDuration: 20 sec., Max Enemies Hit: 8, Damage: 470%, Number of Attacks: 12\\nDuration: 120 sec., Max Enemies Hit: 8, Damage: 252%, Number of Attacks: 6\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/explorers/hero/burning-soul-blade-1.png"],
                     "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2I3bzl6NzhxcDBmajYxYmV4NWIwanZtM3IzcDA2YmxsdXh6ajBveiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o3EcD3Raou45RPhkZF/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXhwMjU5NDZ4eXN2d293NW04djJlYmtvenRlYXRmY2tqaGs4bXoxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g6729xhe9lYtJcb0Az/giphy.gif"],
                     "type": "Summon",
@@ -747,15 +730,15 @@
                 },
                 {
                     "name": "Instinctual Combo",
-                    "shortDesc": "Can be used if you have at least 1 Combo Orb. MP Cost: 1000, Duration: 20 sec.\\nThe Combo Orb increases Final Damage, Boss Damage, and Attack Power by 20%.\\nDecreases the chance of charging Combo Orbs by 50%\\nTear in Space: Periodically activates a rift 3 times. Damage: 400%, Max Enemies Hit: 6, Number of Attacks: 6.\\nSoul Trace: Attacks all enemies hit by Spirit Calibur. Damage: 87%\\nCannot charge the Combo Orb with the Tear in Space.\\nCooldown: 120 sec",
+                    "shortDesc": "Can be used if you have at least 1 Combo Orb. MP Cost: 1000, Duration: 20 sec.\\nThe Combo Orb increases Final Damage, Boss Damage, and Attack Power by 13%.\\nDecreases the chance of charging Combo Orbs by 50%\\nTear in Space: Periodically activates a rift 3 times. Damage: 400%, Max Enemies Hit: 6, Number of Attacks: 6.\\nSoul Trace: Attacks all enemies hit by Spirit Calibur. Damage: 870%\\nCannot charge the Combo Orb with the Tear in Space.\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/explorers/hero/instinctual-combo.png"],
                     "animations": ["https://media.giphy.com/media/3ZBgUWHGOrYdECsEEQ/giphy.gif"],
                     "type": "Buff Attack",
-                    "desc": "While active, using <tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow (4th Job)}> creates a \"Tear in Space\"",
+                    "desc": "While active, using <tt src={/class-icons/explorers/hero/raging-blow.png} tip={Raging Blow (4th Job)}> creates a [Tear in Space]",
                     "details": [
                         "Increases <tt src={/class-icons/explorers/hero/combo-attack.png} tip={Combo Attack (2nd Job)}> stat bonuses of %Final Damage, %Boss Damage, and Attack",
                         "Decreases chance of obtaining Combo Orbs by 50%",
-                        "While active, using <tt src={/class-icons/explorers/hero/spirit-calibur.png} tip={Spirit Calibur (6th Job)}>, the attacks and final blow will create \"Soul Traces\" that deals an additional hit"
+                        "While active, using <tt src={/class-icons/explorers/hero/spirit-calibur.png} tip={Spirit Calibur (6th Job)}>, the attacks and final blow will create [Soul Traces] that deals an additional hit"
                     ]
                 },
                 {
@@ -817,9 +800,9 @@
                     ]
                 },
                 {
-                    "name": "Leap Attack, Rush, and Upward Charge Boost",
-                    "shortDesc": "Leap Attack, Rush, and Upward Charge Final Damage: +180%",
-                    "icons": ["/class-icons/explorers/warrior/leap-attack.png", "/class-icons/explorers/hero/rush.png", "/class-icons/explorers/warrior/upward-charge-4.png"],
+                    "name": "Leap Attack/Rush Boost",
+                    "shortDesc": "Leap Attack/Rush Final Damage: +180%",
+                    "icons": ["/class-icons/explorers/warrior/leap-attack.png", "/class-icons/explorers/hero/rush.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -920,7 +903,7 @@
                 },
                 {
                     "name": "HEXA Rising Rage",
-                    "shortDesc": "MP Cost: 230\\nDamage: 297%, Max Enemies Hit: 10, Number of Attacks: 8, Chase Cuts: 4\\nCooldown: 10 sec\\n[Passive Effect: HEXA Raging Blow Damage: +148% points]",
+                    "shortDesc": "MP Cost: 230\\nDamage: 341%, Max Enemies Hit: 10, Number of Attacks: 8, Chase Cuts: 4\\nCooldown: 10 sec\\n[Passive Effect: HEXA Raging Blow Damage: +148% points]",
                     "icons": ["/class-icons/explorers/hero/hexa-rising-rage.png", "/class-icons/explorers/hero/rising-rage.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -950,7 +933,7 @@
                 },
                 {
                     "name": "Rending Edge",
-                    "shortDesc": "Creates a sword scar when landing directly attacking skills 5 times\\nCry Valhalla, Tear in Space, and Spirit Calibur are counted as 1 attack upon landing 2 times\\nSword Scar, Duration: 1.5 sec., Max Enemies Hit: 8, Damage: 277%, Number of Attacks: 3\\nSword scars disappear after 32 attacks, Can only attack up to 4 times on single enemy.\\nUp to 5 can be created, and up to 10 during Instinctual Combo",
+                    "shortDesc": "Creates a sword scar when landing directly attacking skills 5 times\\nCry Valhalla, Tear in Space, and Spirit Calibur are counted as 1 attack upon landing 2 times\\nSword Scar, Duration: 1.5 sec., Max Enemies Hit: 8, Damage: 241%, Number of Attacks: 3\\nSword scars disappear after 32 attacks, Can only attack up to 4 times on single enemy.\\nUp to 5 can be created, and up to 10 during Instinctual Combo",
                     "icons": ["/class-icons/explorers/hero/rending-edge.png"],
                     "type": "Passive Attack",
                     "desc": "",
@@ -980,7 +963,7 @@
                 },
                 {
                     "name": "HEXA Puncture",
-                    "shortDesc": "MP Cost: 42, Max Enemies Hit: 8, Damage: 640%, Number of Attacks: 4, Normal Enemy Damage: +50%\\nAttacked enemies have a 100% chance to take 266% damage every 2 sec., for 60 sec. Critical Hits deal 26% more damage to afflicted enemies.\\nWhen a party member attacks, this increases by 11%.",
+                    "shortDesc": "MP Cost: 42, Max Enemies Hit: 8, Damage: 640%, Number of Attacks: 4, Normal Enemy Damage: +50%\\nAttacked enemies have a 100% chance to take 266% damage every 2 sec., for 60 sec. Attacks deal 26% more damage to afflicted enemies.\\nWhen a party member attacks, this increases by 11%.",
                     "icons": ["/class-icons/explorers/hero/hexa-puncture.png", "/class-icons/explorers/hero/puncture.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

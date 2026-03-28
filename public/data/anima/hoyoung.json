@@ -14,11 +14,12 @@
         "innerAbility": [
             {
                 "name": "For Bossing",
-                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Damage to Abnormal Status +8%"]
+                "abilities": ["Passive Skills +1", "Boss Damage +10%", "Damage to monsters inflicted with Abnormal Status +8%"]
             },
             {
                 "name": "For Training",
-                "abilities": ["Meso Obtained +20%", "Item Drop Rate +15%", "Damage to Normal Monsters +8%"]
+                "abilities": ["Meso Obtained / Item Drop Rate +20%", "Meso Obtained / Item Drop Rate +15%", "Damage to Normal Monsters +8%"],
+                "notes": "Depending on what's chosen as the 1st Line, choose the other for the 2nd Line"
             }
         ],
         "attackStats": [
@@ -84,10 +85,10 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/anima/hoyoung/talisman-clone.png} tip={Talisman: Clone (2nd Job)} dur={[200s](Talisman)}> <tt src={/class-icons/anima/hoyoung/ritual-fan-acceleration.png} tip={Ritual Fan Acceleration (2nd Job)} dur={[200s]}> <tt src={/class-icons/anima/hoyoung/scroll-butterfly-dream.png} tip={Scroll: Butterfly Dream (4th Job)} dur={[100s](Scroll)}>",
-            "summons": "<tt src={/class-icons/anima/hoyoung/talisman-seeking-ghost-flame.png} tip={Talisman: Seeking Ghost Flame (3rd Job)} dur={[90s](Talisman)}> <tt src={/class-icons/anima/hoyoung/talisman-warp-gate.png} tip={Talisman: Warp Gate (4th Job)} dur={[100s](5s cd | Talisman)}> <tt src={/class-icons/anima/hoyoung/scroll-star-vortex.png} tip={Scroll: Star Vortex (4th Job)} dur={[40s](Scroll)}> <tt src={/class-icons/anima/hoyoung/scroll-tiger-of-songyu.png} tip={Scroll: Tiger of Songyu (5th Job)} dur={[40s](120s cd | Scroll)}>",
+            "summons": "<tt src={/class-icons/anima/hoyoung/talisman-seeking-ghost-flame.png} tip={Talisman: Seeking Ghost Flame (3rd Job)} dur={[90s](Talisman)}> <tt src={/class-icons/anima/hoyoung/talisman-warp-gate.png} tip={Talisman: Warp Gate (4th Job)} dur={[100s](5s cd | Talisman)}> <tt src={/class-icons/anima/hoyoung/scroll-star-vortex.png} tip={Scroll: Star Vortex (4th Job)} dur={[40s](Scroll)}> <tt src={/class-icons/anima/hoyoung/scroll-tiger-of-songyu.png} tip={Scroll: Tiger of Songyu (5th Job)} dur={[40s](120s cd | Scroll)}> <tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[1800s](400s cd | 1400s cd on revive)}>",
             "buffCd": "<tt src={/class-icons/anima/hoyoung/sage-tai-yus-miracle-tonic.png} tip={Sage: Tai Yu's Miracle Tonic (Hyper Skill)} dur={[9s](60s cd)}> <tt src={/class-icons/anima/hoyoung/sage-clone-rampage.png} tip={Sage: Clone Rampage (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/anima/hoyoung/sage-wrath-of-god.png} tip={Sage: Wrath of Gods (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/anima/hoyoung/sage-three-paths-apparition.png} tip={Sage: Three Paths Apparition (5th Job)} dur={[20s](60s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/anima/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/anima/hoyoung/sage-tai-yu-clone.png} tip={Sage: Tai Yu Clone (Hyper Skill)} dur={[11s](120s cd)}> <tt src={/class-icons/anima/hoyoung/sage-apothesis.png} tip={Sage: Apothesis (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/anima/hoyoung/out-of-sight.png} tip={Out of Sight (2nd Job)} dur={[2s](Dark Sight)}> <tt src={/class-icons/anima/hoyoung/sage-dream-of-shangri-la.png} tip={Sage: Dream of Shangri-La (Hyper Skill)} dur={[Up to 20s](200 - 23.3s cd based on remaining duration)}> <tt src={/class-icons/anima/hoyoung/sage-wrath-of-god.png} tip={Sage: Wrath of Gods (5th Job)} dur={(180s cd)}> <tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[3.5s iFrame | 1800s Buff](400s cd | 1400s cd on revive)}> <tt src={/class-icons/anima/hoyoung/sage-apothesis.png} tip={Sage: Apothesis (6th Job)} dur={(360s cd)}>"
+            "iFrame": "<tt src={/class-icons/anima/hoyoung/out-of-sight.png} tip={Out of Sight (2nd Job)} dur={[2s](Dark Sight)}> <tt src={/class-icons/anima/hoyoung/sage-dream-of-shangri-la.png} tip={Sage: Dream of Shangri-La (Hyper Skill)} dur={[Up to 20s](200 - 23.3s cd based on remaining duration)}> <tt src={/class-icons/anima/hoyoung/sage-wrath-of-god.png} tip={Sage: Wrath of Gods (5th Job)} dur={(180s cd)}> <tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[4.5s iFrame | 1800s Buff](400s cd | 1400s cd on revive)}> <tt src={/class-icons/anima/hoyoung/sage-apothesis.png} tip={Sage: Apothesis (6th Job)} dur={(360s cd)}>"
         },        
         "linkSkill": {
             "id": 80000609,
