@@ -245,7 +245,7 @@ export const commonFifth = {
     },
     cygnusBlessing:{
         "name": "Empress Cygnus's Blessing",
-        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage: +61%\\nPeriodically restores 4% HP\\nCooldown: 120 sec.\\n--------\\nMP Cost: 500, Duration: 45 sec, Damage: +72%, Damage Taken: -5% (includes damage proportional to Max HP)>\\nPeriodically restores 8% HP\\nCooldown: 120 sec.",
+        "shortDesc": "MP Cost: 500, Duration: 45 sec, Damage: +61%\\nPeriodically restores 4% HP\\nCooldown: 120 sec.\\n--------\\nMP Cost: 500, Duration: 45 sec, Damage: +72%, Damage Taken: -5% (includes damage proportional to Max HP)\\nPeriodically restores 8% HP\\nCooldown: 120 sec.",
         "icons": ["/class-icons/5th-job/empress-cygnuss-blessing.png", "/class-icons/5th-job/transcendent-cygnuss-blessing.png"],
         "animations": ["https://media4.giphy.com/media/o4zWBHJ69l1pd4x9hf/giphy.gif", "https://media2.giphy.com/media/oHDJdfZZm1KEBCm9n7/giphy.gif"],
         "type": "Buff",
