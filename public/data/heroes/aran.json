@@ -244,14 +244,14 @@
                     },
                     {
                         "name": "Final Charge",
-                        "shortDesc": "MP Cost: 20, Damage: 200%, Max Enemies Hit: 6\\nWhile using Beyond Blade, Cooldown: 3 sec.",
+                        "shortDesc": "MP Cost: 20, Damage: 200%, Max Enemies Hit: 6\\nWhile using Beyond Blade, Cooldown: 2 sec.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/heroes/aran/final-charge.png"],
                         "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnU3c2p2MHZydGF4bW40YTNsYXVvejB2NGdrNmsxbzF6d3NxZTE3dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0Hd8jTRrlfFLhFXvyu/giphy.gif"],
                         "type": "Attack",
                         "desc": "Dash forward and push enemies back",
                         "details": [
-                            "Can be used while casting <tt src={/class-icons/heroes/aran/beyond-blade-3.png} tip={Beyond Blade (2nd Job)}> but has a cooldown",
+                            "Can be used while casting <tt src={/class-icons/heroes/aran/beyond-blade-3.png} tip={Beyond Blade (2nd Job)}> but has a cooldown<bp_Unaffected by cooldown resets_>",
                             "[Command] ↓ + → + Attack / ↓ + ← + Attack"
                         ]
                     },
@@ -264,7 +264,7 @@
                         "type": "Attack",
                         "desc": "Leap into the air while lifting enemies",
                         "details": [
-                            "[Command] ↑ + Attack<bp_Command version increases jump height_>",
+                            "[Command] ↑ + Attack",
                             "Can be used twice"
                         ]
                     },
@@ -414,14 +414,14 @@
                     },
                     {
                         "name": "Adrenaline Rush Activate",
-                        "shortDesc": "Available upon reaching 1,000 combos.\\nOnce Adrenaline Rush ends, you'll earn back combos based on the number of direct skill attacks landed while Adrenaline Rush was active.\\nEarn back 30%, 60%, or 100% of 500 combos for every 8 attacks landed\\nCooldown: 60 sec",
+                        "shortDesc": "Available upon reaching 1,000 combos.\\nOnce Adrenaline Rush ends, you earn back 500 combo(s).\\nCooldown: 60 sec",
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/aran/adrenaline-rush-activate.png"],
                         "type": "Active",
                         "desc": "At 1000 Combo stack, using this skill will activate Adrenaline state",
                         "details": [
                             "Shares Skill Points (SP) with <tt src={/class-icons/heroes/aran/adrenaline-rush.png} tip={Adrenaline Rush (3rd Job)}>",
-                            "After Adrenaline Rush ends, Combo stacks are reset but can be refunded based on the number of successful direct attack skills while Adrenaline Rush was active",
+                            "After Adrenaline Rush ends, 500 Combo stacks are refunded",
                             "In 4th Job, pressing the Skill Key again during Adrenaline Rush after 10 successful attacks will activate <tt src={/class-icons/heroes/aran/adrenaline-overload.png} tip={Adrenaline Overload (4th Job)}> Adrenal Awakening<bp_When activating <tt src={/class-icons/heroes/aran/adrenaline-rush.png} tip={Adrenaline Rush (3rd Job)}> Adrenaline Rush, if the Down Arrow Key and Skill Key is pressed together, once the requirement to activate <tt src={/class-icons/heroes/aran/adrenaline-overload.png} tip={Adrenaline Overload (4th Job)}> Adrenal Awakening is met, it will automatically activate_Right-clicking the skill will also toggle ON/OFF the function to automatically activate <tt src={/class-icons/heroes/aran/adrenaline-overload.png} tip={Adrenaline Overload (4th Job)}> Adrenal Awakening once the requirement is met_>"
                         ]
                     },
@@ -726,7 +726,7 @@
                 },
                 {
                     "name": "Maha's Carnage",
-                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 1210%, Number of Attacks: 12, Chase Cut Activation Count: 4, Boss Damage: +20%\\nCooldown: 20 sec\\nCooldown reduced by 50% when Adrenaline Rush and Adrenal Awakening are not active.",
+                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 1320%, Number of Attacks: 12, Chase Cut Activation Count: 4, Boss Damage: +20%\\nCooldown: 20 sec\\nCooldown reduced by 50% when Adrenaline Rush and Adrenal Awakening are not active.",
                     "icons": ["/class-icons/heroes/aran/mahas-carnage.png"],
                     "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGplNXduYzI5bTc1OXN1NmhkeHpvcHAwN2trbnhvaHdwNjVuNmkweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pQcLPgiKQPuvjOGbCx/giphy.gif"],
                     "type": "Attack",
@@ -740,7 +740,7 @@
                 },
                 {
                     "name": "Final Beyond Blade - White Tiger",
-                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 10, Damage: 815%, Number of Attacks: 7\\nCritical Rate: +100%, Ignore Defense: +50%\\nCan be used after Beyond Blade's 3rd hit",
+                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 10, Damage: 962%, Number of Attacks: 7\\nCritical Rate: +100%, Ignore Defense: +50%\\nCan be used after Beyond Blade's 3rd hit",
                     "icons": ["/class-icons/heroes/aran/final-beyond-blade-white-tiger.png", "/class-icons/heroes/aran/beyond-blade-3.png"],
                     "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJqNWVlYjVjNXJleTNiYnlpNjR5YTZsZjN4Y2VzMXE4Njc2YThseCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QdUCErpaIEtvlpBjki/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -753,7 +753,7 @@
                 },
                 {
                     "name": "Blizzard Tempest",
-                    "shortDesc": "MP Cost: 1200, using the skill increases combos to 200 and afflicts up to 10 enemies.\\nActivates an aura for 20 sec after the attack, which periodically afflicts up to 5 enemies with the Dire Wolf's Curse.\\nReusing the skill ends the it immediately\\nDire Wolf's Curse: lasts 15 seconds, hitting afflicted enemies with direct skill attacks increases the duration up to 20 seconds, and ice shards appear for additional attacks. The curse can be stacked up to 6 times, increasing the ice shard attack count proportionally 1 times.\\nIce Chunks: Max Enemies Hit: 15, Damage: 1320%, Number of Attacks: 4, Cooldown: 0.4 sec\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 1200, using the skill increases combos to 200 and afflicts up to 10 enemies.\\nActivates an aura for 20 sec after the attack, which periodically afflicts up to 5 enemies with the Dire Wolf's Curse.\\nReusing the skill ends the it immediately\\nDire Wolf's Curse: lasts 15 seconds, hitting afflicted enemies with direct skill attacks increases the duration up to 20 seconds, and ice shards appear for additional attacks. The curse can be stacked up to 6 times, increasing the ice shard attack count proportionally 1 times.\\nIce Chunks: Max Enemies Hit: 15, Damage: 1390%, Number of Attacks: 4, Cooldown: 0.4 sec\\nCooldown: 60 sec",
                     "icons": ["/class-icons/heroes/aran/blizzard-tempest.png"],
                     "animations": ["https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGl5ODU4cjdzb251a2ViN3JhdTBvb2Jka3VxY2Fmenp4ejNsdW8xMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HpcrzHbF9l2UoRZQtO/giphy.gif"],
                     "type": "Buff Attack",
@@ -895,7 +895,7 @@
                 },
                 {
                     "name": "HEXA Beyond Blade",
-                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 7\\nPress the skill key to attack consecutively up to three more times.\\nBeyond Blade - Black Tortoise: Deal 675% damage 5 times.\\nBeyond Blade - Vermillion Bird: Deal 675% damage 5 times.\\nBeyond Blade - Azure Dragon: Deal 675% damage 5 times.\\nCritical Rate: +100%, Ignore Defense: 30%\\nMaha appears every 4 seconds to deal an additional 630% damage 6 times to a maximum of 3 enemies.",
+                    "shortDesc": "MP Cost: 52, Max Enemies Hit: 7\\nPress the skill key to attack consecutively up to three more times.\\nBeyond Blade - Black Tortoise: Deal 805% damage 5 times.\\nBeyond Blade - Vermillion Bird: Deal 805% damage 5 times.\\nBeyond Blade - Azure Dragon: Deal 805% damage 5 times.\\nCritical Rate: +100%, Ignore Defense: 30%\\nMaha appears every 4 seconds to deal an additional 760% damage 6 times to a maximum of 3 enemies.",
                     "icons": ["/class-icons/heroes/aran/hexa-beyond-blade.png", "/class-icons/heroes/aran/beyond-blade-3.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -916,7 +916,7 @@
                 },
                 {
                     "name": "HEXA Finisher - Hunter's Prey",
-                    "shortDesc": "MP Cost: 250, can hold down the key for up to 6 seconds, and become invincible for 2 seconds after releasing the key.\\nDamage: 1530%, Number of Attacks: 15, Chase Cut Activation Count: 10, Max Enemies Hit: 10\\nCooldown: 30 sec\\n[Passive Effect: HEXA Beyond Blade Damage: +135% points]",
+                    "shortDesc": "MP Cost: 250, can hold down the key for up to 6 seconds, and become invincible for 2 seconds after releasing the key.\\nDamage: 1530%, Number of Attacks: 15, Chase Cut Activation Count: 10, Max Enemies Hit: 10\\nCooldown: 30 sec\\n[Passive Effect: HEXA Beyond Blade Damage: +155% points]",
                     "icons": ["/class-icons/heroes/aran/hexa-hunters-prey.png", "/class-icons/heroes/aran/hunters-prey.png"],
                     "type": "Upgraded Passive",
                     "desc": "",

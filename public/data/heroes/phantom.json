@@ -658,7 +658,7 @@
             "fifthMain": [
                 {
                     "name": "Luck of the Draw",
-                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 5 sec. Attack by periodically throwing multiple cards forward. Damage: 820%, Number of Attacks: 1. Damage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nWhen finished, draws a card to buff all party members for 30 sec.\\nPriest - Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -8%, Abnormal Status Resistance: +25\\nHourglass - Active Cooldowns shortened by 32% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +6%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 1000, Can hold the key down for up to 5 sec. Attack by periodically throwing multiple cards forward. Damage: 820%, Max Enemies Hit: 4, Number of Attacks: 1. Damage taken while the key is held, including attacks that deal damage in proportion to Max HP: -50%\\nWhen finished, draws a card to buff all party members for 30 sec.\\nPriest - Recovers 2% Max HP/MP over time.\\nTree of Life - All Damage Taken: -8%, Abnormal Status Resistance: +25\\nHourglass - Active Cooldowns shortened by 32% (except skills that ignore cooldown resets).\\nThree Swords - Final Damage +6%.\\nLuck of the Draw - Gain all card buffs simultaneously.\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/heroes/phantom/luck-of-the-draw.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHl2NHh6NmZ3djc4YTc5YWt2b3locDVxOTM3cGcyZmx3Z2pkNHNrZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t94bodRK2MDk1hxCql/giphy.gif"],
                     "type": "Key-down Attack",
@@ -675,27 +675,26 @@
                     "icons": ["/class-icons/heroes/phantom/ace-in-the-hole.png"],
                     "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWw2eDE0YnlqZ3Z5eGI5eWo5cjJqcjhmMjlzZ3QwY2QyM29zamJ6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kTwnQ3xIpL4tCM0CjI/giphy.gif", "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTl5OGk4bDQ3bmkxazVkanp3dWp1ODh1Z3l0NG8zODVpa3k5bTFmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wVNaKXtjsdFkiXx0CP/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Throw several cards that bounces around before unleashing a final attack",
+                    "desc": "Throw several cards that bounce around before unleashing a final attack",
                     "details": [
                         "Pressing the Down Arrow Key and the Skill Key together will instead activate a special final attack in a large area<bp_The number of attacks increase based on how many bounces remain for the cards_>",
                         "Pressing the Skill Key while the skill is active will cause the cards to gather towards the enemy with the highest Max HP and deal the final attack",
                         "If there are no enemies nearby, the final attack will activate instantly when the attack ends",
+                        "Can be used without a casting animation during <tt src={/class-icons/heroes/phantom/tempest.png} tip={Tempest (4th Job)}>",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Phantom's Mark",
-                    "shortDesc": "MP Cost: 1000. Requires 7 Master Thief Marks, if there is no enemy already marked as a target. Uses all Master Thief Marks upon skill activation.\\nInvincible for 2 sec after moving.\\nActivates a trajectory 7 time(s) dealing 935% damage 6 time(s) and complete the Master Thief Mark, activating 2 times and dealing 1430% damage 15 time(s). For all attacks, Max Enemies Hit: 10, Additional Critical Rate: +100%\\nEnemies hit with a Cane skill or Tempest get a debuff for 30 sec. Targets the enemy with 7 stacks.\\nMille Aiguilles, Tempest, and Rift Break must hit targets 7 times more than other skills to mark an enemy or earn Master Thief Marks.\\nAttack skills that utilize Impeccable Memory must hit 5 times.\\n Cooldown: 30 sec.",
+                    "shortDesc": "MP Cost: 1000. Invincible for 2 sec after moving.\\nActivates 7 trajectories dealing 935% damage 6 time(s) and complete the Master Thief Mark, activating 2 times and dealing 1430% damage 15 time(s). For all attacks, Max Enemies Hit: 10, Additional Critical Rate: +100%\\nCooldown: 30 sec.",
                     "icons": ["/class-icons/heroes/phantom/phantoms-mark.png"],
-                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnZhenFhY2R3Z3cwY2VoY3F1MWV2cWI0bGZ1a296Nm1rcHJ3NzdkMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aAd2o6k5Vmc3QTpAku/giphy.gif"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTFnbnR6N3V0d2U5Mml2dzVhNzNhYmUyM2c0aXVlbGF3bXgyMXRjZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HWqzLkIqXOKrWCK8uT/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Cane skill attacks mark enemies with [Phantom Thief's Mark] and grant stacks of [Master Thief Mark]. When used, teleport behind the target with the most stacks",
+                    "desc": "Teleport behind a target and unleash several strikes",
                     "details": [
-                        "Both [Phantom Thief's Mark] and [Master Thief Mark] accumulate up to 7 stacks<bp_The attack will target the enemy with the most [Phantom Thief's Mark]_Upon reaching 7 stacks of [Master Thief Mark] and no enemies are marked, the enemy with the highest max HP will be targeted_>",
+                        "Priortizes bosses with the highest max HP",
                         "When used, grants invinciblity briefly after teleporting", 
-                        "Attack is a guaranteed Critical Hit",
-                        "<tt src={/class-icons/heroes/phantom/mille-aiguilles.png} tip={Mille Aiguilles (4th Job)}> and <tt src={/class-icons/heroes/phantom/tempest.png} tip={Tempest (4th Job)}> must hit an enemy 7 times to gain a stack of [Master Thief Marks]",
-                        "Immpeccable Memory attacks must hit an enemy 5 times to gain a stack of [Master Thief Marks]"
+                        "Attack is a guaranteed Critical Hit"
                     ]
                 },
                 {
@@ -883,7 +882,7 @@
                 },
                 {
                     "name": "HEXA Tempest",
-                    "shortDesc": "MP Cost per attack: 25, Can hold key down for up to 3 sec, Max Enemies Hit: 8, Damage: 850%, Number of Attacks: 4\\nEnemy DEF Ignored: 20% for 60\\nCooldown: 18 sec",
+                    "shortDesc": "MP Cost per attack: 25, Can hold key down for up to 2 sec, Max Enemies Hit: 8, Damage: 746%, Number of Attacks: 4\\nEnemy DEF Ignored: 20% for 60\\nCooldown: 18 sec",
                     "icons": ["/class-icons/heroes/phantom/hexa-tempest.png", "/class-icons/heroes/phantom/tempest.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -904,7 +903,7 @@
                 },
                 {
                     "name": "HEXA Mille Aiguilles",
-                    "shortDesc": "MP Cost per Attack: 17, Damage: 485%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.\\n------HEXA Mille Aiguilles: Fortune------\\nMP Cost: 75, Max Enemies Hit: 7, Damage: 670%, Number of Attacks: 6",
+                    "shortDesc": "MP Cost per Attack: 17, Damage: 432%, Max Enemies Hit: 6, Number of Hits: 3\\nWhile pressing the skill key, use the directional keys to move.\\n------HEXA Mille Aiguilles: Fortune------\\nMP Cost: 75, Max Enemies Hit: 7, Damage: 670%, Number of Attacks: 6",
                     "icons": ["/class-icons/heroes/phantom/hexa-mille-aiguilles.png", "/class-icons/heroes/phantom/hexa-mille-aiguilles-fortune.png", "/class-icons/heroes/phantom/mille-aiguilles.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
