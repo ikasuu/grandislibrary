@@ -54,18 +54,18 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+8%",
-                "detail": "<bg src={/class-icons/resistance/xenon/xenon-expert.png} tip={Xenon Expert (4th Job)} val={+8%}>"
+                "stat": "+6%",
+                "detail": "<bg src={/class-icons/resistance/xenon/xenon-expert.png} tip={Xenon Expert (4th Job)} val={+6%}>"
             },
             {
                 "name": "Damage",
                 "stat": "+40%(90%)",
-                "detail": "<bg src={/class-icons/resistance/xenon/multilateral-iv.png} tip={Multilateral VI (4th Job)} val={+40%}> <bg type={temp} src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/resistance/xenon/hypogram-field-fusion.png} tip={Hypogram Field: Fusion (5th Job)} val={+20% within field}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "detail": "<bg src={/class-icons/resistance/xenon/multilateral-iv.png} tip={Multilateral VI (4th Job)} val={+40%}> <bg type={temp} src={/class-icons/resistance/xenon/core-overload.png} tip={Core Overload (5th Job)} val={+10%}> <bg type={temp} src={/class-icons/resistance/xenon/hypogram-field-fusion.png} tip={Hypogram Field: Fusion (5th Job)} val={+20% within field}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
-                "stat": "+30%",
-                "detail": "<bg src={/class-icons/resistance/xenon/ooparts-code.png} tip={OOPArts Code (4th Job)} val={+30%}>"
+                "stat": "+24%",
+                "detail": "<bg src={/class-icons/resistance/xenon/ooparts-code.png} tip={OOPArts Code (4th Job)} val={+24%}>"
             },
             {
                 "name": "Final Damage",
@@ -75,16 +75,17 @@
             {
                 "name": "Ignore DEF",
                 "stat": "+30%(51%)",
-                "detail": "<bg src={/class-icons/resistance/xenon/offensive-matrix.png} tip={Offensive Matrix (4th Job)} val={+30%}> × <bg type={debuff} src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)} val={+30%}>"
+                "detail": "<bg src={/class-icons/resistance/xenon/offensive-matrix.png} tip={Offensive Matrix (4th Job)} val={+30%}> × <bg type={temp} src={/class-icons/resistance/xenon/core-overload.png} tip={Core Overload (5th Job)} val={+30%}>"
             }
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/resistance/xenon/manifest-projector.png} tip={Manifest Projector (3rd Job)}>[1000% Max HP damage taken] | <bold text={Energy Skills}> <tt src={/class-icons/resistance/xenon/circuit-surge.png} tip={Circuit Surge (1st Job)} dur={[240s](3 Energy)}> <tt src={/class-icons/resistance/xenon/ooparts-code.png} tip={OOPArts Code (4th Job)} dur={[60s](20 Energy)}>",
             "toggles": "<tt src={/class-icons/resistance/xenon/salvo-system.png} tip={Salvo System (1st Job)}>",
-            "summons": "[ <tt src={/class-icons/resistance/xenon/hypogram-field-penetrate.png} tip={Hypogram Field: Penetrate (4th Job)}> / <tt src={/class-icons/resistance/xenon/hypogram-field-force-field.png} tip={Hypogram Field: Force Field (4th Job)}> / <tt src={/class-icons/resistance/xenon/hypogram-field-support.png} tip={Hypogram Field: Support (4th Job)}> ][60s] <tt src={/class-icons/resistance/xenon/hypogram-field-fusion.png} tip={Hypogram Field: Fusion (5th Job)} dur={[20s](60s cd)}> <tt src={/class-icons/5th-job/resistance-infantry.png} tip={Resistance Infantry (5th Job)} dur={[15s](60s cd)}>",
-            "buffCd": "<tt src={/class-icons/resistance/xenon/amaranth-generator.png} tip={Amaranth Generator (Hyper Skill)} dur={[10s](60s cd)}> <tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)} dur={[25s](50s cd)}> <tt src={/class-icons/resistance/xenon/core-overload.png} tip={Core Overload (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>[1s cd](180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "summons": "[ <tt src={/class-icons/resistance/xenon/hypogram-field-force-field.png} tip={Hypogram Field: Force Field (4th Job)}> / <tt src={/class-icons/resistance/xenon/hypogram-field-support.png} tip={Hypogram Field: Support (4th Job)}> ][60s] <tt src={/class-icons/resistance/xenon/hypogram-field-fusion.png} tip={Hypogram Field: Fusion (5th Job)} dur={[20s](60s cd)}> <tt src={/class-icons/5th-job/resistance-infantry.png} tip={Resistance Infantry (5th Job)} dur={[15s](60s cd)}>",
+            "buffCd": "<tt src={/class-icons/resistance/xenon/amaranth-generator.png} tip={Amaranth Generator (Hyper Skill)} dur={[10s](60s cd)}> <tt src={/class-icons/resistance/xenon/core-overload.png} tip={Core Overload (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>[1s cd](180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/resistance/xenon/entangling-lash.png} tip={Entangling Lash (Hyper Skill)} dur={[10s](120s cd)}> <tt src={/class-icons/resistance/xenon/artificial-evolution.png} tip={Artificial Evolution (6th Job)} dur={[10s](360s cd)}>",
-            "iFrame": "<tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)} dur={(50s cd)}> <tt src={/class-icons/resistance/xenon/omega-blaster.png} tip={Omega Blaster (5th Job)} dur={[Up to 6s](100s cd)}> <tt src={/class-icons/resistance/xenon/artificial-evolution.png} tip={Artificial Evolution (6th Job)} dur={(360s cd)}>"
+            "iFrame": "<tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)} dur={(50s cd)}> <tt src={/class-icons/resistance/xenon/artificial-evolution.png} tip={Artificial Evolution (6th Job)} dur={(360s cd)}> <tt src={/class-icons/resistance/xenon/omega-blaster.png} tip={Omega Blaster (5th Job)} dur={[2s - Only during Origin ](120s cd)}>",
+            "damageReduce": "<tt src={/class-icons/resistance/xenon/omega-blaster.png} tip={Omega Blaster (5th Job)} dur={[Up to 3.5s](-50% | 120s cd)}>"
         },        
         "linkSkill": {
             "id": 80000047,
@@ -100,7 +101,7 @@
                 ["1st Job", "<tt src={/class-icons/resistance/xenon/salvo-system.png} tip={Salvo System}> -> <tt src={/class-icons/resistance/xenon/propulsion-burst.png} tip={Propulsion Burst}> -> <tt src={/class-icons/resistance/xenon/radial-nerve.png} tip={Radial Nerve}> -> <tt src={/class-icons/resistance/xenon/circuit-surge.png} tip={Circuit Surge}> -> <tt src={/class-icons/resistance/xenon/beam-spline.png} tip={Beam Spline}>"],
                 ["2nd Job", "<tt src={/class-icons/resistance/xenon/salvo-system-boost-a.png} tip={Salvo System Boost A}> -> <tt src={/class-icons/resistance/xenon/structural-integrity.png} tip={Structural Integrity}> -> <tt src={/class-icons/resistance/xenon/xenon-mastery.png} tip={Xenon Mastery}> -> <tt src={/class-icons/resistance/xenon/xenon-booster.png} tip={Xenon Booster}> -> <tt src={/class-icons/resistance/xenon/efficiency-streamline.png} tip={Efficiency Streamline}> -> <tt src={/class-icons/resistance/xenon/perspective-shift.png} tip={Perspective Shift}> -> <tt src={/class-icons/resistance/xenon/quicksilver-flash.png} tip={Quicksilver: Flash}> -> <tt src={/class-icons/resistance/xenon/ion-thrust.png} tip={Ion Thrust}>"],
                 ["3rd Job", "<tt src={/class-icons/resistance/xenon/salvo-system-boost-b.png} tip={Salvo System Boost B}> -> <tt src={/class-icons/resistance/xenon/emergency-resupply.png} tip={Emergency Resupply}> -> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation}> -> <tt src={/class-icons/resistance/xenon/manifest-projector.png} tip={Manifest Projection}> -> <tt src={/class-icons/resistance/xenon/hybrid-defenses.png} tip={Hybrid Defenses}> -> <tt src={/class-icons/resistance/xenon/combat-switch-explosion.png} tip={Combat Switch: Explosion}> -> <tt src={/class-icons/resistance/xenon/diagonal-chase.png} tip={Diagonal Chase}> -> <tt src={/class-icons/resistance/xenon/gravity-pillar.png} tip={Gravity Pillar}>"],
-                ["4th Job", "<tt src={/class-icons/resistance/xenon/salvo-system-perfect-boost.png} tip={Salvo System Perfect Boost}> -> <tt src={/class-icons/resistance/xenon/xenon-expert.png} tip={Xenon Expert}> -> <tt src={/class-icons/resistance/xenon/instant-shock.png} tip={Instant Shock}> -> <tt src={/class-icons/resistance/xenon/offensive-matrix.png} tip={Offensive Matrix}> -> <tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={Mecha Purge: Snipe}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/resistance/xenon/ooparts-code.png} tip={OOPArts Code}> -> <tt src={/class-icons/resistance/xenon/beam-dance.png} tip={Beam Dance}> -> <tt src={/class-icons/resistance/xenon/hypogram-field-penetrate.png} tip={Hypogram Field: Penetrate}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
+                ["4th Job", "<tt src={/class-icons/resistance/xenon/salvo-system-perfect-boost.png} tip={Salvo System Perfect Boost}> -> <tt src={/class-icons/resistance/xenon/xenon-expert.png} tip={Xenon Expert}> -> <tt src={/class-icons/resistance/xenon/instant-shock.png} tip={Instant Shock}> -> <tt src={/class-icons/resistance/xenon/offensive-matrix.png} tip={Offensive Matrix}> -> <tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={Mecha Purge: Snipe}> -> <tt src={/class-icons/common/maple-warrior.png} tip={Maple Warrior}> -> <tt src={/class-icons/resistance/xenon/ooparts-code.png} tip={OOPArts Code}> -> <tt src={/class-icons/resistance/xenon/beam-dance.png} tip={Beam Dance}> -> <tt src={/class-icons/resistance/xenon/hypogram-field-force-field.png} tip={Hypogram Field: Force Field}> -> <tt src={/class-icons/common/heros-will.png} tip={Hero's Will}>"]
             ],              
             "details": [
                 "All 1st to 4th Job skills can be maxed",
@@ -109,12 +110,12 @@
             ]
         },
         "hyperBuild": {
-            "recommended": "<bp_<tt src={/class-icons/resistance/xenon/beam-dance-reinforce.png} tip={Beam Dance - Reinforce}> Beam Dance - Reinforce_<tt src={/class-icons/resistance/xenon/mecha-purge-reinforce.png} tip={Mecha Purge - Reinforce}> Mecha Purge - Reinforce_<tt src={/class-icons/resistance/xenon/hypogram-field-reinforce.png} tip={Hypogram Field - Reinforce}> <tt src={/class-icons/resistance/xenon/hypogram-field-speed.png} tip={Hypogram Field - Speed}> <tt src={/class-icons/resistance/xenon/hypogram-field-persist.png} tip={Hypogram Field - Persist}> Hypogram Field - Reinforce, Speed, and Persist_>" 
+            "recommended": "<bp_<tt src={/class-icons/resistance/xenon/beam-dance-reinforce.png} tip={Beam Dance - Reinforce}> Beam Dance - Reinforce_<tt src={/class-icons/resistance/xenon/mecha-purge-reinforce.png} tip={Mecha Purge - Reinforce}> Mecha Purge - Reinforce_<tt src={/class-icons/resistance/xenon/hypogram-field-reinforce.png} tip={Hypogram Field - Reinforce}> <tt src={/class-icons/resistance/xenon/hypogram-field-extra-strike.png} tip={Hypogram Field - Extra Strike}> <tt src={/class-icons/resistance/xenon/hypogram-field-persist.png} tip={Hypogram Field - Persist}> Hypogram Field - Reinforce, Extra Strike, and Persist_>" 
         },
         "nodeInfo": {
             "recommended": {
                 "nodes": [
-                    ["Primary Trio", "<tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={All Mecha Purge (4th Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-penetrate.png} tip={All Hypogram Field (4th Job)}> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}>"],
+                    ["Primary Trio", "<tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={All Mecha Purge (4th Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-boost.png} tip={All Hypogram Field (4th Job)}> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}>"],
                     ["Secondary Trio", "<tt src={/class-icons/resistance/xenon/salvo-system.png} tip={Salvo System (1st Job)}> <tt src={/class-icons/resistance/xenon/beam-dance.png} tip={Beam Dance (4th Job)}> <tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)}>"]
                 ],
                 "notes": [
@@ -123,7 +124,7 @@
                 ]
             },
             "possible": {
-                "nodes": "<tt src={/class-icons/resistance/xenon/beam-spline.png} tip={Beam Spline (1st Job)}> <tt src={/class-icons/resistance/xenon/salvo-system.png} tip={Salvo System (1st Job)}> <tt src={/class-icons/resistance/xenon/quicksilver-flash.png} tip={All Quicksilver (2nd Job)}> <tt src={/class-icons/resistance/xenon/ion-thrust.png} tip={Ion Thrust (2nd Job)}> <tt src={/class-icons/resistance/xenon/combat-switch-explosion.png} tip={All Combat Switch (3rd Job)}> <tt src={/class-icons/resistance/xenon/diagonal-chase.png} tip={Diagonal Chase (3rd Job)}> <tt src={/class-icons/resistance/xenon/gravity-pillar.png} tip={Gravity Pillar (3rd Job)}> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}> <tt src={/class-icons/resistance/xenon/beam-dance.png} tip={Beam Dance (4th Job)}> <tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={All Mecha Purge (4th Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-penetrate.png} tip={All Hypogram Field (4th Job)}> <tt src={/class-icons/resistance/xenon/entangling-lash.png} tip={Entangling Lash (Hyper Skill)}> <tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)}>"
+                "nodes": "<tt src={/class-icons/resistance/xenon/beam-spline.png} tip={Beam Spline (1st Job)}> <tt src={/class-icons/resistance/xenon/salvo-system.png} tip={Salvo System (1st Job)}> <tt src={/class-icons/resistance/xenon/quicksilver-flash.png} tip={All Quicksilver (2nd Job)}> <tt src={/class-icons/resistance/xenon/ion-thrust.png} tip={Ion Thrust (2nd Job)}> <tt src={/class-icons/resistance/xenon/combat-switch-explosion.png} tip={All Combat Switch (3rd Job)}> <tt src={/class-icons/resistance/xenon/diagonal-chase-node.png} tip={Diagonal Chase/Horizon Driver (3rd Job)}> <tt src={/class-icons/resistance/xenon/gravity-pillar.png} tip={Gravity Pillar (3rd Job)}> <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}> <tt src={/class-icons/resistance/xenon/beam-dance.png} tip={Beam Dance (4th Job)}> <tt src={/class-icons/resistance/xenon/mecha-purge-snipe.png} tip={All Mecha Purge (4th Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-boost.png} tip={All Hypogram Field (4th Job)}> <tt src={/class-icons/resistance/xenon/entangling-lash.png} tip={Entangling Lash (Hyper Skill)}> <tt src={/class-icons/resistance/xenon/orbital-cataclysm.png} tip={Orbital Cataclysm (Hyper Skill)}>"
             }
         },
         "moreInfo": [
@@ -147,7 +148,7 @@
                 "<img src={https://media3.giphy.com/media/YZ7mLgb9SvuzxjL0zn/giphy.gif} alt={Energy Gauge}>",
                 "Xenon also has a secondary resource called <tt src={/class-icons/resistance/xenon/supply-surplus.png} tip={Supply Surplus (Beginner Skill)}> Supply Surplus (Beginner Skill) which will give you increased stats as the gauge fills up. Additionally, some of Xenon's skills consume the Supply Surplus",
                 "[Modal Shift]",
-                "<img src={https://media2.giphy.com/media/3Q2QxM6AzpNLh7QbQf/giphy.gif} alt={Modal Shift}>",
+                "<img src={https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGsyZXkxcWt5ZDNoY2VmZDJ1aTl6MjNvMHFjMjhhajd2YmtxcXlqMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KzDuRxvfUQpPGmhtAd/giphy.gif} alt={Modal Shift}>",
                 "As well, Xenon can have multiple attack variations that you can switch between using <tt src={/class-icons/resistance/xenon/modal-shift.png} tip={Modal Shift (Beginner Skill)}> Modal Shift (Beginner Skill)"
             ]
         }
@@ -183,7 +184,7 @@
                     "shortDesc": "Use this skill simultaneously with another skill to activate its alternate modes. Reactivate this skill to revert back.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/xenon/modal-shift.png"],
-                    "animations": ["https://media2.giphy.com/media/3Q2QxM6AzpNLh7QbQf/giphy.gif"],
+                    "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGsyZXkxcWt5ZDNoY2VmZDJ1aTl6MjNvMHFjMjhhajd2YmtxcXlqMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KzDuRxvfUQpPGmhtAd/giphy.gif"],
                     "type": "Special Active",
                     "desc": "Allows you to switch between different attacks",
                     "details": [
@@ -436,12 +437,24 @@
                         "shortDesc": "MP Cost: 21, Max Enemies Hit: 6, Damage: 260% to knock back enemies.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/resistance/xenon/diagonal-chase.png"],
-                        "animations": ["https://media1.giphy.com/media/m3WHDo2iuNJhnusWdY/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWlyMjkwdGJvc2licmIwZDlwand2NHhweG52Z2UyeXFmd2puZ3cybyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nDa3Mb2c3PajA0LfRI/giphy.gif"],
+                        "animations": ["https://media1.giphy.com/media/m3WHDo2iuNJhnusWdY/giphy.gif"],
                         "type": "Attack",
                         "desc": "Dash diagonally while pushing back enemies",
                         "details": [
-                            "While on the ground, pressing the Left/Right Arrow Key and Skill Key together will perform a horizontal dash in the direction pressed",
                             "Can be used during <tt src={/class-icons/resistance/xenon/gravity-pillar.png} tip={Gravity Pillar (3rd Job)}>"
+                        ]
+                    },
+                    {
+                        "name": "Horizon Driver",
+                        "shortDesc": "MP Cost: 21, Max Enemies Hit: 6, Damage: 260% to knock back enemies.",
+                        "maxLevel": 20,
+                        "icons": ["/class-icons/resistance/xenon/horizon-driver.png"],
+                        "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWlyMjkwdGJvc2licmIwZDlwand2NHhweG52Z2UyeXFmd2puZ3cybyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nDa3Mb2c3PajA0LfRI/giphy.gif"],
+                        "type": "Attack",
+                        "desc": "Dash forward while pushing back enemies",
+                        "details": [
+                            "Can be used during <tt src={/class-icons/resistance/xenon/gravity-pillar.png} tip={Gravity Pillar (3rd Job)}>",
+                            "Shares the same Skill Points (SP) with <tt src={/class-icons/resistance/xenon/diagonal-chase.png} tip={Diagonal Chase (3rd Job)}>"
                         ]
                     },
                     {
@@ -532,7 +545,7 @@
                 },
                 {
                     "name": "Mecha Purge: Snipe",
-                    "shortDesc": "MP Cost: 25, Damage: 395%, Max Enemies Hit: 1, Number of Attacks: 7, Enemy DEF Ignored: 30%",
+                    "shortDesc": "MP Cost: 25, Damage: 325%, Max Enemies Hit: 1, Number of Attacks: 7, Enemy DEF Ignored: 30%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/xenon/mecha-purge-snipe.png"],
                     "animations": ["https://media1.giphy.com/media/uPco9wNhZXCRKJhnkG/giphy.gif"],
@@ -554,7 +567,7 @@
                 },
                 {
                     "name": "Mecha Purge: Bombardment",
-                    "shortDesc": "MP Cost: 25, Damage: 405%, Number of Attacks: 5, Max Enemies Hit: 15",
+                    "shortDesc": "MP Cost: 25, Damage: 370%, Number of Attacks: 5, Max Enemies Hit: 15",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/xenon/mecha-purge-bombardment.png"],
                     "animations": ["https://media1.giphy.com/media/91ONXKoYSUWOJ9OZxy/giphy.gif"],
@@ -562,25 +575,13 @@
                     "desc": "Fire missiles and lasers forward at multiple enemies"
                 },
                 {
-                    "name": "Hypogram Field: Penetrate",
-                    "shortDesc": "MP Cost: 31, Hypogram Field Duration: 60\\nDamage on contact: 213%",
-                    "maxLevel": 30,
-                    "icons": ["/class-icons/resistance/xenon/hypogram-field-penetrate.png"],
-                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm8yd2JmcjYyYmZodDB2d3l0ZGdxYTI0cXdrZmxxZmhqbmRtZGFuNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e2omYOnOcJitevQVFI/giphy.gif"],
-                    "type": "Modal Summon",
-                    "desc": "Place down a zone with a bouncing orb that damages enemies it collides with",
-                    "details": [
-                        "Unaffected by Damage Reflect"
-                    ]
-                },
-                {
                     "name": "Hypogram Field: Force Field",
-                    "shortDesc": "MP Cost: 31, Hypogram Field Duration: 60 sec.\\nWhenever orb makes contact with the Hypogram Field, Max Enemies Hit: 8, Damage: 400%",
+                    "shortDesc": "MP Cost: 31, Hypogram Field Duration: 60 sec.\\nAttacks up to 8 enemies within the field for 400% damage at set intervals",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/xenon/hypogram-field-force-field.png"],
-                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajA1aDNhbnJ1d2xtN2RjeTlnMWM3ZDlpbDNhaG13djBrZHpwZGt1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7c33vjaG52MteTq81u/giphy.gif"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm4yZHA5eTBkbHJ4NmV4bXlubzBiYnkwaXhmeDl1bmF2ZGpqMWUzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OeNqtbtNDRDPCFzeF2/giphy.gif"],
                     "type": "Modal Summon",
-                    "desc": "Place down a zone with a bouncing orb that damages enemies within each time the orb touches the zone edges",
+                    "desc": "Place down a zone that periodically damages enemies within it",
                     "details": [
                         "Unaffected by Damage Reflect"
                     ]
@@ -599,7 +600,7 @@
                 },
                 {
                     "name": "OOPArts Code",
-                    "shortDesc": "[Supply]\\nEnergy Cost: 20, Duration: 60, Final Damage: +30%, Boss Damage: +30%",
+                    "shortDesc": "[Supply]\\nEnergy Cost: 20, Duration: 60, Final Damage: +30%, Boss Damage: +24%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/xenon/ooparts-code.png"],
                     "animations": ["https://media1.giphy.com/media/pT6K2SQgQyFMiZJaVS/giphy.gif"],
@@ -653,7 +654,7 @@
                 },
                 {
                     "name": "Xenon Expert",
-                    "shortDesc": "Mastery: +70%, Attack Power: +30, Critical Damage: +8%",
+                    "shortDesc": "Mastery: +70%, Attack Power: +30, Critical Damage: +6%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/resistance/xenon/xenon-expert.png", "/class-icons/resistance/xenon/xenon-mastery.png"],
                     "type": "Upgraded Passive",
@@ -756,23 +757,23 @@
                 },
                 {
                     "name": "Hypogram Field - Reinforce",
-                    "shortDesc": "Energy orb damage: +10%",
+                    "shortDesc": "Damage: +10%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/xenon/hypogram-field-reinforce.png"],
                     "type": "Passive",
                     "reqLev": 150
                 },
                 {
-                    "name": "Hypogram Field - Speed",
-                    "shortDesc": "Increases orb speed.",
+                    "name": "Hypogram Field - Extra Strike",
+                    "shortDesc": "Number of Hypogram Field Attacks: +1",
                     "maxLevel": 1,
-                    "icons": ["/class-icons/resistance/xenon/hypogram-field-speed.png"],
+                    "icons": ["/class-icons/resistance/xenon/hypogram-field-extra-strike.png"],
                     "type": "Passive",
                     "reqLev": 165
                 },
                 {
                     "name": "Hypogram Field - Persist",
-                    "shortDesc": "Duration: +10",
+                    "shortDesc": "Duration: +10 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/xenon/hypogram-field-persist.png"],
                     "type": "Passive",
@@ -802,15 +803,13 @@
                 },
                 {
                     "name": "Orbital Cataclysm",
-                    "shortDesc": "MP Cost: 200, Max Enemies Hit: 15, Damage: 1500%, Number of Attacks: 6, DEF: -30% for 10 sec\\nAfter casting, increases damage by 10% for 25 sec, Invincible while casting\\nCooldown: 50 sec",
+                    "shortDesc": "MP Cost: 200, Invincible during casting, Max Enemies Hit: 15, Damage: 1500%, Number of Attacks: 6\\nCooldown: 50 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/xenon/orbital-cataclysm.png"],
                     "animations": ["https://media0.giphy.com/media/yEd2I5HDyqRFEmjJHB/giphy.gif"],
                     "type": "Attack",
-                    "desc": "Fire a laser cannon that damages enemies in a large area and debuffs enemies hit",
+                    "desc": "Fire a laser cannon that damages enemies in a large area",
                     "details": [
-                        "[Debuff]: Reduces %DEF<bp_Reduction to %DEF can be considered as %Ignore DEF_>",
-                        "Upon casting, grants a %Damage buff",
                         "Invincible while casting",
                         "Unaffected by cooldown reduction"
                     ],
@@ -823,47 +822,47 @@
             "fifthMain": [
                 {
                     "name": "Omega Blaster",
-                    "shortDesc": "MP Cost: 1000, Max Enemies Hit: 15, Damage: 440%, Number of Attacks: 6, Duration: 6 sec, Invincible while attacking\\nHold down skill key to charge for up to 90 sec. Duration increases by 1 sec for every 2 sec charged (up to 6 sec max). If you exceed the max charge time, the charge will be canceled.\\nMax Attacks: 76. The effect ends immediately once all attacks have been made.\\nPress the skill key again while attacking to cancel immediately.\\nCooldown: 100 sec., starting after the attack begins.",
+                    "shortDesc": "MP Cost: 1000, Duration: 3.5 sec., Max Enemies Hit: 15, Damage: 660%, Number of Attacks: 6, Number of Attacks: 25. When key-down ends, or the maximum number of attacks is reached, Omega Blaster is deployed, dealing 550% damage 5 times with a reduced attack interval for 4.5 sec.\\nWhile the key is held, damage taken (including attacks that deal damage in proportion to Max HP): -50%\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/resistance/xenon/omega-blaster.png"],
-                    "animations": ["https://media1.giphy.com/media/zzImSpAUXqpHCR2rsp/giphy.gif"],
-                    "type": "Key-down Attack",
-                    "desc": "While held, charge an attack that fires a laser beam forward when the Skill Key is released",
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamI3eHU0NGg3M2ZraTB4OWdkbGF5cG5iNjN3YWU1NDhyNGFmbXY1bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8DB1gtSud7dSkQsz6d/giphy.gif"],
+                    "type": "Key-down Attack / Summon",
+                    "desc": "While held, fire a laser beam forward and then deploy another laser cannon after the key-down ends",
                     "details": [
-                        "Holding down the Skill Key before releasing will increase the skill's duration",
-                        "Pressing the Skill Key again while firing will cancel the attack early",
-                        "After attacking 76 times, the skill ends immediately",
-                        "You are invincible while firing the laser"
+                        "The summoned laser cannon attacks at a slower interval",
+                        "During key-down, the skill ends immediately after 25 attacks",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses"
                     ]
                 },
                 {
                     "name": "Core Overload",
-                    "shortDesc": "MP Cost: 250, Duration: 45 sec.\\nConsumes 1% Max MP + 220 per sec. Allows you to charge 20 additional Surplus Energy. Energy charging time reduced to 1 sec.\\nFinal Damage increases by 1% per Surplus Energy charged.\\nUse skill again to deactivates the effect and the Extra Surplus Energy disappear immediately.\\nPeriodically generates plasma currents that activate electricity 2 times striking up to 12 enemies for 390% damage 6 times.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 35% of Max MP, Duration: 30 sec.\\nWhile active, energy charges beyond 20.\\nFinal Damage increases by 1% per Surplus Energy charged.\\nFor 20 sec., Damage +10%, Ignore Defense +30%\\nUsing the skill again deactivates the effect and the Extra Surplus Energy disappear immediately.\\nPeriodically generates plasma currents that activate electricity 2 times striking up to 12 enemies for 390% damage 6 times.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/resistance/xenon/core-overload.png"],
                     "animations": ["https://media2.giphy.com/media/STPGuLhO2weanpUJnb/giphy.gif"],
                     "type": "Buff",
-                    "desc": "When used, increases your <tt src={/class-icons/resistance/xenon/supply-surplus.png} tip={Supply Surplus (Beginner Skill)}> maximum storage capacity",
+                    "desc": "When used, grants two separate effects:",
                     "details": [
-                        "While active, gain increased %Final Damage for each Energy unit and Energy charging time is reduced to 1 sec",
+                        "[Effect 1]: Surplux Energy gauge can go beyond 20 and gain increased %Final Damage for each Energy unit",
+                        "[Effect 2]: Grants a buff that increases %Damage and %Ignore DEF",
                         "While active, periodically release plasma that damages nearby enemies",
-                        "Pressing the Skill Key again will end the skill early",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Hypogram Field: Fusion",
-                    "shortDesc": "MP cost: 1000, Hologram Field generated for 20 sec.\\nWhenever the orb makes contact with the Hologram Field, Max Enemies Hit: 10, Damage: 550%, Number of Attacks: 5. The same amount of damage is inflicted when the orb touches enemies.\\nDamage inflicted by party members within the field is increased by 20%, 1 surplus energy recharged whenever a party member within the field evades an attack.\\nCooldown: 60 sec",
+                    "shortDesc": "MP Cost: 1000, Hologram Field Duration: 20 sec.\\nPeriodically attack up to 10 enemies for 495% damage 3 times.\\nDamage inflicted by party members within the field is increased by 20%, Power units recharged when allies evade: +1.\\nHypogram Field can be redeployed by using the skill again.\\nRedeployment Cooldown: 3 sec\\nCooldown: 60 sec",
                     "icons": ["/class-icons/resistance/xenon/hypogram-field-fusion.png"],
-                    "animations": ["https://media3.giphy.com/media/Z5AvJ3ez7Hpl8Gs5mV/giphy.gif"],
+                    "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNW5nZHJmZG84a2VpeWs3N3VpNmk1cHlzdWR3MjhtdTg3cW9qdmhpcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v1SwHKeTM9PYVhnZ0Y/giphy.gif"],
                     "type": "Summon / Buff Zone",
-                    "desc": "Place down a zone with a bouncing orb that damages enemies it collides with and when the orb touches the zone edges",
+                    "desc": "Place down a zone that periodically damages enemies within",
                     "details": [
                         "Party members inside the field gain increased %Damage<bp_Recharges 1 Energy whenever a party member within the field evades an attack_>",
+                        "While summoned, pressing the Skill Key again will resummon the zone at your location",
                         "Unaffected by Damage Reflect"
                     ]
                 },
                 {
                     "name": "Photon Ray",
-                    "shortDesc": "MP Cost: 150, aim mode activates for 20 sec. Additional 350 MP consumed upon firing.\\nInitial shots are 3 blast each. Can take up to 15 additional shots are 15 shots.\\nPhotonic cannon attacks 3 times with 880% damage per shot.\\nCooldown: 30 sec.",
+                    "shortDesc": "MP Cost: 150. Aim mode activates for 20 sec. Additional 350 MP consumed upon firing.\\nInitial shots are 3 blast each. Can take up to 15 additional shots after 15 shots.\\nPhotonic cannon attacks 3 times with 880% damage per shot.\\nCooldown: 30 sec.",
                     "icons": ["/class-icons/resistance/xenon/photon-ray.png"],
                     "animations": ["https://media3.giphy.com/media/uBUcPQuftygoRS3fu2/giphy.gif"],
                     "type": "Attack",
@@ -934,9 +933,9 @@
                     ]
                 },
                 {
-                    "name": "Diagonal Chase Boost",
-                    "shortDesc": "Diagonal Chase Final Damage: +180%",
-                    "icons": ["/class-icons/resistance/xenon/diagonal-chase.png"],
+                    "name": "Diagonal Chase/Horizon Driver Boost",
+                    "shortDesc": "Diagonal Chase/Horizon Driver Final Damage: +180%",
+                    "icons": ["/class-icons/resistance/xenon/diagonal-chase-node.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -991,7 +990,7 @@
                 {
                     "name": "Hypogram Field Boost",
                     "shortDesc": "Hypogram Field All Modes Final Damage: +120%",
-                    "icons": ["/class-icons/resistance/xenon/hypogram-field-penetrate.png", "/class-icons/resistance/xenon/hypogram-field-force-field.png", "/class-icons/resistance/xenon/hypogram-field-support.png"],
+                    "icons": ["/class-icons/resistance/xenon/hypogram-field-boost.png", "/class-icons/resistance/xenon/hypogram-field-force-field.png", "/class-icons/resistance/xenon/hypogram-field-support.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -1038,7 +1037,7 @@
                 },
                 {
                     "name": "HEXA Mecha Purge: Snipe",
-                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 5, Damage: 510%, Number of Attacks: 7\\nEnhances to HEXA Mecha Purge: Execute every 8 sec.\\nIgnore Defense: +40%\\n------HEXA Mecha Purge: Execute------\\nMP Cost: 35, Max Enemies Hit: 5, Damage: 330%, Number of Attacks: 7, Number of Explosions: 3, Ignore Defense: +40%\\nCooldown: 8 sec",
+                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 5, Damage: 465%, Number of Attacks: 7\\nEnhances to HEXA Mecha Purge: Execute every 8 sec.\\nIgnore Defense: +40%\\n------HEXA Mecha Purge: Execute------\\nMP Cost: 35, Max Enemies Hit: 5, Damage: 310%, Number of Attacks: 7, Number of Explosions: 3, Ignore Defense: +40%\\nCooldown: 8 sec",
                     "icons": ["/class-icons/resistance/xenon/hexa-mecha-purge-snipe-1.png", "/class-icons/resistance/xenon/hexa-mecha-purge-snipe-2.png", "/class-icons/resistance/xenon/mecha-purge-snipe.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1048,7 +1047,7 @@
                 },
                 {
                     "name": "HEXA Mecha Purge: Bombardment",
-                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 15, Damage: 655%, Number of Attacks: 5\\nEnhances to HEXA Mecha Purge: Fire every 6 sec.\\n------HEXA Mecha Purge: Fire------\\nMP Cost: 35, Max Enemies Hit: 15, Damage: 655%, Number of Attacks: 7\\nCooldown: 6 sec",
+                    "shortDesc": "MP Cost: 35, Max Enemies Hit: 15, Damage: 615%, Number of Attacks: 5\\nEnhances to HEXA Mecha Purge: Fire every 6 sec.\\n------HEXA Mecha Purge: Fire------\\nMP Cost: 35, Max Enemies Hit: 15, Damage: 615%, Number of Attacks: 7\\nCooldown: 6 sec",
                     "icons": ["/class-icons/resistance/xenon/hexa-mecha-purge-bombardment-1.png", "/class-icons/resistance/xenon/hexa-mecha-purge-bombardment-2.png", "/class-icons/resistance/xenon/mecha-purge-bombardment.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1064,22 +1063,12 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-penetrate.png} tip={All Hypogram Field (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
-                    ]
-                },
-                {
-                    "name": "HEXA Hypogram Field: Penetrate",
-                    "shortDesc": "MP Cost: 35, Hypogram Field Duration: 60 sec\\nDamage on contact: 540%",
-                    "icons": ["/class-icons/resistance/xenon/hexa-hypogram-field-penetrate.png", "/class-icons/resistance/xenon/hypogram-field-penetrate.png"],
-                    "type": "Upgraded Passive",
-                    "desc": "",
-                    "details": [
-                        "Unlocked with 2nd Mastery Node"
+                        "Requires <tt src={/class-icons/resistance/xenon/triangulation.png} tip={Triangulation (3rd Job)}> <tt src={/class-icons/resistance/xenon/hypogram-field-boost.png} tip={All Hypogram Field (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
                     "name": "HEXA Hypogram Field: Force Field",
-                    "shortDesc": "MP Cost: 35, Hypogram Field Duration: 60 sec.\\nWhen an orb makes contacts that Hypogram Field: Max Enemies Hit: 8, Damage: 1000%",
+                    "shortDesc": "MP Cost: 35, Hypogram Field Duration: 60 sec.\\nAttacks up to 8 enemies within the field for 700% damage at set intervals",
                     "icons": ["/class-icons/resistance/xenon/hexa-hypogram-field-force-field.png", "/class-icons/resistance/xenon/hypogram-field-force-field.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1129,7 +1118,7 @@
                 },
                 {
                     "name": "HEXA Orbital Cataclysm",
-                    "shortDesc": "MP Cost: 300, Max Enemies Hit: 15, Damage: 2571%, Number of Attacks: 7\\nEnemy DEF: -30% for 10 sec\\nAfter casting, increases damage by 10% for 25 sec, Invincible while casting\\nCooldown: 50 sec",
+                    "shortDesc": "MP Cost: 300, Invincible while casting, Max Enemies Hit: 15, Damage: 2571%, Number of Attacks: 7\\nCooldown: 50 sec",
                     "icons": ["/class-icons/resistance/xenon/hexa-orbital-cataclysm.png", "/class-icons/resistance/xenon/orbital-cataclysm.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1161,7 +1150,7 @@
             "skillCore": [
                 {
                     "name": "Artificial Evolution",
-                    "shortDesc": "MP Cost: 1200, invincible during casting\\nMax Enemies Hit: 15, Damage: 710%, Number of Attacks: 7, Number of Bombardments: 31, Evolution Duration: 30 sec\\nEvolved State: enemy attacked by Xenon, Damage: 1080%, Number of Attacks: 5, Enhanced Airframes Summoned: 6, Cooldown: 1.8 sec\\nUsing enhanced Liberty Boosters increases flight speed, and some buff and attacks can be used while flying.\\nWhen Omega Blaster triggers during enhanced Liberty Boosters, it can be set up which reduces its attack interval time. Reduces attack duration to 5 sec and increases attack duration by 1 sec per 4 sec of charged duration (max 3 sec). Invincible for 2 sec after setting up.\\nCooldown: 360 sec",
+                    "shortDesc": "MP Cost: 1200, Invincible during casting\\nMax Enemies Hit: 15, Damage: 710%, Number of Attacks: 7, Number of Bombardments: 31, Evolution Duration: 30 sec\\nEvolved State: enemy attacked by Xenon, Damage: 960%, Number of Attacks: 5, Enhanced Airframes Summoned: 6, Cooldown: 1.5 sec\\nUsing enhanced Liberty Boosters increases flight speed, and some buff and attacks can be used while flying, and cooldown is reduced to 2 sec.\\nWhen Omega Blaster triggers during enhanced Liberty Boosters while in Evolved Statea, it is set up instantly grrants Invinciblity for 2 sec.\\nCooldown: 360 sec",
                     "icons": ["/class-icons/resistance/xenon/artificial-evolution.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmg5bWFiOWkxY3J0c2x5dmE3ZWRlMnFqYW55cnRqcmo2bzFuNnVuaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GkNcHatZ0lt9a24VKQ/giphy-downsized-large.gif"],
                     "type": "Origin Skill",
@@ -1169,7 +1158,7 @@
                 },
                 {
                     "name": "Neoteric Snap",
-                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nSnaps the Whip Blade, dealing 6755% damage to up to 15 enemies 10 times. Then erupts with 13 shockwaves, dealing 3885% damage 14 times, and summons a quantum gate.\\nQuantum Gate - Launches 75 quantum blades, dealing 1260% damage to up to 15 enemies 15 times. The quantum blades stack on a single enemy up to 225 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nSnaps the Whip Blade, dealing 6755% damage to up to 15 enemies 10 times. Then erupts with 13 shockwaves, dealing 4130% damage 14 times, and summons a quantum gate.\\nQuantum Gate - Launches 75 quantum blades, dealing 1260% damage to up to 15 enemies 15 times. The quantum blades stack on a single enemy up to 225 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/resistance/xenon/neoteric-snap.png"],
                     "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmJoMmpoZHlmZTB3ZHB0cWQxcnAycGZtdTF2ZHNnNDFqNXR1N2llOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dUJjWTVUT6yvvzQv1d/giphy.gif"],
                     "type": "Ascent Skill",
@@ -1226,8 +1215,8 @@
             },
             {
                 "name": "Hypogram Field: Penetrate - 4th Job",
-                "icons": ["/class-icons/resistance/xenon/hypogram-field-penetrate.png"],
-                "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm8yd2JmcjYyYmZodDB2d3l0ZGdxYTI0cXdrZmxxZmhqbmRtZGFuNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e2omYOnOcJitevQVFI/giphy.gif"]
+                "icons": ["/class-icons/resistance/xenon/hypogram-field-force-field.png"],
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm4yZHA5eTBkbHJ4NmV4bXlubzBiYnkwaXhmeDl1bmF2ZGpqMWUzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OeNqtbtNDRDPCFzeF2/giphy.gif"]
             },
             {
                 "name": "Orbital Cataclysm - Hyper Skill",
@@ -1237,7 +1226,7 @@
             {
                 "name": "Omega Blaster - 5th Job",
                 "icons": ["/class-icons/resistance/xenon/omega-blaster.png"],
-                "animations": ["https://media1.giphy.com/media/zzImSpAUXqpHCR2rsp/giphy.gif"]
+                "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamI3eHU0NGg3M2ZraTB4OWdkbGF5cG5iNjN3YWU1NDhyNGFmbXY1bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8DB1gtSud7dSkQsz6d/giphy.gif"]
             },
             {
                 "name": "HEXA Mecha Purge: Snipe - 6th Job",

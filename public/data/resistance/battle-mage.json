@@ -44,8 +44,8 @@
             },
             {
                 "name": "Magic Attack",
-                "stat": "+29% +80(140)",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/battle-mage/dark-aura.png} tip={Dark Aura - Passive (4th Job)} val={+15%}> <bg src={/class-icons/resistance/battle-mage/spell-boost.png} tip={Spell Boost (4th Job)} val={+10%}> <bg src={/class-icons/resistance/battle-mage/staff-artist.png} tip={Staff Artist (1st Job)} val={+20}> <bg src={/class-icons/resistance/battle-mage/staff-mastery.png} tip={Staff Mastery (2nd Job)} val={+30}> <bg src={/class-icons/resistance/battle-mage/staff-expert.png} tip={Staff Expert (4th Job)} val={+30}> <bg type={temp} src={/class-icons/resistance/battle-mage/aura-scythe.png} tip={Aura Scythe (5th Job)} val={+60}>"
+                "stat": "+21% +80(140)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/resistance/battle-mage/dark-aura.png} tip={Dark Aura - Passive (4th Job)} val={+7%}> <bg src={/class-icons/resistance/battle-mage/spell-boost.png} tip={Spell Boost (4th Job)} val={+10%}> <bg src={/class-icons/resistance/battle-mage/staff-artist.png} tip={Staff Artist (1st Job)} val={+20}> <bg src={/class-icons/resistance/battle-mage/staff-mastery.png} tip={Staff Mastery (2nd Job)} val={+30}> <bg src={/class-icons/resistance/battle-mage/staff-expert.png} tip={Staff Expert (4th Job)} val={+30}> <bg type={temp} src={/class-icons/resistance/battle-mage/aura-scythe.png} tip={Aura Scythe (5th Job)} val={+60}>"
             },
             {
                 "name": "Crit Rate",
@@ -463,7 +463,7 @@
                 },
                 {
                     "name": "Dark Aura",
-                    "shortDesc": "MP Cost per sec: 16, Damage: +10%\\nCooldown: 3 sec\\n[Passive Effect: Magic ATT +15%]",
+                    "shortDesc": "MP Cost per sec: 16, Damage: +10%\\nCooldown: 3 sec\\n[Passive Effect: Magic ATT +7%]",
                     "maxLevel": 20,
                     "icons": ["/class-icons/resistance/battle-mage/dark-aura.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2ZyYjlmOXliNGxxNHY1dmhxbXVnZzRwZ2MwMXNhaTMwdGZiaDB1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lBEaR6MoM24ulKU7Lw/giphy.gif"],
@@ -661,10 +661,10 @@
                 },
                 {
                     "name": "For Liberty",
-                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nCooldown: 120 sec. Only applies to Demon, Resistance, and Xenon party members.",
+                    "shortDesc": "MP Cost: 100, Duration: 60 sec, Damage: +10%\\nOnly applies to Demon, Resistance, and Xenon party members.\\nCooldown: 120 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/resistance/for-liberty.png"],
-                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjFobjF6bm5rM2o2cWxqcWUxMjFmYXVqM3JuNWk3NXpwYnlyZGttbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fdQaRpsaOlrt7y39pz/giphy.gif"],
+                    "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGNoa2p4ZWZlZXZ1M2F0bHM2ZnF2ZmNzOTJieW9hMndjcW82eHlkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7mTeq15pExshUVb9PK/giphy.gif"],
                     "type": "Buff",
                     "reqLev": 190
                 }
@@ -687,7 +687,7 @@
                 },
                 {
                     "name": "Altar of Annihilation",
-                    "shortDesc": "MP Cost: 500, Altar Duration: 40 sec\\nAltar - Releases 16 curses that periodically attack up to 1 enemies with 1120% damage 6 times.\\nUp to 3 curses can be applied to an enemy for each round of curses.\\nCooldown: 0.3 sec.",
+                    "shortDesc": "MP Cost: 500, Altar Duration: 40 sec\\nAltar - Releases 16 curses that periodically attack up to 1 enemies with 990% damage 6 times.\\nMax Release Count: 19 times\\nUp to 3 curses can be applied to an enemy for each round of curses.\\nCooldown: 0.3 sec.",
                     "icons": ["/class-icons/resistance/battle-mage/altar-of-annihilation.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzduZ2t4N3c4N2czdXBscjZneHo2bWc5NjJtbmRrZm1zMHhnbWN1cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6l7l51wUidejphWHIE/giphy.gif"],
                     "type": "Summon",
@@ -700,7 +700,7 @@
                 },
                 {
                     "name": "Grim Harvest",
-                    "shortDesc": "MP Cost: 1000. Summons the Grim Harvest that attacks for 30 sec every 4 sec. Max Enemies Hit: 12, Damage: 1870%, Number of Attacks: 12\\nUse the skill again to re-summon near you. Can be used once every 10 sec.\\nIf the Grim Harvest defeats an enemy, its duration increases by 0.2 sec per enemy. If it hits a boss, its duration increases by 2 sec. Duration increased to up to 3 sec for each attack.\\nAttack interval becomes 50% with the Master of Death applied, but attacks do not increase the skill's duration in that case.\\nCooldown: 60 sec.",
+                    "shortDesc": "MP Cost: 1000. Summons the Grim Harvest, which attacks for 30 sec every 4 sec. Max Enemies Hit: 12, Damage: 1870%, Number of Attacks: 12\\nUse the skill again to re-summon near you. Can be used once every 3 sec.\\nIf the Grim Harvest defeats an enemy, its duration increases by 0.2 sec per enemy. If it hits a boss, its duration increases by 2 sec. Duration increased to up to 3 sec for each attack.\\nAttack interval becomes 50% with the Master of Death applied, but attacks do not increase the skill's duration in that case.\\nCooldown: 60 sec.",
                     "icons": ["/class-icons/resistance/battle-mage/grim-harvest.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmJ3MmtyNHAzeTl0NW1ndW51ZTEya3pmZHJ1YmR5ZHNhd2RqanNhYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wZLlVHhRYRi7k3cHtN/giphy.gif"],
                     "type": "Summon",
@@ -714,7 +714,7 @@
                 },
                 {
                     "name": "Abyssal Lightning",
-                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament.\\nDuration: 30 sec., Normal Monster Damage: +30%. Periodically creates 2 netherworld passages, the passages remain for 15 sec, and up to 6 can exist in the map. Dark Brand attacks must be activated 45 times to consume the brand.\\nNetherworld Lightning: Max Enemies Hit: 8, Damage: 1870%, Number of Attacks: 6, Additional Critical Rate: +100%, Ignores additional 20% Enemy DEF, Cooldown: 0.6 sec.\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 1000, invincible during casting and disarmament.\\nDuration: 30 sec., Normal Monster Damage: +30%. Periodically creates 2 netherworld passages, the passages remain for 15 sec, and up to 6 can exist in the map. Dark Brand attacks must be activated 45 times to consume the brand.\\nNetherworld Lightning: Max Enemies Hit: 8, Damage: 1650%, Number of Attacks: 6, Additional Critical Rate: +100%, Ignores additional 20% Enemy DEF, Cooldown: 0.48 sec.\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/resistance/battle-mage/abyssal-lightning.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGdxaDRoNW50ZmtpNGpsbDZra2JhMHBpZTV0MWpwOHJqYTBoZWFvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e0zvmlqTX6qgxrX3u5/giphy.gif"],
                     "type": "Buff Attack",
@@ -947,7 +947,7 @@
                 },
                 {
                     "name": "Duskbound Aura",
-                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe duskbound aura pulses 14 times, dealing 5950% damage to up to 15 enemies 14 times. Then the tenebrous energy exlodes 11 times dealing 7105% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe duskbound aura pulses 14 times, dealing 6300% damage to up to 15 enemies 14 times. Then the tenebrous energy exlodes 11 times dealing 7105% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/resistance/battle-mage/duskbound-aura.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDFncmxyZHd4c29laGZ5eWwzMmx1M3lkcGJ5cm5zZXN2cDYybjJvdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KmEVTmCCTZYbE3CsYX/giphy.gif"],
                     "type": "Ascent Skill",
