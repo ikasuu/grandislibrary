@@ -54,8 +54,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+34%(104%)",
-                "detail": "<bg src={/class-icons/nova/cadena/wisdom-of-shadows.png} tip={Wisdom of Shadows (2nd Job)} val={+5%}> <bg src={/class-icons/nova/cadena/weapons-expert.png} tip={Weapons Expert (4th Job)} val={+19%}> <bg src={/class-icons/nova/cadena/wisdom-of-shadows-ii.png} tip={Wisdom of Shadows II (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/nova/cadena/cheap-shot-ii.png} tip={Cheap Shot II (4th Job)} val={+10% per debuff on enemy} val={(Max. +70%)}>"
+                "stat": "+30%(100%)",
+                "detail": "<bg src={/class-icons/nova/cadena/wisdom-of-shadows.png} tip={Wisdom of Shadows (2nd Job)} val={+5%}> <bg src={/class-icons/nova/cadena/weapons-expert.png} tip={Weapons Expert (4th Job)} val={+15%}> <bg src={/class-icons/nova/cadena/wisdom-of-shadows-ii.png} tip={Wisdom of Shadows II (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/nova/cadena/cheap-shot-ii.png} tip={Cheap Shot II (4th Job)} val={+10% per debuff on enemy} val={(Max. +70%)}>"
             },
             {
                 "name": "Damage",
@@ -80,8 +80,8 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/nova/cadena/weapon-booster.png} tip={Weapon Booster (2nd Job)} dur={[200s]}>",
-            "summons": "<tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken (2nd Job)} dur={[7s](10s cd)}> <tt src={/class-icons/nova/cadena/apocalypse-cannon.png} tip={Apocalypse Cannon (5th Job)} dur={[15s](25s cd)}> <tt src={/class-icons/nova/cadena/chain-arts-maelstrom.png} tip={Chain Arts: Maelstrom (5th Job)} dur={[8s]}>",
-            "buffCd": "<tt src={/class-icons/nova/cadena/shadowdealers-elixir.png} tip={Shadowdealer's Elixir (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/nova/cadena/veteran-shadowdealer.png} tip={Veteran Shadowdealer (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/nova/cadena/chain-arts-void-strike.png} tip={Chain Arts: Void Strike (5th Job)} dur={[55s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
+            "summons": "<tt src={/class-icons/nova/cadena/summon-shuriken.png} tip={Summon Shuriken (2nd Job)} dur={[7s](10s cd)}> <tt src={/class-icons/nova/cadena/apocalypse-cannon.png} tip={Apocalypse Cannon (5th Job)} dur={[15s](25s cd)}> <tt src={/class-icons/nova/cadena/chain-arts-maelstrom.png} tip={Chain Arts: Maelstrom (5th Job)} dur={[15s]}>",
+            "buffCd": "<tt src={/class-icons/nova/cadena/shadowdealers-elixir.png} tip={Shadowdealer's Elixir (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/nova/cadena/veteran-shadowdealer.png} tip={Veteran Shadowdealer (Hyper Skill)} dur={[20s](120s cd)}> <tt src={/class-icons/nova/cadena/chain-arts-void-strike.png} tip={Chain Arts: Void Strike (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/nova/cadena/chain-arts-beatdown.png} tip={Chain Arts: Beatdown (4th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/nova/cadena/chain-arts-grand-arsenal.png} tip={Chain Arts: Grand Arsenal (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/nova/cadena/chain-arts-reign-of-chains.png} tip={Chain Arts: Reign of Chains (4th Job)} dur={[2s](45s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s Buff](1200s cd blocks 1 death)}> <tt src={/class-icons/nova/cadena/chain-arts-grand-arsenal.png} tip={Chain Arts: Grand Arsenal (6th Job)} dur={(360s cd)}>",
             "damageReduce": "<tt src={/class-icons/nova/cadena/muscle-memory-iii.png} tip={Muscle Memory III (4th Job)} dur={[Slowly dissipates](Up to 25% HP | Barrier)}>"
@@ -509,17 +509,17 @@
                 },
                 {
                     "name": "Chain Arts: Beatdown",
-                    "shortDesc": "MP Cost: 255, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 2, Stun Duration: 10 sec\\nIncreases stun duration up to 100% based on damage inflicted with Chain Arts: Beatdown.\\nFor 5 sec after casting, depending on the number of additional hits activated by Muscle Memory, follow-up attack is divided into 3 levels. If the number of activations isn't met within this time, Strike occurs at the minimum level. If the max activation count is met within the time limit, the strike occurs immediately\\nStrike: Whem Muscle Memory number of activations is 0/3/5, respectively, attacks up to 10 enemies in their grouped location based on the level with 770%/880%/990% damage, respectively, 15 times(s), and activates a final attack that attacks 10 enemies with 250%/350%/500% damage, respectively 10 time(s)\\nDuring the consecutive attacks, activates a shockwave that attacks up to 10 enemies with 600% damage 4 time(s). Additional DEF Ignored: +80%.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 255, Max Enemies Hit: 8, Damage: 300%, Number of Attacks: 2, Stun Duration: 10 sec\\nIncreases stun duration up to 100% based on damage inflicted with Chain Arts: Beatdown.\\nAfter casting, Strike occurs if 5 additional hits are activated by Muscle Memory.\\nAfter Strike occurrs, max Muscle Memory stacks are kept for 4.5 sec.\\nStrike: Attacks up to 10 enemies in their grouped location with 990% damage 15 times(s)\\nDuring the strike, activates a shockwave that attacks up to 10 enemies with 600% damage 4 time(s). Additional DEF Ignored: +80%.\\nCooldown: 120 sec",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/chain-arts-beatdown.png"],
                     "animations": ["https://media.giphy.com/media/uVtmb3AGZXL6CnqeHe/giphy-downsized-large.gif"],
                     "type": "Bind Attack",
-                    "desc": "Bind nearby enemies and release a powerful attack",
+                    "desc": "Bind nearby enemies and release a [Strike] attack",
                     "details": [
-                        "Based on the number of times <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> is activated, the damage of the attack increases",
-                        "This skill will not count towards <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> Muscle Memory buff but will grant full stacks when used",
-                        "Final attack has increased %Ignore DEF",
-                        "Right-clicking the skill toggles a function ON/OFF to disable this skill from binding enemies",
+                        "The [Strike] attack is triggered upon activating <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> a set number of times",
+                        "Upon triggering the [Strike] attack, a short buff of max stacks of <tt src={/class-icons/nova/cadena/muscle-memory.png} tip={Muscle Memory (2nd Job)}> Muscle Memory is granted",
+                        "Attack targets the enemy with the highest Max HP first and has increased %Ignore DEF",
+                        "Right-clicking the skill toggles a function ON/OFF to disable the enemy bind effect",
                         "Unaffected by cooldown resets"
                     ]
                 },
@@ -578,7 +578,7 @@
                 },
                 {
                     "name": "Weapons Expert",
-                    "shortDesc": "For chain and all Summoned Weapons - Mastery: +70%, Attack Power: +50, Critical Rate: +30%, Critical Damage: +19%",
+                    "shortDesc": "For chain and all Summoned Weapons - Mastery: +70%, Attack Power: +50, Critical Rate: +30%, Critical Damage: +15%",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/cadena/weapons-expert.png", "/class-icons/nova/cadena/weapon-mastery.png"],
                     "type": "Upgraded Passive",
@@ -728,7 +728,7 @@
             "fifthMain": [
                 {
                     "name": "Chain Arts: Void Strike",
-                    "shortDesc": "MP Cost: 1000, Duration: 55 sec. Creates giant chains that travel along an arbitrary path inflicting 770% damage 6 times to up to 10 enemies.\\nChain Cooldown: 0.6 sec\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000, Duration: 40 sec. Creates giant chains that travel along an arbitrary path inflicting 990% damage 6 times to up to 10 enemies.\\nChain Cooldown: 0.6 sec\\nCooldown: 120 sec",
                     "icons": ["/class-icons/nova/cadena/chain-arts-void-strike.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXkyZmJ2NmhnOWlwYmRhMGdhczhsb2tkbGZ2dG53cWE0MXFqdDNqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3vw32T2cm1d7dKWNIt/giphy.gif"],
                     "type": "Buff Attack",
@@ -744,7 +744,7 @@
                     "icons": ["/class-icons/nova/cadena/apocalypse-cannon.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGtqcDU4NHFrNDhsZnRxMTBoZTVrdGRlOWE0YzNocTM2NGw0YnhwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JWcSj7nP0rr9nfPChI/giphy.gif", "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG5kOGN1M2xpOHZ6a2E1cnRyMm05NXVzYXZubjIybnV3Mjgya2NjMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tOGw1IK6pdBINnc4xn/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Summon a stationary cannon that charges up to fire an energy ball",
+                    "desc": "Place down a stationary cannon that charges up to fire an energy ball",
                     "details": [
                         "While charging, enemies that collide with the cannon are damaged<bp_Upon reaching maximum charge time or attacking 38 times, the cannon fires_>",
                         "While summoned, pressing the Skill Key again will resummon the cannon to your position",
@@ -754,13 +754,12 @@
                 },
                 {
                     "name": "Chain Arts: Maelstrom",
-                    "shortDesc": "MP Cost: 250, Deals damage for 8 sec at a certain interval. Damage: 660%, Max Enemies Hit: 8, Number of Attacks: 4. Upon attack, 100% chance to Slow enemies for 6 sec\\nAttack speed gradually decreases based on time",
+                    "shortDesc": "MP Cost: 250, Duration: 15 sec, Max Enemies Hit: 8, Damage: 275%\\nNumber of Attacks: 2, Slow Chance: 100%, Slow Duration: 15 sec",
                     "icons": ["/class-icons/nova/cadena/chain-arts-maelstrom.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTA0Zmw5Y2R6cTJodWw2MXZ0ZmR1aDczNGJudG1hdXNlZW4xejFzayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/48GccNUfuYmUkEWaDp/giphy.gif"],
-                    "type": "Attack",
+                    "type": "Summon",
                     "desc": "Place down a maelstrom of chains that continuously damages enemies within and applies a slow debuff",
                     "details": [
-                        "Maelstrom gradually reduces attack speed until it disappears",
                         "Can only be used as a combo after using 2 Thrash hits or by pressing Down Arrow Key and Attack Key",
                         "Unaffected by Damage Reflect"
                     ]
@@ -1026,7 +1025,7 @@
                 },
                 {
                     "name": "HEXA Chain Arts: Beatdown",
-                    "shortDesc": "MP Cost: 282, Max Enemies Hit: 8, Damage: 508%, Number of Attacks: 2\\nStun Duration: 10 sec\\nIncreases stun duration up to 100% based on damage inflicted on enemies with Chain Arts: Beatdown.\\nFor 5 sec after casting, depending on the number of additional hits activated by Muscle Memory, follow-up attack power is divided into 3 levels. If the number of activations isn't met within this time, Strike occurs at the minimum level. If the max activation acount is met within the time limit, the strike occurs immediately.\\nStrike: When Muscle Memory number of activations is 0, 3, 5, respectively, attacks up to 10 enemies in their grouped location based on the level with 1322%/1500%/1710% damage, respectively, 15 time(s), and activates a final attack that attacks 10 enemies with 420%/588%/840% damage, respectively, 10 time(s)\\nDuring the consecutive attacks, activates a shockwave that attacks up to 10 enemies with 1015% damage 4 time(s). Additional DEF ignored: +80%.\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 282, Max Enemies Hit: 8, Damage: 508%, Number of Attacks: 2\\nStun Duration: 10 sec\\nAfter casting, Strike occurs if 5 additional hits are activated by Muscle Memorry.\\nAfter Strike, max Muscle Memory stacks are kept for 4.5 sec.\\nStrike: Attacks up to 10 enemies in their grouped location with 1710% damage 15 time(s)\\nDuring the strike, activates a shockwave that attacks up to 10 enemies with 1015% damage 4 time(s).\\nAdditional DEF ignored: +80%.\\nCooldown: 120 sec",
                     "icons": ["/class-icons/nova/cadena/hexa-chain-arts-beatdown.png", "/class-icons/nova/cadena/chain-arts-beatdown.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1056,7 +1055,7 @@
                 },
                 {
                     "name": "Brutal Rampage",
-                    "shortDesc": "Press the skill key again within 30 sec. after casting to summon the crushing axe\\nFirst Attack - MP Cost: 500, Invincible during casting\\nBinds the battlefield in weapons that attack 14 times, dealing 10933% damage to up to 15 enemies 8 times\\nCrushing Axe - MP Cost: 500, Invincible during casting\\nThe axe crashes down upon the battlefield 19 times, dealing 11669% damage to up to 15 enemies 13 times. Ignore status effects while casting\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "Press the skill key again within 30 sec. after casting to summon the crushing axe\\nFirst Attack - MP Cost: 500, Invincible during casting\\nBinds the battlefield in weapons that attack 14 times, dealing 11060% damage to up to 15 enemies 8 times\\nCrushing Axe - MP Cost: 500, Invincible during casting\\nThe axe crashes down upon the battlefield 19 times, dealing 11620% damage to up to 15 enemies 13 times. Ignore status effects while casting\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/nova/cadena/brutal-rampage.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTBqYWtmMHJ2NGxzcjZidW53eTI0d2l4Mjk3OXZraDd3M3E1aXBuaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QkJWvdAPe3a3OnfNLx/giphy.gif"],
                     "type": "Ascent Skill",

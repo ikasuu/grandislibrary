@@ -47,8 +47,8 @@ function App() {
               <ScrollToTop/>
               <MainNavbar setTheme={setTheme} theme={theme}/>
               <div id="main-content"><Suspense fallback={<div></div>}><Routes/></Suspense></div>
-            </Router>
-            <Footer/>
+          </Router>
+          <Footer/>
         </>
       </ThemeProvider>
     </div>

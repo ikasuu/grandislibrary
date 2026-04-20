@@ -85,7 +85,6 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/nova/angelic-buster/star-gazer.png} tip={Star Gazer (4th Job)} dur={[180s]}>",
-            "toggles": "<tt src={/class-icons/nova/angelic-buster/soul-seeker-expert.png} tip={Soul Seeker Expert (4th Job)}>",
             "summons": "<tt src={/class-icons/nova/angelic-buster/supreme-supernova.png} tip={Supreme Supernova (Hyper Skill)} dur={[12s](60s cd)}> <tt src={/class-icons/nova/angelic-buster/superstar-spotlight.png} tip={Superstar Spotlight (5th Job)} dur={[30s](120s cd)}>",
             "buffCd": "<tt src={/class-icons/link-skills/terms-and-conditions.png} tip={Terms and Conditions (Link Skill)} dur={[10s](60s cd)}> <tt src={/class-icons/nova/angelic-buster/pretty-exaltation.png} tip={Pretty Exaltation (Hyper Skill)} dur={[20s](60s cd)}> <tt src={/class-icons/nova/angelic-buster/final-contract.png} tip={Final Contract (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/might-of-the-nova.png} tip={Might of the Nova (5th Job)} dur={[960s](1200s cd)}> <tt src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} dur={[28s](60s cd)}> <tt src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)}>[1s cd](180s cd <tt src={/class-icons/common/roll-of-the-dice.png} tip={Roll of the Dice (5th Job)}>) <tt src={/class-icons/nova/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/nova/angelic-buster/grand-finale.png} tip={Grand Finale (6th Job)} dur={[10s](360s cd)}>",
@@ -351,7 +350,7 @@
                 [
                 "3rd Job", [{
                         "name": "Soul Seeker",
-                        "shortDesc": "MP Cost: 19, Number of Essences: 2\\nEssence Damage: 320%, Number of Attacks: 1 until the max attack count is reached or it disappears\\nChance for Essence to Respawn on Hit: 85%, Number of Attacks: 7",
+                        "shortDesc": "MP Cost: 19, Number of Essences: 2\\nEssence Damage: 300%, Number of Attacks: 1 until the max attack count is reached or it disappears\\nChance for Essence to Respawn on Hit: 85%, Number of Attacks: 7",
                         "maxLevel": 20,
                         "icons": ["/class-icons/nova/angelic-buster/soul-seeker.png"],
                         "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2JiZXZveWUwcjdtM3N1ZWdoMG5yYjRpdWU1M2tsbHFxenZuYWRmeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VegUQUr5SUdMirMfXp/giphy.gif"],
@@ -420,7 +419,7 @@
                 },
                 {
                     "name": "Trinity",
-                    "shortDesc": "MP Cost: 23, Max Enemies Hit: 3, Damage: 630%, Number of Attacks: 6\\nTrinity/Trinity Fusion Damage and Ignore Defense: +15%, Duration: 30 sec, Max Stacks: 2",
+                    "shortDesc": "MP Cost: 23, Max Enemies Hit: 3, Damage: 555%, Number of Attacks: 6\\nTrinity/Trinity Fusion Damage and Ignore Defense: +15%, Duration: 30 sec, Max Stacks: 2",
                     "maxLevel": 30,
                     "icons": ["/class-icons/nova/angelic-buster/trinity.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDI1MXpranhwcXg3a3l4dzE0aXp2eXRwYjA1cGF6bzZvOTFianlzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9EFQPYbk0qFanpB0O6/giphy.gif"],
@@ -440,21 +439,6 @@
                     "desc": "Swing ribbons that damage and debuff enemies",
                     "details": [
                         "[Debuff]: Enemy takes damage over time and receives increased %Damage from party members (excluding Angelic Buster)"
-                    ]
-                },
-                {
-                    "name": "Soul Seeker Expert",
-                    "shortDesc": "35% chance to create Soul Seeker when using Angelic Buster skills (excluding Soul Buster, Soul Seeker, and Superstar Spotlight)\\nCelestial Roar and Trinity Creation Chance: +25%\\nAutomatically created Soul Seekers deal 75% damage of directly craeted Soul Seekers",
-                    "maxLevel": 10,
-                    "icons": ["/class-icons/nova/angelic-buster/soul-seeker-expert.png"],
-                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjVyb3oxNjZkZjJobG9pbzhjZ29qazBoeHgzMjZweDYycWc4M2ptcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xrG8sN4RUmPoHwXTty/giphy.gif"],
-                    "type": "Toggle Attack",
-                    "desc": "While toggled, successful attacks have a chance to activate <tt src={/class-icons/nova/angelic-buster/soul-seeker.png} tip={Soul Seeker (3rd Job)}> Soul Seekers",
-                    "details": [
-                        "Deals reduced %Final Damage compared to manually using <tt src={/class-icons/nova/angelic-buster/soul-seeker.png} tip={Soul Seeker (3rd Job)}>",
-                        "The following skills have an increased chance to create Soul Seekers: <tt src={/class-icons/nova/angelic-buster/celestial-roar.png} tip={Celestial Roar (4th Job)}> <tt src={/class-icons/nova/angelic-buster/trinity.png} tip={Trinity (4th Job)}>",
-                        "The following skills will not create Soul Seekers: <tt src={/class-icons/nova/angelic-buster/soul-buster.png} tip={Soul Buster (Beginner Skill)}> <tt src={/class-icons/nova/angelic-buster/soul-seeker.png} tip={Soul Seeker (3rd Job)}> <tt src={/class-icons/nova/angelic-buster/superstar-spotlight.png} tip={Superstar Spotlight (5th Job)}>",
-                        "Prioritizes bosses with the highest HP first"
                     ]
                 },
                 {
@@ -502,6 +486,21 @@
                     "desc": "Removes certain abnormal status effects and become immune to Abnormal Status for 3 secs",
                     "details": [
                         "Unaffected by <tt src={/class-icons/explorers/paladin/combat-orders.png} tip={Temporarily increases all of your skill levels. Only 4th Job Skills can be increased beyond master level while other skills can only be increased to master level. Exceptions: Some special skills, beginner skills, Combat Orders, hyper skills, 5th job skills, and 6th job skills cannot be increased.}/> Combat Orders"
+                    ]
+                },
+                {
+                    "name": "Soul Seeker Expert",
+                    "shortDesc": "35% chance to create Soul Seeker when using Angelic Buster skills (excluding Soul Buster, Soul Seeker, and Superstar Spotlight)\\nCelestial Roar and Trinity Creation Chance: +25%\\nAutomatically created Soul Seekers deal 75% damage of directly created Soul Seekers",
+                    "maxLevel": 10,
+                    "icons": ["/class-icons/nova/angelic-buster/soul-seeker-expert.png"],
+                    "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjVyb3oxNjZkZjJobG9pbzhjZ29qazBoeHgzMjZweDYycWc4M2ptcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xrG8sN4RUmPoHwXTty/giphy.gif"],
+                    "type": "Passive Attack",
+                    "desc": "Successful attacks have a chance to activate <tt src={/class-icons/nova/angelic-buster/soul-seeker.png} tip={Soul Seeker (3rd Job)}> Soul Seekers",
+                    "details": [
+                        "Deals reduced %Final Damage compared to manually using <tt src={/class-icons/nova/angelic-buster/soul-seeker.png} tip={Soul Seeker (3rd Job)}>",
+                        "The following skills have an increased chance to create Soul Seekers: <tt src={/class-icons/nova/angelic-buster/celestial-roar.png} tip={Celestial Roar (4th Job)}> <tt src={/class-icons/nova/angelic-buster/trinity.png} tip={Trinity (4th Job)}>",
+                        "The following skills will not create Soul Seekers: <tt src={/class-icons/nova/angelic-buster/soul-buster.png} tip={Soul Buster (Beginner Skill)}> <tt src={/class-icons/nova/angelic-buster/soul-seeker.png} tip={Soul Seeker (3rd Job)}> <tt src={/class-icons/nova/angelic-buster/superstar-spotlight.png} tip={Superstar Spotlight (5th Job)}>",
+                        "Prioritizes bosses with the highest HP first"
                     ]
                 },
                 {
@@ -683,7 +682,7 @@
                     "type": "Key-down attack",
                     "desc": "While held, release an energy beam forward",
                     "details": [
-                        "While casting, gain increased %Damage Reduction against %Max HP attacks and cannot be knocked back at all (Super Knockback Resistance)",
+                        "While held, reduces damage taken including %Max HP attacks, you will not be knocked back at all (Super Knockback Resistance), and prevents Critical Abnormal Statuses",
                         "When the attack ends, deals an explosion attack",
                         "Unaffected by Damage Reflect"
                     ]
@@ -841,7 +840,7 @@
                 },
                 {
                     "name": "HEXA Trinity",
-                    "shortDesc": "MP Cost: 30, Max Enemies Hit: 4, Damage: 960%, Number of Attacks: 7\\nHEXA Trinity/Trinity Fusion Damage and Ignore Defense: +15%, Duration: 30 sec, Max Stacks: 2",
+                    "shortDesc": "MP Cost: 30, Max Enemies Hit: 4, Damage: 847%, Number of Attacks: 7\\nHEXA Trinity/Trinity Fusion Damage and Ignore Defense: +15%, Duration: 30 sec, Max Stacks: 2",
                     "icons": ["/class-icons/nova/angelic-buster/hexa-trinity.png", "/class-icons/nova/angelic-buster/trinity.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -862,7 +861,7 @@
                 },
                 {
                     "name": "HEXA Soul Seeker",
-                    "shortDesc": "MP Cost: 25, Number of Essences: 2\\nEssence Damage: 432%, Number of Attacks: 1 until the max attack count is reached or it disappears\\nChance for Essence to Respawn on Hit: 85%, Number of Attacks: 7\\n[Passive Effect - HEXA Trinity Damage: +105% (additive)]",
+                    "shortDesc": "MP Cost: 25, Number of Essences: 2\\nEssence Damage: 403%, Number of Attacks: 1 until the max attack count is reached or it disappears\\nChance for Essence to Respawn on Hit: 85%, Number of Attacks: 7\\n[Passive Effect - HEXA Trinity Damage: +90% (additive)]",
                     "icons": ["/class-icons/nova/angelic-buster/hexa-soul-seeker.png", "/class-icons/nova/angelic-buster/soul-seeker.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -892,7 +891,7 @@
                 },
                 {
                     "name": "HEXA Supreme Supernova",
-                    "shortDesc": "MP Cost: 115, Energy Orb Duration: 30 sec.\\nPeriodically, Energy Orb Max Enemies Hit: 15, Damage: 1114%, Number of Attacks: 4. Destroyed when one enemy is attacked 18 times\\nCooldown: 60 sec.\\n[Passive Effect - HEXA Trinity Damage: +140% points]",
+                    "shortDesc": "MP Cost: 115, Energy Orb Duration: 30 sec.\\nPeriodically, Energy Orb Max Enemies Hit: 15, Damage: 1114%, Number of Attacks: 4. Destroyed when one enemy is attacked 18 times\\nCooldown: 60 sec.\\n[Passive Effect - HEXA Trinity Damage: +120% points]",
                     "icons": ["/class-icons/nova/angelic-buster/hexa-supreme-supernova.png", "/class-icons/nova/angelic-buster/supreme-supernova.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -922,7 +921,7 @@
                 },
                 {
                     "name": "Encore Ribbon",
-                    "shortDesc": "Upon landing a direct attack skill, Chance: 80%, Damage: 760%, Max Enemies hit: 6, Number of Hits: 4",
+                    "shortDesc": "Upon landing a direct attack skill, Chance: 80%, Damage: 684%, Max Enemies Hit: 6, Number of Hits: 4",
                     "icons": ["/class-icons/nova/angelic-buster/encore-ribbon.png"],
                     "type": "Passive Attack",
                     "desc": "",
@@ -945,7 +944,7 @@
                 },
                 {
                     "name": "Surprise Encore",
-                    "shortDesc": "Sends out a shockwave of your photogenic power. Using the skill again within 30 sec. will cause a Charm Explosion\\nShockwave - MP Cost: 500, Invincible during casting\\nYour peerless photography sends out 12 shockwaves, dealing 7105% damage to up to 15 enemies 13 times\\nCharm Explosion - MP Cost: 500, Invincible during casting\\nYour perfect photos dazzle the enemy 11 times, dealing 6930% damage 13 times. Invincible and ignore status effects during casting\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "Sends out a shockwave of your photogenic power. Using the skill again within 30 sec. will cause a Charm Explosion\\nShockwave - MP Cost: 500, Invincible during casting\\nYour peerless photography sends out 12 shockwaves, dealing 7105% damage to up to 15 enemies 13 times\\nCharm Explosion - MP Cost: 500, Invincible during casting\\nYour perfect photos dazzle the enemy 15 times, dealing 6930% damage 13 times. Invincible and ignore status effects during casting\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/nova/angelic-buster/surprise-encore.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmdkeDZwMWNobGNsMWxhcDZjM3d5cGNmNDlmNnZ3YndoYXQybHBlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IYv360RgAzjMJcFlNT/giphy.gif"],
                     "type": "Ascent Skill",
