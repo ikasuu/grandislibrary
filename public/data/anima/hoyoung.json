@@ -85,7 +85,7 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/anima/hoyoung/talisman-clone.png} tip={Talisman: Clone (2nd Job)} dur={[200s](Talisman)}> <tt src={/class-icons/anima/hoyoung/ritual-fan-acceleration.png} tip={Ritual Fan Acceleration (2nd Job)} dur={[200s]}> <tt src={/class-icons/anima/hoyoung/scroll-butterfly-dream.png} tip={Scroll: Butterfly Dream (4th Job)} dur={[100s](Scroll)}>",
-            "summons": "<tt src={/class-icons/anima/hoyoung/talisman-seeking-ghost-flame.png} tip={Talisman: Seeking Ghost Flame (3rd Job)} dur={[90s](Talisman)}> <tt src={/class-icons/anima/hoyoung/talisman-warp-gate.png} tip={Talisman: Warp Gate (4th Job)} dur={[100s](5s cd | Talisman)}> <tt src={/class-icons/anima/hoyoung/scroll-star-vortex.png} tip={Scroll: Star Vortex (4th Job)} dur={[40s](Scroll)}> <tt src={/class-icons/anima/hoyoung/scroll-tiger-of-songyu.png} tip={Scroll: Tiger of Songyu (5th Job)} dur={[40s](120s cd | Scroll)}> <tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[1800s](400s cd | 1400s cd on revive)}>",
+            "summons": "<tt src={/class-icons/anima/hoyoung/talisman-seeking-ghost-flame.png} tip={Talisman: Seeking Ghost Flame (3rd Job)} dur={[90s](Talisman)}> <tt src={/class-icons/anima/hoyoung/talisman-warp-gate.png} tip={Talisman: Warp Gate (4th Job)} dur={[100s]}> <tt src={/class-icons/anima/hoyoung/scroll-star-vortex.png} tip={Scroll: Star Vortex (4th Job)} dur={[40s](Scroll)}> <tt src={/class-icons/anima/hoyoung/scroll-tiger-of-songyu.png} tip={Scroll: Tiger of Songyu (5th Job)} dur={[40s](120s cd | Scroll)}> <tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[1800s](400s cd | 1400s cd on revive)}>",
             "buffCd": "<tt src={/class-icons/anima/hoyoung/sage-tai-yus-miracle-tonic.png} tip={Sage: Tai Yu's Miracle Tonic (Hyper Skill)} dur={[9s](60s cd)}> <tt src={/class-icons/anima/hoyoung/sage-clone-rampage.png} tip={Sage: Clone Rampage (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/anima/hoyoung/sage-wrath-of-god.png} tip={Sage: Wrath of Gods (5th Job)} dur={[20s](120s cd)}> <tt src={/class-icons/anima/hoyoung/sage-three-paths-apparition.png} tip={Sage: Three Paths Apparition (5th Job)} dur={[20s](60s cd)}> <tt src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} dur={[30s](60s cd)}> <tt src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/anima/exclusive-spell.png} tip={Exclusive Spell (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/anima/hoyoung/sage-tai-yu-clone.png} tip={Sage: Tai Yu Clone (Hyper Skill)} dur={[11s](120s cd)}> <tt src={/class-icons/anima/hoyoung/sage-apothesis.png} tip={Sage: Apothesis (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/anima/hoyoung/out-of-sight.png} tip={Out of Sight (2nd Job)} dur={[2s](Dark Sight)}> <tt src={/class-icons/anima/hoyoung/sage-dream-of-shangri-la.png} tip={Sage: Dream of Shangri-La (Hyper Skill)} dur={[Up to 20s](200 - 23.3s cd based on remaining duration)}> <tt src={/class-icons/anima/hoyoung/sage-wrath-of-god.png} tip={Sage: Wrath of Gods (5th Job)} dur={(180s cd)}> <tt src={/class-icons/5th-job/lotus-flower.png} tip={Lotus Flower (5th Job)} dur={[4.5s iFrame | 1800s Buff](400s cd | 1400s cd on revive)}> <tt src={/class-icons/anima/hoyoung/sage-apothesis.png} tip={Sage: Apothesis (6th Job)} dur={(360s cd)}>"
@@ -323,7 +323,7 @@
                         "type": "Earth Attack",
                         "desc": "Release a shockwave forward",
                         "details": [
-                            "Pressing the Forward Arrow Key and the Skill Key again, causes you to dash forward<bp_If nothing is pressed, a clone instead dashes forward_>",
+                            "Pressing the Forward Arrow Key and the Skill Key again, causes you to dash forward<bp_If nothing is pressed, a clone instead dashes forward_Right-clicking this skill toggles ON/OFF the ability to activate the dash by double-tapping the Forward Arrow Key after casting_>",
                             "Clone version is unaffected by Damage Reflect"
                         ]
                     },
@@ -413,13 +413,13 @@
                         "type": "Heaven Skill",
                         "desc": "Leap into the air and blow a gale downwards",
                         "details": [
-                            "Press the Forward Arrow Key and the Skill Key again causes you to leap forward<bp_If nothing is pressed, a clone instead will leap forward_>",
+                            "Press the Forward Arrow Key and the Skill Key again causes you to leap forward<bp_If nothing is pressed, a clone instead will leap forward_Right-clicking this skill toggles ON/OFF the ability to activate the leap by double-tapping the Forward Arrow Key after casting_>",
                             "Clone version is unaffected by Damage Reflect"
                         ]
                     },
                     {
                         "name": "Earth: Stone Tremor",
-                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 10, Damage: 180%, Number of Attacks: 6, Stun Duration for Normal Monsters: 5 sec\\nCooldown: 6 sec",
+                        "shortDesc": "MP Cost: 70, Max Enemies Hit: 10, Damage: 180%, Number of Attacks: 6, Stun Duration for Normal Enemies: 5 sec\\nCooldown: 6 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/anima/hoyoung/earth-stone-tremor.png", "/class-icons/anima/hoyoung/stone-tremor-clone.png"],
                         "animations": ["https://media.giphy.com/media/ZZOFW52hLUrT0xYPzM/giphy.gif", "https://media.giphy.com/media/kI4IsMUFezaIiigY7A/giphy.gif"],
@@ -533,16 +533,16 @@
                 },
                 {
                     "name": "Talisman: Warp Gate",
-                    "shortDesc": "Talisman Energy Cost: 100, Warp Gate Duration: 100 sec\\nUsing the skill again teleports you to the gate, Using the skill near the gate teleports you to your previous location. Teleport and Opening a New Gate Cooldown: 5 sec\\n[Passive Effect: Avoidability Chance: +20%]",
+                    "shortDesc": "MP Cost: 55, Warp Gate Duration: 100 sec\\nUsing the skill again moves you to the gate, Using the skill near the gate moves your previous location, Movement Cooldown: 2 sec\\nSet again by pressing the skill key with the Up Arrow key. Once set up again, it cannot be set again for 1 sec.\\n[Passive Effect: Avoidability Chance: +20%]",
                     "maxLevel": 20,
                     "icons": ["/class-icons/anima/hoyoung/talisman-warp-gate.png"],
                     "animations": ["https://media.giphy.com/media/dBNK9CH3MySvK7v7oE/giphy.gif"],
-                    "type": "Talisman Summon",
+                    "type": "Summon",
                     "desc": "Place a gate at your position to teleport back to while it is active",
                     "details": [
                         "[Passive]: Permanently increases %Avoidability",
                         "To teleport, press the Skill Key again<bp_After teleporting, using the skill again while near the gate teleports you back to your previous lcoation_>",
-                        "Pressing the Up Arrow Key and Skill Key together will consume Talisman Energy to move the gate to your position"
+                        "Pressing the Up Arrow Key and Skill Key together will resummon the gate to your position"
                     ]
                 },
                 {
@@ -933,7 +933,7 @@
                 },
                 {
                     "name": "HEXA Heaven: Consuming Flames",
-                    "shortDesc": "MP Cost: 120, Max Enemies Hit: 8, Damage: 555%, Number of Attacks: 6, Usage of Graceful Flight and Nimbus Cloud is reset after using this skill\\nCooldown: 8 sec\\n------Enhanced Consuming Flames------\\nMP Cost: 120, Max Enemies Hit: 8, Damage: 810%, Number of Attacks: 6, Usage of Graceful Flight and Nimbus Cloud is reset after using this skill\\nFlame Emblem Duration: 15 sec, the flame explodes on the spot when 3 attacks from Hoyoung land, Max Enemies Hit: 10, Damage: 685%, Number of Attacks: 5\\nCooldown: 8 sec",
+                    "shortDesc": "MP Cost: 120, Max Enemies Hit: 8, Damage: 555%, Number of Attacks: 6, Usage of Graceful Flight and Nimbus Cloud is reset after using this skill\\nCooldown: 8 sec\\n------Enhanced Consuming Flames------\\nMP Cost: 120, Max Enemies Hit: 8, Damage: 1385%, Number of Attacks: 9, Usage of Graceful Flight and Nimbus Cloud is reset after using this skill\\nFlame Emblem Duration: 15 sec, the flame explodes on the spot when 3 attacks from Hoyoung land, Max Enemies Hit: 10, Damage: 1208%, Number of Attacks: 5\\nCooldown: 8 sec",
                     "icons": ["/class-icons/anima/hoyoung/hexa-heaven-consuming-flames.png", "/class-icons/anima/hoyoung/hexa-heaven-consuming-flames-2.png", "/class-icons/anima/hoyoung/heaven-consuming-flames.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -943,7 +943,7 @@
                 },
                 {
                     "name": "HEXA Earth: Stone Tremor",
-                    "shortDesc": "MP Cost: 105, Max Enemies Hit: 10, Damage: 650%, Number of Attacks: 6, Stun Duration for Normal Monsters: 5 sec\\nCooldown: 6 sec\\n------Enhanced Stone Tremor------\\nMP Cost: 105, Max Enemies Hit: 10, Damage: 1010%, Number of Attacks: 6, Stun Duration for Normal Enemies: 5 sec\\nA bright moon rises, Duration: 5 sec, Max Enemies Hit: 8, Damage: 730%, Number of Attacks: 5\\nCooldown: 6 sec",
+                    "shortDesc": "MP Cost: 105, Max Enemies Hit: 10, Damage: 650%, Number of Attacks: 6, Stun Duration for Normal Monsters: 5 sec\\nCooldown: 6 sec\\n------Enhanced Stone Tremor------\\nMP Cost: 105, Max Enemies Hit: 10, Damage: 1241%, Number of Attacks: 10, Stun Duration for Normal Enemies: 5 sec\\nA bright moon rises, Duration: 5 sec, Max Enemies Hit: 8, Damage: 246%, Number of Attacks: 5\\nCooldown: 6 sec",
                     "icons": ["/class-icons/anima/hoyoung/hexa-earth-stone-tremor.png", "/class-icons/anima/hoyoung/hexa-earth-stone-tremor-2.png", "/class-icons/anima/hoyoung/earth-stone-tremor.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -953,7 +953,7 @@
                 },
                 {
                     "name": "HEXA Humanity: Gold-Banded Cudgel",
-                    "shortDesc": "MP Cost: 125, Max Enemies Hit: 10, Damage: 455%, Number of Attacks: 10, Final Blow Damage: 830%, Final Blow Number of Attacks: 8\\nBoss Damage: +30%\\nCooldown: 11 sec\\n------Enhanced Gold-Banded Cudgel------\\nMP Cost: 125, Max Enemies Hit: 10, Damage: 725%, Number of Attacks: 10, Final Blow Damage: 1320%, Final Blow Number of Attacks: 8\\nGoblin Energy Damage: 825%, Goblin Energy Number of Attacks: 8\\nBoss Damage: +30%\\nCooldown: 11 sec",
+                    "shortDesc": "MP Cost: 125, Max Enemies Hit: 10, Damage: 455%, Number of Attacks: 10, Final Blow Damage: 830%, Final Blow Number of Attacks: 8\\nBoss Damage: +30%\\nCooldown: 11 sec\\n------Enhanced Gold-Banded Cudgel------\\nMP Cost: 125, Max Enemies Hit: 10, Damage: 1030%, Number of Attacks: 11, Final Blow Damage: 1390%, Final Blow Number of Attacks: 8\\nGoblin Energy Damage: 1065%, Goblin Energy Number of Attacks: 8\\nCooldown: 11 sec",
                     "icons": ["/class-icons/anima/hoyoung/hexa-humanity-gold-banded-cudgel.png", "/class-icons/anima/hoyoung/hexa-humanity-gold-banded-cudgel-2.png", "/class-icons/anima/hoyoung/humanity-gold-banded-cudgel.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -974,8 +974,8 @@
                 },
                 {
                     "name": "HEXA Heaven: Iron Fan Gale",
-                    "shortDesc": "MP Cost: 50, Damage: 420%, Number of Attacks: 5, Max Enemies Hit: 6\\n------Enhanced Iron Fan Gale------\\nMP Cost: 50, Damage: 610%, Number of Attacks: 5, Max Enemies Hit: 6",
-                    "icons": ["/class-icons/anima/hoyoung/hexa-heaven-iron-fan-gale-1.png", "/class-icons/anima/hoyoung/hexa-heaven-iron-fan-gale-2.png", "/class-icons/anima/hoyoung/heaven-iron-fan-gale.png"],
+                    "shortDesc": "MP Cost: 50, Damage: 420%, Number of Attacks: 5, Max Enemies Hit: 6",
+                    "icons": ["/class-icons/anima/hoyoung/hexa-heaven-iron-fan-gale.png", "/class-icons/anima/hoyoung/heaven-iron-fan-gale.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -984,8 +984,8 @@
                 },
                 {
                     "name": "HEXA Earth: Ground-Shattering Wave",
-                    "shortDesc": "MP Cost: 44, Max Enemies Hit: 6, Damage: 750%, Number of Attacks: 4\\n------Enhanced Ground-Shattering Wave------\\nMP Cost: 44, Max Enemies Hit: 6, Damage: 960%, Number of Attacks: 4",
-                    "icons": ["/class-icons/anima/hoyoung/hexa-earth-ground-shattering-wave-1.png", "/class-icons/anima/hoyoung/hexa-earth-ground-shattering-wave-2.png", "/class-icons/anima/hoyoung/earth-ground-shattering-wave.png"],
+                    "shortDesc": "MP Cost: 44, Max Enemies Hit: 6, Damage: 700%, Number of Attacks: 4",
+                    "icons": ["/class-icons/anima/hoyoung/hexa-earth-ground-shattering-wave.png", "/class-icons/anima/hoyoung/earth-ground-shattering-wave.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -994,8 +994,8 @@
                 },
                 {
                     "name": "HEXA Humanity: As-You-Will Fan",
-                    "shortDesc": "MP Cost: 18, Max Enemies Hit: 5, Damage: 858%, Number of Attacks: 5\\n------Enhanced As-You-Will Fan------\\nMP Cost: 18, Max Enemies Hit: 5, Damage: 1230%, Number of Attacks: 5",
-                    "icons": ["/class-icons/anima/hoyoung/hexa-humanity-as-you-will-fan-1.png", "/class-icons/anima/hoyoung/hexa-humanity-as-you-will-fan-2.png", "/class-icons/anima/hoyoung/humanity-as-you-will-fan.png"],
+                    "shortDesc": "MP Cost: 18, Max Enemies Hit: 5, Damage: 858%, Number of Attacks: 5",
+                    "icons": ["/class-icons/anima/hoyoung/hexa-humanity-as-you-will-fan.png", "/class-icons/anima/hoyoung/humanity-as-you-will-fan.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
@@ -1024,7 +1024,7 @@
                 },
                 {
                     "name": "HEXA Talisman: Seeking Ghost Flame",
-                    "shortDesc": "Talisman Energy Cost: 100, 2 Flames Summon Duration: 90 sec., Enemy Targeting Interval: 1.8 sec., Max Enemies Hit: 5, Damage: 450%, Number of Attacks: 5",
+                    "shortDesc": "Talisman Energy Cost: 100, 2 Flames Summon Duration: 90 sec., Enemy Targeting Interval: 1.8 sec., Max Enemies Hit: 5, Damage: 410%, Number of Attacks: 5, Normal Enemy Damage: +40% (additive)",
                     "icons": ["/class-icons/anima/hoyoung/hexa-talisman-seeking-ghost-flame.png", "/class-icons/anima/hoyoung/talisman-seeking-ghost-flame.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1044,7 +1044,7 @@
                 },
                 {
                     "name": "HEXA Scroll: Star Vortex",
-                    "shortDesc": "Scroll Energy Cost: 900, Creates a vortex that deals 465% damage against 6 enemies 6 times for 40 sec.\\nYou can absorb 1 energy for every 4 successful hits up to 9, Attacking boss monsters absorbs 3 times the energy\\nUsing the skill again will make the vortex disappear and restore 5% of the Max HP and Max MP of party member for each energy absorbed.",
+                    "shortDesc": "Scroll Energy Cost: 900, Creates a vortex that deals 412% damage against 6 enemies 6 times for 40 sec, Normal Enemy Damage: +53% (additive)\\nYou can absorb 1 energy for every 4 successful hits up to 9, Attacking boss monsters absorbs 3 times the energy\\nUsing the skill again will make the vortex disappear and restore 5% of the Max HP and Max MP of party member for each energy absorbed.",
                     "icons": ["/class-icons/anima/hoyoung/hexa-scroll-star-vortex.png", "/class-icons/anima/hoyoung/scroll-star-vortex.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
