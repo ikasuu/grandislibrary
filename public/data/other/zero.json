@@ -34,7 +34,7 @@
             {
                 "name": "Attack Speed",
                 "stat": "[Alpha] 8 [Beta] 7(8)",
-                "detail": "<bg val={Stage 4 for Alpha / Stage 2 for Beta}> <bg src={/class-icons/other/zero/resolution-time.png} tip={Resolution Time (Transcendent Skill)} val={+1}> <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+3}> <bg type={toggle} src={/class-icons/other/zero/divine-aura.png} tip={Divine Aura (Transcendent Skill)} val={+1}> <bg type={temp} src={/class-icons/other/zero/chrono-break.png} tip={Chrono Break (5th Job)} val={+2}> <bg type={temp} src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion (Transcendent Skill)} val={+1 within zone}>"
+                "detail": "<bg val={Stage 4 for Alpha / Stage 2 for Beta}> <bg src={/class-icons/other/zero/resolution-time.png} tip={Resolution Time (Transcendent Skill)} val={+1}> <bg src={/class-icons/other/zero/divine-aura.png} tip={Divine Aura (Transcendent Skill)} val={+1}> <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+3}> <bg type={temp} src={/class-icons/other/zero/chrono-break.png} tip={Chrono Break (5th Job)} val={+2}> <bg type={temp} src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion (Transcendent Skill)} val={+1 within zone}>"
             },
             {
                 "name": "Weapon Mastery",
@@ -49,7 +49,7 @@
             {
                 "name": "Attack",
                 "stat": "[Alpha] +4% +60(160) [Beta] +4% +100(200)",
-                "detail": "<bg src={/class-icons/other/zero/focused-time.png} tip={Focused Time (Transcendent Skill)} val={+4%}> <bg type={toggle} src={/class-icons/other/zero/divine-aura.png} tip={Divine Aura (Transcendent Skill)} val={+20}> <bg type={opt} src={/class-icons/5th-job/transcendent-rhinnes-prayer.png} tip={Transcendent Rhinne's Prayer (5th Job)} val={+100}> <bg type={alpha} val={Alpha}> <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} val={+40}> <bg type={beta} val={Beta}> <bg src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+80}>"
+                "detail": "<bg src={/class-icons/other/zero/focused-time.png} tip={Focused Time (Transcendent Skill)} val={+4%}> <bg src={/class-icons/other/zero/divine-aura.png} tip={Divine Aura (Transcendent Skill)} val={+20}> <bg type={opt} src={/class-icons/5th-job/transcendent-rhinnes-prayer.png} tip={Transcendent Rhinne's Prayer (5th Job)} val={+100}> <bg type={alpha} val={Alpha}> <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} val={+40}> <bg type={beta} val={Beta}> <bg src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+80}>"
             },
             {
                 "name": "Crit Rate",
@@ -84,7 +84,6 @@
         ],
         "buffInfo": {
             "active": "None",
-            "toggles": "<tt src={/class-icons/other/zero/divine-aura.png} tip={Divine Aura (Transcendent, Lv. 200)}>",
             "summons": "<tt src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion (Transcendent, Lv. 110)} dur={[30s](240s cd)}>",
             "buffCd": "<tt src={/class-icons/other/zero/time-holding.png} tip={Time Holding (Transcendent, Lv. 120)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/transcendent-rhinnes-prayer.png} tip={Transcendent Rhinne's Prayer (5th Job)} dur={[45s](120s cd)}> <tt src={/class-icons/5th-job/transcendent.png} tip={Transcendent (5th Job)} dur={[20s/30s/60s](120s cd)}> <tt src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} dur={[130s](120s cd)}> <tt src={/class-icons/5th-job/impenetrable-skin.png} tip={Impenetrable Skin (5th Job)} dur={[18s](120s cd)}> <tt src={/class-icons/other/zero/focused-time.png} tip={Focused Time (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/other/zero/critical-bind.png} tip={Critical Bind (Beta, Lv. 185)} dur={[4s](10% chance, 35s cd)}> <tt src={/class-icons/other/zero/chrono-break.png} tip={Chrono Break (5th Job)} dur={[10s](120s cd)}> <tt src={/class-icons/other/zero/end-time.png} tip={End Time (6th Job)} dur={[10s](360s cd)}>",
@@ -203,11 +202,10 @@
                 },
                 {
                     "name": "Divine Aura",
-                    "shortDesc": "Time Force Cost: 20, Attack Power: +20, Magic ATT: +20, Attack Speed: +1, Speed: +20, Jump: +10, Defense: +500, Elemental Resistance: +10%, and Status Resistance: +10%",
+                    "shortDesc": "Attack Power: +20, Magic ATT: +20, Attack Speed: +1, Speed: +20, Jump: +10, Defense: +500, Elemental Resistance: +10%, and Status Resistance: +10%",
                     "maxLevel": 1,
                     "icons": ["/class-icons/other/zero/divine-aura.png"],
-                    "animations": ["https://media.giphy.com/media/uM3AYubWRHGHKbU3Em/giphy.gif"],
-                    "type": "Toggle Party Buff"
+                    "type": "Party Passive"
                 },
                 {
                     "name": "Burst Jump",
@@ -266,15 +264,15 @@
                 },
                 {
                     "name": "Time Distortion",
-                    "shortDesc": "Time Force Cost: 30, Area of Time created for 30 sec\\n[Enemies within the area]: Every 4 sec, buff cancels, damage taken increases by 25%, and stuns normal monsters\\n[Party members within the area]: Every 4 sec, nullifies magic and removes Abnormal Status, Attack Speed: +1\\nYou will receive the same effect even when outside of the field, party only receives effect when inside the field.\\nCooldown: 240 sec",
+                    "shortDesc": "Time Force Cost: 30, Area of Time created for 30 sec.\\n[Enemies within the area]: Every 4 sec., buff cancels and stuns normal monsters\\n[Party members within the area]: Every 4 sec., nullifies magic and removes Abnormal Status, Attack Speed: +1, Damage: +25%\\nYou will receive the same effect even when outside of the field, party only receives effect when inside the field.\\nCooldown: 240 sec.",
                     "maxLevel": 1,
                     "icons": ["/class-icons/other/zero/time-distortion.png"],
                     "animations": ["https://media4.giphy.com/media/qBCifRdEjhAOBCo4vD/giphy.gif"],
                     "type": "Summon",
-                    "desc": "Create a zone that affects on enemies and party members",
+                    "desc": "Create a zone that affects enemies and party members",
                     "details": [
-                        "[Enemy]: Increases damage taken and stuns. Every 4 secs, enemies will be buff canceled",
-                        "[Party Member]: Increases Attack Speed (by 1 stage). Every 4 secs, removes Abnormal Statuses<bp_You will always receive the effect even outside the zone_>"
+                        "[Enemy]: Periodically cancels enemy's buffs and stuns regular monsters",
+                        "[Party Member]: Increases Attack Speed (by 1 stage) and %Damage and periodically removes Abnormal Statuses<bp_You will always receive the effect even outside the zone_>"
                     ],
                     "reqLev": 110
                 },
@@ -472,7 +470,7 @@
                     },
                     {
                         "name": "Wind Striker",
-                        "shortDesc": "Time Force Cost: 19, Damage: 250%, Number of Attacks: 8, Max Enemies Hit: 8",
+                        "shortDesc": "Time Force Cost: 16, Damage: 250%, Number of Attacks: 8, Max Enemies Hit: 8",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/zero/wind-striker.png"],
                         "type": "Follow-up Attack",
@@ -481,7 +479,7 @@
                     },
                     {
                         "name": "Storm Break",
-                        "shortDesc": "Time Force Cost: 21, Damage: 215%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 215% per 0.5 sec, Number of Attacks: 4, Duration: 3 sec.",
+                        "shortDesc": "Time Force Cost: 18, Damage: 215%, Number of Attacks: 8, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 215% per 0.5 sec, Number of Attacks: 4, Duration: 3 sec.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/other/zero/storm-break.png"],
                         "type": "Follow-up Attack",
@@ -493,7 +491,7 @@
                     },
                     {
                         "name": "Advanced Storm Break",
-                        "shortDesc": "Time Force Cost: 21, Damage: 335%, Max Enemies Hit: 8, Max Hits: 10\\n[Vortex]: Max Enemies Hit: 8, Damage: 300% per 0.5 sec, Number of Attacks: 4, Duration of Vortex: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 3, Damage Over Time: 195% damage per 1 sec, Normal Enemy Damage: +220% points",
+                        "shortDesc": "Time Force Cost: 18, Damage: 335%, Max Enemies Hit: 8, Max Hits: 10\\n[Vortex]: Max Enemies Hit: 8, Damage: 300% per 0.5 sec, Number of Attacks: 4, Duration of Vortex: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 3, Damage Over Time: 195% damage per 1 sec, Normal Enemy Damage: +220% points",
                         "maxLevel": 30,
                         "icons": ["/class-icons/other/zero/advanced-storm-break.png", "/class-icons/other/zero/storm-break.png"],
                         "type": "Upgraded Passive",
@@ -590,7 +588,7 @@
                     },
                     {
                         "name": "Throwing Weapon",
-                        "shortDesc": "Time Force Cost: 9, Damage: 380%, Number of Attacks: 2, Max Enemies Hit: 6\\nFinal Damage as Assist -25%",
+                        "shortDesc": "Time Force Cost: 9, Damage: 380%, Number of Attacks: 2, Max Enemies Hit: 6\\nFinal Damage as Assist -40%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/zero/throwing-weapon.png"],
                         "type": "Follow-up Attack",
@@ -602,7 +600,7 @@
                     },
                     {
                         "name": "Advanced Throwing Weapon",
-                        "shortDesc": "Time Force Cost: 9, Damage: 370% every 0.3 sec, Number of Attacks: 1, Max Enemies Hit: 6, Duration: 4 sec.\\nFinal Damage as Assist -25%",
+                        "shortDesc": "Time Force Cost: 9, Damage: 370% every 0.3 sec, Number of Attacks: 1, Max Enemies Hit: 6, Duration: 4 sec.\\nFinal Damage as Assist -40%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/other/zero/advanced-throwing-weapon.png", "/class-icons/other/zero/throwing-weapon.png"],
                         "type": "Upgraded Passive",
@@ -651,7 +649,7 @@
                     },
                     {
                         "name": "Giga Crash",
-                        "shortDesc": "Time Force Cost: 15, Damage: 250%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 15 sec",
+                        "shortDesc": "Time Force Cost: 10, Damage: 250%, Number of Attacks: 6, Max Enemies Hit: 6\\nCooldown: 15 sec",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/zero/giga-crash.png", "/class-icons/other/zero/falling-star.png", "/class-icons/other/zero/groundbreaker.png"],
                         "animations": ["https://media.giphy.com/media/LMDT8qhmuuBqdAt2G7/giphy.gif"],
@@ -661,7 +659,7 @@
                     },
                     {
                         "name": "Falling Star",
-                        "shortDesc": "Time Force Cost: 17, Damage: 225%, Number of Attacks: 6, Max Enemies Hit: 6.\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 225%, Number of Attacks: 3.",
+                        "shortDesc": "Time Force Cost: 12, Damage: 225%, Number of Attacks: 6, Max Enemies Hit: 6.\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 225%, Number of Attacks: 3.",
                         "maxLevel": 10,
                         "icons": ["/class-icons/other/zero/falling-star.png"],
                         "type": "Follow-up Attack",
@@ -673,7 +671,7 @@
                     },
                     {
                         "name": "Groundbreaker",
-                        "shortDesc": "Time Force Cost: 19, Damage: 260%, Number of Attacks: 8, Max Enemies Hit: 6.\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 260%, Number of Attacks: 8.",
+                        "shortDesc": "Time Force Cost: 13, Damage: 260%, Number of Attacks: 8, Max Enemies Hit: 6.\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 260%, Number of Attacks: 8.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/other/zero/groundbreaker.png"],
                         "type": "Follow-up Attack",
@@ -685,7 +683,7 @@
                     },
                     {
                         "name": "Mega Groundbreaker",
-                        "shortDesc": "Time Force Cost: 19, Damage: 380%, Max Enemies Hit: 6, Max Hits: 10\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 285%, Number of Attacks: 10\\n[Shock Field]: Max Enemies Hit: 6, Duration: 5 sec, Damage Over Time: 310% damage per 1 sec, Normal Enemy Damage: +210% points",
+                        "shortDesc": "Time Force Cost: 13, Damage: 380%, Max Enemies Hit: 6, Max Hits: 10\\n[Shock Wave]: Max Enemies Hit: 6, Damage: 285%, Number of Attacks: 10\\n[Shock Field]: Max Enemies Hit: 6, Duration: 5 sec, Damage Over Time: 310% damage per 1 sec, Normal Enemy Damage: +210% points",
                         "maxLevel": 30,
                         "icons": ["/class-icons/other/zero/mega-groundbreaker.png", "/class-icons/other/zero/groundbreaker.png"],
                         "type": "Upgraded Passive",
@@ -941,7 +939,7 @@
                 },
                 {
                     "name": "HEXA Wind Cutter",
-                    "shortDesc": "Time Force Cost: 17, Damage: 265%, Number of Attacks: 7, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 175% per 0.5 sec, Number of Attacks: 2, Duration: 3 sec.\\nCooldown: 15 sec",
+                    "shortDesc": "Time Force Cost: 14, Damage: 265%, Number of Attacks: 7, Max Enemies Hit: 8.\\n[Vortex]: Max Enemies Hit: 8, Damage: 175% per 0.5 sec, Number of Attacks: 2, Duration: 3 sec.\\nCooldown: 15 sec",
                     "icons": ["/class-icons/other/zero/hexa-wind-cutter.png", "/class-icons/other/zero/wind-cutter.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -951,7 +949,7 @@
                 },
                 {
                     "name": "HEXA Wind Striker",
-                    "shortDesc": "Time Force Cost: 19, Damage: 355%, Number of Attacks: 8, Max Enemies Hit: 8",
+                    "shortDesc": "Time Force Cost: 16, Damage: 355%, Number of Attacks: 8, Max Enemies Hit: 8",
                     "icons": ["/class-icons/other/zero/hexa-wind-striker.png", "/class-icons/other/zero/wind-striker.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -961,7 +959,7 @@
                 },
                 {
                     "name": "HEXA Storm Break",
-                    "shortDesc": "Time Force Cost: 21, Damage: 475%, Max Enemies Hit: 8, Max Hits: 10\\n[Vortex]: Max Enemies Hit: 8, Damage: 475% per 0.5 sec, Number of Attacks: 4, Duration of Vortex: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 4 sec, Damage Over Time: 330% damage per 1 sec, Normal Enemy Damage: +330% points",
+                    "shortDesc": "Time Force Cost: 18, Damage: 475%, Max Enemies Hit: 8, Max Hits: 10\\n[Vortex]: Max Enemies Hit: 8, Damage: 475% per 0.5 sec, Number of Attacks: 4, Duration of Vortex: 3 sec.\\n[Shock Field]: Max Enemies Hit: 8, Duration: 4 sec, Damage Over Time: 330% damage per 1 sec, Normal Enemy Damage: +330% points",
                     "icons": ["/class-icons/other/zero/hexa-storm-break.png", "/class-icons/other/zero/advanced-storm-break.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -971,7 +969,7 @@
                 },
                 {
                     "name": "HEXA Giga Crash",
-                    "shortDesc": "Time Force Cost: 15, Damage: 360%, Number of Attacks: 6, Max Enemies Hit: 7\\nCooldown: 15 sec",
+                    "shortDesc": "Time Force Cost: 10, Damage: 360%, Number of Attacks: 6, Max Enemies Hit: 7\\nCooldown: 15 sec",
                     "icons": ["/class-icons/other/zero/hexa-giga-crash.png", "/class-icons/other/zero/giga-crash.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -981,7 +979,7 @@
                 },
                 {
                     "name": "HEXA Falling Star",
-                    "shortDesc": "Time Force Cost: 17, Damage: 320%, Number of Attacks: 6, Max Enemies Hit: 7.\\n[Shock Wave]: Max Enemies Hit: 7, Damage: 320%, Number of Attacks: 3.",
+                    "shortDesc": "Time Force Cost: 12, Damage: 320%, Number of Attacks: 6, Max Enemies Hit: 7.\\n[Shock Wave]: Max Enemies Hit: 7, Damage: 320%, Number of Attacks: 3.",
                     "icons": ["/class-icons/other/zero/hexa-falling-star.png", "/class-icons/other/zero/falling-star.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -991,7 +989,7 @@
                 },
                 {
                     "name": "HEXA Groundbreaker",
-                    "shortDesc": "Time Force Cost: 19, Damage: 545%, Max Enemies Hit: 7, Max Hits: 10\\n[Shock Wave]: Max Enemies Hit: 7, Damage: 405%, Number of Attacks: 10\\n[Shock Field]: Max Enemies Hit: 7 Duration: 5 sec, Damage Over Time: 485% damage per 1 sec, Normal Enemy Damage: +340% points",
+                    "shortDesc": "Time Force Cost: 13, Damage: 545%, Max Enemies Hit: 7, Max Hits: 10\\n[Shock Wave]: Max Enemies Hit: 7, Damage: 405%, Number of Attacks: 10\\n[Shock Field]: Max Enemies Hit: 7 Duration: 5 sec, Damage Over Time: 485% damage per 1 sec, Normal Enemy Damage: +340% points",
                     "icons": ["/class-icons/other/zero/hexa-groundbreaker.png", "/class-icons/other/zero/mega-groundbreaker.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1032,7 +1030,7 @@
                 },
                 {
                     "name": "HEXA Rolling Cross",
-                    "shortDesc": "Time Force Cost: 13, Max Enemies Hit: 8, Damage: 665, Number of Attacks: 12\\nAttacks with 3 blades 2 times\\n[Blade]: Max Enemies Hit: 8, Damage: 900%, Number of Attacks: 3\\nWhen several blades land on a single enemy, Final Damage: -70% starting with the second blade\\nCooldown: 10 sec",
+                    "shortDesc": "Time Force Cost: 13, Max Enemies Hit: 8, Damage: 600%, Number of Attacks: 11\\nAttacks with 3 blades 2 times\\n[Blade]: Max Enemies Hit: 8, Damage: 750%, Number of Attacks: 3\\nWhen several blades land on a single enemy, Final Damage: -70% starting with the second blade\\nCooldown: 10 sec",
                     "icons": ["/class-icons/other/zero/hexa-rolling-cross.png", "/class-icons/other/zero/rolling-cross.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1042,7 +1040,7 @@
                 },
                 {
                     "name": "HEXA Rolling Assault",
-                    "shortDesc": "Time Force Cost: 15, Max Enemies Hit: 8, Damage: 615%, Number of Attacks: 12\\nAttacks with 3 blades 2 times\\n[Blade]: Max Enemies Hit: 8, Damage: 980%, Number of Attacks: 4\\nWhen several blades land on a single enemy, Final Damage: -70% starting with the second blade",
+                    "shortDesc": "Time Force Cost: 15, Max Enemies Hit: 8, Damage: 555%, Number of Attacks: 12\\nAttacks with 3 blades 2 times\\n[Blade]: Max Enemies Hit: 8, Damage: 885%, Number of Attacks: 4\\nWhen several blades land on a single enemy, Final Damage: -70% starting with the second blade",
                     "icons": ["/class-icons/other/zero/hexa-rolling-assault.png", "/class-icons/other/zero/rolling-assault.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1092,7 +1090,7 @@
                 },
                 {
                     "name": "HEXA Throwing Weapon",
-                    "shortDesc": "Time Force Cost: 9, Damage: 560%, Number of Attacks: 4, Max Enemies Hit: 6. Up to 3 collisions occur for each enemy.\\nFinal Damage as Assist -25%",
+                    "shortDesc": "Time Force Cost: 9, Damage: 560%, Number of Attacks: 4, Max Enemies Hit: 6. Up to 3 collisions occur for each enemy.\\nFinal Damage as Assist -40%",
                     "icons": ["/class-icons/other/zero/hexa-throwing-weapon.png", "/class-icons/other/zero/throwing-weapon.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
