@@ -475,6 +475,13 @@ export const commonFifth = {
             "This skill is gained alongside and shares SP with <tt src={/class-icons/5th-job/power-of-destiny.png} tip={Power of Destiny (5th Job)}>"
         ]
     },
+    treeOfStars:{
+        "name": "Tree of Stars",
+        "shortDesc": "MP Cost: 1000, Duration: 45 sec., Damage: +20%, Attack Power: +30, Magic ATT: +30. Cooldown: 120 sec.",
+        "icons": ["/class-icons/5th-job/tree-of-stars.png"],
+        "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjY1bmN4MGExdnF2ejNiOHcybGlvdXgyMDAwYnhwamNwMWc2eHdnMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TxNuboreRleZ9Qb7sF/giphy.gif"],
+        "type": "Buff"
+    },
     weaponAura:{
         "name": "Weapon Aura",
         "shortDesc": "HP Cost: 100, Ignores 16% Enemy DEF for 130 sec, Final Damage: +6%.\\nAura Wave (Usable Every 5 sec) - Using certain offensive skills will generate waves, inflicting 1100% damage on up to 10 enemies 6 times.\\nCooldown: 120 sec.",
