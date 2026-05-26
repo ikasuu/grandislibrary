@@ -190,7 +190,7 @@ function PropertyBox({skills, infographics, resources}) {
                 <StyledHeaderFive>Class Infographics<InfoButton tooltip="Click the chip to view image. Clicking the image inside will open it in a new tab"/></StyledHeaderFive>
                 {
                     data.map(image => 
-                    <ClassInfographic key={image.title} infographic={image.src} title={image.title} credit={image.credit}/>
+                    <ClassInfographic key={image.title} infographic={image.src} title={image.title} credit={image.credit} date={image.date}/>
                 )}
             </div>
         )
@@ -201,11 +201,17 @@ function PropertyBox({skills, infographics, resources}) {
     Created by: Ikasuu, Spring 2024
 */
 
-const InfographicCredit = styled.em`
+const InfographicFooterText = styled.em`
     font-size: 0.9rem;
 `;
 
-export function ClassInfographic({ infographic, title, credit }) {
+const InfographicFooter = styled(Modal.Footer)`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`;
+
+export function ClassInfographic({ infographic, title, credit, date }) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -225,9 +231,10 @@ export function ClassInfographic({ infographic, title, credit }) {
                         <Image src={`/grandislibrary/class-infographic/${infographic}`} style={{width: '100%', backgroundImage: 'url(https://www.publicdomainpictures.net/pictures/30000/velka/plain-white-background.jpg)'}}/>
                     </a>
                 </Modal.Body>
-                <Modal.Footer>
-                    <InfographicCredit>Credits to {credit}</InfographicCredit>
-                </Modal.Footer>
+                <InfographicFooter>
+                    <InfographicFooterText>Last Checked: {date}</InfographicFooterText>
+                    <InfographicFooterText>Credits to {credit}</InfographicFooterText>
+                </InfographicFooter>
             </Modal>
         </span>
     );
