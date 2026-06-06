@@ -39,7 +39,7 @@ export const classes = {
     other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"], ["ren", "Ren"]],
     jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
-    shine: [["sia-astelle", "Sia Astelle"]]
+    shine: [["sia-astelle", "Sia Astelle"], ["erel-light", "Erel Light"]]
 }
 
 //Weapons for class overviews, contains icon path and formatted name
@@ -82,7 +82,8 @@ export const weapons = {
     chakram: [`https://maplestory.io/api/GMS/${version}/item/1404007/icon`, "Chakram"],
     martialBrace: [`http://localhost:3000/grandislibrary/images/equipment/martial-brace.png`, "Martial Brace"],
     celestialLight: [`http://localhost:3000/grandislibrary/images/equipment/celestial-light.png`, "Celestial Light"],
-    sword: [`http://localhost:3000/grandislibrary/images/equipment/sword.png`, "Sword"]
+    sword: [`http://localhost:3000/grandislibrary/images/equipment/sword.png`, "Sword"],
+    gram: [`http://localhost:3000/grandislibrary/images/equipment/gram.png`, "Gram"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -138,7 +139,8 @@ export const secondaryWeapons = {
     hexSeeker: [`https://maplestory.io/api/GMS/${version}/item/1354032/icon`, "Hex Seeker"],
     braceBand: [`http://localhost:3000/grandislibrary/images/equipment/brace-band.png`, "Brace Band"],
     compass: [`http://localhost:3000/grandislibrary/images/equipment/compass.png`, "Compass"],
-    imugiGem: [`http://localhost:3000/grandislibrary/images/equipment/imugi-gem.png`, "Imugi Gem"]
+    imugiGem: [`http://localhost:3000/grandislibrary/images/equipment/imugi-gem.png`, "Imugi Gem"],
+    keir: [`http://localhost:3000/grandislibrary/images/equipment/keir.png`, "Keir"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
