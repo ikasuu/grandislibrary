@@ -321,6 +321,24 @@ const StatTableData = styled.td`
   padding: 0.3rem !important;
 `;
 
+//Component from the skill blocks that are used in the base stats section
+//WIP
+const SkillNodeBlock = styled.span`
+    /* Adjust the background from the properties */
+    background-image: ${props => props.color};
+    line-height: ${props => props.lineHeight};
+
+    padding: .25em .4em;
+    margin: .25rem 0;
+    font-size: 75%;
+    font-weight: 700;
+    border-radius: .25rem;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #fff;
+    white-space: nowrap;
+`;
+
 function ClassDetail({content}) {
     return (
         <Container>
@@ -358,23 +376,23 @@ function ClassDetail({content}) {
                 content.hyperBuild.recommended ? <StyledHeaderFive>Hyper Skill Passive Build</StyledHeaderFive> : <></>
             }
             {formatSkillText(content.hyperBuild.recommended)}
-            <StyledHeaderFive>Recommended Skills for Boost Nodes</StyledHeaderFive>
-            {content.nodeInfo.recommended.nodes.map((nodes, index) => 
-                <span key={index}>
-                    <h6>{nodes[0]}</h6>
-                    <Container>{formatSkillTooltip(nodes[1])}</Container>
-                </span>
-            )}
-            <ul>
-                {content.nodeInfo.recommended.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
-            </ul>
-            <StyledHeaderFive>All Possible Skills Obtainable for Boost Nodes</StyledHeaderFive>
-            <Container>{formatSkillTooltip(content.nodeInfo.possible.nodes)}</Container>
-            { content.nodeInfo.possible.notes ? 
-                <ul>
-                    {content.nodeInfo.possible.notes.map((notes, index) => <li key={index}>{formatSkillText(notes)}</li>)}
-                </ul> : <></>
-            }
+            <StyledHeaderFive>Recommended Boost Nodes</StyledHeaderFive>
+            <span>
+                <h6>Primary Nodes</h6>
+                <Container>
+                    {content.nodeInfo.recommended.primary.map((node, index) =><SkillNodeBlock color="linear-gradient(120deg, #6C757D 50%, #6C757D 50%)" key={index} lineHeight="2rem" style={{margin: "0 0.5rem 0.5rem 0", padding: "0 0.25rem 0.25rem 0.25rem"}}><div style={{display: 'block'}}>Node {node[0]+1}</div> {formatSkillTooltip(node[1] ? node[1] : content.nodeInfo.possible[node[0]])}</SkillNodeBlock>)}
+                </Container>
+            </span>
+            <span>
+                <h6>Secondary Nodes</h6>
+                <Container>
+                    {content.nodeInfo.recommended.secondary.map((node, index) =><SkillNodeBlock color="linear-gradient(120deg, #6C757D 50%, #6C757D 50%)" key={index} lineHeight="2rem" style={{margin: "0 0.5rem 0.5rem 0", padding: "0 0.25rem 0.25rem 0.25rem"}}><div style={{display: 'block'}}>Node {node[0]+1}</div> {formatSkillTooltip(node[1] ? node[1] : content.nodeInfo.possible[node[0]])}</SkillNodeBlock>)}
+                </Container>
+            </span>
+            <StyledHeaderFive>Skills Boosted by Nodes</StyledHeaderFive>
+            <Container>
+                {content.nodeInfo.possible.map((node, index) => <SkillNodeBlock color="linear-gradient(120deg, #6C757D 50%, #6C757D 50%)" key={index} lineHeight="2rem" style={{margin: "0 0.5rem 0.5rem 0", padding: "0 0.25rem 0.25rem 0.25rem"}}><div style={{display: 'block'}}>Node {index+1}</div> {formatSkillTooltip(node)}</SkillNodeBlock>)}
+            </Container>
             <StyledHeaderFive>Recommended Inner Ability</StyledHeaderFive>
             <CardDeck>
                 {
