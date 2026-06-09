@@ -508,7 +508,7 @@ export const commonFifth = {
         "type": "Buff",
         "desc": "When toggled, increases the %Final Damage of all your skills (excluding summons)",
         "details": [
-            "While toggled, consumes %Max MP every second or %Max HP for classes without MP"
+            "Right-clicking the skill toggles ON/OFF the visual effect"
         ]
     },
     etherealForm:{
