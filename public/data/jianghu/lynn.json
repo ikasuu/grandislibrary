@@ -128,9 +128,16 @@
                     "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
                 ]
             },
-            "possible": {
-                "nodes": "<tt src={/class-icons/jianghu/lynn/strike-4.png} tip={Strike (1st Job)}> <tt src={/class-icons/jianghu/lynn/peck-3.png} tip={Peck (2nd Job)}> <tt src={/class-icons/jianghu/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}> <tt src={/class-icons/jianghu/lynn/earth-pulverization.png} tip={Earth Pulverization and Roar (3rd Job / 4th Job)}> <tt src={/class-icons/jianghu/lynn/sweep.png} tip={Sweep and Whirlwind (2nd Job / 4th Job)}> <tt src={/class-icons/jianghu/lynn/predators-blow.png} tip={Predator's Blow and Raid (4th Job / Hyper Skill)}>"
-            }
+            "primary": [0,1,2,5],
+            "secondary": [3,4],
+            "nodes": [
+                "<tt src={/class-icons/jianghu/lynn/strike-4.png} tip={Strike (1st Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/peck-3.png} tip={Peck (2nd Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/sneak-attack.png} tip={Sneak Attack (3rd Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/earth-pulverization.png} tip={Earth Pulverization (3rd Job)}> <tt src={/class-icons/jianghu/lynn/roar.png} tip={Roar (4th Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/sweep.png} tip={Sweep (2nd Job)}> <tt src={/class-icons/jianghu/lynn/whirlwind.png} tip={Whirlwind (4th Job)}>",
+                "<tt src={/class-icons/jianghu/lynn/predators-blow.png} tip={Predator's Blow (4th Job)}> <tt src={/class-icons/jianghu/lynn/raid.png} tip={Raid (Hyper Skill)}>"
+            ]
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Lynn"},
