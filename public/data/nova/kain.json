@@ -134,9 +134,16 @@
                     "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
                 ]
             },
-            "possible": {
-                "nodes": "<tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow and Chasing Shot (1st Job / Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang and Lasting Grudge (2nd Job / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-phantom-blade.png} tip={Phantom Blade and Tearing Knife (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/deaths-blessing-node.png} tip={Death's Blessing and Unseen Sniper (3rd Job / Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-chain-sickle.png} tip={Chain Sickle and Poison Needle (4th Job)}>"
-            }
+            "primary": [0,1,2,3,4],
+            "other": [5],
+            "nodes": [
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-poison-needle.png} tip={[Execute] Poison Needle (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-chain-sickle.png} tip={[Execute] Chain Sickle (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-tearing-knife.png} tip={[Execute] Tearing Knife (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-phantom-blade.png} tip={[Execute] Phantom Blade (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/lasting-grudge.png} tip={Lasting Grudge (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/deaths-blessing-node.png} tip={Death's Blessing (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/chasing-shot.png} tip={Chasing Shot (Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/unseen-sniper.png} tip={Unseen Sniper (Hyper Skill)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/dread-bolt.png} tip={Dread Bolt (1st Job)}>"
+            ]
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Kain"},
@@ -987,7 +994,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-chain-sickle.png} tip={Chain Sickle and Poison Needle (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/falling-dust.png} tip={Falling Dust (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-poison-needle.png} tip={[Execute] Poison Needle (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -1028,7 +1035,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow and Chasing Shot (1st Job / Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-phantom-blade.png} tip={Phantom Blade and Tearing Knife (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-chain-sickle.png} tip={Chain Sickle and Poison Needle (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/scattering-shot.png} tip={Scattering Shot (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-phantom-blade.png} tip={[Execute] Phantom Blade (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-chain-sickle.png} tip={[Execute] Chain Sickle (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -1098,7 +1105,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang and Lasting Grudge (2nd Job / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-phantom-blade.png} tip={Phantom Blade and Tearing Knife (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/dragon-fang.png} tip={Dragon Fang and Lasting Grudge (2nd Job / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/shaft-break.png} tip={Shaft Break (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-phantom-blade.png} tip={[Execute] Phantom Blade (3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -1132,7 +1139,7 @@
                     ]
                 },
                 {
-                    "name": "HEXA [Execute] PHantom Blade",
+                    "name": "HEXA [Execute] Phantom Blade",
                     "shortDesc": "MP Cost: 36, MAx Enemies Hit: 4, Damage: 745%, Number of Attacks: 6",
                     "icons": ["http://localhost:3000/grandislibrary/class-icons/nova/kain/hexa-execute-phantom-blade.png", "http://localhost:3000/grandislibrary/class-icons/nova/kain/execute-phantom-blade.png"],
                     "type": "Upgraded Passive",
@@ -1158,7 +1165,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/strike-arrow.png} tip={Strike Arrow and Chasing Shot (1st Job / Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/deaths-blessing-node.png} tip={Death's Blessing and Unseen Sniper (3rd Job / Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/chasing-shot.png} tip={Chasing Shot (Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/nova/kain/deaths-blessing-node.png} tip={Death's Blessing and Unseen Sniper (3rd Job / Hyper Skill)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

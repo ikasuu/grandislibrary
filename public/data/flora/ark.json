@@ -125,9 +125,15 @@
                     "6 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
                 ]
             },
-            "possible": {
-                "nodes": "<tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/basic-charge-drive.png} tip={Overdrive Charge (Basic Charge Drive) (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/ominous-nightmare.png} tip={Ominous Nightmare/Dream (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive and Grievous Wound (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/unstoppable-impulse.png} tip={Unstoppable Impulse and Tenacious Instinct (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/impending-death.png} tip={Impending Death and Vengeful Hate (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive and Insatiable Hunger (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive and Unbridled Chaos (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/endless-agony.png} tip={Creeping Terror, Blissful Restraint, and Endless Agony (3rd Job / 4th Job / Hyper Skill)}>"
-            }
+            "primary": [0,1,2,3,4,5],
+            "nodes": [
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/abyssal-charge-drive.png} tip={Abyssal Charge Drive (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/unbridled-chaos.png} tip={Unbridled Chaos (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/gust-charge-drive.png} tip={Gust Charge Drive (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/insatiable-hunger.png} tip={Insatiable Hunger (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/scarlet-charge-drive.png} tip={Scarlet Charge Drive (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/grievous-wound.png} tip={Grievous Wound (2nd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/basic-charge-drive.png} tip={Basic Charge Drive (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/creeping-terror.png} tip={Creeping Terror (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/blissful-restraint.png} tip={Blissful Restraint (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/endless-agony.png} tip={Endless Agony (Hyper Skill)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/ominous-nightmare.png} tip={Ominous Nightmare/Dream (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/impending-death.png} tip={Impending Death (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/vengeful-hate.png} tip={Vengeful Hate (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/flora/ark/unstoppable-impulse.png} tip={Unstoppable Impulse and Tenacious Instinct (2nd Job)}>"
+            ]
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Ark"},

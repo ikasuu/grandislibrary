@@ -132,9 +132,16 @@
                     "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
                 ]
             },
-            "possible": {
-                "nodes": "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/flash-fist.png} tip={Flash Fist (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/ground-pound.png} tip={Ground Pound (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/blade-imp-forward-slash.png} tip={Blade Imp (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/shockwave-punch.png} tip={Shockwave Punch (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/spirit-frenzy.png} tip={Spirit Frenzy (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/spirit-trap.png} tip={Spirit Trap (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/summon-other-spirit.png} tip={Summon Other Spirit (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/bomb-punch.png} tip={Bomb Punch (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/death-mark.png} tip={Death Mark (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/spirit-incarnation.png} tip={Spirit Incarnation (Hyper Skill)}>"
-            }
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/spirit-claw.png} tip={Spirit Claw (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/fox-spirits.png} tip={Fox Spirits (2nd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/bomb-punch.png} tip={Bomb Punch (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/death-mark.png} tip={Death Mark (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/spirit-frenzy.png} tip={Spirit Frenzy (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/spirit-trap.png} tip={Spirit Trap (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/spirit-incarnation.png} tip={Spirit Incarnation (Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/blade-imp-forward-slash.png} tip={Blade Imp (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/summon-other-spirit.png} tip={Summon Other Spirit (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/flash-fist.png} tip={Flash Fist (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/ground-pound.png} tip={Ground Pound (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/shade/shockwave-punch.png} tip={Shockwave Punch (3rd Job)}>"
+            ]
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Shade"},

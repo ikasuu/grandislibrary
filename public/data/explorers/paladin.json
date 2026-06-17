@@ -140,19 +140,16 @@
             "recommended": "<bp_<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast-reinforce.png} tip={Blast - Reinforce}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast-extra-strike.png} tip={Blast - Extra Strike}> Blast - Reinforce and Extra Strike_<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/heavens-hammer-reinforce.png} tip={Heaven's Hammer - Reinforce}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/heavens-hammer-cooldown-cutter.png} tip={Heaven's Hammer - Cooldown Cutter}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/heavens-hammer-extra-strike.png} tip={Heaven's Hammer - Extra Strike}> Heaven's Hammer - Reinforce, Cooldown Cutter, and Extra Strike_>" 
         },
         "nodeInfo": {
-            "recommended": {
-                "nodes": [
-                    ["Primary Trio", "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment (4th Job) / Divine Mark (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)}> "],
-                    ["Secondary Trio", "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/smite-shield.png} tip={Smite Shield (Hyper Skill)}>"]
-                ],
-                "notes": [
-                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
-                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
-                ]
-            },
-            "possible": {
-                "nodes": "<tt src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-swing.png} tip={Divine Swing (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/close-combat.png} tip={Close Combat (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/rush.png} tip={Leap Attack / Rush (1st Job / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment (4th Job) / Divine Mark (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/smite-shield.png} tip={Smite Shield (Hyper Skill)}>"
-            }
+            "primary" : [0,1,2,3],
+            "other": [4, 5],
+            "nodes": [
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-mark.png} tip={Divine Mark (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/heavens-hammer.png} tip={Heaven's Hammer (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/smite-shield.png} tip={Smite Shield (Hyper Skill)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/warrior/leap-attack.png} tip={Leap Attack (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/rush.png} tip={Rush (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-swing.png} tip={Divine Swing (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/close-combat.png} tip={Close Combat (2nd Job)}>"
+            ]
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Paladin"},
@@ -879,7 +876,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment / Divine Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/blast.png} tip={Blast (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -910,7 +907,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-judgment.png} tip={Divine Judgment / Divine Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-charge.png} tip={Divine Charge (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/paladin/divine-mark.png} tip={Divine Mark (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

@@ -123,9 +123,16 @@
                     "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
                 ]
             },
-            "possible": {
-                "nodes": "<tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/exceed-double-slash.png} tip={Exceed: Double Slash (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/exceed-demon-strike.png} tip={Exceed: Demon Strike (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/bat-swarm.png} tip={Bat Swarm (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/exceed-lunar-slash.png} tip={Exceed: Lunar Slash (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/vitality-veil.png} tip={Vitality Veil (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/shield-charge.png} tip={Shield Charge (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/exceed-execution.png} tip={Exceed: Execution (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/nether-shield.png} tip={Nether Shield (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/nether-slice.png} tip={Nether Slice (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/blood-prison.png} tip={Blood Prison (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/infernal-exceed.png} tip={Infernal Exceed (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/thousand-swords.png} tip={Thousand Swords (Hyper Skill)}>"
-            }
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/nether-shield.png} tip={Nether Shield (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/bat-swarm.png} tip={Bat Swarm (2nd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/exceed-execution.png} tip={Exceed: Execution (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/exceed-double-slash.png} tip={Exceed: Double Slash (1st Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/exceed-lunar-slash.png} tip={Exceed: Lunar Slash (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/exceed-demon-strike.png} tip={Exceed: Demon Strike (2nd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/thousand-swords.png} tip={Thousand Swords (Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/infernal-exceed.png} tip={Infernal Exceed (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/vitality-veil.png} tip={Vitality Veil (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/shield-charge.png} tip={Shield Charge (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/blood-prison.png} tip={Blood Prison (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/resistance/demon-avenger/nether-slice.png} tip={Nether Slice (4th Job)}>"
+            ]
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Demon_Avenger"},

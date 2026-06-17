@@ -108,19 +108,16 @@
             "recommended": "<bp_<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/finisher-reinforce.png} tip={Finisher - Reinforce}> Finisher - Reinforce_<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/surging-adrenaline.png} tip={Surging Adrenaline}> Surging Adrenaline_<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/beyonder-blade.png} tip={Beyond-er Blade}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/beyond-blade-barrage.png} tip={Beyond Blade Barrage}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/piercing-beyond-blade.png} tip={Piercing Beyond Blade}> Beyond-er Blade, Beyond Blade Barrage and Piercing Beyond Blade_>"
         },
         "nodeInfo": {
-            "recommended": {
-                "nodes": [
-                    ["Primary Trio", "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/beyond-blade-3.png} tip={Beyond Blade (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/last-stand.png} tip={Hyper Finisher - Last Stand (Hyper Skill)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/hunters-prey.png} tip={Finisher - Hunter's Prey (4th Job)}>"],
-                    ["Secondary Trio", "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/smash-swing.png} tip={Smash Swing / Permafrost (1st Job / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/adrenaline-rush.png} tip={Adrenaline Rush / Adrenaline Overload (3rd Job / 4th Job)}>"]
-                ],
-                "notes": [
-                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
-                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
-                ]
-            },
-            "possible": {
-                "nodes": "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/smash-swing.png} tip={Smash Swing / Permafrost (1st Job / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/final-charge.png} tip={Final Charge (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/final-toss.png} tip={Final Toss (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/judgment-draw.png} tip={Judgment Draw (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/adrenaline-rush.png} tip={Adrenaline Rush / Adrenaline Overload (3rd Job / 4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/beyond-blade-3.png} tip={Beyond Blade (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/glacial-prison.png} tip={Glacial Prison (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/hunters-prey.png} tip={Finisher - Hunter's Prey (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/last-stand.png} tip={Hyper Finisher - Last Stand (Hyper Skill)}>"
-            }
+            "primary": [0,1,2,3],
+            "secondary": [4,5],
+            "nodes": [
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/beyond-blade-3.png} tip={Beyond Blade (2nd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/hunters-prey.png} tip={Finisher - Hunter's Prey (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/last-stand.png} tip={Hyper Finisher - Last Stand (Hyper Skill)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/adrenaline-rush.png} tip={Adrenaline Rush (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/adrenaline-overload.png} tip={Adrenaline Overload (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/permafrost.png} tip={Permafrost (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/final-charge.png} tip={Final Charge (1st Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/final-toss.png} tip={Final Toss (1st Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/judgment-draw.png} tip={Judgment Draw (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/glacial-prison.png} tip={Glacial Prison (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/smash-swing.png} tip={Smash Swing (1st Job)}>"
+            ]
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Aran"},
@@ -904,7 +901,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/beyond-blade.png} tip={Beyond Blade (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/beyond-blade-3.png} tip={Beyond Blade (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -965,7 +962,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/smash-swing.png} tip={Smash Swing / Permafrost (1st Job / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/adrenaline-rush.png} tip={Adrenaline Rush / Adrenaline Overload (3rd Job / 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/permafrost.png} tip={Permafrost (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/common/final-attack.png} tip={Final Attack (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/heroes/aran/adrenaline-rush.png} tip={Adrenaline Rush / Adrenaline Overload (3rd Job / 4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {

@@ -112,19 +112,16 @@
             "recommended": "[Bossing]<bp_<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/double-down-saving-grace.png} tip={Double Down - Saving Grace}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/double-down-enhance.png} tip={Double Down - Enhance}> Double Down - Saving Grace and Enhance_<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/octopunch-reinforce.png} tip={Octopunch - Reinforce}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/octopunch-boss-rush.png} tip={Octopunch - Boss Rush}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/octopunch-extra-strike.png} tip={Octopunch - Extra Strike}> Octopunch - Reinforce, Boss Rush, and Extra Strike_>[Mobbing]<bp_<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/double-down-saving-grace.png} tip={Double Down - Saving Grace}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/double-down-enhance.png} tip={Double Down - Enhance}> Double Down - Saving Grace and Enhance_<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/hook-bomber-reinforce.png} tip={Hook Bomber - Reinforce}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/hook-bomber-spread.png} tip={Hook Bomber - Spread}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/hook-bomber-extra-strike.png} tip={Hook Bomber - Extra Strike}> Hook Bomber - Reinforce, Spread, and Extra Strike_>"
         },
         "nodeInfo": {
-            "recommended": {
-                "nodes": [
-                    ["Primary Trio", "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage/Raging Serpent Assault (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}>"],
-                    ["Secondary Trio", "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}>"]
-                ],
-                "notes": [
-                    "Any combination of these skills are good but preferred from same category as you want to max primary first",
-                    "4 Boost Nodes total are needed to reach Master Level 60 for these skills (with Matrix Points used)<bp_Nodes with the same Main Skill (skill at the top) cannot be equipped at the same time_>"
-                ]
-            },
-            "possible": {
-                "nodes": "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/static-thumper.png} tip={Static Thumper (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/turning-kick.png} tip={Turning Kick (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage/Raging Serpent Assault (4th Job)}>"
-            }
+            "primary": [0,1,2,3],
+            "other": [4,5],
+            "nodes": [
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/octopunch.png} tip={Octopunch (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/serpent-assault.png} tip={Serpent Assault (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/hook-bomber.png} tip={Hook Bomber (4th Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/corkscrew-blow.png} tip={Corkscrew Blow (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/turning-kick.png} tip={Turning Kick (3rd Job)}>",
+                "<tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/static-thumper.png} tip={Static Thumper (2nd Job)}>"
+            ]
         },
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Buccaneer"},
@@ -979,7 +976,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage/Raging Serpent Assault (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst (2nd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/nautilus-strike.png} tip={Nautilus Strike (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
@@ -1009,7 +1006,7 @@
                     "type": "",
                     "desc": "",
                     "details": [
-                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpents-rage.png} tip={Sea Serpent's Rage/Raging Serpent Assault (4th Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/sea-serpent-burst.png} tip={Sea Serpent Burst/Serpent Assault (2nd / 3rd Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
+                        "Requires <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/serpent-assault.png} tip={Serpent Assault (3rd Job)}> <tt src={http://localhost:3000/grandislibrary/class-icons/explorers/buccaneer/raging-serpent-assault.png} tip={Raging Serpent Assault (4th Job)}> enhanced with V Matrix at least Lv. 40 (before Matrix Points) to unlock"
                     ]
                 },
                 {
