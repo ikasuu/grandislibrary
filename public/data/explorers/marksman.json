@@ -39,8 +39,8 @@
             },
             {
                 "name": "Attack",
-                "stat": "+4% +60",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/marksman/soul-arrow.png} tip={Soul Arrow: Crossbow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+30}>"
+                "stat": "+4% +70",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/explorers/marksman/soul-arrow.png} tip={Soul Arrow: Crossbow (2nd Job)} val={+30}> <bg src={/class-icons/explorers/marksman/crossbow-expert.png} tip={Crossbow Expert (4th Job)} val={+40}>"
             },
             {
                 "name": "Crit Rate",
@@ -54,8 +54,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+15%(85%)",
-                "detail": "<bg src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship (3rd Job)} val={+15%}> <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+20%}> <bg type={temp} src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/marksman/mortal-blow.png} tip={Mortal Blow (3rd Job)} val={+20% with 10% chance}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "stat": "+21%(91%)",
+                "detail": "<bg src={/class-icons/explorers/marksman/marksmanship.png} tip={Marksmanship (3rd Job)} val={+21%}> <bg type={temp} src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} val={+20%}> <bg type={temp} src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/explorers/marksman/mortal-blow.png} tip={Mortal Blow (3rd Job)} val={+20% with 10% chance}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -64,8 +64,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+63.94%(70.5%)",
-                "detail": "<bg src={/class-icons/explorers/marksman/crossbow-mastery.png} tip={Crossbow Mastery (2nd Job)} val={+20%}> × <bg src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+8%}> × <bg src={/class-icons/explorers/marksman/bolt-surplus.png} tip={Bolt Surplus (4th Job)} val={+15%}> × <bg src={/class-icons/explorers/marksman/last-man-standing.png} tip={Last Man Standing (4th Job)} val={+10%}> × <bg type={temp} src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+4% from buff}>"
+                "stat": "+68.42%(75.15%)",
+                "detail": "<bg src={/class-icons/explorers/marksman/crossbow-mastery.png} tip={Crossbow Mastery (2nd Job)} val={+20%}> × <bg src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+8%}> × <bg src={/class-icons/explorers/marksman/bolt-surplus.png} tip={Bolt Surplus (4th Job)} val={+15%}> × <bg src={/class-icons/explorers/marksman/last-man-standing.png} tip={Last Man Standing (4th Job)} val={+13%}> × <bg type={temp} src={/class-icons/explorers/marksman/greater-empowered-arrows.png} tip={Greater Empowered Arrows (4th Job)} val={+4% from buff}>"
             },
             {
                 "name": "Ignore DEF",
@@ -419,7 +419,7 @@
                     },
                     {
                         "name": "Marksmanship",
-                        "shortDesc": "Monster DEF Ignored: 25%, Damage: +15%",
+                        "shortDesc": "Monster DEF Ignored: 25%, Damage: +21%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/marksman/marksmanship.png"],
                         "type": "Passive"
@@ -517,7 +517,7 @@
                     },
                     {
                         "name": "Crossbow Expert",
-                        "shortDesc": "Crossbow Mastery: +70%. Attack Power: +30, Critical Damage: +15%",
+                        "shortDesc": "Crossbow Mastery: +70%. Attack Power: +40, Critical Damage: +15%",
                         "maxLevel": 30,
                         "icons": ["/class-icons/explorers/marksman/crossbow-expert.png", "/class-icons/explorers/marksman/crossbow-mastery.png"],
                         "type": "Upgraded Passive",
@@ -547,7 +547,7 @@
                     },
                     {
                         "name": "Last Man Standing",
-                        "shortDesc": "Final Damage: +10%",
+                        "shortDesc": "Final Damage: +13%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/marksman/last-man-standing.png"],
                         "type": "Passive"
@@ -696,7 +696,7 @@
                 },
                 {
                     "name": "Surge Bolt",
-                    "shortDesc": "MP Cost: 750, Max Enemies Hit: 10, Damage: 1870%, Number of Attacks: 12, Strike Count: 2\\n Bonus Ignore Defense: 50%, Additional Critical Rate: +100%\\nCooldown: 20 sec",
+                    "shortDesc": "MP Cost: 750, Max Enemies Hit: 10, Damage: 1925%, Number of Attacks: 12, Strike Count: 2\\n Bonus Ignore Defense: 50%, Additional Critical Rate: +100%\\nCooldown: 20 sec",
                     "icons": ["/class-icons/explorers/marksman/surge-bolt.png"],
                     "animations": ["https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmVxbzR0Y3c3N2k4dzhnbHBkeThrY3RvbmoweXUxcDBvbnk3ZnF6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2saTLGjCOLwBAAg1lS/giphy.gif"],
                     "type": "Attack",
@@ -922,7 +922,7 @@
                 },
                 {
                     "name": "Fatal Trigger",
-                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe first arrow ruptures enemies 12 times, dealing 7974% damage to up to 15 enemies 11 times\\nThe second arrow strikes enemies 12 times, dealing 8154% damage 14 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe first arrow ruptures enemies 12 times, dealing 7953% damage to up to 15 enemies 11 times\\nThe second arrow strikes enemies 12 times, dealing 8134% damage 14 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/explorers/marksman/fatal-trigger.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2d6dzBwOHNubjdwMmhqOXhvazlpY3ZuajgwYndoZDRidHJoMXpqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cfdcodk2CeU3USls7m/giphy.gif"],
                     "type": "Ascent Skill",

@@ -55,8 +55,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+15%",
-                "detail": "<bg src={/class-icons/explorers/dual-blade/sharpness.png} tip={Sharpness (4th Job)} val={+15%}>"
+                "stat": "+20%",
+                "detail": "<bg src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld (3rd Job)} val={+5%}> <bg src={/class-icons/explorers/dual-blade/sharpness.png} tip={Sharpness (4th Job)} val={+15%}>"
             },
             {
                 "name": "Damage",
@@ -70,8 +70,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+39.96%(225.57%)",
-                "detail": "<bg src={/class-icons/explorers/dual-blade/venom.png} tip={Venom (2nd Job+)} val={+9%}> × <bg src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld (3rd Job)} val={+7%}> × <bg src={/class-icons/explorers/dual-blade/katara-expert.png} tip={Katara Expert (4th Job)} val={+20%}> × <bg type={temp} src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)} val={+40%}> × <bg type={temp} sub={opt} src={/class-icons/common/advanced-dark-sight.png} tip={Advanced Dark Sight (3rd Job)} val={+20% while in Dark Sight} subSrc={/class-icons/5th-job/shadow-walker.png} subTip={Shadow Walker (5th Job)} subVal={extra +14% while active}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
+                "stat": "+41.26%(228.61%)",
+                "detail": "<bg src={/class-icons/explorers/dual-blade/venom.png} tip={Venom (2nd Job+)} val={+9%}> × <bg src={/class-icons/explorers/dual-blade/shadow-meld.png} tip={Shadow Meld (3rd Job)} val={+8%}> × <bg src={/class-icons/explorers/dual-blade/katara-expert.png} tip={Katara Expert (4th Job)} val={+20%}> × <bg type={temp} src={/class-icons/explorers/dual-blade/final-cut.png} tip={Final Cut (4th Job)} val={+40%}> × <bg type={temp} sub={opt} src={/class-icons/common/advanced-dark-sight.png} tip={Advanced Dark Sight (3rd Job)} val={+20% while in Dark Sight} subSrc={/class-icons/5th-job/shadow-walker.png} subTip={Shadow Walker (5th Job)} subVal={extra +14% while active}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
             },
             {
                 "name": "Ignore DEF",
@@ -488,13 +488,14 @@
                     },
                     {
                         "name": "Shadow Meld",
-                        "shortDesc": "Dodge Chance: 30%, Upon successful dodge, Attack Power +15 and all attacks performed afterwards will be Critical Hits for 7 sec. Cooldown upon successful dodge: 5 sec.\\nFinal Damage: +7%.",
+                        "shortDesc": "Dodge Chance: 30%, Upon successful dodge, Attack Power +15 and all attacks performed afterwards will be Critical Hits for 7 sec. Cooldown upon successful dodge: 5 sec.\\nFinal Damage: +8%, Critical Damage: +5%.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/explorers/dual-blade/shadow-meld.png"],
                         "type": "Passive",
-                        "desc": "Grants a chance to dodge incoming attacks and gain a buff on successful dodges",
+                        "desc": "Grants a chance to dodge incoming attacks and grants a buff on successful dodges",
                         "details": [
-                            "[Buff]: All your attacks are guaranteed Critical Hits and grants flat Attack"
+                            "[Buff]: All your attacks are guaranteed Critical Hits and grants flat Attack",
+                            "Also permanently increases %Final Damage and %Crit Damage"
                         ]
                     }]
                 ],
@@ -1083,7 +1084,7 @@
                 },
                 {
                     "name": "Yama's Decree",
-                    "shortDesc": "MP Cost: 500, Invincible during casting\\nPronounces punishment 14 times, dealing 5808% damage to up to 15 enemies 11 times\\nUsing the skill again within 30 sec. will activate Just Punishment\\nJust Punishment - MP Cost: 500, Ignore status effects while casting\\nSlashes enemies 14 times, dealing 7490% damage to 15 enemies 13 times\\nAfterwards the judgment activates 4 times, dealing 9310% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 500, Invincible during casting\\nPronounces punishment 14 times, dealing 5779% damage to up to 15 enemies 11 times\\nUsing the skill again within 30 sec. will activate Just Punishment\\nJust Punishment - MP Cost: 500, Ignore status effects while casting\\nSlashes enemies 14 times, dealing 7683% damage to 15 enemies 13 times\\nAfterwards the judgment activates 4 times, dealing 10495% damage 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/explorers/dual-blade/yamas-decree.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnFzYnh3ZHp1cTdrc2JvbzVkdG02aDNnZTF3MzFjbDY4NHNicGYyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hOBtjCTgmlBUDs4484/giphy.gif"],
                     "type": "Ascent Skill",
