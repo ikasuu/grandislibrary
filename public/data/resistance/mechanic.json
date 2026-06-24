@@ -59,8 +59,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+5%",
-                "detail": "<bg src={/class-icons/resistance/mechanic/mechanic-mastery.png} tip={Mechanic Mastery (2nd Job)} val={+5%}>"
+                "stat": "+8%",
+                "detail": "<bg src={/class-icons/resistance/mechanic/mechanic-mastery.png} tip={Mechanic Mastery (2nd Job)} val={+8%}>"
             },
             {
                 "name": "Damage",
@@ -358,7 +358,7 @@
                     },
                     {
                         "name": "Mechanic Mastery",
-                        "shortDesc": "Attack Power: +20, Weapon Mastery: +50%, Critical Rate: +15%, Critical Damage: +5%",
+                        "shortDesc": "Attack Power: +20, Weapon Mastery: +50%, Critical Rate: +15%, Critical Damage: +8%",
                         "maxLevel": 10,
                         "icons": ["/class-icons/resistance/mechanic/mechanic-mastery.png"],
                         "type": "Passive"
@@ -1072,12 +1072,12 @@
                 },
                 {
                     "name": "Robo Conversion: CB-P1",
-                    "shortDesc": "MP Cost: 54, Summons a nodebot. Max Enemies Hit: 8, Damage: 640%, Number of Attacks: 4. Using HEXA Robo Launcher RM7, HEXA Rock 'n Shock, or HEXA Bots 'n Tots enhances nodebot by 1 level.\\nLevel 1: Periodically deals damage. Max Enemies Hit: 8, Damage: 770%, Number of Attacks: 6\\nLevel 2: Periodically deals damage. Max Enemies Hit: 8, Damage: 1010%, Number of Attacks: 7\\nLevel 3: Periodically deals damage. Max Enemies Hit: 8, Damage: 1230%, Number of Attacks: 8",
+                    "shortDesc": "MP Cost: 54, summons a nodebot that deals 1230% damage 8 times to up to 8 enemies at set intervals",
                     "icons": ["/class-icons/resistance/mechanic/robo-conversion-cb-p1.png"],
                     "type": "Toggle Summon",
                     "desc": "While toggled, summons a robot that fights alongside you",
                     "details": [
-                        "While the robot is summoned, using the following skills will upgrade the robot instead of placing down a summon: <tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)}><bp_Each upgrade increases the robot's %Damage and Number of Attacks (up to Level 3)_Each upgrade is affected by %Summon Duration_>",
+                        "While the robot is summoned, the following skills cannot be used: <tt src={/class-icons/resistance/mechanic/robo-launcher-rm7.png} tip={Robo Launcher RM7 (2nd Job)}> <tt src={/class-icons/resistance/mechanic/rock-n-shock.png} tip={Rock 'n Shock (3rd Job)}> <tt src={/class-icons/resistance/mechanic/bots-n-tots.png} tip={Bots 'n Tots (4th Job)}>",
                         "Unlocked with 4th Mastery Node"
                     ]
                 }
@@ -1093,7 +1093,7 @@
                 },
                 {
                     "name": "Mechanized Extinction",
-                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe mech launches 25 bombardments, dealing 7910% damage to up to 15 enemies 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nThe mech launches 25 bombardments, dealing 8331% damage to up to 15 enemies 15 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/resistance/mechanic/mechanized-extinction.png"],
                     "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJzem5zbWM3NHZwd3B3ZnFlZzMzNWd3cWk5dTRveHFkcnNocnB5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/m0ryrYZ1aEJdXpX3L0/giphy.gif"],
                     "type": "Ascent Skill",

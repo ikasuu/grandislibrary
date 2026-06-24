@@ -670,16 +670,27 @@
             "fifthMain": [
                 {
                     "name": "Demonic Frenzy",
-                    "shortDesc": "HP Cost: 20% of Max HP. Consumes 6000 HP per sec, Healing Restriction: Items and skills can only heal 2% of Max HP. Hit Damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 11% per 2% HP consumed. Your demonic blood, burning with vengeance, lingers in the area, periodically dealing 740% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 1 sec",
+                    "shortDesc": "HP Cost: 20% of Max HP. Consumes 6000 HP per sec, Healing Restriction: Items and skills can only heal 1% of Max HP. Hit Damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 11% per 2% HP consumed. Your demonic blood, burning with vengeance, lingers in the area, periodically dealing 740% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Demonic Frenzy will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.\\nCooldown: 1 sec",
                     "icons": ["/class-icons/resistance/demon-avenger/demonic-frenzy.png"],
                     "animations": ["https://media.giphy.com/media/FHWtnSun6sL2Z6n162/giphy.gif"],
                     "type": "Toggle Buff",
                     "desc": "While toggled, gain increased %Final Damage and create a damaging aura around you",
                     "details": [
                         "Costs HP to activate and drains HP each sec while active",
-                        "Items and skills can only recover 2% Max HP but you take reduced damage (including %Max HP attacks)",
+                        "Items and skills can only recover 1% Max HP but you take reduced damage (including %Max HP attacks)",
                         "Upon falling below 30% HP, HP will no longer drain and healing is no longer restricted",
                         "Pressing the Skill Key again ends the skill early"
+                    ]
+                },
+                {
+                    "name": "Frenzy Break",
+                    "shortDesc": "Consumes 6000 HP per sec. Healing Restriction: Items and skills can only heal 2% of Max HP. Hit Damage -30% (including the damage proportional to Max HP)\\nFinal Damage: +1% and can be increased up to 11% per 2% HP consumed. Your demonic blood, burning with vengeance, lingers in the area, periodically dealing 740% damage on up to 10 enemies 3 times\\nWhen your HP falls below 30%, the HP loss will cease, and Frenzy Break will no longer restrict your healing.\\nReusing this skill during its effect will deactivate that effect.",
+                    "icons": ["/class-icons/resistance/demon-avenger/frenzy-break.png"],
+                    "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG05a3VlYXI2MTV6cmp1OWRweTV1eGk3ejVjZW51bXdlaTNsN2libSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UXhyA7oxXmPbXM3rpa/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Using this skill while <tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)}> is active, switches the mode to <tt src={/class-icons/resistance/demon-avenger/frenzy-break.png} tip={Frenzy Break (5th Job)}> and the Items and skills recovery amount increases from 1% to 2% Max HP",
+                    "details": [
+                        "Shares Skill Points (SP) with <tt src={/class-icons/resistance/demon-avenger/demonic-frenzy.png} tip={Demonic Frenzy (5th Job)}> and is unlocked together"
                     ]
                 },
                 {
@@ -979,7 +990,7 @@
                 },
                 {
                     "name": "Rageborne Devil",
-                    "shortDesc": "After creating rifts of wrath, use the skill again within 30 sec. to activate Red Annihilation. Invincible during casting, the HP recovery from Life Sap and Advanced Life Sap will not apply when Demonic Frenzy is applied to skills that activate while you're invincible.\\nRifts of Wrath - HP Cost: 100. Your wrath strikes out 19 times, dealing 6615% damage to up to 15 enemies 11 times. The rifts open for 30 sec.\\nRed Annihilation - HP Cost: 100. Use the skill again while the rifts are open to unleash 14 slashes, dealing 6720% damage to up to 15 enemies 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "After creating rifts of wrath, use the skill again within 30 sec. to activate Red Annihilation. Invincible during casting, the HP recovery from Life Sap and Advanced Life Sap will not apply when Demonic Frenzy is applied to skills that activate while you're invincible.\\nRifts of Wrath - HP Cost: 100. Your wrath strikes out 19 times, dealing 7280% damage to up to 15 enemies 11 times. The rifts open for 30 sec.\\nRed Annihilation - HP Cost: 100. Use the skill again while the rifts are open to unleash 14 slashes, dealing 7385% damage to up to 15 enemies 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/resistance/demon-avenger/rageborne-devil.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzZibXN0aG90bDBmN3N2cDd1b3FicGJxNjR4ejJlMm41OWNlM2ZvZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ebwRGZiHCTKDCQrTpv/giphy.gif"],
                     "type": "Ascent Skill",
