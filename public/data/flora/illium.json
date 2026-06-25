@@ -439,14 +439,14 @@
                         "icons": ["/class-icons/flora/illium/crystal-skill-wings-of-glory.png"],
                         "animations": ["https://media.giphy.com/media/J6Dd8eNulGBGxQ80nD/giphy.gif"],
                         "type": "Crystal Buff",
-                        "desc": "Transform to fly and empowers <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> to <tt src={/class-icons/flora/illium/winged-javelin.png} tip={Winged Javelin (3rd Job)}> Winged Javelins",
+                        "desc": "Upon use, enter a flying state that grants %Final Damage, %Boss Damage, and 100% Knockback Resistance, and empowers <tt src={/class-icons/flora/illium/radiant-javelin.png} tip={Radiant Javelin (1st Job)}> into <tt src={/class-icons/flora/illium/winged-javelin.png} tip={Winged Javelin (3rd Job)}>",
                         "details": [
                             "Requires a minimum of 150 Charges to use",
                             "Upon casting, briefly grants immunity to Critical Abnormal Statuses",
-                            "While active, gain increased %Final Damage, %Boss Damage, and 100% Knockback Resistance",
-                            "While active, you can still use <tt src={/class-icons/flora/illium/crystalline-wings.png} tip={Crystalline Wings (1st Job)}> to teleport",
+                            "While active, <tt src={/class-icons/flora/illium/crystalline-wings.png} tip={Crystalline Wings (1st Job)}> can be used in the air",
                             "<tt src={/class-icons/flora/illium/winged-javelin.png} tip={Winged Javelin (3rd Job)}> deals increased %Damage to regular monsters and prioritizes bosses with the highest HP",
                             "Pressing the Skill Key again will end the skill early",
+                            "Right-clicking the skill toggles a function ON/OFF that prevents flight and you will stay grounded",
                             "Unaffected by %Buff Duration"
                         ]
                     },
@@ -821,7 +821,7 @@
                 },
                 {
                     "name": "Templar Knight",
-                    "shortDesc": "MP Cost: 200, Duration: 12 sec, Disappears after 29 attacks.\\nMax Enemies Hit: 12, Damage: 1320%, Number of Attacks: 15\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 200, Duration: 12 sec, Disappears after 29 attacks.\\nMax Enemies Hit: 12, Damage: 1220%, Number of Attacks: 15\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/flora/illium/templar-knight.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2ZmMnJtN2U3eDZ6aHBudHJkYnEwdWo4MjljcHZ2cTlvdHhqNzBjNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eBu5w8IfHFXeONSrcH/giphy.gif"],
                     "type": "Summon",
@@ -992,7 +992,7 @@
                 },
                 {
                     "name": "HEXA Radiant Javelin",
-                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 5, Damage: 580%, Number of Attacks: 3\\nWhen a javelin hits: Creates 2 shards that each inflict 200% damage\\nWhen hitting a mytocrystal or an enemy with a javelin, 1 mytocrystal shard are obtained, and up to one mytocrystal shard can be obtained per javelin\\nAfter obtaining 30 mytocrystal shards, the next javelin becomes an Enchanted Javelin\\nEnchanted Javelin: throws 3 javelins at once\\nIf the Javelin Shard created by the Enchanted Javelin hit a single enemy, the final damage from the second Javelin Shard is reduced by 50%",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 5, Damage: 551%, Number of Attacks: 3\\nWhen a javelin hits: Creates 2 shards that each inflict 190% damage\\nWhen hitting a mytocrystal or an enemy with a javelin, 1 mytocrystal shard are obtained, and up to one mytocrystal shard can be obtained per javelin\\nAfter obtaining 30 mytocrystal shards, the next javelin becomes an Enchanted Javelin\\nEnchanted Javelin: throws 3 javelins at once\\nIf the Javelin Shard created by the Enchanted Javelin hit a single enemy, the final damage from the second Javelin Shard is reduced by 50%",
                     "icons": ["/class-icons/flora/illium/hexa-radiant-javelin-1.png", "/class-icons/flora/illium/hexa-radiant-javelin-2.png", "/class-icons/flora/illium/radiant-javelin-ii.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1002,7 +1002,7 @@
                 },
                 {
                     "name": "HEXA Winged Javelin",
-                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 5, Damage: 925%, Number of Attacks: 6\\nWhen a javelin hits: Creates 3 magic missiles that attack 3 times with 375% damage\\nWhen a javelin hits, one glory mytocrystal shard is obtained, and up to one glory mytocrystal shard can be obtained per javelin\\nAfter obtaining 10 mytocrystal shards, the next javelin becomes an Enchanted Javelin\\nEnchanted Javelin: throws 3 javelins at once\\nIf the magic missile created by the Enchanted Javelin hits a single enemy, the final damage from the second magic missile is reduced by 50%",
+                    "shortDesc": "MP Cost: 40, Max Enemies Hit: 5, Damage: 879%, Number of Attacks: 6\\nWhen a javelin hits: Creates 3 magic missiles that attack 3 times with 356% damage\\nWhen a javelin hits, one glory mytocrystal shard is obtained, and up to one glory mytocrystal shard can be obtained per javelin\\nAfter obtaining 10 mytocrystal shards, the next javelin becomes an Enchanted Javelin\\nEnchanted Javelin: throws 3 javelins at once\\nIf the magic missile created by the Enchanted Javelin hits a single enemy, the final damage from the second magic missile is reduced by 50%",
                     "icons": ["/class-icons/flora/illium/hexa-winged-javelin-1.png", "/class-icons/flora/illium/hexa-winged-javelin-2.png", "/class-icons/flora/illium/winged-javelin.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1083,7 +1083,7 @@
                 },
                 {
                     "name": "HEXA Crystal Skill - Deus",
-                    "shortDesc": "MP Cost: 345, Duration: 15 sec.\\nDeus Damage: 2050%, Number of Attacks: 10, Max Enemies Hit: 10, a single enemy can be attacked up to 4 time(s)\\nSatellite: Max Number of Summons: 5, Max Number of Satellites per Enemy: 3, Damage: 545% of continuous attack, Number of Attacks per Satellite: 25, a single enemy can be attacked up to 75 time(s)",
+                    "shortDesc": "MP Cost: 345, Duration: 15 sec.\\nDeus Damage: 1890%, Number of Attacks: 10, Max Enemies Hit: 10, a single enemy can be attacked up to 4 time(s)\\nSatellite: Max Number of Summons: 5, Max Number of Satellites per Enemy: 3, Damage: 500% of continuous attack, Number of Attacks per Satellite: 25, a single enemy can be attacked up to 75 time(s)",
                     "icons": ["/class-icons/flora/illium/hexa-crystal-skill-deus.png", "/class-icons/flora/illium/crystal-skill-deus.png"],
                     "type": "Upgraded Passive",
                     "desc": "",
@@ -1143,7 +1143,7 @@
                 },
                 {
                     "name": "Excidium",
-                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nExcidium fire 5 waves, dealing 6650% damage to up to 15 enemies 12 times.\\nThen Excidium's bombardment explodes 23 times, dealing 7000% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nExcidium fire 5 waves, dealing 6895% damage to up to 15 enemies 12 times.\\nThen Excidium's bombardment explodes 23 times, dealing 7245% damage 15 times.\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/flora/illium/excidium.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzVzbjY3OTJtNXI4c2ppdG1zdG5nYm5lamY1YXp3YnY4dmM4NXI4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3UV6fAuvxreIVA6YQA/giphy.gif"],
                     "type": "Ascent Skill",

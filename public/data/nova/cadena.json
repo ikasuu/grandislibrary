@@ -69,8 +69,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+80%(270.76%)",
-                "detail": "<bg type={def} sub={temp} src={/class-icons/nova/cadena/muscle-memory-iii.png} tip={Muscle Memory III (4th Job)} val={+10% per unique weapon used} val={(Max. +80%)} subSrc={/class-icons/nova/cadena/veteran-shadowdealer.png} subTip={Veteran Shadowdealer (Hyper Skill)} subVal={doubled when active}> × <bg type={temp} sub={opt} src={/class-icons/nova/cadena/chain-arts-thrash.png} tip={Chain Arts: Thrash (1st Job)} val={+10% to skills after 1st attack} subSrc={/class-icons/nova/cadena/chain-arts-thrash-linked-attack-reinforce.png} subTip={Chain Arts: Thrash - Linked Attack Reinforce (Hyper Skill)} subVal={extra +5%}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
+                "stat": "+87.2%(285.59%)",
+                "detail": "<bg src={/class-icons/nova/cadena/keen-eye.png} tip={Keen Eye (3rd Job)} val={+4%}> × <bg type={def} sub={temp} src={/class-icons/nova/cadena/muscle-memory-iii.png} tip={Muscle Memory III (4th Job)} val={+10% per unique weapon used} val={(Max. +80%)} subSrc={/class-icons/nova/cadena/veteran-shadowdealer.png} subTip={Veteran Shadowdealer (Hyper Skill)} subVal={doubled when active}> × <bg type={temp} sub={opt} src={/class-icons/nova/cadena/chain-arts-thrash.png} tip={Chain Arts: Thrash (1st Job)} val={+10% to skills after 1st attack} subSrc={/class-icons/nova/cadena/chain-arts-thrash-linked-attack-reinforce.png} subTip={Chain Arts: Thrash - Linked Attack Reinforce (Hyper Skill)} subVal={extra +5%}> × <bg type={opt} src={/class-icons/5th-job/last-resort.png} tip={Last Resort (5th Job)} val={+10% in Stage 1} val={+24% in Stage 2}>"
             },
             {
                 "name": "Ignore DEF",
@@ -452,7 +452,7 @@
                     },
                     {
                         "name": "Keen Eye",
-                        "shortDesc": "Ignore DEF: +20%, Damage: +20%, Avoidability: +40%",
+                        "shortDesc": "Ignore DEF: +20%, Damage: +20%, Final Damage: +4%, Avoidability: +40%",
                         "maxLevel": 19,
                         "icons": ["/class-icons/nova/cadena/keen-eye.png"],
                         "type": "Passive"
@@ -698,7 +698,7 @@
             "hyperActive": [
                 {
                     "name": "Veteran Shadowdealer",
-                    "shortDesc": "MP Cost: 500, Duration: 20 sec, Multiplies the effects of Muscle Memory by 2\\nCreates an explosion that attacks up to 6 enemies with 255% damage 3 times upon landing\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 500, Duration: 20 sec, Multiplies the effects of Muscle Memory by 2\\nCreates an explosion that attacks up to 6 enemies with 220% damage 3 times upon landing\\nCooldown: 120 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/nova/cadena/veteran-shadowdealer.png"],
                     "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2pza3JoanhnbGpiMzd6a2h6MG12aW1vZjcyYmIxODJjMnh1MWpxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ydg5oPry7hKKGtxw3i/giphy.gif"],
@@ -735,7 +735,7 @@
             "fifthMain": [
                 {
                     "name": "Chain Arts: Void Strike",
-                    "shortDesc": "MP Cost: 1000, Duration: 40 sec. Creates giant chains that travel along an arbitrary path inflicting 990% damage 6 times to up to 10 enemies.\\nChain Cooldown: 0.6 sec\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000, Duration: 40 sec. Creates giant chains that travel along an arbitrary path inflicting 1045% damage 6 times to up to 10 enemies.\\nChain Cooldown: 0.6 sec\\nCooldown: 120 sec",
                     "icons": ["/class-icons/nova/cadena/chain-arts-void-strike.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXkyZmJ2NmhnOWlwYmRhMGdhczhsb2tkbGZ2dG53cWE0MXFqdDNqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3vw32T2cm1d7dKWNIt/giphy.gif"],
                     "type": "Buff Attack",
@@ -1051,7 +1051,7 @@
                 },
                 {
                     "name": "HEXA Veteran Shadowdealer",
-                    "shortDesc": "MP Cost: 590, Duration: 20 sec, Multiplies the effects of Muscle Memory by 2\\nCreates an explosion that attacks up to 6 enemies with 425% damage 3 times upon landing\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 590, Duration: 20 sec, Multiplies the effects of Muscle Memory by 2\\nCreates an explosion that attacks up to 6 enemies with 360% damage 3 times upon landing\\nCooldown: 120 sec",
                     "icons": ["/class-icons/nova/cadena/hexa-veteran-shadowdealer.png", "/class-icons/nova/cadena/veteran-shadowdealer.png"],
                     "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWUyem1kajVuYTY4bWg0eGN0OXR1ODQ1ZjMxZjFlaTVxcWRudnJzZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rtW7thEJEGBleiUxRl/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -1072,7 +1072,7 @@
                 },
                 {
                     "name": "Brutal Rampage",
-                    "shortDesc": "Press the skill key again within 30 sec. after casting to summon the crushing axe\\nFirst Attack - MP Cost: 500, Invincible during casting\\nBinds the battlefield in weapons that attack 14 times, dealing 11060% damage to up to 15 enemies 8 times\\nCrushing Axe - MP Cost: 500, Invincible during casting\\nThe axe crashes down upon the battlefield 19 times, dealing 11620% damage to up to 15 enemies 13 times. Ignore status effects while casting\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "Press the skill key again within 30 sec. after casting to summon the crushing axe\\nFirst Attack - MP Cost: 500, Invincible during casting\\nBinds the battlefield in weapons that attack 14 times, dealing 11620% damage to up to 15 enemies 8 times\\nCrushing Axe - MP Cost: 500, Invincible during casting\\nThe axe crashes down upon the battlefield 19 times, dealing 11830% damage to up to 15 enemies 13 times. Ignore status effects while casting\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/nova/cadena/brutal-rampage.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTBqYWtmMHJ2NGxzcjZidW53eTI0d2l4Mjk3OXZraDd3M3E1aXBuaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QkJWvdAPe3a3OnfNLx/giphy.gif"],
                     "type": "Ascent Skill",
