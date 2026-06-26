@@ -690,11 +690,11 @@
             "hyperActive": [
                 {
                     "name": "Equalize",
-                    "shortDesc": "MP Cost: 1000, Duration: 30 sec. While the skill is active, upon landing a direct attack, 50% chance to trigger a Torrent of Fate with Damage: 1000%, Number of Attacks: 8\\nDuring Equilbrium, chance of triggering a Torrent of Fate: 100%\\nCooldown: 120 sec",
+                    "shortDesc": "MP Cost: 1000, Duration: 30 sec. While the skill is active, upon landing a direct attack, 50% chance to trigger a Torrent of Fate with Damage: 950%, Number of Attacks: 8\\nDuring Equilbrium, chance of triggering a Torrent of Fate: 100%\\nCooldown: 120 sec",
                     "maxLevel": 1,
                     "icons": ["/class-icons/heroes/luminous/equalize.png"],
                     "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWJlb3o2dGhtamM5ajk4NDh1MGI5NTVpMjM3ajR4Y2czdGZ1bXMzcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vikz1Acen4iNurIsY7/giphy.gif"],
-                    "type": "Buff",
+                    "type": "Buff Attack",
                     "desc": "While active, successful direct attacks have a chance to trigger an additional attack",
                     "details": [
                         "During <tt src={/class-icons/heroes/luminous/equilibrium.png} tip={Equilibrium (Beginner Skill)}>, successful direct attacks will always trigger the additional attack"
@@ -768,7 +768,7 @@
                 },
                 {
                     "name": "Liberation Orb",
-                    "shortDesc": "MP Cost: 1200, Giant Orb Duration: 30 sec.\\nCreates 6 Magic Orb(s) over time. Each time a direct skill lands, an additional 1 Orb(s) are created. During Equilibrium, 2x Orbs are created.\\nMagic Orb: Max Enemies Hit: 1, Damage: 820%, Number of Attacks: 4\\nMax Orbs Created: 180\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 1200, Giant Orb Duration: 30 sec.\\nCreates 6 Magic Orb(s) over time. Each time a direct skill lands, an additional 1 Orb(s) are created. During Equilibrium, 2x Orbs are created.\\nMagic Orb: Max Enemies Hit: 1, Damage: 770%, Number of Attacks: 4\\nMax Orbs Created: 180\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/heroes/luminous/liberation-orb.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY24wZGd4ZmRjcTg5ZHhvamt4b25ycHJqZDRvZ2E0YjE0dDI0b2NjcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hPwsVBQccPl288xXlo/giphy.gif"],
                     "type": "Summon",
@@ -930,7 +930,7 @@
                 },
                 {
                     "name": "HEXA Ender",
-                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 3, Swords of light and darkness fall and deal 695% damage up to 3 enemies 7 times.\\nCollision occurs up to 1 time for an enemy struck with a sword.\\nCritical Rate: +100%, Ignore Defense: +45%\\nCooldown: 10 sec",
+                    "shortDesc": "MP Cost: 70, Max Enemies Hit: 3, Swords of light and darkness fall and deal 675% damage up to 3 enemies 7 times.\\nCollision occurs up to 1 time for an enemy struck with a sword.\\nCritical Rate: +100%, Ignore Defense: +45%\\nCooldown: 10 sec",
                     "icons": ["/class-icons/heroes/luminous/hexa-ender.png", "/class-icons/heroes/luminous/ender.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1jZjRhaWd6Z3hsZHNoYzRieDV0Z2F6aGZvNmNybjdneHh2NXVhZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qLaxkMz0ZzlAU1IKBf/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -1017,7 +1017,7 @@
                 },
                 {
                     "name": "HEXA Twilight Nova",
-                    "shortDesc": "MP Cost: 91, Max Enemies Hit: 8\\nSunfire - Damage: 1630%, Number of Attacks: 7, Number of Explosions: 3\\nEclipse - Damage: 1630%, Number of Attacks: 7, Number of Explosions: 3\\nEquilibrium - Damage: 1125%, Number of Attacks: 7, Number of Explosions: 4\\nCooldown: 15 sec",
+                    "shortDesc": "MP Cost: 91, Max Enemies Hit: 8\\nSunfire - Damage: 1530%, Number of Attacks: 7, Number of Explosions: 3\\nEclipse - Damage: 1530%, Number of Attacks: 7, Number of Explosions: 3\\nEquilibrium - Damage: 1055%, Number of Attacks: 7, Number of Explosions: 4\\nCooldown: 15 sec",
                     "icons": ["/class-icons/heroes/luminous/hexa-twilight-nova.png", "/class-icons/heroes/luminous/hexa-twilight-nova-2.png", "/class-icons/heroes/luminous/hexa-twilight-nova-3.png", "/class-icons/heroes/luminous/twilight-nova-1.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHo5NXhzZnM3YzRiaHJ3dnhuZWwwazVpdnY1aTFoc3RsOG9maW15MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZtLGU8sC3VdYBFBGdj/giphy.gif", "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Z1bnB2Ym13bmgzNWJiZnAyZTQ5aDU3dGNxd3JybnZmZXhjaTA1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bF6C4nY7OGjgvisgA5/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjJhcWVmNHdsNm5vbjFrem95eW0zbXJva3h2bDY4YTQ2cTB4bWt4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A0GOUjU3HqVy2TRXLp/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -1038,7 +1038,7 @@
                 },
                 {
                     "name": "Lustrous Orb",
-                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nDarkness shrouds the world 19 times, dealing 4985% damage to up to 15 enemies 13 times. Then the power of light explodes 19 times, dealing 4985% damage 13 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nDarkness shrouds the world 19 times, dealing 5320% damage to up to 15 enemies 13 times. Then the power of light explodes 19 times, dealing 5320% damage 13 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/heroes/luminous/lustrous-orb.png"],
                     "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzh5ejRzeWVyeWU2enY0d3B4MWtmcXY1a243dW4wa2R4ajhuMjcyMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YfY6KDBMzQBoGZ1ceW/giphy.gif"],
                     "type": "Ascent Skill",

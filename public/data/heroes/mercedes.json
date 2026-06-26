@@ -54,8 +54,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+26%",
-                "detail": "<bg src={/class-icons/heroes/mercedes/dual-bowguns-expert.png} tip={Dual Bowguns Expert (4th Job)} val={+10%}> <bg src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break (4th Job)} val={+16%}> <bg type={opt} src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} val={+50% of Crit Rate}>"
+                "stat": "+25%",
+                "detail": "<bg src={/class-icons/heroes/mercedes/dual-bowguns-expert.png} tip={Dual Bowguns Expert (4th Job)} val={+10%}> <bg src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} val={+50% of Crit Rate}>"
             },
             {
                 "name": "Damage",
@@ -69,8 +69,8 @@
             },
             {
                 "name": "Final Damage",
-                "stat": "+52.64%(83.17%)",
-                "detail": "<bg src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar - Passive (3rd Job)} val={+20% passive}> × <bg src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break (4th Job)} val={+20%}> × <bg src={/class-icons/heroes/mercedes/elvish-blessing.png} tip={Elvish Blessing - Passive (Hyper Skill)} val={+6%}> × <bg type={temp} src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar (3rd Job)} val={+4% per linked skill} val={(Max. +20%)}>"
+                "stat": "+48.82%(78.59%)",
+                "detail": "<bg src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar - Passive (3rd Job)} val={+17% passive}> × <bg src={/class-icons/heroes/mercedes/defense-break.png} tip={Defense Break (4th Job)} val={+20%}> × <bg src={/class-icons/heroes/mercedes/elvish-blessing.png} tip={Elvish Blessing - Passive (Hyper Skill)} val={+6%}> × <bg type={temp} src={/class-icons/heroes/mercedes/ignis-roar.png} tip={Ignis Roar (3rd Job)} val={+4% per linked skill} val={(Max. +20%)}>"
             },
             {
                 "name": "Ignore DEF",
@@ -138,9 +138,15 @@
         ],
         "infographics": [
             {
-                "src": "/mercedes/mercedes-6th-job.png",
-                "title": "6th Job",
-                "credit": "Mercedes Discord",
+                "src": "/mercedes/mercedes-6th-job-main.png",
+                "title": "6th Job (Main/Legion Champ)",
+                "credit": "Mercedes Discord, based on (3 origin cycles, ~18 min)",
+                "date": "2026-05-25"
+            },
+            {
+                "src": "/mercedes/mercedes-6th-job-mule.png",
+                "title": "6th Job (Mule)",
+                "credit": "Mercedes Discord, based on (1 origin cycle, <6 min)",
                 "date": "2026-05-25"
             }
         ],
@@ -422,7 +428,7 @@
                     },
                     {
                         "name": "Ignis Roar",
-                        "shortDesc": "Final damage increased by 4% and Attack Speed by 1 when using linked skills. Final damage increase due to linked skill usage can stack up to 5 times, lasts for 45 sec, damage is stacked additively.\\n[Passive Effects - Avoidability +20%, Final Damage +20%, ATT: +40]",
+                        "shortDesc": "Final damage increased by 4% and Attack Speed by 1 when using linked skills. Final damage increase due to linked skill usage can stack up to 5 times, lasts for 45 sec, damage is stacked additively.\\n[Passive Effects - Avoidability +20%, Final Damage +17%, ATT: +40]",
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/mercedes/ignis-roar.png"],
                         "type": "Passive",
@@ -566,7 +572,7 @@
                     },
                     {
                         "name": "Defense Break",
-                        "shortDesc": "Ignored Enemy DEF: 25%, Final Damage +20%, When Attacking Boss Monsters - Damage: +20%, Critical Damage: +16%",
+                        "shortDesc": "Ignored Enemy DEF: 25%, Final Damage +20%, When Attacking Boss Monsters - Damage: +20%, Critical Damage: +15%",
                         "maxLevel": 20,
                         "icons": ["/class-icons/heroes/mercedes/defense-break.png"],
                         "type": "Passive"
@@ -702,7 +708,7 @@
             "fifthMain": [
                 {
                     "name": "Spirit of Elluel",
-                    "shortDesc": "MP Cost: 1000, Duration: 50 sec., your afterimages may mimic the skills you use up to 3 time each\\nAfterimage Final Damage: 50%\\nIshtar's Ring and Irkalla's Afterimage Final Damage: 25%\\nAfterimage Skill Mimic Chance: 100% (-10% per successful mimic)\\nElluel's Form - Deal 900% damage 10 times on up to 10 enemies for 10 sec, cooldown decreases by 1 sec after using a linked skill\\nCooldown: 120 sec.",
+                    "shortDesc": "MP Cost: 1000, Duration: 50 sec., your afterimages may mimic the skills you use up to 3 time each\\nAfterimage Final Damage: 45%\\nIshtar's Ring and Irkalla's Afterimage Final Damage: 22%\\nAfterimage Skill Mimic Chance: 100% (-10% per successful mimic)\\nElluel's Form - Deal 900% damage 10 times on up to 10 enemies for 10 sec, cooldown decreases by 1 sec after using a linked skill\\nCooldown: 120 sec.",
                     "icons": ["/class-icons/heroes/mercedes/spirit-of-elluel.png"],
                     "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGlubGpnZ3drcGdqcW93eGo1amZxOXUwY3lsd21xbm9ycmoyczlkYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ntDcFfBqlPbeFD6ALQ/giphy.gif"],
                     "type": "Buff Attack",
@@ -1018,7 +1024,7 @@
                 },
                 {
                     "name": "Primeval Spirits",
-                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nRains 25 flurries of arrows upon the battlefield, dealing 8190% damage to up to 15 enemies 14 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
+                    "shortDesc": "MP Cost: 1000, Invincible during casting\\nRains 25 flurries of arrows upon the battlefield, dealing 8785% damage to up to 15 enemies 14 times\\nIgnore Defense: +60%, Boss Damage: +40%, Critical Rate: 100%",
                     "icons": ["/class-icons/heroes/mercedes/primeval-spirits.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm1ncHQ2d2l4YjNpajNtN3Aza2FrMDh0MTFxcmo5OTI1cXV5aDJveCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dugdqaTJMkzqIcseaJ/giphy.gif"],
                     "type": "Ascent Skill",
@@ -1028,7 +1034,7 @@
             "boostCore": [
                 {
                     "name": "Spirit of Elluel Boost",
-                    "shortDesc": "Spirit of Elluel Final Damage: +60%, Spirits Final Damage: +75%",
+                    "shortDesc": "Spirit of Elluel Final Damage: +60%, Spirits Final Damage: +60%, Ishtar's Ring and Irkalla's Wrath Afterimage Final Damage: +30%.",
                     "icons": ["/class-icons/heroes/mercedes/spirit-of-elluel.png"],
                     "type": "Upgraded Passive"
                 },
