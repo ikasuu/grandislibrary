@@ -59,8 +59,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+10%(40%)",
-                "detail": "<bg src={/class-icons/explorers/pathfinder/archers-essence.png} tip={Archer's Essence (3rd Job)} val={+10%}> <bg type={temp} src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "stat": "+16%(46%)",
+                "detail": "<bg src={/class-icons/link-skills/adventurers-curiosity.png} tip={Adventurer's Curiosity (Link Skill)} val={+6%}> <bg src={/class-icons/explorers/pathfinder/archers-essence.png} tip={Archer's Essence (3rd Job)} val={+10%}> <bg type={temp} src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -173,6 +173,19 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Adventurer's Curiosity",
+                    "maxLevel": 9,
+                    "shortDesc": "Chance to add monsters to Monster Collection: +50%, Critical Rate: +15%, Damage: +6%",
+                    "icons": ["/class-icons/link-skills/adventurers-curiosity.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "For Explorer Archers, also permanently increases %Damage",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Can be stacked up to 3 times, once for each unique Explorer Archer to reach Master Level"
+                    ]
+                },
+                {
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,

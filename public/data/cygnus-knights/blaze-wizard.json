@@ -44,8 +44,8 @@
             },
             {
                 "name": "Magic Attack",
-                "stat": "+17% +135(240)",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/cygnus-knights/blaze-wizard/final-flame-elemental.png} tip={Final Flame Elemental (4th Job)} val={+3%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+25}> <bg src={/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png} tip={Word of Fire (2nd Job)} val={+20}> <bg src={/class-icons/cygnus-knights/blaze-wizard/spell-control.png} tip={Spell Control (2nd Job)} val={+10}> <bg src={/class-icons/cygnus-knights/blaze-wizard/final-flame-elemental.png} tip={Final Flame Elemental (4th Job)} val={+40}> <bg src={/class-icons/cygnus-knights/blaze-wizard/pure-magic.png} tip={Pure Magic (4th Job)} val={+40}> <bg type={temp} src={/class-icons/cygnus-knights/blaze-wizard/salamander-mischief.png} tip={Salamander Mischief (5th Job)} val={up to +105}>"
+                "stat": "+17% +165(270)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/cygnus-knights/blaze-wizard/final-flame-elemental.png} tip={Final Flame Elemental (4th Job)} val={+3%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+55}> <bg src={/class-icons/cygnus-knights/blaze-wizard/word-of-fire.png} tip={Word of Fire (2nd Job)} val={+20}> <bg src={/class-icons/cygnus-knights/blaze-wizard/spell-control.png} tip={Spell Control (2nd Job)} val={+10}> <bg src={/class-icons/cygnus-knights/blaze-wizard/final-flame-elemental.png} tip={Final Flame Elemental (4th Job)} val={+40}> <bg src={/class-icons/cygnus-knights/blaze-wizard/pure-magic.png} tip={Pure Magic (4th Job)} val={+40}> <bg type={temp} src={/class-icons/cygnus-knights/blaze-wizard/salamander-mischief.png} tip={Salamander Mischief (5th Job)} val={up to +105}>"
             },
             {
                 "name": "Crit Rate",
@@ -180,6 +180,18 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Cygnus Blessing",
+                    "maxLevel": 15,
+                    "shortDesc": "Attack Power and Magic ATT: +55, Status Resistance: +22, Elemental Resistance: +22%",
+                    "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Elemental Slash",
                     "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
                     "maxLevel": 1,

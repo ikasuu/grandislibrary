@@ -45,8 +45,8 @@
             },
             {
                 "name": "Attack",
-                "stat": "+24% +140",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/cygnus-knights/wind-archer/touch-of-the-wind.png} tip={Touch of the Wind (4th Job)} val={+10%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+25}> <bg src={/class-icons/cygnus-knights/wind-archer/whispers-of-the-wind.png} tip={Whispers of the Wind (1st Job)} val={+20}> <bg src={/class-icons/cygnus-knights/wind-archer/sylvan-aid.png} tip={Sylvan Aid (2nd Job)} val={+20}> <bg src={/class-icons/cygnus-knights/wind-archer/second-wind.png} tip={Second Wind (3rd Job)} val={+15}> <bg src={/class-icons/cygnus-knights/wind-archer/bow-expert.png} tip={Bow Expert (4th Job)} val={+30}> <bg src={/class-icons/cygnus-knights/wind-archer/albatross-max.png} tip={Albatross Max (4th Job)} val={+30}>"
+                "stat": "+24% +170",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/cygnus-knights/wind-archer/touch-of-the-wind.png} tip={Touch of the Wind (4th Job)} val={+10%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+55}> <bg src={/class-icons/cygnus-knights/wind-archer/whispers-of-the-wind.png} tip={Whispers of the Wind (1st Job)} val={+20}> <bg src={/class-icons/cygnus-knights/wind-archer/sylvan-aid.png} tip={Sylvan Aid (2nd Job)} val={+20}> <bg src={/class-icons/cygnus-knights/wind-archer/second-wind.png} tip={Second Wind (3rd Job)} val={+15}> <bg src={/class-icons/cygnus-knights/wind-archer/bow-expert.png} tip={Bow Expert (4th Job)} val={+30}> <bg src={/class-icons/cygnus-knights/wind-archer/albatross-max.png} tip={Albatross Max (4th Job)} val={+30}>"
             },
             {
                 "name": "Crit Rate",
@@ -161,6 +161,18 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Cygnus Blessing",
+                    "maxLevel": 15,
+                    "shortDesc": "Attack Power and Magic ATT: +55, Status Resistance: +22, Elemental Resistance: +22%",
+                    "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Elemental Slash",
                     "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
                     "maxLevel": 1,

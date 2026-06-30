@@ -59,8 +59,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "[Party of 1] +5%(152% w/ Lv. 3 Link Skill)",
-                "detail": "<bg src={/class-icons/cygnus-knights/mihile/soul-link.png} tip={Soul Link (3rd Job)} val={+5% per party member} val={(Max. +30%)}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/soul-majesty.png} tip={Soul Majesty (Hyper Skill)} val={+15%}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png} tip={Queen of Tomorrow (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/light-of-courage.png} tip={Light of Courage (5th Job)} val={+25%}> <bg type={temp} src={/class-icons/link-skills/knights-watch.png} tip={Knight's Watch (Link Skill)} val={Lv. 2: +20%} val={Lv. 3: +25%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
+                "stat": "[Party of 1] +8%(155% w/ Lv. 3 Link Skill)",
+                "detail": "<bg type={def} src={/class-icons/link-skills/knights-watch.png} tip={Knight's Watch (Link Skill)} val={+3% - Passive}> <bg type={def} sub={temp} src={/class-icons/cygnus-knights/mihile/soul-link.png} tip={Soul Link (3rd Job)} val={+5% per party member} val={(Max. +30%)}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/soul-majesty.png} tip={Soul Majesty (Hyper Skill)} val={+15%}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/queen-of-tomorrow.png} tip={Queen of Tomorrow (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/cygnus-knights/mihile/light-of-courage.png} tip={Light of Courage (5th Job)} val={+25%}> <bg type={temp} src={/class-icons/link-skills/knights-watch.png} tip={Knight's Watch (Link Skill)} val={Lv. 2: +20%} val={Lv. 3: +25%}> <bg type={opt} src={/class-icons/5th-job/transcendent-cygnuss-blessing.png} tip={Transcendent Cygnus's Blessing (5th Job)} val={+72%}>"
             },
             {
                 "name": "Boss Damage",
@@ -170,6 +170,15 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Knight's Watch",
+                    "shortDesc": "Barrier Duration: 30 sec, Enemy Blows Blocked: 9, Damage: +25%\\nDamage -30% only for attacks that inflict at a certain ratio of the Max HP\\nCooldown: 120 sec.\\n[Passive Effect: Damage +3%]",
+                    "icons": ["/class-icons/link-skills/knights-watch.png"],
+                    "type": "Buff",
+                    "details": [
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,

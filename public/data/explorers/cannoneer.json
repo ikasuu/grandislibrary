@@ -39,8 +39,8 @@
             },
             {
                 "name": "STR",
-                "stat": "+180 & +15%(440%) to assigned AP",
-                "detail": "<bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+70}> <bg src={/class-icons/explorers/cannoneer/agile-cannons.png} tip={Agile Cannons (2nd Job)} val={+20}> <bg src={/class-icons/explorers/cannoneer/pirate-training.png} tip={Pirate Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/cannoneer/mega-monkey-magic.png} tip={Mega Monkey Magic (4th Job)} val={+60}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% (AP)}>"
+                "stat": "+240 & +15%(440%) to assigned AP",
+                "detail": "<bg src={/class-icons/link-skills/pirate-blessing.png} tip={Pirate Blessing (Link Skill)} val={+130}> <bg src={/class-icons/explorers/cannoneer/agile-cannons.png} tip={Agile Cannons (2nd Job)} val={+20}> <bg src={/class-icons/explorers/cannoneer/pirate-training.png} tip={Pirate Training (2nd Job)} val={+30}> <bg src={/class-icons/explorers/cannoneer/mega-monkey-magic.png} tip={Mega Monkey Magic (4th Job)} val={+60}> <bg type={def} sub={opt} src={/class-icons/common/maple-warrior.png} tip={Maple Warrior (4th Job)} val={+15% to assigned AP} subSrc={/class-icons/5th-job/maple-world-goddess-blessing.png} subTip={Maple World Goddess's Blessing (5th Job)} subVal={extra +400%}> <bg type={opt} src={/class-icons/5th-job/pirates-banner.png} tip={Pirate's Banner (5th Job)} val={+25% (AP)}>"
             },
             {
                 "name": "Attack",
@@ -97,8 +97,8 @@
             "desc": "",
             "details": [
                 "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
-                "The stats are affected by %Stat bonuses",
-                "[Note]: Link Skill has a togglable effect where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Double-click the Link Skill to turn this effect ON/OFF_The effect only applies to the original Link Skill, not the transferred version_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
+                "Stats provided are affected by %Stat effects",
+                "For Explorer Pirates, double-clicking this skill turns ON/OFF a toggle where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
             ]
         },
         "buildPath": {
@@ -171,6 +171,20 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Pirate's Blessing",
+                    "maxLevel": 9,
+                    "shortDesc": "STR: +130, DEX: +130, INT: +130, LUK: +130, Max HP: +1750, Max MP: +1750, Damage Taken: -21%\\nCooldown: 5 sec",
+                    "icons": ["/class-icons/link-skills/pirate-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 3 times, once for each unique Explorer Pirate to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Stats provided are affected by %Stat effects",
+                        "For Pirate Explorers, double-clicking this skill turns ON/OFF a toggle where stats provided from your equipment can be swapped between STR + %STR and DEX + %DEX<bp_Excludes Primary and Secondary Weapon, Totems, and Symbols_>"
+                    ]
+                },
+                {
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,

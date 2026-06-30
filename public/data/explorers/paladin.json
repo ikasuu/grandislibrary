@@ -53,8 +53,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+25%(55%)",
-                "detail": "<bg src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light (4th Job)} val={+25%}--> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "stat": "+31%(61%)",
+                "detail": "<bg src={/class-icons/link-skills/invincible-belief.png} tip={Invincible Belief (Link Skill)} val={+6%}> <bg src={/class-icons/explorers/paladin/greater-vessel-of-light.png} tip={Greater Vessel of Light (4th Job)} val={+25%}--> <bg type={temp} src={/class-icons/explorers/warrior/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Final Damage",
@@ -202,6 +202,19 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Invincible Belief",
+                    "maxLevel": 9,
+                    "shortDesc": "Automatically activates when your health falls to 15% of your Max HP or below. Restores 44% of Max HP every 1 sec for 3 sec\\nCooldown: 90 sec.\\n[Passive Effect: Damage +6%]",
+                    "icons": ["/class-icons/link-skills/invincible-belief.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "For Explorer Warriors, also permanently increases %Damage",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Can be stacked up to 3 times, once for each unique Explorer Warrior to reach Master Level"
+                    ]
+                },
+                {
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,

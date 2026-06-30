@@ -44,8 +44,8 @@
             },
             {
                 "name": "Attack",
-                "stat": "+14% +140(180)",
-                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+25}> <bg src={/class-icons/cygnus-knights/thunder-breaker/lightning-boost.png} tip={Lightning Boost (2nd Job)} val={+25}> <bg src={/class-icons/cygnus-knights/thunder-breaker/lightning-lord.png} tip={Lightning Lord (3rd Job)} val={+30}> <bg src={/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+60}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
+                "stat": "+14% +170(210)",
+                "detail": "<bg src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} val={+4%}> <bg src={/class-icons/cygnus-knights/elemental-expert.png} tip={Elemental Expert (Beginner Skill)} val={+10%}> <bg src={/class-icons/link-skills/cygnus-blessing.png} tip={Cygnus Blessing (Link Skill)} val={+55}> <bg src={/class-icons/cygnus-knights/thunder-breaker/lightning-boost.png} tip={Lightning Boost (2nd Job)} val={+25}> <bg src={/class-icons/cygnus-knights/thunder-breaker/lightning-lord.png} tip={Lightning Lord (3rd Job)} val={+30}> <bg src={/class-icons/cygnus-knights/thunder-breaker/knuckle-expert.png} tip={Knuckle Expert (4th Job)} val={+60}> <bg type={opt} src={/class-icons/5th-job/loaded-dice.png} tip={Loaded Dice (5th Job)} val={+40}> <bg type={opt} src={/class-icons/5th-job/overdrive.png} tip={Overdrive (5th Job)} val={+80% of base weapon attack power} val={-15% of base weapon power while on cooldown}>"
             },
             {
                 "name": "Crit Rate",
@@ -176,6 +176,18 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Cygnus Blessing",
+                    "maxLevel": 15,
+                    "shortDesc": "Attack Power and Magic ATT: +55, Status Resistance: +22, Elemental Resistance: +22%",
+                    "icons": ["/class-icons/link-skills/cygnus-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Can be stacked up to 5 times, once for each unique Cygnus Knight (excluding Mihile) to reach Master Level",
+                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Elemental Slash",
                     "shortDesc": "Damage: 130%, Max Enemies Hit: 3, Max Hits: 1",
                     "maxLevel": 1,
