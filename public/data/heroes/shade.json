@@ -63,8 +63,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+60%(90%)",
-                "detail": "<bg src={/class-icons/heroes/shade/fox-gods-favor.png} tip={Fox God's Favor - Passive (1st Job)} val={+10%}> <bg src={/class-icons/heroes/shade/foxy-courage.png} tip={Foxy Courage (2nd Job)} val={+10%}> <bg src={/class-icons/heroes/shade/total-harmony.png} tip={Total Harmony (3rd Job)} val={+20%}> <bg type={debuff} src={/class-icons/heroes/shade/weaken.png} tip={Weaken (3rd Job)} val={+20%}> <bg type={temp} src={/class-icons/heroes/shade/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "stat": "+65%(95%)",
+                "detail": "<bg src={/class-icons/link-skills/close-call.png} tip={Close Call (Link Skill)} val={+5%}> <bg src={/class-icons/heroes/shade/fox-gods-favor.png} tip={Fox God's Favor - Passive (1st Job)} val={+10%}> <bg src={/class-icons/heroes/shade/foxy-courage.png} tip={Foxy Courage (2nd Job)} val={+10%}> <bg src={/class-icons/heroes/shade/total-harmony.png} tip={Total Harmony (3rd Job)} val={+20%}> <bg type={debuff} src={/class-icons/heroes/shade/weaken.png} tip={Weaken (3rd Job)} val={+20%}> <bg type={temp} src={/class-icons/heroes/shade/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -167,6 +167,16 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Close Call",
+                    "shortDesc": "Fatal Attack Survival Chance: 15%\\n[Passive Effect: Damage +5%]",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/close-call.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Fox Trot",
                     "shortDesc": "MP Cost: 20. Teleports you to the furthest enemy in range.\\nWhen no enemies are around, you'll be teleported forward 300.",
                     "maxLevel": 1,

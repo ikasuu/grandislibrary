@@ -172,6 +172,17 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Solus",
+                    "shortDesc": "Activates when the combat state continues for 5 sec. Can be stacked a max of 5 times. Duration: 5 sec\\nWhen activated, damage increases by 1%, and damage increases an extra 3% per stack",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/solus.png"],
+                    "type": "Passive",
+                    "desc": "While in combat state, gain a stacking %Damage buff",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Contact Caravan",
                     "shortDesc": "MP Cost: 100, gains a buff for 300 sec\\nFerret: Active Cooldowns shortened by 10% (except skills that ignore cooldown resets)\\nSalvo: Damage increases by 8%\\nMar: EXP +4%\\nZippy: Applies Ferret, Salvo, and Mar's buffs at the same time at half strength\\nCooldown: 600 sec",
                     "maxLevel": 1,

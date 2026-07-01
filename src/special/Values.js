@@ -739,7 +739,7 @@ export const commonFifth = {
     },
     trueArachnidReflection: {
         "name": "True Arachnid Reflection",
-        "shortDesc": "HP Cost: 100\\nSpatial Collapse - Max Enemies Hit: 15, Damage: 1008%, Number of Attacks: 15, Once complete, summons True Arachnid Reflection.\\nTrue Arachnid Reflection - Duration: 50 sec, Goes into attack mode at set intervals. During attack mode, uses spider legs 10 times to deal 392% damage 8 times. If the spider legs attack one target 5 consecutive times, attack mode will end immediately. 3 sec cooldown after attack mode ends.\\nCooldown: 250 sec",
+        "shortDesc": "HP Cost: 100\\nSpatial Collapse - Max Enemies Hit: 15, Damage: 1008%, Number of Attacks: 15, Once complete, summons True Arachnid Reflection.\\nTrue Arachnid Reflection - Duration: 50 sec, Goes into attack mode at set intervals. During attack mode, uses spider legs 10 times to deal 392% damage 8 times. If the spider legs attack one target 5 consecutive times, attack mode will end immediately. 3 sec cooldown after attack mode ends.\\nCooldown: 230 sec",
         "icons": ["/class-icons/5th-job/true-arachnid-reflection.png"],
         "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDIzMDk3ZTkxbG14ZHZ2aXQxNHFob250ZGZuYTF5c2w3NjZzOTNuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6UbqkAQUAgMLFTbePZ/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeml6bW40aHNlbTc4dHJzeGQ3aHVjMnZtN2Zrc3ZhYnFsYjBmZmZodCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MjY13NechoKxZeWUNc/giphy.gif"],
         "type": "Summon",
@@ -752,7 +752,7 @@ export const commonFifth = {
     },
     solarCrest: {
         "name": "Solar Crest",
-        "shortDesc": "HP Cost: 100\\nMitra's Fire: summons a Flame Emblem after dealing 1650% damage up to 15 enemeis 12 times.\\nFlame Emblem: deals 440% damage to up to 2 enemies 6 times every 2.1 sec for 51 sec. Deals 605% damage if striking a single enemy.\\nCooldown: 250 sec",
+        "shortDesc": "HP Cost: 100\\nMitra's Fire: summons a Flame Emblem after dealing 1650% damage up to 15 enemeis 12 times.\\nFlame Emblem: deals 440% damage to up to 2 enemies 6 times every 2.1 sec for 51 sec. Deals 605% damage if striking a single enemy.\\nCooldown: 230 sec",
         "icons": ["/class-icons/5th-job/solar-crest.png"],
         "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmN2bjY5NWZ0bzdjdTd4NGw4aWlvdWdsNzduZ3U3emx2enNybzUyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DHBFk87CC7jR22CbFY/giphy.gif", "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2ZtdjR2eWRqdHYxN2IzOGtiZmZjcG82OGV1MmJ3eGUzODZucW56OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FKEHbH83ZXQOVjTGgT/giphy.gif"],
         "type": "Summon",

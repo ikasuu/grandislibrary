@@ -59,8 +59,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+15%(55%)",
-                "detail": "<bg src={/class-icons/anima/ren/eyes-unclouded.png} tip={Eyes Unclouded (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+40%}>"
+                "stat": "+20%(60%)",
+                "detail": "<bg src={/class-icons/link-skills/grounded-body.png} tip={Grounded Body (Link Skill)} val={+5%}> <bg src={/class-icons/anima/ren/eyes-unclouded.png} tip={Eyes Unclouded (4th Job)} val={+15%}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+40%}>"
             },
             {
                 "name": "Boss Damage",
@@ -186,6 +186,16 @@
         "primary":[
             [
                 "Beginner", [
+                {
+                    "name": "Grounded Body",
+                    "shortDesc": "Damage: -6%, including attacks that inflict damage at a certain percentage of your Max HP, Damage: +5%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/grounded-body.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
                 {
                     "name": "Return",
                     "shortDesc": "MP Cost: 5. Moves you to Serpent's Heartwater.\\nCooldown: 600 sec.",

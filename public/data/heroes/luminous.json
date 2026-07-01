@@ -58,8 +58,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+55%(85%)",
-                "detail": "<bg src={/class-icons/heroes/luminous/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+15%}> <bg  src={/class-icons/heroes/luminous/dark-crescendo.png} tip={Dark Crescendo (4th Job)} val={+8% per stack} val={(Max. +40%)}> <bg type={temp} src={/class-icons/heroes/luminous/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "stat": "+59%(89%)",
+                "detail": "<bg src={/class-icons/link-skills/light-wash.png} tip={Light Wash (Link Skill)} val={+4%}> <bg src={/class-icons/heroes/luminous/spell-mastery.png} tip={Spell Mastery (2nd Job)} val={+15%}> <bg  src={/class-icons/heroes/luminous/dark-crescendo.png} tip={Dark Crescendo (4th Job)} val={+8% per stack} val={(Max. +40%)}> <bg type={temp} src={/class-icons/heroes/luminous/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -136,7 +136,8 @@
         "moreInfo": [
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Luminous"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EB%A3%A8%EB%AF%B8%EB%84%88%EC%8A%A4(%EB%A9%94%EC%9D%B4%ED%94%8C%EC%8A%A4%ED%86%A0%EB%A6%AC)"},
-            {"title": "Class Discord", "link": "https://discord.gg/KBpPTtae6P"}
+            {"title": "Class Discord", "link": "https://discord.gg/KBpPTtae6P"},
+            {"title": "Class Doc", "link": "https://docs.google.com/document/d/1g4C1Sw5Xfdc0QD_w9gkyZN_EvW3n4_j_1Whq8z-iNEY"}
         ],
         "infographics": [
             {
@@ -174,6 +175,16 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Light Wash",
+                    "shortDesc": "Ignore Defense: +20%, Damage: +4%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/light-wash.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Sunfire",
                     "shortDesc": "Light skills deal an additional hit dealing 50% of Final Damage and restoring 1% of your base HP per cast.",
                     "maxLevel": 1,

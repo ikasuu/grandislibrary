@@ -63,8 +63,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+45%(75%)",
-                "detail": "<bg src={/class-icons/heroes/phantom/priere-daria.png} tip={Priere D'Aria (3rd Job)} val={+45%}> <bg type={temp} src={/class-icons/heroes/phantom/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "stat": "+50%(80%)",
+                "detail": "<bg src={/class-icons/link-skills/phantom-instinct.png} tip={Phantom Instinct (Link Skill)} val={+5%}> <bg src={/class-icons/heroes/phantom/priere-daria.png} tip={Priere D'Aria (3rd Job)} val={+45%}> <bg type={temp} src={/class-icons/heroes/phantom/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -177,6 +177,16 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Phantom Instinct",
+                    "shortDesc": "Critical Rate: +20%, Damage: +5%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/phantom-instinct.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "To The Skies",
                     "shortDesc": "MP Cost: 30, Returns you to Lumiere",
                     "maxLevel": 1,

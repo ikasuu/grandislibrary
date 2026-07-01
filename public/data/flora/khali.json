@@ -59,8 +59,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+5%(60%)",
-                "detail": "<bg src={/class-icons/link-skills/innate-gift.png} tip={Innate Gift (Link Skill)} val={+5%}> <bg type={temp} src={/class-icons/flora/khali/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} val={+45%}>"
+                "stat": "+10%(65%)",
+                "detail": "<bg src={/class-icons/link-skills/innate-gift.png} tip={Innate Gift (Link Skill)} val={+10%}> <bg type={temp} src={/class-icons/flora/khali/divine-wrath.png} tip={Divine Wrath (Hyper Skill)} val={+10%}> <bg type={opt} src={/class-icons/5th-job/conversion-overdrive.png} tip={Conversion Overdrive (5th Job)} val={+45%}>"
             },
             {
                 "name": "Boss Damage",
@@ -190,6 +190,18 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Innate Gift",
+                    "maxLevel": 3,
+                    "shortDesc": "Damage: +10%\\nUpon attacking, Recovery Chance: 100%, Recovery 3% of Max HP/MP per sec, Duration: 5 sec\\nCooldown: 30 sec",
+                    "icons": ["/class-icons/link-skills/innate-gift.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>",
+                        "Unaffected by cooldown resets, cooldown reduction, and buff duration increase"
+                    ]
+                },
+                {
                     "name": "Reminiscence",
                     "shortDesc": "MP Cost: 30, Move back to Erimos.\\nCooldown: 600 sec",
                     "maxLevel": 1,

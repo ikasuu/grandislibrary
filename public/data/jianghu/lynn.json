@@ -58,8 +58,8 @@
             },
             {
                 "name": "Boss Damage",
-                "stat": "+45%",
-                "detail": "<bg src={/class-icons/link-skills/spirit-guide-blessing.png} tip={Spirit Guide Blessing (Link Skill)} val={+10%}> <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon (3rd Job)} val={+35%}>"
+                "stat": "+46%",
+                "detail": "<bg src={/class-icons/link-skills/spirit-guide-blessing.png} tip={Spirit Guide Blessing (Link Skill)} val={+11%}> <bg src={/class-icons/jianghu/lynn/spirit-guide-unity-paeon.png} tip={Spirit Guide Unity: Paeon (3rd Job)} val={+35%}>"
             },
             {
                 "name": "Final Damage",
@@ -88,6 +88,10 @@
         },        
         "linkSkill": {
             "id": 170010241,
+            "offline": true,
+            "name": "Spirit Guide Blessing",
+            "shortDesc": "Boss Damage: 11%\\nCritical Rate: 10%\\nMax HP: 5%\\nMax MP: 5%",
+            "maxLevel": 3,
             "icons": ["/class-icons/link-skills/spirit-guide-blessing.png"],
             "type": "Passive"
         },
@@ -188,6 +192,16 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Spirit Guide Blessing",
+                    "shortDesc": "Boss Damage: 11%\\nCritical Rate: 10%\\nMax HP: 5%\\nMax MP: 5%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/spirit-guide-blessing.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Forest Kiss",
                     "shortDesc": "MP Cost: 5, Move back to the Forest Spring.\\nCooldown: 600 sec.",
                     "maxLevel": 1,

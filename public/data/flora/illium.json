@@ -92,7 +92,7 @@
             "offline": true,
             "name": "Tide of Battle",
             "maxLevel": 3,
-            "shortDesc": "Activated when moving a certain distance. Max number of stacks: 4 times, Duration: 25 sec, Damage per stack: +4%\\nWhen used as a Link Skill, the duration is reduced to 10 seconds.",
+            "shortDesc": "Activated when moving a certain distance. Max number of stacks: 4 times, Duration: 10 sec, Damage per stack: +4%",
             "icons": ["/class-icons/link-skills/tide-of-battle.png"],
             "type": "Passive",
             "desc": "Moving around grants a stacking %Damage buff",
@@ -181,6 +181,18 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Tide of Battle",
+                    "shortDesc": "Activated when moving a certain distance. Max number of stacks: 4 times, Duration: 25 sec, Damage per stack: +4%\\nWhen used as a Link Skill, the duration is reduced to 10 seconds.",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/tide-of-battle.png"],
+                    "type": "Passive",
+                    "desc": "Moving around grants a stacking %Damage buff",
+                    "details": [
+                        "On other characters, the Link Skill has reduced duration",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Shelter Return",
                     "shortDesc": "MP Cost: 100\\nCooldown: 600 sec",
                     "maxLevel": 1,

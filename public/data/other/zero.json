@@ -63,8 +63,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "[Alpha] +10%(45%)% [Beta] +60%(95%)",
-                "detail": "<bg src={/class-icons/other/zero/doubletime.png} tip={Doubletime (Transcendent Skill)} val={up to +10%}> <bg type={debuff} src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion (Transcendent Skill)} val={+25% within zone}> <bg type={temp} src={/class-icons/other/zero/time-holding.png} tip={Time Holding (Transcendent Skill)} val={+10%}> <bg type={beta} val={Beta  }> <bg src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+50%}>"
+                "stat": "[Alpha] +14%(49%)% [Beta] +64%(99%)",
+                "detail": "<bg src={/class-icons/link-skills/rhinnes-blessing.png} tip={Rhinne's Blessing (Link Skill)} val={+4%}> <bg src={/class-icons/other/zero/doubletime.png} tip={Doubletime (Transcendent Skill)} val={up to +10%}> <bg type={debuff} src={/class-icons/other/zero/time-distortion.png} tip={Time Distortion (Transcendent Skill)} val={+25% within zone}> <bg type={temp} src={/class-icons/other/zero/time-holding.png} tip={Time Holding (Transcendent Skill)} val={+10%}> <bg type={beta} val={Beta  }> <bg src={/class-icons/other/zero/heavy-sword-mastery.png} tip={Heavy Sword Mastery (Lv. 100)} val={+50%}>"
             },
             {
                 "name": "Boss Damage",
@@ -78,8 +78,8 @@
             },
             {
                 "name": "Ignore DEF",
-                "stat": "[Alpha] +68.5%(81.48%) [Beta] +55%(73.54%)",
-                "detail": "<bg src={/class-icons/link-skills/rhinnes-blessing.png} tip={Rhinne's Blessing (Link Skill)} val={+10%}> × <bg type={debuff} src={/class-icons/other/zero/armor-split.png} tip={Armor Split (Lv. 130, Beta)} val={+10% per stack} val={Max. +50%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}> × <bg type={opt} src={/images/equipment/lapis-type-9.png} tip={Lapis Type 9 (Equipment)} src={/images/equipment/lazuli-type-9.png} tip={Lazuli Type 9 (Equipment)} val={+30%}> <bg type={alpha} val={Alpha}> × <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} val={+30%}>"
+                "stat": "[Alpha] +70.25%(82.51%) [Beta] +57.5%(75.01%)",
+                "detail": "<bg src={/class-icons/link-skills/rhinnes-blessing.png} tip={Rhinne's Blessing (Link Skill)} val={+15%}> × <bg type={debuff} src={/class-icons/other/zero/armor-split.png} tip={Armor Split (Lv. 130, Beta)} val={+10% per stack} val={Max. +50%}> × <bg type={opt} src={/class-icons/5th-job/weapon-aura.png} tip={Weapon Aura (5th Job)} val={+16%}> × <bg type={opt} src={/images/equipment/lapis-type-9.png} tip={Lapis Type 9 (Equipment)} src={/images/equipment/lazuli-type-9.png} tip={Lazuli Type 9 (Equipment)} val={+30%}> <bg type={alpha} val={Alpha}> × <bg src={/class-icons/other/zero/long-sword-mastery.png} tip={Long Sword Mastery (Lv. 100)} val={+30%}>"
             }
         ],
         "buffInfo": {
@@ -95,7 +95,7 @@
             "offline": true,
             "name": "Rhinne's Blessing",
             "maxLevel": 6,
-            "shortDesc": "Incoming damage reduced: 18%, defense ignored: 12%",
+            "shortDesc": "Damage Taken: -20%, Ignore Defense: +15%",
             "icons": ["/class-icons/link-skills/rhinnes-blessing.png"],
             "type": "Passive",
             "desc": "",
@@ -197,6 +197,18 @@
         "primary":[
             [
                 "Transcendent", [{
+                    "name": "Rhinne's Blessing",
+                    "maxLevel": 6,
+                    "shortDesc": "Damage Taken: -20%, Ignore Defense: +15%, Damage: +4%",
+                    "icons": ["/class-icons/link-skills/rhinnes-blessing.png"],
+                    "type": "Passive",
+                    "desc": "",
+                    "details": [
+                        "This skill is leveled up by completing the Zero storyline",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Dual Combat",
                     "shortDesc": "[Tag]: While on standby, use Zero's skills to switch attackers\\nCooldown: 3 sec\\n[Assist]: After using Tag to switch, for up to 3 seconds, use Assist for fire support. Cannot be activated while using the previous Assist skill.",
                     "maxLevel": 1,

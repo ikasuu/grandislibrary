@@ -59,8 +59,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "+10%(130%)(144% w/ Link Skill)",
-                "detail": "<bg src={/class-icons/anima/hoyoung/enlightenment.png} tip={Enlightenment (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/anima/hoyoung/sage-wrath-of-god.png} tip={Sage: Wrath of God (5th Job)} val={+80%}> <bg type={temp} src={/class-icons/link-skills/bravado.png} tip={Bravado (Link Skill)} val={+14% to full HP enemies}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+40%}>"
+                "stat": "+14%(134%)(144% w/ Link Skill)",
+                "detail": "<bg src={/class-icons/anima/hoyoung/enlightenment.png} tip={Enlightenment (4th Job)} val={+10%}> <bg type={def} sub={temp} src={/class-icons/link-skills/bravado.png} tip={Bravado (Link Skill)} val={+4% - Passive} val={+14% to full HP enemies}> <bg type={temp} src={/class-icons/anima/hoyoung/sage-wrath-of-god.png} tip={Sage: Wrath of God (5th Job)} val={+80%}> <bg type={opt} src={/class-icons/5th-job/grandis-goddess-blessing.png} tip={Grandis Goddess's Blessing (5th Job)} val={+40%}>"
             },
             {
                 "name": "Boss Damage",
@@ -95,7 +95,7 @@
             "offline": true,
             "name": "Bravado",
             "maxLevel": 3,
-            "shortDesc": "Enemy DEF Ignored: +15%, Damage +19% against enemies with 100% HP",
+            "shortDesc": "Ignore Defense: +15%, Damage +19% against enemies with 100% HP",
             "icons": ["/class-icons/link-skills/bravado.png"],
             "type": "Passive"
         },
@@ -178,6 +178,16 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Bravado",
+                    "shortDesc": "Ignore Defense: +15%, Damage: +4%, Damage against enemies with 100% HP: +19%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/bravado.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Return to Cheong-woon",
                     "shortDesc": "Returns you to Cheong-woon Valley.\\nCooldown: 600 sec",
                     "maxLevel": 1,

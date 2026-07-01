@@ -54,8 +54,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+16%(26%)",
-                "detail": "<bg src={/class-icons/shine/erel-light/radiant-vision.png} tip={Radiant Vision (1st Job)} val={+10%}> <bg src={/class-icons/shine/erel-light/gram-mastery.png} tip={Gram Expert (4th Job)} val={+6%}> <bg type={temp} src={/class-icons/shine/erel-light/hundred-pole.png} tip={Hundred Pole (Hyper Skill)} val={+10%}>"
+                "stat": "+22%(32%)",
+                "detail": "<bg src={/class-icons/link-skills/guiding-stars.png} tip={Guiding Stars (Link Skill)} val={+6%}> <bg src={/class-icons/shine/erel-light/radiant-vision.png} tip={Radiant Vision (1st Job)} val={+10%}> <bg src={/class-icons/shine/erel-light/gram-mastery.png} tip={Gram Expert (4th Job)} val={+6%}> <bg type={temp} src={/class-icons/shine/erel-light/hundred-pole.png} tip={Hundred Pole (Hyper Skill)} val={+10%}>"
             },
             {
                 "name": "Damage",
@@ -150,7 +150,8 @@
             {"title": "MapleStory Wiki", "link": "https://maplestorywiki.net/w/Erel_Light"},
             {"title": "NamuWiki", "link": "https://en.namu.wiki/w/%EC%97%90%EB%A6%B4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8"},
             {"title": "Class Discord", "link": "https://discord.gg/yUAaBD46xp"},
-            {"title": "Erda Link Progression Guide", "link": "https://docs.google.com/spreadsheets/d/1ZaHBpObiHw52asuVT6pHUNlkGIt_bm4nk1I2iUFAi7g"}
+            {"title": "Erda Link Progression Guide", "link": "https://docs.google.com/spreadsheets/d/1ZaHBpObiHw52asuVT6pHUNlkGIt_bm4nk1I2iUFAi7g"},
+            {"title": "Class FAQ", "link": "https://docs.google.com/document/d/1TQgJF3cbjlfZGK05GoEtA3oHLQxsMyyPcLAlpHcj4Jc"}
         ],
         "infographics": [
             {
@@ -176,6 +177,18 @@
         "primary":[
             [
                 "Beginner", [
+                    {
+                        "name": "Guiding Stars",
+                        "shortDesc": "Buff Duration: +19%, Critical Damage: +6%",
+                        "icons": ["/class-icons/link-skills/guiding-stars.png"],
+                        "maxLevel": 6,
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Can be stacked up to 2 times for each unique Shine class to reach Master Level",
+                            "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                        ]
+                    },
                     {
                         "name": "Return to Helia",
                         "shortDesc": "MP Cost: 30\\nCooldown: 600 sec.",

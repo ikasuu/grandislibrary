@@ -48,8 +48,8 @@
             },
             {
                 "name": "Crit Damage",
-                "stat": "+30%(60%)",
-                "detail": "<bg src={/class-icons/shine/sia-astelle/celestial-alignment.png} tip={Celestial Alignment (2nd Job)} val={+10%}> <bg src={/class-icons/shine/sia-astelle/astral-elements.png} tip={Astral Elements (3rd Job)} val={+10%}> <bg src={/class-icons/shine/sia-astelle/astral-assimilation.png} tip={Astral Assimilation (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/shine/sia-astelle/stellar-x-capella.png} tip={Stellar X - Capella (Hyper Skill)} val={+20%} val={+10% extra w/ Stellagram}>"
+                "stat": "+36%(66%)",
+                "detail": "<bg src={/class-icons/link-skills/guiding-stars.png} tip={Guiding Stars (Link Skill)} val={+6%}> <bg src={/class-icons/shine/sia-astelle/celestial-alignment.png} tip={Celestial Alignment (2nd Job)} val={+10%}> <bg src={/class-icons/shine/sia-astelle/astral-elements.png} tip={Astral Elements (3rd Job)} val={+10%}> <bg src={/class-icons/shine/sia-astelle/astral-assimilation.png} tip={Astral Assimilation (4th Job)} val={+10%}> <bg type={temp} src={/class-icons/shine/sia-astelle/stellar-x-capella.png} tip={Stellar X - Capella (Hyper Skill)} val={+20%} val={+10% extra w/ Stellagram}>"
             },
             {
                 "name": "Damage",
@@ -85,10 +85,14 @@
             "id": 180000001,
             "offline": true,
             "name": "Guiding Stars",
-            "shortDesc": "Buff Duration: +10%, Critical Damage: +3%",
+            "shortDesc": "Buff Duration: +19%, Critical Damage: +6%",
             "icons": ["/class-icons/link-skills/guiding-stars.png"],
-            "maxLevel": 3,
-            "type": "Passive"
+            "maxLevel": 6,
+            "type": "Passive",
+            "desc": "",
+            "details": [
+                "Can be stacked up to 2 times for each unique Shine class to reach Master Level"
+            ]
         },
         "howToCreate": {
             "image": ["/class-icons/shine/how-to-create-sia-astelle.png",[499,374]],
@@ -201,6 +205,18 @@
         "primary":[
             [
                 "Beginner", [
+                    {
+                        "name": "Guiding Stars",
+                        "shortDesc": "Buff Duration: +19%, Critical Damage: +6%",
+                        "icons": ["/class-icons/link-skills/guiding-stars.png"],
+                        "maxLevel": 6,
+                        "type": "Passive",
+                        "desc": "",
+                        "details": [
+                            "Can be stacked up to 2 times for each unique Shine class to reach Master Level",
+                            "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                        ]
+                    },
                     {
                         "name": "Return to Oort",
                         "shortDesc": "MP Cost: 30\\nCooldown: 600 sec.",

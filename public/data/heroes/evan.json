@@ -59,8 +59,8 @@
             },
             {
                 "name": "Damage",
-                "stat": "(+50%)",
-                "detail": "<bg type={temp} src={/class-icons/heroes/evan/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/heroes/evan/partners.png} tip={Partners (2nd Job)} val={+20% while Mir is attacking}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
+                "stat": "+5%(55%)",
+                "detail": "<bg src={/class-icons/link-skills/rune-persistence.png} tip={Rune Persistence (Link Skill)} val={+5%}> <bg type={temp} src={/class-icons/heroes/evan/heroic-memories.png} tip={Heroic Memories (Hyper Skill)} val={+10%}> <bg type={temp} src={/class-icons/heroes/evan/partners.png} tip={Partners (2nd Job)} val={+20% while Mir is attacking}> <bg type={opt} src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} val={+20%}>"
             },
             {
                 "name": "Boss Damage",
@@ -180,6 +180,16 @@
         "primary":[
             [
                 "Beginner", [{
+                    "name": "Rune Persistence",
+                    "shortDesc": "Liberated Rune Power Duration: +70%, Damage: +5%",
+                    "maxLevel": 3,
+                    "icons": ["/class-icons/link-skills/rune-persistence.png"],
+                    "type": "Passive",
+                    "details": [
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                    ]
+                },
+                {
                     "name": "Three Snails",
                     "shortDesc": "MP Cost: 7, Damage 40",
                     "maxLevel": 3,
