@@ -38,6 +38,8 @@ function Classes() {
                 <ClassGroupContainer classes={classes.flora} classGroup="flora"/>
                 <Page.Subtitle>Anima</Page.Subtitle>
                 <ClassGroupContainer classes={classes.anima} classGroup="anima"/>
+                <Page.Subtitle>Demon</Page.Subtitle>
+                <ClassGroupContainer classes={classes.demon} classGroup="demon"/>
                 <Page.Subtitle>Jianghu</Page.Subtitle>
                 <ClassGroupContainer classes={classes.jianghu} classGroup="jianghu"/>
                 <Page.Subtitle>Shine</Page.Subtitle>

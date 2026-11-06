@@ -33,6 +33,7 @@ function Routes() {
             <Route path="/classes/sengoku/:id" render={(props) => <ClassOverview {...props} classGroup="sengoku"/> }/>
             <Route path="/classes/flora/:id" render={(props) => <ClassOverview {...props} classGroup="flora"/> }/>
             <Route path="/classes/anima/:id" render={(props) => <ClassOverview {...props} classGroup="anima"/> }/>
+            <Route path="/classes/demon/:id" render={(props) => <ClassOverview {...props} classGroup="demon"/> }/>
             <Route path="/classes/jianghu/:id" render={(props) => <ClassOverview {...props} classGroup="jianghu"/> }/>
             <Route path="/classes/shine/:id" render={(props) => <ClassOverview {...props} classGroup="shine"/> }/>
             <Route path="/classes/other/:id" render={(props) => <ClassOverview {...props} classGroup="other"/> }/>

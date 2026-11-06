@@ -82,7 +82,7 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
             "toggles": "<tt src={/class-icons/explorers/bowmaster/quiver-cartridge.png} tip={Quiver Cartridge (2nd Job)} dur={(Special)}> <tt src={/class-icons/explorers/bowmaster/speed-mirage.png} tip={Speed Mirage (3rd Job)}> <tt src={/class-icons/explorers/bowmaster/silhouette-mirage.png} tip={Silhouette Mirage (5th Job)}>",
-            "summons": "<tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/bowmaster/blink-shot.png} tip={Blink Shot (3rd Job)} dur={[120s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "summons": "<tt src={/class-icons/explorers/bowmaster/arrow-blaster.png} tip={Arrow Blaster (3rd Job)} dur={[60s]}> <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job)} dur={[600s]}> <tt src={/class-icons/explorers/bowmaster/blink-shot.png} tip={Blink Shot (3rd Job)} dur={[120s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
             "buffCd": "<tt src={/class-icons/explorers/bowmaster/concentration.png} tip={Concentration (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/storm-of-arrows.png} tip={Storm of Arrows (5th Job)} dur={[70s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/inhuman-speed.png} tip={Inhuman Speed (5th Job)} dur={[3-30s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/quiver-barrage.png} tip={Quiver Barrage (5th Job)} dur={[40s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/bowmaster/zephyr-shield.png} tip={Zephyr Shield (3rd Job)} dur={[3s](120s cd)}> <tt src={/class-icons/explorers/bowmaster/ascendant-shadow.png} tip={Ascendant Shadow (6th Job)} dur={(360s cd)}>",
@@ -404,7 +404,7 @@
                     },
                     {
                         "name": "Phoenix",
-                        "shortDesc": "MP Cost: 70, summon Phoenix for 220 sec.\\nAttack up to 4 enemies with 390% damage. 95% chance to Stun\\n[Passive Effects: Defense +30%]",
+                        "shortDesc": "MP Cost: 70, summon Phoenix for 600 sec.\\nAttack up to 4 enemies with 390% damage. 95% chance to Stun\\n[Passive Effects: Defense +30%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/bowmaster/phoenix.png"],
                         "animations": ["https://media.giphy.com/media/GgLtO2aZcStjhq04U9/giphy.gif"],
@@ -712,7 +712,7 @@
             ]
         },
         "fifth": {
-            "fifthCommon": ["expBowman", "goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthCommon": ["expArcher", "goddessBlessing", "guidedArrow", "viciousShot"],
             "fifthMain": [
                 {
                     "name": "Storm of Arrows",
@@ -798,7 +798,7 @@
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "[Lv. 20]: Normal Enemy Damage",
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
                         "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 },
@@ -958,7 +958,7 @@
                 },
                 {
                     "name": "HEXA Phoenix",
-                    "shortDesc": "MP Cost: 85, summon Phoenix for 270 sec.\\nAttack up to 6 enemies with 975% damage. 95% chance to Stun",
+                    "shortDesc": "MP Cost: 85, summon Phoenix for 600 sec.\\nAttack up to 6 enemies with 975% damage. 95% chance to Stun",
                     "icons": ["/class-icons/explorers/bowmaster/hexa-phoenix.png", "/class-icons/explorers/bowmaster/phoenix.png"],
                     "animations": ["https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWhwajg3eDBuMDI1NnJhNnE2em9tNjVvdmQ0NHc1aGt1OTd2cDBpdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9avBIfP5TyeZZPgh1U/giphy.gif"],
                     "type": "Upgraded Passive",

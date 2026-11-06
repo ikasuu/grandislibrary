@@ -38,6 +38,7 @@ export const classes = {
     flora: [["adele", "Adele"], ["ark", "Ark"], ["illium", "Illium"], ["khali", "Khali"]],
     other: [["kinesis", "Kinesis"], ["zero", "Zero"]],
     anima: [["hoyoung", "Hoyoung"], ["lara", "Lara"], ["ren", "Ren"]],
+    demon: [["lethe", "Lethe"]],
     jianghu: [["lynn", "Lynn"], ["mo-xuan", "Mo Xuan"]],
     shine: [["sia-astelle", "Sia Astelle"], ["erel-light", "Erel Light"]]
 }
@@ -83,7 +84,8 @@ export const weapons = {
     martialBrace: [`http://localhost:3000/grandislibrary/images/equipment/martial-brace.png`, "Martial Brace"],
     celestialLight: [`http://localhost:3000/grandislibrary/images/equipment/celestial-light.png`, "Celestial Light"],
     sword: [`http://localhost:3000/grandislibrary/images/equipment/sword.png`, "Sword"],
-    gram: [`http://localhost:3000/grandislibrary/images/equipment/gram.png`, "Gram"]
+    gram: [`http://localhost:3000/grandislibrary/images/equipment/gram.png`, "Gram"],
+    dominium: [`http://localhost:3000/grandislibrary/images/equipment/dominium.png`, "Dominium"]
 };
 
 //Secondary Weapons for class overviews, contains icon path and formatted name
@@ -140,7 +142,8 @@ export const secondaryWeapons = {
     braceBand: [`http://localhost:3000/grandislibrary/images/equipment/brace-band.png`, "Brace Band"],
     compass: [`http://localhost:3000/grandislibrary/images/equipment/compass.png`, "Compass"],
     imugiGem: [`http://localhost:3000/grandislibrary/images/equipment/imugi-gem.png`, "Imugi Gem"],
-    keir: [`http://localhost:3000/grandislibrary/images/equipment/keir.png`, "Keir"]
+    keir: [`http://localhost:3000/grandislibrary/images/equipment/keir.png`, "Keir"],
+    quill: [`http://localhost:3000/grandislibrary/images/equipment/quill.png`, "Quill"]
 };
 
 //Ammo for class overviews, contains icon path and formatted name
@@ -186,22 +189,12 @@ export const commonFifth = {
             "The buff starts at full stacks (max. 3) that slowly decreases"
         ],
     },
-    expBowman: {
+    expArcher: {
         "name": "Fury of the Wild",
         "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 7\\nCooldown: 105 sec",
         "icons": ["/class-icons/5th-job/fury-of-the-wild.png"],
         "animations": ["https://media3.giphy.com/media/llsZlPVsm7sAZFcb8i/giphy.gif"],
         "type": "Summon",
-        "desc": "Transform Phoenix, Frostprey, or Shadow Raven into a more powerful form",
-        "details": [
-            "Can only be used when <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job - Bowmaster)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job - Marksman)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job - Pathfinder)}> is active"
-        ]
-    },
-    expPBowman: {
-        "name": "Fury of the Wild",
-        "shortDesc": "MP Cost: 800, Duration: 40 sec, Max Enemies Hit: 10, Damage: 900%, Number of Attacks: 7\\nCooldown: 105 sec",
-        "icons": ["/class-icons/5th-job/fury-of-the-wild.png"],
-        "animations": ["https://media0.giphy.com/media/ZlMeLcuyoa4oW2el4Z/giphy.gif"],
         "desc": "Transform Phoenix, Frostprey, or Shadow Raven into a more powerful form",
         "details": [
             "Can only be used when <tt src={/class-icons/explorers/bowmaster/phoenix.png} tip={Phoenix (3rd Job - Bowmaster)}> <tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job - Marksman)}> <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job - Pathfinder)}> is active"
@@ -413,6 +406,14 @@ export const commonFifth = {
             "You are briefly invincible after reviving",
             "Cooldown is refunded if the lotus expires"
         ]
+    },
+    demonicWroth:{
+        "name": "Demonic Wroth",
+        "shortDesc": "MP Cost: 500, Duration: 20 sec, Damage: +40%\nUpon landing 50 attacks, Buff Duration: +20 sec, up to 2 times\\nCooldown: 120 sec",
+        "icons": ["/class-icons/5th-job/demonic-wroth.png"],
+        "animations": ["https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXk5aWRwc2p2OGh5ejNoc2RlM29qYTA4NGlvb2F0dzNwbzU4cHQ2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9s803IT612Cy7JLDi0/giphy.gif"],
+        "type": "Buff",
+        "desc": "While active, increases %Damage and upon landing a set amount of successful attacks, grants increased %Buff Damage (up to 2 times)"
     },
     twilightBloom:{
         "name": "Twilight Bloom",

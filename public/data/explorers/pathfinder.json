@@ -81,7 +81,7 @@
         "buffInfo": {
             "active": "<tt src={/class-icons/explorers/pathfinder/cursebound-endurance.png} tip={Cursebound Endurance (3rd Job)} dur={[300s]}> <tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
             "toggles": "<tt src={/class-icons/explorers/pathfinder/curse-enchant-force.png} tip={Curse Enchant Force (4th Job)} dur={(Special)}>",
-            "summons": "<tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/pathfinder/raven-tempest.png} tip={Raven Tempest (5th Job)} dur={[27s/10s](120s cd)}> <tt src={/class-icons/explorers/pathfinder/obsidian-barrier.png} tip={Obsidian Barrier (5th Job)} dur={[12s](120s cd)}> <tt src={/class-icons/explorers/pathfinder/relic-unbound.png} tip={Relic Unbound (5th Job)} dur={[22s/10s/40s](120s cd)}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "summons": "<tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)} dur={[600s]}> <tt src={/class-icons/explorers/pathfinder/ancient-tempest.png} tip={Ancient Tempest (5th Job)} dur={[27s/10s](120s cd)}> <tt src={/class-icons/explorers/pathfinder/obsidian-barrier.png} tip={Obsidian Barrier (5th Job)} dur={[12s](120s cd)}> <tt src={/class-icons/explorers/pathfinder/relic-unbound.png} tip={Relic Unbound (5th Job)} dur={[22s/10s/40s](120s cd)}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
             "buffCd": "<tt src={/class-icons/explorers/pathfinder/awakened-relic.png} tip={Awakened Relic (Hyper Skill)} dur={[30s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/pathfinder/forsaken-relic.png} tip={Forsaken Relic (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/pathfinder/ancient-astra-burst.png} tip={Ancient Astra - Burst (Hyper Skill)} dur={[2s](35s cd)}> <tt src={/class-icons/explorers/pathfinder/nova-blast.png} tip={Nova Blast (5th Job)} dur={(120s cd)}> <tt src={/class-icons/explorers/pathfinder/forsaken-relic.png} tip={Forsaken Relic (6th Job)} dur={(360s cd)}>",
@@ -459,7 +459,7 @@
                     },
                     {
                         "name": "Shadow Raven",
-                        "shortDesc": "MP Cost: 70, summon a Raven for 220 sec.\\nDeals 390% damage to up to 4 enemies at once.\\n[Passive Effect: Increases your Defense by 30%]",
+                        "shortDesc": "MP Cost: 70, summon a Raven for 600 sec.\\nDeals 390% damage to up to 4 enemies at once.\\n[Passive Effect: Increases your Defense by 30%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/pathfinder/shadow-raven.png"],
                         "animations": ["https://media.giphy.com/media/ibYZywtvXeyW2TjJy8/giphy.gif"],
@@ -846,7 +846,7 @@
             ]
         },
         "fifth": {
-            "fifthCommon": ["expPBowman", "goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthCommon": ["expArcher", "goddessBlessing", "guidedArrow", "viciousShot"],
             "fifthMain": [
                 {
                     "name": "Nova Blast",
@@ -862,18 +862,42 @@
                     ]
                 },
                 {
-                    "name": "Raven Tempest",
-                    "shortDesc": "Relic Gauge Cost: 300\\nRaven Tempest: Duration: 27 sec, Max Enemies Hit: 12, Damage: 1000%, Attack Count: 5\\nFury of the Wild Tempest: Duration: 10 sec, Max enemies Hit: 12, Damage: 1000%, Number of Attacks: 6\\nCharges the Relic Gauge by 20 when attacking\\nDirection Change Cooldown: 2, Cooldown: 120 sec",
-                    "icons": ["/class-icons/explorers/pathfinder/raven-tempest.png"],
+                    "name": "Storm Rider",
+                    "shortDesc": "MP Cost: 120, Changes the nature of the storm\\nCooldown: 3 sec",
+                    "icons": ["/class-icons/explorers/pathfinder/storm-rider.png"],
+                    "animations": ["https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDUybTUya293dWFiZXQ3aDBsMndhcmFoMHBmYzB0a3RrNnVwb3U2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A0pKWQZHRA9eXU79N1/giphy.gif"],
+                    "type": "Active",
+                    "desc": "Using the Arrow Keys, choose between <tt src={/class-icons/explorers/pathfinder/ancient-tempest.png} tip={Ancient Tempest (5th Job)}> and <tt src={/class-icons/explorers/pathfinder/primal-tempest.png} tip={Primal Tempest (5th Job)}>",
+                    "details": [
+                        "Shares the same Skill Points (SP) as <tt src={/class-icons/explorers/pathfinder/ancient-tempest.png} tip={Ancient Tempest (5th Job)}> and is unlocked together"
+                    ]
+                },
+                {
+                    "name": "Ancient Tempest",
+                    "shortDesc": "Relic Gauge Cost: 300\\nDuration: 27 sec, Max Enemies Hit: 12, Damage: 1000%, Attack Count: 5\\nCharges the Relic Gauge by 20 when attacking\\nDirection Change Cooldown: 2, Cooldown: 120 sec",
+                    "icons": ["/class-icons/explorers/pathfinder/ancient-tempest.png"],
                     "animations": ["https://media2.giphy.com/media/zuIveM1teNcGxxzSbU/giphy.gif"],
                     "type": "Ancient Force Summon",
-                    "desc": "Transforms <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> into a giant tornado that stops when it hits an enemy",
+                    "desc": "Summon a giant tornado that stops when it hits an enemy",
                     "details": [
-                        "Can only be used when <tt src={/class-icons/explorers/pathfinder/shadow-raven.png} tip={Shadow Raven (3rd Job)}> is active",
-                        "If <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)}> is active, pressing the Down Arrow Key and Skill Key together activates an <tt src={/class-icons/explorers/pathfinder/fury-of-the-wild-tempest.png} tip={Fury of the Wild Tempest (5th Job)}> enhanced tempest that has a shorter duration but faster attack speed<bp_Right-clicking the skill will toggle a function ON/OFF that swaps the activation command of the <tt src={/class-icons/explorers/pathfinder/raven-tempest.png} tip={Raven Tempest (5th Job)}> regular and <tt src={/class-icons/explorers/pathfinder/fury-of-the-wild-tempest.png} tip={Fury of the Wild Tempest (5th Job)}> enhanced Tempest while <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)}> is active_If <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)}> has any remaining duration, it will be re-summoned for that duration once the attack ends_>",
-                        "You can change the direction of the skill by pressing the Skill Key",
-                        "Attacks charge up Relic Gauge",
+                        "While active, pressing the Skill Key changes the direction of the skill",
+                        "When the skill hits, it charges up the Relic Gauge",
                         "Unaffected by Damage Reflect"
+                    ]
+                },
+                {
+                    "name": "Primal Tempest",
+                    "shortDesc": "Relic Gauge Cost: 300\\nDuration: 10 sec, Max Enemies Hit: 12, Damage: 1000%, Primal Storm Attack Count: 6\\nCharges the Relic Gauge by 20 when attacking\\nDirection Change Cooldown: 2, Cooldown: 120 sec",
+                    "icons": ["/class-icons/explorers/pathfinder/primal-tempest.png"],
+                    "animations": ["https://media2.giphy.com/media/zuIveM1teNcGxxzSbU/giphy.gif"],
+                    "type": "Ancient Force Summon",
+                    "desc": "Summon a giant tornado that stops when it hits an enemy",
+                    "details": [
+                        "Duration is shorter than <tt src={/class-icons/explorers/pathfinder/ancient-tempest.png} tip={Ancient Tempest (5th Job)}> however, the skill has increased attack count",
+                        "While active, pressing the Skill Key changes the direction of the skill",
+                        "When the skill hits, it charges up the Relic Gauge",
+                        "Unaffected by Damage Reflect",
+                        "Shares the same Skill Points (SP) as <tt src={/class-icons/explorers/pathfinder/ancient-tempest.png} tip={Ancient Tempest (5th Job)}> and is unlocked together"
                     ]
                 },
                 {
@@ -1192,7 +1216,7 @@
                 },
                 {
                     "name": "HEXA Shadow Raven",
-                    "shortDesc": "MP Cost: 76, Raven Summon Duration: 270 sec\\nDamage: 585%, Max Enemies Hit: 6",
+                    "shortDesc": "MP Cost: 76, Raven Summon Duration: 600 sec\\nDamage: 585%, Max Enemies Hit: 6",
                     "icons": ["/class-icons/explorers/pathfinder/hexa-shadow-raven.png", "/class-icons/explorers/pathfinder/shadow-raven.png"],
                     "animations": ["https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWw3ZXJ0cDRvZXE1aTk5a2IzM2l5czl1cmEyd2xscDE0aHNoOWNubSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yx7ZoqzmVVNo7QnPlq/giphy.gif"],
                     "type": "Upgraded Passive",
@@ -1282,9 +1306,9 @@
                     "type": "Upgraded Passive"
                 },
                 {
-                    "name": "Raven Tempest/Fury of the Wild Tempest Boost",
-                    "shortDesc": "Raven Tempest and Fury of the Wild Tempest Final Damage: +60%",
-                    "icons": ["/class-icons/explorers/pathfinder/raven-tempest-boost.png"],
+                    "name": "Ancient Tempest/Primal Tempest Boost",
+                    "shortDesc": "Ancient Tempest/Primal Tempest Final Damage: +60%",
+                    "icons": ["/class-icons/explorers/pathfinder/ancient-tempest-boost.png"],
                     "type": "Upgraded Passive"
                 },
                 {
@@ -1333,8 +1357,8 @@
                 "animations": ["https://media1.giphy.com/media/JCUnBMtM6PKls25vSO/giphy.gif"]
             },
             {
-                "name": "Raven Tempest - 5th Job",
-                "icons": ["/class-icons/explorers/pathfinder/raven-tempest.png"],
+                "name": "Ancient Tempest - 5th Job",
+                "icons": ["/class-icons/explorers/pathfinder/ancient-tempest.png"],
                 "animations": ["https://media2.giphy.com/media/zuIveM1teNcGxxzSbU/giphy.gif"]
             },
             {

@@ -75,7 +75,7 @@
         ],
         "buffInfo": {
             "active": "<tt src={/class-icons/common/sharp-eyes.png} tip={Sharp Eyes (4th Job)} dur={[300s]}>",
-            "summons": "<tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job)} dur={[220s]}> <tt src={/class-icons/explorers/marksman/blink-bolt.png} tip={Blink Bolt (3rd Job)} dur={[120s]}> <tt src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion (4th Job)} dur={[30s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
+            "summons": "<tt src={/class-icons/explorers/marksman/frostprey.png} tip={Frostprey (3rd Job)} dur={[600s]}> <tt src={/class-icons/explorers/marksman/blink-bolt.png} tip={Blink Bolt (3rd Job)} dur={[120s]}> <tt src={/class-icons/explorers/marksman/arrow-illusion.png} tip={Arrow Illusion (4th Job)} dur={[30s]}> <tt src={/class-icons/5th-job/fury-of-the-wild.png} tip={Fury of the Wild (5th Job)} dur={[40s](105s cd)}> <tt src={/class-icons/5th-job/guided-arrow.png} tip={Guided Arrow (5th Job)} dur={(Toggle)}>",
             "buffCd": "<tt src={/class-icons/explorers/marksman/bullseye-shot.png} tip={Bullseye Shot (Hyper Skill)} dur={[40s](120s cd)}> <tt src={/class-icons/explorers/archer/epic-adventure.png} tip={Epic Adventure (Hyper Skill)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/maple-world-goddess-blessing.png} tip={Maple World Goddess's Blessing (5th Job)} dur={[60s](120s cd)}> <tt src={/class-icons/5th-job/vicious-shot.png} tip={Vicious Shot (5th Job)} dur={[30s](120s cd)}> <tt src={/class-icons/common/heros-echo.png} tip={Hero's Echo (Beginner Skill)} dur={[2400s](300s cd)}>",
             "binds": "<tt src={/class-icons/explorers/marksman/final-aim.png} tip={Final Aim (6th Job)} dur={[10s](360s cd)}>",
             "iFrame": "<tt src={/class-icons/explorers/marksman/pain-killer.png} tip={Pain Killer (3rd Job)} dur={[3s](75s cd)}> <tt src={/class-icons/explorers/marksman/perfect-shot.png} tip={Perfect Shot (5th Job)} dur={[Up to 2s while casting & 1s after casting](60s cd)}> <tt src={/class-icons/explorers/marksman/final-aim.png} tip={Final Aim (6th Job)} dur={[360s cd]}>"
@@ -354,7 +354,7 @@
                     },
                     {
                         "name": "Frostprey",
-                        "shortDesc": "MP Cost: 70, summon Frostprey for 220 sec.\\nDamage: 390%, Max Enemies Hit: 4, Freeze Duration: 3 sec.\\n[Passive Effects - Defense: +30%]",
+                        "shortDesc": "MP Cost: 70, Frostprey Summon Duration: 600 sec.\\nDamage: 390%, Max Enemies Hit: 4, Freeze Duration: 3 sec.\\n[Passive Effects - Defense: +30%]",
                         "maxLevel": 10,
                         "icons": ["/class-icons/explorers/marksman/frostprey.png"],
                         "animations": ["https://media.giphy.com/media/sWI9uhmePRbGpdUp12/giphy.gif"],
@@ -689,7 +689,7 @@
             ]
         },
         "fifth": {
-            "fifthCommon": ["expBowman", "goddessBlessing", "guidedArrow", "viciousShot"],
+            "fifthCommon": ["expArcher", "goddessBlessing", "guidedArrow", "viciousShot"],
             "fifthMain": [
                 {
                     "name": "Perfect Shot",
@@ -775,7 +775,7 @@
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "[Lv. 20]: Normal Enemy Damage",
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
                         "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 },
@@ -808,7 +808,7 @@
                     "type": "Upgraded Passive",
                     "desc": "",
                     "details": [
-                        "[Lv. 20]: Normal Enemy Damage",
+                        "[Lv. 20]: Normal Enemy Damage: +10%",
                         "[Lv. 40]: Ignore DEF: +20%"
                     ]
                 },
@@ -881,7 +881,7 @@
                 },
                 {
                     "name": "HEXA Frostprey",
-                    "shortDesc": "MP Cost: 90, Frostprey Summon Duration: 270 sec.\\nDamage: 480%, Max Enemies Hit: 6, Number of Attacks: 3\\nEnemies Freeze for 3 sec.\\n[Passive Effect: HEXA Snipe Damage: +102% points, HEXA Empowered Snipe Damage: +90% points, HEXA Empowered Snipe Additional Hit Damage: +100% points, HEXA Ultimate Snipe Damage: +65% points, HEXA Ultimate Snipe Additonal Hit Damage: +60% points]",
+                    "shortDesc": "MP Cost: 90, Frostprey Summon Duration: 600 sec.\\nDamage: 480%, Max Enemies Hit: 6, Number of Attacks: 3\\nEnemies Freeze for 3 sec.\\n[Passive Effect: HEXA Snipe Damage: +102% points, HEXA Empowered Snipe Damage: +90% points, HEXA Empowered Snipe Additional Hit Damage: +100% points, HEXA Ultimate Snipe Damage: +65% points, HEXA Ultimate Snipe Additonal Hit Damage: +60% points]",
                     "icons": ["/class-icons/explorers/marksman/hexa-frostprey.png", "/class-icons/explorers/marksman/frostprey.png"],
                     "animations": ["https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5qOG9wd2dveW81ZGgxbmd1dGxjMTRpenM4azF6eDE4d3ZwdndmbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fSc408XhMpC4Yasp3h/giphy.gif"],
                     "type": "Upgraded Passive",
