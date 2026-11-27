@@ -174,9 +174,12 @@
                     "shortDesc": "Barrier Duration: 30 sec, Enemy Blows Blocked: 9, Damage: +25%\\nDamage -30% only for attacks that inflict at a certain ratio of the Max HP\\nCooldown: 120 sec.\\n[Passive Effect: Damage +3%]",
                     "maxLevel": 3,
                     "icons": ["/class-icons/link-skills/knights-watch.png"],
+                    "animations": ["https://media.giphy.com/media/aVovgULfgFOlLgj4qQ/giphy.gif"],
                     "type": "Buff",
+                    "desc": "Increases %Damage and creates a barrier that blocks a fixed number of attacks",
                     "details": [
-                        "Skill can be found in <tt src={https://grandislibrary.com/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}>"
+                        "For %Max HP attacks, reduces the amount of damage taken",
+                        "Skill can be found in <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}><bp_Skill is only applicable to Mihile, when linked, characters receive an Abnormal Status Resistance buff instead_>"
                     ]
                 },
                 {
@@ -229,19 +232,6 @@
                     "maxLevel": 1,
                     "icons": ["/class-icons/cygnus-knights/elemental-expert.png"],
                     "type": "Passive"
-                },
-                {
-                    "name": "Knight's Watch",
-                    "shortDesc": "Barrier Duration: 30 sec, Enemy Blows Blocked: 9, Damage: +25%. Damage -30% only for attacks that inflict damage at a certain ratio of the Max HP\\nCooldown: 120 sec",
-                    "maxLevel": 3,
-                    "icons": ["/class-icons/link-skills/knights-watch.png"],
-                    "animations": ["https://media.giphy.com/media/aVovgULfgFOlLgj4qQ/giphy.gif"],
-                    "type": "Buff",
-                    "desc": "Increases %Damage and creates a barrier that blocks a fixed number of attacks",
-                    "details": [
-                        "For %Max HP attacks, reduces the amount of damage taken",
-                        "Skill can be found within the <tt src={/class-icons/link-skills/link-manager.png} tip={Link Manager (Beginner Skill)}> Link Manager<bp_Skill is only applicable to Mihile, when linked, characters receive an Abnormal Status Resistance buff instead_>"
-                    ]
                 },
                 {
                     "name": "Empress's Shout",
@@ -444,7 +434,6 @@
                         "shortDesc": "[Mihile]: Damage: +5% per party member in the same map. If you are not in a party, you will be considered to be in a 1-person party.\\n[Party Member]: When Mihile succeeds with Royal Guard, creates a protective shield that is 10% of each party member's Max HP for 10.0 sec for party members in the Soul Link's range.\\nPeriodically for 8 sec, party members in the Soul Link's range receive a bonus to Attack and MAGIC ATT equal to 50% of the Attack Power bonus from Royal Guard. If Advanced Royal Guard is active, they will receive 20% of its Status Resistance and 30% of its DEF Bonus.",
                         "maxLevel": 20,
                         "icons": ["/class-icons/cygnus-knights/mihile/soul-link.png"],
-                        "animations": ["https://media.giphy.com/media/qdJBDyXGIsQHIQF7RX/giphy.gif"],
                         "type": "Party Passive",
                         "desc": "Increases your %Damage for every party member within range",
                         "details": [
